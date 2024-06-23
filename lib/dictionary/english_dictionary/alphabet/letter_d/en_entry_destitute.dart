@@ -266,117 +266,40 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "١. (ھاوەڵناو) بەبێ پارە، خۆراک، و پێداویستییە سەرەکییەکانی دیکەی ژیان"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "When he died, his family was left completely destitute."),
-                    ExampleSentenceKurdish(
-                        text: "کە مرد، خێزانەکەی تەواو ھەژار مایەوە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "destitute", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdestitutes1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdestitutes1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "When he died, his family was left completely destitute.",
+            kurdishText: "کە مرد، خێزانەکەی تەواو ھەژار مایەوە.", // destitute
+            onPressedBritish: () => speakdestitutes1("en-GB"),
+            onPressedAmerican: () => speakdestitutes1("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "The war left her completely destitute."),
-                    ExampleSentenceKurdish(
-                        text: "جەنگەکە تەواو بە ھەژاری جێیھێشت."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdestitutes2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdestitutes2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "The war left her completely destitute.",
+            kurdishText: "جەنگەکە تەواو بە ھەژاری جێیھێشت.",
+            onPressedBritish: () => speakdestitutes2("en-GB"),
+            onPressedAmerican: () => speakdestitutes2("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: "٢. (ھاوەڵناو) کەسانی ھەژار"),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "The charity helps the destitute with food."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "ڕێکخراوە خێرخوازییەکە بە خواردن یارمەتی ھەژاران دەدات."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdestitutes3("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdestitutes3("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "The charity helps the destitute with food.",
+            kurdishText:
+                "ڕێکخراوە خێرخوازییەکە بە خواردن یارمەتی ھەژاران دەدات.",
+            onPressedBritish: () => speakdestitutes3("en-GB"),
+            onPressedAmerican: () => speakdestitutes3("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: "٣. (ھاوەڵناو) نەبوونی شتێک"),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "They seem destitute of ordinary human feelings."),
-                    ExampleSentenceKurdish(
-                        text: "وادیارن بێ‌بەری بن لە ھەستی مرۆڤی ئاسایی."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdestitutes4("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdestitutes4("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "They seem destitute of ordinary human feelings.",
+            kurdishText: "وادیارن بێ‌بەری بن لە ھەستی مرۆڤی ئاسایی.",
+            onPressedBritish: () => speakdestitutes4("en-GB"),
+            onPressedAmerican: () => speakdestitutes4("en-US"),
           ),
           // destitutes500"),
           // speakdestitutes5

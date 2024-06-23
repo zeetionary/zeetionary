@@ -389,116 +389,41 @@ class KurdishMeaning extends StatelessWidget {
 """),
           const DefinitionKurdish(
               text: "١. (کردار) بەخشینی پارە، کەلوپەل، خواردن، ھتد"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "He donated thousands of pounds to charity."),
-                    ExampleSentenceKurdish(
-                        text: "ھەزاران پاوەندی بەخشی بە ڕێکخراوی خێرخوازی."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "donate", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdonates1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdonates1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "He donated thousands of pounds to charity.",
+            kurdishText:
+                "ھەزاران پاوەندی بەخشی بە ڕێکخراوی خێرخوازی.", // donate
+            onPressedBritish: () => speakdonates1("en-GB"),
+            onPressedAmerican: () => speakdonates1("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The organization suggests ways to help besides donating money."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "دامەزراوە ڕێگای دیکە پێشنیار دەکات بۆ بەخشین بەدەر لە پارە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdonates2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdonates2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "The organization suggests ways to help besides donating money.",
+            kurdishText:
+                "دامەزراوە ڕێگای دیکە پێشنیار دەکات بۆ بەخشین بەدەر لە پارە.",
+            onPressedBritish: () => speakdonates2("en-GB"),
+            onPressedAmerican: () => speakdonates2("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٢. (کردار) بەخشینی خوێن یان ئەندامێکی جەستە"),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "I've been donating blood regularly for a few years now."),
-                    ExampleSentenceKurdish(
-                        text: "بۆ چەند ساڵێک دەبێت بە بەردەوامی خوێن دەبەخشم."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdonates3("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdonates3("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "I've been donating blood regularly for a few years now.",
+            kurdishText: "بۆ چەند ساڵێک دەبێت بە بەردەوامی خوێن دەبەخشم.",
+            onPressedBritish: () => speakdonates3("en-GB"),
+            onPressedAmerican: () => speakdonates3("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "All donated blood is tested for HIV and other infections."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "ھەموو خوێنێکی بەخشراو بۆ ئێچ‌ئای‌ڤی و نەخۆشییەکانی دیکە دەپشکندرێت."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdonates4("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdonates4("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "All donated blood is tested for HIV and other infections.",
+            kurdishText:
+                "ھەموو خوێنێکی بەخشراو بۆ ئێچ‌ئای‌ڤی و نەخۆشییەکانی دیکە دەپشکندرێت.",
+            onPressedBritish: () => speakdonates4("en-GB"),
+            onPressedAmerican: () => speakdonates4("en-US"),
           ),
           // donates500"),
           // speakdonates5

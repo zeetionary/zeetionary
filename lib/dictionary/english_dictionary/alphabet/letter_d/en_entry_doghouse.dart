@@ -362,32 +362,13 @@ class KurdishMeaning extends StatelessWidget {
 کوردی: کونەسەگ، کۆڵە
 """),
           const DefinitionKurdish(text: "١. (ناو) پەناگەیەکی بچووک بۆ سەگ"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "He built a sturdy doghouse for his dog to protect it from the weather."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "کۆڵەیەکی قایمی بۆ سەگەکەی درووستکرد بۆ پاراستنی لە کەشوھەوا."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "doghouse", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdoghouses1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdoghouses1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "He built a sturdy doghouse for his dog to protect it from the weather.",
+            kurdishText:
+                "کۆڵەیەکی قایمی بۆ سەگەکەی درووستکرد بۆ پاراستنی لە کەشوھەوا.", // doghouse
+            onPressedBritish: () => speakdoghouses1("en-GB"),
+            onPressedAmerican: () => speakdoghouses1("en-US"),
           ),
           // doghouses200"),
           // speakdoghouses2

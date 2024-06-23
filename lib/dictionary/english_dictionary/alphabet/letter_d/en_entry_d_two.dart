@@ -232,29 +232,11 @@ class KurdishMeaning extends StatelessWidget {
 // """),
           const DefinitionKurdish(
               text: "١. (کورتکراوە) لە زمانی نووسیندا بەکاردێت بۆ کورتکراوە"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(text: "Emily Clifton, d. 1865"),
-                    ExampleSentenceKurdish(
-                        text: "ئێمیلی کلیفتن، کۆچکردووی ١٨٦٥."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "d.", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdtwos1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdtwos1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "Emily Clifton, d. 1865",
+            kurdishText: "ئێمیلی کلیفتن، کۆچکردووی ١٨٦٥.", // d.
+            onPressedBritish: () => speakdtwos1("en-GB"),
+            onPressedAmerican: () => speakdtwos1("en-US"),
           ),
         ],
       ),

@@ -242,59 +242,21 @@ class KurdishMeaning extends StatelessWidget {
 // """),
           const DefinitionKurdish(
               text: "١. (ناو) کەمکردنەوەی بەھا و نرخی شتێک"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "He considered advertising a debasement of his art."),
-                    ExampleSentenceKurdish(
-                        text: "ڕیکلامی بە کەمکردنەوەی ھونەرەکەی دادەنا."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "debasement", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdebasements1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdebasements1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "He considered advertising a debasement of his art.",
+            kurdishText:
+                "ڕیکلامی بە کەمکردنەوەی ھونەرەکەی دادەنا.", // debasement
+            onPressedBritish: () => speakdebasements1("en-GB"),
+            onPressedAmerican: () => speakdebasements1("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "Currency debasement means that the more dollars there are in circulation, the less each dollar is worth."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "سوککردنی پارە واتە ھەرچەندە دۆلاری زیاتر لە بازاڕدا بێت ھێندە ھەر دۆلارێک نرخی کەمترە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdebasements2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdebasements2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "Currency debasement means that the more dollars there are in circulation, the less each dollar is worth.",
+            kurdishText:
+                "سوککردنی پارە واتە ھەرچەندە دۆلاری زیاتر لە بازاڕدا بێت ھێندە ھەر دۆلارێک نرخی کەمترە.",
+            onPressedBritish: () => speakdebasements2("en-GB"),
+            onPressedAmerican: () => speakdebasements2("en-US"),
           ),
         ],
       ),

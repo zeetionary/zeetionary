@@ -370,61 +370,23 @@ class KurdishMeaning extends StatelessWidget {
 کوردی: ناسراو، بەنێوبانگ، ناودار، جێ‌دار، سەربەرز، گەورە، مەزن، بەرجەستە، دیار، پایەبەرز،	بەرز، بڵیند،	زۆر، یەکجار،	بەرچاو، دیار، ئاشکرا
 """),
           const DefinitionKurdish(text: """١. (ناو) بەناوبانگ و ڕێزلێ‌گیراو"""),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            """The commission consisted of fifteen eminent political figures."""),
-                    ExampleSentenceKurdish(
-                        text:
-                            """لیژنەکە لە پازدە کەسایەتیی سیاسی ڕێزلێ‌گیراو پێکھاتبوو."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "eminent", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakeminents1("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakeminents1("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                """The commission consisted of fifteen eminent political figures.""",
+            kurdishText:
+                """لیژنەکە لە پازدە کەسایەتیی سیاسی ڕێزلێ‌گیراو پێکھاتبوو.""", // eminent
+            onPressedBritish: () => speakeminents1("en-GB"),
+            onPressedAmerican: () => speakeminents1("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text: """٢. (ھاوەڵناو) نایاب؛ کە شایەنی تێبینی کردنە"""),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: """This shows eminent good sense."""),
-                    ExampleSentenceKurdish(
-                        text: """ئەمە تێگەشتنی نایاب پیشان دەدات."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakeminents2("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakeminents2("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: """This shows eminent good sense.""",
+            kurdishText: """ئەمە تێگەشتنی نایاب پیشان دەدات.""",
+            onPressedBritish: () => speakeminents2("en-GB"),
+            onPressedAmerican: () => speakeminents2("en-US"),
           ),
           // eminents300eminents3
           // speakeminents3

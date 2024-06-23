@@ -380,91 +380,33 @@ class KurdishMeaning extends StatelessWidget {
 """),
           const DefinitionKurdish(
               text: """١. (ھاوەڵناو) لە ڕۆژھەڵات یان بەرەو ڕۆژھەڵات"""),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            """They were travelling in an easterly direction."""),
-                    ExampleSentenceKurdish(
-                        text: """بە ئاراستەی ڕۆژھەڵات گەشتیان دەکرد."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "easterly", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakeasterlys1("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakeasterlys1("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: """They were travelling in an easterly direction.""",
+            kurdishText: """بە ئاراستەی ڕۆژھەڵات گەشتیان دەکرد.""", // easterly
+            onPressedBritish: () => speakeasterlys1("en-GB"),
+            onPressedAmerican: () => speakeasterlys1("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            """The town is in the most easterly part of the country."""),
-                    ExampleSentenceKurdish(
-                        text: """شارۆچکەکە لە ئەوپەڕی ڕۆژھەڵاتی وڵاتەکەیە."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakeasterlys2("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakeasterlys2("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                """The town is in the most easterly part of the country.""",
+            kurdishText: """شارۆچکەکە لە ئەوپەڕی ڕۆژھەڵاتی وڵاتەکەیە.""",
+            onPressedBritish: () => speakeasterlys2("en-GB"),
+            onPressedAmerican: () => speakeasterlys2("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text: """٢. (ھاوەڵناو) بایەک کە لە ڕۆژھەڵاتەوە دێت"""),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            """The migrating falcons were blown off course by easterly winds."""),
-                    ExampleSentenceKurdish(
-                        text:
-                            """بازە کۆچکەرەکان لە ڕێڕەویان لادران بەھۆی بای ڕۆژھەڵاتەوە."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakeasterlys3("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakeasterlys3("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                """The migrating falcons were blown off course by easterly winds.""",
+            kurdishText:
+                """بازە کۆچکەرەکان لە ڕێڕەویان لادران بەھۆی بای ڕۆژھەڵاتەوە.""",
+            onPressedBritish: () => speakeasterlys3("en-GB"),
+            onPressedAmerican: () => speakeasterlys3("en-US"),
           ),
           // easterlys400easterlys4
           // speakeasterlys4

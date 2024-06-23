@@ -364,32 +364,13 @@ class KurdishMeaning extends StatelessWidget {
 """),
           const DefinitionKurdish(
               text: """١. (ناو) شتێک کە لە قوڕی زۆر ڕەقکراو درووست دەکرێت"""),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            """The production of earthenware in Japan goes back many centuries."""),
-                    ExampleSentenceKurdish(
-                        text:
-                            """بەرھەمھێننای قاپ‌وکەوچکی گڵێنە لە ژاپۆن بۆ چەندین سەدە دەگەڕێتەوە."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "earthenware", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakearthenwares1("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakearthenwares1("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                """The production of earthenware in Japan goes back many centuries.""",
+            kurdishText:
+                """بەرھەمھێننای قاپ‌وکەوچکی گڵێنە لە ژاپۆن بۆ چەندین سەدە دەگەڕێتەوە.""", // earthenware
+            onPressedBritish: () => speakearthenwares1("en-GB"),
+            onPressedAmerican: () => speakearthenwares1("en-US"),
           ),
           // earthenwares200earthenwares2
           // speakearthenwares2

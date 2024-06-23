@@ -396,148 +396,53 @@ class KurdishMeaning extends StatelessWidget {
 """),
           const DefinitionKurdish(
               text: """١. (ھاوەڵناو) قۆناغەکانی سەرەتای کۆرسێکی خوێندن"""),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: """I'm taking classes in elementary Italian."""),
-                    ExampleSentenceKurdish(
-                        text: """وانەی سەرەتایی زمانی ئیتالی دەخوێنم."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "elementary", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakelementarys1("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakelementarys1("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: """I'm taking classes in elementary Italian.""",
+            kurdishText:
+                """وانەی سەرەتایی زمانی ئیتالی دەخوێنم.""", // elementary
+            onPressedBritish: () => speakelementarys1("en-GB"),
+            onPressedAmerican: () => speakelementarys1("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            """This book contains a series of elementary exercises for learners."""),
-                    ExampleSentenceKurdish(
-                        text:
-                            """کتێبەکە زنجیرەیەک ڕاھێنانی بنچینەیی بۆ فێرخوازان لەخۆ دەگرێت."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakelementarys2("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakelementarys2("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                """This book contains a series of elementary exercises for learners.""",
+            kurdishText:
+                """کتێبەکە زنجیرەیەک ڕاھێنانی بنچینەیی بۆ فێرخوازان لەخۆ دەگرێت.""",
+            onPressedBritish: () => speakelementarys2("en-GB"),
+            onPressedAmerican: () => speakelementarys2("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text: """٢. (ھاوەڵناو) سەر بە بنچینەییترین جۆر"""),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            """How could you make such an elementary mistake?"""),
-                    ExampleSentenceKurdish(
-                        text: """چۆن توانیت ھەڵەیەکی ھێندە بنچینەیی بکەیت؟"""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakelementarys3("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakelementarys3("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: """How could you make such an elementary mistake?""",
+            kurdishText: """چۆن توانیت ھەڵەیەکی ھێندە بنچینەیی بکەیت؟""",
+            onPressedBritish: () => speakelementarys3("en-GB"),
+            onPressedAmerican: () => speakelementarys3("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            """It's an elementary law of economics: the scarcer the commodity, the higher the price."""),
-                    ExampleSentenceKurdish(
-                        text:
-                            """ئەوە یەکێک لە یاسا بنچینەییەکانی ئابوورییە: چەندە شتەکە کەم بێت، ھێندە نرخی بەرز دەبێت."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakelementarys4("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakelementarys4("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                """It's an elementary law of economics: the scarcer the commodity, the higher the price.""",
+            kurdishText:
+                """ئەوە یەکێک لە یاسا بنچینەییەکانی ئابوورییە: چەندە شتەکە کەم بێت، ھێندە نرخی بەرز دەبێت.""",
+            onPressedBritish: () => speakelementarys4("en-GB"),
+            onPressedAmerican: () => speakelementarys4("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: """I have an elementary knowledge of physics."""),
-                    ExampleSentenceKurdish(
-                        text: """زانیاریی سەرەتایی فیزیام ھەیە."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakelementarys5("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakelementarys5("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: """I have an elementary knowledge of physics.""",
+            kurdishText: """زانیاریی سەرەتایی فیزیام ھەیە.""",
+            onPressedBritish: () => speakelementarys5("en-GB"),
+            onPressedAmerican: () => speakelementarys5("en-US"),
           ),
           // elementarys600elementarys6
           // speakelementarys6

@@ -372,64 +372,26 @@ class KurdishMeaning extends StatelessWidget {
 // """),
           const DefinitionKurdish(
               text: "١. (کردار) پیشاندانی کتێبێک، ڕووداوێک، ھتد لە شانۆدا"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "Jane Austen’s ‘Emma’ was dramatized on television recently."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "بەرھەمی 'Emma' ــی جەین ئۆستن تازەگی کرا بە شانۆ لەسەر تەلەفیزیۆن."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "dramatize", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdramatizes1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdramatizes1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "Jane Austen’s ‘Emma’ was dramatized on television recently.",
+            kurdishText:
+                "بەرھەمی 'Emma' ــی جەین ئۆستن تازەگی کرا بە شانۆ لەسەر تەلەفیزیۆن.", // dramatize
+            onPressedBritish: () => speakdramatizes1("en-GB"),
+            onPressedAmerican: () => speakdramatizes1("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
                   "٢. (کردار) وا لە شتێک بکەیت زیاتر جۆش‌وخرۆشی پێبدەیت وەک ئەوەی لە ڕاستیدا ھەیە"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "Don't worry too much about what she said—she tends to dramatize things."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "نیگەران مەبە سەبارەت بەوەی کە گوتی ـ مەیلی ئەوەی ھەیە شتەکان گەورە بکات."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdramatizes2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdramatizes2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "Don't worry too much about what she said—she tends to dramatize things.",
+            kurdishText:
+                "نیگەران مەبە سەبارەت بەوەی کە گوتی ـ مەیلی ئەوەی ھەیە شتەکان گەورە بکات.",
+            onPressedBritish: () => speakdramatizes2("en-GB"),
+            onPressedAmerican: () => speakdramatizes2("en-US"),
           ),
           // dramatizes300"),
           // speakdramatizes3

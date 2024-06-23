@@ -538,624 +538,193 @@ class KurdishMeaning extends StatelessWidget {
 کوردی: خەون، خەو،	ئاوات، ھیوا، خەیاڵ، خەون‌وخەیاڵ
 """),
           const DefinitionKurdish(text: "١. (ناو) خەوبینین لەکاتی خەودا"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "I had a really weird dream last night."),
-                    ExampleSentenceKurdish(
-                        text: "شەوی ڕابردوو خەونێکی نامۆم بینی."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "dream", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdreams1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdreams1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "I had a really weird dream last night.",
+            kurdishText: "شەوی ڕابردوو خەونێکی نامۆم بینی.", // dream
+            onPressedBritish: () => speakdreams1("en-GB"),
+            onPressedAmerican: () => speakdreams1("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "I thought someone came into the bedroom, but it was just a dream."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "وام بیرکردەوە کەسێک ھاتە ژووری خەوەکەم، بەڵام تەنھا خەونێک بوو."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdreams2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdreams2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "I thought someone came into the bedroom, but it was just a dream.",
+            kurdishText:
+                "وام بیرکردەوە کەسێک ھاتە ژووری خەوەکەم، بەڵام تەنھا خەونێک بوو.",
+            onPressedBritish: () => speakdreams2("en-GB"),
+            onPressedAmerican: () => speakdreams2("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "Don't think about it. You'll only give yourself bad dreams."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "بیری لێ مەکەرەوە، تەنھا خەونی خراپ بە خۆت دەدەیت."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdreams3("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdreams3("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "Don't think about it. You'll only give yourself bad dreams.",
+            kurdishText: "بیری لێ مەکەرەوە، تەنھا خەونی خراپ بە خۆت دەدەیت.",
+            onPressedBritish: () => speakdreams3("en-GB"),
+            onPressedAmerican: () => speakdreams3("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "I had a dream that we were getting married at the airport."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "خەونی ئەوەم دی کە لە فڕۆکەخانەکە ھاوسەرگیریمان دەکرد."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdreams4("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdreams4("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "I had a dream that we were getting married at the airport.",
+            kurdishText:
+                "خەونی ئەوەم دی کە لە فڕۆکەخانەکە ھاوسەرگیریمان دەکرد.",
+            onPressedBritish: () => speakdreams4("en-GB"),
+            onPressedAmerican: () => speakdreams4("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "His dead mother appeared to him in a dream."),
-                    ExampleSentenceKurdish(
-                        text: "دایکە کۆچکردووەکەی ھاتە لای لە خەونێکدا."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdreams5("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdreams5("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "His dead mother appeared to him in a dream.",
+            kurdishText: "دایکە کۆچکردووەکەی ھاتە لای لە خەونێکدا.",
+            onPressedBritish: () => speakdreams5("en-GB"),
+            onPressedAmerican: () => speakdreams5("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: "٢. (ناو) ھیوا و ئاواتێک کە ھەتە"),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "Her lifelong dream was to be a famous writer."),
-                    ExampleSentenceKurdish(
-                        text: "خەونی لەمێژینەی ئەوە بوو ببێت بە نووسەر."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdreams6("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdreams6("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "Her lifelong dream was to be a famous writer.",
+            kurdishText: "خەونی لەمێژینەی ئەوە بوو ببێت بە نووسەر.",
+            onPressedBritish: () => speakdreams6("en-GB"),
+            onPressedAmerican: () => speakdreams6("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "He wanted to be rich but it was an impossible dream."),
-                    ExampleSentenceKurdish(
-                        text: "دەیویست دەوڵەمەند بێت بەڵام ئەستەم بوو."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdreams7("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdreams7("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "He wanted to be rich but it was an impossible dream.",
+            kurdishText: "دەیویست دەوڵەمەند بێت بەڵام ئەستەم بوو.",
+            onPressedBritish: () => speakdreams7("en-GB"),
+            onPressedAmerican: () => speakdreams7("en-US"),
           ),
           Column(
             children: [
               MyExpansionTile(
                 children: [
-                  Row(
-                    children: [
-                      const Expanded(
-                        child: Column(
-                          children: [
-                            ExampleSentenceEnglish(
-                                text:
-                                    "If I win, it will be a dream come true."),
-                            ExampleSentenceKurdish(
-                                text:
-                                    "ئەگەر ببەمەوە، بەدیھاتنی ئاواتێک دەبێت."),
-                          ],
-                        ),
-                      ),
-                      const CustomSizedBoxForTTS(),
-                      Column(
-                        children: [
-                          CustomIconButtonBritish(
-                            onPressed: () => speakdreams8("en-GB"),
-                          ),
-                          CustomIconButtonAmerican(
-                            onPressed: () => speakdreams8("en-US"),
-                          ),
-                        ],
-                      ),
-                    ],
+                  SentencesRow(
+                    englishText: "If I win, it will be a dream come true.",
+                    kurdishText: "ئەگەر ببەمەوە، بەدیھاتنی ئاواتێک دەبێت.",
+                    onPressedBritish: () => speakdreams8("en-GB"),
+                    onPressedAmerican: () => speakdreams8("en-US"),
                   ),
-                  // const DividerDefinition(),
-                  // const DefinitionKurdish(text: "ژممارە. (کردار) پێنناسە"),
                   const DividerSentences(),
-                  Row(
-                    children: [
-                      const Expanded(
-                        child: Column(
-                          children: [
-                            ExampleSentenceEnglish(
-                                text:
-                                    "It was the end of all my hopes and dreams."),
-                            ExampleSentenceKurdish(
-                                text:
-                                    "ئەوە کۆتایی ھەموو ھیوا و خەونەکانم بوو."),
-                          ],
-                        ),
-                      ),
-                      const CustomSizedBoxForTTS(),
-                      Column(
-                        children: [
-                          CustomIconButtonBritish(
-                            onPressed: () => speakdreams9("en-GB"),
-                          ),
-                          CustomIconButtonAmerican(
-                            onPressed: () => speakdreams9("en-US"),
-                          ),
-                        ],
-                      ),
-                    ],
+                  SentencesRow(
+                    englishText: "It was the end of all my hopes and dreams.",
+                    kurdishText: "ئەوە کۆتایی ھەموو ھیوا و خەونەکانم بوو.",
+                    onPressedBritish: () => speakdreams9("en-GB"),
+                    onPressedAmerican: () => speakdreams9("en-US"),
                   ),
-                  // const DividerDefinition(),
-                  // const DefinitionKurdish(text: "ژممارە. (کردار) پێنناسە"),
                   const DividerSentences(),
-                  Row(
-                    children: [
-                      const Expanded(
-                        child: Column(
-                          children: [
-                            ExampleSentenceEnglish(
-                                text:
-                                    "The chance to study in Australia had always been a dream for her."),
-                            ExampleSentenceKurdish(
-                                text:
-                                    "شانسی خوێندن لە ئوسترالیا ھەمیشە خەونێکی بووە."),
-                          ],
-                        ),
-                      ),
-                      const CustomSizedBoxForTTS(),
-                      Column(
-                        children: [
-                          CustomIconButtonBritish(
-                            onPressed: () => speakdreams10("en-GB"),
-                          ),
-                          CustomIconButtonAmerican(
-                            onPressed: () => speakdreams10("en-US"),
-                          ),
-                        ],
-                      ),
-                    ],
+                  SentencesRow(
+                    englishText:
+                        "The chance to study in Australia had always been a dream for her.",
+                    kurdishText:
+                        "شانسی خوێندن لە ئوسترالیا ھەمیشە خەونێکی بووە.",
+                    onPressedBritish: () => speakdreams10("en-GB"),
+                    onPressedAmerican: () => speakdreams10("en-US"),
                   ),
-                  // const DividerDefinition(),
-                  // const DefinitionKurdish(text: "ژممارە. (کردار) پێنناسە"),
                   const DividerSentences(),
-                  Row(
-                    children: [
-                      const Expanded(
-                        child: Column(
-                          children: [
-                            ExampleSentenceEnglish(
-                                text:
-                                    "He left his job to pursue his dream of opening a restaurant."),
-                            ExampleSentenceKurdish(
-                                text:
-                                    "کارەکەی جێھێشت بۆ بەدیھێنانی خەونی کردنەوەی چێشتخانەیەک."),
-                          ],
-                        ),
-                      ),
-                      const CustomSizedBoxForTTS(),
-                      Column(
-                        children: [
-                          CustomIconButtonBritish(
-                            onPressed: () => speakdreams11("en-GB"),
-                          ),
-                          CustomIconButtonAmerican(
-                            onPressed: () => speakdreams11("en-US"),
-                          ),
-                        ],
-                      ),
-                    ],
+                  SentencesRow(
+                    englishText:
+                        "He left his job to pursue his dream of opening a restaurant.",
+                    kurdishText:
+                        "کارەکەی جێھێشت بۆ بەدیھێنانی خەونی کردنەوەی چێشتخانەیەک.",
+                    onPressedBritish: () => speakdreams11("en-GB"),
+                    onPressedAmerican: () => speakdreams11("en-US"),
                   ),
                 ],
               ),
             ],
           ),
+
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
                   "٣. (ناو) دۆخێک کە تێیدا شتەکان ڕاستی نین یان بەشێک نین لە ژیانی ئاسایی"),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "She walked around in a dream all day."),
-                    ExampleSentenceKurdish(
-                        text: "تەواوی ڕۆژەکە بە خەیاڵەوە بە ڕێگادا دەچوو."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdreams12("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdreams12("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "She walked around in a dream all day.",
+            kurdishText: "تەواوی ڕۆژەکە بە خەیاڵەوە بە ڕێگادا دەچوو.",
+            onPressedBritish: () => speakdreams12("en-GB"),
+            onPressedAmerican: () => speakdreams12("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "As if slowly emerging from a dream, she raised her head."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "وەک ئەوەی بەھێواشی لە خەیاڵ دەربچێت، سەری بەرزکردەوە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdreams13("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdreams13("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "As if slowly emerging from a dream, she raised her head.",
+            kurdishText:
+                "وەک ئەوەی بەھێواشی لە خەیاڵ دەربچێت، سەری بەرزکردەوە.",
+            onPressedBritish: () => speakdreams13("en-GB"),
+            onPressedAmerican: () => speakdreams13("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: "٤. (ناو) کەسێک یان شتێکی جوان"),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "That meal was an absolute dream."),
-                    ExampleSentenceKurdish(text: "چێشتەکە تەواو ناوازە بوو."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdreams14("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdreams14("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "That meal was an absolute dream.",
+            kurdishText: "چێشتەکە تەواو ناوازە بوو.",
+            onPressedBritish: () => speakdreams14("en-GB"),
+            onPressedAmerican: () => speakdreams14("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: "٥. (کردار) خەوبینین"),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "Did I talk in my sleep? I must have been dreaming."),
-                    ExampleSentenceKurdish(
-                        text: "لە خەوەکەمدا قسەم کرد؟ دەبێت خەونم بینیبێت."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdreams15("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdreams15("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "Did I talk in my sleep? I must have been dreaming.",
+            kurdishText: "لە خەوەکەمدا قسەم کرد؟ دەبێت خەونم بینیبێت.",
+            onPressedBritish: () => speakdreams15("en-GB"),
+            onPressedAmerican: () => speakdreams15("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "I dreamed about you last night."),
-                    ExampleSentenceKurdish(
-                        text: "دوێنێ شەو خەونم پێتەوە بینی."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdreams16("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdreams16("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "I dreamed about you last night.",
+            kurdishText: "دوێنێ شەو خەونم پێتەوە بینی.",
+            onPressedBritish: () => speakdreams16("en-GB"),
+            onPressedAmerican: () => speakdreams16("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "I keep dreaming of my old school."),
-                    ExampleSentenceKurdish(
-                        text: "بەردەوا، خەون بە قوتابخانە کۆنەکەمەوە دەبینم."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdreams17("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdreams17("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "I keep dreaming of my old school.",
+            kurdishText: "بەردەوا، خەون بە قوتابخانە کۆنەکەمەوە دەبینم.",
+            onPressedBritish: () => speakdreams17("en-GB"),
+            onPressedAmerican: () => speakdreams17("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "Did it really happen or did I just dream it?"),
-                    ExampleSentenceKurdish(
-                        text: "بەڕاستی ڕوویدا یان تەنھا خەونم پێوە بینی؟"),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdreams18("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdreams18("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "Did it really happen or did I just dream it?",
+            kurdishText: "بەڕاستی ڕوویدا یان تەنھا خەونم پێوە بینی؟",
+            onPressedBritish: () => speakdreams18("en-GB"),
+            onPressedAmerican: () => speakdreams18("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٦. (کردار) خەیاڵکردن بەو شتانەی کە دەتەوێت ڕووبدەن"),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "It was the kind of trip most of us only dream about."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "ئەو جۆرە گەشتانە بوو کە زۆرینەمان تەنھا خەونی پێوە دەبینین."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdreams19("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdreams19("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "It was the kind of trip most of us only dream about.",
+            kurdishText:
+                "ئەو جۆرە گەشتانە بوو کە زۆرینەمان تەنھا خەونی پێوە دەبینین.",
+            onPressedBritish: () => speakdreams19("en-GB"),
+            onPressedAmerican: () => speakdreams19("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "She dreams of running her own business."),
-                    ExampleSentenceKurdish(
-                        text: "خەون بە بەڕێوەبردنی بازرگانیی خۆیەوە دەبینێت."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdreams20("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdreams20("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "She dreams of running her own business.",
+            kurdishText: "خەون بە بەڕێوەبردنی بازرگانیی خۆیەوە دەبینێت.",
+            onPressedBritish: () => speakdreams20("en-GB"),
+            onPressedAmerican: () => speakdreams20("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "I wouldn't dream of going without you (= I would never go without you)."),
-                    ExampleSentenceKurdish(
-                        text: "خەیاڵی ئەوە ناکەم بەبێ تۆ بچم."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdreams21("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdreams21("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "I wouldn't dream of going without you (= I would never go without you).",
+            kurdishText: "خەیاڵی ئەوە ناکەم بەبێ تۆ بچم.",
+            onPressedBritish: () => speakdreams21("en-GB"),
+            onPressedAmerican: () => speakdreams21("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "I never dreamt (that) I’d actually get the job."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "ھەرگیز خەونم بەوەوە نەبینی کە بەڕاستی ئەو کارە وەردەگرم."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdreams22("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdreams22("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "I never dreamt (that) I’d actually get the job.",
+            kurdishText:
+                "ھەرگیز خەونم بەوەوە نەبینی کە بەڕاستی ئەو کارە وەردەگرم.",
+            onPressedBritish: () => speakdreams22("en-GB"),
+            onPressedAmerican: () => speakdreams22("en-US"),
           ),
         ],
       ),

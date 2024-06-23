@@ -283,195 +283,64 @@ class KurdishMeaning extends StatelessWidget {
 """),
           const DefinitionKurdish(
               text: "١. (ناو) ھەڵسوکەوتی لەسەرخۆ و جدی کە شایەنی ڕێزە"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "She accepted the criticism with dignity."),
-                    ExampleSentenceKurdish(text: "ڕەخنەکەی بە شکۆوە وەرگرت."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "dignity", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdignitys1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdignitys1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "She accepted the criticism with dignity.",
+            kurdishText: "ڕەخنەکەی بە شکۆوە وەرگرت.", // dignity
+            onPressedBritish: () => speakdignitys1("en-GB"),
+            onPressedAmerican: () => speakdignitys1("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "He brings a dignity to the role."),
-                    ExampleSentenceKurdish(text: "شکۆیەک دەبەخشێت بە ئەرکەکە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdignitys2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdignitys2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "He brings a dignity to the role.",
+            kurdishText: "شکۆیەک دەبەخشێت بە ئەرکەکە.",
+            onPressedBritish: () => speakdignitys2("en-GB"),
+            onPressedAmerican: () => speakdignitys2("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٢. (ناو) وەرگرتنی شکۆ و ڕێز لەلایەن خەڵکییەوە"),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The terminally ill should be allowed to die with dignity."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "ئەوانەی بۆ ھەمیشەیی نەخۆشن دەبێت بھێڵدرێت بە شکۆوە بمرن."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdignitys3("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdignitys3("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "The terminally ill should be allowed to die with dignity.",
+            kurdishText:
+                "ئەوانەی بۆ ھەمیشەیی نەخۆشن دەبێت بھێڵدرێت بە شکۆوە بمرن.",
+            onPressedBritish: () => speakdignitys3("en-GB"),
+            onPressedAmerican: () => speakdignitys3("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "Slavery destroys human dignity."),
-                    ExampleSentenceKurdish(
-                        text: "کۆیلایەتی شكۆی مرۆڤایەتی تێکدەشکێنێت."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdignitys4("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdignitys4("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "Slavery destroys human dignity.",
+            kurdishText: "کۆیلایەتی شكۆی مرۆڤایەتی تێکدەشکێنێت.",
+            onPressedBritish: () => speakdignitys4("en-GB"),
+            onPressedAmerican: () => speakdignitys4("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The awful thing about old age is losing your dignity."),
-                    ExampleSentenceKurdish(
-                        text: "شتی ناخۆش سەبارەت بە پیری لەدەستدانی ھەیبەتتە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdignitys5("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdignitys5("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "The awful thing about old age is losing your dignity.",
+            kurdishText: "شتی ناخۆش سەبارەت بە پیری لەدەستدانی ھەیبەتتە.",
+            onPressedBritish: () => speakdignitys5("en-GB"),
+            onPressedAmerican: () => speakdignitys5("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٣. (ناو) ھەستکردن بە گرنگی و بەھای خۆت"),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "It's difficult to preserve your dignity when you have no job and no home."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "سەختە کەرامەتی خۆت بپارێزیت کە ھیچ کار و ماڵێکت نییە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdignitys6("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdignitys6("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "It's difficult to preserve your dignity when you have no job and no home.",
+            kurdishText:
+                "سەختە کەرامەتی خۆت بپارێزیت کە ھیچ کار و ماڵێکت نییە.",
+            onPressedBritish: () => speakdignitys6("en-GB"),
+            onPressedAmerican: () => speakdignitys6("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "These people have enormous dignity."),
-                    ExampleSentenceKurdish(
-                        text: "ئەم کەسانە قەدر گەورەیان ھەیە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdignitys7("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdignitys7("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "These people have enormous dignity.",
+            kurdishText: "ئەم کەسانە قەدر گەورەیان ھەیە.",
+            onPressedBritish: () => speakdignitys7("en-GB"),
+            onPressedAmerican: () => speakdignitys7("en-US"),
           ),
           // dignitys800"),
           // speakdignitys8

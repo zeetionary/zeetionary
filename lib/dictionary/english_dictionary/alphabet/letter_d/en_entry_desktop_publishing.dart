@@ -236,32 +236,12 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "١. (ناو) بەکارھێنانی کۆمپیوتەرێکی بچووک بۆ بڵاوکردنەوەی کتێب، گۆڤار، یان بابەتی چاپکراو"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "Desktop publishing helped them design the magazine."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "بڵاوکردنەوەی کۆمپیوتەری یارمەتیدا لە دیزاین کردنی گۆڤارەکە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "desktop publishing", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdesktoppublishings1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdesktoppublishings1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "Desktop publishing helped them design the magazine.",
+            kurdishText:
+                "بڵاوکردنەوەی کۆمپیوتەری یارمەتیدا لە دیزاین کردنی گۆڤارەکە.", // desktop publishing
+            onPressedBritish: () => speakdesktoppublishings1("en-GB"),
+            onPressedAmerican: () => speakdesktoppublishings1("en-US"),
           ),
           // desktoppublishings200"),
           // speakdesktoppublishings2

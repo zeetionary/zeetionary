@@ -252,62 +252,24 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "١. (ناو) گرووپێکی بچووک لە خەڵکی کە ڕێگەیان پێدراوە نوێنەری کەسانی دیکە بکەن"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The mayor agreed to receive a deputation of local residents."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "سەرۆک شارەوانییەکە پێشوازیی لە شاندێکی ھاوڵاتییە خۆجێیەکان کرد."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "deputation", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdeputations1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdeputations1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "The mayor agreed to receive a deputation of local residents.",
+            kurdishText:
+                "سەرۆک شارەوانییەکە پێشوازیی لە شاندێکی ھاوڵاتییە خۆجێیەکان کرد.", // deputation
+            onPressedBritish: () => speakdeputations1("en-GB"),
+            onPressedAmerican: () => speakdeputations1("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "Both sides in the dispute sent deputations to the prime minister's office."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "ھەردوو لایەنی ناکۆکییەکە شاندیان نارد بۆ ئۆفیسی سەرۆک وەزیران."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdeputations2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdeputations2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "Both sides in the dispute sent deputations to the prime minister's office.",
+            kurdishText:
+                "ھەردوو لایەنی ناکۆکییەکە شاندیان نارد بۆ ئۆفیسی سەرۆک وەزیران.",
+            onPressedBritish: () => speakdeputations2("en-GB"),
+            onPressedAmerican: () => speakdeputations2("en-US"),
           ),
           // deputations300"),
           // speakdeputations3

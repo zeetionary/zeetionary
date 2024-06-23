@@ -259,90 +259,33 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "١. (کردار) مامەڵەکردن لەگەڵ کەسێک کە ئەوە پیشان دەدات کە نرخی نییە یان شایەنی ڕێز نییە"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "This poster is offensive and degrades women."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "ئەم پۆستەرە بێ‌ڕێزانەیە و سوکایەتی بە ژنان دەکات."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "degrade", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdegrades1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdegrades1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "This poster is offensive and degrades women.",
+            kurdishText:
+                "ئەم پۆستەرە بێ‌ڕێزانەیە و سوکایەتی بە ژنان دەکات.", // degrade
+            onPressedBritish: () => speakdegrades1("en-GB"),
+            onPressedAmerican: () => speakdegrades1("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: "٢. (کردار) خراپکردنی کوالێتی شتێک"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "Important natural habitats have been degraded by development."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "ژینگەی سرووشتیی گرنگ بەھۆی بەرەوپێشچوونەوە زیانیان پێگەشتووە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdegrades2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdegrades2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "Important natural habitats have been degraded by development.",
+            kurdishText:
+                "ژینگەی سرووشتیی گرنگ بەھۆی بەرەوپێشچوونەوە زیانیان پێگەشتووە.",
+            onPressedBritish: () => speakdegrades2("en-GB"),
+            onPressedAmerican: () => speakdegrades2("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٣. (کردار) گۆڕینی شتێک بۆ شێوەیەکی کیمیایی سادەتر"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "The bacteria will degrade hydrocarbons."),
-                    ExampleSentenceKurdish(
-                        text: "بەکتریا ھایدرۆکاربۆن شیدەکاتەوە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdegrades3("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdegrades3("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "The bacteria will degrade hydrocarbons.",
+            kurdishText: "بەکتریا ھایدرۆکاربۆن شیدەکاتەوە.",
+            onPressedBritish: () => speakdegrades3("en-GB"),
+            onPressedAmerican: () => speakdegrades3("en-US"),
           ),
           // degrades400"),
           // speakdegrades4

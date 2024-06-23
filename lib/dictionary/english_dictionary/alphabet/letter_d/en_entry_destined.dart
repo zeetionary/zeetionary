@@ -266,120 +266,43 @@ class KurdishMeaning extends StatelessWidget {
 """),
           const DefinitionKurdish(
               text: "١. (ھاوەڵناو) کە بە بەشێک لە چارەنووس دادەنرێت"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "He was destined for a military career, like his father before him."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "لە چارەی نووسرابوو کاری سەربازی ھەبێت وەک باوکی لە پێش خۆی."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "destined", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdestineds1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdestineds1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "He was destined for a military career, like his father before him.",
+            kurdishText:
+                "لە چارەی نووسرابوو کاری سەربازی ھەبێت وەک باوکی لە پێش خۆی.", // destined
+            onPressedBritish: () => speakdestineds1("en-GB"),
+            onPressedAmerican: () => speakdestineds1("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "We seem destined never to meet."),
-                    ExampleSentenceKurdish(
-                        text: "لە چارەمانە ھەرگیز یەک نەبینین."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdestineds2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdestineds2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "We seem destined never to meet.",
+            kurdishText: "لە چارەمانە ھەرگیز یەک نەبینین.",
+            onPressedBritish: () => speakdestineds2("en-GB"),
+            onPressedAmerican: () => speakdestineds2("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "She seemed destined to become a very rich woman."),
-                    ExampleSentenceKurdish(
-                        text: "لە چارەی بوو ببێتە ژنێکی زۆر دەوڵەمەند."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdestineds3("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdestineds3("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "She seemed destined to become a very rich woman.",
+            kurdishText: "لە چارەی بوو ببێتە ژنێکی زۆر دەوڵەمەند.",
+            onPressedBritish: () => speakdestineds3("en-GB"),
+            onPressedAmerican: () => speakdestineds3("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٢. (ھاوەڵناو) کە لە ڕێگایە بۆ شوێنێک یان دەنێردرێت بۆی"),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "Customs officers have seized nearly a ton of heroin destined for New York."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "ئەفسەرانی گومرک نزیکەی تەنێک ھیرۆینیان لە ڕێگا بۆ نیویۆرک دەستبەسەردا گرت."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdestineds4("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdestineds4("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "Customs officers have seized nearly a ton of heroin destined for New York.",
+            kurdishText:
+                "ئەفسەرانی گومرک نزیکەی تەنێک ھیرۆینیان لە ڕێگا بۆ نیویۆرک دەستبەسەردا گرت.",
+            onPressedBritish: () => speakdestineds4("en-GB"),
+            onPressedAmerican: () => speakdestineds4("en-US"),
           ),
           // destineds500"),
           // speakdestineds5

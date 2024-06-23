@@ -423,227 +423,76 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "١. (کردار) بێزارکردنی کەسێک کە ھەوڵ دەدات بخەوێت، کار بکات، ھتد"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "I'm sorry to disturb you, but can I talk to you for a moment?"),
-                    ExampleSentenceKurdish(
-                        text:
-                            "ببوورە کە بێزارت دەکەم، بەڵام دەتوانم بۆ ساتێک لەگەڵت بدوێم."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "disturb", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdisturbs1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdisturbs1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "I'm sorry to disturb you, but can I talk to you for a moment?",
+            kurdishText:
+                "ببوورە کە بێزارت دەکەم، بەڵام دەتوانم بۆ ساتێک لەگەڵت بدوێم.", // disturb
+            onPressedBritish: () => speakdisturbs1("en-GB"),
+            onPressedAmerican: () => speakdisturbs1("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "If you get up early, try not to disturb everyone else."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "ئەگەر زوو ھەستایت، ھەوڵ بدە ھەموو ئەوانی دیکە بەخەبەر نەکەیت."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdisturbs2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdisturbs2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "If you get up early, try not to disturb everyone else.",
+            kurdishText:
+                "ئەگەر زوو ھەستایت، ھەوڵ بدە ھەموو ئەوانی دیکە بەخەبەر نەکەیت.",
+            onPressedBritish: () => speakdisturbs2("en-GB"),
+            onPressedAmerican: () => speakdisturbs2("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "I'm sorry to disturb you, but could you sign this letter?"),
-                    ExampleSentenceKurdish(
-                        text:
-                            "ببوورە بێزارت دەکەم، بەڵام دەتوانیت ئەم نامەیە واژۆ بکەیت."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdisturbs3("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdisturbs3("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "I'm sorry to disturb you, but could you sign this letter?",
+            kurdishText:
+                "ببوورە بێزارت دەکەم، بەڵام دەتوانیت ئەم نامەیە واژۆ بکەیت.",
+            onPressedBritish: () => speakdisturbs3("en-GB"),
+            onPressedAmerican: () => speakdisturbs3("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "Don't disturb her when she's working."),
-                    ExampleSentenceKurdish(text: "بێزاری مەکە کە کاردەکات."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdisturbs4("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdisturbs4("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "Don't disturb her when she's working.",
+            kurdishText: "بێزاری مەکە کە کاردەکات.",
+            onPressedBritish: () => speakdisturbs4("en-GB"),
+            onPressedAmerican: () => speakdisturbs4("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: "٢. (کردار) نیگەرانکردنی کەسێک"),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "The letter shocked and disturbed me."),
-                    ExampleSentenceKurdish(text: "نامەکە شۆک و نیگەرانی کردم."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdisturbs5("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdisturbs5("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "The letter shocked and disturbed me.",
+            kurdishText: "نامەکە شۆک و نیگەرانی کردم.",
+            onPressedBritish: () => speakdisturbs5("en-GB"),
+            onPressedAmerican: () => speakdisturbs5("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "It disturbed her to realize that she was alone."),
-                    ExampleSentenceKurdish(
-                        text: "ئەوە نیگەرانی کرد کە ھەستی کرد تەنھایە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdisturbs6("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdisturbs6("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "It disturbed her to realize that she was alone.",
+            kurdishText: "ئەوە نیگەرانی کرد کە ھەستی کرد تەنھایە.",
+            onPressedBritish: () => speakdisturbs6("en-GB"),
+            onPressedAmerican: () => speakdisturbs6("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٣. (کردار) جوڵاندنی شتێک یان گۆڕینی شوێنی"),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "Don't disturb the papers on my desk."),
-                    ExampleSentenceKurdish(
-                        text: "کاغەزەکانی سەر مێزەکەم مەجوڵێنە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdisturbs7("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdisturbs7("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "Don't disturb the papers on my desk.",
+            kurdishText: "کاغەزەکانی سەر مێزەکەم مەجوڵێنە.",
+            onPressedBritish: () => speakdisturbs7("en-GB"),
+            onPressedAmerican: () => speakdisturbs7("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٤. (کردار) واکردنی ئەوەی شتێک جیاواز لە ئاسایی کاربکات"),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "During a magnetic storm, the earth's magnetic field is disturbed."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "لەکاتی شەپۆلێکی موگناتیسی، بواری موگناتیسی زەوی دەجوڵێت."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdisturbs8("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdisturbs8("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "During a magnetic storm, the earth's magnetic field is disturbed.",
+            kurdishText:
+                "لەکاتی شەپۆلێکی موگناتیسی، بواری موگناتیسی زەوی دەجوڵێت.",
+            onPressedBritish: () => speakdisturbs8("en-GB"),
+            onPressedAmerican: () => speakdisturbs8("en-US"),
           ),
           // disturbs900"),
           // speakdisturbs9

@@ -370,58 +370,21 @@ class KurdishMeaning extends StatelessWidget {
 """),
           const DefinitionKurdish(
               text: "١. (ناو) چیلکەیەک کە بۆ دەھۆڵ لێدان بەکاردێت"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "He broke his drumstick during the performance."),
-                    ExampleSentenceKurdish(
-                        text: "لە کاتی نمایشەکەدا دەھۆڵ‌کوتەکەی شکاند."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "drumstick", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdrumsticks1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdrumsticks1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "He broke his drumstick during the performance.",
+            kurdishText: "لە کاتی نمایشەکەدا دەھۆڵ‌کوتەکەی شکاند.", // drumstick
+            onPressedBritish: () => speakdrumsticks1("en-GB"),
+            onPressedAmerican: () => speakdrumsticks1("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٢. (ناو) بەشی خوارەوەی لاقی مریشک کە دەخوردرێت"),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "The chicken drumstick was delicious."),
-                    ExampleSentenceKurdish(text: "ڕانە مریشکەکە بەلەزەت بوو ."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdrumsticks2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdrumsticks2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "The chicken drumstick was delicious.",
+            kurdishText: "ڕانە مریشکەکە بەلەزەت بوو .",
+            onPressedBritish: () => speakdrumsticks2("en-GB"),
+            onPressedAmerican: () => speakdrumsticks2("en-US"),
           ),
           // drumsticks300"),
           // speakdrumsticks3

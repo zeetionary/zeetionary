@@ -248,57 +248,20 @@ class KurdishMeaning extends StatelessWidget {
 """),
           const DefinitionKurdish(
               text: "١. (ناو) شلە یان ھاڕاوە کە پیسی پاک دەکاتەوە"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "She added detergent to the washing machine."),
-                    ExampleSentenceKurdish(text: "پاککەرەوەی کردە جلشۆرەکەوە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "detergent", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdetergents1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdetergents1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "She added detergent to the washing machine.",
+            kurdishText: "پاککەرەوەی کردە جلشۆرەکەوە.", // detergent
+            onPressedBritish: () => speakdetergents1("en-GB"),
+            onPressedAmerican: () => speakdetergents1("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "The detergent removed the coffee stain."),
-                    ExampleSentenceKurdish(
-                        text: "خاوێنکەرەوەکە پەڵەی قاوەکەی سڕییەوە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdetergents2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdetergents2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "The detergent removed the coffee stain.",
+            kurdishText: "خاوێنکەرەوەکە پەڵەی قاوەکەی سڕییەوە.",
+            onPressedBritish: () => speakdetergents2("en-GB"),
+            onPressedAmerican: () => speakdetergents2("en-US"),
           ),
           // detergents300"),
           // speakdetergents3

@@ -406,169 +406,54 @@ class KurdishMeaning extends StatelessWidget {
 """),
           const DefinitionKurdish(
               text: "١. (کردار) جیابوونەوە و ڕۆشتن بە ئاراستەی جیاوازدا"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "The parallel lines appear to diverge."),
-                    ExampleSentenceKurdish(
-                        text: "ھێڵە تەریبەکان وادەردەکەون جیادەبنەوە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "diverge", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdiverges1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdiverges1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "The parallel lines appear to diverge.",
+            kurdishText: "ھێڵە تەریبەکان وادەردەکەون جیادەبنەوە.", // diverge
+            onPressedBritish: () => speakdiverges1("en-GB"),
+            onPressedAmerican: () => speakdiverges1("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "We went through school and college together, but then our paths diverged."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "لە قوتابخانە و کۆلێژ پێکەوە بووین، بەڵام دواتر ڕێگاکانمان جیابوونەوە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdiverges2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdiverges2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "We went through school and college together, but then our paths diverged.",
+            kurdishText:
+                "لە قوتابخانە و کۆلێژ پێکەوە بووین، بەڵام دواتر ڕێگاکانمان جیابوونەوە.",
+            onPressedBritish: () => speakdiverges2("en-GB"),
+            onPressedAmerican: () => speakdiverges2("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "Many species have diverged from a single ancestor."),
-                    ExampleSentenceKurdish(
-                        text: "زۆر ئاژەڵ لە یەک باوانەوە جیابوونەتەوە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdiverges3("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdiverges3("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "Many species have diverged from a single ancestor.",
+            kurdishText: "زۆر ئاژەڵ لە یەک باوانەوە جیابوونەتەوە.",
+            onPressedBritish: () => speakdiverges3("en-GB"),
+            onPressedAmerican: () => speakdiverges3("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "It is thought that the two species diverged about 130 million years ago."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "باوەڕ وایە دوو جۆرە ئاژەڵەکە نزیکەی ١٣٠ ملیۆن ساڵ پێش ئێستا جیابوونەوە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdiverges4("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdiverges4("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "It is thought that the two species diverged about 130 million years ago.",
+            kurdishText:
+                "باوەڕ وایە دوو جۆرە ئاژەڵەکە نزیکەی ١٣٠ ملیۆن ساڵ پێش ئێستا جیابوونەوە.",
+            onPressedBritish: () => speakdiverges4("en-GB"),
+            onPressedAmerican: () => speakdiverges4("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: "٢. (کردار) کە دید و بۆچوون جیاوازن"),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "Opinions diverge greatly on this issue."),
-                    ExampleSentenceKurdish(
-                        text: "بۆچوونەکان بەزۆری لەسەر بابەتە ناکۆکن."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdiverges5("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdiverges5("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "Opinions diverge greatly on this issue.",
+            kurdishText: "بۆچوونەکان بەزۆری لەسەر بابەتە ناکۆکن.",
+            onPressedBritish: () => speakdiverges5("en-GB"),
+            onPressedAmerican: () => speakdiverges5("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "This country’s interests diverge considerably from those of other countries."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "بەرژەوەندییەکانی ئەم وڵاتە بە ئاستێکی زۆر ناکۆکە لەگەڵ ئەوانەی وڵاتەکانی دیکە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdiverges6("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdiverges6("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "This country’s interests diverge considerably from those of other countries.",
+            kurdishText:
+                "بەرژەوەندییەکانی ئەم وڵاتە بە ئاستێکی زۆر ناکۆکە لەگەڵ ئەوانەی وڵاتەکانی دیکە.",
+            onPressedBritish: () => speakdiverges6("en-GB"),
+            onPressedAmerican: () => speakdiverges6("en-US"),
           ),
           // diverges700"),
           // speakdiverges7

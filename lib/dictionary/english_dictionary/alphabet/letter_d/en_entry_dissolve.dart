@@ -444,307 +444,99 @@ class KurdishMeaning extends StatelessWidget {
 کوردی: توانەوە، ئاوەکی کردن، حەل کردن
 """),
           const DefinitionKurdish(text: "١. (کردار) توانەوە"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(text: "Salt dissolves in water."),
-                    ExampleSentenceKurdish(text: "خوێ لە ئاودا دەتوێتەوە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "dissolve", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdissolves1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdissolves1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "Salt dissolves in water.",
+            kurdishText: "خوێ لە ئاودا دەتوێتەوە.", // dissolve
+            onPressedBritish: () => speakdissolves1("en-GB"),
+            onPressedAmerican: () => speakdissolves1("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "Heat gently until the sugar dissolves."),
-                    ExampleSentenceKurdish(
-                        text: "بە ھێواشی گەرمی بکە تاوەکو شەکرەکە دەتوێتەوە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdissolves2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdissolves2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "Heat gently until the sugar dissolves.",
+            kurdishText: "بە ھێواشی گەرمی بکە تاوەکو شەکرەکە دەتوێتەوە.",
+            onPressedBritish: () => speakdissolves2("en-GB"),
+            onPressedAmerican: () => speakdissolves2("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "The aspirin hasn't dissolved completely yet."),
-                    ExampleSentenceKurdish(
-                        text: "ئەسپرینەکە ھێشتا بە تەواوی نەتواتەوە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdissolves3("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdissolves3("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "The aspirin hasn't dissolved completely yet.",
+            kurdishText: "ئەسپرینەکە ھێشتا بە تەواوی نەتواتەوە.",
+            onPressedBritish: () => speakdissolves3("en-GB"),
+            onPressedAmerican: () => speakdissolves3("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: "٢. (کردار) تواندنەوە"),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "Dissolve the tablet in water."),
-                    ExampleSentenceKurdish(text: "حەبەکە لە ئاودا بتوێنەوە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdissolves4("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdissolves4("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "Dissolve the tablet in water.",
+            kurdishText: "حەبەکە لە ئاودا بتوێنەوە.",
+            onPressedBritish: () => speakdissolves4("en-GB"),
+            onPressedAmerican: () => speakdissolves4("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
                   "٣. (کردار) بە فەرمی کۆتایی ھێنان بە ھاوسەرگیرییەک، ڕێکەوتنێکی بازرگانی، یان پەرلەمان"),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "Their marriage was dissolved in 1999."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "ھاوسەرگیرییەکەیان لە ساڵی ١٩٩٩ کۆتایی پێھێندرا."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdissolves5("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdissolves5("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "Their marriage was dissolved in 1999.",
+            kurdishText: "ھاوسەرگیرییەکەیان لە ساڵی ١٩٩٩ کۆتایی پێھێندرا.",
+            onPressedBritish: () => speakdissolves5("en-GB"),
+            onPressedAmerican: () => speakdissolves5("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The election was announced and parliament was dissolved."),
-                    ExampleSentenceKurdish(
-                        text: "ھەڵبژاردن ڕاگەیەندرا و پەرلەمان ھەڵوەشایەوە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdissolves6("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdissolves6("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "The election was announced and parliament was dissolved.",
+            kurdishText: "ھەڵبژاردن ڕاگەیەندرا و پەرلەمان ھەڵوەشایەوە.",
+            onPressedBritish: () => speakdissolves6("en-GB"),
+            onPressedAmerican: () => speakdissolves6("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: "٤. (کردار) ونبوون یان ونکردن"),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "When the ambulance had gone, the crowd dissolved."),
-                    ExampleSentenceKurdish(
-                        text: "کە ئەمبولانسەکە ڕۆشت، خەڵکەکە نەمان."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdissolves7("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdissolves7("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "When the ambulance had gone, the crowd dissolved.",
+            kurdishText: "کە ئەمبولانسەکە ڕۆشت، خەڵکەکە نەمان.",
+            onPressedBritish: () => speakdissolves7("en-GB"),
+            onPressedAmerican: () => speakdissolves7("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "His calm response dissolved her anger."),
-                    ExampleSentenceKurdish(
-                        text: "وەڵامە لەسەرخۆییەکەی تووڕەییەکەی دامرکاندەوە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdissolves8("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdissolves8("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "His calm response dissolved her anger.",
+            kurdishText: "وەڵامە لەسەرخۆییەکەی تووڕەییەکەی دامرکاندەوە.",
+            onPressedBritish: () => speakdissolves8("en-GB"),
+            onPressedAmerican: () => speakdissolves8("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The lights in the windows faded and the house dissolved into darkness again."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "لایتەکانی پەنجەرەکە کزبوون و خانووەکە دووبارە کەوتەوە ناو تاریکی."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdissolves9("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdissolves9("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "The lights in the windows faded and the house dissolved into darkness again.",
+            kurdishText:
+                "لایتەکانی پەنجەرەکە کزبوون و خانووەکە دووبارە کەوتەوە ناو تاریکی.",
+            onPressedBritish: () => speakdissolves9("en-GB"),
+            onPressedAmerican: () => speakdissolves9("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٥. (کردار) لەناکاو دەستکردن بە پێکەنین، گریان، ھتد"),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "Every time she heard his name, she dissolved into tears."),
-                    ExampleSentenceKurdish(
-                        text: "ھەرکاتێک ناویی دەبیست دەستی دەکرد بە گریان."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdissolves10("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdissolves10("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "Every time she heard his name, she dissolved into tears.",
+            kurdishText: "ھەرکاتێک ناویی دەبیست دەستی دەکرد بە گریان.",
+            onPressedBritish: () => speakdissolves10("en-GB"),
+            onPressedAmerican: () => speakdissolves10("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٦. (کردار) سڕینەوە یان لەناوبردنی شتێک"),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "All the original calcium had dissolved away."),
-                    ExampleSentenceKurdish(
-                        text: "تەواوی کالسیۆمە ڕەسەنەکە لەناچووبوو."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdissolves11("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdissolves11("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "All the original calcium had dissolved away.",
+            kurdishText: "تەواوی کالسیۆمە ڕەسەنەکە لەناچووبوو.",
+            onPressedBritish: () => speakdissolves11("en-GB"),
+            onPressedAmerican: () => speakdissolves11("en-US"),
           ),
           // dissolves1200"),
           // speakdissolves12

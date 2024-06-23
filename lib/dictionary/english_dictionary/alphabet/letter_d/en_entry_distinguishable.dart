@@ -374,62 +374,24 @@ class KurdishMeaning extends StatelessWidget {
 """),
           const DefinitionKurdish(
               text: "١. (ھاوەڵناو) کە دەکرێت بە جیاواز لە شتێکی دیکە دابندرێت"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The male bird is easily distinguishable from the female."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "باڵندە نێرینەکە بە ئاسانی جیادەکرێتەوە لە مێینەکە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "distinguishable", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdistinguishables1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdistinguishables1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "The male bird is easily distinguishable from the female.",
+            kurdishText:
+                "باڵندە نێرینەکە بە ئاسانی جیادەکرێتەوە لە مێینەکە.", // distinguishable
+            onPressedBritish: () => speakdistinguishables1("en-GB"),
+            onPressedAmerican: () => speakdistinguishables1("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "There are at least 20 distinguishable dialects of the language just on the south island."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "بە لایەنی کەمەوە ٢٠ شێوەزاری جیاکراوەی زمانەکە ھەیە تەنھا لە دوورگەی باشوور."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdistinguishables2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdistinguishables2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "There are at least 20 distinguishable dialects of the language just on the south island.",
+            kurdishText:
+                "بە لایەنی کەمەوە ٢٠ شێوەزاری جیاکراوەی زمانەکە ھەیە تەنھا لە دوورگەی باشوور.",
+            onPressedBritish: () => speakdistinguishables2("en-GB"),
+            onPressedAmerican: () => speakdistinguishables2("en-US"),
           ),
           // distinguishables300"),
           // speakdistinguishables3

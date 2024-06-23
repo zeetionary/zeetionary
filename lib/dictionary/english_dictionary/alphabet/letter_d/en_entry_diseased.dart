@@ -241,62 +241,24 @@ class KurdishMeaning extends StatelessWidget {
 کوردی: نەخۆش، ناساخ
 """),
           const DefinitionKurdish(text: "١. (ھاوەڵناو) تووشبوو بە نەخۆشییەک"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "Farmers were dumping or burying the diseased carcasses."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "جوتیاران کەلاکە نەخۆشکەوتووەکان فڕێدەدا یان دەیانناشتن."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "diseased", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdiseaseds1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdiseaseds1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "Farmers were dumping or burying the diseased carcasses.",
+            kurdishText:
+                "جوتیاران کەلاکە نەخۆشکەوتووەکان فڕێدەدا یان دەیانناشتن.", // diseased
+            onPressedBritish: () => speakdiseaseds1("en-GB"),
+            onPressedAmerican: () => speakdiseaseds1("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The bush looked badly diseased, with black marks on all the leaves."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "بنجەگیاکە نەخۆش دیاربوو بە خاڵی ڕەشەوە لەسەر گەڵاکانی."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdiseaseds2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdiseaseds2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "The bush looked badly diseased, with black marks on all the leaves.",
+            kurdishText:
+                "بنجەگیاکە نەخۆش دیاربوو بە خاڵی ڕەشەوە لەسەر گەڵاکانی.",
+            onPressedBritish: () => speakdiseaseds2("en-GB"),
+            onPressedAmerican: () => speakdiseaseds2("en-US"),
           ),
           // diseaseds300"),
           // speakdiseaseds3

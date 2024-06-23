@@ -249,82 +249,26 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "١. (کردار) پابەند نەبوون بەوەی کەسێک، یاسایەک، فەرمانیک، ھتد دەیڵێت"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "He was punished for disobeying orders."),
-                    ExampleSentenceKurdish(
-                        text: "سزادرا بۆ پابەند نەبوون بە فەرمانەکان."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "disobey", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdisobeys1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdisobeys1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "He was punished for disobeying orders.",
+            kurdishText: "سزادرا بۆ پابەند نەبوون بە فەرمانەکان.", // disobey
+            onPressedBritish: () => speakdisobeys1("en-GB"),
+            onPressedAmerican: () => speakdisobeys1("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(text: "How dare you disobey me!"),
-                    ExampleSentenceKurdish(
-                        text: "چۆن بوێری ئەوە دەکەیت نافەرمانیم بکەیت!"),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdisobeys2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdisobeys2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "How dare you disobey me!",
+            kurdishText: "چۆن بوێری ئەوە دەکەیت نافەرمانیم بکەیت!",
+            onPressedBritish: () => speakdisobeys2("en-GB"),
+            onPressedAmerican: () => speakdisobeys2("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "She sighed deeply but dared not disobey."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "بە قووڵی ھەناسەی ھەڵکێشا بەڵام بوێری ئەوەی نەکرد نافەرمانی بکات."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdisobeys3("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdisobeys3("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "She sighed deeply but dared not disobey.",
+            kurdishText:
+                "بە قووڵی ھەناسەی ھەڵکێشا بەڵام بوێری ئەوەی نەکرد نافەرمانی بکات.",
+            onPressedBritish: () => speakdisobeys3("en-GB"),
+            onPressedAmerican: () => speakdisobeys3("en-US"),
           ),
           // disobeys400"),
           // speakdisobeys4

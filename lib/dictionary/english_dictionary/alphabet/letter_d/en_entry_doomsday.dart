@@ -372,61 +372,23 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "١. (ناو) کۆتا ڕۆژی جیھان کە مەسیحییەکان پێیان وایە ھەموو کەسێک لەلایەن خوداوە بڕیاری لەسەر دەدرێت"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "You could talk until doomsday (= for a very long time), but they will never change their minds."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "دەتوانیت تاوەکو ڕۆژی دوایی قسە بکەیت بەڵام ھەرگیز بیردکردنەوەیان ناگۆڕن."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "doomsday", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdoomsdays1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdoomsdays1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "You could talk until doomsday (= for a very long time), but they will never change their minds.",
+            kurdishText:
+                "دەتوانیت تاوەکو ڕۆژی دوایی قسە بکەیت بەڵام ھەرگیز بیردکردنەوەیان ناگۆڕن.", // doomsday
+            onPressedBritish: () => speakdoomsdays1("en-GB"),
+            onPressedAmerican: () => speakdoomsdays1("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "We could be waiting for this bus till doomsday (= for a very long time)."),
-                    ExampleSentenceKurdish(
-                        text: "دەکرێت تا قیامەت بۆ ئەم پاسە بوەستین."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdoomsdays2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdoomsdays2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "We could be waiting for this bus till doomsday (= for a very long time).",
+            kurdishText: "دەکرێت تا قیامەت بۆ ئەم پاسە بوەستین.",
+            onPressedBritish: () => speakdoomsdays2("en-GB"),
+            onPressedAmerican: () => speakdoomsdays2("en-US"),
           ),
           // doomsdays300"),
           // speakdoomsdays3

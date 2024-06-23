@@ -493,487 +493,148 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "١. (ناو) کەسێک کە شارەزایی لە زانستی پزیشكی ھەیە و کاری چارەسەری نەخۆشە"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "You'd better see a doctor about that cough."),
-                    ExampleSentenceKurdish(
-                        text: "باشترە پزیشکێک ببینیت سەبارەت بەو کۆکەیە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "doctor", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdoctors1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdoctors1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "You'd better see a doctor about that cough.",
+            kurdishText: "باشترە پزیشکێک ببینیت سەبارەت بەو کۆکەیە.", // doctor
+            onPressedBritish: () => speakdoctors1("en-GB"),
+            onPressedAmerican: () => speakdoctors1("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "The doctor prescribed antibiotics."),
-                    ExampleSentenceKurdish(
-                        text: "پزیشکەکە دژە بەکتریای بۆ نووسی."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdoctors2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdoctors2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "The doctor prescribed antibiotics.",
+            kurdishText: "پزیشکەکە دژە بەکتریای بۆ نووسی.",
+            onPressedBritish: () => speakdoctors2("en-GB"),
+            onPressedAmerican: () => speakdoctors2("en-US"),
           ),
           Column(
             children: [
               MyExpansionTile(
                 children: [
-                  Row(
-                    children: [
-                      const Expanded(
-                        child: Column(
-                          children: [
-                            ExampleSentenceEnglish(
-                                text: "The doctor told me to stay in bed."),
-                            ExampleSentenceKurdish(
-                                text: "پزیشکەکە پێی گوتم لە جێخەودا بمێنمەوە."),
-                          ],
-                        ),
-                      ),
-                      const CustomSizedBoxForTTS(),
-                      Column(
-                        children: [
-                          CustomIconButtonBritish(
-                            onPressed: () => speakdoctors3("en-GB"),
-                          ),
-                          CustomIconButtonAmerican(
-                            onPressed: () => speakdoctors3("en-US"),
-                          ),
-                        ],
-                      ),
-                    ],
+                  SentencesRow(
+                    englishText: "The doctor told me to stay in bed.",
+                    kurdishText: "پزیشکەکە پێی گوتم لە جێخەودا بمێنمەوە.",
+                    onPressedBritish: () => speakdoctors3("en-GB"),
+                    onPressedAmerican: () => speakdoctors3("en-US"),
                   ),
-                  // const DividerDefinition(),
-                  // const DefinitionKurdish(text: "ژممارە. (کردار) پێنناسە"),
                   const DividerSentences(),
-                  Row(
-                    children: [
-                      const Expanded(
-                        child: Column(
-                          children: [
-                            ExampleSentenceEnglish(
-                                text: "He's training to be a doctor."),
-                            ExampleSentenceKurdish(
-                                text: "ڕاھێنان دەکات بۆ ئەوەی ببێت بە پزیشک."),
-                          ],
-                        ),
-                      ),
-                      const CustomSizedBoxForTTS(),
-                      Column(
-                        children: [
-                          CustomIconButtonBritish(
-                            onPressed: () => speakdoctors4("en-GB"),
-                          ),
-                          CustomIconButtonAmerican(
-                            onPressed: () => speakdoctors4("en-US"),
-                          ),
-                        ],
-                      ),
-                    ],
+                  SentencesRow(
+                    englishText: "He's training to be a doctor.",
+                    kurdishText: "ڕاھێنان دەکات بۆ ئەوەی ببێت بە پزیشک.",
+                    onPressedBritish: () => speakdoctors4("en-GB"),
+                    onPressedAmerican: () => speakdoctors4("en-US"),
                   ),
-                  // const DividerDefinition(),
-                  // const DefinitionKurdish(text: "ژممارە. (کردار) پێنناسە"),
                   const DividerSentences(),
-                  Row(
-                    children: [
-                      const Expanded(
-                        child: Column(
-                          children: [
-                            ExampleSentenceEnglish(
-                                text:
-                                    "If you're worried about your blood pressure, ask your doctor."),
-                            ExampleSentenceKurdish(
-                                text:
-                                    "ئەگەر نیگەرانیت سەبارەت بە پەستانی خوێنت، پەیوەندی بە پزیشکێکەوە بکە."),
-                          ],
-                        ),
-                      ),
-                      const CustomSizedBoxForTTS(),
-                      Column(
-                        children: [
-                          CustomIconButtonBritish(
-                            onPressed: () => speakdoctors5("en-GB"),
-                          ),
-                          CustomIconButtonAmerican(
-                            onPressed: () => speakdoctors5("en-US"),
-                          ),
-                        ],
-                      ),
-                    ],
+                  SentencesRow(
+                    englishText:
+                        "If you're worried about your blood pressure, ask your doctor.",
+                    kurdishText:
+                        "ئەگەر نیگەرانیت سەبارەت بە پەستانی خوێنت، پەیوەندی بە پزیشکێکەوە بکە.",
+                    onPressedBritish: () => speakdoctors5("en-GB"),
+                    onPressedAmerican: () => speakdoctors5("en-US"),
                   ),
-                  // const DividerDefinition(),
-                  // const DefinitionKurdish(text: "ژممارە. (کردار) پێنناسە"),
                   const DividerSentences(),
-                  Row(
-                    children: [
-                      const Expanded(
-                        child: Column(
-                          children: [
-                            ExampleSentenceEnglish(
-                                text: "My mother never visited the doctor."),
-                            ExampleSentenceKurdish(
-                                text: "دایکم ھەرگیز سەردانی پزیشکی نەکرد."),
-                          ],
-                        ),
-                      ),
-                      const CustomSizedBoxForTTS(),
-                      Column(
-                        children: [
-                          CustomIconButtonBritish(
-                            onPressed: () => speakdoctors6("en-GB"),
-                          ),
-                          CustomIconButtonAmerican(
-                            onPressed: () => speakdoctors6("en-US"),
-                          ),
-                        ],
-                      ),
-                    ],
+                  SentencesRow(
+                    englishText: "My mother never visited the doctor.",
+                    kurdishText: "دایکم ھەرگیز سەردانی پزیشکی نەکرد.",
+                    onPressedBritish: () => speakdoctors6("en-GB"),
+                    onPressedAmerican: () => speakdoctors6("en-US"),
                   ),
-                  // const DividerDefinition(),
-                  // const DefinitionKurdish(text: "ژممارە. (کردار) پێنناسە"),
                   const DividerSentences(),
-                  Row(
-                    children: [
-                      const Expanded(
-                        child: Column(
-                          children: [
-                            ExampleSentenceEnglish(
-                                text: "The doctor advised me to rest."),
-                            ExampleSentenceKurdish(
-                                text: "پزیشکەکە ئامۆژگاری کردم بحەسێمەوە."),
-                          ],
-                        ),
-                      ),
-                      const CustomSizedBoxForTTS(),
-                      Column(
-                        children: [
-                          CustomIconButtonBritish(
-                            onPressed: () => speakdoctors7("en-GB"),
-                          ),
-                          CustomIconButtonAmerican(
-                            onPressed: () => speakdoctors7("en-US"),
-                          ),
-                        ],
-                      ),
-                    ],
+                  SentencesRow(
+                    englishText: "The doctor advised me to rest.",
+                    kurdishText: "پزیشکەکە ئامۆژگاری کردم بحەسێمەوە.",
+                    onPressedBritish: () => speakdoctors7("en-GB"),
+                    onPressedAmerican: () => speakdoctors7("en-US"),
                   ),
-                  // const DividerDefinition(),
-                  // const DefinitionKurdish(text: "ژممارە. (کردار) پێنناسە"),
                   const DividerSentences(),
-                  Row(
-                    children: [
-                      const Expanded(
-                        child: Column(
-                          children: [
-                            ExampleSentenceEnglish(
-                                text: "The doctor will see you now."),
-                            ExampleSentenceKurdish(
-                                text: "پزیشکەکە ئێستا دەتبینێت."),
-                          ],
-                        ),
-                      ),
-                      const CustomSizedBoxForTTS(),
-                      Column(
-                        children: [
-                          CustomIconButtonBritish(
-                            onPressed: () => speakdoctors8("en-GB"),
-                          ),
-                          CustomIconButtonAmerican(
-                            onPressed: () => speakdoctors8("en-US"),
-                          ),
-                        ],
-                      ),
-                    ],
+                  SentencesRow(
+                    englishText: "The doctor will see you now.",
+                    kurdishText: "پزیشکەکە ئێستا دەتبینێت.",
+                    onPressedBritish: () => speakdoctors8("en-GB"),
+                    onPressedAmerican: () => speakdoctors8("en-US"),
                   ),
-                  // const DividerDefinition(),
-                  // const DefinitionKurdish(text: "ژممارە. (کردار) پێنناسە"),
                   const DividerSentences(),
-                  Row(
-                    children: [
-                      const Expanded(
-                        child: Column(
-                          children: [
-                            ExampleSentenceEnglish(
-                                text: "We called the doctor immediately."),
-                            ExampleSentenceKurdish(
-                                text: "دەستبەجێ پەیوەندیمان بە پزیش."),
-                          ],
-                        ),
-                      ),
-                      const CustomSizedBoxForTTS(),
-                      Column(
-                        children: [
-                          CustomIconButtonBritish(
-                            onPressed: () => speakdoctors9("en-GB"),
-                          ),
-                          CustomIconButtonAmerican(
-                            onPressed: () => speakdoctors9("en-US"),
-                          ),
-                        ],
-                      ),
-                    ],
+                  SentencesRow(
+                    englishText: "We called the doctor immediately.",
+                    kurdishText: "دەستبەجێ پەیوەندیمان بە پزیش.",
+                    onPressedBritish: () => speakdoctors9("en-GB"),
+                    onPressedAmerican: () => speakdoctors9("en-US"),
                   ),
-                  // const DividerDefinition(),
-                  // const DefinitionKurdish(text: "ژممارە. (کردار) پێنناسە"),
                   const DividerSentences(),
-                  Row(
-                    children: [
-                      const Expanded(
-                        child: Column(
-                          children: [
-                            ExampleSentenceEnglish(text: "Thank you, doctor."),
-                            ExampleSentenceKurdish(text: "سوپاس، دکتۆر."),
-                          ],
-                        ),
-                      ),
-                      const CustomSizedBoxForTTS(),
-                      Column(
-                        children: [
-                          CustomIconButtonBritish(
-                            onPressed: () => speakdoctors10("en-GB"),
-                          ),
-                          CustomIconButtonAmerican(
-                            onPressed: () => speakdoctors10("en-US"),
-                          ),
-                        ],
-                      ),
-                    ],
+                  SentencesRow(
+                    englishText: "Thank you, doctor.",
+                    kurdishText: "سوپاس، دکتۆر.",
+                    onPressedBritish: () => speakdoctors10("en-GB"),
+                    onPressedAmerican: () => speakdoctors10("en-US"),
                   ),
-                  // const DividerDefinition(),
-                  // const DefinitionKurdish(text: "ژممارە. (کردار) پێنناسە"),
                   const DividerSentences(),
-                  Row(
-                    children: [
-                      const Expanded(
-                        child: Column(
-                          children: [
-                            ExampleSentenceEnglish(
-                                text:
-                                    "The doctors and nurses restarted his heart."),
-                            ExampleSentenceKurdish(
-                                text:
-                                    "پزیشکەکان و پەرستارەکان دڵیان خستەوە کار."),
-                          ],
-                        ),
-                      ),
-                      const CustomSizedBoxForTTS(),
-                      Column(
-                        children: [
-                          CustomIconButtonBritish(
-                            onPressed: () => speakdoctors11("en-GB"),
-                          ),
-                          CustomIconButtonAmerican(
-                            onPressed: () => speakdoctors11("en-US"),
-                          ),
-                        ],
-                      ),
-                    ],
+                  SentencesRow(
+                    englishText: "The doctors and nurses restarted his heart.",
+                    kurdishText: "پزیشکەکان و پەرستارەکان دڵیان خستەوە کار.",
+                    onPressedBritish: () => speakdoctors11("en-GB"),
+                    onPressedAmerican: () => speakdoctors11("en-US"),
                   ),
-                  // const DividerDefinition(),
-                  // const DefinitionKurdish(text: "ژممارە. (کردار) پێنناسە"),
                   const DividerSentences(),
-                  Row(
-                    children: [
-                      const Expanded(
-                        child: Column(
-                          children: [
-                            ExampleSentenceEnglish(
-                                text: "Why won't he go to the doctor?"),
-                            ExampleSentenceKurdish(
-                                text: "بۆچی ناچێتە لای پزیشک؟"),
-                          ],
-                        ),
-                      ),
-                      const CustomSizedBoxForTTS(),
-                      Column(
-                        children: [
-                          CustomIconButtonBritish(
-                            onPressed: () => speakdoctors12("en-GB"),
-                          ),
-                          CustomIconButtonAmerican(
-                            onPressed: () => speakdoctors12("en-US"),
-                          ),
-                        ],
-                      ),
-                    ],
+                  SentencesRow(
+                    englishText: "Why won't he go to the doctor?",
+                    kurdishText: "بۆچی ناچێتە لای پزیشک؟",
+                    onPressedBritish: () => speakdoctors12("en-GB"),
+                    onPressedAmerican: () => speakdoctors12("en-US"),
                   ),
-                  // const DividerDefinition(),
-                  // const DefinitionKurdish(text: "ژممارە. (کردار) پێنناسە"),
                   const DividerSentences(),
-                  Row(
-                    children: [
-                      const Expanded(
-                        child: Column(
-                          children: [
-                            ExampleSentenceEnglish(
-                                text: "Who is your family doctor?"),
-                            ExampleSentenceKurdish(
-                                text: "کێ پزیشکی خێزانەکەتە؟"),
-                          ],
-                        ),
-                      ),
-                      const CustomSizedBoxForTTS(),
-                      Column(
-                        children: [
-                          CustomIconButtonBritish(
-                            onPressed: () => speakdoctors13("en-GB"),
-                          ),
-                          CustomIconButtonAmerican(
-                            onPressed: () => speakdoctors13("en-US"),
-                          ),
-                        ],
-                      ),
-                    ],
+                  SentencesRow(
+                    englishText: "Who is your family doctor?",
+                    kurdishText: "کێ پزیشکی خێزانەکەتە؟",
+                    onPressedBritish: () => speakdoctors13("en-GB"),
+                    onPressedAmerican: () => speakdoctors13("en-US"),
                   ),
                 ],
               ),
             ],
           ),
+
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٢. (ناو) شوێنی پزیشک کە تێیدا نەخۆش دەبینێت"),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "Why don't you go to the doctor's?"),
-                    ExampleSentenceKurdish(text: "بۆچی ناچیت بۆ لای پزیشکەکە؟"),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdoctors14("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdoctors14("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "Why don't you go to the doctor's?",
+            kurdishText: "بۆچی ناچیت بۆ لای پزیشکەکە؟",
+            onPressedBritish: () => speakdoctors14("en-GB"),
+            onPressedAmerican: () => speakdoctors14("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٣. (ناو) کەسێک کە بەرزترین بڕوانامەی زانکۆی ھەیە"),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "After years of hard work, she finally became a doctor of psychology."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "لە دوای چەندین ساڵ ھەوڵی سەخت، لە کۆتاییدا بوو بە دکتۆری دەروونناسی."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdoctors15("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdoctors15("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "After years of hard work, she finally became a doctor of psychology.",
+            kurdishText:
+                "لە دوای چەندین ساڵ ھەوڵی سەخت، لە کۆتاییدا بوو بە دکتۆری دەروونناسی.",
+            onPressedBritish: () => speakdoctors15("en-GB"),
+            onPressedAmerican: () => speakdoctors15("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٤. (کردار) گۆڕینی شتێک بۆ خەڵەتاندنی کەسێک"),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "He was accused of doctoring the figures."),
-                    ExampleSentenceKurdish(
-                        text: "تاوانبارکرا بە چەواشەکردنی ئامارەکان."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdoctors16("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdoctors16("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "He was accused of doctoring the figures.",
+            kurdishText: "تاوانبارکرا بە چەواشەکردنی ئامارەکان.",
+            onPressedBritish: () => speakdoctors16("en-GB"),
+            onPressedAmerican: () => speakdoctors16("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
                   "٥. (کردار) زیادکردنی شتێکی زیانبەخش یان ژەھراوی بۆ خواردن یان خواردنەوە"),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(text: "The wine had been doctored."),
-                    ExampleSentenceKurdish(text: "شەرابەکە ژەھراوی کرابوو."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdoctors17("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdoctors17("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "The wine had been doctored.",
+            kurdishText: "شەرابەکە ژەھراوی کرابوو.",
+            onPressedBritish: () => speakdoctors17("en-GB"),
+            onPressedAmerican: () => speakdoctors17("en-US"),
           ),
           // doctors1800"),
           // speakdoctors18

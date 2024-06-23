@@ -377,88 +377,30 @@ class KurdishMeaning extends StatelessWidget {
 کوردی: ڕێک‌وپێکی، شۆخی، شۆخ‌وشەنگی، پێکەوتوویی، ئەدا، ناز، ئەتوار، جوانی، وردەکاری
 """),
           const DefinitionKurdish(text: """١. (ناو) سەرنجڕاکێش و بەسەلیقە"""),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: """She dresses with casual elegance."""),
-                    ExampleSentenceKurdish(
-                        text: """بە شۆخ‌وشەنگیی سادەوە جل لەبەر دەکات."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "elegance", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakelegances1("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakelegances1("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: """She dresses with casual elegance.""",
+            kurdishText:
+                """بە شۆخ‌وشەنگیی سادەوە جل لەبەر دەکات.""", // elegance
+            onPressedBritish: () => speakelegances1("en-GB"),
+            onPressedAmerican: () => speakelegances1("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: """His writing combines elegance and wit."""),
-                    ExampleSentenceKurdish(
-                        text: """نووسینەکانی جوانی و زیرەکی کۆدەکاتەوە."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakelegances2("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakelegances2("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: """His writing combines elegance and wit.""",
+            kurdishText: """نووسینەکانی جوانی و زیرەکی کۆدەکاتەوە.""",
+            onPressedBritish: () => speakelegances2("en-GB"),
+            onPressedAmerican: () => speakelegances2("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            """It was her natural elegance that struck me."""),
-                    ExampleSentenceKurdish(
-                        text:
-                            """ئەوەی سەرنجی ڕاکێشام شۆخ‌وشەنگیی سرووشتیی بوو."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakelegances3("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakelegances3("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: """It was her natural elegance that struck me.""",
+            kurdishText: """ئەوەی سەرنجی ڕاکێشام شۆخ‌وشەنگیی سرووشتیی بوو.""",
+            onPressedBritish: () => speakelegances3("en-GB"),
+            onPressedAmerican: () => speakelegances3("en-US"),
           ),
           // elegances400elegances4
           // speakelegances4

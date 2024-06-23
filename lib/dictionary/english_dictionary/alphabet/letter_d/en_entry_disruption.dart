@@ -241,60 +241,23 @@ class KurdishMeaning extends StatelessWidget {
 """),
           const DefinitionKurdish(
               text: "١. (ناو) دۆخێک کە سەختە شتێک بەشێوەی ئاسایی بەردەوام بێت"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "The strike caused serious disruptions."),
-                    ExampleSentenceKurdish(
-                        text: "مانگرتنەکە بوو بە ھۆکاری پەککەوتنی توند."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "disruption", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdisruptions1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdisruptions1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "The strike caused serious disruptions.",
+            kurdishText:
+                "مانگرتنەکە بوو بە ھۆکاری پەککەوتنی توند.", // disruption
+            onPressedBritish: () => speakdisruptions1("en-GB"),
+            onPressedAmerican: () => speakdisruptions1("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "We aim to help you move house with minimum disruption to yourself."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "یارمەتییت دەدەین ماڵ بگوازیتەوە بە کەمترین کێشە بۆ خۆت."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdisruptions2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdisruptions2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "We aim to help you move house with minimum disruption to yourself.",
+            kurdishText:
+                "یارمەتییت دەدەین ماڵ بگوازیتەوە بە کەمترین کێشە بۆ خۆت.",
+            onPressedBritish: () => speakdisruptions2("en-GB"),
+            onPressedAmerican: () => speakdisruptions2("en-US"),
           ),
           // disruptions300"),
           // speakdisruptions3

@@ -261,119 +261,41 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "١. (کردار) پێدانی زانیارییەک بە کەسێک، بەتایبەتی یەکێک کە پێشووتر نھێنی بوو"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The spokesman refused to disclose details of the takeover to the press."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "وتەبێژەکە ڕەتیکردەوە کە وردەکارییەکانی شوێنگرتنەوەکە بدات بە ڕۆژنامەنووسان."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "disclose", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdiscloses1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdiscloses1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "The spokesman refused to disclose details of the takeover to the press.",
+            kurdishText:
+                "وتەبێژەکە ڕەتیکردەوە کە وردەکارییەکانی شوێنگرتنەوەکە بدات بە ڕۆژنامەنووسان.", // disclose
+            onPressedBritish: () => speakdiscloses1("en-GB"),
+            onPressedAmerican: () => speakdiscloses1("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The report discloses that human error was to blame for the accident."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "ڕاپۆرتەکە ئەوە ئاشکرا دەکات کە ھەڵەی مرۆڤ بەرپرسی ڕووداوەکە بوو."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdiscloses2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdiscloses2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "The report discloses that human error was to blame for the accident.",
+            kurdishText:
+                "ڕاپۆرتەکە ئەوە ئاشکرا دەکات کە ھەڵەی مرۆڤ بەرپرسی ڕووداوەکە بوو.",
+            onPressedBritish: () => speakdiscloses2("en-GB"),
+            onPressedAmerican: () => speakdiscloses2("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "It was disclosed that two women were being interviewed by the police."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "ئەوە ئاشکرا کرا کە دوو ژن لەلایەن پۆلیسەوە لێکۆڵینەوەیان لێدەکرا."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdiscloses3("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdiscloses3("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "It was disclosed that two women were being interviewed by the police.",
+            kurdishText:
+                "ئەوە ئاشکرا کرا کە دوو ژن لەلایەن پۆلیسەوە لێکۆڵینەوەیان لێدەکرا.",
+            onPressedBritish: () => speakdiscloses3("en-GB"),
+            onPressedAmerican: () => speakdiscloses3("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٢. (کردار) ئاشکراکردن یان دەرخستنی شتێک"),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The door swung open, disclosing a long dark passage."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "دەرگاکە کرایەوە و ڕێڕەوێکی تاریکی درێژی بەدەرخست."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdiscloses4("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdiscloses4("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "The door swung open, disclosing a long dark passage.",
+            kurdishText: "دەرگاکە کرایەوە و ڕێڕەوێکی تاریکی درێژی بەدەرخست.",
+            onPressedBritish: () => speakdiscloses4("en-GB"),
+            onPressedAmerican: () => speakdiscloses4("en-US"),
           ),
           // discloses500"),
           // speakdiscloses5

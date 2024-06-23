@@ -258,86 +258,31 @@ class KurdishMeaning extends StatelessWidget {
 کوردی: جێ‌بەزەیی، گوناە، شپرزە، مایەی ناڕەحەتی، جێی داخە، خراپ، دڵتەزێن، جەرگبڕ، پیس، ناخۆش، ناحەز
 """),
           const DefinitionKurdish(text: "١. (ھاوەڵناو) زۆر خراپ"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(text: "The acting was deplorable."),
-                    ExampleSentenceKurdish(text: "نمایشەکە زۆر خراپ بوو."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "deplorable", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdeplorables1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdeplorables1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "The acting was deplorable.",
+            kurdishText: "نمایشەکە زۆر خراپ بوو.", // deplorable
+            onPressedBritish: () => speakdeplorables1("en-GB"),
+            onPressedAmerican: () => speakdeplorables1("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "They were living in the most deplorable conditions."),
-                    ExampleSentenceKurdish(text: "لە شپرزەترین دۆخدا دەژین."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdeplorables2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdeplorables2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "They were living in the most deplorable conditions.",
+            kurdishText: "لە شپرزەترین دۆخدا دەژین.",
+            onPressedBritish: () => speakdeplorables2("en-GB"),
+            onPressedAmerican: () => speakdeplorables2("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "It is deplorable there is no legal protection for these children."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "ئەوەی ھیچ پاراستنێکی یاسایی بۆ ئەم منداڵانە نییە دڵتەزێنە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdeplorables3("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdeplorables3("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "It is deplorable there is no legal protection for these children.",
+            kurdishText:
+                "ئەوەی ھیچ پاراستنێکی یاسایی بۆ ئەم منداڵانە نییە دڵتەزێنە.",
+            onPressedBritish: () => speakdeplorables3("en-GB"),
+            onPressedAmerican: () => speakdeplorables3("en-US"),
           ),
           // deplorables400"),
           // speakdeplorables4

@@ -255,91 +255,34 @@ class KurdishMeaning extends StatelessWidget {
 کوردی: ئەشکەوت، کەورگ،	کون، کولانە، بوودڕ، گووڤ، لانە، کەڵما (ھی ورچ و پڵنگ)،	حەشارگە، شوێنی کۆبوونەوەی نھێنی، کون، مەکۆ،	جێگای چۆڵ یان خەڵوەت، دیوی چۆڵ، دینج (ئەڵمانی بنەڕەت)
 """),
           const DefinitionKurdish(text: "١. (ناو) لانەی ھەندێک ئاژەڵ"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "We saw a lion entering its den at the zoo."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "شێرێکمان بینی چووە ھێلانەکەی لە باخچە ئاژەڵانەکە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "den", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdens1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdens1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "We saw a lion entering its den at the zoo.",
+            kurdishText:
+                "شێرێکمان بینی چووە ھێلانەکەی لە باخچە ئاژەڵانەکە.", // den
+            onPressedBritish: () => speakdens1("en-GB"),
+            onPressedAmerican: () => speakdens1("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
                   "٢. (ناو) شوێنێک کە تێیدا خەڵکی بەنھێنی کۆدەبنەوە، بەتایبەتی بۆ چالاکییەکی نایاسایی"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "He thought of New York as a den of iniquity."),
-                    ExampleSentenceKurdish(
-                        text: "نیویۆرکی وەک شاری زوڵم‌وزۆری دەبینی."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdens2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdens2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "He thought of New York as a den of iniquity.",
+            kurdishText: "نیویۆرکی وەک شاری زوڵم‌وزۆری دەبینی.",
+            onPressedBritish: () => speakdens2("en-GB"),
+            onPressedAmerican: () => speakdens2("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
                   "٣. (ناو) ژوورێک لە خانوویەکدا کە کەسێک تێیدا دەتوانێت سەرنج بخاتە سەر کارکردن"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "He would often retire to his den."),
-                    ExampleSentenceKurdish(
-                        text: "زۆرجار پەنا دەباتە بەر خەڵوەتەکەی."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdens3("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdens3("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "He would often retire to his den.",
+            kurdishText: "زۆرجار پەنا دەباتە بەر خەڵوەتەکەی.",
+            onPressedBritish: () => speakdens3("en-GB"),
+            onPressedAmerican: () => speakdens3("en-US"),
           ),
           // dens400"),
           // speakdens4

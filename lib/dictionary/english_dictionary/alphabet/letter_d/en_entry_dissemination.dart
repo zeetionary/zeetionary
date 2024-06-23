@@ -235,32 +235,13 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "١. (ناو) بڵاوکردنەوەی زانست و زانیاری بۆ ئەوەی بگات بە زۆرترین کەس"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "Anything that stands in the way of the dissemination of knowledge is a real problem."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "ھەر شتێک کە لە ڕێگای بڵاوبوونەوەی زانست دەوەستێت کێشەیەکی ڕاستەقینەیە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "dissemination", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdisseminations1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdisseminations1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "Anything that stands in the way of the dissemination of knowledge is a real problem.",
+            kurdishText:
+                "ھەر شتێک کە لە ڕێگای بڵاوبوونەوەی زانست دەوەستێت کێشەیەکی ڕاستەقینەیە.", // dissemination
+            onPressedBritish: () => speakdisseminations1("en-GB"),
+            onPressedAmerican: () => speakdisseminations1("en-US"),
           ),
           // disseminations200"),
           // speakdisseminations2

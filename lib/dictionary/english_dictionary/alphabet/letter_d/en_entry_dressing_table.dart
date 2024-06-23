@@ -366,32 +366,13 @@ class KurdishMeaning extends StatelessWidget {
               text:
                   "١. (ناو) پارچەیەک لە کەلوپەلی ماڵەوە لە ژووری نووستن کە ئاوێنەی لە سەرەوە ھەیە لەگەڵ دۆڵاب و چەکمەجە لە خوارەوە"),
           const AlsoEnglishckb(word: "ھەروەھا: vanity table، ئەمریکی: vanity"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "She kept her jewelry in the drawers of her dressing table."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "خشڵەکانی لە چەکمەجەی مێزی خۆڕازاندنەوەکەی ھەڵگرت."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "dressing table", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdressingtables1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdressingtables1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "She kept her jewelry in the drawers of her dressing table.",
+            kurdishText:
+                "خشڵەکانی لە چەکمەجەی مێزی خۆڕازاندنەوەکەی ھەڵگرت.", // dressing table
+            onPressedBritish: () => speakdressingtables1("en-GB"),
+            onPressedAmerican: () => speakdressingtables1("en-US"),
           ),
           // dressingtables200"),
           // speakdressingtables2

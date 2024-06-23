@@ -364,31 +364,12 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   """١. (ناو) کورسییەک کە لە دۆخی لەناکاودا ڕێگا بە فڕۆکەوانێک دەدات لە فڕۆکەیەک بێتە دەرەوە لە دۆخی لەناکاودا"""),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: """The pilot was saved by the ejector seat."""),
-                    ExampleSentenceKurdish(
-                        text:
-                            """فڕۆکەوانەکە بەھۆی کورسییە ھاوێژەرەکەوە ڕزگاری بوو."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "ejection seat", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakejectionseats1("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakejectionseats1("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: """The pilot was saved by the ejector seat.""",
+            kurdishText:
+                """فڕۆکەوانەکە بەھۆی کورسییە ھاوێژەرەکەوە ڕزگاری بوو.""", // ejection seat
+            onPressedBritish: () => speakejectionseats1("en-GB"),
+            onPressedAmerican: () => speakejectionseats1("en-US"),
           ),
           // ejectionseats200ejectionseats2
           // speakejectionseats2

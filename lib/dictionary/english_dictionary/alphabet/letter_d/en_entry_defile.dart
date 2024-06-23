@@ -260,92 +260,35 @@ class KurdishMeaning extends StatelessWidget {
 """),
           const DefinitionKurdish(
               text: "١. (کردار) پیسکردنی شتێک، بەتایبەتی شتێکی گرنگ یان پیرۆز"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "Many victims of burglary feel their homes have been defiled."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "زۆرێک لە قوربانیانی دزی وا ھەست ماڵەکانیان پیسکراون."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "defile", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdefiles1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdefiles1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "Many victims of burglary feel their homes have been defiled.",
+            kurdishText:
+                "زۆرێک لە قوربانیانی دزی وا ھەست ماڵەکانیان پیسکراون.", // defile
+            onPressedBritish: () => speakdefiles1("en-GB"),
+            onPressedAmerican: () => speakdefiles1("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The soldiers deliberately defiled all the holy places."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "سەربازەکان بە ئەنقەست سوکایەتییان بر شوێنە پیرۆزەکانیان دەکرد."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdefiles2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdefiles2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "The soldiers deliberately defiled all the holy places.",
+            kurdishText:
+                "سەربازەکان بە ئەنقەست سوکایەتییان بر شوێنە پیرۆزەکانیان دەکرد.",
+            onPressedBritish: () => speakdefiles2("en-GB"),
+            onPressedAmerican: () => speakdefiles2("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٢. (ھاوەڵناو) ڕێگایەکی تەسک بە نێوان سوو چیادا"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The hikers followed a rocky defile that wound through the mountains."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "شاخەوانان بە تەنگەڵانێکی بەرداویدا چوون کە بە دەوری شاخەکاندا دەچوو."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdefiles3("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdefiles3("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "The hikers followed a rocky defile that wound through the mountains.",
+            kurdishText:
+                "شاخەوانان بە تەنگەڵانێکی بەرداویدا چوون کە بە دەوری شاخەکاندا دەچوو.",
+            onPressedBritish: () => speakdefiles3("en-GB"),
+            onPressedAmerican: () => speakdefiles3("en-US"),
           ),
           // defiles400"),
           // speakdefiles4

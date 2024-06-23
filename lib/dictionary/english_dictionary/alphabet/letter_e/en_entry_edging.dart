@@ -362,30 +362,11 @@ class KurdishMeaning extends StatelessWidget {
 """),
           const DefinitionKurdish(
               text: """١. (ناو) شتێک کە قەراغی شتێک پێکدێێت"""),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: """The carpet's edging was starting to fray."""),
-                    ExampleSentenceKurdish(
-                        text: """ڕیشکی ڕایەخەکە خەریک بوو شیدەبووەوە."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "edging", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakedgings1("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakedgings1("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: """The carpet's edging was starting to fray.""",
+            kurdishText: """ڕیشکی ڕایەخەکە خەریک بوو شیدەبووەوە.""", // edging
+            onPressedBritish: () => speakedgings1("en-GB"),
+            onPressedAmerican: () => speakedgings1("en-US"),
           ),
           // edgings200edgings2
           // speakedgings2

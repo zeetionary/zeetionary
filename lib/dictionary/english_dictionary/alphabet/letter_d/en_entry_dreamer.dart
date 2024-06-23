@@ -380,89 +380,33 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "١. (ناو) کەسێک کە خەون و بیرۆکە و ھەیە کە نالۆژیکی و ناڕاستین"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "He was a romantic dreamer. a romantic dreamer."),
-                    ExampleSentenceKurdish(text: "خەوبینێکی ڕۆمانسی بوو."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "dreamer", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdreamers1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdreamers1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "He was a romantic dreamer. a romantic dreamer.",
+            kurdishText: "خەوبینێکی ڕۆمانسی بوو.", // dreamer
+            onPressedBritish: () => speakdreamers1("en-GB"),
+            onPressedAmerican: () => speakdreamers1("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
                   "٢. (ناو) کەسێک کە بیر لەوە ناکاتەوە کە لە دەورووبەری ڕوودەدات بەڵکو بیر لە شتی دیکە ناکاتەوە"),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "She often missed instructions because she was a dreamer."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "زۆرجار ڕێنماییەکانی لەدەست دەچوو لەبەر ئەوەی خەیاڵ‌پڵاوە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdreamers2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdreamers2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "She often missed instructions because she was a dreamer.",
+            kurdishText:
+                "زۆرجار ڕێنماییەکانی لەدەست دەچوو لەبەر ئەوەی خەیاڵ‌پڵاوە.",
+            onPressedBritish: () => speakdreamers2("en-GB"),
+            onPressedAmerican: () => speakdreamers2("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: "٣. (ناو) کەسێک کە خەون دەبینێت"),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "Dreamers do not always remember their dreams."),
-                    ExampleSentenceKurdish(
-                        text: "خەونبینان مەرج نییە ھەمیشە خەونەکانیان بیربێت."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdreamers3("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdreamers3("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "Dreamers do not always remember their dreams.",
+            kurdishText: "خەونبینان مەرج نییە ھەمیشە خەونەکانیان بیربێت.",
+            onPressedBritish: () => speakdreamers3("en-GB"),
+            onPressedAmerican: () => speakdreamers3("en-US"),
           ),
           // dreamers400"),
           // speakdreamers4

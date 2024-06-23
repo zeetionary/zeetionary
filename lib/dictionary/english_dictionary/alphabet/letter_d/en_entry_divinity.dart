@@ -380,91 +380,34 @@ class KurdishMeaning extends StatelessWidget {
 کوردی: خودایێتی، خودایەتی، خوایەتی، یەزدانێتی،	خوا، خودا، خواژن،	یەزدان‌ناسی، دین‌ناسی، تیۆلۆژی، ئایینەوانی، دینەوانی، کردگار، خوداوەند
 """),
           const DefinitionKurdish(text: "١. (ناو) پێگەی خودایی"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "How can you be a Christian and dispute the divinity of Jesus?"),
-                    ExampleSentenceKurdish(
-                        text:
-                            "چۆن دەکرێت مەسیحی بیت و ناکۆک بیت لەگەڵ خودایەتی عیسای مەسیح؟"),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "divinity", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdivinitys1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdivinitys1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "How can you be a Christian and dispute the divinity of Jesus?",
+            kurdishText:
+                "چۆن دەکرێت مەسیحی بیت و ناکۆک بیت لەگەڵ خودایەتی عیسای مەسیح؟", // divinity
+            onPressedBritish: () => speakdivinitys1("en-GB"),
+            onPressedAmerican: () => speakdivinitys1("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: "٢. (ناو) خودا یان خوداوەند"),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The ancient Greeks believed in multiple divinities, each with their own realm of influence."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "یۆنانییە کۆنەکان باوەڕیان بە ژمارەیەک پەروەردگار ھەبوو کە ھەریەکەیان دەسەڵات و کاریگەریی خۆیان ھەبوو."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdivinitys2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdivinitys2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "The ancient Greeks believed in multiple divinities, each with their own realm of influence.",
+            kurdishText:
+                "یۆنانییە کۆنەکان باوەڕیان بە ژمارەیەک پەروەردگار ھەبوو کە ھەریەکەیان دەسەڵات و کاریگەریی خۆیان ھەبوو.",
+            onPressedBritish: () => speakdivinitys2("en-GB"),
+            onPressedAmerican: () => speakdivinitys2("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: "٣. (ناو) لێکۆڵینەوە لە ئایین"),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "She has a Doctorate in Divinity from York University."),
-                    ExampleSentenceKurdish(
-                        text: "دکتۆرای لە زانکۆی یۆرک ھەیە لە یەزدان‌ناسی."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdivinitys3("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdivinitys3("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "She has a Doctorate in Divinity from York University.",
+            kurdishText: "دکتۆرای لە زانکۆی یۆرک ھەیە لە یەزدان‌ناسی.",
+            onPressedBritish: () => speakdivinitys3("en-GB"),
+            onPressedAmerican: () => speakdivinitys3("en-US"),
           ),
           // divinitys400"),
           // speakdivinitys4

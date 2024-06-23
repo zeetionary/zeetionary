@@ -396,143 +396,49 @@ class KurdishMeaning extends StatelessWidget {
 کوردی: خودایی، یەزدانی، ئاسمانی، ئەھورایی، ئایینی، دینی،	نافەرمی یەکجار باش، ھەرەچاک، سەیر، مەحشەر
 """),
           const DefinitionKurdish(text: "١. (ھاوەڵناو) پەیوەندیدار بە خودا"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "Some fans seem to regard the players as divine beings."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "ھەندێک ھەوادار وادیارن کە یاریزانەکان وەک بوونی خودایی دادەنێت."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "divine", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdivines1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdivines1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "Some fans seem to regard the players as divine beings.",
+            kurdishText:
+                "ھەندێک ھەوادار وادیارن کە یاریزانەکان وەک بوونی خودایی دادەنێت.", // divine
+            onPressedBritish: () => speakdivines1("en-GB"),
+            onPressedAmerican: () => speakdivines1("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "Just because you've been promoted, that doesn't give you a divine right (= one like that of a god) to tell us all what to do."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "تەنھا لەبەرئەوەی پلەت بەرزکراوەتەوە، ئەوە ئەو مافە خوداییەت پێنادات کە بە ھەموومان بڵێیت چی بکەین."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdivines2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdivines2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "Just because you've been promoted, that doesn't give you a divine right (= one like that of a god) to tell us all what to do.",
+            kurdishText:
+                "تەنھا لەبەرئەوەی پلەت بەرزکراوەتەوە، ئەوە ئەو مافە خوداییەت پێنادات کە بە ھەموومان بڵێیت چی بکەین.",
+            onPressedBritish: () => speakdivines2("en-GB"),
+            onPressedAmerican: () => speakdivines2("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: "٢. (ھاوەڵناو) تەواو جوان"),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(text: "That mango tasted divine!"),
-                    ExampleSentenceKurdish(text: "مانگۆکە تامی ناوازە بوو."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdivines3("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdivines3("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "That mango tasted divine!",
+            kurdishText: "مانگۆکە تامی ناوازە بوو.",
+            onPressedBritish: () => speakdivines3("en-GB"),
+            onPressedAmerican: () => speakdivines3("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٣. (کردار) دۆزینەوەی شتێک بە ھەڵھێنان"),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "They had quickly divined that he was a fraud."),
-                    ExampleSentenceKurdish(
-                        text: "زوو ھەڵیانھێنا کە ساختەچی بوو."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdivines4("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdivines4("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "They had quickly divined that he was a fraud.",
+            kurdishText: "زوو ھەڵیانھێنا کە ساختەچی بوو.",
+            onPressedBritish: () => speakdivines4("en-GB"),
+            onPressedAmerican: () => speakdivines4("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "She could divine what he was thinking just by looking at him."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "تەنھا بە سەیرکردن نەیدەتوانی بزانێت چی دەفکرێت."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdivines5("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdivines5("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "She could divine what he was thinking just by looking at him.",
+            kurdishText: "تەنھا بە سەیرکردن نەیدەتوانی بزانێت چی دەفکرێت.",
+            onPressedBritish: () => speakdivines5("en-GB"),
+            onPressedAmerican: () => speakdivines5("en-US"),
           ),
           // divines600"),
           // speakdivines6

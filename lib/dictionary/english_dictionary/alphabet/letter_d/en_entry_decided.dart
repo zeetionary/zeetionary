@@ -256,112 +256,36 @@ class KurdishMeaning extends StatelessWidget {
 کوردی: سوور، شێلگیر، پتەو، دڵنیا، بڕا، بەبڕیار، یەکلایی‌کەرەوە، شێلگیرانە، لێ‌بڕاوانە،	دیار، دیاری‌کراو، ئاشکرا، ڕوون، لەبەرچاو، بەدیارەوە
 """),
           const DefinitionKurdish(text: "١. (ھاوەڵناو) ئاشکرا و ڕوون"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "She had a decided advantage over her opponent."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "لەپێشینەییەکی ئاشكرای بەسەر ڕکابەرەکەیدا ھەبوو."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "decided", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdecideds1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdecideds1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "She had a decided advantage over her opponent.",
+            kurdishText:
+                "لەپێشینەییەکی ئاشكرای بەسەر ڕکابەرەکەیدا ھەبوو.", // decided
+            onPressedBritish: () => speakdecideds1("en-GB"),
+            onPressedAmerican: () => speakdecideds1("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "He walked with a decided limp."),
-                    ExampleSentenceKurdish(
-                        text: "ھاتەژوورەوە بە شەلییەکی ئاشكراوە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdecideds2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdecideds2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "He walked with a decided limp.",
+            kurdishText: "ھاتەژوورەوە بە شەلییەکی ئاشكراوە.",
+            onPressedBritish: () => speakdecideds2("en-GB"),
+            onPressedAmerican: () => speakdecideds2("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: "٢. (ھاوەڵناو) ھەبوونی بۆچوونی بەھێز"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "She was a very decided young woman, eager to do some good in the world."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "ژنێکی گەنجی زۆر شێلگیر بوو، بەپەرۆش بوو بۆ ئەوەی چەند کارێکی باش لە جیھاندا بکات."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdecideds3("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdecideds3("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "She was a very decided young woman, eager to do some good in the world.",
+            kurdishText:
+                "ژنێکی گەنجی زۆر شێلگیر بوو، بەپەرۆش بوو بۆ ئەوەی چەند کارێکی باش لە جیھاندا بکات.",
+            onPressedBritish: () => speakdecideds3("en-GB"),
+            onPressedAmerican: () => speakdecideds3("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "He had become even more decided in his views."),
-                    ExampleSentenceKurdish(
-                        text: "زیاتر سووربووبوو لەسەر بۆچوونەکانی."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdecideds4("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdecideds4("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "He had become even more decided in his views.",
+            kurdishText: "زیاتر سووربووبوو لەسەر بۆچوونەکانی.",
+            onPressedBritish: () => speakdecideds4("en-GB"),
+            onPressedAmerican: () => speakdecideds4("en-US"),
           ),
         ],
       ),

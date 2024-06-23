@@ -283,197 +283,64 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "١. (ناو) شتێک کە وا لە شتێک دەکات جوان دەربکەوێت لە بۆنەی تایبەتدا"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "Halloween decorations hung from every corner."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "ڕازاندنەوەی ھاڵۆوین لە ھەموو سوچێک شۆڕبووبوونەوە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "decoration", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdecorations1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdecorations1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "Halloween decorations hung from every corner.",
+            kurdishText:
+                "ڕازاندنەوەی ھاڵۆوین لە ھەموو سوچێک شۆڕبووبوونەوە.", // decoration
+            onPressedBritish: () => speakdecorations1("en-GB"),
+            onPressedAmerican: () => speakdecorations1("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "We made our own decorations."),
-                    ExampleSentenceKurdish(text: "ڕازاندنەوەی خۆمان ئەنجامدا."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdecorations2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdecorations2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "We made our own decorations.",
+            kurdishText: "ڕازاندنەوەی خۆمان ئەنجامدا.",
+            onPressedBritish: () => speakdecorations2("en-GB"),
+            onPressedAmerican: () => speakdecorations2("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "Floral decorations adorned the church."),
-                    ExampleSentenceKurdish(
-                        text: "ڕازاندنەوەی گوڵ کڵێساکەی ڕازاندبوویەوە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdecorations3("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdecorations3("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "Floral decorations adorned the church.",
+            kurdishText: "ڕازاندنەوەی گوڵ کڵێساکەی ڕازاندبوویەوە.",
+            onPressedBritish: () => speakdecorations3("en-GB"),
+            onPressedAmerican: () => speakdecorations3("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
                   "٢. (ناو) شێوەیەک کە بۆ شتێک زیاد دەکرێت و وادەکات سادە نەبێت"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "Ornate decorations embellish the statues."),
-                    ExampleSentenceKurdish(
-                        text: "ڕازاندنەوەی نەخشێندراو پەیکەرەکان جوان دەکەن."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdecorations4("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdecorations4("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "Ornate decorations embellish the statues.",
+            kurdishText: "ڕازاندنەوەی نەخشێندراو پەیکەرەکان جوان دەکەن.",
+            onPressedBritish: () => speakdecorations4("en-GB"),
+            onPressedAmerican: () => speakdecorations4("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "Rings are worn both for decoration and also as signs of status."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "ئەڵقە لە پەنجە دەکرێت بۆ جوانی و وەک ئاماژەیەک بە پێگە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdecorations5("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdecorations5("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "Rings are worn both for decoration and also as signs of status.",
+            kurdishText:
+                "ئەڵقە لە پەنجە دەکرێت بۆ جوانی و وەک ئاماژەیەک بە پێگە.",
+            onPressedBritish: () => speakdecorations5("en-GB"),
+            onPressedAmerican: () => speakdecorations5("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: "٣. (ناو) شێوەی ڕازاندنەوەی شتێک"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "An Oscar was given for the art direction and set decoration."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "خەڵاتاتێکی ئۆسکار درا بۆ دەرھێنانی ھونەری و ڕازاندنەوەی سەرشانۆکە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdecorations6("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdecorations6("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "An Oscar was given for the art direction and set decoration.",
+            kurdishText:
+                "خەڵاتاتێکی ئۆسکار درا بۆ دەرھێنانی ھونەری و ڕازاندنەوەی سەرشانۆکە.",
+            onPressedBritish: () => speakdecorations6("en-GB"),
+            onPressedAmerican: () => speakdecorations6("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٤. (ناو) خەڵاتێک کە بە کەسێک دەدرێت وەک شانازییەک"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "His jacket was heavy with military decorations."),
-                    ExampleSentenceKurdish(
-                        text: "چاکەتەکەی پڕ لە مەدالیای سەربازی بوو."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdecorations7("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdecorations7("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "His jacket was heavy with military decorations.",
+            kurdishText: "چاکەتەکەی پڕ لە مەدالیای سەربازی بوو.",
+            onPressedBritish: () => speakdecorations7("en-GB"),
+            onPressedAmerican: () => speakdecorations7("en-US"),
           ),
         ],
       ),

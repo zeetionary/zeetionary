@@ -372,62 +372,23 @@ class KurdishMeaning extends StatelessWidget {
 // """),
           const DefinitionKurdish(
               text: """١. (ھاوەڵکار) بەشێوەیەک کە تووشی شەرمت دەکات"""),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            """Embarrassingly, I'd never heard of Rihanna."""),
-                    ExampleSentenceKurdish(
-                        text:
-                            """شەرمھێنەرانە، ھەرگیز لەسەر ڕێھانام نەبیستبوو."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "embarrassingly", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakembarrassinglys1("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakembarrassinglys1("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: """Embarrassingly, I'd never heard of Rihanna.""",
+            kurdishText:
+                """شەرمھێنەرانە، ھەرگیز لەسەر ڕێھانام نەبیستبوو.""", // embarrassingly
+            onPressedBritish: () => speakembarrassinglys1("en-GB"),
+            onPressedAmerican: () => speakembarrassinglys1("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
                   """٢. (ھاوەڵکار) بە شێوەیەک کە وا دەکات کەسێک/شتێک خراپ، گەمژە، تەڵەکەباز"""),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: """The play was embarrassingly bad."""),
-                    ExampleSentenceKurdish(
-                        text: """شانۆکە نیگەرانکەرانە خراپ بوو."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakembarrassinglys2("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakembarrassinglys2("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: """The play was embarrassingly bad.""",
+            kurdishText: """شانۆکە نیگەرانکەرانە خراپ بوو.""",
+            onPressedBritish: () => speakembarrassinglys2("en-GB"),
+            onPressedAmerican: () => speakembarrassinglys2("en-US"),
           ),
           // embarrassinglys300embarrassinglys3
           // speakembarrassinglys3

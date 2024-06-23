@@ -242,62 +242,22 @@ class KurdishMeaning extends StatelessWidget {
 """),
           const DefinitionKurdish(
               text: "١. (ناو) مشتومڕی نێوان خەڵکی یان لە گرووپێک"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "These issues caused bitter dissension in the party."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "ئەم بابەتانە بوونە ھۆکاری گفتووگۆی توند لە پارتەکە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "dissension", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdissensions1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdissensions1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "These issues caused bitter dissension in the party.",
+            kurdishText:
+                "ئەم بابەتانە بوونە ھۆکاری گفتووگۆی توند لە پارتەکە.", // dissension
+            onPressedBritish: () => speakdissensions1("en-GB"),
+            onPressedAmerican: () => speakdissensions1("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "There are signs of dissension within the ruling political party."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "ئاماژەی مشتومڕ ھەیە لە پارتە سیاسییە دەسەڵاتدارەکە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdissensions2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdissensions2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "There are signs of dissension within the ruling political party.",
+            kurdishText: "ئاماژەی مشتومڕ ھەیە لە پارتە سیاسییە دەسەڵاتدارەکە.",
+            onPressedBritish: () => speakdissensions2("en-GB"),
+            onPressedAmerican: () => speakdissensions2("en-US"),
           ),
           // dissensions300"),
           // speakdissensions3

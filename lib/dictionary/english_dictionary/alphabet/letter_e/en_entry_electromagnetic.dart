@@ -365,32 +365,13 @@ class KurdishMeaning extends StatelessWidget {
 """),
           const DefinitionKurdish(
               text: """١. (ھاوەڵناو) کە خاسیەتی کارەبایی و موگناتیزی ھەیە"""),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            """An electromagnetic wave is created as a result of the interaction between an electric field and a magnetic field."""),
-                    ExampleSentenceKurdish(
-                        text:
-                            """شەپۆلی کارۆموگناتیسی بەرھەم دێت لە ئەنجامی بەرکەوتنی نێوان بواری کارەبایی و بواری موگناتیسی."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "electromagnetic", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakelectromagnetics1("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakelectromagnetics1("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                """An electromagnetic wave is created as a result of the interaction between an electric field and a magnetic field.""",
+            kurdishText:
+                """شەپۆلی کارۆموگناتیسی بەرھەم دێت لە ئەنجامی بەرکەوتنی نێوان بواری کارەبایی و بواری موگناتیسی.""", // electromagnetic
+            onPressedBritish: () => speakelectromagnetics1("en-GB"),
+            onPressedAmerican: () => speakelectromagnetics1("en-US"),
           ),
           // electromagnetics200electromagnetics2
           // speakelectromagnetics2

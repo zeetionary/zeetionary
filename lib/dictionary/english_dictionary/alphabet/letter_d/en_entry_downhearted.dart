@@ -373,61 +373,24 @@ class KurdishMeaning extends StatelessWidget {
 """),
           const DefinitionKurdish(
               text: "١. (ھاوەڵناو) ھەستکردنی بە دڵتەنگی یان کەساسی"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "We're disappointed by these results but we're not downhearted."),
-                    ExampleSentenceKurdish(
-                        text: "نائومێدین بە ئەنجامەکان بەڵام خەمبار نین."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "downhearted", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdownhearteds1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdownhearteds1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "We're disappointed by these results but we're not downhearted.",
+            kurdishText:
+                "نائومێدین بە ئەنجامەکان بەڵام خەمبار نین.", // downhearted
+            onPressedBritish: () => speakdownhearteds1("en-GB"),
+            onPressedAmerican: () => speakdownhearteds1("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "After hearing the news of the defeat, she told supporters not to be downhearted."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "لە دوای بیستنی شکستەکە، بە ھەوادارانی گوت کە دڵتەنگ نەبن."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdownhearteds2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdownhearteds2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "After hearing the news of the defeat, she told supporters not to be downhearted.",
+            kurdishText:
+                "لە دوای بیستنی شکستەکە، بە ھەوادارانی گوت کە دڵتەنگ نەبن.",
+            onPressedBritish: () => speakdownhearteds2("en-GB"),
+            onPressedAmerican: () => speakdownhearteds2("en-US"),
           ),
           // downhearteds300"),
           // speakdownhearteds3

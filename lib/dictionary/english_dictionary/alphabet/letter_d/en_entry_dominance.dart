@@ -373,60 +373,22 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "١. (ناو) ئەوەی کە گرنگتر، بەھێزتر، یان دیارتر بێت لە شتی دیکە"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The party's dominance in Scotland was being challenged for the first time."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "بۆ یەکەمین جار ھەژموونی پارتەکە لە سکۆتلەندا دەخرایە مەترسییەوە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "dominance", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdominances1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdominances1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "The party's dominance in Scotland was being challenged for the first time.",
+            kurdishText:
+                "بۆ یەکەمین جار ھەژموونی پارتەکە لە سکۆتلەندا دەخرایە مەترسییەوە.", // dominance
+            onPressedBritish: () => speakdominances1("en-GB"),
+            onPressedAmerican: () => speakdominances1("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The dominance of the car makes cycling and walking increasingly difficult."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "بەرچاوی ئۆتۆمبێل وادەکات ڕێکردن و پاسکیلسواری تەواو سەخت بێت."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdominances2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdominances2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "The dominance of the car makes cycling and walking increasingly difficult.",
+            kurdishText:
+                "بەرچاوی ئۆتۆمبێل وادەکات ڕێکردن و پاسکیلسواری تەواو سەخت بێت.",
+            onPressedBritish: () => speakdominances2("en-GB"),
+            onPressedAmerican: () => speakdominances2("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "٢. (ناو) پێنناسە"),

@@ -252,87 +252,31 @@ class KurdishMeaning extends StatelessWidget {
               text:
                   "١. (ناو) پەپکێک بۆ کۆگاکردنی زانیاری لەسەر کۆمپیوتەر کە دەسووڕێتەوە بۆ ئەوەی ھەموو زانیارییەکانی ناو پەپکەکە دەربکات"),
           const AlsoEnglishckb(word: "ھەروەھا: magnetic disk"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The information required can then be retrieved from disk."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "ئەو زانیارییەی کە پێویستن دەکرێت دواتر لە دیسکەکەوە دەربکرێن."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "disk", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdisks1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdisks1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "The information required can then be retrieved from disk.",
+            kurdishText:
+                "ئەو زانیارییەی کە پێویستن دەکرێت دواتر لە دیسکەکەوە دەربکرێن.", // disk
+            onPressedBritish: () => speakdisks1("en-GB"),
+            onPressedAmerican: () => speakdisks1("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(text: "Each disk holds 700 MB."),
-                    ExampleSentenceKurdish(
-                        text: "ھەر دیسکێک ٧٠٠ مێگابایت دەگرێت."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdisks2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdisks2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "Each disk holds 700 MB.",
+            kurdishText: "ھەر دیسکێک ٧٠٠ مێگابایت دەگرێت.",
+            onPressedBritish: () => speakdisks2("en-GB"),
+            onPressedAmerican: () => speakdisks2("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "The computer reads the disk."),
-                    ExampleSentenceKurdish(
-                        text: "کۆمپیوتەرەکە دیسکەکە دەخوێنێتەوە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdisks3("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdisks3("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "The computer reads the disk.",
+            kurdishText: "کۆمپیوتەرەکە دیسکەکە دەخوێنێتەوە.",
+            onPressedBritish: () => speakdisks3("en-GB"),
+            onPressedAmerican: () => speakdisks3("en-US"),
           ),
           const DividerDefinition(),
           Column(

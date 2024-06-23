@@ -371,31 +371,13 @@ class KurdishMeaning extends StatelessWidget {
 // کوردی: ڕازاندنەوە، ڕێک وپێک کردن، خەملاندن
 // """),
           const DefinitionKurdish(text: """١. (کردار) ڕازاندنەوە"""),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            """The ceiling was embellished with flowers and leaves."""),
-                    ExampleSentenceKurdish(
-                        text: """بنبانەکە بە گوڵ و گەڵا ڕازێندرابوویەوە."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "embellish", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakembellishs1("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakembellishs1("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                """The ceiling was embellished with flowers and leaves.""",
+            kurdishText:
+                """بنبانەکە بە گوڵ و گەڵا ڕازێندرابوویەوە.""", // embellish
+            onPressedBritish: () => speakembellishs1("en-GB"),
+            onPressedAmerican: () => speakembellishs1("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
@@ -404,32 +386,13 @@ class KurdishMeaning extends StatelessWidget {
           // const DividerSentences(),
           const AlsoEnglishckb(
               word: "ھەروەھا: embroider"), // english-embroider/embellish
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            """His account of his travels was embellished with details of famous people he met."""),
-                    ExampleSentenceKurdish(
-                        text:
-                            """بەسەرھاتی گەشتەکانی سەرنجڕاکێش کرابوو بە گێڕانەوەی کەسانی بەناوبانگ کە بینیبووی."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakembellishs2("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakembellishs2("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                """His account of his travels was embellished with details of famous people he met.""",
+            kurdishText:
+                """بەسەرھاتی گەشتەکانی سەرنجڕاکێش کرابوو بە گێڕانەوەی کەسانی بەناوبانگ کە بینیبووی.""",
+            onPressedBritish: () => speakembellishs2("en-GB"),
+            onPressedAmerican: () => speakembellishs2("en-US"),
           ),
           // embellishs300embellishs3
           // speakembellishs3

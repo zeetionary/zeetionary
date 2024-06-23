@@ -261,90 +261,32 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "١. (ناو) کۆتایی یان شکستی کۆمپانیایەک، بیرۆکەیەک، دامەزراوەیەک، ھتد"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "He praised the union's aims but predicted its early demise."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "پەسنی ئامانجەکانی سەندیکاکەی دا بەڵام پێشبینی زوو پووکانەوەیی کرد."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "demise", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdemises1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdemises1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "He praised the union's aims but predicted its early demise.",
+            kurdishText:
+                "پەسنی ئامانجەکانی سەندیکاکەی دا بەڵام پێشبینی زوو پووکانەوەیی کرد.", // demise
+            onPressedBritish: () => speakdemises1("en-GB"),
+            onPressedAmerican: () => speakdemises1("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The war brought about the industry's sudden demise."),
-                    ExampleSentenceKurdish(
-                        text: "جەنگەکە پووکانەی لەناکاوی پیشەسازییەکەی ھێنا."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdemises2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdemises2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "The war brought about the industry's sudden demise.",
+            kurdishText: "جەنگەکە پووکانەی لەناکاوی پیشەسازییەکەی ھێنا.",
+            onPressedBritish: () => speakdemises2("en-GB"),
+            onPressedAmerican: () => speakdemises2("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: "٢. (ناو) مەرگ"),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "Much has been written about the circumstances surrounding her demise."),
-                    ExampleSentenceKurdish(
-                        text: "زۆر شت گوتراوە سەبارەت بە ھەلومەرجەکانی مردنی."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdemises3("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdemises3("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "Much has been written about the circumstances surrounding her demise.",
+            kurdishText: "زۆر شت گوتراوە سەبارەت بە ھەلومەرجەکانی مردنی.",
+            onPressedBritish: () => speakdemises3("en-GB"),
+            onPressedAmerican: () => speakdemises3("en-US"),
           ),
           // demises400"),
           // speakdemises4

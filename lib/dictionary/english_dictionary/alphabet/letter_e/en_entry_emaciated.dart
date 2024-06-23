@@ -364,32 +364,13 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   """١. (ھاوەڵناو) زۆر لەڕ و لاواز، زۆرجار بەھۆی نەخۆشی یان کەمخواردن"""),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            """He was thirty, but looked fifty, with pale skin, hopeless eyes and an emaciated body, covered in sores."""),
-                    ExampleSentenceKurdish(
-                        text:
-                            """سی ساڵان بوو، بەڵام لە پەنجا دەچوو بە پێستی ڕەنگ‌پەڕیو، چاوی چاوانی بێ‌ھیوا و جەستەیەکی لەڕ کە بە پڕبوو لە شینبوونەوە."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "emaciated", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakemaciateds1("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakemaciateds1("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                """He was thirty, but looked fifty, with pale skin, hopeless eyes and an emaciated body, covered in sores.""",
+            kurdishText:
+                """سی ساڵان بوو، بەڵام لە پەنجا دەچوو بە پێستی ڕەنگ‌پەڕیو، چاوی چاوانی بێ‌ھیوا و جەستەیەکی لەڕ کە بە پڕبوو لە شینبوونەوە.""", // emaciated
+            onPressedBritish: () => speakemaciateds1("en-GB"),
+            onPressedAmerican: () => speakemaciateds1("en-US"),
           ),
           // emaciateds200emaciateds2
           // speakemaciateds2

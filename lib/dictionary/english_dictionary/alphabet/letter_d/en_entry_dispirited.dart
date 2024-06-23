@@ -240,57 +240,20 @@ class KurdishMeaning extends StatelessWidget {
 """),
           const DefinitionKurdish(
               text: "١. (ھاوەڵناو) نەبوونی ھیوا  خۆش‌وخرۆشی"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "She looked tired and dispirited."),
-                    ExampleSentenceKurdish(text: "ماندوو و بێ‌ھیوا دیاربوو."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "dispirited", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdispiriteds1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdispiriteds1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "She looked tired and dispirited.",
+            kurdishText: "ماندوو و بێ‌ھیوا دیاربوو.", // dispirited
+            onPressedBritish: () => speakdispiriteds1("en-GB"),
+            onPressedAmerican: () => speakdispiriteds1("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "The troops were dispirited and disorganized."),
-                    ExampleSentenceKurdish(
-                        text: "ھێزەکان بێ‌ورە و ناڕێک بوون."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdispiriteds2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdispiriteds2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "The troops were dispirited and disorganized.",
+            kurdishText: "ھێزەکان بێ‌ورە و ناڕێک بوون.",
+            onPressedBritish: () => speakdispiriteds2("en-GB"),
+            onPressedAmerican: () => speakdispiriteds2("en-US"),
           ),
           // dispiriteds300"),
           // speakdispiriteds3

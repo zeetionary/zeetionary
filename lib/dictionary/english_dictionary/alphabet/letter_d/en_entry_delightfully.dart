@@ -233,32 +233,13 @@ class KurdishMeaning extends StatelessWidget {
 // کوردی: بە شێوەیەکی خۆش
 // """),
           const DefinitionKurdish(text: "١. (ھاوەڵکار) بە شێوەیەکی خۆش"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The hotel is delightfully situated on the edge of the lake."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "ھوتێلەکە بە شێوەیەکی خۆش کەتووەتە سەر قەراغی دەریاچەیەک."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "delightfully", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdelightfullys1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdelightfullys1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "The hotel is delightfully situated on the edge of the lake.",
+            kurdishText:
+                "ھوتێلەکە بە شێوەیەکی خۆش کەتووەتە سەر قەراغی دەریاچەیەک.", // delightfully
+            onPressedBritish: () => speakdelightfullys1("en-GB"),
+            onPressedAmerican: () => speakdelightfullys1("en-US"),
           ),
           // delightfullys200"),
           // speakdelightfullys2

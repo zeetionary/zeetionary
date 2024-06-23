@@ -249,86 +249,31 @@ class KurdishMeaning extends StatelessWidget {
 کوردی: شێواو، بێ‌بەرنامە، ناڕێک، ئاڵۆز، بێ‌سەروبەرە، شپرزە
 """),
           const DefinitionKurdish(text: "١. (ھاوەڵناو) کە ڕێکخراو نییە"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "It was a hectic disorganized weekend."),
-                    ExampleSentenceKurdish(
-                        text: "کۆتاییەکی ھەفتەی جەنجاڵی ناڕێک بوو."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "disorganized", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdisorganizeds1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdisorganizeds1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "It was a hectic disorganized weekend.",
+            kurdishText: "کۆتاییەکی ھەفتەی جەنجاڵی ناڕێک بوو.", // disorganized
+            onPressedBritish: () => speakdisorganizeds1("en-GB"),
+            onPressedAmerican: () => speakdisorganizeds1("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(text: "She's so disorganized."),
-                    ExampleSentenceKurdish(text: "زۆر شپرزەیە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdisorganizeds2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdisorganizeds2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "She's so disorganized.",
+            kurdishText: "زۆر شپرزەیە.",
+            onPressedBritish: () => speakdisorganizeds2("en-GB"),
+            onPressedAmerican: () => speakdisorganizeds2("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "Don’t expect him to get there on time—he’s completely disorganized."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "چاوەڕێی ئەوەی لێ مەکە لە کاتی خۆیدا بگاتە ئەوێ ـ زۆر بێ‌بەرنامەیە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdisorganizeds3("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdisorganizeds3("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "Don’t expect him to get there on time—he’s completely disorganized.",
+            kurdishText:
+                "چاوەڕێی ئەوەی لێ مەکە لە کاتی خۆیدا بگاتە ئەوێ ـ زۆر بێ‌بەرنامەیە.",
+            onPressedBritish: () => speakdisorganizeds3("en-GB"),
+            onPressedAmerican: () => speakdisorganizeds3("en-US"),
           ),
           // disorganizeds400"),
           // speakdisorganizeds4

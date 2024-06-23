@@ -372,62 +372,22 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   """١. (ھاوەڵناو) کە ھەمیشە بە وریاییەوە سەیر دەکات و باشە لە تێبینیکردندا"""),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            """An eagle-eyed tourist found the suspicious package."""),
-                    ExampleSentenceKurdish(
-                        text:
-                            """گەشتیارێکی چاوتیژ پاکێجە گوماناوییەکەی دۆزییەوە."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "eagle-eyed", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakeagleeyeds1("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakeagleeyeds1("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                """An eagle-eyed tourist found the suspicious package.""",
+            kurdishText:
+                """گەشتیارێکی چاوتیژ پاکێجە گوماناوییەکەی دۆزییەوە.""", // eagle-eyed
+            onPressedBritish: () => speakeagleeyeds1("en-GB"),
+            onPressedAmerican: () => speakeagleeyeds1("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            """An eagle-eyed editor corrected the misspelling."""),
-                    ExampleSentenceKurdish(
-                        text:
-                            """نووسەرێکی چاوتیژ ھەڵە ڕێنووسییەکەی ڕاستکردەوە."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakeagleeyeds2("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakeagleeyeds2("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: """An eagle-eyed editor corrected the misspelling.""",
+            kurdishText: """نووسەرێکی چاوتیژ ھەڵە ڕێنووسییەکەی ڕاستکردەوە.""",
+            onPressedBritish: () => speakeagleeyeds2("en-GB"),
+            onPressedAmerican: () => speakeagleeyeds2("en-US"),
           ),
           // eagleeyeds300eagleeyeds3
           // speakeagleeyeds3

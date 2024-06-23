@@ -249,58 +249,20 @@ class KurdishMeaning extends StatelessWidget {
 کوردی: لەداشکاندن‌ھاتوو، شیاوی لێ‌دەرکردن،	تەرخان، بەخشراو لە باج
 """),
           const DefinitionKurdish(text: "١. (ھاوەڵناو) کە دەکرێت لێی دەربکرێت"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "These costs are deductible from profits."),
-                    ExampleSentenceKurdish(
-                        text: "ئەو تێچووانە لە قازانج دەردەکرێن."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "deductible", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdeductibles1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdeductibles1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "These costs are deductible from profits.",
+            kurdishText: "ئەو تێچووانە لە قازانج دەردەکرێن.", // deductible
+            onPressedBritish: () => speakdeductibles1("en-GB"),
+            onPressedAmerican: () => speakdeductibles1("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "Expenses like office phone bills are tax-deductible (= you do not have to pay tax on them)."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "خەرجی وەکو پسووڵەی تەلەفۆنی ئۆفیس لە باج کەمدەکرێنەوە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdeductibles2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdeductibles2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "Expenses like office phone bills are tax-deductible (= you do not have to pay tax on them).",
+            kurdishText:
+                "خەرجی وەکو پسووڵەی تەلەفۆنی ئۆفیس لە باج کەمدەکرێنەوە.",
+            onPressedBritish: () => speakdeductibles2("en-GB"),
+            onPressedAmerican: () => speakdeductibles2("en-US"),
           ),
           // skipped_meaning
           // const DividerDefinition(),

@@ -267,148 +267,54 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "١. (ناو) ڕقێکی بەھێز بۆ کەسێک/شتێک کە پێتوایە پەسەند نییە، یان بۆ شتێک کە بۆنی، شێوەی، ھتد ناشرینە"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "I can only feel disgust for these criminals."),
-                    ExampleSentenceKurdish(
-                        text: "تەنھا ھەست بە ڕق دەکەم بۆ ئەم تاوانکارانە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "disgust", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdisgusts1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdisgusts1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "I can only feel disgust for these criminals.",
+            kurdishText:
+                "تەنھا ھەست بە ڕق دەکەم بۆ ئەم تاوانکارانە.", // disgust
+            onPressedBritish: () => speakdisgusts1("en-GB"),
+            onPressedAmerican: () => speakdisgusts1("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "She expressed her disgust at the programme in a tweet."),
-                    ExampleSentenceKurdish(
-                        text: "لە تویتێکدا ڕقی خۆی بۆ پڕۆگرامەکە پیشاندا."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdisgusts2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdisgusts2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "She expressed her disgust at the programme in a tweet.",
+            kurdishText: "لە تویتێکدا ڕقی خۆی بۆ پڕۆگرامەکە پیشاندا.",
+            onPressedBritish: () => speakdisgusts2("en-GB"),
+            onPressedAmerican: () => speakdisgusts2("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "She wrinkled her nose in disgust at the smell."),
-                    ExampleSentenceKurdish(
-                        text: "لووتی گرت لە قێزکردنەوە لە بۆنەکە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdisgusts3("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdisgusts3("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "She wrinkled her nose in disgust at the smell.",
+            kurdishText: "لووتی گرت لە قێزکردنەوە لە بۆنەکە.",
+            onPressedBritish: () => speakdisgusts3("en-GB"),
+            onPressedAmerican: () => speakdisgusts3("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "I couldn't find the words to express my disgust at his actions."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "نەمدەتوانی وشە بدۆزمەوە بۆ دەربڕینی بێزاریم لە کردارەکانی."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdisgusts4("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdisgusts4("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "I couldn't find the words to express my disgust at his actions.",
+            kurdishText:
+                "نەمدەتوانی وشە بدۆزمەوە بۆ دەربڕینی بێزاریم لە کردارەکانی.",
+            onPressedBritish: () => speakdisgusts4("en-GB"),
+            onPressedAmerican: () => speakdisgusts4("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
                   "٢. (کردار) کە شتێکی ناخۆش و بێزراو وات لێ دەکات ھەست بە شۆک بکەیت"),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "Doesn't all this violence on TV disgust you?"),
-                    ExampleSentenceKurdish(
-                        text:
-                            "ئەم ھەموو توندوتیژییە لەسەر تەلەفیزیۆن بێزت ناھێنێتەوە؟"),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdisgusts5("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdisgusts5("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "Doesn't all this violence on TV disgust you?",
+            kurdishText:
+                "ئەم ھەموو توندوتیژییە لەسەر تەلەفیزیۆن بێزت ناھێنێتەوە؟",
+            onPressedBritish: () => speakdisgusts5("en-GB"),
+            onPressedAmerican: () => speakdisgusts5("en-US"),
           ),
           // disgusts600"),
           // speakdisgusts6

@@ -242,60 +242,21 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "١. (ناو) پیشان نەدانی پشتگیری بۆ ھاوڕێکانت، خێزانت، وڵاتەکەت، ھتد"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "She felt guilty of disloyalty to her dead husband."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "ھەستی بە توانی بێ‌وەفایی دەکرد بەرامبەر ھاوژینە کۆچکردووەکەی."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "disloyalty", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdisloyaltys1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdisloyaltys1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "She felt guilty of disloyalty to her dead husband.",
+            kurdishText:
+                "ھەستی بە توانی بێ‌وەفایی دەکرد بەرامبەر ھاوژینە کۆچکردووەکەی.", // disloyalty
+            onPressedBritish: () => speakdisloyaltys1("en-GB"),
+            onPressedAmerican: () => speakdisloyaltys1("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "Her friend's disloyalty was hurtful."),
-                    ExampleSentenceKurdish(
-                        text: "بێ‌وەفایی ھاوڕێکەی بەئازار بوو."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdisloyaltys2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdisloyaltys2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "Her friend's disloyalty was hurtful.",
+            kurdishText: "بێ‌وەفایی ھاوڕێکەی بەئازار بوو.",
+            onPressedBritish: () => speakdisloyaltys2("en-GB"),
+            onPressedAmerican: () => speakdisloyaltys2("en-US"),
           ),
           // disloyaltys300"),
           // speakdisloyaltys3

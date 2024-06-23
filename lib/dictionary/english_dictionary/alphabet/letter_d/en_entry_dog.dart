@@ -443,137 +443,43 @@ class KurdishMeaning extends StatelessWidget {
 کوردی: سەگ، بەشدار، گەماڵ، کوچک، گۆڵەسەگ، سەگی نێر یان گۆڵ،	گورگی گۆڵ، گۆڵەگوڕگ،	گۆڵەڕێوی، ڕێوی نێر،	(خوازە) سەگی گڵاو، بنیادەمی خراپ، مرۆی سووک‌وچروک، مرۆی پیس،	(سووکانە) ژنی ناسەرنج‌ڕاکێش، سەگەژن،	(نافەرمی، ئەمریکا) شتی گەن‌وگووژاڵ، ئایەخ،	بزمارکێش، گاز،	قولاپ، گیرە
 """),
           const DefinitionKurdish(text: "١. (ناو) سەگ"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                      text: "I took the dog for a walk.",
-                      note: "Similar: I'm just going to walk the dog.",
-                    ),
-                    ExampleSentenceKurdish(
-                        text: "سەگەکەم بردە پیاسەیەک.",
-                        note: "بەڵێ ئەوە ڕاستە کە بردی."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdogs1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdogs1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "I took the dog for a walk.",
+            englishNote: "Similar: I'm just going to walk the dog.",
+            kurdishText: "سەگەکەم بردە پیاسەیەک.",
+            kurdishNote: "بەڵێ ئەوە ڕاستە کە بردی.",
+            onPressedBritish: () => speakdogs1("en-GB"),
+            onPressedAmerican: () => speakdogs1("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(text: "I could hear a dog barking."),
-                    ExampleSentenceKurdish(
-                        text: "گوێم لە سەگێک بوو دەیحەپاند."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdogs2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdogs2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "I could hear a dog barking.",
+            kurdishText: "گوێم لە سەگێک بوو دەیحەپاند.",
+            onPressedBritish: () => speakdogs2("en-GB"),
+            onPressedAmerican: () => speakdogs2("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "Stray dogs roamed the streets at night."),
-                    ExampleSentenceKurdish(
-                        text: "سەگی وێڵ بە شەقامەکاندا دەگەڕان لە شەواندا."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdogs3("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdogs3("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "Stray dogs roamed the streets at night.",
+            kurdishText: "سەگی وێڵ بە شەقامەکاندا دەگەڕان لە شەواندا.",
+            onPressedBritish: () => speakdogs3("en-GB"),
+            onPressedAmerican: () => speakdogs3("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "Owners who allow their dogs to foul the footpath will be fined."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "ئەو خاوەنانەی کە دەھێڵن سەگەکانیان پیسایی بکەنە سەر پیادەڕێکە سزا دەدرێن."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdogs4("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdogs4("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "Owners who allow their dogs to foul the footpath will be fined.",
+            kurdishText:
+                "ئەو خاوەنانەی کە دەھێڵن سەگەکانیان پیسایی بکەنە سەر پیادەڕێکە سزا دەدرێن.",
+            onPressedBritish: () => speakdogs4("en-GB"),
+            onPressedAmerican: () => speakdogs4("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "Bad dog! What are you doing there?"),
-                    ExampleSentenceKurdish(text: "سەگی خراپ! چی دەکەیت؟"),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdogs5("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdogs5("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "Bad dog! What are you doing there?",
+            kurdishText: "سەگی خراپ! چی دەکەیت؟",
+            onPressedBritish: () => speakdogs5("en-GB"),
+            onPressedAmerican: () => speakdogs5("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
@@ -582,30 +488,11 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(text: "٣. (ناو) شتێک کە لە ئاستێکی خراپە"),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "Her last movie was an absolute dog."),
-                    ExampleSentenceKurdish(
-                        text: "کۆتا فیلمی ھیچەکەیەکی تەواو بوو."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdogs6("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdogs6("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "Her last movie was an absolute dog.",
+            kurdishText: "کۆتا فیلمی ھیچەکەیەکی تەواو بوو.",
+            onPressedBritish: () => speakdogs6("en-GB"),
+            onPressedAmerican: () => speakdogs6("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
@@ -615,140 +502,46 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text: "٥. (ناو) بۆ ناوھێنانی پیاوێک کە شتێکی خراپی کردووە"),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(text: "You dirty dog!"),
-                    ExampleSentenceKurdish(text: "ھەی سەگی پیس!"),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdogs7("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdogs7("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "You dirty dog!",
+            kurdishText: "ھەی سەگی پیس!",
+            onPressedBritish: () => speakdogs7("en-GB"),
+            onPressedAmerican: () => speakdogs7("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "He tried to steal my money, the dirty dog."),
-                    ExampleSentenceKurdish(
-                        text: "سەگی پیسە ھەوڵیدا پارەکەم بدزێت."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdogs8("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdogs8("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "He tried to steal my money, the dirty dog.",
+            kurdishText: "سەگی پیسە ھەوڵیدا پارەکەم بدزێت.",
+            onPressedBritish: () => speakdogs8("en-GB"),
+            onPressedAmerican: () => speakdogs8("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٦. (کردار) کە بۆ ماوەیەکی زۆر کێشەت بۆ درووست دەکات"),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "He had been dogged by ill health all his life."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "بۆ تەواوی ژیانی بە دەست تەندرووستی خراپەوە دەیناڵاند."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdogs9("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdogs9("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "He had been dogged by ill health all his life.",
+            kurdishText:
+                "بۆ تەواوی ژیانی بە دەست تەندرووستی خراپەوە دەیناڵاند.",
+            onPressedBritish: () => speakdogs9("en-GB"),
+            onPressedAmerican: () => speakdogs9("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "Her career was dogged by misfortune."),
-                    ExampleSentenceKurdish(
-                        text: "ژیانی کارکردنی بەھۆی بەدبەختییەوە وێران بوو."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdogs10("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdogs10("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "Her career was dogged by misfortune.",
+            kurdishText: "ژیانی کارکردنی بەھۆی بەدبەختییەوە وێران بوو.",
+            onPressedBritish: () => speakdogs10("en-GB"),
+            onPressedAmerican: () => speakdogs10("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: "٧. (کردار) شوێنکەوتنی کەسێک بە نزیکی"),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "She had the impression that someone was dogging her steps."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "ئەو ھەستەی ھەبوو کە کەسێک بە شوێن ھەنگاوەکانیەتی."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdogs11("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdogs11("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "She had the impression that someone was dogging her steps.",
+            kurdishText: "ئەو ھەستەی ھەبوو کە کەسێک بە شوێن ھەنگاوەکانیەتی.",
+            onPressedBritish: () => speakdogs11("en-GB"),
+            onPressedAmerican: () => speakdogs11("en-US"),
           ),
           // dogs1200"),
           // speakdogs12

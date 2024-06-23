@@ -233,30 +233,11 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "١. (ناو) نازناوێک کە دەدرێت بە ژنێک بەھۆی ئەو کارانەی کردوویەتی"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "She was made a Dame in the Queen’s birthday."),
-                    ExampleSentenceKurdish(
-                        text: "کرا بە دەیم لە ڕۆژی لەدایکبوونی شاژندا."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "dame", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdames1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdames1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "She was made a Dame in the Queen’s birthday.",
+            kurdishText: "کرا بە دەیم لە ڕۆژی لەدایکبوونی شاژندا.", // dame
+            onPressedBritish: () => speakdames1("en-GB"),
+            onPressedAmerican: () => speakdames1("en-US"),
           ),
         ],
       ),

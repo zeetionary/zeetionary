@@ -422,653 +422,217 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "١. (ناو) شێوازی دانانی شتێک کە بە شێوەیەک دانراوە کە جوان دەربکەوێت"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The basic design of the car is very similar to that of earlier models."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "دیزاینی سەرەکیی ئۆتۆمبێلەکە زۆر لێکچووە لەگەڵ مۆدێلەکانی پێشتردا."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "design", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdesigns1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdesigns1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+SentencesRow(
+  englishText:
+                            "The basic design of the car is very similar to that of earlier models.",
+kurdishText:
+                            "دیزاینی سەرەکیی ئۆتۆمبێلەکە زۆر لێکچووە لەگەڵ مۆدێلەکانی پێشتردا.", // design
+onPressedBritish: () => speakdesigns1("en-GB"),
+  onPressedAmerican: () => speakdesigns1("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "The system has a fundamental design flaw."),
-                    ExampleSentenceKurdish(
-                        text: "سیستەمەکە ھەڵەیەکی سەرەکیی دیزاینی تێدایە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdesigns2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdesigns2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+  englishText: "The system has a fundamental design flaw.",
+kurdishText: "سیستەمەکە ھەڵەیەکی سەرەکیی دیزاینی تێدایە.",
+                    onPressedBritish: () => speakdesigns2("en-GB"),
+  onPressedAmerican: () => speakdesigns2("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The magazine will appear in a new design from next month."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "گۆڤارەکە لە مانگی داھاتووەوە بە دیزاینێکی تازەوە بڵاودەبێتەوە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdesigns3("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdesigns3("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+  englishText:
+                            "The magazine will appear in a new design from next month.",
+kurdishText:
+                            "گۆڤارەکە لە مانگی داھاتووەوە بە دیزاینێکی تازەوە بڵاودەبێتەوە.",
+                    onPressedBritish: () => speakdesigns3("en-GB"),
+  onPressedAmerican: () => speakdesigns3("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The machine's unique design prevents it from overheating."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "دیزاینی ناوازەی ئامێرەکە لە گەرمبوون دەیپارێزێت."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdesigns4("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdesigns4("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+  englishText:
+                            "The machine's unique design prevents it from overheating.",
+kurdishText:
+                            "دیزاینی ناوازەی ئامێرەکە لە گەرمبوون دەیپارێزێت.",
+                    onPressedBritish: () => speakdesigns4("en-GB"),
+  onPressedAmerican: () => speakdesigns4("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "One of our main design goals was to make the product easy to use."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "یەکێک لە ئامانجە سەرەکییەکانی دیزاینمان ئەوە بوو کە بەرھەمەکە ئاسان بکەین بۆ بەکارھێنان."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdesigns5("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdesigns5("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+  englishText:
+                            "One of our main design goals was to make the product easy to use.",
+kurdishText:
+                            "یەکێک لە ئامانجە سەرەکییەکانی دیزاینمان ئەوە بوو کە بەرھەمەکە ئاسان بکەین بۆ بەکارھێنان.",
+                    onPressedBritish: () => speakdesigns5("en-GB"),
+  onPressedAmerican: () => speakdesigns5("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٢. (ناو) ھونەر یان پڕۆسەی کاری دیزاین"),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "I'm doing a course in art and design."),
-                    ExampleSentenceKurdish(
-                        text: "کۆرسێک لەسەر ھونەر و دیزاین ئەنجام دەدەم."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdesigns6("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdesigns6("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+  englishText: "I'm doing a course in art and design.",
+kurdishText: "کۆرسێک لەسەر ھونەر و دیزاین ئەنجام دەدەم.",
+                    onPressedBritish: () => speakdesigns6("en-GB"),
+  onPressedAmerican: () => speakdesigns6("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "Digital design tools are essential."),
-                    ExampleSentenceKurdish(
-                        text: "ئامرازەکانی دیزاینی دیجیتاڵ زۆر گرنگن."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdesigns7("en-GB"),
+          SentencesRow(
+  englishText: "Digital design tools are essential.",
+kurdishText: "ئامرازەکانی دیزاینی دیجیتاڵ زۆر گرنگن.",
+                    onPressedBritish: () => speakdesigns7("en-GB"),
+  onPressedAmerican: () => speakdesigns7("en-US"),
                   ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdesigns7("en-US"),
-                  ),
-                ],
-              ),
-            ],
-          ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The car wouldn't win any design awards, but it's very reliable."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "ئۆۆتمبێلەکە ھیچ خەڵاتێکی دیزیان ناباتەوە، بەڵام تەواو پشت‌پێ‌بەستراوە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdesigns8("en-GB"),
+          SentencesRow(
+  englishText:
+                            "The car wouldn't win any design awards, but it's very reliable.",
+kurdishText:
+                            "ئۆۆتمبێلەکە ھیچ خەڵاتێکی دیزیان ناباتەوە، بەڵام تەواو پشت‌پێ‌بەستراوە.",
+                    onPressedBritish: () => speakdesigns8("en-GB"),
+  onPressedAmerican: () => speakdesigns8("en-US"),
                   ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdesigns8("en-US"),
-                  ),
-                ],
-              ),
-            ],
-          ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "She's done some design work for us in the past."),
-                    ExampleSentenceKurdish(
-                        text: "لە ڕابردوودا ھەندێک کاری دیزاینی بۆمان کردووە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdesigns9("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdesigns9("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+  englishText:
+                            "She's done some design work for us in the past.",
+kurdishText: "لە ڕابردوودا ھەندێک کاری دیزاینی بۆمان کردووە.",
+                    onPressedBritish: () => speakdesigns9("en-GB"),
+  onPressedAmerican: () => speakdesigns9("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
                   "٣. (ناو) پلانێک یان وێنەیەکی کێشراو کە لێیەوە دەکرێت ھەندێک دیزاین درووست بکرێت"),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "He has created some new and original designs."),
-                    ExampleSentenceKurdish(
-                        text: "ھەندێک دیزاینی تازە و ڕەسەنی درووستکردووە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdesigns10("en-GB"),
+          SentencesRow(
+  englishText: "He has created some new and original designs.",
+kurdishText: "ھەندێک دیزاینی تازە و ڕەسەنی درووستکردووە.",
+                    onPressedBritish: () => speakdesigns10("en-GB"),
+  onPressedAmerican: () => speakdesigns10("en-US"),
                   ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdesigns10("en-US"),
-                  ),
-                ],
-              ),
-            ],
-          ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "The original designs were stolen."),
-                    ExampleSentenceKurdish(text: "دیزاینە ڕەسەنەکان دزران."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdesigns11("en-GB"),
+          SentencesRow(
+  englishText: "The original designs were stolen.",
+kurdishText: "دیزاینە ڕەسەنەکان دزران.",
+                    onPressedBritish: () => speakdesigns11("en-GB"),
+  onPressedAmerican: () => speakdesigns11("en-US"),
                   ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdesigns11("en-US"),
-                  ),
-                ],
-              ),
-            ],
-          ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "There are several laws protecting the ownership of industrial designs."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "ژمارەیەک یاسا ھەن بۆ پاراستنی خاوەندارێتی دیزاینی پیشەسازی."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdesigns12("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdesigns12("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+  englishText:
+                            "There are several laws protecting the ownership of industrial designs.",
+kurdishText:
+                            "ژمارەیەک یاسا ھەن بۆ پاراستنی خاوەندارێتی دیزاینی پیشەسازی.",
+                    onPressedBritish: () => speakdesigns12("en-GB"),
+  onPressedAmerican: () => speakdesigns12("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: "٤. (ناو) شێوە دیزاینێک"),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The tiles come in a huge range of colours and designs."),
-                    ExampleSentenceKurdish(
-                        text: "کاشییەکان بە ژمارەیەکی زۆر ڕەنگ و دیزاین ھەن."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdesigns13("en-GB"),
+          SentencesRow(
+  englishText:
+                            "The tiles come in a huge range of colours and designs.",
+kurdishText: "کاشییەکان بە ژمارەیەکی زۆر ڕەنگ و دیزاین ھەن.",
+                    onPressedBritish: () => speakdesigns13("en-GB"),
+  onPressedAmerican: () => speakdesigns13("en-US"),
                   ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdesigns13("en-US"),
-                  ),
-                ],
-              ),
-            ],
-          ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The building has intricate geometric designs on several of the walls."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "بیناکە ژمارەیەک دیزاینی ئەندازەیی ئاڵۆزی ھەیە لە ھەندێک لاوە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdesigns14("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdesigns14("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+  englishText:
+                            "The building has intricate geometric designs on several of the walls.",
+kurdishText:
+                            "بیناکە ژمارەیەک دیزاینی ئەندازەیی ئاڵۆزی ھەیە لە ھەندێک لاوە.",
+                    onPressedBritish: () => speakdesigns14("en-GB"),
+  onPressedAmerican: () => speakdesigns14("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: "٥. (ناو) پلان یان مەبەست"),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "It is all part of his grand design."),
-                    ExampleSentenceKurdish(
-                        text: "ھەمووی بەشێکن لە پلانە گەورەکەی."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdesigns15("en-GB"),
+          SentencesRow(
+  englishText: "It is all part of his grand design.",
+kurdishText: "ھەمووی بەشێکن لە پلانە گەورەکەی.",
+                    onPressedBritish: () => speakdesigns15("en-GB"),
+  onPressedAmerican: () => speakdesigns15("en-US"),
                   ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdesigns15("en-US"),
-                  ),
-                ],
-              ),
-            ],
-          ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "It happened—whether by accident or design—that the two of them were left alone after all the others had gone."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "چی بە ڕێکەوت یان پلان، ئەوە ڕوویدا کە ھەردووکاین مانەوە بە تەنھایی لە دوای ئەوەی ھەموو ئەوانی دیکە ڕۆشتبوون."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdesigns16("en-GB"),
+          SentencesRow(
+  englishText:
+                            "It happened—whether by accident or design—that the two of them were left alone after all the others had gone.",
+kurdishText:
+                            "چی بە ڕێکەوت یان پلان، ئەوە ڕوویدا کە ھەردووکاین مانەوە بە تەنھایی لە دوای ئەوەی ھەموو ئەوانی دیکە ڕۆشتبوون.",
+                    onPressedBritish: () => speakdesigns16("en-GB"),
+  onPressedAmerican: () => speakdesigns16("en-US"),
                   ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdesigns16("en-US"),
-                  ),
-                ],
-              ),
-            ],
-          ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "Had it happened by accident or by design?"),
-                    ExampleSentenceKurdish(
-                        text: "بە ڕێکەوت یان مەبەست ڕوویدا؟"),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdesigns17("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdesigns17("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+  englishText: "Had it happened by accident or by design?",
+kurdishText: "بە ڕێکەوت یان مەبەست ڕوویدا؟",
+                    onPressedBritish: () => speakdesigns17("en-GB"),
+  onPressedAmerican: () => speakdesigns17("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: "٦. (کردار) دیزاینکردنی شتێک"),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "He designed and built his own house."),
-                    ExampleSentenceKurdish(
-                        text: "ماڵەکەی خۆی دیزاین کرد و بنیاتی نا."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdesigns18("en-GB"),
+          SentencesRow(
+  englishText: "He designed and built his own house.",
+kurdishText: "ماڵەکەی خۆی دیزاین کرد و بنیاتی نا.",
+                    onPressedBritish: () => speakdesigns18("en-GB"),
+  onPressedAmerican: () => speakdesigns18("en-US"),
                   ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdesigns18("en-US"),
-                  ),
-                ],
-              ),
-            ],
-          ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The blocks were specially designed and manufactured in Italy."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "بلۆکەکان بە تایبەتی لە ئیتالیا دیزاین و درووستکرابوون."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdesigns19("en-GB"),
+          SentencesRow(
+  englishText:
+                            "The blocks were specially designed and manufactured in Italy.",
+kurdishText:
+                            "بلۆکەکان بە تایبەتی لە ئیتالیا دیزاین و درووستکرابوون.",
+                    onPressedBritish: () => speakdesigns19("en-GB"),
+  onPressedAmerican: () => speakdesigns19("en-US"),
                   ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdesigns19("en-US"),
-                  ),
-                ],
-              ),
-            ],
-          ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "Could you design us a poster?"),
-                    ExampleSentenceKurdish(
-                        text: "دەتوانیت پۆستەرێکمان بۆ دیزاین بکەیت؟"),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdesigns20("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdesigns20("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+  englishText: "Could you design us a poster?",
+kurdishText: "دەتوانیت پۆستەرێکمان بۆ دیزاین بکەیت؟",
+                    onPressedBritish: () => speakdesigns20("en-GB"),
+  onPressedAmerican: () => speakdesigns20("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
                   "٧. (کردار) بیرکردنەوە لە پلانێک، سیستەمێک، شێوازی کردنی شتێک، ھتد زۆرجار بۆ مەبەستێک، بەکارھێنانێک"),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The method is specifically designed for use in small groups."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "ڕێگاکە بەتایبەتی دیزاین کراوە بۆ بەکارھێنان لە گرووپی بچووکدا."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdesigns21("en-GB"),
+          SentencesRow(
+  englishText:
+                            "The method is specifically designed for use in small groups.",
+kurdishText:
+                            "ڕێگاکە بەتایبەتی دیزاین کراوە بۆ بەکارھێنان لە گرووپی بچووکدا.",
+                    onPressedBritish: () => speakdesigns21("en-GB"),
+  onPressedAmerican: () => speakdesigns21("en-US"),
                   ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdesigns21("en-US"),
-                  ),
-                ],
-              ),
-            ],
-          ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The museum is Missouri's first museum designed specifically for contemporary art."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "مۆزەخانەکە یەکەم مۆزەخانەی میزۆرییە بەتایبەت دیزاین کراوە بۆ ھونەری سەردەمیانە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdesigns22("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdesigns22("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+  englishText:
+                            "The museum is Missouri's first museum designed specifically for contemporary art.",
+kurdishText:
+                            "مۆزەخانەکە یەکەم مۆزەخانەی میزۆرییە بەتایبەت دیزاین کراوە بۆ ھونەری سەردەمیانە.",
+                    onPressedBritish: () => speakdesigns22("en-GB"),
+  onPressedAmerican: () => speakdesigns22("en-US"),
           ),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The system is designed to alert drivers to traffic jams ahead."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "سیستەمەکە دیزاین کراوە بە ئاگادارکردنەوەی شۆفێران لە قەرەباڵغی ھاتووچۆ."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdesigns23("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdesigns23("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+  englishText:
+                            "The system is designed to alert drivers to traffic jams ahead.",
+kurdishText:
+                            "سیستەمەکە دیزاین کراوە بە ئاگادارکردنەوەی شۆفێران لە قەرەباڵغی ھاتووچۆ.",
+                    onPressedBritish: () => speakdesigns23("en-GB"),
+  onPressedAmerican: () => speakdesigns23("en-US"),
           ),
         ],
       ),

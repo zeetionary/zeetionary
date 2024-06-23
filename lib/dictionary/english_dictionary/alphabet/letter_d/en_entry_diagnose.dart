@@ -258,117 +258,39 @@ class KurdishMeaning extends StatelessWidget {
 """),
           const DefinitionKurdish(
               text: "١. (کردار) دیاری کردنی نەخۆشییەک یان ھۆکارەکەی"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The test is used to diagnose a variety of diseases."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "پشکنینەکە بەکاردێت بۆ دیاری کردنی ژمارەیەک لە نەخۆشی."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "diagnose", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdiagnoses1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdiagnoses1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "The test is used to diagnose a variety of diseases.",
+            kurdishText:
+                "پشکنینەکە بەکاردێت بۆ دیاری کردنی ژمارەیەک لە نەخۆشی.", // diagnose
+            onPressedBritish: () => speakdiagnoses1("en-GB"),
+            onPressedAmerican: () => speakdiagnoses1("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "The illness was diagnosed as cancer."),
-                    ExampleSentenceKurdish(
-                        text: "نەخۆشییەکە بە شێرپەنجە دەستنیشان کرا."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdiagnoses2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdiagnoses2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "The illness was diagnosed as cancer.",
+            kurdishText: "نەخۆشییەکە بە شێرپەنجە دەستنیشان کرا.",
+            onPressedBritish: () => speakdiagnoses2("en-GB"),
+            onPressedAmerican: () => speakdiagnoses2("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "He has recently been diagnosed with angina."),
-                    ExampleSentenceKurdish(
-                        text: "تازەگی بە تووشبووی ژانەسنگ ڕاگەیەندرا."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdiagnoses3("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdiagnoses3("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "He has recently been diagnosed with angina.",
+            kurdishText: "تازەگی بە تووشبووی ژانەسنگ ڕاگەیەندرا.",
+            onPressedBritish: () => speakdiagnoses3("en-GB"),
+            onPressedAmerican: () => speakdiagnoses3("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "I quickly diagnosed the problem as a faulty battery."),
-                    ExampleSentenceKurdish(
-                        text: "زوو کێشەکەم دیاری کرد لە باترییەکی کێشەداردا."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdiagnoses4("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdiagnoses4("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "I quickly diagnosed the problem as a faulty battery.",
+            kurdishText: "زوو کێشەکەم دیاری کرد لە باترییەکی کێشەداردا.",
+            onPressedBritish: () => speakdiagnoses4("en-GB"),
+            onPressedAmerican: () => speakdiagnoses4("en-US"),
           ),
           // diagnoses500"),
           // speakdiagnoses5

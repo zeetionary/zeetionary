@@ -277,146 +277,51 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "١. (ھاوەڵکار) شێوەیەکی دڵنیاییکردنەوەی ئەوەی کە شتێک ڕاستە و ھیچ گومانی لەسەر نییە"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "I definitely remember sending the letter."),
-                    ExampleSentenceKurdish(
-                        text: "بەدڵنیاییەوە ناردنی نامەکەم بیر دێت."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "definitely", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdefinitelys1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdefinitelys1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "I definitely remember sending the letter.",
+            kurdishText: "بەدڵنیاییەوە ناردنی نامەکەم بیر دێت.", // definitely
+            onPressedBritish: () => speakdefinitelys1("en-GB"),
+            onPressedAmerican: () => speakdefinitelys1("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "Some old people want help; others most definitely do not."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "ھەندێک کەسی بەتەمەن یارمەتییان دەوێت؛ ئەوانی دیکە بەدڵنیاییەوە نایانەوێت."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdefinitelys2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdefinitelys2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "Some old people want help; others most definitely do not.",
+            kurdishText:
+                "ھەندێک کەسی بەتەمەن یارمەتییان دەوێت؛ ئەوانی دیکە بەدڵنیاییەوە نایانەوێت.",
+            onPressedBritish: () => speakdefinitelys2("en-GB"),
+            onPressedAmerican: () => speakdefinitelys2("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "The claim is definitely true."),
-                    ExampleSentenceKurdish(
-                        text: "بانگەشەکە بەدڵنیاییەوە ڕاستە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdefinitelys3("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdefinitelys3("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "The claim is definitely true.",
+            kurdishText: "بانگەشەکە بەدڵنیاییەوە ڕاستە.",
+            onPressedBritish: () => speakdefinitelys3("en-GB"),
+            onPressedAmerican: () => speakdefinitelys3("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٢. (ھاوەڵناو) بەشێوەیەک کە کەسێک یان شتێک دڵنیایە"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The date of the move has not been definitely decided yet (= it may change)."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "ڕێکەوتی جوڵەکە ھێشتا بە دڵنیایی بڕیاری لەسەر نەدراوە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdefinitelys4("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdefinitelys4("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "The date of the move has not been definitely decided yet (= it may change).",
+            kurdishText:
+                "ڕێکەوتی جوڵەکە ھێشتا بە دڵنیایی بڕیاری لەسەر نەدراوە.",
+            onPressedBritish: () => speakdefinitelys4("en-GB"),
+            onPressedAmerican: () => speakdefinitelys4("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "Please say definitely whether you will be coming or not."),
-                    ExampleSentenceKurdish(
-                        text: "تکایە بەدڵنیاییەوە بیڵێ کە دێیت یان نا."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdefinitelys5("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdefinitelys5("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "Please say definitely whether you will be coming or not.",
+            kurdishText: "تکایە بەدڵنیاییەوە بیڵێ کە دێیت یان نا.",
+            onPressedBritish: () => speakdefinitelys5("en-GB"),
+            onPressedAmerican: () => speakdefinitelys5("en-US"),
           ),
           // definitelys600"),
           // speakdefinitelys6

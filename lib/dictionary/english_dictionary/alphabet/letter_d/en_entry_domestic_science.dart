@@ -366,32 +366,13 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "١. (ناو) خواردن لێنان و شارەزییەکانی دیکە کە پێویستن، کە لە قوتابخانە دەگوترێنەوەھ"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "She took a domestic science class to learn cooking basics."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "بەژداری وانەیەکی زانستی ماڵداری کرد بۆ فێربوونی بنچینەکانی خواردن لێنان."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "domestic science", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdomesticsciences1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdomesticsciences1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "She took a domestic science class to learn cooking basics.",
+            kurdishText:
+                "بەژداری وانەیەکی زانستی ماڵداری کرد بۆ فێربوونی بنچینەکانی خواردن لێنان.", // domestic science
+            onPressedBritish: () => speakdomesticsciences1("en-GB"),
+            onPressedAmerican: () => speakdomesticsciences1("en-US"),
           ),
           // domesticsciences200"),
           // speakdomesticsciences2

@@ -242,63 +242,23 @@ class KurdishMeaning extends StatelessWidget {
 // """),
           const DefinitionKurdish(
               text: "١. (ناو) بەشی پێشەوەی ئۆتۆمبێل لەناوەوە"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "She placed her phone on the dashboard while driving."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "موبایلەکەی دەخستە سەر داشبۆردەکە لەکاتی لێخوڕیندا."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "dashboard", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdashboards1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdashboards1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "She placed her phone on the dashboard while driving.",
+            kurdishText:
+                "موبایلەکەی دەخستە سەر داشبۆردەکە لەکاتی لێخوڕیندا.", // dashboard
+            onPressedBritish: () => speakdashboards1("en-GB"),
+            onPressedAmerican: () => speakdashboards1("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
                   "٢. (ناو) بەشێکی کۆمپیوتەرێک، ھتد کە کە زانیاری و ئامار پیشان دەدات لەسەر ئەوەی ئامێرەکە، پڕۆگرامێک، ھتد چۆن کار دەکات، و دەتوانیت بەکاریبھێنیت بۆ کۆنترۆڵکردنی"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The app has a new dashboard to limit your app usage."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "ئەپەکە داشبۆردێکی تازەی ھەیە بۆ سنووردارکردنی بەکارھێنانی ئەپەکە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdashboards2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdashboards2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "The app has a new dashboard to limit your app usage.",
+            kurdishText:
+                "ئەپەکە داشبۆردێکی تازەی ھەیە بۆ سنووردارکردنی بەکارھێنانی ئەپەکە.",
+            onPressedBritish: () => speakdashboards2("en-GB"),
+            onPressedAmerican: () => speakdashboards2("en-US"),
           ),
         ],
       ),

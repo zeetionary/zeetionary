@@ -250,60 +250,23 @@ class KurdishMeaning extends StatelessWidget {
 // """),
           const DefinitionKurdish(
               text: "١. (کردار) سەرزەنشتکردنی کەسێک بە نادادی"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "I didn't intend to denigrate her achievements."),
-                    ExampleSentenceKurdish(
-                        text: "مەبەستم نەبوو لە سەرکەوتنەکانی کەم بکەمەوە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "denigrate", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdenigrates1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdenigrates1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "I didn't intend to denigrate her achievements.",
+            kurdishText:
+                "مەبەستم نەبوو لە سەرکەوتنەکانی کەم بکەمەوە.", // denigrate
+            onPressedBritish: () => speakdenigrates1("en-GB"),
+            onPressedAmerican: () => speakdenigrates1("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "You shouldn't denigrate people just because they have different beliefs from you."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "نابێت سەرزەنشتی خەڵکی بکەیت تەنھا لەبەر ئەوەی بیرکردنەوەی جیاواز لە تۆیان ھەیە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdenigrates2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdenigrates2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "You shouldn't denigrate people just because they have different beliefs from you.",
+            kurdishText:
+                "نابێت سەرزەنشتی خەڵکی بکەیت تەنھا لەبەر ئەوەی بیرکردنەوەی جیاواز لە تۆیان ھەیە.",
+            onPressedBritish: () => speakdenigrates2("en-GB"),
+            onPressedAmerican: () => speakdenigrates2("en-US"),
           ),
           // denigrates300"),
           // speakdenigrates3

@@ -251,60 +251,23 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "١. (ناو) دۆخێک کە بەشێکی جەستە بەشێوەی سرووشتی گەشەی نەکردووە یان شێوەی ئاسایی نییە"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "The baby was born with a spinal deformity."),
-                    ExampleSentenceKurdish(
-                        text: "منداڵەکە بە ناڕێکی بڕبڕەی پشتەوە لەدایکبوو."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "deformity", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdeformitys1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdeformitys1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "The baby was born with a spinal deformity.",
+            kurdishText:
+                "منداڵەکە بە ناڕێکی بڕبڕەی پشتەوە لەدایکبوو.", // deformity
+            onPressedBritish: () => speakdeformitys1("en-GB"),
+            onPressedAmerican: () => speakdeformitys1("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "Poor posture causes deformity in the natural curvature of the spine."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "وەستان و دانیشتنی خراپ دەبێتە ھۆکاری ناڕێکی لە چەماوەیی سرووشتی بڕبڕەی پشت."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdeformitys2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdeformitys2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "Poor posture causes deformity in the natural curvature of the spine.",
+            kurdishText:
+                "وەستان و دانیشتنی خراپ دەبێتە ھۆکاری ناڕێکی لە چەماوەیی سرووشتی بڕبڕەی پشت.",
+            onPressedBritish: () => speakdeformitys2("en-GB"),
+            onPressedAmerican: () => speakdeformitys2("en-US"),
           ),
           // deformitys300"),
           // speakdeformitys3

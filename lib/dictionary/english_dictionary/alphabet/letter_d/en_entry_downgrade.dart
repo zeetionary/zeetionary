@@ -363,31 +363,12 @@ class KurdishMeaning extends StatelessWidget {
 """),
           const DefinitionKurdish(
               text: "١. (کردار) بردنی کەسێک/شتێک بۆ ئاستێکی نزمتر"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "She's been downgraded from principal to vice-principal."),
-                    ExampleSentenceKurdish(
-                        text: "لە بەڕێوەبەرەوە کرا بە جێگری بەڕێوەبەر."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "downgrade", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdowngrades1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdowngrades1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "She's been downgraded from principal to vice-principal.",
+            kurdishText: "لە بەڕێوەبەرەوە کرا بە جێگری بەڕێوەبەر.", // downgrade
+            onPressedBritish: () => speakdowngrades1("en-GB"),
+            onPressedAmerican: () => speakdowngrades1("en-US"),
           ),
           // downgrades200"),
           // speakdowngrades2

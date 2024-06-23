@@ -243,62 +243,24 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "١. (ھاوەڵناو) ھەبوونی توانای بڕیاردان لە خاسیەتی کەسێک/شتێک"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The discerning customer will recognize this as a high-quality product."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "کڕیاری وردبین ئەمە بە بەرھەمێکی کوالێتی بەرز دەبینێت."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "discerning", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdiscernings1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdiscernings1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "The discerning customer will recognize this as a high-quality product.",
+            kurdishText:
+                "کڕیاری وردبین ئەمە بە بەرھەمێکی کوالێتی بەرز دەبینێت.", // discerning
+            onPressedBritish: () => speakdiscernings1("en-GB"),
+            onPressedAmerican: () => speakdiscernings1("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "To the discerning eye, the quality may seem quite poor."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "بۆ چاوی بەسەلیقە، کوالێتییەکە ڕەنگە تەواو خراپ دیار بێت."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdiscernings2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdiscernings2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "To the discerning eye, the quality may seem quite poor.",
+            kurdishText:
+                "بۆ چاوی بەسەلیقە، کوالێتییەکە ڕەنگە تەواو خراپ دیار بێت.",
+            onPressedBritish: () => speakdiscernings2("en-GB"),
+            onPressedAmerican: () => speakdiscernings2("en-US"),
           ),
           // discernings300"),
           // speakdiscernings3

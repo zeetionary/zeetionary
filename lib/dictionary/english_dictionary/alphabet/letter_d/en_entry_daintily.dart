@@ -232,30 +232,11 @@ class KurdishMeaning extends StatelessWidget {
 // """),
           const DefinitionKurdish(
               text: "١. (ھاوەڵکار) بەوریاییەوە کە ڕەفتاری باش پیشان دەدات"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "She blew her nose as daintily as possible."),
-                    ExampleSentenceKurdish(
-                        text: "ھەتا توانی بە وریایی لووتی پاککردەوە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "daintily", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdaintilys1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdaintilys1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "She blew her nose as daintily as possible.",
+            kurdishText: "ھەتا توانی بە وریایی لووتی پاککردەوە.", // daintily
+            onPressedBritish: () => speakdaintilys1("en-GB"),
+            onPressedAmerican: () => speakdaintilys1("en-US"),
           ),
         ],
       ),

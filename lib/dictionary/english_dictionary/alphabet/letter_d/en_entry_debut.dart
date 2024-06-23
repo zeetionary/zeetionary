@@ -258,117 +258,39 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "١. (ناو) یەکەمین دەرکەوتنی نمایشکارێک یان یاریزانێکی وەرزشی"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "He will make his debut for the first team this week."),
-                    ExampleSentenceKurdish(
-                        text: "ئەم ھەفتەیە یەکەم دەرکەوتنی بۆ تیمەکە دەبێت."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "debut", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdebuts1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdebuts1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "He will make his debut for the first team this week.",
+            kurdishText:
+                "ئەم ھەفتەیە یەکەم دەرکەوتنی بۆ تیمەکە دەبێت.", // debut
+            onPressedBritish: () => speakdebuts1("en-GB"),
+            onPressedAmerican: () => speakdebuts1("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٢. (کردار) ئەنجامدانی یەکەمین دەرکەوتن"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "The ballet will debut next month in New York."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "گرووپە بالێیەکە یەکەم دەرکەوتنی مانگی داھاتوو لە نیویۆرک دەبێت."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdebuts2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdebuts2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "The ballet will debut next month in New York.",
+            kurdishText:
+                "گرووپە بالێیەکە یەکەم دەرکەوتنی مانگی داھاتوو لە نیویۆرک دەبێت.",
+            onPressedBritish: () => speakdebuts2("en-GB"),
+            onPressedAmerican: () => speakdebuts2("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٣. (کردار) ناساندنی بەرھەمێک بە خەڵکی بۆ یەکەم جار"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "The model is expected to debut at £19 000."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "نموونەکە پێشبینی دەکرێت بە ١٩٠٠٠ پاوەند نمایش بکرێت."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdebuts3("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdebuts3("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "The model is expected to debut at £19 000.",
+            kurdishText: "نموونەکە پێشبینی دەکرێت بە ١٩٠٠٠ پاوەند نمایش بکرێت.",
+            onPressedBritish: () => speakdebuts3("en-GB"),
+            onPressedAmerican: () => speakdebuts3("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "They will debut the products at the trade show."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "بۆ یەکەم جار بەرھەمەکان لە پێشانگا بازرگانییەکە پیشان دەدەن."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdebuts4("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdebuts4("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "They will debut the products at the trade show.",
+            kurdishText:
+                "بۆ یەکەم جار بەرھەمەکان لە پێشانگا بازرگانییەکە پیشان دەدەن.",
+            onPressedBritish: () => speakdebuts4("en-GB"),
+            onPressedAmerican: () => speakdebuts4("en-US"),
           ),
         ],
       ),

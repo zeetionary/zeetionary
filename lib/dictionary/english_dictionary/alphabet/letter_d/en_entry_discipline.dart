@@ -328,354 +328,123 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "١. (ناو) کاری فێرکردنی خەڵکی کە دەبێت پابەندی یاسا و ڕێسا بن و سزا دەدرێن حەگەر نەیکەن"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The school has a reputation for high standards of discipline."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "قوتابخانەکە ناوبانگی بۆ ستانداردی بەرز ھەیە بۆ تەنێکردن."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "discipline", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdisciplines1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdisciplines1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "The school has a reputation for high standards of discipline.",
+            kurdishText:
+                "قوتابخانەکە ناوبانگی بۆ ستانداردی بەرز ھەیە بۆ تەنێکردن.", // discipline
+            onPressedBritish: () => speakdisciplines1("en-GB"),
+            onPressedAmerican: () => speakdisciplines1("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "Strict discipline is imposed on army recruits."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "توندوتۆڵی توند دەسەپێنرێت بەسەر تازە وەرگیراوانی سوپادا."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdisciplines2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdisciplines2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "Strict discipline is imposed on army recruits.",
+            kurdishText:
+                "توندوتۆڵی توند دەسەپێنرێت بەسەر تازە وەرگیراوانی سوپادا.",
+            onPressedBritish: () => speakdisciplines2("en-GB"),
+            onPressedAmerican: () => speakdisciplines2("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "She keeps good discipline in class."),
-                    ExampleSentenceKurdish(
-                        text: "توندایەتی باش ڕادەگرێت لە پۆلدا."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdisciplines3("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdisciplines3("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "She keeps good discipline in class.",
+            kurdishText: "توندایەتی باش ڕادەگرێت لە پۆلدا.",
+            onPressedBritish: () => speakdisciplines3("en-GB"),
+            onPressedAmerican: () => speakdisciplines3("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
                   "٣. (ناو) ڕێگای ڕاھێنانی مێشک و جەستەت یان کۆنترۆڵکردنی ڕەفتارت"),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "Yoga is a good discipline for learning to relax."),
-                    ExampleSentenceKurdish(
-                        text: "یۆگا ڕێچکەیەکی باشە بۆ حەسانەوە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdisciplines4("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdisciplines4("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "Yoga is a good discipline for learning to relax.",
+            kurdishText: "یۆگا ڕێچکەیەکی باشە بۆ حەسانەوە.",
+            onPressedBritish: () => speakdisciplines4("en-GB"),
+            onPressedAmerican: () => speakdisciplines4("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
                   "٣. (ناو) توانای کۆنترۆڵکردنی ڕەفتارت یان شێوازی ژیان، کار، ھتد"),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "Her determination and discipline were admirable."),
-                    ExampleSentenceKurdish(
-                        text: "شێلگیری و توندوتۆڵی شایەنی ڕێز بوون."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdisciplines5("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdisciplines5("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "Her determination and discipline were admirable.",
+            kurdishText: "شێلگیری و توندوتۆڵی شایەنی ڕێز بوون.",
+            onPressedBritish: () => speakdisciplines5("en-GB"),
+            onPressedAmerican: () => speakdisciplines5("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٤. (ناو) بابەتێک کە خەڵکی دەیخوێنن یان فێردەکرێن"),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "Scholars from various disciplines have been working on these problems."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "شارەزایان لە ژمارەیەکی جیاواز لە لقی خوێندنەوە لەسەر ئەم کێشانە کاردەکەن."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdisciplines6("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdisciplines6("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "Scholars from various disciplines have been working on these problems.",
+            kurdishText:
+                "شارەزایان لە ژمارەیەکی جیاواز لە لقی خوێندنەوە لەسەر ئەم کێشانە کاردەکەن.",
+            onPressedBritish: () => speakdisciplines6("en-GB"),
+            onPressedAmerican: () => speakdisciplines6("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "When did sociology emerge as a distinct discipline?"),
-                    ExampleSentenceKurdish(
-                        text: "کەی کۆمەڵناسی بوو بە لقێکی خوێندنی جیاواز؟"),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdisciplines7("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdisciplines7("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "When did sociology emerge as a distinct discipline?",
+            kurdishText: "کەی کۆمەڵناسی بوو بە لقێکی خوێندنی جیاواز؟",
+            onPressedBritish: () => speakdisciplines7("en-GB"),
+            onPressedAmerican: () => speakdisciplines7("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٥. (کردار) سزادانی کەسێک بۆ شتێک کە کردوویەتی"),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The officers were disciplined for using racist language."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "ئەفسەرەکان سزادران بۆ بەکارھێنانی زمانی ڕەگەزپەرستانە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdisciplines8("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdisciplines8("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "The officers were disciplined for using racist language.",
+            kurdishText:
+                "ئەفسەرەکان سزادران بۆ بەکارھێنانی زمانی ڕەگەزپەرستانە.",
+            onPressedBritish: () => speakdisciplines8("en-GB"),
+            onPressedAmerican: () => speakdisciplines8("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "Should unions discipline members who take unofficial action?"),
-                    ExampleSentenceKurdish(
-                        text:
-                            "دەبێت سەندیکاکان ئەو ئەندامانە سزا بدەن کە ھەنگاوی نافەرمی دەنێن؟"),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdisciplines9("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdisciplines9("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "Should unions discipline members who take unofficial action?",
+            kurdishText:
+                "دەبێت سەندیکاکان ئەو ئەندامانە سزا بدەن کە ھەنگاوی نافەرمی دەنێن؟",
+            onPressedBritish: () => speakdisciplines9("en-GB"),
+            onPressedAmerican: () => speakdisciplines9("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
                   "٦. (کردار) ڕاھێنانی کەسێک، بەتایبەتی منداڵێک، کە پابەندی یاسا بێت و شێوازی ڕەفتاری کۆنترۆڵ بکەیت"),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "This book contains a guide to the best ways of disciplining your child."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "ئەم کتێبە ڕێبەرییەکی باشترین ڕێگاکان لەخۆدەگرێت بۆ پەروەردەکردنی منداڵێک."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdisciplines10("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdisciplines10("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "This book contains a guide to the best ways of disciplining your child.",
+            kurdishText:
+                "ئەم کتێبە ڕێبەرییەکی باشترین ڕێگاکان لەخۆدەگرێت بۆ پەروەردەکردنی منداڵێک.",
+            onPressedBritish: () => speakdisciplines10("en-GB"),
+            onPressedAmerican: () => speakdisciplines10("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
                   "٧. (کردار) کۆنترۆڵکردنی شێوازی ڕەفتارت و ئەوەی ئەو شتانە بکەیت کە دەبێت بیانکەیت"),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "Dieting is a matter of disciplining yourself."),
-                    ExampleSentenceKurdish(
-                        text: "پارێزکردن پەیوەندیدارە بە کۆنترۆڵکردنی خۆت."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdisciplines11("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdisciplines11("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "Dieting is a matter of disciplining yourself.",
+            kurdishText: "پارێزکردن پەیوەندیدارە بە کۆنترۆڵکردنی خۆت.",
+            onPressedBritish: () => speakdisciplines11("en-GB"),
+            onPressedAmerican: () => speakdisciplines11("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "He disciplined himself to exercise at least three times a week."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "خۆی ڕاھێنا کە بەلایەنی کەمەوە سێ جار لە ھەفتەیەکدا ڕاھێنان بکات."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdisciplines12("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdisciplines12("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "He disciplined himself to exercise at least three times a week.",
+            kurdishText:
+                "خۆی ڕاھێنا کە بەلایەنی کەمەوە سێ جار لە ھەفتەیەکدا ڕاھێنان بکات.",
+            onPressedBritish: () => speakdisciplines12("en-GB"),
+            onPressedAmerican: () => speakdisciplines12("en-US"),
           ),
           // disciplines1300"),
           // speakdisciplines13

@@ -315,301 +315,91 @@ class KurdishMeaning extends StatelessWidget {
 کوردی: مەترسی، ترس، بیم، خەتەر، تووش، ترکزە
 """),
           const DefinitionKurdish(text: "١. (ناو) مەترسی"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(text: "Danger! Keep Out!"),
-                    ExampleSentenceKurdish(text: "مەترسی! خۆت بپارێزە!"),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "danger", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdangers1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdangers1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "Danger! Keep Out!",
+            kurdishText: "مەترسی! خۆت بپارێزە!", // danger
+            onPressedBritish: () => speakdangers1("en-GB"),
+            onPressedAmerican: () => speakdangers1("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "Firefighters face danger every day."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "ئاگرکوژێنرەوەکان ھەموو ڕۆژێک ڕووبەڕووی مەترسی دەبنەوە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdangers2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdangers2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "Firefighters face danger every day.",
+            kurdishText:
+                "ئاگرکوژێنرەوەکان ھەموو ڕۆژێک ڕووبەڕووی مەترسی دەبنەوە.",
+            onPressedBritish: () => speakdangers2("en-GB"),
+            onPressedAmerican: () => speakdangers2("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "Children's lives are in danger every time they cross this road."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "ژیانی منداڵان لە مەترسیدایە ھەر کاتێک لەم شەقامە دەپەڕنەوە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdangers3("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdangers3("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "Children's lives are in danger every time they cross this road.",
+            kurdishText:
+                "ژیانی منداڵان لە مەترسیدایە ھەر کاتێک لەم شەقامە دەپەڕنەوە.",
+            onPressedBritish: () => speakdangers3("en-GB"),
+            onPressedAmerican: () => speakdangers3("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "Doctors said she is now out of danger (= not likely to die)."),
-                    ExampleSentenceKurdish(
-                        text: "پزیشکەکان گوتیان ئێستا لە مەترسی بەدەرە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdangers4("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdangers4("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "Doctors said she is now out of danger (= not likely to die).",
+            kurdishText: "پزیشکەکان گوتیان ئێستا لە مەترسی بەدەرە.",
+            onPressedBritish: () => speakdangers4("en-GB"),
+            onPressedAmerican: () => speakdangers4("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "He recognized the danger signs and gave up smoking."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "ھەستی بە ئاماژەکانی کرد و وازی لە جگەرەکێشان ھێنا."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdangers5("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdangers5("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "He recognized the danger signs and gave up smoking.",
+            kurdishText: "ھەستی بە ئاماژەکانی کرد و وازی لە جگەرەکێشان ھێنا.",
+            onPressedBritish: () => speakdangers5("en-GB"),
+            onPressedAmerican: () => speakdangers5("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(text: "No one foresaw the danger."),
-                    ExampleSentenceKurdish(
-                        text: "کەس پێشبینی مەترسییەکەی نەکرد."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdangers6("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdangers6("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "No one foresaw the danger.",
+            kurdishText: "کەس پێشبینی مەترسییەکەی نەکرد.",
+            onPressedBritish: () => speakdangers6("en-GB"),
+            onPressedAmerican: () => speakdangers6("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٢. (ناو) ئەگەری ڕوودانی شتێکی خراپ یان ناخۆش"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "There is no danger of a bush fire now."),
-                    ExampleSentenceKurdish(
-                        text: "ئێستا ھیچ مەترسی ئاگری دەوەن نییە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdangers7("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdangers7("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "There is no danger of a bush fire now.",
+            kurdishText: "ئێستا ھیچ مەترسی ئاگری دەوەن نییە.",
+            onPressedBritish: () => speakdangers7("en-GB"),
+            onPressedAmerican: () => speakdangers7("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "They reminded residents of the potential dangers of living so near an active volcano."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "مەترسییە ڕێتێچووەکانی ژیانیان لە زۆر نزیک لە گڕکانێکی چالاک بەبیری ھاوڵاتیان ھێنایەوە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdangers8("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdangers8("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "They reminded residents of the potential dangers of living so near an active volcano.",
+            kurdishText:
+                "مەترسییە ڕێتێچووەکانی ژیانیان لە زۆر نزیک لە گڕکانێکی چالاک بەبیری ھاوڵاتیان ھێنایەوە.",
+            onPressedBritish: () => speakdangers8("en-GB"),
+            onPressedAmerican: () => speakdangers8("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "The building is in danger of collapsing."),
-                    ExampleSentenceKurdish(
-                        text: "بیانەکە لەژێر مەترسی ڕووخاندایە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdangers9("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdangers9("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "The building is in danger of collapsing.",
+            kurdishText: "بیانەکە لەژێر مەترسی ڕووخاندایە.",
+            onPressedBritish: () => speakdangers9("en-GB"),
+            onPressedAmerican: () => speakdangers9("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: "٣. (ناو) کەسێک یان شتێکی مەترسیدار"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "There are many hidden dangers for small children in the home."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "زۆر مەترسی شاراوە بۆ منداڵی بچووک لە ماڵەوەدا ھەیە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdangers10("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdangers10("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "There are many hidden dangers for small children in the home.",
+            kurdishText: "زۆر مەترسی شاراوە بۆ منداڵی بچووک لە ماڵەوەدا ھەیە.",
+            onPressedBritish: () => speakdangers10("en-GB"),
+            onPressedAmerican: () => speakdangers10("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "Police said the man was a danger to the public."),
-                    ExampleSentenceKurdish(
-                        text: "پۆلیس گوتی پیاوەکە مەترسییە بۆ خەڵکی."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdangers11("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdangers11("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "Police said the man was a danger to the public.",
+            kurdishText: "پۆلیس گوتی پیاوەکە مەترسییە بۆ خەڵکی.",
+            onPressedBritish: () => speakdangers11("en-GB"),
+            onPressedAmerican: () => speakdangers11("en-US"),
           ),
         ],
       ),

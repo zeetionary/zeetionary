@@ -380,89 +380,32 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "١. (ناو) کەسێک کە بەردەوام مادەی کحوولی دەخواتەوە، بەتایبەتی کەسێک کە زۆر دەخواتەوە"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "She claimed advertisers were targeting underage drinkers."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "بانگەشەی ئەوەی دەکرد کە خاوەن ڕیکلامەکان ئارەقخۆرانی ھەرزەکاریان بە ئامانج دەگرت."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "drinker", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdrinkers1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdrinkers1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "She claimed advertisers were targeting underage drinkers.",
+            kurdishText:
+                "بانگەشەی ئەوەی دەکرد کە خاوەن ڕیکلامەکان ئارەقخۆرانی ھەرزەکاریان بە ئامانج دەگرت.", // drinker
+            onPressedBritish: () => speakdrinkers1("en-GB"),
+            onPressedAmerican: () => speakdrinkers1("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "This liver condition is common in heavy drinkers."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "نەخۆشی گورچیلە لەناو ئارەقخۆرە سەختەکاندا باوە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdrinkers2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdrinkers2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "This liver condition is common in heavy drinkers.",
+            kurdishText: "نەخۆشی گورچیلە لەناو ئارەقخۆرە سەختەکاندا باوە.",
+            onPressedBritish: () => speakdrinkers2("en-GB"),
+            onPressedAmerican: () => speakdrinkers2("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٢. (ناو) کەسێک کە بەردەوام ئەو شتە دەخواتەوە کە باسکراوە"),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(text: "I'm not a big tea drinker."),
-                    ExampleSentenceKurdish(text: "چاخۆرێکی گەورە نیم."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdrinkers3("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdrinkers3("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "I'm not a big tea drinker.",
+            kurdishText: "چاخۆرێکی گەورە نیم.",
+            onPressedBritish: () => speakdrinkers3("en-GB"),
+            onPressedAmerican: () => speakdrinkers3("en-US"),
           ),
           // drinkers400"),
           // speakdrinkers4

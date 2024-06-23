@@ -241,58 +241,20 @@ class KurdishMeaning extends StatelessWidget {
 """),
           const DefinitionKurdish(
               text: "١. (ناو) چەقۆیەکی بچووکی تیژ کە وەک چەک بەکاردێت"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "Each man was armed with both sword and dagger."),
-                    ExampleSentenceKurdish(
-                        text: "ھەموو پیاوێک بە شمشێرێک و خەنجەرێک چەکدار بوو."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "dagger", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdaggers1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdaggers1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "Each man was armed with both sword and dagger.",
+            kurdishText:
+                "ھەموو پیاوێک بە شمشێرێک و خەنجەرێک چەکدار بوو.", // dagger
+            onPressedBritish: () => speakdaggers1("en-GB"),
+            onPressedAmerican: () => speakdaggers1("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "His hand dropped to the dagger tucked into his belt."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "دەستی برد بۆ خەنجەرەکەی کە لە قایشەکەیدا شاردرابوویەوە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdaggers2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdaggers2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "His hand dropped to the dagger tucked into his belt.",
+            kurdishText:
+                "دەستی برد بۆ خەنجەرەکەی کە لە قایشەکەیدا شاردرابوویەوە.",
+            onPressedBritish: () => speakdaggers2("en-GB"),
+            onPressedAmerican: () => speakdaggers2("en-US"),
           ),
         ],
       ),

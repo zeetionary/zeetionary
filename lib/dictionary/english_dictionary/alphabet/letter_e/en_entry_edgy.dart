@@ -371,60 +371,21 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   """١. (ھاوەڵناو) شڵەژاو، بەتایبەتی سەبارەت بە شتێک کە ڕەنگە ڕووبدات"""),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: """She's been very edgy lately."""),
-                    ExampleSentenceKurdish(
-                        text: """ئەم ماوەیە زۆر شڵەژاو بووە."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "edgy", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakedgys1("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakedgys1("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: """She's been very edgy lately.""",
+            kurdishText: """ئەم ماوەیە زۆر شڵەژاو بووە.""", // edgy
+            onPressedBritish: () => speakedgys1("en-GB"),
+            onPressedAmerican: () => speakedgys1("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            """I’m feeling a bit edgy about the exam tomorrow."""),
-                    ExampleSentenceKurdish(
-                        text:
-                            """کەمێک ھەست بە شڵەژاوی دەکەم سەبارەت بە تاقیکردنەوەکەی سبەی."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakedgys2("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakedgys2("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: """I’m feeling a bit edgy about the exam tomorrow.""",
+            kurdishText:
+                """کەمێک ھەست بە شڵەژاوی دەکەم سەبارەت بە تاقیکردنەوەکەی سبەی.""",
+            onPressedBritish: () => speakedgys2("en-GB"),
+            onPressedAmerican: () => speakedgys2("en-US"),
           ),
           // edgys300edgys3
           // speakedgys3

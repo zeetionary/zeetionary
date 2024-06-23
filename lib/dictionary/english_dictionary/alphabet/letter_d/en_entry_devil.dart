@@ -289,225 +289,71 @@ class KurdishMeaning extends StatelessWidget {
 کوردی: شەیتان، ئەھریمەن،	شەیتان، دێو، گیان یان ڕۆحی خراپ، ڕۆحی پیس،	مرۆڤی خراپ یا دەروون‌ڕەش، بنیادەمی پیس،	مرۆڤ، بنیادەم،	ناجسن، بەدڕەسەن، بەچکەی شەیتان
 """),
           const DefinitionKurdish(text: "١. (ناو) شەیتان"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "His strong left-wing views make him the devil incarnate to more extreme Conservatives."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "دیدە بەھێزە چەپڕەوەکانی لەلای ڕاستڕەوە توندەکان دەیکات بە شەیتان."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "devil", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdevils1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdevils1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "His strong left-wing views make him the devil incarnate to more extreme Conservatives.",
+            kurdishText:
+                "دیدە بەھێزە چەپڕەوەکانی لەلای ڕاستڕەوە توندەکان دەیکات بە شەیتان.", // devil
+            onPressedBritish: () => speakdevils1("en-GB"),
+            onPressedAmerican: () => speakdevils1("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The devil was painted with horns and cloven hoofs."),
-                    ExampleSentenceKurdish(
-                        text: "شەیتان بە شاخ و سمی شەقبوو وێناکرا."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdevils2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdevils2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "The devil was painted with horns and cloven hoofs.",
+            kurdishText: "شەیتان بە شاخ و سمی شەقبوو وێناکرا.",
+            onPressedBritish: () => speakdevils2("en-GB"),
+            onPressedAmerican: () => speakdevils2("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: "٢. (ناو) گیانلەبەرێکی خراپ"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "They believed she was possessed by devils."),
-                    ExampleSentenceKurdish(
-                        text: "باوەڕیان وابوو خێوەکان دەستیان بەسەردا گرتووە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdevils3("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdevils3("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "They believed she was possessed by devils.",
+            kurdishText: "باوەڕیان وابوو خێوەکان دەستیان بەسەردا گرتووە.",
+            onPressedBritish: () => speakdevils3("en-GB"),
+            onPressedAmerican: () => speakdevils3("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "He behaved like someone possessed by devils."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "وەک کەسێک ڕەفتاری دەکرد کە خێوەکان کۆنترۆڵیان کردبێت."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdevils4("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdevils4("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "He behaved like someone possessed by devils.",
+            kurdishText:
+                "وەک کەسێک ڕەفتاری دەکرد کە خێوەکان کۆنترۆڵیان کردبێت.",
+            onPressedBritish: () => speakdevils4("en-GB"),
+            onPressedAmerican: () => speakdevils4("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: "٣. (ناو) کەسێک کە خراپ ڕەفتار دەکات"),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "Have another slice of cake - go on, be a devil!"),
-                    ExampleSentenceKurdish(
-                        text: "پارچە کێکێکی دیکە ببە ـ بچۆ، ناجسن بە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdevils5("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdevils5("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "Have another slice of cake - go on, be a devil!",
+            kurdishText: "پارچە کێکێکی دیکە ببە ـ بچۆ، ناجسن بە.",
+            onPressedBritish: () => speakdevils5("en-GB"),
+            onPressedAmerican: () => speakdevils5("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
                   "٤. (ناو) بۆ قسەکردن لەسەر کەسێک و دەربڕینێکی شتێک کە ھەتە لەسەری"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "I miss the old devil, now that he's gone."),
-                    ExampleSentenceKurdish(
-                        text: "بیری ئەو شەیتانە پیرە دەکەم ئێستا کە مردووە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdevils6("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdevils6("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "I miss the old devil, now that he's gone.",
+            kurdishText: "بیری ئەو شەیتانە پیرە دەکەم ئێستا کە مردووە.",
+            onPressedBritish: () => speakdevils6("en-GB"),
+            onPressedAmerican: () => speakdevils6("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "She's off to Greece for a month—lucky devil!"),
-                    ExampleSentenceKurdish(
-                        text: "بۆ مانگێک بۆ یۆنان دەچێت ـ شەیتانی بەبەخت."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdevils7("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdevils7("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "She's off to Greece for a month—lucky devil!",
+            kurdishText: "بۆ مانگێک بۆ یۆنان دەچێت ـ شەیتانی بەبەخت.",
+            onPressedBritish: () => speakdevils7("en-GB"),
+            onPressedAmerican: () => speakdevils7("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "James was a handsome devil and rich, too."),
-                    ExampleSentenceKurdish(
-                        text: "خەیمس شەیتانێکی جوان و دەوڵەمەندیش بوو."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdevils8("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdevils8("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "James was a handsome devil and rich, too.",
+            kurdishText: "خەیمس شەیتانێکی جوان و دەوڵەمەندیش بوو.",
+            onPressedBritish: () => speakdevils8("en-GB"),
+            onPressedAmerican: () => speakdevils8("en-US"),
           ),
           // devils900"),
           // speakdevils9

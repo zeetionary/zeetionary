@@ -364,32 +364,13 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   """١. (ناو) شتێک کە بۆ نمایش دەکرێت پێش ئەوەی بە ڕاستی بکرێت"""),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            """The local elections can be seen as a dummy run for the national election next year."""),
-                    ExampleSentenceKurdish(
-                        text:
-                            """ھەڵبژاردنە خۆجێییەکان دەکرێت وەک مەشقێک بۆ ھەڵبژاردنە نیشتیمانییەکانی ساڵی داھاتوو ببیندرێت."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "dummy run", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdummyruns1("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdummyruns1("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                """The local elections can be seen as a dummy run for the national election next year.""",
+            kurdishText:
+                """ھەڵبژاردنە خۆجێییەکان دەکرێت وەک مەشقێک بۆ ھەڵبژاردنە نیشتیمانییەکانی ساڵی داھاتوو ببیندرێت.""", // dummy run
+            onPressedBritish: () => speakdummyruns1("en-GB"),
+            onPressedAmerican: () => speakdummyruns1("en-US"),
           ),
           // dummyruns200
           // speakdummyruns2

@@ -252,93 +252,36 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "١. (ھاوەڵناو) کە ئەو شتانە نییە کە دەکرێت لە ژیان سەرکەوتوویان بکات، بۆ نموونە خوێندن و پارە"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "These social groups remain disadvantaged."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "ئەم گرووپە کۆمەڵایەتیانە بە بەش‌بڕاوی ماونەتەوە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "disadvantaged", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdisadvantageds1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdisadvantageds1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "These social groups remain disadvantaged.",
+            kurdishText:
+                "ئەم گرووپە کۆمەڵایەتیانە بە بەش‌بڕاوی ماونەتەوە.", // disadvantaged
+            onPressedBritish: () => speakdisadvantageds1("en-GB"),
+            onPressedAmerican: () => speakdisadvantageds1("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "A new educational programme has been set up for economically disadvantaged children."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "پڕۆگرامێکی تازەی خوێندن درووستکراوە بۆ منداڵانی ئابووری ھەژار."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdisadvantageds2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdisadvantageds2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "A new educational programme has been set up for economically disadvantaged children.",
+            kurdishText:
+                "پڕۆگرامێکی تازەی خوێندن درووستکراوە بۆ منداڵانی ئابووری ھەژار.",
+            onPressedBritish: () => speakdisadvantageds2("en-GB"),
+            onPressedAmerican: () => speakdisadvantageds2("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
                   "٢. (ھاوەڵناو) ئەو کەسانەی کە ئەو شتانەیان نییە کە دەکرێت لە ژیان سەرکەوتوویان بکات، بۆ نموونە خوێندن و پارە"),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "These measures are intended to help the disadvantaged."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "ئەم ھەنگاوانە ئامانج لێیانە سوود بە نەداران بگەیەنێت."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdisadvantageds3("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdisadvantageds3("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "These measures are intended to help the disadvantaged.",
+            kurdishText:
+                "ئەم ھەنگاوانە ئامانج لێیانە سوود بە نەداران بگەیەنێت.",
+            onPressedBritish: () => speakdisadvantageds3("en-GB"),
+            onPressedAmerican: () => speakdisadvantageds3("en-US"),
           ),
           // disadvantageds400"),
           // speakdisadvantageds4

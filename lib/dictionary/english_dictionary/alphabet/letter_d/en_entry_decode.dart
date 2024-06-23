@@ -240,60 +240,22 @@ class KurdishMeaning extends StatelessWidget {
 // """),
           const DefinitionKurdish(
               text: "١. (کردار) گۆڕینی کۆدێکی نووسراو بۆ زمانی ئاسایی"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "I was involved in decoding enemy documents."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "بەژداربووم لە ئاشکراکردنی بەڵگەنامەکانی دوژمنان."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "decode", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdecodes1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdecodes1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "I was involved in decoding enemy documents.",
+            kurdishText:
+                "بەژداربووم لە ئاشکراکردنی بەڵگەنامەکانی دوژمنان.", // decode
+            onPressedBritish: () => speakdecodes1("en-GB"),
+            onPressedAmerican: () => speakdecodes1("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٢. (کردار) دۆزینەوەی واتای شتێک کە سەختە بۆ تێگەشتن"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "I struggled to decode all the jargon he used."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "تەقەڵام بوو لە تێگەشتن لەو ھەموو زمانە بازاڕییەی بەکاریھێنابوو."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdecodes2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdecodes2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "I struggled to decode all the jargon he used.",
+            kurdishText:
+                "تەقەڵام بوو لە تێگەشتن لەو ھەموو زمانە بازاڕییەی بەکاریھێنابوو.",
+            onPressedBritish: () => speakdecodes2("en-GB"),
+            onPressedAmerican: () => speakdecodes2("en-US"),
           ),
         ],
       ),

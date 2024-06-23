@@ -242,58 +242,20 @@ class KurdishMeaning extends StatelessWidget {
 // """),
           const DefinitionKurdish(
               text: "١. (ھاوەڵکار) بەشێوەیەک کە نائومێدت دەکات"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "The room was disappointingly small."),
-                    ExampleSentenceKurdish(
-                        text: "ژوورەکە نائومێدکەرانە بچووک بوو."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "disappointingly", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdisappointinglys1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdisappointinglys1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "The room was disappointingly small.",
+            kurdishText: "ژوورەکە نائومێدکەرانە بچووک بوو.", // disappointingly
+            onPressedBritish: () => speakdisappointinglys1("en-GB"),
+            onPressedAmerican: () => speakdisappointinglys1("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "The team played very disappointingly."),
-                    ExampleSentenceKurdish(
-                        text: "تیمەکە نائومێدکەرانە یارییان کرد."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdisappointinglys2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdisappointinglys2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "The team played very disappointingly.",
+            kurdishText: "تیمەکە نائومێدکەرانە یارییان کرد.",
+            onPressedBritish: () => speakdisappointinglys2("en-GB"),
+            onPressedAmerican: () => speakdisappointinglys2("en-US"),
           ),
           // disappointinglys300"),
           // speakdisappointinglys3

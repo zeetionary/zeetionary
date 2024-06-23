@@ -375,61 +375,23 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "١. (ناو) کۆتا خۆئامادەکردن بۆ شانۆیەک لە ھۆڵی شانۆ، بە بەکارھێنانی ئەو جل و ئامدەکارییەی کە لە نمایشە ڕاستییەکەدا دەبێت"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The director watched the dress rehearsal carefully."),
-                    ExampleSentenceKurdish(
-                        text: "دەرھێنەرەکە بە وریاییەوە سەیری دوامەشقی دەکرد."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "dress rehearsal", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdressrehearsals1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdressrehearsals1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "The director watched the dress rehearsal carefully.",
+            kurdishText:
+                "دەرھێنەرەکە بە وریاییەوە سەیری دوامەشقی دەکرد.", // dress rehearsal
+            onPressedBritish: () => speakdressrehearsals1("en-GB"),
+            onPressedAmerican: () => speakdressrehearsals1("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The earlier protests had just been dress rehearsals for full-scale revolution."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "(خوازراوی) خۆپیشاندانەکانی دیکەی پێشووتر تەنھا ئامادەکاری بوون بۆ شۆڕشی تەواوەتی."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdressrehearsals2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdressrehearsals2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "The earlier protests had just been dress rehearsals for full-scale revolution.",
+            kurdishText:
+                "(خوازراوی) خۆپیشاندانەکانی دیکەی پێشووتر تەنھا ئامادەکاری بوون بۆ شۆڕشی تەواوەتی.",
+            onPressedBritish: () => speakdressrehearsals2("en-GB"),
+            onPressedAmerican: () => speakdressrehearsals2("en-US"),
           ),
           // dressrehearsals300"),
           // speakdressrehearsals3

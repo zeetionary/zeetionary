@@ -234,32 +234,13 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "١. (ناو) کەسێک یان دامەزراوەیەک کە شکست دێنێت لە کردنی شتێک کە بەشێوەی یاسایی دەبێت بیکات"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The names of credit card defaulters are referred to credit rating agencies."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "ناوی قەرزنەدەرەوەکان دەنێردرێت بۆ ئاژانسە ھەڵسەنگێنەرەکانی قەرزکاران."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "defaulter", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdefaulters1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdefaulters1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "The names of credit card defaulters are referred to credit rating agencies.",
+            kurdishText:
+                "ناوی قەرزنەدەرەوەکان دەنێردرێت بۆ ئاژانسە ھەڵسەنگێنەرەکانی قەرزکاران.", // defaulter
+            onPressedBritish: () => speakdefaulters1("en-GB"),
+            onPressedAmerican: () => speakdefaulters1("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "٢. (ھاوەڵناو) پێنناسە"),

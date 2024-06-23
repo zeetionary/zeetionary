@@ -398,153 +398,56 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   """١. (کردار) توانینی ئەوەی دووربکەویتەوە یان ڕابکەیت لە کەسێک/شتێک، زۆرجار بە زیرەکانە"""),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            """The two men managed to elude the police for six weeks."""),
-                    ExampleSentenceKurdish(
-                        text:
-                            """دوو پیاوەکە توانییان بۆ شەش ھەفتە خۆیان لە پۆلیس بدزنەوە."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "elude", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakeludes1("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakeludes1("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                """The two men managed to elude the police for six weeks.""",
+            kurdishText:
+                """دوو پیاوەکە توانییان بۆ شەش ھەفتە خۆیان لە پۆلیس بدزنەوە.""", // elude
+            onPressedBritish: () => speakeludes1("en-GB"),
+            onPressedAmerican: () => speakeludes1("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            """How did the killer elude detection for so long?"""),
-                    ExampleSentenceKurdish(
-                        text:
-                            """چۆن بکوژەکە توانی لە دۆزینەوە دوور بێت بۆ ئەوەندە زۆر؟"""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakeludes2("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakeludes2("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: """How did the killer elude detection for so long?""",
+            kurdishText:
+                """چۆن بکوژەکە توانی لە دۆزینەوە دوور بێت بۆ ئەوەندە زۆر؟""",
+            onPressedBritish: () => speakeludes2("en-GB"),
+            onPressedAmerican: () => speakeludes2("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
                   """٢. (کردار) کە شتێک وادەکات نەتوانی بەدەستی بھێنیت، یان ئەوەی کە بیرت بکەوێتەوە یان لێی تێ بگەیت"""),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            """He was extremely tired but sleep eluded him."""),
-                    ExampleSentenceKurdish(
-                        text: """تەواو ماندوو بوو بەڵام خەوی نەدەھات."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakeludes3("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakeludes3("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: """He was extremely tired but sleep eluded him.""",
+            kurdishText: """تەواو ماندوو بوو بەڵام خەوی نەدەھات.""",
+            onPressedBritish: () => speakeludes3("en-GB"),
+            onPressedAmerican: () => speakeludes3("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            """Finally he remembered the tiny detail that had eluded him the night before."""),
-                    ExampleSentenceKurdish(
-                        text:
-                            """لە کۆتاییدا وردەکارییە بچووکەکەی بیرکەوتەوە کە شەوی پێشووتر لێی عاسی بووبوو."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakeludes4("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakeludes4("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                """Finally he remembered the tiny detail that had eluded him the night before.""",
+            kurdishText:
+                """لە کۆتاییدا وردەکارییە بچووکەکەی بیرکەوتەوە کە شەوی پێشووتر لێی عاسی بووبوو.""",
+            onPressedBritish: () => speakeludes4("en-GB"),
+            onPressedAmerican: () => speakeludes4("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            """Winning this championship was a prize that had always eluded him."""),
-                    ExampleSentenceKurdish(
-                        text:
-                            """بردنەوەی ئەم پاڵەوانێتییە ئامانجێک بوو کە ھەرگیز بە دەستی نەھێنابوو."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakeludes5("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakeludes5("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                """Winning this championship was a prize that had always eluded him.""",
+            kurdishText:
+                """بردنەوەی ئەم پاڵەوانێتییە ئامانجێک بوو کە ھەرگیز بە دەستی نەھێنابوو.""",
+            onPressedBritish: () => speakeludes5("en-GB"),
+            onPressedAmerican: () => speakeludes5("en-US"),
           ),
           // eludes600eludes6
           // speakeludes6

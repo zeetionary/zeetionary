@@ -242,63 +242,24 @@ class KurdishMeaning extends StatelessWidget {
 """),
           const DefinitionKurdish(
               text: "١. (ناو) یەکەم کەس کە شتێک یان شوێنیک دەدۆزێتەوە"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "They were the discoverers of the structure of DNA."),
-                    ExampleSentenceKurdish(
-                        text: "دۆزەرەوەی پێکھاتەی دی‌ئێن‌ئەی بوون."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "discoverer", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdiscoverers1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdiscoverers1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "They were the discoverers of the structure of DNA.",
+            kurdishText: "دۆزەرەوەی پێکھاتەی دی‌ئێن‌ئەی بوون.", // discoverer
+            onPressedBritish: () => speakdiscoverers1("en-GB"),
+            onPressedAmerican: () => speakdiscoverers1("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
                   "٢. (ناو) کەسێک کە شتێکی شارەوە دەدۆزێتەوە یان شتێک بە ڕێکەوت دەدۆزێتەوە"),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "I was the lucky discoverer of a very valuable painting."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "ئەو بەبەختە بووم کە کە تابلۆیەکی زۆر گرانبەھام دۆزییەوە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdiscoverers2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdiscoverers2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "I was the lucky discoverer of a very valuable painting.",
+            kurdishText:
+                "ئەو بەبەختە بووم کە کە تابلۆیەکی زۆر گرانبەھام دۆزییەوە.",
+            onPressedBritish: () => speakdiscoverers2("en-GB"),
+            onPressedAmerican: () => speakdiscoverers2("en-US"),
           ),
           // discoverers300"),
           // speakdiscoverers3

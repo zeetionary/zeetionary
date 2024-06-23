@@ -281,192 +281,60 @@ class KurdishMeaning extends StatelessWidget {
 کوردی: قەرز، وام، قەرزاری
 """),
           const DefinitionKurdish(text: "١. (ناو) بڕە پارەیەک کە کەسێک قەرزار"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "I need to pay off all my debts."),
-                    ExampleSentenceKurdish(
-                        text: "دەبێت ھەموو قەرزەکانم بدەمەوە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "debt", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdebts1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdebts1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "I need to pay off all my debts.",
+            kurdishText: "دەبێت ھەموو قەرزەکانم بدەمەوە.", // debt
+            onPressedBritish: () => speakdebts1("en-GB"),
+            onPressedAmerican: () => speakdebts1("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "I've finally cleared all my debts."),
-                    ExampleSentenceKurdish(
-                        text: "لەکۆتاییدا ھەموو قەرزەکانمم داوەتەوە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdebts2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdebts2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "I've finally cleared all my debts.",
+            kurdishText: "لەکۆتاییدا ھەموو قەرزەکانمم داوەتەوە.",
+            onPressedBritish: () => speakdebts2("en-GB"),
+            onPressedAmerican: () => speakdebts2("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "After settling his debts he was left with just £2000."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "لە دوای دانەوەی قەرزەکانی بە ٢٠٠٠ پاوەندەوە ماوەتەوە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdebts3("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdebts3("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "After settling his debts he was left with just £2000.",
+            kurdishText:
+                "لە دوای دانەوەی قەرزەکانی بە ٢٠٠٠ پاوەندەوە ماوەتەوە.",
+            onPressedBritish: () => speakdebts3("en-GB"),
+            onPressedAmerican: () => speakdebts3("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٢. (ناو) قەرزاری؛ دۆخێک کە تێیدا قەرزاریت"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(text: "He died heavily in debt."),
-                    ExampleSentenceKurdish(text: "بە قەرزارییەکی زۆرەوە مرد."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdebts4("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdebts4("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "He died heavily in debt.",
+            kurdishText: "بە قەرزارییەکی زۆرەوە مرد.",
+            onPressedBritish: () => speakdebts4("en-GB"),
+            onPressedAmerican: () => speakdebts4("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "The club is £4 million in debt."),
-                    ExampleSentenceKurdish(
-                        text: "یانەکە لە قەرزاری ٤ ملیۆن پاوەندە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdebts5("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdebts5("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "The club is £4 million in debt.",
+            kurdishText: "یانەکە لە قەرزاری ٤ ملیۆن پاوەندە.",
+            onPressedBritish: () => speakdebts5("en-GB"),
+            onPressedAmerican: () => speakdebts5("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "We were poor but we never got into debt."),
-                    ExampleSentenceKurdish(
-                        text: "ھەژار بووین بەڵام ھەرگیز نەکەوتینە قەرزاری."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdebts6("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdebts6("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "We were poor but we never got into debt.",
+            kurdishText: "ھەژار بووین بەڵام ھەرگیز نەکەوتینە قەرزاری.",
+            onPressedBritish: () => speakdebts6("en-GB"),
+            onPressedAmerican: () => speakdebts6("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
                   "٣. (ناو) مەمنوون بوونی کەسێک بەھۆی ئەوەی یارمەتی داویت یان میھرەبان بووە لەگەڵت"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "I would like to acknowledge my debt to my teachers."),
-                    ExampleSentenceKurdish(
-                        text: "دەمەوێت قەرزاریم بە مامۆستاکانم ڕابگەیەنم."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdebts7("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdebts7("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "I would like to acknowledge my debt to my teachers.",
+            kurdishText: "دەمەوێت قەرزاریم بە مامۆستاکانم ڕابگەیەنم.",
+            onPressedBritish: () => speakdebts7("en-GB"),
+            onPressedAmerican: () => speakdebts7("en-US"),
           ),
         ],
       ),

@@ -363,30 +363,12 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   """١. (ناو) دۆخێک کە کاریگەری لەسەر مێشک دەبێت کە کێشە درووست دەکات بۆ خوێندنەوە و نووسین، بەڵام کاریگەریی لەسەر زیرەکی نابێت"""),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: """Many successful people have dyslexia."""),
-                    ExampleSentenceKurdish(
-                        text: """زۆر لە کەسانی سەرکەوتوو دیسلێکسیایان ھەیە."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "dyslexia", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdyslexias1("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdyslexias1("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: """Many successful people have dyslexia.""",
+            kurdishText:
+                """زۆر لە کەسانی سەرکەوتوو دیسلێکسیایان ھەیە.""", // dyslexia
+            onPressedBritish: () => speakdyslexias1("en-GB"),
+            onPressedAmerican: () => speakdyslexias1("en-US"),
           ),
           // dyslexias200
           // speakdyslexias2

@@ -369,59 +369,21 @@ class KurdishMeaning extends StatelessWidget {
 کوردی: ژانەگوێ، گوێ‌ئێشە
 """),
           const DefinitionKurdish(text: """١. (ناو) ئازاری ناو گوێ"""),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: """She went to the doctor for her earache."""),
-                    ExampleSentenceKurdish(
-                        text: """سەردانی پزیشکی کرد بۆ ئازاری گوێی."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "earache", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakearaches1("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakearaches1("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: """She went to the doctor for her earache.""",
+            kurdishText: """سەردانی پزیشکی کرد بۆ ئازاری گوێی.""", // earache
+            onPressedBritish: () => speakearaches1("en-GB"),
+            onPressedAmerican: () => speakearaches1("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: """An earache kept him awake all night."""),
-                    ExampleSentenceKurdish(
-                        text:
-                            """گوێ‌ئێشەیەک بۆ تەواوی شەوەکە بە بێداری ھێشتییەوە."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakearaches2("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakearaches2("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: """An earache kept him awake all night.""",
+            kurdishText:
+                """گوێ‌ئێشەیەک بۆ تەواوی شەوەکە بە بێداری ھێشتییەوە.""",
+            onPressedBritish: () => speakearaches2("en-GB"),
+            onPressedAmerican: () => speakearaches2("en-US"),
           ),
           // earaches300earaches3
           // speakearaches3

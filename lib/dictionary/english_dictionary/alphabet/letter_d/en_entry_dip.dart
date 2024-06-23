@@ -338,392 +338,130 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "١. (کردار) بە خێرایی ژەندنی شتێک بە شلەدا و دووبارە دەرکردنی"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "He dipped the brush into the paint."),
-                    ExampleSentenceKurdish(text: "فڵچەکەی ژەند بە بۆیەکەدا."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "dip", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdips1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdips1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "He dipped the brush into the paint.",
+            kurdishText: "فڵچەکەی ژەند بە بۆیەکەدا.", // dip
+            onPressedBritish: () => speakdips1("en-GB"),
+            onPressedAmerican: () => speakdips1("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "Dip your hand in to see how hot the water is."),
-                    ExampleSentenceKurdish(
-                        text: "پەنجەت بژەنە ناویدا و بزانە ئاوەکە چەند گەرمە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdips2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdips2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "Dip your hand in to see how hot the water is.",
+            kurdishText: "پەنجەت بژەنە ناویدا و بزانە ئاوەکە چەند گەرمە.",
+            onPressedBritish: () => speakdips2("en-GB"),
+            onPressedAmerican: () => speakdips2("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "The fruit had been dipped in chocolate."),
-                    ExampleSentenceKurdish(text: "میوەکە ژەندراوە بە چکلێتدا."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdips3("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdips3("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "The fruit had been dipped in chocolate.",
+            kurdishText: "میوەکە ژەندراوە بە چکلێتدا.",
+            onPressedBritish: () => speakdips3("en-GB"),
+            onPressedAmerican: () => speakdips3("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٢. (کردار) چوونە خوارەوە یان ئاستێکی نزمتر"),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "The sun dipped below the horizon."),
-                    ExampleSentenceKurdish(text: "خۆر دابەزییە خوار ئاسۆ."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdips4("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdips4("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "The sun dipped below the horizon.",
+            kurdishText: "خۆر دابەزییە خوار ئاسۆ.",
+            onPressedBritish: () => speakdips4("en-GB"),
+            onPressedAmerican: () => speakdips4("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The road dipped suddenly as we approached the town."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "ڕێگاکە لەناکاو لێژبوویەوە کە نزیکی شارۆچکەکە بووینەوە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdips5("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdips5("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "The road dipped suddenly as we approached the town.",
+            kurdishText:
+                "ڕێگاکە لەناکاو لێژبوویەوە کە نزیکی شارۆچکەکە بووینەوە.",
+            onPressedBritish: () => speakdips5("en-GB"),
+            onPressedAmerican: () => speakdips5("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(text: "The plane dipped its wings."),
-                    ExampleSentenceKurdish(text: "فڕۆکەکە باڵەکانی شۆڕکردەوە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdips6("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdips6("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "The plane dipped its wings.",
+            kurdishText: "فڕۆکەکە باڵەکانی شۆڕکردەوە.",
+            onPressedBritish: () => speakdips6("en-GB"),
+            onPressedAmerican: () => speakdips6("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: "٣. (ناو) مەلەیەکی خێرا"),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "Let's go for a dip before breakfast."),
-                    ExampleSentenceKurdish(
-                        text: "با پێش نانی بەیانی بچین بۆ سووکەمەلێیەک."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdips7("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdips7("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "Let's go for a dip before breakfast.",
+            kurdishText: "با پێش نانی بەیانی بچین بۆ سووکەمەلێیەک.",
+            onPressedBritish: () => speakdips7("en-GB"),
+            onPressedAmerican: () => speakdips7("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
                   "٢. (ناو) کەمبوونەوەیەک لە بڕ یان سەرکەوتنی شتێک، زۆرجار بە کاتی"),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "Share prices have taken a slight dip."),
-                    ExampleSentenceKurdish(
-                        text: "نرخی پشکەکان کەمێک داشکانیان بینیوە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdips8("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdips8("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "Share prices have taken a slight dip.",
+            kurdishText: "نرخی پشکەکان کەمێک داشکانیان بینیوە.",
+            onPressedBritish: () => speakdips8("en-GB"),
+            onPressedAmerican: () => speakdips8("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "The nation is experiencing an economic dip."),
-                    ExampleSentenceKurdish(
-                        text: "وڵاتەکە ڕووبەڕووی داشکانێکی ئابووری بووە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdips9("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdips9("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "The nation is experiencing an economic dip.",
+            kurdishText: "وڵاتەکە ڕووبەڕووی داشکانێکی ئابووری بووە.",
+            onPressedBritish: () => speakdips9("en-GB"),
+            onPressedAmerican: () => speakdips9("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
                   "٥. (ناو) شوێنێک کە ڕووەکەی لەناکاو دادەبەزێت و دووبارە بەرز دەبێتەوە"),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "The village lay in a dip among the hills."),
-                    ExampleSentenceKurdish(
-                        text: "گوندەکە لە لێژییەک لە گردەکاندا ھەڵکەوتووە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdips10("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdips10("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "The village lay in a dip among the hills.",
+            kurdishText: "گوندەکە لە لێژییەک لە گردەکاندا ھەڵکەوتووە.",
+            onPressedBritish: () => speakdips10("en-GB"),
+            onPressedAmerican: () => speakdips10("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
                   "٦. (ناو) تێکەڵەیەک کە پارچە خواردن دەژەنرێتە ناوی پێش خواردن"),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "She made a creamy dip for the chips."),
-                    ExampleSentenceKurdish(
-                        text: "تێکەڵەیەکی کرێمداری بۆ چیپسەکە ئامادەکرد."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdips11("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdips11("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "She made a creamy dip for the chips.",
+            kurdishText: "تێکەڵەیەکی کرێمداری بۆ چیپسەکە ئامادەکرد.",
+            onPressedBritish: () => speakdips11("en-GB"),
+            onPressedAmerican: () => speakdips11("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
                   "٧. (ناو) شلەیەک مادەی کیمیایی تێدایە و مەڕ و ئاژەڵی دیکەی تێدەخرێت بۆ ئەوەی مێرووی سەر لەشیان بکوژێت"),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The dip effectively killed the lice on the sheep."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "گیراوە خاوێنکەرەوەکە بە کاریگەری ئەسپێکانی لەسەر مەڕەکە کوشت."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdips12("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdips12("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "The dip effectively killed the lice on the sheep.",
+            kurdishText:
+                "گیراوە خاوێنکەرەوەکە بە کاریگەری ئەسپێکانی لەسەر مەڕەکە کوشت.",
+            onPressedBritish: () => speakdips12("en-GB"),
+            onPressedAmerican: () => speakdips12("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: "٨. (ناو) سەیرکردنێکی خێرای شتێک"),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "A brief dip into history confirms this view."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "ڕوانینێکی خێرا لە مێژوو ئەم دیدە پشتڕاست دەکاتەوە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdips13("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdips13("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "A brief dip into history confirms this view.",
+            kurdishText: "ڕوانینێکی خێرا لە مێژوو ئەم دیدە پشتڕاست دەکاتەوە.",
+            onPressedBritish: () => speakdips13("en-GB"),
+            onPressedAmerican: () => speakdips13("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٩. (ناو) لەقاندنی شتێک بۆ سەرەوە و خوارەوە"),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(text: "He gave a dip of his head."),
-                    ExampleSentenceKurdish(text: "سەرەلەقەیەکی کرد."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdips14("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdips14("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "He gave a dip of his head.",
+            kurdishText: "سەرەلەقەیەکی کرد.",
+            onPressedBritish: () => speakdips14("en-GB"),
+            onPressedAmerican: () => speakdips14("en-US"),
           ),
           // dips1500"),
           // speakdips15

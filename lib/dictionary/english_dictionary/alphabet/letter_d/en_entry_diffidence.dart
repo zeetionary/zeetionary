@@ -232,32 +232,13 @@ class KurdishMeaning extends StatelessWidget {
 کوردی: باوەڕبەخۆنەبووی، لەخۆڕانەدیتووی، لەخۆڕانەپەڕمووی، بێ‌باوەڕبەخۆی
 """),
           const DefinitionKurdish(text: "١. (ناو) نەبوونی متمانە بە خۆت"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "She overcame her natural diffidence and spoke with great frankness."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "زاڵبوو بەسەر باوەڕبەخۆنەبووی سرووشتییدا و بە سەرڕاستی زۆرەوە قسەی دەکرد."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "diffidence", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdiffidences1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdiffidences1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "She overcame her natural diffidence and spoke with great frankness.",
+            kurdishText:
+                "زاڵبوو بەسەر باوەڕبەخۆنەبووی سرووشتییدا و بە سەرڕاستی زۆرەوە قسەی دەکرد.", // diffidence
+            onPressedBritish: () => speakdiffidences1("en-GB"),
+            onPressedAmerican: () => speakdiffidences1("en-US"),
           ),
           // diffidences200"),
           // speakdiffidences2

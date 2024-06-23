@@ -251,87 +251,31 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "١. (ناو) پێگەی سەرپەرشتی چالاکییەک، بەشێک، یان دامەزراوەیەک"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "His directorship has come under fierce attack."),
-                    ExampleSentenceKurdish(
-                        text: "بەڕێوەبەرێتییەکەی تووشی ھێرشی توند بووبوو."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "directorship", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdirectorships1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdirectorships1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "His directorship has come under fierce attack.",
+            kurdishText:
+                "بەڕێوەبەرێتییەکەی تووشی ھێرشی توند بووبوو.", // directorship
+            onPressedBritish: () => speakdirectorships1("en-GB"),
+            onPressedAmerican: () => speakdirectorships1("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "She took up the directorship of the Marie Curie Institute in Paris."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "پێگەی بەڕێوەبەرێتیی دامەزراوەی ماری کوردی لە پاریس وەرگرت."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdirectorships2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdirectorships2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "She took up the directorship of the Marie Curie Institute in Paris.",
+            kurdishText:
+                "پێگەی بەڕێوەبەرێتیی دامەزراوەی ماری کوردی لە پاریس وەرگرت.",
+            onPressedBritish: () => speakdirectorships2("en-GB"),
+            onPressedAmerican: () => speakdirectorships2("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٢. (ناو) پێگەی بەڕێوەبەربوونی کۆمپانیایەک"),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "She has held a number of directorships."),
-                    ExampleSentenceKurdish(
-                        text: "ژمارەیەک پێگەی بەڕێوەبەری ھەبووە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdirectorships3("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdirectorships3("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "She has held a number of directorships.",
+            kurdishText: "ژمارەیەک پێگەی بەڕێوەبەری ھەبووە.",
+            onPressedBritish: () => speakdirectorships3("en-GB"),
+            onPressedAmerican: () => speakdirectorships3("en-US"),
           ),
           // directorships400"),
           // speakdirectorships4

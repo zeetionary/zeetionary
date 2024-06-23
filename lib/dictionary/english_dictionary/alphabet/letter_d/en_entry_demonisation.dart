@@ -235,32 +235,13 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "١. (ناو) باسکردنی کەسێک/شتێک بەشێوەیەک کە وابکات خەڵکی دیکە بە خراپی بیری لێ بکەنەوە"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "Media reports fueled the demonization of Japan during the war."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "ڕاپۆرتەکانی میدیا بوونە ھۆکاری ناشرینکردنی ژاپۆن لە کاتی جەنگەکەدا."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "demonisation", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdemonisations1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdemonisations1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "Media reports fueled the demonization of Japan during the war.",
+            kurdishText:
+                "ڕاپۆرتەکانی میدیا بوونە ھۆکاری ناشرینکردنی ژاپۆن لە کاتی جەنگەکەدا.", // demonisation
+            onPressedBritish: () => speakdemonisations1("en-GB"),
+            onPressedAmerican: () => speakdemonisations1("en-US"),
           ),
           // demonisations200"),
           // speakdemonisations2

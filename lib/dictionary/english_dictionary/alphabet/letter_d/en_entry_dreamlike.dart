@@ -371,59 +371,21 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "١. (ھاوەڵناو) وەک ئەوەی لە خەونێکدا بوونی ھەبێت یان ڕووبدات"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "The place has an almost dreamlike quality."),
-                    ExampleSentenceKurdish(
-                        text: "شوێنەکە خاسیەتێکی تاڕادەیەک خەون‌ئاسای ھەبوو."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "dreamlike", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdreamlikes1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdreamlikes1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "The place has an almost dreamlike quality.",
+            kurdishText:
+                "شوێنەکە خاسیەتێکی تاڕادەیەک خەون‌ئاسای ھەبوو.", // dreamlike
+            onPressedBritish: () => speakdreamlikes1("en-GB"),
+            onPressedAmerican: () => speakdreamlikes1("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The dancer’s movements were slow and dreamlike."),
-                    ExampleSentenceKurdish(
-                        text: "جوڵەکانی سەماکارەکە ھێواش و خەیاڵی بوون."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdreamlikes2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdreamlikes2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "The dancer’s movements were slow and dreamlike.",
+            kurdishText: "جوڵەکانی سەماکارەکە ھێواش و خەیاڵی بوون.",
+            onPressedBritish: () => speakdreamlikes2("en-GB"),
+            onPressedAmerican: () => speakdreamlikes2("en-US"),
           ),
           // dreamlikes300"),
           // speakdreamlikes3

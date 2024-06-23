@@ -240,59 +240,22 @@ class KurdishMeaning extends StatelessWidget {
 کوردی: کەڕی، نەبیسی، نەژنەوایی، بێ‌گوێیی
 """),
           const DefinitionKurdish(text: "١. (ناو) دۆخی نەبوونی توانای بیستن"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "Measles can cause deafness and blindness."),
-                    ExampleSentenceKurdish(
-                        text: "سووڕێژە دەکرێت ببێتە ھۆکاری کەڕی و کوێری."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "deafness", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdeafnesss1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdeafnesss1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "Measles can cause deafness and blindness.",
+            kurdishText:
+                "سووڕێژە دەکرێت ببێتە ھۆکاری کەڕی و کوێری.", // deafness
+            onPressedBritish: () => speakdeafnesss1("en-GB"),
+            onPressedAmerican: () => speakdeafnesss1("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: "٢. (ناو) نائامادەیی بۆ گوێگرتن"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "There has been a deliberate deafness to women's complaints of harassment."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "کەڕییەکی بە ئەنقەست ھەبووە لە بەرامبەر سکاڵای توندوتیژی لە ژنانەوە ."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdeafnesss2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdeafnesss2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "There has been a deliberate deafness to women's complaints of harassment.",
+            kurdishText:
+                "کەڕییەکی بە ئەنقەست ھەبووە لە بەرامبەر سکاڵای توندوتیژی لە ژنانەوە .",
+            onPressedBritish: () => speakdeafnesss2("en-GB"),
+            onPressedAmerican: () => speakdeafnesss2("en-US"),
           ),
         ],
       ),

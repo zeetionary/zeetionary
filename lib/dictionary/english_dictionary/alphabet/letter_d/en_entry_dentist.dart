@@ -248,60 +248,22 @@ class KurdishMeaning extends StatelessWidget {
 کوردی: پزیشکی ددان، ددان‌کێش، ددان‌ساز، دانساز
 """),
           const DefinitionKurdish(text: "١. (ناو) پزیشکی ددان"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "You should have your teeth checked by a dentist at least twice a year."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "بەلایەنی کەمەوە ساڵی دووجار دەبێت پشکنینی ددانت بکەیت لەلای پزیشکێکی ددان."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "dentist", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdentists1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdentists1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "You should have your teeth checked by a dentist at least twice a year.",
+            kurdishText:
+                "بەلایەنی کەمەوە ساڵی دووجار دەبێت پشکنینی ددانت بکەیت لەلای پزیشکێکی ددان.", // dentist
+            onPressedBritish: () => speakdentists1("en-GB"),
+            onPressedAmerican: () => speakdentists1("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: "٢. (ناو) شوێنی کارکردنی پزیشکی ددان"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "I hate going to the dentist."),
-                    ExampleSentenceKurdish(
-                        text: "ڕقم لێێە بچمە شوێنی دانسازەکە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdentists2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdentists2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "I hate going to the dentist.",
+            kurdishText: "ڕقم لێێە بچمە شوێنی دانسازەکە.",
+            onPressedBritish: () => speakdentists2("en-GB"),
+            onPressedAmerican: () => speakdentists2("en-US"),
           ),
           // dentists300"),
           // speakdentists3

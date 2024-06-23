@@ -276,146 +276,49 @@ class KurdishMeaning extends StatelessWidget {
 """),
           const DefinitionKurdish(
               text: "١. (ناو) قسەیەک یان نووسینێک کە شتێک دەناسێنێت"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "Follow the link below for a more detailed description."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "لە بەستەرەکەی خوارەوە بڕوانە بۆ ڕوون‌کردنەوەی وردتر."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "description", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdescriptions1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdescriptions1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "Follow the link below for a more detailed description.",
+            kurdishText:
+                "لە بەستەرەکەی خوارەوە بڕوانە بۆ ڕوون‌کردنەوەی وردتر.", // description
+            onPressedBritish: () => speakdescriptions1("en-GB"),
+            onPressedAmerican: () => speakdescriptions1("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The name means ‘no trees’ and it is an accurate description of the island."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "ناوەکە واتای 'بێ دار' و ناساندنێکی درووستی دوورگەکەیە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdescriptions2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdescriptions2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "The name means ‘no trees’ and it is an accurate description of the island.",
+            kurdishText:
+                "ناوەکە واتای 'بێ دار' و ناساندنێکی درووستی دوورگەکەیە.",
+            onPressedBritish: () => speakdescriptions2("en-GB"),
+            onPressedAmerican: () => speakdescriptions2("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "Police have issued a description of the gunman."),
-                    ExampleSentenceKurdish(
-                        text: "پۆلیس وێنایەکی چەکدارەکەیان بڵاوکردووەتەوە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdescriptions3("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdescriptions3("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "Police have issued a description of the gunman.",
+            kurdishText: "پۆلیس وێنایەکی چەکدارەکەیان بڵاوکردووەتەوە.",
+            onPressedBritish: () => speakdescriptions3("en-GB"),
+            onPressedAmerican: () => speakdescriptions3("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: "٢. (ناو) لە جۆرێک"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "In the bay were boats of every description."),
-                    ExampleSentenceKurdish(
-                        text: "لە کەنداوەکە بەلەمی ھەموو جۆرێکی لێ بوو."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdescriptions4("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdescriptions4("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "In the bay were boats of every description.",
+            kurdishText: "لە کەنداوەکە بەلەمی ھەموو جۆرێکی لێ بوو.",
+            onPressedBritish: () => speakdescriptions4("en-GB"),
+            onPressedAmerican: () => speakdescriptions4("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "Their money came from trade of some description."),
-                    ExampleSentenceKurdish(
-                        text: "پارەکەیان لە ھەندێک جۆری بازرگانییەوە دەھات."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdescriptions5("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdescriptions5("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "Their money came from trade of some description.",
+            kurdishText: "پارەکەیان لە ھەندێک جۆری بازرگانییەوە دەھات.",
+            onPressedBritish: () => speakdescriptions5("en-GB"),
+            onPressedAmerican: () => speakdescriptions5("en-US"),
           ),
           // descriptions600"),
           // speakdescriptions6

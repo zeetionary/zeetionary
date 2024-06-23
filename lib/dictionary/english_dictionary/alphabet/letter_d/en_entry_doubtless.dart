@@ -379,89 +379,33 @@ class KurdishMeaning extends StatelessWidget {
 // کوردی:
 // """),
           const DefinitionKurdish(text: "١. (ھاوەڵکار) تاڕادەیەک بەدڵنیاییەوە"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "He would doubtless disapprove of what Kelly was doing."),
-                    ExampleSentenceKurdish(
-                        text: "بێ گومان ئەوە پەسەند ناکات کە کێلی دەیکرد."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "doubtless", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdoubtlesss1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdoubtlesss1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "He would doubtless disapprove of what Kelly was doing.",
+            kurdishText:
+                "بێ گومان ئەوە پەسەند ناکات کە کێلی دەیکرد.", // doubtless
+            onPressedBritish: () => speakdoubtlesss1("en-GB"),
+            onPressedAmerican: () => speakdoubtlesss1("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "Doubtless you have heard the news already."),
-                    ExampleSentenceKurdish(
-                        text: "بێگومان پێشوەختە ھەواڵەکەت بیستووە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdoubtlesss2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdoubtlesss2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "Doubtless you have heard the news already.",
+            kurdishText: "بێگومان پێشوەختە ھەواڵەکەت بیستووە.",
+            onPressedBritish: () => speakdoubtlesss2("en-GB"),
+            onPressedAmerican: () => speakdoubtlesss2("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "They will doubtless protest, but there's nothing they can do."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "بێ گومان ناڕەزایی دەردەبڕن، بەڵام ھیچ نییە بتوانن بیکەن."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdoubtlesss3("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdoubtlesss3("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "They will doubtless protest, but there's nothing they can do.",
+            kurdishText:
+                "بێ گومان ناڕەزایی دەردەبڕن، بەڵام ھیچ نییە بتوانن بیکەن.",
+            onPressedBritish: () => speakdoubtlesss3("en-GB"),
+            onPressedAmerican: () => speakdoubtlesss3("en-US"),
           ),
           // doubtlesss400"),
           // speakdoubtlesss4

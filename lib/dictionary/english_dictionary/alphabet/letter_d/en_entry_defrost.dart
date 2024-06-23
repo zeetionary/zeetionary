@@ -259,89 +259,33 @@ class KurdishMeaning extends StatelessWidget {
 // """),
           const DefinitionKurdish(
               text: "١. (کردار) گەرمکردن بۆ ئەوەی چی دیکە بەستوو نەبێت"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "It will take about four hours to defrost."),
-                    ExampleSentenceKurdish(
-                        text: "نزیکەی چوار کاتژمێری دەوێت تاوەکو بتوێتەوە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "defrost", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdefrosts1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdefrosts1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "It will take about four hours to defrost.",
+            kurdishText:
+                "نزیکەی چوار کاتژمێری دەوێت تاوەکو بتوێتەوە.", // defrost
+            onPressedBritish: () => speakdefrosts1("en-GB"),
+            onPressedAmerican: () => speakdefrosts1("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "Make sure you defrost the chicken completely before cooking."),
-                    ExampleSentenceKurdish(
-                        text: "دڵنیابەرەوە بە تەواوی مریشکەکە دەتاوێنیتەوە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdefrosts2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdefrosts2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "Make sure you defrost the chicken completely before cooking.",
+            kurdishText: "دڵنیابەرەوە بە تەواوی مریشکەکە دەتاوێنیتەوە.",
+            onPressedBritish: () => speakdefrosts2("en-GB"),
+            onPressedAmerican: () => speakdefrosts2("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٢. (کردار) لێکردنەوەی سەھۆڵ لە بەفرگر"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "When you get a build-up of ice in your freezer, you know it's time to defrost it."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "کە کۆبوونەوەی زۆری سەھۆڵت ھەیە لە بەفرگرەکەت دەزانیت کاتی لێکردنەوەی بەفرەکەیە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdefrosts3("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdefrosts3("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "When you get a build-up of ice in your freezer, you know it's time to defrost it.",
+            kurdishText:
+                "کە کۆبوونەوەی زۆری سەھۆڵت ھەیە لە بەفرگرەکەت دەزانیت کاتی لێکردنەوەی بەفرەکەیە.",
+            onPressedBritish: () => speakdefrosts3("en-GB"),
+            onPressedAmerican: () => speakdefrosts3("en-US"),
           ),
           // defrosts400"),
           // speakdefrosts4

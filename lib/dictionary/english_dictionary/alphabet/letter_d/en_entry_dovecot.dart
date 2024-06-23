@@ -362,32 +362,12 @@ class KurdishMeaning extends StatelessWidget {
 کوردی: کۆترخان، کونەکۆتر
 """),
           const DefinitionKurdish(text: "١. (ناو) بینایەکی بچووک بۆ کۆتر"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "She watched the doves return to the dovecot at dusk."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "سەیری کۆترەکانی کرد کە گەڕانەوە بۆ کونەکۆترەکە لە ڕۆژئاوابووندا."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "dovecot", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdovecots1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdovecots1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "She watched the doves return to the dovecot at dusk.",
+            kurdishText:
+                "سەیری کۆترەکانی کرد کە گەڕانەوە بۆ کونەکۆترەکە لە ڕۆژئاوابووندا.", // dovecot
+            onPressedBritish: () => speakdovecots1("en-GB"),
+            onPressedAmerican: () => speakdovecots1("en-US"),
           ),
           // dovecots200"),
           // speakdovecots2

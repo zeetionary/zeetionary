@@ -247,85 +247,27 @@ class KurdishMeaning extends StatelessWidget {
 کوردی: (گوپ، چەناگە) چاڵ، کۆرت، قوڵکە
 """),
           const DefinitionKurdish(text: "١. (ناو) چاڵێکو بچووک لەسەر ڕووخسار"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "He has a little round dimple in one cheek."),
-                    ExampleSentenceKurdish(
-                        text: "لەسەر گۆنایەکی چاڵێکی خڕی ھەیە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "dimple", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdimples1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdimples1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "He has a little round dimple in one cheek.",
+            kurdishText: "لەسەر گۆنایەکی چاڵێکی خڕی ھەیە.", // dimple
+            onPressedBritish: () => speakdimples1("en-GB"),
+            onPressedAmerican: () => speakdimples1("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "She had a dimple which appeared when she smiled."),
-                    ExampleSentenceKurdish(
-                        text: "چاڵێکی ھەبوو کە دەردەکەوت کە پێدەکەنی."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdimples2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdimples2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "She had a dimple which appeared when she smiled.",
+            kurdishText: "چاڵێکی ھەبوو کە دەردەکەوت کە پێدەکەنی.",
+            onPressedBritish: () => speakdimples2("en-GB"),
+            onPressedAmerican: () => speakdimples2("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: "٢. (ناو) ھەر چاڵییەک لەسەر ڕوویەک"),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "The pane of glass had a small dimple in it."),
-                    ExampleSentenceKurdish(
-                        text: "شووشەی پەنجەرەکە چاڵێکی تێدا بوو."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdimples3("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdimples3("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "The pane of glass had a small dimple in it.",
+            kurdishText: "شووشەی پەنجەرەکە چاڵێکی تێدا بوو.",
+            onPressedBritish: () => speakdimples3("en-GB"),
+            onPressedAmerican: () => speakdimples3("en-US"),
           ),
           // dimples400"),
           // speakdimples4

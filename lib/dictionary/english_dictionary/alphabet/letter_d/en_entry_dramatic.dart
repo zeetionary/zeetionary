@@ -416,210 +416,77 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "١. (ھاوەڵناو) لەناکاو و زۆر گەورە کە زۆرجار جێگەی سەرسامییە"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "There has been a dramatic rise in reported crime."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "بەرزبوونەوەیەکی بەرچاو لە ڕێژەی تاوانی ڕاگەیەندراو ڕوویداوە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "dramatic", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdramatics1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdramatics1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "There has been a dramatic rise in reported crime.",
+            kurdishText:
+                "بەرزبوونەوەیەکی بەرچاو لە ڕێژەی تاوانی ڕاگەیەندراو ڕوویداوە.", // dramatic
+            onPressedBritish: () => speakdramatics1("en-GB"),
+            onPressedAmerican: () => speakdramatics1("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The announcement had a dramatic effect on house prices."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "ڕاگەیاندنەکە کاریگەرییەکی سەرسوڕھێنەری لەسەر نرخی خانوو ھەبوو."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdramatics2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdramatics2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "The announcement had a dramatic effect on house prices.",
+            kurdishText:
+                "ڕاگەیاندنەکە کاریگەرییەکی سەرسوڕھێنەری لەسەر نرخی خانوو ھەبوو.",
+            onPressedBritish: () => speakdramatics2("en-GB"),
+            onPressedAmerican: () => speakdramatics2("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "Climate change will have a dramatic impact on the health of the planet."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "گۆڕانی کەشوھەوا کاریگەریی سەرسوڕھێنەری لەسەر تەندرووستیی زەوی دەبێت."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdramatics3("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdramatics3("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "Climate change will have a dramatic impact on the health of the planet.",
+            kurdishText:
+                "گۆڕانی کەشوھەوا کاریگەریی سەرسوڕھێنەری لەسەر تەندرووستیی زەوی دەبێت.",
+            onPressedBritish: () => speakdramatics3("en-GB"),
+            onPressedAmerican: () => speakdramatics3("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: "٢. (ھاوەڵناو) بەجۆش"),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "They watched dramatic pictures of the police raid on TV."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "سەیری دیمەنی ھەست‌بزوێنی ھەڵکوتانی پۆلیسیان کرد لەسەر تەلەفیزیۆن."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdramatics4("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdramatics4("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "They watched dramatic pictures of the police raid on TV.",
+            kurdishText:
+                "سەیری دیمەنی ھەست‌بزوێنی ھەڵکوتانی پۆلیسیان کرد لەسەر تەلەفیزیۆن.",
+            onPressedBritish: () => speakdramatics4("en-GB"),
+            onPressedAmerican: () => speakdramatics4("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٣. (ھاوەڵناو) پەیوەندیدار بە شانۆ و ھۆڵی شانۆ"),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "Students will study various plays and dramatic texts."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "خوێندکاران ژمارەیەک شانۆ و نووسراوی شانۆیی دەخوێنن."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdramatics5("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdramatics5("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "Students will study various plays and dramatic texts.",
+            kurdishText: "خوێندکاران ژمارەیەک شانۆ و نووسراوی شانۆیی دەخوێنن.",
+            onPressedBritish: () => speakdramatics5("en-GB"),
+            onPressedAmerican: () => speakdramatics5("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "She went on to study dramatic arts at Columbia University."),
-                    ExampleSentenceKurdish(
-                        text: "چوو بۆ خوێندنی ھونەری شانۆ لە زانکۆی کۆلۆمبیا."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdramatics6("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdramatics6("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "She went on to study dramatic arts at Columbia University.",
+            kurdishText: "چوو بۆ خوێندنی ھونەری شانۆ لە زانکۆی کۆلۆمبیا.",
+            onPressedBritish: () => speakdramatics6("en-GB"),
+            onPressedAmerican: () => speakdramatics6("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
                   "٤. (ھاوەڵناو) کە زیادەڕۆی لە شتێک دەکات بۆ ڕاکێشانی سەرنج"),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(text: "Don't be so dramatic!"),
-                    ExampleSentenceKurdish(text: "ھێندە ھەست‌بزوێن مەبە!."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdramatics7("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdramatics7("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "Don't be so dramatic!",
+            kurdishText: "ھێندە ھەست‌بزوێن مەبە!.",
+            onPressedBritish: () => speakdramatics7("en-GB"),
+            onPressedAmerican: () => speakdramatics7("en-US"),
           ),
           // dramatics800"),
           // speakdramatics8

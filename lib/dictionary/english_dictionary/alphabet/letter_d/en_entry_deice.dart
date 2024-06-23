@@ -231,32 +231,12 @@ class KurdishMeaning extends StatelessWidget {
 // کوردی:
 // """),
           const DefinitionKurdish(text: "١. (کردار) لێکردنەوەی سەھۆڵ لە شتێک"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "I de-ice the car windows every morning in winter."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "ھەموو بەیانییەک لە زستاناندا پەنجەرەی ئۆتۆمبێلەکە پاکدەکەمەوە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "de-ice", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdeices1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdeices1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "I de-ice the car windows every morning in winter.",
+            kurdishText:
+                "ھەموو بەیانییەک لە زستاناندا پەنجەرەی ئۆتۆمبێلەکە پاکدەکەمەوە.", // de-ice
+            onPressedBritish: () => speakdeices1("en-GB"),
+            onPressedAmerican: () => speakdeices1("en-US"),
           ),
           // deices200"),
           // speakdeices2

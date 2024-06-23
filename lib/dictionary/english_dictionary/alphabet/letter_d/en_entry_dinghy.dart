@@ -247,88 +247,30 @@ class KurdishMeaning extends StatelessWidget {
 کوردی: گەمی، بەلەم، لۆتکە
 """),
           const DefinitionKurdish(text: "١. (ناو) بەلەمێکی بچووکی سەرکراوە"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "I sailed the dinghy across the bay."),
-                    ExampleSentenceKurdish(
-                        text: "بەلەمەکەم بە کەنداوەکەدا برد."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "dinghy", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdinghys1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdinghys1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "I sailed the dinghy across the bay.",
+            kurdishText: "بەلەمەکەم بە کەنداوەکەدا برد.", // dinghy
+            onPressedBritish: () => speakdinghys1("en-GB"),
+            onPressedAmerican: () => speakdinghys1("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "She rowed ashore in the dinghy."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "بە سەوڵ لێدان لە بەلەمێکدا خۆی گەیاندە کەنارەکە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdinghys2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdinghys2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "She rowed ashore in the dinghy.",
+            kurdishText: "بە سەوڵ لێدان لە بەلەمێکدا خۆی گەیاندە کەنارەکە.",
+            onPressedBritish: () => speakdinghys2("en-GB"),
+            onPressedAmerican: () => speakdinghys2("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٢. (ناو) بەلەمێک کە لە چووپ درووستکراوە و پڕ ھەوا دەکرێت"),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "He was transferred to the ship by dinghy."),
-                    ExampleSentenceKurdish(
-                        text: "بە چووپ گواسترایەوە بۆ کەشتییەکە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdinghys3("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdinghys3("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "He was transferred to the ship by dinghy.",
+            kurdishText: "بە چووپ گواسترایەوە بۆ کەشتییەکە.",
+            onPressedBritish: () => speakdinghys3("en-GB"),
+            onPressedAmerican: () => speakdinghys3("en-US"),
           ),
           // dinghys400"),
           // speakdinghys4

@@ -373,62 +373,24 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   """١. (ناو) بیرکردنەوەی ئەوەی کە باشتر یان گرنگتریت لە کەسانی دیکە"""),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            """His egoism prevented him from really loving anyone but himself."""),
-                    ExampleSentenceKurdish(
-                        text:
-                            """خوبەزل‌زانییەکەی ڕێگای لێ دەگرت لەوەی ھیچ کەسی دیکەی خۆشبوێت جگە لە خۆی."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "egoism", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakegoisms1("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakegoisms1("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                """His egoism prevented him from really loving anyone but himself.""",
+            kurdishText:
+                """خوبەزل‌زانییەکەی ڕێگای لێ دەگرت لەوەی ھیچ کەسی دیکەی خۆشبوێت جگە لە خۆی.""", // egoism
+            onPressedBritish: () => speakegoisms1("en-GB"),
+            onPressedAmerican: () => speakegoisms1("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            """Finding herself world-famous by the time she was 18 only encouraged the actress's egotism."""),
-                    ExampleSentenceKurdish(
-                        text:
-                            """ئەوەی کە خۆت بە ناوبانگی جیھانییەوە بینییەوە کە ١٨ ساڵ بوو تەنھا ھاندەری خۆبەزلزانی ئەکتەرەکە بوو."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakegoisms2("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakegoisms2("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                """Finding herself world-famous by the time she was 18 only encouraged the actress's egotism.""",
+            kurdishText:
+                """ئەوەی کە خۆت بە ناوبانگی جیھانییەوە بینییەوە کە ١٨ ساڵ بوو تەنھا ھاندەری خۆبەزلزانی ئەکتەرەکە بوو.""",
+            onPressedBritish: () => speakegoisms2("en-GB"),
+            onPressedAmerican: () => speakegoisms2("en-US"),
           ),
           // egoisms300egoisms3
           // speakegoisms3

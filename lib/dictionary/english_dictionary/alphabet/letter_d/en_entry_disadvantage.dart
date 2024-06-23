@@ -286,207 +286,72 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "١. (کردار) کێشە درووستکردن و ڕێگری لە کەسێک/شتێک بەرەوپێش بچێت یان سەربکەوێت"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "Some pension plans may disadvantage women."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "ھەندێک پلانی مووچەی خانەشینی ڕەنگە زیان بە ژنان بگەیەنێت."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "disadvantage", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdisadvantages1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdisadvantages1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "Some pension plans may disadvantage women.",
+            kurdishText:
+                "ھەندێک پلانی مووچەی خانەشینی ڕەنگە زیان بە ژنان بگەیەنێت.", // disadvantage
+            onPressedBritish: () => speakdisadvantages1("en-GB"),
+            onPressedAmerican: () => speakdisadvantages1("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "Many people will be greatly disadvantaged by the new tax system."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "زۆر کەس زۆر زیانیان پێدەگات بە سیستەمە تازەکەی باج."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdisadvantages2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdisadvantages2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "Many people will be greatly disadvantaged by the new tax system.",
+            kurdishText: "زۆر کەس زۆر زیانیان پێدەگات بە سیستەمە تازەکەی باج.",
+            onPressedBritish: () => speakdisadvantages2("en-GB"),
+            onPressedAmerican: () => speakdisadvantages2("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
                   "٢. (ناو) شتێک کە کێشە درووست دەکات و ڕێگری لە کەسێک/شتێک دەکات بەرەوپێش بچێت یان سەربکەوێت"),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "One major disadvantage of the area is the lack of public transport."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "یەکێک لە کۆسپەکانی ناوچەکانی کەمی گواستنەوەی گشتییە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdisadvantages3("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdisadvantages3("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "One major disadvantage of the area is the lack of public transport.",
+            kurdishText: "یەکێک لە کۆسپەکانی ناوچەکانی کەمی گواستنەوەی گشتییە.",
+            onPressedBritish: () => speakdisadvantages3("en-GB"),
+            onPressedAmerican: () => speakdisadvantages3("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "What's the main disadvantage?"),
-                    ExampleSentenceKurdish(text: "لەمپەری سەرەکی چییە؟"),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdisadvantages4("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdisadvantages4("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "What's the main disadvantage?",
+            kurdishText: "لەمپەری سەرەکی چییە؟",
+            onPressedBritish: () => speakdisadvantages4("en-GB"),
+            onPressedAmerican: () => speakdisadvantages4("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "Each plan has its own advantages and disadvantages."),
-                    ExampleSentenceKurdish(
-                        text: "ھەر پلانێک سوود و زیانی خۆی ھەیە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdisadvantages5("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdisadvantages5("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "Each plan has its own advantages and disadvantages.",
+            kurdishText: "ھەر پلانێک سوود و زیانی خۆی ھەیە.",
+            onPressedBritish: () => speakdisadvantages5("en-GB"),
+            onPressedAmerican: () => speakdisadvantages5("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "There are disadvantages to the plan."),
-                    ExampleSentenceKurdish(
-                        text: "ھیچ گرفتێک لە پلانەکەدا نییە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdisadvantages6("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdisadvantages6("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "There are disadvantages to the plan.",
+            kurdishText: "ھیچ گرفتێک لە پلانەکەدا نییە.",
+            onPressedBritish: () => speakdisadvantages6("en-GB"),
+            onPressedAmerican: () => speakdisadvantages6("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "I was at a disadvantage compared to the younger members of the team."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "من لە کەم‌وکوڕیدا بووم بەراورد بە ئەندامە گەنجەکانی تیمەکە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdisadvantages7("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdisadvantages7("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "I was at a disadvantage compared to the younger members of the team.",
+            kurdishText:
+                "من لە کەم‌وکوڕیدا بووم بەراورد بە ئەندامە گەنجەکانی تیمەکە.",
+            onPressedBritish: () => speakdisadvantages7("en-GB"),
+            onPressedAmerican: () => speakdisadvantages7("en-US"),
           ),
           // disadvantages800"),
           // speakdisadvantages8

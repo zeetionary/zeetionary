@@ -233,31 +233,12 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "١. (ناو) بەشێکی کۆمپیوتەر کە پەپکی تێدەخرێت و زانیارییەکانی دەردەکات"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The disk drive in his computer stopped working."),
-                    ExampleSentenceKurdish(
-                        text: "پەپکەسووڕێنی کۆمپیوتەرەکەی لە کارکردن وەستا."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "disk drive", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdiskdrives1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdiskdrives1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "The disk drive in his computer stopped working.",
+            kurdishText:
+                "پەپکەسووڕێنی کۆمپیوتەرەکەی لە کارکردن وەستا.", // disk drive
+            onPressedBritish: () => speakdiskdrives1("en-GB"),
+            onPressedAmerican: () => speakdiskdrives1("en-US"),
           ),
           // diskdrives200"),
           // speakdiskdrives2

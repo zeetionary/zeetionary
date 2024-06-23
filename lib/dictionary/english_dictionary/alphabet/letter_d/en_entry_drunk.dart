@@ -386,86 +386,31 @@ class KurdishMeaning extends StatelessWidget {
 کوردی: مەست، کەیل، کەلەلا، سەرگران، سەرخۆش، شاگەشکە، سەرمەست، مرۆڤی مەست
 """),
           const DefinitionKurdish(text: "١. (ھاوەڵناو) سەرخۆش"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "They were clearly too drunk to drive."),
-                    ExampleSentenceKurdish(
-                        text: "بە ئاشکرایی زۆر مەست بوون تا شۆفێری بکەن."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "drunk", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdrunks1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdrunks1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "They were clearly too drunk to drive.",
+            kurdishText: "بە ئاشکرایی زۆر مەست بوون تا شۆفێری بکەن.", // drunk
+            onPressedBritish: () => speakdrunks1("en-GB"),
+            onPressedAmerican: () => speakdrunks1("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "His only way of dealing with his problems was to go out and get drunk."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "تەنھا ڕێگای بۆ مامەڵەکردن لەگەڵ کێشەکان ئەوە بوو بچێتە دەرەوە و خۆی سەرمەست بکات."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdrunks2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdrunks2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "His only way of dealing with his problems was to go out and get drunk.",
+            kurdishText:
+                "تەنھا ڕێگای بۆ مامەڵەکردن لەگەڵ کێشەکان ئەوە بوو بچێتە دەرەوە و خۆی سەرمەست بکات.",
+            onPressedBritish: () => speakdrunks2("en-GB"),
+            onPressedAmerican: () => speakdrunks2("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(text: "They got drunk on vodka."),
-                    ExampleSentenceKurdish(text: "بە ڤۆدکا مەست بوون."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdrunks3("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdrunks3("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "They got drunk on vodka.",
+            kurdishText: "بە ڤۆدکا مەست بوون.",
+            onPressedBritish: () => speakdrunks3("en-GB"),
+            onPressedAmerican: () => speakdrunks3("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "٢. (ھاوەڵناو) زۆر ماندوو، بەجۆش، ھتد بەھۆی ھەستێکی تایبەتەوە"),
@@ -475,31 +420,11 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(text: "٢. (ناو) کەسێکی سەرخۆش"),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "They helped a drunk get home safely."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "یارمەتی سەرخۆشێکی دا بە سەلامەتی بگاتەوە ماڵەوە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdrunks5("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdrunks5("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "They helped a drunk get home safely.",
+            kurdishText: "یارمەتی سەرخۆشێکی دا بە سەلامەتی بگاتەوە ماڵەوە.",
+            onPressedBritish: () => speakdrunks5("en-GB"),
+            onPressedAmerican: () => speakdrunks5("en-US"),
           ),
           // drunks600"),
           // speakdrunks6

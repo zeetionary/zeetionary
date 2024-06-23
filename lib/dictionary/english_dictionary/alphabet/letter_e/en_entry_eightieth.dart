@@ -361,30 +361,11 @@ class KurdishMeaning extends StatelessWidget {
 // کوردی:
 // """),
           const DefinitionKurdish(text: """١. (ژمارەی پلەیی) ھەشتایەم"""),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: """They finished eightieth out of a hundred."""),
-                    ExampleSentenceKurdish(
-                        text: """لە کۆی سەد کەس ھەشتایەم بوو."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "eightieth", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakeightieths1("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakeightieths1("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: """They finished eightieth out of a hundred.""",
+            kurdishText: """لە کۆی سەد کەس ھەشتایەم بوو.""", // eightieth
+            onPressedBritish: () => speakeightieths1("en-GB"),
+            onPressedAmerican: () => speakeightieths1("en-US"),
           ),
           // eightieths200eightieths2
           // speakeightieths2

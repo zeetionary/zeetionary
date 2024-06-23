@@ -250,86 +250,31 @@ class KurdishMeaning extends StatelessWidget {
 """),
           const DefinitionKurdish(
               text: "١. (ھاوەڵناو) لاواز؛ کە توانای بەرگری لە خۆی نییە"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "The village is defenceless against attack."),
-                    ExampleSentenceKurdish(text: "گوندەکە لاوازە دژ بە ھێرش."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "defenceless", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdefencelesss1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdefencelesss1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "The village is defenceless against attack.",
+            kurdishText: "گوندەکە لاوازە دژ بە ھێرش.", // defenceless
+            onPressedBritish: () => speakdefencelesss1("en-GB"),
+            onPressedAmerican: () => speakdefencelesss1("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "How could anyone steal from a poor defenceless old lady?"),
-                    ExampleSentenceKurdish(
-                        text:
-                            "چۆن کەسێکی دەتوانێت دزی ژنێکی بەتەمەنی ھەژاری لاواز بکات؟"),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdefencelesss2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdefencelesss2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "How could anyone steal from a poor defenceless old lady?",
+            kurdishText:
+                "چۆن کەسێکی دەتوانێت دزی ژنێکی بەتەمەنی ھەژاری لاواز بکات؟",
+            onPressedBritish: () => speakdefencelesss2("en-GB"),
+            onPressedAmerican: () => speakdefencelesss2("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "She felt utterly defenceless."),
-                    ExampleSentenceKurdish(text: "تەواو ھەستی بە بێ‌ھێزی کرد."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdefencelesss3("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdefencelesss3("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "She felt utterly defenceless.",
+            kurdishText: "تەواو ھەستی بە بێ‌ھێزی کرد.",
+            onPressedBritish: () => speakdefencelesss3("en-GB"),
+            onPressedAmerican: () => speakdefencelesss3("en-US"),
           ),
           // defencelesss400"),
           // speakdefencelesss4

@@ -250,88 +250,31 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "١. (ناو) جیاواز لەوەی کە زۆرکەس بە ئاسایی یان پەسەند دایدەنێن"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "This is a deviation from the original plan."),
-                    ExampleSentenceKurdish(
-                        text: "ئەمە لادانێکە لە پلانەکەی سەرەتا."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "deviation", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdeviations1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdeviations1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "This is a deviation from the original plan.",
+            kurdishText: "ئەمە لادانێکە لە پلانەکەی سەرەتا.", // deviation
+            onPressedBritish: () => speakdeviations1("en-GB"),
+            onPressedAmerican: () => speakdeviations1("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "Modern examples of this type of weaving showed little deviation from traditional patterns."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "نموونە سەردەمیانەکانی ئەم جۆرە چنینە لادان لە شێوازە کۆنەکان پیشان دەدەن."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdeviations2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdeviations2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "Modern examples of this type of weaving showed little deviation from traditional patterns.",
+            kurdishText:
+                "نموونە سەردەمیانەکانی ئەم جۆرە چنینە لادان لە شێوازە کۆنەکان پیشان دەدەن.",
+            onPressedBritish: () => speakdeviations2("en-GB"),
+            onPressedAmerican: () => speakdeviations2("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
                   "٢. (ناو) ئەو ڕێژەیەی کە بە پێی ئەوە پێوانەیەک جیاوازە لە بڕێک یان ژمارەیەکی جێگیر"),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "The compass shows a deviation of 5°."),
-                    ExampleSentenceKurdish(
-                        text: "قیبلەنماکە لادانی ٥ پلە پیشان دەدات."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdeviations3("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdeviations3("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "The compass shows a deviation of 5°.",
+            kurdishText: "قیبلەنماکە لادانی ٥ پلە پیشان دەدات.",
+            onPressedBritish: () => speakdeviations3("en-GB"),
+            onPressedAmerican: () => speakdeviations3("en-US"),
           ),
           // deviations400"),
           // speakdeviations4

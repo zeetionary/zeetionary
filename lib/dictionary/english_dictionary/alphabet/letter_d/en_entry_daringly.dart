@@ -243,59 +243,20 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "١. (ھاوەڵکار) بوێرانە؛ بەشێوەیەک کە ئامادەیی بۆ کردنی کاری مەترسیدار یان نامۆ پیشان دەدات"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "This house would have looked daringly modern when it was built."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "ئەم خانووە بەشێوەیەکی نامۆ سەردەمیانە دەردەکەوت کە درووستکرا."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "daringly", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdaringlys1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdaringlys1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "This house would have looked daringly modern when it was built.",
+            kurdishText:
+                "ئەم خانووە بەشێوەیەکی نامۆ سەردەمیانە دەردەکەوت کە درووستکرا.", // daringly
+            onPressedBritish: () => speakdaringlys1("en-GB"),
+            onPressedAmerican: () => speakdaringlys1("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "They decided, daringly, to go and knock on his door."),
-                    ExampleSentenceKurdish(
-                        text: "بوێرانە بڕیاریاندا بچن و لە دەرگاکەی بدەن."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdaringlys2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdaringlys2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "They decided, daringly, to go and knock on his door.",
+            kurdishText: "بوێرانە بڕیاریاندا بچن و لە دەرگاکەی بدەن.",
+            onPressedBritish: () => speakdaringlys2("en-GB"),
+            onPressedAmerican: () => speakdaringlys2("en-US"),
           ),
         ],
       ),

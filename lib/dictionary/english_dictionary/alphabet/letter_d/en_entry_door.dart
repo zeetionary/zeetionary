@@ -475,405 +475,127 @@ class KurdishMeaning extends StatelessWidget {
 کوردی: درگا، دەرگا، دەر، دەرکە، کەل، قاپ، دەروازە، ژوورگە (دەرکەڵە: ھی چکۆلە)،	ماڵ، خانوو، خانووبەرە، دەزگا
 """),
           const DefinitionKurdish(text: "١. (ناو) دەرگا"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(text: "Open the door!"),
-                    ExampleSentenceKurdish(text: "دەرگاکە بکەرەوە!"),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "door", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdoors1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdoors1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "Open the door!",
+            kurdishText: "دەرگاکە بکەرەوە!", // door
+            onPressedBritish: () => speakdoors1("en-GB"),
+            onPressedAmerican: () => speakdoors1("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "Close the door behind you, please."),
-                    ExampleSentenceKurdish(text: "دەرگاکە لە دوای خۆت دابخە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdoors2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdoors2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "Close the door behind you, please.",
+            kurdishText: "دەرگاکە لە دوای خۆت دابخە.",
+            onPressedBritish: () => speakdoors2("en-GB"),
+            onPressedAmerican: () => speakdoors2("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "The door to his office opened."),
-                    ExampleSentenceKurdish(
-                        text: "دەرگای چوون بۆ ئۆفیسەکەی کرایەوە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdoors3("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdoors3("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "The door to his office opened.",
+            kurdishText: "دەرگای چوون بۆ ئۆفیسەکەی کرایەوە.",
+            onPressedBritish: () => speakdoors3("en-GB"),
+            onPressedAmerican: () => speakdoors3("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "Each bedroom has a door onto the balcony."),
-                    ExampleSentenceKurdish(
-                        text: "ھەر ژوورێک دەرگایەکی بۆ باڵکۆنەکە ھەیە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdoors4("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdoors4("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "Each bedroom has a door onto the balcony.",
+            kurdishText: "ھەر ژوورێک دەرگایەکی بۆ باڵکۆنەکە ھەیە.",
+            onPressedBritish: () => speakdoors4("en-GB"),
+            onPressedAmerican: () => speakdoors4("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "Always put the door chain on."),
-                    ExampleSentenceKurdish(
-                        text: "ھەمیشە زنجیر بە دەرگاکەکەوە بھێڵەوە ."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdoors5("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdoors5("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "Always put the door chain on.",
+            kurdishText: "ھەمیشە زنجیر بە دەرگاکەکەوە بھێڵەوە .",
+            onPressedBritish: () => speakdoors5("en-GB"),
+            onPressedAmerican: () => speakdoors5("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "He arrived home to find the door barred."),
-                    ExampleSentenceKurdish(
-                        text: "گەڕایەوە ماڵ و زانی کە دەرگاکە گیرا بوو."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdoors6("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdoors6("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "He arrived home to find the door barred.",
+            kurdishText: "گەڕایەوە ماڵ و زانی کە دەرگاکە گیرا بوو.",
+            onPressedBritish: () => speakdoors6("en-GB"),
+            onPressedAmerican: () => speakdoors6("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(text: "He pulled the door shut."),
-                    ExampleSentenceKurdish(text: "دەرگاکەی گرت بە ڕاکێشان."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdoors7("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdoors7("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "He pulled the door shut.",
+            kurdishText: "دەرگاکەی گرت بە ڕاکێشان.",
+            onPressedBritish: () => speakdoors7("en-GB"),
+            onPressedAmerican: () => speakdoors7("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "I was woken by a door banging in the wind."),
-                    ExampleSentenceKurdish(
-                        text: "خەبەرم بوویەوە بە زرمەی دەرگایەک لە باکەدا."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdoors8("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdoors8("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "I was woken by a door banging in the wind.",
+            kurdishText: "خەبەرم بوویەوە بە زرمەی دەرگایەک لە باکەدا.",
+            onPressedBritish: () => speakdoors8("en-GB"),
+            onPressedAmerican: () => speakdoors8("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٢. (ناو) ئەو بۆشاییە کراوەی کە دەرگایەکی تێدایە"),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "As we walked through the door, the phone rang."),
-                    ExampleSentenceKurdish(
-                        text: "کە بە دەرگاکەدا چوو، تەلەفۆنەکە زەنگی لێدا."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdoors9("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdoors9("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "As we walked through the door, the phone rang.",
+            kurdishText: "کە بە دەرگاکەدا چوو، تەلەفۆنەکە زەنگی لێدا.",
+            onPressedBritish: () => speakdoors9("en-GB"),
+            onPressedAmerican: () => speakdoors9("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "Marc appeared through a door at the far end of the room."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "مارک لە دەرگایەکەوە دەرکەوت لە لایە دوورەکەی ژوورەکەوە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdoors10("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdoors10("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "Marc appeared through a door at the far end of the room.",
+            kurdishText:
+                "مارک لە دەرگایەکەوە دەرکەوت لە لایە دوورەکەی ژوورەکەوە.",
+            onPressedBritish: () => speakdoors10("en-GB"),
+            onPressedAmerican: () => speakdoors10("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "She's just arrived—she's just come in the door"),
-                    ExampleSentenceKurdish(
-                        text: "ھەر ئێستا گەشت، ئێستا لە دەرگاکە ھاتە ژوورەوە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdoors11("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdoors11("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "She's just arrived—she's just come in the door",
+            kurdishText: "ھەر ئێستا گەشت، ئێستا لە دەرگاکە ھاتە ژوورەوە.",
+            onPressedBritish: () => speakdoors11("en-GB"),
+            onPressedAmerican: () => speakdoors11("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(text: "He walked out the door."),
-                    ExampleSentenceKurdish(text: "لە دەرگاکە چووە دەرەوە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdoors12("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdoors12("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "He walked out the door.",
+            kurdishText: "لە دەرگاکە چووە دەرەوە.",
+            onPressedBritish: () => speakdoors12("en-GB"),
+            onPressedAmerican: () => speakdoors12("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٣. (ناو) پێشی دەرگا لە دەرەوەی شوێنێک"),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "There's somebody at the door (= at the front door of a house)."),
-                    ExampleSentenceKurdish(text: "کەسێک لە پێش دەرگاکەیە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdoors13("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdoors13("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "There's somebody at the door (= at the front door of a house).",
+            kurdishText: "کەسێک لە پێش دەرگاکەیە.",
+            onPressedBritish: () => speakdoors13("en-GB"),
+            onPressedAmerican: () => speakdoors13("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
                   "٤. (ناو) خانوویەک، ژوورێک، ھتد کە چەند خانوو یان ژوورێکی دیاریکراو دوورە لە یەکێکی دیکە"),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "Our other branch is just a few doors down the road."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "لقەکەی دیکەمان تەنھا چەند بینایەک لە خوار شەقامەکەوەیە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdoors14("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdoors14("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "Our other branch is just a few doors down the road.",
+            kurdishText:
+                "لقەکەی دیکەمان تەنھا چەند بینایەک لە خوار شەقامەکەوەیە.",
+            onPressedBritish: () => speakdoors14("en-GB"),
+            onPressedAmerican: () => speakdoors14("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
                   "٥. (ناو) ئەو بڕە پارەیەی کە بە فرۆشتنی بلیتی بۆنەیەک بەدەست دەخرێت"),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "50% of the door will go to the Red Cross."),
-                    ExampleSentenceKurdish(
-                        text: "٥٠٪ ــی پارەکە دەچێت بۆ مانگی سوور."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdoors15("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdoors15("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "50% of the door will go to the Red Cross.",
+            kurdishText: "٥٠٪ ــی پارەکە دەچێت بۆ مانگی سوور.",
+            onPressedBritish: () => speakdoors15("en-GB"),
+            onPressedAmerican: () => speakdoors15("en-US"),
           ),
           // doors1600"),
           // speakdoors16

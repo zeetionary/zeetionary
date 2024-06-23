@@ -242,58 +242,19 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "١. (کردار) نەھێشتنی توانای بیستنی کەسێک بۆ ماوەیەکی کاتی یان ھەمیشەیی"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "The noise of the siren was deafening her."),
-                    ExampleSentenceKurdish(
-                        text: "ژاوەژاوی سایرنەکە کەڕی دەکرد."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "deafen", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdeafens1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdeafens1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "The noise of the siren was deafening her.",
+            kurdishText: "ژاوەژاوی سایرنەکە کەڕی دەکرد.", // deafen
+            onPressedBritish: () => speakdeafens1("en-GB"),
+            onPressedAmerican: () => speakdeafens1("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The explosion permanently deafened her in her right ear."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "تەقینەوەکە بە ھەمیشەیی لە گوێی ڕاستدا کەڕی کرد."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdeafens2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdeafens2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "The explosion permanently deafened her in her right ear.",
+            kurdishText: "تەقینەوەکە بە ھەمیشەیی لە گوێی ڕاستدا کەڕی کرد.",
+            onPressedBritish: () => speakdeafens2("en-GB"),
+            onPressedAmerican: () => speakdeafens2("en-US"),
           ),
         ],
       ),

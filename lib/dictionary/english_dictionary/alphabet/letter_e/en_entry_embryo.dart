@@ -372,62 +372,23 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   """١. (ناو) ئاژەڵێکی یان ڕووەکێک لە سەرەتای دەستپێکی کە لە قۆناغە زۆر سەرەتاییەکانی گەشەکردندایە لە پێش لەدایکبوون، یان پێش ئەوەی لە ھێلکە یان تۆوەکەی دەربچێت، بەتایبەتی ھێلکەی مرۆڤ لە ھەشت ھەفتەی یەکەمی دوای پیتاندن"""),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            """Two or three embryos are implanted into the woman's body."""),
-                    ExampleSentenceKurdish(
-                        text:
-                            """دوو یان سێ ئاوڵەمە لە لەشی ژنەکە دەچێندرێن."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "embryo", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakembryos1("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakembryos1("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                """Two or three embryos are implanted into the woman's body.""",
+            kurdishText:
+                """دوو یان سێ ئاوڵەمە لە لەشی ژنەکە دەچێندرێن.""", // embryo
+            onPressedBritish: () => speakembryos1("en-GB"),
+            onPressedAmerican: () => speakembryos1("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text: """٢. (ناو) لە ھەرە سەرەتاکانی گەشەکردندا"""),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            """She shared the embryo of an idea with her team."""),
-                    ExampleSentenceKurdish(
-                        text: """بناخەی بیرۆکەیەکی لەگەڵ تیمەکەی باسکرد."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakembryos2("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakembryos2("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: """She shared the embryo of an idea with her team.""",
+            kurdishText: """بناخەی بیرۆکەیەکی لەگەڵ تیمەکەی باسکرد.""",
+            onPressedBritish: () => speakembryos2("en-GB"),
+            onPressedAmerican: () => speakembryos2("en-US"),
           ),
           // embryos300embryos3
           // speakembryos3

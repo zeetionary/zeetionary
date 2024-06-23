@@ -372,30 +372,12 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "١. (ھاوەڵکار) وەک ئەوەی کە بیر لە شتی دیکە بکەیتەوە بێ ئاگا بیت لەوەی چی لە دەورووبەرت ڕوودەدات"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "He gazed dreamily out of the window."),
-                    ExampleSentenceKurdish(
-                        text: "خەیاڵاوی‌یانە لە دەرەوەی پەنجەرەکەی دەڕوانی."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "dreamily", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdreamilys1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdreamilys1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "He gazed dreamily out of the window.",
+            kurdishText:
+                "خەیاڵاوی‌یانە لە دەرەوەی پەنجەرەکەی دەڕوانی.", // dreamily
+            onPressedBritish: () => speakdreamilys1("en-GB"),
+            onPressedAmerican: () => speakdreamilys1("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(

@@ -287,217 +287,66 @@ class KurdishMeaning extends StatelessWidget {
 کوردی: شەبەق، بەرەبەیان، گەردوگەڵا، گەردوگوڵ،	سەرەتا، دەسپێک، بەرایی، گزینگ، 	دەرکەوتن، سەرھەڵدان، پەیدابوون
 """),
           const DefinitionKurdish(text: "١. (ناو) کاتی ڕۆژ کە خۆر ھەڵدێت"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(text: "They start work at dawn."),
-                    ExampleSentenceKurdish(
-                        text: "لە بەرەبەیاندا دەست بە کار دەکەن."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "dawn", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdawns1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdawns1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "They start work at dawn.",
+            kurdishText: "لە بەرەبەیاندا دەست بە کار دەکەن.", // dawn
+            onPressedBritish: () => speakdawns1("en-GB"),
+            onPressedAmerican: () => speakdawns1("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(text: "It's almost dawn."),
-                    ExampleSentenceKurdish(text: "خەریکە دەبێت شەبەق."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdawns2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdawns2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "It's almost dawn.",
+            kurdishText: "خەریکە دەبێت شەبەق.",
+            onPressedBritish: () => speakdawns2("en-GB"),
+            onPressedAmerican: () => speakdawns2("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "We arrived in Sydney as dawn broke (= as the first light could be seen)."),
-                    ExampleSentenceKurdish(
-                        text: "گەشتینە سیدنی لەگەڵ خۆرھەڵاتندا."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdawns3("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdawns3("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "We arrived in Sydney as dawn broke (= as the first light could be seen).",
+            kurdishText: "گەشتینە سیدنی لەگەڵ خۆرھەڵاتندا.",
+            onPressedBritish: () => speakdawns3("en-GB"),
+            onPressedAmerican: () => speakdawns3("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٢. (ناو) سەرەتا یان ئاماژە سەرەتاییەکانی شتێک"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "Peace marked a new dawn in the country's history."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "ئاشتی سەرەتیەکی تازەی دەستپێکرد لە مێژووی وڵاتەکەدا."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdawns4("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdawns4("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "Peace marked a new dawn in the country's history.",
+            kurdishText: "ئاشتی سەرەتیەکی تازەی دەستپێکرد لە مێژووی وڵاتەکەدا.",
+            onPressedBritish: () => speakdawns4("en-GB"),
+            onPressedAmerican: () => speakdawns4("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "We are seeing the dawn of a new era."),
-                    ExampleSentenceKurdish(
-                        text: "سەرەتای سەردەمێکی تازە دەبینین."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdawns5("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdawns5("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "We are seeing the dawn of a new era.",
+            kurdishText: "سەرەتای سەردەمێکی تازە دەبینین.",
+            onPressedBritish: () => speakdawns5("en-GB"),
+            onPressedAmerican: () => speakdawns5("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: "٣. (کردار) دەستپێکردن"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "The following morning dawned bright and warm."),
-                    ExampleSentenceKurdish(
-                        text: "بەیانی دواتر بە ڕوونی و خۆرەتاو دەستیپێکرد."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdawns6("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdawns6("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "The following morning dawned bright and warm.",
+            kurdishText: "بەیانی دواتر بە ڕوونی و خۆرەتاو دەستیپێکرد.",
+            onPressedBritish: () => speakdawns6("en-GB"),
+            onPressedAmerican: () => speakdawns6("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "A new technological age had dawned."),
-                    ExampleSentenceKurdish(
-                        text: "سەردەمێکی تازەی تەکنەلۆژیا دەستیپێکردووە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdawns7("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdawns7("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "A new technological age had dawned.",
+            kurdishText: "سەردەمێکی تازەی تەکنەلۆژیا دەستیپێکردووە.",
+            onPressedBritish: () => speakdawns7("en-GB"),
+            onPressedAmerican: () => speakdawns7("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٤. (کردار) ڕوون یان ئاسان بوون بۆ تێگەشتن"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "Slowly the awful truth dawned."),
-                    ExampleSentenceKurdish(
-                        text: "بەھێواشی ڕاستییە تاڵەکە ڕوونبوویەوە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdawns8("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdawns8("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "Slowly the awful truth dawned.",
+            kurdishText: "بەھێواشی ڕاستییە تاڵەکە ڕوونبوویەوە.",
+            onPressedBritish: () => speakdawns8("en-GB"),
+            onPressedAmerican: () => speakdawns8("en-US"),
           ),
         ],
       ),

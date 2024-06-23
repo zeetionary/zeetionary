@@ -363,32 +363,13 @@ class KurdishMeaning extends StatelessWidget {
 """),
           const DefinitionKurdish(
               text: """١. (ناو) بەناوبانگی و ڕێزلێ‌گیردراوی"""),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            """Few could have predicted that she would reach eminence as a surgeon."""),
-                    ExampleSentenceKurdish(
-                        text:
-                            """کەم کەس ئەوەیان پێشبینی دەکرد کە بگات بە پایەی نەشتەرگەرێک."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "eminence", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakeminences1("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakeminences1("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                """Few could have predicted that she would reach eminence as a surgeon.""",
+            kurdishText:
+                """کەم کەس ئەوەیان پێشبینی دەکرد کە بگات بە پایەی نەشتەرگەرێک.""", // eminence
+            onPressedBritish: () => speakeminences1("en-GB"),
+            onPressedAmerican: () => speakeminences1("en-US"),
           ),
           // eminences200eminences2
           // speakeminences2

@@ -363,30 +363,11 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "١. (کردار) پاککردنەوەی جل بە بەکارھێنانی مادەی کیمیایی نەک تەنھا ئاو"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "This garment must be dry-cleaned only."),
-                    ExampleSentenceKurdish(
-                        text: "ئەم جلە دەبێت تەنھا بە جلشۆر بشۆردرێت."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "dry-clean", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdrycleans1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdrycleans1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "This garment must be dry-cleaned only.",
+            kurdishText: "ئەم جلە دەبێت تەنھا بە جلشۆر بشۆردرێت.", // dry-clean
+            onPressedBritish: () => speakdrycleans1("en-GB"),
+            onPressedAmerican: () => speakdrycleans1("en-US"),
           ),
           // drycleans200"),
           // speakdrycleans2

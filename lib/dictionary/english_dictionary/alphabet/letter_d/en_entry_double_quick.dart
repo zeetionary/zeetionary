@@ -371,60 +371,22 @@ class KurdishMeaning extends StatelessWidget {
 // کوردی:
 // """),
           const DefinitionKurdish(text: "١. (ھاوەڵکار) زۆر بە خێرایی"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "She left the room double-quick when I started singing."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "کە دەستم کرد بە گۆرانی گوتن زوو ژوورەکەی جێھێشت."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "double-quick", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdoublequicks1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdoublequicks1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "She left the room double-quick when I started singing.",
+            kurdishText:
+                "کە دەستم کرد بە گۆرانی گوتن زوو ژوورەکەی جێھێشت.", // double-quick
+            onPressedBritish: () => speakdoublequicks1("en-GB"),
+            onPressedAmerican: () => speakdoublequicks1("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: "٢. (ھاوەڵناو) زۆر خێرا"),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "The TV was repaired in double-quick time."),
-                    ExampleSentenceKurdish(
-                        text: "تەلەفیزیۆنەکە بە کاتێکی خێرا چاککرایەوە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdoublequicks2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdoublequicks2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "The TV was repaired in double-quick time.",
+            kurdishText: "تەلەفیزیۆنەکە بە کاتێکی خێرا چاککرایەوە.",
+            onPressedBritish: () => speakdoublequicks2("en-GB"),
+            onPressedAmerican: () => speakdoublequicks2("en-US"),
           ),
           // doublequicks300"),
           // speakdoublequicks3

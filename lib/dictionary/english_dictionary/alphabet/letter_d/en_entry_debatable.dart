@@ -243,60 +243,22 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "١. (ھاوەڵناو) کە دڵنیایی لەسەر نییە بەھۆی ئەوەی خەڵکی بۆچوونی جیاوازیان لەسەری ھەیە"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "It is highly debatable whether conditions have improved for low-income families."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "ئەوە تەواو جێگای مشتومڕە کە ئایا دۆخی خێزانە کەم دەرامەتەکان ."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "debatable", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdebatables1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdebatables1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "It is highly debatable whether conditions have improved for low-income families.",
+            kurdishText:
+                "ئەوە تەواو جێگای مشتومڕە کە ئایا دۆخی خێزانە کەم دەرامەتەکان .", // debatable
+            onPressedBritish: () => speakdebatables1("en-GB"),
+            onPressedAmerican: () => speakdebatables1("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "It's debatable whether a university degree helps at all."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "ئەوەی کە بڕوانامەی زانکۆ ھیچ سوودی ھەیە مشتومڕلەسەرە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdebatables2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdebatables2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "It's debatable whether a university degree helps at all.",
+            kurdishText:
+                "ئەوەی کە بڕوانامەی زانکۆ ھیچ سوودی ھەیە مشتومڕلەسەرە.",
+            onPressedBritish: () => speakdebatables2("en-GB"),
+            onPressedAmerican: () => speakdebatables2("en-US"),
           ),
         ],
       ),

@@ -386,114 +386,40 @@ class KurdishMeaning extends StatelessWidget {
 کوردی: بووکەڵە، بووک، بووکەشووشە، خلنزەر، وەویلە
 """),
           const DefinitionKurdish(text: "١. (ناو) بووکەڵەی منداڵان"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "She had a doll tucked under her arm."),
-                    ExampleSentenceKurdish(
-                        text: "بووکەڵەیەکی لەژێر باڵی توندکردبوو."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "doll", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdolls1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdolls1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "She had a doll tucked under her arm.",
+            kurdishText: "بووکەڵەیەکی لەژێر باڵی توندکردبوو.", // doll
+            onPressedBritish: () => speakdolls1("en-GB"),
+            onPressedAmerican: () => speakdolls1("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(text: "She collects dolls."),
-                    ExampleSentenceKurdish(text: "بووکەڵە کۆدەکاتەوە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdolls2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdolls2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "She collects dolls.",
+            kurdishText: "بووکەڵە کۆدەکاتەوە.",
+            onPressedBritish: () => speakdolls2("en-GB"),
+            onPressedAmerican: () => speakdolls2("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "I found her sobbing in the bedroom because she'd broken her favourite doll."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "لە ژووری خەوەکە دۆزیمەوە کە دەگریا چونکە کچەکە بووكەڵەی دڵخوازی شکاندبوو."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdolls3("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdolls3("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "I found her sobbing in the bedroom because she'd broken her favourite doll.",
+            kurdishText:
+                "لە ژووری خەوەکە دۆزیمەوە کە دەگریا چونکە کچەکە بووكەڵەی دڵخوازی شکاندبوو.",
+            onPressedBritish: () => speakdolls3("en-GB"),
+            onPressedAmerican: () => speakdolls3("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: "٢. (ناو) ژنێکی جوان"),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "She’s a doll, she’s a love, she really is."),
-                    ExampleSentenceKurdish(
-                        text: "دەلالە، خۆشەویستە، بەڕاستی وایە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdolls4("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdolls4("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "She’s a doll, she’s a love, she really is.",
+            kurdishText: "دەلالە، خۆشەویستە، بەڕاستی وایە.",
+            onPressedBritish: () => speakdolls4("en-GB"),
+            onPressedAmerican: () => speakdolls4("en-US"),
           ),
           // dolls500"),
           // speakdolls5

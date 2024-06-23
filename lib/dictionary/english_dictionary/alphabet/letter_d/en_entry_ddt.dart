@@ -233,30 +233,11 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "١. (ناو) مادەیەکی کیمیایی ژەھراوی بۆ کوشتنی مێروو کە زیان بە دانەوێڵە دەگەیەنێت"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "DDT was banned in the United States in 1972."),
-                    ExampleSentenceKurdish(
-                        text: "دی‌دی‌تی ساڵی ١٩٧٢ لە ئەمریکا قەدەغە کرا."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "DDT", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakddts1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakddts1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "DDT was banned in the United States in 1972.",
+            kurdishText: "دی‌دی‌تی ساڵی ١٩٧٢ لە ئەمریکا قەدەغە کرا.", // DDT
+            onPressedBritish: () => speakddts1("en-GB"),
+            onPressedAmerican: () => speakddts1("en-US"),
           ),
         ],
       ),

@@ -381,90 +381,33 @@ class KurdishMeaning extends StatelessWidget {
 """),
           const DefinitionKurdish(
               text: """١. (ناو) ڕەفتاری نامۆ و ناسرووشتی"""),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            """As a teacher, she had a reputation for eccentricity."""),
-                    ExampleSentenceKurdish(
-                        text:
-                            """وەک مامۆستایەک ناوبانگی ھەبوو بۆ نائاسایێتی."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "eccentricity", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakeccentricitys1("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakeccentricitys1("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                """As a teacher, she had a reputation for eccentricity.""",
+            kurdishText:
+                """وەک مامۆستایەک ناوبانگی ھەبوو بۆ نائاسایێتی.""", // eccentricity
+            onPressedBritish: () => speakeccentricitys1("en-GB"),
+            onPressedAmerican: () => speakeccentricitys1("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            """Arthur was noted for the eccentricity of his clothes."""),
-                    ExampleSentenceKurdish(
-                        text: """ئارسەر بۆ نائاساییەتی جلەکانی ناسراوبوو."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakeccentricitys2("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakeccentricitys2("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                """Arthur was noted for the eccentricity of his clothes.""",
+            kurdishText: """ئارسەر بۆ نائاساییەتی جلەکانی ناسراوبوو.""",
+            onPressedBritish: () => speakeccentricitys2("en-GB"),
+            onPressedAmerican: () => speakeccentricitys2("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text: """٢. (ھاوەڵناو) خوو یان کاری نائاسایی"""),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: """We all have our little eccentricities."""),
-                    ExampleSentenceKurdish(
-                        text: """ھەموومان خووی نامۆی خۆمان ھەیە."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakeccentricitys3("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakeccentricitys3("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: """We all have our little eccentricities.""",
+            kurdishText: """ھەموومان خووی نامۆی خۆمان ھەیە.""",
+            onPressedBritish: () => speakeccentricitys3("en-GB"),
+            onPressedAmerican: () => speakeccentricitys3("en-US"),
           ),
           // eccentricitys400eccentricitys4
           // speakeccentricitys4

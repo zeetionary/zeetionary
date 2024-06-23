@@ -366,32 +366,12 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "١. (ناو) جۆرە خوێندنێک کە تێیدا کەسێک لە ماڵەوە بە بەکارھێنانی ئینتەرنێت دەخوێنێت و کارەکانی بە ئیمەیڵ بۆ مامۆستاکەی دەخوێنێت"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "I got my degree through a distance learning program."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "بڕوانامەکەی لە ڕێگەی پڕۆگرامێکی خوێندنی ئۆنلاینەوە بەدەستھێنا."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "distance learning", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdistancelearnings1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdistancelearnings1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "I got my degree through a distance learning program.",
+            kurdishText:
+                "بڕوانامەکەی لە ڕێگەی پڕۆگرامێکی خوێندنی ئۆنلاینەوە بەدەستھێنا.", // distance learning
+            onPressedBritish: () => speakdistancelearnings1("en-GB"),
+            onPressedAmerican: () => speakdistancelearnings1("en-US"),
           ),
           // distancelearnings200"),
           // speakdistancelearnings2

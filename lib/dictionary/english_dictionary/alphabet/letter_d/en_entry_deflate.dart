@@ -261,94 +261,37 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "١. (کردار) دەرکردنی ھەوا، گاز، ھتد لە تایەیەک، فودانکەکەیەک، ھتد"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "I accidentally deflated the balloon by pressing on it."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "بە ھەڵە فوودانکەکەم فسکردەوە بە پەستان خستنە سەری."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "deflate", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdeflates1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdeflates1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "I accidentally deflated the balloon by pressing on it.",
+            kurdishText:
+                "بە ھەڵە فوودانکەکەم فسکردەوە بە پەستان خستنە سەری.", // deflate
+            onPressedBritish: () => speakdeflates1("en-GB"),
+            onPressedAmerican: () => speakdeflates1("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
                   "٢. (کردار) نەھێشتنی متمانە بەخۆبوونی کەسێک کە وابکات ھەست بە گرنگی کەم بکات"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "All the criticism had left her feeling totally deflated."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "ھەموو ڕەخنەکان وای لێکردبوو تەواو ھەست بە داڕووخان بکات."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdeflates2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdeflates2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "All the criticism had left her feeling totally deflated.",
+            kurdishText:
+                "ھەموو ڕەخنەکان وای لێکردبوو تەواو ھەست بە داڕووخان بکات.",
+            onPressedBritish: () => speakdeflates2("en-GB"),
+            onPressedAmerican: () => speakdeflates2("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
                   "٣. (کردار) کەمکردنەوەی ڕێژەی پارە لە ئابووری وڵاتێکدا بۆ ئەوەی چالاکی ئابووری کەم ببێتەوە و نرخی کەلوپەل داببەزێت یان وەک خۆی بمێنێتەوە"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The government deflated the economy to control inflation."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "حکومەت ئابووریی داکشاند بۆ کۆنترۆڵی ھەڵئاوسانی ئابووری."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdeflates3("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdeflates3("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "The government deflated the economy to control inflation.",
+            kurdishText:
+                "حکومەت ئابووریی داکشاند بۆ کۆنترۆڵی ھەڵئاوسانی ئابووری.",
+            onPressedBritish: () => speakdeflates3("en-GB"),
+            onPressedAmerican: () => speakdeflates3("en-US"),
           ),
           // deflates400"),
           // speakdeflates4

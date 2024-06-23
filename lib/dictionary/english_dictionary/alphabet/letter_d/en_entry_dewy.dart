@@ -234,32 +234,13 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "١. (ھاوەڵناو) تەڕ؛ ھەبوونی دڵۆپە ئاو کە شەوان کە درووست دەبێت"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "Her dewy skin has the look of a woman 20 years younger."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "پێستە ڕەونەقدارەکەی شێوەی ژنێکی ٢٠ ساڵ گەنجتری پێدەدا."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "dewy", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdewys1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdewys1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "Her dewy skin has the look of a woman 20 years younger.",
+            kurdishText:
+                "پێستە ڕەونەقدارەکەی شێوەی ژنێکی ٢٠ ساڵ گەنجتری پێدەدا.", // dewy
+            onPressedBritish: () => speakdewys1("en-GB"),
+            onPressedAmerican: () => speakdewys1("en-US"),
           ),
           // dewys200"),
           // speakdewys2

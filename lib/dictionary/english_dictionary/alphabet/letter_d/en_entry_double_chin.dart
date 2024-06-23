@@ -363,30 +363,12 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "١. (ناو) ھەندێک لە چەوری لە ژێر چەناگەی کەسێک کە وەک چەناگەیەکی دیکە دەردەکەوێت"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "He exercises to reduce his double chin."),
-                    ExampleSentenceKurdish(
-                        text: "ڕاھێنان دەکات بۆ کەمکردنەوەی بەرچێڵەی."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "double chin", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdoublechins1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdoublechins1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "He exercises to reduce his double chin.",
+            kurdishText:
+                "ڕاھێنان دەکات بۆ کەمکردنەوەی بەرچێڵەی.", // double chin
+            onPressedBritish: () => speakdoublechins1("en-GB"),
+            onPressedAmerican: () => speakdoublechins1("en-US"),
           ),
           // doublechins200"),
           // speakdoublechins2

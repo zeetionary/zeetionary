@@ -380,96 +380,36 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   """١. (ھاوەڵناو) ڕێکخستنی سیستەمیک، دامەزراوەیەک، ھتد بەشێوەیەک کە کەمینەیەک دەسەڵاتیان ھەیە"""),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            """Universities are becoming far less elitist."""),
-                    ExampleSentenceKurdish(
-                      text: """زانکۆکان دەبن بە ھەڵبژاردەگەری زۆر کەمتر.""",
-                      note:
-                          "واتا خوێندکاران لە چینە جیاوازەکانەوە ڕوویان تێدەگەن",
-                    ),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "elitist", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakelitists1("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakelitists1("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: """Universities are becoming far less elitist.""",
+            kurdishText: """زانکۆکان دەبن بە ھەڵبژاردەگەری زۆر کەمتر.""",
+            kurdishNote: "واتا خوێندکاران لە چینە جیاوازەکانەوە ڕوویان تێدەگەن",
+            onPressedBritish: () => speakelitists1("en-GB"),
+            onPressedAmerican: () => speakelitists1("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
                   """٢. (ھاوەڵناو) ھەستکردن بەوەی باشتریت چونکە بەشێکی لە کەمینەیەکی باڵادەست"""),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: """She accused him of being elitist."""),
-                    ExampleSentenceKurdish(
-                        text: """بە ئیلیتیست تۆمەتباری کرد."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakelitists2("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakelitists2("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: """She accused him of being elitist.""",
+            kurdishText: """بە ئیلیتیست تۆمەتباری کرد.""",
+            onPressedBritish: () => speakelitists2("en-GB"),
+            onPressedAmerican: () => speakelitists2("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
                   """٣. (ناو) کەسێک کە پێی وایە لە کەسانی دیکە باشترە چونکە سەر بە کەمینەیەکی باڵادەستە"""),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            """She rejected suggestions that she and her husband were elitists, out of touch with working men and women."""),
-                    ExampleSentenceKurdish(
-                        text:
-                            """ڕەتیکردەوە کە خۆی و ھاوسەرەکەی ئیلیتیست بن و بێ ئاگا بن لە پیاوان و ژنانی کارکەر."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakelitists3("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakelitists3("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                """She rejected suggestions that she and her husband were elitists, out of touch with working men and women.""",
+            kurdishText:
+                """ڕەتیکردەوە کە خۆی و ھاوسەرەکەی ئیلیتیست بن و بێ ئاگا بن لە پیاوان و ژنانی کارکەر.""",
+            onPressedBritish: () => speakelitists3("en-GB"),
+            onPressedAmerican: () => speakelitists3("en-US"),
           ),
           // elitists400elitists4
           // speakelitists4

@@ -243,61 +243,22 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "١. (ھاوەڵکار) بەشێوەیەک کە پشتگیری پیشان نادات بۆ ھاوڕێکانت، خێزانت، وڵاتەکەت، ھتد"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "His comment wasn't meant disloyally; it was just a statement of his frustrations."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "لێدوانەکەی لە بێوەفایی نەبوو، تەنھا دەربڕینی ناڕەزایەتییەکانی بوو."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "disloyally", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdisloyallys1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdisloyallys1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "His comment wasn't meant disloyally; it was just a statement of his frustrations.",
+            kurdishText:
+                "لێدوانەکەی لە بێوەفایی نەبوو، تەنھا دەربڕینی ناڕەزایەتییەکانی بوو.", // disloyally
+            onPressedBritish: () => speakdisloyallys1("en-GB"),
+            onPressedAmerican: () => speakdisloyallys1("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "It is clear that we are being dealt with disloyally."),
-                    ExampleSentenceKurdish(
-                        text: "ئاشکرایە بێ‌وافایانە مامەڵەمان لەگەڵ دەکرێت."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdisloyallys2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdisloyallys2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "It is clear that we are being dealt with disloyally.",
+            kurdishText: "ئاشکرایە بێ‌وافایانە مامەڵەمان لەگەڵ دەکرێت.",
+            onPressedBritish: () => speakdisloyallys2("en-GB"),
+            onPressedAmerican: () => speakdisloyallys2("en-US"),
           ),
           // disloyallys300"),
           // speakdisloyallys3

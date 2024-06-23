@@ -242,57 +242,18 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "١. (ھاوەڵناو) کە جێگای خۆی گرتووە و بەھێزە و ئەگەری گۆڕانی کەمە"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The country’s political divisions are deep-rooted."),
-                    ExampleSentenceKurdish(
-                        text: "دابەشبوونی سیاسی وڵاتەکە لەمێژینەیە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "deep-rooted", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdeeprooteds1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdeeprooteds1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "The country’s political divisions are deep-rooted.",
+            kurdishText: "دابەشبوونی سیاسی وڵاتەکە لەمێژینەیە.", // deep-rooted
+            onPressedBritish: () => speakdeeprooteds1("en-GB"),
+            onPressedAmerican: () => speakdeeprooteds1("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "The custom has become a deep-rooted tradition."),
-                    ExampleSentenceKurdish(
-                        text: "خووەکە بووە بە نەریتێکی ڕەگ‌داکوتاو."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdeeprooteds2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdeeprooteds2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "The custom has become a deep-rooted tradition.",
+            kurdishText: "خووەکە بووە بە نەریتێکی ڕەگ‌داکوتاو.",
+            onPressedBritish: () => speakdeeprooteds2("en-GB"),
+            onPressedAmerican: () => speakdeeprooteds2("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "٢. (ھاوەڵناو) پێنناسە"),

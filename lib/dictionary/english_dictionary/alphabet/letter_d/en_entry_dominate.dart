@@ -437,280 +437,88 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "١. (کردار) کۆنترۆڵ کردن یان ھەبوونی کاریگەری زۆر لەسەر کەسێک/شتێک"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "She always says a lot in meetings, but she doesn't dominate."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "ھەمیشە زۆر دەڵێت لە چاوپێکەوتنەکاندا، بەڵام قۆرخیان ناکات."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "dominate", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdominates1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdominates1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "She always says a lot in meetings, but she doesn't dominate.",
+            kurdishText:
+                "ھەمیشە زۆر دەڵێت لە چاوپێکەوتنەکاندا، بەڵام قۆرخیان ناکات.", // dominate
+            onPressedBritish: () => speakdominates1("en-GB"),
+            onPressedAmerican: () => speakdominates1("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "He tended to dominate the conversation."),
-                    ExampleSentenceKurdish(
-                        text: "مەیلی ئەوەی ھەبوو کە گفتوگۆکە بۆ خۆی ببات."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdominates2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdominates2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "He tended to dominate the conversation.",
+            kurdishText: "مەیلی ئەوەی ھەبوو کە گفتوگۆکە بۆ خۆی ببات.",
+            onPressedBritish: () => speakdominates2("en-GB"),
+            onPressedAmerican: () => speakdominates2("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "As a child he was dominated by his father."),
-                    ExampleSentenceKurdish(
-                        text: "کە منداڵ بوو لە ژێر کۆنترۆڵی باوکی بوو."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdominates3("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdominates3("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "As a child he was dominated by his father.",
+            kurdishText: "کە منداڵ بوو لە ژێر کۆنترۆڵی باوکی بوو.",
+            onPressedBritish: () => speakdominates3("en-GB"),
+            onPressedAmerican: () => speakdominates3("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "In the 1960s American styles dominated the art world."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "لە ساڵانی ١٩٦٠ ـەکاندا ستایڵی ئەمریکی جیھانی ھونەریان کۆنترۆڵ کردبوو."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdominates4("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdominates4("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "In the 1960s American styles dominated the art world.",
+            kurdishText:
+                "لە ساڵانی ١٩٦٠ ـەکاندا ستایڵی ئەمریکی جیھانی ھونەریان کۆنترۆڵ کردبوو.",
+            onPressedBritish: () => speakdominates4("en-GB"),
+            onPressedAmerican: () => speakdominates4("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "His work increasingly dominates his life."),
-                    ExampleSentenceKurdish(
-                        text: "کارەکەی زیاتر و زیاتر ژیانی داگیرکرد."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdominates5("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdominates5("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "His work increasingly dominates his life.",
+            kurdishText: "کارەکەی زیاتر و زیاتر ژیانی داگیرکرد.",
+            onPressedBritish: () => speakdominates5("en-GB"),
+            onPressedAmerican: () => speakdominates5("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٢. (کردار) بوون بە گرتنگترین یان دیارترین خاسیەتی شتێک"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "The train crash dominated the news."),
-                    ExampleSentenceKurdish(
-                        text: "تێکشکانی شەمەندەفەرەکە ھەواڵەکانی گرت."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdominates6("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdominates6("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "The train crash dominated the news.",
+            kurdishText: "تێکشکانی شەمەندەفەرەکە ھەواڵەکانی گرت.",
+            onPressedBritish: () => speakdominates6("en-GB"),
+            onPressedAmerican: () => speakdominates6("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "He dominates every scene he's in."),
-                    ExampleSentenceKurdish(
-                        text: "ھەر دیمەنێک بۆ خۆی دەبات کە تێیدا بێت."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdominates7("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdominates7("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "He dominates every scene he's in.",
+            kurdishText: "ھەر دیمەنێک بۆ خۆی دەبات کە تێیدا بێت.",
+            onPressedBritish: () => speakdominates7("en-GB"),
+            onPressedAmerican: () => speakdominates7("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The elections continue to dominate the headlines."),
-                    ExampleSentenceKurdish(
-                        text: "ھەڵبژاردنەکان بەردەوامن لە گرتنی سەردێڕەکان."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdominates8("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdominates8("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "The elections continue to dominate the headlines.",
+            kurdishText: "ھەڵبژاردنەکان بەردەوامن لە گرتنی سەردێڕەکان.",
+            onPressedBritish: () => speakdominates8("en-GB"),
+            onPressedAmerican: () => speakdominates8("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
                   "٣. (کردار) بوون بە گەورەترین، بەرزترین، یان دیارترین شت لە شوێنێکدا"),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "The cathedral dominates the city."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "کڵێساکە خاڵی دیاری شارەکەیە/دەڕوانێت بەسەر شارەکەدا."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdominates9("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdominates9("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "The cathedral dominates the city.",
+            kurdishText: "کڵێساکە خاڵی دیاری شارەکەیە/دەڕوانێت بەسەر شارەکەدا.",
+            onPressedBritish: () => speakdominates9("en-GB"),
+            onPressedAmerican: () => speakdominates9("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٤. (کردار) یاریکردنی زۆر باشتر لە ڕکابەرەکەت"),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "Arsenal dominated the first half of the match."),
-                    ExampleSentenceKurdish(
-                        text: "ئەرسناڵ دەستی گرت بەسەر یەکەم گێمی یارییەکەدا."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdominates10("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdominates10("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "Arsenal dominated the first half of the match.",
+            kurdishText: "ئەرسناڵ دەستی گرت بەسەر یەکەم گێمی یارییەکەدا.",
+            onPressedBritish: () => speakdominates10("en-GB"),
+            onPressedAmerican: () => speakdominates10("en-US"),
           ),
           // dominates1100"),
           // speakdominates11

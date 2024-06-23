@@ -458,338 +458,108 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "١. (ناو) نووسراوێک، کتێبێک، یان فایلێکی فەرمی کە زانیاری لەسەر شتێک دەدات، یان دەکرێت وەک بەڵگە بەکاربێت"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "Please read and sign the attached document."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "تکایە بەڵگەنامە گرێدراوەکە بخوێنەوە و واژۆی بکە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "document", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdocuments1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdocuments1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "Please read and sign the attached document.",
+            kurdishText:
+                "تکایە بەڵگەنامە گرێدراوەکە بخوێنەوە و واژۆی بکە.", // document
+            onPressedBritish: () => speakdocuments1("en-GB"),
+            onPressedAmerican: () => speakdocuments1("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "This is an important legal document."),
-                    ExampleSentenceKurdish(
-                        text: "ئەمە بەڵگەنامەیەکی یاسایی گرنگە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdocuments2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdocuments2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "This is an important legal document.",
+            kurdishText: "ئەمە بەڵگەنامەیەکی یاسایی گرنگە.",
+            onPressedBritish: () => speakdocuments2("en-GB"),
+            onPressedAmerican: () => speakdocuments2("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "Keep your passport and other travel documents in a secure place."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "پاسپۆرت و بەڵگەنامەکانی دیکەی گەشتکردنت لە شوێنێکی سەلامەت بپارێزە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdocuments3("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdocuments3("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "Keep your passport and other travel documents in a secure place.",
+            kurdishText:
+                "پاسپۆرت و بەڵگەنامەکانی دیکەی گەشتکردنت لە شوێنێکی سەلامەت بپارێزە.",
+            onPressedBritish: () => speakdocuments3("en-GB"),
+            onPressedAmerican: () => speakdocuments3("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "According to documents released yesterday, he was paid over £1 million last year."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "بەپێی ئەو بەڵگەنامانەی کە دوێنێ بڵاوکرانەوە، سەروو یەک ملیۆن پاوەندی ساڵی ڕابردوو پێدرا."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdocuments4("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdocuments4("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "According to documents released yesterday, he was paid over £1 million last year.",
+            kurdishText:
+                "بەپێی ئەو بەڵگەنامانەی کە دوێنێ بڵاوکرانەوە، سەروو یەک ملیۆن پاوەندی ساڵی ڕابردوو پێدرا.",
+            onPressedBritish: () => speakdocuments4("en-GB"),
+            onPressedAmerican: () => speakdocuments4("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "This was the biggest leak of classified documents in American history."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "ئەمە گەورەترین دزەکردنی بەڵگەنامەی نھێنی بوو لە مێژووی ئەمریکادا."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdocuments5("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdocuments5("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "This was the biggest leak of classified documents in American history.",
+            kurdishText:
+                "ئەمە گەورەترین دزەکردنی بەڵگەنامەی نھێنی بوو لە مێژووی ئەمریکادا.",
+            onPressedBritish: () => speakdocuments5("en-GB"),
+            onPressedAmerican: () => speakdocuments5("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
                   "٢. (ناو) فایلێکی کۆمپیوتەر کە نووسینی تێدایە و ناوێکی ھەیە کە پێی دەناسرێتەوە"),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "Save the document before closing."),
-                    ExampleSentenceKurdish(
-                        text: "دۆکیومێنتەکە پاشەکەوت بکە پێش داخستنی."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdocuments6("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdocuments6("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "Save the document before closing.",
+            kurdishText: "دۆکیومێنتەکە پاشەکەوت بکە پێش داخستنی.",
+            onPressedBritish: () => speakdocuments6("en-GB"),
+            onPressedAmerican: () => speakdocuments6("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "Click here to print your document."),
-                    ExampleSentenceKurdish(
-                        text: "کلیک لێرە بکە بۆ چاپکردنی دۆکیومێنتەکەت."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdocuments7("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdocuments7("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "Click here to print your document.",
+            kurdishText: "کلیک لێرە بکە بۆ چاپکردنی دۆکیومێنتەکەت.",
+            onPressedBritish: () => speakdocuments7("en-GB"),
+            onPressedAmerican: () => speakdocuments7("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
                   "٣. (کردار) تۆمارکردنی شتێک لە شێوەی بەڵگەنامەی نووسراو، وێنە، فیلم، ھتد"),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "Urban life in the nineteenth century is well documented."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "ژیانی شار لە سەدەی نۆزدەدا بە باشی دۆکیومێنت کراوە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdocuments8("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdocuments8("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "Urban life in the nineteenth century is well documented.",
+            kurdishText: "ژیانی شار لە سەدەی نۆزدەدا بە باشی دۆکیومێنت کراوە.",
+            onPressedBritish: () => speakdocuments8("en-GB"),
+            onPressedAmerican: () => speakdocuments8("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "The results are documented in Chapter 3."),
-                    ExampleSentenceKurdish(
-                        text: "ئەنجامەکان لە بەشی ٣ خراونەتەڕوو."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdocuments9("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdocuments9("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "The results are documented in Chapter 3.",
+            kurdishText: "ئەنجامەکان لە بەشی ٣ خراونەتەڕوو.",
+            onPressedBritish: () => speakdocuments9("en-GB"),
+            onPressedAmerican: () => speakdocuments9("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "Mobile phones have been used as a tool to document the violation of human rights."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "موبایل وەک کەرەستەیەک بەکارھاتوونە بۆ تۆمارکردنی پێشێلکردنی مافەکانی مرۆڤ."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdocuments10("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdocuments10("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "Mobile phones have been used as a tool to document the violation of human rights.",
+            kurdishText:
+                "موبایل وەک کەرەستەیەک بەکارھاتوونە بۆ تۆمارکردنی پێشێلکردنی مافەکانی مرۆڤ.",
+            onPressedBritish: () => speakdocuments10("en-GB"),
+            onPressedAmerican: () => speakdocuments10("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "Students are encouraged to document their experiences."),
-                    ExampleSentenceKurdish(
-                        text: "خوێندکاران ھاندەدرێن ژیانیان دۆکیومێنت بکەن."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdocuments11("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdocuments11("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "Students are encouraged to document their experiences.",
+            kurdishText: "خوێندکاران ھاندەدرێن ژیانیان دۆکیومێنت بکەن.",
+            onPressedBritish: () => speakdocuments11("en-GB"),
+            onPressedAmerican: () => speakdocuments11("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The archive documents the history of women in architecture."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "ئەرشیفەکە مێژووی ژنان لە تەلارسازیدا تۆمار دەکات."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdocuments12("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdocuments12("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "The archive documents the history of women in architecture.",
+            kurdishText: "ئەرشیفەکە مێژووی ژنان لە تەلارسازیدا تۆمار دەکات.",
+            onPressedBritish: () => speakdocuments12("en-GB"),
+            onPressedAmerican: () => speakdocuments12("en-US"),
           ),
           // documents1300"),
           // speakdocuments13

@@ -371,58 +371,20 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "١. (ناو) ناوچەیەکی بەندەرێک کە دەکرێت ئاوەکەی دەربکرێت بۆ درووستکردن و چاککردنەوەی کەشتی"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(text: "The ship is in dry dock."),
-                    ExampleSentenceKurdish(text: "کەشتییەکە لە گۆلاوێکی وشکە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "dry dock", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdrydocks1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdrydocks1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "The ship is in dry dock.",
+            kurdishText: "کەشتییەکە لە گۆلاوێکی وشکە.", // dry dock
+            onPressedBritish: () => speakdrydocks1("en-GB"),
+            onPressedAmerican: () => speakdrydocks1("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The boat is now ready to be moved to a dry dock."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "بەلەمەکە ئێستا ئامادەیە ببردرێت بۆ گۆلاوێکی وشک."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdrydocks2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdrydocks2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "The boat is now ready to be moved to a dry dock.",
+            kurdishText: "بەلەمەکە ئێستا ئامادەیە ببردرێت بۆ گۆلاوێکی وشک.",
+            onPressedBritish: () => speakdrydocks2("en-GB"),
+            onPressedAmerican: () => speakdrydocks2("en-US"),
           ),
           // drydocks300"),
           // speakdrydocks3

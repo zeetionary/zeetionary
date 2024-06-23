@@ -441,58 +441,21 @@ class KurdishMeaning extends StatelessWidget {
 // کوردی: خواردن، دەکار کردن، بەکار ھێنان
 // """),
           const DefinitionKurdish(text: """١. (کردار) خواردن"""),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: """I was too nervous to eat."""),
-                    ExampleSentenceKurdish(
-                        text: """زۆر شڵەژاو بووم کە بخۆم."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "eat", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakeats1("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakeats1("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: """I was too nervous to eat.""",
+            kurdishText: """زۆر شڵەژاو بووم کە بخۆم.""", // eat
+            onPressedBritish: () => speakeats1("en-GB"),
+            onPressedAmerican: () => speakeats1("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: """ژممارە. (کردار) پێنناسە"""),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            """She doesn't eat properly (= doesn't eat food that is good for her)."""),
-                    ExampleSentenceKurdish(text: """بە گونجاوی ناخوات."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakeats2("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakeats2("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                """She doesn't eat properly (= doesn't eat food that is good for her).""",
+            kurdishText: """بە گونجاوی ناخوات.""",
+            onPressedBritish: () => speakeats2("en-GB"),
+            onPressedAmerican: () => speakeats2("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: """ژممارە. (کردار) پێنناسە"""),
@@ -500,200 +463,66 @@ class KurdishMeaning extends StatelessWidget {
             children: [
               MyExpansionTile(
                 children: [
-                  Row(
-                    children: [
-                      const Expanded(
-                        child: Column(
-                          children: [
-                            ExampleSentenceEnglish(
-                                text: """I don't eat meat."""),
-                            ExampleSentenceKurdish(text: """گۆشت ناخۆم."""),
-                          ],
-                        ),
-                      ),
-                      const CustomSizedBoxForTTS(),
-                      Column(
-                        children: [
-                          CustomIconButtonBritish(
-                            onPressed: () => speakeats3("en-GB" ""),
-                          ),
-                          CustomIconButtonAmerican(
-                            onPressed: () => speakeats3("en-US" ""),
-                          ),
-                        ],
-                      ),
-                    ],
+                  SentencesRow(
+                    englishText: """I don't eat meat.""",
+                    kurdishText: """گۆشت ناخۆم.""",
+                    onPressedBritish: () => speakeats3("en-GB"),
+                    onPressedAmerican: () => speakeats3("en-US" ""),
                   ),
                   // const DividerDefinition(),
                   // const DefinitionKurdish(text: """ژممارە. (کردار) پێنناسە"""),
                   const DividerSentences(),
-                  Row(
-                    children: [
-                      const Expanded(
-                        child: Column(
-                          children: [
-                            ExampleSentenceEnglish(
-                                text: """Would you like something to eat?"""),
-                            ExampleSentenceKurdish(
-                                text: """حەزت بە ھیچە بیخۆیت؟"""),
-                          ],
-                        ),
-                      ),
-                      const CustomSizedBoxForTTS(),
-                      Column(
-                        children: [
-                          CustomIconButtonBritish(
-                            onPressed: () => speakeats4("en-GB" ""),
-                          ),
-                          CustomIconButtonAmerican(
-                            onPressed: () => speakeats4("en-US" ""),
-                          ),
-                        ],
-                      ),
-                    ],
+                  SentencesRow(
+                    englishText: """Would you like something to eat?""",
+                    kurdishText: """حەزت بە ھیچە بیخۆیت؟""",
+                    onPressedBritish: () => speakeats4("en-GB"),
+                    onPressedAmerican: () => speakeats4("en-US" ""),
                   ),
                   // const DividerDefinition(),
                   // const DefinitionKurdish(text: """ژممارە. (کردار) پێنناسە"""),
                   const DividerSentences(),
-                  Row(
-                    children: [
-                      const Expanded(
-                        child: Column(
-                          children: [
-                            ExampleSentenceEnglish(
-                                text:
-                                    """I couldn't eat another thing (= I have had enough food)."""),
-                            ExampleSentenceKurdish(
-                                text: """نەمدەتوانی یەک شتی دیکە بخۆم."""),
-                          ],
-                        ),
-                      ),
-                      const CustomSizedBoxForTTS(),
-                      Column(
-                        children: [
-                          CustomIconButtonBritish(
-                            onPressed: () => speakeats5("en-GB" ""),
-                          ),
-                          CustomIconButtonAmerican(
-                            onPressed: () => speakeats5("en-US" ""),
-                          ),
-                        ],
-                      ),
-                    ],
+                  SentencesRow(
+                    englishText:
+                        """I couldn't eat another thing (= I have had enough food).""",
+                    kurdishText: """نەمدەتوانی یەک شتی دیکە بخۆم.""",
+                    onPressedBritish: () => speakeats5("en-GB"),
+                    onPressedAmerican: () => speakeats5("en-US" ""),
                   ),
                   // const DividerDefinition(),
                   // const DefinitionKurdish(text: """ژممارە. (کردار) پێنناسە"""),
                   const DividerSentences(),
-                  Row(
-                    children: [
-                      const Expanded(
-                        child: Column(
-                          children: [
-                            ExampleSentenceEnglish(
-                                text: """Do you have anything to eat?"""),
-                            ExampleSentenceKurdish(
-                                text: """ھیچت ھەیە بۆ خواردن؟"""),
-                          ],
-                        ),
-                      ),
-                      const CustomSizedBoxForTTS(),
-                      Column(
-                        children: [
-                          CustomIconButtonBritish(
-                            onPressed: () => speakeats6("en-GB" ""),
-                          ),
-                          CustomIconButtonAmerican(
-                            onPressed: () => speakeats6("en-US" ""),
-                          ),
-                        ],
-                      ),
-                    ],
+                  SentencesRow(
+                    englishText: """Do you have anything to eat?""",
+                    kurdishText: """ھیچت ھەیە بۆ خواردن؟""",
+                    onPressedBritish: () => speakeats6("en-GB"),
+                    onPressedAmerican: () => speakeats6("en-US" ""),
                   ),
                   // const DividerDefinition(),
                   // const DefinitionKurdish(text: """ژممارە. (کردار) پێنناسە"""),
                   const DividerSentences(),
-                  Row(
-                    children: [
-                      const Expanded(
-                        child: Column(
-                          children: [
-                            ExampleSentenceEnglish(
-                                text:
-                                    """Everyone happily ate the huge meal."""),
-                            ExampleSentenceKurdish(
-                                text:
-                                    """ھەموان بەدڵخۆشی ژەمە گەورەکەیان خوارد."""),
-                          ],
-                        ),
-                      ),
-                      const CustomSizedBoxForTTS(),
-                      Column(
-                        children: [
-                          CustomIconButtonBritish(
-                            onPressed: () => speakeats7("en-GB" ""),
-                          ),
-                          CustomIconButtonAmerican(
-                            onPressed: () => speakeats7("en-US" ""),
-                          ),
-                        ],
-                      ),
-                    ],
+                  SentencesRow(
+                    englishText: """Everyone happily ate the huge meal.""",
+                    kurdishText: """ھەموان بەدڵخۆشی ژەمە گەورەکەیان خوارد.""",
+                    onPressedBritish: () => speakeats7("en-GB"),
+                    onPressedAmerican: () => speakeats7("en-US" ""),
                   ),
                   // const DividerDefinition(),
                   // const DefinitionKurdish(text: """ژممارە. (کردار) پێنناسە"""),
                   const DividerSentences(),
-                  Row(
-                    children: [
-                      const Expanded(
-                        child: Column(
-                          children: [
-                            ExampleSentenceEnglish(
-                                text: """He'd barely eaten any breakfast."""),
-                            ExampleSentenceKurdish(
-                                text: """بە ئەستەم ھیچ نانی بەیانی خوارد."""),
-                          ],
-                        ),
-                      ),
-                      const CustomSizedBoxForTTS(),
-                      Column(
-                        children: [
-                          CustomIconButtonBritish(
-                            onPressed: () => speakeats8("en-GB" ""),
-                          ),
-                          CustomIconButtonAmerican(
-                            onPressed: () => speakeats8("en-US" ""),
-                          ),
-                        ],
-                      ),
-                    ],
+                  SentencesRow(
+                    englishText: """He'd barely eaten any breakfast.""",
+                    kurdishText: """بە ئەستەم ھیچ نانی بەیانی خوارد.""",
+                    onPressedBritish: () => speakeats8("en-GB"),
+                    onPressedAmerican: () => speakeats8("en-US" ""),
                   ),
                   // const DividerDefinition(),
                   // const DefinitionKurdish(text: """ژممارە. (کردار) پێنناسە"""),
                   const DividerSentences(),
-                  Row(
-                    children: [
-                      const Expanded(
-                        child: Column(
-                          children: [
-                            ExampleSentenceEnglish(
-                                text: """I'm trying to eat more healthily."""),
-                            ExampleSentenceKurdish(
-                                text: """ھەوڵدەدەم زیاتر تەندرووستانە بخۆم."""),
-                          ],
-                        ),
-                      ),
-                      const CustomSizedBoxForTTS(),
-                      Column(
-                        children: [
-                          CustomIconButtonBritish(
-                            onPressed: () => speakeats9("en-GB" ""),
-                          ),
-                          CustomIconButtonAmerican(
-                            onPressed: () => speakeats9("en-US" ""),
-                          ),
-                        ],
-                      ),
-                    ],
+                  SentencesRow(
+                    englishText: """I'm trying to eat more healthily.""",
+                    kurdishText: """ھەوڵدەدەم زیاتر تەندرووستانە بخۆم.""",
+                    onPressedBritish: () => speakeats9("en-GB"),
+                    onPressedAmerican: () => speakeats9("en-US" ""),
                   ),
                 ],
               ),
@@ -702,58 +531,20 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(text: """٢. (کردار) خواردنی ژەمێک"""),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: """Where shall we eat tonight?"""),
-                    ExampleSentenceKurdish(
-                        text: """ئەمشەو لە کوێ نان بخۆین؟"""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakeats10("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakeats10("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: """Where shall we eat tonight?""",
+            kurdishText: """ئەمشەو لە کوێ نان بخۆین؟""",
+            onPressedBritish: () => speakeats10("en-GB"),
+            onPressedAmerican: () => speakeats10("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: """ژممارە. (کردار) پێنناسە"""),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: """I never eat in the school cafeteria."""),
-                    ExampleSentenceKurdish(
-                        text: """ھەرگیز لە کافتریای قوتابخانە نانم نەخوارد."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakeats11("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakeats11("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: """I never eat in the school cafeteria.""",
+            kurdishText: """ھەرگیز لە کافتریای قوتابخانە نانم نەخوارد.""",
+            onPressedBritish: () => speakeats11("en-GB"),
+            onPressedAmerican: () => speakeats11("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: """ژممارە. (کردار) پێنناسە"""),

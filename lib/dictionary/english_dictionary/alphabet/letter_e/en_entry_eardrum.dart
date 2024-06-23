@@ -363,32 +363,12 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   """١. (ناو) پەردەی گوێ؛ پارچە پێستی باریک لەناو گوێدا کە بە شەپۆلی دەنگی دەجوڵێن و ڕێگا دەدات ببیستیت"""),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            """She thought the noise would burst her eardrums."""),
-                    ExampleSentenceKurdish(
-                        text:
-                            """وای بیردەکردەوە کە ژاوەژاوەکە پەردەی گوێی دەتەقێنێت."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "eardrum", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakeardrums1("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakeardrums1("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: """She thought the noise would burst her eardrums.""",
+            kurdishText:
+                """وای بیردەکردەوە کە ژاوەژاوەکە پەردەی گوێی دەتەقێنێت.""", // eardrum
+            onPressedBritish: () => speakeardrums1("en-GB"),
+            onPressedAmerican: () => speakeardrums1("en-US"),
           ),
           // eardrums200eardrums2
           // speakeardrums2

@@ -240,57 +240,19 @@ class KurdishMeaning extends StatelessWidget {
 کوردی: ڕۆژ، ڕووناکایی ڕۆژ، ڕوشنایی ڕۆژ،	گزنگ، بەرەبەیانی، شەبەق، دەرکەوتن یان ھەڵاتنی ڕۆژ،	(خوازە) ڕۆژی ڕوون، ڕۆژی ڕووناک
 """),
           const DefinitionKurdish(text: "١. (ناو) ڕۆشنایی خۆر لە ڕۆژدا"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "They emerged from the church into the bright daylight."),
-                    ExampleSentenceKurdish(
-                        text: "لە کڵێساوە دەرچوونە بەر تیشکە ڕۆشنەکە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "daylight", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdaylights1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdaylights1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "They emerged from the church into the bright daylight.",
+            kurdishText: "لە کڵێساوە دەرچوونە بەر تیشکە ڕۆشنەکە.", // daylight
+            onPressedBritish: () => speakdaylights1("en-GB"),
+            onPressedAmerican: () => speakdaylights1("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "The street looks very different in daylight."),
-                    ExampleSentenceKurdish(
-                        text: "شەقامەکە لە بەر ھەتاودا زۆر جیاوازە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdaylights2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdaylights2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "The street looks very different in daylight.",
+            kurdishText: "شەقامەکە لە بەر ھەتاودا زۆر جیاوازە.",
+            onPressedBritish: () => speakdaylights2("en-GB"),
+            onPressedAmerican: () => speakdaylights2("en-US"),
           ),
         ],
       ),

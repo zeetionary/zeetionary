@@ -256,84 +256,30 @@ class KurdishMeaning extends StatelessWidget {
 """),
           const DefinitionKurdish(
               text: "١. (ھاوەڵناو) چڕ؛ کە شتی زۆری تێدایە و نێوانیان کەمە"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "The forest is quite dense at that point."),
-                    ExampleSentenceKurdish(
-                        text: "دارستانەکەدا لەو خاڵەدا تەواو چڕە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "dense", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdenses1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdenses1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "The forest is quite dense at that point.",
+            kurdishText: "دارستانەکەدا لەو خاڵەدا تەواو چڕە.", // dense
+            onPressedBritish: () => speakdenses1("en-GB"),
+            onPressedAmerican: () => speakdenses1("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٢. (ھاوەڵناو) کە سەختە بە ناویدا ببینیت"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "The fog was getting very dense."),
-                    ExampleSentenceKurdish(text: "تەمەکە چڕ دەبوو."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdenses2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdenses2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "The fog was getting very dense.",
+            kurdishText: "تەمەکە چڕ دەبوو.",
+            onPressedBritish: () => speakdenses2("en-GB"),
+            onPressedAmerican: () => speakdenses2("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: "٣. (ھاوەڵناو) گەمژە"),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(text: "How can you be so dense?"),
-                    ExampleSentenceKurdish(text: "چۆن دەکرێت ھێندە گەمژە بیت؟"),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdenses3("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdenses3("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "How can you be so dense?",
+            kurdishText: "چۆن دەکرێت ھێندە گەمژە بیت؟",
+            onPressedBritish: () => speakdenses3("en-GB"),
+            onPressedAmerican: () => speakdenses3("en-US"),
           ),
           // denses400"),
           // speakdenses4

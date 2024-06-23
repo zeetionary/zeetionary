@@ -258,92 +258,35 @@ class KurdishMeaning extends StatelessWidget {
 """),
           const DefinitionKurdish(
               text: "١. (کردار) پیشاندانی وێنەی کەسێک/شتێک لە وێنەیەکدا"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "The artist had depicted her lying on a bed."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "ھونەرکارەکە وێنای کرد بەوەی لەسەر جێخەوێک ڕاکشاوە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "depict", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdepicts1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdepicts1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "The artist had depicted her lying on a bed.",
+            kurdishText:
+                "ھونەرکارەکە وێنای کرد بەوەی لەسەر جێخەوێک ڕاکشاوە.", // depict
+            onPressedBritish: () => speakdepicts1("en-GB"),
+            onPressedAmerican: () => speakdepicts1("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The carving clearly depicts a dragon inside a circle."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "داتاشین بەڕوونی ئەژدیھایەک لەناو بازنەیەکدا پیشان دەدات."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdepicts2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdepicts2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "The carving clearly depicts a dragon inside a circle.",
+            kurdishText:
+                "داتاشین بەڕوونی ئەژدیھایەک لەناو بازنەیەکدا پیشان دەدات.",
+            onPressedBritish: () => speakdepicts2("en-GB"),
+            onPressedAmerican: () => speakdepicts2("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
                   "٢. (کردار) باسکردنی شتێک بە وشە، یان وێناکردنی شتێک بە وێنەیەکەوە"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "The novel depicts French society in the 1930s."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "ڕۆمانەکە وێنای کۆمەڵگای فەرەنسی دەکات لە ١٩٣٠ ـیەکاندا."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdepicts3("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdepicts3("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "The novel depicts French society in the 1930s.",
+            kurdishText:
+                "ڕۆمانەکە وێنای کۆمەڵگای فەرەنسی دەکات لە ١٩٣٠ ـیەکاندا.",
+            onPressedBritish: () => speakdepicts3("en-GB"),
+            onPressedAmerican: () => speakdepicts3("en-US"),
           ),
           // depicts400"),
           // speakdepicts4

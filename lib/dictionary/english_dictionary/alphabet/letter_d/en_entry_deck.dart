@@ -273,174 +273,59 @@ class KurdishMeaning extends StatelessWidget {
 """),
           const DefinitionKurdish(
               text: "١. (ناو) بەشی سەرەوەی کەشتی یان بەلەم"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            " I was the only person on deck at that time of night."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "تەنھا کەس بووم لەسەر پشتی کەشتییەکە لەو کاتەی شەودا."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "deck", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdecks1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdecks1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                " I was the only person on deck at that time of night.",
+            kurdishText:
+                "تەنھا کەس بووم لەسەر پشتی کەشتییەکە لەو کاتەی شەودا.", // deck
+            onPressedBritish: () => speakdecks1("en-GB"),
+            onPressedAmerican: () => speakdecks1("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "When we heard the alarm, we went up on deck."),
-                    ExampleSentenceKurdish(
-                        text: "کە زەنگەکەمان بیست چووینە سەر پشتی کەشتییەکە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdecks2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdecks2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "When we heard the alarm, we went up on deck.",
+            kurdishText: "کە زەنگەکەمان بیست چووینە سەر پشتی کەشتییەکە.",
+            onPressedBritish: () => speakdecks2("en-GB"),
+            onPressedAmerican: () => speakdecks2("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٢. (ناو) یەکێک لە نھۆمەکانی کەشتییەک یان بەلەمێک"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "We sat on the top deck of the bus."),
-                    ExampleSentenceKurdish(
-                        text: "لەسەر نھۆمی سەرەوەی پاسەکە دانیشتبووین."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdecks3("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdecks3("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "We sat on the top deck of the bus.",
+            kurdishText: "لەسەر نھۆمی سەرەوەی پاسەکە دانیشتبووین.",
+            onPressedBritish: () => speakdecks3("en-GB"),
+            onPressedAmerican: () => speakdecks3("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٣. (ناو) سەکۆیەک کە وەک پشتی کەشتییەک وایە"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "He fell from the upper deck of the car park."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "لە سەکۆی سەرەوەی پارکی ئۆۆتمبێلەکانەوە کەوتە خوارەوە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdecks4("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdecks4("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "He fell from the upper deck of the car park.",
+            kurdishText:
+                "لە سەکۆی سەرەوەی پارکی ئۆۆتمبێلەکانەوە کەوتە خوارەوە.",
+            onPressedBritish: () => speakdecks4("en-GB"),
+            onPressedAmerican: () => speakdecks4("en-US"),
           ),
           // skipped_meaning
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
                   "٤. (ناو) سەکۆیەکی دارین کە لە دەرەوەی خانوویەک درووست دەکرێت کە تێیدا دەتوانیت دابنیشیت و بحەسێیتەوە"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "After dinner we sat out on the deck."),
-                    ExampleSentenceKurdish(
-                        text: "دوای نانی ئێوارە لەسەر سەکۆکە دانیشتین."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdecks5("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdecks5("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "After dinner we sat out on the deck.",
+            kurdishText: "دوای نانی ئێوارە لەسەر سەکۆکە دانیشتین.",
+            onPressedBritish: () => speakdecks5("en-GB"),
+            onPressedAmerican: () => speakdecks5("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٥. (کردار) ڕازاندنەوەی کەسێک یان شتێک بە شتێک"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The room was decked out in flowers and balloons."),
-                    ExampleSentenceKurdish(
-                        text: "ژوورەکە بە گوڵ و فودانکە ڕازێندرابوویەوە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdecks6("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdecks6("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "The room was decked out in flowers and balloons.",
+            kurdishText: "ژوورەکە بە گوڵ و فودانکە ڕازێندرابوویەوە.",
+            onPressedBritish: () => speakdecks6("en-GB"),
+            onPressedAmerican: () => speakdecks6("en-US"),
           ),
         ],
       ),

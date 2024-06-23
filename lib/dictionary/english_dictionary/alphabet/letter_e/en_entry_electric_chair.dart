@@ -372,61 +372,22 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   """١. (ناو) کورسییەک کە تەزووی کارەبای لێدەدرێت و تاوانباران لەسەری دەکوژرێن، بە تایبەتی لە ئەمریکا بەکاردێت"""),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: """He was sent to the electric chair."""),
-                    ExampleSentenceKurdish(
-                      text: """بردرا بۆ کورسی کارەبایی.""",
-                      note:
-                          "واتا بردرا بۆ جێبەجێکردنی سزای کوشتنی بە کورسی کارەبایی",
-                    ),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "electric chair", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakelectricchairs1("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakelectricchairs1("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: """He was sent to the electric chair.""",
+            kurdishText: """بردرا بۆ کورسی کارەبایی.""",
+            kurdishNote:
+                "واتا بردرا بۆ جێبەجێکردنی سزای کوشتنی بە کورسی کارەبایی",
+            onPressedBritish: () => speakelectricchairs1("en-GB"),
+            onPressedAmerican: () => speakelectricchairs1("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: """They face death by the electric chair."""),
-                    ExampleSentenceKurdish(
-                        text: """ڕووبەڕووی مەرگ بە کورسی کارەبایی دەبنەوە."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakelectricchairs2("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakelectricchairs2("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: """They face death by the electric chair.""",
+            kurdishText: """ڕووبەڕووی مەرگ بە کورسی کارەبایی دەبنەوە.""",
+            onPressedBritish: () => speakelectricchairs2("en-GB"),
+            onPressedAmerican: () => speakelectricchairs2("en-US"),
           ),
           // electricchairs300electricchairs3
           // speakelectricchairs3

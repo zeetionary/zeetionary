@@ -364,32 +364,13 @@ class KurdishMeaning extends StatelessWidget {
 // """),
           const DefinitionKurdish(
               text: "١. (کردار) فێڵکردن لە کەسێک کە متمانەی پێتە"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The diamond thief double-crossed his partners and gave them only worthless fake jewels."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "دزی ئەڵماسەکە فێڵی لە ھاوبەشەکانی کرد و تەنھا خشڵی بێ‌بەھای پێدان."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "double-cross", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdoublecrosss1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdoublecrosss1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "The diamond thief double-crossed his partners and gave them only worthless fake jewels.",
+            kurdishText:
+                "دزی ئەڵماسەکە فێڵی لە ھاوبەشەکانی کرد و تەنھا خشڵی بێ‌بەھای پێدان.", // double-cross
+            onPressedBritish: () => speakdoublecrosss1("en-GB"),
+            onPressedAmerican: () => speakdoublecrosss1("en-US"),
           ),
           // doublecrosss200"),
           // speakdoublecrosss2

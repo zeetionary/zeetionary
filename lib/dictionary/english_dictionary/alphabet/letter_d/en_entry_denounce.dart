@@ -277,149 +277,53 @@ class KurdishMeaning extends StatelessWidget {
 // """),
           const DefinitionKurdish(
               text: "١. (کردار) بە توندی سەرکۆنەکردنی کەسێک/شتێک"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "She publicly denounced the government's handling of the crisis."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "بە گشتی سەرکۆنەی مامەكەی حکومەتی لەگەڵ کێشەکەدا کرد."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "denounce", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdenounces1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdenounces1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "She publicly denounced the government's handling of the crisis.",
+            kurdishText:
+                "بە گشتی سەرکۆنەی مامەكەی حکومەتی لەگەڵ کێشەکەدا کرد.", // denounce
+            onPressedBritish: () => speakdenounces1("en-GB"),
+            onPressedAmerican: () => speakdenounces1("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The project was denounced as a scandalous waste of public money."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "پڕۆژەکە ڕەخنەی لێ‌گیردار وەک بەفیڕۆدانی ئابڕووبەرانەی پارەی گشتی."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdenounces2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdenounces2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "The project was denounced as a scandalous waste of public money.",
+            kurdishText:
+                "پڕۆژەکە ڕەخنەی لێ‌گیردار وەک بەفیڕۆدانی ئابڕووبەرانەی پارەی گشتی.",
+            onPressedBritish: () => speakdenounces2("en-GB"),
+            onPressedAmerican: () => speakdenounces2("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
                   "٢. (کردار) زانیاریدان بە پۆلیس سەبارەت بە چالاکیی نایاسایی سیاسیانەی کەسێک"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "They were denounced as spies."),
-                    ExampleSentenceKurdish(text: "وەک سیخوڕ مەحکوم کران."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdenounces3("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdenounces3("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "They were denounced as spies.",
+            kurdishText: "وەک سیخوڕ مەحکوم کران.",
+            onPressedBritish: () => speakdenounces3("en-GB"),
+            onPressedAmerican: () => speakdenounces3("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "Many people denounced their neighbours to the secret police."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "زۆر کەس ھەواڵیان لە دراوسێکانیان دا بە پۆلیسی نھێنی."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdenounces4("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdenounces4("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "Many people denounced their neighbours to the secret police.",
+            kurdishText: "زۆر کەس ھەواڵیان لە دراوسێکانیان دا بە پۆلیسی نھێنی.",
+            onPressedBritish: () => speakdenounces4("en-GB"),
+            onPressedAmerican: () => speakdenounces4("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "Someone in the village must have denounced them to the authorities."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "کەسێک لە گوندەکە دەبێت ھەواڵی لێیان دابێت بە حکومەت."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdenounces5("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdenounces5("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "Someone in the village must have denounced them to the authorities.",
+            kurdishText: "کەسێک لە گوندەکە دەبێت ھەواڵی لێیان دابێت بە حکومەت.",
+            onPressedBritish: () => speakdenounces5("en-GB"),
+            onPressedAmerican: () => speakdenounces5("en-US"),
           ),
           // denounces600"),
           // speakdenounces6

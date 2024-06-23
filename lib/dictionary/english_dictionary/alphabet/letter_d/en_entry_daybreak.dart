@@ -232,28 +232,11 @@ class KurdishMeaning extends StatelessWidget {
 """),
           const DefinitionKurdish(
               text: "١. (ناو) ئەو کاتەی ڕۆژ کە ڕۆشنایی دەردەکەوێت"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(text: "We left before daybreak."),
-                    ExampleSentenceKurdish(text: "پێش خۆرھەڵاتن ڕۆشتین."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "daybreak", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdaybreaks1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdaybreaks1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "We left before daybreak.",
+            kurdishText: "پێش خۆرھەڵاتن ڕۆشتین.", // daybreak
+            onPressedBritish: () => speakdaybreaks1("en-GB"),
+            onPressedAmerican: () => speakdaybreaks1("en-US"),
           ),
         ],
       ),

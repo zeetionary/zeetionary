@@ -243,61 +243,22 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "١. (ھاوەڵناو) ھێڵێک کە نە ستوونی و نە ئاسۆییە، بۆ نموونە یەکێک کە دوو گۆشەی بەرانبەری چوارگۆشەیەک بگەیەنێت بە یەکدی"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The book has a diagonal black stripe on the cover."),
-                    ExampleSentenceKurdish(
-                        text: "کتێبەکە ھێڵێکی چەپ‌وڕاستی ھەیە لەسەر بەرگەکەی."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "diagonal", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdiagonals1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdiagonals1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "The book has a diagonal black stripe on the cover.",
+            kurdishText:
+                "کتێبەکە ھێڵێکی چەپ‌وڕاستی ھەیە لەسەر بەرگەکەی.", // diagonal
+            onPressedBritish: () => speakdiagonals1("en-GB"),
+            onPressedAmerican: () => speakdiagonals1("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: "٢. (ناو) ھێڵێکی لەم شێوەیە"),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The diagonal divides the square into two triangles."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "ھێڵە چەپ‌وڕاستەکە چوارگۆشەکە بۆ دوو سێگۆشە دابەش دەکات."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdiagonals2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdiagonals2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "The diagonal divides the square into two triangles.",
+            kurdishText:
+                "ھێڵە چەپ‌وڕاستەکە چوارگۆشەکە بۆ دوو سێگۆشە دابەش دەکات.",
+            onPressedBritish: () => speakdiagonals2("en-GB"),
+            onPressedAmerican: () => speakdiagonals2("en-US"),
           ),
           // diagonals300"),
           // speakdiagonals3

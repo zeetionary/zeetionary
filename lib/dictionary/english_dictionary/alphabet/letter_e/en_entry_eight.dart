@@ -409,197 +409,68 @@ class KurdishMeaning extends StatelessWidget {
 // کوردی: ژمارە ٨
 // """),
           const DefinitionKurdish(text: """١. (ژمارە) ژمارە ٨"""),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            """There are only eight of these rare animals left."""),
-                    ExampleSentenceKurdish(
-                        text:
-                            """تەنھا ھەشت دانە لەم ئاژەڵانە دەگمەنانە ماونەتەوە."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "eight", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakeights1("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakeights1("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: """There are only eight of these rare animals left.""",
+            kurdishText:
+                """تەنھا ھەشت دانە لەم ئاژەڵانە دەگمەنانە ماونەتەوە.""", // eight
+            onPressedBritish: () => speakeights1("en-GB"),
+            onPressedAmerican: () => speakeights1("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            """Ten people were invited but only eight turned up."""),
-                    ExampleSentenceKurdish(
-                        text:
-                            """دە کەس بانگھێشتکران، بەڵام تەنھا ھەشت ھاتن."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakeights2("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakeights2("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                """Ten people were invited but only eight turned up.""",
+            kurdishText: """دە کەس بانگھێشتکران، بەڵام تەنھا ھەشت ھاتن.""",
+            onPressedBritish: () => speakeights2("en-GB"),
+            onPressedAmerican: () => speakeights2("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: """Can you lend me eight dollars?"""),
-                    ExampleSentenceKurdish(
-                        text: """دەتوانیت ھەشت دۆلارم بە قەرز پێ بدەیت؟"""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakeights3("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakeights3("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: """Can you lend me eight dollars?""",
+            kurdishText: """دەتوانیت ھەشت دۆلارم بە قەرز پێ بدەیت؟""",
+            onPressedBritish: () => speakeights3("en-GB"),
+            onPressedAmerican: () => speakeights3("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(text: """Look at page eight."""),
-                    ExampleSentenceKurdish(text: """سەیری لاپەڕە ھەشت."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakeights4("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakeights4("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: """Look at page eight.""",
+            kurdishText: """سەیری لاپەڕە ھەشت.""",
+            onPressedBritish: () => speakeights4("en-GB"),
+            onPressedAmerican: () => speakeights4("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(text: """Eight and one is nine."""),
-                    ExampleSentenceKurdish(text: """ھەشت و یەک دەکەنە نۆ."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakeights5("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakeights5("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: """Eight and one is nine.""",
+            kurdishText: """ھەشت و یەک دەکەنە نۆ.""",
+            onPressedBritish: () => speakeights5("en-GB"),
+            onPressedAmerican: () => speakeights5("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(text: """Two eights is sixteen."""),
-                    ExampleSentenceKurdish(text: """دوو ھەشتی شازدە دەکات."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakeights6("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakeights6("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: """Two eights is sixteen.""",
+            kurdishText: """دوو ھەشتی شازدە دەکات.""",
+            onPressedBritish: () => speakeights6("en-GB"),
+            onPressedAmerican: () => speakeights6("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            """Shall we meet at eight (= at eight o'clock), then?"""),
-                    ExampleSentenceKurdish(
-                        text: """کەواتە لە ھەشت یەکدی ببینین؟"""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakeights7("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakeights7("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                """Shall we meet at eight (= at eight o'clock), then?""",
+            kurdishText: """کەواتە لە ھەشت یەکدی ببینین؟""",
+            onPressedBritish: () => speakeights7("en-GB"),
+            onPressedAmerican: () => speakeights7("en-US"),
           ),
           // eights800eights8
           // speakeights8

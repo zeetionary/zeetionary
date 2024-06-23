@@ -371,60 +371,22 @@ class KurdishMeaning extends StatelessWidget {
 """),
           const DefinitionKurdish(
               text: "١. (ھاوەڵناو) کە ناتوانێت سەرنج بدات چونکە "),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "Luke looked momentarily distracted."),
-                    ExampleSentenceKurdish(
-                        text: "لیوک بۆ ساتێک سەرلێ‌شێواو دیاربوو."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "distracted", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdistracteds1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdistracteds1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "Luke looked momentarily distracted.",
+            kurdishText: "لیوک بۆ ساتێک سەرلێ‌شێواو دیاربوو.", // distracted
+            onPressedBritish: () => speakdistracteds1("en-GB"),
+            onPressedAmerican: () => speakdistracteds1("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "She seemed slightly distracted, as if something was worrying her."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "کەمێک ھۆش‌لانەبوو دیاربوو وەک ئەوەی شتێک نیگەرانی بکات."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdistracteds2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdistracteds2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "She seemed slightly distracted, as if something was worrying her.",
+            kurdishText:
+                "کەمێک ھۆش‌لانەبوو دیاربوو وەک ئەوەی شتێک نیگەرانی بکات.",
+            onPressedBritish: () => speakdistracteds2("en-GB"),
+            onPressedAmerican: () => speakdistracteds2("en-US"),
           ),
           // distracteds300"),
           // speakdistracteds3

@@ -369,58 +369,20 @@ class KurdishMeaning extends StatelessWidget {
 // کوردی:
 // """),
           const DefinitionKurdish(text: "١. (ھاوەڵناو) کە ترس درووست دەکات"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "The dreaded moment had finally arrived."),
-                    ExampleSentenceKurdish(
-                        text: "سەتەوەختە ترسێنەرەکە لەکۆتاییدا گەشت."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "dreaded", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdreadeds1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdreadeds1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "The dreaded moment had finally arrived.",
+            kurdishText: "سەتەوەختە ترسێنەرەکە لەکۆتاییدا گەشت.", // dreaded
+            onPressedBritish: () => speakdreadeds1("en-GB"),
+            onPressedAmerican: () => speakdreadeds1("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "Did I hear the dreaded word ‘homework’?"),
-                    ExampleSentenceKurdish(
-                        text: "ئەوە وشە تۆقێنەرەکە 'ئەرکی ماڵەوەم' بیست؟."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdreadeds2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdreadeds2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "Did I hear the dreaded word ‘homework’?",
+            kurdishText: "ئەوە وشە تۆقێنەرەکە 'ئەرکی ماڵەوەم' بیست؟.",
+            onPressedBritish: () => speakdreadeds2("en-GB"),
+            onPressedAmerican: () => speakdreadeds2("en-US"),
           ),
           // dreadeds300"),
           // speakdreadeds3

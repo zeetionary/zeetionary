@@ -409,179 +409,64 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "١. (ناو) گۆڕینی ئاراستەی کەسێک/شتێک، یان ئەوەی شتێک بۆچی بەکاردێت"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "We made a short diversion to go and look at the castle."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "لادانێکی کورتمان ئەنجامدا بۆ ڕۆشتن و سەیرکردنی قەڵاکە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "diversion", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdiversions1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdiversions1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "We made a short diversion to go and look at the castle.",
+            kurdishText:
+                "لادانێکی کورتمان ئەنجامدا بۆ ڕۆشتن و سەیرکردنی قەڵاکە.", // diversion
+            onPressedBritish: () => speakdiversions1("en-GB"),
+            onPressedAmerican: () => speakdiversions1("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The pilot set the aircraft up for a diversion to the nearest suitable airport."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "فڕۆکەوانەکە فڕۆکەکەی ئامادەکرد بۆ لادان لە نزیکترین فڕۆکەخانەی گونجاو."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdiversions2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdiversions2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "The pilot set the aircraft up for a diversion to the nearest suitable airport.",
+            kurdishText:
+                "فڕۆکەوانەکە فڕۆکەکەی ئامادەکرد بۆ لادان لە نزیکترین فڕۆکەخانەی گونجاو.",
+            onPressedBritish: () => speakdiversions2("en-GB"),
+            onPressedAmerican: () => speakdiversions2("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The diversion of money to other projects caused delays in the original plan."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "گواستنەوەی پارە بۆ پڕۆژەکانی دیکە بوو بە ھۆکاری دواکەون لە پلانە سەرەتاییەکان."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdiversions3("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdiversions3("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "The diversion of money to other projects caused delays in the original plan.",
+            kurdishText:
+                "گواستنەوەی پارە بۆ پڕۆژەکانی دیکە بوو بە ھۆکاری دواکەون لە پلانە سەرەتاییەکان.",
+            onPressedBritish: () => speakdiversions3("en-GB"),
+            onPressedAmerican: () => speakdiversions3("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
                   "٢. (ناو) شتێک کە سەرنجت لادەبات لەسەر کەسێک/شتێکی دیکە لەکاتێکدا شتێک ڕوودەدات"),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The fire was started to create a diversion, allowing some prisoners to escape."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "ئاگرەکە کرایەوە بۆ درووستکردنی خافڵانێک کە ڕێگا بە ھەندێک زیندانی بدات ھەڵبێن."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdiversions4("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdiversions4("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "The fire was started to create a diversion, allowing some prisoners to escape.",
+            kurdishText:
+                "ئاگرەکە کرایەوە بۆ درووستکردنی خافڵانێک کە ڕێگا بە ھەندێک زیندانی بدات ھەڵبێن.",
+            onPressedBritish: () => speakdiversions4("en-GB"),
+            onPressedAmerican: () => speakdiversions4("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "A smoke bomb created a diversion while the robbery took place."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "بۆمبێکی دووکەڵ خافڵانێکی درووستکرد لەکاتێکدا دزییەکە ڕوویدا."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdiversions5("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdiversions5("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "A smoke bomb created a diversion while the robbery took place.",
+            kurdishText:
+                "بۆمبێکی دووکەڵ خافڵانێکی درووستکرد لەکاتێکدا دزییەکە ڕوویدا.",
+            onPressedBritish: () => speakdiversions5("en-GB"),
+            onPressedAmerican: () => speakdiversions5("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٣. (ناو) ڕێگایەک کە بەکاردێت کە ڕێگای سەرەکی داخراوە"),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The main road is now closed and diversions are in operation."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "ڕێگا سەرەکییەکە لە ئێستادا داخراوە و لاڕێکان کراوەن."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdiversions6("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdiversions6("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "The main road is now closed and diversions are in operation.",
+            kurdishText: "ڕێگا سەرەکییەکە لە ئێستادا داخراوە و لاڕێکان کراوەن.",
+            onPressedBritish: () => speakdiversions6("en-GB"),
+            onPressedAmerican: () => speakdiversions6("en-US"),
           ),
           // diversions700"),
           // speakdiversions7

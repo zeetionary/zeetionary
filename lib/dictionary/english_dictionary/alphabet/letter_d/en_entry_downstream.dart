@@ -389,123 +389,46 @@ class KurdishMeaning extends StatelessWidget {
 """),
           const DefinitionKurdish(
               text: "١. (ھاوەڵکار) بەو ئاراستەیەی کە ڕووبارێک دەچێت"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "There’s a village about a mile downstream."),
-                    ExampleSentenceKurdish(
-                        text: "گوندێک ھەیە نزیکەی یەک میل لە خوارەوە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "downstream", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdownstreams1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdownstreams1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "There’s a village about a mile downstream.",
+            kurdishText: "گوندێک ھەیە نزیکەی یەک میل لە خوارەوە.", // downstream
+            onPressedBritish: () => speakdownstreams1("en-GB"),
+            onPressedAmerican: () => speakdownstreams1("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "Hundreds of people were swept downstream in the floods."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "سەدان کەس بۆ خوار ڕووبارەکە لە لافاوەکاندا بردران."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdownstreams2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdownstreams2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "Hundreds of people were swept downstream in the floods.",
+            kurdishText: "سەدان کەس بۆ خوار ڕووبارەکە لە لافاوەکاندا بردران.",
+            onPressedBritish: () => speakdownstreams2("en-GB"),
+            onPressedAmerican: () => speakdownstreams2("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٢. (ھاوەڵناو) لە خاڵێکی ڕووبارێک کە نزیک دەریایە"),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "He saw something floating in the downstream section of the river about a mile from his home."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "شتێکی بینی سەرئاو کەوتبوو لە بەشی خوارەوەی ڕووبارەکە نزیکەی یەک میل لە ماڵەکەیەوە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdownstreams3("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdownstreams3("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "He saw something floating in the downstream section of the river about a mile from his home.",
+            kurdishText:
+                "شتێکی بینی سەرئاو کەوتبوو لە بەشی خوارەوەی ڕووبارەکە نزیکەی یەک میل لە ماڵەکەیەوە.",
+            onPressedBritish: () => speakdownstreams3("en-GB"),
+            onPressedAmerican: () => speakdownstreams3("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
                   "٣. (ھاوەڵناو) شتێک کە دواتر ڕوودەدات لە زنجیرە ڕووداوێکدا"),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "All too often, we pay no attention to the downstream impact of our products."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "زوو زوو سەرنج نادەین بە کاریگەری دواتری بەرھەمەکانمان."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdownstreams4("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdownstreams4("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "All too often, we pay no attention to the downstream impact of our products.",
+            kurdishText:
+                "زوو زوو سەرنج نادەین بە کاریگەری دواتری بەرھەمەکانمان.",
+            onPressedBritish: () => speakdownstreams4("en-GB"),
+            onPressedAmerican: () => speakdownstreams4("en-US"),
           ),
           // downstreams500"),
           // speakdownstreams5

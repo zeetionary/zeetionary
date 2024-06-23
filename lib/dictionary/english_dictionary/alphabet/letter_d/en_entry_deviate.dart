@@ -242,60 +242,22 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "١. (کردار) جیاوازبوون لە شتێک؛ کردنی شتێک جیاواز لە ئاسایی یان ئەوەی پێشبینی کراوە"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "He never deviated from his original plan."),
-                    ExampleSentenceKurdish(
-                        text: "ھەرگیز لە پلانەکەی سەرەتای لاینەدا."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "deviate", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdeviates1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdeviates1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "He never deviated from his original plan.",
+            kurdishText: "ھەرگیز لە پلانەکەی سەرەتای لاینەدا.", // deviate
+            onPressedBritish: () => speakdeviates1("en-GB"),
+            onPressedAmerican: () => speakdeviates1("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The bus had to deviate from its usual route because of a road closure."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "پاسەکە پێویست بوو لە ڕێگای ھەمیشەیی لابدا بەھۆی داخرانی ڕێگاوە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdeviates2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdeviates2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "The bus had to deviate from its usual route because of a road closure.",
+            kurdishText:
+                "پاسەکە پێویست بوو لە ڕێگای ھەمیشەیی لابدا بەھۆی داخرانی ڕێگاوە.",
+            onPressedBritish: () => speakdeviates2("en-GB"),
+            onPressedAmerican: () => speakdeviates2("en-US"),
           ),
           // deviates300"),
           // speakdeviates3

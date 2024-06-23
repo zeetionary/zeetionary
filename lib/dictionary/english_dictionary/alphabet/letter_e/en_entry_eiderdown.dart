@@ -363,30 +363,11 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   """١. (ناو) داپۆشەرێکی گەرم و نەرمی سەر جێخەو کە پڕە لە پەڕە و زۆرجار لەسەر پێخەفێک یان بەتانی دادەندرێت"""),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: """She snuggled beneath the eiderdown."""),
-                    ExampleSentenceKurdish(
-                        text: """خۆی ھەكدایە ژێر لێفەکەی."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "eiderdown", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakeiderdowns1("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakeiderdowns1("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: """She snuggled beneath the eiderdown.""",
+            kurdishText: """خۆی ھەكدایە ژێر لێفەکەی.""", // eiderdown
+            onPressedBritish: () => speakeiderdowns1("en-GB"),
+            onPressedAmerican: () => speakeiderdowns1("en-US"),
           ),
           // eiderdowns200eiderdowns2
           // speakeiderdowns2

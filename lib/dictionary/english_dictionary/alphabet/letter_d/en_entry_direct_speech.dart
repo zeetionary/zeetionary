@@ -244,62 +244,23 @@ class KurdishMeaning extends StatelessWidget {
 // کوردی: (ڕێزمان) وەرگرتنی ڕاستەوخۆ، گیڕانەوەی ڕاستەوخۆ
 // """),
           const DefinitionKurdish(text: "١. (ناو) قسەی ڕاستەوخۆی کەسێک"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "Only direct speech should go inside inverted commas."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "تەنھا قسەی ڕاستەوخۆ دەبێت لەناو کۆمای ھەڵگەڕاوە بێت."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "direct speech", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdirectspeechs1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdirectspeechs1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "Only direct speech should go inside inverted commas.",
+            kurdishText:
+                "تەنھا قسەی ڕاستەوخۆ دەبێت لەناو کۆمای ھەڵگەڕاوە بێت.", // direct speech
+            onPressedBritish: () => speakdirectspeechs1("en-GB"),
+            onPressedAmerican: () => speakdirectspeechs1("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "She said, \"If it rains, I won't go out.\" is an example of the use of direct speech."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "گوتی 'ئەگەر باران ببارێت، ناچمە دەرەوە.' نموونەیەکی وەرگرتنی ڕاستەوخۆیە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdirectspeechs2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdirectspeechs2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "She said, \"If it rains, I won't go out.\" is an example of the use of direct speech.",
+            kurdishText:
+                "گوتی 'ئەگەر باران ببارێت، ناچمە دەرەوە.' نموونەیەکی وەرگرتنی ڕاستەوخۆیە.",
+            onPressedBritish: () => speakdirectspeechs2("en-GB"),
+            onPressedAmerican: () => speakdirectspeechs2("en-US"),
           ),
           // directspeechs300"),
           // speakdirectspeechs3

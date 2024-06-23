@@ -372,60 +372,21 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "١. (ناو) کەمێک خواردن، کە زۆرجار لە کەوچکێکەوە دەکەوێتە خوارەوە"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "She enjoyed a dollop of honey in her tea."),
-                    ExampleSentenceKurdish(
-                        text: "حەزی بە نەختێک ھەنگوین بوو لە چاکەیدا."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "dollop", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdollops1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdollops1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "She enjoyed a dollop of honey in her tea.",
+            kurdishText: "حەزی بە نەختێک ھەنگوین بوو لە چاکەیدا.", // dollop
+            onPressedBritish: () => speakdollops1("en-GB"),
+            onPressedAmerican: () => speakdollops1("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: "٢. (ناو) بڕێک لە شتێک"),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "A dollop of romance now and then is good for everybody."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "بڕێک لە ڕۆمانسییەت جارناجار بۆ ھەموو کەسێک باشە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdollops2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdollops2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "A dollop of romance now and then is good for everybody.",
+            kurdishText: "بڕێک لە ڕۆمانسییەت جارناجار بۆ ھەموو کەسێک باشە.",
+            onPressedBritish: () => speakdollops2("en-GB"),
+            onPressedAmerican: () => speakdollops2("en-US"),
           ),
           // dollops300"),
           // speakdollops3

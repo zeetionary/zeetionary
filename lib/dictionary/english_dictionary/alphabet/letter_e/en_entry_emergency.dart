@@ -380,92 +380,34 @@ class KurdishMeaning extends StatelessWidget {
 """),
           const DefinitionKurdish(
               text: """١. (ناو) دۆخێک کە پێویستیی بە مامەڵەی دەستبەجێ ھەیە"""),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            """This is a medical emergency needing urgent treatment with antibiotics."""),
-                    ExampleSentenceKurdish(
-                        text:
-                            """ئەمە بارێکی لەناکاوی پزیشکییە کە پێویستیی بە چارەسەری بەپەلە ھەیە بە دژە بەکتریا."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "emergency", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakemergencys1("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakemergencys1("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                """This is a medical emergency needing urgent treatment with antibiotics.""",
+            kurdishText:
+                """ئەمە بارێکی لەناکاوی پزیشکییە کە پێویستیی بە چارەسەری بەپەلە ھەیە بە دژە بەکتریا.""", // emergency
+            onPressedBritish: () => speakemergencys1("en-GB"),
+            onPressedAmerican: () => speakemergencys1("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            """The government has declared a state of emergency following the earthquake."""),
-                    ExampleSentenceKurdish(
-                        text:
-                            """حکومەت باری لەناکاوی ڕاگەیاندووە لە دوای بوومەلەرزەکە."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakemergencys2("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakemergencys2("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                """The government has declared a state of emergency following the earthquake.""",
+            kurdishText:
+                """حکومەت باری لەناکاوی ڕاگەیاندووە لە دوای بوومەلەرزەکە.""",
+            onPressedBritish: () => speakemergencys2("en-GB"),
+            onPressedAmerican: () => speakemergencys2("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            """This door should only be used in an emergency."""),
-                    ExampleSentenceKurdish(
-                        text:
-                            """ئەم دەرگایە دەبێت تەنھا لە باری لەناکاودا بەکاربێت."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakemergencys3("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakemergencys3("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: """This door should only be used in an emergency.""",
+            kurdishText:
+                """ئەم دەرگایە دەبێت تەنھا لە باری لەناکاودا بەکاربێت.""",
+            onPressedBritish: () => speakemergencys3("en-GB"),
+            onPressedAmerican: () => speakemergencys3("en-US"),
           ),
           // emergencys400emergencys4
           // speakemergencys4

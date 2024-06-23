@@ -363,29 +363,11 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   """١. (ناو) ژوورێکی تاریکی ژێر زەوی کە وەک زیندانی بەکاردێت"""),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: """Throw him into the dungeons!"""),
-                    ExampleSentenceKurdish(text: """فڕێی بدەنە زیندانەکەوە!"""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "dungeon", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdungeons1("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdungeons1("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: """Throw him into the dungeons!""",
+            kurdishText: """فڕێی بدەنە زیندانەکەوە!""", // dungeon
+            onPressedBritish: () => speakdungeons1("en-GB"),
+            onPressedAmerican: () => speakdungeons1("en-US"),
           ),
           // dungeons200
           // speakdungeons2

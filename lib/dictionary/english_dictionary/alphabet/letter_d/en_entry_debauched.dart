@@ -234,32 +234,13 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "١. (ھاوەڵناو) کەسێک کە لە ڕەفتاری سێکسکردندا ئەخلاقی نییە، مادەی کحولی زۆر دەخواتەوە، مادەی ھۆشبەر دەکێشێت، ھتد"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "His debauched lifestyle eventually led to his downfall."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "شێوازە ژیانە بەدئاکارەکەی لەکۆتاییدا بە کەوتنی گەیاند."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "debauched", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdebaucheds1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdebaucheds1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "His debauched lifestyle eventually led to his downfall.",
+            kurdishText:
+                "شێوازە ژیانە بەدئاکارەکەی لەکۆتاییدا بە کەوتنی گەیاند.", // debauched
+            onPressedBritish: () => speakdebaucheds1("en-GB"),
+            onPressedAmerican: () => speakdebaucheds1("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "٢. (ھاوەڵناو) پێنناسە"),

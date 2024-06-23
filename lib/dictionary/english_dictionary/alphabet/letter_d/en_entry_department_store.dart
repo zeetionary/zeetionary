@@ -235,31 +235,12 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "١. (ناو) فرۆشگایەکی گەورە کە بەسەر چەندین بەشدا دابەش بووە"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The department store downtown has three floors."),
-                    ExampleSentenceKurdish(
-                        text: "فرۆشگاکەی ناوجەرگەی شار سێ نھۆمی ھەیە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "department store", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdepartmentstores1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdepartmentstores1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "The department store downtown has three floors.",
+            kurdishText:
+                "فرۆشگاکەی ناوجەرگەی شار سێ نھۆمی ھەیە.", // department store
+            onPressedBritish: () => speakdepartmentstores1("en-GB"),
+            onPressedAmerican: () => speakdepartmentstores1("en-US"),
           ),
           // departmentstores200"),
           // speakdepartmentstores2

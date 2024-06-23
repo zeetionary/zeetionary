@@ -244,64 +244,26 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "١. (کردار) نەھێشتنی باوەڕی کەسێک بە کەسێک/شتێک، یان نەھێشتنی بۆچوونی باشی"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "I'm sorry to disillusion you, but pregnancy is not always wonderful - I was sick every day for six months."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "بەداخەوەم کە لە خەیاڵ دەردێنم، بەڵام دووگیانی ھەموو کات خۆش نییە ـ من بۆ شەش مانگ ھەموو ڕۆژێک نەخۆش بووم."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "disillusion", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdisillusions1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdisillusions1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "I'm sorry to disillusion you, but pregnancy is not always wonderful - I was sick every day for six months.",
+            kurdishText:
+                "بەداخەوەم کە لە خەیاڵ دەردێنم، بەڵام دووگیانی ھەموو کات خۆش نییە ـ من بۆ شەش مانگ ھەموو ڕۆژێک نەخۆش بووم.", // disillusion
+            onPressedBritish: () => speakdisillusions1("en-GB"),
+            onPressedAmerican: () => speakdisillusions1("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
                   "٢. (ناو) نائومێد بەھۆی ئەوەی ئەو کەسەی بەھای ھەبوو لات یان ئەو بیرۆکەی باوەڕت پێی بوو بێ بەھا دیارن"),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "There is growing disillusion with the political system."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "نائومێدی زیاتر و زیاتر بەرامبەر سیستەمە سیاسییەکە درووست دەبێت."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdisillusions2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdisillusions2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "There is growing disillusion with the political system.",
+            kurdishText:
+                "نائومێدی زیاتر و زیاتر بەرامبەر سیستەمە سیاسییەکە درووست دەبێت.",
+            onPressedBritish: () => speakdisillusions2("en-GB"),
+            onPressedAmerican: () => speakdisillusions2("en-US"),
           ),
           // disillusions300"),
           // speakdisillusions3

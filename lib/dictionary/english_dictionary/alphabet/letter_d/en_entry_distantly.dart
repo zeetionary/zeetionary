@@ -386,112 +386,40 @@ class KurdishMeaning extends StatelessWidget {
 کوردی: کەمێ، نەختێ، بڕێ، لە دوورەوە، لە دوور، ساردانە، نەمرچانە
 """),
           const DefinitionKurdish(text: "١. (ھاوەڵکار) لە دووری مەودا یان کات"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "He heard, distantly, the sound of the sea."),
-                    ExampleSentenceKurdish(
-                        text: "لە دوورەوە گوێی لە دەنگی دەریاکە بوو."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "distantly", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdistantlys1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdistantlys1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "He heard, distantly, the sound of the sea.",
+            kurdishText: "لە دوورەوە گوێی لە دەنگی دەریاکە بوو.", // distantly
+            onPressedBritish: () => speakdistantlys1("en-GB"),
+            onPressedAmerican: () => speakdistantlys1("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: "٢. (ھاوەڵکار) کە نزیک نییە"),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(text: "We're distantly related."),
-                    ExampleSentenceKurdish(text: "خزمی دوورین."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdistantlys2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdistantlys2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "We're distantly related.",
+            kurdishText: "خزمی دوورین.",
+            onPressedBritish: () => speakdistantlys2("en-GB"),
+            onPressedAmerican: () => speakdistantlys2("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The way I speak only distantly resembles the way I write."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "ئەو شێوەیەی کە قسەی پێ دەکەم بە کەمی وەک شێوازی نووسینمە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdistantlys3("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdistantlys3("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "The way I speak only distantly resembles the way I write.",
+            kurdishText:
+                "ئەو شێوەیەی کە قسەی پێ دەکەم بە کەمی وەک شێوازی نووسینمە.",
+            onPressedBritish: () => speakdistantlys3("en-GB"),
+            onPressedAmerican: () => speakdistantlys3("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
                   "٣. (ھاوەڵکار) بەشێوەیەک کە ھەستی تێدا نییە بەھۆی ئەوەی بیر لە شتێکی دیکە دەکەیتەوە"),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(text: "Holly smiled distantly."),
-                    ExampleSentenceKurdish(text: "نەمرچانە پێکەنی."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdistantlys4("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdistantlys4("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "Holly smiled distantly.",
+            kurdishText: "نەمرچانە پێکەنی.",
+            onPressedBritish: () => speakdistantlys4("en-GB"),
+            onPressedAmerican: () => speakdistantlys4("en-US"),
           ),
           // distantlys500"),
           // speakdistantlys5

@@ -397,155 +397,58 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   """١. (ناو) لە چیرۆکەکاندا گیانلەبەرێک کە کورتەباڵایە و دەسەڵاتی سیحری ھەیە و وا پیشان دەدرێت لەژێر زەویدا بژی و کار بکات"""),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            """The queen was jealous of Snow White and the Seven Dwarfs."""),
-                    ExampleSentenceKurdish(
-                        text:
-                            """شاژن بەخیل بوو بە بەفرەسپی و حەوت کورتەباڵاکە."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "dwarf", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdwarfs1("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdwarfs1("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                """The queen was jealous of Snow White and the Seven Dwarfs.""",
+            kurdishText:
+                """شاژن بەخیل بوو بە بەفرەسپی و حەوت کورتەباڵاکە.""", // dwarf
+            onPressedBritish: () => speakdwarfs1("en-GB"),
+            onPressedAmerican: () => speakdwarfs1("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: """٢. (ناو) کەسێکی کورتەباڵا"""),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            """She met a dwarf who was a talented musician."""),
-                    ExampleSentenceKurdish(
-                        text:
-                            """کورتەباڵایەکی بینی کە میوزیکژەنێکی بەھرەمەند بوو."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdwarfs2("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdwarfs2("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: """She met a dwarf who was a talented musician.""",
+            kurdishText:
+                """کورتەباڵایەکی بینی کە میوزیکژەنێکی بەھرەمەند بوو.""",
+            onPressedBritish: () => speakdwarfs2("en-GB"),
+            onPressedAmerican: () => speakdwarfs2("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text: """٣. (ھاوەڵناو) کە بچووکترە لە ڕێژەی ئاسایی"""),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            """You can grow dwarf conifers in pots on the patio."""),
-                    ExampleSentenceKurdish(
-                        text:
-                            """دەتوانیت کۆنیفەری بچووک لە ئینجانەدا لە ھەیوانەکە بچێنی."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdwarfs3("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdwarfs3("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                """You can grow dwarf conifers in pots on the patio.""",
+            kurdishText:
+                """دەتوانیت کۆنیفەری بچووک لە ئینجانەدا لە ھەیوانەکە بچێنی.""",
+            onPressedBritish: () => speakdwarfs3("en-GB"),
+            onPressedAmerican: () => speakdwarfs3("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
                   """٤. (کردار) بچووک پیشاندانی شتێک یان ئەوەی کە گرنگ نەبێت"""),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            """The new skyscraper will dwarf all those near it."""),
-                    ExampleSentenceKurdish(
-                        text:
-                            """تاوەرە بەرزەکە ھەموو ئەوانەی تری نزیکی دادەپۆشێت."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdwarfs4("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdwarfs4("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: """The new skyscraper will dwarf all those near it.""",
+            kurdishText:
+                """تاوەرە بەرزەکە ھەموو ئەوانەی تری نزیکی دادەپۆشێت.""",
+            onPressedBritish: () => speakdwarfs4("en-GB"),
+            onPressedAmerican: () => speakdwarfs4("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            """This new crisis may well dwarf most that have gone before."""),
-                    ExampleSentenceKurdish(
-                        text:
-                            """ئەم قەیرانە تازەیە ڕەنگە گەورەتر بێت لە زۆرینەی ئەوەی پێشووتر ڕوویانداوە."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdwarfs5("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdwarfs5("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                """This new crisis may well dwarf most that have gone before.""",
+            kurdishText:
+                """ئەم قەیرانە تازەیە ڕەنگە گەورەتر بێت لە زۆرینەی ئەوەی پێشووتر ڕوویانداوە.""",
+            onPressedBritish: () => speakdwarfs5("en-GB"),
+            onPressedAmerican: () => speakdwarfs5("en-US"),
           ),
           // dwarfs600
           // speakdwarfs6

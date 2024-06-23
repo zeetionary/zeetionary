@@ -363,32 +363,13 @@ class KurdishMeaning extends StatelessWidget {
 """),
           const DefinitionKurdish(
               text: """١. (ھاوەڵناو) پەیوەندیدار بە ژینگە یان ژینگەناسی"""),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            """We risk upsetting the ecological balance of the area."""),
-                    ExampleSentenceKurdish(
-                        text:
-                            """مەترسی تێکدانی ھاوسەنگی ژینگەیی ناوچەکە درووست دەکەین."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "ecological", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakecologicals1("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakecologicals1("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                """We risk upsetting the ecological balance of the area.""",
+            kurdishText:
+                """مەترسی تێکدانی ھاوسەنگی ژینگەیی ناوچەکە درووست دەکەین.""", // ecological
+            onPressedBritish: () => speakecologicals1("en-GB"),
+            onPressedAmerican: () => speakecologicals1("en-US"),
           ),
           // ecologicals200ecologicals2
           // speakecologicals2

@@ -374,62 +374,24 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   """١. (ناو) کەسێک کە کاری چاککردنەوە و دامەزراندنی سیستەمی کارەبایی دەکات"""),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            """We need to call in an electrician to sort out the wiring."""),
-                    ExampleSentenceKurdish(
-                        text:
-                            """دەبێت پەیوەندی بە کارەباجییەکەوە بکەین بۆ سازکردنی وایەرەکان."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "electrician", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakelectricians1("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakelectricians1("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                """We need to call in an electrician to sort out the wiring.""",
+            kurdishText:
+                """دەبێت پەیوەندی بە کارەباجییەکەوە بکەین بۆ سازکردنی وایەرەکان.""", // electrician
+            onPressedBritish: () => speakelectricians1("en-GB"),
+            onPressedAmerican: () => speakelectricians1("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            """The electrician has diagnosed a fault in the wiring."""),
-                    ExampleSentenceKurdish(
-                        text:
-                            """کارەباچییەکە کێشەیەکی لە دانانی وایەرەکان دۆزییەوە."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakelectricians2("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakelectricians2("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                """The electrician has diagnosed a fault in the wiring.""",
+            kurdishText:
+                """کارەباچییەکە کێشەیەکی لە دانانی وایەرەکان دۆزییەوە.""",
+            onPressedBritish: () => speakelectricians2("en-GB"),
+            onPressedAmerican: () => speakelectricians2("en-US"),
           ),
           // electricians300electricians3
           // speakelectricians3

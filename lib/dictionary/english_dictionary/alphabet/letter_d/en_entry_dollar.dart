@@ -406,175 +406,61 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "١. (ناو) دراوی ئەمریکا، کەنەدا، ئوسترالیا، و ژمارەیەک وڵاتی دیکە"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "You will be paid in American dollars."),
-                    ExampleSentenceKurdish(
-                        text: "بە دۆلاری ئەمریکی پارەکەت وەردەگریت."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "dollar", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdollars1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdollars1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "You will be paid in American dollars.",
+            kurdishText: "بە دۆلاری ئەمریکی پارەکەت وەردەگریت.", // dollar
+            onPressedBritish: () => speakdollars1("en-GB"),
+            onPressedAmerican: () => speakdollars1("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(text: "Do you have a dollar?"),
-                    ExampleSentenceKurdish(text: "دۆلارێکت پێیە؟"),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdollars2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdollars2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "Do you have a dollar?",
+            kurdishText: "دۆلارێکت پێیە؟",
+            onPressedBritish: () => speakdollars2("en-GB"),
+            onPressedAmerican: () => speakdollars2("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "He sold the company in a multimillion-dollar deal."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "کۆمپانیاکەی لە ڕێککەوتنێکی چەند ملیۆن دۆلاریدا فرۆشت."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdollars3("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdollars3("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "He sold the company in a multimillion-dollar deal.",
+            kurdishText:
+                "کۆمپانیاکەی لە ڕێککەوتنێکی چەند ملیۆن دۆلاریدا فرۆشت.",
+            onPressedBritish: () => speakdollars3("en-GB"),
+            onPressedAmerican: () => speakdollars3("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "American taxpayers ought to have more say in how their tax dollars are spent."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "باجدەرانی ئەمریکا دەبێت بڕیاری زیاتریان بەدەست بێت لەوەی چۆن دۆلاری باجەکەیان خەرج دەکرێت."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdollars4("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdollars4("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "American taxpayers ought to have more say in how their tax dollars are spent.",
+            kurdishText:
+                "باجدەرانی ئەمریکا دەبێت بڕیاری زیاتریان بەدەست بێت لەوەی چۆن دۆلاری باجەکەیان خەرج دەکرێت.",
+            onPressedBritish: () => speakdollars4("en-GB"),
+            onPressedAmerican: () => speakdollars4("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "China produces billions of dollars worth of exports."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "چین بە بەھای ملیاران دۆلار کەلووپەلی ھەناردە بەرھەم دێنێت."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdollars5("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdollars5("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "China produces billions of dollars worth of exports.",
+            kurdishText:
+                "چین بە بەھای ملیاران دۆلار کەلووپەلی ھەناردە بەرھەم دێنێت.",
+            onPressedBritish: () => speakdollars5("en-GB"),
+            onPressedAmerican: () => speakdollars5("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٢. (ناو) بەھای دۆلاری ئەمریکی بەروارد بە دراوەکانی دیکە"),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "The dollar closed two cents down."),
-                    ExampleSentenceKurdish(
-                        text: "لەکۆتایی ڕۆژەکەدا دۆلار دوو سەنت لەدەستدابوو ."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdollars6("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdollars6("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "The dollar closed two cents down.",
+            kurdishText: "لەکۆتایی ڕۆژەکەدا دۆلار دوو سەنت لەدەستدابوو .",
+            onPressedBritish: () => speakdollars6("en-GB"),
+            onPressedAmerican: () => speakdollars6("en-US"),
           ),
           // dollars700"),
           // speakdollars7

@@ -309,252 +309,84 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "١. (ناو) بیابان؛ ناوچەیەکی گەورە کە ئاو و ڕووەکی لێ نییە یان کەمی لێیە"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(text: "Somalia is mostly desert."),
-                    ExampleSentenceKurdish(text: "وڵاتی سۆماڵ زۆری بیابانە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "desert", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdeserts1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdeserts1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "Somalia is mostly desert.",
+            kurdishText: "وڵاتی سۆماڵ زۆری بیابانە.", // desert
+            onPressedBritish: () => speakdeserts1("en-GB"),
+            onPressedAmerican: () => speakdeserts1("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "They travelled many miles across burning desert sands."),
-                    ExampleSentenceKurdish(
-                        text: "چەندین میل بە خاکی بیابانی گەرمدا گەشتیان کرد."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdeserts2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdeserts2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "They travelled many miles across burning desert sands.",
+            kurdishText: "چەندین میل بە خاکی بیابانی گەرمدا گەشتیان کرد.",
+            onPressedBritish: () => speakdeserts2("en-GB"),
+            onPressedAmerican: () => speakdeserts2("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٢. (کردار) جێھێشتنی کەسێک بەبێ یارمەتی و پشتگیری"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "She was deserted by her husband."),
-                    ExampleSentenceKurdish(text: "ھاوسەرەکەی جێیھێشت."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdeserts3("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdeserts3("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "She was deserted by her husband.",
+            kurdishText: "ھاوسەرەکەی جێیھێشت.",
+            onPressedBritish: () => speakdeserts3("en-GB"),
+            onPressedAmerican: () => speakdeserts3("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "Don’t worry—I won’t desert you."),
-                    ExampleSentenceKurdish(
-                        text: "نیگەران مەبە ـ بەجێت ناھێڵم."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdeserts4("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdeserts4("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "Don’t worry—I won’t desert you.",
+            kurdishText: "نیگەران مەبە ـ بەجێت ناھێڵم.",
+            onPressedBritish: () => speakdeserts4("en-GB"),
+            onPressedAmerican: () => speakdeserts4("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٣. (کردار) ڕۆشتن لە شوێنێک و جێھێشتنی بە بەتاڵی"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "The villages had been deserted."),
-                    ExampleSentenceKurdish(text: "گوندەکان چۆڵکراون."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdeserts5("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdeserts5("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "The villages had been deserted.",
+            kurdishText: "گوندەکان چۆڵکراون.",
+            onPressedBritish: () => speakdeserts5("en-GB"),
+            onPressedAmerican: () => speakdeserts5("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: "٤. (کردار) جێھێشتنی سوپا بەبێ مۆڵەت"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "Large numbers of soldiers deserted as defeat became inevitable."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "ژمارەیەکی زۆر سەرباز ھەڵھاتن لە شکست تەواو ڕوون بوویەوە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdeserts6("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdeserts6("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "Large numbers of soldiers deserted as defeat became inevitable.",
+            kurdishText:
+                "ژمارەیەکی زۆر سەرباز ھەڵھاتن لە شکست تەواو ڕوون بوویەوە.",
+            onPressedBritish: () => speakdeserts6("en-GB"),
+            onPressedAmerican: () => speakdeserts6("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The soldiers had deserted the US army to fight for Mexico."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "سەربازەکان سوپای ئەمریکایان جێھێشت بۆ شەڕکردن بۆ مەکسیک."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdeserts7("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdeserts7("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "The soldiers had deserted the US army to fight for Mexico.",
+            kurdishText:
+                "سەربازەکان سوپای ئەمریکایان جێھێشت بۆ شەڕکردن بۆ مەکسیک.",
+            onPressedBritish: () => speakdeserts7("en-GB"),
+            onPressedAmerican: () => speakdeserts7("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٥. (کردار) جێھێشتنی دامەزراوەیەک یان وەستان لە چالاکییەک"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "Millions of voters are deserting the party."),
-                    ExampleSentenceKurdish(
-                        text: "ملیۆنان دەنگدەر پارتەکە جێدێڵن."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdeserts8("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdeserts8("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "Millions of voters are deserting the party.",
+            kurdishText: "ملیۆنان دەنگدەر پارتەکە جێدێڵن.",
+            onPressedBritish: () => speakdeserts8("en-GB"),
+            onPressedAmerican: () => speakdeserts8("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "Why did you desert teaching for politics?"),
-                    ExampleSentenceKurdish(
-                        text:
-                            "بۆچی وازت لە مامۆستایەتی ھێنا لە پێناو سیاسەتدا؟"),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdeserts9("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdeserts9("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "Why did you desert teaching for politics?",
+            kurdishText: "بۆچی وازت لە مامۆستایەتی ھێنا لە پێناو سیاسەتدا؟",
+            onPressedBritish: () => speakdeserts9("en-GB"),
+            onPressedAmerican: () => speakdeserts9("en-US"),
           ),
           // deserts1000"),
           // speakdeserts10

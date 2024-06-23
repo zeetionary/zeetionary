@@ -404,175 +404,64 @@ class KurdishMeaning extends StatelessWidget {
 """),
           const DefinitionKurdish(
               text: """١. (ھاوەڵناو) پەیوەندیدار بە کارەبا"""),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            """The wind turbine supplies the farm with electric power."""),
-                    ExampleSentenceKurdish(
-                        text:
-                            """تۆڕباینە بایەکە وزەی کارەبا دەدات بە کێڵگەکە."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "electric", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakelectrics1("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakelectrics1("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                """The wind turbine supplies the farm with electric power.""",
+            kurdishText:
+                """تۆڕباینە بایەکە وزەی کارەبا دەدات بە کێڵگەکە.""", // electric
+            onPressedBritish: () => speakelectrics1("en-GB"),
+            onPressedAmerican: () => speakelectrics1("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text: """٢. (ھاوەڵناو) پڕ لە جۆش‌وخرۆشی؛ بەجۆشھێنەر"""),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: """The atmosphere was electric."""),
-                    ExampleSentenceKurdish(text: """کەشەکە ھەژێنەر بوو."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakelectrics2("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakelectrics2("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: """The atmosphere was electric.""",
+            kurdishText: """کەشەکە ھەژێنەر بوو.""",
+            onPressedBritish: () => speakelectrics2("en-GB"),
+            onPressedAmerican: () => speakelectrics2("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            """The news had an electric effect on the waiting crowd."""),
-                    ExampleSentenceKurdish(
-                        text:
-                            """ھەواڵەکە کاریگەرییەکی بەجۆشھێنەری لەسەر جەماوەرە چاوەڕوانەکە ھەبوو."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakelectrics3("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakelectrics3("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                """The news had an electric effect on the waiting crowd.""",
+            kurdishText:
+                """ھەواڵەکە کاریگەرییەکی بەجۆشھێنەری لەسەر جەماوەرە چاوەڕوانەکە ھەبوو.""",
+            onPressedBritish: () => speakelectrics3("en-GB"),
+            onPressedAmerican: () => speakelectrics3("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text: """٣. (ناو) سیستەمی وایەری کارەبایی بینایەک، ھتد"""),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: """There's a problem with the electrics."""),
-                    ExampleSentenceKurdish(
-                        text: """کێشەیەک لە کارەباییەکەدا ھەیە."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakelectrics4("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakelectrics4("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: """There's a problem with the electrics.""",
+            kurdishText: """کێشەیەک لە کارەباییەکەدا ھەیە.""",
+            onPressedBritish: () => speakelectrics4("en-GB"),
+            onPressedAmerican: () => speakelectrics4("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text: """٤. (ناو) سەرچاوەی کارەبا بۆ بینایەک"""),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: """The electric will be off tomorrow."""),
-                    ExampleSentenceKurdish(text: """کارەبا سبەی نابێت."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakelectrics5("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakelectrics5("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: """The electric will be off tomorrow.""",
+            kurdishText: """کارەبا سبەی نابێت.""",
+            onPressedBritish: () => speakelectrics5("en-GB"),
+            onPressedAmerican: () => speakelectrics5("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            """I've paid the electric (= the bill for the supply of electricity)."""),
-                    ExampleSentenceKurdish(text: """پارەی کارەبام داوە."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakelectrics6("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakelectrics6("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                """I've paid the electric (= the bill for the supply of electricity).""",
+            kurdishText: """پارەی کارەبام داوە.""",
+            onPressedBritish: () => speakelectrics6("en-GB"),
+            onPressedAmerican: () => speakelectrics6("en-US"),
           ),
           // electrics700electrics7
           // speakelectrics7

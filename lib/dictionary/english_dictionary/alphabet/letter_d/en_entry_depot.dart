@@ -248,58 +248,20 @@ class KurdishMeaning extends StatelessWidget {
 """),
           const DefinitionKurdish(
               text: "١. (ناو) شوێنێک کە ڕێژەیەکی زۆر لە شتێک کۆگا کراوە"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "There was an explosion at an arms depot."),
-                    ExampleSentenceKurdish(
-                        text: "تەقینەوەیەک لە عەمارێکی تەقەمەنی ڕوویدا."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "depot", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdepots1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdepots1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "There was an explosion at an arms depot.",
+            kurdishText: "تەقینەوەیەک لە عەمارێکی تەقەمەنی ڕوویدا.", // depot
+            onPressedBritish: () => speakdepots1("en-GB"),
+            onPressedAmerican: () => speakdepots1("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: "٢. (ناو) وێستگەی پاس یان شەمەندەفەر"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "The bus depot is on Lincoln Avenue."),
-                    ExampleSentenceKurdish(
-                        text: "وێستگەی پاسەکە لە کۆڵانی لینکنە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdepots2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdepots2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "The bus depot is on Lincoln Avenue.",
+            kurdishText: "وێستگەی پاسەکە لە کۆڵانی لینکنە.",
+            onPressedBritish: () => speakdepots2("en-GB"),
+            onPressedAmerican: () => speakdepots2("en-US"),
           ),
           // depots300"),
           // speakdepots3

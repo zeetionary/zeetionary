@@ -362,32 +362,13 @@ class KurdishMeaning extends StatelessWidget {
 کوردی: سەربە بەش، بەشی، کەرتی، سەربە کەرت،	سەربە لەشکر یان سپا، پێوەندی بە سپاوە
 """),
           const DefinitionKurdish(text: "١. (ھاوەڵناو) سەر بە یەکەیەکی سوپا"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "As the divisional commander, he was responsible for the welfare and readiness of his troops."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "وەک فەرماندەی یەکەکە بەرپرسی تەندرووستی و ئامادەیی سەربازەکانی بوو."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "divisional", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdivisionals1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdivisionals1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "As the divisional commander, he was responsible for the welfare and readiness of his troops.",
+            kurdishText:
+                "وەک فەرماندەی یەکەکە بەرپرسی تەندرووستی و ئامادەیی سەربازەکانی بوو.", // divisional
+            onPressedBritish: () => speakdivisionals1("en-GB"),
+            onPressedAmerican: () => speakdivisionals1("en-US"),
           ),
           // divisionals200"),
           // speakdivisionals2

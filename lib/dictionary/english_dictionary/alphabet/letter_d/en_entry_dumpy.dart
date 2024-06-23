@@ -370,60 +370,22 @@ class KurdishMeaning extends StatelessWidget {
 کوردی: خڕیلانە، خەپەتۆلە، خەپە، خرپن، خڕوخۆڵ
 """),
           const DefinitionKurdish(text: """١. (ھاوەڵناو) کورت و قەڵەو"""),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: """That skirt makes you look dumpy."""),
-                    ExampleSentenceKurdish(
-                        text: """ئەو تەنوورەیە خڕەڵە دەرت دەخات."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "dumpy", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdumpys1("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdumpys1("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: """That skirt makes you look dumpy.""",
+            kurdishText: """ئەو تەنوورەیە خڕەڵە دەرت دەخات.""", // dumpy
+            onPressedBritish: () => speakdumpys1("en-GB"),
+            onPressedAmerican: () => speakdumpys1("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            """The detective was a dumpy figure in an old overcoat."""),
-                    ExampleSentenceKurdish(
-                        text:
-                            """پشکنەرەکە شێوەیەکی خڕوخۆڵی ھەبوو بە قەمسەڵەیەکی درێژەوە."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdumpys2("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdumpys2("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                """The detective was a dumpy figure in an old overcoat.""",
+            kurdishText:
+                """پشکنەرەکە شێوەیەکی خڕوخۆڵی ھەبوو بە قەمسەڵەیەکی درێژەوە.""",
+            onPressedBritish: () => speakdumpys2("en-GB"),
+            onPressedAmerican: () => speakdumpys2("en-US"),
           ),
           // dumpys300
           // speakdumpys3

@@ -234,31 +234,13 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "١. (ناو) بوتڵێکی شووشە کە شەراب و مادە کحولییەکانی دیکەی تێدەکرێت و سەرێکی ھەیە کە بە تەواوی دەیبەستێت"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The waiter brought a decanter of red wine to the table."),
-                    ExampleSentenceKurdish(
-                        text: "گارسۆنەکە تۆنگەمەییەکی ھێنا بۆ سەر مێزەکە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "decanter", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdecanters1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdecanters1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "The waiter brought a decanter of red wine to the table.",
+            kurdishText:
+                "گارسۆنەکە تۆنگەمەییەکی ھێنا بۆ سەر مێزەکە.", // decanter
+            onPressedBritish: () => speakdecanters1("en-GB"),
+            onPressedAmerican: () => speakdecanters1("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "٢. (ھاوەڵناو) پێنناسە"),

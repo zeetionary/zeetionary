@@ -234,32 +234,13 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "١. (ناو) کاری قسەکردن لەسەر شتێک کە پەیوەندیدار نییە بە بابەتی سەرەکی ئەوەی قسەی لەسەر دەکەیت"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "After several digressions, he finally got to the point."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "لە دوای ژمارەیەک لادان لە باسەکە، لەکۆتاییدا چووە سەر باسەکە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "digression", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdigressions1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdigressions1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "After several digressions, he finally got to the point.",
+            kurdishText:
+                "لە دوای ژمارەیەک لادان لە باسەکە، لەکۆتاییدا چووە سەر باسەکە.", // digression
+            onPressedBritish: () => speakdigressions1("en-GB"),
+            onPressedAmerican: () => speakdigressions1("en-US"),
           ),
           // digressions200"),
           // speakdigressions2

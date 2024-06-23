@@ -395,142 +395,48 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   """١. (ناو) داکشانی ئاو؛ ئەو ماوەیەی کە ئاستی دەریا دادەبەزێت و دووردەکەوێتەوە لە وشکانی"""),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: """They left port on the ebb tide."""),
-                    ExampleSentenceKurdish(
-                        text: """لەگەڵ داشکانەکەدا بەندەرەکەیان جێھێشت."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "ebb", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakebbs1("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakebbs1("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: """They left port on the ebb tide.""",
+            kurdishText: """لەگەڵ داشکانەکەدا بەندەرەکەیان جێھێشت.""", // ebb
+            onPressedBritish: () => speakebbs1("en-GB"),
+            onPressedAmerican: () => speakebbs1("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: """They went out to sea with the ebb."""),
-                    ExampleSentenceKurdish(
-                        text: """لەگەڵ داشکانەکەدا چوونە دەریاوە."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakebbs2("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakebbs2("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: """They went out to sea with the ebb.""",
+            kurdishText: """لەگەڵ داشکانەکەدا چوونە دەریاوە.""",
+            onPressedBritish: () => speakebbs2("en-GB"),
+            onPressedAmerican: () => speakebbs2("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: """٢. (کردار) داشکانی دەریا"""),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: """The tide began to ebb in the afternoon."""),
-                    ExampleSentenceKurdish(
-                        text:
-                            """ئاستی دەریا دەستی بە داشکان کرد لە نیوەڕۆدا."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakebbs3("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakebbs3("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: """The tide began to ebb in the afternoon.""",
+            kurdishText: """ئاستی دەریا دەستی بە داشکان کرد لە نیوەڕۆدا.""",
+            onPressedBritish: () => speakebbs3("en-GB"),
+            onPressedAmerican: () => speakebbs3("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text: """٣. (کردار) کەم کەم لاوازبوون یان کەمبوون"""),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(text: """The pain was ebbing."""),
-                    ExampleSentenceKurdish(text: """ئازارەکە سووک دەبوو."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakebbs4("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakebbs4("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: """The pain was ebbing.""",
+            kurdishText: """ئازارەکە سووک دەبوو.""",
+            onPressedBritish: () => speakebbs4("en-GB"),
+            onPressedAmerican: () => speakebbs4("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: """Her strength began to ebb."""),
-                    ExampleSentenceKurdish(
-                        text: """ھێزی دەستی بە لاوازبوون کرد."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakebbs5("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakebbs5("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: """Her strength began to ebb.""",
+            kurdishText: """ھێزی دەستی بە لاوازبوون کرد.""",
+            onPressedBritish: () => speakebbs5("en-GB"),
+            onPressedAmerican: () => speakebbs5("en-US"),
           ),
           // ebbs600ebbs6
           // speakebbs6

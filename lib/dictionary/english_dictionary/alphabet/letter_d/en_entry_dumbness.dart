@@ -371,63 +371,24 @@ class KurdishMeaning extends StatelessWidget {
 کوردی: لاڵی،	گێژی، حەپەیی، گەمژەیی، زەین‌کوێری
 """),
           const DefinitionKurdish(text: """١. (ناو) گەمژەیی"""),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            """In a moment of drunken dumbness, he tried to stand on his head."""),
-                    ExampleSentenceKurdish(
-                        text:
-                            """لە ساتێکی گەمژەیی سەرمەستیدا، ھەوڵی دا لەسەر سەری بوەستێت."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "dumbness", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdumbnesss1("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdumbnesss1("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                """In a moment of drunken dumbness, he tried to stand on his head.""",
+            kurdishText:
+                """لە ساتێکی گەمژەیی سەرمەستیدا، ھەوڵی دا لەسەر سەری بوەستێت.""", // dumbness
+            onPressedBritish: () => speakdumbnesss1("en-GB"),
+            onPressedAmerican: () => speakdumbnesss1("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text: """٢. (ناو) لاڵی؛ نەبوونی توانای قسەکردن"""),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            """Dumbness was seen as the logical consequence of being deaf."""),
-                    ExampleSentenceKurdish(
-                        text:
-                            """لاڵی وەک دەرئەنجامی لۆژیکی کەڕبوون دەبینرا."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdumbnesss2("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdumbnesss2("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                """Dumbness was seen as the logical consequence of being deaf.""",
+            kurdishText: """لاڵی وەک دەرئەنجامی لۆژیکی کەڕبوون دەبینرا.""",
+            onPressedBritish: () => speakdumbnesss2("en-GB"),
+            onPressedAmerican: () => speakdumbnesss2("en-US"),
           ),
           // dumbnesss300
           // speakdumbnesss3

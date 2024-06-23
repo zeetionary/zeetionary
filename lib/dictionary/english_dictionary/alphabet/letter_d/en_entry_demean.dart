@@ -266,116 +266,40 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "١. (کردار) کردنی شتێک کە وادەکات خەڵکی کەمتر ڕێزیان بۆت ھەبێت"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "I wouldn't demean myself by asking my parents for money."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "خۆم کەم ناکەمەوە بە داواکردن لە دایک و باوکم بۆ پارە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "demean", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdemeans1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdemeans1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "I wouldn't demean myself by asking my parents for money.",
+            kurdishText:
+                "خۆم کەم ناکەمەوە بە داواکردن لە دایک و باوکم بۆ پارە.", // demean
+            onPressedBritish: () => speakdemeans1("en-GB"),
+            onPressedAmerican: () => speakdemeans1("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "٢. (کردار) وا لە خەڵکی بکات"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(text: "Such images demean women."),
-                    ExampleSentenceKurdish(
-                        text: "وێنەی وەھا سوکایەتی بە ژنان دەکات."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdemeans2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdemeans2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "Such images demean women.",
+            kurdishText: "وێنەی وەھا سوکایەتی بە ژنان دەکات.",
+            onPressedBritish: () => speakdemeans2("en-GB"),
+            onPressedAmerican: () => speakdemeans2("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "Behaviour like this demeans politics."),
-                    ExampleSentenceKurdish(
-                        text: "ڕەفتاری وەھا زیان بە سیاسەت دەگەیەنێت."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdemeans3("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdemeans3("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "Behaviour like this demeans politics.",
+            kurdishText: "ڕەفتاری وەھا زیان بە سیاسەت دەگەیەنێت.",
+            onPressedBritish: () => speakdemeans3("en-GB"),
+            onPressedAmerican: () => speakdemeans3("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The entire family was demeaned by his behaviour."),
-                    ExampleSentenceKurdish(
-                        text: "تەواوی خێزانەکە سووک بوون بە ھەڵسوکەوتی."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdemeans4("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdemeans4("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "The entire family was demeaned by his behaviour.",
+            kurdishText: "تەواوی خێزانەکە سووک بوون بە ھەڵسوکەوتی.",
+            onPressedBritish: () => speakdemeans4("en-GB"),
+            onPressedAmerican: () => speakdemeans4("en-US"),
           ),
           // demeans500"),
           // speakdemeans5

@@ -274,174 +274,60 @@ class KurdishMeaning extends StatelessWidget {
 // کوردی: فەرمان، دەستوور،	بنەما، بنچینە، پرینسیپ
 // """),
           const DefinitionKurdish(text: "١. (کردار) پێنناسە"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "They are in no position to dictate terms (= tell other people what to do)."),
-                    ExampleSentenceKurdish(
-                        text: "لە ھیچ دۆخێکدا نین کە مەرج بسەپێنن."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "dictate", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdictates1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdictates1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "They are in no position to dictate terms (= tell other people what to do).",
+            kurdishText: "لە ھیچ دۆخێکدا نین کە مەرج بسەپێنن.", // dictate
+            onPressedBritish: () => speakdictates1("en-GB"),
+            onPressedAmerican: () => speakdictates1("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "What right do they have to dictate how we live our lives?"),
-                    ExampleSentenceKurdish(
-                        text:
-                            "چی مافێکیان ھەیە کە بڕیار بدەن چۆن ژیانی خۆمان دەژین؟"),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdictates2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdictates2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "What right do they have to dictate how we live our lives?",
+            kurdishText:
+                "چی مافێکیان ھەیە کە بڕیار بدەن چۆن ژیانی خۆمان دەژین؟",
+            onPressedBritish: () => speakdictates2("en-GB"),
+            onPressedAmerican: () => speakdictates2("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
                   "٢. (کردار) کۆنترۆڵ یان کاریگەری لەسەر شێوازی ڕوودانی شتێک"),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "When we take our vacations is very much dictated by Greg's work schedule."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "ئەوەی کە کەی پشووەکەمان وەردەگرین بە خشتەی کارکردنی گرێگ دیاری دەکرێت."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdictates3("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdictates3("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "When we take our vacations is very much dictated by Greg's work schedule.",
+            kurdishText:
+                "ئەوەی کە کەی پشووەکەمان وەردەگرین بە خشتەی کارکردنی گرێگ دیاری دەکرێت.",
+            onPressedBritish: () => speakdictates3("en-GB"),
+            onPressedAmerican: () => speakdictates3("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "It's generally your job that dictates where you live now."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "بە شێوەیەکی گشتی ئێستا ئەوە کارەکانمانە کە دیاری دەکات لە کوێ دەژین."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdictates4("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdictates4("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "It's generally your job that dictates where you live now.",
+            kurdishText:
+                "بە شێوەیەکی گشتی ئێستا ئەوە کارەکانمانە کە دیاری دەکات لە کوێ دەژین.",
+            onPressedBritish: () => speakdictates4("en-GB"),
+            onPressedAmerican: () => speakdictates4("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "What followed dictated the course of his life."),
-                    ExampleSentenceKurdish(
-                        text: "ئەوەی دواتر بوو ئاقاری ژیانی دیاریکرد."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdictates5("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdictates5("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "What followed dictated the course of his life.",
+            kurdishText: "ئەوەی دواتر بوو ئاقاری ژیانی دیاریکرد.",
+            onPressedBritish: () => speakdictates5("en-GB"),
+            onPressedAmerican: () => speakdictates5("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٣. (کردار) گوتن بە کەسێک کە چی بنووسێت"),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "OK, you write, I'll dictate."),
-                    ExampleSentenceKurdish(
-                        text: "زۆرباشە، تۆ دەینووسیت، من دەیڵێم."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdictates6("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdictates6("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "OK, you write, I'll dictate.",
+            kurdishText: "زۆرباشە، تۆ دەینووسیت، من دەیڵێم.",
+            onPressedBritish: () => speakdictates6("en-GB"),
+            onPressedAmerican: () => speakdictates6("en-US"),
           ),
           // dictates700"),
           // speakdictates7

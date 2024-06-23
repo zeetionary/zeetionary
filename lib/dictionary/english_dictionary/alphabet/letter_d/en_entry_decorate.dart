@@ -290,224 +290,70 @@ class KurdishMeaning extends StatelessWidget {
 کوردی: ڕازاندنەوە، خەملاندن، جوانکاریکردن
 """),
           const DefinitionKurdish(text: "١. (کردار) ڕازاندنەوەی شتێک"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "They decorated the room with flowers and balloons."),
-                    ExampleSentenceKurdish(
-                        text: "ژوورەکەیان بە گوڵ و فودانکە ڕازاندەوە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "decorate", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdecorates1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdecorates1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "They decorated the room with flowers and balloons.",
+            kurdishText: "ژوورەکەیان بە گوڵ و فودانکە ڕازاندەوە.", // decorate
+            onPressedBritish: () => speakdecorates1("en-GB"),
+            onPressedAmerican: () => speakdecorates1("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "The cake was decorated to look like a car."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "کێکەکە ڕازێندرابوویەوە بۆ ئەوەی لە ئۆتۆمبێل بکات."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdecorates2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdecorates2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "The cake was decorated to look like a car.",
+            kurdishText: "کێکەکە ڕازێندرابوویەوە بۆ ئەوەی لە ئۆتۆمبێل بکات.",
+            onPressedBritish: () => speakdecorates2("en-GB"),
+            onPressedAmerican: () => speakdecorates2("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The family gets together on Christmas Eve to decorate the tree."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "خێزانەکە لە شەوی کریسمس کۆدەبێتەوە بۆ ڕازاندنەوەی دارەکە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdecorates3("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdecorates3("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "The family gets together on Christmas Eve to decorate the tree.",
+            kurdishText:
+                "خێزانەکە لە شەوی کریسمس کۆدەبێتەوە بۆ ڕازاندنەوەی دارەکە.",
+            onPressedBritish: () => speakdecorates3("en-GB"),
+            onPressedAmerican: () => speakdecorates3("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
                   "٢. (کردار) دانانی بۆیە، وێنە، ھتد لەسەر دیوار و بنبانی ژوورێک یان خانوویەک"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(text: "I hate decorating."),
-                    ExampleSentenceKurdish(text: "ڕقم لە ڕازاندەوەیە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdecorates4("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdecorates4("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "I hate decorating.",
+            kurdishText: "ڕقم لە ڕازاندەوەیە.",
+            onPressedBritish: () => speakdecorates4("en-GB"),
+            onPressedAmerican: () => speakdecorates4("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "We need to decorate the sitting room."),
-                    ExampleSentenceKurdish(
-                        text: "دەبێت ژووری دانیشتنەکە بڕازێنینەوە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdecorates5("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdecorates5("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "We need to decorate the sitting room.",
+            kurdishText: "دەبێت ژووری دانیشتنەکە بڕازێنینەوە.",
+            onPressedBritish: () => speakdecorates5("en-GB"),
+            onPressedAmerican: () => speakdecorates5("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "The sitting room needs decorating."),
-                    ExampleSentenceKurdish(
-                        text: "ژووری دانیشتنەکە پێویستی بە ڕازاندنەوە ھەیە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdecorates6("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdecorates6("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "The sitting room needs decorating.",
+            kurdishText: "ژووری دانیشتنەکە پێویستی بە ڕازاندنەوە ھەیە.",
+            onPressedBritish: () => speakdecorates6("en-GB"),
+            onPressedAmerican: () => speakdecorates6("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٣. (کردار) دانان لەسەر شتێک بۆ ئەوەی جوانتر دەربکەوێت"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "Photographs of actors decorated the walls of the restaurant."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "وێنەی ئەکتەرەکان دیواری چێشتخانەکەیان ڕازاندبووەوە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdecorates7("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdecorates7("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "Photographs of actors decorated the walls of the restaurant.",
+            kurdishText: "وێنەی ئەکتەرەکان دیواری چێشتخانەکەیان ڕازاندبووەوە.",
+            onPressedBritish: () => speakdecorates7("en-GB"),
+            onPressedAmerican: () => speakdecorates7("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٤. (کردار) پێدانی خەڵاتێک بە کەسێک بۆ شتێک کە کردوویەتی"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "She was decorated for her efforts during the war."),
-                    ExampleSentenceKurdish(
-                        text: "خەڵات کرا بۆ ھەوڵەکانی لە دەمی جەنگەکەدا."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdecorates8("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdecorates8("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "She was decorated for her efforts during the war.",
+            kurdishText: "خەڵات کرا بۆ ھەوڵەکانی لە دەمی جەنگەکەدا.",
+            onPressedBritish: () => speakdecorates8("en-GB"),
+            onPressedAmerican: () => speakdecorates8("en-US"),
           ),
         ],
       ),

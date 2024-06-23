@@ -412,195 +412,61 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "١. (ناو) بڕە دەرمانێک کە جارێک یان بە بەردەوامی دەخوردرێت"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "Repeat the dose after 12 hours if necessary."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "ژەمەکە دوای ١٢ کاتژمێر بخۆرەوە ئەگەر پێویست بوو."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "dose", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdoses1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdoses1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "Repeat the dose after 12 hours if necessary.",
+            kurdishText:
+                "ژەمەکە دوای ١٢ کاتژمێر بخۆرەوە ئەگەر پێویست بوو.", // dose
+            onPressedBritish: () => speakdoses1("en-GB"),
+            onPressedAmerican: () => speakdoses1("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "Take a single dose at bedtime to help you sleep."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "یەک ژەم بخۆ لەکاتی خەودا بۆ یارمەتیدانت لە خەوتندا."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdoses2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdoses2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "Take a single dose at bedtime to help you sleep.",
+            kurdishText: "یەک ژەم بخۆ لەکاتی خەودا بۆ یارمەتیدانت لە خەوتندا.",
+            onPressedBritish: () => speakdoses2("en-GB"),
+            onPressedAmerican: () => speakdoses2("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "I always take my daily dose of vitamin C."),
-                    ExampleSentenceKurdish(
-                        text: "ھەمیشە بڕە ژەمی ڤیتامین C ــیم دەخۆم."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdoses3("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdoses3("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "I always take my daily dose of vitamin C.",
+            kurdishText: "ھەمیشە بڕە ژەمی ڤیتامین C ــیم دەخۆم.",
+            onPressedBritish: () => speakdoses3("en-GB"),
+            onPressedAmerican: () => speakdoses3("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: "٢. (ناو) بڕێک لە شتێک"),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "Workers at the nuclear plant were exposed to high doses of radiation."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "کرێکارانی بنکە ئەتۆمیەکە بەر تیشکدانەوەی زۆر دەکەوتن."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdoses4("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdoses4("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "Workers at the nuclear plant were exposed to high doses of radiation.",
+            kurdishText:
+                "کرێکارانی بنکە ئەتۆمیەکە بەر تیشکدانەوەی زۆر دەکەوتن.",
+            onPressedBritish: () => speakdoses4("en-GB"),
+            onPressedAmerican: () => speakdoses4("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "The film also contains a hefty dose of comedy."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "فیلمەکە ھەروەھا ڕێژەیەکی زۆر لە کۆمیدیای تێدایە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdoses5("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdoses5("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "The film also contains a hefty dose of comedy.",
+            kurdishText: "فیلمەکە ھەروەھا ڕێژەیەکی زۆر لە کۆمیدیای تێدایە.",
+            onPressedBritish: () => speakdoses5("en-GB"),
+            onPressedAmerican: () => speakdoses5("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٣. (کردار) پێدان یان وەرگرتنی ژەمە دەرمانێک"),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "She dosed herself up with vitamin pills."),
-                    ExampleSentenceKurdish(text: "حەبە ڤیتامینەکانیی خوارد."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdoses6("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdoses6("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "She dosed herself up with vitamin pills.",
+            kurdishText: "حەبە ڤیتامینەکانیی خوارد.",
+            onPressedBritish: () => speakdoses6("en-GB"),
+            onPressedAmerican: () => speakdoses6("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "He was heavily dosed with painkillers."),
-                    ExampleSentenceKurdish(text: "ئازارکوژێکی زۆری پێدرا."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdoses7("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdoses7("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "He was heavily dosed with painkillers.",
+            kurdishText: "ئازارکوژێکی زۆری پێدرا.",
+            onPressedBritish: () => speakdoses7("en-GB"),
+            onPressedAmerican: () => speakdoses7("en-US"),
           ),
           // doses800"),
           // speakdoses8

@@ -372,61 +372,21 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   """١. (ناو) لێفەیەک کە پڕە لە پەڕ و دەیدەیت بەسەر خۆتدا بۆ مانەوە بە گەرمی"""),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            """He flung back the duvet and got out of bed."""),
-                    ExampleSentenceKurdish(
-                        text: """لێفەکەی ھەڵدایەوە و ھەستایە سەر پێ."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "duvet", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakduvets1("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakduvets1("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: """He flung back the duvet and got out of bed.""",
+            kurdishText: """لێفەکەی ھەڵدایەوە و ھەستایە سەر پێ.""", // duvet
+            onPressedBritish: () => speakduvets1("en-GB"),
+            onPressedAmerican: () => speakduvets1("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            """She climbed into bed and pulled the duvet over her."""),
-                    ExampleSentenceKurdish(
-                        text:
-                            """چووە ناو/سەر جێخەوەکە و لێفەکەی دا بە خۆیدا."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakduvets2("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakduvets2("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                """She climbed into bed and pulled the duvet over her.""",
+            kurdishText: """چووە ناو/سەر جێخەوەکە و لێفەکەی دا بە خۆیدا.""",
+            onPressedBritish: () => speakduvets2("en-GB"),
+            onPressedAmerican: () => speakduvets2("en-US"),
           ),
           // duvets300
           // speakduvets3

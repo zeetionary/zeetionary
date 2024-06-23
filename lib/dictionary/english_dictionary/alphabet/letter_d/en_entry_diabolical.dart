@@ -249,88 +249,31 @@ class KurdishMeaning extends StatelessWidget {
 """),
           const DefinitionKurdish(
               text: "١. (ھاوەڵناو) تەواو خراپ یان بێزارکەر"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(text: "The traffic was diabolical."),
-                    ExampleSentenceKurdish(text: "ھاتووچۆ وەڕسکەر بوو."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "diabolical", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdiabolicals1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdiabolicals1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "The traffic was diabolical.",
+            kurdishText: "ھاتووچۆ وەڕسکەر بوو.", // diabolical
+            onPressedBritish: () => speakdiabolicals1("en-GB"),
+            onPressedAmerican: () => speakdiabolicals1("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "It was a diabolical performance and we felt something had to be done before the next match."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "ئاستێکی خراپ بوو و ھەستمان کرد دەبێت شتێک بکرێت پێش یاریی دواتر."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdiabolicals2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdiabolicals2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "It was a diabolical performance and we felt something had to be done before the next match.",
+            kurdishText:
+                "ئاستێکی خراپ بوو و ھەستمان کرد دەبێت شتێک بکرێت پێش یاریی دواتر.",
+            onPressedBritish: () => speakdiabolicals2("en-GB"),
+            onPressedAmerican: () => speakdiabolicals2("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: "٢. (ھاوەڵناو) خراپ و شەیتانی"),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The villain's diabolical plan shocked everyone."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "پلانە شەیتانییەکەی تاوانکارەکە ھەموانی شۆک کرد."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdiabolicals3("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdiabolicals3("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "The villain's diabolical plan shocked everyone.",
+            kurdishText: "پلانە شەیتانییەکەی تاوانکارەکە ھەموانی شۆک کرد.",
+            onPressedBritish: () => speakdiabolicals3("en-GB"),
+            onPressedAmerican: () => speakdiabolicals3("en-US"),
           ),
           // diabolicals400"),
           // speakdiabolicals4

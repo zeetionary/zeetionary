@@ -241,56 +241,18 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "١. (ناو) داتای ڕێکخراو لەسەر کۆمپیوتەرێک کە دەکرێت سەیر بکرێت و بە شێوازی جیاواز بەکاربھێندرێت"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "The database is updated monthly."),
-                    ExampleSentenceKurdish(
-                        text: "داتابەیسەکە مانگاکە تازە دەکرێتەوە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "database", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdatabases1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdatabases1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "The database is updated monthly.",
+            kurdishText: "داتابەیسەکە مانگاکە تازە دەکرێتەوە.", // database
+            onPressedBritish: () => speakdatabases1("en-GB"),
+            onPressedAmerican: () => speakdatabases1("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "The new database contains 200 000 images."),
-                    ExampleSentenceKurdish(
-                        text: "داتابەیسەکە تازەکە ٢٠٠٠٠٠ وێنە لەخۆدەگرێت."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdatabases2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdatabases2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "The new database contains 200 000 images.",
+            kurdishText: "داتابەیسەکە تازەکە ٢٠٠٠٠٠ وێنە لەخۆدەگرێت.",
+            onPressedBritish: () => speakdatabases2("en-GB"),
+            onPressedAmerican: () => speakdatabases2("en-US"),
           ),
         ],
       ),

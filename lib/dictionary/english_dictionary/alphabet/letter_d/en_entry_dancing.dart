@@ -240,55 +240,19 @@ class KurdishMeaning extends StatelessWidget {
 کوردی: ھەڵپەڕکێ، سەما، ڕەخس
 """),
           const DefinitionKurdish(text: "١. (ناو) سەماکردن لەگەڵ میوزیک"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "There was music and dancing till two in the morning."),
-                    ExampleSentenceKurdish(
-                        text: "تاوەکو دووی بەرەبەیان گۆرانی گوتن و سەما بوو."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "dancing", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdancings1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdancings1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "There was music and dancing till two in the morning.",
+            kurdishText:
+                "تاوەکو دووی بەرەبەیان گۆرانی گوتن و سەما بوو.", // dancing
+            onPressedBritish: () => speakdancings1("en-GB"),
+            onPressedAmerican: () => speakdancings1("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(text: "I love Irish dancing."),
-                    ExampleSentenceKurdish(text: "حەزم بە سەمای ئێرلەندییە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdancings2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdancings2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "I love Irish dancing.",
+            kurdishText: "حەزم بە سەمای ئێرلەندییە.",
+            onPressedBritish: () => speakdancings2("en-GB"),
+            onPressedAmerican: () => speakdancings2("en-US"),
           ),
         ],
       ),

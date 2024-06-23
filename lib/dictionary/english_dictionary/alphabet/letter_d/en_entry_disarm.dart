@@ -248,91 +248,33 @@ class KurdishMeaning extends StatelessWidget {
 کوردی: چەک کردن، بێ چەک کردن
 """),
           const DefinitionKurdish(text: "١. (کردار) سەندنی چەک لە کەسێک"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "Most of the rebels were captured and disarmed."),
-                    ExampleSentenceKurdish(
-                        text: "زۆرێک لە یاخییەکان گیران و چەککران."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "disarm", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdisarms1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdisarms1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "Most of the rebels were captured and disarmed.",
+            kurdishText: "زۆرێک لە یاخییەکان گیران و چەککران.", // disarm
+            onPressedBritish: () => speakdisarms1("en-GB"),
+            onPressedAmerican: () => speakdisarms1("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
                   "٢. (کردار) کەمکردنەوەی قەبارەی سوپایەک، یان سەندنی ھەموو چەکێک لێیان، بەتایبەتی چەکی ئەتۆمی"),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "The government was reluctant to disarm."),
-                    ExampleSentenceKurdish(
-                        text: "حکومەتەکە نابەدڵ بوو بۆ چەکداماڵین."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdisarms2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdisarms2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "The government was reluctant to disarm.",
+            kurdishText: "حکومەتەکە نابەدڵ بوو بۆ چەکداماڵین.",
+            onPressedBritish: () => speakdisarms2("en-GB"),
+            onPressedAmerican: () => speakdisarms2("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٣. (کردار) ھێورکردنەوەی کەسێک کە کەمتر تووڕە بێت"),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "He disarmed her immediately by apologizing profusely."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "زوو ھێوری کردەوە بە بەتەواوی داوای لێبووردن کردن."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdisarms3("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdisarms3("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "He disarmed her immediately by apologizing profusely.",
+            kurdishText: "زوو ھێوری کردەوە بە بەتەواوی داوای لێبووردن کردن.",
+            onPressedBritish: () => speakdisarms3("en-GB"),
+            onPressedAmerican: () => speakdisarms3("en-US"),
           ),
           // disarms400"),
           // speakdisarms4

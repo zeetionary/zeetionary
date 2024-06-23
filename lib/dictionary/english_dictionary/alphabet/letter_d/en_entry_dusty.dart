@@ -377,91 +377,33 @@ class KurdishMeaning extends StatelessWidget {
 کوردی: تۆزاوی، خۆڵاوی، تەپ‌وتۆزاوی، تۆزگرتوو، تۆزلێ‌نیشتوو، تۆزئاسا، خۆڵ‌ئاسا،	(ڕەنگ) تەڵخ، لێڵ، مات،	وشک، بێ‌تام، ناخۆش
 """),
           const DefinitionKurdish(text: """١. (ھاوەڵناو) داپۆشراو بە تۆز"""),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: """The room was dark and dusty."""),
-                    ExampleSentenceKurdish(
-                        text: """ژوورەکە تاریک و تۆزاوی بوو."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "dusty", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdustys1("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdustys1("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: """The room was dark and dusty.""",
+            kurdishText: """ژوورەکە تاریک و تۆزاوی بوو.""", // dusty
+            onPressedBritish: () => speakdustys1("en-GB"),
+            onPressedAmerican: () => speakdustys1("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: """Piles of dusty books lay on the floor."""),
-                    ExampleSentenceKurdish(
-                        text:
-                            """چەند چینێک لە کتێبی تۆزاوی لەسەر زەوییەکە کەوتوون."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdustys2("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdustys2("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: """Piles of dusty books lay on the floor.""",
+            kurdishText:
+                """چەند چینێک لە کتێبی تۆزاوی لەسەر زەوییەکە کەوتوون.""",
+            onPressedBritish: () => speakdustys2("en-GB"),
+            onPressedAmerican: () => speakdustys2("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
                   """٢. (ھاوەڵناو) ڕەنگێک کە ڕۆشن نییە؛ ڕەنگێک کە کەمێک خۆڵەمێشییە"""),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            """The living room walls were painted dusty pink."""),
-                    ExampleSentenceKurdish(
-                        text:
-                            """دیوارەکانی ژووری میوان بە بۆیەی پەمەیی تەڵخ کرابوون."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdustys3("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdustys3("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: """The living room walls were painted dusty pink.""",
+            kurdishText:
+                """دیوارەکانی ژووری میوان بە بۆیەی پەمەیی تەڵخ کرابوون.""",
+            onPressedBritish: () => speakdustys3("en-GB"),
+            onPressedAmerican: () => speakdustys3("en-US"),
           ),
           // dustys400
           // speakdustys4

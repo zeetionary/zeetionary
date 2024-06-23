@@ -369,57 +369,20 @@ class KurdishMeaning extends StatelessWidget {
 کوردی: شڕوشێواو، شپرزە، پنجڵ، شپڕێو،	(جل‌وبەرگ) بێ‌باو، لەباوکەوتوو، کۆن
 """),
           const DefinitionKurdish(text: "١. (ھاوەڵناو) بێزارکەر ناشرین"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "I feel dull and dowdy in this outfit."),
-                    ExampleSentenceKurdish(
-                        text: "لەم جلەدا ھەست بە شڕ و شێواوی دەکەم."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "dowdy", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdowdys1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdowdys1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "I feel dull and dowdy in this outfit.",
+            kurdishText: "لەم جلەدا ھەست بە شڕ و شێواوی دەکەم.", // dowdy
+            onPressedBritish: () => speakdowdys1("en-GB"),
+            onPressedAmerican: () => speakdowdys1("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "They lived in a dowdy suburb."),
-                    ExampleSentenceKurdish(text: "لە گەڕەکێکی شڕدا دەژیان."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdowdys2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdowdys2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "They lived in a dowdy suburb.",
+            kurdishText: "لە گەڕەکێکی شڕدا دەژیان.",
+            onPressedBritish: () => speakdowdys2("en-GB"),
+            onPressedAmerican: () => speakdowdys2("en-US"),
           ),
           // dowdys300"),
           // speakdowdys3

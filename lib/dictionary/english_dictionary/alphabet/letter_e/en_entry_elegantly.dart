@@ -379,93 +379,35 @@ class KurdishMeaning extends StatelessWidget {
 // """),
           const DefinitionKurdish(
               text: """١. (ھاوەڵکار) بەشێوەیەک کە سەرنجڕاکێشە"""),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: """He leaned elegantly against the door."""),
-                    ExampleSentenceKurdish(
-                        text: """شەدەلارانە پاڵی دا بە دەرگاکەوە."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "elegantly", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakelegantlys1("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakelegantlys1("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: """He leaned elegantly against the door.""",
+            kurdishText: """شەدەلارانە پاڵی دا بە دەرگاکەوە.""", // elegantly
+            onPressedBritish: () => speakelegantlys1("en-GB"),
+            onPressedAmerican: () => speakelegantlys1("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
                   """٢. (ھاوەڵکار) بەشێوەیەک کە سەرنجڕاکێشە و جوان دیزاین کراوە"""),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            """The cottage was simply and elegantly furnished."""),
-                    ExampleSentenceKurdish(
-                        text:
-                            """قۆختەکە بە سادەیی بەڵام سەرنجڕاکێشانە دیزاین کرابوو."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakelegantlys2("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakelegantlys2("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: """The cottage was simply and elegantly furnished.""",
+            kurdishText:
+                """قۆختەکە بە سادەیی بەڵام سەرنجڕاکێشانە دیزاین کرابوو.""",
+            onPressedBritish: () => speakelegantlys2("en-GB"),
+            onPressedAmerican: () => speakelegantlys2("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text: """٣. (ھاوەڵکار) کە زیرەکانە بەڵام سادەیە"""),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            """These concepts are simply and elegantly expressed in his writing."""),
-                    ExampleSentenceKurdish(
-                        text:
-                            """ئەم چەمکانە بە سادەیی و زیرەکانە بە نووسین دەربڕدراون."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakelegantlys3("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakelegantlys3("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                """These concepts are simply and elegantly expressed in his writing.""",
+            kurdishText:
+                """ئەم چەمکانە بە سادەیی و زیرەکانە بە نووسین دەربڕدراون.""",
+            onPressedBritish: () => speakelegantlys3("en-GB"),
+            onPressedAmerican: () => speakelegantlys3("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: """ژممارە. (ھاوەڵکار) پێنناسە"""),

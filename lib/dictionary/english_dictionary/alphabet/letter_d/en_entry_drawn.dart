@@ -363,30 +363,11 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "١. (ھاوەڵناو) کە باریک و ڕەنگ‌پەڕیو دیارە بەھۆی ئەوەی کە کەسەکە ماندوو، نەخۆش، یان نیگەرانە"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "She looked very pale and drawn."),
-                    ExampleSentenceKurdish(
-                        text: "ڕەنگ‌پەڕیو و زەردھەڵگەڕاو دیاربوو."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "drawn", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdrawns1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdrawns1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "She looked very pale and drawn.",
+            kurdishText: "ڕەنگ‌پەڕیو و زەردھەڵگەڕاو دیاربوو.", // drawn
+            onPressedBritish: () => speakdrawns1("en-GB"),
+            onPressedAmerican: () => speakdrawns1("en-US"),
           ),
           // drawns200"),
           // speakdrawns2

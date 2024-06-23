@@ -234,32 +234,13 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "١. (ناو) کورسییەک کە دەچەمێتەوە و وەک چوارچێوەیەک وایە کە دەتوانیت لەسەری ڕابکشێیت"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "They set up deckchairs on the beach to enjoy the view of the ocean."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "کورسی قەدکراویان دانا لەسەر کەناراوەکە بۆ چێژبینین لە دیمەنی زەریاکە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "deckchair", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdeckchairs1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdeckchairs1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "They set up deckchairs on the beach to enjoy the view of the ocean.",
+            kurdishText:
+                "کورسی قەدکراویان دانا لەسەر کەناراوەکە بۆ چێژبینین لە دیمەنی زەریاکە.", // deckchair
+            onPressedBritish: () => speakdeckchairs1("en-GB"),
+            onPressedAmerican: () => speakdeckchairs1("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "٢. (ھاوەڵناو) پێنناسە"),

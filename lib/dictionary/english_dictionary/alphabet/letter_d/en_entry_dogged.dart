@@ -371,60 +371,22 @@ class KurdishMeaning extends StatelessWidget {
 """),
           const DefinitionKurdish(
               text: "١. (ھاوەڵناو) کە بە ئاسانی کۆڵ نادەیت"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "She was a dogged advocate of the struggle against injustice."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "بەرھەڵستکارێکی کۆڵنەدەری ھەوڵدان دژ بە نادادی بوو."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "dogged", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdoggeds1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdoggeds1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "She was a dogged advocate of the struggle against injustice.",
+            kurdishText:
+                "بەرھەڵستکارێکی کۆڵنەدەری ھەوڵدان دژ بە نادادی بوو.", // dogged
+            onPressedBritish: () => speakdoggeds1("en-GB"),
+            onPressedAmerican: () => speakdoggeds1("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "He is dogged in his pursuit of his dreams."),
-                    ExampleSentenceKurdish(
-                        text: "سوورە لەسەر بەدەستھێنانی خەونەکانی."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdoggeds2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdoggeds2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "He is dogged in his pursuit of his dreams.",
+            kurdishText: "سوورە لەسەر بەدەستھێنانی خەونەکانی.",
+            onPressedBritish: () => speakdoggeds2("en-GB"),
+            onPressedAmerican: () => speakdoggeds2("en-US"),
           ),
           // doggeds300"),
           // speakdoggeds3

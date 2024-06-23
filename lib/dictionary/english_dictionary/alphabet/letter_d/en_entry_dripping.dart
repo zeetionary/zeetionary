@@ -377,89 +377,32 @@ class KurdishMeaning extends StatelessWidget {
 کوردی: بەیاتە، چەوری (گۆشت)، تەڕی تەڕ
 """),
           const DefinitionKurdish(text: "١. (ھاوەڵناو) تەواو تەڕ"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "Her face was dripping with sweat."),
-                    ExampleSentenceKurdish(
-                        text: "ڕووخساری خوسابوو لە ئارەقەدا."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "dripping", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdrippings1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdrippings1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "Her face was dripping with sweat.",
+            kurdishText: "ڕووخساری خوسابوو لە ئارەقەدا.", // dripping
+            onPressedBritish: () => speakdrippings1("en-GB"),
+            onPressedAmerican: () => speakdrippings1("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "His clothes were still dripping wet."),
-                    ExampleSentenceKurdish(text: "جلەکانی ھێشتا خووسابوون."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdrippings2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdrippings2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "His clothes were still dripping wet.",
+            kurdishText: "جلەکانی ھێشتا خووسابوون.",
+            onPressedBritish: () => speakdrippings2("en-GB"),
+            onPressedAmerican: () => speakdrippings2("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
                   "٢. (ناو) ئەو چەورییەی کە لە گۆشتەوە دێتە دەرەوە کە لێدەنرێت، زۆرجار بەکاردێت بۆ لێنانی خواردنی دیکە تێیدا"),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "Heat the beef dripping in a large iron casserole."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "چەوری گۆشتە مانگاکە گەرم بکە لە تاوەیەکی ئاسنی گەورەدا."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdrippings3("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdrippings3("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "Heat the beef dripping in a large iron casserole.",
+            kurdishText:
+                "چەوری گۆشتە مانگاکە گەرم بکە لە تاوەیەکی ئاسنی گەورەدا.",
+            onPressedBritish: () => speakdrippings3("en-GB"),
+            onPressedAmerican: () => speakdrippings3("en-US"),
           ),
           // drippings400"),
           // speakdrippings4

@@ -261,92 +261,35 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "١. (ناو) شتێک کە وا لە کەسێک دەکات ئەگەری کەمتر بێت کارێک بکات"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "Hopefully his punishment will act as a deterrent to others."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "ھیوادارانە سزاکەی وەک ساردکەرەوەیەک دەبێت بۆ ئەوانی دیکە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "deterrent", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdeterrents1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdeterrents1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "Hopefully his punishment will act as a deterrent to others.",
+            kurdishText:
+                "ھیوادارانە سزاکەی وەک ساردکەرەوەیەک دەبێت بۆ ئەوانی دیکە.", // deterrent
+            onPressedBritish: () => speakdeterrents1("en-GB"),
+            onPressedAmerican: () => speakdeterrents1("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The bodies of executed criminals were hung on the city gates as a deterrent."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "جەستەی تاوانبارە کوژراوەکان لەسەر دەروازەی شارەکە ھەڵواسران وەک ترسێنەرێک."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdeterrents2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdeterrents2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "The bodies of executed criminals were hung on the city gates as a deterrent.",
+            kurdishText:
+                "جەستەی تاوانبارە کوژراوەکان لەسەر دەروازەی شارەکە ھەڵواسران وەک ترسێنەرێک.",
+            onPressedBritish: () => speakdeterrents2("en-GB"),
+            onPressedAmerican: () => speakdeterrents2("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "There is no effective deterrent for these young criminals."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "ھیچ ترسێنەرێکی کاریگەر نییە بۆ ئەم تاوانبارە گەنجانە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdeterrents3("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdeterrents3("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "There is no effective deterrent for these young criminals.",
+            kurdishText:
+                "ھیچ ترسێنەرێکی کاریگەر نییە بۆ ئەم تاوانبارە گەنجانە.",
+            onPressedBritish: () => speakdeterrents3("en-GB"),
+            onPressedAmerican: () => speakdeterrents3("en-US"),
           ),
           // deterrents400"),
           // speakdeterrents4

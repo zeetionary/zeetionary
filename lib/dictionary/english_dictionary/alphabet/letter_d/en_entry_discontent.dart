@@ -251,92 +251,34 @@ class KurdishMeaning extends StatelessWidget {
 """),
           const DefinitionKurdish(
               text: "١. (ناو) ھەستی دڵتەنگی لەبەر ئەوەی ڕازی نیت بە دۆخێک"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "There are a wide variety of popular discontents which need discussing."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "ژمارەیەکی زۆر جیاواز لە ناڕەزایەتی ھەیە کە دەبێت باس بکرێن."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "discontent", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdiscontents1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdiscontents1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "There are a wide variety of popular discontents which need discussing.",
+            kurdishText:
+                "ژمارەیەکی زۆر جیاواز لە ناڕەزایەتی ھەیە کە دەبێت باس بکرێن.", // discontent
+            onPressedBritish: () => speakdiscontents1("en-GB"),
+            onPressedAmerican: () => speakdiscontents1("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "Overcrowded conditions will only fuel discontent among prisoners."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "دۆخی قەرەباڵغی تەنھا دەبێتە ھۆکاری ناڕەزایەتی لە نێوان زیندانییەکاندا."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdiscontents2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdiscontents2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "Overcrowded conditions will only fuel discontent among prisoners.",
+            kurdishText:
+                "دۆخی قەرەباڵغی تەنھا دەبێتە ھۆکاری ناڕەزایەتی لە نێوان زیندانییەکاندا.",
+            onPressedBritish: () => speakdiscontents2("en-GB"),
+            onPressedAmerican: () => speakdiscontents2("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "Public discontent with the economy remained at a high level."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "ناڕەزایی خەڵکی بە ئابووری لە ئاستێکی بەرزدا مایەوە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdiscontents3("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdiscontents3("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "Public discontent with the economy remained at a high level.",
+            kurdishText: "ناڕەزایی خەڵکی بە ئابووری لە ئاستێکی بەرزدا مایەوە.",
+            onPressedBritish: () => speakdiscontents3("en-GB"),
+            onPressedAmerican: () => speakdiscontents3("en-US"),
           ),
           // discontents400"),
           // speakdiscontents4

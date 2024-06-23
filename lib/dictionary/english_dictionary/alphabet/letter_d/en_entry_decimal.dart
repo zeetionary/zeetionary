@@ -258,117 +258,42 @@ class KurdishMeaning extends StatelessWidget {
 // """),
           const DefinitionKurdish(
               text: "١. (ھاوەڵناو) سەر بە ژمارە دە، یان ژماردن بە دەیان"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "If you calculate the result to two decimal places (= give two numbers after the decimal point, as in 3.65), that should minimize any possible errors."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "ئەگەر ئەنجامەکە بدۆزیتەوە بە دوو یەکەی دەیی، ئەوە دەبێت ئەگەری ھەر ھەڵەیەک کەم بکاتەوە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdecimals2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdecimals2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+SentencesRow(
+  englishText:
+                            "If you calculate the result to two decimal places (= give two numbers after the decimal point, as in 3.65), that should minimize any possible errors.",
+kurdishText:
+                            "ئەگەر ئەنجامەکە بدۆزیتەوە بە دوو یەکەی دەیی، ئەوە دەبێت ئەگەری ھەر ھەڵەیەک کەم بکاتەوە.",
+                    onPressedBritish: () => speakdecimals2("en-GB"),
+  onPressedAmerican: () => speakdecimals2("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
                   "٢. (ناو) ڕێژەیەک (ژمارەیەکی کەمتر لە یەک) کە بە فاریزەیەک پیشاندەدرێت لەگەڵ ژمارەی دیکە بەدوایدا"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "Three fifths expressed as a decimal is 0.6."),
-                    ExampleSentenceKurdish(
-                        text: "سێ لە پێنج بە کەرتی دەیی بە ٠,٦ دەردەبڕدرێت."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "decimal", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdecimals1("en-GB"),
+SentencesRow(
+  englishText: "Three fifths expressed as a decimal is 0.6.",
+kurdishText: "سێ لە پێنج بە کەرتی دەیی بە ٠,٦ دەردەبڕدرێت.", // decimal
+onPressedBritish: () => speakdecimals1("en-GB"),
+  onPressedAmerican: () => speakdecimals1("en-US"),
                   ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdecimals1("en-US"),
-                  ),
-                ],
-              ),
-            ],
-          ), // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "The decimal 0.61 stands for 61 hundredths."),
-                    ExampleSentenceKurdish(
-                        text: "ڕێژەی ٠,٦١ دەکاتە ٦١ لە سەد."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdecimals3("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdecimals3("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          // const DividerSentences(),
+          SentencesRow(
+  englishText: "The decimal 0.61 stands for 61 hundredths.",
+kurdishText: "ڕێژەی ٠,٦١ دەکاتە ٦١ لە سەد.",
+                    onPressedBritish: () => speakdecimals3("en-GB"),
+  onPressedAmerican: () => speakdecimals3("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
                   "٣. (ناو) سیستەمێکی ژمارەیی کە بە کەرتی دەیان یان دەیەمینەکان دەژمێرێت"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The computer converts the data from decimal to binary."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "کۆمپیوتەر زانیارییەکان لە دەییەوە بۆ دوانەیی دەگۆڕێت."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdecimals4("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdecimals4("en-US"),
-                  ),
-                ],
-              ),
-            ],
+SentencesRow(
+  englishText:
+                            "The computer converts the data from decimal to binary.",
+kurdishText:
+                            "کۆمپیوتەر زانیارییەکان لە دەییەوە بۆ دوانەیی دەگۆڕێت.",
+                    onPressedBritish: () => speakdecimals4("en-GB"),
+  onPressedAmerican: () => speakdecimals4("en-US"),
           ),
         ],
       ),

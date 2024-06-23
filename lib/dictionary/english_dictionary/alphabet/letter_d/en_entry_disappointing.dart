@@ -250,90 +250,33 @@ class KurdishMeaning extends StatelessWidget {
 کوردی: ھیوابڕ، دڵساردکەرەوە، ناھومێدکەر، دڵ‌ناخۆش‌کەر، مایەی دڵ‌شکستی،	ناخۆش، شپرزە، نالەبار 
 """),
           const DefinitionKurdish(text: "١. (ھاوەڵناو) کە جێگەی نائومێدییە"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The team has had a disappointing start to the season."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "تیمەکە سەرەتایەکی نائومێدکەریان ھەبووە لە وەرزەکەدا."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "disappointing", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdisappointings1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdisappointings1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "The team has had a disappointing start to the season.",
+            kurdishText:
+                "تیمەکە سەرەتایەکی نائومێدکەریان ھەبووە لە وەرزەکەدا.", // disappointing
+            onPressedBritish: () => speakdisappointings1("en-GB"),
+            onPressedAmerican: () => speakdisappointings1("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The choices made on election day will always be disappointing to a significant number of voters."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "ئەو بڕیارانەی لە ڕۆژی ھەڵبژاردن ئەدرێن زۆرجار نائومێدکەر دەبن بۆ زۆر کەس."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdisappointings2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdisappointings2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "The choices made on election day will always be disappointing to a significant number of voters.",
+            kurdishText:
+                "ئەو بڕیارانەی لە ڕۆژی ھەڵبژاردن ئەدرێن زۆرجار نائومێدکەر دەبن بۆ زۆر کەس.",
+            onPressedBritish: () => speakdisappointings2("en-GB"),
+            onPressedAmerican: () => speakdisappointings2("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "The film was terribly disappointing."),
-                    ExampleSentenceKurdish(
-                        text: "فیلمەکە ئێجگار نائومێدکەر بوو."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdisappointings3("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdisappointings3("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "The film was terribly disappointing.",
+            kurdishText: "فیلمەکە ئێجگار نائومێدکەر بوو.",
+            onPressedBritish: () => speakdisappointings3("en-GB"),
+            onPressedAmerican: () => speakdisappointings3("en-US"),
           ),
           // disappointings400"),
           // speakdisappointings4

@@ -380,92 +380,35 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   """١. (ناو) شەڕی نێوان دوو کەس بە چەک (زۆرجار شمشێر) کە ناکۆکییان ھەیە، بەتایبەتی لەسەر بابەتی ئابڕوو"""),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: """He fought a duel with the prince."""),
-                    ExampleSentenceKurdish(
-                        text: """شەڕێکی لەگەڵ شازەکە کرد."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "duel", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakduels1("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakduels1("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: """He fought a duel with the prince.""",
+            kurdishText: """شەڕێکی لەگەڵ شازەکە کرد.""", // duel
+            onPressedBritish: () => speakduels1("en-GB"),
+            onPressedAmerican: () => speakduels1("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
                   """٢. (ناو) ڕکابەری یان کێشمەکێش لە نێوان دوو کەس یان گرووپ"""),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            """The debate rapidly descended into a verbal duel between the two candidates."""),
-                    ExampleSentenceKurdish(
-                        text:
-                            """دیبەیتەکە زوو بوو بە شەڕەدەم لە نێوان دوو بەربژێرەکەدا."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakduels2("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakduels2("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                """The debate rapidly descended into a verbal duel between the two candidates.""",
+            kurdishText:
+                """دیبەیتەکە زوو بوو بە شەڕەدەم لە نێوان دوو بەربژێرەکەدا.""",
+            onPressedBritish: () => speakduels2("en-GB"),
+            onPressedAmerican: () => speakduels2("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
                   """٣. (کردار) وەستانەوە دژ بە کەسێک بە چەک ، وەک ئەوەی لە ڕابردوودا دەکرا کە دو کەس ناکۆکییان دەبوو"""),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: """The two men duelled to the death."""),
-                    ExampleSentenceKurdish(
-                        text: """دوو پیاوەکە تا مردن جەنگان."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakduels3("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakduels3("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: """The two men duelled to the death.""",
+            kurdishText: """دوو پیاوەکە تا مردن جەنگان.""",
+            onPressedBritish: () => speakduels3("en-GB"),
+            onPressedAmerican: () => speakduels3("en-US"),
           ),
           // duels400
           // speakduels4

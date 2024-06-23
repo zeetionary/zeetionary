@@ -244,58 +244,22 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "١. (ھاوەڵناو) کە کەسێک دەخاتە دۆخێکی خراپترەوە وەک لە کەسانی دیکە"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The deal will not be disadvantageous to your company."),
-                    ExampleSentenceKurdish(
-                        text: "ڕێکەوتنەکە زیانبەخش نابێت بۆ کۆمپانیاکەت."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "disadvantageous", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdisadvantageouss1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdisadvantageouss1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "The deal will not be disadvantageous to your company.",
+            kurdishText:
+                "ڕێکەوتنەکە زیانبەخش نابێت بۆ کۆمپانیاکەت.", // disadvantageous
+            onPressedBritish: () => speakdisadvantageouss1("en-GB"),
+            onPressedAmerican: () => speakdisadvantageouss1("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "Growing conditions here are disadvantageous."),
-                    ExampleSentenceKurdish(text: "دۆخی چاندن لێرە نالەبارە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdisadvantageouss2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdisadvantageouss2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "Growing conditions here are disadvantageous.",
+            kurdishText: "دۆخی چاندن لێرە نالەبارە.",
+            onPressedBritish: () => speakdisadvantageouss2("en-GB"),
+            onPressedAmerican: () => speakdisadvantageouss2("en-US"),
           ),
           // disadvantageouss300"),
           // speakdisadvantageouss3

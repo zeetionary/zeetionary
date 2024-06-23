@@ -364,31 +364,11 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "١. (ھاوەڵناو) کتێبێک کە ھێندە بەکارھاتووە کە سووچی زۆرێک لە پەڕەکانی چەماونەتەوە"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "He flipped through the dog-eared pages of the novel."),
-                    ExampleSentenceKurdish(
-                        text: "پەڕە چەماوەکانی ڕۆمانەکەی ھەڵدەدایەوە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "dog-eared", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdogeareds1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdogeareds1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "He flipped through the dog-eared pages of the novel.",
+            kurdishText: "پەڕە چەماوەکانی ڕۆمانەکەی ھەڵدەدایەوە.", // dog-eared
+            onPressedBritish: () => speakdogeareds1("en-GB"),
+            onPressedAmerican: () => speakdogeareds1("en-US"),
           ),
           // dogeareds200"),
           // speakdogeareds2

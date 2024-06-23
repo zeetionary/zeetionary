@@ -428,267 +428,93 @@ class KurdishMeaning extends StatelessWidget {
 کوردی: دوور، لە دوورەوە، ڕێگازۆر، دوورودرێژ، دوور، جیاواز،	کەم، ھیچ، نیوەچل،	سارد، ساردوسڕ، ناگەرم‌وگوڕ، نەدوێن، نەمرچ
 """),
           const DefinitionKurdish(text: "١. (ھاوەڵناو) دوور لە مەودا یان کات"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The time we spent together is now a distant memory."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "ئەو کاتەی کە پێکەوە بەسەرمان برد ئێستا یادەوەرییەکی دوورە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "distant", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdistants1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdistants1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "The time we spent together is now a distant memory.",
+            kurdishText:
+                "ئەو کاتەی کە پێکەوە بەسەرمان برد ئێستا یادەوەرییەکی دوورە.", // distant
+            onPressedBritish: () => speakdistants1("en-GB"),
+            onPressedAmerican: () => speakdistants1("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "The airport was about 20 kilometres distant."),
-                    ExampleSentenceKurdish(
-                        text: "فڕۆکەخانەکە نزیکەی ٢٠ کیلۆمەتر دووربوو."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdistants2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdistants2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "The airport was about 20 kilometres distant.",
+            kurdishText: "فڕۆکەخانەکە نزیکەی ٢٠ کیلۆمەتر دووربوو.",
+            onPressedBritish: () => speakdistants2("en-GB"),
+            onPressedAmerican: () => speakdistants2("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "Peace was just a distant hope (= not very likely)."),
-                    ExampleSentenceKurdish(
-                        text: "(خوازراوی) ئاشتی ھیوایەکی دووربوو."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdistants3("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdistants3("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "Peace was just a distant hope (= not very likely).",
+            kurdishText: "(خوازراوی) ئاشتی ھیوایەکی دووربوو.",
+            onPressedBritish: () => speakdistants3("en-GB"),
+            onPressedAmerican: () => speakdistants3("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The stars are more distant from the earth than the sun."),
-                    ExampleSentenceKurdish(
-                        text: "ئەستێرەکان زیاتر لە زەوییەوە دوورن وەک لە خۆر."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdistants4("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdistants4("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "The stars are more distant from the earth than the sun.",
+            kurdishText: "ئەستێرەکان زیاتر لە زەوییەوە دوورن وەک لە خۆر.",
+            onPressedBritish: () => speakdistants4("en-GB"),
+            onPressedAmerican: () => speakdistants4("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: "٢. (ھاوەڵناو) کە وەک شتێکی دیکە نییە"),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "Their life seemed utterly distant from his own."),
-                    ExampleSentenceKurdish(
-                        text: "ژیان تەواو جیاواز بوو لە ھی ئەو."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdistants5("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdistants5("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "Their life seemed utterly distant from his own.",
+            kurdishText: "ژیان تەواو جیاواز بوو لە ھی ئەو.",
+            onPressedBritish: () => speakdistants5("en-GB"),
+            onPressedAmerican: () => speakdistants5("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٣. (ھاوەڵناو) کە پەیوەندیدارە پێتەوە بەڵام زۆرنا"),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "We invited a distant cousin to the wedding."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "ئامۆزایەکی دوورمانمان بانگھێشتی بۆنەی ھاوسەرگیرییەکە کرد."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdistants6("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdistants6("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "We invited a distant cousin to the wedding.",
+            kurdishText:
+                "ئامۆزایەکی دوورمانمان بانگھێشتی بۆنەی ھاوسەرگیرییەکە کرد.",
+            onPressedBritish: () => speakdistants6("en-GB"),
+            onPressedAmerican: () => speakdistants6("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
                   "٤. (ھاوەڵناو) کەسێک کە دۆست نییە؛ کە بە شوێن پەیوەندیی نزیکەوە نییە"),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "When they met, he was very cold and distant."),
-                    ExampleSentenceKurdish(
-                        text: "کە یەکیان بینی زۆر ساردوسڕ و مڕومۆچ بوو."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdistants7("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdistants7("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "When they met, he was very cold and distant.",
+            kurdishText: "کە یەکیان بینی زۆر ساردوسڕ و مڕومۆچ بوو.",
+            onPressedBritish: () => speakdistants7("en-GB"),
+            onPressedAmerican: () => speakdistants7("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "Their relationship has grown increasingly distant in recent years."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "لەم ساڵانەی دوایی پەیوەندییەکەیان زیاتر و زیاتر ساردوسڕ بووبوو."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdistants8("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdistants8("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "Their relationship has grown increasingly distant in recent years.",
+            kurdishText:
+                "لەم ساڵانەی دوایی پەیوەندییەکەیان زیاتر و زیاتر ساردوسڕ بووبوو.",
+            onPressedBritish: () => speakdistants8("en-GB"),
+            onPressedAmerican: () => speakdistants8("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
                   "٥. (ھاوەڵناو) کە سەرنج بە شتێک نادەیت بەڵکو بە تەواوی بیر لە شتێکی دیکە دەکەیتەوە"),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "He seemed distant and distracted."),
-                    ExampleSentenceKurdish(
-                        text: "ھۆش‌پەرت و سەرنج‌ڕۆشتوو دیاربوو."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdistants9("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdistants9("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "He seemed distant and distracted.",
+            kurdishText: "ھۆش‌پەرت و سەرنج‌ڕۆشتوو دیاربوو.",
+            onPressedBritish: () => speakdistants9("en-GB"),
+            onPressedAmerican: () => speakdistants9("en-US"),
           ),
           // distants_1000"),
           // speakdistants10

@@ -416,213 +416,78 @@ class KurdishMeaning extends StatelessWidget {
 """),
           const DefinitionKurdish(
               text: """١. (ناو) کار، بەتایبەتی کە بۆ بەدەستھێنانی پارەیە"""),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            """They are finding it more and more difficult to find employment."""),
-                    ExampleSentenceKurdish(
-                        text:
-                            """بە زیاتر و زیاتر سەختی دەبینن کار بدۆزنەوە."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "employment", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakemployments1("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakemployments1("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                """They are finding it more and more difficult to find employment.""",
+            kurdishText:
+                """بە زیاتر و زیاتر سەختی دەبینن کار بدۆزنەوە.""", // employment
+            onPressedBritish: () => speakemployments1("en-GB"),
+            onPressedAmerican: () => speakemployments1("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            """He took up employment with the company in May 2015."""),
-                    ExampleSentenceKurdish(
-                        text:
-                            """لە ئایاری ٢٠١٥ لەگەڵ کۆمپانیاکە دەستی‌بەکار کرد."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakemployments2("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakemployments2("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                """He took up employment with the company in May 2015.""",
+            kurdishText: """لە ئایاری ٢٠١٥ لەگەڵ کۆمپانیاکە دەستی‌بەکار کرد.""",
+            onPressedBritish: () => speakemployments2("en-GB"),
+            onPressedAmerican: () => speakemployments2("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            """She hoped to secure employment in the IT sector."""),
-                    ExampleSentenceKurdish(
-                        text:
-                            """حەزی دەکرد کار لە زانیاریی تەکنەلۆژیا بەدەستبخات."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakemployments3("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakemployments3("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: """She hoped to secure employment in the IT sector.""",
+            kurdishText:
+                """حەزی دەکرد کار لە زانیاریی تەکنەلۆژیا بەدەستبخات.""",
+            onPressedBritish: () => speakemployments3("en-GB"),
+            onPressedAmerican: () => speakemployments3("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text: """٢. (ناو) دۆخێک کە تێیدا کەسێک کاری ھەیە"""),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            """Employment levels rose for the first time this year."""),
-                    ExampleSentenceKurdish(
-                        text:
-                            """بۆ یەکەم جار لە ئەمساڵدا ئاستی کارداری بەرزبوویەوە."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakemployments4("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakemployments4("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                """Employment levels rose for the first time this year.""",
+            kurdishText:
+                """بۆ یەکەم جار لە ئەمساڵدا ئاستی کارداری بەرزبوویەوە.""",
+            onPressedBritish: () => speakemployments4("en-GB"),
+            onPressedAmerican: () => speakemployments4("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            """The latest employment figures show a fall in the number of people who are out of work."""),
-                    ExampleSentenceKurdish(
-                        text:
-                            """تازەترین ئامارەکانی کارداری کەمبوون لە ژمارەی ئەو کەسانە پیشان دەدات کە کاریان ھەیە."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakemployments5("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakemployments5("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                """The latest employment figures show a fall in the number of people who are out of work.""",
+            kurdishText:
+                """تازەترین ئامارەکانی کارداری کەمبوون لە ژمارەی ئەو کەسانە پیشان دەدات کە کاریان ھەیە.""",
+            onPressedBritish: () => speakemployments5("en-GB"),
+            onPressedAmerican: () => speakemployments5("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: """٣. (ناو) وەرگرتنی کەسێک بۆ کار"""),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            """The company's employment practices have been widely criticized."""),
-                    ExampleSentenceKurdish(
-                        text:
-                            """شێوازەکانی خستنەسەرکاری کۆمپانیاکە بەفراوانی سەرکۆنە کراوە."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakemployments6("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakemployments6("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                """The company's employment practices have been widely criticized.""",
+            kurdishText:
+                """شێوازەکانی خستنەسەرکاری کۆمپانیاکە بەفراوانی سەرکۆنە کراوە.""",
+            onPressedBritish: () => speakemployments6("en-GB"),
+            onPressedAmerican: () => speakemployments6("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: """٤. (ناو) بەکارھێنانی شتێک"""),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            """How can you justify the employment of capital punishment?"""),
-                    ExampleSentenceKurdish(
-                        text:
-                            """چۆن دەتوانیت پاساو بھێنیتەوە بۆ بەکارھێنانی سزای مەرگ؟"""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakemployments7("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakemployments7("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                """How can you justify the employment of capital punishment?""",
+            kurdishText:
+                """چۆن دەتوانیت پاساو بھێنیتەوە بۆ بەکارھێنانی سزای مەرگ؟""",
+            onPressedBritish: () => speakemployments7("en-GB"),
+            onPressedAmerican: () => speakemployments7("en-US"),
           ),
           // employments800employments8
           // speakemployments8

@@ -277,183 +277,67 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "١. (ناو) ئازادی یان دەسەڵاتی ئەوەی کە چی بکرێت لە دۆخێکی دیاریکراودا"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "I'll leave it up to you to use your discretion."),
-                    ExampleSentenceKurdish(
-                        text: "بۆ ئێوەی جێدێڵم کە دەسەڵاتی خۆتان بەکاربھێنن."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "discretion", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdiscretions1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdiscretions1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "I'll leave it up to you to use your discretion.",
+            kurdishText:
+                "بۆ ئێوەی جێدێڵم کە دەسەڵاتی خۆتان بەکاربھێنن.", // discretion
+            onPressedBritish: () => speakdiscretions1("en-GB"),
+            onPressedAmerican: () => speakdiscretions1("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "Judges should be given more discretion over sentencing."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "دادوەران دەبێت دەسەڵاتی زیاتریان پێبدرێت بەسەر سزاداندا."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdiscretions2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdiscretions2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "Judges should be given more discretion over sentencing.",
+            kurdishText:
+                "دادوەران دەبێت دەسەڵاتی زیاتریان پێبدرێت بەسەر سزاداندا.",
+            onPressedBritish: () => speakdiscretions2("en-GB"),
+            onPressedAmerican: () => speakdiscretions2("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "She has considerable discretion as to how the money is spent."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "دەسەڵاتی زۆری ھەیە بەسەر ئەوەی پارەکە چۆن خەرج دەکرێت."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdiscretions3("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdiscretions3("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "She has considerable discretion as to how the money is spent.",
+            kurdishText:
+                "دەسەڵاتی زۆری ھەیە بەسەر ئەوەی پارەکە چۆن خەرج دەکرێت.",
+            onPressedBritish: () => speakdiscretions3("en-GB"),
+            onPressedAmerican: () => speakdiscretions3("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The president used his executive discretion to pardon the two men."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "سەرۆکەکە دەسەڵاتی سەرۆکایەتیی بەکارھێنا بۆ بەخشینی دوو کەس."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdiscretions4("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdiscretions4("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "The president used his executive discretion to pardon the two men.",
+            kurdishText:
+                "سەرۆکەکە دەسەڵاتی سەرۆکایەتیی بەکارھێنا بۆ بەخشینی دوو کەس.",
+            onPressedBritish: () => speakdiscretions4("en-GB"),
+            onPressedAmerican: () => speakdiscretions4("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
                   "٢. (ناو) وریایی لەوەی دەیکەیت یان دەیڵێیت بۆ ئەوەی شتێک بە نھێنی بھێڵیتەوە یان دوور بکەویتەوە لە دروستکردنی کێشە بۆ کەسێک یان ئەوەی شەرمەزاری بکەیت"),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "This is confidential, but I know that I can rely on your discretion."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "ئەمە نھێنییە، بەڵام دەزانم دەتوانم متمانە بە ھۆشیاریت بکەم."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdiscretions5("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdiscretions5("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "This is confidential, but I know that I can rely on your discretion.",
+            kurdishText:
+                "ئەمە نھێنییە، بەڵام دەزانم دەتوانم متمانە بە ھۆشیاریت بکەم.",
+            onPressedBritish: () => speakdiscretions5("en-GB"),
+            onPressedAmerican: () => speakdiscretions5("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "Use the utmost discretion when you talk to her."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "ئەوپەڕی ھۆشیاری بەکاربھێنە کە قسەی لەگەڵ دەکەیت."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdiscretions6("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdiscretions6("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "Use the utmost discretion when you talk to her.",
+            kurdishText: "ئەوپەڕی ھۆشیاری بەکاربھێنە کە قسەی لەگەڵ دەکەیت.",
+            onPressedBritish: () => speakdiscretions6("en-GB"),
+            onPressedAmerican: () => speakdiscretions6("en-US"),
           ),
           // discretions700"),
           // speakdiscretions7

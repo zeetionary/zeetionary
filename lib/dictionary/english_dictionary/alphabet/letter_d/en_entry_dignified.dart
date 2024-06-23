@@ -242,62 +242,24 @@ class KurdishMeaning extends StatelessWidget {
 """),
           const DefinitionKurdish(
               text: "١. (ھاوەڵناو) لەسەرخۆ و جدی و شایەنی ڕێز"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "Throughout his trial he maintained a dignified silence."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "بەدرێژایی دادگاییەکەی بێدەنگییەکی بەشەوکەتی ڕاگرت."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "dignified", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdignifieds1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdignifieds1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "Throughout his trial he maintained a dignified silence.",
+            kurdishText:
+                "بەدرێژایی دادگاییەکەی بێدەنگییەکی بەشەوکەتی ڕاگرت.", // dignified
+            onPressedBritish: () => speakdignifieds1("en-GB"),
+            onPressedAmerican: () => speakdignifieds1("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "She tried to look as dignified as possible in the circumstances."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "ھەوڵیدا ھەرچەندە دەکرێت بەھەیبەت دەربکەوێت لە ھەلومەرجەکەدا."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdignifieds2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdignifieds2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "She tried to look as dignified as possible in the circumstances.",
+            kurdishText:
+                "ھەوڵیدا ھەرچەندە دەکرێت بەھەیبەت دەربکەوێت لە ھەلومەرجەکەدا.",
+            onPressedBritish: () => speakdignifieds2("en-GB"),
+            onPressedAmerican: () => speakdignifieds2("en-US"),
           ),
           // dignifieds300"),
           // speakdignifieds3

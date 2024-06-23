@@ -258,121 +258,44 @@ class KurdishMeaning extends StatelessWidget {
 // کوردی:
 // """),
           const DefinitionKurdish(text: "١. (کردار) ھەڵوەشاندنەوە"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "I had to dismantle the engine in order to repair it."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "پێویست بوو بزوێنەرەکە ھەڵبوەشێنمەوە بۆ ئەوەی چاکی بکەمەوە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "dismantle", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdismantles1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdismantles1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "I had to dismantle the engine in order to repair it.",
+            kurdishText:
+                "پێویست بوو بزوێنەرەکە ھەڵبوەشێنمەوە بۆ ئەوەی چاکی بکەمەوە.", // dismantle
+            onPressedBritish: () => speakdismantles1("en-GB"),
+            onPressedAmerican: () => speakdismantles1("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "The steel mill was dismantled piece by piece."),
-                    ExampleSentenceKurdish(
-                        text: "کارگەی پۆڵاکە بەش‌بەش ھەڵوەشێدرایەوە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdismantles2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdismantles2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "The steel mill was dismantled piece by piece.",
+            kurdishText: "کارگەی پۆڵاکە بەش‌بەش ھەڵوەشێدرایەوە.",
+            onPressedBritish: () => speakdismantles2("en-GB"),
+            onPressedAmerican: () => speakdismantles2("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٢. (کردار) بە پلان ھەڵوەشاندنەوەی دامەزراوەیەک کەم کەم"),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The government was in the process of dismantling the state-owned industries."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "حکومەت لە پڕۆسەی ھەڵوەشاندنەوەی پیشەسازییەکانی سەربە دەوڵەت بوو."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdismantles3("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdismantles3("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "The government was in the process of dismantling the state-owned industries.",
+            kurdishText:
+                "حکومەت لە پڕۆسەی ھەڵوەشاندنەوەی پیشەسازییەکانی سەربە دەوڵەت بوو.",
+            onPressedBritish: () => speakdismantles3("en-GB"),
+            onPressedAmerican: () => speakdismantles3("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
                   "٣. (کردار) پیشاندانی ئەوەی کە لێدوانێک یان ڕوونکردنەوەیەک ناڕاستە"),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "You need to sharpen your abilities to dismantle his excuses."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "دەبێت تواناکانت بەھێز بکەیت بۆ پووچکردنەوەی بیانووەکانی."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdismantles4("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdismantles4("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "You need to sharpen your abilities to dismantle his excuses.",
+            kurdishText:
+                "دەبێت تواناکانت بەھێز بکەیت بۆ پووچکردنەوەی بیانووەکانی.",
+            onPressedBritish: () => speakdismantles4("en-GB"),
+            onPressedAmerican: () => speakdismantles4("en-US"),
           ),
           // dismantles500"),
           // speakdismantles5

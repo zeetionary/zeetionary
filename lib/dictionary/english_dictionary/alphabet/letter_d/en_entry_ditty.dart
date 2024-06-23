@@ -362,32 +362,13 @@ class KurdishMeaning extends StatelessWidget {
 // کوردی: (بە شۆخی) گۆرانی یا ھەڵبەستی کورت و سادە، ھەوا، بەند
 // """),
           const DefinitionKurdish(text: "١. (ناو) گۆرانییەکی کورت و سادە"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "It reminds me of a little ditty my grandad used to sing."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "کورتە گۆرانییەکم بیردێنێتەوە کە باپیرەم جاران دەیگوت."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "ditty", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdittys1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdittys1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "It reminds me of a little ditty my grandad used to sing.",
+            kurdishText:
+                "کورتە گۆرانییەکم بیردێنێتەوە کە باپیرەم جاران دەیگوت.", // ditty
+            onPressedBritish: () => speakdittys1("en-GB"),
+            onPressedAmerican: () => speakdittys1("en-US"),
           ),
           // dittys200"),
           // speakdittys2

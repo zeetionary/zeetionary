@@ -233,30 +233,11 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "١. (ناو) نەخۆشییەک کە دەبێت ھۆکاری زووکردنی پیسایی و شێوەکەی دەگۆڕێت بۆ شلە"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "Symptoms include diarrhoea and vomiting."),
-                    ExampleSentenceKurdish(
-                        text: "نیشانەکان زگچوون و ڕشانەوە لەخۆدەگرن."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "diarrhoea", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdiarrhoeas1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdiarrhoeas1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "Symptoms include diarrhoea and vomiting.",
+            kurdishText: "نیشانەکان زگچوون و ڕشانەوە لەخۆدەگرن.", // diarrhoea
+            onPressedBritish: () => speakdiarrhoeas1("en-GB"),
+            onPressedAmerican: () => speakdiarrhoeas1("en-US"),
           ),
           // diarrhoeas200"),
           // speakdiarrhoeas2

@@ -233,32 +233,12 @@ class KurdishMeaning extends StatelessWidget {
 // """),
           const DefinitionKurdish(
               text: "١. (ناو) مادەیەکی پاککەرەوە کە بەکتریا دەکوژێت"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "Hospitals use strong disinfectants for cleaning."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "نەخۆشخانەکان دژە بەکتریای بەھێز بەکاردەھێنن بۆ پاککردنەوە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "disinfectant", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdisinfectants1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdisinfectants1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "Hospitals use strong disinfectants for cleaning.",
+            kurdishText:
+                "نەخۆشخانەکان دژە بەکتریای بەھێز بەکاردەھێنن بۆ پاککردنەوە.", // disinfectant
+            onPressedBritish: () => speakdisinfectants1("en-GB"),
+            onPressedAmerican: () => speakdisinfectants1("en-US"),
           ),
           // disinfectants200"),
           // speakdisinfectants2

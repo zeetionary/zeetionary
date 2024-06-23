@@ -270,146 +270,49 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "١. (ناو) پڕۆسەی بەکارھێنانی ئەو زانیارییانەی کە ھەتە بۆ تێگەشتن لە دۆخێک یان دۆزینەوەی وەڵامێک"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "He arrived at the solution by a simple process of deduction."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "گەشت بە چارەسەر بە پڕۆسەیەکی سادە لە گەڵاڵەکردن."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "deduction", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdeductions1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdeductions1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "He arrived at the solution by a simple process of deduction.",
+            kurdishText:
+                "گەشت بە چارەسەر بە پڕۆسەیەکی سادە لە گەڵاڵەکردن.", // deduction
+            onPressedBritish: () => speakdeductions1("en-GB"),
+            onPressedAmerican: () => speakdeductions1("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "If my deductions are correct, I can tell you who the killer was."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "ئەگەر خەمڵاندنەکانم ڕاست بن، دەتوانم پێت بڵێم بکوژەکە کێ بوو."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdeductions2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdeductions2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "If my deductions are correct, I can tell you who the killer was.",
+            kurdishText:
+                "ئەگەر خەمڵاندنەکانم ڕاست بن، دەتوانم پێت بڵێم بکوژەکە کێ بوو.",
+            onPressedBritish: () => speakdeductions2("en-GB"),
+            onPressedAmerican: () => speakdeductions2("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "We can examine the bones of dinosaurs and make deductions about how they lived."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "دەتوانین لە ئێسکی دەینادوورەکان بکۆڵینەوە ئەوە بخەمڵێنین کە چۆن ژیاون."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdeductions3("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdeductions3("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "We can examine the bones of dinosaurs and make deductions about how they lived.",
+            kurdishText:
+                "دەتوانین لە ئێسکی دەینادوورەکان بکۆڵینەوە ئەوە بخەمڵێنین کە چۆن ژیاون.",
+            onPressedBritish: () => speakdeductions3("en-GB"),
+            onPressedAmerican: () => speakdeductions3("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٢. (ناو) پڕۆسەی لێدەرکردن لە بڕێک؛ ئەو بڕەی کە دەرکراوە"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The dividend will be paid without deduction of tax."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "قازانجی پشکەکان دەدرێت بەبێ کەمکردنەوەی باج لێیان."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdeductions4("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdeductions4("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "The dividend will be paid without deduction of tax.",
+            kurdishText: "قازانجی پشکەکان دەدرێت بەبێ کەمکردنەوەی باج لێیان.",
+            onPressedBritish: () => speakdeductions4("en-GB"),
+            onPressedAmerican: () => speakdeductions4("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The company automatically makes tax deductions from your salary."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "کۆمپانیاکە بەشێوەی ئۆۆتماتیکی باج دەرکردن لە مووچەکەت ئەنجام دەدات."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdeductions5("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdeductions5("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "The company automatically makes tax deductions from your salary.",
+            kurdishText:
+                "کۆمپانیاکە بەشێوەی ئۆۆتماتیکی باج دەرکردن لە مووچەکەت ئەنجام دەدات.",
+            onPressedBritish: () => speakdeductions5("en-GB"),
+            onPressedAmerican: () => speakdeductions5("en-US"),
           ),
         ],
       ),

@@ -268,116 +268,41 @@ class KurdishMeaning extends StatelessWidget {
 """),
           const DefinitionKurdish(
               text: "١. (ھاوەڵکار) بەشێوەی ئەنقست نەک بە ڕێکەوت"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "She's been deliberately ignoring him all day."),
-                    ExampleSentenceKurdish(
-                        text: "تەواوی ڕۆژەکە بە ئەنقەست پشتگوێی خست."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "deliberately", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdeliberatelys1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdeliberatelys1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "She's been deliberately ignoring him all day.",
+            kurdishText:
+                "تەواوی ڕۆژەکە بە ئەنقەست پشتگوێی خست.", // deliberately
+            onPressedBritish: () => speakdeliberatelys1("en-GB"),
+            onPressedAmerican: () => speakdeliberatelys1("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "She was accused of deliberately misleading Parliament."),
-                    ExampleSentenceKurdish(
-                        text: "تاوانبارکرا بەوەی پەرلەمانی فویودابێت."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdeliberatelys2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdeliberatelys2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "She was accused of deliberately misleading Parliament.",
+            kurdishText: "تاوانبارکرا بەوەی پەرلەمانی فویودابێت.",
+            onPressedBritish: () => speakdeliberatelys2("en-GB"),
+            onPressedAmerican: () => speakdeliberatelys2("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "The fire had been started deliberately."),
-                    ExampleSentenceKurdish(
-                        text: "ئاگرەکە بە ئەنقەست کرابوویەوە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdeliberatelys3("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdeliberatelys3("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "The fire had been started deliberately.",
+            kurdishText: "ئاگرەکە بە ئەنقەست کرابوویەوە.",
+            onPressedBritish: () => speakdeliberatelys3("en-GB"),
+            onPressedAmerican: () => speakdeliberatelys3("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: "٢. (ھاوەڵکار) بەھێواشی و وریایی"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "He packed up his possessions slowly and deliberately."),
-                    ExampleSentenceKurdish(
-                        text: "بە ھێواشی و لەسەرەخۆیی شتەکانی کۆکردەوە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdeliberatelys4("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdeliberatelys4("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "He packed up his possessions slowly and deliberately.",
+            kurdishText: "بە ھێواشی و لەسەرەخۆیی شتەکانی کۆکردەوە.",
+            onPressedBritish: () => speakdeliberatelys4("en-GB"),
+            onPressedAmerican: () => speakdeliberatelys4("en-US"),
           ),
           // deliberatelys500"),
           // speakdeliberatelys5

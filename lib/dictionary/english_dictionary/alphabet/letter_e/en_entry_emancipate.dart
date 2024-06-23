@@ -373,62 +373,24 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   """١. (کردار) ئازادکردنی کەسێک، بەتایبەتی لە کۆنترۆڵی یاسایی، سیاسی، یان کۆمەڵایەتیکە کە ئەوە سنووردار دەکات کە دەتوانن چی بکەن"""),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            """Slaves were not emancipated until 1863 in the United States."""),
-                    ExampleSentenceKurdish(
-                        text:
-                            """کۆیلەکان لە ئەمریکا ئازاد نەکران تاوەکو ١٨٦٣."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "emancipate", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakemancipates1("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakemancipates1("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                """Slaves were not emancipated until 1863 in the United States.""",
+            kurdishText:
+                """کۆیلەکان لە ئەمریکا ئازاد نەکران تاوەکو ١٨٦٣.""", // emancipate
+            onPressedBritish: () => speakemancipates1("en-GB"),
+            onPressedAmerican: () => speakemancipates1("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            """They felt they had at last been emancipated from their father’s control."""),
-                    ExampleSentenceKurdish(
-                        text:
-                            """وایان ھەستکرد کە لە کۆتاییدا لە کۆنترۆڵی باوکیان ڕزگارکران."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakemancipates2("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakemancipates2("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                """They felt they had at last been emancipated from their father’s control.""",
+            kurdishText:
+                """وایان ھەستکرد کە لە کۆتاییدا لە کۆنترۆڵی باوکیان ڕزگارکران.""",
+            onPressedBritish: () => speakemancipates2("en-GB"),
+            onPressedAmerican: () => speakemancipates2("en-US"),
           ),
           // emancipates300emancipates3
           // speakemancipates3

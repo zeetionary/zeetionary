@@ -263,138 +263,47 @@ class KurdishMeaning extends StatelessWidget {
 کوردی: ترسێنەر، تۆقێنەر، توند، سەخت، توندوتیژ، قورس، خراپ، ئاستەم، ناخۆش، شپرزە، نگەران‌کەر
 """),
           const DefinitionKurdish(text: "١. (ھاوەڵناو) زۆر دژوار"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "They were living in dire poverty."),
-                    ExampleSentenceKurdish(text: "لە ھەژاریی دژواردا دەژیان."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "dire", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdires1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdires1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "They were living in dire poverty.",
+            kurdishText: "لە ھەژاریی دژواردا دەژیان.", // dire
+            onPressedBritish: () => speakdires1("en-GB"),
+            onPressedAmerican: () => speakdires1("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "Such action may have dire consequences."),
-                    ExampleSentenceKurdish(
-                        text: "ھەنگاوی وەھا ڕەنگە ئەنجامی دژواری ھەبێت."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdires2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdires2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "Such action may have dire consequences.",
+            kurdishText: "ھەنگاوی وەھا ڕەنگە ئەنجامی دژواری ھەبێت.",
+            onPressedBritish: () => speakdires2("en-GB"),
+            onPressedAmerican: () => speakdires2("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "We're in dire need of your help."),
-                    ExampleSentenceKurdish(
-                        text: "لە پێویستیی سەختی یارمەتیداین."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdires3("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdires3("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "We're in dire need of your help.",
+            kurdishText: "لە پێویستیی سەختی یارمەتیداین.",
+            onPressedBritish: () => speakdires3("en-GB"),
+            onPressedAmerican: () => speakdires3("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: "٢. (ھاوەڵناو) زۆر خراپ"),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(text: "The acting was dire."),
-                    ExampleSentenceKurdish(text: "نواندنەکە زۆر خراپ بوو."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdires4("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdires4("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "The acting was dire.",
+            kurdishText: "نواندنەکە زۆر خراپ بوو.",
+            onPressedBritish: () => speakdires4("en-GB"),
+            onPressedAmerican: () => speakdires4("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "The weather was absolutely dire."),
-                    ExampleSentenceKurdish(text: "کەشوھەواکە تەواو شلۆق بوو."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdires5("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdires5("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "The weather was absolutely dire.",
+            kurdishText: "کەشوھەواکە تەواو شلۆق بوو.",
+            onPressedBritish: () => speakdires5("en-GB"),
+            onPressedAmerican: () => speakdires5("en-US"),
           ),
           // dires600"),
           // speakdires6

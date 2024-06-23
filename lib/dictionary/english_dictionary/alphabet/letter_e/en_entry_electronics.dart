@@ -392,123 +392,47 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   """١. (ناو) ئەو لقەی زانست کە لێکۆڵینەوە لە تەزووی کارەبا لە ئەمێری ئەلیکترۆنی دەکات"""),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            """In the electronics industry, for instance, 5000 jobs are being lost."""),
-                    ExampleSentenceKurdish(
-                        text:
-                            """لە پیشەسازیدا زانستی ئێلیکترۆنیکدا، بۆ نموونە، ٥٠٠٠ کار لەدەستچوونە."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "electronics", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakelectronicss1("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakelectronicss1("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                """In the electronics industry, for instance, 5000 jobs are being lost.""",
+            kurdishText:
+                """لە پیشەسازیدا زانستی ئێلیکترۆنیکدا، بۆ نموونە، ٥٠٠٠ کار لەدەستچوونە.""", // electronics
+            onPressedBritish: () => speakelectronicss1("en-GB"),
+            onPressedAmerican: () => speakelectronicss1("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: """ژممارە. (ناو) پێنناسە"""),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            """A degree in electronics helped her get a job in tech."""),
-                    ExampleSentenceKurdish(
-                        text:
-                            """بڕوانامەیەکدا لە زانستی ئێلیکترۆنیکدا یارمەتیدا کارێک لە تەکنەلۆژیادا بەدەست بخات."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakelectronicss2("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakelectronicss2("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                """A degree in electronics helped her get a job in tech.""",
+            kurdishText:
+                """بڕوانامەیەکدا لە زانستی ئێلیکترۆنیکدا یارمەتیدا کارێک لە تەکنەلۆژیادا بەدەست بخات.""",
+            onPressedBritish: () => speakelectronicss2("en-GB"),
+            onPressedAmerican: () => speakelectronicss2("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text: """٢. (ناو) بەکارھێنانی تەکنەلۆژیای ئێلیکترۆنیکی"""),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            """About 45 000 people worked in electronics in Scotland."""),
-                    ExampleSentenceKurdish(
-                        text:
-                            """نزیکەی ٤٥٠٠٠ کەس لە سکۆتلەندا لە ئێلیکترۆنیکدا کاریان دەکرد."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakelectronicss3("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakelectronicss3("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                """About 45 000 people worked in electronics in Scotland.""",
+            kurdishText:
+                """نزیکەی ٤٥٠٠٠ کەس لە سکۆتلەندا لە ئێلیکترۆنیکدا کاریان دەکرد.""",
+            onPressedBritish: () => speakelectronicss3("en-GB"),
+            onPressedAmerican: () => speakelectronicss3("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: """ژممارە. (ناو) پێنناسە"""),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            """Their company merged with a Japanese electronics giant."""),
-                    ExampleSentenceKurdish(
-                        text:
-                            """کۆمپانیاکەیان لەگەڵ زەبەلاحێکی ئێلیکترۆنیکی ژاپۆنی یەکی گرت."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakelectronicss4("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakelectronicss4("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                """Their company merged with a Japanese electronics giant.""",
+            kurdishText:
+                """کۆمپانیاکەیان لەگەڵ زەبەلاحێکی ئێلیکترۆنیکی ژاپۆنی یەکی گرت.""",
+            onPressedBritish: () => speakelectronicss4("en-GB"),
+            onPressedAmerican: () => speakelectronicss4("en-US"),
           ),
           // electronicss500electronicss5
           // speakelectronicss5

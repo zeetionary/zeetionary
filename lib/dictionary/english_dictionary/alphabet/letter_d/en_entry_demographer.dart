@@ -235,32 +235,13 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "١. (ناو) کەسێک کە لێکۆڵینەوە دەکات لە گۆڕانی ژمارەی لەدایکبوون، مردن، نەخۆشی، ھتد"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "Demographers predict that 20–30% of this cohort of women will remain childless."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "حەشیمەت‌ناسان پێشبینی ئەوە دەکەن کە ٢٠-٣٠٪ ـی ئەم گرووپە لە ژنان بێ منداڵ دەمێننەوە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "demographer", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdemographers1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdemographers1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "Demographers predict that 20–30% of this cohort of women will remain childless.",
+            kurdishText:
+                "حەشیمەت‌ناسان پێشبینی ئەوە دەکەن کە ٢٠-٣٠٪ ـی ئەم گرووپە لە ژنان بێ منداڵ دەمێننەوە.", // demographer
+            onPressedBritish: () => speakdemographers1("en-GB"),
+            onPressedAmerican: () => speakdemographers1("en-US"),
           ),
           // demographers200"),
           // speakdemographers2

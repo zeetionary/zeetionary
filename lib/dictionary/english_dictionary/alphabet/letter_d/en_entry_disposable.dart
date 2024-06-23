@@ -251,93 +251,34 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "١. (ھاوەڵناو) درووستکراوە بۆ ئەوەی لە دوای بەکارھێنان فڕێ بدرێت"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "Use disposable gloves when cleaning the bathroom."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "دەستکێشی یەکجارە بەکاربھێنە لاکاتی پاککردنەوەی گەرماوەکە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "disposable", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdisposables1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdisposables1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "Use disposable gloves when cleaning the bathroom.",
+            kurdishText:
+                "دەستکێشی یەکجارە بەکاربھێنە لاکاتی پاککردنەوەی گەرماوەکە.", // disposable
+            onPressedBritish: () => speakdisposables1("en-GB"),
+            onPressedAmerican: () => speakdisposables1("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "Disposable gloves are required in the restaurants."),
-                    ExampleSentenceKurdish(
-                        text: "دەستکێشی یەکجارە مەرجە لە چێشتخانەکاندا."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdisposables2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdisposables2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "Disposable gloves are required in the restaurants.",
+            kurdishText: "دەستکێشی یەکجارە مەرجە لە چێشتخانەکاندا.",
+            onPressedBritish: () => speakdisposables2("en-GB"),
+            onPressedAmerican: () => speakdisposables2("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
                   "٢. (ھاوەڵناو) کەسێک یان شتێک کە بە ئاسانی دەتوانیت بوەستیت لەوەی بیری لێ بکەیتەوە یان "),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "It is completely wrong for corporations to view workers as disposable."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "تەواو ھەڵەیە بۆ کۆمپانیاکان کە وەک کاڵا مامەڵە لەگەڵ کرێکاران بکەن."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdisposables3("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdisposables3("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "It is completely wrong for corporations to view workers as disposable.",
+            kurdishText:
+                "تەواو ھەڵەیە بۆ کۆمپانیاکان کە وەک کاڵا مامەڵە لەگەڵ کرێکاران بکەن.",
+            onPressedBritish: () => speakdisposables3("en-GB"),
+            onPressedAmerican: () => speakdisposables3("en-US"),
           ),
           // disposables400"),
           // speakdisposables4

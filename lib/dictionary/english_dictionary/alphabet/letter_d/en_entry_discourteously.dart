@@ -234,32 +234,13 @@ class KurdishMeaning extends StatelessWidget {
 کوردی: بێ‌ڕەوشتانە، بێ‌ئەدەبانە
 """),
           const DefinitionKurdish(text: "١. (ھاوەڵکار) بێڕێزانە"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "Border guards should not treat tourists so discourteously."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "پاسەوانانی سنووری نابێت بێڕێزانە مامەڵە لەگەڵ گەشتیاران بکەن."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "discourteously", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdiscourteouslys1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdiscourteouslys1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "Border guards should not treat tourists so discourteously.",
+            kurdishText:
+                "پاسەوانانی سنووری نابێت بێڕێزانە مامەڵە لەگەڵ گەشتیاران بکەن.", // discourteously
+            onPressedBritish: () => speakdiscourteouslys1("en-GB"),
+            onPressedAmerican: () => speakdiscourteouslys1("en-US"),
           ),
           // discourteouslys200"),
           // speakdiscourteouslys2

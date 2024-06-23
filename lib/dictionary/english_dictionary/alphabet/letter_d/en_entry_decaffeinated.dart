@@ -234,32 +234,13 @@ class KurdishMeaning extends StatelessWidget {
 // """),
           const DefinitionKurdish(
               text: "١. (ناو، ھاوەڵناو) خواردنەوەیەکی بێ کافین"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The cafe offers a variety of decaffeinated drinks for those who prefer to avoid caffeine."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "قاوەخانەکە ژمارەیەک خواردنەوەی بێ کافینی ھەیە بۆ ژمارەیەک لەو کەسانەی کە وایان پێ باشە کە لە کافین دوور بن."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "decaffeinated", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdecaffeinateds1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdecaffeinateds1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "The cafe offers a variety of decaffeinated drinks for those who prefer to avoid caffeine.",
+            kurdishText:
+                "قاوەخانەکە ژمارەیەک خواردنەوەی بێ کافینی ھەیە بۆ ژمارەیەک لەو کەسانەی کە وایان پێ باشە کە لە کافین دوور بن.", // decaffeinated
+            onPressedBritish: () => speakdecaffeinateds1("en-GB"),
+            onPressedAmerican: () => speakdecaffeinateds1("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "٢. (ھاوەڵناو) پێنناسە"),

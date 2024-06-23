@@ -244,62 +244,24 @@ class KurdishMeaning extends StatelessWidget {
 // """),
           const DefinitionKurdish(
               text: "١. (ناو) زانیاریی ھەڵە کە بە ئەنقەست بڵاودەکرێتەوە"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The government launched a campaign of propaganda and disinformation."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "حکومەت کەمپینێکی پڕوپاگەندە و چەواشەکاری دەستپێکرد."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "disinformation", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdisinformations1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdisinformations1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "The government launched a campaign of propaganda and disinformation.",
+            kurdishText:
+                "حکومەت کەمپینێکی پڕوپاگەندە و چەواشەکاری دەستپێکرد.", // disinformation
+            onPressedBritish: () => speakdisinformations1("en-GB"),
+            onPressedAmerican: () => speakdisinformations1("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "They claimed there was an official disinformation campaign by the government."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "بانگەشەی ئەوەیان دەکرد کە کەمپینێکی فەرمی چەواشەکاری لەلایەن حکومەتەوە ھەبوو."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdisinformations2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdisinformations2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "They claimed there was an official disinformation campaign by the government.",
+            kurdishText:
+                "بانگەشەی ئەوەیان دەکرد کە کەمپینێکی فەرمی چەواشەکاری لەلایەن حکومەتەوە ھەبوو.",
+            onPressedBritish: () => speakdisinformations2("en-GB"),
+            onPressedAmerican: () => speakdisinformations2("en-US"),
           ),
           // disinformations300"),
           // speakdisinformations3

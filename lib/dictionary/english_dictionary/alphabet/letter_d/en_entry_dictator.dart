@@ -260,118 +260,41 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "١. (ناو) دەسەڵاتدارێک کە دەسەڵاتی تەواوی بەسەر وڵاتێکدا ھەیە، بەتایبەتی یەکێک کە بە ھێز ھاتووەتە سەر دەسەڵات"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The country suffered at the hands of a series of military dictators."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "وڵاتەکە ناڵاندی بەدەست زنجیرەیەک لە دیکتاتۆری سەربازییەوە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "dictator", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdictators1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdictators1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "The country suffered at the hands of a series of military dictators.",
+            kurdishText:
+                "وڵاتەکە ناڵاندی بەدەست زنجیرەیەک لە دیکتاتۆری سەربازییەوە.", // dictator
+            onPressedBritish: () => speakdictators1("en-GB"),
+            onPressedAmerican: () => speakdictators1("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The country has long been ruled by a fascist dictator."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "وڵاتەکە ماوەیەکی زۆرە لەلایەن دیکتاتۆرێکی فاشیستەوە دەسەڵاتداری دەکرێت."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdictators2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdictators2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "The country has long been ruled by a fascist dictator.",
+            kurdishText:
+                "وڵاتەکە ماوەیەکی زۆرە لەلایەن دیکتاتۆرێکی فاشیستەوە دەسەڵاتداری دەکرێت.",
+            onPressedBritish: () => speakdictators2("en-GB"),
+            onPressedAmerican: () => speakdictators2("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "He was seen by many as a benevolent dictator."),
-                    ExampleSentenceKurdish(
-                        text: "بە دیکتاتۆرێکی بەخشندە دەبینرا."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdictators3("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdictators3("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "He was seen by many as a benevolent dictator.",
+            kurdishText: "بە دیکتاتۆرێکی بەخشندە دەبینرا.",
+            onPressedBritish: () => speakdictators3("en-GB"),
+            onPressedAmerican: () => speakdictators3("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
                   "٢. (ناو) کەسێک کە بەشێوەیەک ڕەفتار دەکات وەک ئەوەی دەسەڵاتی تەواوی بەسەر کەسێکدا ھەبێت و پێیان دەڵێت چی بکەن"),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "Her father was a dictator and the whole family was afraid of him."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "باوکی زۆردار بوو و تەواوی خێزانەکە لێی دەترسان."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdictators4("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdictators4("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "Her father was a dictator and the whole family was afraid of him.",
+            kurdishText: "باوکی زۆردار بوو و تەواوی خێزانەکە لێی دەترسان.",
+            onPressedBritish: () => speakdictators4("en-GB"),
+            onPressedAmerican: () => speakdictators4("en-US"),
           ),
           // dictators500"),
           // speakdictators5

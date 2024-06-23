@@ -261,92 +261,35 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "١. (ھاوەڵکار) بەشێوەیەک کە وای پیشان دەدات وا ھەست دەکەیت سەرزەنشت دەکرێیت"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "‘I couldn't help it,’ he said defensively."),
-                    ExampleSentenceKurdish(
-                        text: "بە خۆپارێزانە گوتی 'نەمدەتوانی ھیچ بکەم'."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "defensively", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdefensivelys1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdefensivelys1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "‘I couldn't help it,’ he said defensively.",
+            kurdishText:
+                "بە خۆپارێزانە گوتی 'نەمدەتوانی ھیچ بکەم'.", // defensively
+            onPressedBritish: () => speakdefensivelys1("en-GB"),
+            onPressedAmerican: () => speakdefensivelys1("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
                   "٢. (ھاوەڵکار) بەشێوەیەک کە پاراستنی کەسێک/شتێک دژ بە ھێرش لەخۆدەگرێت"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The English fought defensively while the Normans repeatedly charged."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "ئینگلیزەکان  لە دۆخی بەرگریدا شەڕیان دەکرد لەکاتێکدا نۆرمانەکان بەردەوام ھێرشیان دەکرد."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdefensivelys2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdefensivelys2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "The English fought defensively while the Normans repeatedly charged.",
+            kurdishText:
+                "ئینگلیزەکان  لە دۆخی بەرگریدا شەڕیان دەکرد لەکاتێکدا نۆرمانەکان بەردەوام ھێرشیان دەکرد.",
+            onPressedBritish: () => speakdefensivelys2("en-GB"),
+            onPressedAmerican: () => speakdefensivelys2("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
                   "٣. (ھاوەڵناو) بەشێوەیەک کە ھەوڵ دەدەیت ڕێگری لە تیمەکەی دیکە بکەیت لەوەی گۆڵ بکەن"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "They played defensively, happy to settle for a draw."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "بە بەریکارانە یارییان دەکرد و ڕازی بوون بە یەکسانبوون."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdefensivelys3("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdefensivelys3("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "They played defensively, happy to settle for a draw.",
+            kurdishText:
+                "بە بەریکارانە یارییان دەکرد و ڕازی بوون بە یەکسانبوون.",
+            onPressedBritish: () => speakdefensivelys3("en-GB"),
+            onPressedAmerican: () => speakdefensivelys3("en-US"),
           ),
           // defensivelys400"),
           // speakdefensivelys4

@@ -373,62 +373,23 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "١. (ھاوەڵناو) کە لە ئێستادا چالاک نییە یان گەشە ناکات، بەڵام دەکرێت لە داھاتوودا بیکات"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "During the winter the seeds lie dormant in the soil."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "لە زستاندا تۆوەکان بە ماتی لە خاکەکەدا دەمێننەوە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "dormant", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdormants1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdormants1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "During the winter the seeds lie dormant in the soil.",
+            kurdishText:
+                "لە زستاندا تۆوەکان بە ماتی لە خاکەکەدا دەمێننەوە.", // dormant
+            onPressedBritish: () => speakdormants1("en-GB"),
+            onPressedAmerican: () => speakdormants1("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The dormant volcano has recently shown signs of erupting."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "گڕکانە ناچالاکەکە تازەگی ئاماژەی تەقینەوەی پیشانداوە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdormants2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdormants2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "The dormant volcano has recently shown signs of erupting.",
+            kurdishText:
+                "گڕکانە ناچالاکەکە تازەگی ئاماژەی تەقینەوەی پیشانداوە.",
+            onPressedBritish: () => speakdormants2("en-GB"),
+            onPressedAmerican: () => speakdormants2("en-US"),
           ),
           // dormants300"),
           // speakdormants3

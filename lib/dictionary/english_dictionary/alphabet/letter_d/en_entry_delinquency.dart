@@ -261,93 +261,36 @@ class KurdishMeaning extends StatelessWidget {
 """),
           const DefinitionKurdish(
               text: "١. (ناو) ڕەفتاری خراپ و تاوانکاری، بەتایبەتی ھی گەنجان"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The boys drift into minor delinquencies while hanging around the streets."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "کوڕەکان تێکەڵ بوون بە سەرەڕۆیی بچووک لە کاتی سووڕانەوە بە شەقامەکاندا."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "delinquency", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdelinquencys1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdelinquencys1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "The boys drift into minor delinquencies while hanging around the streets.",
+            kurdishText:
+                "کوڕەکان تێکەڵ بوون بە سەرەڕۆیی بچووک لە کاتی سووڕانەوە بە شەقامەکاندا.", // delinquency
+            onPressedBritish: () => speakdelinquencys1("en-GB"),
+            onPressedAmerican: () => speakdelinquencys1("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "To me this sounds like a game that glorifies delinquency."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "لای من ئەمە لە یارییەک دەکات کە پەسنی سەرەڕۆیی دەکات."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdelinquencys2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdelinquencys2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "To me this sounds like a game that glorifies delinquency.",
+            kurdishText:
+                "لای من ئەمە لە یارییەک دەکات کە پەسنی سەرەڕۆیی دەکات.",
+            onPressedBritish: () => speakdelinquencys2("en-GB"),
+            onPressedAmerican: () => speakdelinquencys2("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٢. (ناو) نەدانەوەی قەرز لە کاتی خۆیدا"),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The company had a poor environmental record and a history of tax delinquency."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "کۆمپانیاکە تۆمارێکی خراپی ژینگەیی ھەیە لەگەڵ مێژوویەک لە درەنگکەوتن لە باج."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdelinquencys3("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdelinquencys3("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "The company had a poor environmental record and a history of tax delinquency.",
+            kurdishText:
+                "کۆمپانیاکە تۆمارێکی خراپی ژینگەیی ھەیە لەگەڵ مێژوویەک لە درەنگکەوتن لە باج.",
+            onPressedBritish: () => speakdelinquencys3("en-GB"),
+            onPressedAmerican: () => speakdelinquencys3("en-US"),
           ),
           // delinquencys400"),
           // speakdelinquencys4

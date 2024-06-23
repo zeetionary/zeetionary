@@ -267,116 +267,40 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "١. (کردار) جێھێشتنی شوێنێک، بەتایبەتی بۆ دەستپێکردنی گەشتێک"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "Flights for Rome depart from Terminal 3."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "گەشتەکان بۆ ڕۆما لە تێرمیناڵی ٣ ـوە دەستپێدەکەن."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "depart", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdeparts1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdeparts1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "Flights for Rome depart from Terminal 3.",
+            kurdishText:
+                "گەشتەکان بۆ ڕۆما لە تێرمیناڵی ٣ ـوە دەستپێدەکەن.", // depart
+            onPressedBritish: () => speakdeparts1("en-GB"),
+            onPressedAmerican: () => speakdeparts1("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "She waited until the last of the guests had departed."),
-                    ExampleSentenceKurdish(
-                        text: "چاوەڕێ بوو تاوەکو کۆتا میوانەکان چوون."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdeparts2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdeparts2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "She waited until the last of the guests had departed.",
+            kurdishText: "چاوەڕێ بوو تاوەکو کۆتا میوانەکان چوون.",
+            onPressedBritish: () => speakdeparts2("en-GB"),
+            onPressedAmerican: () => speakdeparts2("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "He departs for New York tomorrow morning."),
-                    ExampleSentenceKurdish(
-                        text: "سبەی بەیانی بۆ نیویۆرک بەڕێ دەکەوێت."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdeparts3("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdeparts3("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "He departs for New York tomorrow morning.",
+            kurdishText: "سبەی بەیانی بۆ نیویۆرک بەڕێ دەکەوێت.",
+            onPressedBritish: () => speakdeparts3("en-GB"),
+            onPressedAmerican: () => speakdeparts3("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: "٢. (کردار) جێھێشتنی کارەکەت"),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "He departed his job December 16."),
-                    ExampleSentenceKurdish(
-                        text: "١٦ ـی کانوونی یەکەم کارەکەی جێھێشت."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdeparts4("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdeparts4("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "He departed his job December 16.",
+            kurdishText: "١٦ ـی کانوونی یەکەم کارەکەی جێھێشت.",
+            onPressedBritish: () => speakdeparts4("en-GB"),
+            onPressedAmerican: () => speakdeparts4("en-US"),
           ),
           // departs500"),
           // speakdeparts5

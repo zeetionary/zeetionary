@@ -243,60 +243,21 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "١. (ناو) دابەزین لە وەسیلەیەکی گواستنەوە، بەتایبەتی کەشتی یان فڕۆکە، لە کۆتایی گەشتێکدا"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "Please assemble on the deck for disembarkation."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "تکایە لەسەر پشتی کەشتییەکە کۆببنەوە بۆ دابەزین."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "disembarkation", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdisembarkations1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdisembarkations1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "Please assemble on the deck for disembarkation.",
+            kurdishText:
+                "تکایە لەسەر پشتی کەشتییەکە کۆببنەوە بۆ دابەزین.", // disembarkation
+            onPressedBritish: () => speakdisembarkations1("en-GB"),
+            onPressedAmerican: () => speakdisembarkations1("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "On disembarkation he was immediately arrested."),
-                    ExampleSentenceKurdish(
-                        text: "لەگەڵ دابەزیندا ڕاستەوخۆ دەستگیرکرا."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdisembarkations2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdisembarkations2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "On disembarkation he was immediately arrested.",
+            kurdishText: "لەگەڵ دابەزیندا ڕاستەوخۆ دەستگیرکرا.",
+            onPressedBritish: () => speakdisembarkations2("en-GB"),
+            onPressedAmerican: () => speakdisembarkations2("en-US"),
           ),
           // disembarkations300"),
           // speakdisembarkations3

@@ -373,64 +373,26 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   """١. (ناو) پەناگەیەک کە چاڵێکە لە زەویدا و سەربازان بەکاریدێنن"""),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            """The dugouts were soon filled with mud that came up to the soldiers' ankles."""),
-                    ExampleSentenceKurdish(
-                        text:
-                            """ڕەھۆڵەکان زوو پڕبوون لە قوڕاو کە تاوەکو لاقی سەربازەکان ھاتن."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "dugout", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdugouts1("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdugouts1("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                """The dugouts were soon filled with mud that came up to the soldiers' ankles.""",
+            kurdishText:
+                """ڕەھۆڵەکان زوو پڕبوون لە قوڕاو کە تاوەکو لاقی سەربازەکان ھاتن.""", // dugout
+            onPressedBritish: () => speakdugouts1("en-GB"),
+            onPressedAmerican: () => speakdugouts1("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
                   """٢. (ناو) شوێنی ئەندامان و ڕاھێنەرانی تیمێک لە تەنیشتی یاریگاوە"""),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            """The manager sprinted out of the dugout to protest against the decision."""),
-                    ExampleSentenceKurdish(
-                        text:
-                            """ڕاھێنەرەکە لە جێ‌پەناکە دەرپەڕی بۆ وەستان دژ بە بڕیارەکە."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdugouts2("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdugouts2("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                """The manager sprinted out of the dugout to protest against the decision.""",
+            kurdishText:
+                """ڕاھێنەرەکە لە جێ‌پەناکە دەرپەڕی بۆ وەستان دژ بە بڕیارەکە.""",
+            onPressedBritish: () => speakdugouts2("en-GB"),
+            onPressedAmerican: () => speakdugouts2("en-US"),
           ),
           // dugouts300
           // speakdugouts3

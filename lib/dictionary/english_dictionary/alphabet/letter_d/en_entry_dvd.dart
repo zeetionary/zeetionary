@@ -371,59 +371,21 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   """١. (ناو) پەپکێک کە لە سەری زانیاریی زۆر، بەتایبەتی فیلم، دەکرێت ھەڵبگیردرێت"""),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: """Let's just stay in and watch a DVD."""),
-                    ExampleSentenceKurdish(
-                        text:
-                            """با لە ماڵەوە بمێنینەوە و سەیری دی‌ڤی‌دی بکەین."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "DVD", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakDVDs1("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakDVDs1("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: """Let's just stay in and watch a DVD.""",
+            kurdishText:
+                """با لە ماڵەوە بمێنینەوە و سەیری دی‌ڤی‌دی بکەین.""", // DVD
+            onPressedBritish: () => speakDVDs1("en-GB"),
+            onPressedAmerican: () => speakDVDs1("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: """Is it available on DVD yet?"""),
-                    ExampleSentenceKurdish(
-                        text: """لەسەر دی‌ڤی‌دی  بەردەستە ئێستا؟"""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakDVDs2("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakDVDs2("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: """Is it available on DVD yet?""",
+            kurdishText: """لەسەر دی‌ڤی‌دی  بەردەستە ئێستا؟""",
+            onPressedBritish: () => speakDVDs2("en-GB"),
+            onPressedAmerican: () => speakDVDs2("en-US"),
           ),
           // DVDs300
           // speakDVDs3

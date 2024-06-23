@@ -249,89 +249,32 @@ class KurdishMeaning extends StatelessWidget {
 """),
           const DefinitionKurdish(
               text: "١. (ناو) شارەزایی لە بەکارھێنانی دەست و مێشک"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "You need good manual dexterity to be a dentist."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "بۆ بوون بە پزیشکی ددان پێویستیت بە دەس‌ڕاھاتوویی ھەیە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "dexterity", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdexteritys1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdexteritys1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "You need good manual dexterity to be a dentist.",
+            kurdishText:
+                "بۆ بوون بە پزیشکی ددان پێویستیت بە دەس‌ڕاھاتوویی ھەیە.", // dexterity
+            onPressedBritish: () => speakdexteritys1("en-GB"),
+            onPressedAmerican: () => speakdexteritys1("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "She handled the discussion with dexterity."),
-                    ExampleSentenceKurdish(text: "باسەکەی بە شارەزایی ڕاگرت."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdexteritys2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdexteritys2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "She handled the discussion with dexterity.",
+            kurdishText: "باسەکەی بە شارەزایی ڕاگرت.",
+            onPressedBritish: () => speakdexteritys2("en-GB"),
+            onPressedAmerican: () => speakdexteritys2("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "He answered the reporters' questions with all the dexterity of a politician."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "وەڵامی پرسیاری پەیامنێرانی دایەوە بە شارەزایی تەواوی سیاسەتمەدارێکەوە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdexteritys3("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdexteritys3("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "He answered the reporters' questions with all the dexterity of a politician.",
+            kurdishText:
+                "وەڵامی پرسیاری پەیامنێرانی دایەوە بە شارەزایی تەواوی سیاسەتمەدارێکەوە.",
+            onPressedBritish: () => speakdexteritys3("en-GB"),
+            onPressedAmerican: () => speakdexteritys3("en-US"),
           ),
           // dexteritys400"),
           // speakdexteritys4

@@ -274,171 +274,54 @@ class KurdishMeaning extends StatelessWidget {
 """),
           const DefinitionKurdish(
               text: "١. (کردار) جیاوازبوون لە کەسێک یان شتێک"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                      text: "French differs from English in this respect.",
-                      note:
-                          "Similar: French and English differ in this respect.",
-                    ),
-                    ExampleSentenceKurdish(
-                        text:
-                            "زمانی فەرەنسی جیاوازە لە ئینگلیزی لەم لایەنەوە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "differ", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdiffers1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdiffers1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "French differs from English in this respect.",
+            englishNote: "Similar: French and English differ in this respect.",
+            kurdishText:
+                "زمانی فەرەنسی جیاوازە لە ئینگلیزی لەم لایەنەوە.", // differ
+            onPressedBritish: () => speakdiffers1("en-GB"),
+            onPressedAmerican: () => speakdiffers1("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "Ideas on childcare may differ considerably between the parents."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "بۆچوون لەسەر چاودێری منداڵان دەکرێت تەواو جیاواز بێت لەنێوان دایباباندا."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdiffers2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdiffers2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "Ideas on childcare may differ considerably between the parents.",
+            kurdishText:
+                "بۆچوون لەسەر چاودێری منداڵان دەکرێت تەواو جیاواز بێت لەنێوان دایباباندا.",
+            onPressedBritish: () => speakdiffers2("en-GB"),
+            onPressedAmerican: () => speakdiffers2("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "His ideas differ little from those of his father."),
-                    ExampleSentenceKurdish(
-                        text: "بیرۆکەکانی کەمێک جیاوازن لەوانەی باوکی."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdiffers3("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdiffers3("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "His ideas differ little from those of his father.",
+            kurdishText: "بیرۆکەکانی کەمێک جیاوازن لەوانەی باوکی.",
+            onPressedBritish: () => speakdiffers3("en-GB"),
+            onPressedAmerican: () => speakdiffers3("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "The models differ in size and shape."),
-                    ExampleSentenceKurdish(
-                        text: "نموونەکان لە قەبارە و شێوەدا جیاوازن."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdiffers4("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdiffers4("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "The models differ in size and shape.",
+            kurdishText: "نموونەکان لە قەبارە و شێوەدا جیاوازن.",
+            onPressedBritish: () => speakdiffers4("en-GB"),
+            onPressedAmerican: () => speakdiffers4("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: "٢. (کردار) ناکۆک بوون لەگەڵ کەسێک"),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "I have to differ with you on that."),
-                    ExampleSentenceKurdish(
-                        text: "لەسەر ئەوەیان دەبێت ناکۆک بم لەگەڵت."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdiffers5("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdiffers5("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "I have to differ with you on that.",
+            kurdishText: "لەسەر ئەوەیان دەبێت ناکۆک بم لەگەڵت.",
+            onPressedBritish: () => speakdiffers5("en-GB"),
+            onPressedAmerican: () => speakdiffers5("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "Medical opinion differs as to how to treat the disease."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "بۆچوونی تەندرووستی ناکۆکە لەسەر ئەوەی چۆن ئەم نەخۆشییە چارەسەر بکرێت."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdiffers6("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdiffers6("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "Medical opinion differs as to how to treat the disease.",
+            kurdishText:
+                "بۆچوونی تەندرووستی ناکۆکە لەسەر ئەوەی چۆن ئەم نەخۆشییە چارەسەر بکرێت.",
+            onPressedBritish: () => speakdiffers6("en-GB"),
+            onPressedAmerican: () => speakdiffers6("en-US"),
           ),
           // differs700"),
           // speakdiffers7

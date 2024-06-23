@@ -234,30 +234,12 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "١. (ناو) فرۆشگایەک کە پەنیر و گۆشتی لێنراو و خواردنی دیکەی تایبەتی وڵاتانی دیکە دەفرۆشێت"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "This can be found in most delicatessens."),
-                    ExampleSentenceKurdish(
-                        text: "ئەمە دەکرێت لە زۆر فرۆشگا ببینرێتەوە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "delicatessen", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdelicatessens1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdelicatessens1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "This can be found in most delicatessens.",
+            kurdishText:
+                "ئەمە دەکرێت لە زۆر فرۆشگا ببینرێتەوە.", // delicatessen
+            onPressedBritish: () => speakdelicatessens1("en-GB"),
+            onPressedAmerican: () => speakdelicatessens1("en-US"),
           ),
           // delicatessens200"),
           // speakdelicatessens2

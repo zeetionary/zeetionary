@@ -362,29 +362,11 @@ class KurdishMeaning extends StatelessWidget {
 """),
           const DefinitionKurdish(
               text: "١. (ھاوەڵناو) خەونێک بەبێ خەوبینین؛ خەوێکی ئارام و قووڵ"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "I fell straight into a dreamless sleep."),
-                    ExampleSentenceKurdish(text: "ڕێک کەوتمە خەوێکی قووڵەوە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "dreamless", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdreamlesss1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdreamlesss1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "I fell straight into a dreamless sleep.",
+            kurdishText: "ڕێک کەوتمە خەوێکی قووڵەوە.", // dreamless
+            onPressedBritish: () => speakdreamlesss1("en-GB"),
+            onPressedAmerican: () => speakdreamlesss1("en-US"),
           ),
           // dreamlesss200"),
           // speakdreamlesss2

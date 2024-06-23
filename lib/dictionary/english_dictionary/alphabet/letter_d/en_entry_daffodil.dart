@@ -234,32 +234,13 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "١. (ناو) گوڵێکی بەھاری زەرد کە لە شێوەی زوڕنایە لە شێوەدا و سمبولی نیشتیمانی وێڵزە"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The daffodil's vibrant yellow petals are a symbol of rebirth and new beginnings."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "پەڕەی گەشی زەردی نێرگز سمبولی دووبارە ژیانەوە و سەرەتایەکی تازەیە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "daffodil", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdaffodils1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdaffodils1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "The daffodil's vibrant yellow petals are a symbol of rebirth and new beginnings.",
+            kurdishText:
+                "پەڕەی گەشی زەردی نێرگز سمبولی دووبارە ژیانەوە و سەرەتایەکی تازەیە.", // daffodil
+            onPressedBritish: () => speakdaffodils1("en-GB"),
+            onPressedAmerican: () => speakdaffodils1("en-US"),
           ),
         ],
       ),

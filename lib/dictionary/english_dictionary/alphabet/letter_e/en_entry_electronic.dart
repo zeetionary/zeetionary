@@ -382,93 +382,36 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   """١. (ھاوەڵناو) کە لە زۆر بەشی بچووک پێکھاتووە کە تەزوویەکی کارەبای بچووک کۆنترۆڵ و ئاراستە دەکەن"""),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            """Airline passengers no longer have to turn off all electronic devices while on the plane."""),
-                    ExampleSentenceKurdish(
-                        text:
-                            """گەشتیارانی فڕۆکەکان چی دیکە پێویست ناکات ئامێرەکانیان بکوژێننەوە لەسەر فڕۆکە."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "electronic", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakelectronics1("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakelectronics1("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                """Airline passengers no longer have to turn off all electronic devices while on the plane.""",
+            kurdishText:
+                """گەشتیارانی فڕۆکەکان چی دیکە پێویست ناکات ئامێرەکانیان بکوژێننەوە لەسەر فڕۆکە.""", // electronic
+            onPressedBritish: () => speakelectronics1("en-GB"),
+            onPressedAmerican: () => speakelectronics1("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            """If my kids want fancy electronic gadgets, they have to earn the money for them."""),
-                    ExampleSentenceKurdish(
-                        text:
-                            """ئەگەر منداڵەکانم ئامێری ئەلیکترۆنی جوانیان دەوێت، دەبێت پارە بەدەست بھێنن بۆی."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakelectronics2("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakelectronics2("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                """If my kids want fancy electronic gadgets, they have to earn the money for them.""",
+            kurdishText:
+                """ئەگەر منداڵەکانم ئامێری ئەلیکترۆنی جوانیان دەوێت، دەبێت پارە بەدەست بھێنن بۆی.""",
+            onPressedBritish: () => speakelectronics2("en-GB"),
+            onPressedAmerican: () => speakelectronics2("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text: """٢. (ھاوەڵناو) کە پەیوەندیدارە بە ئامێری کارەبایی"""),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            """Electronic and mechanical components don't last as long as they used to."""),
-                    ExampleSentenceKurdish(
-                        text:
-                            """پارچە ئەلیکترۆنی و میکانیکییەکان وەک جاران ناخایەنن لە کارکردندا."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakelectronics3("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakelectronics3("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                """Electronic and mechanical components don't last as long as they used to.""",
+            kurdishText:
+                """پارچە ئەلیکترۆنی و میکانیکییەکان وەک جاران ناخایەنن لە کارکردندا.""",
+            onPressedBritish: () => speakelectronics3("en-GB"),
+            onPressedAmerican: () => speakelectronics3("en-US"),
           ),
           // electronics400electronics4
           // speakelectronics4

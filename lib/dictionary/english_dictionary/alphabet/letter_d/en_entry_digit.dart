@@ -232,30 +232,11 @@ class KurdishMeaning extends StatelessWidget {
 """),
           const DefinitionKurdish(
               text: "١. (ناو) ھەر یەک لەو ژمارانەی لە نێوان ١-٩ ـن"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "The number 57 306 contains five digits."),
-                    ExampleSentenceKurdish(
-                        text: "ژمارە ٥٧٣٠٦ پێنج ڕەنووس لەخۆدەگرێت"),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "digit", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdigits1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdigits1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "The number 57 306 contains five digits.",
+            kurdishText: "ژمارە ٥٧٣٠٦ پێنج ڕەنووس لەخۆدەگرێت", // digit
+            onPressedBritish: () => speakdigits1("en-GB"),
+            onPressedAmerican: () => speakdigits1("en-US"),
           ),
           // digits200"),
           // speakdigits2

@@ -243,61 +243,24 @@ class KurdishMeaning extends StatelessWidget {
 """),
           const DefinitionKurdish(
               text: "١. (ناو) پڕۆسەی شیبوونەوە بە ھۆکاری سرووشتی"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The corpse was in an advanced stage of decomposition."),
-                    ExampleSentenceKurdish(
-                        text: "تەرمەکە لە قۆناغی خێرای ھەڵوەشانەوە بوو."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "decomposition", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdecompositions1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdecompositions1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "The corpse was in an advanced stage of decomposition.",
+            kurdishText:
+                "تەرمەکە لە قۆناغی خێرای ھەڵوەشانەوە بوو.", // decomposition
+            onPressedBritish: () => speakdecompositions1("en-GB"),
+            onPressedAmerican: () => speakdecompositions1("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٢. (ناو) ھەڵوەشاندنەوەی شتێک بۆ بەشی بچووکتر یان سادەتر"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "A mixture of hydrogen is obtained from the decomposition of water with carbon and phosphorous."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "تێکەڵەیەک لە ھایدرۆجین بەدەست دێت لە شیکردنەوەی ئاو لەگەڵ کاربۆن و فسفۆڕ."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdecompositions2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdecompositions2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "A mixture of hydrogen is obtained from the decomposition of water with carbon and phosphorous.",
+            kurdishText:
+                "تێکەڵەیەک لە ھایدرۆجین بەدەست دێت لە شیکردنەوەی ئاو لەگەڵ کاربۆن و فسفۆڕ.",
+            onPressedBritish: () => speakdecompositions2("en-GB"),
+            onPressedAmerican: () => speakdecompositions2("en-US"),
           ),
         ],
       ),

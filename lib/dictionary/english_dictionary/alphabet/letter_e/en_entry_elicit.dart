@@ -372,60 +372,22 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   """١. (کردار) وەرگرتنی زانیاری یان کاردانەوە لە کەسێک، زۆرجار بە سەختی"""),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: """I could elicit no response from him."""),
-                    ExampleSentenceKurdish(
-                        text: """نەمتوانی ھیچ وەڵامێکی لێ دەرکێشم."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "elicit", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakelicits1("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakelicits1("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: """I could elicit no response from him.""",
+            kurdishText: """نەمتوانی ھیچ وەڵامێکی لێ دەرکێشم.""", // elicit
+            onPressedBritish: () => speakelicits1("en-GB"),
+            onPressedAmerican: () => speakelicits1("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            """Her tears elicited great sympathy from her audience."""),
-                    ExampleSentenceKurdish(
-                        text:
-                            """فرمێسکەکانی بەزەیی زۆری لای ئامادەبووان درووستکرد."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakelicits2("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakelicits2("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                """Her tears elicited great sympathy from her audience.""",
+            kurdishText:
+                """فرمێسکەکانی بەزەیی زۆری لای ئامادەبووان درووستکرد.""",
+            onPressedBritish: () => speakelicits2("en-GB"),
+            onPressedAmerican: () => speakelicits2("en-US"),
           ),
           // elicits300elicits3
           // speakelicits3

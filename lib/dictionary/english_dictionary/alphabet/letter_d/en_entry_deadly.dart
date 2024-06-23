@@ -309,275 +309,89 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "١. (ھاوەڵناو) کوشندە؛ کە مردنی لێدەکەوێتەوە ئان ئەگەری ھەیە"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "He was charged with possession of a deadly weapon."),
-                    ExampleSentenceKurdish(
-                        text: "تاوانبارکرا بە ھەڵگرتنی چەکی کوشندە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "deadly", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdeadlys1("en-GB"),
+SentencesRow(
+  englishText:
+                            "He was charged with possession of a deadly weapon.",
+kurdishText: "تاوانبارکرا بە ھەڵگرتنی چەکی کوشندە.", // deadly
+onPressedBritish: () => speakdeadlys1("en-GB"),
+  onPressedAmerican: () => speakdeadlys1("en-US"),
                   ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdeadlys1("en-US"),
-                  ),
-                ],
-              ),
-            ],
-          ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The cobra is one of the world's deadliest snakes."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "کوبرا یەکێکە لە ھەرە کوشندەترین مارەکانی جیھان."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdeadlys2("en-GB"),
+          SentencesRow(
+  englishText:
+                            "The cobra is one of the world's deadliest snakes.",
+kurdishText:
+                            "کوبرا یەکێکە لە ھەرە کوشندەترین مارەکانی جیھان.",
+                    onPressedBritish: () => speakdeadlys2("en-GB"),
+  onPressedAmerican: () => speakdeadlys2("en-US"),
                   ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdeadlys2("en-US"),
-                  ),
-                ],
-              ),
-            ],
-          ),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The terrorists have chosen to play a deadly game with the civilian population."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "تیرۆریستەکان بڕیاریان داوە یارییەکی کوشندە لەگەڵ دانیشتووانە مەدەنییەکە بکەن."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdeadlys3("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdeadlys3("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+  englishText:
+                            "The terrorists have chosen to play a deadly game with the civilian population.",
+kurdishText:
+                            "تیرۆریستەکان بڕیاریان داوە یارییەکی کوشندە لەگەڵ دانیشتووانە مەدەنییەکە بکەن.",
+                    onPressedBritish: () => speakdeadlys3("en-GB"),
+  onPressedAmerican: () => speakdeadlys3("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: "٢. (ھاوەڵناو) بە ئاستێکی زۆر"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(text: "We sat in deadly silence."),
-                    ExampleSentenceKurdish(
-                        text: "لە بێ دەنگییەکی تەواودا دانیشتین."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdeadlys4("en-GB"),
+          SentencesRow(
+  englishText: "We sat in deadly silence.",
+kurdishText: "لە بێ دەنگییەکی تەواودا دانیشتین.",
+                    onPressedBritish: () => speakdeadlys4("en-GB"),
+  onPressedAmerican: () => speakdeadlys4("en-US"),
                   ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdeadlys4("en-US"),
-                  ),
-                ],
-              ),
-            ],
-          ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "They are deadly enemies (= are full of hatred for each other)."),
-                    ExampleSentenceKurdish(text: "دووژمنی سەرسەختن."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdeadlys5("en-GB"),
+          SentencesRow(
+  englishText:
+                            "They are deadly enemies (= are full of hatred for each other).",
+kurdishText: "دووژمنی سەرسەختن.",
+                    onPressedBritish: () => speakdeadlys5("en-GB"),
+  onPressedAmerican: () => speakdeadlys5("en-US"),
                   ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdeadlys5("en-US"),
-                  ),
-                ],
-              ),
-            ],
-          ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The missile found its target with deadly accuracy."),
-                    ExampleSentenceKurdish(
-                        text: "مووشەکەکە گەشت ئامانجەکەی بە وردیی تەواوەوە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdeadlys6("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdeadlys6("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+  englishText:
+                            "The missile found its target with deadly accuracy.",
+kurdishText: "مووشەکەکە گەشت ئامانجەکەی بە وردیی تەواوەوە.",
+                    onPressedBritish: () => speakdeadlys6("en-GB"),
+  onPressedAmerican: () => speakdeadlys6("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
                   "٣. (ھاوەڵناو) تەواو کاریگەر؛ بەشێوەیەک کە بەرگری بەرامبەری ناکرێت"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "His aim is deadly (= so accurate that he can kill easily)."),
-                    ExampleSentenceKurdish(text: "ئامانجەکەی کوشندەیە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdeadlys7("en-GB"),
+SentencesRow(
+  englishText:
+                            "His aim is deadly (= so accurate that he can kill easily).",
+kurdishText: "ئامانجەکەی کوشندەیە.",
+                    onPressedBritish: () => speakdeadlys7("en-GB"),
+  onPressedAmerican: () => speakdeadlys7("en-US"),
                   ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdeadlys7("en-US"),
-                  ),
-                ],
-              ),
-            ],
-          ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "The man possessed an absolutely deadly charm."),
-                    ExampleSentenceKurdish(
-                        text: "پیاوەکە خاوەنی جوانییەکی تەواو بێ ھاوتا بوو."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdeadlys8("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdeadlys8("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+  englishText: "The man possessed an absolutely deadly charm.",
+kurdishText: "پیاوەکە خاوەنی جوانییەکی تەواو بێ ھاوتا بوو.",
+                    onPressedBritish: () => speakdeadlys8("en-GB"),
+  onPressedAmerican: () => speakdeadlys8("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: "٤. (ھاوەڵناو) زۆر بێزارکەر"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "The lecture was absolutely deadly."),
-                    ExampleSentenceKurdish(text: "وانەکە تەواو بێزارکەر بوو."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdeadlys9("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdeadlys9("en-US"),
-                  ),
-                ],
-              ),
-            ],
+SentencesRow(
+  englishText: "The lecture was absolutely deadly.",
+kurdishText: "وانەکە تەواو بێزارکەر بوو.",
+                    onPressedBritish: () => speakdeadlys9("en-GB"),
+  onPressedAmerican: () => speakdeadlys9("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: "٥. (ھاوەڵکار) تا ئاستێکی زۆر"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "I thought she was joking but she was deadly serious."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "وام بیرکردەوە کە گاڵتە دەکات بەڵام تەواو جدی بوو."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdeadlys10("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdeadlys10("en-US"),
-                  ),
-                ],
-              ),
-            ],
+SentencesRow(
+  englishText:
+                            "I thought she was joking but she was deadly serious.",
+kurdishText:
+                            "وام بیرکردەوە کە گاڵتە دەکات بەڵام تەواو جدی بوو.",
+                    onPressedBritish: () => speakdeadlys10("en-GB"),
+  onPressedAmerican: () => speakdeadlys10("en-US"),
           ),
         ],
       ),

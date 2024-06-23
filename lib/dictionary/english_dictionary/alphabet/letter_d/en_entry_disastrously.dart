@@ -242,60 +242,21 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "١. (ھاوەڵکار) بەشێوەیەک کە زۆر خراپ، زیانبەخش، یان شکستخواردووە"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "How could everything go so disastrously wrong?"),
-                    ExampleSentenceKurdish(
-                        text:
-                            "چۆن کرا کە ھەموو شتێک ئاوا کارەساتبارانە بە ھەڵە ڕووبدات؟"),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "disastrously", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdisastrouslys1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdisastrouslys1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "How could everything go so disastrously wrong?",
+            kurdishText:
+                "چۆن کرا کە ھەموو شتێک ئاوا کارەساتبارانە بە ھەڵە ڕووبدات؟", // disastrously
+            onPressedBritish: () => speakdisastrouslys1("en-GB"),
+            onPressedAmerican: () => speakdisastrouslys1("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "Their love affair ended disastrously."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "پەیوەندییە خۆشەویستییەکەیان بەخراپی کۆتایی ھات."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdisastrouslys2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdisastrouslys2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "Their love affair ended disastrously.",
+            kurdishText: "پەیوەندییە خۆشەویستییەکەیان بەخراپی کۆتایی ھات.",
+            onPressedBritish: () => speakdisastrouslys2("en-GB"),
+            onPressedAmerican: () => speakdisastrouslys2("en-US"),
           ),
           // disastrouslys300"),
           // speakdisastrouslys3

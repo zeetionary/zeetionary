@@ -390,115 +390,38 @@ class KurdishMeaning extends StatelessWidget {
 """),
           const DefinitionKurdish(
               text: "١. (ناو) وێنەیەک کە بە پێنووس کێشراوە نەک بە بۆیە"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The original architectural drawings of the building had been lost."),
-                    ExampleSentenceKurdish(
-                        text: "وێنە بیناسازییە سەرەتاییەکانی بیناکە ونبووە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "drawing", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdrawings1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdrawings1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "The original architectural drawings of the building had been lost.",
+            kurdishText:
+                "وێنە بیناسازییە سەرەتاییەکانی بیناکە ونبووە.", // drawing
+            onPressedBritish: () => speakdrawings1("en-GB"),
+            onPressedAmerican: () => speakdrawings1("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The children were asked to make a drawing of a dinosaur."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "منداڵەکان داوایان لێکرا کە وێنەی دەیناسوورێک بکێشن."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdrawings2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdrawings2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "The children were asked to make a drawing of a dinosaur.",
+            kurdishText: "منداڵەکان داوایان لێکرا کە وێنەی دەیناسوورێک بکێشن.",
+            onPressedBritish: () => speakdrawings2("en-GB"),
+            onPressedAmerican: () => speakdrawings2("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: "٢. (ناو) ھونەر و شارەزایی وێنەکێشان"),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "I'm not very good at drawing."),
-                    ExampleSentenceKurdish(
-                        text: "زۆر باش نییم لە وێنەکێشاندا."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdrawings3("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdrawings3("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "I'm not very good at drawing.",
+            kurdishText: "زۆر باش نییم لە وێنەکێشاندا.",
+            onPressedBritish: () => speakdrawings3("en-GB"),
+            onPressedAmerican: () => speakdrawings3("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "She teaches drawing at the women's prison in Philadelphia."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "وێنەکێشان دەڵێتەوە لە بەندیخانەی ژنان لە کالیفۆرنیا."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdrawings4("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdrawings4("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "She teaches drawing at the women's prison in Philadelphia.",
+            kurdishText: "وێنەکێشان دەڵێتەوە لە بەندیخانەی ژنان لە کالیفۆرنیا.",
+            onPressedBritish: () => speakdrawings4("en-GB"),
+            onPressedAmerican: () => speakdrawings4("en-US"),
           ),
           const DividerDefinition(),
           Column(

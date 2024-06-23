@@ -373,63 +373,25 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   """١. (ناو) کەسێک کە پارە بەدەست دەھێنێت بۆ کارێک کە دەیکات"""),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            """The survey revealed that top earners in the country tended to be men."""),
-                    ExampleSentenceKurdish(
-                        text:
-                            """ڕاپرسییەکە دەریخست کە زۆرترین بەدەست‌ھێنەران وا باوبوو پیاوان بن."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "earner", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakearners1("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakearners1("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                """The survey revealed that top earners in the country tended to be men.""",
+            kurdishText:
+                """ڕاپرسییەکە دەریخست کە زۆرترین بەدەست‌ھێنەران وا باوبوو پیاوان بن.""", // earner
+            onPressedBritish: () => speakearners1("en-GB"),
+            onPressedAmerican: () => speakearners1("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text: """٢. (ناو) چالاکییەک یان بازرگانییەک کە قازانج دەکات"""),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            """Tourism is the country's biggest foreign currency earner."""),
-                    ExampleSentenceKurdish(
-                        text:
-                            """گەشتیاری گەورەترین قازانج‌ھێنەری دراوی بیانی وڵاتەکەیە."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakearners2("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakearners2("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                """Tourism is the country's biggest foreign currency earner.""",
+            kurdishText:
+                """گەشتیاری گەورەترین قازانج‌ھێنەری دراوی بیانی وڵاتەکەیە.""",
+            onPressedBritish: () => speakearners2("en-GB"),
+            onPressedAmerican: () => speakearners2("en-US"),
           ),
           // earners300earners3
           // speakearners3

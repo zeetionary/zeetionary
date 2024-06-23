@@ -371,56 +371,18 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "١. (کردار) دوودڵبوون لەوەی چی دەکەیت چونکە ناتوانیت بڕیار بدەیت"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "Stop dithering and get on with it."),
-                    ExampleSentenceKurdish(
-                        text: "واز لە دوودڵی بێنە و دەستی پێبکە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "dither", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdithers1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdithers1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "Stop dithering and get on with it.",
+            kurdishText: "واز لە دوودڵی بێنە و دەستی پێبکە.", // dither
+            onPressedBritish: () => speakdithers1("en-GB"),
+            onPressedAmerican: () => speakdithers1("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "She was dithering over what to wear."),
-                    ExampleSentenceKurdish(
-                        text: "تێدەفکری لەوەی چی لەبەر بکات."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdithers2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdithers2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "She was dithering over what to wear.",
+            kurdishText: "تێدەفکری لەوەی چی لەبەر بکات.",
+            onPressedBritish: () => speakdithers2("en-GB"),
+            onPressedAmerican: () => speakdithers2("en-US"),
           ),
           // dithers300"),
           // speakdithers3

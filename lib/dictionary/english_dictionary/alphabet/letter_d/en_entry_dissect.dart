@@ -248,92 +248,33 @@ class KurdishMeaning extends StatelessWidget {
 // """),
           const DefinitionKurdish(
               text: "١. (کردار) توێکاریکردنی تەرمی مردوویەک"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "The biology students had to dissect a rat."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "خوێنداکارانی زیندەناسی دەبوو جرجێک توێکاری بکەن."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "dissect", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdissects1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdissects1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "The biology students had to dissect a rat.",
+            kurdishText:
+                "خوێنداکارانی زیندەناسی دەبوو جرجێک توێکاری بکەن.", // dissect
+            onPressedBritish: () => speakdissects1("en-GB"),
+            onPressedAmerican: () => speakdissects1("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
                   "٢. (کردار) لێکۆڵینەوە لە شتێک بە وردی یان باسکردنی بە وردەکاریی تەواوە"),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "Her latest novel was dissected by the critics."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "کۆتا ڕۆمانی لەلایەن ڕەخنەگرانەوە لێکۆڵینەوەی لێکرا."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdissects2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdissects2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "Her latest novel was dissected by the critics.",
+            kurdishText: "کۆتا ڕۆمانی لەلایەن ڕەخنەگرانەوە لێکۆڵینەوەی لێکرا.",
+            onPressedBritish: () => speakdissects2("en-GB"),
+            onPressedAmerican: () => speakdissects2("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٢. (کردار) دابەشکردنی شتێک بۆ پارچەی بچووکتر"),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The city is dissected by a network of old canals."),
-                    ExampleSentenceKurdish(
-                        text: "شارەکە بە تۆڕێک لە کەناڵی کۆن دابەشکراوە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdissects3("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdissects3("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "The city is dissected by a network of old canals.",
+            kurdishText: "شارەکە بە تۆڕێک لە کەناڵی کۆن دابەشکراوە.",
+            onPressedBritish: () => speakdissects3("en-GB"),
+            onPressedAmerican: () => speakdissects3("en-US"),
           ),
           // dissects400"),
           // speakdissects4

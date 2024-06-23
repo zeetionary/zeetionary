@@ -232,30 +232,11 @@ class KurdishMeaning extends StatelessWidget {
 """),
           const DefinitionKurdish(
               text: "١. (ناو) کەسێک کە بەبێ مۆڵەت لە سوپا ھەڵھاتووە"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "He was convicted of hiding deserters."),
-                    ExampleSentenceKurdish(
-                        text: "تاوانبارکرا بە شاردنەوەی ھەڵھاتووان."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "deserter", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdeserters1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdeserters1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "He was convicted of hiding deserters.",
+            kurdishText: "تاوانبارکرا بە شاردنەوەی ھەڵھاتووان.", // deserter
+            onPressedBritish: () => speakdeserters1("en-GB"),
+            onPressedAmerican: () => speakdeserters1("en-US"),
           ),
           // deserters200"),
           // speakdeserters2

@@ -252,87 +252,28 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "١. (کردار) کێشە درووستکردن بۆ شتێک کە بەشێوەی ئاسایی بەردەوام بێت"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "Demonstrators succeeded in disrupting the meeting."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "خۆپیشاندەران سەرکەوتوو بوون لە ڕێگری لە چاوپێکەوتنەکە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "disrupt", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdisrupts1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdisrupts1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "Demonstrators succeeded in disrupting the meeting.",
+            kurdishText:
+                "خۆپیشاندەران سەرکەوتوو بوون لە ڕێگری لە چاوپێکەوتنەکە.", // disrupt
+            onPressedBritish: () => speakdisrupts1("en-GB"),
+            onPressedAmerican: () => speakdisrupts1("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "Bus services will be disrupted tomorrow because of the bridge closure."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "ھێڵەکانی پاس سبەی تەگەرەیان دەبێت بەھۆی داخرانی پردەکە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdisrupts2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdisrupts2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "Bus services will be disrupted tomorrow because of the bridge closure.",
+            kurdishText:
+                "ھێڵەکانی پاس سبەی تەگەرەیان دەبێت بەھۆی داخرانی پردەکە.",
+            onPressedBritish: () => speakdisrupts2("en-GB"),
+            onPressedAmerican: () => speakdisrupts2("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "I'm not going to let him disrupt my life any longer."),
-                    ExampleSentenceKurdish(
-                        text: "چی دیکە ناھێڵم کێشە بۆ ژیانم درووست بکات."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdisrupts3("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdisrupts3("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "I'm not going to let him disrupt my life any longer.",
+            kurdishText: "چی دیکە ناھێڵم کێشە بۆ ژیانم درووست بکات.",
+            onPressedBritish: () => speakdisrupts3("en-GB"),
+            onPressedAmerican: () => speakdisrupts3("en-US"),
           ),
           // disrupts400"),
           // speakdisrupts4

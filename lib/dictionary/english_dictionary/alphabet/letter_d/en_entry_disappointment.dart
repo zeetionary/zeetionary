@@ -276,169 +276,53 @@ class KurdishMeaning extends StatelessWidget {
 کوردی: ناھومێدی، دڵساری، دڵ‌شکستی، دڵ‌شکاوی، تێ‌شکاوی، کزی، ماتی، دڵپڕی، دڵتەنگی، خەمباری، ناڕەحەتی،	مایەی ناڕەحەتی یان ناھومێدی
 """),
           const DefinitionKurdish(text: "١. (ناو) نائومێدی"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "Book early for the show to avoid disappointment."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "زوو بلیت بکڕە بۆ نمایشەکە بۆ دووربوون لە نائومێدی."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "disappointment", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdisappointments1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdisappointments1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "Book early for the show to avoid disappointment.",
+            kurdishText:
+                "زوو بلیت بکڕە بۆ نمایشەکە بۆ دووربوون لە نائومێدی.", // disappointment
+            onPressedBritish: () => speakdisappointments1("en-GB"),
+            onPressedAmerican: () => speakdisappointments1("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "To our great disappointment, it rained every day of the trip."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "بە جێگای نائومێدی زۆرمان، تەواوی ڕۆژانی گەشتەکە باران باری."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdisappointments2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdisappointments2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "To our great disappointment, it rained every day of the trip.",
+            kurdishText:
+                "بە جێگای نائومێدی زۆرمان، تەواوی ڕۆژانی گەشتەکە باران باری.",
+            onPressedBritish: () => speakdisappointments2("en-GB"),
+            onPressedAmerican: () => speakdisappointments2("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "He found it difficult to hide his disappointment when she didn't arrive."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "بە سەختی زانی کە نائومێدیی بشارێتەوە کە ئەو نەگەشت."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdisappointments3("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdisappointments3("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "He found it difficult to hide his disappointment when she didn't arrive.",
+            kurdishText: "بە سەختی زانی کە نائومێدیی بشارێتەوە کە ئەو نەگەشت.",
+            onPressedBritish: () => speakdisappointments3("en-GB"),
+            onPressedAmerican: () => speakdisappointments3("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(text: "Disappointment gripped her."),
-                    ExampleSentenceKurdish(
-                        text: "نائومێدی باڵی بەسەر کێشابوو."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdisappointments4("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdisappointments4("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "Disappointment gripped her.",
+            kurdishText: "نائومێدی باڵی بەسەر کێشابوو.",
+            onPressedBritish: () => speakdisappointments4("en-GB"),
+            onPressedAmerican: () => speakdisappointments4("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٢. (ناو) کەسێک/شتێک کە جێگای نائومێدییە"),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "That new restaurant was a big disappointment."),
-                    ExampleSentenceKurdish(
-                        text: "چێشتخانە تازەکە نائومێدییەکی گەورە بوو."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdisappointments5("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdisappointments5("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "That new restaurant was a big disappointment.",
+            kurdishText: "چێشتخانە تازەکە نائومێدییەکی گەورە بوو.",
+            onPressedBritish: () => speakdisappointments5("en-GB"),
+            onPressedAmerican: () => speakdisappointments5("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "I always felt I was a disappointment to my father."),
-                    ExampleSentenceKurdish(
-                        text: "ھەمیشە وام ھەستکرد کە نائومێدی بووم بۆ باوکم."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdisappointments6("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdisappointments6("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "I always felt I was a disappointment to my father.",
+            kurdishText: "ھەمیشە وام ھەستکرد کە نائومێدی بووم بۆ باوکم.",
+            onPressedBritish: () => speakdisappointments6("en-GB"),
+            onPressedAmerican: () => speakdisappointments6("en-US"),
           ),
           // disappointments700"),
           // speakdisappointments7

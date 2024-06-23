@@ -380,89 +380,31 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "١. (ناو) دید و بۆچوونێک یان دەستەیەک بیر و بۆچوون کە دەگوترێتەوە لەلایەن کڵێسایەک، پارتێکی سیاسی، ھتد"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "He was deeply committed to political doctrines of social equality."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "بە قووڵی پابەند بوو بە بیروباوەڕ سیاسییەکانی یەکسانی کۆمەڵایەتی."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "doctrine", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdoctrines1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdoctrines1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "He was deeply committed to political doctrines of social equality.",
+            kurdishText:
+                "بە قووڵی پابەند بوو بە بیروباوەڕ سیاسییەکانی یەکسانی کۆمەڵایەتی.", // doctrine
+            onPressedBritish: () => speakdoctrines1("en-GB"),
+            onPressedAmerican: () => speakdoctrines1("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "Their doctrine allows the use of violence."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "ڕێبازەکەیان ڕێگا بە بەکارھێنانی توندوتیژی دەدات."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdoctrines2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdoctrines2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "Their doctrine allows the use of violence.",
+            kurdishText: "ڕێبازەکەیان ڕێگا بە بەکارھێنانی توندوتیژی دەدات.",
+            onPressedBritish: () => speakdoctrines2("en-GB"),
+            onPressedAmerican: () => speakdoctrines2("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "He has written books on Catholic doctrine."),
-                    ExampleSentenceKurdish(
-                        text: "کتێبی نووسیوە لەسەر ڕێبازی کاسۆلیکی."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdoctrines3("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdoctrines3("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "He has written books on Catholic doctrine.",
+            kurdishText: "کتێبی نووسیوە لەسەر ڕێبازی کاسۆلیکی.",
+            onPressedBritish: () => speakdoctrines3("en-GB"),
+            onPressedAmerican: () => speakdoctrines3("en-US"),
           ),
           // doctrines400"),
           // speakdoctrines4

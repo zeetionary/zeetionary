@@ -362,32 +362,12 @@ class KurdishMeaning extends StatelessWidget {
 // کوردی:
 // """),
           const DefinitionKurdish(text: "١. (ناو) گەورەترین جۆری کەمانچە"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "He learned to play the double bass at a young age."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "لە تەمەنێکی گەنجیدا فێربوو کە کەمانچەی گەورە بژەنێت."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "double bass", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdoublebasss1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdoublebasss1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "He learned to play the double bass at a young age.",
+            kurdishText:
+                "لە تەمەنێکی گەنجیدا فێربوو کە کەمانچەی گەورە بژەنێت.", // double bass
+            onPressedBritish: () => speakdoublebasss1("en-GB"),
+            onPressedAmerican: () => speakdoublebasss1("en-US"),
           ),
           // doublebasss200"),
           // speakdoublebasss2

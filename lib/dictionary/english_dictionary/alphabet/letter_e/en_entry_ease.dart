@@ -478,178 +478,62 @@ class KurdishMeaning extends StatelessWidget {
 کوردی: ئاسوودەیی، ئاسایش، ئاسایشت، حەساوەیی، بێکاری،	ئاسانی،	ئارام‌بوونەوە، ھێدی‌بوونەوە
 """),
           const DefinitionKurdish(text: """١. (ناو) ئاسانی"""),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: """He passed the exam with ease."""),
-                    ExampleSentenceKurdish(
-                        text: """تاقیکردنەوەکەی بە ئاسانی تێپەڕاند."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "ease", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakeases1("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakeases1("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: """He passed the exam with ease.""",
+            kurdishText: """تاقیکردنەوەکەی بە ئاسانی تێپەڕاند.""", // ease
+            onPressedBritish: () => speakeases1("en-GB"),
+            onPressedAmerican: () => speakeases1("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: """ژممارە. (کردار) پێنناسە"""),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            """The ease with which she learns languages is astonishing."""),
-                    ExampleSentenceKurdish(
-                        text:
-                            """بەو ئاسانییەی کە زمان فێردەبێت سەرنجڕاکێشە."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakeases2("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakeases2("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                """The ease with which she learns languages is astonishing.""",
+            kurdishText: """بەو ئاسانییەی کە زمان فێردەبێت سەرنجڕاکێشە.""",
+            onPressedBritish: () => speakeases2("en-GB"),
+            onPressedAmerican: () => speakeases2("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: """ژممارە. (کردار) پێنناسە"""),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            """This computer is popular for its good design and ease of use."""),
-                    ExampleSentenceKurdish(
-                        text:
-                            """ئەم کۆمپیوتەرە ناسراوە بۆ دیزاینەکەی و ئاسانی بەکارھێنانی."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakeases3("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakeases3("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                """This computer is popular for its good design and ease of use.""",
+            kurdishText:
+                """ئەم کۆمپیوتەرە ناسراوە بۆ دیزاینەکەی و ئاسانی بەکارھێنانی.""",
+            onPressedBritish: () => speakeases3("en-GB"),
+            onPressedAmerican: () => speakeases3("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
                   """٢. (ناو) ئەو دۆخەی کە تێیدا ئاسوودە و بێ کێشە و ئازاریت"""),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            """In his retirement, he lived a life of ease."""),
-                    ExampleSentenceKurdish(
-                        text: """لە خانەنشینییدا، ژیانێکی بێ‌کێشە ژیا."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakeases4("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakeases4("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: """In his retirement, he lived a life of ease.""",
+            kurdishText: """لە خانەنشینییدا، ژیانێکی بێ‌کێشە ژیا.""",
+            onPressedBritish: () => speakeases4("en-GB"),
+            onPressedAmerican: () => speakeases4("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text: """٣. (کردار) سوککردنی کێشەیەک یان ئازارێک"""),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: """The pain immediately eased."""),
-                    ExampleSentenceKurdish(
-                        text: """ئازارەکە دەستبەجێ سووکبوو."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakeases5("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakeases5("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: """The pain immediately eased.""",
+            kurdishText: """ئازارەکە دەستبەجێ سووکبوو.""",
+            onPressedBritish: () => speakeases5("en-GB"),
+            onPressedAmerican: () => speakeases5("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: """ژممارە. (کردار) پێنناسە"""),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: """This should help ease the pain."""),
-                    ExampleSentenceKurdish(
-                        text: """ئەمە دەبێت ئازارەکە سووک بکات."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakeases6("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakeases6("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: """This should help ease the pain.""",
+            kurdishText: """ئەمە دەبێت ئازارەکە سووک بکات.""",
+            onPressedBritish: () => speakeases6("en-GB"),
+            onPressedAmerican: () => speakeases6("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: """ژممارە. (کردار) پێنناسە"""),
@@ -657,266 +541,97 @@ class KurdishMeaning extends StatelessWidget {
             children: [
               MyExpansionTile(
                 children: [
-                  Row(
-                    children: [
-                      const Expanded(
-                        child: Column(
-                          children: [
-                            ExampleSentenceEnglish(
-                                text:
-                                    """The plan should ease traffic congestion in the town."""),
-                            ExampleSentenceKurdish(
-                                text:
-                                    """پلانەکە دەبێت قەرەباڵغی ھاتووچۆ لەسەر شەقامەکان سووک بکات."""),
-                          ],
-                        ),
-                      ),
-                      const CustomSizedBoxForTTS(),
-                      Column(
-                        children: [
-                          CustomIconButtonBritish(
-                            onPressed: () => speakeases7("en-GB" ""),
-                          ),
-                          CustomIconButtonAmerican(
-                            onPressed: () => speakeases7("en-US" ""),
-                          ),
-                        ],
-                      ),
-                    ],
+                  SentencesRow(
+                    englishText:
+                        """The plan should ease traffic congestion in the town.""",
+                    kurdishText:
+                        """پلانەکە دەبێت قەرەباڵغی ھاتووچۆ لەسەر شەقامەکان سووک بکات.""",
+                    onPressedBritish: () => speakeases7("en-GB"),
+                    onPressedAmerican: () => speakeases7("en-US" ""),
                   ),
                   // const DividerDefinition(),
                   // const DefinitionKurdish(text: """ژممارە. (کردار) پێنناسە"""),
                   const DividerSentences(),
-                  Row(
-                    children: [
-                      const Expanded(
-                        child: Column(
-                          children: [
-                            ExampleSentenceEnglish(
-                                text:
-                                    """It would ease my mind (= make me less worried) to know that she was safe."""),
-                            ExampleSentenceKurdish(
-                                text:
-                                    """ئەوە مێشکم دەڕەواندەوە کە بمزانیبایە سەلامەت بوو."""),
-                          ],
-                        ),
-                      ),
-                      const CustomSizedBoxForTTS(),
-                      Column(
-                        children: [
-                          CustomIconButtonBritish(
-                            onPressed: () => speakeases8("en-GB" ""),
-                          ),
-                          CustomIconButtonAmerican(
-                            onPressed: () => speakeases8("en-US" ""),
-                          ),
-                        ],
-                      ),
-                    ],
+                  SentencesRow(
+                    englishText:
+                        """It would ease my mind (= make me less worried) to know that she was safe.""",
+                    kurdishText:
+                        """ئەوە مێشکم دەڕەواندەوە کە بمزانیبایە سەلامەت بوو.""",
+                    onPressedBritish: () => speakeases8("en-GB"),
+                    onPressedAmerican: () => speakeases8("en-US" ""),
                   ),
                   // const DividerDefinition(),
                   // const DefinitionKurdish(text: """ژممارە. (کردار) پێنناسە"""),
                   const DividerSentences(),
-                  Row(
-                    children: [
-                      const Expanded(
-                        child: Column(
-                          children: [
-                            ExampleSentenceEnglish(
-                                text:
-                                    """Tensions between the two countries are beginning to ease."""),
-                            ExampleSentenceKurdish(
-                                text:
-                                    """گرژی نێوان دوو وڵاتەکە خەریکە دەڕەوێتەوە."""),
-                          ],
-                        ),
-                      ),
-                      const CustomSizedBoxForTTS(),
-                      Column(
-                        children: [
-                          CustomIconButtonBritish(
-                            onPressed: () => speakeases9("en-GB" ""),
-                          ),
-                          CustomIconButtonAmerican(
-                            onPressed: () => speakeases9("en-US" ""),
-                          ),
-                        ],
-                      ),
-                    ],
+                  SentencesRow(
+                    englishText:
+                        """Tensions between the two countries are beginning to ease.""",
+                    kurdishText:
+                        """گرژی نێوان دوو وڵاتەکە خەریکە دەڕەوێتەوە.""",
+                    onPressedBritish: () => speakeases9("en-GB"),
+                    onPressedAmerican: () => speakeases9("en-US" ""),
                   ),
                 ],
               ),
             ],
           ),
+
           const DividerDefinition(),
           const DefinitionKurdish(text: """٤. (کردار) ئاسانکردنی شتێک"""),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            """His family connections eased his passage into the top ranks of the industry."""),
-                    ExampleSentenceKurdish(
-                        text:
-                            """پەیوەندییەکانی خێزانەکەی ڕێگای بۆ بەرزترین ئاستی پیشەسازییەکە ئاسان کرد."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakeases10("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakeases10("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                """His family connections eased his passage into the top ranks of the industry.""",
+            kurdishText:
+                """پەیوەندییەکانی خێزانەکەی ڕێگای بۆ بەرزترین ئاستی پیشەسازییەکە ئاسان کرد.""",
+            onPressedBritish: () => speakeases10("en-GB"),
+            onPressedAmerican: () => speakeases10("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text: """٥. (کردار) جوڵان بەھێواشی و وریایی"""),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: """He eased slowly forwards."""),
-                    ExampleSentenceKurdish(
-                        text: """بەھێواشی بۆ پێشەوە ھەنگاوی نا."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakeases11("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakeases11("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: """He eased slowly forwards.""",
+            kurdishText: """بەھێواشی بۆ پێشەوە ھەنگاوی نا.""",
+            onPressedBritish: () => speakeases11("en-GB"),
+            onPressedAmerican: () => speakeases11("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: """ژممارە. (کردار) پێنناسە"""),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: """She eased herself into a chair."""),
-                    ExampleSentenceKurdish(text: """دانەمییە سەر کورسییەکە."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakeases12("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakeases12("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: """She eased herself into a chair.""",
+            kurdishText: """دانەمییە سەر کورسییەکە.""",
+            onPressedBritish: () => speakeases12("en-GB"),
+            onPressedAmerican: () => speakeases12("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: """ژممارە. (کردار) پێنناسە"""),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: """He eased off (= took off) his shoes."""),
-                    ExampleSentenceKurdish(text: """پێڵاوەکەی داکەند."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakeases13("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakeases13("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: """He eased off (= took off) his shoes.""",
+            kurdishText: """پێڵاوەکەی داکەند.""",
+            onPressedBritish: () => speakeases13("en-GB"),
+            onPressedAmerican: () => speakeases13("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: """٦. (کردار) شلکردن؛ شلبوونەوە"""),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: """Ease your grip on the wheel a little."""),
-                    ExampleSentenceKurdish(
-                        text: """کەمێک گرتنی ویلەکە شڵ‌بکە."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakeases14("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakeases14("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: """Ease your grip on the wheel a little.""",
+            kurdishText: """کەمێک گرتنی ویلەکە شڵ‌بکە.""",
+            onPressedBritish: () => speakeases14("en-GB"),
+            onPressedAmerican: () => speakeases14("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: """٧. (کردار) کەمبوونەوە"""),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            """Share prices eased back from yesterday's levels."""),
-                    ExampleSentenceKurdish(
-                        text: """نرخی پشکەکان لە ئاستی دوێنێ کەمبووبەوە."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakeases15("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakeases15("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: """Share prices eased back from yesterday's levels.""",
+            kurdishText: """نرخی پشکەکان لە ئاستی دوێنێ کەمبووبەوە.""",
+            onPressedBritish: () => speakeases15("en-GB"),
+            onPressedAmerican: () => speakeases15("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: """ژممارە. (کردار) پێنناسە"""),

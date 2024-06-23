@@ -258,116 +258,37 @@ class KurdishMeaning extends StatelessWidget {
 """),
           const DefinitionKurdish(
               text: "١. (کردار) شیبوونەوە بە سرووشتی لە دوای مەرگ"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The garden was dank with decomposing vegetation."),
-                    ExampleSentenceKurdish(
-                        text: "باخچەکە شێدار بوو بە ڕووەکی شیبووەوە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "decompose", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdecomposes1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdecomposes1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "The garden was dank with decomposing vegetation.",
+            kurdishText: "باخچەکە شێدار بوو بە ڕووەکی شیبووەوە.", // decompose
+            onPressedBritish: () => speakdecomposes1("en-GB"),
+            onPressedAmerican: () => speakdecomposes1("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The body must have been decomposing for several weeks."),
-                    ExampleSentenceKurdish(
-                        text: "جەستەکە دەبێت بۆ چەند ھەفتەیەک شێبووبێتەوە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdecomposes2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdecomposes2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "The body must have been decomposing for several weeks.",
+            kurdishText: "جەستەکە دەبێت بۆ چەند ھەفتەیەک شێبووبێتەوە.",
+            onPressedBritish: () => speakdecomposes2("en-GB"),
+            onPressedAmerican: () => speakdecomposes2("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
                   "٢. (کردار) ھەڵوەشاندنەوەی شتێک بۆ بەشی بچووکتر یان سادەتر"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "Water decomposes into oxygen and hydrogen."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "ئاو بۆ ئۆکسجین و دووەم ئۆکسیدی کاربۆن ھەڵدەوەشێت."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdecomposes3("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdecomposes3("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "Water decomposes into oxygen and hydrogen.",
+            kurdishText: "ئاو بۆ ئۆکسجین و دووەم ئۆکسیدی کاربۆن ھەڵدەوەشێت.",
+            onPressedBritish: () => speakdecomposes3("en-GB"),
+            onPressedAmerican: () => speakdecomposes3("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "As the waste materials decompose, they produce methane gas."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "کە مادەی پاشەڕۆ شیدەبێتەوە گازی میسان درووست دەکات."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdecomposes4("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdecomposes4("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "As the waste materials decompose, they produce methane gas.",
+            kurdishText: "کە مادەی پاشەڕۆ شیدەبێتەوە گازی میسان درووست دەکات.",
+            onPressedBritish: () => speakdecomposes4("en-GB"),
+            onPressedAmerican: () => speakdecomposes4("en-US"),
           ),
         ],
       ),

@@ -370,59 +370,20 @@ class KurdishMeaning extends StatelessWidget {
 """),
           const DefinitionKurdish(
               text: "١. (ھاوەڵناو) چاو کە سەیری خوارەوە دەکات"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "Eyes downcast, she continued eating."),
-                    ExampleSentenceKurdish(
-                        text: "بە بەرەوخواری بەردەوام بوو لە خواردن."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "downcast", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdowncasts1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdowncasts1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "Eyes downcast, she continued eating.",
+            kurdishText: "بە بەرەوخواری بەردەوام بوو لە خواردن.", // downcast
+            onPressedBritish: () => speakdowncasts1("en-GB"),
+            onPressedAmerican: () => speakdowncasts1("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: "٢. (ھاوەڵناو) دڵتەنگ یان بێزار"),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "A group of downcast men stood waiting for food."),
-                    ExampleSentenceKurdish(
-                        text: "ژمارەیەک پیاوی خەمبار وەستابوون بۆ خواردن."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdowncasts2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdowncasts2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "A group of downcast men stood waiting for food.",
+            kurdishText: "ژمارەیەک پیاوی خەمبار وەستابوون بۆ خواردن.",
+            onPressedBritish: () => speakdowncasts2("en-GB"),
+            onPressedAmerican: () => speakdowncasts2("en-US"),
           ),
           // downcasts300"),
           // speakdowncasts3

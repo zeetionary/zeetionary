@@ -346,398 +346,126 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "١. (ناو) گەنگەشەیەکی فەرمی بابەتێک بەشێوەیەکی گشتی یان لە پەرلەماندا. لە دیبەیتێکدا دوو کەس یان زیاتر قسە لەسەر دوو دیدگای دژبەیەک دەکەن زۆرجار دەنگ دەدرێت لەسەر بابەتەکە"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The minister opened the debate (= was the first to speak)."),
-                    ExampleSentenceKurdish(
-                        text: "وەزیرەکە دیبەیتەکەی دەستپێکرد."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "debate", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdebates1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdebates1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "The minister opened the debate (= was the first to speak).",
+            kurdishText: "وەزیرەکە دیبەیتەکەی دەستپێکرد.", // debate
+            onPressedBritish: () => speakdebates1("en-GB"),
+            onPressedAmerican: () => speakdebates1("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "After a long debate, Congress approved the proposal."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "لە دوای دیبەیتێکی درێژ، کۆنگرێس پێشنیارەکەی پەسەند کرد."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdebates2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdebates2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "After a long debate, Congress approved the proposal.",
+            kurdishText:
+                "لە دوای دیبەیتێکی درێژ، کۆنگرێس پێشنیارەکەی پەسەند کرد.",
+            onPressedBritish: () => speakdebates2("en-GB"),
+            onPressedAmerican: () => speakdebates2("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The environmentalists seem to have lost the debate over the building of this road."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "ژینگەپارێزان واپێدەچوو دەبەیتەکەیان دۆڕاندبێت سەبارەت بە بنیاتنانی ئەم ڕێگایە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdebates3("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdebates3("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "The environmentalists seem to have lost the debate over the building of this road.",
+            kurdishText:
+                "ژینگەپارێزان واپێدەچوو دەبەیتەکەیان دۆڕاندبێت سەبارەت بە بنیاتنانی ئەم ڕێگایە.",
+            onPressedBritish: () => speakdebates3("en-GB"),
+            onPressedAmerican: () => speakdebates3("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "Many of these points were raised during the debate on prison reform."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "زۆرێک لەم خاڵانە باسکران لە دەمی دیبەیتی چاکسازی زینداندا."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdebates4("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdebates4("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "Many of these points were raised during the debate on prison reform.",
+            kurdishText:
+                "زۆرێک لەم خاڵانە باسکران لە دەمی دیبەیتی چاکسازی زینداندا.",
+            onPressedBritish: () => speakdebates4("en-GB"),
+            onPressedAmerican: () => speakdebates4("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The debate focused on who should pay for the changes."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "دیبەیتەکە سەرنجی لەسەر ئەوە بوو کە کێ دەبێت خەرجییەکان بکات."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdebates5("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdebates5("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "The debate focused on who should pay for the changes.",
+            kurdishText:
+                "دیبەیتەکە سەرنجی لەسەر ئەوە بوو کە کێ دەبێت خەرجییەکان بکات.",
+            onPressedBritish: () => speakdebates5("en-GB"),
+            onPressedAmerican: () => speakdebates5("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٢. (ناو) مشتومڕێک یان باسێک کە بۆچوونی جیاواز لەخۆدەگرێت"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The issue has sparked debate across the industry."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "بابەتەکە دیبەیتی لە پیشەسازییەکەدا دەستپێکردووە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdebates6("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdebates6("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "The issue has sparked debate across the industry.",
+            kurdishText: "بابەتەکە دیبەیتی لە پیشەسازییەکەدا دەستپێکردووە.",
+            onPressedBritish: () => speakdebates6("en-GB"),
+            onPressedAmerican: () => speakdebates6("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The theatre's future is a subject of lively public debate."),
-                    ExampleSentenceKurdish(
-                        text: "ھۆڵی شانۆکە بابەتی دیبەیتی گەرمی گشتییە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdebates7("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdebates7("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "The theatre's future is a subject of lively public debate.",
+            kurdishText: "ھۆڵی شانۆکە بابەتی دیبەیتی گەرمی گشتییە.",
+            onPressedBritish: () => speakdebates7("en-GB"),
+            onPressedAmerican: () => speakdebates7("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "There has been heated debate about whether the film should be allowed."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "مشتومڕی گەرم ھەبووە سەبارەت بەوەی ئایا ڕێگا بە فیلمەکە بدرێت."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdebates8("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdebates8("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "There has been heated debate about whether the film should be allowed.",
+            kurdishText:
+                "مشتومڕی گەرم ھەبووە سەبارەت بەوەی ئایا ڕێگا بە فیلمەکە بدرێت.",
+            onPressedBritish: () => speakdebates8("en-GB"),
+            onPressedAmerican: () => speakdebates8("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "The issue is still under debate."),
-                    ExampleSentenceKurdish(
-                        text: "بابەتەکە ھێشتا لە باسکردندایە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdebates9("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdebates9("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "The issue is still under debate.",
+            kurdishText: "بابەتەکە ھێشتا لە باسکردندایە.",
+            onPressedBritish: () => speakdebates9("en-GB"),
+            onPressedAmerican: () => speakdebates9("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
                   "٣. (کردار) باسکردنی شتێک لە پێش بڕیاردانێک یان یان دۆزینەوەی چارەسەر"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "Politicians will be debating the bill later this week."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "سیاسییەکان کۆتایی ئەم ھەفتەیە گەنگەشەی ئەمە دەکەن."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdebates10("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdebates10("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "Politicians will be debating the bill later this week.",
+            kurdishText: "سیاسییەکان کۆتایی ئەم ھەفتەیە گەنگەشەی ئەمە دەکەن.",
+            onPressedBritish: () => speakdebates10("en-GB"),
+            onPressedAmerican: () => speakdebates10("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "It is time to debate the issue of school funding."),
-                    ExampleSentenceKurdish(
-                        text: "کاتی ئەوەیە باسی خەرخی قوتابخانە بکەین."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdebates11("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdebates11("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "It is time to debate the issue of school funding.",
+            kurdishText: "کاتی ئەوەیە باسی خەرخی قوتابخانە بکەین.",
+            onPressedBritish: () => speakdebates11("en-GB"),
+            onPressedAmerican: () => speakdebates11("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The question of the origin of the universe is still hotly debated (= strongly argued about) by scientists."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "بابەتی بنەچەی گەردوون ھێشتا بە گەرمی لەلایەن زانایانەوە گەنگەشە دەکرێت."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdebates12("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdebates12("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "The question of the origin of the universe is still hotly debated (= strongly argued about) by scientists.",
+            kurdishText:
+                "بابەتی بنەچەی گەردوون ھێشتا بە گەرمی لەلایەن زانایانەوە گەنگەشە دەکرێت.",
+            onPressedBritish: () => speakdebates12("en-GB"),
+            onPressedAmerican: () => speakdebates12("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
                   "٤. (کردار) بە وریایی بیرکردنەوە سەبارەت بە شتێک پێش بڕیاردانێک"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "She debated with herself for a while, and then picked up the phone."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "بۆ ماوەیەک ڕاوێژی لەگەڵ خۆی کرد و دواتر موبایلەکەی ھەڵگرت."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdebates13("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdebates13("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "She debated with herself for a while, and then picked up the phone.",
+            kurdishText:
+                "بۆ ماوەیەک ڕاوێژی لەگەڵ خۆی کرد و دواتر موبایلەکەی ھەڵگرت.",
+            onPressedBritish: () => speakdebates13("en-GB"),
+            onPressedAmerican: () => speakdebates13("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "For a moment he debated going after her."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "بۆ ماوەیەک بیری لەوە کردەوە کە ئایا بە دوایدا بچێت."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdebates14("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdebates14("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "For a moment he debated going after her.",
+            kurdishText: "بۆ ماوەیەک بیری لەوە کردەوە کە ئایا بە دوایدا بچێت.",
+            onPressedBritish: () => speakdebates14("en-GB"),
+            onPressedAmerican: () => speakdebates14("en-US"),
           ),
         ],
       ),

@@ -379,89 +379,32 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   """١. (ھاوەڵناو) زۆر خرۆشاو سەبارەت بە شتێک کە ڕوودەدات یان شتێک کە دەتەوێت ڕووبدات"""),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            """She is eager for (= wants very much to get) her parents' approval."""),
-                    ExampleSentenceKurdish(
-                        text: """زۆر تامەزرۆیە بۆ ڕازیبووونی دایک و باوکی."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "eager", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakeagers1("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakeagers1("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                """She is eager for (= wants very much to get) her parents' approval.""",
+            kurdishText:
+                """زۆر تامەزرۆیە بۆ ڕازیبووونی دایک و باوکی.""", // eager
+            onPressedBritish: () => speakeagers1("en-GB"),
+            onPressedAmerican: () => speakeagers1("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            """Everyone in the class seemed eager to learn."""),
-                    ExampleSentenceKurdish(
-                        text: """ھەموان لە پۆلەکەدا بەتاسەی فێربوون بوون."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakeagers2("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakeagers2("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: """Everyone in the class seemed eager to learn.""",
+            kurdishText: """ھەموان لە پۆلەکەدا بەتاسەی فێربوون بوون.""",
+            onPressedBritish: () => speakeagers2("en-GB"),
+            onPressedAmerican: () => speakeagers2("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            """They're eager to please (= wanting to be helpful)."""),
-                    ExampleSentenceKurdish(
-                        text: """بەپەرۆشن بۆ یارمەتیدۆستی."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakeagers3("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakeagers3("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                """They're eager to please (= wanting to be helpful).""",
+            kurdishText: """بەپەرۆشن بۆ یارمەتیدۆستی.""",
+            onPressedBritish: () => speakeagers3("en-GB"),
+            onPressedAmerican: () => speakeagers3("en-US"),
           ),
         ],
       ),

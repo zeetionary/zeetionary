@@ -241,59 +241,20 @@ class KurdishMeaning extends StatelessWidget {
 // """),
           const DefinitionKurdish(
               text: "١. (ناو) ناوچەیەک کە قەشەیەکی باڵا تێیدا دەسەڵاتی ھەیە"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "There are fifty churches in the diocese."),
-                    ExampleSentenceKurdish(
-                        text: "چل کڵێسا لە قەڵەمڕەوی قەشە باڵاکەدا ھەیە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "diocese", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdioceses1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdioceses1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "There are fifty churches in the diocese.",
+            kurdishText: "چل کڵێسا لە قەڵەمڕەوی قەشە باڵاکەدا ھەیە.", // diocese
+            onPressedBritish: () => speakdioceses1("en-GB"),
+            onPressedAmerican: () => speakdioceses1("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The diocese covers the northern part of the state."),
-                    ExampleSentenceKurdish(
-                        text: "قەڵەمڕەوی قەشەکە باکووری ویلایەتەکە دەگرێتەوە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdioceses2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdioceses2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "The diocese covers the northern part of the state.",
+            kurdishText: "قەڵەمڕەوی قەشەکە باکووری ویلایەتەکە دەگرێتەوە.",
+            onPressedBritish: () => speakdioceses2("en-GB"),
+            onPressedAmerican: () => speakdioceses2("en-US"),
           ),
           // dioceses300"),
           // speakdioceses3

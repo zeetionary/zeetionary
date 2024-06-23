@@ -240,61 +240,23 @@ class KurdishMeaning extends StatelessWidget {
 کوردی: ڕاستەوخۆیی، ڕاست‌بوون، سەرڕاستی،	ئاشکرایی، لەڕوویی
 """),
           const DefinitionKurdish(text: "١. (ناو) ڕاستی و ڕوونی"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "He presents his case with clarity and directness."),
-                    ExampleSentenceKurdish(
-                        text: "کەیسەکەی بە ڕوونی و ڕاست و ڕەوانی باس کرد."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "directness", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdirectnesss1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdirectnesss1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "He presents his case with clarity and directness.",
+            kurdishText:
+                "کەیسەکەی بە ڕوونی و ڕاست و ڕەوانی باس کرد.", // directness
+            onPressedBritish: () => speakdirectnesss1("en-GB"),
+            onPressedAmerican: () => speakdirectnesss1("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The book treats a difficult subject with great simplicity and directness."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "کتێبەکە مامەڵە لەگەڵ بابەتێکی گران دەکات بە سادەیی و ڕاستەوخۆیی."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdirectnesss2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdirectnesss2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "The book treats a difficult subject with great simplicity and directness.",
+            kurdishText:
+                "کتێبەکە مامەڵە لەگەڵ بابەتێکی گران دەکات بە سادەیی و ڕاستەوخۆیی.",
+            onPressedBritish: () => speakdirectnesss2("en-GB"),
+            onPressedAmerican: () => speakdirectnesss2("en-US"),
           ),
           // directnesss300"),
           // speakdirectnesss3

@@ -414,60 +414,22 @@ class KurdishMeaning extends StatelessWidget {
 """),
           const DefinitionKurdish(
               text: """١. (کردار) لەبەرگرتنەوەی شتێک بە تەواوی"""),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            """Please keep the duplicated form and send us the original."""),
-                    ExampleSentenceKurdish(
-                        text:
-                            """تکایە دانە لەبەرگیراوەکە ببە و ڕەسەنەکەمان بدەوە."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "duplicate", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakduplicates1("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakduplicates1("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                """Please keep the duplicated form and send us the original.""",
+            kurdishText:
+                """تکایە دانە لەبەرگیراوەکە ببە و ڕەسەنەکەمان بدەوە.""", // duplicate
+            onPressedBritish: () => speakduplicates1("en-GB"),
+            onPressedAmerican: () => speakduplicates1("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: """ژممارە. (کردار) پێنناسە"""),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: """The documents had been duplicated."""),
-                    ExampleSentenceKurdish(
-                        text: """بەڵھەنامەکان لەبەرگیراونەتەوە."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakduplicates2("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakduplicates2("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: """The documents had been duplicated.""",
+            kurdishText: """بەڵھەنامەکان لەبەرگیراونەتەوە.""",
+            onPressedBritish: () => speakduplicates2("en-GB"),
+            onPressedAmerican: () => speakduplicates2("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: """ژممارە. (کردار) پێنناسە"""),
@@ -476,150 +438,52 @@ class KurdishMeaning extends StatelessWidget {
               text:
                   """٢. (کردار) دووبارە کردنەوەی شتێک، بەتایبەتی کە پێویست نییە"""),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            """Parenthood is an experience nothing else can duplicate."""),
-                    ExampleSentenceKurdish(
-                        text:
-                            """دایک و باوکێتی ئەزموونێکە کە جێگەی ناگیردرێتەوە."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakduplicates3("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakduplicates3("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                """Parenthood is an experience nothing else can duplicate.""",
+            kurdishText: """دایک و باوکێتی ئەزموونێکە کە جێگەی ناگیردرێتەوە.""",
+            onPressedBritish: () => speakduplicates3("en-GB"),
+            onPressedAmerican: () => speakduplicates3("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            """There's no point in duplicating work already done."""),
-                    ExampleSentenceKurdish(
-                        text:
-                            """ھیچ ھۆکارێک نییە بۆ دووبارەکردنەوەی شتێک کە پێشوەختە کراوە."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakduplicates4("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakduplicates4("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                """There's no point in duplicating work already done.""",
+            kurdishText:
+                """ھیچ ھۆکارێک نییە بۆ دووبارەکردنەوەی شتێک کە پێشوەختە کراوە.""",
+            onPressedBritish: () => speakduplicates4("en-GB"),
+            onPressedAmerican: () => speakduplicates4("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text: """٣. (ھاوەڵناو) لەبەرگیراوەی شتێکی دیکە"""),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            """The thieves were equipped with duplicate keys to the safe."""),
-                    ExampleSentenceKurdish(
-                        text: """دزەکان کلیلی لەبەرگیراوەی قاسەکەیان پێبوو."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakduplicates5("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakduplicates5("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                """The thieves were equipped with duplicate keys to the safe.""",
+            kurdishText: """دزەکان کلیلی لەبەرگیراوەی قاسەکەیان پێبوو.""",
+            onPressedBritish: () => speakduplicates5("en-GB"),
+            onPressedAmerican: () => speakduplicates5("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text: """٤. (ناو) شتێک کە لەبەرگیراوەی شتی دیکەیە"""),
           // const DividerSentences(),
           const AlsoEnglishckb(word: "ھەروەھا: copy"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            """Books may be disposed of if they are duplicates."""),
-                    ExampleSentenceKurdish(
-                        text:
-                            """کتێب دەکرێت فڕێ بدرێت ئەگەر لەبەرگیراوە بن."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakduplicates6("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakduplicates6("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: """Books may be disposed of if they are duplicates.""",
+            kurdishText: """کتێب دەکرێت فڕێ بدرێت ئەگەر لەبەرگیراوە بن.""",
+            onPressedBritish: () => speakduplicates6("en-GB"),
+            onPressedAmerican: () => speakduplicates6("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: """ژممارە. (کردار) پێنناسە"""),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: """Is this a duplicate or the original?"""),
-                    ExampleSentenceKurdish(
-                        text: """ئەمە لەبەرگیراوەیە یان ڕەسەنە؟"""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakduplicates7("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakduplicates7("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: """Is this a duplicate or the original?""",
+            kurdishText: """ئەمە لەبەرگیراوەیە یان ڕەسەنە؟""",
+            onPressedBritish: () => speakduplicates7("en-GB"),
+            onPressedAmerican: () => speakduplicates7("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: """ژممارە. (کردار) پێنناسە"""),

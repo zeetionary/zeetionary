@@ -234,32 +234,13 @@ class KurdishMeaning extends StatelessWidget {
 // کوردی: سەربە دەستایین، سەربە گروپ یان کۆمەڵێکی دینی
 // """),
           const DefinitionKurdish(text: "١. (ھاوەڵناو) سەر بە گرووپێکی ئایینی"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "Denominational differences can affect worship styles."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "جیاوازییەکانی گرووپی ئایینی دەکرێت کاریگەری لە شێوازی نزاکردن بکات."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "denominational", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdenominationals1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdenominationals1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "Denominational differences can affect worship styles.",
+            kurdishText:
+                "جیاوازییەکانی گرووپی ئایینی دەکرێت کاریگەری لە شێوازی نزاکردن بکات.", // denominational
+            onPressedBritish: () => speakdenominationals1("en-GB"),
+            onPressedAmerican: () => speakdenominationals1("en-US"),
           ),
           // denominationals200"),
           // speakdenominationals2

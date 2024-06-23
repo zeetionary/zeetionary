@@ -251,60 +251,22 @@ class KurdishMeaning extends StatelessWidget {
 کوردی: بەزەرەر، بەزیان، بەئازار، بەوەی، بەزەڕ، خراپ
 """),
           const DefinitionKurdish(text: "١. (ھاوەڵناو) زیانبەخش"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The policy will be detrimental to the peace process."),
-                    ExampleSentenceKurdish(
-                        text: "سیاسەتەکە دەکرێت زیانبەخش بێت بۆ پڕۆسەی ئاشتی."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "detrimental", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdetrimentals1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdetrimentals1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "The policy will be detrimental to the peace process.",
+            kurdishText:
+                "سیاسەتەکە دەکرێت زیانبەخش بێت بۆ پڕۆسەی ئاشتی.", // detrimental
+            onPressedBritish: () => speakdetrimentals1("en-GB"),
+            onPressedAmerican: () => speakdetrimentals1("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "This move could be seriously detrimental to the economy."),
-                    ExampleSentenceKurdish(
-                        text: "ئەم ھەنگاوە دەکرێت زیانبەخش بێت بۆ ئابووری."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdetrimentals2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdetrimentals2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "This move could be seriously detrimental to the economy.",
+            kurdishText: "ئەم ھەنگاوە دەکرێت زیانبەخش بێت بۆ ئابووری.",
+            onPressedBritish: () => speakdetrimentals2("en-GB"),
+            onPressedAmerican: () => speakdetrimentals2("en-US"),
           ),
           // detrimentals300"),
           // speakdetrimentals3

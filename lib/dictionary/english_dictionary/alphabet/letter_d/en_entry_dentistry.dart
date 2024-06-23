@@ -233,30 +233,11 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "١. (ناو) لێکۆڵینەوەی پزیشکیانەی دەم و ددان؛ کاری پزیشكی ددان"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "Where did Dr. Yee study dentistry?"),
-                    ExampleSentenceKurdish(
-                        text: "دکتۆر یی لە کوێ دانسازی خوێند؟"),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "dentistry", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdentistrys1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdentistrys1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "Where did Dr. Yee study dentistry?",
+            kurdishText: "دکتۆر یی لە کوێ دانسازی خوێند؟", // dentistry
+            onPressedBritish: () => speakdentistrys1("en-GB"),
+            onPressedAmerican: () => speakdentistrys1("en-US"),
           ),
           // dentistrys200"),
           // speakdentistrys2

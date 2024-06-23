@@ -379,89 +379,31 @@ class KurdishMeaning extends StatelessWidget {
 """),
           const DefinitionKurdish(
               text: """١. (ناو) کەسێک کە بۆ کەسێکی دیکە کار دەکات"""),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: """The firm has over 500 employees."""),
-                    ExampleSentenceKurdish(
-                        text: """کۆمپانیاکە زیاتر لە ٥٠٠ کارمەندی ھەیە."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "employee", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakemployees1("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakemployees1("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: """The firm has over 500 employees.""",
+            kurdishText:
+                """کۆمپانیاکە زیاتر لە ٥٠٠ کارمەندی ھەیە.""", // employee
+            onPressedBritish: () => speakemployees1("en-GB"),
+            onPressedAmerican: () => speakemployees1("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            """He is in charge of hiring and firing employees."""),
-                    ExampleSentenceKurdish(
-                        text: """بەرپرسی وەرگرتن و دەرکردنی کارمەندانە."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakemployees2("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakemployees2("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: """He is in charge of hiring and firing employees.""",
+            kurdishText: """بەرپرسی وەرگرتن و دەرکردنی کارمەندانە.""",
+            onPressedBritish: () => speakemployees2("en-GB"),
+            onPressedAmerican: () => speakemployees2("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            """The company has worked to attract skilled employees."""),
-                    ExampleSentenceKurdish(
-                        text:
-                            """کۆمپانیاکە ھەوڵی داوە کارمەندی شارەزا ڕابکێشێت."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakemployees3("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakemployees3("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                """The company has worked to attract skilled employees.""",
+            kurdishText: """کۆمپانیاکە ھەوڵی داوە کارمەندی شارەزا ڕابکێشێت.""",
+            onPressedBritish: () => speakemployees3("en-GB"),
+            onPressedAmerican: () => speakemployees3("en-US"),
           ),
           // employees400employees4
           // speakemployees4

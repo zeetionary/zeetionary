@@ -404,173 +404,59 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "١. (ھاوەڵناو) دیاربوونی بەو شێوەیەی کە بیر لە شتی دیکە دەکەیتەوە و ئاگات لێ نییە چی لە دەورووبەرت ڕوودەدات"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "She had a dreamy look in her eyes."),
-                    ExampleSentenceKurdish(
-                        text: "نیگایەکی خەیاڵاوی لە چاوەکانیدا بوو."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "dreamy", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdreamys1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdreamys1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "She had a dreamy look in her eyes.",
+            kurdishText: "نیگایەکی خەیاڵاوی لە چاوەکانیدا بوو.", // dreamy
+            onPressedBritish: () => speakdreamys1("en-GB"),
+            onPressedAmerican: () => speakdreamys1("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "Her eyes looked a little dreamy."),
-                    ExampleSentenceKurdish(
-                        text: "چاوەکانی کەمێک خەیاڵاوی دیاربوون."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdreamys2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdreamys2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "Her eyes looked a little dreamy.",
+            kurdishText: "چاوەکانی کەمێک خەیاڵاوی دیاربوون.",
+            onPressedBritish: () => speakdreamys2("en-GB"),
+            onPressedAmerican: () => speakdreamys2("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
                   "٢. (ھاوەڵناو) ھەبوونی خەون و خەیاڵی زۆر کە زۆر ڕاستی نیین"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "Paul was dreamy and not very practical."),
-                    ExampleSentenceKurdish(
-                        text: "پاوڵ زیاتر خەیاڵاوی بوو و ھێندە کرداری نەبوو."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdreamys3("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdreamys3("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "Paul was dreamy and not very practical.",
+            kurdishText: "پاوڵ زیاتر خەیاڵاوی بوو و ھێندە کرداری نەبوو.",
+            onPressedBritish: () => speakdreamys3("en-GB"),
+            onPressedAmerican: () => speakdreamys3("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: "٣. (ھاوەڵناو) وەک ئەوەی خەوتبیت"),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "He moved in the dreamy way of a man in a state of shock."),
-                    ExampleSentenceKurdish(
-                        text: "دەجوڵا بە شێوەی پیاوێکی خەوتوو لە دۆخی شۆکیدا."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdreamys4("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdreamys4("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "He moved in the dreamy way of a man in a state of shock.",
+            kurdishText: "دەجوڵا بە شێوەی پیاوێکی خەوتوو لە دۆخی شۆکیدا.",
+            onPressedBritish: () => speakdreamys4("en-GB"),
+            onPressedAmerican: () => speakdreamys4("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: "٤. (ھاوەڵناو) خۆش و ئاسوودەبەخش"),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "We had a lovely, almost dreamy life in Paris."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "ژیانێکی جوانی تاڕادەیەک خەون‌ئاسامان لە پاریس ھەبوو."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdreamys5("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdreamys5("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "We had a lovely, almost dreamy life in Paris.",
+            kurdishText: "ژیانێکی جوانی تاڕادەیەک خەون‌ئاسامان لە پاریس ھەبوو.",
+            onPressedBritish: () => speakdreamys5("en-GB"),
+            onPressedAmerican: () => speakdreamys5("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: "٥. (ھاوەڵناو) جوان"),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "What's he like? I bet he's really dreamy."),
-                    ExampleSentenceKurdish(text: "شێوەی چۆنە؟ دڵنیام جوانە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdreamys6("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdreamys6("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "What's he like? I bet he's really dreamy.",
+            kurdishText: "شێوەی چۆنە؟ دڵنیام جوانە.",
+            onPressedBritish: () => speakdreamys6("en-GB"),
+            onPressedAmerican: () => speakdreamys6("en-US"),
           ),
           // dreamys700"),
           // speakdreamys7

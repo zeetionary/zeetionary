@@ -249,87 +249,29 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "١. (ناو) دەنگی بەرز و ناخۆش کە بۆ ماوەیەکی درێژ بەردەوام دەبێت"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "The children were making an awful din."),
-                    ExampleSentenceKurdish(
-                        text: "منداڵەکان قاووقیژی ناخۆشیان دەکرد."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "din", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdins1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdins1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "The children were making an awful din.",
+            kurdishText: "منداڵەکان قاووقیژی ناخۆشیان دەکرد.", // din
+            onPressedBritish: () => speakdins1("en-GB"),
+            onPressedAmerican: () => speakdins1("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "We couldn’t hear ourselves speak above the din."),
-                    ExampleSentenceKurdish(
-                        text: "گوێمان لە خۆمان نەبوو بەھۆی قاڵەقاڵەکەوە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdins2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdins2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "We couldn’t hear ourselves speak above the din.",
+            kurdishText: "گوێمان لە خۆمان نەبوو بەھۆی قاڵەقاڵەکەوە.",
+            onPressedBritish: () => speakdins2("en-GB"),
+            onPressedAmerican: () => speakdins2("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "Who’s making that awful din?"),
-                    ExampleSentenceKurdish(
-                        text: "کێیە ئەو ژاوە ژاوە ناخۆشە دەکات؟"),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdins3("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdins3("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "Who’s making that awful din?",
+            kurdishText: "کێیە ئەو ژاوە ژاوە ناخۆشە دەکات؟",
+            onPressedBritish: () => speakdins3("en-GB"),
+            onPressedAmerican: () => speakdins3("en-US"),
           ),
           // dins400"),
           // speakdins4

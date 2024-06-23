@@ -274,175 +274,60 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "١. (ناو) شتێکی تیژ کە پەڕە بە کۆتاییەکەیەتی بۆ ئەوەی بفڕێت و لە یاریدا بەکاردێت"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The tribesmen used poisoned darts to hunt in the jungle."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "پیاوانی تیرەکە دارتی ژەھراوییان بەکاردەھێنا بۆ ڕاوکردن لە جەنگەڵەکە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "dart", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdarts1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdarts1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "The tribesmen used poisoned darts to hunt in the jungle.",
+            kurdishText:
+                "پیاوانی تیرەکە دارتی ژەھراوییان بەکاردەھێنا بۆ ڕاوکردن لە جەنگەڵەکە.", // dart
+            onPressedBritish: () => speakdarts1("en-GB"),
+            onPressedAmerican: () => speakdarts1("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
                   "٢. (ناو) یارییەکە کە تێیدا دارت دەتەقێندرێت بۆ تەختەیەک کە ژمارەی لەسەرە بۆ وەرگرتنی خاڵەکان"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "They spend the evening playing darts in the pub."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "شەوەکە بەسەر دەبەن بە کردنی یاری دارت لە یانە شەوانەکە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdarts2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdarts2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "They spend the evening playing darts in the pub.",
+            kurdishText:
+                "شەوەکە بەسەر دەبەن بە کردنی یاری دارت لە یانە شەوانەکە.",
+            onPressedBritish: () => speakdarts2("en-GB"),
+            onPressedAmerican: () => speakdarts2("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: "٣. (ناو) جوڵەیەکی خێرا و لەناکاو"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "She made a dart for the door."),
-                    ExampleSentenceKurdish(text: "ھەڵبەزی بەرەو دەرگاکە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdarts3("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdarts3("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "She made a dart for the door.",
+            kurdishText: "ھەڵبەزی بەرەو دەرگاکە.",
+            onPressedBritish: () => speakdarts3("en-GB"),
+            onPressedAmerican: () => speakdarts3("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٤. (ناو) ھەستکردنێکی لەناکاو بە ھەستێکی توند"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "Nina felt a sudden dart of panic."),
-                    ExampleSentenceKurdish(
-                        text: "نینا تووشی ھەستێکی لەناکاوی ترس بوو."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdarts4("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdarts4("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "Nina felt a sudden dart of panic.",
+            kurdishText: "نینا تووشی ھەستێکی لەناکاوی ترس بوو.",
+            onPressedBritish: () => speakdarts4("en-GB"),
+            onPressedAmerican: () => speakdarts4("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٥. (کردار) جوڵان بە خێرایی و لەناکاو بە ئاراستەیەکدا"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "A dog darted across the road in front of me."),
-                    ExampleSentenceKurdish(
-                        text: "سەگێک بە ڕێگاکەی پێشمدا بۆی دەرچوو."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdarts5("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdarts5("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "A dog darted across the road in front of me.",
+            kurdishText: "سەگێک بە ڕێگاکەی پێشمدا بۆی دەرچوو.",
+            onPressedBritish: () => speakdarts5("en-GB"),
+            onPressedAmerican: () => speakdarts5("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٦. (کردار) سەیرکردنی کەسێک بە خێرایی و لەناکاو"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                      text: "He darted an impatient look at Vicky.",
-                      note: "Also: He darted Vicky an impatient look.",
-                    ),
-                    ExampleSentenceKurdish(
-                        text: "نیگایەکی بێ‌سەبرانەی لە ڤیکی کرد."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdarts6("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdarts6("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "He darted an impatient look at Vicky.",
+            englishNote: "Also: He darted Vicky an impatient look.",
+            kurdishText: "نیگایەکی بێ‌سەبرانەی لە ڤیکی کرد.",
+            onPressedBritish: () => speakdarts6("en-GB"),
+            onPressedAmerican: () => speakdarts6("en-US"),
           ),
         ],
       ),

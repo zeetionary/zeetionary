@@ -362,31 +362,12 @@ class KurdishMeaning extends StatelessWidget {
 """),
           const DefinitionKurdish(
               text: """١. (ناو) کورسییەکی گەورەی ئاسوودەبەخش"""),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: """The cat loves napping on the easy chair."""),
-                    ExampleSentenceKurdish(
-                        text:
-                            """پشیلەکە حەزی بە خەوە لەسەر کورسییە دەسکدارەکە."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "easy chair", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakeasychairs1("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakeasychairs1("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: """The cat loves napping on the easy chair.""",
+            kurdishText:
+                """پشیلەکە حەزی بە خەوە لەسەر کورسییە دەسکدارەکە.""", // easy chair
+            onPressedBritish: () => speakeasychairs1("en-GB"),
+            onPressedAmerican: () => speakeasychairs1("en-US"),
           ),
           // easychairs200easychairs2
           // speakeasychairs2

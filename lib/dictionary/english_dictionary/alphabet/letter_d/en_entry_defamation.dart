@@ -242,58 +242,20 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "١. (ناو) ناوزڕاندن یان لەکەدارکردن بە گوتنی شتی خراپ یان ناڕاست لەسەر کەسێک"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "The company sued for defamation."),
-                    ExampleSentenceKurdish(
-                        text: "کۆمپانیاکە سکاڵای بۆ ناوزڕاندن کرد."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "defamation", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdefamations1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdefamations1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "The company sued for defamation.",
+            kurdishText: "کۆمپانیاکە سکاڵای بۆ ناوزڕاندن کرد.", // defamation
+            onPressedBritish: () => speakdefamations1("en-GB"),
+            onPressedAmerican: () => speakdefamations1("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "He brought a legal action against the magazine for defamation of character."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "کەیسێکی یاسایی دژ بە گۆڤارەکە کردەوە بۆ لەکەدارکردنی کەسایەتی."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdefamations2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdefamations2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "He brought a legal action against the magazine for defamation of character.",
+            kurdishText:
+                "کەیسێکی یاسایی دژ بە گۆڤارەکە کردەوە بۆ لەکەدارکردنی کەسایەتی.",
+            onPressedBritish: () => speakdefamations2("en-GB"),
+            onPressedAmerican: () => speakdefamations2("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "٣. (ھاوەڵناو) پێنناسە"),

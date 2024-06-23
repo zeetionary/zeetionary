@@ -364,32 +364,13 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   """١. (کورتکراوە) کورتکراوە بۆ ئینگلیزی وەک زمانێکی بیانی English as a foreign language"""),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            """Which bookshop has the largest selection of EFL materials?"""),
-                    ExampleSentenceKurdish(
-                        text:
-                            """چی کتێبفرۆشێک زۆرترین ھەڵبژاردەی بابەتی EFL ــی ھەیە."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "EFL", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakEFLs1("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakEFLs1("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                """Which bookshop has the largest selection of EFL materials?""",
+            kurdishText:
+                """چی کتێبفرۆشێک زۆرترین ھەڵبژاردەی بابەتی EFL ــی ھەیە.""", // EFL
+            onPressedBritish: () => speakEFLs1("en-GB"),
+            onPressedAmerican: () => speakEFLs1("en-US"),
           ),
           // EFLs200EFLs2
           // speakEFLs2

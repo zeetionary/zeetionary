@@ -282,178 +282,64 @@ class KurdishMeaning extends StatelessWidget {
 کوردی: وێران کردن، خراپ کردن، داڕووخاندن
 """),
           const DefinitionKurdish(text: "١. (کردار) ڕووخاندنی بینایەک"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "The factory is due to be demolished next year."),
-                    ExampleSentenceKurdish(
-                        text: "کارگەکە ساڵی داھاتوو دەڕووخێندرێت."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "demolish", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdemolishs1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdemolishs1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "The factory is due to be demolished next year.",
+            kurdishText: "کارگەکە ساڵی داھاتوو دەڕووخێندرێت.", // demolish
+            onPressedBritish: () => speakdemolishs1("en-GB"),
+            onPressedAmerican: () => speakdemolishs1("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The old slums are being demolished to make way for a new housing project."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "گەڕەکە ھەژارنشینەکان دەڕووخێندرێن بۆ درووستکردنی شوێن بۆ پڕۆژەی خانووبەرە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdemolishs2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdemolishs2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "The old slums are being demolished to make way for a new housing project.",
+            kurdishText:
+                "گەڕەکە ھەژارنشینەکان دەڕووخێندرێن بۆ درووستکردنی شوێن بۆ پڕۆژەی خانووبەرە.",
+            onPressedBritish: () => speakdemolishs2("en-GB"),
+            onPressedAmerican: () => speakdemolishs2("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The car had skidded across the road and demolished part of the wall."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "ئۆتۆمبێلەکە بە شەقامەکەدا خلیسکابوو و بەشێکی دیوارەکەی ڕووخاندبوو."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdemolishs3("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdemolishs3("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "The car had skidded across the road and demolished part of the wall.",
+            kurdishText:
+                "ئۆتۆمبێلەکە بە شەقامەکەدا خلیسکابوو و بەشێکی دیوارەکەی ڕووخاندبوو.",
+            onPressedBritish: () => speakdemolishs3("en-GB"),
+            onPressedAmerican: () => speakdemolishs3("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
                   "٢. (کردار) پیشاندانی ئەوەی بیرۆکەیەک یان بیردۆزێک تەواو ھەڵەیە"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "A recent book has demolished this theory."),
-                    ExampleSentenceKurdish(
-                        text: "کتێبێکی تازە ئەم بیردۆزەی لەناوبردووە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdemolishs4("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdemolishs4("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "A recent book has demolished this theory.",
+            kurdishText: "کتێبێکی تازە ئەم بیردۆزەی لەناوبردووە.",
+            onPressedBritish: () => speakdemolishs4("en-GB"),
+            onPressedAmerican: () => speakdemolishs4("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
                   "٣. (کردار) بە تەواوی شکستھێنان بە کەسێک بە ئاسانی و تەواوی"),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "They demolished New Zealand 44–6 in the final."),
-                    ExampleSentenceKurdish(
-                        text: "لە یاری کۆتاییدا ٤٤-٦ نیوزلەندایان شکستپێھێنا."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdemolishs5("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdemolishs5("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "They demolished New Zealand 44–6 in the final.",
+            kurdishText: "لە یاری کۆتاییدا ٤٤-٦ نیوزلەندایان شکستپێھێنا.",
+            onPressedBritish: () => speakdemolishs5("en-GB"),
+            onPressedAmerican: () => speakdemolishs5("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: "٤. (کردار) خواردنی شتێک بە خێرایی"),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "The children demolished their chips."),
-                    ExampleSentenceKurdish(
-                        text: "منداڵەکان چیپسەکانیان ھەڵلووشی."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdemolishs6("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdemolishs6("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "The children demolished their chips.",
+            kurdishText: "منداڵەکان چیپسەکانیان ھەڵلووشی.",
+            onPressedBritish: () => speakdemolishs6("en-GB"),
+            onPressedAmerican: () => speakdemolishs6("en-US"),
           ),
           // demolishs700"),
           // speakdemolishs7

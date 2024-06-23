@@ -250,91 +250,33 @@ class KurdishMeaning extends StatelessWidget {
 کوردی: فڕێدان، تێک‌ھاڕین،	دەزگای ھاڕینی زبڵ‌وزاڵ (لە چێشت‌خانەدا)،	(بۆمب) لەکارخستن،	ھەبووون، لەبەردەستابوون، دەس‌پێ‌ڕاگەیشتن، چاودێری، کۆنتڕۆڵ،	ڕێکخستن، ڕێک‌وپێک‌کردن، تەکوزاندن،	ڕاگوێستن، بەنێوکردن
 """),
           const DefinitionKurdish(text: "١. (ناو) کاری فڕێدانی شتێک"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The council is responsible for waste disposal and street cleaning."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "ئەنجوومەنەکە بەرپرسە لە فڕێدانی پاشەڕۆ و پاککردنەوەی شەقامەکان."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "disposal", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdisposals1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdisposals1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "The council is responsible for waste disposal and street cleaning.",
+            kurdishText:
+                "ئەنجوومەنەکە بەرپرسە لە فڕێدانی پاشەڕۆ و پاککردنەوەی شەقامەکان.", // disposal
+            onPressedBritish: () => speakdisposals1("en-GB"),
+            onPressedAmerican: () => speakdisposals1("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The device was defused by army bomb disposal experts."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "ئامێرەکە لەلایەن شارەزایانی سوپا بۆ پووچەڵکردنەوەی بۆمب پوچەڵکرایەوە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdisposals2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdisposals2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "The device was defused by army bomb disposal experts.",
+            kurdishText:
+                "ئامێرەکە لەلایەن شارەزایانی سوپا بۆ پووچەڵکردنەوەی بۆمب پوچەڵکرایەوە.",
+            onPressedBritish: () => speakdisposals2("en-GB"),
+            onPressedAmerican: () => speakdisposals2("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٢. (ناو) فرۆشتنی بەشێک لە بازرگانییەک، زەوییەک، ھتد"),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The next step is to think about disposal of your assets."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "ھەنگاوی دواتر بیرکردنەوەیە لە فرۆشتنی سەرمایەکانت."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdisposals3("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdisposals3("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "The next step is to think about disposal of your assets.",
+            kurdishText: "ھەنگاوی دواتر بیرکردنەوەیە لە فرۆشتنی سەرمایەکانت.",
+            onPressedBritish: () => speakdisposals3("en-GB"),
+            onPressedAmerican: () => speakdisposals3("en-US"),
           ),
           // disposals400"),
           // speakdisposals4

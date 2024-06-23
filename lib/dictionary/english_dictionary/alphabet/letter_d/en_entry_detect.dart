@@ -268,118 +268,41 @@ class KurdishMeaning extends StatelessWidget {
 """),
           const DefinitionKurdish(
               text: "١. (کردار) دۆزینەوە یان تێبینی کردنی شتێک"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The tests are designed to detect the disease early."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "پشکنینەکان دیزاین کراون کە زوو تێبینی نەخۆشییەکە بکەن."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "detect", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdetects1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdetects1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "The tests are designed to detect the disease early.",
+            kurdishText:
+                "پشکنینەکان دیزاین کراون کە زوو تێبینی نەخۆشییەکە بکەن.", // detect
+            onPressedBritish: () => speakdetects1("en-GB"),
+            onPressedAmerican: () => speakdetects1("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "Only 8 per cent of regular cola consumers detected a difference."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "تەنھا ٨ لە سەدی ئەو کەسانەی کۆلا دەخۆنەوە تێبینی جیاوازییان کرد."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdetects2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdetects2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "Only 8 per cent of regular cola consumers detected a difference.",
+            kurdishText:
+                "تەنھا ٨ لە سەدی ئەو کەسانەی کۆلا دەخۆنەوە تێبینی جیاوازییان کرد.",
+            onPressedBritish: () => speakdetects2("en-GB"),
+            onPressedAmerican: () => speakdetects2("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "This is an instrument that can detect very small amounts of radiation."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "ئەمە ئامێرێکە کە ھەست بە ڕێژەی زۆر کەمی تیشکدان دەکات."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdetects3("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdetects3("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "This is an instrument that can detect very small amounts of radiation.",
+            kurdishText:
+                "ئەمە ئامێرێکە کە ھەست بە ڕێژەی زۆر کەمی تیشکدان دەکات.",
+            onPressedBritish: () => speakdetects3("en-GB"),
+            onPressedAmerican: () => speakdetects3("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "Some substances can be detected fairly easily."),
-                    ExampleSentenceKurdish(
-                        text: "ھەندێک مادە دەکرێت بە ئاسانی تێبینی بکرێن."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdetects4("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdetects4("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "Some substances can be detected fairly easily.",
+            kurdishText: "ھەندێک مادە دەکرێت بە ئاسانی تێبینی بکرێن.",
+            onPressedBritish: () => speakdetects4("en-GB"),
+            onPressedAmerican: () => speakdetects4("en-US"),
           ),
           // detects500"),
           // speakdetects5

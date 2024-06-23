@@ -309,279 +309,84 @@ class KurdishMeaning extends StatelessWidget {
 """),
           const DefinitionKurdish(
               text: "١. (کردار) کەمبوون، بچووکبوون، لاوازبوون، ھتد"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "Support for the party continues to decline."),
-                    ExampleSentenceKurdish(
-                        text: "پشتیوانی بۆ پارتەکە بەردەوامە لە لاوازبوون."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "decline", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdeclines1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdeclines1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "Support for the party continues to decline.",
+            kurdishText:
+                "پشتیوانی بۆ پارتەکە بەردەوامە لە لاوازبوون.", // decline
+            onPressedBritish: () => speakdeclines1("en-GB"),
+            onPressedAmerican: () => speakdeclines1("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "Sales of milk declined by 4 per cent."),
-                    ExampleSentenceKurdish(
-                        text: "فرۆشی شیر بە ٤ لە سەد کەمی کرد."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdeclines2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdeclines2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "Sales of milk declined by 4 per cent.",
+            kurdishText: "فرۆشی شیر بە ٤ لە سەد کەمی کرد.",
+            onPressedBritish: () => speakdeclines2("en-GB"),
+            onPressedAmerican: () => speakdeclines2("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The city declined in importance in the nineteenth century."),
-                    ExampleSentenceKurdish(
-                        text: "شارەکە لە گرنگیدا دواکەوت لە سەدەی نۆزدەیەمدا."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdeclines3("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdeclines3("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "The city declined in importance in the nineteenth century.",
+            kurdishText: "شارەکە لە گرنگیدا دواکەوت لە سەدەی نۆزدەیەمدا.",
+            onPressedBritish: () => speakdeclines3("en-GB"),
+            onPressedAmerican: () => speakdeclines3("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "Her health began to decline."),
-                    ExampleSentenceKurdish(
-                        text: "تەندرووستی دەستی بە لاوازبوون کرد."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdeclines4("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdeclines4("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "Her health began to decline.",
+            kurdishText: "تەندرووستی دەستی بە لاوازبوون کرد.",
+            onPressedBritish: () => speakdeclines4("en-GB"),
+            onPressedAmerican: () => speakdeclines4("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٢. (کردار) بەڕێزەوە ڕەتکردنەوەی کردنی شتێک"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "I offered to give them a lift but they declined."),
-                    ExampleSentenceKurdish(
-                        text: "پێشنیازی گەیاندنم بۆ کردن بەڵام ڕەتیان کردەوە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdeclines5("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdeclines5("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "I offered to give them a lift but they declined.",
+            kurdishText: "پێشنیازی گەیاندنم بۆ کردن بەڵام ڕەتیان کردەوە.",
+            onPressedBritish: () => speakdeclines5("en-GB"),
+            onPressedAmerican: () => speakdeclines5("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "We politely declined her invitation."),
-                    ExampleSentenceKurdish(
-                        text: "بەڕێزەوە بانگھێشتەکەیمان ڕەتکردەوە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdeclines6("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdeclines6("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "We politely declined her invitation.",
+            kurdishText: "بەڕێزەوە بانگھێشتەکەیمان ڕەتکردەوە.",
+            onPressedBritish: () => speakdeclines6("en-GB"),
+            onPressedAmerican: () => speakdeclines6("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "She declined a second glass of wine and called for a taxi."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "دووەم گڵاس بیرەی ڕەتکردەوە و داوای تەکسییەکی کرد."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdeclines7("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdeclines7("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "She declined a second glass of wine and called for a taxi.",
+            kurdishText: "دووەم گڵاس بیرەی ڕەتکردەوە و داوای تەکسییەکی کرد.",
+            onPressedBritish: () => speakdeclines7("en-GB"),
+            onPressedAmerican: () => speakdeclines7("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "Their spokesman declined to comment on the allegations."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "وتەبێژەکەیان ڕەتیکردەوە لێدوان لەسەر تۆمەتەکان بدات."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdeclines8("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdeclines8("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "Their spokesman declined to comment on the allegations.",
+            kurdishText: "وتەبێژەکەیان ڕەتیکردەوە لێدوان لەسەر تۆمەتەکان بدات.",
+            onPressedBritish: () => speakdeclines8("en-GB"),
+            onPressedAmerican: () => speakdeclines8("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
                   "٣. (ناو) دابەزینی بەردەوامی بەھا، ژمارە، کوالێتی، ھتد ـی شتێک"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "There has been a 5 per cent decline in student numbers."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "٥ لە سەد کەمبوون لە ژمارەی خوێندکاران ڕوویداوە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdeclines9("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdeclines9("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "There has been a 5 per cent decline in student numbers.",
+            kurdishText: "٥ لە سەد کەمبوون لە ژمارەی خوێندکاران ڕوویداوە.",
+            onPressedBritish: () => speakdeclines9("en-GB"),
+            onPressedAmerican: () => speakdeclines9("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "They have experienced decades of economic decline."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "ئەزموونی دەیان ساڵ لاوازبوونی ئابوورییان کردووە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdeclines10("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdeclines10("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "They have experienced decades of economic decline.",
+            kurdishText: "ئەزموونی دەیان ساڵ لاوازبوونی ئابوورییان کردووە.",
+            onPressedBritish: () => speakdeclines10("en-GB"),
+            onPressedAmerican: () => speakdeclines10("en-US"),
           ),
         ],
       ),

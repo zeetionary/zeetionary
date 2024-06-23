@@ -244,59 +244,21 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "١. (ناو) جۆرە تەزوویەکی کارەبا کە تەنھا بە یەک ئاراستەدا دەچێت"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "Solar panels produce direct current for homes."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "ڕووتەختی خۆری تەزووی ڕاستەوخۆ بۆ ماڵان دابین دەکەن."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "direct current", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdirectcurrents1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdirectcurrents1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "Solar panels produce direct current for homes.",
+            kurdishText:
+                "ڕووتەختی خۆری تەزووی ڕاستەوخۆ بۆ ماڵان دابین دەکەن.", // direct current
+            onPressedBritish: () => speakdirectcurrents1("en-GB"),
+            onPressedAmerican: () => speakdirectcurrents1("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "Flashlights operate on direct current."),
-                    ExampleSentenceKurdish(
-                        text: "فلاشلایت بە تەزووی ڕاستەوخۆ کاردەکەن."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdirectcurrents2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdirectcurrents2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "Flashlights operate on direct current.",
+            kurdishText: "فلاشلایت بە تەزووی ڕاستەوخۆ کاردەکەن.",
+            onPressedBritish: () => speakdirectcurrents2("en-GB"),
+            onPressedAmerican: () => speakdirectcurrents2("en-US"),
           ),
           // directcurrents300"),
           // speakdirectcurrents3

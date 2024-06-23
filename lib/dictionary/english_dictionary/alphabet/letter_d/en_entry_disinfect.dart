@@ -241,56 +241,18 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "١. (کردار) پاککردنەوەی شتێک بە مادەیەک کە بەکتریا دەکوژێت"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "They disinfect the doorknobs every day."),
-                    ExampleSentenceKurdish(
-                        text: "ھەموو ڕۆژێک قوڵفی دەرگاکان پاکدەکەنەوە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "disinfect", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdisinfects1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdisinfects1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "They disinfect the doorknobs every day.",
+            kurdishText: "ھەموو ڕۆژێک قوڵفی دەرگاکان پاکدەکەنەوە.", // disinfect
+            onPressedBritish: () => speakdisinfects1("en-GB"),
+            onPressedAmerican: () => speakdisinfects1("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "The hospital rooms are disinfected regularly."),
-                    ExampleSentenceKurdish(
-                        text: "ژوورەکانی نەخۆشخانەکە زوو زوو پاکدەکرێنەوە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdisinfects2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdisinfects2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "The hospital rooms are disinfected regularly.",
+            kurdishText: "ژوورەکانی نەخۆشخانەکە زوو زوو پاکدەکرێنەوە.",
+            onPressedBritish: () => speakdisinfects2("en-GB"),
+            onPressedAmerican: () => speakdisinfects2("en-US"),
           ),
           // disinfects300"),
           // speakdisinfects3

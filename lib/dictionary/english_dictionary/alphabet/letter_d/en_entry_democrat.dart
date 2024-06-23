@@ -258,91 +258,33 @@ class KurdishMeaning extends StatelessWidget {
 // """),
           const DefinitionKurdish(
               text: "١. (ناو) کەسێک کە باوەڕی بە سیستەمی دیموکراسی ھەیە"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "She is a democrat who believes in equal rights."),
-                    ExampleSentenceKurdish(
-                        text: "دیموکراتێکە کە باوەڕی بە مافی یەکسان ھەیە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "democrat", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdemocrats1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdemocrats1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "She is a democrat who believes in equal rights.",
+            kurdishText:
+                "دیموکراتێکە کە باوەڕی بە مافی یەکسان ھەیە.", // democrat
+            onPressedBritish: () => speakdemocrats1("en-GB"),
+            onPressedAmerican: () => speakdemocrats1("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "He identifies as a democrat and supports free speech."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "خۆی وەک دیموکراتێک دەناسێنێت و باوەڕی بە ئازادیی ڕادەربڕین ھەیە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdemocrats2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdemocrats2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "He identifies as a democrat and supports free speech.",
+            kurdishText:
+                "خۆی وەک دیموکراتێک دەناسێنێت و باوەڕی بە ئازادیی ڕادەربڕین ھەیە.",
+            onPressedBritish: () => speakdemocrats2("en-GB"),
+            onPressedAmerican: () => speakdemocrats2("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٢. (ناو) ئەندام یان لایەنگیرێکی پارتی دیموکراتی ئەمریکا"),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "She is a democrat and volunteers for the party."),
-                    ExampleSentenceKurdish(
-                        text: "دیموکراتێکە و خۆبەخشی بۆ پارتەکە دەکات."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdemocrats3("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdemocrats3("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "She is a democrat and volunteers for the party.",
+            kurdishText: "دیموکراتێکە و خۆبەخشی بۆ پارتەکە دەکات.",
+            onPressedBritish: () => speakdemocrats3("en-GB"),
+            onPressedAmerican: () => speakdemocrats3("en-US"),
           ),
           // democrats400"),
           // speakdemocrats4

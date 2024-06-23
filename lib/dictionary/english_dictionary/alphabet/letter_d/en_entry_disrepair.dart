@@ -242,62 +242,24 @@ class KurdishMeaning extends StatelessWidget {
 // """),
           const DefinitionKurdish(
               text: "١. (ناو) شوێنێک کە چاودێری نەکراوە و لە دۆخێکی خراپدایە"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The station quickly fell into disrepair after it was closed."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "وێستگەکە زوو بوو بە وێرانە لە دوای ئەوەی داخرا."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "disrepair", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdisrepairs1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdisrepairs1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "The station quickly fell into disrepair after it was closed.",
+            kurdishText:
+                "وێستگەکە زوو بوو بە وێرانە لە دوای ئەوەی داخرا.", // disrepair
+            onPressedBritish: () => speakdisrepairs1("en-GB"),
+            onPressedAmerican: () => speakdisrepairs1("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The castle was in such a state of disrepair that they decided not to spend money on it."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "قەڵاکە ھێندە لە دۆخێکی خراپدا بوو کە بڕیاریاندا پارەی تێدا خەرج نەکەن."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdisrepairs2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdisrepairs2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "The castle was in such a state of disrepair that they decided not to spend money on it.",
+            kurdishText:
+                "قەڵاکە ھێندە لە دۆخێکی خراپدا بوو کە بڕیاریاندا پارەی تێدا خەرج نەکەن.",
+            onPressedBritish: () => speakdisrepairs2("en-GB"),
+            onPressedAmerican: () => speakdisrepairs2("en-US"),
           ),
           // disrepairs300"),
           // speakdisrepairs3

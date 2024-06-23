@@ -241,60 +241,21 @@ class KurdishMeaning extends StatelessWidget {
 """),
           const DefinitionKurdish(
               text: "١. (ھاوەڵناو) پیاوێکی سەرنجڕاکێش و پڕ لە باوەڕبەخۆبوون"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The dashing young officer caught everyone's attention at the ball."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "ئەفسەرە گەنجە قۆزەکە سەرنجی ھەموانی ڕاکێشا لە شاییەکە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "dashing", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdashings1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdashings1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "The dashing young officer caught everyone's attention at the ball.",
+            kurdishText:
+                "ئەفسەرە گەنجە قۆزەکە سەرنجی ھەموانی ڕاکێشا لە شاییەکە.", // dashing
+            onPressedBritish: () => speakdashings1("en-GB"),
+            onPressedAmerican: () => speakdashings1("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: "٢. (ھاوەڵناو) شتێکی سەرنجڕاکێش"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "He wore a dashing red waistcoat to the party."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "جلیتقەیەکی سووری سەرنجڕاکێشی لەبەرکرد بۆ ئاھەنگەکە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdashings2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdashings2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "He wore a dashing red waistcoat to the party.",
+            kurdishText: "جلیتقەیەکی سووری سەرنجڕاکێشی لەبەرکرد بۆ ئاھەنگەکە.",
+            onPressedBritish: () => speakdashings2("en-GB"),
+            onPressedAmerican: () => speakdashings2("en-US"),
           ),
         ],
       ),

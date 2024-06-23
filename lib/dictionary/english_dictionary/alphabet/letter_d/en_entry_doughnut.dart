@@ -363,30 +363,11 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "١. (ناو) کێکێکی بچووک کە بە برژاندنی ھەویر درووست دەکرێت و زۆرجار لە شێوەی ئەڵقەیەک یان بازنەییە و پڕ دەکرێت لە دۆشاو"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "May I have a jam doughnut, please?"),
-                    ExampleSentenceKurdish(
-                        text: "تکایە دەکرێت دۆنەتێکی دۆشاوم بەیتێ؟"),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "doughnut", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdoughnuts1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdoughnuts1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "May I have a jam doughnut, please?",
+            kurdishText: "تکایە دەکرێت دۆنەتێکی دۆشاوم بەیتێ؟", // doughnut
+            onPressedBritish: () => speakdoughnuts1("en-GB"),
+            onPressedAmerican: () => speakdoughnuts1("en-US"),
           ),
           // doughnuts200"),
           // speakdoughnuts2

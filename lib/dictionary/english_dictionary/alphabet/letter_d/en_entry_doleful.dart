@@ -362,32 +362,13 @@ class KurdishMeaning extends StatelessWidget {
 کوردی: ماتەم‌بار، خەمبار، کز، دڵتەنگ، پەژارەبار،	جێی‌خەم، خەماوی
 """),
           const DefinitionKurdish(text: "١. (ھاوەڵناو) زۆر دڵتەنگ"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "She had a doleful expression after hearing the sad news."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "دەربڕینێکی ماتەم‌باری ھەبوو لە دوای بیستنی ھەواڵە خەمناکە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "doleful", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdolefuls1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdolefuls1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "She had a doleful expression after hearing the sad news.",
+            kurdishText:
+                "دەربڕینێکی ماتەم‌باری ھەبوو لە دوای بیستنی ھەواڵە خەمناکە.", // doleful
+            onPressedBritish: () => speakdolefuls1("en-GB"),
+            onPressedAmerican: () => speakdolefuls1("en-US"),
           ),
           // dolefuls200"),
           // speakdolefuls2

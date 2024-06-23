@@ -365,32 +365,13 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "١. (ناو) ئەوەی کە لەگەڵ کەسێک/شتێک ھاوشێوە نەبیت، خاسیەتێک کە دوو شت لە یەکدی جیادەکاتەوە"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "It is easy to point out dissimilarities between the two cases."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "ئاسانە جیاوازییەکانی نێوان دوو کەیسەکە دەربخرێت."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "dissimilarity", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdissimilaritys1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdissimilaritys1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "It is easy to point out dissimilarities between the two cases.",
+            kurdishText:
+                "ئاسانە جیاوازییەکانی نێوان دوو کەیسەکە دەربخرێت.", // dissimilarity
+            onPressedBritish: () => speakdissimilaritys1("en-GB"),
+            onPressedAmerican: () => speakdissimilaritys1("en-US"),
           ),
           // dissimilaritys200"),
           // speakdissimilaritys2

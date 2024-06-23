@@ -234,32 +234,13 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "١. (ناو) نەخۆشییەکی دژواری قوڕگ کە دەبێتە ھۆکاری سەختی لە ھەناسەدان"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "Parents are advised to have their children immunized against diphtheria."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "دایبابان ئامۆژگاری دەکرێن منداڵەکانیان دژ بە پێران بکوتن."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "diphtheria", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdiphtherias1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdiphtherias1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "Parents are advised to have their children immunized against diphtheria.",
+            kurdishText:
+                "دایبابان ئامۆژگاری دەکرێن منداڵەکانیان دژ بە پێران بکوتن.", // diphtheria
+            onPressedBritish: () => speakdiphtherias1("en-GB"),
+            onPressedAmerican: () => speakdiphtherias1("en-US"),
           ),
           // diphtherias200"),
           // speakdiphtherias2

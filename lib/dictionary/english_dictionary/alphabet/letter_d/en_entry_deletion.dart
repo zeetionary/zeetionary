@@ -249,59 +249,22 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "١. (ناو) سڕینەوەی شتێک کە نووسراوە یان چاپکراوە، یان کە لەسەر کۆمپیوتەرێک کۆگا کراوە؛ شتێک کە سڕدراوەتەوە"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "He made several deletions to the manuscript."),
-                    ExampleSentenceKurdish(
-                        text: "ژمارەیەک سڕینەوەی لە بەڵگەنامەکە ئەنجامدا."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "deletion", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdeletions1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdeletions1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "He made several deletions to the manuscript.",
+            kurdishText:
+                "ژمارەیەک سڕینەوەی لە بەڵگەنامەکە ئەنجامدا.", // deletion
+            onPressedBritish: () => speakdeletions1("en-GB"),
+            onPressedAmerican: () => speakdeletions1("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "There have been some deletions (= words have been removed) from this text."),
-                    ExampleSentenceKurdish(
-                        text: "ھەندێک سڕینەوە لەم نووسینەدا ئەنجام دراوە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdeletions2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdeletions2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "There have been some deletions (= words have been removed) from this text.",
+            kurdishText: "ھەندێک سڕینەوە لەم نووسینەدا ئەنجام دراوە.",
+            onPressedBritish: () => speakdeletions2("en-GB"),
+            onPressedAmerican: () => speakdeletions2("en-US"),
           ),
           // deletions300"),
           // speakdeletions3

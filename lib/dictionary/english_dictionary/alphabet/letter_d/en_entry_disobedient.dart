@@ -232,29 +232,11 @@ class KurdishMeaning extends StatelessWidget {
 کوردی: سەربزێو، کەڵەگا، بێ‌گوێ، یاخی، سەرچەوت، لاسار، سەرپێچ، سەرپێچی‌کەر، نافەرمان، بێ‌ئەمر، ناگوێڕایەڵ
 """),
           const DefinitionKurdish(text: "١. (ھاوەڵناو) ڕەتکردنەوەی گوێڕایەڵی"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "I was very disobedient to my father."),
-                    ExampleSentenceKurdish(text: "زۆر لاسار بووم لەگەڵ باوکم."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "disobedient", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdisobedients1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdisobedients1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "I was very disobedient to my father.",
+            kurdishText: "زۆر لاسار بووم لەگەڵ باوکم.", // disobedient
+            onPressedBritish: () => speakdisobedients1("en-GB"),
+            onPressedAmerican: () => speakdisobedients1("en-US"),
           ),
           // disobedients200"),
           // speakdisobedients2

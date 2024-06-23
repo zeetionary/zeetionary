@@ -232,32 +232,13 @@ class KurdishMeaning extends StatelessWidget {
 کوردی: بێزراو، بێزەون، قێزەون، بێزەوەر، بێزاوی، بێزارکەر، ڕشێنەرەوە، دزێو، ناحەز
 """),
           const DefinitionKurdish(text: "١. (ھاوەڵناو) کە خراپە و شایەنی ڕقە"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "All terrorist crime is detestable, whoever the victims."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "ھەموو کارێکی تیرۆریستی بێزراوە، ھەرکێیەک قوربانییەکە بێت."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "detestable", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdetestables1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdetestables1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "All terrorist crime is detestable, whoever the victims.",
+            kurdishText:
+                "ھەموو کارێکی تیرۆریستی بێزراوە، ھەرکێیەک قوربانییەکە بێت.", // detestable
+            onPressedBritish: () => speakdetestables1("en-GB"),
+            onPressedAmerican: () => speakdetestables1("en-US"),
           ),
           // detestables200"),
           // speakdetestables2

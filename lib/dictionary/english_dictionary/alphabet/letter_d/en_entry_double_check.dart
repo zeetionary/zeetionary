@@ -372,60 +372,22 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "١. (ناو) پشکنینەوەی شتێک بۆ دووەم جار یان بە ئاگایی زیاتر"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "I did a quick double-check of the figures."),
-                    ExampleSentenceKurdish(
-                        text: "چاوخشاندنێکی خێرای ئامارەکانم کرد."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "double-check", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdoublechecks1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdoublechecks1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "I did a quick double-check of the figures.",
+            kurdishText: "چاوخشاندنێکی خێرای ئامارەکانم کرد.", // double-check
+            onPressedBritish: () => speakdoublechecks1("en-GB"),
+            onPressedAmerican: () => speakdoublechecks1("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
                   "٢. (کردار) ئەنجامدانی چاوپێداخشاندن بۆ دووەم جار یان بە ئاگایی زۆرەوە"),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "I'll double-check the figures."),
-                    ExampleSentenceKurdish(
-                        text: "چاوێک دەخشێنم بە ئامارەکاندا."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdoublechecks2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdoublechecks2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "I'll double-check the figures.",
+            kurdishText: "چاوێک دەخشێنم بە ئامارەکاندا.",
+            onPressedBritish: () => speakdoublechecks2("en-GB"),
+            onPressedAmerican: () => speakdoublechecks2("en-US"),
           ),
           // doublechecks300"),
           // speakdoublechecks3

@@ -311,309 +311,96 @@ class KurdishMeaning extends StatelessWidget {
 """),
           const DefinitionKurdish(
               text: "١. (کردار) کەمبوون لە قەبارە، ژمارە، ھتد"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "Donations have decreased significantly over the past few years."),
-                    ExampleSentenceKurdish(
-                        text: "بەخشین لە چەند ساڵی ڕابردوودا کەمی کردووە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "decrease", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdecreases1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdecreases1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "Donations have decreased significantly over the past few years.",
+            kurdishText:
+                "بەخشین لە چەند ساڵی ڕابردوودا کەمی کردووە.", // decrease
+            onPressedBritish: () => speakdecreases1("en-GB"),
+            onPressedAmerican: () => speakdecreases1("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The number of new students decreased from 210 to 160 this year."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "ژمارەی خوێندکارە تازەکان لە ٢١٠ ـەوە بۆ ١٦٠ کەمی کرد ئەمساڵ."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdecreases2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdecreases2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "The number of new students decreased from 210 to 160 this year.",
+            kurdishText:
+                "ژمارەی خوێندکارە تازەکان لە ٢١٠ ـەوە بۆ ١٦٠ کەمی کرد ئەمساڵ.",
+            onPressedBritish: () => speakdecreases2("en-GB"),
+            onPressedAmerican: () => speakdecreases2("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The price of wheat has decreased by 5 per cent."),
-                    ExampleSentenceKurdish(
-                        text: "نرخی گەنم بە ڕێژەی ٥ لە سەد کەمی کردووە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdecreases3("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdecreases3("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "The price of wheat has decreased by 5 per cent.",
+            kurdishText: "نرخی گەنم بە ڕێژەی ٥ لە سەد کەمی کردووە.",
+            onPressedBritish: () => speakdecreases3("en-GB"),
+            onPressedAmerican: () => speakdecreases3("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "This species of bird is decreasing in numbers every year."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "ئەم جۆرە باڵندەیە ھەموو ساڵێک لە ژمارەدا کەم دەکات."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdecreases4("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdecreases4("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "This species of bird is decreasing in numbers every year.",
+            kurdishText: "ئەم جۆرە باڵندەیە ھەموو ساڵێک لە ژمارەدا کەم دەکات.",
+            onPressedBritish: () => speakdecreases4("en-GB"),
+            onPressedAmerican: () => speakdecreases4("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "Fertility decreases with age."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "توانای منداڵبوون ھەموو ساڵێک کەم دەکات لەگەڵ تەمەندا."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdecreases5("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdecreases5("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "Fertility decreases with age.",
+            kurdishText:
+                "توانای منداڵبوون ھەموو ساڵێک کەم دەکات لەگەڵ تەمەندا.",
+            onPressedBritish: () => speakdecreases5("en-GB"),
+            onPressedAmerican: () => speakdecreases5("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "People should decrease the amount of fat they eat."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "خەڵکی دەبێت بڕی ڕێژەی چەوری کە دەیخۆن کەم بکەنەوە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdecreases6("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdecreases6("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "People should decrease the amount of fat they eat.",
+            kurdishText: "خەڵکی دەبێت بڕی ڕێژەی چەوری کە دەیخۆن کەم بکەنەوە.",
+            onPressedBritish: () => speakdecreases6("en-GB"),
+            onPressedAmerican: () => speakdecreases6("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٢. (ناو) پڕۆسەی کەمبوونی شتێک؛ ئەو بڕەی کە کەم دەبێتەوە"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "Sales for May show a decrease compared with the same month last year."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "ڕێژەی فرۆش لە ئایاردا کەمبوونێک پیشان دەدات بە بەراورد بە ھەمان مانگ لە ساڵی ڕابردوودا."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdecreases7("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdecreases7("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "Sales for May show a decrease compared with the same month last year.",
+            kurdishText:
+                "ڕێژەی فرۆش لە ئایاردا کەمبوونێک پیشان دەدات بە بەراورد بە ھەمان مانگ لە ساڵی ڕابردوودا.",
+            onPressedBritish: () => speakdecreases7("en-GB"),
+            onPressedAmerican: () => speakdecreases7("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "There has been some decrease in military spending this year."),
-                    ExampleSentenceKurdish(
-                        text: "ئەمساڵ ھەندێک کەمبوون لە خەرجی سەربازیدا بووە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdecreases7("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdecreases7("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "There has been some decrease in military spending this year.",
+            kurdishText: "ئەمساڵ ھەندێک کەمبوون لە خەرجی سەربازیدا بووە.",
+            onPressedBritish: () => speakdecreases7("en-GB"),
+            onPressedAmerican: () => speakdecreases7("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "There has been a dramatic decrease in activity among our kids."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "کەمبوونێکی زۆر ڕوویداوە لە چالاکی لەنێوان منداڵەکانماندا."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdecreases8("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdecreases8("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "There has been a dramatic decrease in activity among our kids.",
+            kurdishText:
+                "کەمبوونێکی زۆر ڕوویداوە لە چالاکی لەنێوان منداڵەکانماندا.",
+            onPressedBritish: () => speakdecreases8("en-GB"),
+            onPressedAmerican: () => speakdecreases8("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "There has been a decrease of nearly 6 per cent in the number of visitors to the museum."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "ژمارەی سەردانیکەرانی مۆزەخانەکە بە نزیکەی لەسەدا ٦ کەمیکردووە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdecreases9("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdecreases9("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "There has been a decrease of nearly 6 per cent in the number of visitors to the museum.",
+            kurdishText:
+                "ژمارەی سەردانیکەرانی مۆزەخانەکە بە نزیکەی لەسەدا ٦ کەمیکردووە.",
+            onPressedBritish: () => speakdecreases9("en-GB"),
+            onPressedAmerican: () => speakdecreases9("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "Marriage is still on the decrease (= decreasing)."),
-                    ExampleSentenceKurdish(
-                        text: "ھاوسەرگیری ھێشتا لە دابەزیندایە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdecreases10("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdecreases10("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "Marriage is still on the decrease (= decreasing).",
+            kurdishText: "ھاوسەرگیری ھێشتا لە دابەزیندایە.",
+            onPressedBritish: () => speakdecreases10("en-GB"),
+            onPressedAmerican: () => speakdecreases10("en-US"),
           ),
         ],
       ),

@@ -250,58 +250,21 @@ class KurdishMeaning extends StatelessWidget {
 // """),
           const DefinitionKurdish(
               text: "١. (ناو) خواردنی شیرین کە لە دوای ژەمێک دەخورێت"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(text: "What's for dessert?"),
-                    ExampleSentenceKurdish(text: "چی بۆ شیرینی ھەیە؟"),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "dessert", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdesserts1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdesserts1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "What's for dessert?",
+            kurdishText: "چی بۆ شیرینی ھەیە؟", // dessert
+            onPressedBritish: () => speakdesserts1("en-GB"),
+            onPressedAmerican: () => speakdesserts1("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The waiter asked us if we'd like to order a dessert."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "گارسۆنەکە داوای لێی پرسین کە ئایا داوای شیرینی دەکەین."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdesserts2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdesserts2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "The waiter asked us if we'd like to order a dessert.",
+            kurdishText:
+                "گارسۆنەکە داوای لێی پرسین کە ئایا داوای شیرینی دەکەین.",
+            onPressedBritish: () => speakdesserts2("en-GB"),
+            onPressedAmerican: () => speakdesserts2("en-US"),
           ),
           // desserts300"),
           // speakdesserts3

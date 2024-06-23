@@ -364,32 +364,13 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   """١. (ھاوەڵناو) بە شێوەیەک کە ھەست و سۆزی زۆر پیشان دەدات"""),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            """She spoke effusively about the candidate's personal charisma and abilities."""),
-                    ExampleSentenceKurdish(
-                        text:
-                            """بە ھەست و سۆزەوە قسەی دەکرد سەبارەت بە کاریزما و توانا کەسییەکانی بەربژێرەکە."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "effusively", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakeffusivelys1("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakeffusivelys1("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                """She spoke effusively about the candidate's personal charisma and abilities.""",
+            kurdishText:
+                """بە ھەست و سۆزەوە قسەی دەکرد سەبارەت بە کاریزما و توانا کەسییەکانی بەربژێرەکە.""", // effusively
+            onPressedBritish: () => speakeffusivelys1("en-GB"),
+            onPressedAmerican: () => speakeffusivelys1("en-US"),
           ),
           // effusivelys200effusivelys2
           // speakeffusivelys2

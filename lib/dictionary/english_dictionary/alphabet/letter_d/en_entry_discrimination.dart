@@ -297,242 +297,86 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "١. (ناو) جیاکاری لە نێوان خەڵکی یان گرووپێک بە دادپەروەری کەمترەوە"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "They alleged discrimination by the authorities."),
-                    ExampleSentenceKurdish(
-                        text: "بانگەشەی جیاکاریان لەلایەن بەرپرسانەوە کرد."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "discrimination", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdiscriminations1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdiscriminations1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "They alleged discrimination by the authorities.",
+            kurdishText:
+                "بانگەشەی جیاکاریان لەلایەن بەرپرسانەوە کرد.", // discrimination
+            onPressedBritish: () => speakdiscriminations1("en-GB"),
+            onPressedAmerican: () => speakdiscriminations1("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "They examined racial discrimination in the workplace."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "لێکۆڵینەوەیان لە جیاکاری ڕەگەزی لە شوێنی کار کرد."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdiscriminations2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdiscriminations2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "They examined racial discrimination in the workplace.",
+            kurdishText: "لێکۆڵینەوەیان لە جیاکاری ڕەگەزی لە شوێنی کار کرد.",
+            onPressedBritish: () => speakdiscriminations2("en-GB"),
+            onPressedAmerican: () => speakdiscriminations2("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "Many disabled people face discrimination at work."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "زۆرێک لە کەمئەندامان ڕووبەڕووی جیاکاری دەبنەوە لە کار."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdiscriminations3("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdiscriminations3("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "Many disabled people face discrimination at work.",
+            kurdishText:
+                "زۆرێک لە کەمئەندامان ڕووبەڕووی جیاکاری دەبنەوە لە کار.",
+            onPressedBritish: () => speakdiscriminations3("en-GB"),
+            onPressedAmerican: () => speakdiscriminations3("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The law now prohibits racial and ethnic discrimination."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "یاساکە ئێستا جیاکاریی ڕەگەزی ئیتنیکی قەدەغە دەکات."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdiscriminations4("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdiscriminations4("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "The law now prohibits racial and ethnic discrimination.",
+            kurdishText: "یاساکە ئێستا جیاکاریی ڕەگەزی ئیتنیکی قەدەغە دەکات.",
+            onPressedBritish: () => speakdiscriminations4("en-GB"),
+            onPressedAmerican: () => speakdiscriminations4("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٢. (ناو) توانای بڕیاردانی ئەوەی چی باشە، درووستە، ھتد"),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "He showed great discrimination in his choice of friends."),
-                    ExampleSentenceKurdish(
-                        text: "تێگەشتنی زۆری پیشاندا لە ھەڵبژاردنی ھاوڕێکانی."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdiscriminations5("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdiscriminations5("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "He showed great discrimination in his choice of friends.",
+            kurdishText: "تێگەشتنی زۆری پیشاندا لە ھەڵبژاردنی ھاوڕێکانی.",
+            onPressedBritish: () => speakdiscriminations5("en-GB"),
+            onPressedAmerican: () => speakdiscriminations5("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "She showed great discrimination in rejecting the poor quality teas."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "تێگەیشتوویی زۆری پیشان دەدات لە ڕەتکردنەوەی چا کوالێتی خراپەکان."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdiscriminations6("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdiscriminations6("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "She showed great discrimination in rejecting the poor quality teas.",
+            kurdishText:
+                "تێگەیشتوویی زۆری پیشان دەدات لە ڕەتکردنەوەی چا کوالێتی خراپەکان.",
+            onPressedBritish: () => speakdiscriminations6("en-GB"),
+            onPressedAmerican: () => speakdiscriminations6("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
                   "٣. (ناو) توانای ناسینەوەی جیاوازی نێوان شتێک لەگەڵ شتێکی دیکە"),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "Young children find it difficult to make fine discriminations."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "منداڵانی گەنج بە سەختی دەبینن ھەڵاواردنی باش بکەن."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdiscriminations7("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdiscriminations7("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "Young children find it difficult to make fine discriminations.",
+            kurdishText: "منداڵانی گەنج بە سەختی دەبینن ھەڵاواردنی باش بکەن.",
+            onPressedBritish: () => speakdiscriminations7("en-GB"),
+            onPressedAmerican: () => speakdiscriminations7("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "It takes a lot of experience to make such fine discriminations."),
-                    ExampleSentenceKurdish(
-                        text: "ئەزموونی دەوێت جیاکردنەوەی وەھا باش بکەیت."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdiscriminations8("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdiscriminations8("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "It takes a lot of experience to make such fine discriminations.",
+            kurdishText: "ئەزموونی دەوێت جیاکردنەوەی وەھا باش بکەیت.",
+            onPressedBritish: () => speakdiscriminations8("en-GB"),
+            onPressedAmerican: () => speakdiscriminations8("en-US"),
           ),
           // discriminations900"),
           // speakdiscriminations9

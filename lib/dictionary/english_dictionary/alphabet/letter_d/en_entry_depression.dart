@@ -318,289 +318,98 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "١. (ھاوەڵناو) حاڵەتێکی پزیشکییە کە تێیدا کەسێک ھەست بە دڵتەنگی و دڵەڕاوکێ و بێ ئومێدی دەکات و زۆرجار نیشانەکانی جەستەیی وەک نەتوانینی خەوتن، ھتد ـی ھەیە."),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "She suffered from severe depression after losing her job."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "لە دوای لەدەستدانی کارەکەی تووشی خەمۆکی زۆر بوو."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "depression", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdepressions1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdepressions1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "She suffered from severe depression after losing her job.",
+            kurdishText:
+                "لە دوای لەدەستدانی کارەکەی تووشی خەمۆکی زۆر بوو.", // depression
+            onPressedBritish: () => speakdepressions1("en-GB"),
+            onPressedAmerican: () => speakdepressions1("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "He had a family history of depression."),
-                    ExampleSentenceKurdish(
-                        text: "تۆمارێکی خێزانی لە خەمۆکی ھەبوو."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdepressions2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdepressions2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "He had a family history of depression.",
+            kurdishText: "تۆمارێکی خێزانی لە خەمۆکی ھەبوو.",
+            onPressedBritish: () => speakdepressions2("en-GB"),
+            onPressedAmerican: () => speakdepressions2("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "Bereavement can often lead to depression."),
-                    ExampleSentenceKurdish(
-                        text: "شیوەنگێڕان زۆرجار دەکرێت ببێتە ھۆکاری خەمۆکی."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdepressions3("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdepressions3("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "Bereavement can often lead to depression.",
+            kurdishText: "شیوەنگێڕان زۆرجار دەکرێت ببێتە ھۆکاری خەمۆکی.",
+            onPressedBritish: () => speakdepressions3("en-GB"),
+            onPressedAmerican: () => speakdepressions3("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "Her depression has lifted now."),
-                    ExampleSentenceKurdish(text: "خەمۆکییەکەی ئێستا نەماوە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdepressions4("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdepressions4("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "Her depression has lifted now.",
+            kurdishText: "خەمۆکییەکەی ئێستا نەماوە.",
+            onPressedBritish: () => speakdepressions4("en-GB"),
+            onPressedAmerican: () => speakdepressions4("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "She was gradually coming out of her depression."),
-                    ExampleSentenceKurdish(
-                        text: "کەم کەم لە خەمۆکییەکەی ڕزگاری دەبوو."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdepressions5("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdepressions5("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "She was gradually coming out of her depression.",
+            kurdishText: "کەم کەم لە خەمۆکییەکەی ڕزگاری دەبوو.",
+            onPressedBritish: () => speakdepressions5("en-GB"),
+            onPressedAmerican: () => speakdepressions5("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٢. (ناو) ھەستکردن بە دڵتەنگی و بێ ھیوایی"),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "There was a feeling of gloom and depression in the office when the news of the job cuts was announced."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "ھەستی ڕەشبینی و دڵتەنگی لە ئۆفیسەکە درووستبوو کە ھەواڵی کەمکردنەوەی کار ڕاگەیەندرا."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdepressions6("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdepressions6("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "There was a feeling of gloom and depression in the office when the news of the job cuts was announced.",
+            kurdishText:
+                "ھەستی ڕەشبینی و دڵتەنگی لە ئۆفیسەکە درووستبوو کە ھەواڵی کەمکردنەوەی کار ڕاگەیەندرا.",
+            onPressedBritish: () => speakdepressions6("en-GB"),
+            onPressedAmerican: () => speakdepressions6("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "It is easy to slip into a mood of depression."),
-                    ExampleSentenceKurdish(
-                        text: "تووشبوون بە کەشی دڵتەنگی ئاسانە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdepressions7("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdepressions7("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "It is easy to slip into a mood of depression.",
+            kurdishText: "تووشبوون بە کەشی دڵتەنگی ئاسانە.",
+            onPressedBritish: () => speakdepressions7("en-GB"),
+            onPressedAmerican: () => speakdepressions7("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
                   "٣. (ناو) ماوەیەک کە چالاکی ئابووری کەمە و خەڵکی ھەژار و بێکارن"),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The country was in the grip of (an) economic depression."),
-                    ExampleSentenceKurdish(
-                        text: "وڵاتەکە لە قەیرانێکی ئابووری توندا بوو."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdepressions8("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdepressions8("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "The country was in the grip of (an) economic depression.",
+            kurdishText: "وڵاتەکە لە قەیرانێکی ئابووری توندا بوو.",
+            onPressedBritish: () => speakdepressions8("en-GB"),
+            onPressedAmerican: () => speakdepressions8("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "Many people lost their jobs in the great depression of the 1930s."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "زۆر کەس کارەکانیان لەدەستدا لە قەیرانە گەورەکەی ١٩٣٠ ـیەکاندا."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdepressions9("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdepressions9("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "Many people lost their jobs in the great depression of the 1930s.",
+            kurdishText:
+                "زۆر کەس کارەکانیان لەدەستدا لە قەیرانە گەورەکەی ١٩٣٠ ـیەکاندا.",
+            onPressedBritish: () => speakdepressions9("en-GB"),
+            onPressedAmerican: () => speakdepressions9("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٤. (ناو) چاڵایی؛ بەشێکی زەوی کە نزمترە لە دەوروبەری"),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "Rainwater collects in shallow depressions on the ground."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "ئاوی باران کۆدەبێتەوە لە چاڵە بچووکەکانی سەر زەویدا."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdepressions10("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdepressions10("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "Rainwater collects in shallow depressions on the ground.",
+            kurdishText: "ئاوی باران کۆدەبێتەوە لە چاڵە بچووکەکانی سەر زەویدا.",
+            onPressedBritish: () => speakdepressions10("en-GB"),
+            onPressedAmerican: () => speakdepressions10("en-US"),
           ),
           // depressions1100"),
           // speakdepressions11

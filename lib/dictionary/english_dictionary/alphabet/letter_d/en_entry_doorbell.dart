@@ -370,59 +370,21 @@ class KurdishMeaning extends StatelessWidget {
 // کوردی:
 // """),
           const DefinitionKurdish(text: "١. (ناو) زەنگی دەرگا"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "He refused to answer the doorbell."),
-                    ExampleSentenceKurdish(
-                        text: "ڕەتیکردەوە وەڵامی زەنگەکە بداتەوە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "doorbell", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdoorbells1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdoorbells1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "He refused to answer the doorbell.",
+            kurdishText: "ڕەتیکردەوە وەڵامی زەنگەکە بداتەوە.", // doorbell
+            onPressedBritish: () => speakdoorbells1("en-GB"),
+            onPressedAmerican: () => speakdoorbells1("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "I heard the doorbell ring, and went to see who was there."),
-                    ExampleSentenceKurdish(
-                        text: "گوێم لە زەنگەکە بوو لێیدا، و چووم بزانم کێیە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdoorbells2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdoorbells2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "I heard the doorbell ring, and went to see who was there.",
+            kurdishText: "گوێم لە زەنگەکە بوو لێیدا، و چووم بزانم کێیە.",
+            onPressedBritish: () => speakdoorbells2("en-GB"),
+            onPressedAmerican: () => speakdoorbells2("en-US"),
           ),
           // doorbells300"),
           // speakdoorbells3

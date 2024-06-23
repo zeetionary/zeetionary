@@ -387,118 +387,43 @@ class KurdishMeaning extends StatelessWidget {
 کوردی: خەوەنوچکە، وەنەوز، بیرەبیرە، بیرەخەو، کەروێشکەخەو، گورگەخەو، سەرخەو  
 """),
           const DefinitionKurdish(text: "١. (کردار) خەوتن بۆ کەمێک"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "We were dozing lazily in the sun when a loud noise woke us."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "تەمبەڵانە لە پێش ھەتاوەکە خەوتبووین کە دەنگێکی بەرز خەبەری کردینەوە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "doze", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdozes1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdozes1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "We were dozing lazily in the sun when a loud noise woke us.",
+            kurdishText:
+                "تەمبەڵانە لە پێش ھەتاوەکە خەوتبووین کە دەنگێکی بەرز خەبەری کردینەوە.", // doze
+            onPressedBritish: () => speakdozes1("en-GB"),
+            onPressedAmerican: () => speakdozes1("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "My cat likes dozing in front of the fire."),
-                    ExampleSentenceKurdish(
-                        text: "پشیلەکەم حەزی لە خەوە لە پێش ئاگرەکە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdozes2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdozes2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "My cat likes dozing in front of the fire.",
+            kurdishText: "پشیلەکەم حەزی لە خەوە لە پێش ئاگرەکە.",
+            onPressedBritish: () => speakdozes2("en-GB"),
+            onPressedAmerican: () => speakdozes2("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٢. (ناو) سووکە خەوێک، زۆرجار لە ڕۆژدا"),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(text: "I had a doze on the train."),
-                    ExampleSentenceKurdish(
-                        text: "لەسەر شەمەندەفەرەکە سووکە خەوێکم کرد."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdozes3("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdozes3("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "I had a doze on the train.",
+            kurdishText: "لەسەر شەمەندەفەرەکە سووکە خەوێکم کرد.",
+            onPressedBritish: () => speakdozes3("en-GB"),
+            onPressedAmerican: () => speakdozes3("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "Sitting in an armchair in front of the fire, I soon fell into a doze."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "بە دانیشتن لەسەر قەنەفەکە لە پێش ئاگرەکە زوو خەوەنوچکە بردمیەوە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdozes4("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdozes4("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "Sitting in an armchair in front of the fire, I soon fell into a doze.",
+            kurdishText:
+                "بە دانیشتن لەسەر قەنەفەکە لە پێش ئاگرەکە زوو خەوەنوچکە بردمیەوە.",
+            onPressedBritish: () => speakdozes4("en-GB"),
+            onPressedAmerican: () => speakdozes4("en-US"),
           ),
           // dozes500"),
           // speakdozes5

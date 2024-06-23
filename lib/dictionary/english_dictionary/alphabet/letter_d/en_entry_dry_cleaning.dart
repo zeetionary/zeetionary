@@ -372,61 +372,23 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "١. (ناو) پڕۆسەی ششتنی جلوبەرگ بە مادەی کیمیایی نەک بە ئاو"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "Poor dry-cleaning can make clothes look old."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "ششتنی خراپ بە پاککەرەوە دەکرێت وا بکات جلوبەرگ کۆن دەربکەوێت."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "dry-cleaning", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdrycleanings1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdrycleanings1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "Poor dry-cleaning can make clothes look old.",
+            kurdishText:
+                "ششتنی خراپ بە پاککەرەوە دەکرێت وا بکات جلوبەرگ کۆن دەربکەوێت.", // dry-cleaning
+            onPressedBritish: () => speakdrycleanings1("en-GB"),
+            onPressedAmerican: () => speakdrycleanings1("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
                   "٢. (ناو) ئەو جلوبەرگانەی کە بە مادەی کیمیایی دەشۆردرێن یان شۆردراون"),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "Don't forget to pick up the dry-cleaning."),
-                    ExampleSentenceKurdish(
-                        text: "بیرت نەچێت جلە شۆردراوەکان بھێنیتەوە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdrycleanings2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdrycleanings2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "Don't forget to pick up the dry-cleaning.",
+            kurdishText: "بیرت نەچێت جلە شۆردراوەکان بھێنیتەوە.",
+            onPressedBritish: () => speakdrycleanings2("en-GB"),
+            onPressedAmerican: () => speakdrycleanings2("en-US"),
           ),
           // drycleanings300"),
           // speakdrycleanings3

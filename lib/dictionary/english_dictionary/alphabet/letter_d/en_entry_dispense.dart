@@ -259,122 +259,45 @@ class KurdishMeaning extends StatelessWidget {
 کوردی: دابەش کردن، بەخشین
 """),
           const DefinitionKurdish(text: "١. (کردار) پێدانی شتێک بە خەڵکی"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The machine dispenses a range of drinks and snacks."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "ئامێرەکە ژمارەیەک لە خواردنەوە و سووکە خۆراک دەدات."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "dispense", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdispenses1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdispenses1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "The machine dispenses a range of drinks and snacks.",
+            kurdishText:
+                "ئامێرەکە ژمارەیەک لە خواردنەوە و سووکە خۆراک دەدات.", // dispense
+            onPressedBritish: () => speakdispenses1("en-GB"),
+            onPressedAmerican: () => speakdispenses1("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
                   "٢. (کردار) دابینکردنی شتێک، بەتایبەتی خزمەتگوزاری، بۆ خەڵکی"),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The organization dispenses free healthcare to those who need it."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "دامەزراوەکە چاودێریی تەندرووستی بێ‌بەرامبەر دەدات بەوانەی پێویستیانە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdispenses2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdispenses2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "The organization dispenses free healthcare to those who need it.",
+            kurdishText:
+                "دامەزراوەکە چاودێریی تەندرووستی بێ‌بەرامبەر دەدات بەوانەی پێویستیانە.",
+            onPressedBritish: () => speakdispenses2("en-GB"),
+            onPressedAmerican: () => speakdispenses2("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "Her role is to dispense advice and control the budget."),
-                    ExampleSentenceKurdish(
-                        text: "کاری پێدانی ڕاوێژ و کۆنترۆڵی بودجەیە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdispenses3("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdispenses3("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "Her role is to dispense advice and control the budget.",
+            kurdishText: "کاری پێدانی ڕاوێژ و کۆنترۆڵی بودجەیە.",
+            onPressedBritish: () => speakdispenses3("en-GB"),
+            onPressedAmerican: () => speakdispenses3("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٣. (کردار) ئامادەکردنی دەرمان و پێدانی بە خەڵکی"),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "A pharmacist will never dispense a prescription unless they know it is genuine."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "دەرمان‌سازێک ھەرگیز کار بە ڕەچەتەیەک ناکات مەگەر ئەوەی دڵنیا بێت ڕاستەقینەیە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdispenses4("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdispenses4("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "A pharmacist will never dispense a prescription unless they know it is genuine.",
+            kurdishText:
+                "دەرمان‌سازێک ھەرگیز کار بە ڕەچەتەیەک ناکات مەگەر ئەوەی دڵنیا بێت ڕاستەقینەیە.",
+            onPressedBritish: () => speakdispenses4("en-GB"),
+            onPressedAmerican: () => speakdispenses4("en-US"),
           ),
           // dispenses500"),
           // speakdispenses5

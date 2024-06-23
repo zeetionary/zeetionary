@@ -364,32 +364,13 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "١. (ناو) نووسراوێک کە لەسەر پاکێجێکە و پیشانی دەدات کە چی لە پاکێجەکەدایە و لە کوێوە و بۆ کوێ نێردراوە"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "She checked the docket to ensure the delivery was going to the correct address."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "پوختەکەی پشکنی بۆ دڵنیایی کردنەوەی ئەوەی کە گەیاندنەکە بۆ ناونیشانی درووست دەچوو."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "docket", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdockets1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdockets1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "She checked the docket to ensure the delivery was going to the correct address.",
+            kurdishText:
+                "پوختەکەی پشکنی بۆ دڵنیایی کردنەوەی ئەوەی کە گەیاندنەکە بۆ ناونیشانی درووست دەچوو.", // docket
+            onPressedBritish: () => speakdockets1("en-GB"),
+            onPressedAmerican: () => speakdockets1("en-US"),
           ),
           // dockets200"),
           // speakdockets2

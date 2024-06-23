@@ -365,32 +365,13 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   """١. (ناو) ئەوەی کە ئەو ئەنجامە بەدەست بھێنێت کە خوازراوە"""),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            """They don't have information yet to evaluate the effectiveness of those programmes."""),
-                    ExampleSentenceKurdish(
-                        text:
-                            """ھێشتا زانیارییان نییە تاوەکو کاریگەری ئەو پڕۆگرامانە ھەڵبسەنگێنن."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "effectiveness", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakeffectivenesss1("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakeffectivenesss1("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                """They don't have information yet to evaluate the effectiveness of those programmes.""",
+            kurdishText:
+                """ھێشتا زانیارییان نییە تاوەکو کاریگەری ئەو پڕۆگرامانە ھەڵبسەنگێنن.""", // effectiveness
+            onPressedBritish: () => speakeffectivenesss1("en-GB"),
+            onPressedAmerican: () => speakeffectivenesss1("en-US"),
           ),
           // effectivenesss200effectivenesss2
           // speakeffectivenesss2

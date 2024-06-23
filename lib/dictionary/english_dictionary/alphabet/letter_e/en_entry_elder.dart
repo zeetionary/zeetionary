@@ -430,271 +430,98 @@ class KurdishMeaning extends StatelessWidget {
 کوردی: باوخۆش‌تر، گەورەتر، بەتەمەن‌تر، گەورەتر، پیر،	ڕیش‌سپی، ڕدێن‌سپی، گەورە، پیاوماقووڵ، پێشەوا، سەردار، سالار، سەرکردە، پیاوماقووڵان، گەورەپیاوان، گەورەترەکان، باوخۆش‌ترەکان، ڕیش‌سپی‌یەکان
 """),
           const DefinitionKurdish(text: """١. (ھاوەڵناو) بەتەمەنتر"""),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            """Her parents and elder sister stayed behind in Poland when she came to America."""),
-                    ExampleSentenceKurdish(
-                        text:
-                            """دایک و باوکی و خوشکە گەورەکەی لە پۆڵەندا مانەوە کە ئەو ھات بۆ ئەمریکا."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "elder", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakelders1("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakelders1("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                """Her parents and elder sister stayed behind in Poland when she came to America.""",
+            kurdishText:
+                """دایک و باوکی و خوشکە گەورەکەی لە پۆڵەندا مانەوە کە ئەو ھات بۆ ئەمریکا.""", // elder
+            onPressedBritish: () => speakelders1("en-GB"),
+            onPressedAmerican: () => speakelders1("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: """ژممارە. (ناو) پێنناسە"""),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: """He always looked up to his elder brothers."""),
-                    ExampleSentenceKurdish(
-                        text: """ھەمیشە چاوی لە برا گەورەکانی دەکرد.""",
-                        note: "واتە لە کارەکانیدا وەک ئەوانی دەکرد"),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakelders2("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakelders2("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: """He always looked up to his elder brothers.""",
+            kurdishText: """ھەمیشە چاوی لە برا گەورەکانی دەکرد.""",
+            kurdishNote: "واتە لە کارەکانیدا وەک ئەوانی دەکرد",
+            onPressedBritish: () => speakelders2("en-GB"),
+            onPressedAmerican: () => speakelders2("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: """ژممارە. (ناو) پێنناسە"""),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            """He always had an uneasy relationship with his elder daughter."""),
-                    ExampleSentenceKurdish(
-                        text:
-                            """ھەمیشە پەیوەندییەکی ناجێگیری ھەبوو لەگەڵ کچە گەورەکەیدا."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakelders3("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakelders3("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                """He always had an uneasy relationship with his elder daughter.""",
+            kurdishText:
+                """ھەمیشە پەیوەندییەکی ناجێگیری ھەبوو لەگەڵ کچە گەورەکەیدا.""",
+            onPressedBritish: () => speakelders3("en-GB"),
+            onPressedAmerican: () => speakelders3("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
                   """٢. (ھاوەڵناو) بۆ ناساندنی کەسی گەورەتر کە باسی دوو کەس دەکەیت"""),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: """Of the two brothers Harvey is the elder."""),
-                    ExampleSentenceKurdish(
-                        text: """لە نێوان دوو براکەدا ھارڤی بەتەمەنەکەیە."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakelders4("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakelders4("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: """Of the two brothers Harvey is the elder.""",
+            kurdishText: """لە نێوان دوو براکەدا ھارڤی بەتەمەنەکەیە.""",
+            onPressedBritish: () => speakelders4("en-GB"),
+            onPressedAmerican: () => speakelders4("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: """ژممارە. (ناو) پێنناسە"""),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: """He was the elder by five years."""),
-                    ExampleSentenceKurdish(
-                        text: """گەورەترەکە بوو بە پێنج ساڵ."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakelders5("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakelders5("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: """He was the elder by five years.""",
+            kurdishText: """گەورەترەکە بوو بە پێنج ساڵ.""",
+            onPressedBritish: () => speakelders5("en-GB"),
+            onPressedAmerican: () => speakelders5("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
                   """٣. (ھاوەڵناو) لە پێش ناو بەکاردێت بۆ ناساندنی ئەو کەسەی کە گەورەترە و ھەمان ناوی لەگەڵ کەسێکی دیکە ھەیە"""),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            """The elder Pitt's policies strengthened the British Empire."""),
-                    ExampleSentenceKurdish(
-                        text:
-                            """پیتە گەورەکە ئیمپراتۆریەتیی بەریتانی بەھێزکرد."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakelders6("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakelders6("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                """The elder Pitt's policies strengthened the British Empire.""",
+            kurdishText: """پیتە گەورەکە ئیمپراتۆریەتیی بەریتانی بەھێزکرد.""",
+            onPressedBritish: () => speakelders6("en-GB"),
+            onPressedAmerican: () => speakelders6("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
                   """٤. (ناو) ئەو کەسانەی دەسەڵات، ئەزموون، و تەمەنی زیاتریان ھەیە"""),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            """Children have no respect for their elders nowadays."""),
-                    ExampleSentenceKurdish(
-                        text:
-                            """منداڵان ئێستا ھیچ ڕێزیان نییە بۆ گەورەکانیان."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakelders7("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakelders7("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                """Children have no respect for their elders nowadays.""",
+            kurdishText: """منداڵان ئێستا ھیچ ڕێزیان نییە بۆ گەورەکانیان.""",
+            onPressedBritish: () => speakelders7("en-GB"),
+            onPressedAmerican: () => speakelders7("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: """ژممارە. (ناو) پێنناسە"""),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            """Traditions were passed on by the elders of the tribe."""),
-                    ExampleSentenceKurdish(
-                        text:
-                            """نەریتەکان لەلایەن بەتەمەنەکانی تیرەکەوە دەگوازرانەوە."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakelders8("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakelders8("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                """Traditions were passed on by the elders of the tribe.""",
+            kurdishText:
+                """نەریتەکان لەلایەن بەتەمەنەکانی تیرەکەوە دەگوازرانەوە.""",
+            onPressedBritish: () => speakelders8("en-GB"),
+            onPressedAmerican: () => speakelders8("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: """٥. (ناو) کەسێک کە بەتەمەنترە"""),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: """He is her elder by several years."""),
-                    ExampleSentenceKurdish(
-                        text: """بە چەند ساڵێک لێی گەورەترە."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakelders9("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakelders9("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: """He is her elder by several years.""",
+            kurdishText: """بە چەند ساڵێک لێی گەورەترە.""",
+            onPressedBritish: () => speakelders9("en-GB"),
+            onPressedAmerican: () => speakelders9("en-US"),
           ),
           // elders_1000elders10
           // speakelders10

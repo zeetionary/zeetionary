@@ -363,30 +363,11 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   """١. (ھاوەڵناو) پیاوێک یان کوڕێک کە ژنانە یان کچانە ڕەفتار دەکات"""),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: """He's got a very effeminate manner/voice."""),
-                    ExampleSentenceKurdish(
-                        text: """ھەڵسوکەوتی/دەنگی ژنانەی ھەیە."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "effeminate", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakeffeminates1("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakeffeminates1("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: """He's got a very effeminate manner/voice.""",
+            kurdishText: """ھەڵسوکەوتی/دەنگی ژنانەی ھەیە.""", // effeminate
+            onPressedBritish: () => speakeffeminates1("en-GB"),
+            onPressedAmerican: () => speakeffeminates1("en-US"),
           ),
           // effeminates200effeminates2
           // speakeffeminates2

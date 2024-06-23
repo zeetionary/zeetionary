@@ -256,109 +256,36 @@ class KurdishMeaning extends StatelessWidget {
 کوردی: گەلێ،	(خوازە) بە گران، زۆر گران
 """),
           const DefinitionKurdish(text: "١. (ھاوەڵکار) زۆر"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(text: "She loves him dearly."),
-                    ExampleSentenceKurdish(text: "زۆرم خۆشدەوێت."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "dearly", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdearlys1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdearlys1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "She loves him dearly.",
+            kurdishText: "زۆرم خۆشدەوێت.", // dearly
+            onPressedBritish: () => speakdearlys1("en-GB"),
+            onPressedAmerican: () => speakdearlys1("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "I would dearly like/love to know what he was thinking."),
-                    ExampleSentenceKurdish(
-                        text: "زۆرم پێخۆشە بزانم بیری لە چی دەکردەوە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdearlys2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdearlys2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "I would dearly like/love to know what he was thinking.",
+            kurdishText: "زۆرم پێخۆشە بزانم بیری لە چی دەکردەوە.",
+            onPressedBritish: () => speakdearlys2("en-GB"),
+            onPressedAmerican: () => speakdearlys2("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
                   "٢. (ھاوەڵکار) بەشێوەیەک کە دەبێتە ھۆی ئازارێکی زۆر، سەختی یان زیانم یان تێچوویەکی زۆر"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "Success has cost him dearly."),
-                    ExampleSentenceKurdish(
-                        text: "سەرکەوتن زۆر کەوتووە لەسەری."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdearlys3("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdearlys3("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "Success has cost him dearly.",
+            kurdishText: "سەرکەوتن زۆر کەوتووە لەسەری.",
+            onPressedBritish: () => speakdearlys3("en-GB"),
+            onPressedAmerican: () => speakdearlys3("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "She paid dearly for her mistake."),
-                    ExampleSentenceKurdish(text: "بە گرانی باجی ھەڵەکەی دا."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdearlys4("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdearlys4("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "She paid dearly for her mistake.",
+            kurdishText: "بە گرانی باجی ھەڵەکەی دا.",
+            onPressedBritish: () => speakdearlys4("en-GB"),
+            onPressedAmerican: () => speakdearlys4("en-US"),
           ),
         ],
       ),

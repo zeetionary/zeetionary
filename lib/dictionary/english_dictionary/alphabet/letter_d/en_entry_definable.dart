@@ -259,92 +259,35 @@ class KurdishMeaning extends StatelessWidget {
 """),
           const DefinitionKurdish(
               text: "١. (ھاوەڵناو) بە واتایەکەوە کە دەکرێت بناسرێت"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "Neither of those terms is easily definable."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "ھیچ یەک لەو دەستەواژانە بە ئاسانی پێناسە ناکرێت."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "definable", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdefinables1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdefinables1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "Neither of those terms is easily definable.",
+            kurdishText:
+                "ھیچ یەک لەو دەستەواژانە بە ئاسانی پێناسە ناکرێت.", // definable
+            onPressedBritish: () => speakdefinables1("en-GB"),
+            onPressedAmerican: () => speakdefinables1("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
                   "٢. (ھاوەڵناو) کە دەکرێت باس بکرێت یان بە ئاسانی پیشان بدرێت"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "Your office must be a clearly definable space in which no personal activities take place."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "ئۆفیسەکەت دەبێت شوێنێکی ئاسان ناسێنراو بێت کە ھیچ چالاکییەکی کەسی تێیدا ڕوونەدا."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdefinables2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdefinables2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "Your office must be a clearly definable space in which no personal activities take place.",
+            kurdishText:
+                "ئۆفیسەکەت دەبێت شوێنێکی ئاسان ناسێنراو بێت کە ھیچ چالاکییەکی کەسی تێیدا ڕوونەدا.",
+            onPressedBritish: () => speakdefinables2("en-GB"),
+            onPressedAmerican: () => speakdefinables2("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "It is a mistake to see suffering as having a definable cause."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "ھەڵەیە کە ئازارکێشان بەوە ببینیت کە ھۆکاری ڕوونی ھەبێت."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdefinables3("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdefinables3("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "It is a mistake to see suffering as having a definable cause.",
+            kurdishText:
+                "ھەڵەیە کە ئازارکێشان بەوە ببینیت کە ھۆکاری ڕوونی ھەبێت.",
+            onPressedBritish: () => speakdefinables3("en-GB"),
+            onPressedAmerican: () => speakdefinables3("en-US"),
           ),
           // definables400"),
           // speakdefinables4

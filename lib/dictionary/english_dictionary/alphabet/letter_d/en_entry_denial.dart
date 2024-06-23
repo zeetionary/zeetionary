@@ -284,173 +284,59 @@ class KurdishMeaning extends StatelessWidget {
 """),
           const DefinitionKurdish(
               text: "١. (ناو) نکۆڵی لە ڕاستییەتی یان بوونی شتێک"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The terrorists issued a denial of responsibility for the attack."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "تیرۆریستەکان نکۆڵییان بەرامبەر بە ھێرشەکە ڕاگەیاند."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "denial", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdenials1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdenials1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "The terrorists issued a denial of responsibility for the attack.",
+            kurdishText:
+                "تیرۆریستەکان نکۆڵییان بەرامبەر بە ھێرشەکە ڕاگەیاند.", // denial
+            onPressedBritish: () => speakdenials1("en-GB"),
+            onPressedAmerican: () => speakdenials1("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "There was an official denial that there would be an election before the end of the year."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "ڕەتکردنەوەیەکی فەرمی ھەبوو سەبارەت بە بوونی ھەڵبژاردنێک پێش کۆتایی ساڵ."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdenials2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdenials2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "There was an official denial that there would be an election before the end of the year.",
+            kurdishText:
+                "ڕەتکردنەوەیەکی فەرمی ھەبوو سەبارەت بە بوونی ھەڵبژاردنێک پێش کۆتایی ساڵ.",
+            onPressedBritish: () => speakdenials2("en-GB"),
+            onPressedAmerican: () => speakdenials2("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "She shook her head in denial."),
-                    ExampleSentenceKurdish(
-                        text: "لە حاشاکردندا سەری ڕاوەشاند."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdenials3("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdenials3("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "She shook her head in denial.",
+            kurdishText: "لە حاشاکردندا سەری ڕاوەشاند.",
+            onPressedBritish: () => speakdenials3("en-GB"),
+            onPressedAmerican: () => speakdenials3("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: "٢. (ناو) سەندنی شتێک لە کەسێک"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The advertising ban is a denial of freedom of speech."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "قەدەغەکردنەکەی بانگەشە بەرتەسککردنەوەی ئازادی ڕادەربڕینە ."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdenials4("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdenials4("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "The advertising ban is a denial of freedom of speech.",
+            kurdishText:
+                "قەدەغەکردنەکەی بانگەشە بەرتەسککردنەوەی ئازادی ڕادەربڕینە .",
+            onPressedBritish: () => speakdenials4("en-GB"),
+            onPressedAmerican: () => speakdenials4("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٣. (ناو) ڕەتکردنەوەی بوونی شتێکی بە ئازار"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "The patient is still in denial."),
-                    ExampleSentenceKurdish(
-                        text: "نەخۆشەکە ھێشتا لە نکۆڵیکردندایە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdenials5("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdenials5("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "The patient is still in denial.",
+            kurdishText: "نەخۆشەکە ھێشتا لە نکۆڵیکردندایە.",
+            onPressedBritish: () => speakdenials5("en-GB"),
+            onPressedAmerican: () => speakdenials5("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "Some people are in denial about the situation."),
-                    ExampleSentenceKurdish(
-                        text: "ھەندێک کەس لە گوماندان سەبارەت بە دۆخەکە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdenials6("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdenials6("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "Some people are in denial about the situation.",
+            kurdishText: "ھەندێک کەس لە گوماندان سەبارەت بە دۆخەکە.",
+            onPressedBritish: () => speakdenials6("en-GB"),
+            onPressedAmerican: () => speakdenials6("en-US"),
           ),
           // denials700"),
           // speakdenials7

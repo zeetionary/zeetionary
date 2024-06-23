@@ -257,89 +257,32 @@ class KurdishMeaning extends StatelessWidget {
 کوردی: کاولی، وێرانی، خاپووری، وێرانە، کاولە، خاپوورە، جێگای وێران، وێرانستان، کەلاوە،	وێران‌کردن، خاپووراندن، کاولاندن، بەقوڕگرتن،	ھەناسەساردی، قوڕبەسەری، بێچارەیی، لێ‌قەوماوی، کڵۆڵی،	خەم، پەژارە، خەفەت، کزی، دڵتەنگی، پەرێشانی، ناڕەحەتی
 """),
           const DefinitionKurdish(text: "١. (ناو) ھەستی تەنھایی و بێزاری"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "Her death left him with a terrible sense of desolation."),
-                    ExampleSentenceKurdish(
-                        text: "مردنەکەی خستییە ھەستێکی خراپی تاسەبارییەوە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "desolation", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdesolations1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdesolations1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "Her death left him with a terrible sense of desolation.",
+            kurdishText:
+                "مردنەکەی خستییە ھەستێکی خراپی تاسەبارییەوە.", // desolation
+            onPressedBritish: () => speakdesolations1("en-GB"),
+            onPressedAmerican: () => speakdesolations1("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "She was racked by a feeling of utter desolation."),
-                    ExampleSentenceKurdish(
-                        text: "تووشی ھەستێکی تەواو لە ھەناسەساردی بوو."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdesolations2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdesolations2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "She was racked by a feeling of utter desolation.",
+            kurdishText: "تووشی ھەستێکی تەواو لە ھەناسەساردی بوو.",
+            onPressedBritish: () => speakdesolations2("en-GB"),
+            onPressedAmerican: () => speakdesolations2("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: "٢. (ناو) شوێنێکی کاولە و وێران"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The newspaper described a scene of complete desolation."),
-                    ExampleSentenceKurdish(
-                        text: "ڕۆژنامەکە دیمەنێکی تەواو لە وێرانەیی وێنا کرد."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdesolations3("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdesolations3("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "The newspaper described a scene of complete desolation.",
+            kurdishText: "ڕۆژنامەکە دیمەنێکی تەواو لە وێرانەیی وێنا کرد.",
+            onPressedBritish: () => speakdesolations3("en-GB"),
+            onPressedAmerican: () => speakdesolations3("en-US"),
           ),
           // desolations400"),
           // speakdesolations4

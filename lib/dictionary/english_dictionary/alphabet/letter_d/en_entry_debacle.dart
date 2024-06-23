@@ -243,60 +243,22 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "١. (ناو) ڕووداوێک کە شکستێکی تەواوە و دەبێتە ھۆکاری ئەوەی خەڵکی ھەست بە شەرم بکەن"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "He should take responsibility for the debacle and resign."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "دەبێت بەرپرسیاریەتی بۆ مەینەتییەکە ھەڵبگرێت و دەست لەکاربکێشێتەوە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "debacle", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdebacles1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdebacles1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "He should take responsibility for the debacle and resign.",
+            kurdishText:
+                "دەبێت بەرپرسیاریەتی بۆ مەینەتییەکە ھەڵبگرێت و دەست لەکاربکێشێتەوە.", // debacle
+            onPressedBritish: () => speakdebacles1("en-GB"),
+            onPressedAmerican: () => speakdebacles1("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The collapse of the company was described as the greatest financial debacle in US history."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "کەوتمی کۆمپانیاکە بە گەورەترین کارەساتی دارایی مێژووی ئەمریکا ناوزەدکرا."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdebacles2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdebacles2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "The collapse of the company was described as the greatest financial debacle in US history.",
+            kurdishText:
+                "کەوتمی کۆمپانیاکە بە گەورەترین کارەساتی دارایی مێژووی ئەمریکا ناوزەدکرا.",
+            onPressedBritish: () => speakdebacles2("en-GB"),
+            onPressedAmerican: () => speakdebacles2("en-US"),
           ),
         ],
       ),

@@ -243,61 +243,22 @@ class KurdishMeaning extends StatelessWidget {
 """),
           const DefinitionKurdish(
               text: "١. (ھاوەڵناو) کە توانای ھەیە بڕیار لە کوالێتی شتێک بدات"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "Modern audiences have become more discriminating."),
-                    ExampleSentenceKurdish(
-                        text: "گوێگرانی ئەمڕۆ زیاتر بەسەرنج بوونە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "discriminating", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdiscriminatings1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdiscriminatings1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "Modern audiences have become more discriminating.",
+            kurdishText:
+                "گوێگرانی ئەمڕۆ زیاتر بەسەرنج بوونە.", // discriminating
+            onPressedBritish: () => speakdiscriminatings1("en-GB"),
+            onPressedAmerican: () => speakdiscriminatings1("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "They are very discriminating about what restaurants they go to."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "زۆر بەسەرنجن لەسەر ئەوەی بۆ چی چێشتخانەیەک دەچن."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdiscriminatings2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdiscriminatings2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "They are very discriminating about what restaurants they go to.",
+            kurdishText: "زۆر بەسەرنجن لەسەر ئەوەی بۆ چی چێشتخانەیەک دەچن.",
+            onPressedBritish: () => speakdiscriminatings2("en-GB"),
+            onPressedAmerican: () => speakdiscriminatings2("en-US"),
           ),
           // discriminatings300"),
           // speakdiscriminatings3

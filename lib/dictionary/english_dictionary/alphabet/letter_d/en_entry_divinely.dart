@@ -371,58 +371,21 @@ class KurdishMeaning extends StatelessWidget {
 // """),
           const DefinitionKurdish(
               text: "١. (ھاوەڵکار) کە پەیوەندیدارە بە خودا یان لە خوداوە دێت"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "He believed he was divinely protected in his escape."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "باوەڕی وابوو لەلایەن خوداوە پارێزراو بوو لە ھەڵھاتنەکەیدا."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "divinely", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdivinelys1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdivinelys1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "He believed he was divinely protected in his escape.",
+            kurdishText:
+                "باوەڕی وابوو لەلایەن خوداوە پارێزراو بوو لە ھەڵھاتنەکەیدا.", // divinely
+            onPressedBritish: () => speakdivinelys1("en-GB"),
+            onPressedAmerican: () => speakdivinelys1("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: "٢. (ھاوەڵکار) بەشێوەیەکی زۆر جوان"),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(text: "They danced divinely."),
-                    ExampleSentenceKurdish(text: "ئێجگار جوان سەمایان کرد."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdivinelys2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdivinelys2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "They danced divinely.",
+            kurdishText: "ئێجگار جوان سەمایان کرد.",
+            onPressedBritish: () => speakdivinelys2("en-GB"),
+            onPressedAmerican: () => speakdivinelys2("en-US"),
           ),
           // divinelys300"),
           // speakdivinelys3

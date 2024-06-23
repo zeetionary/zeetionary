@@ -369,60 +369,22 @@ class KurdishMeaning extends StatelessWidget {
 کوردی: ێژ، خەواڵوو،	پەخمە، گێل، حەپە
 """),
           const DefinitionKurdish(text: "١. (ھاوەڵناو) گەمژە"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(text: "He's nice, but a bit dopey."),
-                    ExampleSentenceKurdish(
-                        text: "کەسێکی باشە، بەڵام کەمێک گەمژەیە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "dopey", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdopeys1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdopeys1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "He's nice, but a bit dopey.",
+            kurdishText: "کەسێکی باشە، بەڵام کەمێک گەمژەیە.", // dopey
+            onPressedBritish: () => speakdopeys1("en-GB"),
+            onPressedAmerican: () => speakdopeys1("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
                   "٢. (ھاوەڵناو) کە خەواڵوو بیت یان نەتوانیت بە تەواوی بیربکەیتەوە"),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "I felt dopey and drowsy after the operation."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "لە نەشتەرگەرییەکە ھەستم بە گێژی و خەواڵووی دەکرد."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdopeys2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdopeys2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "I felt dopey and drowsy after the operation.",
+            kurdishText: "لە نەشتەرگەرییەکە ھەستم بە گێژی و خەواڵووی دەکرد.",
+            onPressedBritish: () => speakdopeys2("en-GB"),
+            onPressedAmerican: () => speakdopeys2("en-US"),
           ),
           // dopeys300"),
           // speakdopeys3

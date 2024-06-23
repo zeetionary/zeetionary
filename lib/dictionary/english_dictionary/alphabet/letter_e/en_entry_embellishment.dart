@@ -381,93 +381,35 @@ class KurdishMeaning extends StatelessWidget {
 """),
           const DefinitionKurdish(
               text: """١. (ناو) شتی جوانکاری و ڕازاندنەوە"""),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            """Good pasta needs very little embellishment."""),
-                    ExampleSentenceKurdish(
-                        text:
-                            """پاستای باش پێویستیی بە ڕازاندنەوەی کەم ھەیە."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "embellishment", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakembellishments1("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakembellishments1("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: """Good pasta needs very little embellishment.""",
+            kurdishText:
+                """پاستای باش پێویستیی بە ڕازاندنەوەی کەم ھەیە.""", // embellishment
+            onPressedBritish: () => speakembellishments1("en-GB"),
+            onPressedAmerican: () => speakembellishments1("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: """ژممارە. (ناو) پێنناسە"""),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            """She's an actress whose beauty needs no Hollywood embellishment."""),
-                    ExampleSentenceKurdish(
-                        text:
-                            """ئەکتەرێکە کە پێویستی بە ھیچ ڕازاندنەوەیەکی ھۆڵیوود نییە."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakembellishments2("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakembellishments2("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                """She's an actress whose beauty needs no Hollywood embellishment.""",
+            kurdishText:
+                """ئەکتەرێکە کە پێویستی بە ھیچ ڕازاندنەوەیەکی ھۆڵیوود نییە.""",
+            onPressedBritish: () => speakembellishments2("en-GB"),
+            onPressedAmerican: () => speakembellishments2("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
                   """٢. (ناو) زیادکردنی وردەکاری بۆ چیرۆک کە وا دەکات سەرنجڕاکێش بێت، ئەگەرچی مەرج بییە ھەموو کات ڕاست بن"""),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            """She laid out the facts without embellishment or exaggeration."""),
-                    ExampleSentenceKurdish(
-                        text: """ڕاستییەکانی بەبێ جوانکاری یان زێدەڕەوی."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakembellishments3("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakembellishments3("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                """She laid out the facts without embellishment or exaggeration.""",
+            kurdishText: """ڕاستییەکانی بەبێ جوانکاری یان زێدەڕەوی.""",
+            onPressedBritish: () => speakembellishments3("en-GB"),
+            onPressedAmerican: () => speakembellishments3("en-US"),
           ),
           // embellishments400embellishments4
           // speakembellishments4

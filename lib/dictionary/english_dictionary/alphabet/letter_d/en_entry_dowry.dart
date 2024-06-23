@@ -364,32 +364,13 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "١. (ناو) بڕە پارەیەک کە لە ھەندێک کۆمەڵگادا ژنێک یان خێزانەکەی دەبێت بیدەن بە زاوا لە کاتی ھاوسەرگیریدا؛ بە پێچەوانەشەوە"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "His family hoped that his bride would bring a large dowry."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "خێزانەکەی بەھیوابوون کە بووکەکە مارەییەکی زۆر بھێنێت."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "dowry", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdowrys1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdowrys1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "His family hoped that his bride would bring a large dowry.",
+            kurdishText:
+                "خێزانەکەی بەھیوابوون کە بووکەکە مارەییەکی زۆر بھێنێت.", // dowry
+            onPressedBritish: () => speakdowrys1("en-GB"),
+            onPressedAmerican: () => speakdowrys1("en-US"),
           ),
           // dowrys200"),
           // speakdowrys2

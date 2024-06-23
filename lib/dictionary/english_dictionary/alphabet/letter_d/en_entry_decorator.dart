@@ -241,58 +241,21 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "١. (ناو) کەسێک کە کاری بۆیەکردنی دیواری ناوەوەی بینا و دانانی وێنەیە"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "She became a painter and decorator."),
-                    ExampleSentenceKurdish(text: "بوو بە وێنەکێش و بۆیەکارێک."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "decorator", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdecorators1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdecorators1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "She became a painter and decorator.",
+            kurdishText: "بوو بە وێنەکێش و بۆیەکارێک.", // decorator
+            onPressedBritish: () => speakdecorators1("en-GB"),
+            onPressedAmerican: () => speakdecorators1("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
                   "٢. (ناو) کەسێک کە کاری ڕازاندنەوەی ناوماڵە بە ھەڵبژاردنی کەلوپەل، ڕەنگ، ڕایەخ، ھتد"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "He is a professional home decorator."),
-                    ExampleSentenceKurdish(
-                        text: "ڕازێنەرەوەیەکی پڕۆفیشناڵی ناوماڵە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdecorators2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdecorators2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "He is a professional home decorator.",
+            kurdishText: "ڕازێنەرەوەیەکی پڕۆفیشناڵی ناوماڵە.",
+            onPressedBritish: () => speakdecorators2("en-GB"),
+            onPressedAmerican: () => speakdecorators2("en-US"),
           ),
         ],
       ),

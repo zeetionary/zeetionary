@@ -380,62 +380,23 @@ class KurdishMeaning extends StatelessWidget {
 کوردی: شاگەشکەیی، سەرخۆشی گەشکەلێ‌ھاتن، شادی، خۆشی، سەرمەستی، مەستی، حاڵ، لەخۆبوونەوە، حاڵ‌لێھاتن، وڕینە، ڕاوان، درەمانی مەستێنەر، مەستێنە، درەمانی شاگەشکە، خۆشی‌ھێن
 """),
           const DefinitionKurdish(text: """١. (ناو) ھەست و خۆشییەکی زۆر"""),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            """He had never felt such ecstasy as he did that night."""),
-                    ExampleSentenceKurdish(
-                        text:
-                            """ھەرگیز ھەستی بە خۆشییەکی وەک ئەوەی ئەو شەوە نەکردبوو."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "ecstasy", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakecstasys1("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakecstasys1("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                """He had never felt such ecstasy as he did that night.""",
+            kurdishText:
+                """ھەرگیز ھەستی بە خۆشییەکی وەک ئەوەی ئەو شەوە نەکردبوو.""", // ecstasy
+            onPressedBritish: () => speakecstasys1("en-GB"),
+            onPressedAmerican: () => speakecstasys1("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            """I was in sheer ecstasy over the prospect of meeting her."""),
-                    ExampleSentenceKurdish(
-                        text:
-                            """لە شاگەشکەیی تەواودا بووم لەسەر ئەگەری بینینی."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakecstasys2("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakecstasys2("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                """I was in sheer ecstasy over the prospect of meeting her.""",
+            kurdishText: """لە شاگەشکەیی تەواودا بووم لەسەر ئەگەری بینینی.""",
+            onPressedBritish: () => speakecstasys2("en-GB"),
+            onPressedAmerican: () => speakecstasys2("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: """٢. (ناو) دۆخێک کە تێیدا کەسێک دەگات بەوپەڕی ھەستەکانی، لە ڕێگەی نوێژ یان قووڵ‌بوونەوە، کە دەیگەیەنێت بە ئەوپەڕی کەسایەتی خۆی"""),

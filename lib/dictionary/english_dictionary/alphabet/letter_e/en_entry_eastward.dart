@@ -377,88 +377,31 @@ class KurdishMeaning extends StatelessWidget {
 کوردی: بەرەو ڕۆژھەڵات، ڕوو لە ڕۆژھەڵات، ڕۆژھەڵاتی
 """),
           const DefinitionKurdish(text: """١. (ھاوەڵناو) بەرەو ڕۆژھەڵات"""),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: """He was going in an eastward direction."""),
-                    ExampleSentenceKurdish(
-                        text: """بە ئاراستەی ڕۆژھەڵات دەچوون."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "eastward", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakeastwards1("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakeastwards1("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: """He was going in an eastward direction.""",
+            kurdishText: """بە ئاراستەی ڕۆژھەڵات دەچوون.""", // eastward
+            onPressedBritish: () => speakeastwards1("en-GB"),
+            onPressedAmerican: () => speakeastwards1("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text: """٢. (ھاوەڵکار) بە ئاراستەی ڕۆژھەڵات"""),
           // const DividerSentences(),
           const AlsoEnglishckb(word: "ھەروەھا: eastwards زیاتر لە بەریتانیا"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: """The storm is moving slowly eastwards."""),
-                    ExampleSentenceKurdish(
-                        text: """زریانەکە بەھێواشی بەرەو ڕۆژھەڵات دەچێت."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakeastwards2("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakeastwards2("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: """The storm is moving slowly eastwards.""",
+            kurdishText: """زریانەکە بەھێواشی بەرەو ڕۆژھەڵات دەچێت.""",
+            onPressedBritish: () => speakeastwards2("en-GB"),
+            onPressedAmerican: () => speakeastwards2("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: """They marched eastward towards the capital."""),
-                    ExampleSentenceKurdish(
-                        text: """بەرەو ڕۆژھەڵات بۆ پایتەخت ڕۆشتن."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakeastwards3("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakeastwards3("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: """They marched eastward towards the capital.""",
+            kurdishText: """بەرەو ڕۆژھەڵات بۆ پایتەخت ڕۆشتن.""",
+            onPressedBritish: () => speakeastwards3("en-GB"),
+            onPressedAmerican: () => speakeastwards3("en-US"),
           ),
           // eastwards400eastwards4
           // speakeastwards4

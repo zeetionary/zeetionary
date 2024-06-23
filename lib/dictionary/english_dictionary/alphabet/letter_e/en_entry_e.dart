@@ -369,59 +369,21 @@ class KurdishMeaning extends StatelessWidget {
 // کوردی:
 // """),
           const DefinitionKurdish(text: """١. (ناو) پێنجەم پیتی ئەلفوبێ"""),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: """‘Egg’ begins with (an) E/‘E’."""),
-                    ExampleSentenceKurdish(
-                        text: """وشەی 'Egg' بە 'E' دەست پێدەکات."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "e", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakes1("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakes1("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: """‘Egg’ begins with (an) E/‘E’.""",
+            kurdishText: """وشەی 'Egg' بە 'E' دەست پێدەکات.""", // e
+            onPressedBritish: () => speakes1("en-GB"),
+            onPressedAmerican: () => speakes1("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text: """٢. (ناو) نمرەیەکی زۆر خراپ کە دەدرێت بە خوێندکارێت"""),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: """He got (an) E in French."""),
-                    ExampleSentenceKurdish(
-                        text: """لە زمانی فەرەنسی زۆر خراپەی وەرگرت."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakes2("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakes2("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: """He got (an) E in French.""",
+            kurdishText: """لە زمانی فەرەنسی زۆر خراپەی وەرگرت.""",
+            onPressedBritish: () => speakes2("en-GB"),
+            onPressedAmerican: () => speakes2("en-US"),
           ),
           // es300es3
           // speakes3

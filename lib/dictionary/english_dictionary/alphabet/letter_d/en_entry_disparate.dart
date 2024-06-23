@@ -251,92 +251,35 @@ class KurdishMeaning extends StatelessWidget {
 """),
           const DefinitionKurdish(
               text: "١. (ھاوەڵناو) کە درووست بووە لە چەند بەشێکی زۆر جیاواز"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The committee was made up of a disparate group of individuals."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "لیژنەکە لە گرووپێکی ھەمەچەشن لە خەڵکی درووست بووبوو."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "disparate", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdisparates1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdisparates1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "The committee was made up of a disparate group of individuals.",
+            kurdishText:
+                "لیژنەکە لە گرووپێکی ھەمەچەشن لە خەڵکی درووست بووبوو.", // disparate
+            onPressedBritish: () => speakdisparates1("en-GB"),
+            onPressedAmerican: () => speakdisparates1("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: "٢. (ھاوەڵناو) شتێکی گەورە"),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The two cultures were so utterly disparate that she found it hard to adapt from one to the other."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "دوو کەلتوورەکە ھێندە جیاواز بوون کە بە سەختی بینی کە لە یەکێکەوە بەوی دیکە ڕابێت."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdisparates2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdisparates2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "The two cultures were so utterly disparate that she found it hard to adapt from one to the other.",
+            kurdishText:
+                "دوو کەلتوورەکە ھێندە جیاواز بوون کە بە سەختی بینی کە لە یەکێکەوە بەوی دیکە ڕابێت.",
+            onPressedBritish: () => speakdisparates2("en-GB"),
+            onPressedAmerican: () => speakdisparates2("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The machine can keep the disparate parts of the system coordinated."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "ئامێرەکە دەتوانێت بەشە جیاوازەکانی سیستەمەکە بەڕێکخراوەیی بھێڵێتەوە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdisparates3("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdisparates3("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "The machine can keep the disparate parts of the system coordinated.",
+            kurdishText:
+                "ئامێرەکە دەتوانێت بەشە جیاوازەکانی سیستەمەکە بەڕێکخراوەیی بھێڵێتەوە.",
+            onPressedBritish: () => speakdisparates3("en-GB"),
+            onPressedAmerican: () => speakdisparates3("en-US"),
           ),
           // disparates400"),
           // speakdisparates4

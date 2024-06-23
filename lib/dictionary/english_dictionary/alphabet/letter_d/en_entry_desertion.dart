@@ -256,90 +256,32 @@ class KurdishMeaning extends StatelessWidget {
 کوردی: بەجێ‌ھێشتن، وازلێ‌ھێنان، وەلانان، چۆڵ‌کردن، تەرک(کردن)،	نەکردن، ھەڵاتن، سەربازی‌نەکردن، نەچوونەوە سەربازی،	(ماف) بەجێ‌ھێشتنی ھاوسەر، بەجێ‌ھێشتنی ماڵ، تەرکەماڵ 
 """),
           const DefinitionKurdish(text: "١. (ناو) جێھێشتنی سوپا بەبێ مۆڵەت"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "The army was badly affected by desertions."),
-                    ExampleSentenceKurdish(
-                        text: "سوپاکە خراپ کاریگەر بوو بە ھەڵھاتن."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "desertion", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdesertions1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdesertions1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "The army was badly affected by desertions.",
+            kurdishText: "سوپاکە خراپ کاریگەر بوو بە ھەڵھاتن.", // desertion
+            onPressedBritish: () => speakdesertions1("en-GB"),
+            onPressedAmerican: () => speakdesertions1("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٢. (ناو) جێھێشتنی کەسێک بەبێ یارمەتی و پشتیوانی"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "She felt betrayed by her husband's desertion."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "ھەستی بە خیانەت‌لێکراوی کرد بە ڕۆشتنی ھاوسەرەکەی."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdesertions2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdesertions2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "She felt betrayed by her husband's desertion.",
+            kurdishText: "ھەستی بە خیانەت‌لێکراوی کرد بە ڕۆشتنی ھاوسەرەکەی.",
+            onPressedBritish: () => speakdesertions2("en-GB"),
+            onPressedAmerican: () => speakdesertions2("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: "٣. (ناو) چۆڵکردنی شوێنێک"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "Industrialization led to the growth of cities and the desertion of villages."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "بەپیشەسازی‌بوون بوو بە ھۆکاری گەشەی شارەکان وچۆڵکردنی گوندەکان."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdesertions3("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdesertions3("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "Industrialization led to the growth of cities and the desertion of villages.",
+            kurdishText:
+                "بەپیشەسازی‌بوون بوو بە ھۆکاری گەشەی شارەکان وچۆڵکردنی گوندەکان.",
+            onPressedBritish: () => speakdesertions3("en-GB"),
+            onPressedAmerican: () => speakdesertions3("en-US"),
           ),
           // desertions400"),
           // speakdesertions4

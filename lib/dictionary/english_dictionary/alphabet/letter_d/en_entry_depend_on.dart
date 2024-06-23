@@ -317,285 +317,93 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "١. (کاری لێکدراو) پشتبەستن بە کەسێک/شتێک و ھەبوونی متمانە پێیان"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "He was the sort of person you could depend on."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "ئەو جۆرە کەسانە بوو کە دەتتوانی پشتی پێ ببەستیت."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "depend on", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdependons1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdependons1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "He was the sort of person you could depend on.",
+            kurdishText:
+                "ئەو جۆرە کەسانە بوو کە دەتتوانی پشتی پێ ببەستیت.", // depend on
+            onPressedBritish: () => speakdependons1("en-GB"),
+            onPressedAmerican: () => speakdependons1("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "ژممارە. (کاری لێکدراو) پێنناسە"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "He knew he could depend upon her to deal with the situation."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "دەیزانی دەتوانێت پشتی پێ ببەستێت بۆ مامەڵەکردن لەگەڵ دۆخەکە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdependons2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdependons2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "He knew he could depend upon her to deal with the situation.",
+            kurdishText:
+                "دەیزانی دەتوانێت پشتی پێ ببەستێت بۆ مامەڵەکردن لەگەڵ دۆخەکە.",
+            onPressedBritish: () => speakdependons2("en-GB"),
+            onPressedAmerican: () => speakdependons2("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
                   "٢. (کاری لێکدراو) دڵنیابوون یان پێشبینی کردنی ئەوەی شتێک ڕوودەدات"),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "Depend upon it (= you can be sure) we won't give up."),
-                    ExampleSentenceKurdish(text: "بە پشتبەستن پێی کۆڵ نادەین."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdependons3("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdependons3("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "Depend upon it (= you can be sure) we won't give up.",
+            kurdishText: "بە پشتبەستن پێی کۆڵ نادەین.",
+            onPressedBritish: () => speakdependons3("en-GB"),
+            onPressedAmerican: () => speakdependons3("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "ژممارە. (کاری لێکدراو) پێنناسە"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "Can we depend on you coming in on Sunday?"),
-                    ExampleSentenceKurdish(
-                        text: "دەتوانین دڵنیابین کە شەممە دێیت؟"),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdependons4("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdependons4("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "Can we depend on you coming in on Sunday?",
+            kurdishText: "دەتوانین دڵنیابین کە شەممە دێیت؟",
+            onPressedBritish: () => speakdependons4("en-GB"),
+            onPressedAmerican: () => speakdependons4("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "You can depend on his coming in on Sunday."),
-                    ExampleSentenceKurdish(
-                        text: "دەتوانیت دڵنیابیت لە ھاتنی بۆ یەکشەممە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdependons5("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdependons5("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "You can depend on his coming in on Sunday.",
+            kurdishText: "دەتوانیت دڵنیابیت لە ھاتنی بۆ یەکشەممە.",
+            onPressedBritish: () => speakdependons5("en-GB"),
+            onPressedAmerican: () => speakdependons5("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "You can depend on her to be (= she always is) late."),
-                    ExampleSentenceKurdish(
-                        text: "دەتوانیت دەڵنیابیت کە دوا دەکەوێت."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdependons6("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdependons6("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "You can depend on her to be (= she always is) late.",
+            kurdishText: "دەتوانیت دەڵنیابیت کە دوا دەکەوێت.",
+            onPressedBritish: () => speakdependons6("en-GB"),
+            onPressedAmerican: () => speakdependons6("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٢. (کاری لێکدراو) پشتبەستن بە کەسێکی دیکە بۆ پارە"),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "I don't want to depend too much on my parents."),
-                    ExampleSentenceKurdish(
-                        text: "نامەوێت زۆر پشت بە دایبابم ببەستم."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdependons7("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdependons7("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "I don't want to depend too much on my parents.",
+            kurdishText: "نامەوێت زۆر پشت بە دایبابم ببەستم.",
+            onPressedBritish: () => speakdependons7("en-GB"),
+            onPressedAmerican: () => speakdependons7("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٤. (کاری لێکدراو) کاریگەربوون بە شتێکی دیکە"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "Does the quality of teaching depend on class size?"),
-                    ExampleSentenceKurdish(
-                        text: "ئاستی وانەگوتنەوە پشت بە گەورەیی پۆل دەبەستێت؟"),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdependons8("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdependons8("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "Does the quality of teaching depend on class size?",
+            kurdishText: "ئاستی وانەگوتنەوە پشت بە گەورەیی پۆل دەبەستێت؟",
+            onPressedBritish: () => speakdependons8("en-GB"),
+            onPressedAmerican: () => speakdependons8("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "It would depend on the circumstances."),
-                    ExampleSentenceKurdish(
-                        text: "پشت بە ھەلومەرجەکە دەبەستێت."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdependons9("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdependons9("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "It would depend on the circumstances.",
+            kurdishText: "پشت بە ھەلومەرجەکە دەبەستێت.",
+            onPressedBritish: () => speakdependons9("en-GB"),
+            onPressedAmerican: () => speakdependons9("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "Whether we need more food depends on how many people turn up."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "ئەوەی کە پێویستیمان بە خواردنی زیاتر دەبێت دەوەستێتە سەر ئەوەی چەند کەس دێن."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdependons10("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdependons10("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "Whether we need more food depends on how many people turn up.",
+            kurdishText:
+                "ئەوەی کە پێویستیمان بە خواردنی زیاتر دەبێت دەوەستێتە سەر ئەوەی چەند کەس دێن.",
+            onPressedBritish: () => speakdependons10("en-GB"),
+            onPressedAmerican: () => speakdependons10("en-US"),
           ),
           // dependons1100"),
           // speakdependons11

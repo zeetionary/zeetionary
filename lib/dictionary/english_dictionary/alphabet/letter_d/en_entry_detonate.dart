@@ -259,110 +259,38 @@ class KurdishMeaning extends StatelessWidget {
 // """),
           const DefinitionKurdish(
               text: "١. (کردار) تەقانەوە؛ تەقاندنەوەی بۆمبێک"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "Two other bombs failed to detonate."),
-                    ExampleSentenceKurdish(text: "دوو بۆمبی دیکە نەتەقینەوە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "detonate", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdetonates1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdetonates1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "Two other bombs failed to detonate.",
+            kurdishText: "دوو بۆمبی دیکە نەتەقینەوە.", // detonate
+            onPressedBritish: () => speakdetonates1("en-GB"),
+            onPressedAmerican: () => speakdetonates1("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "The bomb was detonated by remote control."),
-                    ExampleSentenceKurdish(
-                        text: "بۆمبەکە بە کۆنترۆڵی دووردەست تەقێندرایەوە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdetonates2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdetonates2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "The bomb was detonated by remote control.",
+            kurdishText: "بۆمبەکە بە کۆنترۆڵی دووردەست تەقێندرایەوە.",
+            onPressedBritish: () => speakdetonates2("en-GB"),
+            onPressedAmerican: () => speakdetonates2("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(text: "speakdetonates300"),
-                    ExampleSentenceKurdish(text: "رستە_رستە_رستە_رستە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdetonates3("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdetonates3("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "speakdetonates300",
+            kurdishText: "رستە_رستە_رستە_رستە.",
+            onPressedBritish: () => speakdetonates3("en-GB"),
+            onPressedAmerican: () => speakdetonates3("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "The bomb detonated unexpectedly."),
-                    ExampleSentenceKurdish(text: "بۆمبەکە لەناکاو تەقییەوە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdetonates4("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdetonates4("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "The bomb detonated unexpectedly.",
+            kurdishText: "بۆمبەکە لەناکاو تەقییەوە.",
+            onPressedBritish: () => speakdetonates4("en-GB"),
+            onPressedAmerican: () => speakdetonates4("en-US"),
           ),
           // detonates500"),
           // speakdetonates5

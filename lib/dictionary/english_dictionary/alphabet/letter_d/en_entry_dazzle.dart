@@ -260,118 +260,40 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "١. (کردار) نەبینینی توانای بینین بۆ ماوەیەک بەھۆی ڕۆشناییەکی بەھێزەوە"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "He was momentarily dazzled by the strong sunlight."),
-                    ExampleSentenceKurdish(
-                        text: "بۆ کەمێک شەوارەی کرد بە تیشکە خۆرە بەھێزەکە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "dazzle", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdazzles1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdazzles1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "He was momentarily dazzled by the strong sunlight.",
+            kurdishText:
+                "بۆ کەمێک شەوارەی کرد بە تیشکە خۆرە بەھێزەکە.", // dazzle
+            onPressedBritish: () => speakdazzles1("en-GB"),
+            onPressedAmerican: () => speakdazzles1("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
                   "٢. (کردار) سەرسامکردنی کەسێک بە ئاستێکی زۆر بە شارەزایی، جوانی، ھتد"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "I was dazzled by his charm and good looks."),
-                    ExampleSentenceKurdish(
-                        text: "سەرسام بوون بە دڵڕفێنی و جوانییەکەی."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdazzles2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdazzles2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "I was dazzled by his charm and good looks.",
+            kurdishText: "سەرسام بوون بە دڵڕفێنی و جوانییەکەی.",
+            onPressedBritish: () => speakdazzles2("en-GB"),
+            onPressedAmerican: () => speakdazzles2("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: "٢. (ناو) درەوشاوەیی شتێک"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The dazzle of the sun on the water was breathtaking."),
-                    ExampleSentenceKurdish(
-                        text: "درەوشاوەیی خۆر لەسەر ئاوەکە دڵڕفێنەر بوو."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdazzles3("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdazzles3("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "The dazzle of the sun on the water was breathtaking.",
+            kurdishText: "درەوشاوەیی خۆر لەسەر ئاوەکە دڵڕفێنەر بوو.",
+            onPressedBritish: () => speakdazzles3("en-GB"),
+            onPressedAmerican: () => speakdazzles3("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
                   "٤. (ناو) شتێک یان خاسیەتێک کە سەرسامت دەکات بەڵام ڕەنگە ڕێگر بێت لەوەی بە ڕوونی بیربکەیتەوە"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "This lacks the technical dazzle of his first film."),
-                    ExampleSentenceKurdish(
-                        text: "ئەمە شکۆی تەکنیکی یەکەم فیلمیی نییە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdazzles4("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdazzles4("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "This lacks the technical dazzle of his first film.",
+            kurdishText: "ئەمە شکۆی تەکنیکی یەکەم فیلمیی نییە.",
+            onPressedBritish: () => speakdazzles4("en-GB"),
+            onPressedAmerican: () => speakdazzles4("en-US"),
           ),
         ],
       ),

@@ -403,166 +403,51 @@ class KurdishMeaning extends StatelessWidget {
 کوردی: تاریک، ئەنگوستەچاو، زەنگ، بێ‌شەوق، تار، ناڕۆشن،	(ڕەنگ) تۆخ، توند، تێر، پڕڕەنگ،	(پێست، قژ و ھتد) سەوزە، ڕەشتاڵە، مەیلەوڕەش، ڕەشباو.	ڕەش،	نھێنی، پەنامەکی،	تێگەیشتن‌سەخت، شاراوە، تەماوی، نادیار، لێڵ، ڕوون نییە، نامەعلووم،	خەماوی، مایەی خەمباری، دڵتەنگ‌کەر، خەفەتاوی، جێی‌خەم،	خراپ، ترسناک، شەیتانی، پیس،	نەناسراو،	تاریکی، تاری، ناڕۆشنی،	ئاوابوون، خۆراوابوون، شەوداھاتن،	ڕەشی،	(وێنەکێشی) سێبەر،	ڕەنگی تۆخ یان توند،	نەزانی، نائاگاداری، بێ‌خەبەری،	شاراوەیی، نادیاری، نھێنی‌بوون، پشت‌پەردە 
 """),
           const DefinitionKurdish(text: "١. (ھاوەڵناو) تاریک"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "What time does it get dark in summer?"),
-                    ExampleSentenceKurdish(
-                        text: "کاتژمێر چەند لە ھاویندا تاریک دادێت؟"),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "dark", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdarks1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdarks1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "What time does it get dark in summer?",
+            kurdishText: "کاتژمێر چەند لە ھاویندا تاریک دادێت؟", // dark
+            onPressedBritish: () => speakdarks1("en-GB"),
+            onPressedAmerican: () => speakdarks1("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "It was dark outside and I couldn't see much."),
-                    ExampleSentenceKurdish(
-                        text: "دەرەوە تاریک بوو و نەمدەتوانی زۆر ببینم."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdarks2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdarks2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "It was dark outside and I couldn't see much.",
+            kurdishText: "دەرەوە تاریک بوو و نەمدەتوانی زۆر ببینم.",
+            onPressedBritish: () => speakdarks2("en-GB"),
+            onPressedAmerican: () => speakdarks2("en-US"),
           ),
           Column(
             children: [
               MyExpansionTile(
                 children: [
-                  Row(
-                    children: [
-                      const Expanded(
-                        child: Column(
-                          children: [
-                            ExampleSentenceEnglish(
-                                text: "The sky was still dark."),
-                            ExampleSentenceKurdish(
-                                text: "ئاسمان ھێشتا تاریک بوو."),
-                          ],
-                        ),
-                      ),
-                      const CustomSizedBoxForTTS(),
-                      Column(
-                        children: [
-                          CustomIconButtonBritish(
-                            onPressed: () => speakdarks3("en-GB"),
-                          ),
-                          CustomIconButtonAmerican(
-                            onPressed: () => speakdarks3("en-US"),
-                          ),
-                        ],
-                      ),
-                    ],
+                  SentencesRow(
+                    englishText: "The sky was still dark.",
+                    kurdishText: "ئاسمان ھێشتا تاریک بوو.",
+                    onPressedBritish: () => speakdarks3("en-GB"),
+                    onPressedAmerican: () => speakdarks3("en-US"),
                   ),
                   const DividerSentences(),
-                  Row(
-                    children: [
-                      const Expanded(
-                        child: Column(
-                          children: [
-                            ExampleSentenceEnglish(
-                                text: "The sky was still dark."),
-                            ExampleSentenceKurdish(
-                                text: "ئاسمان ھێشتا تاریک بوو."),
-                          ],
-                        ),
-                      ),
-                      const CustomSizedBoxForTTS(),
-                      Column(
-                        children: [
-                          CustomIconButtonBritish(
-                            onPressed: () => speakdarks4("en-GB"),
-                          ),
-                          CustomIconButtonAmerican(
-                            onPressed: () => speakdarks4("en-US"),
-                          ),
-                        ],
-                      ),
-                    ],
+                  SentencesRow(
+                    englishText: "The sky was still dark.",
+                    kurdishText: "ئاسمان ھێشتا تاریک بوو.",
+                    onPressedBritish: () => speakdarks4("en-GB"),
+                    onPressedAmerican: () => speakdarks4("en-US"),
                   ),
                   const DividerSentences(),
-                  Row(
-                    children: [
-                      const Expanded(
-                        child: Column(
-                          children: [
-                            ExampleSentenceEnglish(
-                                text: "Use lights to illuminate dark corners."),
-                            ExampleSentenceKurdish(
-                                text:
-                                    "ڕۆشنایی بەکاربھێنە بۆ ڕۆشنکردنەوەی سووچە تاریکەکان."),
-                          ],
-                        ),
-                      ),
-                      const CustomSizedBoxForTTS(),
-                      Column(
-                        children: [
-                          CustomIconButtonBritish(
-                            onPressed: () => speakdarks5("en-GB"),
-                          ),
-                          CustomIconButtonAmerican(
-                            onPressed: () => speakdarks5("en-US"),
-                          ),
-                        ],
-                      ),
-                    ],
+                  SentencesRow(
+                    englishText: "Use lights to illuminate dark corners.",
+                    kurdishText:
+                        "ڕۆشنایی بەکاربھێنە بۆ ڕۆشنکردنەوەی سووچە تاریکەکان.",
+                    onPressedBritish: () => speakdarks5("en-GB"),
+                    onPressedAmerican: () => speakdarks5("en-US"),
                   ),
                   const DividerSentences(),
-                  Row(
-                    children: [
-                      const Expanded(
-                        child: Column(
-                          children: [
-                            ExampleSentenceEnglish(
-                                text:
-                                    "As it grew dark, they gathered round the fire."),
-                            ExampleSentenceKurdish(
-                                text:
-                                    "کە تاریکی کرد، لە دەوری ئاگرەکە کۆبوونەوە."),
-                          ],
-                        ),
-                      ),
-                      const CustomSizedBoxForTTS(),
-                      Column(
-                        children: [
-                          CustomIconButtonBritish(
-                            onPressed: () => speakdarks6("en-GB"),
-                          ),
-                          CustomIconButtonAmerican(
-                            onPressed: () => speakdarks6("en-US"),
-                          ),
-                        ],
-                      ),
-                    ],
+                  SentencesRow(
+                    englishText:
+                        "As it grew dark, they gathered round the fire.",
+                    kurdishText: "کە تاریکی کرد، لە دەوری ئاگرەکە کۆبوونەوە.",
+                    onPressedBritish: () => speakdarks6("en-GB"),
+                    onPressedAmerican: () => speakdarks6("en-US"),
                   ),
                 ],
               ),
@@ -571,428 +456,132 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٢. (ھاوەڵناو) ڕەنگی تۆخ؛ ڕەنگی نزیک لە ڕەش وەک لە سپی"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(text: "She has dark hair."),
-                    ExampleSentenceKurdish(text: "قژێکی تاریکی ھەیە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdarks7("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdarks7("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "She has dark hair.",
+            kurdishText: "قژێکی تاریکی ھەیە.",
+            onPressedBritish: () => speakdarks7("en-GB"),
+            onPressedAmerican: () => speakdarks7("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "He was tall, dark (= with black/brown hair) and handsome."),
-                    ExampleSentenceKurdish(text: "درێژ و ئەسمەر و قۆز بوو."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdarks8("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdarks8("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "He was tall, dark (= with black/brown hair) and handsome.",
+            kurdishText: "درێژ و ئەسمەر و قۆز بوو.",
+            onPressedBritish: () => speakdarks8("en-GB"),
+            onPressedAmerican: () => speakdarks8("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: "٣. (ھاوەڵناو) ھەبوونی ڕەنگی تاریک"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "He wore a dark suit and a plain tie."),
-                    ExampleSentenceKurdish(
-                        text: "قاتێکی تۆخ و بۆینباخێکی سادەی لەبەرکرد."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdarks9("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdarks9("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "He wore a dark suit and a plain tie.",
+            kurdishText: "قاتێکی تۆخ و بۆینباخێکی سادەی لەبەرکرد.",
+            onPressedBritish: () => speakdarks9("en-GB"),
+            onPressedAmerican: () => speakdarks9("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The dark clouds in the sky meant that a storm was coming."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "ھەورە تاریکەکان لە ئاسماندا واتای ئەوە بوون کە زریانێک بەڕێوەیە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdarks10("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdarks10("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "The dark clouds in the sky meant that a storm was coming.",
+            kurdishText:
+                "ھەورە تاریکەکان لە ئاسماندا واتای ئەوە بوون کە زریانێک بەڕێوەیە.",
+            onPressedBritish: () => speakdarks10("en-GB"),
+            onPressedAmerican: () => speakdarks10("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: "٤. (ھاوەڵناو) ڕەنگی قاوەیی یان ڕەش"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "He was handsome with dark eyes."),
-                    ExampleSentenceKurdish(text: "قۆز و چاو ڕەش بوو."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdarks11("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdarks11("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "He was handsome with dark eyes.",
+            kurdishText: "قۆز و چاو ڕەش بوو.",
+            onPressedBritish: () => speakdarks11("en-GB"),
+            onPressedAmerican: () => speakdarks11("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(text: "Sue has long dark hair."),
-                    ExampleSentenceKurdish(text: "قژی درێژی ڕەشی ھەیە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdarks12("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdarks12("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "Sue has long dark hair.",
+            kurdishText: "قژی درێژی ڕەشی ھەیە.",
+            onPressedBritish: () => speakdarks12("en-GB"),
+            onPressedAmerican: () => speakdarks12("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "Even if you have dark skin, you still need protection from the sun."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "ئەگەرچی پێستی تاریکت ھەیە، ھێشتا پێویستیت بە پارێزەر لە خۆر ھەیە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdarks13("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdarks13("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "Even if you have dark skin, you still need protection from the sun.",
+            kurdishText:
+                "ئەگەرچی پێستی تاریکت ھەیە، ھێشتا پێویستیت بە پارێزەر لە خۆر ھەیە.",
+            onPressedBritish: () => speakdarks13("en-GB"),
+            onPressedAmerican: () => speakdarks13("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٥. (ھاوەڵناو) کەسێک کە قژ، چاو، ھتد ـی ڕەشی ھەیە"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "He was a dark handsome stranger."),
-                    ExampleSentenceKurdish(text: "نەناسێکی قۆزی ڕەشتاڵ بوو."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdarks14("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdarks14("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "He was a dark handsome stranger.",
+            kurdishText: "نەناسێکی قۆزی ڕەشتاڵ بوو.",
+            onPressedBritish: () => speakdarks14("en-GB"),
+            onPressedAmerican: () => speakdarks14("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: "٦. (ھاوەڵناو) شاراوە و نەزانراو"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "There are no dark secrets in our family."),
-                    ExampleSentenceKurdish(
-                        text: "ھیچ نھێنییەکی شاراوە لە ماڵماندا نییە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdarks15("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdarks15("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "There are no dark secrets in our family.",
+            kurdishText: "ھیچ نھێنییەکی شاراوە لە ماڵماندا نییە.",
+            onPressedBritish: () => speakdarks15("en-GB"),
+            onPressedAmerican: () => speakdarks15("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: "٧. (ھاوەڵناو) ترسناک و خراپ"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "There was a darker side to his nature."),
-                    ExampleSentenceKurdish(
-                        text: "لایەنێکی شەیتانی ھەبوو لە سرووشتیدا."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdarks16("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdarks16("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "There was a darker side to his nature.",
+            kurdishText: "لایەنێکی شەیتانی ھەبوو لە سرووشتیدا.",
+            onPressedBritish: () => speakdarks16("en-GB"),
+            onPressedAmerican: () => speakdarks16("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "My mind was full of dark thoughts."),
-                    ExampleSentenceKurdish(
-                        text: "مێشکم پڕ لە بیرکردنەوەی شەیتانی بوو."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdarks17("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdarks17("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "My mind was full of dark thoughts.",
+            kurdishText: "مێشکم پڕ لە بیرکردنەوەی شەیتانی بوو.",
+            onPressedBritish: () => speakdarks17("en-GB"),
+            onPressedAmerican: () => speakdarks17("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: "٨. (ھاوەڵناو) ناخۆش و بێ‌ھیوا"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "The film is a dark vision of the future."),
-                    ExampleSentenceKurdish(
-                        text: "فیلمەکە وێنایەکی تاریکی داھاتووە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdarks18("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdarks18("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "The film is a dark vision of the future.",
+            kurdishText: "فیلمەکە وێنایەکی تاریکی داھاتووە.",
+            onPressedBritish: () => speakdarks18("en-GB"),
+            onPressedAmerican: () => speakdarks18("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: "٩. (ناو) تاریکی"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "Are the children afraid of the dark?"),
-                    ExampleSentenceKurdish(text: "منداڵەکان لە تاریکی دەترسن؟"),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdarks19("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdarks19("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "Are the children afraid of the dark?",
+            kurdishText: "منداڵەکان لە تاریکی دەترسن؟",
+            onPressedBritish: () => speakdarks19("en-GB"),
+            onPressedAmerican: () => speakdarks19("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "All the lights went out and we were left in the dark."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "ھەموو لایتەکان کوژانەوە و لە تاریکییەکە ماینەوە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdarks20("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdarks20("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "All the lights went out and we were left in the dark.",
+            kurdishText: "ھەموو لایتەکان کوژانەوە و لە تاریکییەکە ماینەوە.",
+            onPressedBritish: () => speakdarks20("en-GB"),
+            onPressedAmerican: () => speakdarks20("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "I hate getting up in the dark."),
-                    ExampleSentenceKurdish(text: "ڕقم لێیە لە تاریکتدا ھەستم."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdarks21("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdarks21("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "I hate getting up in the dark.",
+            kurdishText: "ڕقم لێیە لە تاریکتدا ھەستم.",
+            onPressedBritish: () => speakdarks21("en-GB"),
+            onPressedAmerican: () => speakdarks21("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "We could just make out some figures in the gathering dark."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "دەمانتوانی تەنھا شێوەی چەند کەسێک بناسینەوە لە تاریکییەکەدا."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdarks22("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdarks22("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "We could just make out some figures in the gathering dark.",
+            kurdishText:
+                "دەمانتوانی تەنھا شێوەی چەند کەسێک بناسینەوە لە تاریکییەکەدا.",
+            onPressedBritish: () => speakdarks22("en-GB"),
+            onPressedAmerican: () => speakdarks22("en-US"),
           ),
         ],
       ),

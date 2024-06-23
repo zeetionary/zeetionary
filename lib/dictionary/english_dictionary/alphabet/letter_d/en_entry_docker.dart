@@ -364,32 +364,13 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "١. (ناو) کەسێک کە کاری داگرتن و بارکردنی کەلوپەلە لەسەر کەشتییە"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "Dockers play a crucial role in the loading and unloading of ships."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "کرێکارانی لەنگەرگا ڕۆڵێکی گرنگ دەبینن لە بارکردن و بەتاڵکردنی کەشتییەکان."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "docker", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdockers1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdockers1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "Dockers play a crucial role in the loading and unloading of ships.",
+            kurdishText:
+                "کرێکارانی لەنگەرگا ڕۆڵێکی گرنگ دەبینن لە بارکردن و بەتاڵکردنی کەشتییەکان.", // docker
+            onPressedBritish: () => speakdockers1("en-GB"),
+            onPressedAmerican: () => speakdockers1("en-US"),
           ),
           // dockers200"),
           // speakdockers2

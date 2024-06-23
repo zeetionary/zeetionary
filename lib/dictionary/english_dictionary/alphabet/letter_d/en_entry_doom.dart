@@ -388,120 +388,44 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "١. (ناو) مردن یان لەناوچوون؛ ھەر ڕووداوێکی ناخۆش کە ناتوانیت لێی دووربیت"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "She had a sense of impending doom (= felt that something very bad was going to happen)."),
-                    ExampleSentenceKurdish(
-                        text: "ھەستێکی بۆ کارەساتێکی بەپەلە ھەبوو."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "doom", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdooms1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdooms1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "She had a sense of impending doom (= felt that something very bad was going to happen).",
+            kurdishText: "ھەستێکی بۆ کارەساتێکی بەپەلە ھەبوو.", // doom
+            onPressedBritish: () => speakdooms1("en-GB"),
+            onPressedAmerican: () => speakdooms1("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "He sealed his own doom by having an affair with another woman."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "لەناوچوونی خۆی کۆتایی پێھێنا بە ھەبوونی پەیوەندیی سێکسی لەگەڵ ژنێکی دیکە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdooms2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdooms2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "He sealed his own doom by having an affair with another woman.",
+            kurdishText:
+                "لەناوچوونی خۆی کۆتایی پێھێنا بە ھەبوونی پەیوەندیی سێکسی لەگەڵ ژنێکی دیکە.",
+            onPressedBritish: () => speakdooms2("en-GB"),
+            onPressedAmerican: () => speakdooms2("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
                   "٢. (کردار) ئەوە دڵنیابکەیتەوە کە کەسێک دەمرێت، شکست دەھێنێت، ئازار دەکێشێت، ھتد"),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "The plan was doomed to failure.",
-                        note: "Similar: The plan was doomed to fail."),
-                    ExampleSentenceKurdish(
-                        text: "پلانەکە دڵنیایی ھەبوو کە شکست دەھێنێت."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdooms3("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdooms3("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "The plan was doomed to failure.",
+            englishNote: "Similar: The plan was doomed to fail.",
+            kurdishText: "پلانەکە دڵنیایی ھەبوو کە شکست دەھێنێت.",
+            onPressedBritish: () => speakdooms3("en-GB"),
+            onPressedAmerican: () => speakdooms3("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "The marriage was doomed from the start."),
-                    ExampleSentenceKurdish(
-                        text: "ھاوسەرگیرییەکە لە سەرەتاوە کۆتایی ھاتبوو."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdooms4("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdooms4("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "The marriage was doomed from the start.",
+            kurdishText: "ھاوسەرگیرییەکە لە سەرەتاوە کۆتایی ھاتبوو.",
+            onPressedBritish: () => speakdooms4("en-GB"),
+            onPressedAmerican: () => speakdooms4("en-US"),
           ),
           // dooms500"),
           // speakdooms5

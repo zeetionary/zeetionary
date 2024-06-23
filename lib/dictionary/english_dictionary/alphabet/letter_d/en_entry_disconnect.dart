@@ -304,275 +304,102 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "١. (کردار) لێکردنەوەی شتێک لە سەرچاوەی گاز، ئاو، یان کارەبا"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "First, disconnect the boiler from the water mains."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "سەرەتا، بۆیلەرەکە لێبکەوە لە بەشە سەرەکییەکانی ئاوەکە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "disconnect", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdisconnects1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdisconnects1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "First, disconnect the boiler from the water mains.",
+            kurdishText:
+                "سەرەتا، بۆیلەرەکە لێبکەوە لە بەشە سەرەکییەکانی ئاوەکە.", // disconnect
+            onPressedBritish: () => speakdisconnects1("en-GB"),
+            onPressedAmerican: () => speakdisconnects1("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
                   "٢. (کردار) وەستاندنی ناردنی ھێڵی تەلەفۆن، ئاو، یان کارەبا بۆ بینایەک"),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "You may be disconnected if you do not pay the bill."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "بیناکەت ڕەنگە بێ ئاو/کارەبا بکرێت ئەگەر بکرێت ئەگەر پارەی پسووڵەکە نەدەیت."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdisconnects2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdisconnects2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "You may be disconnected if you do not pay the bill.",
+            kurdishText:
+                "بیناکەت ڕەنگە بێ ئاو/کارەبا بکرێت ئەگەر بکرێت ئەگەر پارەی پسووڵەکە نەدەیت.",
+            onPressedBritish: () => speakdisconnects2("en-GB"),
+            onPressedAmerican: () => speakdisconnects2("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٣. (کردار) لێکۆردنەوەی دوو شت لە یەکدی"),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "The ski had become disconnected from the boot."),
-                    ExampleSentenceKurdish(
-                        text: "دارەخلیسکەکە لە پووتەکە لێ بووبوویەوە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdisconnects3("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdisconnects3("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "The ski had become disconnected from the boot.",
+            kurdishText: "دارەخلیسکەکە لە پووتەکە لێ بووبوویەوە.",
+            onPressedBritish: () => speakdisconnects3("en-GB"),
+            onPressedAmerican: () => speakdisconnects3("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: "٤. (کردار) پچڕانی پەیوەندیی تەلەفۆنی"),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "We were suddenly disconnected."),
-                    ExampleSentenceKurdish(
-                        text: "لەناکاو پەیوەندییەکەمان پچڕا."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdisconnects4("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdisconnects4("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "We were suddenly disconnected.",
+            kurdishText: "لەناکاو پەیوەندییەکەمان پچڕا.",
+            onPressedBritish: () => speakdisconnects4("en-GB"),
+            onPressedAmerican: () => speakdisconnects4("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٥. (کردار) پچڕاندنی پەیوەستبوون بە ئینتەرنێتەوە"),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "My computer crashes every time I disconnect from the internet."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "کۆمپیوتەرەکەم تێکدەچێت ھەرکات پەیوەستی بە ئینتەرنێت دەپچڕێنم."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdisconnects5("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdisconnects5("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "My computer crashes every time I disconnect from the internet.",
+            kurdishText:
+                "کۆمپیوتەرەکەم تێکدەچێت ھەرکات پەیوەستی بە ئینتەرنێت دەپچڕێنم.",
+            onPressedBritish: () => speakdisconnects5("en-GB"),
+            onPressedAmerican: () => speakdisconnects5("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
                   "٦. (کردار) نەھێشتنی بەستنەوەی کەسێک بە ئامێرێکەوە، بەتایبەتی ئامێری ھێشتنەوە لە ژیاندا"),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "It was the family's decision to disconnect her from the life support machine."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "ئەوە بڕیاری خێزانەکە بوو کە جیای بکەنەوە لە ئامێری ھێشتنەوە لە ژیان."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdisconnects6("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdisconnects6("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "It was the family's decision to disconnect her from the life support machine.",
+            kurdishText:
+                "ئەوە بڕیاری خێزانەکە بوو کە جیای بکەنەوە لە ئامێری ھێشتنەوە لە ژیان.",
+            onPressedBritish: () => speakdisconnects6("en-GB"),
+            onPressedAmerican: () => speakdisconnects6("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٧. (کردار) جیاوازی یان نەبوونی پەیوەندی"),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "There is a fundamental disconnect between union leaders and members."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "جوداییەکی گەورە ھەیە لە نێوان ڕابەرەکان و ئەندامانی سەندیکاکە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdisconnects7("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdisconnects7("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "There is a fundamental disconnect between union leaders and members.",
+            kurdishText:
+                "جوداییەکی گەورە ھەیە لە نێوان ڕابەرەکان و ئەندامانی سەندیکاکە.",
+            onPressedBritish: () => speakdisconnects7("en-GB"),
+            onPressedAmerican: () => speakdisconnects7("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The politician's remarks show an appalling disconnect with young people."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "لێدوانەکانی سیاسییەکە دابڕانێکی ترسناک لەگەڵ کەسانی گەنج."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdisconnects8("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdisconnects8("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "The politician's remarks show an appalling disconnect with young people.",
+            kurdishText:
+                "لێدوانەکانی سیاسییەکە دابڕانێکی ترسناک لەگەڵ کەسانی گەنج.",
+            onPressedBritish: () => speakdisconnects8("en-GB"),
+            onPressedAmerican: () => speakdisconnects8("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
                   "٨. (کردار) نەبوونی پەیوەندی لەگەڵ تۆڕێک، سەرچاوەی کارەبا، ئینتەرنێت، ھتد"),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "There might be a power failure or sudden network disconnect."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "دەکرێت لەکارکەوتنی وزە یان بڕان لەناکاو بە تۆڕەکەوە ھەبێت."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdisconnects9("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdisconnects9("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "There might be a power failure or sudden network disconnect.",
+            kurdishText:
+                "دەکرێت لەکارکەوتنی وزە یان بڕان لەناکاو بە تۆڕەکەوە ھەبێت.",
+            onPressedBritish: () => speakdisconnects9("en-GB"),
+            onPressedAmerican: () => speakdisconnects9("en-US"),
           ),
           // disconnects_1000"),
           // speakdisconnects10

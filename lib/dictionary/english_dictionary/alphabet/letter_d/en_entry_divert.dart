@@ -404,178 +404,61 @@ class KurdishMeaning extends StatelessWidget {
 کوردی: بەلاڕی بردن، لاڕکردن، ڕاکێشان
 """),
           const DefinitionKurdish(text: "١. (کردار) گۆڕینی ئاراستەی شتێک"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The course of the stream has now been diverted."),
-                    ExampleSentenceKurdish(
-                        text: "ڕێڕەوی زێیەکە ئێستا گۆڕدراوە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "divert", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdiverts1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdiverts1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "The course of the stream has now been diverted.",
+            kurdishText: "ڕێڕەوی زێیەکە ئێستا گۆڕدراوە.", // divert
+            onPressedBritish: () => speakdiverts1("en-GB"),
+            onPressedAmerican: () => speakdiverts1("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "Northbound traffic will have to be diverted onto minor roads."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "ھاتووچۆ بەرەو باکوور دەبێت بگوازرێتەوە بۆ سەر ڕێگا لاوەکییەکان."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdiverts2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdiverts2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "Northbound traffic will have to be diverted onto minor roads.",
+            kurdishText:
+                "ھاتووچۆ بەرەو باکوور دەبێت بگوازرێتەوە بۆ سەر ڕێگا لاوەکییەکان.",
+            onPressedBritish: () => speakdiverts2("en-GB"),
+            onPressedAmerican: () => speakdiverts2("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
                   "٢. (کردار) بەکارھێنانی پارە، مادە، ھتد بۆ مەبەستێکی دیاریکراو"),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "More of the budget was diverted into renovations."),
-                    ExampleSentenceKurdish(
-                        text: "بڕی زیاتر لە بودجەکە تەرخانکرا بۆ نوێکردنەوە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdiverts3("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdiverts3("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "More of the budget was diverted into renovations.",
+            kurdishText: "بڕی زیاتر لە بودجەکە تەرخانکرا بۆ نوێکردنەوە.",
+            onPressedBritish: () => speakdiverts3("en-GB"),
+            onPressedAmerican: () => speakdiverts3("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٣. (کردار) لادانی سەرنجی کەسێک لە شتێک"),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The war diverted people's attention away from the economic situation."),
-                    ExampleSentenceKurdish(
-                        text: "جەنگەکە سەرنجی خەڵکی لادا لەسەر دۆخی ئابووری."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdiverts4("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdiverts4("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "The war diverted people's attention away from the economic situation.",
+            kurdishText: "جەنگەکە سەرنجی خەڵکی لادا لەسەر دۆخی ئابووری.",
+            onPressedBritish: () => speakdiverts4("en-GB"),
+            onPressedAmerican: () => speakdiverts4("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "٤. (کردار) پێنناسە"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "She managed to divert the baby onto a different activity."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "توانی منداڵەکە بە چالاکییەکی دیکەوە سەرقاڵ بکات."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdiverts5("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdiverts5("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "She managed to divert the baby onto a different activity.",
+            kurdishText: "توانی منداڵەکە بە چالاکییەکی دیکەوە سەرقاڵ بکات.",
+            onPressedBritish: () => speakdiverts5("en-GB"),
+            onPressedAmerican: () => speakdiverts5("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: "٤. (کردار) چێژدان بە خەڵکی"),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "Children are easily diverted."),
-                    ExampleSentenceKurdish(
-                        text: "منداڵان بە ئاسانی دڵخۆش دەکرێن."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdiverts6("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdiverts6("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "Children are easily diverted.",
+            kurdishText: "منداڵان بە ئاسانی دڵخۆش دەکرێن.",
+            onPressedBritish: () => speakdiverts6("en-GB"),
+            onPressedAmerican: () => speakdiverts6("en-US"),
           ),
           // diverts700"),
           // speakdiverts7

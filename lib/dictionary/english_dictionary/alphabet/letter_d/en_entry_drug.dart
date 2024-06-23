@@ -428,254 +428,80 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "١. (ناو) مادەیەکی نایاسایی بەکاریدەھێنن بۆ کاریگەرییە دەروونی و جەستەییەکانی"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "He does not smoke or take drugs."),
-                    ExampleSentenceKurdish(
-                        text: "جگەرە و مادەی ھۆشبەر ناکێشێت."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "drug", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdrugs1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdrugs1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "He does not smoke or take drugs.",
+            kurdishText: "جگەرە و مادەی ھۆشبەر ناکێشێت.", // drug
+            onPressedBritish: () => speakdrugs1("en-GB"),
+            onPressedAmerican: () => speakdrugs1("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "He was charged with possessing drugs."),
-                    ExampleSentenceKurdish(
-                        text: "بە ھەبوونی مادەی ھۆشبەر تاوانبار کرا."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdrugs2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdrugs2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "He was charged with possessing drugs.",
+            kurdishText: "بە ھەبوونی مادەی ھۆشبەر تاوانبار کرا.",
+            onPressedBritish: () => speakdrugs2("en-GB"),
+            onPressedAmerican: () => speakdrugs2("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "She looked like she was on drugs (= had taken drugs)."),
-                    ExampleSentenceKurdish(
-                        text: "وادیاربوو کە مادەی ھۆشبەری کێشابێت."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdrugs3("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdrugs3("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "She looked like she was on drugs (= had taken drugs).",
+            kurdishText: "وادیاربوو کە مادەی ھۆشبەری کێشابێت.",
+            onPressedBritish: () => speakdrugs3("en-GB"),
+            onPressedAmerican: () => speakdrugs3("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٢. (ناو) مادەیەک کە وەک دەرمان یان لە دەرماندا بەکاردێت"),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "He's taking drugs for depression."),
-                    ExampleSentenceKurdish(
-                        text: "دەرمانی دژ بە خەمۆکی دەخوات."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdrugs4("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdrugs4("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "He's taking drugs for depression.",
+            kurdishText: "دەرمانی دژ بە خەمۆکی دەخوات.",
+            onPressedBritish: () => speakdrugs4("en-GB"),
+            onPressedAmerican: () => speakdrugs4("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "His parents had to learn to administer his drugs."),
-                    ExampleSentenceKurdish(
-                        text: "دایبابی دەبوو فێربن کە دەرمانەکانی پێبدەن."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdrugs5("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdrugs5("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "His parents had to learn to administer his drugs.",
+            kurdishText: "دایبابی دەبوو فێربن کە دەرمانەکانی پێبدەن.",
+            onPressedBritish: () => speakdrugs5("en-GB"),
+            onPressedAmerican: () => speakdrugs5("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "Patients need to inject the drug every two weeks."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "نەخۆشان دەبێت ھەر دوو ھەفتە جارێک دەرمانەکە بەکاربھێنن."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdrugs6("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdrugs6("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "Patients need to inject the drug every two weeks.",
+            kurdishText:
+                "نەخۆشان دەبێت ھەر دوو ھەفتە جارێک دەرمانەکە بەکاربھێنن.",
+            onPressedBritish: () => speakdrugs6("en-GB"),
+            onPressedAmerican: () => speakdrugs6("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
                   "٣. (کردار) پێدانی دەرمانێک بە کەسێک/ئاژەڵێک کە لەھۆشیان دەخات یان ئاستیان بەرز دەکات"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "He was drugged and bundled into the back of the car."),
-                    ExampleSentenceKurdish(
-                        text: "بێخۆشخرا و خرایە پشتەوەی ئۆتۆمبێلەکە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdrugs7("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdrugs7("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "He was drugged and bundled into the back of the car.",
+            kurdishText: "بێخۆشخرا و خرایە پشتەوەی ئۆتۆمبێلەکە.",
+            onPressedBritish: () => speakdrugs7("en-GB"),
+            onPressedAmerican: () => speakdrugs7("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "It's illegal to drug horses before a race."),
-                    ExampleSentenceKurdish(
-                        text: "نایاساییە دەرمان بدەیت بە ئەسپ پێش پێشبڕکێ."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdrugs8("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdrugs8("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "It's illegal to drug horses before a race.",
+            kurdishText: "نایاساییە دەرمان بدەیت بە ئەسپ پێش پێشبڕکێ.",
+            onPressedBritish: () => speakdrugs8("en-GB"),
+            onPressedAmerican: () => speakdrugs8("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
                   "٤. (کردار) زیادکردنی دەرمانێک بۆ خواردنی کەسێک کە لەھۆشی دەخات یان دەیخەوێنێت"),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "Her drink must have been drugged."),
-                    ExampleSentenceKurdish(
-                        text: "خواردنەوەکەی دەبێت دەرمانخوارد کرابێت."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdrugs9("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdrugs9("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "Her drink must have been drugged.",
+            kurdishText: "خواردنەوەکەی دەبێت دەرمانخوارد کرابێت.",
+            onPressedBritish: () => speakdrugs9("en-GB"),
+            onPressedAmerican: () => speakdrugs9("en-US"),
           ),
           // drugs_1000"),
           // speakdrugs10

@@ -379,91 +379,34 @@ class KurdishMeaning extends StatelessWidget {
 کوردی: نیشتەجێبوون، دانیشتوو بوون
 """),
           const DefinitionKurdish(text: """١. (کردار) ژیانکردن لە شوێنێک"""),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            """He dwelt in a ruined cottage on the hillside."""),
-                    ExampleSentenceKurdish(
-                        text: """لە کوخێکی وێرانە لە بناری تەپۆلکەکە دەژیا."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "dwell", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdwells1("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdwells1("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: """He dwelt in a ruined cottage on the hillside.""",
+            kurdishText:
+                """لە کوخێکی وێرانە لە بناری تەپۆلکەکە دەژیا.""", // dwell
+            onPressedBritish: () => speakdwells1("en-GB"),
+            onPressedAmerican: () => speakdwells1("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            """The gorillas dwell in the high rainforests of Rwanda."""),
-                    ExampleSentenceKurdish(
-                        text:
-                            """گۆرێلاکان لە دارستانە بەرزە باراناوییەکانی ڕواندا دەژین."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdwells2("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdwells2("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                """The gorillas dwell in the high rainforests of Rwanda.""",
+            kurdishText:
+                """گۆرێلاکان لە دارستانە بەرزە باراناوییەکانی ڕواندا دەژین.""",
+            onPressedBritish: () => speakdwells2("en-GB"),
+            onPressedAmerican: () => speakdwells2("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            """For ten years she dwelled among the nomads of North America."""),
-                    ExampleSentenceKurdish(
-                        text:
-                            """بۆ دە ساڵ لەگەڵ کۆچەرییەکانی ئەمریکای باکوور ژیا."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdwells3("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdwells3("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                """For ten years she dwelled among the nomads of North America.""",
+            kurdishText:
+                """بۆ دە ساڵ لەگەڵ کۆچەرییەکانی ئەمریکای باکوور ژیا.""",
+            onPressedBritish: () => speakdwells3("en-GB"),
+            onPressedAmerican: () => speakdwells3("en-US"),
           ),
           // dwells400
           // speakdwells4

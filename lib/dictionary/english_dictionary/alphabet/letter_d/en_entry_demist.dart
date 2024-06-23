@@ -233,32 +233,12 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "١. (کردار) لێکردنەوەی ھەڵم لە جامی ئۆتۆمبێل بۆ ئەوەی بە ڕوونی ببینیت"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "I pressed the button to demist the front windows."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "پەنجەم نا بە دووگمەکەدا بۆ سڕینەوەی ھەڵمی جامەکانی پێشەوە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "demist", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdemists1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdemists1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "I pressed the button to demist the front windows.",
+            kurdishText:
+                "پەنجەم نا بە دووگمەکەدا بۆ سڕینەوەی ھەڵمی جامەکانی پێشەوە.", // demist
+            onPressedBritish: () => speakdemists1("en-GB"),
+            onPressedAmerican: () => speakdemists1("en-US"),
           ),
           // demists200"),
           // speakdemists2

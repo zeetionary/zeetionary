@@ -447,331 +447,119 @@ class KurdishMeaning extends StatelessWidget {
 کوردی: کاریگەری، کارتێ‌کردن، کار، شوێن‌دانان، باندۆر،	ئەنجام، پێئاژۆ، ئاکام،	ھۆکرد،	واتا، چەمک، نێوەرۆک، کاکڵ، کرۆک،	ئیفێکت، شت‌ومەک، کەل‌وپەل، بارگەوبنە، ئەسپاپ
 """),
           const DefinitionKurdish(text: """١. (ناو) کاریگەری"""),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            """What are the long-term effects of this treatment?"""),
-                    ExampleSentenceKurdish(
-                        text:
-                            """کاریگەرییە درێژخایەنەکانی ئەم چارەسەرە چین؟."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "effect", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakeffects1("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakeffects1("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                """What are the long-term effects of this treatment?""",
+            kurdishText:
+                """کاریگەرییە درێژخایەنەکانی ئەم چارەسەرە چین؟.""", // effect
+            onPressedBritish: () => speakeffects1("en-GB"),
+            onPressedAmerican: () => speakeffects1("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: """ژممارە. (ناو) پێنناسە"""),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: """Her tears had no effect on him."""),
-                    ExampleSentenceKurdish(
-                        text: """فرمێسکەکانی ھیچ کاریگەرییان لەسەری نەبوو."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakeffects2("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakeffects2("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: """Her tears had no effect on him.""",
+            kurdishText: """فرمێسکەکانی ھیچ کاریگەرییان لەسەری نەبوو.""",
+            onPressedBritish: () => speakeffects2("en-GB"),
+            onPressedAmerican: () => speakeffects2("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: """ژممارە. (ناو) پێنناسە"""),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            """Modern farming methods can have an adverse effect on the environment."""),
-                    ExampleSentenceKurdish(
-                        text:
-                            """ڕێگا سەردەمییەکانی جووتیاری کاریگەریی خراپیان لەسەر ژینگە ھەیە."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakeffects3("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakeffects3("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                """Modern farming methods can have an adverse effect on the environment.""",
+            kurdishText:
+                """ڕێگا سەردەمییەکانی جووتیاری کاریگەریی خراپیان لەسەر ژینگە ھەیە.""",
+            onPressedBritish: () => speakeffects3("en-GB"),
+            onPressedAmerican: () => speakeffects3("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: """ژممارە. (ناو) پێنناسە"""),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            """The study examines architecture and its effect upon people's lives."""),
-                    ExampleSentenceKurdish(
-                        text:
-                            """لێکۆڵینەوەکە لە تەلارسازی و کاریگەرییەکانی لەسەر ژیانی خەڵکی توێژینەوە دەکات."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakeffects4("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakeffects4("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                """The study examines architecture and its effect upon people's lives.""",
+            kurdishText:
+                """لێکۆڵینەوەکە لە تەلارسازی و کاریگەرییەکانی لەسەر ژیانی خەڵکی توێژینەوە دەکات.""",
+            onPressedBritish: () => speakeffects4("en-GB"),
+            onPressedAmerican: () => speakeffects4("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: """ژممارە. (ناو) پێنناسە"""),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            """Her criticisms had the effect of discouraging him completely."""),
-                    ExampleSentenceKurdish(
-                        text:
-                            """ڕەخنەکانی کاریگەریی دابەزاندنی ورەی بە تەواوی ھەبوو."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakeffects5("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakeffects5("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                """Her criticisms had the effect of discouraging him completely.""",
+            kurdishText:
+                """ڕەخنەکانی کاریگەریی دابەزاندنی ورەی بە تەواوی ھەبوو.""",
+            onPressedBritish: () => speakeffects5("en-GB"),
+            onPressedAmerican: () => speakeffects5("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: """ژممارە. (ناو) پێنناسە"""),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            """I tried to persuade him, but with no effect."""),
-                    ExampleSentenceKurdish(
-                        text:
-                            """ھەوڵم دا ڕازی بکەم بەڵام بەبێ ھیچ کاریگەرییەک."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakeffects6("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakeffects6("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: """I tried to persuade him, but with no effect.""",
+            kurdishText: """ھەوڵم دا ڕازی بکەم بەڵام بەبێ ھیچ کاریگەرییەک.""",
+            onPressedBritish: () => speakeffects6("en-GB"),
+            onPressedAmerican: () => speakeffects6("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
                   """٢. (ناو) وێنایەک یان دەنگێک کە کەسێک ھەوڵ دەدات درووستی بکات"""),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: """Add a scarf for a casual effect."""),
-                    ExampleSentenceKurdish(
-                        text: """لەچکێکی زیاد بکە بۆ ئەنجامێکی ڕەمەکی."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakeffects7("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakeffects7("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: """Add a scarf for a casual effect.""",
+            kurdishText: """لەچکێکی زیاد بکە بۆ ئەنجامێکی ڕەمەکی.""",
+            onPressedBritish: () => speakeffects7("en-GB"),
+            onPressedAmerican: () => speakeffects7("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: """ژممارە. (ناو) پێنناسە"""),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            """He only behaves like that for effect (= in order to impress people)."""),
-                    ExampleSentenceKurdish(
-                        text:
-                            """تەنھا بۆ کارتێ‌کردن بەو شێوەیە ڕەفتار دەکات."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakeffects8("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakeffects8("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                """He only behaves like that for effect (= in order to impress people).""",
+            kurdishText: """تەنھا بۆ کارتێ‌کردن بەو شێوەیە ڕەفتار دەکات.""",
+            onPressedBritish: () => speakeffects8("en-GB"),
+            onPressedAmerican: () => speakeffects8("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: """ژممارە. (ناو) پێنناسە"""),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            """I found that by adding white I could achieve the desired effect."""),
-                    ExampleSentenceKurdish(
-                        text:
-                            """زانیم کە بە زیادکردنی سپی دەمتوانی کاریگەریی خوازراو بەدەست بھێنم."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakeffects9("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakeffects9("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                """I found that by adding white I could achieve the desired effect.""",
+            kurdishText:
+                """زانیم کە بە زیادکردنی سپی دەمتوانی کاریگەریی خوازراو بەدەست بھێنم.""",
+            onPressedBritish: () => speakeffects9("en-GB"),
+            onPressedAmerican: () => speakeffects9("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text: """٣. (کردار) واکردنی ئەوەی شتێک ڕووبدات"""),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            """These drugs can sometimes effect miraculous cures."""),
-                    ExampleSentenceKurdish(
-                        text:
-                            """دەرمانەکە ھەندێک جار دەکرێت ببێتە ھۆکاری چارەسەری مۆجیزاوی."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakeffects10("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakeffects10("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                """These drugs can sometimes effect miraculous cures.""",
+            kurdishText:
+                """دەرمانەکە ھەندێک جار دەکرێت ببێتە ھۆکاری چارەسەری مۆجیزاوی.""",
+            onPressedBritish: () => speakeffects10("en-GB"),
+            onPressedAmerican: () => speakeffects10("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: """ژممارە. (ناو) پێنناسە"""),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            """As a political party they are trying to effect a change in the way that we think about our environment."""),
-                    ExampleSentenceKurdish(
-                        text:
-                            """وەک پارتێکی سیاسی ھەوڵ دەدەن گۆڕانێک درووست بکەن لەوەی کە بیر لە ژینگەکەمان دەکەینەوە."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakeffects11("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakeffects11("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                """As a political party they are trying to effect a change in the way that we think about our environment.""",
+            kurdishText:
+                """وەک پارتێکی سیاسی ھەوڵ دەدەن گۆڕانێک درووست بکەن لەوەی کە بیر لە ژینگەکەمان دەکەینەوە.""",
+            onPressedBritish: () => speakeffects11("en-GB"),
+            onPressedAmerican: () => speakeffects11("en-US"),
           ),
           // effects1200effects12
           // speakeffects12

@@ -391,32 +391,13 @@ class KurdishMeaning extends StatelessWidget {
               text:
                   "١. (ناو) سۆسێکی شل کە زیاد دەکرێت بۆ زەڵاتە و بەزۆری لە سرکە، ڕۆن، خوێ، بیبەر، ھتد درووستکراوە"),
           const AlsoEnglishckb(word: "ھەروەھا: salad dressing"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "Drizzle the dressing over the salad leaves and toss to coat."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "سۆسەکە بڕژێنە بەسەر گەڵاکانی زەڵاتە و تێکی بدە بۆ بڵاوکردنەوەی."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "dressing", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdressings1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdressings1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "Drizzle the dressing over the salad leaves and toss to coat.",
+            kurdishText:
+                "سۆسەکە بڕژێنە بەسەر گەڵاکانی زەڵاتە و تێکی بدە بۆ بڵاوکردنەوەی.", // dressing
+            onPressedBritish: () => speakdressings1("en-GB"),
+            onPressedAmerican: () => speakdressings1("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
@@ -424,92 +405,34 @@ class KurdishMeaning extends StatelessWidget {
                   "٢. (ناو) تێکەڵەیەک لە نان، پیاز، و گیای ھەزوێلە کە ورد دەکرێت و دەخرێتە ناو مریشک یان قەلەوە پێش لێنانی"),
           // const DividerSentences(),
           const AlsoEnglishckb(word: "ھەروەھا: stuffing"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "They prepared a meal of turkey with bread dressing and gravy."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "ژەمێکی قەلیان ئامادە کرد بە ناواخنی نان و گۆشتاوەوە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdressings2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdressings2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "They prepared a meal of turkey with bread dressing and gravy.",
+            kurdishText: "ژەمێکی قەلیان ئامادە کرد بە ناواخنی نان و گۆشتاوەوە.",
+            onPressedBritish: () => speakdressings2("en-GB"),
+            onPressedAmerican: () => speakdressings2("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٣. (ناو) قوماشێکی نەرم کە دەخرێتە سەر برینێک بۆ پاراستنی"),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "Place the dressing directly onto the wound and hold it in place."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "برین‌پێچەکە ڕاستەوخۆ لەسەر برینەکە دابنێ و لە شوێنی خۆی بیگرە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdressings3("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdressings3("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "Place the dressing directly onto the wound and hold it in place.",
+            kurdishText:
+                "برین‌پێچەکە ڕاستەوخۆ لەسەر برینەکە دابنێ و لە شوێنی خۆی بیگرە.",
+            onPressedBritish: () => speakdressings3("en-GB"),
+            onPressedAmerican: () => speakdressings3("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: "٤. (ناو) جلپۆشین"),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "Many of our patients need help with dressing."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "زۆرێک لە نەخۆشەکانمان پێویستییان بە یارمەتییە بۆ لەبەرکردنی جل."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdressings4("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdressings4("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "Many of our patients need help with dressing.",
+            kurdishText:
+                "زۆرێک لە نەخۆشەکانمان پێویستییان بە یارمەتییە بۆ لەبەرکردنی جل.",
+            onPressedBritish: () => speakdressings4("en-GB"),
+            onPressedAmerican: () => speakdressings4("en-US"),
           ),
           // dressings500"),
           // speakdressings5

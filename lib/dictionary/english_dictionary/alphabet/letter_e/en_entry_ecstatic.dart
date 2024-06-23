@@ -378,89 +378,32 @@ class KurdishMeaning extends StatelessWidget {
 کوردی: خۆشی‌ھێنەر، بەشەوق‌ھێنەر، بەگوڕخەر، خۆش، بەگوڕ، بەپەرۆش، ورووژاو، ھەژیو، سەرخۆش، سەرمەست، شاگەشکە، حاڵ‌پێھێن
 """),
           const DefinitionKurdish(text: """١. (ھاوەڵناو) زۆر دڵخۆش و بەجۆش"""),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: """Sally was ecstatic about her new job."""),
-                    ExampleSentenceKurdish(
-                        text: """سالی بەپەرۆش بوو سەبارەت بە کارە تازەکەی."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "ecstatic", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakecstatics1("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakecstatics1("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: """Sally was ecstatic about her new job.""",
+            kurdishText:
+                """سالی بەپەرۆش بوو سەبارەت بە کارە تازەکەی.""", // ecstatic
+            onPressedBritish: () => speakecstatics1("en-GB"),
+            onPressedAmerican: () => speakecstatics1("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            """Martin was not exactly ecstatic at the news."""),
-                    ExampleSentenceKurdish(
-                        text: """مارتن تەواو دڵخۆش نەبوو بە ھەواڵەکە."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakecstatics2("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakecstatics2("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: """Martin was not exactly ecstatic at the news.""",
+            kurdishText: """مارتن تەواو دڵخۆش نەبوو بە ھەواڵەکە.""",
+            onPressedBritish: () => speakecstatics2("en-GB"),
+            onPressedAmerican: () => speakecstatics2("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            """The new president was greeted by an ecstatic crowd."""),
-                    ExampleSentenceKurdish(
-                        text:
-                            """سەرۆکە تازەکە لەلایەن جەماوەرێکی بەپەرۆشەوە پێشوازی لێکرا."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakecstatics3("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakecstatics3("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                """The new president was greeted by an ecstatic crowd.""",
+            kurdishText:
+                """سەرۆکە تازەکە لەلایەن جەماوەرێکی بەپەرۆشەوە پێشوازی لێکرا.""",
+            onPressedBritish: () => speakecstatics3("en-GB"),
+            onPressedAmerican: () => speakecstatics3("en-US"),
           ),
           // ecstatics400ecstatics4
           // speakecstatics4

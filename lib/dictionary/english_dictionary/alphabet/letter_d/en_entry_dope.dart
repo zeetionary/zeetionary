@@ -412,204 +412,72 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "١. (ناو) دەرمانێک کە بەشێوەی نایاسایی بۆ چێژبەخشین بەکاردێت"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "He has admitted smoking dope as a teenager."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "دانی ناوە بە بەکارھێنانی مادەی بێھۆشکەر کە گەنج بوو."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "dope", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdopes1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdopes1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "He has admitted smoking dope as a teenager.",
+            kurdishText:
+                "دانی ناوە بە بەکارھێنانی مادەی بێھۆشکەر کە گەنج بوو.", // dope
+            onPressedBritish: () => speakdopes1("en-GB"),
+            onPressedAmerican: () => speakdopes1("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: "٢. (ناو) مادەی وزەبەخش"),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "The athlete failed a dope test."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "وەرزشکارەکە دەرنەچوو لە تاقیکردنەوەی مادەی وزەبەخش (دەرچوو مادەی وزەبەخشی بەکارھێناوە)."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdopes2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdopes2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "The athlete failed a dope test.",
+            kurdishText:
+                "وەرزشکارەکە دەرنەچوو لە تاقیکردنەوەی مادەی وزەبەخش (دەرچوو مادەی وزەبەخشی بەکارھێناوە).",
+            onPressedBritish: () => speakdopes2("en-GB"),
+            onPressedAmerican: () => speakdopes2("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: "٣. (ناو) کەسێکی گەمژە"),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "You shouldn't have told him, you dope!"),
-                    ExampleSentenceKurdish(
-                        text: "نەدەبوو پێت گوتبا، ھەی گەمژە!"),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdopes3("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdopes3("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "You shouldn't have told him, you dope!",
+            kurdishText: "نەدەبوو پێت گوتبا، ھەی گەمژە!",
+            onPressedBritish: () => speakdopes3("en-GB"),
+            onPressedAmerican: () => speakdopes3("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
                   "٤. (ناو) زانیاری لەسەر کەسێک/شتێک، بەتایبەتی کە بە گشتی نەزانراوە"),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "Give me the dope on the new boss."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "وردەکارییەکانم لەسەر سەرپەرشتیارە تازەکە پێ بڵێ."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdopes4("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdopes4("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "Give me the dope on the new boss.",
+            kurdishText: "وردەکارییەکانم لەسەر سەرپەرشتیارە تازەکە پێ بڵێ.",
+            onPressedBritish: () => speakdopes4("en-GB"),
+            onPressedAmerican: () => speakdopes4("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٥. (کردار) پێدانی مادەی وزەبەخش بە کەسێک یان ئاژەڵێک"),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "They were arrested for doping racehorses."),
-                    ExampleSentenceKurdish(
-                        text: "دەستگیرکران بۆ وزەبەخشدان بە ئەسپەکان."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdopes5("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdopes5("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "They were arrested for doping racehorses.",
+            kurdishText: "دەستگیرکران بۆ وزەبەخشدان بە ئەسپەکان.",
+            onPressedBritish: () => speakdopes5("en-GB"),
+            onPressedAmerican: () => speakdopes5("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
                   "٦. (کردار) پێدانی دەرمان بە کەسێک یان ئاژەڵێک بۆ ئەوەی بێھۆش ببێت"),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(text: "The wine was doped."),
-                    ExampleSentenceKurdish(text: "شەرابەکە دەمانخوارد کرابوو."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdopes6("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdopes6("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "The wine was doped.",
+            kurdishText: "شەرابەکە دەمانخوارد کرابوو.",
+            onPressedBritish: () => speakdopes6("en-GB"),
+            onPressedAmerican: () => speakdopes6("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "Thieves doped a guard dog and stole £10 000 worth of goods."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "دزەکان سەگێکی پاسەوانیان بێھۆش کردبوو و بە بەھای ١٠٠٠٠ پاوەند شتیان دزی بوو."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdopes7("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdopes7("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "Thieves doped a guard dog and stole £10 000 worth of goods.",
+            kurdishText:
+                "دزەکان سەگێکی پاسەوانیان بێھۆش کردبوو و بە بەھای ١٠٠٠٠ پاوەند شتیان دزی بوو.",
+            onPressedBritish: () => speakdopes7("en-GB"),
+            onPressedAmerican: () => speakdopes7("en-US"),
           ),
           // dopes800"),
           // speakdopes8

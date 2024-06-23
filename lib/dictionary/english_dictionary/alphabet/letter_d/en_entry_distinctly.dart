@@ -395,139 +395,46 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "١. (ھاوەڵکار) بەشێوەیەک کە بە ئاسانی یان ڕوونی دەبیسترێت، دەبینرێت، ھەستی پێدەکرێت، ھتد"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "I distinctly heard someone calling me."),
-                    ExampleSentenceKurdish(
-                        text: "بە ڕوونی گوێم لە کەسێک بوو بانگی کردم."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "distinctly", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdistinctlys1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdistinctlys1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "I distinctly heard someone calling me.",
+            kurdishText: "بە ڕوونی گوێم لە کەسێک بوو بانگی کردم.", // distinctly
+            onPressedBritish: () => speakdistinctlys1("en-GB"),
+            onPressedAmerican: () => speakdistinctlys1("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "He could remember everything very distinctly."),
-                    ExampleSentenceKurdish(
-                        text: "دەیتوانی زۆر بە ڕوونی ھەموو شتێکی بیربێتەوە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdistinctlys2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdistinctlys2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "He could remember everything very distinctly.",
+            kurdishText: "دەیتوانی زۆر بە ڕوونی ھەموو شتێکی بیربێتەوە.",
+            onPressedBritish: () => speakdistinctlys2("en-GB"),
+            onPressedAmerican: () => speakdistinctlys2("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
                   "٢. (ھاوەڵکار) بەشێوەیەک کە بە ڕوونی خاسیەتێکی تێدایە کە دەبینرێت"),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "The two techniques are distinctly different."),
-                    ExampleSentenceKurdish(
-                        text: "دوو تەکنیکەکە بە ئاشکرا جیاوازن."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdistinctlys3("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdistinctlys3("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "The two techniques are distinctly different.",
+            kurdishText: "دوو تەکنیکەکە بە ئاشکرا جیاوازن.",
+            onPressedBritish: () => speakdistinctlys3("en-GB"),
+            onPressedAmerican: () => speakdistinctlys3("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٣. (ھاوەڵکار) بە ئاستێکی ئێجگار زۆر یا بە دڵنیایی"),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "It is distinctly possible that she will lose."),
-                    ExampleSentenceKurdish(text: "زۆر ڕێ تێدەچێت کە بدۆڕێت."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdistinctlys4("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdistinctlys4("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "It is distinctly possible that she will lose.",
+            kurdishText: "زۆر ڕێ تێدەچێت کە بدۆڕێت.",
+            onPressedBritish: () => speakdistinctlys4("en-GB"),
+            onPressedAmerican: () => speakdistinctlys4("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "He looked distinctly uncomfortable."),
-                    ExampleSentenceKurdish(text: "زۆر ناڕەحەت دیاربوو."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdistinctlys5("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdistinctlys5("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "He looked distinctly uncomfortable.",
+            kurdishText: "زۆر ناڕەحەت دیاربوو.",
+            onPressedBritish: () => speakdistinctlys5("en-GB"),
+            onPressedAmerican: () => speakdistinctlys5("en-US"),
           ),
           // distinctlys600"),
           // speakdistinctlys6

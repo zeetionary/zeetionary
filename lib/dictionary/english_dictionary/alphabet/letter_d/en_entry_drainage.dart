@@ -379,92 +379,34 @@ class KurdishMeaning extends StatelessWidget {
 کوردی: ئاوھەڵچۆڕاندن، وشک‌کردنەوە، ئاوەچۆڕکردن، ئاوەچۆڕاندن، ئاودەرکردن،	ئاوەڕۆ، پیساو، گەناو،	زێراب، لوولە یان بۆری ئاوەڕۆ، ڕەھەندی پیساو یا ئاوەڕۆ،	تۆڕی زێراب یان ئاوەڕۆ، سیستمی ئاوەڕۆ
 """),
           const DefinitionKurdish(text: "١. (ناو) دەرکردنی ئاو لە شوێنێک"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The city upgraded its drainage system to prevent flooding."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "شارەکە سیستەمی ئاوەڕۆی باشترکرد بۆ ڕێگری لە لافاو."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "drainage", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdrainages1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdrainages1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "The city upgraded its drainage system to prevent flooding.",
+            kurdishText:
+                "شارەکە سیستەمی ئاوەڕۆی باشترکرد بۆ ڕێگری لە لافاو.", // drainage
+            onPressedBritish: () => speakdrainages1("en-GB"),
+            onPressedAmerican: () => speakdrainages1("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
                   "٢. (ناو) توانای خاک کە ڕێگا بە ئاو بدات تێپەڕبێت بەبێ کۆبوونەوە"),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "The area has good natural drainage."),
-                    ExampleSentenceKurdish(
-                        text: "ناوچەکە ئاوەڕۆی سرووشتی باشی ھەیە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdrainages2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdrainages2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "The area has good natural drainage.",
+            kurdishText: "ناوچەکە ئاوەڕۆی سرووشتی باشی ھەیە.",
+            onPressedBritish: () => speakdrainages2("en-GB"),
+            onPressedAmerican: () => speakdrainages2("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "These plants need a sunny spot with good drainage."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "ڕووەکەکان پێویستیان بە خاڵێکی خۆرەتاو ھەیە کە ئاوەچۆڕی باشی ھەبێت."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdrainages3("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdrainages3("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "These plants need a sunny spot with good drainage.",
+            kurdishText:
+                "ڕووەکەکان پێویستیان بە خاڵێکی خۆرەتاو ھەیە کە ئاوەچۆڕی باشی ھەبێت.",
+            onPressedBritish: () => speakdrainages3("en-GB"),
+            onPressedAmerican: () => speakdrainages3("en-US"),
           ),
           // drainages400"),
           // speakdrainages4

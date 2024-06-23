@@ -273,145 +273,48 @@ class KurdishMeaning extends StatelessWidget {
 """),
           const DefinitionKurdish(
               text: "١. (ناو) ھەستی لەدەستدانی ھەموو ھیوایەک"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "She uttered a cry of despair."),
-                    ExampleSentenceKurdish(text: "ھاوارێکی بێ‌ھیوایی کرد."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "despair", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdespairs1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdespairs1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "She uttered a cry of despair.",
+            kurdishText: "ھاوارێکی بێ‌ھیوایی کرد.", // despair
+            onPressedBritish: () => speakdespairs1("en-GB"),
+            onPressedAmerican: () => speakdespairs1("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "He gave up the struggle in despair."),
-                    ExampleSentenceKurdish(
-                        text: "لە بێ‌ھیواییدا کۆڵی لە تەقەڵالەدا."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdespairs2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdespairs2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "He gave up the struggle in despair.",
+            kurdishText: "لە بێ‌ھیواییدا کۆڵی لە تەقەڵالەدا.",
+            onPressedBritish: () => speakdespairs2("en-GB"),
+            onPressedAmerican: () => speakdespairs2("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "He fell into despair over his failure as a husband."),
-                    ExampleSentenceKurdish(
-                        text: "بەھۆی شکستی وەک ھاوژینێک کەوتە ناو بێ‌ھیوایی."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdespairs3("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdespairs3("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "He fell into despair over his failure as a husband.",
+            kurdishText: "بەھۆی شکستی وەک ھاوژینێک کەوتە ناو بێ‌ھیوایی.",
+            onPressedBritish: () => speakdespairs3("en-GB"),
+            onPressedAmerican: () => speakdespairs3("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: "٢. (کردار) لەدەستدانی ھیوا"),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "Don't despair! We'll think of a way out of this."),
-                    ExampleSentenceKurdish(
-                        text: "ھیوابڕاو مەبە! ڕێگایەکی ڕزگاربوون دەدۆزینەوە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdespairs4("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdespairs4("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "Don't despair! We'll think of a way out of this.",
+            kurdishText: "ھیوابڕاو مەبە! ڕێگایەکی ڕزگاربوون دەدۆزینەوە.",
+            onPressedBritish: () => speakdespairs4("en-GB"),
+            onPressedAmerican: () => speakdespairs4("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "They'd almost despaired of ever having children."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "تاڕادەیەک بە تەواوی ھوابڕاو بوون لەوەی ھەرگیز منداڵیان ببێت."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdespairs5("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdespairs5("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "They'd almost despaired of ever having children.",
+            kurdishText:
+                "تاڕادەیەک بە تەواوی ھوابڕاو بوون لەوەی ھەرگیز منداڵیان ببێت.",
+            onPressedBritish: () => speakdespairs5("en-GB"),
+            onPressedAmerican: () => speakdespairs5("en-US"),
           ),
           // despairs600"),
           // speakdespairs6

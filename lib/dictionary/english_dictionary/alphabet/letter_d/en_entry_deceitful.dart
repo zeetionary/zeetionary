@@ -242,57 +242,20 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "١. (ھاوەڵناو) ڕەفتارکردن بە ڕێگای نادرووست بە درۆکردن و ڕازیکردنی خەڵکی بۆ باوەڕکردن بە شتانێک کە ڕاست نیین"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The government were accused of being hypocritical and deceitful."),
-                    ExampleSentenceKurdish(
-                        text: "حکومەت بە دووڕووی و تەڵەکەبازی تاوانبارکرا."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "deceitful", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdeceitfuls1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdeceitfuls1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "The government were accused of being hypocritical and deceitful.",
+            kurdishText:
+                "حکومەت بە دووڕووی و تەڵەکەبازی تاوانبارکرا.", // deceitful
+            onPressedBritish: () => speakdeceitfuls1("en-GB"),
+            onPressedAmerican: () => speakdeceitfuls1("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "He never struck me as deceitful before."),
-                    ExampleSentenceKurdish(
-                        text: "ھەرگیز پێشووتر وەک فێڵباز نەھاتە پێش چاوم."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdeceitfuls2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdeceitfuls2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "He never struck me as deceitful before.",
+            kurdishText: "ھەرگیز پێشووتر وەک فێڵباز نەھاتە پێش چاوم.",
+            onPressedBritish: () => speakdeceitfuls2("en-GB"),
+            onPressedAmerican: () => speakdeceitfuls2("en-US"),
           ),
         ],
       ),

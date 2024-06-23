@@ -363,29 +363,11 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   """١. (ناو) قوپاشێک بۆ لێکردنەوەی تۆز لە کەڵووپەلی ناوماڵ"""),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: """She used his old T-shirt as a duster."""),
-                    ExampleSentenceKurdish(text: """فانیلەکەی وەک پەڕۆسڕ."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "duster", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdusters1("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdusters1("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: """She used his old T-shirt as a duster.""",
+            kurdishText: """فانیلەکەی وەک پەڕۆسڕ.""", // duster
+            onPressedBritish: () => speakdusters1("en-GB"),
+            onPressedAmerican: () => speakdusters1("en-US"),
           ),
           // dusters200
           // speakdusters2

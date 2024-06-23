@@ -252,91 +252,34 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "١. (کردار) ئازادکردنی کەسێک/شتێک لەو کەسەی/شتەی کە گرتوویەتی"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "She gently disengaged herself from her sleeping son."),
-                    ExampleSentenceKurdish(
-                        text: "بە ھێواشی خۆی کردەوە لە کوڕە نووستووەکەی."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "disengage", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdisengages1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdisengages1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "She gently disengaged herself from her sleeping son.",
+            kurdishText:
+                "بە ھێواشی خۆی کردەوە لە کوڕە نووستووەکەی.", // disengage
+            onPressedBritish: () => speakdisengages1("en-GB"),
+            onPressedAmerican: () => speakdisengages1("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "They wished to disengage themselves from these policies."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "(خوازراوی) بەھیوابوون خۆیان لەم سیاسەتانە بێبەری بکەن."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdisengages2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdisengages2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "They wished to disengage themselves from these policies.",
+            kurdishText:
+                "(خوازراوی) بەھیوابوون خۆیان لەم سیاسەتانە بێبەری بکەن.",
+            onPressedBritish: () => speakdisengages2("en-GB"),
+            onPressedAmerican: () => speakdisengages2("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "We saw the booster rockets disengage and fall into the sea."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "ڕۆکێتە خێراکەرەکانمان دەبینی کە لێدەبوونەوە و دەکەوتنە ناو دەریا."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdisengages3("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdisengages3("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "We saw the booster rockets disengage and fall into the sea.",
+            kurdishText:
+                "ڕۆکێتە خێراکەرەکانمان دەبینی کە لێدەبوونەوە و دەکەوتنە ناو دەریا.",
+            onPressedBritish: () => speakdisengages3("en-GB"),
+            onPressedAmerican: () => speakdisengages3("en-US"),
           ),
           // disengages400"),
           // speakdisengages4

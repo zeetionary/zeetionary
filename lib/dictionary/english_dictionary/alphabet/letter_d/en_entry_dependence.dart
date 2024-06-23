@@ -260,92 +260,33 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "١. (ناو) دۆخێک کە تێیدا پشت بە کەسێک/شتێک دەبەستیت بۆ ڕزگاربوون یان سەرکەوتن"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "Our relationship was based on mutual dependence."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "پەیوەدیمان پشتی بە پشت‌پێ‌بەستنی ھاوبەش دەبەست."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "dependence", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdependences1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdependences1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "Our relationship was based on mutual dependence.",
+            kurdishText:
+                "پەیوەدیمان پشتی بە پشت‌پێ‌بەستنی ھاوبەش دەبەست.", // dependence
+            onPressedBritish: () => speakdependences1("en-GB"),
+            onPressedAmerican: () => speakdependences1("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The government wants to reduce industry's dependence on coal."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "حکومەت دەیەوێت پشتبەستنی پیشەسازی بە خەڵووز کەمبکاتەوە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdependences2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdependences2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "The government wants to reduce industry's dependence on coal.",
+            kurdishText:
+                "حکومەت دەیەوێت پشتبەستنی پیشەسازی بە خەڵووز کەمبکاتەوە.",
+            onPressedBritish: () => speakdependences2("en-GB"),
+            onPressedAmerican: () => speakdependences2("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: "٢. (ناو) ئاڵوودەیی بە شتێک"),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "Gradually her dependence on alcohol became obvious to everyone."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "کەم کەم ئاڵوودەییەکەی بە کحوول ئاشکرا بوو بۆ ھەموان."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdependences3("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdependences3("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "Gradually her dependence on alcohol became obvious to everyone.",
+            kurdishText: "کەم کەم ئاڵوودەییەکەی بە کحوول ئاشکرا بوو بۆ ھەموان.",
+            onPressedBritish: () => speakdependences3("en-GB"),
+            onPressedAmerican: () => speakdependences3("en-US"),
           ),
           // dependences400"),
           // speakdependences4

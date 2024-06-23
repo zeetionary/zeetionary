@@ -250,84 +250,27 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "١. (ناو) ڕەفتاری ناڕاست کە وادەکات کەسێک باوەڕ بە شتێک بکات کە ڕاست نییە"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "He was accused of lies and deceit."),
-                    ExampleSentenceKurdish(
-                        text: "بە درۆ و تەڵەکەبازی تاوانبار کرا."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "deceit", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdeceits1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdeceits1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "He was accused of lies and deceit.",
+            kurdishText: "بە درۆ و تەڵەکەبازی تاوانبار کرا.", // deceit
+            onPressedBritish: () => speakdeceits1("en-GB"),
+            onPressedAmerican: () => speakdeceits1("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "Their marriage was an illusion and a deceit."),
-                    ExampleSentenceKurdish(
-                        text: "ھاوسەرگیرییەکە پڕوپووچ و فڕوفێڵ بوو."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdeceits2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdeceits2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "Their marriage was an illusion and a deceit.",
+            kurdishText: "ھاوسەرگیرییەکە پڕوپووچ و فڕوفێڵ بوو.",
+            onPressedBritish: () => speakdeceits2("en-GB"),
+            onPressedAmerican: () => speakdeceits2("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "She realized that their whole relationship had been based on lies and deceit."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "ھەستی بەوە کرد کە تەواوی پەیوەندییان لەسەر درۆ و تەڵەکەبازی چەسپابوو."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdeceits3("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdeceits3("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "She realized that their whole relationship had been based on lies and deceit.",
+            kurdishText:
+                "ھەستی بەوە کرد کە تەواوی پەیوەندییان لەسەر درۆ و تەڵەکەبازی چەسپابوو.",
+            onPressedBritish: () => speakdeceits3("en-GB"),
+            onPressedAmerican: () => speakdeceits3("en-US"),
           ),
         ],
       ),

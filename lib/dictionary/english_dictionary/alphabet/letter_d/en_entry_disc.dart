@@ -264,138 +264,44 @@ class KurdishMeaning extends StatelessWidget {
 کوردی: دیسک، سێڵک، پەپکە، خەپلە، شتێکی خڕ، ناسک و تەخت، خڕۆچکە
 """),
           const DefinitionKurdish(text: "١. (ناو) شتێکی تەختی باریکی خڕ"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "He wears an identity disc around his neck."),
-                    ExampleSentenceKurdish(
-                        text: "پەپکێکی ناسنامە لە ملی دەبەستێت."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "disc", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdiscs1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdiscs1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "He wears an identity disc around his neck.",
+            kurdishText: "پەپکێکی ناسنامە لە ملی دەبەستێت.", // disc
+            onPressedBritish: () => speakdiscs1("en-GB"),
+            onPressedAmerican: () => speakdiscs1("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "In a total eclipse, the moon completely covers the disc of the sun."),
-                    ExampleSentenceKurdish(
-                        text: "لە خۆرگیرانی پڕدا، مانگ خڕۆچکەی خۆر ددەپۆشێت."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdiscs2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdiscs2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "In a total eclipse, the moon completely covers the disc of the sun.",
+            kurdishText: "لە خۆرگیرانی پڕدا، مانگ خڕۆچکەی خۆر ددەپۆشێت.",
+            onPressedBritish: () => speakdiscs2("en-GB"),
+            onPressedAmerican: () => speakdiscs2("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: "٢. (ناو) سی‌دی یان دی‌ڤی‌دی"),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "This recording is available online or on disc."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "ئەم تۆمارە بە ئۆنلاین یان لەسەر خەپلە بەردەستە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdiscs3("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdiscs3("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "This recording is available online or on disc.",
+            kurdishText: "ئەم تۆمارە بە ئۆنلاین یان لەسەر خەپلە بەردەستە.",
+            onPressedBritish: () => speakdiscs3("en-GB"),
+            onPressedAmerican: () => speakdiscs3("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "I ejected the disc before the end."),
-                    ExampleSentenceKurdish(text: "پێش کۆتایی پەپکەکەم دەرکرد."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdiscs5("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdiscs5("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "I ejected the disc before the end.",
+            kurdishText: "پێش کۆتایی پەپکەکەم دەرکرد.",
+            onPressedBritish: () => speakdiscs5("en-GB"),
+            onPressedAmerican: () => speakdiscs5("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: "٣. (ناو) پەپکەیەک بۆ کۆمپیوتەر"),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "He inserted the disc into the machine."),
-                    ExampleSentenceKurdish(text: "پەپکەکەی خستە ناو ئامێرەکە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdiscs6("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdiscs6("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "He inserted the disc into the machine.",
+            kurdishText: "پەپکەکەی خستە ناو ئامێرەکە.",
+            onPressedBritish: () => speakdiscs6("en-GB"),
+            onPressedAmerican: () => speakdiscs6("en-US"),
           ),
           // discs700"),
           // speakdiscs7

@@ -240,60 +240,22 @@ class KurdishMeaning extends StatelessWidget {
 کوردی: حەول، تێکۆشان، زەحمەت، خەبات، ڕەنج، کردوکۆش، بەکاری، شێلگیری، ڕشتی، سووربوون
 """),
           const DefinitionKurdish(text: "١. (ناو) کاری وریایی و ھەوڵی زۆر"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "She shows great diligence in her schoolwork."),
-                    ExampleSentenceKurdish(
-                        text: "زەحمەتی زۆر پیشان دەدات لە خوێندنی قوتابخانەی."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "diligence", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdiligences1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdiligences1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "She shows great diligence in her schoolwork.",
+            kurdishText:
+                "زەحمەتی زۆر پیشان دەدات لە خوێندنی قوتابخانەی.", // diligence
+            onPressedBritish: () => speakdiligences1("en-GB"),
+            onPressedAmerican: () => speakdiligences1("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "She hoped that her diligence would be noticed at work."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "بەھیوابوو کە ماندووبوونی لە کارەکەی ھەستی پێبکرێت."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdiligences2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdiligences2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "She hoped that her diligence would be noticed at work.",
+            kurdishText: "بەھیوابوو کە ماندووبوونی لە کارەکەی ھەستی پێبکرێت.",
+            onPressedBritish: () => speakdiligences2("en-GB"),
+            onPressedAmerican: () => speakdiligences2("en-US"),
           ),
           // diligences300"),
           // speakdiligences3

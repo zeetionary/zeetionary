@@ -269,121 +269,44 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "١. (ناو) سیستەمێکی حکومڕانی کە تێیدا خەڵکی دەنگ دەدەن بۆ ھەڵبژاردنی نوێنەرەکانیان"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The government has promised to uphold the principles of democracy."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "حکومەت بەڵێنی داوە ڕێز لە بنچینەکانی دیموکراسی بگرێت."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "democracy", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdemocracys1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdemocracys1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "The government has promised to uphold the principles of democracy.",
+            kurdishText:
+                "حکومەت بەڵێنی داوە ڕێز لە بنچینەکانی دیموکراسی بگرێت.", // democracy
+            onPressedBritish: () => speakdemocracys1("en-GB"),
+            onPressedAmerican: () => speakdemocracys1("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The early 1990s saw the spread of democracy in Eastern Europe."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "سەرەتای ١٩٩٠ ـەکان بڵاوبوونەوەی دیموکراسییان بە ڕۆژھەڵاتی ئەورووپادا بینی."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdemocracys2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdemocracys2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "The early 1990s saw the spread of democracy in Eastern Europe.",
+            kurdishText:
+                "سەرەتای ١٩٩٠ ـەکان بڵاوبوونەوەی دیموکراسییان بە ڕۆژھەڵاتی ئەورووپادا بینی.",
+            onPressedBritish: () => speakdemocracys2("en-GB"),
+            onPressedAmerican: () => speakdemocracys2("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٢. (ناو) وڵاتێک کە سیستەمێکی حکومڕانیی دیموکراسی ھەیە"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "I thought we were supposed to be living in a democracy."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "وام بیردەکردەوە وابڕیاربوو لە دیموکراسییەکدا بژین."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdemocracys3("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdemocracys3("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "I thought we were supposed to be living in a democracy.",
+            kurdishText: "وام بیردەکردەوە وابڕیاربوو لە دیموکراسییەکدا بژین.",
+            onPressedBritish: () => speakdemocracys3("en-GB"),
+            onPressedAmerican: () => speakdemocracys3("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "We live in a multi-party democracy."),
-                    ExampleSentenceKurdish(
-                        text: "لە دیموکراسییەکی فرە پارتدا دەژین."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdemocracys4("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdemocracys4("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "We live in a multi-party democracy.",
+            kurdishText: "لە دیموکراسییەکی فرە پارتدا دەژین.",
+            onPressedBritish: () => speakdemocracys4("en-GB"),
+            onPressedAmerican: () => speakdemocracys4("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "٣. (ناو) مامەڵەی دادپەروەرانە و یەکسان لە دامەزراوەیەکدا بەشێوەیەک کە ھەموان بەژداربن لە بڕیارداندا"),

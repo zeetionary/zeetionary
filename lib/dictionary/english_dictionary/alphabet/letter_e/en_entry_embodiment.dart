@@ -363,31 +363,12 @@ class KurdishMeaning extends StatelessWidget {
 """),
           const DefinitionKurdish(
               text: """١. (ناو) کەسێک یان شتێک کە نموونەیەکی تەواوی شتێکە"""),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            """He is the embodiment of the young successful businessman."""),
-                    ExampleSentenceKurdish(
-                        text: """ھێمای بازرگانی گەنجی سەرکەوتووە."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "embodiment", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakembodiments1("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakembodiments1("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                """He is the embodiment of the young successful businessman.""",
+            kurdishText: """ھێمای بازرگانی گەنجی سەرکەوتووە.""", // embodiment
+            onPressedBritish: () => speakembodiments1("en-GB"),
+            onPressedAmerican: () => speakembodiments1("en-US"),
           ),
           // embodiments200embodiments2
           // speakembodiments2

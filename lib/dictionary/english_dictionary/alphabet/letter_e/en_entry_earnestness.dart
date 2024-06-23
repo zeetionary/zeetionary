@@ -364,31 +364,13 @@ class KurdishMeaning extends StatelessWidget {
 """),
           const DefinitionKurdish(
               text: """١. (ناو) ئەوەی کە بەڕشت و جدی بیت"""),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            """I had always admired the intense earnestness of his character."""),
-                    ExampleSentenceKurdish(
-                        text: """ھەمیشە سەرسامی بەتینیی کەسایەتیی بووم."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "earnestness", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakearnestnesss1("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakearnestnesss1("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                """I had always admired the intense earnestness of his character.""",
+            kurdishText:
+                """ھەمیشە سەرسامی بەتینیی کەسایەتیی بووم.""", // earnestness
+            onPressedBritish: () => speakearnestnesss1("en-GB"),
+            onPressedAmerican: () => speakearnestnesss1("en-US"),
           ),
           // earnestnesss200earnestnesss2
           // speakearnestnesss2

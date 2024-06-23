@@ -241,59 +241,20 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "١. (کردار) باوەڕنەکردن بەوەی کە شتێک ڕاستە یان کەسێک ڕاستی دەڵێت"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "Why should I disbelieve her story?"),
-                    ExampleSentenceKurdish(
-                        text: "بۆچی دەبێت گومانم لە چیرۆکەکە ھەبێت؟"),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "disbelieve", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdisbelieves1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdisbelieves1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "Why should I disbelieve her story?",
+            kurdishText: "بۆچی دەبێت گومانم لە چیرۆکەکە ھەبێت؟", // disbelieve
+            onPressedBritish: () => speakdisbelieves1("en-GB"),
+            onPressedAmerican: () => speakdisbelieves1("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "We have no reason to disbelieve the information."),
-                    ExampleSentenceKurdish(
-                        text: "ھیچ ھۆکارمان نییە گومان لە زانیارییەکە بکەین."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdisbelieves2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdisbelieves2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "We have no reason to disbelieve the information.",
+            kurdishText: "ھیچ ھۆکارمان نییە گومان لە زانیارییەکە بکەین.",
+            onPressedBritish: () => speakdisbelieves2("en-GB"),
+            onPressedAmerican: () => speakdisbelieves2("en-US"),
           ),
           // disbelieves300"),
           // speakdisbelieves3

@@ -364,30 +364,12 @@ class KurdishMeaning extends StatelessWidget {
               text:
                   """١. (ناو) جلێک کە وەک پانتۆڵ وایە و بەشی سەرەوەی تا سەر سینگ دادەپۆشێت کە ڕادەگیردرێت بە دوو قایش لەسەر شان"""),
           const AlsoEnglishckb(word: "ھەروەھا: overalls، bib overalls"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: """His dungarees were covered in grease."""),
-                    ExampleSentenceKurdish(
-                        text: """شەڵواری بەرسینگ‌دارەکەی لە گریس تەندرابوو."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "dungarees", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdungareess1("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdungareess1("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: """His dungarees were covered in grease.""",
+            kurdishText:
+                """شەڵواری بەرسینگ‌دارەکەی لە گریس تەندرابوو.""", // dungarees
+            onPressedBritish: () => speakdungareess1("en-GB"),
+            onPressedAmerican: () => speakdungareess1("en-US"),
           ),
           // dungareess200
           // speakdungareess2

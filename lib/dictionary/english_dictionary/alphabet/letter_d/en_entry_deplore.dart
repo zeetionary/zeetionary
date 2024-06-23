@@ -251,62 +251,24 @@ class KurdishMeaning extends StatelessWidget {
 // """),
           const DefinitionKurdish(
               text: "١. (کردار) سەرزەنشتکردنی شتێک بەھۆی ئەوەی خراپە"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "Like everyone else, I deplore and condemn this killing."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "وەک ھەموانی دیکە، ئەم کوشتنە شەرمەزار و سەرکۆنە دەکەم."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "deplore", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdeplores1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdeplores1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "Like everyone else, I deplore and condemn this killing.",
+            kurdishText:
+                "وەک ھەموانی دیکە، ئەم کوشتنە شەرمەزار و سەرکۆنە دەکەم.", // deplore
+            onPressedBritish: () => speakdeplores1("en-GB"),
+            onPressedAmerican: () => speakdeplores1("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "He deplored the fact that these criminals were treated by many as heroes and martyrs."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "ئەو ڕاستییەی شەرمەزار کرد کە ئەم تاوانبارانە وەک پاڵەوان و شەھید مامەڵەیان لەگەڵ کرا."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdeplores2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdeplores2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "He deplored the fact that these criminals were treated by many as heroes and martyrs.",
+            kurdishText:
+                "ئەو ڕاستییەی شەرمەزار کرد کە ئەم تاوانبارانە وەک پاڵەوان و شەھید مامەڵەیان لەگەڵ کرا.",
+            onPressedBritish: () => speakdeplores2("en-GB"),
+            onPressedAmerican: () => speakdeplores2("en-US"),
           ),
           // deplores300"),
           // speakdeplores3

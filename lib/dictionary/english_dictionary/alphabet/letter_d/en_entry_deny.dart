@@ -312,281 +312,91 @@ class KurdishMeaning extends StatelessWidget {
 کوردی: نکۆڵی کردنەوە، ڕەت کردنەوە، حاشا لێکردن
 """),
           const DefinitionKurdish(text: "١. (کردار) وتنی ئەوەی شتێک ڕاست نییە"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "He has denied any involvement in the incident."),
-                    ExampleSentenceKurdish(
-                        text: "نکۆڵی لە ھەموو تێوەگلانێک لە ڕووداوەکە کردووە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "deny", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdenys1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdenys1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "He has denied any involvement in the incident.",
+            kurdishText:
+                "نکۆڵی لە ھەموو تێوەگلانێک لە ڕووداوەکە کردووە.", // deny
+            onPressedBritish: () => speakdenys1("en-GB"),
+            onPressedAmerican: () => speakdenys1("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "The company strongly denies wrongdoing."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "کۆمپانیاکە بە توندی نکۆڵی لە ھەر ھەڵەیەک دەکات."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdenys2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdenys2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "The company strongly denies wrongdoing.",
+            kurdishText: "کۆمپانیاکە بە توندی نکۆڵی لە ھەر ھەڵەیەک دەکات.",
+            onPressedBritish: () => speakdenys2("en-GB"),
+            onPressedAmerican: () => speakdenys2("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "A spokesperson refused to either confirm or deny the reports."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "وتەبێژێک ڕەتیکردەوە کە ڕەپۆرتەکە پشتڕاست یان ڕەتبکاتەوە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdenys3("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdenys3("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "A spokesperson refused to either confirm or deny the reports.",
+            kurdishText:
+                "وتەبێژێک ڕەتیکردەوە کە ڕەپۆرتەکە پشتڕاست یان ڕەتبکاتەوە.",
+            onPressedBritish: () => speakdenys3("en-GB"),
+            onPressedAmerican: () => speakdenys3("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "She denied that there had been a cover-up."),
-                    ExampleSentenceKurdish(
-                        text: "ڕەتیکردەوە ھیچ داپۆشینێک ھەبووبێت."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdenys4("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdenys4("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "She denied that there had been a cover-up.",
+            kurdishText: "ڕەتیکردەوە ھیچ داپۆشینێک ھەبووبێت.",
+            onPressedBritish: () => speakdenys4("en-GB"),
+            onPressedAmerican: () => speakdenys4("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٢. (کردار) ڕەتکردنەوەی داننان یان پەسەندکردنی شتێک"),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "She denied all knowledge of the incident."),
-                    ExampleSentenceKurdish(
-                        text: "نکۆڵی لە ھەر زانیارییەک لەسەر ڕووداوەکە کرد."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdenys5("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdenys5("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "She denied all knowledge of the incident.",
+            kurdishText: "نکۆڵی لە ھەر زانیارییەک لەسەر ڕووداوەکە کرد.",
+            onPressedBritish: () => speakdenys5("en-GB"),
+            onPressedAmerican: () => speakdenys5("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "No physicist would deny the existence of gravity."),
-                    ExampleSentenceKurdish(
-                        text: "ھیچ فیزیازانێک نکۆڵی لە ھێزی کێشکردن ناکات."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdenys6("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdenys6("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "No physicist would deny the existence of gravity.",
+            kurdishText: "ھیچ فیزیازانێک نکۆڵی لە ھێزی کێشکردن ناکات.",
+            onPressedBritish: () => speakdenys6("en-GB"),
+            onPressedAmerican: () => speakdenys6("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "Denying the Holocaust is a crime in Germany."),
-                    ExampleSentenceKurdish(
-                        text: "نکۆڵیکردن لە ھۆڵۆکۆست تاوانە لە ئەڵمانیا."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdenys7("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdenys7("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "Denying the Holocaust is a crime in Germany.",
+            kurdishText: "نکۆڵیکردن لە ھۆڵۆکۆست تاوانە لە ئەڵمانیا.",
+            onPressedBritish: () => speakdenys7("en-GB"),
+            onPressedAmerican: () => speakdenys7("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(text: "Reality cannot be denied."),
-                    ExampleSentenceKurdish(text: "ڕاستی نکۆڵی لێ ناکرێت."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdenys8("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdenys8("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "Reality cannot be denied.",
+            kurdishText: "ڕاستی نکۆڵی لێ ناکرێت.",
+            onPressedBritish: () => speakdenys8("en-GB"),
+            onPressedAmerican: () => speakdenys8("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
                   "٣. (کردار) ڕێگەنەدان بە کەسێک کە شتێکی ھەبێت کە دەیەوێت یان داوای دەکات"),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                      text: "They were denied access to the information.",
-                      note:
-                          "Also: Access to the information was denied to them.",
-                    ),
-                    ExampleSentenceKurdish(text: "زانیارییەکەیان پێنەدرا."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdenys9("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdenys9("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "They were denied access to the information.",
+            englishNote: "Also: Access to the information was denied to them.",
+            kurdishText: "زانیارییەکەیان پێنەدرا.",
+            onPressedBritish: () => speakdenys9("en-GB"),
+            onPressedAmerican: () => speakdenys9("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "You cannot deny this opportunity to me."),
-                    ExampleSentenceKurdish(
-                        text: "ناتوانیت لەم ھەلە بێبەشم بکەیت."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdenys10("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdenys10("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "You cannot deny this opportunity to me.",
+            kurdishText: "ناتوانیت لەم ھەلە بێبەشم بکەیت.",
+            onPressedBritish: () => speakdenys10("en-GB"),
+            onPressedAmerican: () => speakdenys10("en-US"),
           ),
           // denys1100"),
           // speakdenys11

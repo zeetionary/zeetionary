@@ -234,32 +234,13 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "١. (کردار) باسکردنی کەسێک یان شتێک بە شێوەیەک کە لەبەرچاوی کەسانی دیکە ناشرینی بکات"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The Nazis used racist propaganda in an attempt to demonize the Jews."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "نازییەکان پڕووپاگەندەی ڕەگەزپەرستیان بەکاردەھێنا بۆ ناشرینکردنی جولەکەکان."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "demonise", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdemonises1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdemonises1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "The Nazis used racist propaganda in an attempt to demonize the Jews.",
+            kurdishText:
+                "نازییەکان پڕووپاگەندەی ڕەگەزپەرستیان بەکاردەھێنا بۆ ناشرینکردنی جولەکەکان.", // demonise
+            onPressedBritish: () => speakdemonises1("en-GB"),
+            onPressedAmerican: () => speakdemonises1("en-US"),
           ),
           // demonises200"),
           // speakdemonises2

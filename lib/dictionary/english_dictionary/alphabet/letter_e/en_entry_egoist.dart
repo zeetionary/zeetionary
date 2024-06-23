@@ -370,59 +370,22 @@ class KurdishMeaning extends StatelessWidget {
 """),
           const DefinitionKurdish(
               text: """١. (ناو) کەسێکی خۆپەرست کە تەنھا گرنگی بە خۆی دەدات"""),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            """You need to be an egotist to succeed in politics."""),
-                    ExampleSentenceKurdish(
-                        text: """دەبێت خۆپەرست بیت بۆ سەرکەوتن لە سیاسەتدا."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "egoist", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakegoists1("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakegoists1("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                """You need to be an egotist to succeed in politics.""",
+            kurdishText:
+                """دەبێت خۆپەرست بیت بۆ سەرکەوتن لە سیاسەتدا.""", // egoist
+            onPressedBritish: () => speakegoists1("en-GB"),
+            onPressedAmerican: () => speakegoists1("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: """Politicians are notorious egotists."""),
-                    ExampleSentenceKurdish(
-                        text: """سیاسەتمەداران خۆپەرستی بەدناون."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakegoists2("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakegoists2("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: """Politicians are notorious egotists.""",
+            kurdishText: """سیاسەتمەداران خۆپەرستی بەدناون.""",
+            onPressedBritish: () => speakegoists2("en-GB"),
+            onPressedAmerican: () => speakegoists2("en-US"),
           ),
           // egoists300egoists3
           // speakegoists3

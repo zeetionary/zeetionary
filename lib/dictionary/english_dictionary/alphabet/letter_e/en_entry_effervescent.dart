@@ -372,63 +372,25 @@ class KurdishMeaning extends StatelessWidget {
 کوردی: ھەڵچوو، فیشقەکردوو، قڵپن، بەکوڵ‌ھاتوو، قوڵت‌ھەڵڕشتوو، کوڵ‌ڕێژ، کەف‌کردوو، ھەڵقوڵاو، ھەڵقوڵیو، گازدار،	بەکوڵ، بەتین‌وگوڕ، بەجۆش‌وخرۆش
 """),
           const DefinitionKurdish(text: """١. (ھاوەڵناو) بەجۆش و پڕ لە وزە"""),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            """She's one of those effervescent personalities that you often see hosting TV game shows."""),
-                    ExampleSentenceKurdish(
-                        text:
-                            """یەکێک لەو کەسایەتییە بۆجۆش‌وخرۆشانەیە کە زۆرجار دەیبینیت پێشکەشکاری یاریی تەلەفیزیۆن دەبن."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "effervescent", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakeffervescents1("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakeffervescents1("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                """She's one of those effervescent personalities that you often see hosting TV game shows.""",
+            kurdishText:
+                """یەکێک لەو کەسایەتییە بۆجۆش‌وخرۆشانەیە کە زۆرجار دەیبینیت پێشکەشکاری یاریی تەلەفیزیۆن دەبن.""", // effervescent
+            onPressedBritish: () => speakeffervescents1("en-GB"),
+            onPressedAmerican: () => speakeffervescents1("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text: """٢. (ھاوەڵناو) شلەیەک کە بڵق درووست دەکات"""),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            """She takes effervescent Vitamin C supplements every morning."""),
-                    ExampleSentenceKurdish(
-                        text:
-                            """ھەموو بەیانییەک قزەبەخشی ڤیتامین C ـی کەف‌کردوو دەخوات."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakeffervescents2("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakeffervescents2("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                """She takes effervescent Vitamin C supplements every morning.""",
+            kurdishText:
+                """ھەموو بەیانییەک قزەبەخشی ڤیتامین C ـی کەف‌کردوو دەخوات.""",
+            onPressedBritish: () => speakeffervescents2("en-GB"),
+            onPressedAmerican: () => speakeffervescents2("en-US"),
           ),
           // effervescents300effervescents3
           // speakeffervescents3

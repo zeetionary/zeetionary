@@ -363,30 +363,11 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   """١. (ناو) ژمارەیەک سمبولی سەر کیبۆرد کە ھەستێک دەردەبڕن، بۆ نموونە :-) ڕوخسارێکی دڵخۆشە"""),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: """She replied with a heart emoticon <3."""),
-                    ExampleSentenceKurdish(
-                        text: """بە ئیمۆتیکنی دڵ <3 وەڵامی دایەوە."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "emoticon", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakemoticons1("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakemoticons1("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: """She replied with a heart emoticon <3.""",
+            kurdishText: """بە ئیمۆتیکنی دڵ <3 وەڵامی دایەوە.""", // emoticon
+            onPressedBritish: () => speakemoticons1("en-GB"),
+            onPressedAmerican: () => speakemoticons1("en-US"),
           ),
           // emoticons200emoticons2
           // speakemoticons2

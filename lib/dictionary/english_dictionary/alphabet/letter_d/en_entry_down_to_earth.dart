@@ -365,32 +365,13 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "١. (ھاوەڵناو) کەسێکی سادە و ساکار کە گرنگی بە ڕاستی دەدات نەک شتی خەیاڵی"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "Gloria is probably the most down-to-earth person I've ever met."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "گلۆریا تاڕادەیەک سادە و دڵسافترین کەس بووبێت تا ئێستا بینیبێتم."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "down-to-earth", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => downtoearthths1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => downtoearthths1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "Gloria is probably the most down-to-earth person I've ever met.",
+            kurdishText:
+                "گلۆریا تاڕادەیەک سادە و دڵسافترین کەس بووبێت تا ئێستا بینیبێتم.", // down-to-earth
+            onPressedBritish: () => downtoearthths1("en-GB"),
+            onPressedAmerican: () => downtoearthths1("en-US"),
           ),
           // "downtoearthths200"),
           // downtoearthths2

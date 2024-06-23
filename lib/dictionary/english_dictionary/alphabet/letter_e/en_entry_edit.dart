@@ -422,246 +422,91 @@ class KurdishMeaning extends StatelessWidget {
 // """),
           const DefinitionKurdish(
               text: """١. (ناو) گۆڕینی نووسین یان زانیاری"""),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            """I had time to do a quick edit of my essay before handing it in."""),
-                    ExampleSentenceKurdish(
-                        text:
-                            """کاتم ھەبوو دەستکارییەکی خێرای داڕشتنەکەم بکەم پێش ڕادەستکردنی."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "edit", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakedits1("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakedits1("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                """I had time to do a quick edit of my essay before handing it in.""",
+            kurdishText:
+                """کاتم ھەبوو دەستکارییەکی خێرای داڕشتنەکەم بکەم پێش ڕادەستکردنی.""", // edit
+            onPressedBritish: () => speakedits1("en-GB"),
+            onPressedAmerican: () => speakedits1("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
                   """٢. (کردار) ئامادەکردنی نووسینێک، کتێبێک، ھتد بۆ بڵاوکردنەوە بە چاککردنەوەی ھەڵەکانی و باشترکردنی"""),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: """This draft text will need to be edited."""),
-                    ExampleSentenceKurdish(
-                        text:
-                            """ئەم نووسینە بەرنووسە پێویستی بە دەستکاری ھەیە."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakedits2("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakedits2("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: """This draft text will need to be edited.""",
+            kurdishText: """ئەم نووسینە بەرنووسە پێویستی بە دەستکاری ھەیە.""",
+            onPressedBritish: () => speakedits2("en-GB"),
+            onPressedAmerican: () => speakedits2("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: """ژممارە. (کردار) پێنناسە"""),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            """This is the edited version of my speech (= some parts have been taken out)."""),
-                    ExampleSentenceKurdish(
-                        text: """ئەمە شێوەی دەستکاری وتارەکەمە."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakedits3("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakedits3("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                """This is the edited version of my speech (= some parts have been taken out).""",
+            kurdishText: """ئەمە شێوەی دەستکاری وتارەکەمە.""",
+            onPressedBritish: () => speakedits3("en-GB"),
+            onPressedAmerican: () => speakedits3("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: """ژممارە. (کردار) پێنناسە"""),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            """The transcripts of the recording had been heavily edited."""),
-                    ExampleSentenceKurdish(
-                        text: """نووسراوەی تۆمارەکان زۆر دەستکاری کرابوون."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakedits4("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakedits4("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                """The transcripts of the recording had been heavily edited.""",
+            kurdishText: """نووسراوەی تۆمارەکان زۆر دەستکاری کرابوون.""",
+            onPressedBritish: () => speakedits4("en-GB"),
+            onPressedAmerican: () => speakedits4("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text: """٣. (کردار) دەستکاری نووسین و زانیاری لەسەر شاشەیەک"""),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            """You can download the file and edit it on your computer."""),
-                    ExampleSentenceKurdish(
-                        text:
-                            """دەتوانیت فایلەکە دابەزێنیت و لەسەر کۆمپیوتەرەکەت دەستکاری بکەیت."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakedits5("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakedits5("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                """You can download the file and edit it on your computer.""",
+            kurdishText:
+                """دەتوانیت فایلەکە دابەزێنیت و لەسەر کۆمپیوتەرەکەت دەستکاری بکەیت.""",
+            onPressedBritish: () => speakedits5("en-GB"),
+            onPressedAmerican: () => speakedits5("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
                   """٤. (کردار) دەستکاریکردنی فیلمێک، پڕۆگرامێکی تەلەفیزیۆنی؛ بڕیاردانی ئەوەی چی لەوە پیشان بدرێت کە تۆمارکراوە و بە چی ڕیزبەندییەک"""),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            """The movie's 129 minutes were edited down from 150 hours of footage."""),
-                    ExampleSentenceKurdish(
-                        text:
-                            """١٢٩ خولەکی فیلمەکە لە ١٥٠ خولەک لە دیمەنەوە دەستکاری کرا."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakedits6("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakedits6("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                """The movie's 129 minutes were edited down from 150 hours of footage.""",
+            kurdishText:
+                """١٢٩ خولەکی فیلمەکە لە ١٥٠ خولەک لە دیمەنەوە دەستکاری کرا.""",
+            onPressedBritish: () => speakedits6("en-GB"),
+            onPressedAmerican: () => speakedits6("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
                   """٢. (کردار) ئامادەکردنی کتێبێک بۆ بڵاوکردنەوە بە کۆکردنەوە و ڕێکخستنی ژمارەیەک نووسین یەک نووسەر یان زیاتر"""),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            """He's editing a book of essays by Isaiah Berlin."""),
-                    ExampleSentenceKurdish(
-                        text:
-                            """کتێبێکی وتارەکانی ئیزایا بەرلین ئامادە دەکات."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakedits7("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakedits7("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: """He's editing a book of essays by Isaiah Berlin.""",
+            kurdishText: """کتێبێکی وتارەکانی ئیزایا بەرلین ئامادە دەکات.""",
+            onPressedBritish: () => speakedits7("en-GB"),
+            onPressedAmerican: () => speakedits7("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
                   """٦. (کردار) بوون بە بەرپرسی پلاندانان و بڵاوکەرەوەی ڕۆژنامەیەک، گۆڤارێک، ھتد"""),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: """She used to edit a women's magazine."""),
-                    ExampleSentenceKurdish(
-                        text: """جاران نووسەری گۆڤارێکی ژنان بوو."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakedits8("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakedits8("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: """She used to edit a women's magazine.""",
+            kurdishText: """جاران نووسەری گۆڤارێکی ژنان بوو.""",
+            onPressedBritish: () => speakedits8("en-GB"),
+            onPressedAmerican: () => speakedits8("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: """ژممارە. (کردار) پێنناسە"""),

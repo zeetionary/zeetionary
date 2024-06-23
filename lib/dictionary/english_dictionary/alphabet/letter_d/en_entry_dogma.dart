@@ -372,62 +372,23 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "١. (ناو) کۆمەڵە بیروباوەڕێک کە کۆمەڵە کەسانێکی ھەیانە و کەسانی دیکە ئەوەیان لێ پێشبینی دەکرێت بەبێ ڕەخنە پەسەندیان بکەن"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "She has caused a storm by calling into question one of the central dogmas of the Church."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "ھەرای ناوەتەوە بە وەستانەوە دژی یەکێک لە باوەڕە بنچینەییەکانی کڵێسا."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "dogma", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdogmas1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdogmas1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "She has caused a storm by calling into question one of the central dogmas of the Church.",
+            kurdishText:
+                "ھەرای ناوەتەوە بە وەستانەوە دژی یەکێک لە باوەڕە بنچینەییەکانی کڵێسا.", // dogma
+            onPressedBritish: () => speakdogmas1("en-GB"),
+            onPressedAmerican: () => speakdogmas1("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "People are beginning to question the old dogmas."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "خەڵکی خەریکە دەست دەکەن بە وەستانەوە دژی بیروباوەڕە کۆنەکان."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdogmas2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdogmas2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "People are beginning to question the old dogmas.",
+            kurdishText:
+                "خەڵکی خەریکە دەست دەکەن بە وەستانەوە دژی بیروباوەڕە کۆنەکان.",
+            onPressedBritish: () => speakdogmas2("en-GB"),
+            onPressedAmerican: () => speakdogmas2("en-US"),
           ),
           // dogmas300"),
           // speakdogmas3

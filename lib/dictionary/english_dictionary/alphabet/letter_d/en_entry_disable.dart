@@ -251,89 +251,32 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "١. (کردار) بۆ ھەمیشە زیان گەیاندن بە کەسێک کە ئیتر نەتوانێت بەشێکی جەستەی بەکاربێنێت یان ڕێ بکات"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "He was disabled in a car accident."),
-                    ExampleSentenceKurdish(
-                        text: "لە پێکدادانێکی ئۆتۆمبێلدا کەم ئەندام بوو."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "disable", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdisables1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdisables1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "He was disabled in a car accident.",
+            kurdishText: "لە پێکدادانێکی ئۆتۆمبێلدا کەم ئەندام بوو.", // disable
+            onPressedBritish: () => speakdisables1("en-GB"),
+            onPressedAmerican: () => speakdisables1("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٢. (کردار) لەکارخستن یان ناچالاککردنی شتێک"),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The burglars gained entry to the building after disabling the alarm."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "جەردەکان چوونە ناو بیناکە لەدوای ناچالاککردنی زەنگەکە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdisables2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdisables2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "The burglars gained entry to the building after disabling the alarm.",
+            kurdishText:
+                "جەردەکان چوونە ناو بیناکە لەدوای ناچالاککردنی زەنگەکە.",
+            onPressedBritish: () => speakdisables2("en-GB"),
+            onPressedAmerican: () => speakdisables2("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "This weapons system will destroy or disable any incoming missile."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "ئەم سیستەمی چەکە ھەر مووشەکێکی ھاتوو لەناودەبات یان ناچالاکی دەکات."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdisables3("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdisables3("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "This weapons system will destroy or disable any incoming missile.",
+            kurdishText:
+                "ئەم سیستەمی چەکە ھەر مووشەکێکی ھاتوو لەناودەبات یان ناچالاکی دەکات.",
+            onPressedBritish: () => speakdisables3("en-GB"),
+            onPressedAmerican: () => speakdisables3("en-US"),
           ),
           // disables400"),
           // speakdisables4

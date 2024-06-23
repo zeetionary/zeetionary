@@ -364,32 +364,13 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   """١. (ناو) شتێکی فلاتی بچووک کە بە فڵچەیەک تۆز و خۆڵی تێدەخرێت لە پاککردنەوەدا"""),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            """The dustpan was full, so she emptied it into a rubbish bag."""),
-                    ExampleSentenceKurdish(
-                        text:
-                            """خۆڵ‌ماڵەکە پڕبوو، بۆیە بەتاڵی کردە ناو کیسەیەکی زباڵەوە."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "dustpan", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdustpans1("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdustpans1("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                """The dustpan was full, so she emptied it into a rubbish bag.""",
+            kurdishText:
+                """خۆڵ‌ماڵەکە پڕبوو، بۆیە بەتاڵی کردە ناو کیسەیەکی زباڵەوە.""", // dustpan
+            onPressedBritish: () => speakdustpans1("en-GB"),
+            onPressedAmerican: () => speakdustpans1("en-US"),
           ),
           // dustpans200
           // speakdustpans2

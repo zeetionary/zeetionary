@@ -243,60 +243,22 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "١. (کردار) بە فەرمی گوتنی ئەوەی کە ھیچ زانیاریت لەسەر شتێک نییە"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The rebels disclaimed all responsibility for the explosion."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "یاخیبووەکان نکۆڵییان لە ھەر بەرپرسیاریەتییەک بۆ تەقینەوەکە کرد."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "disclaim", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdisclaims1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdisclaims1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "The rebels disclaimed all responsibility for the explosion.",
+            kurdishText:
+                "یاخیبووەکان نکۆڵییان لە ھەر بەرپرسیاریەتییەک بۆ تەقینەوەکە کرد.", // disclaim
+            onPressedBritish: () => speakdisclaims1("en-GB"),
+            onPressedAmerican: () => speakdisclaims1("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "She disclaimed any knowledge of her husband's whereabouts."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "نکۆڵی لە ھە رزانیارییەک کرد سەبارەت بە شوێنی ھاوسەرەکەی."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdisclaims2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdisclaims2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "She disclaimed any knowledge of her husband's whereabouts.",
+            kurdishText:
+                "نکۆڵی لە ھە رزانیارییەک کرد سەبارەت بە شوێنی ھاوسەرەکەی.",
+            onPressedBritish: () => speakdisclaims2("en-GB"),
+            onPressedAmerican: () => speakdisclaims2("en-US"),
           ),
           // disclaims300"),
           // speakdisclaims3

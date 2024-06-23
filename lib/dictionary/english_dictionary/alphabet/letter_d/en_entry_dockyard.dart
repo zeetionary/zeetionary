@@ -364,32 +364,13 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "١. (ناو) ناوچەیەک کە لەنگەرگای ھەیە و تێیدا کەشتی درووست دەکرێت و چاکدەرێتەوە "),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The dockyard was filled with ships undergoing repairs."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "سازگەی کەشتییەکان پڕبوو لە کەشتی کە چاکدەکرانەوە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "dockyard", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdockyards1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdockyards1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "The dockyard was filled with ships undergoing repairs.",
+            kurdishText:
+                "سازگەی کەشتییەکان پڕبوو لە کەشتی کە چاکدەکرانەوە.", // dockyard
+            onPressedBritish: () => speakdockyards1("en-GB"),
+            onPressedAmerican: () => speakdockyards1("en-US"),
           ),
           // dockyards200"),
           // speakdockyards2

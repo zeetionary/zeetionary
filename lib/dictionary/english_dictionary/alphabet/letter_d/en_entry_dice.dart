@@ -259,113 +259,40 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "١. (ناو) خشتەیەکی بچووکی دارین، تەختەیی، ھتد کە ژمارەی جیاواز لە خاڵ لەسەر ھەر لایەکیەتی و لە یاری شانسدا بەکاردێت"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "You decide who’s going to start by throwing the dice."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "بڕیار لەسەر ئەوە دەدەیت کە کێ دەست بە یارییەکە بکات بە فڕێدانی زارەکە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "dice", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdices1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdices1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "You decide who’s going to start by throwing the dice.",
+            kurdishText:
+                "بڕیار لەسەر ئەوە دەدەیت کە کێ دەست بە یارییەکە بکات بە فڕێدانی زارەکە.", // dice
+            onPressedBritish: () => speakdices1("en-GB"),
+            onPressedAmerican: () => speakdices1("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "You move forward according to the number on the dice."),
-                    ExampleSentenceKurdish(
-                        text: "بەپێی ژمارەی سەر زارەکە دەچیتە پێشەوە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdices2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdices2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "You move forward according to the number on the dice.",
+            kurdishText: "بەپێی ژمارەی سەر زارەکە دەچیتە پێشەوە.",
+            onPressedBritish: () => speakdices2("en-GB"),
+            onPressedAmerican: () => speakdices2("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: "٢. (ناو) یارییەک کە بە زار دەکرێت"),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(text: "We played dice all night."),
-                    ExampleSentenceKurdish(
-                        text: "تەواوی شەوەکە یاری زار زارێنمان کرد."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdices3("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdices3("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "We played dice all night.",
+            kurdishText: "تەواوی شەوەکە یاری زار زارێنمان کرد.",
+            onPressedBritish: () => speakdices3("en-GB"),
+            onPressedAmerican: () => speakdices3("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٣. (کردار) بڕینی گۆشت، سەوزە، ھتد بە شێوەی چوارگۆشە"),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(text: "Peel and dice the potatoes."),
-                    ExampleSentenceKurdish(text: "پەتاتەکان پاک و قاژ بکە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdices4("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdices4("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "Peel and dice the potatoes.",
+            kurdishText: "پەتاتەکان پاک و قاژ بکە.",
+            onPressedBritish: () => speakdices4("en-GB"),
+            onPressedAmerican: () => speakdices4("en-US"),
           ),
           // dices500"),
           // speakdices5

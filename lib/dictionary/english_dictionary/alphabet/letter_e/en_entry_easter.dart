@@ -388,119 +388,41 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   """١. (ناو) یەکشەممەیەک لە ئادار یان نیسان کە تێیدا مەسیحییەکان جەژنی گەڕانەوەی عیسای مەسیح دەگێڕن"""),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            """Many people attend an Easter service at their local church."""),
-                    ExampleSentenceKurdish(
-                        text:
-                            """زۆرکەس بەژداری بۆنەی ئیستەر دەکەن لە کڵێسای ناوخۆییان."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "Easter", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakEasters1("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakEasters1("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                """Many people attend an Easter service at their local church.""",
+            kurdishText:
+                """زۆرکەس بەژداری بۆنەی ئیستەر دەکەن لە کڵێسای ناوخۆییان.""", // Easter
+            onPressedBritish: () => speakEasters1("en-GB"),
+            onPressedAmerican: () => speakEasters1("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: """I get two weeks off school at Easter."""),
-                    ExampleSentenceKurdish(
-                        text:
-                            """لە ئیستەر دوو ھەفتە مۆڵەتی قوتابخانەم وەردەگرم."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakEasters2("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakEasters2("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: """I get two weeks off school at Easter.""",
+            kurdishText: """لە ئیستەر دوو ھەفتە مۆڵەتی قوتابخانەم وەردەگرم.""",
+            onPressedBritish: () => speakEasters2("en-GB"),
+            onPressedAmerican: () => speakEasters2("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: """We're going to my parents for Easter."""),
-                    ExampleSentenceKurdish(
-                        text: """لە ئیستەر دەچین بۆ ماڵی باوکم."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakEasters3("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakEasters3("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: """We're going to my parents for Easter.""",
+            kurdishText: """لە ئیستەر دەچین بۆ ماڵی باوکم.""",
+            onPressedBritish: () => speakEasters3("en-GB"),
+            onPressedAmerican: () => speakEasters3("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text: """٢. (ناو) ڕۆژی ئیستەر و ڕۆژانی نزیکی"""),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: """I prefer to spend Easter at home."""),
-                    ExampleSentenceKurdish(
-                        text:
-                            """پێم باشترە ڕۆژانی ئیستەر لە ماڵەوە بەسەر ببەم."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakEasters4("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakEasters4("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: """I prefer to spend Easter at home.""",
+            kurdishText: """پێم باشترە ڕۆژانی ئیستەر لە ماڵەوە بەسەر ببەم.""",
+            onPressedBritish: () => speakEasters4("en-GB"),
+            onPressedAmerican: () => speakEasters4("en-US"),
           ),
           // Easters500Easters5
           // speakEasters5

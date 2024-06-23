@@ -251,92 +251,35 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "١. (کردار) فریودانی کەسێک بە ڕازیکردنی بەوەی ئەوە بکات کە دەتەوێت، بچێتە ئەو شوێنەی دەتەوێت، ھتد"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The police decoyed the suspect into a trap by posing as buyers."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "پۆلیس گومانلێکراوەکەی فریودایە ناو تەڵەیەکەوە بە خۆپیشاندان وەک کڕیار."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "decoy", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdecoys1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdecoys1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "The police decoyed the suspect into a trap by posing as buyers.",
+            kurdishText:
+                "پۆلیس گومانلێکراوەکەی فریودایە ناو تەڵەیەکەوە بە خۆپیشاندان وەک کڕیار.", // decoy
+            onPressedBritish: () => speakdecoys1("en-GB"),
+            onPressedAmerican: () => speakdecoys1("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
                   "٢. (کردار) باڵندەیەک یان ئاژەڵێک، یان لێکچوویەک، کە بەکاردێت بۆ سەرنجڕاکێشانی ئاژەڵان لە کاتی ڕاوکردندا"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "They use electrically powered duck decoys."),
-                    ExampleSentenceKurdish(
-                        text: "قازی ڕاوی بە کارەبا کارکردوو بەکاردێنن."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdecoys2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdecoys2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "They use electrically powered duck decoys.",
+            kurdishText: "قازی ڕاوی بە کارەبا کارکردوو بەکاردێنن.",
+            onPressedBritish: () => speakdecoys2("en-GB"),
+            onPressedAmerican: () => speakdecoys2("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
                   "٣. (ناو) شتێک کە بەکاردێت بۆ فریودانی کەسێک بۆ ئەوەی ئەوە بکات کە دەتەوێت، یان بچێتە ئەو شوێنەی کە دەتەوێت، ھتد"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "We need someone to act as a decoy to distract their attention."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "کەسێکمان دەوێت وەک تەڵەیەک کار بکات بۆ ڕاکێشانی سەرنجیان."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdecoys3("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdecoys3("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "We need someone to act as a decoy to distract their attention.",
+            kurdishText:
+                "کەسێکمان دەوێت وەک تەڵەیەک کار بکات بۆ ڕاکێشانی سەرنجیان.",
+            onPressedBritish: () => speakdecoys3("en-GB"),
+            onPressedAmerican: () => speakdecoys3("en-US"),
           ),
         ],
       ),

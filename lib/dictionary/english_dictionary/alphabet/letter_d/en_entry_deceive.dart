@@ -259,118 +259,40 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "١. (کردار) واکردن لە کەسێک کە باوەڕ بە شتێک بکات کە ڕاست نییە"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "Her husband had been deceiving her for years."),
-                    ExampleSentenceKurdish(
-                        text: "ھاوسەرەکەی چەندین ساڵە دەیخەڵەتێنێت."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "deceive", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdeceives1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdeceives1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "Her husband had been deceiving her for years.",
+            kurdishText: "ھاوسەرەکەی چەندین ساڵە دەیخەڵەتێنێت.", // deceive
+            onPressedBritish: () => speakdeceives1("en-GB"),
+            onPressedAmerican: () => speakdeceives1("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "She deceived him into handing over all his savings."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "فریوی دا بەوەی ھەموو پارەی پاشەکەوتکراوی پێبدا."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdeceives2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdeceives2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "She deceived him into handing over all his savings.",
+            kurdishText: "فریوی دا بەوەی ھەموو پارەی پاشەکەوتکراوی پێبدا.",
+            onPressedBritish: () => speakdeceives2("en-GB"),
+            onPressedAmerican: () => speakdeceives2("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
                   "٢. (کردار) خەڵەتاندنی خۆت بەوەی کە باوەڕ نەکەیت کە شتێک ڕاستە"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "You're deceiving yourself if you think he'll change his mind."),
-                    ExampleSentenceKurdish(
-                        text: "خۆت دەخاپێنێت ئەگەر پێتوایە بۆچوونی دەگۆڕێت."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdeceives3("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdeceives3("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "You're deceiving yourself if you think he'll change his mind.",
+            kurdishText: "خۆت دەخاپێنێت ئەگەر پێتوایە بۆچوونی دەگۆڕێت.",
+            onPressedBritish: () => speakdeceives3("en-GB"),
+            onPressedAmerican: () => speakdeceives3("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
                   "٣. (کردار) وا لە کەسێک کردن کە تێگەشتنێکی ھەڵەی ھەبێت سەبارەت بە کەسێک یان شتێک"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "Unless my eyes deceive me, that's his wife."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "مەگەر ئەوەی چاوەکانم ھەڵەیان پێکردبم، ئەوە ژنەکەیەتی."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdeceives4("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdeceives4("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "Unless my eyes deceive me, that's his wife.",
+            kurdishText:
+                "مەگەر ئەوەی چاوەکانم ھەڵەیان پێکردبم، ئەوە ژنەکەیەتی.",
+            onPressedBritish: () => speakdeceives4("en-GB"),
+            onPressedAmerican: () => speakdeceives4("en-US"),
           ),
         ],
       ),

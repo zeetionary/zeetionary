@@ -458,375 +458,127 @@ class KurdishMeaning extends StatelessWidget {
 کوردی: لێوار، دەم، کەنار، لیڤک، لێو، داوێن، پاڵ، گوێ، دەم، قەراغ،	ساو، تیژایی، بەری تیژ(ا)یی،	پەراوێز، زێوار،	ڕادە، سنوور،	کاریگەری
 """),
           const DefinitionKurdish(text: """١. (ناو) قەراغی شتێک"""),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: """He stood on the edge of the cliff."""),
-                    ExampleSentenceKurdish(
-                        text: """لەسەر قەراغی قەدپاڵەکە وەستا."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "edge", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakedges1("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakedges1("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: """He stood on the edge of the cliff.""",
+            kurdishText: """لەسەر قەراغی قەدپاڵەکە وەستا.""", // edge
+            onPressedBritish: () => speakedges1("en-GB"),
+            onPressedAmerican: () => speakedges1("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: """ژممارە. (کردار) پێنناسە"""),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: """Stand the coin on its edge."""),
-                    ExampleSentenceKurdish(
-                        text: """سکەکە لەسەر قەراغەکەی بوەستێنە."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakedges2("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakedges2("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: """Stand the coin on its edge.""",
+            kurdishText: """سکەکە لەسەر قەراغەکەی بوەستێنە.""",
+            onPressedBritish: () => speakedges2("en-GB"),
+            onPressedAmerican: () => speakedges2("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: """ژممارە. (کردار) پێنناسە"""),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: """I sat down at the water's edge."""),
-                    ExampleSentenceKurdish(
-                        text: """لە قەراغی ئاوەکە وەستام."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakedges3("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakedges3("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: """I sat down at the water's edge.""",
+            kurdishText: """لە قەراغی ئاوەکە وەستام.""",
+            onPressedBritish: () => speakedges3("en-GB"),
+            onPressedAmerican: () => speakedges3("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text: """٢. (ناو) دەمی تیژی چەقۆ، شمشێر، ھتد"""),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: """Be careful—it has a sharp edge."""),
-                    ExampleSentenceKurdish(
-                        text: """وریابە ـ دەمێکی تیژی ھەیە."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakedges4("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakedges4("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: """Be careful—it has a sharp edge.""",
+            kurdishText: """وریابە ـ دەمێکی تیژی ھەیە.""",
+            onPressedBritish: () => speakedges4("en-GB"),
+            onPressedAmerican: () => speakedges4("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
                   """٣. (ناو) ئەو خاڵەی شتێک تێیدا رودەدات، بەتایبەتی شتێکی خراپ"""),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            """They had brought the country to the edge of disaster."""),
-                    ExampleSentenceKurdish(
-                        text: """وڵاتەکەیان ھێنابووە ئاستی کارەسات."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakedges5("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakedges5("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                """They had brought the country to the edge of disaster.""",
+            kurdishText: """وڵاتەکەیان ھێنابووە ئاستی کارەسات.""",
+            onPressedBritish: () => speakedges5("en-GB"),
+            onPressedAmerican: () => speakedges5("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text: """٤. (ناو) ئەوەی کە کەمێک لە پێش کەسێک یان شتێکەوەیت"""),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: """They have the edge on us."""),
-                    ExampleSentenceKurdish(text: """لە پێشمانەوەن."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakedges6("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakedges6("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: """They have the edge on us.""",
+            kurdishText: """لە پێشمانەوەن.""",
+            onPressedBritish: () => speakedges6("en-GB"),
+            onPressedAmerican: () => speakedges6("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: """ژممارە. (کردار) پێنناسە"""),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: """Their training gave them an extra edge."""),
-                    ExampleSentenceKurdish(
-                        text: """ڕاھێنانەکەیان لەپێشینەیی زیاتری پێدان."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakedges7("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakedges7("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: """Their training gave them an extra edge.""",
+            kurdishText: """ڕاھێنانەکەیان لەپێشینەیی زیاتری پێدان.""",
+            onPressedBritish: () => speakedges7("en-GB"),
+            onPressedAmerican: () => speakedges7("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: """٥. (ناو) خاسیەتێکی بەھێز"""),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            """Her show now has a hard political edge to it."""),
-                    ExampleSentenceKurdish(
-                        text:
-                            """بەرنامەکەی ئێستا خاسیەتێکی بەھێزی سیاسیی پێوەیە."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakedges8("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakedges8("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: """Her show now has a hard political edge to it.""",
+            kurdishText: """بەرنامەکەی ئێستا خاسیەتێکی بەھێزی سیاسیی پێوەیە.""",
+            onPressedBritish: () => speakedges8("en-GB"),
+            onPressedAmerican: () => speakedges8("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text: """٦. (کردار) جوڵان بەوریایی بە ئاراستەیەکدا"""),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: """She edged a little closer to me."""),
-                    ExampleSentenceKurdish(
-                        text: """کەمێک نزیکتر بوویەوە لێم."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakedges9("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakedges9("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: """She edged a little closer to me.""",
+            kurdishText: """کەمێک نزیکتر بوویەوە لێم.""",
+            onPressedBritish: () => speakedges9("en-GB"),
+            onPressedAmerican: () => speakedges9("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: """ژممارە. (کردار) پێنناسە"""),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: """I edged nervously past the dog."""),
-                    ExampleSentenceKurdish(
-                        text: """بە شڵەژاوییەوە بە لای سەگەکەدا تێپەڕیم."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakedges10("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakedges10("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: """I edged nervously past the dog.""",
+            kurdishText: """بە شڵەژاوییەوە بە لای سەگەکەدا تێپەڕیم.""",
+            onPressedBritish: () => speakedges10("en-GB"),
+            onPressedAmerican: () => speakedges10("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: """ژممارە. (کردار) پێنناسە"""),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: """Emily edged her chair forward."""),
-                    ExampleSentenceKurdish(
-                        text: """ئێمیڵی کورسییەکەی ھێنایە پێشەوە."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakedges11("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakedges11("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: """Emily edged her chair forward.""",
+            kurdishText: """ئێمیڵی کورسییەکەی ھێنایە پێشەوە.""",
+            onPressedBritish: () => speakedges11("en-GB"),
+            onPressedAmerican: () => speakedges11("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text: """٧. (کردار) دانانی شتێک لە قەراغی شتێک"""),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: """The handkerchief is edged with lace."""),
-                    ExampleSentenceKurdish(
-                        text: """دەستەسڕەکە بە کوتاڵی تۆڕی لێودار کرابوو."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakedges12("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakedges12("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: """The handkerchief is edged with lace.""",
+            kurdishText: """دەستەسڕەکە بە کوتاڵی تۆڕی لێودار کرابوو.""",
+            onPressedBritish: () => speakedges12("en-GB"),
+            onPressedAmerican: () => speakedges12("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text: """٨. (کردار) کەمێک کەمبوون یان زیادبوون"""),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: """Prices edged up 2 per cent in the year."""),
-                    ExampleSentenceKurdish(
-                        text: """نرخەکان ٢ لە سەد زیادیان کرد لە ساڵەکەدا ."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakedges13("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakedges13("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: """Prices edged up 2 per cent in the year.""",
+            kurdishText: """نرخەکان ٢ لە سەد زیادیان کرد لە ساڵەکەدا .""",
+            onPressedBritish: () => speakedges13("en-GB"),
+            onPressedAmerican: () => speakedges13("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: """ژممارە. (کردار) پێنناسە"""),

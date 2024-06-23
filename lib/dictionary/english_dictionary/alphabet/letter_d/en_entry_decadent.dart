@@ -234,32 +234,13 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "١. (ھاوەڵناو) ھەبوونی ستانداردی ئەخلاقی نزم، و ھەبوونی حەز یەنھا بۆ خۆشی و نەک شتی گرنگ"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "There was something very decadent about filling ourselves with so much rich food."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "ڕابواردنێکی خۆش ھەبوو لە ھەبوونی زۆری خواردنی دەوڵەمەندانە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "decadent", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdecadents1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdecadents1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "There was something very decadent about filling ourselves with so much rich food.",
+            kurdishText:
+                "ڕابواردنێکی خۆش ھەبوو لە ھەبوونی زۆری خواردنی دەوڵەمەندانە.", // decadent
+            onPressedBritish: () => speakdecadents1("en-GB"),
+            onPressedAmerican: () => speakdecadents1("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "٢. (ھاوەڵناو) پێنناسە"),

@@ -373,64 +373,26 @@ class KurdishMeaning extends StatelessWidget {
 """),
           const DefinitionKurdish(
               text: "١. (ناو) ئەوەی کە جیاوازی و جودایی ھەبێت نەک لێکچوون"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The work finds a fairly complete dissociation between learning and sleep."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "لێکۆڵینەوەکە نەبوونی تەواوی پەیوەندی لە نێوان فێربوون و خەودا پیشان دەدات."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "dissociation", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdissociations1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdissociations1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "The work finds a fairly complete dissociation between learning and sleep.",
+            kurdishText:
+                "لێکۆڵینەوەکە نەبوونی تەواوی پەیوەندی لە نێوان فێربوون و خەودا پیشان دەدات.", // dissociation
+            onPressedBritish: () => speakdissociations1("en-GB"),
+            onPressedAmerican: () => speakdissociations1("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
                   "٢. (ناو) ئەوەی کە دەری ببڕیت کە پشتگیری شتێک ناکەیت یان ڕازی نیت پێی"),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "Dissociation from Cabinet decisions by individual ministers is unacceptable."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "خۆبێ‌بەریکردن لە بڕیارەکانی حکومەت لەلایەن تاکە وەزیرەکانەوە پەسەند نەکراوە ."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdissociations2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdissociations2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "Dissociation from Cabinet decisions by individual ministers is unacceptable.",
+            kurdishText:
+                "خۆبێ‌بەریکردن لە بڕیارەکانی حکومەت لەلایەن تاکە وەزیرەکانەوە پەسەند نەکراوە .",
+            onPressedBritish: () => speakdissociations2("en-GB"),
+            onPressedAmerican: () => speakdissociations2("en-US"),
           ),
           // dissociations300"),
           // speakdissociations3

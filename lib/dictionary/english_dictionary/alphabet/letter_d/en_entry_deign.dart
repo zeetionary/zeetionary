@@ -250,61 +250,22 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "١. (کردار) کردنی شتێک بەنابەدڵییەوە بەشێوەیەک کە وای پیشان دەدات وابیردەکەیتەوە زۆر گرنگیت کە ئەو شتە بکەیت"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "If she deigns to reply to my letter, I'll be extremely surprised."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "ئەگەر ئەزیەتی ئەوە بکێشێت وەڵامی نامەکەم بداتەوە تەواو سەرسام دەبم."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "deign", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdeigns1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdeigns1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "If she deigns to reply to my letter, I'll be extremely surprised.",
+            kurdishText:
+                "ئەگەر ئەزیەتی ئەوە بکێشێت وەڵامی نامەکەم بداتەوە تەواو سەرسام دەبم.", // deign
+            onPressedBritish: () => speakdeigns1("en-GB"),
+            onPressedAmerican: () => speakdeigns1("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "Mr. Clinton did not deign to reply."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "بەڕێز کلینتۆن ئەزیەتی ئەوەی نەکێشا وەڵام بداتەوە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdeigns2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdeigns2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "Mr. Clinton did not deign to reply.",
+            kurdishText: "بەڕێز کلینتۆن ئەزیەتی ئەوەی نەکێشا وەڵام بداتەوە.",
+            onPressedBritish: () => speakdeigns2("en-GB"),
+            onPressedAmerican: () => speakdeigns2("en-US"),
           ),
           // deigns300"),
           // speakdeigns3

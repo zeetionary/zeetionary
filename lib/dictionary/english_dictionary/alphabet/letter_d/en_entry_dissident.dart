@@ -364,32 +364,13 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "١. (ناو) کەسێک کە ڕەخنەی توند لە حکومەت دەگرێت، بەتایبەتی لە وڵاتێکدا کە مەترسی ھەیە"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "Dissidents were often imprisoned by the security police."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "ڕەخنەگران زۆرجار لەلایەن ئاسایشەوە دەستگیر دەکران."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "dissident", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdissidents1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdissidents1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "Dissidents were often imprisoned by the security police.",
+            kurdishText:
+                "ڕەخنەگران زۆرجار لەلایەن ئاسایشەوە دەستگیر دەکران.", // dissident
+            onPressedBritish: () => speakdissidents1("en-GB"),
+            onPressedAmerican: () => speakdissidents1("en-US"),
           ),
           // dissidents200"),
           // speakdissidents2

@@ -252,90 +252,33 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "١. (ناو) جیاوازییەک لە نێوان دوو شت یان زیاتر کە دەبێت یەک بن"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "What are the reasons for the discrepancy between girls' and boys' performance in school?"),
-                    ExampleSentenceKurdish(
-                        text:
-                            "ھۆکارەکان چییە بۆ جیاوازیی نێوان ئاستی کچان و کوڕان و لە قوتابخانە؟"),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "discrepancy", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdiscrepancys1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdiscrepancys1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "What are the reasons for the discrepancy between girls' and boys' performance in school?",
+            kurdishText:
+                "ھۆکارەکان چییە بۆ جیاوازیی نێوان ئاستی کچان و کوڕان و لە قوتابخانە؟", // discrepancy
+            onPressedBritish: () => speakdiscrepancys1("en-GB"),
+            onPressedAmerican: () => speakdiscrepancys1("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "There were wide discrepancies in the evidence."),
-                    ExampleSentenceKurdish(
-                        text: "یەک‌نەگرتنەوەی زۆر لە ڕاپۆرتەکەدا ھەیە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdiscrepancys2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdiscrepancys2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "There were wide discrepancies in the evidence.",
+            kurdishText: "یەک‌نەگرتنەوەی زۆر لە ڕاپۆرتەکەدا ھەیە.",
+            onPressedBritish: () => speakdiscrepancys2("en-GB"),
+            onPressedAmerican: () => speakdiscrepancys2("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "She noticed the discrepancy between the name on the cheque and the name on the driving licence."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "تێبینی جیاوازی نێوان ناوی سەر چەکەکە و ناوی سەر مۆڵەتی شۆفێرییەکەی کرد."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdiscrepancys3("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdiscrepancys3("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "She noticed the discrepancy between the name on the cheque and the name on the driving licence.",
+            kurdishText:
+                "تێبینی جیاوازی نێوان ناوی سەر چەکەکە و ناوی سەر مۆڵەتی شۆفێرییەکەی کرد.",
+            onPressedBritish: () => speakdiscrepancys3("en-GB"),
+            onPressedAmerican: () => speakdiscrepancys3("en-US"),
           ),
           // discrepancys400"),
           // speakdiscrepancys4

@@ -241,55 +241,18 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "١. (کردار) سڕینەوەی ئەو شتانەی کە بەکاریان ناھێنیت بۆ ئەوەی جێگای زیاترت ھەبێت و بە ئاسانی شت بدۆزیتەوە کە پێویستت پێیانە"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "Moving is a good opportunity to declutter."),
-                    ExampleSentenceKurdish(
-                        text: "شوێن گۆڕین ھەلێکی باشە بۆ پاککردنەوە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "declutter", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdeclutters1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdeclutters1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "Moving is a good opportunity to declutter.",
+            kurdishText: "شوێن گۆڕین ھەلێکی باشە بۆ پاککردنەوە.", // declutter
+            onPressedBritish: () => speakdeclutters1("en-GB"),
+            onPressedAmerican: () => speakdeclutters1("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "Declutter one room at a time."),
-                    ExampleSentenceKurdish(text: "ھەر جارە و ژوورێک پاکبکەوە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdeclutters2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdeclutters2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "Declutter one room at a time.",
+            kurdishText: "ھەر جارە و ژوورێک پاکبکەوە.",
+            onPressedBritish: () => speakdeclutters2("en-GB"),
+            onPressedAmerican: () => speakdeclutters2("en-US"),
           ),
         ],
       ),

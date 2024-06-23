@@ -389,119 +389,42 @@ class KurdishMeaning extends StatelessWidget {
 """),
           const DefinitionKurdish(
               text: "١. (ھاوەڵناو) بەھێزتر، گرنگتر، یان دیارتر لە شتی دیکە"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The firm has achieved a dominant position in the world market."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "کۆمپانیاکە پێگەیەکی بەھێزی بەدەستھێناوە لە بازاڕی جیھاندا."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "dominant", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdominants1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdominants1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "The firm has achieved a dominant position in the world market.",
+            kurdishText:
+                "کۆمپانیاکە پێگەیەکی بەھێزی بەدەستھێناوە لە بازاڕی جیھاندا.", // dominant
+            onPressedBritish: () => speakdominants1("en-GB"),
+            onPressedAmerican: () => speakdominants1("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The dominant feature of the room was the large fireplace."),
-                    ExampleSentenceKurdish(
-                        text: "تایبەتمەندیی دیاری ژوورەکە ئاگردانی گەورە بوو."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdominants2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdominants2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "The dominant feature of the room was the large fireplace.",
+            kurdishText: "تایبەتمەندیی دیاری ژوورەکە ئاگردانی گەورە بوو.",
+            onPressedBritish: () => speakdominants2("en-GB"),
+            onPressedAmerican: () => speakdominants2("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "Banks have a dominant role in most countries' economies."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "بانکەکان ڕۆڵێکی دیاریان ھەیە لە ئابووری وڵاتەکەدا."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdominants3("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdominants3("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "Banks have a dominant role in most countries' economies.",
+            kurdishText: "بانکەکان ڕۆڵێکی دیاریان ھەیە لە ئابووری وڵاتەکەدا.",
+            onPressedBritish: () => speakdominants3("en-GB"),
+            onPressedAmerican: () => speakdominants3("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "London is dominant within the UK economy."),
-                    ExampleSentenceKurdish(
-                        text: "لەندەن زاڵە لە ئابووری بەریتانیادا."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdominants4("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdominants4("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "London is dominant within the UK economy.",
+            kurdishText: "لەندەن زاڵە لە ئابووری بەریتانیادا.",
+            onPressedBritish: () => speakdominants4("en-GB"),
+            onPressedAmerican: () => speakdominants4("en-US"),
           ),
           // dominants500"),
           // speakdominants5

@@ -232,30 +232,11 @@ class KurdishMeaning extends StatelessWidget {
 // """),
           const DefinitionKurdish(
               text: "١. (کردار) خاوەخاوکردن لە کردنی شتێک یان چونە شوێنێک"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "Stop dawdling! We're going to be late!"),
-                    ExampleSentenceKurdish(
-                        text: "بوەستە لە خاوەخاوکردن! درەنگ دەکەوین!"),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "dawdle", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdawdles1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdawdles1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "Stop dawdling! We're going to be late!",
+            kurdishText: "بوەستە لە خاوەخاوکردن! درەنگ دەکەوین!", // dawdle
+            onPressedBritish: () => speakdawdles1("en-GB"),
+            onPressedAmerican: () => speakdawdles1("en-US"),
           ),
         ],
       ),

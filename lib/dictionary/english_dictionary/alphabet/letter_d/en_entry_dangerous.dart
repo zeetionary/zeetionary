@@ -291,222 +291,66 @@ class KurdishMeaning extends StatelessWidget {
 کوردی: پڕمەترسی، مەترسی‌دار، بەترس، جێی‌ترس، زەرندە، خەتەر، بڤە، پڕخەتەر، سەقەت
 """),
           const DefinitionKurdish(text: "١. (ھاوەڵناو) مەترسیدار یان زیانبەخش"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "The situation is extremely dangerous."),
-                    ExampleSentenceKurdish(text: "دۆخەکە تەواو مەترسیدارە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "dangerous", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdangerouss1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdangerouss1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "The situation is extremely dangerous.",
+            kurdishText: "دۆخەکە تەواو مەترسیدارە.", // dangerous
+            onPressedBritish: () => speakdangerouss1("en-GB"),
+            onPressedAmerican: () => speakdangerouss1("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "Fog and ice are making the roads very dangerous."),
-                    ExampleSentenceKurdish(
-                        text: "تەم و شەختە ڕێگاکان زۆر مەترسیدار دەکەن."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdangerouss2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdangerouss2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "Fog and ice are making the roads very dangerous.",
+            kurdishText: "تەم و شەختە ڕێگاکان زۆر مەترسیدار دەکەن.",
+            onPressedBritish: () => speakdangerouss2("en-GB"),
+            onPressedAmerican: () => speakdangerouss2("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "It's one of the most dangerous places in the world."),
-                    ExampleSentenceKurdish(
-                        text: "یەکێکە لە مەترسیدارترین شوێنەکانی جیھان."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdangerouss3("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdangerouss3("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "It's one of the most dangerous places in the world.",
+            kurdishText: "یەکێکە لە مەترسیدارترین شوێنەکانی جیھان.",
+            onPressedBritish: () => speakdangerouss3("en-GB"),
+            onPressedAmerican: () => speakdangerouss3("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The prisoners who escaped are violent and dangerous."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "ئەو زیندانییانەی کە ھەڵھاتن توندوتیژ و مەترسیدارن."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdangerouss4("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdangerouss4("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "The prisoners who escaped are violent and dangerous.",
+            kurdishText: "ئەو زیندانییانەی کە ھەڵھاتن توندوتیژ و مەترسیدارن.",
+            onPressedBritish: () => speakdangerouss4("en-GB"),
+            onPressedAmerican: () => speakdangerouss4("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "It would be dangerous for you to stay here."),
-                    ExampleSentenceKurdish(
-                        text: "مەترسیدار دەبێت بۆت لێرە بمێنیتەوە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdangerouss5("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdangerouss5("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "It would be dangerous for you to stay here.",
+            kurdishText: "مەترسیدار دەبێت بۆت لێرە بمێنیتەوە.",
+            onPressedBritish: () => speakdangerouss5("en-GB"),
+            onPressedAmerican: () => speakdangerouss5("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The evidence is clear that smoking is dangerous to health."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "بەڵگەکان ئاشکران کە جگەرەکێشان بۆ تەندرووستی خراپە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdangerouss6("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdangerouss6("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "The evidence is clear that smoking is dangerous to health.",
+            kurdishText: "بەڵگەکان ئاشکران کە جگەرەکێشان بۆ تەندرووستی خراپە.",
+            onPressedBritish: () => speakdangerouss6("en-GB"),
+            onPressedAmerican: () => speakdangerouss6("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
                   "٢. (ھاوەڵناو) کە ئەگەری ھەیە کێشە درووست بکات یان ئەنجامی خراپی ھەبێت"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "This ruling sets a dangerous precedent."),
-                    ExampleSentenceKurdish(
-                        text: "بڕیارەکە پێشھاتێکی مەترسیدار درووست دەکات."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdangerouss7("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdangerouss7("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "This ruling sets a dangerous precedent.",
+            kurdishText: "بڕیارەکە پێشھاتێکی مەترسیدار درووست دەکات.",
+            onPressedBritish: () => speakdangerouss7("en-GB"),
+            onPressedAmerican: () => speakdangerouss7("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "Raising income tax is considered politically dangerous."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "بەرزکردنەوەی باج لەسەر داھات لە ڕووی سیاسییەوە بە مەترسیدار دادەنرێت."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdangerouss8("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdangerouss8("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "Raising income tax is considered politically dangerous.",
+            kurdishText:
+                "بەرزکردنەوەی باج لەسەر داھات لە ڕووی سیاسییەوە بە مەترسیدار دادەنرێت.",
+            onPressedBritish: () => speakdangerouss8("en-GB"),
+            onPressedAmerican: () => speakdangerouss8("en-US"),
           ),
         ],
       ),

@@ -417,227 +417,76 @@ class KurdishMeaning extends StatelessWidget {
 کوردی: گوێ، گۆ، گۆھـ، گوێچکە،	بیستن، ھەستی بیستن، توانایی لێک‌کردنەوەی دەنگەکان (بەتایبەت موزیک)،	گوێ‌دان، سەرنج، وردبوونەوە، گوێ‌پێدان،	قوڵف، دەسک، ھەنگڵ
 """),
           const DefinitionKurdish(text: """١. (ناو) گوێ"""),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: """He put his hands over his ears."""),
-                    ExampleSentenceKurdish(
-                        text: """دەستەکانی خستە سەر گوێی."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "ear", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakears1("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakears1("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: """He put his hands over his ears.""",
+            kurdishText: """دەستەکانی خستە سەر گوێی.""", // ear
+            onPressedBritish: () => speakears1("en-GB"),
+            onPressedAmerican: () => speakears1("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: """ژممارە. (ناو) پێنناسە"""),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: """She's had her ears pierced."""),
-                    ExampleSentenceKurdish(text: """گوێیەکانی کون کردووە."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakears2("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakears2("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: """She's had her ears pierced.""",
+            kurdishText: """گوێیەکانی کون کردووە.""",
+            onPressedBritish: () => speakears2("en-GB"),
+            onPressedAmerican: () => speakears2("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: """ژممارە. (ناو) پێنناسە"""),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: """The elephant flapped its ears."""),
-                    ExampleSentenceKurdish(
-                        text: """فیلەکە گوێیەکانی ڕاوەشاند."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakears3("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakears3("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: """The elephant flapped its ears.""",
+            kurdishText: """فیلەکە گوێیەکانی ڕاوەشاند.""",
+            onPressedBritish: () => speakears3("en-GB"),
+            onPressedAmerican: () => speakears3("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: """ژممارە. (ناو) پێنناسە"""),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: """She whispered something in his ear."""),
-                    ExampleSentenceKurdish(text: """شتێکی چرپاند بە گوێیدا."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakears4("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakears4("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: """She whispered something in his ear.""",
+            kurdishText: """شتێکی چرپاند بە گوێیدا.""",
+            onPressedBritish: () => speakears4("en-GB"),
+            onPressedAmerican: () => speakears4("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: """ژممارە. (ناو) پێنناسە"""),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: """He was screaming in my ear."""),
-                    ExampleSentenceKurdish(text: """دەیقیژاند بە گوێمدا."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakears5("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakears5("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: """He was screaming in my ear.""",
+            kurdishText: """دەیقیژاند بە گوێمدا.""",
+            onPressedBritish: () => speakears5("en-GB"),
+            onPressedAmerican: () => speakears5("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text: """٢. (ناو) ھەبوونی ئەو جۆرە گوێیەی کە باسکراوە"""),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: """The long-eared owl hunts at night."""),
-                    ExampleSentenceKurdish(
-                        text: """کوندەپەپووی گوێدرێژ لە شەودا ڕاو دەکات."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakears6("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakears6("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: """The long-eared owl hunts at night.""",
+            kurdishText: """کوندەپەپووی گوێدرێژ لە شەودا ڕاو دەکات.""",
+            onPressedBritish: () => speakears6("en-GB"),
+            onPressedAmerican: () => speakears6("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text: """٣. (ناو) توانای ناسینەوە و لەبەرگرتنەوەی دەنگ بەباشی"""),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: """She has always had an ear for languages."""),
-                    ExampleSentenceKurdish(
-                        text:
-                            """ھەمیشە توانای گوێپێدانی باشی بۆ زمان ھەبووە."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakears7("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakears7("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: """She has always had an ear for languages.""",
+            kurdishText: """ھەمیشە توانای گوێپێدانی باشی بۆ زمان ھەبووە.""",
+            onPressedBritish: () => speakears7("en-GB"),
+            onPressedAmerican: () => speakears7("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: """ژممارە. (ناو) پێنناسە"""),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: """You need a good ear to master the piano."""),
-                    ExampleSentenceKurdish(
-                        text:
-                            """پێویستیت بە گوێ‌پێدانی باشە بۆ فێربوونی پیانۆ."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakears8("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakears8("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: """You need a good ear to master the piano.""",
+            kurdishText: """پێویستیت بە گوێ‌پێدانی باشە بۆ فێربوونی پیانۆ.""",
+            onPressedBritish: () => speakears8("en-GB"),
+            onPressedAmerican: () => speakears8("en-US"),
           ),
           // ears900ears9
           // speakears9

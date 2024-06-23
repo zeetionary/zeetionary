@@ -256,114 +256,37 @@ class KurdishMeaning extends StatelessWidget {
 کوردی: ناتەواو، نادروست، نیوەچڵ، ناپوختە، خراپ، عەیب‌دار، سەقەت، خەوش‌دار، بەگرفت، کێشەبەدوا،	مرۆڤی ناتەواو یان ناپوخت، کەسێکی وا، کاری ناتەواو
 """),
           const DefinitionKurdish(text: "١. (ھاوەڵناو) عەیبدار؛ کێشەدار"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "If the goods are defective you should get a full refund."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "ئەگەر کەلوپەلەکان خەوشدار بوون دەبێت گەڕاندنەوەی تەواو وەربگریت."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "defective", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdefectives1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdefectives1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "If the goods are defective you should get a full refund.",
+            kurdishText:
+                "ئەگەر کەلوپەلەکان خەوشدار بوون دەبێت گەڕاندنەوەی تەواو وەربگریت.", // defective
+            onPressedBritish: () => speakdefectives1("en-GB"),
+            onPressedAmerican: () => speakdefectives1("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "The car was found to have defective brakes."),
-                    ExampleSentenceKurdish(
-                        text: "زانرا ئۆتۆمبێلەکە وەستێنەری کێشەداری ھەیە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdefectives2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdefectives2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "The car was found to have defective brakes.",
+            kurdishText: "زانرا ئۆتۆمبێلەکە وەستێنەری کێشەداری ھەیە.",
+            onPressedBritish: () => speakdefectives2("en-GB"),
+            onPressedAmerican: () => speakdefectives2("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
                   "٢. (ھاوەڵناو) ھەبوونی کێشەیەک لە ئەندامی جەستەدا یان لە شێوازی کارکردنیدا"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "Her hearing was found to be slightly defective."),
-                    ExampleSentenceKurdish(
-                        text: "بیستنی وابینرا کە کەمێک کێشەی ھەبێت."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdefectives3("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdefectives3("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "Her hearing was found to be slightly defective.",
+            kurdishText: "بیستنی وابینرا کە کەمێک کێشەی ھەبێت.",
+            onPressedBritish: () => speakdefectives3("en-GB"),
+            onPressedAmerican: () => speakdefectives3("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "His vision is severely defective."),
-                    ExampleSentenceKurdish(
-                        text: "بینایی وابینرا تەواو کێشەی ھەبێت."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdefectives4("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdefectives4("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "His vision is severely defective.",
+            kurdishText: "بینایی وابینرا تەواو کێشەی ھەبێت.",
+            onPressedBritish: () => speakdefectives4("en-GB"),
+            onPressedAmerican: () => speakdefectives4("en-US"),
           ),
           // defectives500"),
           // speakdefectives5

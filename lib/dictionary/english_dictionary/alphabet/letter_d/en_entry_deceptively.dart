@@ -242,60 +242,22 @@ class KurdishMeaning extends StatelessWidget {
 """),
           const DefinitionKurdish(
               text: "١. (ھاوەڵکار) بە ئاستێکی کەمتر لەوەی ھەیە"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The plan seemed deceptively simple (= it seemed simple but was not)."),
-                    ExampleSentenceKurdish(
-                        text: "پلانەکە فیودەرانە سادە دیاربوو."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "deceptively", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdeceptivelys1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdeceptivelys1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "The plan seemed deceptively simple (= it seemed simple but was not).",
+            kurdishText: "پلانەکە فیودەرانە سادە دیاربوو.", // deceptively
+            onPressedBritish: () => speakdeceptivelys1("en-GB"),
+            onPressedAmerican: () => speakdeceptivelys1("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٢. (ھاوەڵکار) بە ئاستێکی زیاتر لەوەی ھەیە"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The tool is noisy to use and deceptively dangerous (= it is more dangerous than it seems)."),
-                    ExampleSentenceKurdish(
-                        text: "ئامرازەکە بەشیڕەشیڕە و فریودەرانە ترسناکە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdeceptivelys2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdeceptivelys2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "The tool is noisy to use and deceptively dangerous (= it is more dangerous than it seems).",
+            kurdishText: "ئامرازەکە بەشیڕەشیڕە و فریودەرانە ترسناکە.",
+            onPressedBritish: () => speakdeceptivelys2("en-GB"),
+            onPressedAmerican: () => speakdeceptivelys2("en-US"),
           ),
         ],
       ),

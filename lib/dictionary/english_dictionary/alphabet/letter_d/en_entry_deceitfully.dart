@@ -235,32 +235,13 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "١. (ھاوەڵکار) بەشێوەیەک کە نادرووستە بەھۆی ئەوەی درۆکردن و خەڵەتاندن لەخۆدەگرێت"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "They deceitfully made big promises that they now cannot keep."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "فێڵاوییانە بەڵێنی قەبەیان دا کە ئێستا ناتوانن بیپارێزن."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "deceitfully", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdeceitfullys1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdeceitfullys1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "They deceitfully made big promises that they now cannot keep.",
+            kurdishText:
+                "فێڵاوییانە بەڵێنی قەبەیان دا کە ئێستا ناتوانن بیپارێزن.", // deceitfully
+            onPressedBritish: () => speakdeceitfullys1("en-GB"),
+            onPressedAmerican: () => speakdeceitfullys1("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "٢. (ھاوەڵناو) پێنناسە"),

@@ -243,58 +243,19 @@ class KurdishMeaning extends StatelessWidget {
 """),
           const DefinitionKurdish(
               text: "١. (ناو) توانای بڕیاردان بە خێرایی و وریاییەوە"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "All her decisiveness disappeared when she met Mark."),
-                    ExampleSentenceKurdish(
-                        text: "ھەموو سووربوونی نەما کە مارکی بینی."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "decisiveness", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdecisivenesss1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdecisivenesss1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "All her decisiveness disappeared when she met Mark.",
+            kurdishText: "ھەموو سووربوونی نەما کە مارکی بینی.", // decisiveness
+            onPressedBritish: () => speakdecisivenesss1("en-GB"),
+            onPressedAmerican: () => speakdecisivenesss1("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "She handled the situation with decisiveness and courage."),
-                    ExampleSentenceKurdish(
-                        text: "بە شێلگیری و بوێرانە مامەڵەی لەگەڵ دۆخەکە کرد."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdecisivenesss2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdecisivenesss2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "She handled the situation with decisiveness and courage.",
+            kurdishText: "بە شێلگیری و بوێرانە مامەڵەی لەگەڵ دۆخەکە کرد.",
+            onPressedBritish: () => speakdecisivenesss2("en-GB"),
+            onPressedAmerican: () => speakdecisivenesss2("en-US"),
           ),
         ],
       ),

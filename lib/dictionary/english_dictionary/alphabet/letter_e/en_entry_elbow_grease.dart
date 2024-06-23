@@ -373,62 +373,24 @@ class KurdishMeaning extends StatelessWidget {
 """),
           const DefinitionKurdish(
               text: """١. (ناو) ئەو ھەوڵەی کە پێویستە لە کاری جەستەییدا"""),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            """Using the right tool can save a lot of elbow grease."""),
-                    ExampleSentenceKurdish(
-                        text:
-                            """بەکارھێنانی کەرەستەی گونجاو دەکرێت زۆر ھێزی بازوو بگەڕێنێتەوە."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "elbow grease", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakelbowgreases1("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakelbowgreases1("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                """Using the right tool can save a lot of elbow grease.""",
+            kurdishText:
+                """بەکارھێنانی کەرەستەی گونجاو دەکرێت زۆر ھێزی بازوو بگەڕێنێتەوە.""", // elbow grease
+            onPressedBritish: () => speakelbowgreases1("en-GB"),
+            onPressedAmerican: () => speakelbowgreases1("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            """The polish needs a certain amount of elbow grease to apply."""),
-                    ExampleSentenceKurdish(
-                        text:
-                            """پاککردنەوەکە پێویستی بە ڕێژەیەکی دیاریکراو لە ھێز و بازووە."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakelbowgreases2("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakelbowgreases2("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                """The polish needs a certain amount of elbow grease to apply.""",
+            kurdishText:
+                """پاککردنەوەکە پێویستی بە ڕێژەیەکی دیاریکراو لە ھێز و بازووە.""",
+            onPressedBritish: () => speakelbowgreases2("en-GB"),
+            onPressedAmerican: () => speakelbowgreases2("en-US"),
           ),
           // elbowgreases300elbowgreases3
           // speakelbowgreases3

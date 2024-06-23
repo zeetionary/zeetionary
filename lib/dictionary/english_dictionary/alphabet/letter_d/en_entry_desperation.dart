@@ -250,60 +250,21 @@ class KurdishMeaning extends StatelessWidget {
 کوردی: داماوی، ناچاری، دەس‌لەگیان‌بەرداوی، چارەنەماوی، زۆربۆھاتوویی، گیرکردوویی،	ھیوابڕاوی، بێ‌ھیوایی، دڵساردی، دەس‌شواردوویی
 """),
           const DefinitionKurdish(text: "١. (ناو) ناچاری"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "There was a note of desperation in his voice."),
-                    ExampleSentenceKurdish(
-                        text: "ئاماژەیەکی ناچاری لە دەنگیدا ھەبوو."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "desperation", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdesperations1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdesperations1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "There was a note of desperation in his voice.",
+            kurdishText: "ئاماژەیەکی ناچاری لە دەنگیدا ھەبوو.", // desperation
+            onPressedBritish: () => speakdesperations1("en-GB"),
+            onPressedAmerican: () => speakdesperations1("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "In desperation, she called Louise and asked for her help."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "لە ناچاریدا، بانگی لویزی کرد و داوای یارمەتیی کرد."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdesperations2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdesperations2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "In desperation, she called Louise and asked for her help.",
+            kurdishText: "لە ناچاریدا، بانگی لویزی کرد و داوای یارمەتیی کرد.",
+            onPressedBritish: () => speakdesperations2("en-GB"),
+            onPressedAmerican: () => speakdesperations2("en-US"),
           ),
           // desperations300"),
           // speakdesperations3

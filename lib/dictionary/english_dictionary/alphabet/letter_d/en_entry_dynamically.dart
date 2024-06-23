@@ -374,63 +374,26 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   """١. (ھاوەڵکار) بەشێوەیەک کە کاردانەوە دەبێت بۆ ئەوەی کە لە دۆخێکی دیاریکراودا ڕوودەدات"""),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            """A garden changes dynamically with the seasons and over time."""),
-                    ExampleSentenceKurdish(
-                        text: """باخچە چالاکانە لەگەڵ وەرزەکان و کاتدا."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "dynamically", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdynamicallys1("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdynamicallys1("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                """A garden changes dynamically with the seasons and over time.""",
+            kurdishText:
+                """باخچە چالاکانە لەگەڵ وەرزەکان و کاتدا.""", // dynamically
+            onPressedBritish: () => speakdynamicallys1("en-GB"),
+            onPressedAmerican: () => speakdynamicallys1("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
                   """٢. (ھاوەڵکار) بە شێوەیەک کە بەوزەیە و بەردەوام لە گەشەدایە"""),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            """Russian literature developed dynamically through the nineteenth century."""),
-                    ExampleSentenceKurdish(
-                        text:
-                            """ئەدەبی ڕووسیا چالاکانە لە سەدەی نۆزدەدا پەرەی سەند."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdynamicallys2("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdynamicallys2("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                """Russian literature developed dynamically through the nineteenth century.""",
+            kurdishText:
+                """ئەدەبی ڕووسیا چالاکانە لە سەدەی نۆزدەدا پەرەی سەند.""",
+            onPressedBritish: () => speakdynamicallys2("en-GB"),
+            onPressedAmerican: () => speakdynamicallys2("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: """٣. (ھاوەڵکار) بەشێوەیەک کە پەیوەندیدارە بەو ھێزانەی کە جووڵە درووست دەکەن"""),

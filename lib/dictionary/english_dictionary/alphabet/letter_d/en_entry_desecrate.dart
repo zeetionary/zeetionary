@@ -249,58 +249,20 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "١. (کردار) زیان گەیاندن بە شتێکی پیرۆز یان بێڕێزیکردن کردن پێی"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "It's a crime to desecrate the country's flag."),
-                    ExampleSentenceKurdish(
-                        text: "تاوانە سوکایەتی بە ئاڵای وڵاتەکە بکەیت."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "desecrate", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdesecrates1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdesecrates1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "It's a crime to desecrate the country's flag.",
+            kurdishText: "تاوانە سوکایەتی بە ئاڵای وڵاتەکە بکەیت.", // desecrate
+            onPressedBritish: () => speakdesecrates1("en-GB"),
+            onPressedAmerican: () => speakdesecrates1("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "The mosque was desecrated by vandals."),
-                    ExampleSentenceKurdish(
-                        text: "مزگەوتەکە لەلایەن تێکدەرانەوە سوکایەتی پێکرا."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdesecrates2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdesecrates2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "The mosque was desecrated by vandals.",
+            kurdishText: "مزگەوتەکە لەلایەن تێکدەرانەوە سوکایەتی پێکرا.",
+            onPressedBritish: () => speakdesecrates2("en-GB"),
+            onPressedAmerican: () => speakdesecrates2("en-US"),
           ),
           // desecrates300"),
           // speakdesecrates3

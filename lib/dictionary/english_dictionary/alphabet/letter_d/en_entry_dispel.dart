@@ -242,62 +242,23 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "١. (کردار) واکردنی ئەوەی کە شتێک نەمێنێت، بەتایبەتی باوەڕێک یان ھەستێک"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "His speech dispelled any fears about his health."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "وتارەکەی ھەر ترسێکی سەبارەت بە تەندرووستیی دامرکاندەوە/ڕەواندەوە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "dispel", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdispels1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdispels1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "His speech dispelled any fears about his health.",
+            kurdishText:
+                "وتارەکەی ھەر ترسێکی سەبارەت بە تەندرووستیی دامرکاندەوە/ڕەواندەوە.", // dispel
+            onPressedBritish: () => speakdispels1("en-GB"),
+            onPressedAmerican: () => speakdispels1("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The chairman quickly dispelled rumours that he was planning to resign."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "بەڕێوەبەرەکە بەزووی دەنگۆکانی سەبارەت بە پلانی دەستلەکارکێشانەوەی دامرکاندەوە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdispels2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdispels2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "The chairman quickly dispelled rumours that he was planning to resign.",
+            kurdishText:
+                "بەڕێوەبەرەکە بەزووی دەنگۆکانی سەبارەت بە پلانی دەستلەکارکێشانەوەی دامرکاندەوە.",
+            onPressedBritish: () => speakdispels2("en-GB"),
+            onPressedAmerican: () => speakdispels2("en-US"),
           ),
           // dispels300"),
           // speakdispels3

@@ -365,31 +365,13 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "١. (ناو) دۆخێکی تەندرووستی کە ھەندێک کەس لە زگماکییەوە ھەیانە و درووست دەبێت بەھۆی ناڕێکی لە یەک کرۆمۆسۆمداکە دەبێتە ھۆکاری کێشەی فێربوون"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "She volunteered at a center for people with Down's syndrome."),
-                    ExampleSentenceKurdish(
-                        text: "لە سەنتەرێک بۆ کەسانی نەخۆشی داون خۆبەخشی کرد."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "Down's syndrome", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakDownssyndromes1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakDownssyndromes1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "She volunteered at a center for people with Down's syndrome.",
+            kurdishText:
+                "لە سەنتەرێک بۆ کەسانی نەخۆشی داون خۆبەخشی کرد.", // Down's syndrome
+            onPressedBritish: () => speakDownssyndromes1("en-GB"),
+            onPressedAmerican: () => speakDownssyndromes1("en-US"),
           ),
           // Downssyndromes200"),
           // speakDownssyndromes2

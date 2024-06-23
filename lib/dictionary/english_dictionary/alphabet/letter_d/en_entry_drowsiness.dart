@@ -362,30 +362,12 @@ class KurdishMeaning extends StatelessWidget {
 """),
           const DefinitionKurdish(
               text: "١. (ناو) ئەوەی ماندوێتییت ھەیە و دەتەوێت بخەویت"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "The drugs tend to cause drowsiness."),
-                    ExampleSentenceKurdish(
-                        text: "دەرمانەکان زۆرجار دەبنە ھۆکاری خەواڵووی."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "drowsiness", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdrowsinesss1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdrowsinesss1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "The drugs tend to cause drowsiness.",
+            kurdishText:
+                "دەرمانەکان زۆرجار دەبنە ھۆکاری خەواڵووی.", // drowsiness
+            onPressedBritish: () => speakdrowsinesss1("en-GB"),
+            onPressedAmerican: () => speakdrowsinesss1("en-US"),
           ),
           // drowsinesss200"),
           // speakdrowsinesss2

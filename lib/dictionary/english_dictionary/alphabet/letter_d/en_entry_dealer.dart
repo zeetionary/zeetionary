@@ -257,111 +257,34 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "١. (ناو) کەسێک کە کاری کڕین و فرۆشتنی بەرھەمێکی دیارکراوە"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "He's a dealer in second-hand cars."),
-                    ExampleSentenceKurdish(
-                        text: "فرۆشیاری ئۆتۆمبێلی دەستی دووە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "dealer", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdealers1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdealers1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "He's a dealer in second-hand cars.",
+            kurdishText: "فرۆشیاری ئۆتۆمبێلی دەستی دووە.", // dealer
+            onPressedBritish: () => speakdealers1("en-GB"),
+            onPressedAmerican: () => speakdealers1("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "Always buy from a reputable dealer."),
-                    ExampleSentenceKurdish(
-                        text: "ھەمیشە لە فرۆشیارێکی بەمتمانە شت بکڕە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdealers2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdealers2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "Always buy from a reputable dealer.",
+            kurdishText: "ھەمیشە لە فرۆشیارێکی بەمتمانە شت بکڕە.",
+            onPressedBritish: () => speakdealers2("en-GB"),
+            onPressedAmerican: () => speakdealers2("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "Contact your dealer for more information."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "بۆ زانیاری زیاتر پەیوەندی بە فرۆشیارەکەتەوە بکە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdealers3("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdealers3("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "Contact your dealer for more information.",
+            kurdishText: "بۆ زانیاری زیاتر پەیوەندی بە فرۆشیارەکەتەوە بکە.",
+            onPressedBritish: () => speakdealers3("en-GB"),
+            onPressedAmerican: () => speakdealers3("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٢. (ناو) کەسێک کە مادەی ھۆشبەر دەفرۆشێت"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "His dealer persuaded him to try heroin."),
-                    ExampleSentenceKurdish(
-                        text: "قاچاخچییەکەی ڕازیکرد کە ھیرۆین یاقی بکاتەوە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdealers4("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdealers4("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "His dealer persuaded him to try heroin.",
+            kurdishText: "قاچاخچییەکەی ڕازیکرد کە ھیرۆین یاقی بکاتەوە.",
+            onPressedBritish: () => speakdealers4("en-GB"),
+            onPressedAmerican: () => speakdealers4("en-US"),
           ),
         ],
       ),

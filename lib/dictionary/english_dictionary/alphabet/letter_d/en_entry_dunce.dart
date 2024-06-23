@@ -364,31 +364,12 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   """١. (ناو) کەسێک گەمژەیە، بەتایبەتی خوێندکارێک کە درەنگ فێردەبێت"""),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            """The teacher called him a dunce in front of the class."""),
-                    ExampleSentenceKurdish(
-                        text: """مامۆستاکە پێی گوت گەمژە لە پۆلەکەدا."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "dunce", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdunces1("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdunces1("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                """The teacher called him a dunce in front of the class.""",
+            kurdishText: """مامۆستاکە پێی گوت گەمژە لە پۆلەکەدا.""", // dunce
+            onPressedBritish: () => speakdunces1("en-GB"),
+            onPressedAmerican: () => speakdunces1("en-US"),
           ),
           // dunces200
           // speakdunces2

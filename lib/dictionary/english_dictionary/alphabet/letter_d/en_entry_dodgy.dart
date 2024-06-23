@@ -397,149 +397,53 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "١. (ھاوەڵناو) کە وادەردەکەوێت گوماناوی و تەڵەکەبازانە بێت"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "He made a lot of money, using some very dodgy methods."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "پارەیەکی زۆری پەیدا کرد بە چەند ڕێگایەکی زۆر تەڵەکەبازانە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "dodgy", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdodgys1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdodgys1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "He made a lot of money, using some very dodgy methods.",
+            kurdishText:
+                "پارەیەکی زۆری پەیدا کرد بە چەند ڕێگایەکی زۆر تەڵەکەبازانە.", // dodgy
+            onPressedBritish: () => speakdodgys1("en-GB"),
+            onPressedAmerican: () => speakdodgys1("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "I don't want to get involved in anything dodgy."),
-                    ExampleSentenceKurdish(
-                        text: "نامەوێت لە ھیچ شتێکی گوماناوی بەژدار بم."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdodgys2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdodgys2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "I don't want to get involved in anything dodgy.",
+            kurdishText: "نامەوێت لە ھیچ شتێکی گوماناوی بەژدار بم.",
+            onPressedBritish: () => speakdodgys2("en-GB"),
+            onPressedAmerican: () => speakdodgys2("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٢. (ھاوەڵناو) کە باش کارناکات یان لە دۆخێکی باش نییە"),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "I can't play—I've got a dodgy knee."),
-                    ExampleSentenceKurdish(
-                        text: "ناتوانم یاری بکەم، لاقێکی سستم ھەیە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdodgys3("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdodgys3("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "I can't play—I've got a dodgy knee.",
+            kurdishText: "ناتوانم یاری بکەم، لاقێکی سستم ھەیە.",
+            onPressedBritish: () => speakdodgys3("en-GB"),
+            onPressedAmerican: () => speakdodgys3("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The marriage had been distinctly dodgy for a long time."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "ھاوسەرگیرییەکە بۆ ماوەیەکی زۆر بووبوو کە تەواو ناکارا بوو."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdodgys4("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdodgys4("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "The marriage had been distinctly dodgy for a long time.",
+            kurdishText:
+                "ھاوسەرگیرییەکە بۆ ماوەیەکی زۆر بووبوو کە تەواو ناکارا بوو.",
+            onPressedBritish: () => speakdodgys4("en-GB"),
+            onPressedAmerican: () => speakdodgys4("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: "٣. (ھاوەڵناو) کە مەترسی لەخۆدەگرێت"),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: " you get into any dodgy situations, call me."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "ئەگەر کەوتیتە ھەر دۆخێکی مەترسیدارەوە، پەیوەندیم پێوە بکە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdodgys5("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdodgys5("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: " you get into any dodgy situations, call me.",
+            kurdishText:
+                "ئەگەر کەوتیتە ھەر دۆخێکی مەترسیدارەوە، پەیوەندیم پێوە بکە.",
+            onPressedBritish: () => speakdodgys5("en-GB"),
+            onPressedAmerican: () => speakdodgys5("en-US"),
           ),
           // dodgys600"),
           // speakdodgys6

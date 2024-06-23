@@ -277,88 +277,30 @@ class KurdishMeaning extends StatelessWidget {
 """),
           const DefinitionKurdish(
               text: "١. (کردار) لێکردنەوەی شتێک لە یەکێکی گەورەتر"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "Detach the coupon and return it as soon as possible."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "کوپۆنەکە لێبکەوە ھەرچەندە زوو دەکرێت بیگەڕێنەوە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "detach", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdetachs1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdetachs1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "Detach the coupon and return it as soon as possible.",
+            kurdishText:
+                "کوپۆنەکە لێبکەوە ھەرچەندە زوو دەکرێت بیگەڕێنەوە.", // detach
+            onPressedBritish: () => speakdetachs1("en-GB"),
+            onPressedAmerican: () => speakdetachs1("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "One of the panels had become detached from the main structure."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "یەکێک لە تەختەکان لە چوارچێوە سەرەکییەکە لێبووەوە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdetachs2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdetachs2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "One of the panels had become detached from the main structure.",
+            kurdishText: "یەکێک لە تەختەکان لە چوارچێوە سەرەکییەکە لێبووەوە.",
+            onPressedBritish: () => speakdetachs2("en-GB"),
+            onPressedAmerican: () => speakdetachs2("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٢. (کردار) جێھێشتنی یان جیاکردنەوەی شتێک لە خۆت"),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "She detached herself from his embrace."),
-                    ExampleSentenceKurdish(text: "خۆی لە باوەشی دەرھێنا."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdetachs3("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdetachs3("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "She detached herself from his embrace.",
+            kurdishText: "خۆی لە باوەشی دەرھێنا.",
+            onPressedBritish: () => speakdetachs3("en-GB"),
+            onPressedAmerican: () => speakdetachs3("en-US"),
           ),
           // "speakdetachs400"),
           //           ExampleSentenceKurdish(text: "رستە_رستە_رستە_رستە."),
@@ -379,64 +321,26 @@ class KurdishMeaning extends StatelessWidget {
           //   ],
           // ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "I tried to detach myself from the reality of these terrible events."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "ھەوڵم دا خۆم دابڕێنم لە ڕاستییەتی ئەم ڕووداوە ناخۆشانە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdetachs5("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdetachs5("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "I tried to detach myself from the reality of these terrible events.",
+            kurdishText:
+                "ھەوڵم دا خۆم دابڕێنم لە ڕاستییەتی ئەم ڕووداوە ناخۆشانە.",
+            onPressedBritish: () => speakdetachs5("en-GB"),
+            onPressedAmerican: () => speakdetachs5("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
                   "٣. (کردار) جیاکردنەوەی کۆمەڵە سەربازێک لە یەکەی سەرەکی بۆ ئەنجامدانی ئەرکێکی تایبەت"),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "Five destroyers were detached to carry out a bombardment of the port."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "پێنج وێرانکەر جیاکرانەوە بۆ ئەنجامدانی بۆمبارانی بەندەرەکە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdetachs6("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdetachs6("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "Five destroyers were detached to carry out a bombardment of the port.",
+            kurdishText:
+                "پێنج وێرانکەر جیاکرانەوە بۆ ئەنجامدانی بۆمبارانی بەندەرەکە.",
+            onPressedBritish: () => speakdetachs6("en-GB"),
+            onPressedAmerican: () => speakdetachs6("en-US"),
           ),
           // detachs700"),
           // speakdetachs7

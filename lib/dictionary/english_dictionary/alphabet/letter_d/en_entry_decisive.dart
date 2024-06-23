@@ -251,89 +251,32 @@ class KurdishMeaning extends StatelessWidget {
 """),
           const DefinitionKurdish(
               text: "١. (ھاوەڵناو) زۆر گرنگ بۆ کۆتا ئەنجامی دۆخێکی دیاریکراو"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "Climate was a decisive factor in establishing where the tournament should be held."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "ئاووھەوا فاکتەرێکی یەکلاکەرەوە بوو لە بڕیردانی ئەوەی لە کوێ پێشبڕکێیەکە ڕێکبخرێت."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "decisive", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdecisives1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdecisives1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "Climate was a decisive factor in establishing where the tournament should be held.",
+            kurdishText:
+                "ئاووھەوا فاکتەرێکی یەکلاکەرەوە بوو لە بڕیردانی ئەوەی لە کوێ پێشبڕکێیەکە ڕێکبخرێت.", // decisive
+            onPressedBritish: () => speakdecisives1("en-GB"),
+            onPressedAmerican: () => speakdecisives1("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "She has played a decisive role in the peace negotiations."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "ڕۆڵێکی یەکلاکەرەوەی بینیوە لە دانووستانەکانی ئاشتیدا."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdecisives2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdecisives2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "She has played a decisive role in the peace negotiations.",
+            kurdishText:
+                "ڕۆڵێکی یەکلاکەرەوەی بینیوە لە دانووستانەکانی ئاشتیدا.",
+            onPressedBritish: () => speakdecisives2("en-GB"),
+            onPressedAmerican: () => speakdecisives2("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: "٢. (ھاوەڵناو) بڕیاردان بە خێرایی"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The government must take decisive action on gun control."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "حکومەت دەبێت ھەنگاوی دەستبەجێ بدەن لەسەر کۆنترۆڵی چەک."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdecisives3("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdecisives3("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "The government must take decisive action on gun control.",
+            kurdishText:
+                "حکومەت دەبێت ھەنگاوی دەستبەجێ بدەن لەسەر کۆنترۆڵی چەک.",
+            onPressedBritish: () => speakdecisives3("en-GB"),
+            onPressedAmerican: () => speakdecisives3("en-US"),
           ),
         ],
       ),

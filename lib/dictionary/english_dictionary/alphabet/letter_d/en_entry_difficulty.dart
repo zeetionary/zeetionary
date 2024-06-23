@@ -316,300 +316,90 @@ class KurdishMeaning extends StatelessWidget {
 """),
           const DefinitionKurdish(
               text: "١. (ناو) کێشەیەک؛ شتێک کە دەبێتە ھۆکاری کێشە"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "They encountered numerous difficulties while making the film."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "تووشی ژمارەیەک سەختی بوو لە کاتی بەرھەمھێنانی فیلمەکە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "difficulty", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdifficultys1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdifficultys1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "They encountered numerous difficulties while making the film.",
+            kurdishText:
+                "تووشی ژمارەیەک سەختی بوو لە کاتی بەرھەمھێنانی فیلمەکە.", // difficulty
+            onPressedBritish: () => speakdifficultys1("en-GB"),
+            onPressedAmerican: () => speakdifficultys1("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "She had been experiencing technical difficulties."),
-                    ExampleSentenceKurdish(text: "تووشی کێشەی تەکنیکی بووبوو."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdifficultys2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdifficultys2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "She had been experiencing technical difficulties.",
+            kurdishText: "تووشی کێشەی تەکنیکی بووبوو.",
+            onPressedBritish: () => speakdifficultys2("en-GB"),
+            onPressedAmerican: () => speakdifficultys2("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "I know the kinds of difficulties faced by parents and teachers."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "ئەو سەختییانە دەزانم کە تووشی دایبابان و مامۆستایان دەبێتەوە ."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdifficultys3("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdifficultys3("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "I know the kinds of difficulties faced by parents and teachers.",
+            kurdishText:
+                "ئەو سەختییانە دەزانم کە تووشی دایبابان و مامۆستایان دەبێتەوە .",
+            onPressedBritish: () => speakdifficultys3("en-GB"),
+            onPressedAmerican: () => speakdifficultys3("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "We've run into difficulties with the new project."),
-                    ExampleSentenceKurdish(
-                        text: "تووشی کێشە بووینە لە پڕۆژە تازەکەدا."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdifficultys4("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdifficultys4("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "We've run into difficulties with the new project.",
+            kurdishText: "تووشی کێشە بووینە لە پڕۆژە تازەکەدا.",
+            onPressedBritish: () => speakdifficultys4("en-GB"),
+            onPressedAmerican: () => speakdifficultys4("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "I'm having difficulty with the engine."),
-                    ExampleSentenceKurdish(text: "کێشەم لە بزوێنەرەکەدا ھەیە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdifficultys5("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdifficultys5("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "I'm having difficulty with the engine.",
+            kurdishText: "کێشەم لە بزوێنەرەکەدا ھەیە.",
+            onPressedBritish: () => speakdifficultys5("en-GB"),
+            onPressedAmerican: () => speakdifficultys5("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: "٢. (ناو) سەختی کردن یان تێگەشتن"),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "I had considerable difficulty (in) persuading her to leave."),
-                    ExampleSentenceKurdish(
-                        text: "ناڕەحەتی زۆرم ھەبوو لە ڕازیکردنی کە بچێت."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdifficultys6("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdifficultys6("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "I had considerable difficulty (in) persuading her to leave.",
+            kurdishText: "ناڕەحەتی زۆرم ھەبوو لە ڕازیکردنی کە بچێت.",
+            onPressedBritish: () => speakdifficultys6("en-GB"),
+            onPressedAmerican: () => speakdifficultys6("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "I had no difficulty (in) making myself understood."),
-                    ExampleSentenceKurdish(
-                        text: "ھیچ سەختیم نەبوو لەوەی خۆم تێ بگەیەنم."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdifficultys7("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdifficultys7("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "I had no difficulty (in) making myself understood.",
+            kurdishText: "ھیچ سەختیم نەبوو لەوەی خۆم تێ بگەیەنم.",
+            onPressedBritish: () => speakdifficultys7("en-GB"),
+            onPressedAmerican: () => speakdifficultys7("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "He spoke slowly and with great difficulty."),
-                    ExampleSentenceKurdish(
-                        text: "بە ھێواشی و ناڕەحەتیی زۆرەوە قسەی کرد."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdifficultys8("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdifficultys8("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "He spoke slowly and with great difficulty.",
+            kurdishText: "بە ھێواشی و ناڕەحەتیی زۆرەوە قسەی کرد.",
+            onPressedBritish: () => speakdifficultys8("en-GB"),
+            onPressedAmerican: () => speakdifficultys8("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "We found the house without difficulty."),
-                    ExampleSentenceKurdish(
-                        text: "بەبێ ناڕەحەتی خانووەکەمان دۆزییەوە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdifficultys9("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdifficultys9("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "We found the house without difficulty.",
+            kurdishText: "بەبێ ناڕەحەتی خانووەکەمان دۆزییەوە.",
+            onPressedBritish: () => speakdifficultys9("en-GB"),
+            onPressedAmerican: () => speakdifficultys9("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: "٣. (ناو) ئاستی سەختی شتێک"),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "The games have varying levels of difficulty."),
-                    ExampleSentenceKurdish(
-                        text: "یارییەکان ئاستی جیاواز لە سەختییان ھەیە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdifficultys10("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdifficultys10("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "The games have varying levels of difficulty.",
+            kurdishText: "یارییەکان ئاستی جیاواز لە سەختییان ھەیە.",
+            onPressedBritish: () => speakdifficultys10("en-GB"),
+            onPressedAmerican: () => speakdifficultys10("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "Both roles had a high degree of difficulty."),
-                    ExampleSentenceKurdish(
-                        text: "ھەردوو ئەرکەکە ئاستێکی بەرز لە سەختییان ھەبوو."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdifficultys11("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdifficultys11("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "Both roles had a high degree of difficulty.",
+            kurdishText: "ھەردوو ئەرکەکە ئاستێکی بەرز لە سەختییان ھەبوو.",
+            onPressedBritish: () => speakdifficultys11("en-GB"),
+            onPressedAmerican: () => speakdifficultys11("en-US"),
           ),
           // difficultys1200"),
           // speakdifficultys12

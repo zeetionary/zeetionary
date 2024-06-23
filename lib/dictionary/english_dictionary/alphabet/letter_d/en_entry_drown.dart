@@ -396,143 +396,48 @@ class KurdishMeaning extends StatelessWidget {
 // کوردی:
 // """),
           const DefinitionKurdish(text: "١. (کردار) مردن بە نوقمبوون لە ئاودا"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "Two children drowned after falling into the river."),
-                    ExampleSentenceKurdish(
-                        text: "دوو منداڵ خنکان لە دوای کەوتنە ئاوەکەوە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "drown", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdrowns1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdrowns1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "Two children drowned after falling into the river.",
+            kurdishText: "دوو منداڵ خنکان لە دوای کەوتنە ئاوەکەوە.", // drown
+            onPressedBritish: () => speakdrowns1("en-GB"),
+            onPressedAmerican: () => speakdrowns1("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(text: "She tried to drown herself."),
-                    ExampleSentenceKurdish(text: "ھەوڵیدا خۆی بخنکێنێت."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdrowns2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdrowns2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "She tried to drown herself.",
+            kurdishText: "ھەوڵیدا خۆی بخنکێنێت.",
+            onPressedBritish: () => speakdrowns2("en-GB"),
+            onPressedAmerican: () => speakdrowns2("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The ship's captain refused to leave them to drown."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "کاپتنی کەشتییەکە ڕەتیکردەوە جێیان بھێڵێت کە بخنکێن."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdrowns3("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdrowns3("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "The ship's captain refused to leave them to drown.",
+            kurdishText: "کاپتنی کەشتییەکە ڕەتیکردەوە جێیان بھێڵێت کە بخنکێن.",
+            onPressedBritish: () => speakdrowns3("en-GB"),
+            onPressedAmerican: () => speakdrowns3("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
                   "٢. (کردار) تەڕکردنی تەواوی شتێک؛ تەواو داپۆشینی شتێک بە ئاو یان شلەیەکی دیکە"),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "The fruit was drowned in cream."),
-                    ExampleSentenceKurdish(text: "میوەکە بە کرێم داپۆشرا."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdrowns4("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdrowns4("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "The fruit was drowned in cream.",
+            kurdishText: "میوەکە بە کرێم داپۆشرا.",
+            onPressedBritish: () => speakdrowns4("en-GB"),
+            onPressedAmerican: () => speakdrowns4("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٣. (کردار) کە دەنگێک بەرزە و دەنگی دیکە ناھێڵێت"),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "She turned up the radio to drown out the noise from next door."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "دەنگی ڕادیۆکەی بەرزکرد بۆ کپکردنەوەی ژاوەژاوەکە لە ماڵە دراوسێکەوە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdrowns5("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdrowns5("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "She turned up the radio to drown out the noise from next door.",
+            kurdishText:
+                "دەنگی ڕادیۆکەی بەرزکرد بۆ کپکردنەوەی ژاوەژاوەکە لە ماڵە دراوسێکەوە.",
+            onPressedBritish: () => speakdrowns5("en-GB"),
+            onPressedAmerican: () => speakdrowns5("en-US"),
           ),
           // drowns600"),
           // speakdrowns6

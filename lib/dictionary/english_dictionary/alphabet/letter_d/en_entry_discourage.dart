@@ -276,168 +276,54 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "١. (کردار) ھەوڵدان بۆ ڕێگری لە شتێک یان ئەوەی کەسێک شتێک بکات"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "I leave a light on when I'm out to discourage burglars."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "کە لە دەرەوەم ڕۆشناییەک بە کراوەیی دەھێڵمەوە بۆ ساردکردنەوەی دز."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "discourage", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdiscourages1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdiscourages1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "I leave a light on when I'm out to discourage burglars.",
+            kurdishText:
+                "کە لە دەرەوەم ڕۆشناییەک بە کراوەیی دەھێڵمەوە بۆ ساردکردنەوەی دز.", // discourage
+            onPressedBritish: () => speakdiscourages1("en-GB"),
+            onPressedAmerican: () => speakdiscourages1("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "His parents tried to discourage him from being an actor."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "دایبابی ھەوڵیان دا ساردی بکەنەوە لەوەی ببێت بە ئەکتەر."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdiscourages2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdiscourages2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "His parents tried to discourage him from being an actor.",
+            kurdishText:
+                "دایبابی ھەوڵیان دا ساردی بکەنەوە لەوەی ببێت بە ئەکتەر.",
+            onPressedBritish: () => speakdiscourages2("en-GB"),
+            onPressedAmerican: () => speakdiscourages2("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "We tried to discourage him from resigning."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "ھەوڵماندا پەشیمانی بکەینەوە لە دەست لەکارکێشانەوە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdiscourages4("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdiscourages4("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "We tried to discourage him from resigning.",
+            kurdishText: "ھەوڵماندا پەشیمانی بکەینەوە لە دەست لەکارکێشانەوە.",
+            onPressedBritish: () => speakdiscourages4("en-GB"),
+            onPressedAmerican: () => speakdiscourages4("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
                   "٢. (کردار) کە وا لە کەسێک بکەیت متمانە یان جۆش و خرۆشی بۆ شتێک نەمێنێت"),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "Don't be discouraged by the first failure—try again!"),
-                    ExampleSentenceKurdish(
-                        text: "دامەڕووخێ بە یەکەم شکست ـ دووبارە ھەوڵ بدەوە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdiscourages5("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdiscourages5("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "Don't be discouraged by the first failure—try again!",
+            kurdishText: "دامەڕووخێ بە یەکەم شکست ـ دووبارە ھەوڵ بدەوە.",
+            onPressedBritish: () => speakdiscourages5("en-GB"),
+            onPressedAmerican: () => speakdiscourages5("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "The weather discouraged people from attending."),
-                    ExampleSentenceKurdish(
-                        text: "کەشوھەوا خەڵکی سارد کردەوە لە بەژداری."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdiscourages6("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdiscourages6("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "The weather discouraged people from attending.",
+            kurdishText: "کەشوھەوا خەڵکی سارد کردەوە لە بەژداری.",
+            onPressedBritish: () => speakdiscourages6("en-GB"),
+            onPressedAmerican: () => speakdiscourages6("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(text: "I'm not easily discouraged."),
-                    ExampleSentenceKurdish(text: "بە ئاسانی بێ‌ھیوا نابم."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdiscourages7("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdiscourages7("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "I'm not easily discouraged.",
+            kurdishText: "بە ئاسانی بێ‌ھیوا نابم.",
+            onPressedBritish: () => speakdiscourages7("en-GB"),
+            onPressedAmerican: () => speakdiscourages7("en-US"),
           ),
           // discourages800"),
           // speakdiscourages8

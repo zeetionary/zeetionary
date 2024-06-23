@@ -375,62 +375,24 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "١. (ناو) ڕێگایەک کە پارچە زەوییەکی تێدایە کە ھەردوو ئاراستەی پێچەوانە جیادەکاتەوە"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "He was caught driving the wrong way down the dual carriageway."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "گیردرا کە بە سایدی ھەڵەدا دەچوو لە پانەڕێ دوو سایدەکە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "dual carriageway", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdualcarriageways1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdualcarriageways1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "He was caught driving the wrong way down the dual carriageway.",
+            kurdishText:
+                "گیردرا کە بە سایدی ھەڵەدا دەچوو لە پانەڕێ دوو سایدەکە.", // dual carriageway
+            onPressedBritish: () => speakdualcarriageways1("en-GB"),
+            onPressedAmerican: () => speakdualcarriageways1("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "Follow the dual carriageway and you'll see signs for the turn-off."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "بە پانەڕێ دوو سایدەکەدا بچۆ و نیشانە بۆ فلکەی دەرچوون دەبینیت."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdualcarriageways2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdualcarriageways2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "Follow the dual carriageway and you'll see signs for the turn-off.",
+            kurdishText:
+                "بە پانەڕێ دوو سایدەکەدا بچۆ و نیشانە بۆ فلکەی دەرچوون دەبینیت.",
+            onPressedBritish: () => speakdualcarriageways2("en-GB"),
+            onPressedAmerican: () => speakdualcarriageways2("en-US"),
           ),
           // dualcarriageways300"),
           // speakdualcarriageways3

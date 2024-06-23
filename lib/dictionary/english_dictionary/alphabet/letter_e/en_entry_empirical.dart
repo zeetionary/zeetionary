@@ -373,62 +373,24 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   """١. (ھاوەڵناو) کە پشتی بە تاقیکردنەوە و ئەزموون بەستووە نەک بیرۆکە و خەمڵاندن"""),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            """This theory needs to be backed up with solid empirical data/evidence."""),
-                    ExampleSentenceKurdish(
-                        text:
-                            """بیردۆزەکە دەبێت پشتگیری بکرێت بە زانیاری/بەڵگەی بەھێزی تاقی‌کاری‌یانە."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "empirical", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakempiricals1("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakempiricals1("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                """This theory needs to be backed up with solid empirical data/evidence.""",
+            kurdishText:
+                """بیردۆزەکە دەبێت پشتگیری بکرێت بە زانیاری/بەڵگەی بەھێزی تاقی‌کاری‌یانە.""", // empirical
+            onPressedBritish: () => speakempiricals1("en-GB"),
+            onPressedAmerican: () => speakempiricals1("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            """Empirical studies show that some forms of alternative medicine are extremely effective."""),
-                    ExampleSentenceKurdish(
-                        text:
-                            """توێژینەوەی تاقی‌کاری‌یانە ئەوە پیشان دەدات ھەندێک چارەسەری ڕووەکی/دەرزی ئاژنین تەواو کاریگەرن."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakempiricals2("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakempiricals2("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                """Empirical studies show that some forms of alternative medicine are extremely effective.""",
+            kurdishText:
+                """توێژینەوەی تاقی‌کاری‌یانە ئەوە پیشان دەدات ھەندێک چارەسەری ڕووەکی/دەرزی ئاژنین تەواو کاریگەرن.""",
+            onPressedBritish: () => speakempiricals2("en-GB"),
+            onPressedAmerican: () => speakempiricals2("en-US"),
           ),
           // empiricals300empiricals3
           // speakempiricals3

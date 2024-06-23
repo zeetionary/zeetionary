@@ -283,177 +283,63 @@ class KurdishMeaning extends StatelessWidget {
 کوردی: (توند) سێڵاو، لافاو، لێمشت، لەھی، بارانی بەخوڕەم، باران و لەنگێزە، بارانی قورس، شەستەباران،	(خوازە) ڕێژنە، لێشاو، لافاو، لۆدە
 """),
           const DefinitionKurdish(text: "١. (ناو) لافاوێکی بەھێز"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "When the snow melts, the mountain stream becomes a deluge."),
-                    ExampleSentenceKurdish(
-                        text: "کە بەفر دەتوێتەوە، جۆگەی شاخەکە دەبێتە لافاو."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "deluge", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdeluges1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdeluges1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "When the snow melts, the mountain stream becomes a deluge.",
+            kurdishText:
+                "کە بەفر دەتوێتەوە، جۆگەی شاخەکە دەبێتە لافاو.", // deluge
+            onPressedBritish: () => speakdeluges1("en-GB"),
+            onPressedAmerican: () => speakdeluges1("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "The earlier deluge had cuased lots of damage."),
-                    ExampleSentenceKurdish(
-                        text: "لافاوەکەی پێشووتر زیانی زۆری گەیاندبوو."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdeluges2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdeluges2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "The earlier deluge had cuased lots of damage.",
+            kurdishText: "لافاوەکەی پێشووتر زیانی زۆری گەیاندبوو.",
+            onPressedBritish: () => speakdeluges2("en-GB"),
+            onPressedAmerican: () => speakdeluges2("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
                   "٢. (ناو) ڕێژەیەکی زۆر لە شت کە لە ھەمان کاتدا ڕوودەدەن یان دەگەن"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The firm was at a loss to explain the sudden deluge of publicity."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "کۆمپانیاکە دامابوو بۆ ڕوونکردنەوەی لێشاوێکی لەناکاو لە ناوبانگ."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdeluges3("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdeluges3("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "The firm was at a loss to explain the sudden deluge of publicity.",
+            kurdishText:
+                "کۆمپانیاکە دامابوو بۆ ڕوونکردنەوەی لێشاوێکی لەناکاو لە ناوبانگ.",
+            onPressedBritish: () => speakdeluges3("en-GB"),
+            onPressedAmerican: () => speakdeluges3("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٣. (کردار) ناردنی ڕێژەیەکی زۆر لە شت لە ھەمان کاتدا"),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "We have been deluged with applications for the job."),
-                    ExampleSentenceKurdish(
-                        text: "خراوینەتە ژێر داخوازییەوە بۆ کارەکە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdeluges4("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdeluges4("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "We have been deluged with applications for the job.",
+            kurdishText: "خراوینەتە ژێر داخوازییەوە بۆ کارەکە.",
+            onPressedBritish: () => speakdeluges4("en-GB"),
+            onPressedAmerican: () => speakdeluges4("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "He was deluged with phone calls from friends and colleagues."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "کەوتە بەر لێشاوی پەیوەندی تەلەفۆنی لە ھاوڕێ و ھاوکارەکانی."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdeluges5("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdeluges5("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "He was deluged with phone calls from friends and colleagues.",
+            kurdishText:
+                "کەوتە بەر لێشاوی پەیوەندی تەلەفۆنی لە ھاوڕێ و ھاوکارەکانی.",
+            onPressedBritish: () => speakdeluges5("en-GB"),
+            onPressedAmerican: () => speakdeluges5("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: "٤. (کردار) لافاودان لە شوێنێک"),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "Their houses  was deluged by a flash flood."),
-                    ExampleSentenceKurdish(
-                        text: "خانووەکانیان بەر لافاوێکی لەناکاو کەوت."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdeluges6("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdeluges6("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "Their houses  was deluged by a flash flood.",
+            kurdishText: "خانووەکانیان بەر لافاوێکی لەناکاو کەوت.",
+            onPressedBritish: () => speakdeluges6("en-GB"),
+            onPressedAmerican: () => speakdeluges6("en-US"),
           ),
           // deluges700"),
           // speakdeluges7

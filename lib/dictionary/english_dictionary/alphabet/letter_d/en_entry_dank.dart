@@ -240,56 +240,18 @@ class KurdishMeaning extends StatelessWidget {
 """),
           const DefinitionKurdish(
               text: "١. (ھاوەڵناو) کەمێک تەڕ، سارد، یان ناخۆش"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "It was a small place with a dank smell."),
-                    ExampleSentenceKurdish(
-                        text: "شوێنێکی بچووک بوو بە بۆنێکی ناخۆشەوە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "dank", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdanks1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdanks1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "It was a small place with a dank smell.",
+            kurdishText: "شوێنێکی بچووک بوو بە بۆنێکی ناخۆشەوە.", // dank
+            onPressedBritish: () => speakdanks1("en-GB"),
+            onPressedAmerican: () => speakdanks1("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "The cold dank air made him shiver."),
-                    ExampleSentenceKurdish(
-                        text: "ھەوا ساردە شێ‌دارەکە خستییە لەرزە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdanks2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdanks2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "The cold dank air made him shiver.",
+            kurdishText: "ھەوا ساردە شێ‌دارەکە خستییە لەرزە.",
+            onPressedBritish: () => speakdanks2("en-GB"),
+            onPressedAmerican: () => speakdanks2("en-US"),
           ),
         ],
       ),

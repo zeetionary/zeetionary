@@ -364,30 +364,12 @@ class KurdishMeaning extends StatelessWidget {
               text:
                   """١. (ناو) ڕایەخێکی گەورە کە بەکاردێت بۆ پاراستنی زەوی، کەلووپەل، ھتد لە تۆز و خۆڵ یان بۆیە"""),
           const AlsoEnglishckb(word: "ھەروەھا: drop cloth"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: """Place dust sheets on valuable furniture."""),
-                    ExampleSentenceKurdish(
-                        text: """سەرپۆش دابنێ بۆ کەلوپەلی گران‌بەھا."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "dust sheet", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdustsheets1("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdustsheets1("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: """Place dust sheets on valuable furniture.""",
+            kurdishText:
+                """سەرپۆش دابنێ بۆ کەلوپەلی گران‌بەھا.""", // dust sheet
+            onPressedBritish: () => speakdustsheets1("en-GB"),
+            onPressedAmerican: () => speakdustsheets1("en-US"),
           ),
           // dustsheets200
           // speakdustsheets2

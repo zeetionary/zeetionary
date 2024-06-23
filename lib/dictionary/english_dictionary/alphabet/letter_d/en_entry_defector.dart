@@ -242,31 +242,12 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "١. (ناو) کەسێک کە پارتێکی سیاسی، وڵاتێک، ھتد جێدەھێڵێت بۆ چوونەناو یەکێک کە زۆرجار بە دوژمن دادەنرێت "),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "She was one of many Communist Party defectors."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "یەکێک بوو لە ژمارەیەکی زۆر لە ھەڵھاتووەکانی پارتی کۆمیونیست."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "defector", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdefectors1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdefectors1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "She was one of many Communist Party defectors.",
+            kurdishText:
+                "یەکێک بوو لە ژمارەیەکی زۆر لە ھەڵھاتووەکانی پارتی کۆمیونیست.", // defector
+            onPressedBritish: () => speakdefectors1("en-GB"),
+            onPressedAmerican: () => speakdefectors1("en-US"),
           ),
           // "speakdefectors200"),
           //           ExampleSentenceKurdish(text: "رستە_رستە_رستە_رستە."),
@@ -287,32 +268,13 @@ class KurdishMeaning extends StatelessWidget {
           //   ],
           // ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "There was no way to know whether the defectors would fight for the opposition."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "ھیچ ڕێگایەک نەبوو بۆ زانینی ئەوەی کە ئایا ھەڵھاتووەکان شەڕ بۆ ئۆپۆزسیۆن دەکەن."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdefectors3("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdefectors3("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "There was no way to know whether the defectors would fight for the opposition.",
+            kurdishText:
+                "ھیچ ڕێگایەک نەبوو بۆ زانینی ئەوەی کە ئایا ھەڵھاتووەکان شەڕ بۆ ئۆپۆزسیۆن دەکەن.",
+            onPressedBritish: () => speakdefectors3("en-GB"),
+            onPressedAmerican: () => speakdefectors3("en-US"),
           ),
           // defectors400"),
           // speakdefectors4

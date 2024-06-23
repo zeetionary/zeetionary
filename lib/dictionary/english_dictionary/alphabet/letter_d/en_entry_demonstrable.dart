@@ -251,61 +251,22 @@ class KurdishMeaning extends StatelessWidget {
 """),
           const DefinitionKurdish(
               text: "١. (ھاوەڵناو) کە دەکرێت ببینرێت یان بسەلمێندرێت"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "There is no demonstrable link between the two events."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "ھیچ پەیوەندییەکی بینراو نییە لە نێوان دوو ڕووداوەکەدا."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "demonstrable", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdemonstrables1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdemonstrables1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "There is no demonstrable link between the two events.",
+            kurdishText:
+                "ھیچ پەیوەندییەکی بینراو نییە لە نێوان دوو ڕووداوەکەدا.", // demonstrable
+            onPressedBritish: () => speakdemonstrables1("en-GB"),
+            onPressedAmerican: () => speakdemonstrables1("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The report contains numerous demonstrable errors."),
-                    ExampleSentenceKurdish(
-                        text: "ڕاپۆرتەکە ھەڵەی بەرچاوی زۆر لەخۆدەگرێت ."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdemonstrables2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdemonstrables2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "The report contains numerous demonstrable errors.",
+            kurdishText: "ڕاپۆرتەکە ھەڵەی بەرچاوی زۆر لەخۆدەگرێت .",
+            onPressedBritish: () => speakdemonstrables2("en-GB"),
+            onPressedAmerican: () => speakdemonstrables2("en-US"),
           ),
           // demonstrables300"),
           // speakdemonstrables3

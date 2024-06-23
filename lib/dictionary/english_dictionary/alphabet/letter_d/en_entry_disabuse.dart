@@ -234,32 +234,13 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "١. (کردار) گوتن بە کەسێک کە ئەوەی پێیوایە ڕاستە لەڕاستیدا ھەڵەیە"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "He thought that all women liked children, but she soon disabused him of that idea."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "وای بیردەکردەوە کە ھەموو ژنان حەزیان لە منداڵە، بەڵام ئەو ھەر زوو خستییە ھەڵەوە لەسەر ئەو بیرۆکە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "disabuse", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdisabuses1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdisabuses1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "He thought that all women liked children, but she soon disabused him of that idea.",
+            kurdishText:
+                "وای بیردەکردەوە کە ھەموو ژنان حەزیان لە منداڵە، بەڵام ئەو ھەر زوو خستییە ھەڵەوە لەسەر ئەو بیرۆکە.", // disabuse
+            onPressedBritish: () => speakdisabuses1("en-GB"),
+            onPressedAmerican: () => speakdisabuses1("en-US"),
           ),
           // disabuses200"),
           // speakdisabuses2

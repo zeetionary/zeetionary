@@ -253,62 +253,23 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "١. (ناو) دەرکردنی کەسێک لە وڵاتێک، بەزۆری بەھۆی ئەوەی یاسای شکاندووە یان مافی مانەوەی لە وڵاتەکە نییە"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "Several of the asylum seekers now face deportation."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "ژمارەیەک لە داواکارانی پەناگە ئێستا ڕووبەڕووی دیپۆرتکردنەوە دەبنەوە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "deportation", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdeportations1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdeportations1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "Several of the asylum seekers now face deportation.",
+            kurdishText:
+                "ژمارەیەک لە داواکارانی پەناگە ئێستا ڕووبەڕووی دیپۆرتکردنەوە دەبنەوە.", // deportation
+            onPressedBritish: () => speakdeportations1("en-GB"),
+            onPressedAmerican: () => speakdeportations1("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "Their cases will be reviewed and they may face deportation."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "کەیسەکەیان پێداچوونەوەی بۆ دەکرێت ڕووبەڕووی دەرکردن دەبنەوە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdeportations2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdeportations2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "Their cases will be reviewed and they may face deportation.",
+            kurdishText:
+                "کەیسەکەیان پێداچوونەوەی بۆ دەکرێت ڕووبەڕووی دەرکردن دەبنەوە.",
+            onPressedBritish: () => speakdeportations2("en-GB"),
+            onPressedAmerican: () => speakdeportations2("en-US"),
           ),
           // deportations300"),
           // speakdeportations3

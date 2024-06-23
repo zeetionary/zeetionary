@@ -363,30 +363,12 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "١. (ناو) کەسێک کە لەژێر ئاودا مەلە دەکات بە بەکارھێنانی کەرەستەی تایبەت، زۆرجار وەک وەرزش یان وەک پیشەیەک"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "He was a diver on a North Sea oil rig."),
-                    ExampleSentenceKurdish(
-                        text: "مەلەوانێکی سەر سەکۆی نەوتی دەریای باکوور بوو."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "diver", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdivers1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdivers1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "He was a diver on a North Sea oil rig.",
+            kurdishText:
+                "مەلەوانێکی سەر سەکۆی نەوتی دەریای باکوور بوو.", // diver
+            onPressedBritish: () => speakdivers1("en-GB"),
+            onPressedAmerican: () => speakdivers1("en-US"),
           ),
           // divers200"),
           // speakdivers2

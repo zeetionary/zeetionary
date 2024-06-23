@@ -233,30 +233,11 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "١. (ناو) دڵۆپە ئاوێک کە شەوان درووست دەبێت؛ دڵۆپەی شلەیەک"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "The flower petals were covered in dewdrops."),
-                    ExampleSentenceKurdish(
-                        text: "پەڕەی گوڵەکان بە تنۆکە شەونم داپۆشرابوون."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "dewdrop", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdewdrops1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdewdrops1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "The flower petals were covered in dewdrops.",
+            kurdishText: "پەڕەی گوڵەکان بە تنۆکە شەونم داپۆشرابوون.", // dewdrop
+            onPressedBritish: () => speakdewdrops1("en-GB"),
+            onPressedAmerican: () => speakdewdrops1("en-US"),
           ),
           // dewdrops200"),
           // speakdewdrops2

@@ -371,60 +371,22 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "١. (ناو) شێوەیەک، ھێڵێک، ھتد کە کێشاوتە کاتێک بیرت لە شتی دیکە کردووەتەوە"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "The paper was covered in doodles."),
-                    ExampleSentenceKurdish(
-                        text: "پەڕەکە بە ھێڵ‌ھێڵ داپۆشرابوو."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "doodle", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdoodles1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdoodles1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "The paper was covered in doodles.",
+            kurdishText: "پەڕەکە بە ھێڵ‌ھێڵ داپۆشرابوو.", // doodle
+            onPressedBritish: () => speakdoodles1("en-GB"),
+            onPressedAmerican: () => speakdoodles1("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
                   "٢. (کردار) خەتکێشان بەتایبەتی کە بیر لە شتی دیکە دەکەیەوە یان بێزاریت"),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "I often doodle when I'm on the phone."),
-                    ExampleSentenceKurdish(
-                        text: "زۆرجار خەت دەکێشم کە لە پەیوەندیدام."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdoodles2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdoodles2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "I often doodle when I'm on the phone.",
+            kurdishText: "زۆرجار خەت دەکێشم کە لە پەیوەندیدام.",
+            onPressedBritish: () => speakdoodles2("en-GB"),
+            onPressedAmerican: () => speakdoodles2("en-US"),
           ),
           // doodles300"),
           // speakdoodles3

@@ -267,120 +267,45 @@ class KurdishMeaning extends StatelessWidget {
 کوردی: شەیتان، ڕۆحی خراپ یان شەیتانی، ھێزی شەیتانی,	دێو، جنۆکە، ڕمووزن، درنج
 """),
           const DefinitionKurdish(text: "١. (ناو) خێوێکی شەیتانی"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The people believed the girl was possessed by demons."),
-                    ExampleSentenceKurdish(
-                        text: "خەڵکەکە بوەڕیان وابوو کچەکە شەیتانی بووبوو."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "demon", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdemons1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdemons1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "The people believed the girl was possessed by demons.",
+            kurdishText: "خەڵکەکە بوەڕیان وابوو کچەکە شەیتانی بووبوو.", // demon
+            onPressedBritish: () => speakdemons1("en-GB"),
+            onPressedAmerican: () => speakdemons1("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٢. (ناو) شتێک کە کەسێک نیگەران و خەمبار دەکات"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "She's had to battle her personal demons throughout her adult life."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "تەواوی ژیانی پێویست بووە دێوەزمەکانی ژیانی دووربخاتەوە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdemons2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdemons2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "She's had to battle her personal demons throughout her adult life.",
+            kurdishText:
+                "تەواوی ژیانی پێویست بووە دێوەزمەکانی ژیانی دووربخاتەوە.",
+            onPressedBritish: () => speakdemons2("en-GB"),
+            onPressedAmerican: () => speakdemons2("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "He is plagued by demons which go back to his traumatic childhood."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "دەناڵێنێت بەدەست دێوەزمەکانی کە بەھۆی تاڵییەکانی منداڵییەوە تووشی بووە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdemons3("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdemons3("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "He is plagued by demons which go back to his traumatic childhood.",
+            kurdishText:
+                "دەناڵێنێت بەدەست دێوەزمەکانی کە بەھۆی تاڵییەکانی منداڵییەوە تووشی بووە.",
+            onPressedBritish: () => speakdemons3("en-GB"),
+            onPressedAmerican: () => speakdemons3("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٣. (ناو) کەسێک کە شتێک زۆر بەباشی دەکات"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(text: "He skis like a demon."),
-                    ExampleSentenceKurdish(
-                        text: "وەک دێوەزمە شەختەی سەربەفر دەکات."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdemons4("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdemons4("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "He skis like a demon.",
+            kurdishText: "وەک دێوەزمە شەختەی سەربەفر دەکات.",
+            onPressedBritish: () => speakdemons4("en-GB"),
+            onPressedAmerican: () => speakdemons4("en-US"),
           ),
           // demons500"),
           // speakdemons5

@@ -233,32 +233,13 @@ class KurdishMeaning extends StatelessWidget {
 // کوردی:
 // """),
           const DefinitionKurdish(text: "١. (ناو) دوورگەیەکی چۆڵ"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "Robinson Crusoe is cast away on a desert island for 28 years."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "ڕۆبینسن کروسۆو بۆ ٢٨ ساڵ لەسەر دوورگەیەکی چۆڵ جێھێڵدرا."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "desert island", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdesertislands1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdesertislands1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "Robinson Crusoe is cast away on a desert island for 28 years.",
+            kurdishText:
+                "ڕۆبینسن کروسۆو بۆ ٢٨ ساڵ لەسەر دوورگەیەکی چۆڵ جێھێڵدرا.", // desert island
+            onPressedBritish: () => speakdesertislands1("en-GB"),
+            onPressedAmerican: () => speakdesertislands1("en-US"),
           ),
           // desertislands200"),
           // speakdesertislands2

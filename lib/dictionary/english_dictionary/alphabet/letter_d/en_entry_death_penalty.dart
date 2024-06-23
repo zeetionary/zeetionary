@@ -252,84 +252,28 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "١. (ناو) سزای مەرگ کە لە ھەندێک وڵاتدا سزایە بۆ تاوانە قورسەکان"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "The two men are facing the death penalty."),
-                    ExampleSentenceKurdish(
-                        text: "دوو پیاوەکە ڕووبەڕووی سزای مەرگ دەبنەوە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "the death penalty", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakthedeathpenaltys1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakthedeathpenaltys1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "The two men are facing the death penalty.",
+            kurdishText:
+                "دوو پیاوەکە ڕووبەڕووی سزای مەرگ دەبنەوە.", // the death penalty
+            onPressedBritish: () => speakthedeathpenaltys1("en-GB"),
+            onPressedAmerican: () => speakthedeathpenaltys1("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "From time to time, the death penalty was exacted for murder."),
-                    ExampleSentenceKurdish(
-                        text: "ماوە ماوە، سزای مەرگ بۆ کوشتن دەسەپێنرا."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakthedeathpenaltys2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakthedeathpenaltys2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "From time to time, the death penalty was exacted for murder.",
+            kurdishText: "ماوە ماوە، سزای مەرگ بۆ کوشتن دەسەپێنرا.",
+            onPressedBritish: () => speakthedeathpenaltys2("en-GB"),
+            onPressedAmerican: () => speakthedeathpenaltys2("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "She would like to see the return of the death penalty in Britain."),
-                    ExampleSentenceKurdish(
-                        text: "حەزی بە گەڕاندنەوەی سزای مەرگە لە بەریتانیا."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakthedeathpenaltys3("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakthedeathpenaltys3("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "She would like to see the return of the death penalty in Britain.",
+            kurdishText: "حەزی بە گەڕاندنەوەی سزای مەرگە لە بەریتانیا.",
+            onPressedBritish: () => speakthedeathpenaltys3("en-GB"),
+            onPressedAmerican: () => speakthedeathpenaltys3("en-US"),
           ),
         ],
       ),

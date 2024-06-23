@@ -364,32 +364,13 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   """١. (کردار) مۆمیایی کردن؛ ڕێگریکردن لەوەی جەستەی مردوو شیببێتەوە بە دانانی مادەی تایبەت لەسەری"""),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            """The ancient Egyptians would embalm their pharaohs."""),
-                    ExampleSentenceKurdish(
-                        text:
-                            """میسرییە کۆنەکان فیرعەونەکانیان مۆمیایی دەکرد."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "embalm", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakembalms1("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakembalms1("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                """The ancient Egyptians would embalm their pharaohs.""",
+            kurdishText:
+                """میسرییە کۆنەکان فیرعەونەکانیان مۆمیایی دەکرد.""", // embalm
+            onPressedBritish: () => speakembalms1("en-GB"),
+            onPressedAmerican: () => speakembalms1("en-US"),
           ),
           // embalms200embalms2
           // speakembalms2

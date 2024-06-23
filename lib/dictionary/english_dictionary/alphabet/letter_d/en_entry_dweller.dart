@@ -372,62 +372,23 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   """١. (ناو) کەسێک یان ئاژەڵێک کە لەو شوێنە دەژی کە باسکراوە"""),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            """85 per cent of city dwellers breathe heavily polluted air."""),
-                    ExampleSentenceKurdish(
-                        text:
-                            """٨٥ لە سەدی شارنشینان ھەوای تەواو پیس ھەڵدەمژن."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "dweller", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdwellers1("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdwellers1("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                """85 per cent of city dwellers breathe heavily polluted air.""",
+            kurdishText:
+                """٨٥ لە سەدی شارنشینان ھەوای تەواو پیس ھەڵدەمژن.""", // dweller
+            onPressedBritish: () => speakdwellers1("en-GB"),
+            onPressedAmerican: () => speakdwellers1("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            """Almost all Asian hornbills are forest dwellers."""),
-                    ExampleSentenceKurdish(
-                        text:
-                            """بەنزیکەیی ھەموو دەنووک‌شاخەکانی ئاسیا دارستان‌نشینن."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdwellers2("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdwellers2("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: """Almost all Asian hornbills are forest dwellers.""",
+            kurdishText:
+                """بەنزیکەیی ھەموو دەنووک‌شاخەکانی ئاسیا دارستان‌نشینن.""",
+            onPressedBritish: () => speakdwellers2("en-GB"),
+            onPressedAmerican: () => speakdwellers2("en-US"),
           ),
           // dwellers300
           // speakdwellers3

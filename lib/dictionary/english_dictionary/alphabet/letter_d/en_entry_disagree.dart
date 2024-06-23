@@ -298,262 +298,87 @@ class KurdishMeaning extends StatelessWidget {
 """),
           const DefinitionKurdish(
               text: "١. (کردار) ھەبوونی ناکۆکی و بۆچوونی جیاواز لەسەر شتێک"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "Even friends disagree sometimes."),
-                    ExampleSentenceKurdish(
-                        text: "تەنانەت ھاوڕێیانیش ھەندێک جار ناکۆکن."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "disagree", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdisagrees1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdisagrees1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "Even friends disagree sometimes.",
+            kurdishText: "تەنانەت ھاوڕێیانیش ھەندێک جار ناکۆکن.", // disagree
+            onPressedBritish: () => speakdisagrees1("en-GB"),
+            onPressedAmerican: () => speakdisagrees1("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "No, I disagree. I don't think it would be the right thing to do."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "نەخێر، ڕازی نیم. پێموانییە شتێکی ڕاست بێت بیکەین."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdisagrees2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdisagrees2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "No, I disagree. I don't think it would be the right thing to do.",
+            kurdishText: "نەخێر، ڕازی نیم. پێموانییە شتێکی ڕاست بێت بیکەین.",
+            onPressedBritish: () => speakdisagrees2("en-GB"),
+            onPressedAmerican: () => speakdisagrees2("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "I had to respectfully disagree with my colleague."),
-                    ExampleSentenceKurdish(
-                        text: "پێویست بوو بەڕێزەوە ناکۆک بم لەگەڵ ھاوکارەکەم."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdisagrees3("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdisagrees3("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "I had to respectfully disagree with my colleague.",
+            kurdishText: "پێویست بوو بەڕێزەوە ناکۆک بم لەگەڵ ھاوکارەکەم.",
+            onPressedBritish: () => speakdisagrees3("en-GB"),
+            onPressedAmerican: () => speakdisagrees3("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "Victoria and I obviously disagree on this issue."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "من و ڤیکتۆریا ئاشکرایە ناکۆکین لەسەر ئەم بابەتە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdisagrees4("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdisagrees4("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "Victoria and I obviously disagree on this issue.",
+            kurdishText: "من و ڤیکتۆریا ئاشکرایە ناکۆکین لەسەر ئەم بابەتە.",
+            onPressedBritish: () => speakdisagrees4("en-GB"),
+            onPressedAmerican: () => speakdisagrees4("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "He disagreed with his parents on most things."),
-                    ExampleSentenceKurdish(
-                        text: "لەسەر زۆر شت ناکۆک بوو لەگەڵ دایبابی."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdisagrees5("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdisagrees5("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "He disagreed with his parents on most things.",
+            kurdishText: "لەسەر زۆر شت ناکۆک بوو لەگەڵ دایبابی.",
+            onPressedBritish: () => speakdisagrees5("en-GB"),
+            onPressedAmerican: () => speakdisagrees5("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "I'm afraid I disagree with you on that point."),
-                    ExampleSentenceKurdish(
-                        text: "بەداخەوەم کە لەو خاڵەدا لەگەڵت ناکۆم."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdisagrees6("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdisagrees6("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "I'm afraid I disagree with you on that point.",
+            kurdishText: "بەداخەوەم کە لەو خاڵەدا لەگەڵت ناکۆم.",
+            onPressedBritish: () => speakdisagrees6("en-GB"),
+            onPressedAmerican: () => speakdisagrees6("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "Jack and Robert disagree about everything."),
-                    ExampleSentenceKurdish(
-                        text: "جاک و ڕۆبێرت لەسەر ھەموو شت ناکۆکن."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdisagrees7("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdisagrees7("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "Jack and Robert disagree about everything.",
+            kurdishText: "جاک و ڕۆبێرت لەسەر ھەموو شت ناکۆکن.",
+            onPressedBritish: () => speakdisagrees7("en-GB"),
+            onPressedAmerican: () => speakdisagrees7("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٢. (کردار) ناکۆکی زانیاری لەگەڵ یەکدیدا"),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "The results of the two researches disagree."),
-                    ExampleSentenceKurdish(
-                        text: "ئەنجامەکانی دوو لێکۆڵینەوەکە ناکۆکن."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdisagrees8("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdisagrees8("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "The results of the two researches disagree.",
+            kurdishText: "ئەنجامەکانی دوو لێکۆڵینەوەکە ناکۆکن.",
+            onPressedBritish: () => speakdisagrees8("en-GB"),
+            onPressedAmerican: () => speakdisagrees8("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The two reports disagree on the number of people who will be affected by this change."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "دوو ڕاپۆرتەکە ناکۆکن لەسەر ژمارەی ئەو کەسانەی کە بە گۆڕانەکە کاریگەر دەبن."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdisagrees9("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdisagrees9("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "The two reports disagree on the number of people who will be affected by this change.",
+            kurdishText:
+                "دوو ڕاپۆرتەکە ناکۆکن لەسەر ژمارەی ئەو کەسانەی کە بە گۆڕانەکە کاریگەر دەبن.",
+            onPressedBritish: () => speakdisagrees9("en-GB"),
+            onPressedAmerican: () => speakdisagrees9("en-US"),
           ),
           // disagrees_1000"),
           // speakdisagrees10

@@ -398,150 +398,54 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   """١. (ناو) ئەو پارەیەی کە وەری دەگریت بۆ کارێک کە دەیکەیت"""),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            """She is claiming compensation for loss of earnings."""),
-                    ExampleSentenceKurdish(
-                        text:
-                            """داوای قەرەبوو دەکات بۆ لەدەستچوونی قازانجی."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "earnings", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakearningss1("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakearningss1("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                """She is claiming compensation for loss of earnings.""",
+            kurdishText:
+                """داوای قەرەبوو دەکات بۆ لەدەستچوونی قازانجی.""", // earnings
+            onPressedBritish: () => speakearningss1("en-GB"),
+            onPressedAmerican: () => speakearningss1("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: """Levels of earnings are still rising."""),
-                    ExampleSentenceKurdish(
-                        text: """ئاستی قازانج ھێشتا لە بەرزبوونەوەیە."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakearningss2("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakearningss2("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: """Levels of earnings are still rising.""",
+            kurdishText: """ئاستی قازانج ھێشتا لە بەرزبوونەوەیە.""",
+            onPressedBritish: () => speakearningss2("en-GB"),
+            onPressedAmerican: () => speakearningss2("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            """You must declare all earnings to the tax office."""),
-                    ExampleSentenceKurdish(
-                        text:
-                            """دەبێت ھەموو قازانجێکت ئاشکرا بکەیت لە ئۆفیسی باجدان."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakearningss3("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakearningss3("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: """You must declare all earnings to the tax office.""",
+            kurdishText:
+                """دەبێت ھەموو قازانجێکت ئاشکرا بکەیت لە ئۆفیسی باجدان.""",
+            onPressedBritish: () => speakearningss3("en-GB"),
+            onPressedAmerican: () => speakearningss3("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: """٢. (ناو) قازانجی کۆمپانیایەک"""),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            """The company's earnings per share have fallen to 29p."""),
-                    ExampleSentenceKurdish(
-                        text:
-                            """قازانجی کۆمپانیەکە بۆ ھەر پشکێک بۆ ٢٩ پێنس دابەزیوە."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakearningss4("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakearningss4("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                """The company's earnings per share have fallen to 29p.""",
+            kurdishText:
+                """قازانجی کۆمپانیەکە بۆ ھەر پشکێک بۆ ٢٩ پێنس دابەزیوە.""",
+            onPressedBritish: () => speakearningss4("en-GB"),
+            onPressedAmerican: () => speakearningss4("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            """Whisky accounts for a large percentage of Scotland's export earnings."""),
-                    ExampleSentenceKurdish(
-                        text:
-                            """ویسکی پێکھێنەری بەشێکی زۆر لە ڕێژەی سەدی ھەناردەی سکۆتلەندا پێکدێنێت."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakearningss5("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakearningss5("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                """Whisky accounts for a large percentage of Scotland's export earnings.""",
+            kurdishText:
+                """ویسکی پێکھێنەری بەشێکی زۆر لە ڕێژەی سەدی ھەناردەی سکۆتلەندا پێکدێنێت.""",
+            onPressedBritish: () => speakearningss5("en-GB"),
+            onPressedAmerican: () => speakearningss5("en-US"),
           ),
           // earningss600earningss6
           // speakearningss6

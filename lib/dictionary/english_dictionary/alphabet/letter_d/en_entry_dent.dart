@@ -282,174 +282,58 @@ class KurdishMeaning extends StatelessWidget {
 کوردی: قوپان، قوپاوی، داکەوتوویی، ڕۆچوویی، قووڵ‌داکەوتوویی، چاڵ‌داکەوتوویی، بەنێوداچوویی،	(خوازە) کون، قوڵکە، چاڵ،	لێدان، پیاکێشان
 """),
           const DefinitionKurdish(text: "١. (کردار) قوپاندنی شتێک"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The back of the car was badly dented in the collision."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "پشتەوەی ئۆتۆمبێلەکە بەخراپی قوپا لە پێکدادانەکەدا."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "dent", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdents1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdents1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "The back of the car was badly dented in the collision.",
+            kurdishText:
+                "پشتەوەی ئۆتۆمبێلەکە بەخراپی قوپا لە پێکدادانەکەدا.", // dent
+            onPressedBritish: () => speakdents1("en-GB"),
+            onPressedAmerican: () => speakdents1("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "The car was quite badly dented on one side."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "ئۆتۆمبێلەکە یاڕادەیەک بەخراپی قوپا بوو لە لایەکەوە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdents2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdents2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "The car was quite badly dented on one side.",
+            kurdishText: "ئۆتۆمبێلەکە یاڕادەیەک بەخراپی قوپا بوو لە لایەکەوە.",
+            onPressedBritish: () => speakdents2("en-GB"),
+            onPressedAmerican: () => speakdents2("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٢. (کردار) زیان گەیاندن بە ورەی کەسێک"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "It seemed that nothing could dent his confidence."),
-                    ExampleSentenceKurdish(
-                        text: "وادیاربوو ھیچ ورەی نەڕووخێنێت."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdents3("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdents3("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "It seemed that nothing could dent his confidence.",
+            kurdishText: "وادیاربوو ھیچ ورەی نەڕووخێنێت.",
+            onPressedBritish: () => speakdents3("en-GB"),
+            onPressedAmerican: () => speakdents3("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "Being turned down for the job dented his pride quite badly."),
-                    ExampleSentenceKurdish(
-                        text: "ڕەتکردنەوەی بۆ کارەکە بەخراپی شکۆی شکاند."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdents4("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdents4("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "Being turned down for the job dented his pride quite badly.",
+            kurdishText: "ڕەتکردنەوەی بۆ کارەکە بەخراپی شکۆی شکاند.",
+            onPressedBritish: () => speakdents4("en-GB"),
+            onPressedAmerican: () => speakdents4("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: "٣. (ناو) قوپاوی"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The impact of the stones made little dents in the metal."),
-                    ExampleSentenceKurdish(
-                        text: "کاریگەری بەردەکان قوپاوی بچووکی کردە کانزاکە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdents5("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdents5("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "The impact of the stones made little dents in the metal.",
+            kurdishText: "کاریگەری بەردەکان قوپاوی بچووکی کردە کانزاکە.",
+            onPressedBritish: () => speakdents5("en-GB"),
+            onPressedAmerican: () => speakdents5("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "She ran into my car and put a dent in it."),
-                    ExampleSentenceKurdish(
-                        text: "کێشای بە ئۆتۆمبێلەکەمدا و قوپاوییەکی تێخست."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdents6("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdents6("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "She ran into my car and put a dent in it.",
+            kurdishText: "کێشای بە ئۆتۆمبێلەکەمدا و قوپاوییەکی تێخست.",
+            onPressedBritish: () => speakdents6("en-GB"),
+            onPressedAmerican: () => speakdents6("en-US"),
           ),
           // dents700"),
           // speakdents7

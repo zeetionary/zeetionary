@@ -236,32 +236,13 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "١. (ناو) شەستەمین ساڵیادی بۆنەیەکی گرنگ، بەتایبەتی بوون بە پاشا یان شاژن"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "Queen Victoria had been on the throne for 60 years and her diamond jubilee was being celebrated."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "شاژن ڤیکتۆریا بۆ ٦٠ ساڵ بووبوو لەسەر تەخت بوو و یادی شەستەمین ساڵیاد پیرۆز دەکرا."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "diamond jubilee", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdiamondjubilees1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdiamondjubilees1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "Queen Victoria had been on the throne for 60 years and her diamond jubilee was being celebrated.",
+            kurdishText:
+                "شاژن ڤیکتۆریا بۆ ٦٠ ساڵ بووبوو لەسەر تەخت بوو و یادی شەستەمین ساڵیاد پیرۆز دەکرا.", // diamond jubilee
+            onPressedBritish: () => speakdiamondjubilees1("en-GB"),
+            onPressedAmerican: () => speakdiamondjubilees1("en-US"),
           ),
           // diamondjubilees200"),
           // speakdiamondjubilees2

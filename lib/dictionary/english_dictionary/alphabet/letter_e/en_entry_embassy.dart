@@ -381,93 +381,33 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   """١. (ناو) کۆمەڵێک کەس کە لە وڵاتێک نوێنەرایەتی وڵاتێکی دیکە دەکەن"""),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            """We used to be friendly with some people who worked at the Swedish Embassy."""),
-                    ExampleSentenceKurdish(
-                        text:
-                            """جاران ھاوڕێ بووین لەگەڵ ھەندێک کەس کە لەگەڵ شاندی سوید کاریان دەکرد."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "embassy", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakembassys1("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakembassys1("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                """We used to be friendly with some people who worked at the Swedish Embassy.""",
+            kurdishText:
+                """جاران ھاوڕێ بووین لەگەڵ ھەندێک کەس کە لەگەڵ شاندی سوید کاریان دەکرد.""", // embassy
+            onPressedBritish: () => speakembassys1("en-GB"),
+            onPressedAmerican: () => speakembassys1("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text: """٢. (ناو) ئەو بینایەی نوێنەرانی وڵاتێکی بیانی لێیە"""),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            """The Ambassador held a reception at the embassy."""),
-                    ExampleSentenceKurdish(
-                        text:
-                            """نوێنەرەکە پێشوازییەکی لە باڵیۆزخانەکە ڕێکخست."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakembassys2("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakembassys2("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: """The Ambassador held a reception at the embassy.""",
+            kurdishText: """نوێنەرەکە پێشوازییەکی لە باڵیۆزخانەکە ڕێکخست.""",
+            onPressedBritish: () => speakembassys2("en-GB"),
+            onPressedAmerican: () => speakembassys2("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            """She works at the Malaysian embassy in Buenos Aires."""),
-                    ExampleSentenceKurdish(
-                        text:
-                            """لە باڵیۆزخانەی مالیزیا لە بۆینس ئایرس کار دەکات."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakembassys3("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakembassys3("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                """She works at the Malaysian embassy in Buenos Aires.""",
+            kurdishText: """لە باڵیۆزخانەی مالیزیا لە بۆینس ئایرس کار دەکات.""",
+            onPressedBritish: () => speakembassys3("en-GB"),
+            onPressedAmerican: () => speakembassys3("en-US"),
           ),
           // embassys400embassys4
           // speakembassys4

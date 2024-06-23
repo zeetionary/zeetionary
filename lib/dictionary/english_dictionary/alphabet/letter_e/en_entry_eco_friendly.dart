@@ -364,32 +364,13 @@ class KurdishMeaning extends StatelessWidget {
 // """),
           const DefinitionKurdish(
               text: """١. (ھاوەڵناو) کە زیانی بۆ ژینگە نییە"""),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            """These eco-friendly businesses help recycle your old stuff."""),
-                    ExampleSentenceKurdish(
-                        text:
-                            """بازرگانییە ژینگە دۆستەکان یارمەتی دووبارە بەکارھێنانەوەی شتەکۆنەکانت دەدەن."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "eco-friendly", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakecofriendlys1("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakecofriendlys1("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                """These eco-friendly businesses help recycle your old stuff.""",
+            kurdishText:
+                """بازرگانییە ژینگە دۆستەکان یارمەتی دووبارە بەکارھێنانەوەی شتەکۆنەکانت دەدەن.""", // eco-friendly
+            onPressedBritish: () => speakecofriendlys1("en-GB"),
+            onPressedAmerican: () => speakecofriendlys1("en-US"),
           ),
           // ecofriendlys200ecofriendlys2
           // speakecofriendlys2

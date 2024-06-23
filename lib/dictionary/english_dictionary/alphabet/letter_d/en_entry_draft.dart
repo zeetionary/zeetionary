@@ -431,116 +431,40 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "١. (ناو) نووسراوێک کە ھێشتا ئامادەی بڵاوکردنەوە نییە نییە و دەستکاری دیکەی دەوێت"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "This is only the first draft of my speech."),
-                    ExampleSentenceKurdish(
-                        text: "ئەمە تەنھا یەکەم بەرنووسی وتارەکەمە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "draft", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdrafts1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdrafts1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "This is only the first draft of my speech.",
+            kurdishText: "ئەمە تەنھا یەکەم بەرنووسی وتارەکەمە.", // draft
+            onPressedBritish: () => speakdrafts1("en-GB"),
+            onPressedAmerican: () => speakdrafts1("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "I've made a rough draft of the letter."),
-                    ExampleSentenceKurdish(
-                        text: "بەرنووسێکی سەرەتایی نامەکەم ئامادەکردووە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdrafts2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdrafts2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "I've made a rough draft of the letter.",
+            kurdishText: "بەرنووسێکی سەرەتایی نامەکەم ئامادەکردووە.",
+            onPressedBritish: () => speakdrafts2("en-GB"),
+            onPressedAmerican: () => speakdrafts2("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The final published version differs from earlier drafts in many key details."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "کۆتا ڕەشنووسی بڵاوکراوە لە بەرنووسەکانی سەرەتاوە لە زۆر وردەکاریی گرنگەوە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdrafts3("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdrafts3("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "The final published version differs from earlier drafts in many key details.",
+            kurdishText:
+                "کۆتا ڕەشنووسی بڵاوکراوە لە بەرنووسەکانی سەرەتاوە لە زۆر وردەکاریی گرنگەوە.",
+            onPressedBritish: () => speakdrafts3("en-GB"),
+            onPressedAmerican: () => speakdrafts3("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
                   "٢. (ناو) داوایەکی نووسراو بۆ بانکێک کە پارە بە کەسیک بدات"),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "Payment must be made by bank draft drawn on a UK bank."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "پارەدان دەبێت ئەنجام بدرێت بە نووسراوی بانکی کە لە بانکێکی بەریتانیا ڕاکێشرابێت."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdrafts4("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdrafts4("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "Payment must be made by bank draft drawn on a UK bank.",
+            kurdishText:
+                "پارەدان دەبێت ئەنجام بدرێت بە نووسراوی بانکی کە لە بانکێکی بەریتانیا ڕاکێشرابێت.",
+            onPressedBritish: () => speakdrafts4("en-GB"),
+            onPressedAmerican: () => speakdrafts4("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
@@ -549,31 +473,12 @@ class KurdishMeaning extends StatelessWidget {
           const AlsoEnglishckb(
               word:
                   "تێبینی: لە ئینگلیزی بەریتانی زۆرجار دەگوترێت conscription"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "He avoided the draft because of a foot injury."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "لە سەربازیی زۆرەملێ دوورکەوتەوە بەھۆی پێکانێک لە پێیدا."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdrafts5("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdrafts5("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "He avoided the draft because of a foot injury.",
+            kurdishText:
+                "لە سەربازیی زۆرەملێ دوورکەوتەوە بەھۆی پێکانێک لە پێیدا.",
+            onPressedBritish: () => speakdrafts5("en-GB"),
+            onPressedAmerican: () => speakdrafts5("en-US"),
           ),
           const DividerDefinition(),
           Column(
@@ -600,117 +505,40 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text: "٥. (کردار) نووسینی یەکەم بەرنووسی شتێک"),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "I'll draft a letter for you."),
-                    ExampleSentenceKurdish(
-                        text: "یەکەم بەرنووسی نامەیەکت بۆ دەنووسم."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdrafts6("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdrafts6("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "I'll draft a letter for you.",
+            kurdishText: "یەکەم بەرنووسی نامەیەکت بۆ دەنووسم.",
+            onPressedBritish: () => speakdrafts6("en-GB"),
+            onPressedAmerican: () => speakdrafts6("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The military began drafting a new constitution."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "سوپا دەستی کرد بە نووسینی یەکەم بەرنووسی دەستوورێکی تازە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdrafts7("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdrafts7("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "The military began drafting a new constitution.",
+            kurdishText:
+                "سوپا دەستی کرد بە نووسینی یەکەم بەرنووسی دەستوورێکی تازە.",
+            onPressedBritish: () => speakdrafts7("en-GB"),
+            onPressedAmerican: () => speakdrafts7("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٦. (کردار) ھەڵبژاردنی خەڵکی ناردنیان بۆ ئەرکێکی تایبەت"),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "Extra police are being drafted in to control the crowds."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "پۆلیسی زیادە دەنێردرێن بۆ کۆنترۆڵکردنی جەماوەرەکە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdrafts8("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdrafts8("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "Extra police are being drafted in to control the crowds.",
+            kurdishText: "پۆلیسی زیادە دەنێردرێن بۆ کۆنترۆڵکردنی جەماوەرەکە.",
+            onPressedBritish: () => speakdrafts8("en-GB"),
+            onPressedAmerican: () => speakdrafts8("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٧. (کردار) فەرمانکردن بە خەڵکی بۆ چوون بۆ خزمەتی سەربازی"),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "They were drafted into the army."),
-                    ExampleSentenceKurdish(text: "پەلکێشی سوپا کران."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdrafts9("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdrafts9("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "They were drafted into the army.",
+            kurdishText: "پەلکێشی سوپا کران.",
+            onPressedBritish: () => speakdrafts9("en-GB"),
+            onPressedAmerican: () => speakdrafts9("en-US"),
           ),
           // drafts_1000"),
           // speakdrafts10

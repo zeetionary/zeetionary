@@ -241,60 +241,22 @@ class KurdishMeaning extends StatelessWidget {
 // """),
           const DefinitionKurdish(
               text: "١. (ھاوەڵکار) کە زۆر ڕۆشن یان ڕوون نییە"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "I was dimly aware (= only just aware) of the sound of a car in the distance."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "کەمێک ئاگادار بووم لە دەنگی ئۆتۆمبێلێک لە دوورەوە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "dimly", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdimlys1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdimlys1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "I was dimly aware (= only just aware) of the sound of a car in the distance.",
+            kurdishText:
+                "کەمێک ئاگادار بووم لە دەنگی ئۆتۆمبێلێک لە دوورەوە.", // dimly
+            onPressedBritish: () => speakdimlys1("en-GB"),
+            onPressedAmerican: () => speakdimlys1("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "I did remember, but only dimly."),
-                    ExampleSentenceKurdish(
-                        text: "لەبیرممە، بەڵام تەنھا کەمێک."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdimlys2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdimlys2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "I did remember, but only dimly.",
+            kurdishText: "لەبیرممە، بەڵام تەنھا کەمێک.",
+            onPressedBritish: () => speakdimlys2("en-GB"),
+            onPressedAmerican: () => speakdimlys2("en-US"),
           ),
           // dimlys300"),
           // speakdimlys3

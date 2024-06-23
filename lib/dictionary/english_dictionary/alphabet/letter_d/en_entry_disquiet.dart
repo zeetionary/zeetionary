@@ -242,62 +242,24 @@ class KurdishMeaning extends StatelessWidget {
 """),
           const DefinitionKurdish(
               text: "١. (ناو) نائارامی و نیگەرانی سەبارەت بە شتیک"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "There is considerable public disquiet about the safety of the new trains."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "نیگەرانی زۆری خەڵکی ھەیە سەبارەت بە سەلامەتی شەمەندەفەرە تازەکان."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "disquiet", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdisquiets1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdisquiets1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "There is considerable public disquiet about the safety of the new trains.",
+            kurdishText:
+                "نیگەرانی زۆری خەڵکی ھەیە سەبارەت بە سەلامەتی شەمەندەفەرە تازەکان.", // disquiet
+            onPressedBritish: () => speakdisquiets1("en-GB"),
+            onPressedAmerican: () => speakdisquiets1("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The leader's decline in popularity is causing disquiet among supporters."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "دابەزینی ناوبانگی سەرکردەکە بووە بە ھۆکاری نیگەرانی لەناو ھەوادارانیدا."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdisquiets2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdisquiets2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "The leader's decline in popularity is causing disquiet among supporters.",
+            kurdishText:
+                "دابەزینی ناوبانگی سەرکردەکە بووە بە ھۆکاری نیگەرانی لەناو ھەوادارانیدا.",
+            onPressedBritish: () => speakdisquiets2("en-GB"),
+            onPressedAmerican: () => speakdisquiets2("en-US"),
           ),
           // disquiets300"),
           // speakdisquiets3

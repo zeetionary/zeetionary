@@ -365,32 +365,13 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "١. (ھاوەڵناو) کە ئامانج لێی ئەوەیە سەرنجی کەسێک لەسەر شتێک لاببات"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "Military personnel would be distracted with diversionary moves so others could break into the base."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "ئەندامانی سوپا سەرقاڵ دەکرێن بە جوڵەی خاپێەر بۆ ئەوەی ئەوانی دیکە ھەڵبکوتنە سەر بنکەکە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "diversionary", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdiversionarys1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdiversionarys1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "Military personnel would be distracted with diversionary moves so others could break into the base.",
+            kurdishText:
+                "ئەندامانی سوپا سەرقاڵ دەکرێن بە جوڵەی خاپێەر بۆ ئەوەی ئەوانی دیکە ھەڵبکوتنە سەر بنکەکە.", // diversionary
+            onPressedBritish: () => speakdiversionarys1("en-GB"),
+            onPressedAmerican: () => speakdiversionarys1("en-US"),
           ),
           // diversionarys200"),
           // speakdiversionarys2

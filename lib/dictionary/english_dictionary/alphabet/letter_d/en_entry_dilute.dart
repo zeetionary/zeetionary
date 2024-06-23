@@ -259,120 +259,43 @@ class KurdishMeaning extends StatelessWidget {
 """),
           const DefinitionKurdish(
               text: "١. (کردار) لاوازکردنی شلەیەک بە زیادکردنی ئاو بۆی"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The paint can be diluted with water to make a lighter shade."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "بۆیەکە دەکرێت بە تراو بکرێت بۆ درووستکردنی ڕەنگێکی کاڵتر."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "dilute", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdilutes1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdilutes1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "The paint can be diluted with water to make a lighter shade.",
+            kurdishText:
+                "بۆیەکە دەکرێت بە تراو بکرێت بۆ درووستکردنی ڕەنگێکی کاڵتر.", // dilute
+            onPressedBritish: () => speakdilutes1("en-GB"),
+            onPressedAmerican: () => speakdilutes1("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "The perfumes are highly diluted."),
-                    ExampleSentenceKurdish(
-                        text: "بۆنەکان بەشێوەیەکی زۆر تراوکراون."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdilutes2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdilutes2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "The perfumes are highly diluted.",
+            kurdishText: "بۆنەکان بەشێوەیەکی زۆر تراوکراون.",
+            onPressedBritish: () => speakdilutes2("en-GB"),
+            onPressedAmerican: () => speakdilutes2("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: "٢. (کردار) لاوازکردنی شتێک"),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The effect of this policy has now been considerably diluted."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "کاریگەری ئەم سیاسەتە لە ئێستادا زۆر لاوازکراوە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdilutes3("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdilutes3("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "The effect of this policy has now been considerably diluted.",
+            kurdishText: "کاریگەری ئەم سیاسەتە لە ئێستادا زۆر لاوازکراوە.",
+            onPressedBritish: () => speakdilutes3("en-GB"),
+            onPressedAmerican: () => speakdilutes3("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "These measures are designed to dilute public fears about the product's safety."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "ئەم ھەنگاوانە دانراون بۆ لاوازکردنی ترسی خەڵکی لەسەر سەلامەتی بەرھەمەکە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdilutes4("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdilutes4("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "These measures are designed to dilute public fears about the product's safety.",
+            kurdishText:
+                "ئەم ھەنگاوانە دانراون بۆ لاوازکردنی ترسی خەڵکی لەسەر سەلامەتی بەرھەمەکە.",
+            onPressedBritish: () => speakdilutes4("en-GB"),
+            onPressedAmerican: () => speakdilutes4("en-US"),
           ),
           // dilutes500"),
           // speakdilutes5

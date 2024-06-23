@@ -380,90 +380,33 @@ class KurdishMeaning extends StatelessWidget {
 """),
           const DefinitionKurdish(
               text: "١. (کردار) کە دوو شت پێکەوە جووت دەبن"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "My plans dovetailed nicely with hers."),
-                    ExampleSentenceKurdish(
-                        text: "پلانەکانم باش لەگەڵ ئەوانەی ئەو ڕێککەوتن."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "dovetail", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdovetails1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdovetails1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "My plans dovetailed nicely with hers.",
+            kurdishText:
+                "پلانەکانم باش لەگەڵ ئەوانەی ئەو ڕێککەوتن.", // dovetail
+            onPressedBritish: () => speakdovetails1("en-GB"),
+            onPressedAmerican: () => speakdovetails1("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "She dovetails motherhood with a career working from home."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "دایکایەتی گونجاند لەگەڵ کارێک بە کردنی لە ماڵەوە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdovetails2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdovetails2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "She dovetails motherhood with a career working from home.",
+            kurdishText: "دایکایەتی گونجاند لەگەڵ کارێک بە کردنی لە ماڵەوە.",
+            onPressedBritish: () => speakdovetails2("en-GB"),
+            onPressedAmerican: () => speakdovetails2("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٢. (ناو) لێکدەرێک بۆ پێکەوەبەستنی دوو پارچە تەختە پێکەوە"),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The drawer was secured with a dovetail for extra strength."),
-                    ExampleSentenceKurdish(
-                        text: "چەکمەجەکە بە قوڵف‌وبەند بەسترا بۆ ھێزی زیاتر."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdovetails3("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdovetails3("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "The drawer was secured with a dovetail for extra strength.",
+            kurdishText: "چەکمەجەکە بە قوڵف‌وبەند بەسترا بۆ ھێزی زیاتر.",
+            onPressedBritish: () => speakdovetails3("en-GB"),
+            onPressedAmerican: () => speakdovetails3("en-US"),
           ),
           // dovetails400"),
           // speakdovetails4

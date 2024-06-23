@@ -252,61 +252,21 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "١. (ناو) ڕێگایەکی ناڕاستەوخۆ یان جیاواز کە زۆرجار دوورترە و بەکاردێت بۆ دووربوون لە کێشەیەک، چوونە شوێنێک، کردنی شتێک لە ڕێگادا، یان لە بەریتانیا کە ڕێگای سەرەکی داخراوە"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "We had to make a detour around the flooded fields."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "پێویست بوو لاڕێیەک بگرینە بەر بە دەوری کێڵگە ژێرئاوکەوتووەکاندا."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "detour", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdetours1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdetours1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "We had to make a detour around the flooded fields.",
+            kurdishText:
+                "پێویست بوو لاڕێیەک بگرینە بەر بە دەوری کێڵگە ژێرئاوکەوتووەکاندا.", // detour
+            onPressedBritish: () => speakdetours1("en-GB"),
+            onPressedAmerican: () => speakdetours1("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "It's well worth making a detour to see the village."),
-                    ExampleSentenceKurdish(
-                        text: "بینینی گوندەکە شایەنی چوونە قەدبڕێکە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdetours2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdetours2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "It's well worth making a detour to see the village.",
+            kurdishText: "بینینی گوندەکە شایەنی چوونە قەدبڕێکە.",
+            onPressedBritish: () => speakdetours2("en-GB"),
+            onPressedAmerican: () => speakdetours2("en-US"),
           ),
           // detours300"),
           // speakdetours3

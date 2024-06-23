@@ -257,85 +257,28 @@ class KurdishMeaning extends StatelessWidget {
 """),
           const DefinitionKurdish(
               text: "١. (ناو) کەسێک کە زۆری حەز بە کەسێک/شتێکە"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "He’s been a golf devotee for 25 years."),
-                    ExampleSentenceKurdish(text: "بۆ ٢٥ ساڵە ئاشقێکی گۆڵفە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "devotee", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdevotees1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdevotees1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "He’s been a golf devotee for 25 years.",
+            kurdishText: "بۆ ٢٥ ساڵە ئاشقێکی گۆڵفە.", // devotee
+            onPressedBritish: () => speakdevotees1("en-GB"),
+            onPressedAmerican: () => speakdevotees1("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "He is a great devotee of the prime minister."),
-                    ExampleSentenceKurdish(
-                        text: "ھەوادارێکی سەرسەختی سەرۆک وەزیرانە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdevotees2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdevotees2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "He is a great devotee of the prime minister.",
+            kurdishText: "ھەوادارێکی سەرسەختی سەرۆک وەزیرانە.",
+            onPressedBritish: () => speakdevotees2("en-GB"),
+            onPressedAmerican: () => speakdevotees2("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٢. (ناو) کەسێکی زۆر ئایینی کە سەر بە گرووپێکە"),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The temple was filled with devotees of Krishna."),
-                    ExampleSentenceKurdish(
-                        text: "پەرستگاکە پڕبوو لە مریدەکانی خواوەند کریشنا."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdevotees3("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdevotees3("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "The temple was filled with devotees of Krishna.",
+            kurdishText: "پەرستگاکە پڕبوو لە مریدەکانی خواوەند کریشنا.",
+            onPressedBritish: () => speakdevotees3("en-GB"),
+            onPressedAmerican: () => speakdevotees3("en-US"),
           ),
           // devotees400"),
           // speakdevotees4

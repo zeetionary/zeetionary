@@ -560,60 +560,22 @@ class KurdishMeaning extends StatelessWidget {
 کوردی: زوو، پێش‌وەخت، زووتر لەوەختی خۆی، زووتر،	لەسەرەتادا،	سەرەتاکان، دەسپێک، ھەوەڵین، ھەوەڵ‌جار، یەکەمین، سەرەتا،	کۆن، باستانی، زوو،	بەزوویی، دەسبەجێ (وەڵام)
 """),
           const DefinitionKurdish(text: """١. (ھاوەڵناو) سەرەتای شتێک"""),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: """The project is still in the early stages."""),
-                    ExampleSentenceKurdish(
-                        text: """پڕۆژەکە ھێشتا لە قۆناغەکانی سەرەتایەتی."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "early", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakearlys1("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakearlys1("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: """The project is still in the early stages.""",
+            kurdishText: """پڕۆژەکە ھێشتا لە قۆناغەکانی سەرەتایەتی.""", // early
+            onPressedBritish: () => speakearlys1("en-GB"),
+            onPressedAmerican: () => speakearlys1("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            """It is too early to tell how badly the economy will be affected."""),
-                    ExampleSentenceKurdish(
-                        text:
-                            """زۆر زووە بۆ گوتنی ئەوەی چەندە خراپ ئابووری کاریگەر دەبێت."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakearlys2("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakearlys2("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                """It is too early to tell how badly the economy will be affected.""",
+            kurdishText:
+                """زۆر زووە بۆ گوتنی ئەوەی چەندە خراپ ئابووری کاریگەر دەبێت.""",
+            onPressedBritish: () => speakearlys2("en-GB"),
+            onPressedAmerican: () => speakearlys2("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
@@ -621,676 +583,234 @@ class KurdishMeaning extends StatelessWidget {
             children: [
               MyExpansionTile(
                 children: [
-                  Row(
-                    children: [
-                      const Expanded(
-                        child: Column(
-                          children: [
-                            ExampleSentenceEnglish(
-                                text: """He's in his early twenties."""),
-                            ExampleSentenceKurdish(
-                                text: """لە سەرەتای بیستەکانیەتی."""),
-                          ],
-                        ),
-                      ),
-                      const CustomSizedBoxForTTS(),
-                      Column(
-                        children: [
-                          CustomIconButtonBritish(
-                            onPressed: () => speakearlys3("en-GB" ""),
-                          ),
-                          CustomIconButtonAmerican(
-                            onPressed: () => speakearlys3("en-US" ""),
-                          ),
-                        ],
-                      ),
-                    ],
+                  SentencesRow(
+                    englishText: """He's in his early twenties.""",
+                    kurdishText: """لە سەرەتای بیستەکانیەتی.""",
+                    onPressedBritish: () => speakearlys3("en-GB"),
+                    onPressedAmerican: () => speakearlys3("en-US" ""),
                   ),
                   // const DividerDefinition(),
                   // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
                   const DividerSentences(),
-                  Row(
-                    children: [
-                      const Expanded(
-                        child: Column(
-                          children: [
-                            ExampleSentenceEnglish(
-                                text:
-                                    """The ruling overturned the court’s earlier decision."""),
-                            ExampleSentenceKurdish(
-                                text:
-                                    """بڕیارەکە بڕیاری سەرەتای دادگاکەی ھەڵوەشاندەوە."""),
-                          ],
-                        ),
-                      ),
-                      const CustomSizedBoxForTTS(),
-                      Column(
-                        children: [
-                          CustomIconButtonBritish(
-                            onPressed: () => speakearlys4("en-GB" ""),
-                          ),
-                          CustomIconButtonAmerican(
-                            onPressed: () => speakearlys4("en-US" ""),
-                          ),
-                        ],
-                      ),
-                    ],
+                  SentencesRow(
+                    englishText:
+                        """The ruling overturned the court’s earlier decision.""",
+                    kurdishText:
+                        """بڕیارەکە بڕیاری سەرەتای دادگاکەی ھەڵوەشاندەوە.""",
+                    onPressedBritish: () => speakearlys4("en-GB"),
+                    onPressedAmerican: () => speakearlys4("en-US" ""),
                   ),
                   // const DividerDefinition(),
                   // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
                   const DividerSentences(),
-                  Row(
-                    children: [
-                      const Expanded(
-                        child: Column(
-                          children: [
-                            ExampleSentenceEnglish(
-                                text:
-                                    """The earliest description of this species dates from 1703."""),
-                            ExampleSentenceKurdish(
-                                text:
-                                    """سەرەتاییترین ناساندنی ئەم جۆرە بۆ ١٧٠٣ دەگەڕێتەوە."""),
-                          ],
-                        ),
-                      ),
-                      const CustomSizedBoxForTTS(),
-                      Column(
-                        children: [
-                          CustomIconButtonBritish(
-                            onPressed: () => speakearlys5("en-GB" ""),
-                          ),
-                          CustomIconButtonAmerican(
-                            onPressed: () => speakearlys5("en-US" ""),
-                          ),
-                        ],
-                      ),
-                    ],
+                  SentencesRow(
+                    englishText:
+                        """The earliest description of this species dates from 1703.""",
+                    kurdishText:
+                        """سەرەتاییترین ناساندنی ئەم جۆرە بۆ ١٧٠٣ دەگەڕێتەوە.""",
+                    onPressedBritish: () => speakearlys5("en-GB"),
+                    onPressedAmerican: () => speakearlys5("en-US" ""),
                   ),
                   // const DividerDefinition(),
                   // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
                   const DividerSentences(),
-                  Row(
-                    children: [
-                      const Expanded(
-                        child: Column(
-                          children: [
-                            ExampleSentenceEnglish(
-                                text:
-                                    """These discoveries were made at a early date."""),
-                            ExampleSentenceKurdish(
-                                text:
-                                    """ئەم دۆزینەوانە لە ڕێکەوتێکی سەرەتایی کران."""),
-                          ],
-                        ),
-                      ),
-                      const CustomSizedBoxForTTS(),
-                      Column(
-                        children: [
-                          CustomIconButtonBritish(
-                            onPressed: () => speakearlys6("en-GB" ""),
-                          ),
-                          CustomIconButtonAmerican(
-                            onPressed: () => speakearlys6("en-US" ""),
-                          ),
-                        ],
-                      ),
-                    ],
+                  SentencesRow(
+                    englishText:
+                        """These discoveries were made at a early date.""",
+                    kurdishText:
+                        """ئەم دۆزینەوانە لە ڕێکەوتێکی سەرەتایی کران.""",
+                    onPressedBritish: () => speakearlys6("en-GB"),
+                    onPressedAmerican: () => speakearlys6("en-US" ""),
                   ),
                   // const DividerDefinition(),
                   // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
                   const DividerSentences(),
-                  Row(
-                    children: [
-                      const Expanded(
-                        child: Column(
-                          children: [
-                            ExampleSentenceEnglish(
-                                text:
-                                    """An earlier version of this article appeared online."""),
-                            ExampleSentenceKurdish(
-                                text:
-                                    """وەشانێکی کۆنتری ئەم وتارە بۆ ئۆنلاین دەرکەوت."""),
-                          ],
-                        ),
-                      ),
-                      const CustomSizedBoxForTTS(),
-                      Column(
-                        children: [
-                          CustomIconButtonBritish(
-                            onPressed: () => speakearlys7("en-GB" ""),
-                          ),
-                          CustomIconButtonAmerican(
-                            onPressed: () => speakearlys7("en-US" ""),
-                          ),
-                        ],
-                      ),
-                    ],
+                  SentencesRow(
+                    englishText:
+                        """An earlier version of this article appeared online.""",
+                    kurdishText:
+                        """وەشانێکی کۆنتری ئەم وتارە بۆ ئۆنلاین دەرکەوت.""",
+                    onPressedBritish: () => speakearlys7("en-GB"),
+                    onPressedAmerican: () => speakearlys7("en-US" ""),
                   ),
                 ],
               ),
             ],
           ),
+
           const DividerDefinition(),
           const DefinitionKurdish(
               text: """٢. (ھاوەڵناو) گەشتن یان کردن لە پێش کاتی پێشبینیکراو"""),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            """You're early! I wasn't expecting you till seven."""),
-                    ExampleSentenceKurdish(
-                        text: """زوو ھاتوویت! تاوەکو حەوت چاوەڕێم نەدەکردی."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakearlys8("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakearlys8("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: """You're early! I wasn't expecting you till seven.""",
+            kurdishText: """زوو ھاتوویت! تاوەکو حەوت چاوەڕێم نەدەکردی.""",
+            onPressedBritish: () => speakearlys8("en-GB"),
+            onPressedAmerican: () => speakearlys8("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: """The bus was ten minutes early."""),
-                    ExampleSentenceKurdish(
-                        text: """پاسەکە ١٠ خولەک زوو ھات."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakearlys9("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakearlys9("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: """The bus was ten minutes early.""",
+            kurdishText: """پاسەکە ١٠ خولەک زوو ھات.""",
+            onPressedBritish: () => speakearlys9("en-GB"),
+            onPressedAmerican: () => speakearlys9("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            """He learnt to play the piano at an early age."""),
-                    ExampleSentenceKurdish(
-                        text:
-                            """فێری لێدانی پیانۆ بوو لە تەمەنێکی سەرەتادا."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakearlys10("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakearlys10("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: """He learnt to play the piano at an early age.""",
+            kurdishText: """فێری لێدانی پیانۆ بوو لە تەمەنێکی سەرەتادا.""",
+            onPressedBritish: () => speakearlys10("en-GB"),
+            onPressedAmerican: () => speakearlys10("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: """I'm sorry I'm a bit early."""),
-                    ExampleSentenceKurdish(
-                        text: """ببوورە کەمێک زوو ھاتووم."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakearlys11("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakearlys11("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: """I'm sorry I'm a bit early.""",
+            kurdishText: """ببوورە کەمێک زوو ھاتووم.""",
+            onPressedBritish: () => speakearlys11("en-GB"),
+            onPressedAmerican: () => speakearlys11("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            """Victoria has decided to take early retirement."""),
-                    ExampleSentenceKurdish(
-                        text: """ڤیکتۆریا بڕیاری داوە کە زوو خانەنشین ببێت."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakearlys12("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakearlys12("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: """Victoria has decided to take early retirement.""",
+            kurdishText: """ڤیکتۆریا بڕیاری داوە کە زوو خانەنشین ببێت.""",
+            onPressedBritish: () => speakearlys12("en-GB"),
+            onPressedAmerican: () => speakearlys12("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
                   """٣. (ھاوەڵناو) سەر بە سەرەتاکانی مێژوو یان بزووتنەوەیەکی کەلتووری"""),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            """The gallery has an unrivalled collection of early twentieth-century art."""),
-                    ExampleSentenceKurdish(
-                        text:
-                            """پێشانگاکە کۆکراوەیەکی بێ‌وێنەی ھونەری سەرەتای سەدەی بیستی ھەیە."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakearlys13("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakearlys13("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                """The gallery has an unrivalled collection of early twentieth-century art.""",
+            kurdishText:
+                """پێشانگاکە کۆکراوەیەکی بێ‌وێنەی ھونەری سەرەتای سەدەی بیستی ھەیە.""",
+            onPressedBritish: () => speakearlys13("en-GB"),
+            onPressedAmerican: () => speakearlys13("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            """The main construction of the fort belongs to the early medieval period."""),
-                    ExampleSentenceKurdish(
-                        text:
-                            """درووستکردنی یەکەمی قەڵاکە بۆ ماوەی سەرەتای سەردەمی ناوەڕاست دەگەڕێتەوە."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakearlys14("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakearlys14("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                """The main construction of the fort belongs to the early medieval period.""",
+            kurdishText:
+                """درووستکردنی یەکەمی قەڵاکە بۆ ماوەی سەرەتای سەردەمی ناوەڕاست دەگەڕێتەوە.""",
+            onPressedBritish: () => speakearlys14("en-GB"),
+            onPressedAmerican: () => speakearlys14("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: """٤. (ھاوەڵکار) لە سەرەتای شتێک"""),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: """We arrived early the next day."""),
-                    ExampleSentenceKurdish(text: """ڕۆژی دواتر زوو گەشتین."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakearlys15("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakearlys15("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: """We arrived early the next day.""",
+            kurdishText: """ڕۆژی دواتر زوو گەشتین.""",
+            onPressedBritish: () => speakearlys15("en-GB"),
+            onPressedAmerican: () => speakearlys15("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: """We meet the hero quite early in the film."""),
-                    ExampleSentenceKurdish(
-                        text: """پالەوانەکە لە سەرەتای فیلمەکە دەبینین."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakearlys16("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakearlys16("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: """We meet the hero quite early in the film.""",
+            kurdishText: """پالەوانەکە لە سەرەتای فیلمەکە دەبینین.""",
+            onPressedBritish: () => speakearlys16("en-GB"),
+            onPressedAmerican: () => speakearlys16("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: """He started writing music as early as 1989."""),
-                    ExampleSentenceKurdish(
-                        text:
-                            """دەستی بە نووسینی میوزیک کرد لە سەرەتای ١٩٨٩."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakearlys17("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakearlys17("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: """He started writing music as early as 1989.""",
+            kurdishText: """دەستی بە نووسینی میوزیک کرد لە سەرەتای ١٩٨٩.""",
+            onPressedBritish: () => speakearlys17("en-GB"),
+            onPressedAmerican: () => speakearlys17("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            """The best rooms go to those who book earliest."""),
-                    ExampleSentenceKurdish(
-                        text:
-                            """باشترین ژوورەکان بۆ ئەوانە دەبن کە زوو حجز دەکەن."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakearlys18("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakearlys18("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: """The best rooms go to those who book earliest.""",
+            kurdishText:
+                """باشترین ژوورەکان بۆ ئەوانە دەبن کە زوو حجز دەکەن.""",
+            onPressedBritish: () => speakearlys18("en-GB"),
+            onPressedAmerican: () => speakearlys18("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text: """٥. (ھاوەڵکار) پێش کاتی ھەمیشەیی یان دیاریکراو"""),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            """Why don't you go home early if you're not feeling well?"""),
-                    ExampleSentenceKurdish(
-                        text:
-                            """بۆچی زووتر ناچیتە ماڵەوە ئەگەر ھەست بە باشی ناکەیت؟"""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakearlys19("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakearlys19("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                """Why don't you go home early if you're not feeling well?""",
+            kurdishText:
+                """بۆچی زووتر ناچیتە ماڵەوە ئەگەر ھەست بە باشی ناکەیت؟""",
+            onPressedBritish: () => speakearlys19("en-GB"),
+            onPressedAmerican: () => speakearlys19("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            """Get there early to make sure you get good seats."""),
-                    ExampleSentenceKurdish(
-                        text:
-                            """زوو بگە ئەوێ بۆ ئەوەی دڵنیابیت کورسی باش دەبەیت."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakearlys20("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakearlys20("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: """Get there early to make sure you get good seats.""",
+            kurdishText: """زوو بگە ئەوێ بۆ ئەوەی دڵنیابیت کورسی باش دەبەیت.""",
+            onPressedBritish: () => speakearlys20("en-GB"),
+            onPressedAmerican: () => speakearlys20("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: """The bus came five minutes early."""),
-                    ExampleSentenceKurdish(
-                        text: """پاسەکە پێنج خولەک زووتر ھات."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakearlys21("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakearlys21("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: """The bus came five minutes early.""",
+            kurdishText: """پاسەکە پێنج خولەک زووتر ھات.""",
+            onPressedBritish: () => speakearlys21("en-GB"),
+            onPressedAmerican: () => speakearlys21("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: """I woke up early this morning."""),
-                    ExampleSentenceKurdish(
-                        text: """ئەم بەیانییە زوو خەبەرم بوویەوە."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakearlys22("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakearlys22("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: """I woke up early this morning.""",
+            kurdishText: """ئەم بەیانییە زوو خەبەرم بوویەوە.""",
+            onPressedBritish: () => speakearlys22("en-GB"),
+            onPressedAmerican: () => speakearlys22("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(text: """She went to bed early."""),
-                    ExampleSentenceKurdish(text: """زوو چووە جێخەو."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakearlys23("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakearlys23("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: """She went to bed early.""",
+            kurdishText: """زوو چووە جێخەو.""",
+            onPressedBritish: () => speakearlys23("en-GB"),
+            onPressedAmerican: () => speakearlys23("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            """I arrived a few minutes early for my interview."""),
-                    ExampleSentenceKurdish(
-                        text: """چەند خولەکێک زوو گەشتم بۆ چاوپێکەوتنەکەم."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakearlys24("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakearlys24("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: """I arrived a few minutes early for my interview.""",
+            kurdishText: """چەند خولەکێک زوو گەشتم بۆ چاوپێکەوتنەکەم.""",
+            onPressedBritish: () => speakearlys24("en-GB"),
+            onPressedAmerican: () => speakearlys24("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text: """٦. (ھاوەڵکار) پێش کاتی ئێستا یان ئەو کاتەی باسکراوە"""),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: """She had seen him earlier in the day."""),
-                    ExampleSentenceKurdish(
-                        text: """پێشووتر لە ڕۆژەکەدا بینیبووی."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakearlys25("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakearlys25("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: """She had seen him earlier in the day.""",
+            kurdishText: """پێشووتر لە ڕۆژەکەدا بینیبووی.""",
+            onPressedBritish: () => speakearlys25("en-GB"),
+            onPressedAmerican: () => speakearlys25("en-US"),
           ),
           // earlys2600earlys26
           // speakearlys26

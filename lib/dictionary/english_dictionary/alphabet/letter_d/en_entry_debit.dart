@@ -259,114 +259,38 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text: "١. (ناو) بڕی ئەو پارەیەی کە لە ھەژمارێکی بانکی دەرکراوە"),
           // const DefinitionKurdish(text: "١. (ناو) نووسراوێک لە بانکێک یان تۆمارێکی دیکەی دارایی کە بڕی پارەی قەرزکراو و خەرجکراوی تێدایە"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The total debits on the account were £2 000 last month."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "دێبیتی گشتی لەسەر ھەژمارەکە ٢٠٠٠ پاوەند بوو بۆ مانگی ڕابردوو."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "debit", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdebits1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdebits1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "The total debits on the account were £2 000 last month.",
+            kurdishText:
+                "دێبیتی گشتی لەسەر ھەژمارەکە ٢٠٠٠ پاوەند بوو بۆ مانگی ڕابردوو.", // debit
+            onPressedBritish: () => speakdebits1("en-GB"),
+            onPressedAmerican: () => speakdebits1("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The account was in debit at the end of the month (= more money had been spent than was in the account at that time)."),
-                    ExampleSentenceKurdish(
-                        text: "ھەژمارەکە لەکۆتایی مانگدا لە قەرزدا بوو."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdebits2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdebits2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "The account was in debit at the end of the month (= more money had been spent than was in the account at that time).",
+            kurdishText: "ھەژمارەکە لەکۆتایی مانگدا لە قەرزدا بوو.",
+            onPressedBritish: () => speakdebits2("en-GB"),
+            onPressedAmerican: () => speakdebits2("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٢. (کردار) دەرھێنانی پارە لە ھەژمارێکی بانکی"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The money will be debited from your account each month."),
-                    ExampleSentenceKurdish(
-                        text: "پارەکە ھەموو مانگێک لە ھەژمارەکەت ڕادەکێشرێت."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdebits3("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdebits3("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "The money will be debited from your account each month.",
+            kurdishText: "پارەکە ھەموو مانگێک لە ھەژمارەکەت ڕادەکێشرێت.",
+            onPressedBritish: () => speakdebits3("en-GB"),
+            onPressedAmerican: () => speakdebits3("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "The bank debited the money from my account."),
-                    ExampleSentenceKurdish(
-                        text: "بانکەکە پارەکەی لە ھەژمارەکەم ڕاکێشا."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdebits4("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdebits4("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "The bank debited the money from my account.",
+            kurdishText: "بانکەکە پارەکەی لە ھەژمارەکەم ڕاکێشا.",
+            onPressedBritish: () => speakdebits4("en-GB"),
+            onPressedAmerican: () => speakdebits4("en-US"),
           ),
         ],
       ),

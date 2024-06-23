@@ -371,60 +371,22 @@ class KurdishMeaning extends StatelessWidget {
 // کوردی: کوشتن بە برق یان بە کورسی ئێلیکتریکی
 // """),
           const DefinitionKurdish(text: """١. (ناو) کارەباگرتن"""),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            """Six people were drowned; five died from electrocution."""),
-                    ExampleSentenceKurdish(
-                        text: """شەش کەس نوقمبوون؛ پێنج بە کارەباگرتن مردن."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "electrocution", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakelectrocutions1("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakelectrocutions1("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                """Six people were drowned; five died from electrocution.""",
+            kurdishText:
+                """شەش کەس نوقمبوون؛ پێنج بە کارەباگرتن مردن.""", // electrocution
+            onPressedBritish: () => speakelectrocutions1("en-GB"),
+            onPressedAmerican: () => speakelectrocutions1("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            """He was sentenced to death by electrocution."""),
-                    ExampleSentenceKurdish(
-                        text: """سزای مەرگی بە کارەبا بەسەردا سەپێندرا."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakelectrocutions2("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakelectrocutions2("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: """He was sentenced to death by electrocution.""",
+            kurdishText: """سزای مەرگی بە کارەبا بەسەردا سەپێندرا.""",
+            onPressedBritish: () => speakelectrocutions2("en-GB"),
+            onPressedAmerican: () => speakelectrocutions2("en-US"),
           ),
           // electrocutions300electrocutions3
           // speakelectrocutions3

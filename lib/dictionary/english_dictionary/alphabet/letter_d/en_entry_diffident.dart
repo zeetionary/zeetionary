@@ -240,60 +240,22 @@ class KurdishMeaning extends StatelessWidget {
 کوردی: باوەڕبەخۆنەبوو، لەخۆڕانەدیتوو، لەخۆڕانەپەڕموو، بێ‌باوەڕبەخۆ، تەریک،	دوودڵ، دڕدۆنگ، نادڵنیا، کەم‌ڕوو، لەڕووھەڵ‌نەھاتوو، لاتەریک، شەرم‌دار، شەرمێون، ترسەنۆک
 """),
           const DefinitionKurdish(text: "١. (ھاوەڵناو) نەبوونی متمانە بە خۆت"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "He was modest and diffident about his own success."),
-                    ExampleSentenceKurdish(
-                        text: "خاکی و بێ‌شەرم بوو سەبارەت بە سەرکەوتنی خۆی."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "diffident", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdiffidents1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdiffidents1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "He was modest and diffident about his own success.",
+            kurdishText:
+                "خاکی و بێ‌شەرم بوو سەبارەت بە سەرکەوتنی خۆی.", // diffident
+            onPressedBritish: () => speakdiffidents1("en-GB"),
+            onPressedAmerican: () => speakdiffidents1("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "She felt diffident about speaking in public."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "ھەستی بە لەخۆڕانەدیتووی دەکرد سەبارەت بە قسەکردن لەناو خەڵکیدا."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdiffidents2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdiffidents2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "She felt diffident about speaking in public.",
+            kurdishText:
+                "ھەستی بە لەخۆڕانەدیتووی دەکرد سەبارەت بە قسەکردن لەناو خەڵکیدا.",
+            onPressedBritish: () => speakdiffidents2("en-GB"),
+            onPressedAmerican: () => speakdiffidents2("en-US"),
           ),
           // diffidents300"),
           // speakdiffidents3

@@ -397,87 +397,30 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "١. (ناو) دەھۆڵ؛ ئامێرێکی میوزیکی کە لە چوارچێوەیەکی خڕی ناوبۆش پێکھاتووە و بە دوو چیلکە لێی دەدەیت"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "I used to play drums in a band."),
-                    ExampleSentenceKurdish(
-                        text: "جاران دەھۆڵم لێدەدا لە باندێکدا."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "drum", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdrums1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdrums1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "I used to play drums in a band.",
+            kurdishText: "جاران دەھۆڵم لێدەدا لە باندێکدا.", // drum
+            onPressedBritish: () => speakdrums1("en-GB"),
+            onPressedAmerican: () => speakdrums1("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "They danced to the beat of the drums (= sound of the drums being hit)."),
-                    ExampleSentenceKurdish(
-                        text: "لەگەڵ زرمەی دەھۆڵەکاندا سەمایان دەکرد."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdrums2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdrums2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "They danced to the beat of the drums (= sound of the drums being hit).",
+            kurdishText: "لەگەڵ زرمەی دەھۆڵەکاندا سەمایان دەکرد.",
+            onPressedBritish: () => speakdrums2("en-GB"),
+            onPressedAmerican: () => speakdrums2("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: "٢. (ناو) بەرمیل"),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "Hazardous waste is stored in drums until it can be disposed of."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "پاشماوەی مەترسیدار لە بەرمیلدا ھەڵدەگیردرێت تاوەکو دەکرێت فڕێ بدرێت."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdrums3("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdrums3("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "Hazardous waste is stored in drums until it can be disposed of.",
+            kurdishText:
+                "پاشماوەی مەترسیدار لە بەرمیلدا ھەڵدەگیردرێت تاوەکو دەکرێت فڕێ بدرێت.",
+            onPressedBritish: () => speakdrums3("en-GB"),
+            onPressedAmerican: () => speakdrums3("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "٣. (ناو) شتێک کە شێوەیەکی وەک دوومەڵەکی ھەیە"),
@@ -493,63 +436,24 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(text: "٣. (کردار) دوومەڵەک لێدان"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "Then they started chanting and drumming and stamping their feet."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "دواتر دەستیان کرد بە ھاوارکردن و دوومەڵەک لێدان و زرمە‌زرمکردن بە قاچیان."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdrums5("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdrums5("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "Then they started chanting and drumming and stamping their feet.",
+            kurdishText:
+                "دواتر دەستیان کرد بە ھاوارکردن و دوومەڵەک لێدان و زرمە‌زرمکردن بە قاچیان.",
+            onPressedBritish: () => speakdrums5("en-GB"),
+            onPressedAmerican: () => speakdrums5("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
                   "٤. (کردار) دەرکردنی دەنگێک بە کێشان بە ڕوویەکدا دووبارە و دووبارە"),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "His fingers drummed on the door frame."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "پەنجەکانی تەقەتەقیان دەکرد لەسەر چوارچێوەی دەرگاکە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdrums6("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdrums6("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "His fingers drummed on the door frame.",
+            kurdishText: "پەنجەکانی تەقەتەقیان دەکرد لەسەر چوارچێوەی دەرگاکە.",
+            onPressedBritish: () => speakdrums6("en-GB"),
+            onPressedAmerican: () => speakdrums6("en-US"),
           ),
           // drums700"),
           // speakdrums7

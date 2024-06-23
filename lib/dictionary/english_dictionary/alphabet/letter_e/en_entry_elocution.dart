@@ -364,32 +364,13 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   """١. (ناو) توانای قسەکردن بە ڕوونی و درووستی، بەتایبەتی لە شوێنی گشتیدا بەشێوەیەک کە وشەکان بەشێوەیەک دەرببڕیت کە لە ڕووی کۆمەڵایەتییەوە پەسەند بێت"""),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            """Classes in elocution helped him reduce his accent."""),
-                    ExampleSentenceKurdish(
-                        text:
-                            """وانەی ھونەری وتاردان یارمەتیدا ئەکسێنتەکەی کەم بکاتەوە."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "elocution", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakelocutions1("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakelocutions1("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                """Classes in elocution helped him reduce his accent.""",
+            kurdishText:
+                """وانەی ھونەری وتاردان یارمەتیدا ئەکسێنتەکەی کەم بکاتەوە.""", // elocution
+            onPressedBritish: () => speakelocutions1("en-GB"),
+            onPressedAmerican: () => speakelocutions1("en-US"),
           ),
           // elocutions200elocutions2
           // speakelocutions2

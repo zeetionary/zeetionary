@@ -363,32 +363,12 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   """١. (ناو) کەسێکی زۆر زیرەک کە تەنھا حەزی بە خوێندنەوەیە"""),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            """The egghead won the academic competition easily."""),
-                    ExampleSentenceKurdish(
-                        text:
-                            """بیریارەکە بە ئاسانی کێبڕکێ ئەکادیمییەکەی بردەوە."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "egghead", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakeggheads1("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakeggheads1("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: """The egghead won the academic competition easily.""",
+            kurdishText:
+                """بیریارەکە بە ئاسانی کێبڕکێ ئەکادیمییەکەی بردەوە.""", // egghead
+            onPressedBritish: () => speakeggheads1("en-GB"),
+            onPressedAmerican: () => speakeggheads1("en-US"),
           ),
           // eggheads200eggheads2
           // speakeggheads2

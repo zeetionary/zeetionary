@@ -413,206 +413,74 @@ class KurdishMeaning extends StatelessWidget {
 """),
           const DefinitionKurdish(
               text: "١. (ناو) ھەستی نیگەرانی یان بێزاری زۆر"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "She sensed his deep emotional distress."),
-                    ExampleSentenceKurdish(
-                        text: "ھەستی بە دڵتەنگییە قووڵە سۆزدارییەکەی کرد."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "distress", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdistresss1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdistresss1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "She sensed his deep emotional distress.",
+            kurdishText:
+                "ھەستی بە دڵتەنگییە قووڵە سۆزدارییەکەی کرد.", // distress
+            onPressedBritish: () => speakdistresss1("en-GB"),
+            onPressedAmerican: () => speakdistresss1("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "She was obviously in distress after the attack."),
-                    ExampleSentenceKurdish(
-                        text: "بە ئاشکرایی لە نیگەرانیدا بوو لە دوای ھێرشەکە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdistresss2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdistresss2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "She was obviously in distress after the attack.",
+            kurdishText: "بە ئاشکرایی لە نیگەرانیدا بوو لە دوای ھێرشەکە.",
+            onPressedBritish: () => speakdistresss2("en-GB"),
+            onPressedAmerican: () => speakdistresss2("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
                   "٢. (ناو) کێشەی قووڵ کە درووست دەبێت بەھۆی ئەوەی بەشی پێویست نییە لە پارە، خواردن، ھتد"),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The charity aims to relieve poverty and distress caused by natural disasters."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "دامەزراوە خێرخوازییەکە ئامانجیەتی ھەژاری و سەختی نەھێڵێت کە بەھۆی کارەساتە سرووشتییەکانەوە درووست بوونە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdistresss3("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdistresss3("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "The charity aims to relieve poverty and distress caused by natural disasters.",
+            kurdishText:
+                "دامەزراوە خێرخوازییەکە ئامانجیەتی ھەژاری و سەختی نەھێڵێت کە بەھۆی کارەساتە سرووشتییەکانەوە درووست بوونە.",
+            onPressedBritish: () => speakdistresss3("en-GB"),
+            onPressedAmerican: () => speakdistresss3("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
                   "٣. (ناو) دۆخێک کە تێیدا کەشتییەک، فڕۆکەیەک، ھتد لە دۆخێکی سەختدایە و پێویستی بە یارمەتییە"),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "It is a rule of the sea to help another boat in distress."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "ئەوە یاسایەکی دەریایە کە یارمەتی بەلەمێکی دیکە بدەیت کە لە کێشەدایە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdistresss4("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdistresss4("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "It is a rule of the sea to help another boat in distress.",
+            kurdishText:
+                "ئەوە یاسایەکی دەریایە کە یارمەتی بەلەمێکی دیکە بدەیت کە لە کێشەدایە.",
+            onPressedBritish: () => speakdistresss4("en-GB"),
+            onPressedAmerican: () => speakdistresss4("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٤. (ناو) ئازاری جەستەیی، بەتایبەتی بەھۆی سەختی ھەناسەدان"),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "The baby was clearly in distress."),
-                    ExampleSentenceKurdish(
-                        text: "منداڵەکە بە ئاشکرایی لە نەڕەحەتیدا بوو."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdistresss5("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdistresss5("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "The baby was clearly in distress.",
+            kurdishText: "منداڵەکە بە ئاشکرایی لە نەڕەحەتیدا بوو.",
+            onPressedBritish: () => speakdistresss5("en-GB"),
+            onPressedAmerican: () => speakdistresss5("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
                   "٥. (کردار) وا لە کەسێک بکەیت ھەست بە نیگەرانی یان بێزاری بکات"),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "It was clear that the letter had deeply distressed her."),
-                    ExampleSentenceKurdish(
-                        text: "ئاشکرابوو کە نامەکە بە قووڵی بێزاری کردبوو."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdistresss6("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdistresss6("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "It was clear that the letter had deeply distressed her.",
+            kurdishText: "ئاشکرابوو کە نامەکە بە قووڵی بێزاری کردبوو.",
+            onPressedBritish: () => speakdistresss6("en-GB"),
+            onPressedAmerican: () => speakdistresss6("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "Don't distress yourself (= don't worry)."),
-                    ExampleSentenceKurdish(text: "خۆت نیگەران مەکە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdistresss7("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdistresss7("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "Don't distress yourself (= don't worry).",
+            kurdishText: "خۆت نیگەران مەکە.",
+            onPressedBritish: () => speakdistresss7("en-GB"),
+            onPressedAmerican: () => speakdistresss7("en-US"),
           ),
           // distresss800"),
           // speakdistresss8

@@ -321,330 +321,104 @@ class KurdishMeaning extends StatelessWidget {
 """),
           const DefinitionKurdish(
               text: "١. (کردار) گۆڕینی شێوەت بۆ ئەوەی نەناسرێیتەوە"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "The hijackers were heavily disguised."),
-                    ExampleSentenceKurdish(
-                        text: "ڕفێنەرەکان تەواو خۆیان گۆڕیبوو."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "disguise", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdisguises1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdisguises1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "The hijackers were heavily disguised.",
+            kurdishText: "ڕفێنەرەکان تەواو خۆیان گۆڕیبوو.", // disguise
+            onPressedBritish: () => speakdisguises1("en-GB"),
+            onPressedAmerican: () => speakdisguises1("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "They got in disguised as security guards."),
-                    ExampleSentenceKurdish(
-                        text: "وەک پاسەوانی ئاسایش خۆیان گۆڕیبوو."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdisguises2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdisguises2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "They got in disguised as security guards.",
+            kurdishText: "وەک پاسەوانی ئاسایش خۆیان گۆڕیبوو.",
+            onPressedBritish: () => speakdisguises2("en-GB"),
+            onPressedAmerican: () => speakdisguises2("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "She was cleverly disguised as a policewoman."),
-                    ExampleSentenceKurdish(
-                        text: "بە ڕوونی وەک ژنە پۆلیسێک خۆی گۆڕیبوو."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdisguises3("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdisguises3("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "She was cleverly disguised as a policewoman.",
+            kurdishText: "بە ڕوونی وەک ژنە پۆلیسێک خۆی گۆڕیبوو.",
+            onPressedBritish: () => speakdisguises3("en-GB"),
+            onPressedAmerican: () => speakdisguises3("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "She disguised herself as a boy."),
-                    ExampleSentenceKurdish(text: "کچەکە خۆی وەک کوڕ گۆڕی بوو."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdisguises4("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdisguises4("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "She disguised herself as a boy.",
+            kurdishText: "کچەکە خۆی وەک کوڕ گۆڕی بوو.",
+            onPressedBritish: () => speakdisguises4("en-GB"),
+            onPressedAmerican: () => speakdisguises4("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٢. (کردار) شاردەوەی شتێک یان گۆڕینی بۆ ئەوەی نەناسرێتەوە"),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "She made no attempt to disguise her surprise."),
-                    ExampleSentenceKurdish(
-                        text: "ھیچ ھەوڵێکی نەدا بۆ شاردنەوەی حەپەسانی."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdisguises5("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdisguises5("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "She made no attempt to disguise her surprise.",
+            kurdishText: "ھیچ ھەوڵێکی نەدا بۆ شاردنەوەی حەپەسانی.",
+            onPressedBritish: () => speakdisguises5("en-GB"),
+            onPressedAmerican: () => speakdisguises5("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "She couldn't disguise the fact that she felt uncomfortable."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "نەیدەتوانی ئەو ڕاستییە بشارێتەوە کە ھەستی بە ناڕەحەتی دەکرد."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdisguises6("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdisguises6("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "She couldn't disguise the fact that she felt uncomfortable.",
+            kurdishText:
+                "نەیدەتوانی ئەو ڕاستییە بشارێتەوە کە ھەستی بە ناڕەحەتی دەکرد.",
+            onPressedBritish: () => speakdisguises6("en-GB"),
+            onPressedAmerican: () => speakdisguises6("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "He tried to disguise his accent."),
-                    ExampleSentenceKurdish(
-                        text: "ھەوڵیدا ئەکسێنتەکەی بشارێتەوە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdisguises7("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdisguises7("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "He tried to disguise his accent.",
+            kurdishText: "ھەوڵیدا ئەکسێنتەکەی بشارێتەوە.",
+            onPressedBritish: () => speakdisguises7("en-GB"),
+            onPressedAmerican: () => speakdisguises7("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
                   "٣. (ناو) شتێک کە لەبەری دەکەیت یان بەکاری دەھێنیت بۆ ئەوەی شێوەت بگۆڕیت تاوەکو خەڵکی نەتناسنەوە"),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "She wore glasses and a wig as a disguise."),
-                    ExampleSentenceKurdish(
-                        text: "چاویلکە و زڕپرچی لەبەرکرد بۆ خۆشاردنەوە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdisguises8("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdisguises8("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "She wore glasses and a wig as a disguise.",
+            kurdishText: "چاویلکە و زڕپرچی لەبەرکرد بۆ خۆشاردنەوە.",
+            onPressedBritish: () => speakdisguises8("en-GB"),
+            onPressedAmerican: () => speakdisguises8("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The star travelled in disguise (= wearing a disguise)."),
-                    ExampleSentenceKurdish(
-                        text: "ئەستێرەکە بە شاراوەیی گەشتی دەکرد."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdisguises9("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdisguises9("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "The star travelled in disguise (= wearing a disguise).",
+            kurdishText: "ئەستێرەکە بە شاراوەیی گەشتی دەکرد.",
+            onPressedBritish: () => speakdisguises9("en-GB"),
+            onPressedAmerican: () => speakdisguises9("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٤. (ناو) ھونەری گۆڕینی ڕواڵەت بۆ ئەوەی خەڵکی نەتناسنەوە"),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(text: "He is a master of disguise."),
-                    ExampleSentenceKurdish(text: "شارەزای خۆشاردنەوەیە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdisguises10("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdisguises10("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "He is a master of disguise.",
+            kurdishText: "شارەزای خۆشاردنەوەیە.",
+            onPressedBritish: () => speakdisguises10("en-GB"),
+            onPressedAmerican: () => speakdisguises10("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٥. (ناو) شێوازێکی شاردنەوەی ڕواڵەتی سرووشتی شتێک"),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "His angelic look is just a disguise."),
-                    ExampleSentenceKurdish(
-                        text: "شێوە فریشتەئاساکەی تەنھا فریودەرێکە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdisguises11("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdisguises11("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "His angelic look is just a disguise.",
+            kurdishText: "شێوە فریشتەئاساکەی تەنھا فریودەرێکە.",
+            onPressedBritish: () => speakdisguises11("en-GB"),
+            onPressedAmerican: () => speakdisguises11("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "Her books can be history lessons in disguise."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "کتێبەکانی دەکرێت وانەی مێژووش بن لە پشت پەردەوە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdisguises12("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdisguises12("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "Her books can be history lessons in disguise.",
+            kurdishText: "کتێبەکانی دەکرێت وانەی مێژووش بن لە پشت پەردەوە.",
+            onPressedBritish: () => speakdisguises12("en-GB"),
+            onPressedAmerican: () => speakdisguises12("en-US"),
           ),
           // disguises1300"),
           // speakdisguises13

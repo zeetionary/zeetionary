@@ -365,32 +365,13 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   """١. (ناو) شتێک کە پێشوەختە ئاگاداری دەکاتەوە لە ڕوودانی شتێکی مەترسیدار یان گرنگ"""),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            """The sensors provide early warning of the approach of enemy troops."""),
-                    ExampleSentenceKurdish(
-                        text:
-                            """ھەستەوەرەکان ئاماژەی سەرەتایی نزیکبوونەوەی ھێزەکانی دوژمنیان دابەدەستەوە."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "early warning", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakearlywarnings1("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakearlywarnings1("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                """The sensors provide early warning of the approach of enemy troops.""",
+            kurdishText:
+                """ھەستەوەرەکان ئاماژەی سەرەتایی نزیکبوونەوەی ھێزەکانی دوژمنیان دابەدەستەوە.""", // early warning
+            onPressedBritish: () => speakearlywarnings1("en-GB"),
+            onPressedAmerican: () => speakearlywarnings1("en-US"),
           ),
           // earlywarnings200earlywarnings2
           // speakearlywarnings2

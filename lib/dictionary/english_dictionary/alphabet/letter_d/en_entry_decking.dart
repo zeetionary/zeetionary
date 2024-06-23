@@ -233,32 +233,13 @@ class KurdishMeaning extends StatelessWidget {
 // """),
           const DefinitionKurdish(
               text: "١. (ناو) تەختە کە بۆ درووستکردنی سەکۆیەکی دارین بەکاردێت"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The decking was designed to be slip-resistant, making it safe for children and pets to play on."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "سەکۆکە وەھا دیزاین کرا ژە دژ بە خزان بێت و وای لێ بکات سەلامەت بێت بۆ منداڵان و ئاژەڵان کە یاری لەسەر بکەن."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "decking", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdeckings1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdeckings1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "The decking was designed to be slip-resistant, making it safe for children and pets to play on.",
+            kurdishText:
+                "سەکۆکە وەھا دیزاین کرا ژە دژ بە خزان بێت و وای لێ بکات سەلامەت بێت بۆ منداڵان و ئاژەڵان کە یاری لەسەر بکەن.", // decking
+            onPressedBritish: () => speakdeckings1("en-GB"),
+            onPressedAmerican: () => speakdeckings1("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "٢. (ھاوەڵناو) پێنناسە"),

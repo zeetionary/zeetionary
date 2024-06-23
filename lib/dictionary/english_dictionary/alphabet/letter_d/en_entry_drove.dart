@@ -370,60 +370,22 @@ class KurdishMeaning extends StatelessWidget {
 کوردی: ڕان، مێگەڵ، کەرک، ڕەوە، ڕەڤە،	کۆمەڵ، حەشیمەت، جەماعەت، دەستە
 """),
           const DefinitionKurdish(text: "١. (ناو) بە ژمارەیەکی زۆر"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "People were leaving the countryside in droves to look for work in the cities."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "خەڵکی بە ژمارەیەکی زۆر دەشتەکانیان جێدەھێشت بۆ گەڕان بۆ کار لە شارەکان."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "drove", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdroves1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdroves1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "People were leaving the countryside in droves to look for work in the cities.",
+            kurdishText:
+                "خەڵکی بە ژمارەیەکی زۆر دەشتەکانیان جێدەھێشت بۆ گەڕان بۆ کار لە شارەکان.", // drove
+            onPressedBritish: () => speakdroves1("en-GB"),
+            onPressedAmerican: () => speakdroves1("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "Tourists started arriving in their droves."),
-                    ExampleSentenceKurdish(
-                        text: "گەشتیاران دەستیان کرد بەوەی بە کۆمەڵ بێن."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdroves2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdroves2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "Tourists started arriving in their droves.",
+            kurdishText: "گەشتیاران دەستیان کرد بەوەی بە کۆمەڵ بێن.",
+            onPressedBritish: () => speakdroves2("en-GB"),
+            onPressedAmerican: () => speakdroves2("en-US"),
           ),
           // droves300"),
           // speakdroves3

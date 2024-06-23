@@ -294,228 +294,74 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "١. (کردار) بڕیاردانی ئەوەی کە کەسێک/شتێک گرنگ نییە و پێویست ناکات بیری لێ بکەیتەوە"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The criticisms were summarily dismissed by the government."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "ڕەخنەکان دەستبەجێ لەلایەن حکومەتەوە ڕەتکرانەوە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "dismiss", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdismisss1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdismisss1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "The criticisms were summarily dismissed by the government.",
+            kurdishText:
+                "ڕەخنەکان دەستبەجێ لەلایەن حکومەتەوە ڕەتکرانەوە.", // dismiss
+            onPressedBritish: () => speakdismisss1("en-GB"),
+            onPressedAmerican: () => speakdismisss1("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "Rob is quick to dismiss the notion that his trip was horrific."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "ڕۆب خێرایە لەوەی ئەو دیدە بەلابخات کە گەشتەکەی خراپ بوو."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdismisss2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdismisss2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "Rob is quick to dismiss the notion that his trip was horrific.",
+            kurdishText:
+                "ڕۆب خێرایە لەوەی ئەو دیدە بەلابخات کە گەشتەکەی خراپ بوو.",
+            onPressedBritish: () => speakdismisss2("en-GB"),
+            onPressedAmerican: () => speakdismisss2("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "I think we can safely dismiss their objections."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "پێموایە بەبێ کێشە دەتوانین ناڕەزایاتییان پشتگوێ بخەین."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdismisss3("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdismisss3("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "I think we can safely dismiss their objections.",
+            kurdishText:
+                "پێموایە بەبێ کێشە دەتوانین ناڕەزایاتییان پشتگوێ بخەین.",
+            onPressedBritish: () => speakdismisss3("en-GB"),
+            onPressedAmerican: () => speakdismisss3("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "His supporters dismissed the allegations as politically motivated."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "لایەنگرەکانی تۆمەتەکانیان بە پاڵنەری سیاسی دانا (و ڕەتیان کردەوە)."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdismisss4("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdismisss4("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "His supporters dismissed the allegations as politically motivated.",
+            kurdishText:
+                "لایەنگرەکانی تۆمەتەکانیان بە پاڵنەری سیاسی دانا (و ڕەتیان کردەوە).",
+            onPressedBritish: () => speakdismisss4("en-GB"),
+            onPressedAmerican: () => speakdismisss4("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The suggestion should not be dismissed out of hand (= without thinking about it)."),
-                    ExampleSentenceKurdish(
-                        text: "بیرۆکەکە نابێت بەبێ بیرکردنەوە پشتگوێ بخرێت."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdismisss5("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdismisss5("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "The suggestion should not be dismissed out of hand (= without thinking about it).",
+            kurdishText: "بیرۆکەکە نابێت بەبێ بیرکردنەوە پشتگوێ بخرێت.",
+            onPressedBritish: () => speakdismisss5("en-GB"),
+            onPressedAmerican: () => speakdismisss5("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٢. (کردار) پشتگوێ خستنی ھزر و بیر کە مێشکتدا"),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "Dismissing her fears, she climbed higher."),
-                    ExampleSentenceKurdish(
-                        text: "بە وەلانانی ترسەکانی، زیاتر سەرکەوت."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdismisss6("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdismisss6("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "Dismissing her fears, she climbed higher.",
+            kurdishText: "بە وەلانانی ترسەکانی، زیاتر سەرکەوت.",
+            onPressedBritish: () => speakdismisss6("en-GB"),
+            onPressedAmerican: () => speakdismisss6("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "He dismissed her from his mind."),
-                    ExampleSentenceKurdish(
-                        text: "کچەکەی لە یادەوەریی سڕییەوە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdismisss7("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdismisss7("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "He dismissed her from his mind.",
+            kurdishText: "کچەکەی لە یادەوەریی سڕییەوە.",
+            onPressedBritish: () => speakdismisss7("en-GB"),
+            onPressedAmerican: () => speakdismisss7("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: "٣. (کردار) دەرکردنی کەسێک لە کارەکەی"),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "She claims she was unfairly dismissed from her post."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "بانگەشەی ئەوە دەکات کە بە نادادپەروەرانە لە کارەکەی دەرکرا."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdismisss8("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdismisss8("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "She claims she was unfairly dismissed from her post.",
+            kurdishText:
+                "بانگەشەی ئەوە دەکات کە بە نادادپەروەرانە لە کارەکەی دەرکرا.",
+            onPressedBritish: () => speakdismisss8("en-GB"),
+            onPressedAmerican: () => speakdismisss8("en-US"),
           ),
           // dismisss900"),
           // speakdismisss9

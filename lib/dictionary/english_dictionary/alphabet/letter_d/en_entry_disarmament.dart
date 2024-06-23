@@ -243,60 +243,22 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "١. (ناو) چەکداماڵینی وڵاتێک؛ ئەوەی کە وڵاتێک دەستبەرداری سوپاکەی یان ژمارەی چەکەکانی بێت، بەتایبەتی چەکی ئەتۆمی"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "They campaigned for nuclear disarmament."),
-                    ExampleSentenceKurdish(
-                        text: "پشتگیری داماڵینی ئەتۆمیان دەکرد."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "disarmament", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdisarmaments1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdisarmaments1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "They campaigned for nuclear disarmament.",
+            kurdishText: "پشتگیری داماڵینی ئەتۆمیان دەکرد.", // disarmament
+            onPressedBritish: () => speakdisarmaments1("en-GB"),
+            onPressedAmerican: () => speakdisarmaments1("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "He believes in using limited force to achieve disarmament."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "باوەڕی بە بەکارھێنانی ھێزی سنووردار ھەیە بۆ بەدەستھێنانی چەکداماڵین."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdisarmaments2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdisarmaments2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "He believes in using limited force to achieve disarmament.",
+            kurdishText:
+                "باوەڕی بە بەکارھێنانی ھێزی سنووردار ھەیە بۆ بەدەستھێنانی چەکداماڵین.",
+            onPressedBritish: () => speakdisarmaments2("en-GB"),
+            onPressedAmerican: () => speakdisarmaments2("en-US"),
           ),
           // disarmaments300"),
           // speakdisarmaments3

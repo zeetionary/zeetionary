@@ -370,57 +370,20 @@ class KurdishMeaning extends StatelessWidget {
 """),
           const DefinitionKurdish(
               text: "١. (ھاوەڵناو) ماندوو و ئەوەی بتەوێت بخەویت"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "The tablets may make you feel drowsy."),
-                    ExampleSentenceKurdish(
-                        text: "حەبەکان ڕەنگە خەواڵووت بکەن."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "drowsy", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdrowsys1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdrowsys1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "The tablets may make you feel drowsy.",
+            kurdishText: "حەبەکان ڕەنگە خەواڵووت بکەن.", // drowsy
+            onPressedBritish: () => speakdrowsys1("en-GB"),
+            onPressedAmerican: () => speakdrowsys1("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "He was drowsy with the heat."),
-                    ExampleSentenceKurdish(text: "خەواڵوو بوو بە گەرماکە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdrowsys2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdrowsys2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "He was drowsy with the heat.",
+            kurdishText: "خەواڵوو بوو بە گەرماکە.",
+            onPressedBritish: () => speakdrowsys2("en-GB"),
+            onPressedAmerican: () => speakdrowsys2("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),

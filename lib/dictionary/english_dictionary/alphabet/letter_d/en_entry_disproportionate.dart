@@ -245,61 +245,24 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "١. (ھاوەڵناو) زۆر گەورە یان بچووک بە بەراورد لەگەڵ شتێکی دیکە"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "There are a disproportionate number of girls in the class."),
-                    ExampleSentenceKurdish(
-                        text: "ژمارەیەکی ناھاوڕێژە لە کچان لە پۆلەکەدان."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "disproportionate", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdisproportionates1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdisproportionates1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "There are a disproportionate number of girls in the class.",
+            kurdishText:
+                "ژمارەیەکی ناھاوڕێژە لە کچان لە پۆلەکەدان.", // disproportionate
+            onPressedBritish: () => speakdisproportionates1("en-GB"),
+            onPressedAmerican: () => speakdisproportionates1("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The country's great influence in the world is disproportionate to its relatively small size."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "کاریگەری گەورەی وڵاتەکە لە جیھاندا نابەرامبەرە بە قەبارە تاڕادە بچووکەکەی."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdisproportionates2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdisproportionates2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "The country's great influence in the world is disproportionate to its relatively small size.",
+            kurdishText:
+                "کاریگەری گەورەی وڵاتەکە لە جیھاندا نابەرامبەرە بە قەبارە تاڕادە بچووکەکەی.",
+            onPressedBritish: () => speakdisproportionates2("en-GB"),
+            onPressedAmerican: () => speakdisproportionates2("en-US"),
           ),
           // disproportionates300"),
           // speakdisproportionates3

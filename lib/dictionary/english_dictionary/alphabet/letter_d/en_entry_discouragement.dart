@@ -254,94 +254,36 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "١. (ناو) ھەستی ئەوەی کە چی دیکە ورە و جۆش و خرۆشی کردنی کارێکت نییە"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The team felt discouragement after losing the game."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "تیمەکە ھەستی بە بێ‌ھیوایی دەکرد لە دوای دۆڕاندنی یارییەکە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "discouragement", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdiscouragements1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdiscouragements1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "The team felt discouragement after losing the game.",
+            kurdishText:
+                "تیمەکە ھەستی بە بێ‌ھیوایی دەکرد لە دوای دۆڕاندنی یارییەکە.", // discouragement
+            onPressedBritish: () => speakdiscouragements1("en-GB"),
+            onPressedAmerican: () => speakdiscouragements1("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: "٢. (ناو) ھەوڵدان بۆ وەستاندنی شتێک"),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The government's discouragement affected the turnout at the protest."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "پێشگیریی حکومەت کاریگەری لەسەر بەژداربوون لە خۆپیشاندانەکە ھەبوو."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdiscouragements2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdiscouragements2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "The government's discouragement affected the turnout at the protest.",
+            kurdishText:
+                "پێشگیریی حکومەت کاریگەری لەسەر بەژداربوون لە خۆپیشاندانەکە ھەبوو.",
+            onPressedBritish: () => speakdiscouragements2("en-GB"),
+            onPressedAmerican: () => speakdiscouragements2("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
                   "٣. (ناو) شتێک کە متمانە و جۆش و خرۆشیت سەبارەت بە کردنی شتێک ناھێڵێت"),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "Despite all these discouragements, she refused to give up."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "سەرەڕای ئەم ھەموو ساردکەرەوەیە، ڕەتیکردەوە وازبھێنێت."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdiscouragements3("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdiscouragements3("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "Despite all these discouragements, she refused to give up.",
+            kurdishText:
+                "سەرەڕای ئەم ھەموو ساردکەرەوەیە، ڕەتیکردەوە وازبھێنێت.",
+            onPressedBritish: () => speakdiscouragements3("en-GB"),
+            onPressedAmerican: () => speakdiscouragements3("en-US"),
           ),
           // discouragements400"),
           // speakdiscouragements4

@@ -248,59 +248,21 @@ class KurdishMeaning extends StatelessWidget {
 // """),
           const DefinitionKurdish(
               text: "١. (کردار) نەھێشتنی ئاو لە خواردندا بۆ پاراستنی"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "The machine can dehydrate vegetables quickly."),
-                    ExampleSentenceKurdish(
-                        text: "ئامێرەکە دەتوانێت بەخێرایی سەوزە وشک بکاتەوە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "dehydrate", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdehydrates1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdehydrates1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "The machine can dehydrate vegetables quickly.",
+            kurdishText:
+                "ئامێرەکە دەتوانێت بەخێرایی سەوزە وشک بکاتەوە.", // dehydrate
+            onPressedBritish: () => speakdehydrates1("en-GB"),
+            onPressedAmerican: () => speakdehydrates1("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٢. (کردار) لەدەستدانی ئاوی زۆر لە لەشت"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "Runners can dehydrate very quickly in this heat."),
-                    ExampleSentenceKurdish(
-                        text: "ڕاکەران دەکرێت زوو وشک ببنەوە لەبەر گەرماکەدا."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdehydrates2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdehydrates2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "Runners can dehydrate very quickly in this heat.",
+            kurdishText: "ڕاکەران دەکرێت زوو وشک ببنەوە لەبەر گەرماکەدا.",
+            onPressedBritish: () => speakdehydrates2("en-GB"),
+            onPressedAmerican: () => speakdehydrates2("en-US"),
           ),
           // dehydrates300"),
           // speakdehydrates3

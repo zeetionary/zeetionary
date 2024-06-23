@@ -243,61 +243,23 @@ class KurdishMeaning extends StatelessWidget {
 """),
           const DefinitionKurdish(
               text: "١. (ھاوەڵکار) بەوەی کە گوێڕایەڵ نابیت"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The son disobediently refused to go with his father."),
-                    ExampleSentenceKurdish(
-                        text: "کوڕەکە لاسارانە ڕەتیکردەوە لەگەڵ باوکیدا بچێت."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "disobediently", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdisobedientlys1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdisobedientlys1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "The son disobediently refused to go with his father.",
+            kurdishText:
+                "کوڕەکە لاسارانە ڕەتیکردەوە لەگەڵ باوکیدا بچێت.", // disobediently
+            onPressedBritish: () => speakdisobedientlys1("en-GB"),
+            onPressedAmerican: () => speakdisobedientlys1("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "I watched boys swim disobediently in the waters of the bay."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "سەیری ئەو کوڕانەم دەکرد کە لاسارانە لە ئاوی کەنداوەکە مەلەیان دەکرد."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdisobedientlys2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdisobedientlys2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "I watched boys swim disobediently in the waters of the bay.",
+            kurdishText:
+                "سەیری ئەو کوڕانەم دەکرد کە لاسارانە لە ئاوی کەنداوەکە مەلەیان دەکرد.",
+            onPressedBritish: () => speakdisobedientlys2("en-GB"),
+            onPressedAmerican: () => speakdisobedientlys2("en-US"),
           ),
           // disobedientlys300"),
           // speakdisobedientlys3

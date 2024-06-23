@@ -249,88 +249,31 @@ class KurdishMeaning extends StatelessWidget {
 """),
           const DefinitionKurdish(
               text: "١. (ناو) ڕێگایەک، ڕێڕەوێک، ھتد کە لە سەرێکەوە گیرابێت"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The first street we tried turned out to be a dead end."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "یەکەم شەقام کە تاقیمان کردەوە وادەرکەوت کە بن‌بەستێک بێت."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "dead end", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdeadends1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdeadends1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "The first street we tried turned out to be a dead end.",
+            kurdishText:
+                "یەکەم شەقام کە تاقیمان کردەوە وادەرکەوت کە بن‌بەستێک بێت.", // dead end
+            onPressedBritish: () => speakdeadends1("en-GB"),
+            onPressedAmerican: () => speakdeadends1("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
                   "٢. (ناو) خاڵێک کە تێیدا ناتوانیت ھیچ بەرەوپێشچوونێکی دیکەت ھەبێت"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "We had come to a dead end in our research."),
-                    ExampleSentenceKurdish(
-                        text: "لە توێژینەوەکەماندا نەگەشتبووینە ھیچ ئەنجامێک."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdeadends2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdeadends2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "We had come to a dead end in our research.",
+            kurdishText: "لە توێژینەوەکەماندا نەگەشتبووینە ھیچ ئەنجامێک.",
+            onPressedBritish: () => speakdeadends2("en-GB"),
+            onPressedAmerican: () => speakdeadends2("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "He's in a dead-end job in the local factory (= one with low wages and no hope of promotion)."),
-                    ExampleSentenceKurdish(
-                        text: "لە کارێکی بێ‌مایەیە لە کارگەکە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdeadends3("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdeadends3("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "He's in a dead-end job in the local factory (= one with low wages and no hope of promotion).",
+            kurdishText: "لە کارێکی بێ‌مایەیە لە کارگەکە.",
+            onPressedBritish: () => speakdeadends3("en-GB"),
+            onPressedAmerican: () => speakdeadends3("en-US"),
           ),
         ],
       ),

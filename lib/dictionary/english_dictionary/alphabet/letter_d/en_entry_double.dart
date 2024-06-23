@@ -528,601 +528,201 @@ class KurdishMeaning extends StatelessWidget {
 کوردی: دووئەوندە، دووبەرامبەر، دووقات، دووچەندان، یەکاویەک،	دووانە، جووت، دووانی،	دووکەسە، دووانە،	دوومانادار، دووواتا، لێڵ،	دووڕوو،	جووت، تا، لف، ھاوشێوە، دەقاودەق، لێک‌چوو، وەک‌یەک (دوو کەسی لێک‌چوو)،	(یاری) دوبل، دابڵ،	(ڕووەک) پڕگەڵا، گەڵازۆر،	دووتەرکە،	دووسەر، جووت‌سەر
 """),
           const DefinitionKurdish(text: "١. (ھاوەڵناو) دوو ھێندە "),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "I ordered a double espresso (= two standard amounts in one cup)."),
-                    ExampleSentenceKurdish(
-                        text: "داوای ئێسپرێسۆیەکی دەبڵم کرد."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "double", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdoubles1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdoubles1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "I ordered a double espresso (= two standard amounts in one cup).",
+            kurdishText: "داوای ئێسپرێسۆیەکی دەبڵم کرد.", // double
+            onPressedBritish: () => speakdoubles1("en-GB"),
+            onPressedAmerican: () => speakdoubles1("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "This painkiller is double strength (= has twice the normal amount of medicine)."),
-                    ExampleSentenceKurdish(
-                        text: "ئازارکوژەکان ھێزی دوو ھێندەیان ھەیە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdoubles2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdoubles2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "This painkiller is double strength (= has twice the normal amount of medicine).",
+            kurdishText: "ئازارکوژەکان ھێزی دوو ھێندەیان ھەیە.",
+            onPressedBritish: () => speakdoubles2("en-GB"),
+            onPressedAmerican: () => speakdoubles2("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: "٢. (ھاوەڵناو) کە دوو بەشی ھەیە"),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "Go through the double doors and turn left."),
-                    ExampleSentenceKurdish(
-                        text: "بە جووت دەرگاکان بچۆ و بە چەپدا پێچ بکەوە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdoubles3("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdoubles3("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "Go through the double doors and turn left.",
+            kurdishText: "بە جووت دەرگاکان بچۆ و بە چەپدا پێچ بکەوە.",
+            onPressedBritish: () => speakdoubles3("en-GB"),
+            onPressedAmerican: () => speakdoubles3("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "٣. (ناو) پێنناسە"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "‘Otter’ is spelt with a double t."),
-                    ExampleSentenceKurdish(
-                        text: "وشەی 'otter' بە دوو t ڕێنووس دەکرێت."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdoubles4("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdoubles4("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "‘Otter’ is spelt with a double t.",
+            kurdishText: "وشەی 'otter' بە دوو t ڕێنووس دەکرێت.",
+            onPressedBritish: () => speakdoubles4("en-GB"),
+            onPressedAmerican: () => speakdoubles4("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "My number is two four double 0 six seven one (2400671)."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "ژمارەکەم بریتییە لە دوو چوار دەبڵ سفر شەش حەوت یەک."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdoubles5("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdoubles5("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "My number is two four double 0 six seven one (2400671).",
+            kurdishText: "ژمارەکەم بریتییە لە دوو چوار دەبڵ سفر شەش حەوت یەک.",
+            onPressedBritish: () => speakdoubles5("en-GB"),
+            onPressedAmerican: () => speakdoubles5("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٣. (ھاوەڵناو) کە بۆ دوو کەس یان شت درووستکراوە"),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The double bed provided plenty of space for them to sleep."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "جێخەوە دوو کەسییەکە جێگایەکی زۆری پێدان کە تێیدا بخەون."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdoubles6("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdoubles6("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "The double bed provided plenty of space for them to sleep.",
+            kurdishText:
+                "جێخەوە دوو کەسییەکە جێگایەکی زۆری پێدان کە تێیدا بخەون.",
+            onPressedBritish: () => speakdoubles6("en-GB"),
+            onPressedAmerican: () => speakdoubles6("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٤. (ھاوەڵناو) کە دوو شت یان خاسیەتی تێدایە"),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "It has the double advantage of being both easy and cheap."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "سوودی دوولایەنەی ئەوەی ھەیە کە ئاسان و ھەرزانە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdoubles7("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdoubles7("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "It has the double advantage of being both easy and cheap.",
+            kurdishText: "سوودی دوولایەنەی ئەوەی ھەیە کە ئاسان و ھەرزانە.",
+            onPressedBritish: () => speakdoubles7("en-GB"),
+            onPressedAmerican: () => speakdoubles7("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: "٥. (دیارخەر) دوو ھێندە"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(text: "His income is double hers."),
-                    ExampleSentenceKurdish(
-                        text: "داھاتەکەی دوو ھێندەی ھی ئەوە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdoubles8("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdoubles8("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "His income is double hers.",
+            kurdishText: "داھاتەکەی دوو ھێندەی ھی ئەوە.",
+            onPressedBritish: () => speakdoubles8("en-GB"),
+            onPressedAmerican: () => speakdoubles8("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "He earns double what she does."),
-                    ExampleSentenceKurdish(
-                        text: "دوو ھێندەی ئەو بەدەست دەھێنێت."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdoubles9("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdoubles9("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "He earns double what she does.",
+            kurdishText: "دوو ھێندەی ئەو بەدەست دەھێنێت.",
+            onPressedBritish: () => speakdoubles9("en-GB"),
+            onPressedAmerican: () => speakdoubles9("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "We need double the amount we already have."),
-                    ExampleSentenceKurdish(
-                        text: "دوو ھێندەی ئەوەمان پێویستە کە ئێستا ھەمانە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdoubles10("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdoubles10("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "We need double the amount we already have.",
+            kurdishText: "دوو ھێندەی ئەوەمان پێویستە کە ئێستا ھەمانە.",
+            onPressedBritish: () => speakdoubles10("en-GB"),
+            onPressedAmerican: () => speakdoubles10("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٦. (جێناو) ژمارەیەک یان بڕێک کە دوو ھێندەی یەکێکی دیکەیە"),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "He gets paid double for doing the same job I do."),
-                    ExampleSentenceKurdish(
-                        text: "دوو ھێندەی پێدەدرێت بۆ کردنی ھەمان کار."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdoubles11("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdoubles11("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "He gets paid double for doing the same job I do.",
+            kurdishText: "دوو ھێندەی پێدەدرێت بۆ کردنی ھەمان کار.",
+            onPressedBritish: () => speakdoubles11("en-GB"),
+            onPressedAmerican: () => speakdoubles11("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The airline announced it would start charging double for people who couldn't fit in a single seat."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "ھێڵە ئاسمانییەکە ڕایگەیاند کە دەست دەکات بە سەندنی پارەی دوو ھێندە لەو کەسانەی کە لە یەک کوسیدا جێگایان نابێتەوە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdoubles12("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdoubles12("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "The airline announced it would start charging double for people who couldn't fit in a single seat.",
+            kurdishText:
+                "ھێڵە ئاسمانییەکە ڕایگەیاند کە دەست دەکات بە سەندنی پارەی دوو ھێندە لەو کەسانەی کە لە یەک کوسیدا جێگایان نابێتەوە.",
+            onPressedBritish: () => speakdoubles12("en-GB"),
+            onPressedAmerican: () => speakdoubles12("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٧. (کردار) کردن یان بوون بە دوو ھێندە"),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "Membership almost doubled in two years."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "ئەندامییەتی بەنزیکەیی دوو ھێندە بوو لە دوو ساڵدا."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdoubles13("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdoubles13("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "Membership almost doubled in two years.",
+            kurdishText: "ئەندامییەتی بەنزیکەیی دوو ھێندە بوو لە دوو ساڵدا.",
+            onPressedBritish: () => speakdoubles13("en-GB"),
+            onPressedAmerican: () => speakdoubles13("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The town has approximately doubled in size since 1960."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "شارۆچکە بە نزیکەیی دوو ھێندە بووە لە قەبارەدا لەوەتەی ساڵی ١٩٦٠ ـەوە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdoubles14("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdoubles14("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "The town has approximately doubled in size since 1960.",
+            kurdishText:
+                "شارۆچکە بە نزیکەیی دوو ھێندە بووە لە قەبارەدا لەوەتەی ساڵی ١٩٦٠ ـەوە.",
+            onPressedBritish: () => speakdoubles14("en-GB"),
+            onPressedAmerican: () => speakdoubles14("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٨. (کردار) چەماندنەوە بۆ ئەوەی ببێت بە دووان"),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "She doubled the blanket and put it under his head."),
-                    ExampleSentenceKurdish(
-                        text: "بەتانییەکەی دووتوێ کرد و خستییە ژێر سەری."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdoubles15("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdoubles15("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "She doubled the blanket and put it under his head.",
+            kurdishText: "بەتانییەکەی دووتوێ کرد و خستییە ژێر سەری.",
+            onPressedBritish: () => speakdoubles15("en-GB"),
+            onPressedAmerican: () => speakdoubles15("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: "٩. (ھاوەڵکار) بە دوو بەش"),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(text: "Fold the blanket double."),
-                    ExampleSentenceKurdish(
-                        text: "بە تانییەکە بۆ دوو توێ بچەمێنەوە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdoubles16("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdoubles16("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "Fold the blanket double.",
+            kurdishText: "بە تانییەکە بۆ دوو توێ بچەمێنەوە.",
+            onPressedBritish: () => speakdoubles16("en-GB"),
+            onPressedAmerican: () => speakdoubles16("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "I thought I was seeing double (= seeing two of something)."),
-                    ExampleSentenceKurdish(text: "پێم وابوو بە جووت دەبینم."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdoubles17("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdoubles17("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "I thought I was seeing double (= seeing two of something).",
+            kurdishText: "پێم وابوو بە جووت دەبینم.",
+            onPressedBritish: () => speakdoubles17("en-GB"),
+            onPressedAmerican: () => speakdoubles17("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: "١٠. (ھاوەڵکار) بە بڕی دوو ھێندە"),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "You have to be careful, and this counts double for people with children."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "دەبێت وریا بیت، و ئەمە بە دوو ھێندە بۆ ئەو کەسانە حسابە کە منداڵیان ھەیە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdoubles18("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdoubles18("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "You have to be careful, and this counts double for people with children.",
+            kurdishText:
+                "دەبێت وریا بیت، و ئەمە بە دوو ھێندە بۆ ئەو کەسانە حسابە کە منداڵیان ھەیە.",
+            onPressedBritish: () => speakdoubles18("en-GB"),
+            onPressedAmerican: () => speakdoubles18("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
                   "١١. (ناو) کەسێک یان شتێک کە ڕێک لە یەکێکی دیکە دەکات؛ ئەکتەرێک کە شوێنی یەکێکی دیکە دەگرێتەوە لە فیلمێکدا بۆ ئەنجامدانی دیمەنی ترسناک یان تایبەت"),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "She's the double of her mother."),
-                    ExampleSentenceKurdish(text: "لێکچووی دایکیەتی."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdoubles19("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdoubles19("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "She's the double of her mother.",
+            kurdishText: "لێکچووی دایکیەتی.",
+            onPressedBritish: () => speakdoubles19("en-GB"),
+            onPressedAmerican: () => speakdoubles19("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: "١٢. (ناو) ژووری خەوی دوو کەسی"),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "Is that a single or a double you want?"),
-                    ExampleSentenceKurdish(
-                        text: "تاکەکەسی یان دوو کەسیت دەوێت؟"),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdoubles20("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdoubles20("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "Is that a single or a double you want?",
+            kurdishText: "تاکەکەسی یان دوو کەسیت دەوێت؟",
+            onPressedBritish: () => speakdoubles20("en-GB"),
+            onPressedAmerican: () => speakdoubles20("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
                   "١٣. (ناو) گڵاسێک خواردنەوەی کحولی بەھێز کە دوو ھێندەی ڕێژەی ئاسایی تێدایە"),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "Two Scotches, please—and make those doubles, will you?"),
-                    ExampleSentenceKurdish(
-                        text:
-                            "دوو ویسکی سکۆچ تکایە، و تکایە بیان کە دەبڵ، ئەتوانیت؟"),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdoubles21("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdoubles21("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "Two Scotches, please—and make those doubles, will you?",
+            kurdishText:
+                "دوو ویسکی سکۆچ تکایە، و تکایە بیان کە دەبڵ، ئەتوانیت؟",
+            onPressedBritish: () => speakdoubles21("en-GB"),
+            onPressedAmerican: () => speakdoubles21("en-US"),
           ),
           // doubles2200"),
           // speakdoubles22

@@ -389,121 +389,45 @@ class KurdishMeaning extends StatelessWidget {
 """),
           const DefinitionKurdish(
               text: "١. (ناو) شتێک کە دەبەخشرێت بە دامەزراوەیەکی خێرخوازی"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The work of the charity is funded by voluntary donations."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "کاری دامەزراوە خێرخوازییەکە لەلایەن بەخشینی خۆبەخشانەوە بەڕێوەدەچێت."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "donation", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdonations1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdonations1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "The work of the charity is funded by voluntary donations.",
+            kurdishText:
+                "کاری دامەزراوە خێرخوازییەکە لەلایەن بەخشینی خۆبەخشانەوە بەڕێوەدەچێت.", // donation
+            onPressedBritish: () => speakdonations1("en-GB"),
+            onPressedAmerican: () => speakdonations1("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The campaign has raised £200 000 through online donations."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "کەمپینەکە ٢٠٠٠٠٠ پاوەندی لە ڕێگەی بەخشینی ئۆنلاینەوە کۆکردووەتەوە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdonations2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdonations2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "The campaign has raised £200 000 through online donations.",
+            kurdishText:
+                "کەمپینەکە ٢٠٠٠٠٠ پاوەندی لە ڕێگەی بەخشینی ئۆنلاینەوە کۆکردووەتەوە.",
+            onPressedBritish: () => speakdonations2("en-GB"),
+            onPressedAmerican: () => speakdonations2("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "The project is funded by public donation."),
-                    ExampleSentenceKurdish(
-                        text: "پڕۆژەکە لەلایەن بەخشینی گشتییەوە خەرجی دەکرێت."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdonations3("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdonations3("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "The project is funded by public donation.",
+            kurdishText: "پڕۆژەکە لەلایەن بەخشینی گشتییەوە خەرجی دەکرێت.",
+            onPressedBritish: () => speakdonations3("en-GB"),
+            onPressedAmerican: () => speakdonations3("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٢. (ناو) بەخشینی خوێن یان ئەندامێکی جەستە"),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "Organ donation has not kept pace with the demand for transplants."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "بەخشینی ئەندامی جەستە ھاوڕێژە نییە لەگەڵ خواست بۆ چاندنی ئەندام."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdonations4("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdonations4("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "Organ donation has not kept pace with the demand for transplants.",
+            kurdishText:
+                "بەخشینی ئەندامی جەستە ھاوڕێژە نییە لەگەڵ خواست بۆ چاندنی ئەندام.",
+            onPressedBritish: () => speakdonations4("en-GB"),
+            onPressedAmerican: () => speakdonations4("en-US"),
           ),
           // donations500"),
           // speakdonations5

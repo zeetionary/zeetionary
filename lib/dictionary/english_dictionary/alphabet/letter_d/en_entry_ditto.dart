@@ -373,63 +373,25 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "١. (ناو) سمبولی 〃 کە لە خوارەوەی وشەیەک یان دەستەواژەیەک دەنووسرێت چونکە دووبارەیە و ناتەوێت دووبارە بینووسیتەوە"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "In lists, \"ditto\" (\") is used as a symbol to mean \"the same\" and avoid repeating words."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "لە لیستدا دیتۆ وەک سمبولێک بەکاردێت بۆ دووربوون لە دووبارەکردنەوەی وشە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "ditto", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdittos1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdittos1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "In lists, \"ditto\" (\") is used as a symbol to mean \"the same\" and avoid repeating words.",
+            kurdishText:
+                "لە لیستدا دیتۆ وەک سمبولێک بەکاردێت بۆ دووربوون لە دووبارەکردنەوەی وشە.", // ditto
+            onPressedBritish: () => speakdittos1("en-GB"),
+            onPressedAmerican: () => speakdittos1("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٢. (ھاوەڵکار) بۆ ئەوەی بڵێیت تۆش ھەمان بۆچوونت ھەیە"),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "Local residents are opposed to the proposal. Ditto many members of the city council (= they are also opposed)."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "دانیشتوانە خۆجێییەکە دژ بە پێشنیارەکەن. و ھەروەھا زۆرێک لە ئەندامانی ئەنجوومەنی شارەکەش."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdittos2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdittos2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "Local residents are opposed to the proposal. Ditto many members of the city council (= they are also opposed).",
+            kurdishText:
+                "دانیشتوانە خۆجێییەکە دژ بە پێشنیارەکەن. و ھەروەھا زۆرێک لە ئەندامانی ئەنجوومەنی شارەکەش.",
+            onPressedBritish: () => speakdittos2("en-GB"),
+            onPressedAmerican: () => speakdittos2("en-US"),
           ),
           // dittos300"),
           // speakdittos3

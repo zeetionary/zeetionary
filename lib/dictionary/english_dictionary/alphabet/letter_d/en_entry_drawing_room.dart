@@ -364,32 +364,12 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "١. (ناو) ژوورێک لە خانوویەکی گەورە کە تێیدا خەڵکی دەحەسێنەوە و میوانەکان خزمەت دەکرێن"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The drawing room had a grand piano in the corner."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "ژووری میوانییەکە پیانۆیەکی گەورەی لە سووچێکدا ھەبوو."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "drawing room", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdrawingrooms1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdrawingrooms1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "The drawing room had a grand piano in the corner.",
+            kurdishText:
+                "ژووری میوانییەکە پیانۆیەکی گەورەی لە سووچێکدا ھەبوو.", // drawing room
+            onPressedBritish: () => speakdrawingrooms1("en-GB"),
+            onPressedAmerican: () => speakdrawingrooms1("en-US"),
           ),
           // drawingrooms200"),
           // speakdrawingrooms2

@@ -236,32 +236,13 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "١. (ناو) پڕۆسەی فرۆشتنی کۆمپانیایەک یان پیشەسازییەک بە شێوەیەک چی دیکە حکومەت خاوەنداریتی ناکات"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The last years of the 20th century were marked by some wide-ranging denationalizations."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "کۆتا ساڵەکانی سەدەی ٢٠ ژمارەیەکی بەرچاو لە بە‌کەرتی تایبەت کردنی بەخۆوە بینی."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "denationalization", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdenationalizations1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdenationalizations1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "The last years of the 20th century were marked by some wide-ranging denationalizations.",
+            kurdishText:
+                "کۆتا ساڵەکانی سەدەی ٢٠ ژمارەیەکی بەرچاو لە بە‌کەرتی تایبەت کردنی بەخۆوە بینی.", // denationalization
+            onPressedBritish: () => speakdenationalizations1("en-GB"),
+            onPressedAmerican: () => speakdenationalizations1("en-US"),
           ),
           // denationalizations200"),
           // speakdenationalizations2

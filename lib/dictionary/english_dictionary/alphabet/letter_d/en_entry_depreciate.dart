@@ -252,62 +252,24 @@ class KurdishMeaning extends StatelessWidget {
 // """),
           const DefinitionKurdish(
               text: "١. (کردار) لەدەستدانی نرخ لە ماوەیەکدا"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "New cars start to depreciate as soon as they are on the road."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "ئۆتۆمبێلی تازە دەست بە لەدەستدانی نرخ دەکات ھەرکە دەچێتە سەر شەقام."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "depreciate", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdepreciates1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdepreciates1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "New cars start to depreciate as soon as they are on the road.",
+            kurdishText:
+                "ئۆتۆمبێلی تازە دەست بە لەدەستدانی نرخ دەکات ھەرکە دەچێتە سەر شەقام.", // depreciate
+            onPressedBritish: () => speakdepreciates1("en-GB"),
+            onPressedAmerican: () => speakdepreciates1("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "Shares continued to depreciate on the stock markets today."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "پشکەکان ئەمڕۆ بەردەوام بوون لە دابەزین لە بازاڕی بۆرسەدا."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdepreciates2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdepreciates2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "Shares continued to depreciate on the stock markets today.",
+            kurdishText:
+                "پشکەکان ئەمڕۆ بەردەوام بوون لە دابەزین لە بازاڕی بۆرسەدا.",
+            onPressedBritish: () => speakdepreciates2("en-GB"),
+            onPressedAmerican: () => speakdepreciates2("en-US"),
           ),
           const DividerDefinition(),
           Column(

@@ -258,113 +258,36 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "١. (ناو) خەڵەتاندن؛ واکردنی ئەوەی کەسێک باوەڕ بە درۆیەک بکات"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "He was accused of obtaining property by deception."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "تاوانبارکرا بە بەدەستخستنی زەوییەکە بە تەڵەکەبازی."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "deception", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdeceptions1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdeceptions1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "He was accused of obtaining property by deception.",
+            kurdishText:
+                "تاوانبارکرا بە بەدەستخستنی زەوییەکە بە تەڵەکەبازی.", // deception
+            onPressedBritish: () => speakdeceptions1("en-GB"),
+            onPressedAmerican: () => speakdeceptions1("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "He'll use deception to get what he wants."),
-                    ExampleSentenceKurdish(
-                        text: "فڕوفێڵ بەکاردێنێت بۆ دەستکەوتنی ئەوەی دەیەوێت."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdeceptions2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdeceptions2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "He'll use deception to get what he wants.",
+            kurdishText: "فڕوفێڵ بەکاردێنێت بۆ دەستکەوتنی ئەوەی دەیەوێت.",
+            onPressedBritish: () => speakdeceptions2("en-GB"),
+            onPressedAmerican: () => speakdeceptions2("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "She failed to see through his deception."),
-                    ExampleSentenceKurdish(
-                        text: "شکستی ھێنا لەوەی ھەست بە تەڵەکەبازییەکەی بکات."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdeceptions3("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdeceptions3("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "She failed to see through his deception.",
+            kurdishText: "شکستی ھێنا لەوەی ھەست بە تەڵەکەبازییەکەی بکات.",
+            onPressedBritish: () => speakdeceptions3("en-GB"),
+            onPressedAmerican: () => speakdeceptions3("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
                   "٢. (ناو) فێڵێک کە مەبەست لێی ئەوەیە وا لە کەسێک بکات باوەڕ بە درۆیەک بکات"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "His elaborate deception fooled everyone."),
-                    ExampleSentenceKurdish(
-                        text: "فێڵە چڕوپڕەکەی ھەموانی خەڵەتاند."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdeceptions4("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdeceptions4("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "His elaborate deception fooled everyone.",
+            kurdishText: "فێڵە چڕوپڕەکەی ھەموانی خەڵەتاند.",
+            onPressedBritish: () => speakdeceptions4("en-GB"),
+            onPressedAmerican: () => speakdeceptions4("en-US"),
           ),
         ],
       ),

@@ -364,32 +364,13 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   """١. (ناو) ناوچەیەک کە بووە بە بیابان بەھۆی کەمی باران یان زۆر بەکارھێنانی زەوییەکە بۆ کاری جوتیاری"""),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            """The Oklahoma Dust Bowl of the 1930s forced people to move west."""),
-                    ExampleSentenceKurdish(
-                        text:
-                            """دەشتی تۆزگری ئۆکلاھۆما لە ١٩٣٠ ــیەکاندا خەڵکی ناچارکرد بۆ ڕۆژئاوا بچن."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "dust bowl", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdustbowls1("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdustbowls1("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                """The Oklahoma Dust Bowl of the 1930s forced people to move west.""",
+            kurdishText:
+                """دەشتی تۆزگری ئۆکلاھۆما لە ١٩٣٠ ــیەکاندا خەڵکی ناچارکرد بۆ ڕۆژئاوا بچن.""", // dust bowl
+            onPressedBritish: () => speakdustbowls1("en-GB"),
+            onPressedAmerican: () => speakdustbowls1("en-US"),
           ),
           // dustbowls200
           // speakdustbowls2

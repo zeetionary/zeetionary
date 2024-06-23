@@ -363,31 +363,12 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   """١. (ناو) ناوچەیەک کە پیاوێک یان ژنێک تێیدا دەسەڵاتی ھەیە کە وەک میر یان بەگ وایە"""),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            """The Duchy of Cornwall was established in 1337."""),
-                    ExampleSentenceKurdish(
-                        text: """دیوک‌نشینی کۆرنوۆڵ لە ساڵی ١٣٣٧ دامەزرا."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "duchy", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakduchys1("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakduchys1("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: """The Duchy of Cornwall was established in 1337.""",
+            kurdishText:
+                """دیوک‌نشینی کۆرنوۆڵ لە ساڵی ١٣٣٧ دامەزرا.""", // duchy
+            onPressedBritish: () => speakduchys1("en-GB"),
+            onPressedAmerican: () => speakduchys1("en-US"),
           ),
           // duchys200
           // speakduchys2

@@ -239,54 +239,20 @@ class KurdishMeaning extends StatelessWidget {
 کوردی: مفت، یەکجار ھەرزان، خۆڕایی
 """),
           const DefinitionKurdish(text: "١. (ھاوەڵناو) تەواو ھەرزان"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(text: "It was dirt cheap."),
-                    ExampleSentenceKurdish(text: "تەواو ھەرزان بوو."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "dirt cheap", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdirtcheaps1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdirtcheaps1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "It was dirt cheap.",
+            kurdishText: "تەواو ھەرزان بوو.", // dirt cheap
+            onPressedBritish: () => speakdirtcheaps1("en-GB"),
+            onPressedAmerican: () => speakdirtcheaps1("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(text: "I got it dirt cheap."),
-                    ExampleSentenceKurdish(text: "تەواو ھەرزان دەستم کەوت."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdirtcheaps2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdirtcheaps2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "I got it dirt cheap.",
+            kurdishText: "تەواو ھەرزان دەستم کەوت.",
+            onPressedBritish: () => speakdirtcheaps2("en-GB"),
+            onPressedAmerican: () => speakdirtcheaps2("en-US"),
           ),
           // dirtcheaps300"),
           // speakdirtcheaps3

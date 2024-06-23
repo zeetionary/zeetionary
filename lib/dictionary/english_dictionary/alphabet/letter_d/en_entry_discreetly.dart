@@ -250,89 +250,30 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "١. (ھاوەڵکار) بە وریایی بۆ ئەوەی شتێک بە نھێنی بھێڵیتەوە یان دوور بکەویتەوە لە دروستکردنی کێشە بۆ کەسێک یان ئەوەی شەرمەزاری بکەیت"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "She coughed discreetly to announce her presence."),
-                    ExampleSentenceKurdish(
-                        text: "بە وریاییەوە کۆکەی کرد بۆ ڕاگەیاندنی ھاتنی."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "discreetly", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdiscreetlys1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdiscreetlys1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "She coughed discreetly to announce her presence.",
+            kurdishText:
+                "بە وریاییەوە کۆکەی کرد بۆ ڕاگەیاندنی ھاتنی.", // discreetly
+            onPressedBritish: () => speakdiscreetlys1("en-GB"),
+            onPressedAmerican: () => speakdiscreetlys1("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "The removal of the waste is done discreetly."),
-                    ExampleSentenceKurdish(
-                        text: "لابردنی پاشەڕۆ بە وریاییەوە دەکرێت."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdiscreetlys2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdiscreetlys2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "The removal of the waste is done discreetly.",
+            kurdishText: "لابردنی پاشەڕۆ بە وریاییەوە دەکرێت.",
+            onPressedBritish: () => speakdiscreetlys2("en-GB"),
+            onPressedAmerican: () => speakdiscreetlys2("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "She very discreetly corrected him about his mistake."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "زۆر بە وریاییەوە ڕاستیکردەوە سەبارەت بە ھەڵەکەی."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdiscreetlys3("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdiscreetlys3("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "She very discreetly corrected him about his mistake.",
+            kurdishText: "زۆر بە وریاییەوە ڕاستیکردەوە سەبارەت بە ھەڵەکەی.",
+            onPressedBritish: () => speakdiscreetlys3("en-GB"),
+            onPressedAmerican: () => speakdiscreetlys3("en-US"),
           ),
           // discreetlys400"),
           // speakdiscreetlys4

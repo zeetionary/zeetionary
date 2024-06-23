@@ -233,32 +233,13 @@ class KurdishMeaning extends StatelessWidget {
 """),
           const DefinitionKurdish(
               text: "١. (ھاوەڵناو) کە سوکایەتی تێدایە بەرامبەر بە کەسێک"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "He made some derogatory comment/remark about her appearance."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "ھەندێک لێدوانی داشکێنەری دا سەبارەت بە ڕواڵەتی."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "derogatory", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakderogatorys1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakderogatorys1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "He made some derogatory comment/remark about her appearance.",
+            kurdishText:
+                "ھەندێک لێدوانی داشکێنەری دا سەبارەت بە ڕواڵەتی.", // derogatory
+            onPressedBritish: () => speakderogatorys1("en-GB"),
+            onPressedAmerican: () => speakderogatorys1("en-US"),
           ),
           // derogatorys200"),
           // speakderogatorys2

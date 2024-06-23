@@ -373,64 +373,25 @@ class KurdishMeaning extends StatelessWidget {
 """),
           const DefinitionKurdish(
               text: "١. (ھاوەڵناو) زۆر سەرکەوتوو و ڕێزلێگیراو"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "He has had a long and distinguished career in medicine."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "ماوەیەکی کارکردنی درێژ و ڕێزلێگیراوی ھەبووە لە پزیشکیدا."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "distinguished", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdistinguisheds1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdistinguisheds1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "He has had a long and distinguished career in medicine.",
+            kurdishText:
+                "ماوەیەکی کارکردنی درێژ و ڕێزلێگیراوی ھەبووە لە پزیشکیدا.", // distinguished
+            onPressedBritish: () => speakdistinguisheds1("en-GB"),
+            onPressedAmerican: () => speakdistinguisheds1("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
                   "٢. (ھاوەڵناو) ھەبوونی شێوەیەک کە وادەکات کەسێک گرنگ دەربکەوێت یان دەیانکات بە جێگای ڕێز"),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "I think grey hair makes you look very distinguished."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "پێموایە قژی خۆڵەمێشی وادەکات زۆر ڕێزلێگیراو دەربکەویت."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdistinguisheds2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdistinguisheds2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "I think grey hair makes you look very distinguished.",
+            kurdishText:
+                "پێموایە قژی خۆڵەمێشی وادەکات زۆر ڕێزلێگیراو دەربکەویت.",
+            onPressedBritish: () => speakdistinguisheds2("en-GB"),
+            onPressedAmerican: () => speakdistinguisheds2("en-US"),
           ),
           // distinguisheds300"),
           // speakdistinguisheds3

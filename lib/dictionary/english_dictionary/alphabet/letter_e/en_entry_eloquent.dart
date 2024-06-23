@@ -380,87 +380,31 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   """١. (ھاوەڵناو) ھەبوونی توانای بەکارھێنانی زمان و دەربڕینی بۆچوونەکانت بەباشی"""),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: """He grew very eloquent on the subject."""),
-                    ExampleSentenceKurdish(
-                        text: """زۆر زمان‌پاراو بوو لەسەر بابەتەکە."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "eloquent", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakeloquents1("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakeloquents1("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: """He grew very eloquent on the subject.""",
+            kurdishText: """زۆر زمان‌پاراو بوو لەسەر بابەتەکە.""", // eloquent
+            onPressedBritish: () => speakeloquents1("en-GB"),
+            onPressedAmerican: () => speakeloquents1("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            """She was an eloquent speaker, with a beautiful voice."""),
-                    ExampleSentenceKurdish(
-                        text:
-                            """وتاردەرێکی زمان‌پاراو بوو بە دەنگێکی خۆشەوە."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakeloquents2("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakeloquents2("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                """She was an eloquent speaker, with a beautiful voice.""",
+            kurdishText: """وتاردەرێکی زمان‌پاراو بوو بە دەنگێکی خۆشەوە.""",
+            onPressedBritish: () => speakeloquents2("en-GB"),
+            onPressedAmerican: () => speakeloquents2("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text: """٢. (ھاوەڵناو) کە توانای دەربڕینی ھەستێکی ھەیە"""),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(text: """His eyes were eloquent."""),
-                    ExampleSentenceKurdish(text: """چاوەکانی بەدوو بوون."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakeloquents3("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakeloquents3("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: """His eyes were eloquent.""",
+            kurdishText: """چاوەکانی بەدوو بوون.""",
+            onPressedBritish: () => speakeloquents3("en-GB"),
+            onPressedAmerican: () => speakeloquents3("en-US"),
           ),
           // eloquents400eloquents4
           // speakeloquents4

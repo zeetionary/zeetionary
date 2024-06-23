@@ -245,61 +245,24 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "١. (ناو) دۆخی ئەوەی نائومێدیت بەھۆی ئەوەی ئەو کەسەی بەھای ھەبوو لات یان ئەو بیرۆکەی باوەڕت پێی بوو بێ بەھا دیارن"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "There is widespread disillusionment with the present government."),
-                    ExampleSentenceKurdish(
-                        text: "نائومێدی زۆر بەم حکومەتەی ئێستا ھەیە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "disillusionment", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdisillusionments1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdisillusionments1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "There is widespread disillusionment with the present government.",
+            kurdishText:
+                "نائومێدی زۆر بەم حکومەتەی ئێستا ھەیە.", // disillusionment
+            onPressedBritish: () => speakdisillusionments1("en-GB"),
+            onPressedAmerican: () => speakdisillusionments1("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "Disillusionment among the young is worrying for schools."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "نائومێدی لەناو گەنجاندا جێگای نیگەرانییە بۆ قوتابخانەکان."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdisillusionments2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdisillusionments2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "Disillusionment among the young is worrying for schools.",
+            kurdishText:
+                "نائومێدی لەناو گەنجاندا جێگای نیگەرانییە بۆ قوتابخانەکان.",
+            onPressedBritish: () => speakdisillusionments2("en-GB"),
+            onPressedAmerican: () => speakdisillusionments2("en-US"),
           ),
           // disillusionments300"),
           // speakdisillusionments3

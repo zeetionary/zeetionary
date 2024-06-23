@@ -371,60 +371,22 @@ class KurdishMeaning extends StatelessWidget {
 """),
           const DefinitionKurdish(
               text: "١. (ناو) بارانی بەھێز کە زۆرجار لەناکاو دەست پێدەکات"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "We got caught in a torrential downpour."),
-                    ExampleSentenceKurdish(
-                        text: "لە ڕەھێڵەیەکی بەھێز گیرمان خوارد."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "downpour", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdownpours1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdownpours1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "We got caught in a torrential downpour.",
+            kurdishText: "لە ڕەھێڵەیەکی بەھێز گیرمان خوارد.", // downpour
+            onPressedBritish: () => speakdownpours1("en-GB"),
+            onPressedAmerican: () => speakdownpours1("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "For the past six hours the downpour had been continuous and torrential."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "بۆ شەش کاتژمێری ڕابردوو شەستەبارانەکە بەردەوام و بەلێزمە بووە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdownpours2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdownpours2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "For the past six hours the downpour had been continuous and torrential.",
+            kurdishText:
+                "بۆ شەش کاتژمێری ڕابردوو شەستەبارانەکە بەردەوام و بەلێزمە بووە.",
+            onPressedBritish: () => speakdownpours2("en-GB"),
+            onPressedAmerican: () => speakdownpours2("en-US"),
           ),
           // downpours300"),
           // speakdownpours3

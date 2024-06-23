@@ -364,32 +364,12 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "١. (ھاوەڵناو) کە دەکرێت لە سیستەمێکی کۆمپیوتەری دیکەوە دابەزێندرێت"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "She saved the downloadable files to her computer."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "فایلە لەداگرتن‌ھاتووەکانی ھەڵگرت لە کۆمپیوتەرەکەی."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "downloadable", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdownloadables1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdownloadables1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "She saved the downloadable files to her computer.",
+            kurdishText:
+                "فایلە لەداگرتن‌ھاتووەکانی ھەڵگرت لە کۆمپیوتەرەکەی.", // downloadable
+            onPressedBritish: () => speakdownloadables1("en-GB"),
+            onPressedAmerican: () => speakdownloadables1("en-US"),
           ),
           // downloadables200"),
           // speakdownloadables2

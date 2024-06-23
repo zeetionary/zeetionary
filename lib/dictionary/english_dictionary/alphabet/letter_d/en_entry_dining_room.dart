@@ -249,90 +249,34 @@ class KurdishMeaning extends StatelessWidget {
 کوردی: دیوی نان‌خواردن، ژووری نەھارخۆری، سفرەخانە، خوان‌خانە
 """),
           const DefinitionKurdish(text: "١. (ناو) ژووری نانخواردن"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "The dining room seats up to 60 guests."),
-                    ExampleSentenceKurdish(
-                        text: "ژووری نانخواردنەکە جێگای تاوەکو ٦٠ کەسی ھەیە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "dining room", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdiningrooms1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdiningrooms1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "The dining room seats up to 60 guests.",
+            kurdishText:
+                "ژووری نانخواردنەکە جێگای تاوەکو ٦٠ کەسی ھەیە.", // dining room
+            onPressedBritish: () => speakdiningrooms1("en-GB"),
+            onPressedAmerican: () => speakdiningrooms1("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The house has a kitchen, living room and dining room downstairs and three bedrooms and a bathroom upstairs."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "خانووەکە چێشتخانەیەک، ژوورێکی میوان و ژوورێکی نانخواردنی ھەیە لە خوارەوە و سێ ژووری نووستن و گەرماوێکی ھەیە لە سەرەوە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdiningrooms2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdiningrooms2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "The house has a kitchen, living room and dining room downstairs and three bedrooms and a bathroom upstairs.",
+            kurdishText:
+                "خانووەکە چێشتخانەیەک، ژوورێکی میوان و ژوورێکی نانخواردنی ھەیە لە خوارەوە و سێ ژووری نووستن و گەرماوێکی ھەیە لە سەرەوە.",
+            onPressedBritish: () => speakdiningrooms2("en-GB"),
+            onPressedAmerican: () => speakdiningrooms2("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "This room has a dual purpose, serving as both a study and a dining room."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "ئەم ژوورە بۆ دوو مەبەست بەکاردێت، ھەم وەک شوێنی خوێندنەوە و ھەم وەک ژووری نانخواردن."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdiningrooms3("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdiningrooms3("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "This room has a dual purpose, serving as both a study and a dining room.",
+            kurdishText:
+                "ئەم ژوورە بۆ دوو مەبەست بەکاردێت، ھەم وەک شوێنی خوێندنەوە و ھەم وەک ژووری نانخواردن.",
+            onPressedBritish: () => speakdiningrooms3("en-GB"),
+            onPressedAmerican: () => speakdiningrooms3("en-US"),
           ),
           // diningrooms400"),
           // speakdiningrooms4

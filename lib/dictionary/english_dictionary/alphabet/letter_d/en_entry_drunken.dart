@@ -378,87 +378,30 @@ class KurdishMeaning extends StatelessWidget {
 """),
           const DefinitionKurdish(
               text: "١. (ھاوەڵناو) سەرخۆش یان کە زۆرجار سەرخۆش دەبێت"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "She decided to leave her drunken husband."),
-                    ExampleSentenceKurdish(
-                        text: "بڕیاریدا ھاوسەرە سەرخۆشەکەی بەجێبھێڵێت."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "drunken", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdrunkens1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdrunkens1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "She decided to leave her drunken husband.",
+            kurdishText: "بڕیاریدا ھاوسەرە سەرخۆشەکەی بەجێبھێڵێت.", // drunken
+            onPressedBritish: () => speakdrunkens1("en-GB"),
+            onPressedAmerican: () => speakdrunkens1("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٢. (ھاوەڵناو) کە کاریگەری مادەی کحوولی زۆر پیشان دەدات"),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "He came home to find her in a drunken stupor."),
-                    ExampleSentenceKurdish(
-                        text: "گەڕایەوە ماڵەوە بینییەەو لە گێژی مەستیدا."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdrunkens2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdrunkens2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "He came home to find her in a drunken stupor.",
+            kurdishText: "گەڕایەوە ماڵەوە بینییەەو لە گێژی مەستیدا.",
+            onPressedBritish: () => speakdrunkens2("en-GB"),
+            onPressedAmerican: () => speakdrunkens2("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "He finally fell into a drunken sleep."),
-                    ExampleSentenceKurdish(
-                        text: "لەکۆتاییدا کەوتە خەوێکی سەرمەستانەوە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdrunkens3("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdrunkens3("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "He finally fell into a drunken sleep.",
+            kurdishText: "لەکۆتاییدا کەوتە خەوێکی سەرمەستانەوە.",
+            onPressedBritish: () => speakdrunkens3("en-GB"),
+            onPressedAmerican: () => speakdrunkens3("en-US"),
           ),
           // drunkens400"),
           // speakdrunkens4

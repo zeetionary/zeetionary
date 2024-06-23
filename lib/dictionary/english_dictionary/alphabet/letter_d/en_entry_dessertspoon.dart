@@ -248,60 +248,22 @@ class KurdishMeaning extends StatelessWidget {
 // کوردی:
 // """),
           const DefinitionKurdish(text: "١. (ناو) کەوچکێکی قەبارە مامناوەند"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "She ate the salad with a dessertspoon."),
-                    ExampleSentenceKurdish(
-                        text: "بە کەوچکی چێشتخۆر زەڵاتەکەی خوارد."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "dessertspoon", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdessertspoons1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdessertspoons1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "She ate the salad with a dessertspoon.",
+            kurdishText: "بە کەوچکی چێشتخۆر زەڵاتەکەی خوارد.", // dessertspoon
+            onPressedBritish: () => speakdessertspoons1("en-GB"),
+            onPressedAmerican: () => speakdessertspoons1("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٢. (ناو) ئەو ڕێژەیەی لەم کەوچکەدا جێگای دەبێتەوە"),
           // const DividerSentences(),
           const AlsoEnglishckb(word: "ھەروەھا: dessertspoonful"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "Add one dessertspoon of sugar."),
-                    ExampleSentenceKurdish(
-                        text: "یەک کەوچکی چێشتخۆر شەکەر زیاد بکە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdessertspoons2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdessertspoons2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "Add one dessertspoon of sugar.",
+            kurdishText: "یەک کەوچکی چێشتخۆر شەکەر زیاد بکە.",
+            onPressedBritish: () => speakdessertspoons2("en-GB"),
+            onPressedAmerican: () => speakdessertspoons2("en-US"),
           ),
           // dessertspoons300"),
           // speakdessertspoons3

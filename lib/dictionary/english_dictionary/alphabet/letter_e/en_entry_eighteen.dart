@@ -369,59 +369,21 @@ class KurdishMeaning extends StatelessWidget {
 // کوردی:
 // """),
           const DefinitionKurdish(text: """١. (ژمارە) ژمارە ١٨"""),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            """You are allowed to vote at eighteen (= when you are 18 years old)."""),
-                    ExampleSentenceKurdish(
-                        text: """لە ١٨ ساڵی ڕێگەپێدراوی دەنگ بدەیت."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "eighteen", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakeighteens1("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakeighteens1("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                """You are allowed to vote at eighteen (= when you are 18 years old).""",
+            kurdishText: """لە ١٨ ساڵی ڕێگەپێدراوی دەنگ بدەیت.""", // eighteen
+            onPressedBritish: () => speakeighteens1("en-GB"),
+            onPressedAmerican: () => speakeighteens1("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: """The table was set for eighteen people."""),
-                    ExampleSentenceKurdish(
-                        text: """مێزەکە بۆ ١٨ کەس ئامادە کرابوو."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakeighteens2("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakeighteens2("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: """The table was set for eighteen people.""",
+            kurdishText: """مێزەکە بۆ ١٨ کەس ئامادە کرابوو.""",
+            onPressedBritish: () => speakeighteens2("en-GB"),
+            onPressedAmerican: () => speakeighteens2("en-US"),
           ),
           // eighteens300eighteens3
           // speakeighteens3

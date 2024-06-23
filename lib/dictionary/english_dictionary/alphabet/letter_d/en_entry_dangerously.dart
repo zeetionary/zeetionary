@@ -242,57 +242,20 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "١. (ھاوەڵکار) بەشێوەیەک کە ئەگەری ھەیە زیان بە کەسێک بگەیەنێت یان شتێک لەناو ببات"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "She was standing dangerously close to the fire."),
-                    ExampleSentenceKurdish(
-                        text: "مەترسی‌دارانە نزیک لە ئاگرەکە وەستاوە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "dangerously", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdangerouslys1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdangerouslys1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "She was standing dangerously close to the fire.",
+            kurdishText:
+                "مەترسی‌دارانە نزیک لە ئاگرەکە وەستاوە.", // dangerously
+            onPressedBritish: () => speakdangerouslys1("en-GB"),
+            onPressedAmerican: () => speakdangerouslys1("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "His father is dangerously ill (= so ill that he might die)."),
-                    ExampleSentenceKurdish(text: "باوکی مەترسیدارانە نەخۆشە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdangerouslys2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdangerouslys2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "His father is dangerously ill (= so ill that he might die).",
+            kurdishText: "باوکی مەترسیدارانە نەخۆشە.",
+            onPressedBritish: () => speakdangerouslys2("en-GB"),
+            onPressedAmerican: () => speakdangerouslys2("en-US"),
           ),
         ],
       ),

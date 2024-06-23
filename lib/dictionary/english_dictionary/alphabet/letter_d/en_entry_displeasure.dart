@@ -243,61 +243,24 @@ class KurdishMeaning extends StatelessWidget {
 """),
           const DefinitionKurdish(
               text: "١. (ناو) ھەستکردن بە ناڕەحەتی و بێزاری"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "She made no attempt to hide her displeasure at the prospect."),
-                    ExampleSentenceKurdish(
-                        text: "ھیچ ھەوڵێکی نەدەدا کە ناڕەحەتی خۆی بە پاشەڕۆ."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "displeasure", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdispleasures1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdispleasures1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "She made no attempt to hide her displeasure at the prospect.",
+            kurdishText:
+                "ھیچ ھەوڵێکی نەدەدا کە ناڕەحەتی خۆی بە پاشەڕۆ.", // displeasure
+            onPressedBritish: () => speakdispleasures1("en-GB"),
+            onPressedAmerican: () => speakdispleasures1("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The incident has heightened public displeasure with the authorities."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "ڕووداوەکە تووڕەیی خەڵکی بەرامبەر بەرپرسان زیاد کردووە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdispleasures2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdispleasures2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "The incident has heightened public displeasure with the authorities.",
+            kurdishText:
+                "ڕووداوەکە تووڕەیی خەڵکی بەرامبەر بەرپرسان زیاد کردووە.",
+            onPressedBritish: () => speakdispleasures2("en-GB"),
+            onPressedAmerican: () => speakdispleasures2("en-US"),
           ),
           // displeasures300"),
           // speakdispleasures3

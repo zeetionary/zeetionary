@@ -249,62 +249,24 @@ class KurdishMeaning extends StatelessWidget {
 // کوردی: سەرمیز، سەرمیزانە
 // """),
           const DefinitionKurdish(text: "١. (ناو) بەشی سەرەکی شاشەی کۆمپیوتەر"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "His desktop was cluttered with icons."),
-                    ExampleSentenceKurdish(
-                        text: "دێسکتۆپەکەی پڕ بوو لە ئایکۆن."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "desktop", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdesktops1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdesktops1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "His desktop was cluttered with icons.",
+            kurdishText: "دێسکتۆپەکەی پڕ بوو لە ئایکۆن.", // desktop
+            onPressedBritish: () => speakdesktops1("en-GB"),
+            onPressedAmerican: () => speakdesktops1("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
                   "٢. (ناو) کۆمپیوتەرێک کە پێکاتووە لە شاشەیەک، تەختەکلیلێک، ھتد کە لەسەر مێزێک دادەنرێت"),
           const AlsoEnglishckb(word: "ھەروەھا: desktop computer"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "First decide whether you need a desktop computer, or whether a laptop or notebook would be more suitable."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "سەرەتا بڕیار بدە کە پێویستیت بە کۆمپیوتەری دێسکتۆپ ھەیە، یان ئەوەی لاپتۆپێک یان نۆتبووکێک گونجاو دەبێت."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdesktops2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdesktops2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "First decide whether you need a desktop computer, or whether a laptop or notebook would be more suitable.",
+            kurdishText:
+                "سەرەتا بڕیار بدە کە پێویستیت بە کۆمپیوتەری دێسکتۆپ ھەیە، یان ئەوەی لاپتۆپێک یان نۆتبووکێک گونجاو دەبێت.",
+            onPressedBritish: () => speakdesktops2("en-GB"),
+            onPressedAmerican: () => speakdesktops2("en-US"),
           ),
           // desktops300"),
           // speakdesktops3

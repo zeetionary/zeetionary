@@ -265,144 +265,50 @@ class KurdishMeaning extends StatelessWidget {
 کوردی: قێزەون، بێزاوی، مایەی بێزاری، وەی، پیس، ناحەز، شپرزە، ناخۆش، ڕشێنەرەوە
 """),
           const DefinitionKurdish(text: "١. (ھاوەڵناو) تەواو بێزراو"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The kitchen was in a disgusting state when she left."),
-                    ExampleSentenceKurdish(
-                        text: "چێشتخانەکە تەواو پیس بوو کە ڕۆشت."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "disgusting", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdisgustings1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdisgustings1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "The kitchen was in a disgusting state when she left.",
+            kurdishText: "چێشتخانەکە تەواو پیس بوو کە ڕۆشت.", // disgusting
+            onPressedBritish: () => speakdisgustings1("en-GB"),
+            onPressedAmerican: () => speakdisgustings1("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(text: "What a disgusting smell!"),
-                    ExampleSentenceKurdish(text: "چی بۆنێکی قێزەونە!"),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdisgustings2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdisgustings2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "What a disgusting smell!",
+            kurdishText: "چی بۆنێکی قێزەونە!",
+            onPressedBritish: () => speakdisgustings2("en-GB"),
+            onPressedAmerican: () => speakdisgustings2("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "He has some rather disgusting habits."),
-                    ExampleSentenceKurdish(
-                        text: "ھەندێک خووی تا ڕادەیەک قێزەونی ھەیە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdisgustings3("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdisgustings3("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "He has some rather disgusting habits.",
+            kurdishText: "ھەندێک خووی تا ڕادەیەک قێزەونی ھەیە.",
+            onPressedBritish: () => speakdisgustings3("en-GB"),
+            onPressedAmerican: () => speakdisgustings3("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٢. (ھاوەڵناو) کە تووشی شۆک، بێزاری، یان تووڕەییت دەکات"),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "I think it's disgusting that they're closing the local hospital."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "پێموایە ناخۆشە کە نەخۆشخانە ناوخۆییەکە دادەخەن."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdisgustings4("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdisgustings4("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "I think it's disgusting that they're closing the local hospital.",
+            kurdishText: "پێموایە ناخۆشە کە نەخۆشخانە ناوخۆییەکە دادەخەن.",
+            onPressedBritish: () => speakdisgustings4("en-GB"),
+            onPressedAmerican: () => speakdisgustings4("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "His language is disgusting (= he uses a lot of offensive words)."),
-                    ExampleSentenceKurdish(text: "زمانی پیسە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdisgustings5("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdisgustings5("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "His language is disgusting (= he uses a lot of offensive words).",
+            kurdishText: "زمانی پیسە.",
+            onPressedBritish: () => speakdisgustings5("en-GB"),
+            onPressedAmerican: () => speakdisgustings5("en-US"),
           ),
           // disgustings600"),
           // speakdisgustings6

@@ -244,62 +244,24 @@ class KurdishMeaning extends StatelessWidget {
 """),
           const DefinitionKurdish(
               text: "١. (ھاوەڵکار) بەشێوەیەکی زۆر دڵتەنگی و نائومێدانە"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "He wandered disconsolately around the town in the pouring rain."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "پەرێشانانە بە شارۆچکەکەدا لەبەر بارانە بەلێزمەکە پیاسەی دەکرد."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "disconsolately", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdisconsolatelys1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdisconsolatelys1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "He wandered disconsolately around the town in the pouring rain.",
+            kurdishText:
+                "پەرێشانانە بە شارۆچکەکەدا لەبەر بارانە بەلێزمەکە پیاسەی دەکرد.", // disconsolately
+            onPressedBritish: () => speakdisconsolatelys1("en-GB"),
+            onPressedAmerican: () => speakdisconsolatelys1("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "I sat disconsolately on my bed looking at old photographs."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "بەدڵتەنگییەوە لەسەر جێخەوەکەم دانیشتبووم سەیری وێنەی کۆنم دەکرد."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdisconsolatelys2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdisconsolatelys2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "I sat disconsolately on my bed looking at old photographs.",
+            kurdishText:
+                "بەدڵتەنگییەوە لەسەر جێخەوەکەم دانیشتبووم سەیری وێنەی کۆنم دەکرد.",
+            onPressedBritish: () => speakdisconsolatelys2("en-GB"),
+            onPressedAmerican: () => speakdisconsolatelys2("en-US"),
           ),
           // disconsolatelys300"),
           // speakdisconsolatelys3

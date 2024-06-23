@@ -263,93 +263,36 @@ class KurdishMeaning extends StatelessWidget {
               text:
                   "١. (ناو) دەرمانێک کە دەدرێت بە کەسێک بۆ ئەوەی لە خواردنەوە و خواردنی مادەی ھۆشبەر بوەستێت"),
           const AlsoEnglishckb(word: "ھەروەھا: detox"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The center specializes in detoxification for addicts."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "سەنتەرەکە شارەزایی ھەیە لە پاککردنەوەی ئاڵوودەبوان."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "detoxification", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdetoxifications1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdetoxifications1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "The center specializes in detoxification for addicts.",
+            kurdishText:
+                "سەنتەرەکە شارەزایی ھەیە لە پاککردنەوەی ئاڵوودەبوان.", // detoxification
+            onPressedBritish: () => speakdetoxifications1("en-GB"),
+            onPressedAmerican: () => speakdetoxifications1("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
                   "٢. (ناو) پڕۆسەی باشکردنی ناوبانگی کەسێک کە بە خراپ بینراوە"),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The policy has been key to the successful detoxification of the party's brand."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "سیاسەتەکە سەرەکیترین بووە بۆ پاککردنەوەی سەرکەوتووانەی براندی پارتەکە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdetoxifications2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdetoxifications2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "The policy has been key to the successful detoxification of the party's brand.",
+            kurdishText:
+                "سیاسەتەکە سەرەکیترین بووە بۆ پاککردنەوەی سەرکەوتووانەی براندی پارتەکە.",
+            onPressedBritish: () => speakdetoxifications2("en-GB"),
+            onPressedAmerican: () => speakdetoxifications2("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٣. (ناو) سڕینەوەی مادەی خراپ لە جەستە"),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "Drinking water helps with detoxification."),
-                    ExampleSentenceKurdish(
-                        text: "خواردنەوەی ئاو یارمەتی پاکبوونەوە دەدات."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdetoxifications3("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdetoxifications3("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "Drinking water helps with detoxification.",
+            kurdishText: "خواردنەوەی ئاو یارمەتی پاکبوونەوە دەدات.",
+            onPressedBritish: () => speakdetoxifications3("en-GB"),
+            onPressedAmerican: () => speakdetoxifications3("en-US"),
           ),
           // detoxifications400"),
           // speakdetoxifications4

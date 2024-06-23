@@ -250,61 +250,21 @@ class KurdishMeaning extends StatelessWidget {
 """),
           const DefinitionKurdish(
               text: "١. (ھاوەڵناو) ڕەتکردنەوەی ئەوەی پابەندی کەسێک/شتێک بیت"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "She had suddenly turned into a defiant teenager."),
-                    ExampleSentenceKurdish(
-                        text: "لەناکاو بووبوو بە گەنجێکی لاسار."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "defiant", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdefiants1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdefiants1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "She had suddenly turned into a defiant teenager.",
+            kurdishText: "لەناکاو بووبوو بە گەنجێکی لاسار.", // defiant
+            onPressedBritish: () => speakdefiants1("en-GB"),
+            onPressedAmerican: () => speakdefiants1("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The terrorists sent a defiant message to the government."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "تیرۆریستەکان پەیامێکی یاخییانەیان نارد بۆ حکومەت."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdefiants2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdefiants2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "The terrorists sent a defiant message to the government.",
+            kurdishText: "تیرۆریستەکان پەیامێکی یاخییانەیان نارد بۆ حکومەت.",
+            onPressedBritish: () => speakdefiants2("en-GB"),
+            onPressedAmerican: () => speakdefiants2("en-US"),
           ),
           // defiants300"),
           // speakdefiants3

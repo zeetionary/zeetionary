@@ -379,87 +379,30 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   """١. (جێناو) وەک بەرکاری کردارێک بەکاردێت بۆ گوتنی ئەوەی کە ھەر ئەندامێکی گرووپێک شتێک بە ئەوانی دیکە یان بۆیان دەکات"""),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: """They looked at each other and laughed."""),
-                    ExampleSentenceKurdish(
-                        text: """سەیری یەکدییان کرد و پێکەنین."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "each other", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakeachothers1("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakeachothers1("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: """They looked at each other and laughed.""",
+            kurdishText: """سەیری یەکدییان کرد و پێکەنین.""", // each other
+            onPressedBritish: () => speakeachothers1("en-GB"),
+            onPressedAmerican: () => speakeachothers1("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: """We can wear each other's clothes."""),
-                    ExampleSentenceKurdish(
-                        text: """دەتوانین جلی یەکدی لەبەر بکەین."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakeachothers2("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakeachothers2("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: """We can wear each other's clothes.""",
+            kurdishText: """دەتوانین جلی یەکدی لەبەر بکەین.""",
+            onPressedBritish: () => speakeachothers2("en-GB"),
+            onPressedAmerican: () => speakeachothers2("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            """Don and Susie really loved each other (= he loved her and she loved him)."""),
-                    ExampleSentenceKurdish(
-                        text: """دۆن و سۆزی بەڕاستی یەکدییان خۆشدەویست."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakeachothers3("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakeachothers3("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                """Don and Susie really loved each other (= he loved her and she loved him).""",
+            kurdishText: """دۆن و سۆزی بەڕاستی یەکدییان خۆشدەویست.""",
+            onPressedBritish: () => speakeachothers3("en-GB"),
+            onPressedAmerican: () => speakeachothers3("en-US"),
           ),
         ],
       ),

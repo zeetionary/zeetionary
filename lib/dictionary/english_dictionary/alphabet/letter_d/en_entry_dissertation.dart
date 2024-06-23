@@ -243,60 +243,22 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "١. (ناو) نووسراوێکی درێژ لەسەر بابەتێکی دیاریکراو، بەتایبەتی یەکێک کە بۆ بڕوانامەی زانکۆ نووسراوە"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "He wrote his Master's dissertation on rats."),
-                    ExampleSentenceKurdish(
-                        text: "تێزی ماستەرەکەی لەسەر جرج نووسی."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "dissertation", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdissertations1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdissertations1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "He wrote his Master's dissertation on rats.",
+            kurdishText: "تێزی ماستەرەکەی لەسەر جرج نووسی.", // dissertation
+            onPressedBritish: () => speakdissertations1("en-GB"),
+            onPressedAmerican: () => speakdissertations1("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "Students can either do a dissertation or take part in a practical project."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "خوێندکاران دەتوانن یان تێزێک بنووسن یان بەژداری پڕۆژەیەکی کرداری بن."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdissertations2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdissertations2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "Students can either do a dissertation or take part in a practical project.",
+            kurdishText:
+                "خوێندکاران دەتوانن یان تێزێک بنووسن یان بەژداری پڕۆژەیەکی کرداری بن.",
+            onPressedBritish: () => speakdissertations2("en-GB"),
+            onPressedAmerican: () => speakdissertations2("en-US"),
           ),
           // dissertations300"),
           // speakdissertations3

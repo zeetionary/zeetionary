@@ -251,60 +251,23 @@ class KurdishMeaning extends StatelessWidget {
 کوردی: خراپ(تر)بوون، داچوون، شپرزەبوون، لەبارکەوتن، دانەدواوە، قنانەوە، تێکچوون، ناخۆشی، تێکچوون، شێوان (پێوەندی)
 """),
           const DefinitionKurdish(text: "١. (ناو) خراپتربوون"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "There has been a deterioration in relations between the countries."),
-                    ExampleSentenceKurdish(
-                        text: "پەیوەندی نێوان دوو وڵاتەکە خراپتربووە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "deterioration", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdeteriorations1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdeteriorations1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "There has been a deterioration in relations between the countries.",
+            kurdishText:
+                "پەیوەندی نێوان دوو وڵاتەکە خراپتربووە.", // deterioration
+            onPressedBritish: () => speakdeteriorations1("en-GB"),
+            onPressedAmerican: () => speakdeteriorations1("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "When we arrived, we were appalled at her deterioration."),
-                    ExampleSentenceKurdish(
-                        text: "کە گەشتین تاساین بە خراپتربوونەکەی."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdeteriorations2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdeteriorations2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "When we arrived, we were appalled at her deterioration.",
+            kurdishText: "کە گەشتین تاساین بە خراپتربوونەکەی.",
+            onPressedBritish: () => speakdeteriorations2("en-GB"),
+            onPressedAmerican: () => speakdeteriorations2("en-US"),
           ),
           // deteriorations300"),
           // speakdeteriorations3

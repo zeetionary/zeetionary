@@ -364,32 +364,13 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   """١. (ناو) ھەڵھاتن لەگەڵ کەسێک بۆ ئەوەی بە نھێنی ھاوسەرگیری لەگەڵ بکەیت لەگەڵی"""),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            """News of their elopement did not spread until the following morning."""),
-                    ExampleSentenceKurdish(
-                        text:
-                            """ھەواڵی ھەڵھاتنەکەیان تاوەکو بەیانی دواتر بڵاونەبوویەوە."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "elopement", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakelopements1("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakelopements1("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                """News of their elopement did not spread until the following morning.""",
+            kurdishText:
+                """ھەواڵی ھەڵھاتنەکەیان تاوەکو بەیانی دواتر بڵاونەبوویەوە.""", // elopement
+            onPressedBritish: () => speakelopements1("en-GB"),
+            onPressedAmerican: () => speakelopements1("en-US"),
           ),
           // elopements200elopements2
           // speakelopements2

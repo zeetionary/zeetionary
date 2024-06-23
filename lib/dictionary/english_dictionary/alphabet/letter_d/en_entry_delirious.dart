@@ -268,116 +268,41 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "١. (ھاوەڵناو) لە دۆخێکی خرۆشاویدا کە ناتوانیت بە ڕوونی بیربکەیتەوە"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "He became delirious and couldn't recognize people."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "کەوتە شاگەشکەوەوە و نەیدەتوانی خەڵکی بناسێتەوە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "delirious", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdeliriouss1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdeliriouss1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "He became delirious and couldn't recognize people.",
+            kurdishText:
+                "کەوتە شاگەشکەوەوە و نەیدەتوانی خەڵکی بناسێتەوە.", // delirious
+            onPressedBritish: () => speakdeliriouss1("en-GB"),
+            onPressedAmerican: () => speakdeliriouss1("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "By the time she was rescued, she was delirious with cold and fear."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "ئەو کاتەی کە ڕزگارکرا، بە لە سەرما و ترسدا وڕاوی بووبوو."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdeliriouss2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdeliriouss2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "By the time she was rescued, she was delirious with cold and fear.",
+            kurdishText:
+                "ئەو کاتەی کە ڕزگارکرا، بە لە سەرما و ترسدا وڕاوی بووبوو.",
+            onPressedBritish: () => speakdeliriouss2("en-GB"),
+            onPressedAmerican: () => speakdeliriouss2("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: "٢. (ھاوەڵناو) تەواو خرۆشاو و دڵخۆش"),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(text: "The crowd went delirious."),
-                    ExampleSentenceKurdish(text: "جەماوەرەکە خرۆشان."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdeliriouss3("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdeliriouss3("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "The crowd went delirious.",
+            kurdishText: "جەماوەرەکە خرۆشان.",
+            onPressedBritish: () => speakdeliriouss3("en-GB"),
+            onPressedAmerican: () => speakdeliriouss3("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "The crowds were delirious with joy."),
-                    ExampleSentenceKurdish(
-                        text: "جەماوەرەکە خرۆشاو بوون لە خۆشیدا."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdeliriouss4("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdeliriouss4("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "The crowds were delirious with joy.",
+            kurdishText: "جەماوەرەکە خرۆشاو بوون لە خۆشیدا.",
+            onPressedBritish: () => speakdeliriouss4("en-GB"),
+            onPressedAmerican: () => speakdeliriouss4("en-US"),
           ),
           // deliriouss500"),
           // speakdeliriouss5

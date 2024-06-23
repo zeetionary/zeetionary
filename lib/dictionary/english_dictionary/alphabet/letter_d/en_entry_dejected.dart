@@ -247,58 +247,21 @@ class KurdishMeaning extends StatelessWidget {
 کوردی: خەمبار، ناڕەحەت، دەستەوئەژنۆ، کز، مات، ماتەمین، دڵپڕ، کۆلیل، دڵتەنگ، مەلوول، خەفەتبار، لێوبەبار،	ناھومێد، بێ‌ھیوا، دڵسارد
 """),
           const DefinitionKurdish(text: "١. (ھاوەڵناو) بێزار و بێ‌ھیوا"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "She looked so dejected when she lost the game."),
-                    ExampleSentenceKurdish(
-                        text: "زۆر خەفەتبار دیار بوو کە تارییەکەی دۆڕاند."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "dejected", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdejecteds1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdejecteds1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "She looked so dejected when she lost the game.",
+            kurdishText:
+                "زۆر خەفەتبار دیار بوو کە تارییەکەی دۆڕاند.", // dejected
+            onPressedBritish: () => speakdejecteds1("en-GB"),
+            onPressedAmerican: () => speakdejecteds1("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "They were thoroughly dejected and miserable."),
-                    ExampleSentenceKurdish(
-                        text: "تەواو خەمبار و ھەناسەسارد بوون."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdejecteds2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdejecteds2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "They were thoroughly dejected and miserable.",
+            kurdishText: "تەواو خەمبار و ھەناسەسارد بوون.",
+            onPressedBritish: () => speakdejecteds2("en-GB"),
+            onPressedAmerican: () => speakdejecteds2("en-US"),
           ),
           // dejecteds300"),
           // speakdejecteds3

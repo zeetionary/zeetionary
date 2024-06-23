@@ -248,83 +248,26 @@ class KurdishMeaning extends StatelessWidget {
 کوردی: کەم کردن، داشکاندن، داڕشتن، دانان
 """),
           const DefinitionKurdish(text: "١. (کردار) دەرکردن لە کۆی گشتی"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "Ten points will be deducted for a wrong answer."),
-                    ExampleSentenceKurdish(
-                        text: "دە خاڵ کەم دەکرێتەوە بۆ وەڵامێکی ھەڵە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "deduct", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdeducts1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdeducts1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "Ten points will be deducted for a wrong answer.",
+            kurdishText: "دە خاڵ کەم دەکرێتەوە بۆ وەڵامێکی ھەڵە.", // deduct
+            onPressedBritish: () => speakdeducts1("en-GB"),
+            onPressedAmerican: () => speakdeducts1("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(text: "Tax is deducted at source."),
-                    ExampleSentenceKurdish(
-                        text: "باج لە سەرچاوەوە کەم دەکرێتەوە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdeducts2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdeducts2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "Tax is deducted at source.",
+            kurdishText: "باج لە سەرچاوەوە کەم دەکرێتەوە.",
+            onPressedBritish: () => speakdeducts2("en-GB"),
+            onPressedAmerican: () => speakdeducts2("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The cost of your uniform will be deducted from your wages."),
-                    ExampleSentenceKurdish(
-                        text: "تێچووی جلەکەت لە مووچەکەت کەم دەکرێتەوە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdeducts3("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdeducts3("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "The cost of your uniform will be deducted from your wages.",
+            kurdishText: "تێچووی جلەکەت لە مووچەکەت کەم دەکرێتەوە.",
+            onPressedBritish: () => speakdeducts3("en-GB"),
+            onPressedAmerican: () => speakdeducts3("en-US"),
           ),
         ],
       ),

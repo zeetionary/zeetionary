@@ -269,146 +269,51 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "١. (ناو) گفتوگۆیەک لە کتێبێک، شانۆیەک، فیلمێک، یان بابەتی خوێندندا"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "Learners are asked to listen to three short dialogues."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "فێرخوازان داوایان لێدەکرێت گوێ بگرن لە سێ دایەلۆگی کورت."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "dialogue", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdialogues1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdialogues1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "Learners are asked to listen to three short dialogues.",
+            kurdishText:
+                "فێرخوازان داوایان لێدەکرێت گوێ بگرن لە سێ دایەلۆگی کورت.", // dialogue
+            onPressedBritish: () => speakdialogues1("en-GB"),
+            onPressedAmerican: () => speakdialogues1("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "Practise the dialogue with a partner."),
-                    ExampleSentenceKurdish(
-                        text: "لەگەڵ ھاوبەشێکدا ڕاھێنان لەسەر دایەلۆگەکە بکە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdialogues2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdialogues2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "Practise the dialogue with a partner.",
+            kurdishText: "لەگەڵ ھاوبەشێکدا ڕاھێنان لەسەر دایەلۆگەکە بکە.",
+            onPressedBritish: () => speakdialogues2("en-GB"),
+            onPressedAmerican: () => speakdialogues2("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
                   "٢. (ناو) گفتوگۆی فەرمی لە نێوان دوو گرووپ یان وڵاتدا، بە تایبەتی کە دەیانەوێت کێشەیەک چارەسەر بکەن، کۆتایی بە مشتومڕێک بھێنن، ھتد"),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The president told reporters there had been a constructive dialogue."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "سەرۆک بە پەیامنێرەکانی گوت کە گفتوگۆی بنیادنەر ھەبووە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdialogues3("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdialogues3("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "The president told reporters there had been a constructive dialogue.",
+            kurdishText:
+                "سەرۆک بە پەیامنێرەکانی گوت کە گفتوگۆی بنیادنەر ھەبووە.",
+            onPressedBritish: () => speakdialogues3("en-GB"),
+            onPressedAmerican: () => speakdialogues3("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "There needs to be a closer dialogue between management and staff."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "دەبێت گفتوگۆی نزیکتر لەنێوان بەڕێوەبەرایەتی و ستافدا ھەبێت."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdialogues4("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdialogues4("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "There needs to be a closer dialogue between management and staff.",
+            kurdishText:
+                "دەبێت گفتوگۆی نزیکتر لەنێوان بەڕێوەبەرایەتی و ستافدا ھەبێت.",
+            onPressedBritish: () => speakdialogues4("en-GB"),
+            onPressedAmerican: () => speakdialogues4("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The government refused to engage in direct dialogue with the terrorists."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "حکومەت ڕەتیکردەوە کە بەژداری گفتوگۆ بێت لەگەڵ تیرۆریستاندا."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdialogues5("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdialogues5("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "The government refused to engage in direct dialogue with the terrorists.",
+            kurdishText:
+                "حکومەت ڕەتیکردەوە کە بەژداری گفتوگۆ بێت لەگەڵ تیرۆریستاندا.",
+            onPressedBritish: () => speakdialogues5("en-GB"),
+            onPressedAmerican: () => speakdialogues5("en-US"),
           ),
           // dialogues600"),
           // speakdialogues6

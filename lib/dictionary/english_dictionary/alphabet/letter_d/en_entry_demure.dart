@@ -250,59 +250,21 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "١. (ھاوەڵناو) ڕەفتارکردن بە شەرمەوە بەشێوەیەک کە سەرنج ڕاناکێشێت"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The demure young lady spoke softly at the gathering."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "ژنە سەنگینە گەنجەکە بە لەسەرخۆیی دوا لە کۆبوونەوەکە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "demure", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdemures1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdemures1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "The demure young lady spoke softly at the gathering.",
+            kurdishText:
+                "ژنە سەنگینە گەنجەکە بە لەسەرخۆیی دوا لە کۆبوونەوەکە.", // demure
+            onPressedBritish: () => speakdemures1("en-GB"),
+            onPressedAmerican: () => speakdemures1("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "She gave him a demure smile."),
-                    ExampleSentenceKurdish(text: "بزەیەکی بەشەرمانەی کرد."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdemures2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdemures2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "She gave him a demure smile.",
+            kurdishText: "بزەیەکی بەشەرمانەی کرد.",
+            onPressedBritish: () => speakdemures2("en-GB"),
+            onPressedAmerican: () => speakdemures2("en-US"),
           ),
           // demures300"),
           // speakdemures3

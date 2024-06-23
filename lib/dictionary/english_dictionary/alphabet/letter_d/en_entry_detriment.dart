@@ -249,59 +249,20 @@ class KurdishMeaning extends StatelessWidget {
 کوردی: زەربە، زیان، زەرەر، ئازار، وەی
 """),
           const DefinitionKurdish(text: "١. (ناو) شتێک کە زیان دەگەیەنێت"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "Wood accounts for 90% of energy production in some countries, with consequent environmental detriment."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "دار ڕێژەی ٩٠٪ بەرھەمھێنانی وزە لە ھەندێک وڵات پێکدێنێت کە زیانی ژینگەیی بەدوادا دێت."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "detriment", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdetriments1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdetriments1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "Wood accounts for 90% of energy production in some countries, with consequent environmental detriment.",
+            kurdishText:
+                "دار ڕێژەی ٩٠٪ بەرھەمھێنانی وزە لە ھەندێک وڵات پێکدێنێت کە زیانی ژینگەیی بەدوادا دێت.", // detriment
+            onPressedBritish: () => speakdetriments1("en-GB"),
+            onPressedAmerican: () => speakdetriments1("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "Too many tests are a detriment to good education."),
-                    ExampleSentenceKurdish(
-                        text: "تاقیکردنەوەی زۆر زیانە بۆ پەروەردەیەکی باش."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdetriments2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdetriments2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "Too many tests are a detriment to good education.",
+            kurdishText: "تاقیکردنەوەی زۆر زیانە بۆ پەروەردەیەکی باش.",
+            onPressedBritish: () => speakdetriments2("en-GB"),
+            onPressedAmerican: () => speakdetriments2("en-US"),
           ),
           // detriments300"),
           // speakdetriments3

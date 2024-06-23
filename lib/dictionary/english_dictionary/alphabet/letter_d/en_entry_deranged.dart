@@ -249,59 +249,20 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "١. (ناو) نەبوونی توانای ڕەفتارکردن و بیرکردنەوە بەشێوەی ئاسایی"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "At first I thought he was deranged."),
-                    ExampleSentenceKurdish(
-                        text: "لە سەرەتادا وام ھەستکرد تێکچووە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "deranged", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakderangeds1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakderangeds1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "At first I thought he was deranged.",
+            kurdishText: "لە سەرەتادا وام ھەستکرد تێکچووە.", // deranged
+            onPressedBritish: () => speakderangeds1("en-GB"),
+            onPressedAmerican: () => speakderangeds1("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "Deranged with panic, I ran back and forth."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "بەوەی لە ترسدا خەڵەفاو بووم بە ڕاکردن ھاتووچۆم بوو."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakderangeds2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakderangeds2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "Deranged with panic, I ran back and forth.",
+            kurdishText: "بەوەی لە ترسدا خەڵەفاو بووم بە ڕاکردن ھاتووچۆم بوو.",
+            onPressedBritish: () => speakderangeds2("en-GB"),
+            onPressedAmerican: () => speakderangeds2("en-US"),
           ),
           // derangeds300"),
           // speakderangeds3

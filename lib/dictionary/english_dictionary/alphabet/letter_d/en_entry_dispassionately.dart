@@ -235,32 +235,13 @@ class KurdishMeaning extends StatelessWidget {
 // """),
           const DefinitionKurdish(
               text: "١. (ھاوەڵکار) بەوەی کە بە ھەست و سۆز کاریگەر نییە"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The case needs to be examined dispassionately at a public inquiry."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "کەیسەکە دەبێت لە لێکۆڵینەوەیەکی گشتیدا لێکۆڵینەوەی لێ بکرێت."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "dispassionately", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdispassionatelys1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdispassionatelys1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "The case needs to be examined dispassionately at a public inquiry.",
+            kurdishText:
+                "کەیسەکە دەبێت لە لێکۆڵینەوەیەکی گشتیدا لێکۆڵینەوەی لێ بکرێت.", // dispassionately
+            onPressedBritish: () => speakdispassionatelys1("en-GB"),
+            onPressedAmerican: () => speakdispassionatelys1("en-US"),
           ),
           // dispassionatelys200"),
           // speakdispassionatelys2

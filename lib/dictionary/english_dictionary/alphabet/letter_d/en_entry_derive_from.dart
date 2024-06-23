@@ -275,146 +275,51 @@ class KurdishMeaning extends StatelessWidget {
 """),
           const DefinitionKurdish(
               text: "١. (کاری لێکدراو) سەرچاوە گرتن لە شتێکەوە"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The word ‘politics’ is derived from a Greek word meaning ‘city’."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "وشەی 'politics' لە وشەیەکی یۆنانی وەرگیراوە کە واتای 'شار' دەدات."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "derive from", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakderivefroms1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakderivefroms1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "The word ‘politics’ is derived from a Greek word meaning ‘city’.",
+            kurdishText:
+                "وشەی 'politics' لە وشەیەکی یۆنانی وەرگیراوە کە واتای 'شار' دەدات.", // derive from
+            onPressedBritish: () => speakderivefroms1("en-GB"),
+            onPressedAmerican: () => speakderivefroms1("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "ژممارە. (کاری لێکدراو) پێنناسە"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "Wealth and position in society derived largely from land ownership."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "سامان و پێگە لە کۆمەڵگادا بەزۆری لە خاوەندارێتی زەوییەوە وەردەگردرێت."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakderivefroms2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakderivefroms2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "Wealth and position in society derived largely from land ownership.",
+            kurdishText:
+                "سامان و پێگە لە کۆمەڵگادا بەزۆری لە خاوەندارێتی زەوییەوە وەردەگردرێت.",
+            onPressedBritish: () => speakderivefroms2("en-GB"),
+            onPressedAmerican: () => speakderivefroms2("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٢. (کاری لێکدراو) وەرگرتنی شتێک لە شتێکەوە"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "He derived great pleasure from painting."),
-                    ExampleSentenceKurdish(
-                        text: "چێژی زۆری لە نیگارکێشانەوە وەردەگرت."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakderivefroms3("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakderivefroms3("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "He derived great pleasure from painting.",
+            kurdishText: "چێژی زۆری لە نیگارکێشانەوە وەردەگرت.",
+            onPressedBritish: () => speakderivefroms3("en-GB"),
+            onPressedAmerican: () => speakderivefroms3("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "We can derive some comfort from this fact."),
-                    ExampleSentenceKurdish(
-                        text: "دەتوانین کەمێک ئارامی لەم ڕاستییەوە وەربگرین."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakderivefroms4("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakderivefroms4("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "We can derive some comfort from this fact.",
+            kurdishText: "دەتوانین کەمێک ئارامی لەم ڕاستییەوە وەربگرین.",
+            onPressedBritish: () => speakderivefroms4("en-GB"),
+            onPressedAmerican: () => speakderivefroms4("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٣. (کاری لێکدراو) وەرگرتنی مادەیەک لە شتێکەوە"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "The new drug is derived from fish oil."),
-                    ExampleSentenceKurdish(
-                        text: "مادە تازەکە لە ڕۆنی ماسییەوە وەرگیردراوە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakderivefroms5("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakderivefroms5("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "The new drug is derived from fish oil.",
+            kurdishText: "مادە تازەکە لە ڕۆنی ماسییەوە وەرگیردراوە.",
+            onPressedBritish: () => speakderivefroms5("en-GB"),
+            onPressedAmerican: () => speakderivefroms5("en-US"),
           ),
           // derivefroms600"),
           // speakderivefroms6

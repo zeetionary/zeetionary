@@ -380,91 +380,34 @@ class KurdishMeaning extends StatelessWidget {
 """),
           const DefinitionKurdish(
               text: """١. (ھاوەڵکار) کە پەیوەندیدارە بە ھەستەکانی خەڵکییەوە"""),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: """I try not to become emotionally involved."""),
-                    ExampleSentenceKurdish(
-                        text:
-                            """ھەوڵ دەدەم لەلایەنی سۆزداری‌یەوە تێوەنەگلێم."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "emotionally", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakemotionallys1("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakemotionallys1("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: """I try not to become emotionally involved.""",
+            kurdishText:
+                """ھەوڵ دەدەم لەلایەنی سۆزداری‌یەوە تێوەنەگلێم.""", // emotionally
+            onPressedBritish: () => speakemotionallys1("en-GB"),
+            onPressedAmerican: () => speakemotionallys1("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: """He was not an emotionally stable person."""),
-                    ExampleSentenceKurdish(
-                        text: """کەسێکی لە ڕووی سۆزەوە جێگیر نەبوو."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakemotionallys2("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakemotionallys2("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: """He was not an emotionally stable person.""",
+            kurdishText: """کەسێکی لە ڕووی سۆزەوە جێگیر نەبوو.""",
+            onPressedBritish: () => speakemotionallys2("en-GB"),
+            onPressedAmerican: () => speakemotionallys2("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
                   """٢. (ھاوەڵکار) کە وەھا لە خەڵکی دەکات ھەست بە سۆزی زۆر بکەن"""),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            """The interviewer had not realized that was an emotionally charged issue (= causing strong feelings) in this community."""),
-                    ExampleSentenceKurdish(
-                        text:
-                            """چاوپێکەوتن‌کارەکە نەیزانی کە ئەوە بابەتێکی ھەست‌بزوێن لەم کۆمەڵگەیەدا."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakemotionallys3("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakemotionallys3("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                """The interviewer had not realized that was an emotionally charged issue (= causing strong feelings) in this community.""",
+            kurdishText:
+                """چاوپێکەوتن‌کارەکە نەیزانی کە ئەوە بابەتێکی ھەست‌بزوێن لەم کۆمەڵگەیەدا.""",
+            onPressedBritish: () => speakemotionallys3("en-GB"),
+            onPressedAmerican: () => speakemotionallys3("en-US"),
           ),
           // emotionallys400emotionallys4
           // speakemotionallys4

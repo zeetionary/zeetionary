@@ -234,32 +234,13 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "١. (کردار) لادانی پاشا یان شاژنێک؛ لادانی کەسێک لە پێگەیەک یان دەسەڵات"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The world champion was dethroned by a young Swedish challenger."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "پاڵەوانە جیھانییەکە لەلایەن ڕکابەرێکی سویدییەوە شکستی پێھێنرا."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "dethrone", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdethrones1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdethrones1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "The world champion was dethroned by a young Swedish challenger.",
+            kurdishText:
+                "پاڵەوانە جیھانییەکە لەلایەن ڕکابەرێکی سویدییەوە شکستی پێھێنرا.", // dethrone
+            onPressedBritish: () => speakdethrones1("en-GB"),
+            onPressedAmerican: () => speakdethrones1("en-US"),
           ),
           // dethrones200"),
           // speakdethrones2

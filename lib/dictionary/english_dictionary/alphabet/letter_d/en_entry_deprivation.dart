@@ -260,90 +260,31 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "١. (ناو) نەبوونی شتێک کە پێویستتە، بۆ نموونە خواردن. خەو، پارە، ھتد"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "Many of the people suffered severe deprivation."),
-                    ExampleSentenceKurdish(
-                        text: "زۆرێک لە خەڵکەکە تووشی نەبوونیی زۆر بوون."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "deprivation", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdeprivations1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdeprivations1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "Many of the people suffered severe deprivation.",
+            kurdishText:
+                "زۆرێک لە خەڵکەکە تووشی نەبوونیی زۆر بوون.", // deprivation
+            onPressedBritish: () => speakdeprivations1("en-GB"),
+            onPressedAmerican: () => speakdeprivations1("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "They used sleep deprivation as a form of torture."),
-                    ExampleSentenceKurdish(
-                        text: "دابڕین لە خەو وەک جۆرێک لە سزا بەکاردێنن."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdeprivations2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdeprivations2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "They used sleep deprivation as a form of torture.",
+            kurdishText: "دابڕین لە خەو وەک جۆرێک لە سزا بەکاردێنن.",
+            onPressedBritish: () => speakdeprivations2("en-GB"),
+            onPressedAmerican: () => speakdeprivations2("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "There were food shortages and other deprivations during the Civil War."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "کەمی خۆراک و نەبوونی دیکە ھەبوون لەماوی جەنگەکە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdeprivations3("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdeprivations3("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "There were food shortages and other deprivations during the Civil War.",
+            kurdishText: "کەمی خۆراک و نەبوونی دیکە ھەبوون لەماوی جەنگەکە.",
+            onPressedBritish: () => speakdeprivations3("en-GB"),
+            onPressedAmerican: () => speakdeprivations3("en-US"),
           ),
           // deprivations400"),
           // speakdeprivations4

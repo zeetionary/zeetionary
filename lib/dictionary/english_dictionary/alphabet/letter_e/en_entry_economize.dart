@@ -373,62 +373,24 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   """١. (کردار) بەکارھێنانی کات، پارە، ھتد ـی کەمتر لەوەی بەشێوەی ئاسایی بەکاری دەھێنیت"""),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            """You could economize on food by not eating in restaurants all the time."""),
-                    ExampleSentenceKurdish(
-                        text:
-                            """دەتوانیت لەلایەنی خواردنەوە دەسپێوەگری بکەیت بەوەی ھەمیشە لە چێشتخانەکان نان نەخۆیت."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "economize", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakeconomizes1("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakeconomizes1("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                """You could economize on food by not eating in restaurants all the time.""",
+            kurdishText:
+                """دەتوانیت لەلایەنی خواردنەوە دەسپێوەگری بکەیت بەوەی ھەمیشە لە چێشتخانەکان نان نەخۆیت.""", // economize
+            onPressedBritish: () => speakeconomizes1("en-GB"),
+            onPressedAmerican: () => speakeconomizes1("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            """A lot of companies are trying to economize by not taking on new staff."""),
-                    ExampleSentenceKurdish(
-                        text:
-                            """زۆر کۆمپانیا ھەوڵ دەدەن نادەستبڵاو بن بەوەی ستافی تازە نەھێنن."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakeconomizes2("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakeconomizes2("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                """A lot of companies are trying to economize by not taking on new staff.""",
+            kurdishText:
+                """زۆر کۆمپانیا ھەوڵ دەدەن نادەستبڵاو بن بەوەی ستافی تازە نەھێنن.""",
+            onPressedBritish: () => speakeconomizes2("en-GB"),
+            onPressedAmerican: () => speakeconomizes2("en-US"),
           ),
           // economizes300economizes3
           // speakeconomizes3

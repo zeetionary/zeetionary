@@ -241,30 +241,11 @@ class KurdishMeaning extends StatelessWidget {
 """),
           const DefinitionKurdish(
               text: "١. (ھاوەڵناو) نەبوونی بەشی پێویست لە شتێک"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "Their food is deficient in iron."),
-                    ExampleSentenceKurdish(
-                        text: "خواردنەوەکەیان کەمی ئاسنی ھەیە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "deficient", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdeficients1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdeficients1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "Their food is deficient in iron.",
+            kurdishText: "خواردنەوەکەیان کەمی ئاسنی ھەیە.", // deficient
+            onPressedBritish: () => speakdeficients1("en-GB"),
+            onPressedAmerican: () => speakdeficients1("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
@@ -289,32 +270,13 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٢. (ھاوەڵناو) کە بەپێی پێویست باش نییە"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "Deaf people are sometimes treated as being mentally deficient."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "کەسانی کەڕ ھەندێکجار لە ڕووی دەروونییەوە وەک ناتەواو سەیر دەکرێن."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdeficients3("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdeficients3("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "Deaf people are sometimes treated as being mentally deficient.",
+            kurdishText:
+                "کەسانی کەڕ ھەندێکجار لە ڕووی دەروونییەوە وەک ناتەواو سەیر دەکرێن.",
+            onPressedBritish: () => speakdeficients3("en-GB"),
+            onPressedAmerican: () => speakdeficients3("en-US"),
           ),
           // deficients400"),
           // speakdeficients4

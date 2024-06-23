@@ -257,89 +257,31 @@ class KurdishMeaning extends StatelessWidget {
 کوردی: خوالێ‌خۆش‌بوو، مردوو،	کۆن، لەکارکەوتوو، ناکاریگەر، بێ‌بڕەو، لەباوکەوتوو،	ڕوولە نەمان، ڕوولە تیاچوون
 """),
           const DefinitionKurdish(text: "١. (ھاوەڵناو) کە چی دیکە بەکارنایەت"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "He wrote many articles for the now sadly defunct newspaper, the Daily Correspondent."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "زۆر وتاری نووسی بۆ ڕۆژنامەی دەیکی کۆڕیسپۆندنت کە ئێستا بەداخەوە نەماوە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "defunct", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdefuncts1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdefuncts1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "He wrote many articles for the now sadly defunct newspaper, the Daily Correspondent.",
+            kurdishText:
+                "زۆر وتاری نووسی بۆ ڕۆژنامەی دەیکی کۆڕیسپۆندنت کە ئێستا بەداخەوە نەماوە.", // defunct
+            onPressedBritish: () => speakdefuncts1("en-GB"),
+            onPressedAmerican: () => speakdefuncts1("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The LP was made defunct by the arrival of the CD."),
-                    ExampleSentenceKurdish(
-                        text: "ئێڵ‌پی لەکارخرا بە گەشتنی سی‌دی."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdefuncts2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdefuncts2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "The LP was made defunct by the arrival of the CD.",
+            kurdishText: "ئێڵ‌پی لەکارخرا بە گەشتنی سی‌دی.",
+            onPressedBritish: () => speakdefuncts2("en-GB"),
+            onPressedAmerican: () => speakdefuncts2("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "These machines are now considered defunct."),
-                    ExampleSentenceKurdish(
-                        text: "ئەم ئامێرانە لە ئێستادا بە بێ‌بڕەو دادەنرێن."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdefuncts3("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdefuncts3("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "These machines are now considered defunct.",
+            kurdishText: "ئەم ئامێرانە لە ئێستادا بە بێ‌بڕەو دادەنرێن.",
+            onPressedBritish: () => speakdefuncts3("en-GB"),
+            onPressedAmerican: () => speakdefuncts3("en-US"),
           ),
           // defuncts400"),
           // speakdefuncts4

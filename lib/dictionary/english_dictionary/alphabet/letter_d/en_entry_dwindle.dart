@@ -371,60 +371,23 @@ class KurdishMeaning extends StatelessWidget {
 // کوردی:
 // """),
           const DefinitionKurdish(text: """١. (کردار) کەمبوون یان بچووکبوون"""),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            """Support for the party has dwindled away to nothing."""),
-                    ExampleSentenceKurdish(
-                        text: """پشتگیری بۆ پارتەکە کەمبووە تا ئاستی نەمان."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "dwindle", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdwindles1("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdwindles1("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                """Support for the party has dwindled away to nothing.""",
+            kurdishText:
+                """پشتگیری بۆ پارتەکە کەمبووە تا ئاستی نەمان.""", // dwindle
+            onPressedBritish: () => speakdwindles1("en-GB"),
+            onPressedAmerican: () => speakdwindles1("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            """Membership of the club has dwindled from 70 to 20."""),
-                    ExampleSentenceKurdish(
-                        text: """ئەندامێتی لە یانەکە لە ٧٠ بۆ ٢٠ دابەزیوە."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdwindles2("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdwindles2("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                """Membership of the club has dwindled from 70 to 20.""",
+            kurdishText: """ئەندامێتی لە یانەکە لە ٧٠ بۆ ٢٠ دابەزیوە.""",
+            onPressedBritish: () => speakdwindles2("en-GB"),
+            onPressedAmerican: () => speakdwindles2("en-US"),
           ),
           // dwindles300
           // speakdwindles3

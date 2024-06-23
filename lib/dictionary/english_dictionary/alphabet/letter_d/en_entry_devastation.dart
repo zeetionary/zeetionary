@@ -241,59 +241,21 @@ class KurdishMeaning extends StatelessWidget {
 کوردی: وێران‌کردن، کاول‌کردن، تێکدان، خاکی بە توورەکە بێژان، خاپوورکردن، داڕماندن، داڕووخاندن، تەخت‌وپەخت‌کردن، ھەڵتەکاندن، داربەسەر بەردەوەنەھێشتن،	وێرانی، کاولی، خاپووری، کامباخی، تێکچوویی، تیاچوون، لەنێوچوون، نەمان، سڕانەوە، کوێربوونەوە
 """),
           const DefinitionKurdish(text: "١. (ناو) وێرانبوون یان زیانی گەورە"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "The bomb caused widespread devastation."),
-                    ExampleSentenceKurdish(
-                        text: "بۆمبەکە بوو بە ھۆکاری وێرانبوونی گەورە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "devastation", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdevastations1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdevastations1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "The bomb caused widespread devastation.",
+            kurdishText:
+                "بۆمبەکە بوو بە ھۆکاری وێرانبوونی گەورە.", // devastation
+            onPressedBritish: () => speakdevastations1("en-GB"),
+            onPressedAmerican: () => speakdevastations1("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The cost of the devastation could run to £6 million."),
-                    ExampleSentenceKurdish(
-                        text: "تێچووی وێرانبوونەکە دەکرێت بگات نە ٦ ملیۆن."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdevastations2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdevastations2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "The cost of the devastation could run to £6 million.",
+            kurdishText: "تێچووی وێرانبوونەکە دەکرێت بگات نە ٦ ملیۆن.",
+            onPressedBritish: () => speakdevastations2("en-GB"),
+            onPressedAmerican: () => speakdevastations2("en-US"),
           ),
           // devastations300"),
           // speakdevastations3

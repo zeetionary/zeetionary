@@ -379,90 +379,33 @@ class KurdishMeaning extends StatelessWidget {
 کوردی: کەسێکی ساویلکە، سادە، ھەڵفریواو، تەفرەدراو، لەخشتەچوو، فریودراو
 """),
           const DefinitionKurdish(text: """١. (کردار) فێڵکردن لە کەسێک"""),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: """They soon realized they had been duped."""),
-                    ExampleSentenceKurdish(
-                        text: """ھەرزوو زانییان خاپێندراون."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "dupe", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdupes1("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdupes1("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: """They soon realized they had been duped.""",
+            kurdishText: """ھەرزوو زانییان خاپێندراون.""", // dupe
+            onPressedBritish: () => speakdupes1("en-GB"),
+            onPressedAmerican: () => speakdupes1("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            """The girls were duped by drug smugglers into carrying heroin for them."""),
-                    ExampleSentenceKurdish(
-                        text:
-                            """کچەکان لەلایەن بازرگانانی مادەی ھۆشبەرەوە خەڵەتێندران کە ھیرۆینیان بۆ ھەڵبگرن."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdupes2("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdupes2("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                """The girls were duped by drug smugglers into carrying heroin for them.""",
+            kurdishText:
+                """کچەکان لەلایەن بازرگانانی مادەی ھۆشبەرەوە خەڵەتێندران کە ھیرۆینیان بۆ ھەڵبگرن.""",
+            onPressedBritish: () => speakdupes2("en-GB"),
+            onPressedAmerican: () => speakdupes2("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: """٢. (ناو) کەسێک کە خەڵەتێندراوە"""),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            """These men were simply the dupes of their unscrupulous leaders."""),
-                    ExampleSentenceKurdish(
-                        text:
-                            """ئەم پیاوانە تەنھا فریودراوانی سەرکردە بێ‌شەڕەفەکانیان بوون."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdupes3("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdupes3("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                """These men were simply the dupes of their unscrupulous leaders.""",
+            kurdishText:
+                """ئەم پیاوانە تەنھا فریودراوانی سەرکردە بێ‌شەڕەفەکانیان بوون.""",
+            onPressedBritish: () => speakdupes3("en-GB"),
+            onPressedAmerican: () => speakdupes3("en-US"),
           ),
           // dupes400
           // speakdupes4

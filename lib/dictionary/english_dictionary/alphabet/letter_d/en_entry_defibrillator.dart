@@ -235,32 +235,13 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "١. (ناو) ئامێرێک کە بەکاردێت بۆ کۆنترۆڵکردنی ماسوولکەکانی دڵ بە پێدانی تەزووی کارەبایی"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "We have installed portable defibrillators in public buildings."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "شۆکی کارەبایی لەگوێزانەوەھاتوومان لە بینا گشتییەکان داناوە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "defibrillator", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdefibrillators1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdefibrillators1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "We have installed portable defibrillators in public buildings.",
+            kurdishText:
+                "شۆکی کارەبایی لەگوێزانەوەھاتوومان لە بینا گشتییەکان داناوە.", // defibrillator
+            onPressedBritish: () => speakdefibrillators1("en-GB"),
+            onPressedAmerican: () => speakdefibrillators1("en-US"),
           ),
           // defibrillators200"),
           // speakdefibrillators2

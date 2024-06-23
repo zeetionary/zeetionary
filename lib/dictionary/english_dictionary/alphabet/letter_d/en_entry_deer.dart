@@ -233,30 +233,11 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "١. (ناو) ئاژەڵێک کە لاقی درێژی ھەیە و گیا، گەڵا، ھتد دەخوات"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "The park is home to a large herd of deer."),
-                    ExampleSentenceKurdish(
-                        text: "پارکەکە لانەی گرووپێکی گەورە لە ئاسکە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "deer", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdeers1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdeers1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "The park is home to a large herd of deer.",
+            kurdishText: "پارکەکە لانەی گرووپێکی گەورە لە ئاسکە.", // deer
+            onPressedBritish: () => speakdeers1("en-GB"),
+            onPressedAmerican: () => speakdeers1("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "٢. (ھاوەڵناو) پێنناسە"),

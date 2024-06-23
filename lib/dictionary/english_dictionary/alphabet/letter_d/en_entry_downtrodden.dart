@@ -365,32 +365,13 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "١. (ھاوەڵناو) کەسانێک کە لەلایەن دەسەڵاتەوە بە خراپی مامەڵەیان لەگەڵ کراوە و چی دیکە وزە و توانای بەرەنگاربوونەوەیان نییە "),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "It was a downtrodden nation during centuries of foreign occupation."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "نەتەوەیەکی چەوسێنراو بوو لە ماوەی چەندین سەدە لە داگیرکاریی بیانی."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "downtrodden", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdowntroddens1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdowntroddens1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "It was a downtrodden nation during centuries of foreign occupation.",
+            kurdishText:
+                "نەتەوەیەکی چەوسێنراو بوو لە ماوەی چەندین سەدە لە داگیرکاریی بیانی.", // downtrodden
+            onPressedBritish: () => speakdowntroddens1("en-GB"),
+            onPressedAmerican: () => speakdowntroddens1("en-US"),
           ),
           // downtroddens200"),
           // speakdowntroddens2

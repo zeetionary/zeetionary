@@ -276,178 +276,64 @@ class KurdishMeaning extends StatelessWidget {
 """),
           const DefinitionKurdish(
               text: "١. (ناو) دەربڕینی بۆچوون کە جیاوازە لەوەی پەسەندکراوە"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "Voices of dissent began to rise against the authority in the 1950s and 1960s."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "دەنگی ناڕەزایەتی دەستیان بە ھەڵبڕین کرد دژ بە دەسەڵات لە ساڵانی ١٩٥٠ ـیەکان و ١٩٦٠ ـەکان."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "dissent", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdissents1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdissents1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "Voices of dissent began to rise against the authority in the 1950s and 1960s.",
+            kurdishText:
+                "دەنگی ناڕەزایەتی دەستیان بە ھەڵبڕین کرد دژ بە دەسەڵات لە ساڵانی ١٩٥٠ ـیەکان و ١٩٦٠ ـەکان.", // dissent
+            onPressedBritish: () => speakdissents1("en-GB"),
+            onPressedAmerican: () => speakdissents1("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "Stability only exists in the country because dissent has been suppressed."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "جێگیری لە وڵاتەکەدا بوونی ھەیە تەنھا لەبەر ئەوەی دەنگی ناڕەزایی کپ کراوە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdissents2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdissents2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "Stability only exists in the country because dissent has been suppressed.",
+            kurdishText:
+                "جێگیری لە وڵاتەکەدا بوونی ھەیە تەنھا لەبەر ئەوەی دەنگی ناڕەزایی کپ کراوە.",
+            onPressedBritish: () => speakdissents2("en-GB"),
+            onPressedAmerican: () => speakdissents2("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "Political dissent is not tolerated."),
-                    ExampleSentenceKurdish(
-                        text: "ناڕەزایی سیاسی پەسەند ناکرێت."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdissents3("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdissents3("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "Political dissent is not tolerated.",
+            kurdishText: "ناڕەزایی سیاسی پەسەند ناکرێت.",
+            onPressedBritish: () => speakdissents3("en-GB"),
+            onPressedAmerican: () => speakdissents3("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٢. (ناو) ناڕەزایی دەربڕیت لەگەڵ بڕیاری ناوبژیوان"),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "He was sent off for dissent."),
-                    ExampleSentenceKurdish(text: "دەرکرا بۆ ناڕەزایی دەربڕین."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdissents4("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdissents4("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "He was sent off for dissent.",
+            kurdishText: "دەرکرا بۆ ناڕەزایی دەربڕین.",
+            onPressedBritish: () => speakdissents4("en-GB"),
+            onPressedAmerican: () => speakdissents4("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: "٣. (کردار) دەربڕینی ناڕەزایی"),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "Only two ministers dissented from the official view."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "تەنھا دوو وەزیر ناڕەزاییان دژ بە دیدە سیاسییەکە دەربڕی."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdissents5("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdissents5("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "Only two ministers dissented from the official view.",
+            kurdishText:
+                "تەنھا دوو وەزیر ناڕەزاییان دژ بە دیدە سیاسییەکە دەربڕی.",
+            onPressedBritish: () => speakdissents5("en-GB"),
+            onPressedAmerican: () => speakdissents5("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "There were a few dissenting voices, but the vast majority supported the plan."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "ھەندێک دەنگی ناڕەزایی ھەیە، بەڵام زۆرینە لەگەڵ پلانەکەن."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdissents6("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdissents6("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "There were a few dissenting voices, but the vast majority supported the plan.",
+            kurdishText:
+                "ھەندێک دەنگی ناڕەزایی ھەیە، بەڵام زۆرینە لەگەڵ پلانەکەن.",
+            onPressedBritish: () => speakdissents6("en-GB"),
+            onPressedAmerican: () => speakdissents6("en-US"),
           ),
           // dissents700"),
           // speakdissents7

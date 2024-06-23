@@ -233,32 +233,13 @@ class KurdishMeaning extends StatelessWidget {
 // کوردی:
 // """),
           const DefinitionKurdish(text: "١. (ناو) توخمێکی کیمیایی"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "Darmstadtium is a radioactive element that is produced artificially."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "دارمشتادیەم توخمێکی تیشکدەرە و بە دەستکرد درووست دەکرێت."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "darmstadtium", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdarmstadtiums1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdarmstadtiums1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "Darmstadtium is a radioactive element that is produced artificially.",
+            kurdishText:
+                "دارمشتادیەم توخمێکی تیشکدەرە و بە دەستکرد درووست دەکرێت.", // darmstadtium
+            onPressedBritish: () => speakdarmstadtiums1("en-GB"),
+            onPressedAmerican: () => speakdarmstadtiums1("en-US"),
           ),
         ],
       ),

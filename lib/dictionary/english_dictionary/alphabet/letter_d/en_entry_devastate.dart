@@ -249,60 +249,23 @@ class KurdishMeaning extends StatelessWidget {
 """),
           const DefinitionKurdish(
               text: "١. (کردار) بە تەواوی وێرانکردنی شوێنێک"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The bomb devastated much of the old part of the city."),
-                    ExampleSentenceKurdish(
-                        text: "بۆمبەکە زۆرینەی بەشی کۆنی شارەکەی وێرانکرد."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "devastate", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdevastates1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdevastates1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "The bomb devastated much of the old part of the city.",
+            kurdishText:
+                "بۆمبەکە زۆرینەی بەشی کۆنی شارەکەی وێرانکرد.", // devastate
+            onPressedBritish: () => speakdevastates1("en-GB"),
+            onPressedAmerican: () => speakdevastates1("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٢. (کردار) ڕووخاندنی کەسێک لەلایەنی دەروونییەوە"),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "The news of his death will devastate her."),
-                    ExampleSentenceKurdish(
-                        text: "ھەواڵی مردنەکەی دەیڕووخێنێت."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdevastates2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdevastates2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "The news of his death will devastate her.",
+            kurdishText: "ھەواڵی مردنەکەی دەیڕووخێنێت.",
+            onPressedBritish: () => speakdevastates2("en-GB"),
+            onPressedAmerican: () => speakdevastates2("en-US"),
           ),
           // devastates300"),
           // speakdevastates3

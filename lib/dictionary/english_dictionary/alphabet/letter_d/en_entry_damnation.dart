@@ -232,32 +232,13 @@ class KurdishMeaning extends StatelessWidget {
 کوردی: خوداگرتن، خوداگرتوویی، خوداگیری، نەفرەت، نەفرەتی ھەمیشەیی، لەعنەت، بەڵای خودایی، لەعنەتی خودا
 """),
           const DefinitionKurdish(text: "١. (ناو) بوون لە دۆزەخ"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "He believed that he would be condemned to eternal damnation for what he had done."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "باوەڕی وابوو بۆ ھەمیشەیی بەر لەعنەتی دۆزەخ دەکەوێت بۆ ئەوەی کردوویەتی."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "damnation", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdamnations1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdamnations1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "He believed that he would be condemned to eternal damnation for what he had done.",
+            kurdishText:
+                "باوەڕی وابوو بۆ ھەمیشەیی بەر لەعنەتی دۆزەخ دەکەوێت بۆ ئەوەی کردوویەتی.", // damnation
+            onPressedBritish: () => speakdamnations1("en-GB"),
+            onPressedAmerican: () => speakdamnations1("en-US"),
           ),
         ],
       ),

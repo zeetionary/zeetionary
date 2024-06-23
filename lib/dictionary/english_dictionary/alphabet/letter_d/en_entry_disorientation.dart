@@ -244,63 +244,25 @@ class KurdishMeaning extends StatelessWidget {
 """),
           const DefinitionKurdish(
               text: "١. (ناو) ئەوەی کە نەزانیت لە کوێیت یان بۆ کوێ بچیت"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "At the top of the hill I had a brief moment of disorientation."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "لە سەرەوەی گردەکە ساتێک تووشی سەرلێ‌شێواوی بووم."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "disorientation", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdisorientations1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdisorientations1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "At the top of the hill I had a brief moment of disorientation.",
+            kurdishText:
+                "لە سەرەوەی گردەکە ساتێک تووشی سەرلێ‌شێواوی بووم.", // disorientation
+            onPressedBritish: () => speakdisorientations1("en-GB"),
+            onPressedAmerican: () => speakdisorientations1("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٢. (ناو) ئەو ھەستەی کە شڵەژاویت و بە ڕوونی بیر ناکەیتەوە"),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "She went through a period of shock and disorientation following her husband's death."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "لە دوای کۆچی ھاوژینەکەی تووشی ماوەیەک لە تاسان و سەرلێ‌تێکچووی بوو."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdisorientations2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdisorientations2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "She went through a period of shock and disorientation following her husband's death.",
+            kurdishText:
+                "لە دوای کۆچی ھاوژینەکەی تووشی ماوەیەک لە تاسان و سەرلێ‌تێکچووی بوو.",
+            onPressedBritish: () => speakdisorientations2("en-GB"),
+            onPressedAmerican: () => speakdisorientations2("en-US"),
           ),
           // disorientations300"),
           // speakdisorientations3

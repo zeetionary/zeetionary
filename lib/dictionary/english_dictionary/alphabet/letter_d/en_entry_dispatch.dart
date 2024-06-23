@@ -278,184 +278,68 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "١. (کردار) ناردنی کەسێک/شتێک بۆ شوێنێک، بەتایبەتی بۆ مەبەستێکی دیاریکراو"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "Troops have been dispatched to the area."),
-                    ExampleSentenceKurdish(text: "ھێز بۆ ناوچەکە نێردراون."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "dispatch", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdispatchs1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdispatchs1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "Troops have been dispatched to the area.",
+            kurdishText: "ھێز بۆ ناوچەکە نێردراون.", // dispatch
+            onPressedBritish: () => speakdispatchs1("en-GB"),
+            onPressedAmerican: () => speakdispatchs1("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٢. (کردار) ناردنی نامەیەک نامەیەک یان پاکێجێک بۆ شوێنێک"),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "Goods are dispatched within 24 hours of your order reaching us."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "کەلوپەل دەگەیەندرێت لە ماوەی ٢٤ کاتژمێردا کە داواکەت دەگاتە دەستمان."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdispatchs2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdispatchs2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "Goods are dispatched within 24 hours of your order reaching us.",
+            kurdishText:
+                "کەلوپەل دەگەیەندرێت لە ماوەی ٢٤ کاتژمێردا کە داواکەت دەگاتە دەستمان.",
+            onPressedBritish: () => speakdispatchs2("en-GB"),
+            onPressedAmerican: () => speakdispatchs2("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
                   "٣. (کردار) مامەڵەکردن لەگەڵ کەسێک/شتێک بە خێرایی و تەواوی"),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "He dispatched the younger player in straight sets."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "یاریزانە گەنجەکەی بە دوو کۆمەڵەی یەک بەدوای یەکدا دەرکرد."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdispatchs3("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdispatchs3("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "He dispatched the younger player in straight sets.",
+            kurdishText:
+                "یاریزانە گەنجەکەی بە دوو کۆمەڵەی یەک بەدوای یەکدا دەرکرد.",
+            onPressedBritish: () => speakdispatchs3("en-GB"),
+            onPressedAmerican: () => speakdispatchs3("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: "٤. (کردار) کوشتن"),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "Our handsome hero manages to dispatch another five villains."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "پاڵەوانە جوانەکەمان دەتوانێت پێنج تاوان‌کاری دیکە بکوژێت."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdispatchs4("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdispatchs4("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "Our handsome hero manages to dispatch another five villains.",
+            kurdishText:
+                "پاڵەوانە جوانەکەمان دەتوانێت پێنج تاوان‌کاری دیکە بکوژێت.",
+            onPressedBritish: () => speakdispatchs4("en-GB"),
+            onPressedAmerican: () => speakdispatchs4("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: "٥. (ناو) ناردنی کەسێک/شتێک بۆ شوێنێک"),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "More food supplies are ready for immediate dispatch."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "پاشەکەوتی زیاتری خواردن ئامادەیە بۆ ناردنی دەستبەجێ."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdispatchs5("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdispatchs5("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "More food supplies are ready for immediate dispatch.",
+            kurdishText: "پاشەکەوتی زیاتری خواردن ئامادەیە بۆ ناردنی دەستبەجێ.",
+            onPressedBritish: () => speakdispatchs5("en-GB"),
+            onPressedAmerican: () => speakdispatchs5("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
                   "٦. (ناو) پەیامێک یان ڕاپۆرتێک کە لە نێوان دوو ئەفسەری سەربازی یان بەرپرسی حکومی ئاڵوگۆڕ دەکرێت، یان ڕاپۆرتی ڕۆژنامەنووسێک کە لە دەرەوەی وڵات کار دەکات"),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "In her latest dispatch, Clare Duggan, our war correspondent, reported an increase in fighting."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "لە کۆتا پەیامیدا، کلێر دوگان، پەیامنێری جەنگیمان، ئاماژە بە زیادبوونی شەڕ دەکات."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdispatchs6("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdispatchs6("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "In her latest dispatch, Clare Duggan, our war correspondent, reported an increase in fighting.",
+            kurdishText:
+                "لە کۆتا پەیامیدا، کلێر دوگان، پەیامنێری جەنگیمان، ئاماژە بە زیادبوونی شەڕ دەکات.",
+            onPressedBritish: () => speakdispatchs6("en-GB"),
+            onPressedAmerican: () => speakdispatchs6("en-US"),
           ),
           // dispatchs700"),
           // speakdispatchs7

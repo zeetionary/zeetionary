@@ -305,280 +305,89 @@ class KurdishMeaning extends StatelessWidget {
 کوردی: سیخورمە، مستەکۆڵە، گوڕمیچ، تێ‌کوتان، تێ‌وەژاندن،	پلار، توانج، زیپک،	دانەوە، ھەڵکۆڵین، ھەڵکەندن،	شوێنی دانەوە، شوێنی کە شوێنەوارناسەکان دەیدەنەوە، کۆڵینی شوێنەوارناسی‌یانە
 """),
           const DefinitionKurdish(text: "١. (کردار) ھەڵکەندن"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "I think I'll do some digging in the garden."),
-                    ExampleSentenceKurdish(
-                        text: "پێموایە کەمێک ھەڵکەندن لە باخچەکەدا دەکەم."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "dig", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdigs1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdigs1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "I think I'll do some digging in the garden.",
+            kurdishText: "پێموایە کەمێک ھەڵکەندن لە باخچەکەدا دەکەم.", // dig
+            onPressedBritish: () => speakdigs1("en-GB"),
+            onPressedAmerican: () => speakdigs1("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "They dug deeper and deeper but still found nothing."),
-                    ExampleSentenceKurdish(
-                        text: "زیاتر و زیاتریان کەند بەڵام ھیچیان نەدۆزییەوە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdigs2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdigs2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "They dug deeper and deeper but still found nothing.",
+            kurdishText: "زیاتر و زیاتریان کەند بەڵام ھیچیان نەدۆزییەوە.",
+            onPressedBritish: () => speakdigs2("en-GB"),
+            onPressedAmerican: () => speakdigs2("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "We could only dig down a few feet."),
-                    ExampleSentenceKurdish(
-                        text: "توانیمان تەنھا چەند پێیەک بکەنین."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdigs3("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdigs3("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "We could only dig down a few feet.",
+            kurdishText: "توانیمان تەنھا چەند پێیەک بکەنین.",
+            onPressedBritish: () => speakdigs3("en-GB"),
+            onPressedAmerican: () => speakdigs3("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "I've been digging the garden."),
-                    ExampleSentenceKurdish(
-                        text: "بە کەندنی باخچەکەوە سەرقاڵ بوومە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdigs4("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdigs4("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "I've been digging the garden.",
+            kurdishText: "بە کەندنی باخچەکەوە سەرقاڵ بوومە.",
+            onPressedBritish: () => speakdigs4("en-GB"),
+            onPressedAmerican: () => speakdigs4("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٢. (کردار) دەرکردن لە زەوی بە ئامێرێک"),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "I'll dig some potatoes for lunch."),
-                    ExampleSentenceKurdish(
-                        text: "ھەندێک پەتاتە بۆ نانی نیوەڕی دەردێنم."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdigs5("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdigs5("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "I'll dig some potatoes for lunch.",
+            kurdishText: "ھەندێک پەتاتە بۆ نانی نیوەڕی دەردێنم.",
+            onPressedBritish: () => speakdigs5("en-GB"),
+            onPressedAmerican: () => speakdigs5("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٣. (کردار) گەڕان لە شتێکدا بۆ دۆزینەوەی شتێک"),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "I dug around in my bag for a pen."),
-                    ExampleSentenceKurdish(
-                        text: "لە جانتاکەمدا بۆ پنووسێک گەڕام."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdigs6("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdigs6("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "I dug around in my bag for a pen.",
+            kurdishText: "لە جانتاکەمدا بۆ پنووسێک گەڕام.",
+            onPressedBritish: () => speakdigs6("en-GB"),
+            onPressedAmerican: () => speakdigs6("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: "٤. (ناو) پاڵنانێکی ھێواش بە پەنجە"),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "She gave him a dig in the ribs."),
-                    ExampleSentenceKurdish(text: "پاڵێکی بە پەراسوویەوە نا."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdigs7("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdigs7("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "She gave him a dig in the ribs.",
+            kurdishText: "پاڵێکی بە پەراسوویەوە نا.",
+            onPressedBritish: () => speakdigs7("en-GB"),
+            onPressedAmerican: () => speakdigs7("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٥. (ناو) قسەیەک کە ئامانج لێی ئەوەیە کە کەسێک بێزار بکات"),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "He kept making little digs at me."),
-                    ExampleSentenceKurdish(
-                        text: "بەردوام بوو لەوەی توانجی بچووکم لێبدا."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdigs8("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdigs8("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "He kept making little digs at me.",
+            kurdishText: "بەردوام بوو لەوەی توانجی بچووکم لێبدا.",
+            onPressedBritish: () => speakdigs8("en-GB"),
+            onPressedAmerican: () => speakdigs8("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "I resisted the temptation to get in a dig at Fred."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "بەسەر ئەو حەزە زاڵ بووم کە بکەومە توانج لێدان لەگەڵ فرێد."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdigs9("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdigs9("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "I resisted the temptation to get in a dig at Fred.",
+            kurdishText:
+                "بەسەر ئەو حەزە زاڵ بووم کە بکەومە توانج لێدان لەگەڵ فرێد.",
+            onPressedBritish: () => speakdigs9("en-GB"),
+            onPressedAmerican: () => speakdigs9("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٥. (ناو) ھەڵکۆڵین بۆ زانینی زانیاری لەسەر مێژووی شتێک"),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "I went on a dig over the summer."),
-                    ExampleSentenceKurdish(
-                        text: "لە ھاویندا چووم بۆ ھەڵکۆڵین."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdigs10("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdigs10("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "I went on a dig over the summer.",
+            kurdishText: "لە ھاویندا چووم بۆ ھەڵکۆڵین.",
+            onPressedBritish: () => speakdigs10("en-GB"),
+            onPressedAmerican: () => speakdigs10("en-US"),
           ),
           // digs1100"),
           // speakdigs11

@@ -239,57 +239,20 @@ class KurdishMeaning extends StatelessWidget {
 کوردی: تاریک، ناخۆش، خەفە، دڵتەنگ، پیس، ناخاوێن، چڵکن 
 """),
           const DefinitionKurdish(text: "١. (ھاوەڵناو) تاریک و پیس"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "The kitchen was rather dingy."),
-                    ExampleSentenceKurdish(text: "چێشتخانەکە تاریک و پیس بوو."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "dingy", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdingys1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdingys1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "The kitchen was rather dingy.",
+            kurdishText: "چێشتخانەکە تاریک و پیس بوو.", // dingy
+            onPressedBritish: () => speakdingys1("en-GB"),
+            onPressedAmerican: () => speakdingys1("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "Her hair was a dingy brown colour."),
-                    ExampleSentenceKurdish(
-                        text: "قژی ڕەنگێکی قاوەیی تاریک بوو."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdingys2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdingys2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "Her hair was a dingy brown colour.",
+            kurdishText: "قژی ڕەنگێکی قاوەیی تاریک بوو.",
+            onPressedBritish: () => speakdingys2("en-GB"),
+            onPressedAmerican: () => speakdingys2("en-US"),
           ),
           // dingys300"),
           // speakdingys3

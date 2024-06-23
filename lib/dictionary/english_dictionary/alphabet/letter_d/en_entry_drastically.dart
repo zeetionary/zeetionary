@@ -372,59 +372,22 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "١. (ھاوەڵکار) بە ئاستێکی زۆر کە کاریگەرییەکی لەناکاو، کاریگەر، یان توندوتیژی ھەیە"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "Output has been drastically reduced."),
-                    ExampleSentenceKurdish(
-                        text: "ڕێژەی بەرھەمھێنان بە ئاستێکی زۆر دابەزیوە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "drastically", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdrasticallys1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdrasticallys1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "Output has been drastically reduced.",
+            kurdishText:
+                "ڕێژەی بەرھەمھێنان بە ئاستێکی زۆر دابەزیوە.", // drastically
+            onPressedBritish: () => speakdrasticallys1("en-GB"),
+            onPressedAmerican: () => speakdrasticallys1("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "Things have started to go drastically wrong."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "شتەکان بە ئاستێکی گەورە دەستیان کردووە بەوەی ھەڵە دەربچن."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdrasticallys2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdrasticallys2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "Things have started to go drastically wrong.",
+            kurdishText:
+                "شتەکان بە ئاستێکی گەورە دەستیان کردووە بەوەی ھەڵە دەربچن.",
+            onPressedBritish: () => speakdrasticallys2("en-GB"),
+            onPressedAmerican: () => speakdrasticallys2("en-US"),
           ),
           // drasticallys300"),
           // speakdrasticallys3

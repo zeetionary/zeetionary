@@ -363,31 +363,11 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   """١. (ناو) چوارچێوەیەکی دارین کە بۆ گرتنی وێنەیەک بەکاردێت لەکاتێکدا دەکێشرێت"""),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            """She adjusted the easel to the right height."""),
-                    ExampleSentenceKurdish(
-                        text: """سێپایەکەی بۆ بەرزییەکی درووست ڕێکخست."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "easel", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakeasels1("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakeasels1("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: """She adjusted the easel to the right height.""",
+            kurdishText: """سێپایەکەی بۆ بەرزییەکی درووست ڕێکخست.""", // easel
+            onPressedBritish: () => speakeasels1("en-GB"),
+            onPressedAmerican: () => speakeasels1("en-US"),
           ),
           // easels200easels2
           // speakeasels2

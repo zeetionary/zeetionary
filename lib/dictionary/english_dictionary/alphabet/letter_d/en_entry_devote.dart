@@ -257,114 +257,36 @@ class KurdishMeaning extends StatelessWidget {
 """),
           const DefinitionKurdish(
               text: "١. (کردار) تەرخانکردنی کات، سەرنج، ھتد بۆ شتێک"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "I could only devote two hours a day to the work."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "دەمتوانی تەنھا دوو کاتژمێر لە ڕۆژێکدا تەرخان بکەم بۆ کارەکە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "devote", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdevotes1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdevotes1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "I could only devote two hours a day to the work.",
+            kurdishText:
+                "دەمتوانی تەنھا دوو کاتژمێر لە ڕۆژێکدا تەرخان بکەم بۆ کارەکە.", // devote
+            onPressedBritish: () => speakdevotes1("en-GB"),
+            onPressedAmerican: () => speakdevotes1("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The amount of time devoted to leisure is dropping."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "بڕی ئەو کاتەی بە خۆشی و شادی دەبەخشرێت کەم دەکات."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdevotes2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdevotes2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "The amount of time devoted to leisure is dropping.",
+            kurdishText: "بڕی ئەو کاتەی بە خۆشی و شادی دەبەخشرێت کەم دەکات.",
+            onPressedBritish: () => speakdevotes2("en-GB"),
+            onPressedAmerican: () => speakdevotes2("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٢. (کردار) تەرخانکردنی خۆت بۆ کەسێک/شتێک"),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "She devoted herself to her career."),
-                    ExampleSentenceKurdish(text: "خۆی بۆ کارەکەی تەرخان کرد."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdevotes3("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdevotes3("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "She devoted herself to her career.",
+            kurdishText: "خۆی بۆ کارەکەی تەرخان کرد.",
+            onPressedBritish: () => speakdevotes3("en-GB"),
+            onPressedAmerican: () => speakdevotes3("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "She devoted herself entirely to writing."),
-                    ExampleSentenceKurdish(
-                        text: "تەواو خۆی بۆ نووسین تەرخان کرد."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdevotes4("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdevotes4("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "She devoted herself entirely to writing.",
+            kurdishText: "تەواو خۆی بۆ نووسین تەرخان کرد.",
+            onPressedBritish: () => speakdevotes4("en-GB"),
+            onPressedAmerican: () => speakdevotes4("en-US"),
           ),
           // devotes500"),
           // speakdevotes5

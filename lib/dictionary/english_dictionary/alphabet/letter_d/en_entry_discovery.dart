@@ -287,211 +287,77 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "١. (ناو) دۆزینەوەی شتێک، یان زانین دەربارەی شتێک کە پێشووتر نەزانراوە دەربارەی"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "Researchers in this field have made some important new discoveries."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "لێکۆڵەرانی ئەم بوارە ژمارەیەک دۆزینەوەی تازەی گرنگیان کردووە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "discovery", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdiscoverys1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdiscoverys1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "Researchers in this field have made some important new discoveries.",
+            kurdishText:
+                "لێکۆڵەرانی ئەم بوارە ژمارەیەک دۆزینەوەی تازەی گرنگیان کردووە.", // discovery
+            onPressedBritish: () => speakdiscoverys1("en-GB"),
+            onPressedAmerican: () => speakdiscoverys1("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "New scientific discoveries are being made all the time."),
-                    ExampleSentenceKurdish(
-                        text: "دۆزینەوەی زانستیی تازە بەردەوام دەکرێت."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdiscoverys2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdiscoverys2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "New scientific discoveries are being made all the time.",
+            kurdishText: "دۆزینەوەی زانستیی تازە بەردەوام دەکرێت.",
+            onPressedBritish: () => speakdiscoverys2("en-GB"),
+            onPressedAmerican: () => speakdiscoverys2("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The discovery of a child's body in the river has shocked the community."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "دۆزینەوەی لاشەی منداڵێک لە ڕووبارەکە کۆمەڵگەکەی شۆک کردووە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdiscoverys3("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdiscoverys3("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "The discovery of a child's body in the river has shocked the community.",
+            kurdishText:
+                "دۆزینەوەی لاشەی منداڵێک لە ڕووبارەکە کۆمەڵگەکەی شۆک کردووە.",
+            onPressedBritish: () => speakdiscoverys3("en-GB"),
+            onPressedAmerican: () => speakdiscoverys3("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "He saw life as a voyage of discovery."),
-                    ExampleSentenceKurdish(
-                        text: "ژیانی وەک گەشتێکی دۆزینەوە دەبینی."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdiscoverys4("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdiscoverys4("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "He saw life as a voyage of discovery.",
+            kurdishText: "ژیانی وەک گەشتێکی دۆزینەوە دەبینی.",
+            onPressedBritish: () => speakdiscoverys4("en-GB"),
+            onPressedAmerican: () => speakdiscoverys4("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The film takes us on a journey of discovery to different parts of the globe."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "فیلمەکە بە گەشتێکی دۆزینەوەدا دەمانبا بۆ بەشە جیاوازەکانی جیھان."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdiscoverys5("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdiscoverys5("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "The film takes us on a journey of discovery to different parts of the globe.",
+            kurdishText:
+                "فیلمەکە بە گەشتێکی دۆزینەوەدا دەمانبا بۆ بەشە جیاوازەکانی جیھان.",
+            onPressedBritish: () => speakdiscoverys5("en-GB"),
+            onPressedAmerican: () => speakdiscoverys5("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
                   "٢. (ناو) شتێک، ڕاستییەک، یان کەسێک کە بۆ یەکەمجار زانیاری لەسەری دەزانرێت"),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The drug is not a new discovery—it's been known about for years."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "دەرمانەکە دۆزینەوەیەکی تازە نییە ـ بۆ چەندین ساڵە لەسەری زانراوە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdiscoverys6("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdiscoverys6("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "The drug is not a new discovery—it's been known about for years.",
+            kurdishText:
+                "دەرمانەکە دۆزینەوەیەکی تازە نییە ـ بۆ چەندین ساڵە لەسەری زانراوە.",
+            onPressedBritish: () => speakdiscoverys6("en-GB"),
+            onPressedAmerican: () => speakdiscoverys6("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "Their work led to some important medical discoveries."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "کارەکەیان گەشت بە ژمارەیەک دۆزینەوەی گرنگی پزیشکی."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdiscoverys7("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdiscoverys7("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "Their work led to some important medical discoveries.",
+            kurdishText: "کارەکەیان گەشت بە ژمارەیەک دۆزینەوەی گرنگی پزیشکی.",
+            onPressedBritish: () => speakdiscoverys7("en-GB"),
+            onPressedAmerican: () => speakdiscoverys7("en-US"),
           ),
           // discoverys800"),
           // speakdiscoverys8

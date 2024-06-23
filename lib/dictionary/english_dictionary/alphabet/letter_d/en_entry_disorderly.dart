@@ -242,62 +242,23 @@ class KurdishMeaning extends StatelessWidget {
 """),
           const DefinitionKurdish(
               text: "١. (ھاوەڵناو) کەسی ئاژاوەگێڕ و کێشە درووستکەر"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "A disorderly crowd had gathered outside the embassy."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "جەماوەرێکی ئاژاوەگێڕ لە دەرەوەی باڵیۆزخانەکە کۆبوونەوە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "disorderly", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdisorderlys1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdisorderlys1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "A disorderly crowd had gathered outside the embassy.",
+            kurdishText:
+                "جەماوەرێکی ئاژاوەگێڕ لە دەرەوەی باڵیۆزخانەکە کۆبوونەوە.", // disorderly
+            onPressedBritish: () => speakdisorderlys1("en-GB"),
+            onPressedAmerican: () => speakdisorderlys1("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: "٢. (ھاوەڵناو) ناڕێک و پێک"),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "It's a disorderly sort of a house with books and papers lying around everywhere."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "خانوویەکی کەمێک ناڕێکە کە کتێب و کاغەز لە ھەموو شوێنێک کەوتووە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdisorderlys2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdisorderlys2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "It's a disorderly sort of a house with books and papers lying around everywhere.",
+            kurdishText:
+                "خانوویەکی کەمێک ناڕێکە کە کتێب و کاغەز لە ھەموو شوێنێک کەوتووە.",
+            onPressedBritish: () => speakdisorderlys2("en-GB"),
+            onPressedAmerican: () => speakdisorderlys2("en-US"),
           ),
           // disorderlys300"),
           // speakdisorderlys3

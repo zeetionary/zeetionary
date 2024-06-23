@@ -248,58 +248,21 @@ class KurdishMeaning extends StatelessWidget {
 """),
           const DefinitionKurdish(
               text: "١. (ھاوەڵکار) بە جوڵەی خێرا و شارەزایانە"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "I threw her a towel which she deftly caught."),
-                    ExampleSentenceKurdish(
-                        text: "خاولییەکم بۆ ھاویشت کە شارەزایانە گرتییەوە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "deftly", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdeftlys1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdeftlys1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "I threw her a towel which she deftly caught.",
+            kurdishText:
+                "خاولییەکم بۆ ھاویشت کە شارەزایانە گرتییەوە.", // deftly
+            onPressedBritish: () => speakdeftlys1("en-GB"),
+            onPressedAmerican: () => speakdeftlys1("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: "٢. (ھاوەڵکار) شارەزایانە"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "They deftly avoided answering my questions."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "شارەزایانە خۆیان بە دوور گرت لە وەڵامدانەوەی پرسیارەکانم."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdeftlys2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdeftlys2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "They deftly avoided answering my questions.",
+            kurdishText:
+                "شارەزایانە خۆیان بە دوور گرت لە وەڵامدانەوەی پرسیارەکانم.",
+            onPressedBritish: () => speakdeftlys2("en-GB"),
+            onPressedAmerican: () => speakdeftlys2("en-US"),
           ),
           // deftlys300"),
           // speakdeftlys3

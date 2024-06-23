@@ -310,284 +310,91 @@ class KurdishMeaning extends StatelessWidget {
 کوردی: لێ‌دەرکردن، لێ‌داشکاندن، لێ‌فڕێدان، کەم‌بوونەوە، داشکان
 """),
           const DefinitionKurdish(text: "١. (ناو) داشکاندن"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "Spend over £50 and receive a 15 per cent discount."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "زیاتر لە ٥٠ پاوەند خەرج بکە ١٥ لە سەد داشکاندن وەربگرە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "discount", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdiscounts1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdiscounts1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "Spend over £50 and receive a 15 per cent discount.",
+            kurdishText:
+                "زیاتر لە ٥٠ پاوەند خەرج بکە ١٥ لە سەد داشکاندن وەربگرە.", // discount
+            onPressedBritish: () => speakdiscounts1("en-GB"),
+            onPressedAmerican: () => speakdiscounts1("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "Do you qualify for a student discount?"),
-                    ExampleSentenceKurdish(
-                        text:
-                            "شایستەی بۆ داشکاندنی خوێندکاران (مەرجەکانیت تێدایە)؟."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdiscounts2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdiscounts2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "Do you qualify for a student discount?",
+            kurdishText:
+                "شایستەی بۆ داشکاندنی خوێندکاران (مەرجەکانیت تێدایە)؟.",
+            onPressedBritish: () => speakdiscounts2("en-GB"),
+            onPressedAmerican: () => speakdiscounts2("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "Do you give any discount for students?"),
-                    ExampleSentenceKurdish(
-                        text: "ھیچ داشکاندنتان ھەیە بۆ خوێندکاران؟"),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdiscounts3("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdiscounts3("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "Do you give any discount for students?",
+            kurdishText: "ھیچ داشکاندنتان ھەیە بۆ خوێندکاران؟",
+            onPressedBritish: () => speakdiscounts3("en-GB"),
+            onPressedAmerican: () => speakdiscounts3("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "If you pay cash you may be able to negotiate a discount."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "ئەگەر بە کاش پارە بدەیت دەکرێت داوای داشکاندنێک بکەیت."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdiscounts4("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdiscounts4("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "If you pay cash you may be able to negotiate a discount.",
+            kurdishText:
+                "ئەگەر بە کاش پارە بدەیت دەکرێت داوای داشکاندنێک بکەیت.",
+            onPressedBritish: () => speakdiscounts4("en-GB"),
+            onPressedAmerican: () => speakdiscounts4("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: "٢. (کردار) داشکاندن لە نرخی شتێک"),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "Most of our stock has been discounted by up to 40 per cent."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "زۆرێک لە پشکەکانمان بە ڕێژەی ٤٠ لە سەد داشکاندنیان بۆ کراوە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdiscounts5("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdiscounts5("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "Most of our stock has been discounted by up to 40 per cent.",
+            kurdishText:
+                "زۆرێک لە پشکەکانمان بە ڕێژەی ٤٠ لە سەد داشکاندنیان بۆ کراوە.",
+            onPressedBritish: () => speakdiscounts5("en-GB"),
+            onPressedAmerican: () => speakdiscounts5("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "Students can get discounted tickets."),
-                    ExampleSentenceKurdish(
-                        text: "خوێندکاران دەکرێت بلیتی داشکێنراو وەربگرن."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdiscounts6("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdiscounts6("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "Students can get discounted tickets.",
+            kurdishText: "خوێندکاران دەکرێت بلیتی داشکێنراو وەربگرن.",
+            onPressedBritish: () => speakdiscounts6("en-GB"),
+            onPressedAmerican: () => speakdiscounts6("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "We're offering discounted prices throughout March."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "بەدرێژایی مانگی ئادار نرخی داشکێنراو پێشکەش دەکەین."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdiscounts7("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdiscounts7("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "We're offering discounted prices throughout March.",
+            kurdishText: "بەدرێژایی مانگی ئادار نرخی داشکێنراو پێشکەش دەکەین.",
+            onPressedBritish: () => speakdiscounts7("en-GB"),
+            onPressedAmerican: () => speakdiscounts7("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "New regulations reduced the airlines' capacity to discount fares."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "ڕێسای تازە توانای کۆمپانیا ئاسمانییەکەی کەمکردووە بۆ داشکاندنی کرێیەکان."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdiscounts8("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdiscounts8("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "New regulations reduced the airlines' capacity to discount fares.",
+            kurdishText:
+                "ڕێسای تازە توانای کۆمپانیا ئاسمانییەکەی کەمکردووە بۆ داشکاندنی کرێیەکان.",
+            onPressedBritish: () => speakdiscounts8("en-GB"),
+            onPressedAmerican: () => speakdiscounts8("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
                   "٣. (کردار) گوتن یان بیرکردنەوەی ئەوەی کە شتێک گرنگ نییە یان ڕاست نییە"),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "We cannot discount the possibility of further strikes."),
-                    ExampleSentenceKurdish(
-                        text: "ناتوانین ئەگەری ھێرشی دیکە بەکەم‌ سەیربکەین."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdiscounts9("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdiscounts9("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "We cannot discount the possibility of further strikes.",
+            kurdishText: "ناتوانین ئەگەری ھێرشی دیکە بەکەم‌ سەیربکەین.",
+            onPressedBritish: () => speakdiscounts9("en-GB"),
+            onPressedAmerican: () => speakdiscounts9("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The news reports were being discounted as propaganda."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "ڕاپۆرتە ھەواڵییەکان وەک پڕوپاگەندە تێڕوانینیان بۆ دەکرا."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdiscounts10("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdiscounts10("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "The news reports were being discounted as propaganda.",
+            kurdishText:
+                "ڕاپۆرتە ھەواڵییەکان وەک پڕوپاگەندە تێڕوانینیان بۆ دەکرا.",
+            onPressedBritish: () => speakdiscounts10("en-GB"),
+            onPressedAmerican: () => speakdiscounts10("en-US"),
           ),
           // discounts1100"),
           // speakdiscounts11

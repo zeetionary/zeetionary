@@ -252,62 +252,23 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "١. (کردار) ھێوردکردنەوە/دامرکاندنەوەی دۆخێک لەوەی خراپتر بێت بەوەی تووڕەیی کەم بکەیتەوە"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "These latest measures should help to defuse the situation."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "ئەم ھەنگاوانەی کۆتایی دەبێت دۆخەکە ھێوردبکەنەوە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "defuse", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdefuses1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdefuses1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "These latest measures should help to defuse the situation.",
+            kurdishText:
+                "ئەم ھەنگاوانەی کۆتایی دەبێت دۆخەکە ھێوردبکەنەوە.", // defuse
+            onPressedBritish: () => speakdefuses1("en-GB"),
+            onPressedAmerican: () => speakdefuses1("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٢. (کردار) پووچەڵکردنەوەی بۆمبێک بۆ ئەوەی نەتەقێتەوە"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "Police closed the road while they defused the bomb."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "پۆلیس ڕێگاکەی داخست لە کاتێکدا بەمبەکەیان پووچەڵکردەوە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdefuses2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdefuses2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "Police closed the road while they defused the bomb.",
+            kurdishText:
+                "پۆلیس ڕێگاکەی داخست لە کاتێکدا بەمبەکەیان پووچەڵکردەوە.",
+            onPressedBritish: () => speakdefuses2("en-GB"),
+            onPressedAmerican: () => speakdefuses2("en-US"),
           ),
           // defuses300"),
           // speakdefuses3

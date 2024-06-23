@@ -362,30 +362,11 @@ class KurdishMeaning extends StatelessWidget {
 """),
           const DefinitionKurdish(
               text: """١. (ھاوەڵناو) کە ھێندە باشە تاوەکو بخوردرێت"""),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: """The fruit was ripe and eatable."""),
-                    ExampleSentenceKurdish(
-                        text: """میوەکە گەییو و لەخواردن‌ھاتوو بوو."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "eatable", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakeatables1("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakeatables1("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: """The fruit was ripe and eatable.""",
+            kurdishText: """میوەکە گەییو و لەخواردن‌ھاتوو بوو.""", // eatable
+            onPressedBritish: () => speakeatables1("en-GB"),
+            onPressedAmerican: () => speakeatables1("en-US"),
           ),
           // eatables200eatables2
           // speakeatables2

@@ -258,86 +258,31 @@ class KurdishMeaning extends StatelessWidget {
 کوردی: فریو دان، سەرقاڵ کردن، ھەڵخەڵەتاندن
 """),
           const DefinitionKurdish(text: "١. (کردار) فریودان"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(text: "You poor deluded creature."),
-                    ExampleSentenceKurdish(text: "بوونەوەری خەڵەفاوی داماو."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "delude", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdeludes1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdeludes1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "You poor deluded creature.",
+            kurdishText: "بوونەوەری خەڵەفاوی داماو.", // delude
+            onPressedBritish: () => speakdeludes1("en-GB"),
+            onPressedAmerican: () => speakdeludes1("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "He's deluding himself if he thinks it's going to be easy."),
-                    ExampleSentenceKurdish(
-                        text: "خۆی فریو دەدات ئەگەر وابیربکاتەوە ئاسان دەبێت."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdeludes2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdeludes2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "He's deluding himself if he thinks it's going to be easy.",
+            kurdishText: "خۆی فریو دەدات ئەگەر وابیربکاتەوە ئاسان دەبێت.",
+            onPressedBritish: () => speakdeludes2("en-GB"),
+            onPressedAmerican: () => speakdeludes2("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "Don't be deluded into thinking that we are out of danger yet."),
-                    ExampleSentenceKurdish(
-                        text: "خۆت بەوە مەخەڵەتێنە کە لە مەترسی بەدەرین."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdeludes3("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdeludes3("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "Don't be deluded into thinking that we are out of danger yet.",
+            kurdishText: "خۆت بەوە مەخەڵەتێنە کە لە مەترسی بەدەرین.",
+            onPressedBritish: () => speakdeludes3("en-GB"),
+            onPressedAmerican: () => speakdeludes3("en-US"),
           ),
           // deludes400"),
           // speakdeludes4

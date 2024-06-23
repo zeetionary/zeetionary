@@ -423,241 +423,87 @@ class KurdishMeaning extends StatelessWidget {
 """),
           const DefinitionKurdish(
               text: """١. (کردار) لابردن یان ڕزگاربوون لە شتێک"""),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            """Credit cards eliminate the need to carry a lot of cash."""),
-                    ExampleSentenceKurdish(
-                        text:
-                            """کرێدیت کارد ئەو پێویستییە ناھێڵن کە ڕێژەیەکی زۆر کاش ھەڵبگریت."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "eliminate", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakeliminates1("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakeliminates1("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                """Credit cards eliminate the need to carry a lot of cash.""",
+            kurdishText:
+                """کرێدیت کارد ئەو پێویستییە ناھێڵن کە ڕێژەیەکی زۆر کاش ھەڵبگریت.""", // eliminate
+            onPressedBritish: () => speakeliminates1("en-GB"),
+            onPressedAmerican: () => speakeliminates1("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: """ژممارە. (کردار) پێنناسە"""),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            """This diet claims to eliminate toxins from the body."""),
-                    ExampleSentenceKurdish(
-                        text:
-                            """ئەم ژەمە خواردنە بانگەشەی ئەوە دەکات کە زەھراو لە جەستە دەربکات."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakeliminates2("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakeliminates2("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                """This diet claims to eliminate toxins from the body.""",
+            kurdishText:
+                """ئەم ژەمە خواردنە بانگەشەی ئەوە دەکات کە زەھراو لە جەستە دەربکات.""",
+            onPressedBritish: () => speakeliminates2("en-GB"),
+            onPressedAmerican: () => speakeliminates2("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: """٢. (کردار) پێنناسە"""),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: """The risk cannot be eliminated altogether."""),
-                    ExampleSentenceKurdish(
-                        text: """ناتوانرێت مەترسییەکە بە تەواوی بنبڕ بکرێت."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakeliminates3("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakeliminates3("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: """The risk cannot be eliminated altogether.""",
+            kurdishText: """ناتوانرێت مەترسییەکە بە تەواوی بنبڕ بکرێت.""",
+            onPressedBritish: () => speakeliminates3("en-GB"),
+            onPressedAmerican: () => speakeliminates3("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
                   """٢. (کردار) وەستان لەوەی کە بیربکەیتەوە کەسێک/شتێک ڕەنگە بەرپرس بێت بۆ شتێک یان ھەڵببژێردرێت"""),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            """The police have eliminated two suspects from their investigation."""),
-                    ExampleSentenceKurdish(
-                        text:
-                            """پۆلیس وازیان لە دوو گومانلێکراو ھێناوە لە لێکۆڵینەوەکەیان."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakeliminates4("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakeliminates4("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                """The police have eliminated two suspects from their investigation.""",
+            kurdishText:
+                """پۆلیس وازیان لە دوو گومانلێکراو ھێناوە لە لێکۆڵینەوەکەیان.""",
+            onPressedBritish: () => speakeliminates4("en-GB"),
+            onPressedAmerican: () => speakeliminates4("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: """٢. (کردار) پێنناسە"""),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            """Malaria was eliminated as a cause of death."""),
-                    ExampleSentenceKurdish(
-                        text: """مەلاریا وەک ھۆکارێکی مردن نەھێڵدرا."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakeliminates5("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakeliminates5("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: """Malaria was eliminated as a cause of death.""",
+            kurdishText: """مەلاریا وەک ھۆکارێکی مردن نەھێڵدرا.""",
+            onPressedBritish: () => speakeliminates5("en-GB"),
+            onPressedAmerican: () => speakeliminates5("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
                   """٣. (کردار) تێکشکاندنی تیمێک یان کەسێک بەشێوەیەک کە چی دیکە بەژداری ڕکابەرییەک نەکەن"""),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            """All the English teams were eliminated in the early stages of the competition."""),
-                    ExampleSentenceKurdish(
-                        text:
-                            """ھەموو تیمە ئینگلیزییەکان لە قۆناغەکانی سەرەتای پاڵەوانێتییەکە دەرکردران."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakeliminates6("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakeliminates6("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                """All the English teams were eliminated in the early stages of the competition.""",
+            kurdishText:
+                """ھەموو تیمە ئینگلیزییەکان لە قۆناغەکانی سەرەتای پاڵەوانێتییەکە دەرکردران.""",
+            onPressedBritish: () => speakeliminates6("en-GB"),
+            onPressedAmerican: () => speakeliminates6("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: """ژممارە. (کردار) پێنناسە"""),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            """She was eliminated from the tournament in the first round."""),
-                    ExampleSentenceKurdish(
-                        text: """لە یەکەم قۆناغدا لە پاڵەوانێتییەکە دەرکرا."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakeliminates7("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakeliminates7("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                """She was eliminated from the tournament in the first round.""",
+            kurdishText: """لە یەکەم قۆناغدا لە پاڵەوانێتییەکە دەرکرا.""",
+            onPressedBritish: () => speakeliminates7("en-GB"),
+            onPressedAmerican: () => speakeliminates7("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: """٤. (کردار) کوشتنی کەسێک"""),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            """Most of the regime's opponents were eliminated."""),
-                    ExampleSentenceKurdish(
-                        text: """زۆرێک لە دژبەرانی ڕژێمەکە کوژران."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakeliminates8("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakeliminates8("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: """Most of the regime's opponents were eliminated.""",
+            kurdishText: """زۆرێک لە دژبەرانی ڕژێمەکە کوژران.""",
+            onPressedBritish: () => speakeliminates8("en-GB"),
+            onPressedAmerican: () => speakeliminates8("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: """ژممارە. (کردار) پێنناسە"""),

@@ -233,32 +233,13 @@ class KurdishMeaning extends StatelessWidget {
 کوردی: داشکانی نرخ و بایی، کەم‌بوونەوە یان ھاتنەخوارەوەی قیمەت، نرخ‌کەم‌بوونەوە، بەھاداشکان، دابەزینی بایی (پارە)،	سووک‌کردن، بێ‌نرخ‌کردن، بێ‌بایەخ‌کردن، داشکاندن، تڕۆکردن، بەھیچ‌دانان
 """),
           const DefinitionKurdish(text: "١. (ناو) داشکانی نرخ لە ماوەیەکدا"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The currency suffered steep depreciations in the exchange rate."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "دراوەکە تووشی داشکانی خێرا بوو لە ئاستی ئاڵووگۆڕدا."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "depreciation", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdepreciations1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdepreciations1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "The currency suffered steep depreciations in the exchange rate.",
+            kurdishText:
+                "دراوەکە تووشی داشکانی خێرا بوو لە ئاستی ئاڵووگۆڕدا.", // depreciation
+            onPressedBritish: () => speakdepreciations1("en-GB"),
+            onPressedAmerican: () => speakdepreciations1("en-US"),
           ),
           // depreciations200"),
           // speakdepreciations2

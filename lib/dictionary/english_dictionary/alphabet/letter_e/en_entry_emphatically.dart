@@ -381,90 +381,32 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   """١. (ھاوەڵکار) زۆر بە ڕوونی کە قسەکردن بە زەبرەوە لە خۆدەگرێت"""),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            """She is emphatically opposed to the proposals."""),
-                    ExampleSentenceKurdish(
-                        text: """پێداگرانە دژ بە پێشنیارەکانە."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "emphatically", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakemphaticallys1("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakemphaticallys1("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: """She is emphatically opposed to the proposals.""",
+            kurdishText: """پێداگرانە دژ بە پێشنیارەکانە.""", // emphatically
+            onPressedBritish: () => speakemphaticallys1("en-GB"),
+            onPressedAmerican: () => speakemphaticallys1("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            """He has always emphatically denied the allegations."""),
-                    ExampleSentenceKurdish(
-                        text:
-                            """ھەمیشە بە بێ‌ئەملاوئەولا نکۆڵی لە تۆمەتەکان کردووە."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakemphaticallys2("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakemphaticallys2("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                """He has always emphatically denied the allegations.""",
+            kurdishText:
+                """ھەمیشە بە بێ‌ئەملاوئەولا نکۆڵی لە تۆمەتەکان کردووە.""",
+            onPressedBritish: () => speakemphaticallys2("en-GB"),
+            onPressedAmerican: () => speakemphaticallys2("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text: """٢. (ھاوەڵکار) بەدڵنیایی و بە ڕێژەیەکی زۆر"""),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: """The proposal was emphatically defeated."""),
-                    ExampleSentenceKurdish(
-                        text: """پێشنیارەکە مسۆگەرانە ڕەتکرایەوە."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakemphaticallys3("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakemphaticallys3("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: """The proposal was emphatically defeated.""",
+            kurdishText: """پێشنیارەکە مسۆگەرانە ڕەتکرایەوە.""",
+            onPressedBritish: () => speakemphaticallys3("en-GB"),
+            onPressedAmerican: () => speakemphaticallys3("en-US"),
           ),
           // emphaticallys400emphaticallys4
           // speakemphaticallys4

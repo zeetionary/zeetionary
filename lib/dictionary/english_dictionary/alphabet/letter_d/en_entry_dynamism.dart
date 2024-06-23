@@ -372,32 +372,13 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   """١. (ناو) ھێز و ورە کە وادەکات شتی تازە ڕووبدات یان شت سەرکەوتوو بێت"""),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            """This album captures the dynamism of contemporary British jazz."""),
-                    ExampleSentenceKurdish(
-                        text:
-                            """ئەم ئەلبوومە جم‌وجۆڵی میوزیکی سەردەمی جاز لە بەریتانیا پیشان دەدات."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "dynamism", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdynamisms1("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdynamisms1("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                """This album captures the dynamism of contemporary British jazz.""",
+            kurdishText:
+                """ئەم ئەلبوومە جم‌وجۆڵی میوزیکی سەردەمی جاز لە بەریتانیا پیشان دەدات.""", // dynamism
+            onPressedBritish: () => speakdynamisms1("en-GB"),
+            onPressedAmerican: () => speakdynamisms1("en-US"),
           ),
           // """She has a freshness and dynamism about her.
           // speakdynamisms2

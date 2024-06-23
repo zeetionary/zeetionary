@@ -241,59 +241,21 @@ class KurdishMeaning extends StatelessWidget {
 """),
           const DefinitionKurdish(
               text: "١. (ھاوەڵکار) بەشێوەیەک کە جوان یان خۆش نییە"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "The weather was disagreeably hot."),
-                    ExampleSentenceKurdish(
-                        text: "کەشەکە بەشێوەیەکی نالەبار گەرم بوو."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "disagreeably", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdisagreeablys1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdisagreeablys1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "The weather was disagreeably hot.",
+            kurdishText: "کەشەکە بەشێوەیەکی نالەبار گەرم بوو.", // disagreeably
+            onPressedBritish: () => speakdisagreeablys1("en-GB"),
+            onPressedAmerican: () => speakdisagreeablys1("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٢. (ھاوەڵکار) بەشێوەیەکی بێ‌ڕێزانە و ساردوسڕ"),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "The weather was disagreeably hot."),
-                    ExampleSentenceKurdish(
-                        text: "ھاوڕێکەی ناسازانە مقەی دەھات."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdisagreeablys2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdisagreeablys2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "The weather was disagreeably hot.",
+            kurdishText: "ھاوڕێکەی ناسازانە مقەی دەھات.",
+            onPressedBritish: () => speakdisagreeablys2("en-GB"),
+            onPressedAmerican: () => speakdisagreeablys2("en-US"),
           ),
           // disagreeablys300"),
           // speakdisagreeablys3

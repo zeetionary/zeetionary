@@ -241,63 +241,24 @@ class KurdishMeaning extends StatelessWidget {
 // کوردی:
 // """),
           const DefinitionKurdish(text: "١. (کردار) گۆڕین بۆ کەرتی دەیی"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The metric system decimalizes measurements for ease of use."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "سیستەمی مەتری پێوانەکان دەگۆڕێتە سەر کەرتی دەیی بۆ ئاسانی بەکارھێنان."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "decimalize", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdecimalizes1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdecimalizes1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "The metric system decimalizes measurements for ease of use.",
+            kurdishText:
+                "سیستەمی مەتری پێوانەکان دەگۆڕێتە سەر کەرتی دەیی بۆ ئاسانی بەکارھێنان.", // decimalize
+            onPressedBritish: () => speakdecimalizes1("en-GB"),
+            onPressedAmerican: () => speakdecimalizes1("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
                   "٢. (کردار) دەربڕینی بڕێک بە کەرتی دەیی نەک ئەوەی کە نووسراوە"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The question asks you to decimalize the fraction 7/8."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "پرسیارەکە داوا دەکات ٧/٨ بە کەرتی دەیی دەرببڕیت."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdecimalizes2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdecimalizes2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "The question asks you to decimalize the fraction 7/8.",
+            kurdishText: "پرسیارەکە داوا دەکات ٧/٨ بە کەرتی دەیی دەرببڕیت.",
+            onPressedBritish: () => speakdecimalizes2("en-GB"),
+            onPressedAmerican: () => speakdecimalizes2("en-US"),
           ),
         ],
       ),

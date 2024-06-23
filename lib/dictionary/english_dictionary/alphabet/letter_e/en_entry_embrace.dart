@@ -421,241 +421,87 @@ class KurdishMeaning extends StatelessWidget {
 کوردی: باوەش، ئامێز، حەمێز، لە باوەش گرتن، باوەش‌پیاکردن 
 """),
           const DefinitionKurdish(text: """١. (ناو) لە باوەش گرتن"""),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: """He held her in a warm embrace."""),
-                    ExampleSentenceKurdish(
-                        text: """باوەشێکی گەرمی پێیدا کرد."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "embrace", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakembraces1("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakembraces1("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: """He held her in a warm embrace.""",
+            kurdishText: """باوەشێکی گەرمی پێیدا کرد.""", // embrace
+            onPressedBritish: () => speakembraces1("en-GB"),
+            onPressedAmerican: () => speakembraces1("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: """ژممارە. (کردار) پێنناسە"""),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            """There were tears and embraces as they said goodbye."""),
-                    ExampleSentenceKurdish(
-                        text:
-                            """لە باوەش گرتن و فرمێسک ھەبوو کە خواحافیزیان کرد."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakembraces2("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakembraces2("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                """There were tears and embraces as they said goodbye.""",
+            kurdishText: """لە باوەش گرتن و فرمێسک ھەبوو کە خواحافیزیان کرد.""",
+            onPressedBritish: () => speakembraces2("en-GB"),
+            onPressedAmerican: () => speakembraces2("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
                   """٢. (ناو) پەسەندکردنی شتێک، بۆ نموونە بیرۆکەیەک، پێشنیارێک، کۆمەڵە باوەڕێک، ھتد"""),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            """The country's eager embrace of modern technology led to rapid innovation."""),
-                    ExampleSentenceKurdish(
-                        text:
-                            """باوەشکردنەوەی بەپەرۆشانەی وڵاتەکە بۆ تەکنەلۆژیای تازە بوو بە ھۆکاری پەرەسەندنی خێرا."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakembraces3("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakembraces3("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                """The country's eager embrace of modern technology led to rapid innovation.""",
+            kurdishText:
+                """باوەشکردنەوەی بەپەرۆشانەی وڵاتەکە بۆ تەکنەلۆژیای تازە بوو بە ھۆکاری پەرەسەندنی خێرا.""",
+            onPressedBritish: () => speakembraces3("en-GB"),
+            onPressedAmerican: () => speakembraces3("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: """٣. (کردار) لە باوەش گرتن"""),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            """They embraced and promised to keep in touch."""),
-                    ExampleSentenceKurdish(
-                        text:
-                            """یەکیان لە باوەش گرت و بەڵێنیان دا لە پەیوەندیدا بن."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakembraces4("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakembraces4("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: """They embraced and promised to keep in touch.""",
+            kurdishText:
+                """یەکیان لە باوەش گرت و بەڵێنیان دا لە پەیوەندیدا بن.""",
+            onPressedBritish: () => speakembraces4("en-GB"),
+            onPressedAmerican: () => speakembraces4("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: """ژممارە. (کردار) پێنناسە"""),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: """She embraced her son warmly."""),
-                    ExampleSentenceKurdish(
-                        text: """بە گەرمییەوە کوڕەکەی لەباوەش گرت."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakembraces5("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakembraces5("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: """She embraced her son warmly.""",
+            kurdishText: """بە گەرمییەوە کوڕەکەی لەباوەش گرت.""",
+            onPressedBritish: () => speakembraces5("en-GB"),
+            onPressedAmerican: () => speakembraces5("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
                   """٤. (کردار) پەسەندکردنی شتێک، بۆ نموونە بیرۆکەیەک، پێشنیارێک، کۆمەڵە باوەڕێک، ھتد"""),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            """It is unlikely that such countries will embrace capitalist ideas."""),
-                    ExampleSentenceKurdish(
-                        text:
-                            """ئەگەری کەمە ئەم وڵاتانە بیرۆکەکانی سەرمایەداری وەربگرن."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakembraces6("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakembraces6("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                """It is unlikely that such countries will embrace capitalist ideas.""",
+            kurdishText:
+                """ئەگەری کەمە ئەم وڵاتانە بیرۆکەکانی سەرمایەداری وەربگرن.""",
+            onPressedBritish: () => speakembraces6("en-GB"),
+            onPressedAmerican: () => speakembraces6("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: """ژممارە. (کردار) پێنناسە"""),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            """Soccer has become more widely embraced by Americans."""),
-                    ExampleSentenceKurdish(
-                        text:
-                            """تۆپی پێ زیاتر پەسەند کراوە لەلایەن ئەمریکییەکانەوە."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakembraces7("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakembraces7("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                """Soccer has become more widely embraced by Americans.""",
+            kurdishText:
+                """تۆپی پێ زیاتر پەسەند کراوە لەلایەن ئەمریکییەکانەوە.""",
+            onPressedBritish: () => speakembraces7("en-GB"),
+            onPressedAmerican: () => speakembraces7("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: """٥. (کردار) لەخۆگرتنی شتێک"""),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: """The talks embraced a wide range of issues."""),
-                    ExampleSentenceKurdish(
-                        text:
-                            """گفتوگۆکان ژمارەیەکی بەرفراوان لە بابەتیان لەخۆگرت."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakembraces8("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakembraces8("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: """The talks embraced a wide range of issues.""",
+            kurdishText:
+                """گفتوگۆکان ژمارەیەکی بەرفراوان لە بابەتیان لەخۆگرت.""",
+            onPressedBritish: () => speakembraces8("en-GB"),
+            onPressedAmerican: () => speakembraces8("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: """ژممارە. (کردار) پێنناسە"""),

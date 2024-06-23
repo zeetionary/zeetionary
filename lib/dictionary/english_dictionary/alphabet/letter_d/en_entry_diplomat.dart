@@ -252,91 +252,33 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "١. (ناو) کەسێک کە نوێنەرایەتی وڵاتەکەی دەکات لە وڵاتێکی بیانی"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "A Western diplomat in Islamabad confirmed the news."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "دیپلۆماتێکی ڕۆژئاوایی لە ئیسلام ئاباد ھەواڵەکەی پشتڕاست کردەوە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "diplomat", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdiplomats1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdiplomats1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "A Western diplomat in Islamabad confirmed the news.",
+            kurdishText:
+                "دیپلۆماتێکی ڕۆژئاوایی لە ئیسلام ئاباد ھەواڵەکەی پشتڕاست کردەوە.", // diplomat
+            onPressedBritish: () => speakdiplomats1("en-GB"),
+            onPressedAmerican: () => speakdiplomats1("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "People look to the two diplomats for solutions to global issues."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "خەڵکی چاویان لە دوو دیپلۆماتەکەەی بۆ چارەسەری کێشە جیھانییەکان."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdiplomats2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdiplomats2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "People look to the two diplomats for solutions to global issues.",
+            kurdishText:
+                "خەڵکی چاویان لە دوو دیپلۆماتەکەەی بۆ چارەسەری کێشە جیھانییەکان.",
+            onPressedBritish: () => speakdiplomats2("en-GB"),
+            onPressedAmerican: () => speakdiplomats2("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٢. (ناو) کەسێک کە شارەزایە لە مامەڵە لەگەڵ کەسانی دیکە"),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "You’ll need to be a real diplomat to persuade them to come to some agreement."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "دەبێت شارەزایەکی تەواو بیت بۆ ڕازیکردنیان کە بگەن بە ھەندێک ڕێکەوتن."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdiplomats3("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdiplomats3("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "You’ll need to be a real diplomat to persuade them to come to some agreement.",
+            kurdishText:
+                "دەبێت شارەزایەکی تەواو بیت بۆ ڕازیکردنیان کە بگەن بە ھەندێک ڕێکەوتن.",
+            onPressedBritish: () => speakdiplomats3("en-GB"),
+            onPressedAmerican: () => speakdiplomats3("en-US"),
           ),
           // diplomats400"),
           // speakdiplomats4

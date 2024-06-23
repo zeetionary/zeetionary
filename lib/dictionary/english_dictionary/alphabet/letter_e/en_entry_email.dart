@@ -423,240 +423,83 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   """١. (ناو) ناردنی نامە و زانیاری بۆ کەسانی دیکە لە ڕێگەی کۆمپیوتەرەوە بە ئینتەرنێت"""),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            """I will be on vacation for a week in November, with no access to email."""),
-                    ExampleSentenceKurdish(
-                        text:
-                            """تشرینی دووەم بۆ ھەفتەیەک لە گەشت دەبم، بەبێت دەستگەشتن بە ئیمەیڵ."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "email", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakemails1("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakemails1("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                """I will be on vacation for a week in November, with no access to email.""",
+            kurdishText:
+                """تشرینی دووەم بۆ ھەفتەیەک لە گەشت دەبم، بەبێت دەستگەشتن بە ئیمەیڵ.""", // email
+            onPressedBritish: () => speakemails1("en-GB"),
+            onPressedAmerican: () => speakemails1("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: """ژممارە. (ناو) پێنناسە"""),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            """Membership notifications go out through email in the fall."""),
-                    ExampleSentenceKurdish(
-                        text:
-                            """ئاگاداریی ئەندامێتی بە ئیمەیڵ لە پاییزدا دەنێردرێت."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakemails2("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakemails2("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                """Membership notifications go out through email in the fall.""",
+            kurdishText:
+                """ئاگاداریی ئەندامێتی بە ئیمەیڵ لە پاییزدا دەنێردرێت.""",
+            onPressedBritish: () => speakemails2("en-GB"),
+            onPressedAmerican: () => speakemails2("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: """ژممارە. (ناو) پێنناسە"""),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            """Each of the rooms has internet and email access."""),
-                    ExampleSentenceKurdish(
-                        text:
-                            """ھەر یەکێک لە ژوورەکان ئینتەرنێت بەکارھێنانی ئیمەیڵیان ھەیە."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakemails3("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakemails3("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: """Each of the rooms has internet and email access.""",
+            kurdishText:
+                """ھەر یەکێک لە ژوورەکان ئینتەرنێت بەکارھێنانی ئیمەیڵیان ھەیە.""",
+            onPressedBritish: () => speakemails3("en-GB"),
+            onPressedAmerican: () => speakemails3("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text: """٢. (ناو) نامەیەک کە بە ئیمەیڵ دەنێردرێت"""),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            """We've been exchanging emails over the past few weeks."""),
-                    ExampleSentenceKurdish(
-                        text:
-                            """بۆ چەند ھەفتەی ڕابردوو ئیمەیڵمان گۆڕیوەتەوە."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakemails4("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakemails4("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                """We've been exchanging emails over the past few weeks.""",
+            kurdishText: """بۆ چەند ھەفتەی ڕابردوو ئیمەیڵمان گۆڕیوەتەوە.""",
+            onPressedBritish: () => speakemails4("en-GB"),
+            onPressedAmerican: () => speakemails4("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: """ژممارە. (ناو) پێنناسە"""),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: """I got an email from Andrew last week."""),
-                    ExampleSentenceKurdish(
-                        text:
-                            """ھەفتەی ڕابردوو ئیمەیڵێکم لە ئەندرووەوە پێگەشت."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakemails5("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakemails5("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: """I got an email from Andrew last week.""",
+            kurdishText: """ھەفتەی ڕابردوو ئیمەیڵێکم لە ئەندرووەوە پێگەشت.""",
+            onPressedBritish: () => speakemails5("en-GB"),
+            onPressedAmerican: () => speakemails5("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: """ژممارە. (ناو) پێنناسە"""),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            """Reading email has become the first task of the morning."""),
-                    ExampleSentenceKurdish(
-                        text:
-                            """خوێندنەوەی ئیمەیڵ بووە بە یەکەم ئەرکی بەیانییان."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakemails6("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakemails6("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                """Reading email has become the first task of the morning.""",
+            kurdishText: """خوێندنەوەی ئیمەیڵ بووە بە یەکەم ئەرکی بەیانییان.""",
+            onPressedBritish: () => speakemails6("en-GB"),
+            onPressedAmerican: () => speakemails6("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: """٣. (کردار) ناردنی نامە بە ئیمەیڵ"""),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: """Patrick emailed me yesterday."""),
-                    ExampleSentenceKurdish(
-                        text: """پاتریک دوێنێ ئیمەیڵی بۆ ناردم."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakemails7("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakemails7("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: """Patrick emailed me yesterday.""",
+            kurdishText: """پاتریک دوێنێ ئیمەیڵی بۆ ناردم.""",
+            onPressedBritish: () => speakemails7("en-GB"),
+            onPressedAmerican: () => speakemails7("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: """ژممارە. (ناو) پێنناسە"""),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                      text: """I'll email the documents to her.""",
-                      note: "Similar: I'll email her the documents.",
-                    ),
-                    ExampleSentenceKurdish(
-                        text: """بەڵگەنامەکانی بە ئیمەیڵ بۆ دەنێرم."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakemails8("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakemails8("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: """I'll email the documents to her.""",
+            englishNote: "Similar: I'll email her the documents.",
+            kurdishText: """بەڵگەنامەکانی بە ئیمەیڵ بۆ دەنێرم.""",
+            onPressedBritish: () => speakemails8("en-GB"),
+            onPressedAmerican: () => speakemails8("en-US"),
           ),
           // emails900emails9
           // speakemails9

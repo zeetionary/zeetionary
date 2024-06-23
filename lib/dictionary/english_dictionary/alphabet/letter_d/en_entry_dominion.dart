@@ -378,89 +378,30 @@ class KurdishMeaning extends StatelessWidget {
 کوردی: (وێژەیی) دەسەڵات، کۆنتڕۆڵی کاریگەرانە، حکومەت، دەسەڵات‌گێڕی، فەرمان‌گێڕی، فەرمان‌ڕانی،	(فەرمی) مەڵبەند، وڵات
 """),
           const DefinitionKurdish(text: "١. (ناو) کۆنترۆڵ"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "Man has dominion over the natural world."),
-                    ExampleSentenceKurdish(
-                        text: "مرۆڤ کۆنترۆڵی بەسەر ژیانی سرووشتیدا ھەیە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "dominion", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdominions1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdominions1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "Man has dominion over the natural world.",
+            kurdishText:
+                "مرۆڤ کۆنترۆڵی بەسەر ژیانی سرووشتیدا ھەیە.", // dominion
+            onPressedBritish: () => speakdominions1("en-GB"),
+            onPressedAmerican: () => speakdominions1("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "Soon the whole country was under his sole dominion."),
-                    ExampleSentenceKurdish(
-                        text: "ھەرزوو تەواوی وڵاتەکە لەژێر دەسەڵاتیدا بوو."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdominions2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdominions2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "Soon the whole country was under his sole dominion.",
+            kurdishText: "ھەرزوو تەواوی وڵاتەکە لەژێر دەسەڵاتیدا بوو.",
+            onPressedBritish: () => speakdominions2("en-GB"),
+            onPressedAmerican: () => speakdominions2("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
                   "٢. (ناو) ناوچەیەک کە لەلایەن سەرکردەیەکی سیاسییەوە کۆنترۆڵ کراوە"),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The chief's son would inherit all his dominions."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "کوڕی سەرکردەکە تەواوی قەڵەمڕەوییەکەی وەردەگرێت."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdominions3("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdominions3("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "The chief's son would inherit all his dominions.",
+            kurdishText: "کوڕی سەرکردەکە تەواوی قەڵەمڕەوییەکەی وەردەگرێت.",
+            onPressedBritish: () => speakdominions3("en-GB"),
+            onPressedAmerican: () => speakdominions3("en-US"),
           ),
           // dominions400"),
           // speakdominions4

@@ -261,92 +261,35 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "١. (ناو) نەوەکانی کەسێک؛ منداڵی منداڵەکانی، و منداڵەکانی دواتریش"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "He was an O'Conor and a direct descendant of the last High King of Ireland."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "سەر بە ئۆکۆنەر بوو و نەوەی ڕاستەوخۆی کۆتا پاشای ئێرلەندا بوو."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "descendant", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdescendants1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdescendants1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "He was an O'Conor and a direct descendant of the last High King of Ireland.",
+            kurdishText:
+                "سەر بە ئۆکۆنەر بوو و نەوەی ڕاستەوخۆی کۆتا پاشای ئێرلەندا بوو.", // descendant
+            onPressedBritish: () => speakdescendants1("en-GB"),
+            onPressedAmerican: () => speakdescendants1("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "Many of them are descendants of the original settlers."),
-                    ExampleSentenceKurdish(
-                        text: "زۆرێکیان نەوەی نیشتەجێ ڕەسەنەکانن."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdescendants2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdescendants2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "Many of them are descendants of the original settlers.",
+            kurdishText: "زۆرێکیان نەوەی نیشتەجێ ڕەسەنەکانن.",
+            onPressedBritish: () => speakdescendants2("en-GB"),
+            onPressedAmerican: () => speakdescendants2("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
                   "٢. (ناو) شتێک کە درووست بووە لە شتێکی دیکەی ھاوشێوەیەوە لە ڕابردوودا "),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "Quechua is the lineal descendant of the Inca language."),
-                    ExampleSentenceKurdish(
-                        text: "کوێنچا زادەی ڕاستەوخۆی زمانی ئینکایە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdescendants3("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdescendants3("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "Quechua is the lineal descendant of the Inca language.",
+            kurdishText: "کوێنچا زادەی ڕاستەوخۆی زمانی ئینکایە.",
+            onPressedBritish: () => speakdescendants3("en-GB"),
+            onPressedAmerican: () => speakdescendants3("en-US"),
           ),
           // descendants400"),
           // speakdescendants4

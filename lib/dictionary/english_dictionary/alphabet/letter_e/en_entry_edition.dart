@@ -417,217 +417,82 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   """١. (ناو) ئەو شێوەیەی کە ڕۆژنامەیەک، گۆڤارێک، ھتد پێی بڵاودەکرێتەوە"""),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            """The paperback/hardback edition of his book is published in July."""),
-                    ExampleSentenceKurdish(
-                        text:
-                            """وەشانی کاغەزی ئەم کتێبە لە تەمموزدا بڵاودەکرێتەوە."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "edition", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakeditions1("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakeditions1("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                """The paperback/hardback edition of his book is published in July.""",
+            kurdishText:
+                """وەشانی کاغەزی ئەم کتێبە لە تەمموزدا بڵاودەکرێتەوە.""", // edition
+            onPressedBritish: () => speakeditions1("en-GB"),
+            onPressedAmerican: () => speakeditions1("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: """ژممارە. (ناو) پێنناسە"""),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            """The regional editions of the paper contain specific information for that area."""),
-                    ExampleSentenceKurdish(
-                        text:
-                            """وەشانەکە ھەرێمییەکانی ڕۆژنامەکە زانیاری بۆ ئەو ناوچەیە تێدایە."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakeditions2("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakeditions2("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                """The regional editions of the paper contain specific information for that area.""",
+            kurdishText:
+                """وەشانەکە ھەرێمییەکانی ڕۆژنامەکە زانیاری بۆ ئەو ناوچەیە تێدایە.""",
+            onPressedBritish: () => speakeditions2("en-GB"),
+            onPressedAmerican: () => speakeditions2("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
                   """٢. (ناو) وەشانێکی کتێبێک یان نووسراوێک کە بەردەوام دەستکاری دەکرێت"""),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            """The dictionary is now in its tenth edition."""),
-                    ExampleSentenceKurdish(
-                        text: """فەرھەنگەکە ئێستا لە چاپی دەیەمە."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakeditions3("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakeditions3("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: """The dictionary is now in its tenth edition.""",
+            kurdishText: """فەرھەنگەکە ئێستا لە چاپی دەیەمە.""",
+            onPressedBritish: () => speakeditions3("en-GB"),
+            onPressedAmerican: () => speakeditions3("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: """ژممارە. (ناو) پێنناسە"""),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            """She worked on the previous edition of our Brazil guide."""),
-                    ExampleSentenceKurdish(
-                        text:
-                            """لەسەر چاپی پێشووتری ڕێبەریمان بۆ بەرازیل کاری کرد."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakeditions4("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakeditions4("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                """She worked on the previous edition of our Brazil guide.""",
+            kurdishText:
+                """لەسەر چاپی پێشووتری ڕێبەریمان بۆ بەرازیل کاری کرد.""",
+            onPressedBritish: () => speakeditions4("en-GB"),
+            onPressedAmerican: () => speakeditions4("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
                   """٣. (ناو) ڕۆژنامەیەکی یان گۆڤارێک دیاریکراو، یان پڕۆگرامێکی دیاریکراوی ڕادیۆ یان تەلەفیزیۆن"""),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            """There will be a live edition of the show tomorrow night."""),
-                    ExampleSentenceKurdish(
-                        text:
-                            """سبەی شەو ئەڵقەیەکی ڕاستەوخۆی بەرنامەکە پێشکەش دەکەین."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakeditions5("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakeditions5("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                """There will be a live edition of the show tomorrow night.""",
+            kurdishText:
+                """سبەی شەو ئەڵقەیەکی ڕاستەوخۆی بەرنامەکە پێشکەش دەکەین.""",
+            onPressedBritish: () => speakeditions5("en-GB"),
+            onPressedAmerican: () => speakeditions5("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: """ژممارە. (ناو) پێنناسە"""),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            """The story was in Tuesday's edition of ‘The New York Times’."""),
-                    ExampleSentenceKurdish(
-                        text:
-                            """چیرۆکەکە لە چاپی سێشەممەی نیویۆرک تایمز بوو."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakeditions6("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakeditions6("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                """The story was in Tuesday's edition of ‘The New York Times’.""",
+            kurdishText: """چیرۆکەکە لە چاپی سێشەممەی نیویۆرک تایمز بوو.""",
+            onPressedBritish: () => speakeditions6("en-GB"),
+            onPressedAmerican: () => speakeditions6("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
                   """٤. (ناو) تەواوی ئەو کۆپییانەی کتێبێک، ڕۆژنامەیەک، گۆڤارێک، ھتد کە بە یەکجار بڵاودەکرێتەوە"""),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            """It was originally published in 1836 in an edition of 500 copies."""),
-                    ExampleSentenceKurdish(
-                        text:
-                            """لە سەرەتادا لە ١٨٣٦ بە تیراژی ٥٠٠ کۆپی بڵاوکرایەوە."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakeditions7("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakeditions7("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                """It was originally published in 1836 in an edition of 500 copies.""",
+            kurdishText:
+                """لە سەرەتادا لە ١٨٣٦ بە تیراژی ٥٠٠ کۆپی بڵاوکرایەوە.""",
+            onPressedBritish: () => speakeditions7("en-GB"),
+            onPressedAmerican: () => speakeditions7("en-US"),
           ),
           // editions800editions8
           // speakeditions8

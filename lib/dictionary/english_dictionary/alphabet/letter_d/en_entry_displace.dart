@@ -259,120 +259,42 @@ class KurdishMeaning extends StatelessWidget {
 // کوردی: جێنشین بوون، جێ گۆڕین، دوورخستنەوە، بێ شوێن کردن، ون کردن
 // """),
           const DefinitionKurdish(text: "١. (کردار) شوێنگرتنەوەی کەسێک/شتێک"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "Gradually factory workers have been displaced by machines."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "کەم کەم کرێکارانی کارگەکان لەلایەن ئامێرەوە شوێنیان گیردراوەتەوە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "displace", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdisplaces1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdisplaces1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "Gradually factory workers have been displaced by machines.",
+            kurdishText:
+                "کەم کەم کرێکارانی کارگەکان لەلایەن ئامێرەوە شوێنیان گیردراوەتەوە.", // displace
+            onPressedBritish: () => speakdisplaces1("en-GB"),
+            onPressedAmerican: () => speakdisplaces1("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: "٢. (کردار) ئاوارکردنی خەڵکی"),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "Around 10 000 people have been displaced by the fighting."),
-                    ExampleSentenceKurdish(
-                        text: "نزیکەی ١٠٠٠٠ کەس بەھۆی شەڕەکەوە ئاوارە بوونە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdisplaces2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdisplaces2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "Around 10 000 people have been displaced by the fighting.",
+            kurdishText: "نزیکەی ١٠٠٠٠ کەس بەھۆی شەڕەکەوە ئاوارە بوونە.",
+            onPressedBritish: () => speakdisplaces2("en-GB"),
+            onPressedAmerican: () => speakdisplaces2("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "If the dam is built it will displace 100 000 people."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "ئەگەر بەنداوەکە درووست بکرێت ١٠٠٠٠٠ کەس ئاوارە دەکات."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdisplaces3("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdisplaces3("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "If the dam is built it will displace 100 000 people.",
+            kurdishText:
+                "ئەگەر بەنداوەکە درووست بکرێت ١٠٠٠٠٠ کەس ئاوارە دەکات.",
+            onPressedBritish: () => speakdisplaces3("en-GB"),
+            onPressedAmerican: () => speakdisplaces3("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٣. (کردار) جوڵاندنی شتێک لە شوێنی ھەمیشەیی خۆی"),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "Check for roof tiles that have been displaced by the wind."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "بۆ خشتی سەربان بگەڕی کە بەھۆی بایەکەوە جێیان گۆڕیوە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdisplaces4("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdisplaces4("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "Check for roof tiles that have been displaced by the wind.",
+            kurdishText: "بۆ خشتی سەربان بگەڕی کە بەھۆی بایەکەوە جێیان گۆڕیوە.",
+            onPressedBritish: () => speakdisplaces4("en-GB"),
+            onPressedAmerican: () => speakdisplaces4("en-US"),
           ),
           // displaces500"),
           // speakdisplaces5

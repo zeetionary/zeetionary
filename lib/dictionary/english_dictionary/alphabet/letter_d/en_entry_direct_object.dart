@@ -239,32 +239,13 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "١. (ناو) ناوێک، دەستەواژەیەک، یان جێناوێک کە ڕاستەوخۆ کاریگەر دەبێت بە کرداری ڕستەیەک"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "In ‘I met him in town’, the word ‘him’ is the direct object."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "لە 'I met him in town', وشەی 'him' بەرکاری ڕاستەوخۆیە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "direct object", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdirectobjects1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdirectobjects1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "In ‘I met him in town’, the word ‘him’ is the direct object.",
+            kurdishText:
+                "لە 'I met him in town', وشەی 'him' بەرکاری ڕاستەوخۆیە.", // direct object
+            onPressedBritish: () => speakdirectobjects1("en-GB"),
+            onPressedAmerican: () => speakdirectobjects1("en-US"),
           ),
           // directobjects200"),
           // speakdirectobjects2

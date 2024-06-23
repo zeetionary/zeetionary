@@ -249,91 +249,32 @@ class KurdishMeaning extends StatelessWidget {
 // """),
           const DefinitionKurdish(
               text: "١. (ناو) ئامێرێک کە قاپ‌وقاچاغ دەشوات"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "Are these glasses dishwasher safe?"),
-                    ExampleSentenceKurdish(
-                        text: "ئەم گڵاسانە ئاساییە بخرێنە قاپشۆرەوە؟"),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "dishwasher", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdishwashers1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdishwashers1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "Are these glasses dishwasher safe?",
+            kurdishText: "ئەم گڵاسانە ئاساییە بخرێنە قاپشۆرەوە؟", // dishwasher
+            onPressedBritish: () => speakdishwashers1("en-GB"),
+            onPressedAmerican: () => speakdishwashers1("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "It wastes energy to run the dishwasher half empty."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "خستنەکاری قاپشۆرەکە بە نیوە بەتاڵییەوە وزە بەفیڕۆ دەدات."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdishwashers2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdishwashers2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "It wastes energy to run the dishwasher half empty.",
+            kurdishText:
+                "خستنەکاری قاپشۆرەکە بە نیوە بەتاڵییەوە وزە بەفیڕۆ دەدات.",
+            onPressedBritish: () => speakdishwashers2("en-GB"),
+            onPressedAmerican: () => speakdishwashers2("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
                   "٢. (ناو) کەسێک کە کاری قاپ ششتن دەکات، بۆ نموونە لە چێشتخانەیەک"),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "She hired a new dishwasher for the busy season."),
-                    ExampleSentenceKurdish(
-                        text: "بۆ وەرزی قەرەباڵغ قاپشۆرێکی تازەیان گرت."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdishwashers3("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdishwashers3("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "She hired a new dishwasher for the busy season.",
+            kurdishText: "بۆ وەرزی قەرەباڵغ قاپشۆرێکی تازەیان گرت.",
+            onPressedBritish: () => speakdishwashers3("en-GB"),
+            onPressedAmerican: () => speakdishwashers3("en-US"),
           ),
           // dishwashers400"),
           // speakdishwashers4

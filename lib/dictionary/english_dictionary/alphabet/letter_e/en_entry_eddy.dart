@@ -371,58 +371,20 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   """١. (ناو، کردار) جووڵەی ھەوا، تۆز، یان ئاو لە بازنەدا؛ دەرکردنی جووڵەیەکی لەم شێوەیە"""),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: """The water eddied around in a whirlpool."""),
-                    ExampleSentenceKurdish(
-                        text: """ئاوەکە لە گێژاوێکدا دەسووڕایەوە."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "eddy", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakeddys1("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakeddys1("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: """The water eddied around in a whirlpool.""",
+            kurdishText: """ئاوەکە لە گێژاوێکدا دەسووڕایەوە.""", // eddy
+            onPressedBritish: () => speakeddys1("en-GB"),
+            onPressedAmerican: () => speakeddys1("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: """The waves eddied around the rocks."""),
-                    ExampleSentenceKurdish(
-                        text: """شەپۆلەکان بە دەوری بەردەکاندا دەخولانەوە."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakeddys2("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakeddys2("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: """The waves eddied around the rocks.""",
+            kurdishText: """شەپۆلەکان بە دەوری بەردەکاندا دەخولانەوە.""",
+            onPressedBritish: () => speakeddys2("en-GB"),
+            onPressedAmerican: () => speakeddys2("en-US"),
           ),
           // eddys300eddys3
           // speakeddys3

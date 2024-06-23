@@ -277,175 +277,58 @@ class KurdishMeaning extends StatelessWidget {
 """),
           const DefinitionKurdish(
               text: "١. (کردار) جیاوازی کردنی نێوان دوو شت"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "I can't differentiate one variety from another."),
-                    ExampleSentenceKurdish(
-                        text: "ناتوانم جۆرێک لە جۆرێکی دیکە جیابکەمەوە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "differentiate", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdifferentiates1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdifferentiates1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "I can't differentiate one variety from another.",
+            kurdishText:
+                "ناتوانم جۆرێک لە جۆرێکی دیکە جیابکەمەوە.", // differentiate
+            onPressedBritish: () => speakdifferentiates1("en-GB"),
+            onPressedAmerican: () => speakdifferentiates1("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "It's difficult to differentiate between the two varieties."),
-                    ExampleSentenceKurdish(
-                        text: "سەختە جیاوازی نێوان دوو جۆر بکرێت."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdifferentiates2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdifferentiates2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "It's difficult to differentiate between the two varieties.",
+            kurdishText: "سەختە جیاوازی نێوان دوو جۆر بکرێت.",
+            onPressedBritish: () => speakdifferentiates2("en-GB"),
+            onPressedAmerican: () => speakdifferentiates2("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "Birds are able to differentiate colours."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "باڵندەکان دەتوانن ڕەنگەکان لە یەکدی جیابکەنەوە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdifferentiates3("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdifferentiates3("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "Birds are able to differentiate colours.",
+            kurdishText: "باڵندەکان دەتوانن ڕەنگەکان لە یەکدی جیابکەنەوە.",
+            onPressedBritish: () => speakdifferentiates3("en-GB"),
+            onPressedAmerican: () => speakdifferentiates3("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "She can just differentiate between light and dark."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "دەتوانێت تەنھا جیاوازی لە نێوان ڕۆشنایی و تاریکیدا بکات."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdifferentiates4("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdifferentiates4("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "She can just differentiate between light and dark.",
+            kurdishText:
+                "دەتوانێت تەنھا جیاوازی لە نێوان ڕۆشنایی و تاریکیدا بکات.",
+            onPressedBritish: () => speakdifferentiates4("en-GB"),
+            onPressedAmerican: () => speakdifferentiates4("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٢. (کردار) بوون بە خاڵی جیاکەرەوەی نێوان دوو شت"),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The male's yellow beak differentiates it from the female."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "دەنووکە زەردەکەی نێرەکە لە مێینەکە جیای دەکاتەوە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdifferentiates5("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdifferentiates5("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "The male's yellow beak differentiates it from the female.",
+            kurdishText: "دەنووکە زەردەکەی نێرەکە لە مێینەکە جیای دەکاتەوە.",
+            onPressedBritish: () => speakdifferentiates5("en-GB"),
+            onPressedAmerican: () => speakdifferentiates5("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٣. (کردار) مامەڵەکردن لەگەڵ کەس و شتەکان بەشێوەی جیاواز"),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "Rules that differentiate between employees on the basis of gender need to be revised."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "ئەو یاسایانەی کە جیاوازی لە نێوان کارمەندان دەکەن لەسەر بنەمای ڕەگەز دەبێت بگۆڕدرێن."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdifferentiates6("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdifferentiates6("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "Rules that differentiate between employees on the basis of gender need to be revised.",
+            kurdishText:
+                "ئەو یاسایانەی کە جیاوازی لە نێوان کارمەندان دەکەن لەسەر بنەمای ڕەگەز دەبێت بگۆڕدرێن.",
+            onPressedBritish: () => speakdifferentiates6("en-GB"),
+            onPressedAmerican: () => speakdifferentiates6("en-US"),
           ),
           // differentiates700"),
           // speakdifferentiates7

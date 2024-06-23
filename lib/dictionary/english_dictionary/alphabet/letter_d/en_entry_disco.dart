@@ -249,86 +249,29 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "١. (ناو) یانەیەک، ئاھەنگێک، یان بۆنەیەک کە تێیدا خەڵکی سەما لەگەڵ میوزیک دەکەن"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "Are you going to the Christmas disco?"),
-                    ExampleSentenceKurdish(text: "دەچیت بۆ سەمای کریسمس؟"),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "disco", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdiscos1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdiscos1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "Are you going to the Christmas disco?",
+            kurdishText: "دەچیت بۆ سەمای کریسمس؟", // disco
+            onPressedBritish: () => speakdiscos1("en-GB"),
+            onPressedAmerican: () => speakdiscos1("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "They have a disco there every Wednesday night."),
-                    ExampleSentenceKurdish(
-                        text: "ھەموو شەوانی چوارشەممە لەوێ دیسکۆیان ھەیە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdiscos2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdiscos2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "They have a disco there every Wednesday night.",
+            kurdishText: "ھەموو شەوانی چوارشەممە لەوێ دیسکۆیان ھەیە.",
+            onPressedBritish: () => speakdiscos2("en-GB"),
+            onPressedAmerican: () => speakdiscos2("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "I feel like a dance - shall we go to the disco?"),
-                    ExampleSentenceKurdish(
-                        text: "حەزم بە سەمایە ـ بچین بۆ دیسکۆ؟"),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdiscos3("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdiscos3("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "I feel like a dance - shall we go to the disco?",
+            kurdishText: "حەزم بە سەمایە ـ بچین بۆ دیسکۆ؟",
+            onPressedBritish: () => speakdiscos3("en-GB"),
+            onPressedAmerican: () => speakdiscos3("en-US"),
           ),
           // discos400"),
           // speakdiscos4

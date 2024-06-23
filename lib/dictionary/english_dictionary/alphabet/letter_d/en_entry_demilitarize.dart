@@ -234,32 +234,13 @@ class KurdishMeaning extends StatelessWidget {
 // """),
           const DefinitionKurdish(
               text: "١. (کردار) کشاندنەوەی سوپا لە ناوچەیەک"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "A demilitarized zone has been created on the border between the warring countries."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "ناوچەیەکی لەچەک‌داماڵدراو درووستکراوە لە نێوان دوو وڵاتە دژبەرەکەدا."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "demilitarize", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdemilitarizes1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdemilitarizes1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "A demilitarized zone has been created on the border between the warring countries.",
+            kurdishText:
+                "ناوچەیەکی لەچەک‌داماڵدراو درووستکراوە لە نێوان دوو وڵاتە دژبەرەکەدا.", // demilitarize
+            onPressedBritish: () => speakdemilitarizes1("en-GB"),
+            onPressedAmerican: () => speakdemilitarizes1("en-US"),
           ),
           // demilitarizes200"),
           // speakdemilitarizes2

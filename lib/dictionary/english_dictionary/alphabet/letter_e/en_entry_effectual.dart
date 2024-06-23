@@ -364,32 +364,13 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   """١. (ھاوەڵناو) شتێک کە ئەو ئەنجامە بەدەست دەھێنێت کە ئامانج بوو"""),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            """They wish to promote a real and effectual understanding between the two countries."""),
-                    ExampleSentenceKurdish(
-                        text:
-                            """دەیانەوێت تێگەشتنی ڕاستی و کاریگەر لە نێوان دوو وڵاتەکە درووست بکەن."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "effectual", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakeffectuals1("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakeffectuals1("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                """They wish to promote a real and effectual understanding between the two countries.""",
+            kurdishText:
+                """دەیانەوێت تێگەشتنی ڕاستی و کاریگەر لە نێوان دوو وڵاتەکە درووست بکەن.""", // effectual
+            onPressedBritish: () => speakeffectuals1("en-GB"),
+            onPressedAmerican: () => speakeffectuals1("en-US"),
           ),
           // effectuals200effectuals2
           // speakeffectuals2

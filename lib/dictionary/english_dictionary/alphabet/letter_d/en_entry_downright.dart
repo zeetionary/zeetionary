@@ -388,117 +388,43 @@ class KurdishMeaning extends StatelessWidget {
 """),
           const DefinitionKurdish(
               text: "١. (ھاوەڵکار) بۆ جەختکردنەوە لە شتێکی نەرێنی و ناخۆش"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "It's not just stupid—it's downright dangerous."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "ئەوە نییە تەنھا گەمژانە بێت ـ تەواو مەترسیدارە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "downright", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdownrights1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdownrights1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "It's not just stupid—it's downright dangerous.",
+            kurdishText:
+                "ئەوە نییە تەنھا گەمژانە بێت ـ تەواو مەترسیدارە.", // downright
+            onPressedBritish: () => speakdownrights1("en-GB"),
+            onPressedAmerican: () => speakdownrights1("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "She couldn't think of anything to say that wasn't downright rude."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "نەیدەتوانی بیر لە ھیچ شتێک بیکاتەوە بیڵێت کە تەواو بێ‌ڕێزانە نەبێت."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdownrights2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdownrights2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "She couldn't think of anything to say that wasn't downright rude.",
+            kurdishText:
+                "نەیدەتوانی بیر لە ھیچ شتێک بیکاتەوە بیڵێت کە تەواو بێ‌ڕێزانە نەبێت.",
+            onPressedBritish: () => speakdownrights2("en-GB"),
+            onPressedAmerican: () => speakdownrights2("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٢. (ھاوەڵناو) بۆ جەختکردنەوە لە شتێکی نەرێنی و ناخۆش"),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(text: "That’s a downright lie!"),
-                    ExampleSentenceKurdish(text: "درۆیەکی شاخدارە!"),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdownrights3("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdownrights3("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "That’s a downright lie!",
+            kurdishText: "درۆیەکی شاخدارە!",
+            onPressedBritish: () => speakdownrights3("en-GB"),
+            onPressedAmerican: () => speakdownrights3("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "There was suspicion and even downright hatred between them."),
-                    ExampleSentenceKurdish(
-                        text: "گومان و تەنانەت ڕقی ئاشکرا لەنێوانیان بوو."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdownrights4("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdownrights4("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "There was suspicion and even downright hatred between them.",
+            kurdishText: "گومان و تەنانەت ڕقی ئاشکرا لەنێوانیان بوو.",
+            onPressedBritish: () => speakdownrights4("en-GB"),
+            onPressedAmerican: () => speakdownrights4("en-US"),
           ),
           // downrights500"),
           // speakdownrights5

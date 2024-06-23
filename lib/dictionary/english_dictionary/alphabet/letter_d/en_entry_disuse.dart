@@ -378,86 +378,29 @@ class KurdishMeaning extends StatelessWidget {
 """),
           const DefinitionKurdish(
               text: "١. (ناو) کە شتێک چی دیکە بەکارناھێندرێت"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "The factory fell into disuse twenty years ago."),
-                    ExampleSentenceKurdish(
-                        text: "کارگەکە ٢٠ ساڵ پێش ئێستا داخرا."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "disuse", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdisuses1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdisuses1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "The factory fell into disuse twenty years ago.",
+            kurdishText: "کارگەکە ٢٠ ساڵ پێش ئێستا داخرا.", // disuse
+            onPressedBritish: () => speakdisuses1("en-GB"),
+            onPressedAmerican: () => speakdisuses1("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "Her muscles had become weak through disuse."),
-                    ExampleSentenceKurdish(
-                        text: "ماسولکەکانی لاواز بووبوون بەھۆی بەکارنەھێنان."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdisuses2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdisuses2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "Her muscles had become weak through disuse.",
+            kurdishText: "ماسولکەکانی لاواز بووبوون بەھۆی بەکارنەھێنان.",
+            onPressedBritish: () => speakdisuses2("en-GB"),
+            onPressedAmerican: () => speakdisuses2("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "Much of the factory is in disuse."),
-                    ExampleSentenceKurdish(
-                        text: "زۆرینەی کارگەکە لە بەکارھێناندا نییە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdisuses3("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdisuses3("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "Much of the factory is in disuse.",
+            kurdishText: "زۆرینەی کارگەکە لە بەکارھێناندا نییە.",
+            onPressedBritish: () => speakdisuses3("en-GB"),
+            onPressedAmerican: () => speakdisuses3("en-US"),
           ),
           // disuses400"),
           // speakdisuses4

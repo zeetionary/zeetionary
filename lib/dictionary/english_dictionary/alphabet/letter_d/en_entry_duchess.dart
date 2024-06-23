@@ -364,32 +364,12 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   """١. (ناو) ژنی کەسێک کە وەک میر یان بەگ وایە؛ ژنێک کە خۆی لە پۆستێکە کە وەک میر یان بەگ وایە"""),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            """The Duchess of York attended the royal event."""),
-                    ExampleSentenceKurdish(
-                        text:
-                            """دەچسی یۆرک بەژداریی لە بۆنە شاھانەییەکە کرد."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "duchess", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakduchesss1("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakduchesss1("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: """The Duchess of York attended the royal event.""",
+            kurdishText:
+                """دەچسی یۆرک بەژداریی لە بۆنە شاھانەییەکە کرد.""", // duchess
+            onPressedBritish: () => speakduchesss1("en-GB"),
+            onPressedAmerican: () => speakduchesss1("en-US"),
           ),
           // duchesss200
           // speakduchesss2

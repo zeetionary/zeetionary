@@ -501,494 +501,152 @@ class KurdishMeaning extends StatelessWidget {
 کوردی: ئاوی خواردنەوە،	خواردنەوەی ئەڵکۆڵی، ئارەق، ئارەق‌خواردنەوە،	قوم، گوڵپ، فڕ، دەریا، زەریا، زرێ،	گۆم، زەریاچە
 """),
           const DefinitionKurdish(text: "١. (ناو) شلەی خواردنەوە"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(text: "Can I have a drink?"),
-                    ExampleSentenceKurdish(text: "خواردنەوەیەکم پێ دەدەیت؟"),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "drink", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdrinks1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdrinks1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "Can I have a drink?",
+            kurdishText: "خواردنەوەیەکم پێ دەدەیت؟", // drink
+            onPressedBritish: () => speakdrinks1("en-GB"),
+            onPressedAmerican: () => speakdrinks1("en-US"),
           ),
           Column(
             children: [
               MyExpansionTile(
                 children: [
-                  Row(
-                    children: [
-                      const Expanded(
-                        child: Column(
-                          children: [
-                            ExampleSentenceEnglish(
-                                text: "Do you want a drink?"),
-                            ExampleSentenceKurdish(
-                                text: "خواردنەوەیەکت دەوێت؟"),
-                          ],
-                        ),
-                      ),
-                      const CustomSizedBoxForTTS(),
-                      Column(
-                        children: [
-                          CustomIconButtonBritish(
-                            onPressed: () => speakdrinks2("en-GB"),
-                          ),
-                          CustomIconButtonAmerican(
-                            onPressed: () => speakdrinks2("en-US"),
-                          ),
-                        ],
-                      ),
-                    ],
+                  SentencesRow(
+                    englishText: "Do you want a drink?",
+                    kurdishText: "خواردنەوەیەکت دەوێت؟",
+                    onPressedBritish: () => speakdrinks2("en-GB"),
+                    onPressedAmerican: () => speakdrinks2("en-US"),
                   ),
-                  // const DividerDefinition(),
-                  // const DefinitionKurdish(text: "ژممارە. (کردار) پێنناسە"),
                   const DividerSentences(),
-                  Row(
-                    children: [
-                      const Expanded(
-                        child: Column(
-                          children: [
-                            ExampleSentenceEnglish(
-                                text:
-                                    "Passengers were left without food and drink for hours."),
-                            ExampleSentenceKurdish(
-                                text:
-                                    "گەشتیاران بۆ چەندین کاتژمێر بەبێ خواردن و خواردنەوە ھێڵدرانەوە؟"),
-                          ],
-                        ),
-                      ),
-                      const CustomSizedBoxForTTS(),
-                      Column(
-                        children: [
-                          CustomIconButtonBritish(
-                            onPressed: () => speakdrinks3("en-GB"),
-                          ),
-                          CustomIconButtonAmerican(
-                            onPressed: () => speakdrinks3("en-US"),
-                          ),
-                        ],
-                      ),
-                    ],
+                  SentencesRow(
+                    englishText:
+                        "Passengers were left without food and drink for hours.",
+                    kurdishText:
+                        "گەشتیاران بۆ چەندین کاتژمێر بەبێ خواردن و خواردنەوە ھێڵدرانەوە؟",
+                    onPressedBritish: () => speakdrinks3("en-GB"),
+                    onPressedAmerican: () => speakdrinks3("en-US"),
                   ),
-                  // const DividerDefinition(),
-                  // const DefinitionKurdish(text: "ژممارە. (کردار) پێنناسە"),
                   const DividerSentences(),
-                  Row(
-                    children: [
-                      const Expanded(
-                        child: Column(
-                          children: [
-                            ExampleSentenceEnglish(
-                                text:
-                                    "We were offered free drinks to make up for the wait."),
-                            ExampleSentenceKurdish(
-                                text:
-                                    "خواردنەوەی بێبەرامبەرمان پێدرا بۆ قەرەبووکردنەوەی چاوەڕوانییەکە."),
-                          ],
-                        ),
-                      ),
-                      const CustomSizedBoxForTTS(),
-                      Column(
-                        children: [
-                          CustomIconButtonBritish(
-                            onPressed: () => speakdrinks4("en-GB"),
-                          ),
-                          CustomIconButtonAmerican(
-                            onPressed: () => speakdrinks4("en-US"),
-                          ),
-                        ],
-                      ),
-                    ],
+                  SentencesRow(
+                    englishText:
+                        "We were offered free drinks to make up for the wait.",
+                    kurdishText:
+                        "خواردنەوەی بێبەرامبەرمان پێدرا بۆ قەرەبووکردنەوەی چاوەڕوانییەکە.",
+                    onPressedBritish: () => speakdrinks4("en-GB"),
+                    onPressedAmerican: () => speakdrinks4("en-US"),
                   ),
-                  // const DividerDefinition(),
-                  // const DefinitionKurdish(text: "ژممارە. (کردار) پێنناسە"),
                   const DividerSentences(),
-                  Row(
-                    children: [
-                      const Expanded(
-                        child: Column(
-                          children: [
-                            ExampleSentenceEnglish(
-                                text:
-                                    "She took a drink from the glass and then put it down."),
-                            ExampleSentenceKurdish(
-                                text:
-                                    "خواردنەوەیەکی بە گڵاسەکە خواردەوە و داینا."),
-                          ],
-                        ),
-                      ),
-                      const CustomSizedBoxForTTS(),
-                      Column(
-                        children: [
-                          CustomIconButtonBritish(
-                            onPressed: () => speakdrinks5("en-GB"),
-                          ),
-                          CustomIconButtonAmerican(
-                            onPressed: () => speakdrinks5("en-US"),
-                          ),
-                        ],
-                      ),
-                    ],
+                  SentencesRow(
+                    englishText:
+                        "She took a drink from the glass and then put it down.",
+                    kurdishText: "خواردنەوەیەکی بە گڵاسەکە خواردەوە و داینا.",
+                    onPressedBritish: () => speakdrinks5("en-GB"),
+                    onPressedAmerican: () => speakdrinks5("en-US"),
                   ),
                 ],
               ),
             ],
           ),
+
           const DividerDefinition(),
           const DefinitionKurdish(text: "٢. (ناو) خواردنەوەی کحوولی"),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "They went for a drink together."),
-                    ExampleSentenceKurdish(
-                        text: "پێکەوە چوون بۆ خواردنەوەیەک."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdrinks6("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdrinks6("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "They went for a drink together.",
+            kurdishText: "پێکەوە چوون بۆ خواردنەوەیەک.",
+            onPressedBritish: () => speakdrinks6("en-GB"),
+            onPressedAmerican: () => speakdrinks6("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "Are you coming for a drink with us after work?"),
-                    ExampleSentenceKurdish(
-                        text: "لە دوای کار لەگەڵمان دێیت بۆ خواردنەوەیەک؟"),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdrinks7("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdrinks7("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "Are you coming for a drink with us after work?",
+            kurdishText: "لە دوای کار لەگەڵمان دێیت بۆ خواردنەوەیەک؟",
+            onPressedBritish: () => speakdrinks7("en-GB"),
+            onPressedAmerican: () => speakdrinks7("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "There were free drinks at the bar for everyone."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "لە باڕەکە خواردنەوەی بێبەرامبەر بۆ ھەموان ھەبوو."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdrinks8("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdrinks8("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "There were free drinks at the bar for everyone.",
+            kurdishText: "لە باڕەکە خواردنەوەی بێبەرامبەر بۆ ھەموان ھەبوو.",
+            onPressedBritish: () => speakdrinks8("en-GB"),
+            onPressedAmerican: () => speakdrinks8("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(text: "He's got a drink problem."),
-                    ExampleSentenceKurdish(
-                        text: "کێشەی خواردنەوەی ھەیە (ئاڵوودەیە پێی)."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdrinks9("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdrinks9("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "He's got a drink problem.",
+            kurdishText: "کێشەی خواردنەوەی ھەیە (ئاڵوودەیە پێی).",
+            onPressedBritish: () => speakdrinks9("en-GB"),
+            onPressedAmerican: () => speakdrinks9("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: "٣. (ناو) بۆنەیەکی خواردنەوەی کحوولی"),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "Would you like to come for drinks on Sunday?"),
-                    ExampleSentenceKurdish(
-                        text: "دەتەوێت یەکشەممە بێیت بۆ خواردنەوە؟"),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdrinks10("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdrinks10("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "Would you like to come for drinks on Sunday?",
+            kurdishText: "دەتەوێت یەکشەممە بێیت بۆ خواردنەوە؟",
+            onPressedBritish: () => speakdrinks10("en-GB"),
+            onPressedAmerican: () => speakdrinks10("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: "٤. (کردار) خواردنەوەی شتێکی شلە"),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(text: "I don't drink coffee."),
-                    ExampleSentenceKurdish(text: "قاوە ناخۆمەوە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdrinks11("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdrinks11("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "I don't drink coffee.",
+            kurdishText: "قاوە ناخۆمەوە.",
+            onPressedBritish: () => speakdrinks11("en-GB"),
+            onPressedAmerican: () => speakdrinks11("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "What would you like to drink?"),
-                    ExampleSentenceKurdish(text: "حەزت بە چییە بیخۆیتەوە؟"),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdrinks12("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdrinks12("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "What would you like to drink?",
+            kurdishText: "حەزت بە چییە بیخۆیتەوە؟",
+            onPressedBritish: () => speakdrinks12("en-GB"),
+            onPressedAmerican: () => speakdrinks12("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "In hot weather, drink plenty of water."),
-                    ExampleSentenceKurdish(
-                        text: "لە کەشی گەرمدا، ئاوێکی زۆر بخۆرەوە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdrinks13("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdrinks13("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "In hot weather, drink plenty of water.",
+            kurdishText: "لە کەشی گەرمدا، ئاوێکی زۆر بخۆرەوە.",
+            onPressedBritish: () => speakdrinks13("en-GB"),
+            onPressedAmerican: () => speakdrinks13("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "She drank from a tall glass."),
-                    ExampleSentenceKurdish(text: "لە گڵاسێکی درێژ خواردییەوە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdrinks14("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdrinks14("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "She drank from a tall glass.",
+            kurdishText: "لە گڵاسێکی درێژ خواردییەوە.",
+            onPressedBritish: () => speakdrinks14("en-GB"),
+            onPressedAmerican: () => speakdrinks14("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: "٥. (کردار) خواردنەوەی مادەی کحوولی"),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(text: "He doesn't drink."),
-                    ExampleSentenceKurdish(text: "ناخواتەوە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdrinks15("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdrinks15("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "He doesn't drink.",
+            kurdishText: "ناخواتەوە.",
+            onPressedBritish: () => speakdrinks15("en-GB"),
+            onPressedAmerican: () => speakdrinks15("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "She's been drinking heavily since she lost her job."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "لەوەتەی کارەکەی لەدەستداوە ئێجگار زۆر دەخواتەوە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdrinks16("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdrinks16("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "She's been drinking heavily since she lost her job.",
+            kurdishText: "لەوەتەی کارەکەی لەدەستداوە ئێجگار زۆر دەخواتەوە.",
+            onPressedBritish: () => speakdrinks16("en-GB"),
+            onPressedAmerican: () => speakdrinks16("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "Don't drink and drive (= drive a car after drinking alcohol)."),
-                    ExampleSentenceKurdish(
-                        text: "شۆفێری مەکە لەگەڵ خواردنەوە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdrinks17("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdrinks17("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "Don't drink and drive (= drive a car after drinking alcohol).",
+            kurdishText: "شۆفێری مەکە لەگەڵ خواردنەوە.",
+            onPressedBritish: () => speakdrinks17("en-GB"),
+            onPressedAmerican: () => speakdrinks17("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "I think he's drunk too much."),
-                    ExampleSentenceKurdish(text: "پێموایە زۆری خواردووەتەوە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdrinks18("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdrinks18("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "I think he's drunk too much.",
+            kurdishText: "پێموایە زۆری خواردووەتەوە.",
+            onPressedBritish: () => speakdrinks18("en-GB"),
+            onPressedAmerican: () => speakdrinks18("en-US"),
           ),
           // drinks1900"),
           // speakdrinks19

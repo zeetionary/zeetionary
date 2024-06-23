@@ -269,119 +269,43 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "١. (کردار) ڕاگرتنی کەسێک لە شوێنێکی فەرمی، وەک بنکەی پۆلیس، زیندان، یان نەخۆشخانە و ڕێگری لە ڕۆشتنیان بکەیت"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "One man has been detained for questioning."),
-                    ExampleSentenceKurdish(
-                        text: "کەسێک بۆ لێپێچیەوە ڕاگیراوە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "detain", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdetains1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdetains1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "One man has been detained for questioning.",
+            kurdishText: "کەسێک بۆ لێپێچیەوە ڕاگیراوە.", // detain
+            onPressedBritish: () => speakdetains1("en-GB"),
+            onPressedAmerican: () => speakdetains1("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "He has been detained without trial for nearly two years now."),
-                    ExampleSentenceKurdish(
-                        text: "ئێستا بە نزیکەی دوو ساڵە بەبێ دادگایی گیراوە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdetains2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdetains2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "He has been detained without trial for nearly two years now.",
+            kurdishText: "ئێستا بە نزیکەی دوو ساڵە بەبێ دادگایی گیراوە.",
+            onPressedBritish: () => speakdetains2("en-GB"),
+            onPressedAmerican: () => speakdetains2("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "He was kidnapped and briefly detained by a terrorist group."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "ڕفێندرا و بۆ کەمێک گیردرا لەلایەن گرووپێکی تیرۆریستییەوە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdetains3("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdetains3("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "He was kidnapped and briefly detained by a terrorist group.",
+            kurdishText:
+                "ڕفێندرا و بۆ کەمێک گیردرا لەلایەن گرووپێکی تیرۆریستییەوە.",
+            onPressedBritish: () => speakdetains3("en-GB"),
+            onPressedAmerican: () => speakdetains3("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٢. (کردار) دواخستن یان ڕێگری لەوەی کەسێک بچێتە شوێنێک"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "I'm sorry—he'll be late; he's been detained at a meeting."),
-                    ExampleSentenceKurdish(
-                        text: "ببوورە ـ دوادەکەوێت؛ لە کۆبوونەوەیەک ماوەتەوە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdetains4("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdetains4("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "I'm sorry—he'll be late; he's been detained at a meeting.",
+            kurdishText: "ببوورە ـ دوادەکەوێت؛ لە کۆبوونەوەیەک ماوەتەوە.",
+            onPressedBritish: () => speakdetains4("en-GB"),
+            onPressedAmerican: () => speakdetains4("en-US"),
           ),
           // detains500"),
           // speakdetains5

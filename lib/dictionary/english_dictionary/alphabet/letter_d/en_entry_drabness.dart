@@ -363,32 +363,13 @@ class KurdishMeaning extends StatelessWidget {
 // """),
           const DefinitionKurdish(
               text: "١. (ناو) ئەوەی کە ناخۆشە و ھیچ ڕەنگ یان حەزی تێدا نییە"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "It's the unrelieved drabness of big industrial cities that depresses me."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "ئەوە ناخۆشی بەردەوامی شارە پیشەسازییە گەورەکانە کە بێزارم دەکات."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "drabness", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdrabnesss1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdrabnesss1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "It's the unrelieved drabness of big industrial cities that depresses me.",
+            kurdishText:
+                "ئەوە ناخۆشی بەردەوامی شارە پیشەسازییە گەورەکانە کە بێزارم دەکات.", // drabness
+            onPressedBritish: () => speakdrabnesss1("en-GB"),
+            onPressedAmerican: () => speakdrabnesss1("en-US"),
           ),
           // drabnesss200"),
           // speakdrabnesss2

@@ -365,31 +365,12 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   """١. (ناو) لە ئەمریکا، قوتابخانەیەکە بۆ منداڵانی ٦ بۆ ١٢ ساڵان"""),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: """She teaches elementary school in Atlanta."""),
-                    ExampleSentenceKurdish(
-                        text:
-                            """لە ئەتلانتا لە قوتابخانەی سەرەتایی وانە دەڵێتەوە."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "elementary school", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakelementaryschools1("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakelementaryschools1("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: """She teaches elementary school in Atlanta.""",
+            kurdishText:
+                """لە ئەتلانتا لە قوتابخانەی سەرەتایی وانە دەڵێتەوە.""", // elementary school
+            onPressedBritish: () => speakelementaryschools1("en-GB"),
+            onPressedAmerican: () => speakelementaryschools1("en-US"),
           ),
           // elementaryschools200elementaryschools2
           // speakelementaryschools2

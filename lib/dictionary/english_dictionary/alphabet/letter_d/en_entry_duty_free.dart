@@ -371,59 +371,20 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   """١. (ھاوەڵناو) شتێک کە دەتوانێت بیھێنیتەوە وڵاتێکەوە بەبێ ئەوەی باجی لەسەر بدەیت"""),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: """He bought his wife some duty-free perfume."""),
-                    ExampleSentenceKurdish(
-                        text: """بۆنی باج‌نەگرەوەی بۆ ژنەکەی کڕی."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "duty-free", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdutyfrees1("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdutyfrees1("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: """He bought his wife some duty-free perfume.""",
+            kurdishText: """بۆنی باج‌نەگرەوەی بۆ ژنەکەی کڕی.""", // duty-free
+            onPressedBritish: () => speakdutyfrees1("en-GB"),
+            onPressedAmerican: () => speakdutyfrees1("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            """I bought some perfume in the duty-free shop."""),
-                    ExampleSentenceKurdish(
-                        text: """لە فرۆشگا لەباج‌بەدەرەکە چەند بۆنێکم کڕی."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdutyfrees2("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdutyfrees2("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: """I bought some perfume in the duty-free shop.""",
+            kurdishText: """لە فرۆشگا لەباج‌بەدەرەکە چەند بۆنێکم کڕی.""",
+            onPressedBritish: () => speakdutyfrees2("en-GB"),
+            onPressedAmerican: () => speakdutyfrees2("en-US"),
           ),
           // dutyfrees300
           // speakdutyfrees3

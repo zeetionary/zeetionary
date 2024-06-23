@@ -234,32 +234,13 @@ class KurdishMeaning extends StatelessWidget {
 """),
           const DefinitionKurdish(
               text: "١. (ناو) ناڕاست بەھۆی درۆکردن و خەڵەتاندن"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "Only he seemed to have recognised Lucy's deceitfulness."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "تەنھا ئەو وادیاربوو کە بە تەڵەکەبازی لوسی زانیبێت."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "deceitfulness", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdeceitfulnesss1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdeceitfulnesss1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "Only he seemed to have recognised Lucy's deceitfulness.",
+            kurdishText:
+                "تەنھا ئەو وادیاربوو کە بە تەڵەکەبازی لوسی زانیبێت.", // deceitfulness
+            onPressedBritish: () => speakdeceitfulnesss1("en-GB"),
+            onPressedAmerican: () => speakdeceitfulnesss1("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "٢. (ھاوەڵناو) پێنناسە"),

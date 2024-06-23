@@ -277,182 +277,66 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "١. (ھاوەڵناو) بە بەکارھێنانی سیستەمێکی ناردن و وەرگرتنی زانیاری لە شێوەی زنجیرەیەک لە ژمارە یەک و سفر کە ئەوە پیشان دەدات ئاماژەیەکی کارەبایی بوونی ھەیە یان نا"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "These figures include digital downloads in addition to retail sales."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "ئەم ئامارانە دابەزاندنی دیخیتاڵی پیشان دەدەن لەگەڵ فرۆشی فرۆشگادا."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "digital", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdigitals1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdigitals1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "These figures include digital downloads in addition to retail sales.",
+            kurdishText:
+                "ئەم ئامارانە دابەزاندنی دیخیتاڵی پیشان دەدەن لەگەڵ فرۆشی فرۆشگادا.", // digital
+            onPressedBritish: () => speakdigitals1("en-GB"),
+            onPressedAmerican: () => speakdigitals1("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "He quickly realized that all film and video production would go digital."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "بەزووی ئەوەی زانی کە ھەموو بەرھەمھێنانێکی فیلم و ڤیدیۆ دەبن بە دیجیتاڵ"),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdigitals2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdigitals2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "He quickly realized that all film and video production would go digital.",
+            kurdishText:
+                "بەزووی ئەوەی زانی کە ھەموو بەرھەمھێنانێکی فیلم و ڤیدیۆ دەبن بە دیجیتاڵ",
+            onPressedBritish: () => speakdigitals2("en-GB"),
+            onPressedAmerican: () => speakdigitals2("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The sketches were scanned and converted into digital format."),
-                    ExampleSentenceKurdish(
-                        text: "وێنەکان سکان کران و گۆڕدران بۆ شێوەی دیجیتاڵ."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdigitals3("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdigitals3("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "The sketches were scanned and converted into digital format.",
+            kurdishText: "وێنەکان سکان کران و گۆڕدران بۆ شێوەی دیجیتاڵ.",
+            onPressedBritish: () => speakdigitals3("en-GB"),
+            onPressedAmerican: () => speakdigitals3("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
                   "٢. (ھاوەڵناو) پەیوەندیدار بە بەکارھێنانی تەکنەلۆژیای کۆمپیوتەر، بەتایبەتی ئینتەرنێت"),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "Digital technology continues to evolve rapidly."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "تەکنەلۆژیای دیجیتاڵ بەردەوامە لە خێرا پەرەسەندن."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdigitals4("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdigitals4("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "Digital technology continues to evolve rapidly.",
+            kurdishText: "تەکنەلۆژیای دیجیتاڵ بەردەوامە لە خێرا پەرەسەندن.",
+            onPressedBritish: () => speakdigitals4("en-GB"),
+            onPressedAmerican: () => speakdigitals4("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "Students in poorer areas lack access to the digital world."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "خوێندکاران لە ناوچە ھەژارەکان دەستیان ناگات بە جیھانی دیجیتاڵ."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdigitals5("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdigitals5("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "Students in poorer areas lack access to the digital world.",
+            kurdishText:
+                "خوێندکاران لە ناوچە ھەژارەکان دەستیان ناگات بە جیھانی دیجیتاڵ.",
+            onPressedBritish: () => speakdigitals5("en-GB"),
+            onPressedAmerican: () => speakdigitals5("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٣. (ھاوەڵناو) پیشاندانی زانیاری بە ژمارە"),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "The alarm clock by my bed said 5:25."),
-                    ExampleSentenceKurdish(
-                        text: "کاتژمێرە دیجیتڵەکەی تەنیشتم لەسەر ٥:٢٥ بوو."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdigitals6("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdigitals6("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "The alarm clock by my bed said 5:25.",
+            kurdishText: "کاتژمێرە دیجیتڵەکەی تەنیشتم لەسەر ٥:٢٥ بوو.",
+            onPressedBritish: () => speakdigitals6("en-GB"),
+            onPressedAmerican: () => speakdigitals6("en-US"),
           ),
           // digitals700"),
           // speakdigitals7

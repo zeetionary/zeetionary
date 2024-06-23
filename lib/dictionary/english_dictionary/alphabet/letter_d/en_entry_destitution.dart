@@ -252,59 +252,21 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "١. (ناو) دۆخی نەبوونی پارە، خۆراک، و پێداویستییە سەرەکییەکانی دیکەی ژیان"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "They both died in poverty and destitution."),
-                    ExampleSentenceKurdish(
-                        text: "ھەردووکیان لە ھەژاری و نەداریدا مردن."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "destitution", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdestitutions1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdestitutions1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "They both died in poverty and destitution.",
+            kurdishText: "ھەردووکیان لە ھەژاری و نەداریدا مردن.", // destitution
+            onPressedBritish: () => speakdestitutions1("en-GB"),
+            onPressedAmerican: () => speakdestitutions1("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "Destitution has become a major problem in the capital."),
-                    ExampleSentenceKurdish(
-                        text: "ھەژاری بووە بە کێشەیەکی گەورە لە پایتەختدا."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdestitutions2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdestitutions2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "Destitution has become a major problem in the capital.",
+            kurdishText: "ھەژاری بووە بە کێشەیەکی گەورە لە پایتەختدا.",
+            onPressedBritish: () => speakdestitutions2("en-GB"),
+            onPressedAmerican: () => speakdestitutions2("en-US"),
           ),
           // destitutions300"),
           // speakdestitutions3

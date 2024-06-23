@@ -363,30 +363,11 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "١. (ناو) کاری کردنی ئیشی ماڵەوە لەلایەن خۆتەوە نەک کەسێک بە کرێ بگریت"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "My brother is a real DIY enthusiast."),
-                    ExampleSentenceKurdish(
-                        text: "براکەم کەسێکی تامەزرۆی خۆچاک‌کردنەوەیە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "DIY", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakDIYs1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakDIYs1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "My brother is a real DIY enthusiast.",
+            kurdishText: "براکەم کەسێکی تامەزرۆی خۆچاک‌کردنەوەیە.", // DIY
+            onPressedBritish: () => speakDIYs1("en-GB"),
+            onPressedAmerican: () => speakDIYs1("en-US"),
           ),
           // DIYs200"),
           // speakDIYs2

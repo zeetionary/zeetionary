@@ -392,125 +392,49 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "١. (ناو) فیلم یان پڕۆگرامێکی ڕادیۆ یان تەلەفیزیۆن کە ڕاستییەکان لەسەر شتێک باس دەکات"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "There were some interesting interviews in the documentary."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "ژمارەیەک چاوپێکەوتنی سەرنجڕاکێش لە دۆکیومێنتەرییەکە ھەبوون."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "documentary", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdocumentarys1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdocumentarys1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "There were some interesting interviews in the documentary.",
+            kurdishText:
+                "ژمارەیەک چاوپێکەوتنی سەرنجڕاکێش لە دۆکیومێنتەرییەکە ھەبوون.", // documentary
+            onPressedBritish: () => speakdocumentarys1("en-GB"),
+            onPressedAmerican: () => speakdocumentarys1("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The documentary took a fresh look at the life of Darwin."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "دۆکیوممێنتەرییەکە چاوێکی جیاوازی لە ژیانی داروین کرد."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdocumentarys2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdocumentarys2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "The documentary took a fresh look at the life of Darwin.",
+            kurdishText:
+                "دۆکیوممێنتەرییەکە چاوێکی جیاوازی لە ژیانی داروین کرد.",
+            onPressedBritish: () => speakdocumentarys2("en-GB"),
+            onPressedAmerican: () => speakdocumentarys2("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٢. (ھاوەڵناو) کە لە بەڵگەنامە پێکھاتووە"),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "Human rights campaigners have discovered documentary evidence of torture."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "چالاکوانانی مافی مرۆڤ بەڵگەی دۆکیومێنتەرییان لەسەر ئەشکەنجەدان دۆزیوەتەوە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdocumentarys3("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdocumentarys3("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "Human rights campaigners have discovered documentary evidence of torture.",
+            kurdishText:
+                "چالاکوانانی مافی مرۆڤ بەڵگەی دۆکیومێنتەرییان لەسەر ئەشکەنجەدان دۆزیوەتەوە.",
+            onPressedBritish: () => speakdocumentarys3("en-GB"),
+            onPressedAmerican: () => speakdocumentarys3("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
                   "٣. (ھاوەڵناو) کە زانیاری لەسەر ڕاستییەکانی شتێک دەدات، بەتایبەتی بە بەکارھێنانی وێنە، تۆمار، چاوپێکەوتن لەگەڵ کەسانی بەژداربوو، ھتد"),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The film was given a documentary style by the director."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "فیلمەکە شێوەیەکی دۆکیومێنتارییانەی پێدرا لەلایەن دەرھێنەرەکەوە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdocumentarys4("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdocumentarys4("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "The film was given a documentary style by the director.",
+            kurdishText:
+                "فیلمەکە شێوەیەکی دۆکیومێنتارییانەی پێدرا لەلایەن دەرھێنەرەکەوە.",
+            onPressedBritish: () => speakdocumentarys4("en-GB"),
+            onPressedAmerican: () => speakdocumentarys4("en-US"),
           ),
           // documentarys500"),
           // speakdocumentarys5

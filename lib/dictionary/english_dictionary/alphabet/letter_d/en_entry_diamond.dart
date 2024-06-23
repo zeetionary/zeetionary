@@ -257,111 +257,37 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "١. (ناو) مادەیەکی گران‌بەھای کاربۆنی پوخت کە سەختترین تەنی زانراوە"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "She was wearing her diamonds (= jewellery with diamonds in it)."),
-                    ExampleSentenceKurdish(text: "ئەڵماسەکانی بەستبوو."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "diamond", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdiamonds1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdiamonds1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "She was wearing her diamonds (= jewellery with diamonds in it).",
+            kurdishText: "ئەڵماسەکانی بەستبوو.", // diamond
+            onPressedBritish: () => speakdiamonds1("en-GB"),
+            onPressedAmerican: () => speakdiamonds1("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "The lights shone like diamonds."),
-                    ExampleSentenceKurdish(
-                        text: "لایتەکان وەک ئەڵماس دەگەشانەوە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdiamonds2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdiamonds2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "The lights shone like diamonds.",
+            kurdishText: "لایتەکان وەک ئەڵماس دەگەشانەوە.",
+            onPressedBritish: () => speakdiamonds2("en-GB"),
+            onPressedAmerican: () => speakdiamonds2("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "She was dripping with diamonds."),
-                    ExampleSentenceKurdish(text: "لە ئەڵماسدا دەدرەوشایەوە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdiamonds3("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdiamonds3("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "She was dripping with diamonds.",
+            kurdishText: "لە ئەڵماسدا دەدرەوشایەوە.",
+            onPressedBritish: () => speakdiamonds3("en-GB"),
+            onPressedAmerican: () => speakdiamonds3("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
                   "٢. (ناو) شێوەیەک کە چوار لای یەکسانی ھەیە بە ھەمان درێژی و و گۆشەکانی ٩٠ نین"),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "Joe's socks had diamond patterns on them."),
-                    ExampleSentenceKurdish(
-                        text: "گۆرەوییەکانی جۆو شێوە ئەڵماسیان لەسەر بوو."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdiamonds4("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdiamonds4("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "Joe's socks had diamond patterns on them.",
+            kurdishText: "گۆرەوییەکانی جۆو شێوە ئەڵماسیان لەسەر بوو.",
+            onPressedBritish: () => speakdiamonds4("en-GB"),
+            onPressedAmerican: () => speakdiamonds4("en-US"),
           ),
           // skipped_meaning
           // diamonds500"),

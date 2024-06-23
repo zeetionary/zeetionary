@@ -389,124 +389,47 @@ class KurdishMeaning extends StatelessWidget {
 """),
           const DefinitionKurdish(
               text: """١. (کردار) دەرکردنی کەسێک/شتێک شوێنێک"""),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            """Police ejected a number of violent protesters from the hall."""),
-                    ExampleSentenceKurdish(
-                        text:
-                            """پۆلیس ژمارەیەک خۆپیشاندەری توندووتیژی لە ھۆڵەکە کردە دەرەوە."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "eject", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakejects1("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakejects1("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                """Police ejected a number of violent protesters from the hall.""",
+            kurdishText:
+                """پۆلیس ژمارەیەک خۆپیشاندەری توندووتیژی لە ھۆڵەکە کردە دەرەوە.""", // eject
+            onPressedBritish: () => speakejects1("en-GB"),
+            onPressedAmerican: () => speakejects1("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: """ژممارە. (کردار) پێنناسە"""),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            """He was forcibly ejected from the restaurant."""),
-                    ExampleSentenceKurdish(
-                        text: """بەزۆر لە چێشتخانەکە کرایە دەرەوە."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakejects2("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakejects2("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: """He was forcibly ejected from the restaurant.""",
+            kurdishText: """بەزۆر لە چێشتخانەکە کرایە دەرەوە.""",
+            onPressedBritish: () => speakejects2("en-GB"),
+            onPressedAmerican: () => speakejects2("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
                   """٢. (کردار) فڕێدانە دەرەوەی شتێک لەناکاو بە ھێزێکی زۆر"""),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            """Used cartridges are ejected from the gun after firing."""),
-                    ExampleSentenceKurdish(
-                        text:
-                            """قەواغی بەکارھێندراو لە چەکەکە فڕێ دەدرێنە دەرەوە لە دوای تەقاندن."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakejects3("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakejects3("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                """Used cartridges are ejected from the gun after firing.""",
+            kurdishText:
+                """قەواغی بەکارھێندراو لە چەکەکە فڕێ دەدرێنە دەرەوە لە دوای تەقاندن.""",
+            onPressedBritish: () => speakejects3("en-GB"),
+            onPressedAmerican: () => speakejects3("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text: """٣. (کردار) ھاتنە دەرەوە لە فڕۆکەیەک کە لە کەوتندایە"""),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            """The pilot managed to eject moments before the plane crashed."""),
-                    ExampleSentenceKurdish(
-                        text:
-                            """فڕۆکەوانەکە توانی بێتە دەرەوە چەند ساتێک پێش ئەوەی فڕۆکەکە تێکبشکێت."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakejects4("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakejects4("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                """The pilot managed to eject moments before the plane crashed.""",
+            kurdishText:
+                """فڕۆکەوانەکە توانی بێتە دەرەوە چەند ساتێک پێش ئەوەی فڕۆکەکە تێکبشکێت.""",
+            onPressedBritish: () => speakejects4("en-GB"),
+            onPressedAmerican: () => speakejects4("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: """ژممارە. (کردار) پێنناسە"""),

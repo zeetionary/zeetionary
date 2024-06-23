@@ -243,62 +243,22 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "١. (ھاوەڵناو) کە بەوەفا نییت بەرامبەر ھاوڕێکانت، خێزانت، وڵاتەکەت، ھتد"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "He was accused of being disloyal to the government."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "تاوانبارکرا بەوەی ناپاک بووە بەرامبەر بە حکومەت."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "disloyal", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdisloyals1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdisloyals1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "He was accused of being disloyal to the government.",
+            kurdishText:
+                "تاوانبارکرا بەوەی ناپاک بووە بەرامبەر بە حکومەت.", // disloyal
+            onPressedBritish: () => speakdisloyals1("en-GB"),
+            onPressedAmerican: () => speakdisloyals1("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "It was very disloyal of you to repeat what I’d said to Peter."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "ئەوە لە بێ‌سفەتیت بوو کە ئەوەی وتبووم بە پیتەرت گوت."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdisloyals2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdisloyals2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "It was very disloyal of you to repeat what I’d said to Peter.",
+            kurdishText: "ئەوە لە بێ‌سفەتیت بوو کە ئەوەی وتبووم بە پیتەرت گوت.",
+            onPressedBritish: () => speakdisloyals2("en-GB"),
+            onPressedAmerican: () => speakdisloyals2("en-US"),
           ),
           // disloyals300"),
           // speakdisloyals3

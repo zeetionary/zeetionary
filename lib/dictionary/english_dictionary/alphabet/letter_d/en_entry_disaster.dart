@@ -326,349 +326,120 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "١. (ناو) کارەسات؛ ڕووداوێکی خراپی وەک لافاو یان ئاگر کە خەڵکێکی زۆر دەکوژێت و دەبێتە ھۆکاری زیانی گەورە"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "Thousands died in the disaster."),
-                    ExampleSentenceKurdish(text: "ھەزاران لە کارەساتەکە مردن."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "disaster", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdisasters1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdisasters1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "Thousands died in the disaster.",
+            kurdishText: "ھەزاران لە کارەساتەکە مردن.", // disaster
+            onPressedBritish: () => speakdisasters1("en-GB"),
+            onPressedAmerican: () => speakdisasters1("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "They provided more than £2.3 billion in disaster relief."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "زیاتر لە ٢,٣ ملیۆن پاوەندیان بۆ بەھاناوەھاتنی کارەساتەکە دابینکرد."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdisasters2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdisasters2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "They provided more than £2.3 billion in disaster relief.",
+            kurdishText:
+                "زیاتر لە ٢,٣ ملیۆن پاوەندیان بۆ بەھاناوەھاتنی کارەساتەکە دابینکرد.",
+            onPressedBritish: () => speakdisasters2("en-GB"),
+            onPressedAmerican: () => speakdisasters2("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "Europe's worst environmental disaster is unfolding at this very moment."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "خراپترین کارەساتی ژینگەیی ئەورووپا ڕێک لەم ساتەدا ڕوودەدات."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdisasters3("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdisasters3("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "Europe's worst environmental disaster is unfolding at this very moment.",
+            kurdishText:
+                "خراپترین کارەساتی ژینگەیی ئەورووپا ڕێک لەم ساتەدا ڕوودەدات.",
+            onPressedBritish: () => speakdisasters3("en-GB"),
+            onPressedAmerican: () => speakdisasters3("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "He called for a full investigation to help prevent future disasters."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "داوای لێکۆڵینەوەی تەواوی کرد بۆ ڕێگری لە کارەسات لە ئایندەدا."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdisasters4("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdisasters4("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "He called for a full investigation to help prevent future disasters.",
+            kurdishText:
+                "داوای لێکۆڵینەوەی تەواوی کرد بۆ ڕێگری لە کارەسات لە ئایندەدا.",
+            onPressedBritish: () => speakdisasters4("en-GB"),
+            onPressedAmerican: () => speakdisasters4("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "In a disaster everyone needs to keep calm."),
-                    ExampleSentenceKurdish(
-                        text: "لە کارەساتێکدا ھەموان دەبێت ھێمنی بپارێزن."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdisasters5("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdisasters5("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "In a disaster everyone needs to keep calm.",
+            kurdishText: "لە کارەساتێکدا ھەموان دەبێت ھێمنی بپارێزن.",
+            onPressedBritish: () => speakdisasters5("en-GB"),
+            onPressedAmerican: () => speakdisasters5("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٢. (ناو) دۆخێکی زۆر خراپ کە دەبێتە ھۆکاری کێشە"),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "Losing your job doesn't have to be such a disaster."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "لەدەستدانی کارەکەت پێویست ناکات ھێندە نەھامەتی بێت."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdisasters6("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdisasters6("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "Losing your job doesn't have to be such a disaster.",
+            kurdishText: "لەدەستدانی کارەکەت پێویست ناکات ھێندە نەھامەتی بێت.",
+            onPressedBritish: () => speakdisasters6("en-GB"),
+            onPressedAmerican: () => speakdisasters6("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "Disaster struck when the wheel came off."),
-                    ExampleSentenceKurdish(
-                        text: "بەڵایەک ڕوویدا کە ویلەکە لێبوویەوە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdisasters7("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdisasters7("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "Disaster struck when the wheel came off.",
+            kurdishText: "بەڵایەک ڕوویدا کە ویلەکە لێبوویەوە.",
+            onPressedBritish: () => speakdisasters7("en-GB"),
+            onPressedAmerican: () => speakdisasters7("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "Archie has to act quickly to avert disaster."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "ئارچی پێویست بوو زوو ھەنگاو بنێت بۆ دووربوون لە کارەسات."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdisasters8("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdisasters8("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "Archie has to act quickly to avert disaster.",
+            kurdishText:
+                "ئارچی پێویست بوو زوو ھەنگاو بنێت بۆ دووربوون لە کارەسات.",
+            onPressedBritish: () => speakdisasters8("en-GB"),
+            onPressedAmerican: () => speakdisasters8("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "Many business partnerships end in disaster."),
-                    ExampleSentenceKurdish(
-                        text: "زۆر ھاوبەشی بازرگانی بە کارەسات کۆتایی دێت."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdisasters9("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdisasters9("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "Many business partnerships end in disaster.",
+            kurdishText: "زۆر ھاوبەشی بازرگانی بە کارەسات کۆتایی دێت.",
+            onPressedBritish: () => speakdisasters9("en-GB"),
+            onPressedAmerican: () => speakdisasters9("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "Letting her organize the party is a recipe for disaster (= something that is likely to go badly wrong)."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "ڕێگەدان بە ئەو کە پارتەکە ڕێکبخات ڕێخۆشکەرە بۆ کارەسات."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdisasters10("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdisasters10("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "Letting her organize the party is a recipe for disaster (= something that is likely to go badly wrong).",
+            kurdishText:
+                "ڕێگەدان بە ئەو کە پارتەکە ڕێکبخات ڕێخۆشکەرە بۆ کارەسات.",
+            onPressedBritish: () => speakdisasters10("en-GB"),
+            onPressedAmerican: () => speakdisasters10("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: "٣. (ناو) شکستێکی تەواو"),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "The play's first night was a total disaster."),
-                    ExampleSentenceKurdish(
-                        text: "یەکەم شەوی شانۆکە شکستێکی گەورە بوو."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdisasters11("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdisasters11("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "The play's first night was a total disaster.",
+            kurdishText: "یەکەم شەوی شانۆکە شکستێکی گەورە بوو.",
+            onPressedBritish: () => speakdisasters11("en-GB"),
+            onPressedAmerican: () => speakdisasters11("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "As a teacher, he's a disaster."),
-                    ExampleSentenceKurdish(
-                        text: "وەک مامۆستایەک، مایەی ئابڕووچوونە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdisasters12("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdisasters12("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "As a teacher, he's a disaster.",
+            kurdishText: "وەک مامۆستایەک، مایەی ئابڕووچوونە.",
+            onPressedBritish: () => speakdisasters12("en-GB"),
+            onPressedAmerican: () => speakdisasters12("en-US"),
           ),
           // disasters1300"),
           // speakdisasters13

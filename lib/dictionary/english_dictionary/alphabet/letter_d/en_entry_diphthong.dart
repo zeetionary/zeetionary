@@ -234,32 +234,13 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "١. (ناو) دوو دەنگ یان پیتی بزوێن بەدوای یەکدا، بۆ نموونە /aɪ/ لە pipe /paɪp/ یان پیتەکانی ou لە doubt"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "Regional accents may alter the diphthong in \"fire\"."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "ئەکسێنتە ھەرێمییەکان ڕەنگە دووبزوێنەی 'fire' بگۆڕن."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "diphthong", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdiphthongs1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdiphthongs1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "Regional accents may alter the diphthong in \"fire\".",
+            kurdishText:
+                "ئەکسێنتە ھەرێمییەکان ڕەنگە دووبزوێنەی 'fire' بگۆڕن.", // diphthong
+            onPressedBritish: () => speakdiphthongs1("en-GB"),
+            onPressedAmerican: () => speakdiphthongs1("en-US"),
           ),
           // diphthongs200"),
           // speakdiphthongs2

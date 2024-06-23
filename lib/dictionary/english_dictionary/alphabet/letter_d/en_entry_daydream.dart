@@ -241,63 +241,24 @@ class KurdishMeaning extends StatelessWidget {
 """),
           const DefinitionKurdish(
               text: "١. (ناو) بیرکردنەوەی خۆش کە ئێستات لەبیردەباتەوە"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "She stared out of the window, lost in a daydream."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "لە دەرەوەی پەنجەرەکەی دەڕوانی و لە خەیاڵ‌پڵاویدا ونبووبوو."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "daydream", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdaydreams1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdaydreams1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "She stared out of the window, lost in a daydream.",
+            kurdishText:
+                "لە دەرەوەی پەنجەرەکەی دەڕوانی و لە خەیاڵ‌پڵاویدا ونبووبوو.", // daydream
+            onPressedBritish: () => speakdaydreams1("en-GB"),
+            onPressedAmerican: () => speakdaydreams1("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
                   "٢. (کردار) دەستکردن بە بیرکردنەوەی خۆش کە ئێستات لەبیردەباتەوە"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "I would spend hours daydreaming about a house of my own."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "چەند کاتژمێرم بەسەر دەبرد بە داڵغەکردن سەبارەت بە خانوویەکی خۆم."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdaydreams2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdaydreams2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "I would spend hours daydreaming about a house of my own.",
+            kurdishText:
+                "چەند کاتژمێرم بەسەر دەبرد بە داڵغەکردن سەبارەت بە خانوویەکی خۆم.",
+            onPressedBritish: () => speakdaydreams2("en-GB"),
+            onPressedAmerican: () => speakdaydreams2("en-US"),
           ),
         ],
       ),

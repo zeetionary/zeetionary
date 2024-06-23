@@ -363,32 +363,13 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   """١. (ناو) بەرزییەکی دەستکرد کە بە خۆڵ یان بەرد درووستکراوە بۆ ڕێگری لە فروانبوونی ئاو بۆ دەورووبەری یان بۆ درووستکردنی ڕێگایەک بەسەر نزماییەکدا"""),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            """Trees and plants grow along the river embankment."""),
-                    ExampleSentenceKurdish(
-                        text:
-                            """درەخت و ڕووەک بە درێژایی دیوارچنی ڕووبارەکە گەشە دەکەن."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "embankment", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakembankments1("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakembankments1("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                """Trees and plants grow along the river embankment.""",
+            kurdishText:
+                """درەخت و ڕووەک بە درێژایی دیوارچنی ڕووبارەکە گەشە دەکەن.""", // embankment
+            onPressedBritish: () => speakembankments1("en-GB"),
+            onPressedAmerican: () => speakembankments1("en-US"),
           ),
           // embankments200embankments2
           // speakembankments2

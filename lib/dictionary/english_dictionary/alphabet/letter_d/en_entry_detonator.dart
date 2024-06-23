@@ -233,31 +233,12 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "١. (ناو) ئامێرێک کە بەکاردێت بۆ ئەوەی تەقینەوەیەک بتەقێنێتەوە"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The detonator set off the dynamite in the mine."),
-                    ExampleSentenceKurdish(
-                        text: "تقێنەرەوەکە داینەمایتی لە کانەکە تەقاندەوە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "detonator", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdetonators1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdetonators1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "The detonator set off the dynamite in the mine.",
+            kurdishText:
+                "تقێنەرەوەکە داینەمایتی لە کانەکە تەقاندەوە.", // detonator
+            onPressedBritish: () => speakdetonators1("en-GB"),
+            onPressedAmerican: () => speakdetonators1("en-US"),
           ),
           // detonators200"),
           // speakdetonators2

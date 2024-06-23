@@ -300,253 +300,79 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "١. (ناو) ھەڵەیەک لە شتێک یان شێوازی درووستکردنی کە واتای ئەوەیە کێشەی ھەیە"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "Goods with slight defects are sold at half price."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "ئەو کەلوپەلانەی کە کەمێک خەوشییان تێدایە بە نیوە نرخ دەفرۆشرێن."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "defect", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdefects1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdefects1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "Goods with slight defects are sold at half price.",
+            kurdishText:
+                "ئەو کەلوپەلانەی کە کەمێک خەوشییان تێدایە بە نیوە نرخ دەفرۆشرێن.", // defect
+            onPressedBritish: () => speakdefects1("en-GB"),
+            onPressedAmerican: () => speakdefects1("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The photograph shows slight defects due to age."),
-                    ExampleSentenceKurdish(
-                        text: "وێنەکە کەمێک عەیبی تێدایە بەھۆی تەمەنەوە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdefects2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdefects2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "The photograph shows slight defects due to age.",
+            kurdishText: "وێنەکە کەمێک عەیبی تێدایە بەھۆی تەمەنەوە.",
+            onPressedBritish: () => speakdefects2("en-GB"),
+            onPressedAmerican: () => speakdefects2("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "The book contains serious defects."),
-                    ExampleSentenceKurdish(text: "کتێبەکە ھەڵەی سەختی تێدایە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdefects3("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdefects3("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "The book contains serious defects.",
+            kurdishText: "کتێبەکە ھەڵەی سەختی تێدایە.",
+            onPressedBritish: () => speakdefects3("en-GB"),
+            onPressedAmerican: () => speakdefects3("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The inspector found defects in the aircraft's construction."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "پشکنەرەکە ھەڵەی دۆزییەوە لە درووستکردنی فڕۆکەکەدا."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdefects4("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdefects4("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "The inspector found defects in the aircraft's construction.",
+            kurdishText: "پشکنەرەکە ھەڵەی دۆزییەوە لە درووستکردنی فڕۆکەکەدا.",
+            onPressedBritish: () => speakdefects4("en-GB"),
+            onPressedAmerican: () => speakdefects4("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
                   "٢. (ناو) کێشەیەک لە بەشێک لە جەستەی کەسێکدا یان شێوازی کارکردنی"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "The child had a mild heart defect."),
-                    ExampleSentenceKurdish(
-                        text: "منداڵەکە کێشەیەکی بچووکی دڵی ھەیە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdefects5("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdefects5("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "The child had a mild heart defect.",
+            kurdishText: "منداڵەکە کێشەیەکی بچووکی دڵی ھەیە.",
+            onPressedBritish: () => speakdefects5("en-GB"),
+            onPressedAmerican: () => speakdefects5("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "He has a congenital heart defect."),
-                    ExampleSentenceKurdish(text: "کێشەیەکی زگماکی دڵی ھەیە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdefects6("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdefects6("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "He has a congenital heart defect.",
+            kurdishText: "کێشەیەکی زگماکی دڵی ھەیە.",
+            onPressedBritish: () => speakdefects6("en-GB"),
+            onPressedAmerican: () => speakdefects6("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The drug is widely known to cause birth defects."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "مادەکە بەشێوەیەکی بەرفراوان ناسراوە بەوەی کە ببێتە ھۆکاری کێشەی منداڵبوون."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdefects7("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdefects7("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "The drug is widely known to cause birth defects.",
+            kurdishText:
+                "مادەکە بەشێوەیەکی بەرفراوان ناسراوە بەوەی کە ببێتە ھۆکاری کێشەی منداڵبوون.",
+            onPressedBritish: () => speakdefects7("en-GB"),
+            onPressedAmerican: () => speakdefects7("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
                   "٣. (کردار) جێھێشتنی پارتێکی سیاسی، وڵاتێک، ھتد و پەیوەندی کردن بە یەکێکی دیکەوە کە بە دوژمن دادەنرێت"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "She defected from the party just days before the election."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "تەنھا چەند ڕۆژێک پێش ھەڵبژاردن پارتەکەی جێھێشت."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdefects8("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdefects8("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "She defected from the party just days before the election.",
+            kurdishText: "تەنھا چەند ڕۆژێک پێش ھەڵبژاردن پارتەکەی جێھێشت.",
+            onPressedBritish: () => speakdefects8("en-GB"),
+            onPressedAmerican: () => speakdefects8("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "A number of writers and musicians defected from the Soviet Union to the West in the 1960s."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "ژمارەیەک نووسەر و میوزیکژەن یەکێتی سۆڤیەتیان بۆ وڵاتانی ڕۆژئاوا جێھێشت لە ساڵانی ١٩٦٠ ـەکان."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdefects9("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdefects9("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "A number of writers and musicians defected from the Soviet Union to the West in the 1960s.",
+            kurdishText:
+                "ژمارەیەک نووسەر و میوزیکژەن یەکێتی سۆڤیەتیان بۆ وڵاتانی ڕۆژئاوا جێھێشت لە ساڵانی ١٩٦٠ ـەکان.",
+            onPressedBritish: () => speakdefects9("en-GB"),
+            onPressedAmerican: () => speakdefects9("en-US"),
           ),
         ],
       ),

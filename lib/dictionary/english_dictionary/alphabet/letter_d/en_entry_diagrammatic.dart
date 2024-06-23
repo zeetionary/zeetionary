@@ -244,62 +244,24 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "١. (ھاوەڵناو) لە شێوەی وێنەکێشانێکی سادە بە بەکارھێنانی ھێل بۆ ڕوونکردنەوەی ئەوەی شتێک بۆ کوێ دەجوڵێت، چۆن کار دەکات، ھتد"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "A diagrammatic representation of this life cycle is shown in figure 4.1."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "ڕوونکردنەوەیەکی ھێڵکارییانەی ئەم سووڕی ژیانە لە شێوەی ٤.١ پیشان دراوە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "diagrammatic", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdiagrammatics1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdiagrammatics1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "A diagrammatic representation of this life cycle is shown in figure 4.1.",
+            kurdishText:
+                "ڕوونکردنەوەیەکی ھێڵکارییانەی ئەم سووڕی ژیانە لە شێوەی ٤.١ پیشان دراوە.", // diagrammatic
+            onPressedBritish: () => speakdiagrammatics1("en-GB"),
+            onPressedAmerican: () => speakdiagrammatics1("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "Some of the images are diagrammatic, complete with measurements."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "ھەندێک لە وێنەکان ھێلکارییانەن بە تەواوی لەگەڵ پێوانەکاندا."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdiagrammatics2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdiagrammatics2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "Some of the images are diagrammatic, complete with measurements.",
+            kurdishText:
+                "ھەندێک لە وێنەکان ھێلکارییانەن بە تەواوی لەگەڵ پێوانەکاندا.",
+            onPressedBritish: () => speakdiagrammatics2("en-GB"),
+            onPressedAmerican: () => speakdiagrammatics2("en-US"),
           ),
           // diagrammatics300"),
           // speakdiagrammatics3

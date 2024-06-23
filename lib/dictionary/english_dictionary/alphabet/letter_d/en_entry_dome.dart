@@ -372,62 +372,24 @@ class KurdishMeaning extends StatelessWidget {
 """),
           const DefinitionKurdish(
               text: "١. (ناو) سەربانێکی خڕ کە بنکێکی بازنەیی ھەیە"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The dome of St Paul’s Cathedral is visible from many parts of London."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "گومەزی کڵێسای قەشە پاوڵ لە زۆر شێنی لەندەنەوە دەبینرێت."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "dome", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdomes1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdomes1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "The dome of St Paul’s Cathedral is visible from many parts of London.",
+            kurdishText:
+                "گومەزی کڵێسای قەشە پاوڵ لە زۆر شێنی لەندەنەوە دەبینرێت.", // dome
+            onPressedBritish: () => speakdomes1("en-GB"),
+            onPressedAmerican: () => speakdomes1("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: "٢. (ناو) شتێک کە شێوەی گومەزی ھەیە"),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "Gerald had a long grey beard and a shiny bald dome (= head)."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "جێراڵد ڕیشێکی درێژی خۆڵەمێشی و تەپڵەسەرێکی کەچەڵی درەوشاوەی ھەیە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdomes2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdomes2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "Gerald had a long grey beard and a shiny bald dome (= head).",
+            kurdishText:
+                "جێراڵد ڕیشێکی درێژی خۆڵەمێشی و تەپڵەسەرێکی کەچەڵی درەوشاوەی ھەیە.",
+            onPressedBritish: () => speakdomes2("en-GB"),
+            onPressedAmerican: () => speakdomes2("en-US"),
           ),
           // domes300"),
           // speakdomes3

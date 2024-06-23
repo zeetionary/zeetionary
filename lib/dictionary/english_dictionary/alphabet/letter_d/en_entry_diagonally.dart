@@ -243,61 +243,22 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "١. (ھاوەڵکار) بە لاری بەشێوەیەک کە دوو سووچی بەرانبەر بە یەکدی دەگەیەنێت"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "Walk diagonally across the field to the far corner and then turn left."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "بە کێڵگەکەدا سووچ بۆ سووج بچۆ بۆ سووچە دوورەکە و دواتر بە چەپدا پێچ بکەوە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "diagonally", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdiagonallys1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdiagonallys1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "Walk diagonally across the field to the far corner and then turn left.",
+            kurdishText:
+                "بە کێڵگەکەدا سووچ بۆ سووج بچۆ بۆ سووچە دوورەکە و دواتر بە چەپدا پێچ بکەوە.", // diagonally
+            onPressedBritish: () => speakdiagonallys1("en-GB"),
+            onPressedAmerican: () => speakdiagonallys1("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "It's quickest if you cut diagonally across the park."),
-                    ExampleSentenceKurdish(
-                        text: "ئەگەر چەپ‌وڕاست بە پارکەکەدا بچیت خێراترینە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdiagonallys2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdiagonallys2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "It's quickest if you cut diagonally across the park.",
+            kurdishText: "ئەگەر چەپ‌وڕاست بە پارکەکەدا بچیت خێراترینە.",
+            onPressedBritish: () => speakdiagonallys2("en-GB"),
+            onPressedAmerican: () => speakdiagonallys2("en-US"),
           ),
           // diagonallys300"),
           // speakdiagonallys3

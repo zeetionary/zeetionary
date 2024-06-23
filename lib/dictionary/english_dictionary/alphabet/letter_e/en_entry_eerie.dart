@@ -369,60 +369,21 @@ class KurdishMeaning extends StatelessWidget {
 کوردی: ترسێنەر، ترسناک، سەیر
 """),
           const DefinitionKurdish(text: """١. (ھاوەڵناو) نامۆ و ترسێنەر"""),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            """I found the silence underwater really eerie."""),
-                    ExampleSentenceKurdish(
-                        text: """بێ‌دەنگی ژێرئاوەکە تەواو ترسێنەر بوو لام."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "eerie", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakeeries1("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakeeries1("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: """I found the silence underwater really eerie.""",
+            kurdishText:
+                """بێ‌دەنگی ژێرئاوەکە تەواو ترسێنەر بوو لام.""", // eerie
+            onPressedBritish: () => speakeeries1("en-GB"),
+            onPressedAmerican: () => speakeeries1("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            """He had an eerie feeling that he was not alone."""),
-                    ExampleSentenceKurdish(
-                        text: """ھەستی ترسێنەری ئەوەی ھەبوو کە تەنھا نییە."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakeeries2("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakeeries2("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: """He had an eerie feeling that he was not alone.""",
+            kurdishText: """ھەستی ترسێنەری ئەوەی ھەبوو کە تەنھا نییە.""",
+            onPressedBritish: () => speakeeries2("en-GB"),
+            onPressedAmerican: () => speakeeries2("en-US"),
           ),
           // eeries300eeries3
           // speakeeries3

@@ -234,32 +234,13 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "١. (ھاوەڵناو) کە وا لە کەسێک دەکات دوودڵ بێت و کەمتر متمانەی ھەبێت بە کردنی شتێک"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "She has the daunting task of cooking for 20 people every day."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "ئەرکی ترسێنەری چێشتلێنانی ڕۆژانەی بۆ ٢٠ کەس ھەیە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "daunting", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdauntings1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdauntings1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "She has the daunting task of cooking for 20 people every day.",
+            kurdishText:
+                "ئەرکی ترسێنەری چێشتلێنانی ڕۆژانەی بۆ ٢٠ کەس ھەیە.", // daunting
+            onPressedBritish: () => speakdauntings1("en-GB"),
+            onPressedAmerican: () => speakdauntings1("en-US"),
           ),
         ],
       ),

@@ -240,58 +240,20 @@ class KurdishMeaning extends StatelessWidget {
 // کوردی:
 // """),
           const DefinitionKurdish(text: "١. (ناو) مردوو"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "His mother is now sadly deceased."),
-                    ExampleSentenceKurdish(
-                        text: "بەداخەوە دایکی لە ئێستادا مردووە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "deceased", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdeceaseds1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdeceaseds1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "His mother is now sadly deceased.",
+            kurdishText: "بەداخەوە دایکی لە ئێستادا مردووە.", // deceased
+            onPressedBritish: () => speakdeceaseds1("en-GB"),
+            onPressedAmerican: () => speakdeceaseds1("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: "٢. (ھاوەڵناو) کەسێکی مردوو"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The deceased shot her mother dead before killing herself."),
-                    ExampleSentenceKurdish(
-                        text: "مردووەکە دایکی کوشت پێش کوشتنی خۆی."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdeceaseds2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdeceaseds2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "The deceased shot her mother dead before killing herself.",
+            kurdishText: "مردووەکە دایکی کوشت پێش کوشتنی خۆی.",
+            onPressedBritish: () => speakdeceaseds2("en-GB"),
+            onPressedAmerican: () => speakdeceaseds2("en-US"),
           ),
         ],
       ),

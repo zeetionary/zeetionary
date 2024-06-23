@@ -488,476 +488,171 @@ class KurdishMeaning extends StatelessWidget {
 کوردی: لەدانەوەھاتوو، شێاوی دان یان پێدان،	وادە، وەختی دانەوە،	خاوەن‌قەرز،	دیاری‌کراو، دانراو، بڕیارلەسەردراو، پێویست،	باش، گونجاو، ڕەوا، شیاو، حەق، بەرحەق،	لە ئەنجامی، لەبەر،	ماف، حەق،	قەرز، حەقی ئەندامێتی، ئەندامانە،	حەق
 """),
           const DefinitionKurdish(text: """١. (ھاوەڵناو) بەھۆی کەسێک/شتێک"""),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            """The team's success was largely due to her efforts."""),
-                    ExampleSentenceKurdish(
-                        text:
-                            """سەرکەوتنی تیمەکە بەشێوەیەکی سەرەکی بەھۆی ھەوڵەکانی ئەو بوو."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "due", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdues1("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdues1("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                """The team's success was largely due to her efforts.""",
+            kurdishText:
+                """سەرکەوتنی تیمەکە بەشێوەیەکی سەرەکی بەھۆی ھەوڵەکانی ئەو بوو.""", // due
+            onPressedBritish: () => speakdues1("en-GB"),
+            onPressedAmerican: () => speakdues1("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: """ژممارە. (ناو) پێنناسە"""),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            """He argues that climate change is mainly due to the actions of industrialized countries."""),
-                    ExampleSentenceKurdish(
-                        text:
-                            """مشتومڕی ئەوە دەکات کە گۆڕانی کەشووھەوا بەشێوەیەکی سەرەکی بەھۆی ھەوڵەکانی وڵاتە پیشەسازییەکانە."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdues2("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdues2("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                """He argues that climate change is mainly due to the actions of industrialized countries.""",
+            kurdishText:
+                """مشتومڕی ئەوە دەکات کە گۆڕانی کەشووھەوا بەشێوەیەکی سەرەکی بەھۆی ھەوڵەکانی وڵاتە پیشەسازییەکانە.""",
+            onPressedBritish: () => speakdues2("en-GB"),
+            onPressedAmerican: () => speakdues2("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: """ژممارە. (ناو) پێنناسە"""),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            """The increase in reported cases is partly due to growing public awareness of the disease."""),
-                    ExampleSentenceKurdish(
-                        text:
-                            """زیادبوونی کەیسە ڕاگەیەندراوەکان تا ڕادەیەک بەھۆی ھۆشیاری زیادبووی خەڵکییە بۆ نەخۆشییەکە."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdues3("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdues3("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                """The increase in reported cases is partly due to growing public awareness of the disease.""",
+            kurdishText:
+                """زیادبوونی کەیسە ڕاگەیەندراوەکان تا ڕادەیەک بەھۆی ھۆشیاری زیادبووی خەڵکییە بۆ نەخۆشییەکە.""",
+            onPressedBritish: () => speakdues3("en-GB"),
+            onPressedAmerican: () => speakdues3("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text: """٢. (ھاوەڵناو) کە چاوەڕوانکراوە یان ئامادەیی بۆ کراوە"""),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: """The next train is due in five minutes."""),
-                    ExampleSentenceKurdish(
-                        text:
-                            """شەمەندەفەری دواتر لە پێنج خولەکدا پێشبینی دەکرێت."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdues4("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdues4("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: """The next train is due in five minutes.""",
+            kurdishText:
+                """شەمەندەفەری دواتر لە پێنج خولەکدا پێشبینی دەکرێت.""",
+            onPressedBritish: () => speakdues4("en-GB"),
+            onPressedAmerican: () => speakdues4("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: """ژممارە. (ناو) پێنناسە"""),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(text: """When's the baby due?"""),
-                    ExampleSentenceKurdish(
-                        text: """منداڵەکە بۆ کەی پێشبینی دەکرێت."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdues5("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdues5("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: """When's the baby due?""",
+            kurdishText: """منداڵەکە بۆ کەی پێشبینی دەکرێت.""",
+            onPressedBritish: () => speakdues5("en-GB"),
+            onPressedAmerican: () => speakdues5("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: """ژممارە. (ناو) پێنناسە"""),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            """My essay's due next Friday (= it has to be given to the teacher by then)."""),
-                    ExampleSentenceKurdish(
-                        text: """داڕشتنەکەم تاوەکو ھەینی کاتی ھەیە."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdues6("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdues6("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                """My essay's due next Friday (= it has to be given to the teacher by then).""",
+            kurdishText: """داڕشتنەکەم تاوەکو ھەینی کاتی ھەیە.""",
+            onPressedBritish: () => speakdues6("en-GB"),
+            onPressedAmerican: () => speakdues6("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text: """٣. (ھاوەڵناو) کە قەرزێک دەبیت دەستبەجێ بدرێتەوە"""),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: """Payment is due on 1 October."""),
-                    ExampleSentenceKurdish(
-                        text:
-                            """دانەوەی قەرزەکە لە یەکی تشرینی یەکەم دەبێت."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdues7("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdues7("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: """Payment is due on 1 October.""",
+            kurdishText: """دانەوەی قەرزەکە لە یەکی تشرینی یەکەم دەبێت.""",
+            onPressedBritish: () => speakdues7("en-GB"),
+            onPressedAmerican: () => speakdues7("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
                   """٤. (ھاوەڵناو) کە دەبێت بدرێت بە کەسێک بەھۆی ئەوەی مافیەتی یان شایەنیەتی"""),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: """Our thanks are due to the whole team."""),
-                    ExampleSentenceKurdish(
-                        text: """سوپاسمان بۆ تەواوی تیمەکەیە."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdues8("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdues8("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: """Our thanks are due to the whole team.""",
+            kurdishText: """سوپاسمان بۆ تەواوی تیمەکەیە.""",
+            onPressedBritish: () => speakdues8("en-GB"),
+            onPressedAmerican: () => speakdues8("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: """ژممارە. (ناو) پێنناسە"""),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            """Have they been paid the money that is due to them?"""),
-                    ExampleSentenceKurdish(
-                        text: """ئەو پارەیان پێدراوە کە مافیانە."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdues9("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdues9("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                """Have they been paid the money that is due to them?""",
+            kurdishText: """ئەو پارەیان پێدراوە کە مافیانە.""",
+            onPressedBritish: () => speakdues9("en-GB"),
+            onPressedAmerican: () => speakdues9("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: """٥. (ھاوەڵناو) کە شایەنی شتێکە"""),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: """I'm still due 15 days' leave."""),
-                    ExampleSentenceKurdish(
-                        text: """ھێشتا ١٥ ڕۆژ مۆڵەتم ماوە."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdues10("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdues10("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: """I'm still due 15 days' leave.""",
+            kurdishText: """ھێشتا ١٥ ڕۆژ مۆڵەتم ماوە.""",
+            onPressedBritish: () => speakdues10("en-GB"),
+            onPressedAmerican: () => speakdues10("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: """ژممارە. (ناو) پێنناسە"""),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: """She's due for promotion soon."""),
-                    ExampleSentenceKurdish(
-                        text: """بەزووی شایستەی پلەبەرزکردنەوە دەبێت."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdues11("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdues11("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: """She's due for promotion soon.""",
+            kurdishText: """بەزووی شایستەی پلەبەرزکردنەوە دەبێت.""",
+            onPressedBritish: () => speakdues11("en-GB"),
+            onPressedAmerican: () => speakdues11("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text: """٦. (ھاوەڵناو) کە لە ھەلومەرجێکدا گونجاو دەبێت"""),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            """After due consideration, we have decided to appoint Mr Davis to the job."""),
-                    ExampleSentenceKurdish(
-                        text:
-                            """لە دوای بیرکردنەوەی گونجاو، بڕیارمان داوە بە دیاریکردنی بەڕێز دەیڤیز بۆ کارەکە."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdues12("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdues12("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                """After due consideration, we have decided to appoint Mr Davis to the job.""",
+            kurdishText:
+                """لە دوای بیرکردنەوەی گونجاو، بڕیارمان داوە بە دیاریکردنی بەڕێز دەیڤیز بۆ کارەکە.""",
+            onPressedBritish: () => speakdues12("en-GB"),
+            onPressedAmerican: () => speakdues12("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text: """٧. (ناو) شتێک کە وەک مافی کەسێک دەبێت پێی بدرێت"""),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            """She's a slow worker, but to give her her due (= to be fair to her), she does try very hard."""),
-                    ExampleSentenceKurdish(
-                        text:
-                            """کرێکارێکی خاووخلیچکە، بەڵام بۆ ناحەقی نەبێت بەرامبەری، زۆر ماندوونەناسانە ھەوڵ دەدات."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdues13("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdues13("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                """She's a slow worker, but to give her her due (= to be fair to her), she does try very hard.""",
+            kurdishText:
+                """کرێکارێکی خاووخلیچکە، بەڵام بۆ ناحەقی نەبێت بەرامبەری، زۆر ماندوونەناسانە ھەوڵ دەدات.""",
+            onPressedBritish: () => speakdues13("en-GB"),
+            onPressedAmerican: () => speakdues13("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text: """٨. (ناو) بڕە پارەیەک کە دەیدەیت بە دامەزراوەیەک"""),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            """Members of the society pay £1,000 in annual dues."""),
-                    ExampleSentenceKurdish(
-                        text:
-                            """ئەندامانی کۆمەڵگەکە دەبێت ١٠٠٠ پاوەندی ساڵانە بدەن."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdues14("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdues14("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                """Members of the society pay £1,000 in annual dues.""",
+            kurdishText:
+                """ئەندامانی کۆمەڵگەکە دەبێت ١٠٠٠ پاوەندی ساڵانە بدەن.""",
+            onPressedBritish: () => speakdues14("en-GB"),
+            onPressedAmerican: () => speakdues14("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text: """٩. (ھاوەڵکار) بە تەواوی؛ بەھێڵێکی ڕاست"""),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            """The village lies five miles due north of York."""),
-                    ExampleSentenceKurdish(
-                        text: """گوندەکە ڕێک پێنج میل لە باکووری یۆرکە."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdues15("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdues15("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: """The village lies five miles due north of York.""",
+            kurdishText: """گوندەکە ڕێک پێنج میل لە باکووری یۆرکە.""",
+            onPressedBritish: () => speakdues15("en-GB"),
+            onPressedAmerican: () => speakdues15("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: """ژممارە. (ناو) پێنناسە"""),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            """From here, you go due east until you get to the school."""),
-                    ExampleSentenceKurdish(
-                        text:
-                            """لێرەوە ڕاست بۆ ڕۆژھەڵات دەچیت تاوەکو دەگەیت بە قوتابخانەکە."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdues16("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdues16("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                """From here, you go due east until you get to the school.""",
+            kurdishText:
+                """لێرەوە ڕاست بۆ ڕۆژھەڵات دەچیت تاوەکو دەگەیت بە قوتابخانەکە.""",
+            onPressedBritish: () => speakdues16("en-GB"),
+            onPressedAmerican: () => speakdues16("en-US"),
           ),
           // dues1700
           // speakdues17

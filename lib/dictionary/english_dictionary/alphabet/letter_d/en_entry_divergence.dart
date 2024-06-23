@@ -372,60 +372,22 @@ class KurdishMeaning extends StatelessWidget {
 """),
           const DefinitionKurdish(
               text: "١. (ناو) پڕۆسەی جیابوونەوە یان جیاوازبوونی دوو شت"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "There are divergences between the legal systems of the two countries."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "جیاوازی ھەیە لە نێوان سیستەمی یاسایی دوو وڵاتەکەدا."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "divergence", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdivergences1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdivergences1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "There are divergences between the legal systems of the two countries.",
+            kurdishText:
+                "جیاوازی ھەیە لە نێوان سیستەمی یاسایی دوو وڵاتەکەدا.", // divergence
+            onPressedBritish: () => speakdivergences1("en-GB"),
+            onPressedAmerican: () => speakdivergences1("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "Recently published statistics show a divergence from previous trends."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "تازەگی ئامارە بڵاوکراوەکان ناتەبایی لەگەڵ ترێندەکانی پێشووتردا پیشان دەدەن."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdivergences2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdivergences2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "Recently published statistics show a divergence from previous trends.",
+            kurdishText:
+                "تازەگی ئامارە بڵاوکراوەکان ناتەبایی لەگەڵ ترێندەکانی پێشووتردا پیشان دەدەن.",
+            onPressedBritish: () => speakdivergences2("en-GB"),
+            onPressedAmerican: () => speakdivergences2("en-US"),
           ),
           // divergences300"),
           // speakdivergences3

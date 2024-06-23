@@ -250,60 +250,22 @@ class KurdishMeaning extends StatelessWidget {
 """),
           const DefinitionKurdish(
               text: "١. (ھاوەڵناو) کە لە ڕووی ئەخلاقییەوە خراپە"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "This is the work of a depraved mind."),
-                    ExampleSentenceKurdish(
-                        text: "ئەمە کاری کەسێکی بێ‌ئەخلاقە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "depraved", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdepraveds1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdepraveds1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "This is the work of a depraved mind.",
+            kurdishText: "ئەمە کاری کەسێکی بێ‌ئەخلاقە.", // depraved
+            onPressedBritish: () => speakdepraveds1("en-GB"),
+            onPressedAmerican: () => speakdepraveds1("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "Someone who can kill a child like that must be totally depraved."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "کەسێک کە دەتوانێت منداڵێک بەو شێوەیە بکوژێت دەبێت بە تەواوی داچۆڕاو بێت."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdepraveds2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdepraveds2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "Someone who can kill a child like that must be totally depraved.",
+            kurdishText:
+                "کەسێک کە دەتوانێت منداڵێک بەو شێوەیە بکوژێت دەبێت بە تەواوی داچۆڕاو بێت.",
+            onPressedBritish: () => speakdepraveds2("en-GB"),
+            onPressedAmerican: () => speakdepraveds2("en-US"),
           ),
           // depraveds300"),
           // speakdepraveds3

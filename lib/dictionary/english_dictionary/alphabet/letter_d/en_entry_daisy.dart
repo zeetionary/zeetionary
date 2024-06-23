@@ -234,32 +234,13 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "١. (ناو) گوڵێکی کێوی بچووک کە پەڕی سپی بە دەوری ناوێکی زەرددا ھەیە"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The children picked daisies from the field to make a bouquet."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "منداڵەکان لە کێڵگەکە گوڵە داودییان لێدەکردەوە بۆ درووستکردنی چەپکێک."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "daisy", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdaisys1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdaisys1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "The children picked daisies from the field to make a bouquet.",
+            kurdishText:
+                "منداڵەکان لە کێڵگەکە گوڵە داودییان لێدەکردەوە بۆ درووستکردنی چەپکێک.", // daisy
+            onPressedBritish: () => speakdaisys1("en-GB"),
+            onPressedAmerican: () => speakdaisys1("en-US"),
           ),
         ],
       ),

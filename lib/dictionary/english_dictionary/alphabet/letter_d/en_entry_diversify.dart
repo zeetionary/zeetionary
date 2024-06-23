@@ -390,117 +390,39 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "١. (کردار) کە کۆمپانیایەک  یان بازرگانییەک بەرھەمی جیاوازتر درووست بکات بۆ ئەوەی سەرکەوتوو بێت"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "Farmers are being encouraged to diversify into new crops."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "جوتیاران ھاندەدرێن بەرھەمەکانیان ھەمەچەشن بکەن."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "diversify", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdiversifys1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdiversifys1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "Farmers are being encouraged to diversify into new crops.",
+            kurdishText:
+                "جوتیاران ھاندەدرێن بەرھەمەکانیان ھەمەچەشن بکەن.", // diversify
+            onPressedBritish: () => speakdiversifys1("en-GB"),
+            onPressedAmerican: () => speakdiversifys1("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The company has been trying to diversify its business."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "کۆمپانیاکە ھەوڵیداوە بازرگانییەکەی ھەمەچەشن بکات."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdiversifys2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdiversifys2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "The company has been trying to diversify its business.",
+            kurdishText: "کۆمپانیاکە ھەوڵیداوە بازرگانییەکەی ھەمەچەشن بکات.",
+            onPressedBritish: () => speakdiversifys2("en-GB"),
+            onPressedAmerican: () => speakdiversifys2("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٢. (کردار) گۆڕان یان گۆڕینی شتێک بۆ ئەوەی فرەڕەنگ ببێت"),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "Patterns of family life are diversifying."),
-                    ExampleSentenceKurdish(
-                        text: "شێوەکانی ژیانی خێزان ھەمەچەشن دەبن."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdiversifys3("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdiversifys3("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "Patterns of family life are diversifying.",
+            kurdishText: "شێوەکانی ژیانی خێزان ھەمەچەشن دەبن.",
+            onPressedBritish: () => speakdiversifys3("en-GB"),
+            onPressedAmerican: () => speakdiversifys3("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The culture has been diversified with the arrival of immigrants."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "کەلتوورەکە فرەڕەنگ بووە لەگەڵ ھاتنی کۆچبەراندا."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdiversifys4("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdiversifys4("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "The culture has been diversified with the arrival of immigrants.",
+            kurdishText: "کەلتوورەکە فرەڕەنگ بووە لەگەڵ ھاتنی کۆچبەراندا.",
+            onPressedBritish: () => speakdiversifys4("en-GB"),
+            onPressedAmerican: () => speakdiversifys4("en-US"),
           ),
           // diversifys500"),
           // speakdiversifys5

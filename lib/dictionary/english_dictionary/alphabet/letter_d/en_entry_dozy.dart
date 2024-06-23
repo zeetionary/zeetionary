@@ -379,86 +379,30 @@ class KurdishMeaning extends StatelessWidget {
 """),
           const DefinitionKurdish(
               text: "١. (ھاوەڵناو) خەواڵوو، وەک ئەوەی خەریک بێت بخەویت"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(text: "I’m feeling a bit dozy."),
-                    ExampleSentenceKurdish(
-                        text: "کەمێک ھەست بە خەواڵووی دەکەم."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "dozy", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdozys1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdozys1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "I’m feeling a bit dozy.",
+            kurdishText: "کەمێک ھەست بە خەواڵووی دەکەم.", // dozy
+            onPressedBritish: () => speakdozys1("en-GB"),
+            onPressedAmerican: () => speakdozys1("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "The music was making her dozy."),
-                    ExampleSentenceKurdish(text: "میوزیکەکە خەواڵووی دەکرد."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdozys2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdozys2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "The music was making her dozy.",
+            kurdishText: "میوزیکەکە خەواڵووی دەکرد.",
+            onPressedBritish: () => speakdozys2("en-GB"),
+            onPressedAmerican: () => speakdozys2("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: "٢. (ھاوەڵناو) گێژ"),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "He'd have driven straight into me if I hadn't seen him first - the dozy idiot!"),
-                    ExampleSentenceKurdish(
-                        text:
-                            "ڕێک دەیکێشا پێمدا ئەگەر سەرەتا نەمدیبا ـ شێتی گێژە!"),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdozys3("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdozys3("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "He'd have driven straight into me if I hadn't seen him first - the dozy idiot!",
+            kurdishText: "ڕێک دەیکێشا پێمدا ئەگەر سەرەتا نەمدیبا ـ شێتی گێژە!",
+            onPressedBritish: () => speakdozys3("en-GB"),
+            onPressedAmerican: () => speakdozys3("en-US"),
           ),
           // dozys400"),
           // speakdozys4

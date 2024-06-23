@@ -252,62 +252,24 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "١. (ناو) کەمکردنەوەی پارە لە ئابووری وڵاتێکدا لەلایەن حکومەتەوە بۆ ئەوەی چالاکی ئابووری کەم ببێتەوە و بەدوایدا نرخی کەلوپەل دابەزێت یان وەکو خۆی بمێنێت"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "Deflation can lead to higher unemployment as businesses earn less."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "داکشان دەکرێت ببێتە ھۆی بێکاری زیاتر کە بازرگانییەکان کەمتر قازانج دەکەن."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "deflation", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdeflations1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdeflations1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "Deflation can lead to higher unemployment as businesses earn less.",
+            kurdishText:
+                "داکشان دەکرێت ببێتە ھۆی بێکاری زیاتر کە بازرگانییەکان کەمتر قازانج دەکەن.", // deflation
+            onPressedBritish: () => speakdeflations1("en-GB"),
+            onPressedAmerican: () => speakdeflations1("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٢. (ناو) دەرکردنی ھەوا یان گاز لە تایە، فوودانکە، ھتد"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The rate of deflation of the balloon depends on the kind of material from which it is made."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "ئاستی فسبوونەوەی باڵۆنەکە پشت دەبەستێت بەو مادەیەی لێی درووستکراوە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdeflations2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdeflations2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "The rate of deflation of the balloon depends on the kind of material from which it is made.",
+            kurdishText:
+                "ئاستی فسبوونەوەی باڵۆنەکە پشت دەبەستێت بەو مادەیەی لێی درووستکراوە.",
+            onPressedBritish: () => speakdeflations2("en-GB"),
+            onPressedAmerican: () => speakdeflations2("en-US"),
           ),
           // deflations300"),
           // speakdeflations3

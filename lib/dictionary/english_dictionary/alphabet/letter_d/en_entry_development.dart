@@ -380,511 +380,167 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "١. (ناو) گەشەی ھێواشێ شتێک بە شێوەیەک کە بەرەوپێشتر، بەھێزتر، ھتد ببێت"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "This is a perfectly normal stage of development."),
-                    ExampleSentenceKurdish(
-                        text: "ئەمە قۆناغێکی ئاسایی گەشەکردنە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "development", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdevelopments1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdevelopments1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "This is a perfectly normal stage of development.",
+            kurdishText: "ئەمە قۆناغێکی ئاسایی گەشەکردنە.", // development
+            onPressedBritish: () => speakdevelopments1("en-GB"),
+            onPressedAmerican: () => speakdevelopments1("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The company can offer a number of opportunities for career development."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "کۆمپانیاکە ژمارەیەک ھەلی گەشەپێدانی کار پێشکەش دەکات."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdevelopments2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdevelopments2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "The company can offer a number of opportunities for career development.",
+            kurdishText:
+                "کۆمپانیاکە ژمارەیەک ھەلی گەشەپێدانی کار پێشکەش دەکات.",
+            onPressedBritish: () => speakdevelopments2("en-GB"),
+            onPressedAmerican: () => speakdevelopments2("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "A UN team is monitoring the development of the peace process."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "تیمێکی نەتەوە یەکگرتووەکان چاودێری بەرەوپێشچوونی پڕۆسەی ئاشتی دەکەن."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdevelopments3("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdevelopments3("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "A UN team is monitoring the development of the peace process.",
+            kurdishText:
+                "تیمێکی نەتەوە یەکگرتووەکان چاودێری بەرەوپێشچوونی پڕۆسەی ئاشتی دەکەن.",
+            onPressedBritish: () => speakdevelopments3("en-GB"),
+            onPressedAmerican: () => speakdevelopments3("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "Cell divisions during development occur in a fixed sequence."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "دابەشبوونی خانە لەکاتی گەشەدا ڕوودەدات بە زنجیرەیەکی جێگیر."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdevelopments4("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdevelopments4("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "Cell divisions during development occur in a fixed sequence.",
+            kurdishText:
+                "دابەشبوونی خانە لەکاتی گەشەدا ڕوودەدات بە زنجیرەیەکی جێگیر.",
+            onPressedBritish: () => speakdevelopments4("en-GB"),
+            onPressedAmerican: () => speakdevelopments4("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "Education stimulates the development of rational thinking."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "پەروەردە و خوێندن ھانی گەشەی بیرکردنەوەی ئاقڵانە دەدات."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdevelopments5("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdevelopments5("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "Education stimulates the development of rational thinking.",
+            kurdishText:
+                "پەروەردە و خوێندن ھانی گەشەی بیرکردنەوەی ئاقڵانە دەدات.",
+            onPressedBritish: () => speakdevelopments5("en-GB"),
+            onPressedAmerican: () => speakdevelopments5("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "Environmental factors can accelerate the development of certain cancers."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "فاکتەری ژینگەیی دەکرێت گەشەی جۆری دیاریکراوی شێرپەنجە خێرا بکەن."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdevelopments6("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdevelopments6("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "Environmental factors can accelerate the development of certain cancers.",
+            kurdishText:
+                "فاکتەری ژینگەیی دەکرێت گەشەی جۆری دیاریکراوی شێرپەنجە خێرا بکەن.",
+            onPressedBritish: () => speakdevelopments6("en-GB"),
+            onPressedAmerican: () => speakdevelopments6("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
                   "٢. (ناو) گەشەی ئابووری وڵاتێک یان ھەرێمێک بە زیادکردنی چالاکیی بازرگانی"),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "Increased tourism will promote job creation and economic development."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "گەشتیاریی زیاتر ھەلی کار دەڕەخسێنێت و گەشەی ئابووری زیاد دەکات."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdevelopments7("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdevelopments7("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "Increased tourism will promote job creation and economic development.",
+            kurdishText:
+                "گەشتیاریی زیاتر ھەلی کار دەڕەخسێنێت و گەشەی ئابووری زیاد دەکات.",
+            onPressedBritish: () => speakdevelopments7("en-GB"),
+            onPressedAmerican: () => speakdevelopments7("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "He described women as the backbone of rural development worldwide."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "ژنی وەک بڕبڕەی پشتی گەشەی دێھات لە جیھاندا ناسان."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdevelopments8("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdevelopments8("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "He described women as the backbone of rural development worldwide.",
+            kurdishText: "ژنی وەک بڕبڕەی پشتی گەشەی دێھات لە جیھاندا ناسان.",
+            onPressedBritish: () => speakdevelopments8("en-GB"),
+            onPressedAmerican: () => speakdevelopments8("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٣. (ناو) پڕۆسەی درووستکردنی شتێکی تازە یان پێشکەوتووتر"),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "Pete is head of product development."),
-                    ExampleSentenceKurdish(
-                        text: "پیت سەرپەرشتی گەشەپێدانی بەرھەمەکانە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdevelopments9("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdevelopments9("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "Pete is head of product development.",
+            kurdishText: "پیت سەرپەرشتی گەشەپێدانی بەرھەمەکانە.",
+            onPressedBritish: () => speakdevelopments9("en-GB"),
+            onPressedAmerican: () => speakdevelopments9("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "A more powerful version of this electric bus is currently in development."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "جۆرێکی بەھێزتری ئەم پاسە کارەباییە ئێستا لە گەشەپێداندایە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdevelopments10("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdevelopments10("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "A more powerful version of this electric bus is currently in development.",
+            kurdishText:
+                "جۆرێکی بەھێزتری ئەم پاسە کارەباییە ئێستا لە گەشەپێداندایە.",
+            onPressedBritish: () => speakdevelopments10("en-GB"),
+            onPressedAmerican: () => speakdevelopments10("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "A new vaccine is under development."),
-                    ExampleSentenceKurdish(
-                        text: "ڤاکسینێکی تازە لە گەشەپێداندایە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdevelopments11("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdevelopments11("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "A new vaccine is under development.",
+            kurdishText: "ڤاکسینێکی تازە لە گەشەپێداندایە.",
+            onPressedBritish: () => speakdevelopments11("en-GB"),
+            onPressedAmerican: () => speakdevelopments11("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
                   "٤. (ناو) ڕووداو یان قۆناغێکی تازە کە ئەگەری ھەیە گۆڕانکاری بکات لەوەی چی لە دۆخێکی بەردەوامدا ڕوودەدات"),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "Have there been any further developments?"),
-                    ExampleSentenceKurdish(
-                        text: "ھیچ پەرەسەندنی زیاتر ھەبووە؟"),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdevelopments12("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdevelopments12("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "Have there been any further developments?",
+            kurdishText: "ھیچ پەرەسەندنی زیاتر ھەبووە؟",
+            onPressedBritish: () => speakdevelopments12("en-GB"),
+            onPressedAmerican: () => speakdevelopments12("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "We welcome the recent positive developments."),
-                    ExampleSentenceKurdish(
-                        text: "پێشوازی لە پەرەسەندنە ئەرێنییە تازەکان دەکەین."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdevelopments13("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdevelopments13("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "We welcome the recent positive developments.",
+            kurdishText: "پێشوازی لە پەرەسەندنە ئەرێنییە تازەکان دەکەین.",
+            onPressedBritish: () => speakdevelopments13("en-GB"),
+            onPressedAmerican: () => speakdevelopments13("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "There have been some interesting new developments in the case."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "ھەندێک پەرەسەندنی تازەی سەرنجڕاکێش ھەبووە لە کەیسەکەدا."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdevelopments14("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdevelopments14("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "There have been some interesting new developments in the case.",
+            kurdishText:
+                "ھەندێک پەرەسەندنی تازەی سەرنجڕاکێش ھەبووە لە کەیسەکەدا.",
+            onPressedBritish: () => speakdevelopments14("en-GB"),
+            onPressedAmerican: () => speakdevelopments14("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٥. (ناو) پارچە زەوییەک کە بینای تازەی لەسەرە"),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "I live in a brand-new housing development."),
-                    ExampleSentenceKurdish(
-                        text: "لە پڕۆژەیەکی خانووبەرەی تازەدا دەژیم."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdevelopments15("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdevelopments15("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "I live in a brand-new housing development.",
+            kurdishText: "لە پڕۆژەیەکی خانووبەرەی تازەدا دەژیم.",
+            onPressedBritish: () => speakdevelopments15("en-GB"),
+            onPressedAmerican: () => speakdevelopments15("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The protesters oppose plans to build a commercial development on the site."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "خۆپیشاندەران دژی پلانی بنیادنانی پڕۆژەیەکی بازرگانین لە شوێنەکە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdevelopments16("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdevelopments16("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "The protesters oppose plans to build a commercial development on the site.",
+            kurdishText:
+                "خۆپیشاندەران دژی پلانی بنیادنانی پڕۆژەیەکی بازرگانین لە شوێنەکە.",
+            onPressedBritish: () => speakdevelopments16("en-GB"),
+            onPressedAmerican: () => speakdevelopments16("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
                   "٦. (ناو) پڕۆسەی بەکارھێنانی پارچە زەوییەک، ڤە تایبەتی بۆ قازانجکردن لێی بە بنیادنان لەسەری"),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "The city has undergone rapid development."),
-                    ExampleSentenceKurdish(
-                        text: "شارەکە بە بەرەوپێشچوونی خێرادا چووە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdevelopments17("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdevelopments17("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "The city has undergone rapid development.",
+            kurdishText: "شارەکە بە بەرەوپێشچوونی خێرادا چووە.",
+            onPressedBritish: () => speakdevelopments17("en-GB"),
+            onPressedAmerican: () => speakdevelopments17("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "He bought the land for development."),
-                    ExampleSentenceKurdish(
-                        text: "زەوییەکەی بۆ وەبەرھێنان کڕی."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdevelopments18("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdevelopments18("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "He bought the land for development.",
+            kurdishText: "زەوییەکەی بۆ وەبەرھێنان کڕی.",
+            onPressedBritish: () => speakdevelopments18("en-GB"),
+            onPressedAmerican: () => speakdevelopments18("en-US"),
           ),
           // developments1900"),
           // speakdevelopments19

@@ -514,542 +514,180 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "١. (کردار) ئەوەی کە بە ھێواشی و لەسەرخۆیی بەسەر ئاو یان بە ھەوادا بجوڵێیت"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "Clouds drifted across the sky."),
-                    ExampleSentenceKurdish(
-                        text: "ھەورەکان بە ئاسماندا دەسووڕانەوە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "drift", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdrifts1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdrifts1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "Clouds drifted across the sky.",
+            kurdishText: "ھەورەکان بە ئاسماندا دەسووڕانەوە.", // drift
+            onPressedBritish: () => speakdrifts1("en-GB"),
+            onPressedAmerican: () => speakdrifts1("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "A cool breeze drifted through the open window."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "سریوەیەکی سارد بە پەنجەرە کراوەکەدا ھاتە ژوورەوە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdrifts2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdrifts2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "A cool breeze drifted through the open window.",
+            kurdishText: "سریوەیەکی سارد بە پەنجەرە کراوەکەدا ھاتە ژوورەوە.",
+            onPressedBritish: () => speakdrifts2("en-GB"),
+            onPressedAmerican: () => speakdrifts2("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "Smoke drifted across the room."),
-                    ExampleSentenceKurdish(
-                        text: "دووکەڵ بە ژوورەکەدا ھاتووچۆی بوو."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdrifts3("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdrifts3("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "Smoke drifted across the room.",
+            kurdishText: "دووکەڵ بە ژوورەکەدا ھاتووچۆی بوو.",
+            onPressedBritish: () => speakdrifts3("en-GB"),
+            onPressedAmerican: () => speakdrifts3("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٢. (کردار) چوون بۆ شوێنێک بەھێواشی، یان جوڵان بە ناویدا"),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The crowd drifted away from the scene of the accident."),
-                    ExampleSentenceKurdish(
-                        text: "جەماوەرەکە بڵاوەیان لە ڕووداوەکە کرد."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdrifts4("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdrifts4("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "The crowd drifted away from the scene of the accident.",
+            kurdishText: "جەماوەرەکە بڵاوەیان لە ڕووداوەکە کرد.",
+            onPressedBritish: () => speakdrifts4("en-GB"),
+            onPressedAmerican: () => speakdrifts4("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "People began to drift back to their houses."),
-                    ExampleSentenceKurdish(
-                        text: "خەڵکی دەستیان کرد بە چوونەوە بۆ ماڵەکانیان."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdrifts5("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdrifts5("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "People began to drift back to their houses.",
+            kurdishText: "خەڵکی دەستیان کرد بە چوونەوە بۆ ماڵەکانیان.",
+            onPressedBritish: () => speakdrifts5("en-GB"),
+            onPressedAmerican: () => speakdrifts5("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
                   "٣. (کردار) کردنی شتێک، یان ئەوەی ڕووبدات یان بگۆڕێت بەبێ مەبەست یان پلانێکی دیاریکراو"),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "I didn't intend to be a teacher—I just drifted into it."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "مەبەستم نەبوو ببم بە مامۆستا ـ تەنھا ئەوەبوو تێکەوتم."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdrifts6("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdrifts6("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "I didn't intend to be a teacher—I just drifted into it.",
+            kurdishText:
+                "مەبەستم نەبوو ببم بە مامۆستا ـ تەنھا ئەوەبوو تێکەوتم.",
+            onPressedBritish: () => speakdrifts6("en-GB"),
+            onPressedAmerican: () => speakdrifts6("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "The conversation drifted onto politics."),
-                    ExampleSentenceKurdish(
-                        text: "گفتوگۆکە خۆی کێشا/درێژەی کێشا بۆ سیاسەت."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdrifts7("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdrifts7("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "The conversation drifted onto politics.",
+            kurdishText: "گفتوگۆکە خۆی کێشا/درێژەی کێشا بۆ سیاسەت.",
+            onPressedBritish: () => speakdrifts7("en-GB"),
+            onPressedAmerican: () => speakdrifts7("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
                   "٤. (کردار) چوون لە دۆخێکەوە بۆ یەکێکی دیکە بەبێ ئەوەی ھەستی پێبکەیت"),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "Finally she drifted into sleep."),
-                    ExampleSentenceKurdish(text: "لەکۆتاییدا کەوتە خەو."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdrifts8("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdrifts8("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "Finally she drifted into sleep.",
+            kurdishText: "لەکۆتاییدا کەوتە خەو.",
+            onPressedBritish: () => speakdrifts8("en-GB"),
+            onPressedAmerican: () => speakdrifts8("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The injured man tried to speak but soon drifted into unconsciousness."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "پیاوە بریندارەکە ھەوڵیدا قسەبکات بەڵام ھەرزوو بێ‌ھۆش کەوت."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdrifts9("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdrifts9("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "The injured man tried to speak but soon drifted into unconsciousness.",
+            kurdishText:
+                "پیاوە بریندارەکە ھەوڵیدا قسەبکات بەڵام ھەرزوو بێ‌ھۆش کەوت.",
+            onPressedBritish: () => speakdrifts9("en-GB"),
+            onPressedAmerican: () => speakdrifts9("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: "٥. (کردار) تۆپەڵبوون بەھۆی باوە"),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "Some roads are closed because of drifting."),
-                    ExampleSentenceKurdish(
-                        text: "ھەندێک ڕێگا بەھۆی تۆپەڵبوونەوە داخراون."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdrifts10("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdrifts10("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "Some roads are closed because of drifting.",
+            kurdishText: "ھەندێک ڕێگا بەھۆی تۆپەڵبوونەوە داخراون.",
+            onPressedBritish: () => speakdrifts10("en-GB"),
+            onPressedAmerican: () => speakdrifts10("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
                   "٦. (ناو) جوڵەیەکی ھێواش و لەسەرخۆ لە شوێنێکەوە بۆ شوێنێکی دیکە؛ گۆڕانێک یان پەرەسەندنێکی لەسەرەخۆ لە دۆخێکەوە بۆ دۆخێکی دیکە"),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "He criticized the rightward drift of the party."),
-                    ExampleSentenceKurdish(
-                        text: "ڕەخنەی لە چوونی پارتەکە بۆ ڕاستڕەوی گرت."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdrifts11("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdrifts11("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "He criticized the rightward drift of the party.",
+            kurdishText: "ڕەخنەی لە چوونی پارتەکە بۆ ڕاستڕەوی گرت.",
+            onPressedBritish: () => speakdrifts11("en-GB"),
+            onPressedAmerican: () => speakdrifts11("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "Action is needed to prevent a drift into lawlessness."),
-                    ExampleSentenceKurdish(
-                        text: "ھەنگاونان پێویستە بۆ ڕێگری لە پاشاگەردانی."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdrifts12("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdrifts12("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "Action is needed to prevent a drift into lawlessness.",
+            kurdishText: "ھەنگاونان پێویستە بۆ ڕێگری لە پاشاگەردانی.",
+            onPressedBritish: () => speakdrifts12("en-GB"),
+            onPressedAmerican: () => speakdrifts12("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "No attempts were being made to halt the drift towards war."),
-                    ExampleSentenceKurdish(
-                        text: "ھیچ ھەوڵێک نەدەدرا بۆ سەرکێشان بۆ ناو جەنگ."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdrifts13("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdrifts13("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "No attempts were being made to halt the drift towards war.",
+            kurdishText: "ھیچ ھەوڵێک نەدەدرا بۆ سەرکێشان بۆ ناو جەنگ.",
+            onPressedBritish: () => speakdrifts13("en-GB"),
+            onPressedAmerican: () => speakdrifts13("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
                   "٦. (ناو) جوڵەی کەشتی یان فڕۆکە دوور لە ئاراستەکەی بەھۆی باوە"),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "Remember to allow for drift."),
-                    ExampleSentenceKurdish(
-                        text: "بیرت بێت حساب بۆ بایەکە بکە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdrifts14("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdrifts14("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "Remember to allow for drift.",
+            kurdishText: "بیرت بێت حساب بۆ بایەکە بکە.",
+            onPressedBritish: () => speakdrifts14("en-GB"),
+            onPressedAmerican: () => speakdrifts14("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: "٨. (ناو) جوڵەی ئاو یان ھەوا"),
           // const DividerSentences(),
           const AlsoEnglishckb(word: "ھەروەھا: current"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "He knew the hidden drifts in that part of the river."),
-                    ExampleSentenceKurdish(
-                        text: "شەپۆلە شاراوەکانی ئەو بەشەی ڕووبارەکەی دەزانی."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdrifts15("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdrifts15("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "He knew the hidden drifts in that part of the river.",
+            kurdishText: "شەپۆلە شاراوەکانی ئەو بەشەی ڕووبارەکەی دەزانی.",
+            onPressedBritish: () => speakdrifts15("en-GB"),
+            onPressedAmerican: () => speakdrifts15("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
                   "٩. (ناو) تۆپەڵێکی گەورە لە شتێک، بەتایبەتی بەفر، کە بەھۆی باوە درووست بووە"),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "The road was blocked by deep drifts of snow."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "ڕێگاکە داخراو بوو بەھۆی تۆپەڵبوونی گەورەی بەفرەوە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdrifts16("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdrifts16("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "The road was blocked by deep drifts of snow.",
+            kurdishText: "ڕێگاکە داخراو بوو بەھۆی تۆپەڵبوونی گەورەی بەفرەوە.",
+            onPressedBritish: () => speakdrifts16("en-GB"),
+            onPressedAmerican: () => speakdrifts16("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "١٠. (ناو) ڕێژەیەکی زۆر لە شتێک، بەتایبەتی گوڵ"),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "Plant daffodils in informal drifts."),
-                    ExampleSentenceKurdish(
-                        text: "نێرگزەکان لە گرووپی ناڕێکدا بچێنە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdrifts17("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdrifts17("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "Plant daffodils in informal drifts.",
+            kurdishText: "نێرگزەکان لە گرووپی ناڕێکدا بچێنە.",
+            onPressedBritish: () => speakdrifts17("en-GB"),
+            onPressedAmerican: () => speakdrifts17("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "١١. (ناو) واتای گشتی شتێک کە کەسێک دەیڵێت یان دەینووسێت"),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(text: "Do you catch my drift?"),
-                    ExampleSentenceKurdish(text: "کاکڵی قسەکەم وەرگرتم؟"),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdrifts18("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdrifts18("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "Do you catch my drift?",
+            kurdishText: "کاکڵی قسەکەم وەرگرتم؟",
+            onPressedBritish: () => speakdrifts18("en-GB"),
+            onPressedAmerican: () => speakdrifts18("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "My German isn't very good, but I got the drift of what she said."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "ئەڵمانییەکەم زۆرباش نییە، بەڵام مەبەستی ئەوەم وەرگرت کە گوتی."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdrifts19("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdrifts19("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "My German isn't very good, but I got the drift of what she said.",
+            kurdishText:
+                "ئەڵمانییەکەم زۆرباش نییە، بەڵام مەبەستی ئەوەم وەرگرت کە گوتی.",
+            onPressedBritish: () => speakdrifts19("en-GB"),
+            onPressedAmerican: () => speakdrifts19("en-US"),
           ),
           // drifts_2000"),
           // speakdrifts20

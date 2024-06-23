@@ -409,188 +409,74 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   """١. (ناو) گرووپێکی بچووکی خەڵکی کە دەسەڵات و کاریگەرییان زۆرە """),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            """A powerful and corrupt elite has bled this country dry."""),
-                    ExampleSentenceKurdish(
-                        text:
-                            """ھەڵبژاردەیەکی گەندەڵ و بەدەسەڵاتی ئەم وڵاتەیان دۆشیوە."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "elite", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakelites1("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakelites1("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                """A powerful and corrupt elite has bled this country dry.""",
+            kurdishText:
+                """ھەڵبژاردەیەکی گەندەڵ و بەدەسەڵاتی ئەم وڵاتەیان دۆشیوە.""", // elite
+            onPressedBritish: () => speakelites1("en-GB"),
+            onPressedAmerican: () => speakelites1("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            """His research ought to have secured him a place in academia's elite."""),
-                    ExampleSentenceKurdish(
-                        text:
-                            """لێکۆڵینەوەکەی دەبوو پێگەیەکی لەناو ھەڵبژێردراوانی ئەکادیمیا بۆ بەدەست ھێنابا."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakelites2("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakelites2("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                """His research ought to have secured him a place in academia's elite.""",
+            kurdishText:
+                """لێکۆڵینەوەکەی دەبوو پێگەیەکی لەناو ھەڵبژێردراوانی ئەکادیمیا بۆ بەدەست ھێنابا.""",
+            onPressedBritish: () => speakelites2("en-GB"),
+            onPressedAmerican: () => speakelites2("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: """٢. (ھاوەڵناو) وەرزشکارێک کە """),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            """Public opinion is influenced by the small elite who control the media."""),
-                    ExampleSentenceKurdish(
-                        text:
-                            """بۆچوونی خەڵکی کاریگەر دەبێت بەو دەستەبژێرە بچووکەی کە میدیا کۆنترۆڵ دەکەن."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakelites3("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakelites3("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                """Public opinion is influenced by the small elite who control the media.""",
+            kurdishText:
+                """بۆچوونی خەڵکی کاریگەر دەبێت بەو دەستەبژێرە بچووکەی کە میدیا کۆنترۆڵ دەکەن.""",
+            onPressedBritish: () => speakelites3("en-GB"),
+            onPressedAmerican: () => speakelites3("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
                   """٢. (ناو) گرووپێک خەڵک کە زۆرترین توانایان ھەیە لە بەرزترین ئاستی پاڵەوانێتییەکدا"""),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            """The club has returned to the elite of European football."""),
-                    ExampleSentenceKurdish(
-                        text:
-                            """یانەکە گەڕاەوتەوە بۆ ئاستی باڵای تۆپی پێی ئەورووپا."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakelites4("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakelites4("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                """The club has returned to the elite of European football.""",
+            kurdishText:
+                """یانەکە گەڕاەوتەوە بۆ ئاستی باڵای تۆپی پێی ئەورووپا.""",
+            onPressedBritish: () => speakelites4("en-GB"),
+            onPressedAmerican: () => speakelites4("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
                   """٣. (ھاوەڵناو) سەر بە گرووپێکی بچووکی خەڵکی کە دەسەڵات و کاریگەرییان زۆرە"""),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            """The company's future rested on the decisions of an elite group of senior officials."""),
-                    ExampleSentenceKurdish(
-                        text:
-                            """داھاتووی کۆمپانیاکە دەوەستایە سەر گرووپێکی دەستەبژێر لە بەرپرسانی باڵا."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakelites5("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakelites5("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                """The company's future rested on the decisions of an elite group of senior officials.""",
+            kurdishText:
+                """داھاتووی کۆمپانیاکە دەوەستایە سەر گرووپێکی دەستەبژێر لە بەرپرسانی باڵا.""",
+            onPressedBritish: () => speakelites5("en-GB"),
+            onPressedAmerican: () => speakelites5("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
                   """٤. (ھاوەڵناو) ھەبوونی زۆرترین توانا لە بەرزترین ئاستی پاڵەوانێتییەکدا"""),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            """As an elite athlete for Spain, the tournament was his oppurtunity to shine."""),
-                    ExampleSentenceKurdish(
-                        text:
-                            """وەک وەرزشکاریکی کارامە بۆ ئیسپانیا، پاڵەوانێتییەکە ھەلی بوو بۆ دەرکەوتن."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakelites6("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakelites6("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                """As an elite athlete for Spain, the tournament was his oppurtunity to shine.""",
+            kurdishText:
+                """وەک وەرزشکاریکی کارامە بۆ ئیسپانیا، پاڵەوانێتییەکە ھەلی بوو بۆ دەرکەوتن.""",
+            onPressedBritish: () => speakelites6("en-GB"),
+            onPressedAmerican: () => speakelites6("en-US"),
           ),
           // elites700elites7
           // speakelites7

@@ -243,62 +243,23 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "١. (ناو) قەشەیەکی پلە بەرز کە بەرپرسی قەشەکانی دیکەیە لە کڵێسایەکی گەورەدا، یان ژمارەیەل کڵێسای بچووکی ناوچەیەک"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The dean was highly respected for his wisdom and leadership."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "قەشە باڵاکە تەواو ڕێزلێگیراو بوو بۆ ژیریی و سەرکردایەتیی."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "dean", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdeans1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdeans1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "The dean was highly respected for his wisdom and leadership.",
+            kurdishText:
+                "قەشە باڵاکە تەواو ڕێزلێگیراو بوو بۆ ژیریی و سەرکردایەتیی.", // dean
+            onPressedBritish: () => speakdeans1("en-GB"),
+            onPressedAmerican: () => speakdeans1("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٢. (ناو) کەسێک کە بەرپرسی بەشێکە لە زانکۆ یان کۆلێژ"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "He was appointed dean of the faculty of theology at London University."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "بە ڕاگری فاکەڵتی سیۆلۆجی لە زانکۆی لەندەن دیاریکرا."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdeans2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdeans2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "He was appointed dean of the faculty of theology at London University.",
+            kurdishText: "بە ڕاگری فاکەڵتی سیۆلۆجی لە زانکۆی لەندەن دیاریکرا.",
+            onPressedBritish: () => speakdeans2("en-GB"),
+            onPressedAmerican: () => speakdeans2("en-US"),
           ),
         ],
       ),

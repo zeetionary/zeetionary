@@ -234,32 +234,13 @@ class KurdishMeaning extends StatelessWidget {
 کوردی: شێواوی، بێ‌بەرنامەیی، ئاڵۆزی، ناڕێکی، بێ‌سەروبەرەیی، تێکچوویی، شپرزەیی
 """),
           const DefinitionKurdish(text: "١. (ناو) بێ پلانی و ناڕێکی"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The high level of disorganization at the hospital is inexcusable."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "ئاستی زۆری بێ‌بەرنامەیی لە نەخۆشخانەکە لەپاساونەھاتووە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "disorganization", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdisorganizations1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdisorganizations1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "The high level of disorganization at the hospital is inexcusable.",
+            kurdishText:
+                "ئاستی زۆری بێ‌بەرنامەیی لە نەخۆشخانەکە لەپاساونەھاتووە.", // disorganization
+            onPressedBritish: () => speakdisorganizations1("en-GB"),
+            onPressedAmerican: () => speakdisorganizations1("en-US"),
           ),
           // disorganizations200"),
           // speakdisorganizations2

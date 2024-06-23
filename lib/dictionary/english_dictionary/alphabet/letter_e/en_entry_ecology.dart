@@ -372,60 +372,22 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   """١. (ناو) ژینگەناسی؛ پەیوەندیی ڕووەک و گیانلەبەرەکان لەگەڵ یەکدی و لەگەڵ دەورووبەریان"""),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            """All ecologies on earth are heavily shaped by human activity."""),
-                    ExampleSentenceKurdish(
-                        text:
-                            """ھەموو جۆرەکانی ژینگەناسی تەواو کاریگەرن بە چالاکی مرۆڤ."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "ecology", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakecologys1("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakecologys1("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                """All ecologies on earth are heavily shaped by human activity.""",
+            kurdishText:
+                """ھەموو جۆرەکانی ژینگەناسی تەواو کاریگەرن بە چالاکی مرۆڤ.""", // ecology
+            onPressedBritish: () => speakecologys1("en-GB"),
+            onPressedAmerican: () => speakecologys1("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: """She hopes to study ecology at college."""),
-                    ExampleSentenceKurdish(
-                        text: """بە ھیوایە ژینگەناسی بخوێنێت لە کۆلێژ."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakecologys2("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakecologys2("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: """She hopes to study ecology at college.""",
+            kurdishText: """بە ھیوایە ژینگەناسی بخوێنێت لە کۆلێژ.""",
+            onPressedBritish: () => speakecologys2("en-GB"),
+            onPressedAmerican: () => speakecologys2("en-US"),
           ),
           // ecologys300ecologys3
           // speakecologys3

@@ -399,154 +399,55 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   """١. (ھاوەڵکار) لەباری ئابووری‌یەوە؛ پەیوەندیدار بە ئابووری"""),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            """The factory is no longer economically viable."""),
-                    ExampleSentenceKurdish(
-                        text:
-                            """کارگەکە چی دیکە لەلایەنی ئابوورییەوە خۆبژێو نییە."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "economically", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakeconomicallys1("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakeconomicallys1("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: """The factory is no longer economically viable.""",
+            kurdishText:
+                """کارگەکە چی دیکە لەلایەنی ئابوورییەوە خۆبژێو نییە.""", // economically
+            onPressedBritish: () => speakeconomicallys1("en-GB"),
+            onPressedAmerican: () => speakeconomicallys1("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            """Economically, the centre of Spain has lost its dominant role."""),
-                    ExampleSentenceKurdish(
-                        text:
-                            """لەلایەنی ئابوورییەوە، ناوەڕاستی ئیسپانیا ڕۆڵی بەھێزی خۆی لەدەستداوە."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakeconomicallys2("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakeconomicallys2("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                """Economically, the centre of Spain has lost its dominant role.""",
+            kurdishText:
+                """لەلایەنی ئابوورییەوە، ناوەڕاستی ئیسپانیا ڕۆڵی بەھێزی خۆی لەدەستداوە.""",
+            onPressedBritish: () => speakeconomicallys2("en-GB"),
+            onPressedAmerican: () => speakeconomicallys2("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            """Changes have taken place both economically and politically."""),
-                    ExampleSentenceKurdish(
-                        text:
-                            """گۆڕان چی لە ڕووی ئابووری و چی سیاسی ڕوویداوە."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakeconomicallys3("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakeconomicallys3("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                """Changes have taken place both economically and politically.""",
+            kurdishText: """گۆڕان چی لە ڕووی ئابووری و چی سیاسی ڕوویداوە.""",
+            onPressedBritish: () => speakeconomicallys3("en-GB"),
+            onPressedAmerican: () => speakeconomicallys3("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
                   """٢. (ھاوەڵکار) بەشێوەیەک کە بەھا یان خزمەتگوزاری باش دەدات بەدەستەوە بە لەبەرچاوگرتنی ئەو کات یان پارەیەی کە تەرخانکراوە"""),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            """I'll do the job as economically as possible."""),
-                    ExampleSentenceKurdish(
-                        text: """بە کەمترین کات/تێچوو کارەکە دەکەم."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakeconomicallys4("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakeconomicallys4("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: """I'll do the job as economically as possible.""",
+            kurdishText: """بە کەمترین کات/تێچوو کارەکە دەکەم.""",
+            onPressedBritish: () => speakeconomicallys4("en-GB"),
+            onPressedAmerican: () => speakeconomicallys4("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
                   """٣. (ھاوەڵکار) بەشێوەیەک کە زیاتر کە پێویستی شتێک بەکارناھێنێت"""),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            """Learn to express yourself more economically."""),
-                    ExampleSentenceKurdish(
-                        text: """فێربە پوختترانە خۆت دەرببڕە."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakeconomicallys5("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakeconomicallys5("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: """Learn to express yourself more economically.""",
+            kurdishText: """فێربە پوختترانە خۆت دەرببڕە.""",
+            onPressedBritish: () => speakeconomicallys5("en-GB"),
+            onPressedAmerican: () => speakeconomicallys5("en-US"),
           ),
           // economicallys600economicallys6
           // speakeconomicallys6

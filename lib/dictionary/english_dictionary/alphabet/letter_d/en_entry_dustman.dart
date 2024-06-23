@@ -365,32 +365,12 @@ class KurdishMeaning extends StatelessWidget {
                   """١. (ناو) کەسێک کە زباڵە لە دەرەوەی ماڵ خەڵکی پاکدەکاتەوە"""),
           const AlsoEnglishckb(
               word: "ھەروەھا:  binman، refuse collector، garbage man"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            """The dustman emptied the bins early this morning."""),
-                    ExampleSentenceKurdish(
-                        text:
-                            """پاکەوانەکە ئەم بەیانی زوو زبڵدانەکانی بەتاڵکردەوە."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "dustman", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdustmans1("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdustmans1("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: """The dustman emptied the bins early this morning.""",
+            kurdishText:
+                """پاکەوانەکە ئەم بەیانی زوو زبڵدانەکانی بەتاڵکردەوە.""", // dustman
+            onPressedBritish: () => speakdustmans1("en-GB"),
+            onPressedAmerican: () => speakdustmans1("en-US"),
           ),
           // dustmans200
           // speakdustmans2

@@ -255,86 +255,28 @@ class KurdishMeaning extends StatelessWidget {
 کوردی: نرخ کەم کردن، داشکاندن
 """),
           const DefinitionKurdish(text: "١. (کردار) داشکاندنی بەھای دراوێک"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "The local currency was rapidly devaluing."),
-                    ExampleSentenceKurdish(
-                        text: "دراوە ناوخۆییەکە بە خێرایی بێ‌بەھا دەبوو."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "devalue", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdevalues1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdevalues1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "The local currency was rapidly devaluing.",
+            kurdishText: "دراوە ناوخۆییەکە بە خێرایی بێ‌بەھا دەبوو.", // devalue
+            onPressedBritish: () => speakdevalues1("en-GB"),
+            onPressedAmerican: () => speakdevalues1("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "The pound was devalued against the US dollar."),
-                    ExampleSentenceKurdish(
-                        text: "پاوەند دادەشکا دژ بە دۆلاری ئەمریکی."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdevalues2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdevalues2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "The pound was devalued against the US dollar.",
+            kurdishText: "پاوەند دادەشکا دژ بە دۆلاری ئەمریکی.",
+            onPressedBritish: () => speakdevalues2("en-GB"),
+            onPressedAmerican: () => speakdevalues2("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: "٢. (کردار) پێدانی نرخێکی کەم بە شتێک"),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "Work in the home is often ignored and devalued."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "کارکردنی ماڵەوە زۆرجار پشتگوێ دەخرێت و بە کەم سەیر دەکرێت."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdevalues3("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdevalues3("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "Work in the home is often ignored and devalued.",
+            kurdishText:
+                "کارکردنی ماڵەوە زۆرجار پشتگوێ دەخرێت و بە کەم سەیر دەکرێت.",
+            onPressedBritish: () => speakdevalues3("en-GB"),
+            onPressedAmerican: () => speakdevalues3("en-US"),
           ),
           // devalues400"),
           // speakdevalues4

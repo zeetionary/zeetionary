@@ -241,60 +241,21 @@ class KurdishMeaning extends StatelessWidget {
 کوردی: کێشە، ناسازی، نەگونجاوی، ڕێک‌نەکەوتوویی، جیاوازی ڕاوبۆچوون، دژایەتی، ناکۆکی،	ململانێ، شەڕ
 """),
           const DefinitionKurdish(text: "١. (ناو) ناکۆکی"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "A note of discord surfaced during the proceedings."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "خاڵێکی ناکۆکی درووست بوو لە کاتی بەرەوپێشچوونەکاندا."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "discord", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdiscords1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdiscords1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "A note of discord surfaced during the proceedings.",
+            kurdishText:
+                "خاڵێکی ناکۆکی درووست بوو لە کاتی بەرەوپێشچوونەکاندا.", // discord
+            onPressedBritish: () => speakdiscords1("en-GB"),
+            onPressedAmerican: () => speakdiscords1("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The contrasts between rich and poor nations are a source of discord."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "جیاوازیی نێوان وڵاتە دەوڵەمەند و ھەژارەکان سەرچاوەی مشتومڕە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdiscords2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdiscords2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "The contrasts between rich and poor nations are a source of discord.",
+            kurdishText:
+                "جیاوازیی نێوان وڵاتە دەوڵەمەند و ھەژارەکان سەرچاوەی مشتومڕە.",
+            onPressedBritish: () => speakdiscords2("en-GB"),
+            onPressedAmerican: () => speakdiscords2("en-US"),
           ),
           // discords300"),
           // speakdiscords3

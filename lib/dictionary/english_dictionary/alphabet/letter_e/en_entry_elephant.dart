@@ -381,91 +381,33 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   """١. (ناو) فیل؛ ئاژەڵێکی زۆر گەورە کە پێستێکی خۆڵەمێشی ئەستوور و گوێچکەیەکی گەورە و دوو عاجی ھەیە لەگەڵ لووتێکی درێژدا. فیل دوو جۆری ھەیە کە فیلی ئەفریقی و فیلی ئاسیاییە."""),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            """Measures must be taken to protect the world's depleted elephant population."""),
-                    ExampleSentenceKurdish(
-                        text:
-                            """دەبێت ھەنگاو بنردرێت بۆ پاراستنی ژمارەی کەمبووی فیل لە جیھاندا."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "elephant", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakelephants1("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakelephants1("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                """Measures must be taken to protect the world's depleted elephant population.""",
+            kurdishText:
+                """دەبێت ھەنگاو بنردرێت بۆ پاراستنی ژمارەی کەمبووی فیل لە جیھاندا.""", // elephant
+            onPressedBritish: () => speakelephants1("en-GB"),
+            onPressedAmerican: () => speakelephants1("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            """In the past eight years, the elephant population in Africa has been halved."""),
-                    ExampleSentenceKurdish(
-                        text:
-                            """لە ھەشت ساڵی ڕابردوودا دانیشتووانی فیل ئەفریقا نیوە کراوە."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakelephants2("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakelephants2("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                """In the past eight years, the elephant population in Africa has been halved.""",
+            kurdishText:
+                """لە ھەشت ساڵی ڕابردوودا دانیشتووانی فیل ئەفریقا نیوە کراوە.""",
+            onPressedBritish: () => speakelephants2("en-GB"),
+            onPressedAmerican: () => speakelephants2("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            """The baby elephant stayed close to its mother."""),
-                    ExampleSentenceKurdish(
-                        text: """بەچکە فیلەکە نزیک لە دایکی مایەوە."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakelephants3("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakelephants3("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: """The baby elephant stayed close to its mother.""",
+            kurdishText: """بەچکە فیلەکە نزیک لە دایکی مایەوە.""",
+            onPressedBritish: () => speakelephants3("en-GB"),
+            onPressedAmerican: () => speakelephants3("en-US"),
           ),
           // elephants400elephants4
           // speakelephants4

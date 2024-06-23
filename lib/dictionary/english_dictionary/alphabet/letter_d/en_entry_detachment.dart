@@ -269,119 +269,43 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "١. (ناو) بەژدارنەبوو لە شتێک چی بە کەسی یان  نەبوونی ھەست بۆی"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "She felt a sense of detachment from what was going on."),
-                    ExampleSentenceKurdish(
-                        text: "ھەستێکی دابڕاوی ھەبوو بۆ ئەوەی کە ڕووی دەدا."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "detachment", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdetachments1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdetachments1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "She felt a sense of detachment from what was going on.",
+            kurdishText:
+                "ھەستێکی دابڕاوی ھەبوو بۆ ئەوەی کە ڕووی دەدا.", // detachment
+            onPressedBritish: () => speakdetachments1("en-GB"),
+            onPressedAmerican: () => speakdetachments1("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "She watched with complete detachment as the others made all the preparations."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "بە گوێ‌پێ‌نەدانی تەواوە سەیری دەکرد کە ئەوانی دیکە ھەموو ئامادەکارییەکانیان دەکرد."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdetachments2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdetachments2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "She watched with complete detachment as the others made all the preparations.",
+            kurdishText:
+                "بە گوێ‌پێ‌نەدانی تەواوە سەیری دەکرد کە ئەوانی دیکە ھەموو ئامادەکارییەکانیان دەکرد.",
+            onPressedBritish: () => speakdetachments2("en-GB"),
+            onPressedAmerican: () => speakdetachments2("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٢. (ناو) کاریگەرنەبوون بە کەسانی دیکە و ھەستەکانی خۆت"),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "The judges show impartiality and detachment."),
-                    ExampleSentenceKurdish(
-                        text: "دادوەرەکان بێلایەنی و سەربەخۆییان پیشاندا."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdetachments3("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdetachments3("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "The judges show impartiality and detachment.",
+            kurdishText: "دادوەرەکان بێلایەنی و سەربەخۆییان پیشاندا.",
+            onPressedBritish: () => speakdetachments3("en-GB"),
+            onPressedAmerican: () => speakdetachments3("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
                   "٣. (ناو) گرووپێک سەرباز کە جیاکراونەتەوە لە یەکەی سەرەکی، زۆرجار بۆ ئەرکێکی تایبەت"),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "A detachment of marines was left to guard the site."),
-                    ExampleSentenceKurdish(
-                        text: "پۆلێک مارێنز ھێڵدرانەوە بۆ بەرگری لە شوێنەکە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdetachments4("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdetachments4("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "A detachment of marines was left to guard the site.",
+            kurdishText: "پۆلێک مارێنز ھێڵدرانەوە بۆ بەرگری لە شوێنەکە.",
+            onPressedBritish: () => speakdetachments4("en-GB"),
+            onPressedAmerican: () => speakdetachments4("en-US"),
           ),
           // detachments500"),
           // speakdetachments5

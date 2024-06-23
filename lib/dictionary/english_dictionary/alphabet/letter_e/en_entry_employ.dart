@@ -417,211 +417,76 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   """١. (کردار) پێدانی کارێک بە کەسێک لە بەرامبەر مووچەیەک"""),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: """How many people does the company employ?"""),
-                    ExampleSentenceKurdish(
-                        text: """کۆمپانیاکە چەند کەسی گرتووە؟"""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "employ", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakemploys1("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakemploys1("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: """How many people does the company employ?""",
+            kurdishText: """کۆمپانیاکە چەند کەسی گرتووە؟""", // employ
+            onPressedBritish: () => speakemploys1("en-GB"),
+            onPressedAmerican: () => speakemploys1("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: """ژممارە. (کردار) پێنناسە"""),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            """His company currently employs 135 workers in total."""),
-                    ExampleSentenceKurdish(
-                        text:
-                            """کۆمپانیاکەی لە ئێستادا بە گشطی ١٣٥ کرێکاری ھەیە."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakemploys2("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakemploys2("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                """His company currently employs 135 workers in total.""",
+            kurdishText: """کۆمپانیاکەی لە ئێستادا بە گشطی ١٣٥ کرێکاری ھەیە.""",
+            onPressedBritish: () => speakemploys2("en-GB"),
+            onPressedAmerican: () => speakemploys2("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: """ژممارە. (کردار) پێنناسە"""),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            """For the past three years he has been employed as a firefighter."""),
-                    ExampleSentenceKurdish(
-                        text:
-                            """بۆ سێ ساڵی ڕابردوو وەک ئاگرکوژێنەرەوەیەک گیردراوە."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakemploys3("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakemploys3("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                """For the past three years he has been employed as a firefighter.""",
+            kurdishText:
+                """بۆ سێ ساڵی ڕابردوو وەک ئاگرکوژێنەرەوەیەک گیردراوە.""",
+            onPressedBritish: () => speakemploys3("en-GB"),
+            onPressedAmerican: () => speakemploys3("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: """ژممارە. (کردار) پێنناسە"""),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            """Twenty eight per cent of the workforce is employed in agriculture."""),
-                    ExampleSentenceKurdish(
-                        text:
-                            """٢٨ لە سەدی دەستی کار لە کشتووکاڵ کاریان ھەیە."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakemploys4("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakemploys4("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                """Twenty eight per cent of the workforce is employed in agriculture.""",
+            kurdishText: """٢٨ لە سەدی دەستی کار لە کشتووکاڵ کاریان ھەیە.""",
+            onPressedBritish: () => speakemploys4("en-GB"),
+            onPressedAmerican: () => speakemploys4("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text: """٢. (کردار) بەکارھێنانی شتێک بۆ مەبەستێکی دیاریکراو"""),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            """He criticized the repressive methods employed by the country's government."""),
-                    ExampleSentenceKurdish(
-                        text:
-                            """سەرکۆنەی ڕێگا سەرکوتکەرەکانی کرد کە لەلایەن حکومەتی وڵاتەکەوە بەکارھات."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakemploys5("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakemploys5("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                """He criticized the repressive methods employed by the country's government.""",
+            kurdishText:
+                """سەرکۆنەی ڕێگا سەرکوتکەرەکانی کرد کە لەلایەن حکومەتی وڵاتەکەوە بەکارھات.""",
+            onPressedBritish: () => speakemploys5("en-GB"),
+            onPressedAmerican: () => speakemploys5("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: """ژممارە. (کردار) پێنناسە"""),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            """The police had to employ force to enter the building."""),
-                    ExampleSentenceKurdish(
-                        text:
-                            """پۆلیس پێویست بوو ھێز بەکارببات بۆ چوونە ناو بیناکەوە."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakemploys6("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakemploys6("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                """The police had to employ force to enter the building.""",
+            kurdishText:
+                """پۆلیس پێویست بوو ھێز بەکارببات بۆ چوونە ناو بیناکەوە.""",
+            onPressedBritish: () => speakemploys6("en-GB"),
+            onPressedAmerican: () => speakemploys6("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: """ژممارە. (کردار) پێنناسە"""),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            """This phrase is routinely employed to describe the president's style of government."""),
-                    ExampleSentenceKurdish(
-                        text:
-                            """ئەم دەستەواژە زۆرجار بەکاردەھێندرێت بۆ باسکردنی شێوازی بەڕێوەبردنی سەرۆک."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakemploys7("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakemploys7("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                """This phrase is routinely employed to describe the president's style of government.""",
+            kurdishText:
+                """ئەم دەستەواژە زۆرجار بەکاردەھێندرێت بۆ باسکردنی شێوازی بەڕێوەبردنی سەرۆک.""",
+            onPressedBritish: () => speakemploys7("en-GB"),
+            onPressedAmerican: () => speakemploys7("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: """ژممارە. (کردار) پێنناسە"""),

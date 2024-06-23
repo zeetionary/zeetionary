@@ -283,195 +283,62 @@ class KurdishMeaning extends StatelessWidget {
 """),
           const DefinitionKurdish(
               text: "١. (ھاوەڵناو) کەڕ؛ نەبوونی توانای بیستن"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(text: "She was born deaf."),
-                    ExampleSentenceKurdish(text: "بە کەڕی لەدایکبوو."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "deaf", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdeafs1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdeafs1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "She was born deaf.",
+            kurdishText: "بە کەڕی لەدایکبوو.", // deaf
+            onPressedBritish: () => speakdeafs1("en-GB"),
+            onPressedAmerican: () => speakdeafs1("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "Many of these children are profoundly deaf."),
-                    ExampleSentenceKurdish(
-                        text: "زۆرێک لەم منداڵانە تا ئاستێکی زۆر کەڕن."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdeafs2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdeafs2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "Many of these children are profoundly deaf.",
+            kurdishText: "زۆرێک لەم منداڵانە تا ئاستێکی زۆر کەڕن.",
+            onPressedBritish: () => speakdeafs2("en-GB"),
+            onPressedAmerican: () => speakdeafs2("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "She spoke loudly because her mother was a little deaf."),
-                    ExampleSentenceKurdish(
-                        text: "بە بەرزی قسەی دەکرد چونکە دایکی کەمێک کەڕ بوو."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdeafs3("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdeafs3("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "She spoke loudly because her mother was a little deaf.",
+            kurdishText: "بە بەرزی قسەی دەکرد چونکە دایکی کەمێک کەڕ بوو.",
+            onPressedBritish: () => speakdeafs3("en-GB"),
+            onPressedAmerican: () => speakdeafs3("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "Standing next to the machine all day left her deaf in one ear."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "وەستان لە تەنیشت ئامێرەکە بۆ تەواوی ڕۆژ وایلێکرد لە گوێیەکدا کەڕ بێت."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdeafs4("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdeafs4("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "Standing next to the machine all day left her deaf in one ear.",
+            kurdishText:
+                "وەستان لە تەنیشت ئامێرەکە بۆ تەواوی ڕۆژ وایلێکرد لە گوێیەکدا کەڕ بێت.",
+            onPressedBritish: () => speakdeafs4("en-GB"),
+            onPressedAmerican: () => speakdeafs4("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٢. (ناو) ئەو کەسانەی کە ناتوانن ببیستن"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "Many of the TV programmes are broadcast with subtitles for the deaf."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "زۆرێک لە پڕۆگرامەکانی تەلەفیزیۆن پەخش دەکرێن بە ژێرنووسەوە بە کەسانی کەڕ."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdeafs5("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdeafs5("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "Many of the TV programmes are broadcast with subtitles for the deaf.",
+            kurdishText:
+                "زۆرێک لە پڕۆگرامەکانی تەلەفیزیۆن پەخش دەکرێن بە ژێرنووسەوە بە کەسانی کەڕ.",
+            onPressedBritish: () => speakdeafs5("en-GB"),
+            onPressedAmerican: () => speakdeafs5("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٣. (ھاوەڵناو) نەبوونی ئامادەیی بۆ گوێگرتن یان سەرنجدان"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "He was deaf to my requests for help."),
-                    ExampleSentenceKurdish(
-                        text: "کەڕ بوو لە بەرامبەر ھەوڵەکانم بۆ یارمەتی."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdeafs6("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdeafs6("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "He was deaf to my requests for help.",
+            kurdishText: "کەڕ بوو لە بەرامبەر ھەوڵەکانم بۆ یارمەتی.",
+            onPressedBritish: () => speakdeafs6("en-GB"),
+            onPressedAmerican: () => speakdeafs6("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The committee remained deaf to our suggestions."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "لیژنەکە وەک کەڕ مایەوە لە بەرامبەر داواکانماندا."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdeafs7("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdeafs7("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "The committee remained deaf to our suggestions.",
+            kurdishText: "لیژنەکە وەک کەڕ مایەوە لە بەرامبەر داواکانماندا.",
+            onPressedBritish: () => speakdeafs7("en-GB"),
+            onPressedAmerican: () => speakdeafs7("en-US"),
           ),
         ],
       ),

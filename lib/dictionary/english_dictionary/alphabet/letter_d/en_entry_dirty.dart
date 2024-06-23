@@ -322,338 +322,116 @@ class KurdishMeaning extends StatelessWidget {
 کوردی: پیس، چڵکن، دژوێن، چەپەڵ، ناخاوێن، قوڕاوی، پۆخڵ، گەمار، کخە، گڵاو، پیس‌کەرەوە،	ناحەز، سووک، ھەرزە، ناشیرین، پیس، شەرماوی، ساردوسووک، شپرزە،	(ھەوا) ناخۆش، ناساز، باھاتوو، ئاڵۆز، خراپ،	(ڕەنگ) تەڵخ، لێڵ، مات، مردوو، چڵکن، یەکجار، گەلێ
 """),
           const DefinitionKurdish(text: "١. (ھاوەڵناو) پیس"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "My thumb had left a dirty mark on the paper."),
-                    ExampleSentenceKurdish(
-                        text: "پەنجەم نیشانەیەکی پیسی لەسەر پەڕەکە جێھێشتبوو."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "dirty", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdirtys1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdirtys1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "My thumb had left a dirty mark on the paper.",
+            kurdishText:
+                "پەنجەم نیشانەیەکی پیسی لەسەر پەڕەکە جێھێشتبوو.", // dirty
+            onPressedBritish: () => speakdirtys1("en-GB"),
+            onPressedAmerican: () => speakdirtys1("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(text: "Try not to get too dirty!"),
-                    ExampleSentenceKurdish(text: "ھەوڵ بدە زۆر پیس نەبیت."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdirtys2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdirtys2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "Try not to get too dirty!",
+            kurdishText: "ھەوڵ بدە زۆر پیس نەبیت.",
+            onPressedBritish: () => speakdirtys2("en-GB"),
+            onPressedAmerican: () => speakdirtys2("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "She didn't want to get her dress dirty."),
-                    ExampleSentenceKurdish(text: "نەیدەویست جلەکەی پیس بکات."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdirtys3("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdirtys3("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "She didn't want to get her dress dirty.",
+            kurdishText: "نەیدەویست جلەکەی پیس بکات.",
+            onPressedBritish: () => speakdirtys3("en-GB"),
+            onPressedAmerican: () => speakdirtys3("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "I always get given the dirty jobs (= jobs that make you become dirty)."),
-                    ExampleSentenceKurdish(
-                        text: "ھەمیشە ئیشە پیسەکانم پێدەدرێت."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdirtys4("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdirtys4("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "I always get given the dirty jobs (= jobs that make you become dirty).",
+            kurdishText: "ھەمیشە ئیشە پیسەکانم پێدەدرێت.",
+            onPressedBritish: () => speakdirtys4("en-GB"),
+            onPressedAmerican: () => speakdirtys4("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "Everything in the room was incredibly dirty."),
-                    ExampleSentenceKurdish(
-                        text: "ھەموو شتێک لە ژوورەکە تەواو پیس بوو."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdirtys5("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdirtys5("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "Everything in the room was incredibly dirty.",
+            kurdishText: "ھەموو شتێک لە ژوورەکە تەواو پیس بوو.",
+            onPressedBritish: () => speakdirtys5("en-GB"),
+            onPressedAmerican: () => speakdirtys5("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٢. (ھاوەڵناو) پەیوەندیدار بە سێکس بەشێوەیەکی نابەجێ"),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "He's got a dirty mind (= he often thinks about sex)."),
-                    ExampleSentenceKurdish(text: "مێشکێکی حیزی ھەیە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdirtys6("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdirtys6("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "He's got a dirty mind (= he often thinks about sex).",
+            kurdishText: "مێشکێکی حیزی ھەیە.",
+            onPressedBritish: () => speakdirtys6("en-GB"),
+            onPressedAmerican: () => speakdirtys6("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "It's not a good idea to tell dirty jokes in the office."),
-                    ExampleSentenceKurdish(
-                        text: "باش نییە نوکتەی نابەجێ لەسەر کار بگێڕیتەوە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdirtys7("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdirtys7("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "It's not a good idea to tell dirty jokes in the office.",
+            kurdishText: "باش نییە نوکتەی نابەجێ لەسەر کار بگێڕیتەوە.",
+            onPressedBritish: () => speakdirtys7("en-GB"),
+            onPressedAmerican: () => speakdirtys7("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "Has he been corrupted by watching all these dirty movies?"),
-                    ExampleSentenceKurdish(
-                        text:
-                            "تێکچووە بەم ھەموو سەیرکردنی ئەم ھەموو فیلمە نابەجێیانە؟"),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdirtys8("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdirtys8("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "Has he been corrupted by watching all these dirty movies?",
+            kurdishText:
+                "تێکچووە بەم ھەموو سەیرکردنی ئەم ھەموو فیلمە نابەجێیانە؟",
+            onPressedBritish: () => speakdirtys8("en-GB"),
+            onPressedAmerican: () => speakdirtys8("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: "٣. (ھاوەڵناو) ناشرین و خراپ"),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(text: "That's a dirty lie!"),
-                    ExampleSentenceKurdish(text: "درۆیەکی چەپەڵانەیە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdirtys9("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdirtys9("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "That's a dirty lie!",
+            kurdishText: "درۆیەکی چەپەڵانەیە.",
+            onPressedBritish: () => speakdirtys9("en-GB"),
+            onPressedAmerican: () => speakdirtys9("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "They discovered her dirty little secret."),
-                    ExampleSentenceKurdish(
-                        text: "نھێنییە خراپەکەییان دۆزییەوە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdirtys10("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdirtys10("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "They discovered her dirty little secret.",
+            kurdishText: "نھێنییە خراپەکەییان دۆزییەوە.",
+            onPressedBritish: () => speakdirtys10("en-GB"),
+            onPressedAmerican: () => speakdirtys10("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(text: "You dirty liar!"),
-                    ExampleSentenceKurdish(text: "درۆزنی چەپەڵ!"),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdirtys11("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdirtys11("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "You dirty liar!",
+            kurdishText: "درۆزنی چەپەڵ!",
+            onPressedBritish: () => speakdirtys11("en-GB"),
+            onPressedAmerican: () => speakdirtys11("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: "٤. (کردار) پیسکردنی شتێک"),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "Don't sit on the floor - you might dirty your dress."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "لەسەر زەوییەکە دامەنیشە ـ لەوانەیە جلەکەت پیس بکەیت."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdirtys12("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdirtys12("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "Don't sit on the floor - you might dirty your dress.",
+            kurdishText: "لەسەر زەوییەکە دامەنیشە ـ لەوانەیە جلەکەت پیس بکەیت.",
+            onPressedBritish: () => speakdirtys12("en-GB"),
+            onPressedAmerican: () => speakdirtys12("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "٥. (ھاوەڵکار) پێنناسە"),

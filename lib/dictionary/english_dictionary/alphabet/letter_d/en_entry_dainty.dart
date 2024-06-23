@@ -241,61 +241,23 @@ class KurdishMeaning extends StatelessWidget {
 """),
           const DefinitionKurdish(
               text: "١. (ھاوەڵناو) بچووک و جوان کە خەڵکی بە جوان دەیبینن"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "She was a small, dainty child, unlike her sister who was large and had big feet."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "منداڵێکی بچووکی چکۆڵە بوو، بە پێچەوانەی خوشکەکەی کە گەورە بوو و پێی گەورەی ھەبوو."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "dainty", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdaintys1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdaintys1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "She was a small, dainty child, unlike her sister who was large and had big feet.",
+            kurdishText:
+                "منداڵێکی بچووکی چکۆڵە بوو، بە پێچەوانەی خوشکەکەی کە گەورە بوو و پێی گەورەی ھەبوو.", // dainty
+            onPressedBritish: () => speakdaintys1("en-GB"),
+            onPressedAmerican: () => speakdaintys1("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
                   "٢. (ھاوەڵناو) وریا، زۆرجار بەشێوەیەک کە ڕەفتاری باش پیشان دەدات"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "She took a dainty little bite of the apple."),
-                    ExampleSentenceKurdish(
-                        text: "گازێکی بچووکی ناسکی لە سێوەکە گرت."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdaintys2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdaintys2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "She took a dainty little bite of the apple.",
+            kurdishText: "گازێکی بچووکی ناسکی لە سێوەکە گرت.",
+            onPressedBritish: () => speakdaintys2("en-GB"),
+            onPressedAmerican: () => speakdaintys2("en-US"),
           ),
         ],
       ),

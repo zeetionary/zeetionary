@@ -234,32 +234,13 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "١. (ناو) سەرکردەیەک بە دەسەڵاتێکی زۆرەوە، بەتایبەتی یەکێک کە بە دڕندانە بەکاری دێنێت"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "It is the story of a military coup which brings a brutal despot to power."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "چیرۆکی کودەتایەکی سەربازییە کە خوێنڕێژێک دێنێتە سەر دەسەڵات."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "despot", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdespots1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdespots1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "It is the story of a military coup which brings a brutal despot to power.",
+            kurdishText:
+                "چیرۆکی کودەتایەکی سەربازییە کە خوێنڕێژێک دێنێتە سەر دەسەڵات.", // despot
+            onPressedBritish: () => speakdespots1("en-GB"),
+            onPressedAmerican: () => speakdespots1("en-US"),
           ),
           // despots200"),
           // speakdespots2

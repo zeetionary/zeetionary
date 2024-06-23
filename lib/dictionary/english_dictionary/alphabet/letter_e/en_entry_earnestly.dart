@@ -370,60 +370,22 @@ class KurdishMeaning extends StatelessWidget {
 کوردی: بەڕشت، بێ‌شۆخی، بەڕاست، لە دڵەوە
 """),
           const DefinitionKurdish(text: """١. (ھاوەڵکار) بەڕشتی و جدی"""),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: """He gazed earnestly into my eyes."""),
-                    ExampleSentenceKurdish(
-                        text: """لە دڵەوە ڕوانی لە چاوانم."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "earnestly", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakearnestlys1("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakearnestlys1("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: """He gazed earnestly into my eyes.""",
+            kurdishText: """لە دڵەوە ڕوانی لە چاوانم.""", // earnestly
+            onPressedBritish: () => speakearnestlys1("en-GB"),
+            onPressedAmerican: () => speakearnestlys1("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            """He hopes school officials will continue to work earnestly to ensure the rights of their minority students."""),
-                    ExampleSentenceKurdish(
-                        text:
-                            """ھیوای وابوو بەرپرسانی قوتابخانە بە شێلگیرانە کار بکەن بێ‌وچان بۆ دڵنیاییکردنەوە لە مافی خوێندکارە کەمینەکان."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakearnestlys2("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakearnestlys2("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                """He hopes school officials will continue to work earnestly to ensure the rights of their minority students.""",
+            kurdishText:
+                """ھیوای وابوو بەرپرسانی قوتابخانە بە شێلگیرانە کار بکەن بێ‌وچان بۆ دڵنیاییکردنەوە لە مافی خوێندکارە کەمینەکان.""",
+            onPressedBritish: () => speakearnestlys2("en-GB"),
+            onPressedAmerican: () => speakearnestlys2("en-US"),
           ),
           // earnestlys300earnestlys3
           // speakearnestlys3

@@ -234,32 +234,12 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "١. (ناو) کەڕ و لاڵ؛ کەسێک کە توانای قسەکردن و بیستنی نییە"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "Deaf-mutes often use sign language to communicate."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "کەسانی کەڕ و لاڵ زۆرجار زمانی جەستە بەکاردێنن بۆ گفتوگۆ."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "deaf mute", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdeafmutes1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdeafmutes1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "Deaf-mutes often use sign language to communicate.",
+            kurdishText:
+                "کەسانی کەڕ و لاڵ زۆرجار زمانی جەستە بەکاردێنن بۆ گفتوگۆ.", // deaf mute
+            onPressedBritish: () => speakdeafmutes1("en-GB"),
+            onPressedAmerican: () => speakdeafmutes1("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "٢. (ھاوەڵناو) پێنناسە"),

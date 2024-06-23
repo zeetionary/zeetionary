@@ -365,32 +365,13 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "١. (ھاوەڵکار) بەشێوەیەک کە باوەڕت وایە کە بۆچوونەکانت ڕاستن و کەسانی دیکە دەبێت بەبێ پرسیارکردن یان داوای ڕوونکردنەوە پەسەندیان بکەن"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "I am not by any means dogmatically opposed to these products."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "من بە ھیچ شێوەیەک دەمارگرژانە دژ بەم بەرھەمانە نیم."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "dogmatically", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdogmaticallys1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdogmaticallys1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "I am not by any means dogmatically opposed to these products.",
+            kurdishText:
+                "من بە ھیچ شێوەیەک دەمارگرژانە دژ بەم بەرھەمانە نیم.", // dogmatically
+            onPressedBritish: () => speakdogmaticallys1("en-GB"),
+            onPressedAmerican: () => speakdogmaticallys1("en-US"),
           ),
           // dogmaticallys200"),
           // speakdogmaticallys2

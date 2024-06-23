@@ -260,119 +260,41 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "١. (کردار) بیرکردنەوەی ئەوەی کە کەسێک/شتێک گونجاو یان باش نییە"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "She wants to be an actress, but her parents disapprove."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "دەیەوێت ببێت بە ئەکتەر، بەڵام دایبابی پەسەندی ناکەن."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "disapprove", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdisapproves1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdisapproves1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "She wants to be an actress, but her parents disapprove.",
+            kurdishText:
+                "دەیەوێت ببێت بە ئەکتەر، بەڵام دایبابی پەسەندی ناکەن.", // disapprove
+            onPressedBritish: () => speakdisapproves1("en-GB"),
+            onPressedAmerican: () => speakdisapproves1("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "He strongly disapproved of the changes that had been made."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "بە تەواوی دژ بەو گۆڕانانە بوو کە ئەنجام درابوون."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdisapproves2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdisapproves2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "He strongly disapproved of the changes that had been made.",
+            kurdishText: "بە تەواوی دژ بەو گۆڕانانە بوو کە ئەنجام درابوون.",
+            onPressedBritish: () => speakdisapproves2("en-GB"),
+            onPressedAmerican: () => speakdisapproves2("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "I strongly disapprove of underage drinking."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "بە تەواوی دژ بە خواردنەوەی کەسانی خوار ھەرزەکارم."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdisapproves3("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdisapproves3("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "I strongly disapprove of underage drinking.",
+            kurdishText: "بە تەواوی دژ بە خواردنەوەی کەسانی خوار ھەرزەکارم.",
+            onPressedBritish: () => speakdisapproves3("en-GB"),
+            onPressedAmerican: () => speakdisapproves3("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
                   "٢. (کردار) بەفەرمی ڕەتکردنەوەی ئەوەی ڕازی بیت بە پلانێک، داوایەک، ھتد"),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "Parents should get the option to approve or disapprove a child's online purchase."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "دایبابان دەبێت ھەڵبژاردەی ئەوەیان پێبدرێت کە ڕازین یان دژی کڕینی ئۆنلاینی منداڵێکن."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdisapproves4("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdisapproves4("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "Parents should get the option to approve or disapprove a child's online purchase.",
+            kurdishText:
+                "دایبابان دەبێت ھەڵبژاردەی ئەوەیان پێبدرێت کە ڕازین یان دژی کڕینی ئۆنلاینی منداڵێکن.",
+            onPressedBritish: () => speakdisapproves4("en-GB"),
+            onPressedAmerican: () => speakdisapproves4("en-US"),
           ),
           // disapproves500"),
           // speakdisapproves5

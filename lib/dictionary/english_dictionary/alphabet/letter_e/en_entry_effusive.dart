@@ -371,60 +371,22 @@ class KurdishMeaning extends StatelessWidget {
 """),
           const DefinitionKurdish(
               text: """١. (ھاوەڵناو) پیشاندانی ھەست و سۆزی زۆر"""),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: """He was effusive in his praise."""),
-                    ExampleSentenceKurdish(
-                        text: """یەکجار بەسۆز بوو لە ستایشەکەیدا."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "effusive", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakeffusives1("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakeffusives1("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: """He was effusive in his praise.""",
+            kurdishText: """یەکجار بەسۆز بوو لە ستایشەکەیدا.""", // effusive
+            onPressedBritish: () => speakeffusives1("en-GB"),
+            onPressedAmerican: () => speakeffusives1("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            """They gave us such an effusive welcome it was quite embarrassing."""),
-                    ExampleSentenceKurdish(
-                        text:
-                            """خێراتنێکی ھێندە سۆزدەربڕانەیان پێماندا کە تەواو شەرمەزاری کردین."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakeffusives2("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakeffusives2("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                """They gave us such an effusive welcome it was quite embarrassing.""",
+            kurdishText:
+                """خێراتنێکی ھێندە سۆزدەربڕانەیان پێماندا کە تەواو شەرمەزاری کردین.""",
+            onPressedBritish: () => speakeffusives2("en-GB"),
+            onPressedAmerican: () => speakeffusives2("en-US"),
           ),
           // effusives300effusives3
           // speakeffusives3

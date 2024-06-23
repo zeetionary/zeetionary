@@ -257,92 +257,34 @@ class KurdishMeaning extends StatelessWidget {
 کوردی: بە شێوەیەکی پڕ، تێک‌چڕژاوانە
 """),
           const DefinitionKurdish(text: "١. (ھاوەڵکار) بەشێوەیەکی چڕ"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "England was once a densely wooded country (= a lot of trees grew close together there)."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "ئینگلتەرە سەردەمانێک وڵاتێکی بەشێوەیەکی چڕ داراوی بوو."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "densely", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdenselys1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdenselys1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "England was once a densely wooded country (= a lot of trees grew close together there).",
+            kurdishText:
+                "ئینگلتەرە سەردەمانێک وڵاتێکی بەشێوەیەکی چڕ داراوی بوو.", // densely
+            onPressedBritish: () => speakdenselys1("en-GB"),
+            onPressedAmerican: () => speakdenselys1("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "Mexico City is one of the most densely populated cities in the world (= a lot of people live close together there)."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "شاری مەکسیکۆ سیتی یەکێکە لە ھەرە زۆرترین چڕی دانیشتووانی جیھانی ھەیە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdenselys2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdenselys2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "Mexico City is one of the most densely populated cities in the world (= a lot of people live close together there).",
+            kurdishText:
+                "شاری مەکسیکۆ سیتی یەکێکە لە ھەرە زۆرترین چڕی دانیشتووانی جیھانی ھەیە.",
+            onPressedBritish: () => speakdenselys2("en-GB"),
+            onPressedAmerican: () => speakdenselys2("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "His books tend to be densely written (= contain a lot of information and ideas and are difficult to understand)."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "کتێبەکانی مەیلی ئەوەیان ھەیە بە چڕوپڕی بنووسرێن."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdenselys3("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdenselys3("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "His books tend to be densely written (= contain a lot of information and ideas and are difficult to understand).",
+            kurdishText: "کتێبەکانی مەیلی ئەوەیان ھەیە بە چڕوپڕی بنووسرێن.",
+            onPressedBritish: () => speakdenselys3("en-GB"),
+            onPressedAmerican: () => speakdenselys3("en-US"),
           ),
           // denselys400"),
           // speakdenselys4

@@ -372,61 +372,23 @@ class KurdishMeaning extends StatelessWidget {
 کوردی: بادەنۆشی، مەی‌خۆری، ئارەق‌خواردنەوە، ئارەق‌خۆری، بادەخۆری
 """),
           const DefinitionKurdish(text: "١. (ناو) ئەوەی کە سەرخۆش بیت"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "He fell to his death in a state of extreme drunkenness."),
-                    ExampleSentenceKurdish(
-                        text: "گەشت بە مردنی لە دۆخی تەواو سەرمەستیدا."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "drunkenness", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdrunkennesss1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdrunkennesss1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "He fell to his death in a state of extreme drunkenness.",
+            kurdishText:
+                "گەشت بە مردنی لە دۆخی تەواو سەرمەستیدا.", // drunkenness
+            onPressedBritish: () => speakdrunkennesss1("en-GB"),
+            onPressedAmerican: () => speakdrunkennesss1("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "Most of the arrests were for drunkenness and vandalism."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "زۆرێک لە سەرمەستییەکان بۆ سەرخۆشی و گێرەشێوێنی بوون."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdrunkennesss2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdrunkennesss2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "Most of the arrests were for drunkenness and vandalism.",
+            kurdishText: "زۆرێک لە سەرمەستییەکان بۆ سەرخۆشی و گێرەشێوێنی بوون.",
+            onPressedBritish: () => speakdrunkennesss2("en-GB"),
+            onPressedAmerican: () => speakdrunkennesss2("en-US"),
           ),
           // drunkennesss300"),
           // speakdrunkennesss3

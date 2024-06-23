@@ -248,87 +248,31 @@ class KurdishMeaning extends StatelessWidget {
 """),
           const DefinitionKurdish(
               text: "١. (ھاوەڵکار) بەبێ شارەزایی یان سەرکەوتن"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "The party performed dismally in the election."),
-                    ExampleSentenceKurdish(
-                        text: "پارتەکە شکستخواردووانە لە ھەڵبژاردنەکە دەرچوو."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "dismally", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdismallys1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdismallys1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "The party performed dismally in the election.",
+            kurdishText:
+                "پارتەکە شکستخواردووانە لە ھەڵبژاردنەکە دەرچوو.", // dismally
+            onPressedBritish: () => speakdismallys1("en-GB"),
+            onPressedAmerican: () => speakdismallys1("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "I tried not to laugh but failed dismally (= was completely unsuccessful)."),
-                    ExampleSentenceKurdish(
-                        text: "ھەوڵم دا پێنەکەنم بەڵام تەواو شکستم ھێنا."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdismallys2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdismallys2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "I tried not to laugh but failed dismally (= was completely unsuccessful).",
+            kurdishText: "ھەوڵم دا پێنەکەنم بەڵام تەواو شکستم ھێنا.",
+            onPressedBritish: () => speakdismallys2("en-GB"),
+            onPressedAmerican: () => speakdismallys2("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
                   "٢. (ھاوەڵکار) بەشێوەیەک کە دڵتەنگی پیشان دەدا، یان دەبێتە ھۆکاری"),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "She shook her head dismally."),
-                    ExampleSentenceKurdish(
-                        text: "بە ناڕەحەتییەوە سەری لەقاند."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdismallys3("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdismallys3("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "She shook her head dismally.",
+            kurdishText: "بە ناڕەحەتییەوە سەری لەقاند.",
+            onPressedBritish: () => speakdismallys3("en-GB"),
+            onPressedAmerican: () => speakdismallys3("en-US"),
           ),
           // dismallys400"),
           // speakdismallys4

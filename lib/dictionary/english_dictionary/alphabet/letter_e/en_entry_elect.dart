@@ -422,244 +422,89 @@ class KurdishMeaning extends StatelessWidget {
 // کوردی:
 // """),
           const DefinitionKurdish(text: """١. (کردار) دیاریکردن بە دەنگدان"""),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            """Voters will elect a new president on 30 March next year."""),
-                    ExampleSentenceKurdish(
-                        text:
-                            """دەنگدەران سەرۆکێکی تازە ھەڵدەبژێرن لە ٣٠ ـی ئاداری ساڵی داھاتوو."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "elect", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakelects1("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakelects1("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                """Voters will elect a new president on 30 March next year.""",
+            kurdishText:
+                """دەنگدەران سەرۆکێکی تازە ھەڵدەبژێرن لە ٣٠ ـی ئاداری ساڵی داھاتوو.""", // elect
+            onPressedBritish: () => speakelects1("en-GB"),
+            onPressedAmerican: () => speakelects1("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            """What changes will he make if he gets elected?"""),
-                    ExampleSentenceKurdish(
-                        text: """چی گۆڕانکارییەک دەکات ئەگەر ھەڵبژێردرێت؟"""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakelects2("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakelects2("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: """What changes will he make if he gets elected?""",
+            kurdishText: """چی گۆڕانکارییەک دەکات ئەگەر ھەڵبژێردرێت؟""",
+            onPressedBritish: () => speakelects2("en-GB"),
+            onPressedAmerican: () => speakelects2("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            """She became the first black woman to be elected to the Senate."""),
-                    ExampleSentenceKurdish(
-                        text:
-                            """بوو بە یەکەم ژنی ڕەشپێست کە بۆ ئەنجوومەنی پیران ھەڵبژێردرێت."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakelects3("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakelects3("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                """She became the first black woman to be elected to the Senate.""",
+            kurdishText:
+                """بوو بە یەکەم ژنی ڕەشپێست کە بۆ ئەنجوومەنی پیران ھەڵبژێردرێت.""",
+            onPressedBritish: () => speakelects3("en-GB"),
+            onPressedAmerican: () => speakelects3("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: """He was elected (as) MP for Oxford East."""),
-                    ExampleSentenceKurdish(
-                        text:
-                            """بە ئەندام پەرلەمان ھەڵبژێردرا بۆ ڕۆژھەڵاتی ئۆکسفۆرد."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakelects4("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakelects4("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: """He was elected (as) MP for Oxford East.""",
+            kurdishText:
+                """بە ئەندام پەرلەمان ھەڵبژێردرا بۆ ڕۆژھەڵاتی ئۆکسفۆرد.""",
+            onPressedBritish: () => speakelects4("en-GB"),
+            onPressedAmerican: () => speakelects4("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            """The party first elected her leader in 2017."""),
-                    ExampleSentenceKurdish(
-                        text:
-                            """پارتەکە بۆ یەکەمجار سەرۆکەکەی لە ٢٠١٧ ھەڵبژارد."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakelects5("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakelects5("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: """The party first elected her leader in 2017.""",
+            kurdishText: """پارتەکە بۆ یەکەمجار سەرۆکەکەی لە ٢٠١٧ ھەڵبژارد.""",
+            onPressedBritish: () => speakelects5("en-GB"),
+            onPressedAmerican: () => speakelects5("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: """٢. (کردار) بڕیاردانی کردنی شتێک"""),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            """Increasing numbers of people elect to work from home nowadays."""),
-                    ExampleSentenceKurdish(
-                        text:
-                            """ژمارەی زیاتر لە خەڵکی ئەوە ھەڵدەبژێرن کە لە ماڵەوە کار بکەن ئێستا."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakelects6("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakelects6("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                """Increasing numbers of people elect to work from home nowadays.""",
+            kurdishText:
+                """ژمارەی زیاتر لە خەڵکی ئەوە ھەڵدەبژێرن کە لە ماڵەوە کار بکەن ئێستا.""",
+            onPressedBritish: () => speakelects6("en-GB"),
+            onPressedAmerican: () => speakelects6("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
                   """٣. (ھاوەڵناو) کەسێک کە بۆ کارێک ھەڵبژێردراوە بەڵام ھێشتا دەست بەکار نەبووە"""),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            """The president elect has been preparing to take office in January."""),
-                    ExampleSentenceKurdish(
-                        text:
-                            """سەرۆکی ھەڵبژێردراو ئامادەکاری کردووە بۆ دەستبەکاربوون لە کانوونی دووەم."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakelects7("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakelects7("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                """The president elect has been preparing to take office in January.""",
+            kurdishText:
+                """سەرۆکی ھەڵبژێردراو ئامادەکاری کردووە بۆ دەستبەکاربوون لە کانوونی دووەم.""",
+            onPressedBritish: () => speakelects7("en-GB"),
+            onPressedAmerican: () => speakelects7("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
                   """٤. (ھاوەڵناو) کەسانێک کە ھەڵبژێردراون بۆ خاسیەتێکی دیاریکراو"""),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            """He was convinced he was among the elect, the wise, those who would shape the future."""),
-                    ExampleSentenceKurdish(
-                        text:
-                            """باوەڕی وابوو کە لە ناوھەڵبژێراوان، ئاقڵان، و ئەو کەسانەیە کە داھاتوو دیاری دەکەن."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakelects8("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakelects8("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                """He was convinced he was among the elect, the wise, those who would shape the future.""",
+            kurdishText:
+                """باوەڕی وابوو کە لە ناوھەڵبژێراوان، ئاقڵان، و ئەو کەسانەیە کە داھاتوو دیاری دەکەن.""",
+            onPressedBritish: () => speakelects8("en-GB"),
+            onPressedAmerican: () => speakelects8("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),

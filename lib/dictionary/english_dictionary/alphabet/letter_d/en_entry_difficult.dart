@@ -383,92 +383,33 @@ class KurdishMeaning extends StatelessWidget {
 کوردی: سەخت، گران، پڕئەرک، ئاسێ، کەرژاڵ، دژوار، چەتوون، ئاریش،	سەخت، قیرسیچمە، سەختگر، درەنگ‌ڕازی(بوو)، پڕچاوەڕوانی، عیناد، سەرڕەق، مانگرتوو، کەلەڕەق، سەرسەخت، ھەرۆک، لاڕێ، لەنجباز
 """),
           const DefinitionKurdish(text: "١. (ھاوەڵناو) سەخت"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The competition judges were given a very difficult task."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "دادوەرەکانی ڕکابەرییەکە ئەرکێکی زۆر قورسیان پێدرا."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "difficult", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdifficults1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdifficults1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "The competition judges were given a very difficult task.",
+            kurdishText:
+                "دادوەرەکانی ڕکابەرییەکە ئەرکێکی زۆر قورسیان پێدرا.", // difficult
+            onPressedBritish: () => speakdifficults1("en-GB"),
+            onPressedAmerican: () => speakdifficults1("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "Asking for help is extremely difficult for some people."),
-                    ExampleSentenceKurdish(
-                        text: "داواکردنی یارمەتی تەواو سەزتە بۆ ھەندێک کەس."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdifficults2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdifficults2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "Asking for help is extremely difficult for some people.",
+            kurdishText: "داواکردنی یارمەتی تەواو سەزتە بۆ ھەندێک کەس.",
+            onPressedBritish: () => speakdifficults2("en-GB"),
+            onPressedAmerican: () => speakdifficults2("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                      text: "It's really difficult to read your writing.",
-                      note:
-                          "Similar: Your writing is really difficult to read.",
-                    ),
-                    ExampleSentenceKurdish(
-                        text: "خوێندنەوەی نووسینت تەواو سەختە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdifficults3("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdifficults3("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "It's really difficult to read your writing.",
+            englishNote: "Similar: Your writing is really difficult to read.",
+            kurdishText: "خوێندنەوەی نووسینت تەواو سەختە.",
+            onPressedBritish: () => speakdifficults3("en-GB"),
+            onPressedAmerican: () => speakdifficults3("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
@@ -476,238 +417,67 @@ class KurdishMeaning extends StatelessWidget {
             children: [
               MyExpansionTile(
                 children: [
-                  Row(
-                    children: [
-                      const Expanded(
-                        child: Column(
-                          children: [
-                            ExampleSentenceEnglish(
-                                text:
-                                    "It is difficult to imagine a woman in the 1950s behaving like this."),
-                            ExampleSentenceKurdish(
-                                text:
-                                    "سەختە خەیاڵی ئەوە بکەیت کە ژنێک لە ١٩٥٠ ـیەکان بەم شێوەیە ڕەفتار بکات."),
-                          ],
-                        ),
-                      ),
-                      const CustomSizedBoxForTTS(),
-                      Column(
-                        children: [
-                          CustomIconButtonBritish(
-                            onPressed: () => speakdifficults4("en-GB"),
-                          ),
-                          CustomIconButtonAmerican(
-                            onPressed: () => speakdifficults4("en-US"),
-                          ),
-                        ],
-                      ),
-                    ],
+                  SentencesRow(
+                    englishText:
+                        "It is difficult to imagine a woman in the 1950s behaving like this.",
+                    kurdishText:
+                        "سەختە خەیاڵی ئەوە بکەیت کە ژنێک لە ١٩٥٠ ـیەکان بەم شێوەیە ڕەفتار بکات.",
+                    onPressedBritish: () => speakdifficults4("en-GB"),
+                    onPressedAmerican: () => speakdifficults4("en-US"),
                   ),
-                  // const DividerDefinition(),
-                  // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
                   const DividerSentences(),
-                  Row(
-                    children: [
-                      const Expanded(
-                        child: Column(
-                          children: [
-                            ExampleSentenceEnglish(
-                                text:
-                                    "She finds it very difficult to get up early."),
-                            ExampleSentenceKurdish(
-                                text:
-                                    "زۆر بە سەختی دەبینێت زوو لە خەو ھەستێت."),
-                          ],
-                        ),
-                      ),
-                      const CustomSizedBoxForTTS(),
-                      Column(
-                        children: [
-                          CustomIconButtonBritish(
-                            onPressed: () => speakdifficults5("en-GB"),
-                          ),
-                          CustomIconButtonAmerican(
-                            onPressed: () => speakdifficults5("en-US"),
-                          ),
-                        ],
-                      ),
-                    ],
+                  SentencesRow(
+                    englishText: "She finds it very difficult to get up early.",
+                    kurdishText: "زۆر بە سەختی دەبینێت زوو لە خەو ھەستێت.",
+                    onPressedBritish: () => speakdifficults5("en-GB"),
+                    onPressedAmerican: () => speakdifficults5("en-US"),
                   ),
-                  // const DividerDefinition(),
-                  // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
                   const DividerSentences(),
-                  Row(
-                    children: [
-                      const Expanded(
-                        child: Column(
-                          children: [
-                            ExampleSentenceEnglish(
-                                text:
-                                    "It has become increasingly difficult for young people to buy a house."),
-                            ExampleSentenceKurdish(
-                                text:
-                                    "زیاتر و زیاتر سەخت بووە بۆ گەنجان کە خانوویەک بکڕن."),
-                          ],
-                        ),
-                      ),
-                      const CustomSizedBoxForTTS(),
-                      Column(
-                        children: [
-                          CustomIconButtonBritish(
-                            onPressed: () => speakdifficults6("en-GB"),
-                          ),
-                          CustomIconButtonAmerican(
-                            onPressed: () => speakdifficults6("en-US"),
-                          ),
-                        ],
-                      ),
-                    ],
+                  SentencesRow(
+                    englishText:
+                        "It has become increasingly difficult for young people to buy a house.",
+                    kurdishText:
+                        "زیاتر و زیاتر سەخت بووە بۆ گەنجان کە خانوویەک بکڕن.",
+                    onPressedBritish: () => speakdifficults6("en-GB"),
+                    onPressedAmerican: () => speakdifficults6("en-US"),
                   ),
-                  // const DividerDefinition(),
-                  // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
                   const DividerSentences(),
-                  Row(
-                    children: [
-                      const Expanded(
-                        child: Column(
-                          children: [
-                            ExampleSentenceEnglish(
-                                text:
-                                    "It is getting more and more difficult to find a job."),
-                            ExampleSentenceKurdish(
-                                text:
-                                    "زیاتر و زیاتر سەخت بووە کارێک بدۆزیتەوە."),
-                          ],
-                        ),
-                      ),
-                      const CustomSizedBoxForTTS(),
-                      Column(
-                        children: [
-                          CustomIconButtonBritish(
-                            onPressed: () => speakdifficults7("en-GB"),
-                          ),
-                          CustomIconButtonAmerican(
-                            onPressed: () => speakdifficults7("en-US"),
-                          ),
-                        ],
-                      ),
-                    ],
+                  SentencesRow(
+                    englishText:
+                        "It is getting more and more difficult to find a job.",
+                    kurdishText: "زیاتر و زیاتر سەخت بووە کارێک بدۆزیتەوە.",
+                    onPressedBritish: () => speakdifficults7("en-GB"),
+                    onPressedAmerican: () => speakdifficults7("en-US"),
                   ),
-                  // const DividerDefinition(),
-                  // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
                   const DividerSentences(),
-                  Row(
-                    children: [
-                      const Expanded(
-                        child: Column(
-                          children: [
-                            ExampleSentenceEnglish(
-                                text: "The fog made driving very difficult."),
-                            ExampleSentenceKurdish(
-                                text: "تەمەکە لێخوڕینی سەخت کرد."),
-                          ],
-                        ),
-                      ),
-                      const CustomSizedBoxForTTS(),
-                      Column(
-                        children: [
-                          CustomIconButtonBritish(
-                            onPressed: () => speakdifficults8("en-GB"),
-                          ),
-                          CustomIconButtonAmerican(
-                            onPressed: () => speakdifficults8("en-US"),
-                          ),
-                        ],
-                      ),
-                    ],
+                  SentencesRow(
+                    englishText: "The fog made driving very difficult.",
+                    kurdishText: "تەمەکە لێخوڕینی سەخت کرد.",
+                    onPressedBritish: () => speakdifficults8("en-GB"),
+                    onPressedAmerican: () => speakdifficults8("en-US"),
                   ),
-                  // const DividerDefinition(),
-                  // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
                   const DividerSentences(),
-                  Row(
-                    children: [
-                      const Expanded(
-                        child: Column(
-                          children: [
-                            ExampleSentenceEnglish(
-                                text:
-                                    "He finds French pronunciation quite difficult."),
-                            ExampleSentenceKurdish(
-                                text: "گۆکردنی فەرەنسی بە تەواو سەخت دەبینێت."),
-                          ],
-                        ),
-                      ),
-                      const CustomSizedBoxForTTS(),
-                      Column(
-                        children: [
-                          CustomIconButtonBritish(
-                            onPressed: () => speakdifficults9("en-GB"),
-                          ),
-                          CustomIconButtonAmerican(
-                            onPressed: () => speakdifficults9("en-US"),
-                          ),
-                        ],
-                      ),
-                    ],
+                  SentencesRow(
+                    englishText:
+                        "He finds French pronunciation quite difficult.",
+                    kurdishText: "گۆکردنی فەرەنسی بە تەواو سەخت دەبینێت.",
+                    onPressedBritish: () => speakdifficults9("en-GB"),
+                    onPressedAmerican: () => speakdifficults9("en-US"),
                   ),
-                  // const DividerDefinition(),
-                  // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
                   const DividerSentences(),
-                  Row(
-                    children: [
-                      const Expanded(
-                        child: Column(
-                          children: [
-                            ExampleSentenceEnglish(
-                                text:
-                                    "She is confronted with a difficult choice."),
-                            ExampleSentenceKurdish(
-                                text: "ڕووبەڕووی ھەڵبژاردەیەکی سەخت بووە."),
-                          ],
-                        ),
-                      ),
-                      const CustomSizedBoxForTTS(),
-                      Column(
-                        children: [
-                          CustomIconButtonBritish(
-                            onPressed: () => speakdifficults10("en-GB"),
-                          ),
-                          CustomIconButtonAmerican(
-                            onPressed: () => speakdifficults10("en-US"),
-                          ),
-                        ],
-                      ),
-                    ],
+                  SentencesRow(
+                    englishText: "She is confronted with a difficult choice.",
+                    kurdishText: "ڕووبەڕووی ھەڵبژاردەیەکی سەخت بووە.",
+                    onPressedBritish: () => speakdifficults10("en-GB"),
+                    onPressedAmerican: () => speakdifficults10("en-US"),
                   ),
-                  // const DividerDefinition(),
-                  // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
                   const DividerSentences(),
-                  Row(
-                    children: [
-                      const Expanded(
-                        child: Column(
-                          children: [
-                            ExampleSentenceEnglish(
-                                text:
-                                    "The exam questions were particularly difficult."),
-                            ExampleSentenceKurdish(
-                                text:
-                                    "پرسیارەکانی تاقیکردنەوە بەتایبەتی سەخت بوون."),
-                          ],
-                        ),
-                      ),
-                      const CustomSizedBoxForTTS(),
-                      Column(
-                        children: [
-                          CustomIconButtonBritish(
-                            onPressed: () => speakdifficults11("en-GB"),
-                          ),
-                          CustomIconButtonAmerican(
-                            onPressed: () => speakdifficults11("en-US"),
-                          ),
-                        ],
-                      ),
-                    ],
+                  SentencesRow(
+                    englishText:
+                        "The exam questions were particularly difficult.",
+                    kurdishText: "پرسیارەکانی تاقیکردنەوە بەتایبەتی سەخت بوون.",
+                    onPressedBritish: () => speakdifficults11("en-GB"),
+                    onPressedAmerican: () => speakdifficults11("en-US"),
                   ),
                 ],
               ),
@@ -716,59 +486,20 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(text: "٢. (ھاوەڵناو) پڕ لە کێشە"),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "I found myself in a difficult situation."),
-                    ExampleSentenceKurdish(
-                        text: "خۆم لە دۆخێکی سەخت بینییەوە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdifficults12("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdifficults12("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "I found myself in a difficult situation.",
+            kurdishText: "خۆم لە دۆخێکی سەخت بینییەوە.",
+            onPressedBritish: () => speakdifficults12("en-GB"),
+            onPressedAmerican: () => speakdifficults12("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "I'd had a difficult time and needed a break."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "کاتێکی سەختم ھەبووبوو و پێویستیم بە پشوویەک بوو."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdifficults13("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdifficults13("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "I'd had a difficult time and needed a break.",
+            kurdishText: "کاتێکی سەختم ھەبووبوو و پێویستیم بە پشوویەک بوو.",
+            onPressedBritish: () => speakdifficults13("en-GB"),
+            onPressedAmerican: () => speakdifficults13("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
@@ -776,119 +507,36 @@ class KurdishMeaning extends StatelessWidget {
             children: [
               MyExpansionTile(
                 children: [
-                  Row(
-                    children: [
-                      const Expanded(
-                        child: Column(
-                          children: [
-                            ExampleSentenceEnglish(
-                                text:
-                                    "My boss is making life very difficult for me."),
-                            ExampleSentenceKurdish(
-                                text: "سەرپەرشتەکەم ژیانی سەخت کردووم."),
-                          ],
-                        ),
-                      ),
-                      const CustomSizedBoxForTTS(),
-                      Column(
-                        children: [
-                          CustomIconButtonBritish(
-                            onPressed: () => speakdifficults14("en-GB"),
-                          ),
-                          CustomIconButtonAmerican(
-                            onPressed: () => speakdifficults14("en-US"),
-                          ),
-                        ],
-                      ),
-                    ],
+                  SentencesRow(
+                    englishText:
+                        "My boss is making life very difficult for me.",
+                    kurdishText: "سەرپەرشتەکەم ژیانی سەخت کردووم.",
+                    onPressedBritish: () => speakdifficults14("en-GB"),
+                    onPressedAmerican: () => speakdifficults14("en-US"),
                   ),
-                  // const DividerDefinition(),
-                  // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
                   const DividerSentences(),
-                  Row(
-                    children: [
-                      const Expanded(
-                        child: Column(
-                          children: [
-                            ExampleSentenceEnglish(
-                                text:
-                                    "They had to set up camp in extremely difficult conditions."),
-                            ExampleSentenceKurdish(
-                                text:
-                                    "پێویست بوو کەمپ ھەڵبدەن لە دۆخێکی زۆر سەختدا."),
-                          ],
-                        ),
-                      ),
-                      const CustomSizedBoxForTTS(),
-                      Column(
-                        children: [
-                          CustomIconButtonBritish(
-                            onPressed: () => speakdifficults15("en-GB"),
-                          ),
-                          CustomIconButtonAmerican(
-                            onPressed: () => speakdifficults15("en-US"),
-                          ),
-                        ],
-                      ),
-                    ],
+                  SentencesRow(
+                    englishText:
+                        "They had to set up camp in extremely difficult conditions.",
+                    kurdishText:
+                        "پێویست بوو کەمپ ھەڵبدەن لە دۆخێکی زۆر سەختدا.",
+                    onPressedBritish: () => speakdifficults15("en-GB"),
+                    onPressedAmerican: () => speakdifficults15("en-US"),
                   ),
-                  // const DividerDefinition(),
-                  // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
                   const DividerSentences(),
-                  Row(
-                    children: [
-                      const Expanded(
-                        child: Column(
-                          children: [
-                            ExampleSentenceEnglish(
-                                text:
-                                    "His presence there put me in a very difficult position."),
-                            ExampleSentenceKurdish(
-                                text: "بوونی لەوێ خستمیە دۆخێکی زۆر سەختەوە."),
-                          ],
-                        ),
-                      ),
-                      const CustomSizedBoxForTTS(),
-                      Column(
-                        children: [
-                          CustomIconButtonBritish(
-                            onPressed: () => speakdifficults16("en-GB"),
-                          ),
-                          CustomIconButtonAmerican(
-                            onPressed: () => speakdifficults16("en-US"),
-                          ),
-                        ],
-                      ),
-                    ],
+                  SentencesRow(
+                    englishText:
+                        "His presence there put me in a very difficult position.",
+                    kurdishText: "بوونی لەوێ خستمیە دۆخێکی زۆر سەختەوە.",
+                    onPressedBritish: () => speakdifficults16("en-GB"),
+                    onPressedAmerican: () => speakdifficults16("en-US"),
                   ),
-                  // const DividerDefinition(),
-                  // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
                   const DividerSentences(),
-                  Row(
-                    children: [
-                      const Expanded(
-                        child: Column(
-                          children: [
-                            ExampleSentenceEnglish(
-                                text:
-                                    "The next few months were quite difficult."),
-                            ExampleSentenceKurdish(
-                                text: "چەند مانگی دواتر تەواو سەخت بوون."),
-                          ],
-                        ),
-                      ),
-                      const CustomSizedBoxForTTS(),
-                      Column(
-                        children: [
-                          CustomIconButtonBritish(
-                            onPressed: () => speakdifficults17("en-GB"),
-                          ),
-                          CustomIconButtonAmerican(
-                            onPressed: () => speakdifficults17("en-US"),
-                          ),
-                        ],
-                      ),
-                    ],
+                  SentencesRow(
+                    englishText: "The next few months were quite difficult.",
+                    kurdishText: "چەند مانگی دواتر تەواو سەخت بوون.",
+                    onPressedBritish: () => speakdifficults17("en-GB"),
+                    onPressedAmerican: () => speakdifficults17("en-US"),
                   ),
                 ],
               ),
@@ -898,59 +546,21 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text: "٣. (ھاوەڵناو) کەسێک کە بە ئاسانی ڕازی نابێت"),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "Don't pay any attention to her—she's just being difficult."),
-                    ExampleSentenceKurdish(
-                        text: "ھیچ سەرنجی پێمەدە ـ تەنھا خۆی عیناد کردووە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdifficults18("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdifficults18("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "Don't pay any attention to her—she's just being difficult.",
+            kurdishText: "ھیچ سەرنجی پێمەدە ـ تەنھا خۆی عیناد کردووە.",
+            onPressedBritish: () => speakdifficults18("en-GB"),
+            onPressedAmerican: () => speakdifficults18("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "Roger was always a difficult child."),
-                    ExampleSentenceKurdish(
-                        text: "ڕۆجەر ھەمیشە منداڵێکی کەلەڕەق بوو."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdifficults19("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdifficults19("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "Roger was always a difficult child.",
+            kurdishText: "ڕۆجەر ھەمیشە منداڵێکی کەلەڕەق بوو.",
+            onPressedBritish: () => speakdifficults19("en-GB"),
+            onPressedAmerican: () => speakdifficults19("en-US"),
           ),
           // difficults_2000"),
           // speakdifficults20

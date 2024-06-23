@@ -261,91 +261,34 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "١. (کردار) دەستکەوتنی پارە لە کەسێک یان دامەزراوەیەک بە فریودانی"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "All three men were charged with conspiracy to defraud."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "ھەر سێ پیاوەکە سزادران بە پیلانگێڕی بۆ ساختەکاری."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "defraud", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdefrauds1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdefrauds1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "All three men were charged with conspiracy to defraud.",
+            kurdishText:
+                "ھەر سێ پیاوەکە سزادران بە پیلانگێڕی بۆ ساختەکاری.", // defraud
+            onPressedBritish: () => speakdefrauds1("en-GB"),
+            onPressedAmerican: () => speakdefrauds1("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "They were accused of defrauding the company of £14 000."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "تاوانبارکران بە فریودانی کۆمپانیاکە بە بەھای ١٤٠٠٠ دۆلار."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdefrauds2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdefrauds2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "They were accused of defrauding the company of £14 000.",
+            kurdishText:
+                "تاوانبارکران بە فریودانی کۆمپانیاکە بە بەھای ١٤٠٠٠ دۆلار.",
+            onPressedBritish: () => speakdefrauds2("en-GB"),
+            onPressedAmerican: () => speakdefrauds2("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "She was involved in a conspiracy to defraud the government."),
-                    ExampleSentenceKurdish(
-                        text: "لە پیلانگێڕییەک بەژداربوو بۆ فریودانی حکومەت."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdefrauds3("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdefrauds3("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "She was involved in a conspiracy to defraud the government.",
+            kurdishText: "لە پیلانگێڕییەک بەژداربوو بۆ فریودانی حکومەت.",
+            onPressedBritish: () => speakdefrauds3("en-GB"),
+            onPressedAmerican: () => speakdefrauds3("en-US"),
           ),
           // defrauds400"),
           // speakdefrauds4

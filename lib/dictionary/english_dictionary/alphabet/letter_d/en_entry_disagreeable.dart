@@ -251,91 +251,32 @@ class KurdishMeaning extends StatelessWidget {
 کوردی: ناخۆش، تاڵ، ناپەسند، نالەبار،	(ھەوا) ناخۆش، خراپ، ناساز، ناسازگار، نالەبار،	گرژ، ڕووتاڵ، مۆن، مڕومۆچ، بەدخوو
 """),
           const DefinitionKurdish(text: "١. (ھاوەڵناو) کە خۆش نییە"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "He had the disagreeable job of identifying the body."),
-                    ExampleSentenceKurdish(
-                        text: "کاری ناخۆشی ناسینەوەی تەرمەکەی ھەبوو."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "disagreeable", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdisagreeables1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdisagreeables1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "He had the disagreeable job of identifying the body.",
+            kurdishText:
+                "کاری ناخۆشی ناسینەوەی تەرمەکەی ھەبوو.", // disagreeable
+            onPressedBritish: () => speakdisagreeables1("en-GB"),
+            onPressedAmerican: () => speakdisagreeables1("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "It was one of the most disagreeable experiences she had ever had."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "یەکێک لە ناخۆشترین ئەزموونەکان بوو کە ھەیبووبوو."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdisagreeables2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdisagreeables2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "It was one of the most disagreeable experiences she had ever had.",
+            kurdishText: "یەکێک لە ناخۆشترین ئەزموونەکان بوو کە ھەیبووبوو.",
+            onPressedBritish: () => speakdisagreeables2("en-GB"),
+            onPressedAmerican: () => speakdisagreeables2("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: "٢. (ھاوەڵناو) بێ‌ڕێز و ساردوسڕ"),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "Are you always as disagreeable as this when you don’t get what you want?"),
-                    ExampleSentenceKurdish(
-                        text:
-                            "ھەمیشە ئاوا ڕووتاڵیت کە ئەوەت نابێت کە دەتەوێت؟"),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdisagreeables3("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdisagreeables3("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "Are you always as disagreeable as this when you don’t get what you want?",
+            kurdishText: "ھەمیشە ئاوا ڕووتاڵیت کە ئەوەت نابێت کە دەتەوێت؟",
+            onPressedBritish: () => speakdisagreeables3("en-GB"),
+            onPressedAmerican: () => speakdisagreeables3("en-US"),
           ),
           // disagreeables400"),
           // speakdisagreeables4

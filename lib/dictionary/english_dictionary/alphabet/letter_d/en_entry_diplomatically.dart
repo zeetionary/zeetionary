@@ -243,60 +243,23 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "١. (ھاوەڵکار) بەشێوەیەک کە پەیوەندیدارە بە بەڕێوەبردنی پەیوەندیی نێوان دوو وڵات"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "The country remained diplomatically isolated."),
-                    ExampleSentenceKurdish(
-                        text: "وڵاتەکە لەلایەنی دیپلۆماسییەوە گۆشەگیر مایەوە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "diplomatically", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdiplomaticallys1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdiplomaticallys1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "The country remained diplomatically isolated.",
+            kurdishText:
+                "وڵاتەکە لەلایەنی دیپلۆماسییەوە گۆشەگیر مایەوە.", // diplomatically
+            onPressedBritish: () => speakdiplomaticallys1("en-GB"),
+            onPressedAmerican: () => speakdiplomaticallys1("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
                   "٢. (ھاوەڵکار) بەشێوەیەک کە ھەبوونی توانای مامەڵە لەگەڵ خەڵکی لە دۆخی سەختدا پیشان دەدات"),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "He had to choose his words diplomatically."),
-                    ExampleSentenceKurdish(
-                        text: "دەبوو سیاسییانە وشەکانی ھەڵبژێرێت."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdiplomaticallys2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdiplomaticallys2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "He had to choose his words diplomatically.",
+            kurdishText: "دەبوو سیاسییانە وشەکانی ھەڵبژێرێت.",
+            onPressedBritish: () => speakdiplomaticallys2("en-GB"),
+            onPressedAmerican: () => speakdiplomaticallys2("en-US"),
           ),
           // diplomaticallys300"),
           // speakdiplomaticallys3

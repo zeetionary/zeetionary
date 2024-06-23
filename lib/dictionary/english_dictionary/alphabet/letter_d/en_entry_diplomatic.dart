@@ -243,64 +243,25 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "١. (ھاوەڵناو) پەیوەندیدار بە بەڕێوەبردنی پەیوەندیی نێوان دوو وڵات"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "Attempts are being made to settle the dispute by diplomatic means."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "ھەوڵ دەدرێت کێشەکە بە ڕێگای دیپلۆماسی چارەسەر بکرێت."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "diplomatic", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdiplomatics1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdiplomatics1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "Attempts are being made to settle the dispute by diplomatic means.",
+            kurdishText:
+                "ھەوڵ دەدرێت کێشەکە بە ڕێگای دیپلۆماسی چارەسەر بکرێت.", // diplomatic
+            onPressedBritish: () => speakdiplomatics1("en-GB"),
+            onPressedAmerican: () => speakdiplomatics1("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
                   "٢. (ھاوەڵناو) ھەبوونی توانای مامەڵە لەگەڵ خەڵکی لە دۆخی سەختدا"),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "You could try being a little more diplomatic this time."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "ئەم جارە دەتوانیت ھەوڵ بدەیت کەمێک سیاسییانە بیت."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdiplomatics2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdiplomatics2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "You could try being a little more diplomatic this time.",
+            kurdishText: "ئەم جارە دەتوانیت ھەوڵ بدەیت کەمێک سیاسییانە بیت.",
+            onPressedBritish: () => speakdiplomatics2("en-GB"),
+            onPressedAmerican: () => speakdiplomatics2("en-US"),
           ),
           // diplomatics300"),
           // speakdiplomatics3

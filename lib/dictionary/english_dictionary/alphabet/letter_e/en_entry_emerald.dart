@@ -379,90 +379,33 @@ class KurdishMeaning extends StatelessWidget {
 """),
           const DefinitionKurdish(
               text: """١. (ھاوەڵناو) ڕەنگی سەوزی درەوشاوە"""),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: """The cat's emerald eyes glowed in the dark."""),
-                    ExampleSentenceKurdish(
-                        text:
-                            """چاوە سەوزەکانی پشیلەکە لە تاریکییەکە دەدرەوشانەوە."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "emerald", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakemeralds1("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakemeralds1("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: """The cat's emerald eyes glowed in the dark.""",
+            kurdishText:
+                """چاوە سەوزەکانی پشیلەکە لە تاریکییەکە دەدرەوشانەوە.""", // emerald
+            onPressedBritish: () => speakemeralds1("en-GB"),
+            onPressedAmerican: () => speakemeralds1("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text: """٢. (ناو) بەردێکی سەوزی گران‌بەھایە"""),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            """She wore a ring with a large emerald to the party."""),
-                    ExampleSentenceKurdish(
-                        text:
-                            """ئەڵقەیەکی بە زمڕوتێکی گەورەوە لەپەنجە کرد بۆ ئاھەنگەکە."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakemeralds2("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakemeralds2("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                """She wore a ring with a large emerald to the party.""",
+            kurdishText:
+                """ئەڵقەیەکی بە زمڕوتێکی گەورەوە لەپەنجە کرد بۆ ئاھەنگەکە.""",
+            onPressedBritish: () => speakemeralds2("en-GB"),
+            onPressedAmerican: () => speakemeralds2("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: """٣. (ناو) ڕەنگی سەوزی درەوشاوە"""),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: """Her dress was a stunning emerald."""),
-                    ExampleSentenceKurdish(
-                        text: """جلەکەی سەوزێکی کاڵی سەرنجڕاکێش بوو."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakemeralds3("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakemeralds3("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: """Her dress was a stunning emerald.""",
+            kurdishText: """جلەکەی سەوزێکی کاڵی سەرنجڕاکێش بوو.""",
+            onPressedBritish: () => speakemeralds3("en-GB"),
+            onPressedAmerican: () => speakemeralds3("en-US"),
           ),
           // emeralds400emeralds4
           // speakemeralds4

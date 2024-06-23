@@ -370,58 +370,20 @@ class KurdishMeaning extends StatelessWidget {
 """),
           const DefinitionKurdish(
               text: "١. (ھاوەڵناو) لەسەرخۆ و ئەوەی کە ئاسانە کۆنترۆڵ بکرێت"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "The animal looked remarkably docile."),
-                    ExampleSentenceKurdish(
-                        text: "ئاژەڵەکە تەواو دەستەمۆ دیاربوو."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "docile", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdociles1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdociles1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "The animal looked remarkably docile.",
+            kurdishText: "ئاژەڵەکە تەواو دەستەمۆ دیاربوو.", // docile
+            onPressedBritish: () => speakdociles1("en-GB"),
+            onPressedAmerican: () => speakdociles1("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "They're a pretty docile type of dog."),
-                    ExampleSentenceKurdish(
-                        text: "جۆرە سەگێکی تەواو گوێ‌ڕایەڵن."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdociles2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdociles2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "They're a pretty docile type of dog.",
+            kurdishText: "جۆرە سەگێکی تەواو گوێ‌ڕایەڵن.",
+            onPressedBritish: () => speakdociles2("en-GB"),
+            onPressedAmerican: () => speakdociles2("en-US"),
           ),
           // dociles300"),
           // speakdociles3

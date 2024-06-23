@@ -388,118 +388,43 @@ class KurdishMeaning extends StatelessWidget {
 کوردی: ئێلیکتریستی، برق، کارەبا، تەوژمی ئێلیکتریسیتە،	وروژان، ھەژان، بزوان
 """),
           const DefinitionKurdish(text: """١. (ناو) کارەبا"""),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            """The wind farm will generate enough electricity for some 30 000 homes."""),
-                    ExampleSentenceKurdish(
-                        text:
-                            """وێستگە باییەکە کارەبای پێویست بۆ ٣٠٠٠٠ ماڵ بەرھەم دەھێنێت."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "electricity", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakelectricitys1("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakelectricitys1("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                """The wind farm will generate enough electricity for some 30 000 homes.""",
+            kurdishText:
+                """وێستگە باییەکە کارەبای پێویست بۆ ٣٠٠٠٠ ماڵ بەرھەم دەھێنێت.""", // electricity
+            onPressedBritish: () => speakelectricitys1("en-GB"),
+            onPressedAmerican: () => speakelectricitys1("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            """No progress was made towards harnessing electricity as an energy source."""),
-                    ExampleSentenceKurdish(
-                        text:
-                            """ھیچ بەرەوپێشچوون ئەنجام نەدرا لە بەکارھێنانی کارەبا وەک سەرچاوەی وزە."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakelectricitys2("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakelectricitys2("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                """No progress was made towards harnessing electricity as an energy source.""",
+            kurdishText:
+                """ھیچ بەرەوپێشچوون ئەنجام نەدرا لە بەکارھێنانی کارەبا وەک سەرچاوەی وزە.""",
+            onPressedBritish: () => speakelectricitys2("en-GB"),
+            onPressedAmerican: () => speakelectricitys2("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            """The electricity is off (= there is no electric power supply)."""),
-                    ExampleSentenceKurdish(text: """کارەبا نییە."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakelectricitys3("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakelectricitys3("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                """The electricity is off (= there is no electric power supply).""",
+            kurdishText: """کارەبا نییە.""",
+            onPressedBritish: () => speakelectricitys3("en-GB"),
+            onPressedAmerican: () => speakelectricitys3("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: """All the houses now have electricity."""),
-                    ExampleSentenceKurdish(
-                        text: """تەواوی لە ئێستادا کارەبایان ھەیە."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakelectricitys4("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakelectricitys4("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: """All the houses now have electricity.""",
+            kurdishText: """تەواوی لە ئێستادا کارەبایان ھەیە.""",
+            onPressedBritish: () => speakelectricitys4("en-GB"),
+            onPressedAmerican: () => speakelectricitys4("en-US"),
           ),
           // electricitys500electricitys5
           // speakelectricitys5

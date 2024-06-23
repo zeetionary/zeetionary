@@ -276,144 +276,47 @@ class KurdishMeaning extends StatelessWidget {
 کوردی: دیاری‌کردن،	بڕیاردان، بڕینەوە، ویست، بڕیار(ی پتەو)،	لێکدانەوە،	بەسەرچوون، تێپەڕین
 """),
           const DefinitionKurdish(text: "١. (ناو) ویستی بەھێز بۆ کردنی شتێک"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "He fought the illness with courage and determination."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "بە بوێری و ویستی بەھێزەوە دژی نەخۆشییەکە وەستایەوە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "determination", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdeterminations1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdeterminations1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "He fought the illness with courage and determination.",
+            kurdishText:
+                "بە بوێری و ویستی بەھێزەوە دژی نەخۆشییەکە وەستایەوە.", // determination
+            onPressedBritish: () => speakdeterminations1("en-GB"),
+            onPressedAmerican: () => speakdeterminations1("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "They had survived by sheer determination."),
-                    ExampleSentenceKurdish(
-                        text: "بە ویستی نەبڕاوەوە ڕزگاری بووە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdeterminations2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdeterminations2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "They had survived by sheer determination.",
+            kurdishText: "بە ویستی نەبڕاوەوە ڕزگاری بووە.",
+            onPressedBritish: () => speakdeterminations2("en-GB"),
+            onPressedAmerican: () => speakdeterminations2("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "He succeeded by hard work and sheer determination."),
-                    ExampleSentenceKurdish(
-                        text: "بە ھەوڵی بێوچان و ئیرادەی نەبڕاوە سەرکەوت."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdeterminations3("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdeterminations3("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "He succeeded by hard work and sheer determination.",
+            kurdishText: "بە ھەوڵی بێوچان و ئیرادەی نەبڕاوە سەرکەوت.",
+            onPressedBritish: () => speakdeterminations3("en-GB"),
+            onPressedAmerican: () => speakdeterminations3("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٢. (ناو) پڕۆسەی بیاردانی شتێک بە فەرمی"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The determination of policy is not your business - your job is to implement it."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "پڕۆسەی بڕیاردان کاری تۆ نییە ـ کارت جێبەجێکردنیەتی."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdeterminations4("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdeterminations4("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "The determination of policy is not your business - your job is to implement it.",
+            kurdishText: "پڕۆسەی بڕیاردان کاری تۆ نییە ـ کارت جێبەجێکردنیەتی.",
+            onPressedBritish: () => speakdeterminations4("en-GB"),
+            onPressedAmerican: () => speakdeterminations4("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: "٣. (ناو) دۆزینەوە یان خەمڵاندنی شتێک"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "Both methods rely on the accurate determination of the pressure of the gas."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "ھەردوو ڕێگاکە پشت دەبەستن بە خەمڵاندنی درووستی پەستانی گازەکە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdeterminations5("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdeterminations5("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "Both methods rely on the accurate determination of the pressure of the gas.",
+            kurdishText:
+                "ھەردوو ڕێگاکە پشت دەبەستن بە خەمڵاندنی درووستی پەستانی گازەکە.",
+            onPressedBritish: () => speakdeterminations5("en-GB"),
+            onPressedAmerican: () => speakdeterminations5("en-US"),
           ),
           // determinations600"),
           // speakdeterminations6

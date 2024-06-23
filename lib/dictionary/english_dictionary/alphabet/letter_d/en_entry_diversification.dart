@@ -374,62 +374,23 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "١. (ناو) زیادکردنی شارەزایی، بەرھەم، یان حەزی زیاتر بۆ ئەوەی زیاتر سەرکەوتوو بیت"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "For the company, it's a sensible diversification of their product range."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "بۆ کۆمپانیاکە جۆراوجۆرکردنی ئاقڵانەی بەرھەمەکانیانە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "diversification", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdiversifications1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdiversifications1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "For the company, it's a sensible diversification of their product range.",
+            kurdishText:
+                "بۆ کۆمپانیاکە جۆراوجۆرکردنی ئاقڵانەی بەرھەمەکانیانە.", // diversification
+            onPressedBritish: () => speakdiversifications1("en-GB"),
+            onPressedAmerican: () => speakdiversifications1("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٢. (ناو) ئەوەی کە شتی زیاتر لە خۆبگرێت و فرەڕەنگی ھەبێت"),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "Diversification of your investments lowers risk."),
-                    ExampleSentenceKurdish(
-                        text: "ھەمەچەشنکردنی وەبەرھێنانت مەترسی کەمدەکاتەوە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdiversifications2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdiversifications2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "Diversification of your investments lowers risk.",
+            kurdishText: "ھەمەچەشنکردنی وەبەرھێنانت مەترسی کەمدەکاتەوە.",
+            onPressedBritish: () => speakdiversifications2("en-GB"),
+            onPressedAmerican: () => speakdiversifications2("en-US"),
           ),
           // diversifications300"),
           // speakdiversifications3

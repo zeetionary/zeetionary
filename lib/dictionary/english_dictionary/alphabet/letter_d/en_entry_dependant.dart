@@ -233,30 +233,12 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "١. (ناو) کەسێک، بەتایبەتی منداڵێک، کە پشت بە کەسێکی دیکە دەبەستێت بۆ خوادن، پارە، ھتد"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "My pension will provide for my dependants."),
-                    ExampleSentenceKurdish(
-                        text: "مووچە خانەنشینییەکەم بەشی خێزانەکەم دەکات."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "dependant", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdependants1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdependants1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "My pension will provide for my dependants.",
+            kurdishText:
+                "مووچە خانەنشینییەکەم بەشی خێزانەکەم دەکات.", // dependant
+            onPressedBritish: () => speakdependants1("en-GB"),
+            onPressedAmerican: () => speakdependants1("en-US"),
           ),
           // dependants200"),
           // speakdependants2

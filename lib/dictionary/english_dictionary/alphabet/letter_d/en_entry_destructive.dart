@@ -269,120 +269,44 @@ class KurdishMeaning extends StatelessWidget {
 """),
           const DefinitionKurdish(
               text: "١. (ھاوەڵناو) کە دەبێتە ھۆکاری وێرانی و زیان"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The war demonstrated the destructive power of modern weapons."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "جەنگەکە ھێزی وێرانکەری چەکی سەردەمیانەی پیشاندا."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "destructive", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdestructives1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdestructives1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "The war demonstrated the destructive power of modern weapons.",
+            kurdishText:
+                "جەنگەکە ھێزی وێرانکەری چەکی سەردەمیانەی پیشاندا.", // destructive
+            onPressedBritish: () => speakdestructives1("en-GB"),
+            onPressedAmerican: () => speakdestructives1("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "It was a very short-sighted and ultimately destructive plan."),
-                    ExampleSentenceKurdish(
-                        text: "پلانێکی کورتبینانە و لەکۆتاییدا وێرانکەر بوو."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdestructives2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdestructives2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "It was a very short-sighted and ultimately destructive plan.",
+            kurdishText: "پلانێکی کورتبینانە و لەکۆتاییدا وێرانکەر بوو.",
+            onPressedBritish: () => speakdestructives2("en-GB"),
+            onPressedAmerican: () => speakdestructives2("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "These substances can be destructive to health."),
-                    ExampleSentenceKurdish(
-                        text: "ئەم مادانە دەکرێت زیانبەخش بن بۆ تەندرووستی."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdestructives3("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdestructives3("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "These substances can be destructive to health.",
+            kurdishText: "ئەم مادانە دەکرێت زیانبەخش بن بۆ تەندرووستی.",
+            onPressedBritish: () => speakdestructives3("en-GB"),
+            onPressedAmerican: () => speakdestructives3("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٢. (ھاوەڵناو) کە نەرێنییە و یارمەتیدەر نییە"),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "They don't think about how damaging and destructive their words are."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "بیر لەوە ناکەنەوە کە قسەکانیان چەندە زیانبەخش و ڕووخێنەرن."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdestructives4("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdestructives4("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "They don't think about how damaging and destructive their words are.",
+            kurdishText:
+                "بیر لەوە ناکەنەوە کە قسەکانیان چەندە زیانبەخش و ڕووخێنەرن.",
+            onPressedBritish: () => speakdestructives4("en-GB"),
+            onPressedAmerican: () => speakdestructives4("en-US"),
           ),
           // destructives500"),
           // speakdestructives5

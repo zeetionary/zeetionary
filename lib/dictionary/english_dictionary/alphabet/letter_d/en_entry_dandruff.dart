@@ -233,32 +233,13 @@ class KurdishMeaning extends StatelessWidget {
 """),
           const DefinitionKurdish(
               text: "١. (ناو) پارچەی بچووکی خانەی مردوو لە قژی کەسێکدا"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "He used a special shampoo to help control his dandruff."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "شامپۆیەکی تایبەتی بەکارھێنا بۆ کۆنترۆڵی کڕێژەکەی."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "dandruff", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdandruffs1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdandruffs1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "He used a special shampoo to help control his dandruff.",
+            kurdishText:
+                "شامپۆیەکی تایبەتی بەکارھێنا بۆ کۆنترۆڵی کڕێژەکەی.", // dandruff
+            onPressedBritish: () => speakdandruffs1("en-GB"),
+            onPressedAmerican: () => speakdandruffs1("en-US"),
           ),
         ],
       ),

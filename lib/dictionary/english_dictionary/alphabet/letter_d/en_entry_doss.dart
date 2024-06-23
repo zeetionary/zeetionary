@@ -388,118 +388,40 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "١. (کردار) خەوتن لە شوێنێک، بەتایبەت شوێنێکی ناخۆش و نائاسوودە کە جێخەوێکی باشی نییە"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "You can doss down on my floor."),
-                    ExampleSentenceKurdish(
-                        text: "دەتوانیت لەسەر زەوییەکەم بخەویت."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "doss", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdosss1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdosss1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "You can doss down on my floor.",
+            kurdishText: "دەتوانیت لەسەر زەوییەکەم بخەویت.", // doss
+            onPressedBritish: () => speakdosss1("en-GB"),
+            onPressedAmerican: () => speakdosss1("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٢. (کردار) بەسەربردنی کات بەبێ ئەوەی ئیشێکی زۆر بکەیت"),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "We were just dossing about in lessons today."),
-                    ExampleSentenceKurdish(
-                        text: "لە وانەکانی ئەمڕۆدا تەنھا دەمەتەقێمان دەکرد."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdosss2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdosss2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "We were just dossing about in lessons today.",
+            kurdishText: "لە وانەکانی ئەمڕۆدا تەنھا دەمەتەقێمان دەکرد.",
+            onPressedBritish: () => speakdosss2("en-GB"),
+            onPressedAmerican: () => speakdosss2("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٣. (ناو) شتێک کە پێویستی بە ھەوڵی زۆر نییە"),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The work itself was a bit of a doss, to be honest."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "کارەکە خۆی لە ڕاستیدا کەمێک ڕەحەت بوو لە ڕاستیدا."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdosss3("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdosss3("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "The work itself was a bit of a doss, to be honest.",
+            kurdishText: "کارەکە خۆی لە ڕاستیدا کەمێک ڕەحەت بوو لە ڕاستیدا.",
+            onPressedBritish: () => speakdosss3("en-GB"),
+            onPressedAmerican: () => speakdosss3("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "It must be a doss working there."),
-                    ExampleSentenceKurdish(
-                        text: "کارکردن لەوێ دەبێت ڕەحەتی بێت."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdosss4("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdosss4("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "It must be a doss working there.",
+            kurdishText: "کارکردن لەوێ دەبێت ڕەحەتی بێت.",
+            onPressedBritish: () => speakdosss4("en-GB"),
+            onPressedAmerican: () => speakdosss4("en-US"),
           ),
           // dosss500"),
           // speakdosss5

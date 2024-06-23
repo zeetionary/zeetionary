@@ -380,88 +380,29 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   """١. (کردار) چنینی شێوە و وێنە لەسەر جلوبەرگ بۆ جوانکاری"""),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            """I am embroidering this picture for my mother."""),
-                    ExampleSentenceKurdish(
-                        text: """ئەم وێنەیە بۆ دایلم دەچنم."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "embroider", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakembroiders1("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakembroiders1("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: """I am embroidering this picture for my mother.""",
+            kurdishText: """ئەم وێنەیە بۆ دایلم دەچنم.""", // embroider
+            onPressedBritish: () => speakembroiders1("en-GB"),
+            onPressedAmerican: () => speakembroiders1("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: """The sleeves were embroidered in gold."""),
-                    ExampleSentenceKurdish(
-                        text: """قۆڵەکان بە ئاڵتوون چندرابوون."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakembroiders2("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakembroiders2("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: """The sleeves were embroidered in gold.""",
+            kurdishText: """قۆڵەکان بە ئاڵتوون چندرابوون.""",
+            onPressedBritish: () => speakembroiders2("en-GB"),
+            onPressedAmerican: () => speakembroiders2("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: """She sat in the window, embroidering."""),
-                    ExampleSentenceKurdish(
-                        text:
-                            """لەلای پەنجەرەکە دانیشتبوو دەرزی‌کاری دەکرد."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakembroiders3("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakembroiders3("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: """She sat in the window, embroidering.""",
+            kurdishText: """لەلای پەنجەرەکە دانیشتبوو دەرزی‌کاری دەکرد.""",
+            onPressedBritish: () => speakembroiders3("en-GB"),
+            onPressedAmerican: () => speakembroiders3("en-US"),
           ),
           const DividerDefinition(),
           CustomRichText(

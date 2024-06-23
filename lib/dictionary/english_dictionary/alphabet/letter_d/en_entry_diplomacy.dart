@@ -267,143 +267,49 @@ class KurdishMeaning extends StatelessWidget {
 """),
           const DefinitionKurdish(
               text: "١. (ناو) چالاکی ڕاگرتنی پەیوەندی نێوان دوو وڵات"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "Diplomacy is better than war."),
-                    ExampleSentenceKurdish(text: "دئپلۆماسی لە جەنگ باشترە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "diplomacy", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdiplomacys1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdiplomacys1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "Diplomacy is better than war.",
+            kurdishText: "دئپلۆماسی لە جەنگ باشترە.", // diplomacy
+            onPressedBritish: () => speakdiplomacys1("en-GB"),
+            onPressedAmerican: () => speakdiplomacys1("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "Cultural diplomacy between the two countries was an integral part of this development."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "دیپلۆماسیی کەلتووری لە نێوان دوو وڵاتەکەدا بەشێکی دانەبڕاوی ئەم بەرەوپێشچوونە بوو."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdiplomacys2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdiplomacys2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "Cultural diplomacy between the two countries was an integral part of this development.",
+            kurdishText:
+                "دیپلۆماسیی کەلتووری لە نێوان دوو وڵاتەکەدا بەشێکی دانەبڕاوی ئەم بەرەوپێشچوونە بوو.",
+            onPressedBritish: () => speakdiplomacys2("en-GB"),
+            onPressedAmerican: () => speakdiplomacys2("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "His skilful/​skillful diplomacy has secured new European allies."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "دیپلۆماسیی شارەزایانەی ھاوپەیمانی تازەی ئەورووپی درووستکردووە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdiplomacys3("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdiplomacys3("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "His skilful/​skillful diplomacy has secured new European allies.",
+            kurdishText:
+                "دیپلۆماسیی شارەزایانەی ھاوپەیمانی تازەی ئەورووپی درووستکردووە.",
+            onPressedBritish: () => speakdiplomacys3("en-GB"),
+            onPressedAmerican: () => speakdiplomacys3("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
                   "٢. (ناو) توانای مامەڵەکردن لەگەڵ خەڵکی لە دۆخی جیاوازدا بەبێ ئەوەی تووڕەیان بکەیت"),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "She was praised for her tact and diplomacy."),
-                    ExampleSentenceKurdish(
-                        text: "پەسندرا و بۆ تێگەشتووی و کارزانیی."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdiplomacys4("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdiplomacys4("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "She was praised for her tact and diplomacy.",
+            kurdishText: "پەسندرا و بۆ تێگەشتووی و کارزانیی.",
+            onPressedBritish: () => speakdiplomacys4("en-GB"),
+            onPressedAmerican: () => speakdiplomacys4("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The way forward in this situation is by diplomacy and negotiation."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "ڕێگای بەرەوپێشچوون لە دۆخەدا بە چارەدۆزی و دانووستانە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdiplomacys5("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdiplomacys5("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "The way forward in this situation is by diplomacy and negotiation.",
+            kurdishText:
+                "ڕێگای بەرەوپێشچوون لە دۆخەدا بە چارەدۆزی و دانووستانە.",
+            onPressedBritish: () => speakdiplomacys5("en-GB"),
+            onPressedAmerican: () => speakdiplomacys5("en-US"),
           ),
           // diplomacys600"),
           // speakdiplomacys6

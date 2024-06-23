@@ -234,30 +234,11 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "١. (ھاوەڵناو) کە کەسێک/شتێک بە سووکی یان بێ‌بەھا پیشان دەدات"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "She was rather disparaging about her boss."),
-                    ExampleSentenceKurdish(
-                        text: "شکێنەر بوو بەرامبەر سەرپەرشتیارەکەی."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "disparaging", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdisparagings1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdisparagings1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "She was rather disparaging about her boss.",
+            kurdishText: "شکێنەر بوو بەرامبەر سەرپەرشتیارەکەی.", // disparaging
+            onPressedBritish: () => speakdisparagings1("en-GB"),
+            onPressedAmerican: () => speakdisparagings1("en-US"),
           ),
           // disparagings200"),
           // speakdisparagings2

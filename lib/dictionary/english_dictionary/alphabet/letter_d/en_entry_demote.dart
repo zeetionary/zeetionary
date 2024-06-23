@@ -251,62 +251,24 @@ class KurdishMeaning extends StatelessWidget {
 // """),
           const DefinitionKurdish(
               text: "١. (کردار) دابەزاندنی پێگەی کەسێک، زۆرجار وەک سزا"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The American people have been demoted from citizens to consumers."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "خەڵکی ئەمریکا لە ھاوڵاتییەوە کراون بە بەکارھێنەر."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "demote", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdemotes1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdemotes1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "The American people have been demoted from citizens to consumers.",
+            kurdishText:
+                "خەڵکی ئەمریکا لە ھاوڵاتییەوە کراون بە بەکارھێنەر.", // demote
+            onPressedBritish: () => speakdemotes1("en-GB"),
+            onPressedAmerican: () => speakdemotes1("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The captain was demoted (to sergeant) for failing to fulfil his duties."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "کاپتنەکە پلەی دابەزێندرا بۆ شکستھێنان لە بەجێھێنانی ئەرکەکانی."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdemotes2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdemotes2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "The captain was demoted (to sergeant) for failing to fulfil his duties.",
+            kurdishText:
+                "کاپتنەکە پلەی دابەزێندرا بۆ شکستھێنان لە بەجێھێنانی ئەرکەکانی.",
+            onPressedBritish: () => speakdemotes2("en-GB"),
+            onPressedAmerican: () => speakdemotes2("en-US"),
           ),
           // demotes300"),
           // speakdemotes3

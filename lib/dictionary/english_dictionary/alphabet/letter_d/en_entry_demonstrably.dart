@@ -252,59 +252,22 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "١. (ھاوەڵکار) بەشێوەیەک کە دەکرێت ببینرێت یان بسەلمێندرێت"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(text: "That's demonstrably untrue!"),
-                    ExampleSentenceKurdish(
-                        text: "ئەوە لەسەلماندن‌ھاتووانە ناڕستە!"),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "demonstrably", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdemonstrablys1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdemonstrablys1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "That's demonstrably untrue!",
+            kurdishText: "ئەوە لەسەلماندن‌ھاتووانە ناڕستە!", // demonstrably
+            onPressedBritish: () => speakdemonstrablys1("en-GB"),
+            onPressedAmerican: () => speakdemonstrablys1("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The Arctic regions of North America, Europe, and much of Russia are all becoming demonstrably warmer."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "ھەرێمە ئارکتیکەکانی ئەمریکای باکوور و ئەورووپا و زۆرێک لە ڕووسیا لەسەلماندن‌ھاتووانە گەرمتر دەبن."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdemonstrablys2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdemonstrablys2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "The Arctic regions of North America, Europe, and much of Russia are all becoming demonstrably warmer.",
+            kurdishText:
+                "ھەرێمە ئارکتیکەکانی ئەمریکای باکوور و ئەورووپا و زۆرێک لە ڕووسیا لەسەلماندن‌ھاتووانە گەرمتر دەبن.",
+            onPressedBritish: () => speakdemonstrablys2("en-GB"),
+            onPressedAmerican: () => speakdemonstrablys2("en-US"),
           ),
           // demonstrablys300"),
           // speakdemonstrablys3

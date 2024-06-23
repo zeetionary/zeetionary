@@ -264,114 +264,38 @@ class KurdishMeaning extends StatelessWidget {
 کوردی: شاد، خۆش، سەرخۆش، گەش، خۆشحاڵ، دڵشاد، دڵخۆش، بەکەیف
 """),
           const DefinitionKurdish(text: "١. (ھاوەڵناو) زۆر خۆشحاڵ"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "I'd be absolutely delighted to come."),
-                    ExampleSentenceKurdish(text: "تەواو کەیفخۆش دەبم کە بێم."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "delighted", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdelighteds1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdelighteds1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "I'd be absolutely delighted to come.",
+            kurdishText: "تەواو کەیفخۆش دەبم کە بێم.", // delighted
+            onPressedBritish: () => speakdelighteds1("en-GB"),
+            onPressedAmerican: () => speakdelighteds1("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "I was delighted that you could stay."),
-                    ExampleSentenceKurdish(
-                        text: "دڵخۆش بووم کە توانیت بمێنیتەوە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdelighteds2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdelighteds2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "I was delighted that you could stay.",
+            kurdishText: "دڵخۆش بووم کە توانیت بمێنیتەوە.",
+            onPressedBritish: () => speakdelighteds2("en-GB"),
+            onPressedAmerican: () => speakdelighteds2("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "She was delighted by the news of the wedding."),
-                    ExampleSentenceKurdish(
-                        text: "خۆشحاڵ بووم بە ھەواڵی ھاوسەرگیرییەکە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdelighteds3("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdelighteds3("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "She was delighted by the news of the wedding.",
+            kurdishText: "خۆشحاڵ بووم بە ھەواڵی ھاوسەرگیرییەکە.",
+            onPressedBritish: () => speakdelighteds3("en-GB"),
+            onPressedAmerican: () => speakdelighteds3("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "They were highly delighted at the court's decision."),
-                    ExampleSentenceKurdish(
-                        text: "تەواو خۆشحاڵ بوون بە بڕیاری دادگا."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdelighteds4("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdelighteds4("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "They were highly delighted at the court's decision.",
+            kurdishText: "تەواو خۆشحاڵ بوون بە بڕیاری دادگا.",
+            onPressedBritish: () => speakdelighteds4("en-GB"),
+            onPressedAmerican: () => speakdelighteds4("en-US"),
           ),
           // delighteds500"),
           // speakdelighteds5

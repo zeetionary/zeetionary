@@ -365,32 +365,13 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "١. (ناو) سەکۆیەک کە لێیەوە مەلەوانان دەتوانن باز بدەنە ناوە مەلەوانگەیەک"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The diving board creaked under their weight as they prepared to jump."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "تەختەی بازدانەکە لەژێریاندا شکا کە ئامادەکارییان دەکرد باز بدەن."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "diving board", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdivingboards1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdivingboards1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "The diving board creaked under their weight as they prepared to jump.",
+            kurdishText:
+                "تەختەی بازدانەکە لەژێریاندا شکا کە ئامادەکارییان دەکرد باز بدەن.", // diving board
+            onPressedBritish: () => speakdivingboards1("en-GB"),
+            onPressedAmerican: () => speakdivingboards1("en-US"),
           ),
           // divingboards200"),
           // speakdivingboards2

@@ -372,59 +372,21 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "١. (ناو) بڕێک لە دەرمان کە بە بەردەوامی دەخوردرێت، و ئەوەی چەندە دەخوردرێت"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "Do not exceed the recommended dosage."),
-                    ExampleSentenceKurdish(
-                        text: "ڕادەی پێشنیارکراو تێمەپەڕێنە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "dosage", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdosages1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdosages1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "Do not exceed the recommended dosage.",
+            kurdishText: "ڕادەی پێشنیارکراو تێمەپەڕێنە.", // dosage
+            onPressedBritish: () => speakdosages1("en-GB"),
+            onPressedAmerican: () => speakdosages1("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "There are recommendations about dosage in elderly patients."),
-                    ExampleSentenceKurdish(
-                        text: "بڕی پێشنیارکراو ھەیە بۆ نەخۆشانی بەتەمەن."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdosages2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdosages2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "There are recommendations about dosage in elderly patients.",
+            kurdishText: "بڕی پێشنیارکراو ھەیە بۆ نەخۆشانی بەتەمەن.",
+            onPressedBritish: () => speakdosages2("en-GB"),
+            onPressedAmerican: () => speakdosages2("en-US"),
           ),
           // dosages300"),
           // speakdosages3

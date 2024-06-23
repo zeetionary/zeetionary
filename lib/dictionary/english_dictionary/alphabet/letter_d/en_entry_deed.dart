@@ -258,114 +258,38 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "١. (ناو) شتێک کە کەسێک دەیکات کە زۆرجار زۆرباش یان خراپە تێیدا"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "She tried to do a good deed every day."),
-                    ExampleSentenceKurdish(
-                        text: "ھەوڵیدا ھەموو ڕۆژێک کارێکی باش بکات."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "deed", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdeeds1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdeeds1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "She tried to do a good deed every day.",
+            kurdishText: "ھەوڵیدا ھەموو ڕۆژێک کارێکی باش بکات.", // deed
+            onPressedBritish: () => speakdeeds1("en-GB"),
+            onPressedAmerican: () => speakdeeds1("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "They will be punished for their evil deeds."),
-                    ExampleSentenceKurdish(
-                        text: "بۆ کارە خراپەکانیان سزا دەدرێن."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdeeds2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdeeds2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "They will be punished for their evil deeds.",
+            kurdishText: "بۆ کارە خراپەکانیان سزا دەدرێن.",
+            onPressedBritish: () => speakdeeds2("en-GB"),
+            onPressedAmerican: () => speakdeeds2("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
                   "٢. (ناو) بەڵگەنامەیەکی فەرمی کە واژۆی دەکەیت، بەتایبەتی یەکێک کە دەری دەخات خاوەنی خانوو یان بینایەکیت"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "The deeds of the house are missing."),
-                    ExampleSentenceKurdish(text: "قەباڵەکانی خانووەکە ونن."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdeeds3("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdeeds3("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "The deeds of the house are missing.",
+            kurdishText: "قەباڵەکانی خانووەکە ونن.",
+            onPressedBritish: () => speakdeeds3("en-GB"),
+            onPressedAmerican: () => speakdeeds3("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٣. (کردار) پێدانی خاوەندارێتی زەوی‌وزار بە قەباڵەیەک"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "He deeded the property to his wife shortly before his disappearance."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "ماوەیەکی کەم پێش ونبوونی زەوییەکەی دا بە ژنەکەی."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdeeds4("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdeeds4("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "He deeded the property to his wife shortly before his disappearance.",
+            kurdishText: "ماوەیەکی کەم پێش ونبوونی زەوییەکەی دا بە ژنەکەی.",
+            onPressedBritish: () => speakdeeds4("en-GB"),
+            onPressedAmerican: () => speakdeeds4("en-US"),
           ),
         ],
       ),

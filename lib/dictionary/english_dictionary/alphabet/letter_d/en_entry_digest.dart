@@ -310,291 +310,96 @@ class KurdishMeaning extends StatelessWidget {
 کوردی: پوختە، کورتە، کورتەی قانوونی ڕۆم، لە سەردەمی، ڕێکخرا.	(کیمیا) ماک یان تێکەڵەیێ لە ئەنجامی ھەرس
 """),
           const DefinitionKurdish(text: "١. (کردار) ھەرسکردنی خۆراک"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "Humans cannot digest plants such as grass."),
-                    ExampleSentenceKurdish(
-                        text: "مرۆڤ ناتوانێت ڕووەکی وەک گیا ھەرس بکات."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "digest", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdigests1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdigests1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "Humans cannot digest plants such as grass.",
+            kurdishText: "مرۆڤ ناتوانێت ڕووەکی وەک گیا ھەرس بکات.", // digest
+            onPressedBritish: () => speakdigests1("en-GB"),
+            onPressedAmerican: () => speakdigests1("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "You should allow a little time after a meal for the food to digest."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "دەبێت کەمێک کات بدەیت بۆ خواردن لە دوای ژەمێک بۆ ئەوەی ھەرس ببێت."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdigests2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdigests2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "You should allow a little time after a meal for the food to digest.",
+            kurdishText:
+                "دەبێت کەمێک کات بدەیت بۆ خواردن لە دوای ژەمێک بۆ ئەوەی ھەرس ببێت.",
+            onPressedBritish: () => speakdigests2("en-GB"),
+            onPressedAmerican: () => speakdigests2("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "He has to avoid fat because his body can't digest it."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "دەبێت لە چەوری بەدوور ببێت چونکە جەستەی ناتوانێت ھەرسی بکات."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdigests3("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdigests3("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "He has to avoid fat because his body can't digest it.",
+            kurdishText:
+                "دەبێت لە چەوری بەدوور ببێت چونکە جەستەی ناتوانێت ھەرسی بکات.",
+            onPressedBritish: () => speakdigests3("en-GB"),
+            onPressedAmerican: () => speakdigests3("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "Some foods are digested more easily than others."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "ھەندێک خواردن ئاسانتر ھەرس دەبن وەک ئەوانی دیکە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdigests4("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdigests4("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "Some foods are digested more easily than others.",
+            kurdishText: "ھەندێک خواردن ئاسانتر ھەرس دەبن وەک ئەوانی دیکە.",
+            onPressedBritish: () => speakdigests4("en-GB"),
+            onPressedAmerican: () => speakdigests4("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
                   "٢. (کردار) شیکردنەوە یان دەرھێنانی مادەی بەسوود لە مادەیەک بە گەرمی، ئەنزیم، یان توێنەر"),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The plant uses anaerobic bacteria to digest organic material and release methane gas."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "ڕووەکەکە بەکتریای ھەوانەویست بەکاردێنێت بۆ شیکردنەوەی مادە ئەندامییەکان و دەردانی گازی میسان."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdigests5("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdigests5("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "The plant uses anaerobic bacteria to digest organic material and release methane gas.",
+            kurdishText:
+                "ڕووەکەکە بەکتریای ھەوانەویست بەکاردێنێت بۆ شیکردنەوەی مادە ئەندامییەکان و دەردانی گازی میسان.",
+            onPressedBritish: () => speakdigests5("en-GB"),
+            onPressedAmerican: () => speakdigests5("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "These DNA fragments were digested with the appropriate enzymes."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "ئەم پارچە دی‌ئێن‌ئییانە شیکرانەوە بە ئەنزیمی گونجاو."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdigests6("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdigests6("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "These DNA fragments were digested with the appropriate enzymes.",
+            kurdishText: "ئەم پارچە دی‌ئێن‌ئییانە شیکرانەوە بە ئەنزیمی گونجاو.",
+            onPressedBritish: () => speakdigests6("en-GB"),
+            onPressedAmerican: () => speakdigests6("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
                   "٣. (کردار) بیرکردنەوە لە شتێک بۆ ئەوەی بە تەواوی لێی تێ بگەیت"),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "He paused, waiting for her to digest the information."),
-                    ExampleSentenceKurdish(
-                        text: "وەستا و چاوەڕێی کرد زانیارییەکە وەربگرێت."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdigests7("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdigests7("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "He paused, waiting for her to digest the information.",
+            kurdishText: "وەستا و چاوەڕێی کرد زانیارییەکە وەربگرێت.",
+            onPressedBritish: () => speakdigests7("en-GB"),
+            onPressedAmerican: () => speakdigests7("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "The news was hard to digest."),
-                    ExampleSentenceKurdish(
-                        text: "ھەواڵەکە سەخت بوو بۆ تێگەشتن."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdigests8("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdigests8("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "The news was hard to digest.",
+            kurdishText: "ھەواڵەکە سەخت بوو بۆ تێگەشتن.",
+            onPressedBritish: () => speakdigests8("en-GB"),
+            onPressedAmerican: () => speakdigests8("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
                   "٤. (ناو) کورتە ڕاپۆرتێک کە گرنگترین زانیاری نووسراوێکی درێژتری تێدایە"),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "A digest of the research findings is now available."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "پوختەیەکی دۆزرانەوەی لێکۆڵینەوەکە ئێستا بەردەستە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdigests9("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdigests9("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "A digest of the research findings is now available.",
+            kurdishText: "پوختەیەکی دۆزرانەوەی لێکۆڵینەوەکە ئێستا بەردەستە.",
+            onPressedBritish: () => speakdigests9("en-GB"),
+            onPressedAmerican: () => speakdigests9("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The company publishes a monthly digest of its activities."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "کۆمپانیاکە کورتەیەکی مانگانەیی چالاکییەکانی بڵاودەکاتەوە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdigests10("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdigests10("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "The company publishes a monthly digest of its activities.",
+            kurdishText:
+                "کۆمپانیاکە کورتەیەکی مانگانەیی چالاکییەکانی بڵاودەکاتەوە.",
+            onPressedBritish: () => speakdigests10("en-GB"),
+            onPressedAmerican: () => speakdigests10("en-US"),
           ),
           // digests1100"),
           // speakdigests11

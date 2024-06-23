@@ -268,124 +268,48 @@ class KurdishMeaning extends StatelessWidget {
 """),
           const DefinitionKurdish(
               text: "١. (ناو) گەنجێکی سەرەڕۆ کە خولیای تاوانی ھەیە"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "Teenage delinquents often skip school and cause trouble."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "ھەرزەکارە سەرەڕۆکان زۆرجار ناچنە قوتابخانە و کێشە درووست دەکەن."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "delinquent", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdelinquents1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdelinquents1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "Teenage delinquents often skip school and cause trouble.",
+            kurdishText:
+                "ھەرزەکارە سەرەڕۆکان زۆرجار ناچنە قوتابخانە و کێشە درووست دەکەن.", // delinquent
+            onPressedBritish: () => speakdelinquents1("en-GB"),
+            onPressedAmerican: () => speakdelinquents1("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٢. (ناو) کەسێک کە نەیتوانیوە قەرز بداتەوە"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "Credit delinquents often face penalties and higher interest rates."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "قەرزدەرەوە دواکەوتووەکان زۆرجار ڕووبەڕووی سزا و سووی بەرزتر دەبنەوە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdelinquents2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdelinquents2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "Credit delinquents often face penalties and higher interest rates.",
+            kurdishText:
+                "قەرزدەرەوە دواکەوتووەکان زۆرجار ڕووبەڕووی سزا و سووی بەرزتر دەبنەوە.",
+            onPressedBritish: () => speakdelinquents2("en-GB"),
+            onPressedAmerican: () => speakdelinquents2("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٣. (ھاوەڵناو) کە حەزی بە ئەنجامدانی تاوان ھەیە"),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "They are carrying out research on the causes of delinquent behaviour among young people."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "توێژینەوەیەک ئەنجام دەدەن لەسەر ھۆکارەکانی ھەڵسوکەوتی سەرەڕۆیانە لەنێوان گەنجاندا."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdelinquents3("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdelinquents3("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "They are carrying out research on the causes of delinquent behaviour among young people.",
+            kurdishText:
+                "توێژینەوەیەک ئەنجام دەدەن لەسەر ھۆکارەکانی ھەڵسوکەوتی سەرەڕۆیانە لەنێوان گەنجاندا.",
+            onPressedBritish: () => speakdelinquents3("en-GB"),
+            onPressedAmerican: () => speakdelinquents3("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
                   "٤. (ھاوەڵناو) دواکەوتوو لە دانەوەی قەرز؛ قەرزێک کە نەدراوەتەوە لە کاتی خۆیدا"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "She has been delinquent in paying her taxes."),
-                    ExampleSentenceKurdish(
-                        text: "درەنگکەوتووە لە دانەوەی باجەکانی."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdelinquents4("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdelinquents4("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "She has been delinquent in paying her taxes.",
+            kurdishText: "درەنگکەوتووە لە دانەوەی باجەکانی.",
+            onPressedBritish: () => speakdelinquents4("en-GB"),
+            onPressedAmerican: () => speakdelinquents4("en-US"),
           ),
           // delinquents500"),
           // speakdelinquents5

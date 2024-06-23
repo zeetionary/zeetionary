@@ -233,28 +233,11 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "١. (ناو) جلێکی بەھێزی لۆکەیی کە زۆرجار ڕەنگی شینە بۆ درووستکردنی جل بەکاردێت، بەتایبەتی پانتۆڵ؛ جلێک کە لەم قوماشە درووستکراوە"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(text: "He's usually in denims."),
-                    ExampleSentenceKurdish(text: "زۆرجار کابۆ لەبەر دەکات."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "denim", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdenims1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdenims1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "He's usually in denims.",
+            kurdishText: "زۆرجار کابۆ لەبەر دەکات.", // denim
+            onPressedBritish: () => speakdenims1("en-GB"),
+            onPressedAmerican: () => speakdenims1("en-US"),
           ),
           // denims200"),
           // speakdenims2

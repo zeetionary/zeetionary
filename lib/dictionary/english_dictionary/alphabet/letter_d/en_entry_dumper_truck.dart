@@ -364,30 +364,11 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   """١. (ناو) ئۆتۆمبێلێکی بارھەڵگر کە شتی تێ دەخرێت و دەکرێت گڵابەکەی بەرز بکاتەوە بۆ ڕشتنی"""),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: """He worked as a dumper truck driver."""),
-                    ExampleSentenceKurdish(
-                        text: """وەک شۆفێری گڵابە کاری دەکرد."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "dumper truck", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdumpertrucks1("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdumpertrucks1("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: """He worked as a dumper truck driver.""",
+            kurdishText: """وەک شۆفێری گڵابە کاری دەکرد.""", // dumper truck
+            onPressedBritish: () => speakdumpertrucks1("en-GB"),
+            onPressedAmerican: () => speakdumpertrucks1("en-US"),
           ),
           // dumpertrucks200
           // speakdumpertrucks2

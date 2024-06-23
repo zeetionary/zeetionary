@@ -281,198 +281,63 @@ class KurdishMeaning extends StatelessWidget {
 کوردی: بەربەست، بەربەند، بەند، بەست، ئاوبەند، سکر، بەنداو، کەرپە،	بناوانی بەنداوی، گۆمی ئاوبەند
 """),
           const DefinitionKurdish(text: "١. (ناو) بەنداوی سەر ڕووداوێک"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "The dam burst and the valley was flooded."),
-                    ExampleSentenceKurdish(
-                        text: "بەنداوەکە داڕووخا و دۆڵەکە کەوتە ژێر ئاو."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "dam", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdams1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdams1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "The dam burst and the valley was flooded.",
+            kurdishText: "بەنداوەکە داڕووخا و دۆڵەکە کەوتە ژێر ئاو.", // dam
+            onPressedBritish: () => speakdams1("en-GB"),
+            onPressedAmerican: () => speakdams1("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The dam has been breached and there is a danger of flooding."),
-                    ExampleSentenceKurdish(
-                        text: "بەنداوەکە سەرڕێژ بووە و مەترسی لافاو ھەیە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdams2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdams2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "The dam has been breached and there is a danger of flooding.",
+            kurdishText: "بەنداوەکە سەرڕێژ بووە و مەترسی لافاو ھەیە.",
+            onPressedBritish: () => speakdams2("en-GB"),
+            onPressedAmerican: () => speakdams2("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "The dam holds back the water."),
-                    ExampleSentenceKurdish(text: "بەنداوەکە ئاو دەگەڕێنێتەوە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdams3("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdams3("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "The dam holds back the water.",
+            kurdishText: "بەنداوەکە ئاو دەگەڕێنێتەوە.",
+            onPressedBritish: () => speakdams3("en-GB"),
+            onPressedAmerican: () => speakdams3("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The Aswan High Dam is on the River Nile in Egypt."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "بەنداوی عەزوانی سەروو لەسەر ڕووباری نیلە لە میسر."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdams4("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdams4("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "The Aswan High Dam is on the River Nile in Egypt.",
+            kurdishText: "بەنداوی عەزوانی سەروو لەسەر ڕووباری نیلە لە میسر.",
+            onPressedBritish: () => speakdams4("en-GB"),
+            onPressedAmerican: () => speakdams4("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
                   "٢. (ناو) دەریاچەیەکی دەستکرد کە باران و ئاوی بەھار تێیدا کۆدەکرێتەوە"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "The dam was quite full after the winter."),
-                    ExampleSentenceKurdish(
-                        text: "گۆماوەکە تەواو پڕ بوو لە دوای زستان."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdams5("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdams5("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "The dam was quite full after the winter.",
+            kurdishText: "گۆماوەکە تەواو پڕ بوو لە دوای زستان.",
+            onPressedBritish: () => speakdams5("en-GB"),
+            onPressedAmerican: () => speakdams5("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
                   "٣. (کردار) درووستکردنی بەنداوێک بەسەر ڕووبارێکدا، بەتایبەتی بۆ درووستکردنی دەریاچەیەکی دەستکرد یان وەک سەرچاوەی ئاوی"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "Locals strongly opposed plans to dam the river."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "دانیشتووانە خۆجێییەکە دژ بە دانانی بەنداو لەسەر ڕووبارەکە بوون."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdams6("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdams6("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "Locals strongly opposed plans to dam the river.",
+            kurdishText:
+                "دانیشتووانە خۆجێییەکە دژ بە دانانی بەنداو لەسەر ڕووبارەکە بوون.",
+            onPressedBritish: () => speakdams6("en-GB"),
+            onPressedAmerican: () => speakdams6("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "They formed artificial lakes by damming up a natural stream."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "دەریاچەی دەستکردیان درووستکرد بە بەربەستکردنی زێیەکی سرووشتی."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdams7("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdams7("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "They formed artificial lakes by damming up a natural stream.",
+            kurdishText:
+                "دەریاچەی دەستکردیان درووستکرد بە بەربەستکردنی زێیەکی سرووشتی.",
+            onPressedBritish: () => speakdams7("en-GB"),
+            onPressedAmerican: () => speakdams7("en-US"),
           ),
         ],
       ),

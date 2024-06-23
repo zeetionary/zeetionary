@@ -371,60 +371,22 @@ class KurdishMeaning extends StatelessWidget {
 """),
           const DefinitionKurdish(
               text: """١. (ناو) خشڵێک کە لە گوێ دەبەسترێت"""),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            """She was wearing a diamond necklace with matching earrings."""),
-                    ExampleSentenceKurdish(
-                        text:
-                            """ملوانکەیەکی ئەڵماسی دەبەست لەگەڵ گوارەی لێکچوو لەگەڵی."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "earring", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakearrings1("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakearrings1("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                """She was wearing a diamond necklace with matching earrings.""",
+            kurdishText:
+                """ملوانکەیەکی ئەڵماسی دەبەست لەگەڵ گوارەی لێکچوو لەگەڵی.""", // earring
+            onPressedBritish: () => speakearrings1("en-GB"),
+            onPressedAmerican: () => speakearrings1("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: """She wore a pair of dangly earrings."""),
-                    ExampleSentenceKurdish(
-                        text: """جووتێک گوارەی شۆڕی بەستبوو."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakearrings2("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakearrings2("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: """She wore a pair of dangly earrings.""",
+            kurdishText: """جووتێک گوارەی شۆڕی بەستبوو.""",
+            onPressedBritish: () => speakearrings2("en-GB"),
+            onPressedAmerican: () => speakearrings2("en-US"),
           ),
           // earrings300earrings3
           // speakearrings3

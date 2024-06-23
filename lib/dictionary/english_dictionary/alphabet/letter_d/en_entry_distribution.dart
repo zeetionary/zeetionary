@@ -428,234 +428,79 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "١. (ناو) شێوازی بڵاوبوونەوەی شتێک بە ناوچەیەکدا یان بەسەر خەڵکیدا"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "They studied the geographical distribution of the disease."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "لێکۆڵینەوەیان لە تەشەنەسەندنی جوگرافیای نەخۆشییەکە کرد."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "distribution", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdistributions1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdistributions1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "They studied the geographical distribution of the disease.",
+            kurdishText:
+                "لێکۆڵینەوەیان لە تەشەنەسەندنی جوگرافیای نەخۆشییەکە کرد.", // distribution
+            onPressedBritish: () => speakdistributions1("en-GB"),
+            onPressedAmerican: () => speakdistributions1("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The map shows the distribution of this species across the world."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "نەخشەکە دابەشبوونی ئەم چەشنە بە جیھاندا پیشان دەدات."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdistributions2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdistributions2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "The map shows the distribution of this species across the world.",
+            kurdishText: "نەخشەکە دابەشبوونی ئەم چەشنە بە جیھاندا پیشان دەدات.",
+            onPressedBritish: () => speakdistributions2("en-GB"),
+            onPressedAmerican: () => speakdistributions2("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The engine is mounted in the middle to achieve a more even weight distribution."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "بزوێنەرەکە لە ناوەڕاست انراوە بە بەدەستھێنانی دابەشبوونی یەکسانی زیاتری کێش."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdistributions3("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdistributions3("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "The engine is mounted in the middle to achieve a more even weight distribution.",
+            kurdishText:
+                "بزوێنەرەکە لە ناوەڕاست انراوە بە بەدەستھێنانی دابەشبوونی یەکسانی زیاتری کێش.",
+            onPressedBritish: () => speakdistributions3("en-GB"),
+            onPressedAmerican: () => speakdistributions3("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٢. (ناو) دابەشکردنی شتێک بەسەر ژمارەیەکی زۆر لە خەڵکیدا"),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The food was packed up for distribution to communities."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "خواردنەکە پێچرایەوە بۆ دابەشکردنی بە گەڕەکەکاندا."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdistributions4("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdistributions4("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "The food was packed up for distribution to communities.",
+            kurdishText: "خواردنەکە پێچرایەوە بۆ دابەشکردنی بە گەڕەکەکاندا.",
+            onPressedBritish: () => speakdistributions4("en-GB"),
+            onPressedAmerican: () => speakdistributions4("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "Our catalogue lists all our books that are available for general distribution."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "کاتەلۆگەکەمان ھەموو ئەو کتێبانەمان لەخۆدەگرێت کە بەردەستن بۆ دابەشکردنی گشتی."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdistributions5("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdistributions5("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "Our catalogue lists all our books that are available for general distribution.",
+            kurdishText:
+                "کاتەلۆگەکەمان ھەموو ئەو کتێبانەمان لەخۆدەگرێت کە بەردەستن بۆ دابەشکردنی گشتی.",
+            onPressedBritish: () => speakdistributions5("en-GB"),
+            onPressedAmerican: () => speakdistributions5("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "2 000 copies of the book have been printed and are available for distribution."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "٢٠٠٠ کۆپی کتێبەکە چاپکراون و ئامادەن بۆ بڵاوکردنەوە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdistributions6("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdistributions6("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "2 000 copies of the book have been printed and are available for distribution.",
+            kurdishText: "٢٠٠٠ کۆپی کتێبەکە چاپکراون و ئامادەن بۆ بڵاوکردنەوە.",
+            onPressedBritish: () => speakdistributions6("en-GB"),
+            onPressedAmerican: () => speakdistributions6("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٣. (ناو) سیستەمی گواستنەوە و گەیاندنی بەرھەمێک"),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "We focused on finding new distribution channels for our products."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "تیشکمان خستە سەر دۆزینەوەی ڕێگای تازەو بڵاوکردنەوەی بەرھەمەکەمان."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdistributions7("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdistributions7("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "We focused on finding new distribution channels for our products.",
+            kurdishText:
+                "تیشکمان خستە سەر دۆزینەوەی ڕێگای تازەو بڵاوکردنەوەی بەرھەمەکەمان.",
+            onPressedBritish: () => speakdistributions7("en-GB"),
+            onPressedAmerican: () => speakdistributions7("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The poor transport system means we have high distribution costs."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "ئەو سیستەمە خراپەی گواستنەوە واتە تێچووی بەرزی گواستنەوەمان ھەیە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdistributions8("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdistributions8("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "The poor transport system means we have high distribution costs.",
+            kurdishText:
+                "ئەو سیستەمە خراپەی گواستنەوە واتە تێچووی بەرزی گواستنەوەمان ھەیە.",
+            onPressedBritish: () => speakdistributions8("en-GB"),
+            onPressedAmerican: () => speakdistributions8("en-US"),
           ),
           // distributions900"),
           // speakdistributions9

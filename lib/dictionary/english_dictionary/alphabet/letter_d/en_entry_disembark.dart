@@ -242,60 +242,20 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "١. (کردار) دابەزین لە وەسیلەیەکی گواستنەوە، بەتایبەتی کەشتی یان فڕۆکە، لە کۆتایی گەشتێکدا"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "We will be disembarking at midday."),
-                    ExampleSentenceKurdish(
-                        text: "لە ناوەڕاستی ڕۆژەکە دادەبەزین."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "disembark", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdisembarks1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdisembarks1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "We will be disembarking at midday.",
+            kurdishText: "لە ناوەڕاستی ڕۆژەکە دادەبەزین.", // disembark
+            onPressedBritish: () => speakdisembarks1("en-GB"),
+            onPressedAmerican: () => speakdisembarks1("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The heat hit us as soon as we disembarked the plane."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "تیشکی خۆرەکە لێمانی دا ھەرکە لە فڕۆکەکە دابەزین."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdisembarks2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdisembarks2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "The heat hit us as soon as we disembarked the plane.",
+            kurdishText: "تیشکی خۆرەکە لێمانی دا ھەرکە لە فڕۆکەکە دابەزین.",
+            onPressedBritish: () => speakdisembarks2("en-GB"),
+            onPressedAmerican: () => speakdisembarks2("en-US"),
           ),
           // disembarks300"),
           // speakdisembarks3

@@ -260,93 +260,36 @@ class KurdishMeaning extends StatelessWidget {
 // """),
           const DefinitionKurdish(
               text: "١. (ھاوەڵکار) لەلایەن نوێنەرانی ھەڵبژێردراوەوە"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The country celebrated its first democratically elected government."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "وڵاتەکە یەکەم حکومەتی دیموکراسییانە ھەڵبژێردراوی بەخۆیەوە بینی."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "democratically", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdemocraticallys1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdemocraticallys1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "The country celebrated its first democratically elected government.",
+            kurdishText:
+                "وڵاتەکە یەکەم حکومەتی دیموکراسییانە ھەڵبژێردراوی بەخۆیەوە بینی.", // democratically
+            onPressedBritish: () => speakdemocraticallys1("en-GB"),
+            onPressedAmerican: () => speakdemocraticallys1("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
                   "٢. (ھاوەڵکار) بەشێوەیەک کە ھەموو ئەندامان مافی یەکسانیان ھەیە لە بڕیارداندا"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "The decision was taken democratically."),
-                    ExampleSentenceKurdish(
-                        text: "بڕیارەکە بە دیموکراسییانە درا."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdemocraticallys2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdemocraticallys2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "The decision was taken democratically.",
+            kurdishText: "بڕیارەکە بە دیموکراسییانە درا.",
+            onPressedBritish: () => speakdemocraticallys2("en-GB"),
+            onPressedAmerican: () => speakdemocraticallys2("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
                   "٣. (ھاوەڵکار) کۆمەڵگایەک کە ھەموو ئەندامەکانی یەکسانن و چینی کۆمەڵایەتی نییە"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "Immigration restriction should be applied democratically and equally."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "ڕێگری لە کۆچکردن دەبێت بە دیموکراسییانە و یەکسانی ئەنجام بدرێت."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdemocraticallys3("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdemocraticallys3("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "Immigration restriction should be applied democratically and equally.",
+            kurdishText:
+                "ڕێگری لە کۆچکردن دەبێت بە دیموکراسییانە و یەکسانی ئەنجام بدرێت.",
+            onPressedBritish: () => speakdemocraticallys3("en-GB"),
+            onPressedAmerican: () => speakdemocraticallys3("en-US"),
           ),
           // democraticallys400"),
           // speakdemocraticallys4

@@ -241,59 +241,22 @@ class KurdishMeaning extends StatelessWidget {
 کوردی: بە تەواوەتی، تەواو، سەداسەد
 """),
           const DefinitionKurdish(text: "١. (ھاوەڵکار) تەواو جیاواز"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "We hold diametrically opposed views."),
-                    ExampleSentenceKurdish(text: "دیدی تەواو دژبەیەکمان ھەیە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "diametrically", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdiametricallys1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdiametricallys1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "We hold diametrically opposed views.",
+            kurdishText: "دیدی تەواو دژبەیەکمان ھەیە.", // diametrically
+            onPressedBritish: () => speakdiametricallys1("en-GB"),
+            onPressedAmerican: () => speakdiametricallys1("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "This statement diametrically contradicts Milton's earlier claim."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "ئەم لێدوانە تەواو پێچەوانەی بانگەشەکەی پێشووتری میڵتۆنە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdiametricallys2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdiametricallys2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "This statement diametrically contradicts Milton's earlier claim.",
+            kurdishText:
+                "ئەم لێدوانە تەواو پێچەوانەی بانگەشەکەی پێشووتری میڵتۆنە.",
+            onPressedBritish: () => speakdiametricallys2("en-GB"),
+            onPressedAmerican: () => speakdiametricallys2("en-US"),
           ),
           // diametricallys300"),
           // speakdiametricallys3

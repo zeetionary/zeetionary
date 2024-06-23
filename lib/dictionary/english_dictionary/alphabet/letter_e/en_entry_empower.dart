@@ -373,64 +373,26 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   """١. (کردار) پێدانی ھێز یان دەسەڵات بە کەسێک بۆ کردنی شتێک"""),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            """The courts were empowered to impose the death sentence for certain crimes."""),
-                    ExampleSentenceKurdish(
-                        text:
-                            """دادگاکان دەسەڵاتیان پێدرا کە سزای مردن بۆ تاوانی دیاریکراو بسەپێنن."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "empower", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakempowers1("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakempowers1("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                """The courts were empowered to impose the death sentence for certain crimes.""",
+            kurdishText:
+                """دادگاکان دەسەڵاتیان پێدرا کە سزای مردن بۆ تاوانی دیاریکراو بسەپێنن.""", // empower
+            onPressedBritish: () => speakempowers1("en-GB"),
+            onPressedAmerican: () => speakempowers1("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
                   """٢. (کردار) پێدانی دەسەڵاتی زیاتر بە کەسێک بەسەر ژیانی خۆیان یان ئەو دۆخەی تێیدان"""),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            """The movement actively empowered women and gave them confidence in themselves."""),
-                    ExampleSentenceKurdish(
-                        text:
-                            """بزووتنەوەکە نەسرەوتووانە ھێز و متمانەی لە خۆیاندا بە ژنان دەدا."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakempowers2("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakempowers2("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                """The movement actively empowered women and gave them confidence in themselves.""",
+            kurdishText:
+                """بزووتنەوەکە نەسرەوتووانە ھێز و متمانەی لە خۆیاندا بە ژنان دەدا.""",
+            onPressedBritish: () => speakempowers2("en-GB"),
+            onPressedAmerican: () => speakempowers2("en-US"),
           ),
           // empowers300empowers3
           // speakempowers3

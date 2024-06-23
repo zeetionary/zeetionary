@@ -373,62 +373,24 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   """١. (کردار) جێھێشتنی وڵاتەکەت و ڕۆشتن بۆ ژیانکردن لە وڵاتێکی دیکە بۆ ھەمیشەیی"""),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            """The family left Czechoslovakia in 1968 and emigrated to America."""),
-                    ExampleSentenceKurdish(
-                        text:
-                            """خێزانەکە لە ١٩٦٨ چیکۆسلۆڤاکیایان جێھێشت و کۆچیان بۆ ئەمریکا کرد."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "emigrate", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakemigrates1("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakemigrates1("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                """The family left Czechoslovakia in 1968 and emigrated to America.""",
+            kurdishText:
+                """خێزانەکە لە ١٩٦٨ چیکۆسلۆڤاکیایان جێھێشت و کۆچیان بۆ ئەمریکا کرد.""", // emigrate
+            onPressedBritish: () => speakemigrates1("en-GB"),
+            onPressedAmerican: () => speakemigrates1("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            """Many people who emigrated experienced poverty and racism when they arrived."""),
-                    ExampleSentenceKurdish(
-                        text:
-                            """زۆر کەس کە کۆچیان کرد بە بە ھەژاری و ڕەگەزپەرستیدا تێپەڕین کە گەشتن."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakemigrates2("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakemigrates2("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                """Many people who emigrated experienced poverty and racism when they arrived.""",
+            kurdishText:
+                """زۆر کەس کە کۆچیان کرد بە بە ھەژاری و ڕەگەزپەرستیدا تێپەڕین کە گەشتن.""",
+            onPressedBritish: () => speakemigrates2("en-GB"),
+            onPressedAmerican: () => speakemigrates2("en-US"),
           ),
           // emigrates300emigrates3
           // speakemigrates3

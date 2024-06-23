@@ -250,87 +250,28 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "١. (ناو) کتێبێک کە بە ئەلفبێ لیستی زانیاری تێدایە، بۆ نموونە وەک ژمارە موبایل یان ناونیشانی خەڵکی"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "I found the company's name in a trade directory."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "ناوی کۆمپانیاکەم دۆزییەوە لە ڕێبەرییەکی پیشەسازیدا."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "directory", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdirectorys1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdirectorys1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "I found the company's name in a trade directory.",
+            kurdishText:
+                "ناوی کۆمپانیاکەم دۆزییەوە لە ڕێبەرییەکی پیشەسازیدا.", // directory
+            onPressedBritish: () => speakdirectorys1("en-GB"),
+            onPressedAmerican: () => speakdirectorys1("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "Names are listed alphabetically in the directory."),
-                    ExampleSentenceKurdish(
-                        text: "ناوەکان بە ئەلفبێ لە ڕێنوێنییەکەدا ڕیزکراون."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdirectorys2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdirectorys2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "Names are listed alphabetically in the directory.",
+            kurdishText: "ناوەکان بە ئەلفبێ لە ڕێنوێنییەکەدا ڕیزکراون.",
+            onPressedBritish: () => speakdirectorys2("en-GB"),
+            onPressedAmerican: () => speakdirectorys2("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "Our website has a link to a detailed directory of names and places."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "وێبسایتەکەمان بەستەرێکی تێدایە بۆ ڕێنوێنی وردی ناو و شوێن."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdirectorys3("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdirectorys3("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "Our website has a link to a detailed directory of names and places.",
+            kurdishText:
+                "وێبسایتەکەمان بەستەرێکی تێدایە بۆ ڕێنوێنی وردی ناو و شوێن.",
+            onPressedBritish: () => speakdirectorys3("en-GB"),
+            onPressedAmerican: () => speakdirectorys3("en-US"),
           ),
           // directorys400"),
           // speakdirectorys4

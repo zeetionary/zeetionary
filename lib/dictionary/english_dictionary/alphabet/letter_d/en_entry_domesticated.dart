@@ -380,92 +380,34 @@ class KurdishMeaning extends StatelessWidget {
 کوردی: ماڵی، دەستەمۆ، دەساژۆ، ڕام، دەسەڵێن، دێمی، دانەخۆرە
 """),
           const DefinitionKurdish(text: "١. (ھاوەڵناو) ئاژەڵێک کە ماڵی کراوە"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "These animals are only partly domesticated."),
-                    ExampleSentenceKurdish(
-                        text: "ئەم ئاژەڵانە تەنھا کەمێک ماڵی کراون."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "domesticated", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdomesticateds1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdomesticateds1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "These animals are only partly domesticated.",
+            kurdishText: "ئەم ئاژەڵانە تەنھا کەمێک ماڵی کراون.", // domesticated
+            onPressedBritish: () => speakdomesticateds1("en-GB"),
+            onPressedAmerican: () => speakdomesticateds1("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٢. (ھاوەڵناو) خواردنێک کە بۆ خواردنی مرۆڤ دەچێندرێت"),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "She preferred the taste of wild berries over domesticated strawberries."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "حەزی بە تامی تووی دەشتی بوو وەک لە شاتووی چێندراو."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdomesticateds2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdomesticateds2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "She preferred the taste of wild berries over domesticated strawberries.",
+            kurdishText: "حەزی بە تامی تووی دەشتی بوو وەک لە شاتووی چێندراو.",
+            onPressedBritish: () => speakdomesticateds2("en-GB"),
+            onPressedAmerican: () => speakdomesticateds2("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
                   "٣. (ھاوەڵناو) کە باشە لە خواردن لێنان و ئاگاداری لە ماڵ؛ کە چێژ لە ژیانی ماڵەوە دەبینێت"),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "They've become a lot more domesticated since they got married."),
-                    ExampleSentenceKurdish(
-                        text: "لەوەتەی ھاوسەرگیرییان کردووە زۆر بنەوان بوونە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdomesticateds3("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdomesticateds3("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "They've become a lot more domesticated since they got married.",
+            kurdishText: "لەوەتەی ھاوسەرگیرییان کردووە زۆر بنەوان بوونە.",
+            onPressedBritish: () => speakdomesticateds3("en-GB"),
+            onPressedAmerican: () => speakdomesticateds3("en-US"),
           ),
           // domesticateds400"),
           // speakdomesticateds4

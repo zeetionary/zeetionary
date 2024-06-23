@@ -396,143 +396,49 @@ class KurdishMeaning extends StatelessWidget {
               text:
                   "١. (کردار) ئەوەی تف یان شلەیەکی دیکە لە دەمت بێتە خوارەوە و بڕژێت بە چەناگەدا"),
           const AlsoEnglishckb(word: "ھەروەھا: drool"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(text: "Babies dribble constantly."),
-                    ExampleSentenceKurdish(
-                        text: "منداڵان بەردەوام تف دەردەدەن."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "dribble", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdribbles1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdribbles1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "Babies dribble constantly.",
+            kurdishText: "منداڵان بەردەوام تف دەردەدەن.", // dribble
+            onPressedBritish: () => speakdribbles1("en-GB"),
+            onPressedAmerican: () => speakdribbles1("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٢. (کردار) کەوتن یان ڕژان بە قەترەی بچووک"),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "Melted wax dribbled down the side of the candle."),
-                    ExampleSentenceKurdish(
-                        text: "مێوە تواوەکە لە کەناری مۆمەکەوە دەڕژا."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdribbles2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdribbles2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "Melted wax dribbled down the side of the candle.",
+            kurdishText: "مێوە تواوەکە لە کەناری مۆمەکەوە دەڕژا.",
+            onPressedBritish: () => speakdribbles2("en-GB"),
+            onPressedAmerican: () => speakdribbles2("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٣. (کردار) ڕژاندنی شتێک بەھێواشی یان دڵۆپ دڵۆپ"),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "Dribble a little olive oil over the salad."),
-                    ExampleSentenceKurdish(
-                        text: "کەمێک زەیتی زەیتوون بڕژێنە بەسەر زەڵاتەکەدا."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdribbles3("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdribbles3("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "Dribble a little olive oil over the salad.",
+            kurdishText: "کەمێک زەیتی زەیتوون بڕژێنە بەسەر زەڵاتەکەدا.",
+            onPressedBritish: () => speakdribbles3("en-GB"),
+            onPressedAmerican: () => speakdribbles3("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: "٤. (ناو) دڵۆپەیەکی بچووک لە شلە"),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(text: "Add just a dribble of oil."),
-                    ExampleSentenceKurdish(
-                        text: "تەنھا یەک قەترە زەیت زیاد بکە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdribbles4("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdribbles4("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "Add just a dribble of oil.",
+            kurdishText: "تەنھا یەک قەترە زەیت زیاد بکە.",
+            onPressedBritish: () => speakdribbles4("en-GB"),
+            onPressedAmerican: () => speakdribbles4("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: "٥. (ناو) تف لە دەمی کەسێکەوە"),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "There was dribble all down the baby's front."),
-                    ExampleSentenceKurdish(
-                        text: "تف بە تەواوی پێشەوەی منداڵەکە ھاتبووە خوارەوە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdribbles5("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdribbles5("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "There was dribble all down the baby's front.",
+            kurdishText: "تف بە تەواوی پێشەوەی منداڵەکە ھاتبووە خوارەوە.",
+            onPressedBritish: () => speakdribbles5("en-GB"),
+            onPressedAmerican: () => speakdribbles5("en-US"),
           ),
           // dribbles600"),
           // speakdribbles6

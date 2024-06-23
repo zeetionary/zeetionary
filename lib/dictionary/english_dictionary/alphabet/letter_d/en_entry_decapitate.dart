@@ -240,61 +240,22 @@ class KurdishMeaning extends StatelessWidget {
 کوردی: سەر بڕین، مل لێدان، مل بڕین
 """),
           const DefinitionKurdish(text: "١. (کردار) سەربڕینی کەسێک"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "His decapitated body was found floating in a canal."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "لاشە سەربڕدراوەکەی دۆزرایەوە کە سەرئاوکەوتبوو لە کەناڵەکەدا."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "decapitate", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdecapitates1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdecapitates1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "His decapitated body was found floating in a canal.",
+            kurdishText:
+                "لاشە سەربڕدراوەکەی دۆزرایەوە کە سەرئاوکەوتبوو لە کەناڵەکەدا.", // decapitate
+            onPressedBritish: () => speakdecapitates1("en-GB"),
+            onPressedAmerican: () => speakdecapitates1("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
                   "٢. (کردار) کەمکردنەوەی دەسەڵاتی گرووپێک یان دامەزراوەیەک بە نەھێشتنی سەرکردەکانی"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "The party has effectively been decapitated."),
-                    ExampleSentenceKurdish(
-                        text: "پارتەکە بە تەواوی دەستەمۆ کراوە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdecapitates2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdecapitates2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "The party has effectively been decapitated.",
+            kurdishText: "پارتەکە بە تەواوی دەستەمۆ کراوە.",
+            onPressedBritish: () => speakdecapitates2("en-GB"),
+            onPressedAmerican: () => speakdecapitates2("en-US"),
           ),
         ],
       ),

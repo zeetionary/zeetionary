@@ -364,32 +364,13 @@ class KurdishMeaning extends StatelessWidget {
 // """),
           const DefinitionKurdish(
               text: "١. (ناو) پاسێک کە لە دوو نھۆم پێکھاتووە"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "He took photos from the upper level of the double-decker."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "لە نھۆمی سەرەوەی پاسە دوو نھۆمییەکەوە وێنەی گرت."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "double-decker", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdoubledeckers1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdoubledeckers1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "He took photos from the upper level of the double-decker.",
+            kurdishText:
+                "لە نھۆمی سەرەوەی پاسە دوو نھۆمییەکەوە وێنەی گرت.", // double-decker
+            onPressedBritish: () => speakdoubledeckers1("en-GB"),
+            onPressedAmerican: () => speakdoubledeckers1("en-US"),
           ),
           // doubledeckers200"),
           // speakdoubledeckers2

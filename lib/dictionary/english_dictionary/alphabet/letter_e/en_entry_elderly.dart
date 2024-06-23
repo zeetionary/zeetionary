@@ -379,90 +379,33 @@ class KurdishMeaning extends StatelessWidget {
 کوردی: بەساڵاچوو، بەتەمەن، پیر، کۆنە، لەکارکەوتوو، پەک‌کەوتوو، بەساڵاچووان، پیران، بەتەمەنان
 """),
           const DefinitionKurdish(text: """١. (ھاوەڵناو) پیر"""),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            """They were reunited at last with their elderly relatives."""),
-                    ExampleSentenceKurdish(
-                        text:
-                            """لە کۆتاییدا شادبوونەوە بە خزمە بەتەمەنەکانیان."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "elderly", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakelderlys1("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakelderlys1("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                """They were reunited at last with their elderly relatives.""",
+            kurdishText:
+                """لە کۆتاییدا شادبوونەوە بە خزمە بەتەمەنەکانیان.""", // elderly
+            onPressedBritish: () => speakelderlys1("en-GB"),
+            onPressedAmerican: () => speakelderlys1("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: """Her parents are quite elderly now."""),
-                    ExampleSentenceKurdish(
-                        text: """دایبابی لە ئێستادا تەواو بەساڵاچوون."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakelderlys2("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakelderlys2("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: """Her parents are quite elderly now.""",
+            kurdishText: """دایبابی لە ئێستادا تەواو بەساڵاچوون.""",
+            onPressedBritish: () => speakelderlys2("en-GB"),
+            onPressedAmerican: () => speakelderlys2("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: """٢. (ھاوەڵناو) کەسانی پیر"""),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            """Children and the elderly are those most at risk from the infection."""),
-                    ExampleSentenceKurdish(
-                        text:
-                            """منداڵان و بەساڵاچووان زۆرترین لە مەترسیدان بەرامبەر نەخۆشییەکە."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakelderlys3("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakelderlys3("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                """Children and the elderly are those most at risk from the infection.""",
+            kurdishText:
+                """منداڵان و بەساڵاچووان زۆرترین لە مەترسیدان بەرامبەر نەخۆشییەکە.""",
+            onPressedBritish: () => speakelderlys3("en-GB"),
+            onPressedAmerican: () => speakelderlys3("en-US"),
           ),
           // elderlys400elderlys4
           // speakelderlys4

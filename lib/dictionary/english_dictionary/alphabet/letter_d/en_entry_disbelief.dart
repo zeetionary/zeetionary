@@ -248,83 +248,29 @@ class KurdishMeaning extends StatelessWidget {
 // """),
           const DefinitionKurdish(
               text: "١. (ناو) نەبوونی توانای باوەڕکردن بە شتێک"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "He stared at me in disbelief."),
-                    ExampleSentenceKurdish(text: "بە گومانەوە لێی دەڕوانیم."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "disbelief", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdisbeliefs1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdisbeliefs1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "He stared at me in disbelief.",
+            kurdishText: "بە گومانەوە لێی دەڕوانیم.", // disbelief
+            onPressedBritish: () => speakdisbeliefs1("en-GB"),
+            onPressedAmerican: () => speakdisbeliefs1("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "He raised his eyebrows in disbelief."),
-                    ExampleSentenceKurdish(text: "برۆی لە گوماندا بەرزکردەوە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdisbeliefs2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdisbeliefs2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "He raised his eyebrows in disbelief.",
+            kurdishText: "برۆی لە گوماندا بەرزکردەوە.",
+            onPressedBritish: () => speakdisbeliefs2("en-GB"),
+            onPressedAmerican: () => speakdisbeliefs2("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "My mouth dropped open in disbelief."),
-                    ExampleSentenceKurdish(text: "لە بێ‌باوەڕیدا دەمم داچەقی."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdisbeliefs3("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdisbeliefs3("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "My mouth dropped open in disbelief.",
+            kurdishText: "لە بێ‌باوەڕیدا دەمم داچەقی.",
+            onPressedBritish: () => speakdisbeliefs3("en-GB"),
+            onPressedAmerican: () => speakdisbeliefs3("en-US"),
           ),
           // disbeliefs400"),
           // speakdisbeliefs4

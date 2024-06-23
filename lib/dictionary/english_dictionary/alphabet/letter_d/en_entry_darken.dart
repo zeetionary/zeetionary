@@ -247,84 +247,27 @@ class KurdishMeaning extends StatelessWidget {
 // کوردی:
 // """),
           const DefinitionKurdish(text: "١. (کردار) تاریک بوون، تاریک کردن"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The sky began to darken as the storm approached."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "ئاسمان دەستی بە تاریک بوون کرد کە زریانەکە نزیک بوویەوە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "darken", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdarkens1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdarkens1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "The sky began to darken as the storm approached.",
+            kurdishText:
+                "ئاسمان دەستی بە تاریک بوون کرد کە زریانەکە نزیک بوویەوە.", // darken
+            onPressedBritish: () => speakdarkens1("en-GB"),
+            onPressedAmerican: () => speakdarkens1("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: "٢. (کردار) بێزار یان تووڕە بوون"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "Her mood darkened at the news."),
-                    ExampleSentenceKurdish(text: "کەشی بە ھەواڵەکە تێکچوو."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdarkens2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdarkens2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "Her mood darkened at the news.",
+            kurdishText: "کەشی بە ھەواڵەکە تێکچوو.",
+            onPressedBritish: () => speakdarkens2("en-GB"),
+            onPressedAmerican: () => speakdarkens2("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "It was a tragedy that darkened his later life."),
-                    ExampleSentenceKurdish(
-                        text: "تراژیدیایەک بوو کە ساڵانی دواتریی تاڵ کرد."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdarkens3("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdarkens3("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "It was a tragedy that darkened his later life.",
+            kurdishText: "تراژیدیایەک بوو کە ساڵانی دواتریی تاڵ کرد.",
+            onPressedBritish: () => speakdarkens3("en-GB"),
+            onPressedAmerican: () => speakdarkens3("en-US"),
           ),
         ],
       ),

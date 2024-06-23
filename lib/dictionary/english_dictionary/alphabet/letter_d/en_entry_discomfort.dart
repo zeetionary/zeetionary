@@ -288,202 +288,66 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "١. (ناو) ھەستکردن بە ئازارێکی کەم یان لەلایەنی جەستەییەوە ناڕەحەت بیت"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "You will experience some minor discomfort during the treatment."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "لە کاتی چارەسەرەکەدا کەمێک ھەست بە ناڕەحەتی دەکەیت."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "discomfort", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdiscomforts1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdiscomforts1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "You will experience some minor discomfort during the treatment.",
+            kurdishText:
+                "لە کاتی چارەسەرەکەدا کەمێک ھەست بە ناڕەحەتی دەکەیت.", // discomfort
+            onPressedBritish: () => speakdiscomforts1("en-GB"),
+            onPressedAmerican: () => speakdiscomforts1("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "I didn't have much discomfort after the operation."),
-                    ExampleSentenceKurdish(
-                        text: "لە دوای نەشتەرگەرییەکە ناڕەحەتی زۆرم نەبوو."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdiscomforts2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdiscomforts2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "I didn't have much discomfort after the operation.",
+            kurdishText: "لە دوای نەشتەرگەرییەکە ناڕەحەتی زۆرم نەبوو.",
+            onPressedBritish: () => speakdiscomforts2("en-GB"),
+            onPressedAmerican: () => speakdiscomforts2("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "Not eating late at night should help to relieve the discomfort."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "نەخواردن لە درەنگانی شەودا یارمەتیدەر دەبێت لە سووککردنی ئێشەکە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdiscomforts3("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdiscomforts3("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "Not eating late at night should help to relieve the discomfort.",
+            kurdishText:
+                "نەخواردن لە درەنگانی شەودا یارمەتیدەر دەبێت لە سووککردنی ئێشەکە.",
+            onPressedBritish: () => speakdiscomforts3("en-GB"),
+            onPressedAmerican: () => speakdiscomforts3("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٢. (ناو) ھەستکردن بە نیگەرانی یان شەرمەزاری"),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "John's presence caused her considerable discomfort."),
-                    ExampleSentenceKurdish(
-                        text: "ئامادەیی جۆن نیگەرانییەکی زۆری بۆ درووستکرد."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdiscomforts4("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdiscomforts4("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "John's presence caused her considerable discomfort.",
+            kurdishText: "ئامادەیی جۆن نیگەرانییەکی زۆری بۆ درووستکرد.",
+            onPressedBritish: () => speakdiscomforts4("en-GB"),
+            onPressedAmerican: () => speakdiscomforts4("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "I could sense their discomfort at what I was saying."),
-                    ExampleSentenceKurdish(
-                        text: "ھەستم بە نیگەرانیان دەکرد بەوەی دەمگوت."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdiscomforts5("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdiscomforts5("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "I could sense their discomfort at what I was saying.",
+            kurdishText: "ھەستم بە نیگەرانیان دەکرد بەوەی دەمگوت.",
+            onPressedBritish: () => speakdiscomforts5("en-GB"),
+            onPressedAmerican: () => speakdiscomforts5("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "I tried not to show my discomfort with the situation."),
-                    ExampleSentenceKurdish(
-                        text: "ھەوڵمدا ناڕەحەتی خۆم بە دۆخەکە پیشان نەدەم."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdiscomforts6("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdiscomforts6("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "I tried not to show my discomfort with the situation.",
+            kurdishText: "ھەوڵمدا ناڕەحەتی خۆم بە دۆخەکە پیشان نەدەم.",
+            onPressedBritish: () => speakdiscomforts6("en-GB"),
+            onPressedAmerican: () => speakdiscomforts6("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٣. (ناو) ناڕەحەتکردن یان شەرمەزارکردنی کەسێک"),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "Many patients complained of being discomforted by the doctor’s manner."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "زۆر نەخۆش گازەندەی ئەوەیان دەکرد کە ناڕەحەت بوون بە ھەڵسوکەوتی پزیشکەکە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdiscomforts7("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdiscomforts7("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "Many patients complained of being discomforted by the doctor’s manner.",
+            kurdishText:
+                "زۆر نەخۆش گازەندەی ئەوەیان دەکرد کە ناڕەحەت بوون بە ھەڵسوکەوتی پزیشکەکە.",
+            onPressedBritish: () => speakdiscomforts7("en-GB"),
+            onPressedAmerican: () => speakdiscomforts7("en-US"),
           ),
           // discomforts800"),
           // speakdiscomforts8

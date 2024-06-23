@@ -282,177 +282,61 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "١. (ناو) مێزێک کە لە کاتی نووسین، خوێندنەوە، کارکردن، ھتد بەکاردێت"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "I spend all day sitting at a desk."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "تەواوی ڕۆژەکەم بەسەر برد بە دانیشتن لای مێزەکە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "desk", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdesks1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdesks1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "I spend all day sitting at a desk.",
+            kurdishText:
+                "تەواوی ڕۆژەکەم بەسەر برد بە دانیشتن لای مێزەکە.", // desk
+            onPressedBritish: () => speakdesks1("en-GB"),
+            onPressedAmerican: () => speakdesks1("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "The mayor sat behind his desk."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "سەرۆک شارەوانییەکە لە پشیەوەی مێزەکەی دانیشتبوو."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdesks2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdesks2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "The mayor sat behind his desk.",
+            kurdishText: "سەرۆک شارەوانییەکە لە پشیەوەی مێزەکەی دانیشتبوو.",
+            onPressedBritish: () => speakdesks2("en-GB"),
+            onPressedAmerican: () => speakdesks2("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "He got up from his desk and went to the window."),
-                    ExampleSentenceKurdish(
-                        text: "لە مێزەکەی ھەستا و چووە لای پەنجەرەکە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdesks3("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdesks3("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "He got up from his desk and went to the window.",
+            kurdishText: "لە مێزەکەی ھەستا و چووە لای پەنجەرەکە.",
+            onPressedBritish: () => speakdesks3("en-GB"),
+            onPressedAmerican: () => speakdesks3("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "Papers littered the desk and the floor."),
-                    ExampleSentenceKurdish(
-                        text: "کاغەز سەرمێز و زەوییەکەیان گرتبوو."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdesks4("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdesks4("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "Papers littered the desk and the floor.",
+            kurdishText: "کاغەز سەرمێز و زەوییەکەیان گرتبوو.",
+            onPressedBritish: () => speakdesks4("en-GB"),
+            onPressedAmerican: () => speakdesks4("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
                   "٢. (ناو) شوێنێک کە زانیاری وەردەگریت یان خزمەتگوزاریت پێدەدرێت دەکرێیت لە فڕۆکەخانە، ھوتێل، ھتد"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "There was a long queue at the check-in desk."),
-                    ExampleSentenceKurdish(
-                        text: "ڕیزێکی درێژ لە مێزی پشکنینەکە ھەبوو."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdesks5("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdesks5("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "There was a long queue at the check-in desk.",
+            kurdishText: "ڕیزێکی درێژ لە مێزی پشکنینەکە ھەبوو.",
+            onPressedBritish: () => speakdesks5("en-GB"),
+            onPressedAmerican: () => speakdesks5("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The girl behind the reception desk was always on the phone."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "ئەو کچەی سەر مێزی پێشوازی بەردەوام خەریکی تەلەفۆنکردن بوو."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdesks6("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdesks6("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "The girl behind the reception desk was always on the phone.",
+            kurdishText:
+                "ئەو کچەی سەر مێزی پێشوازی بەردەوام خەریکی تەلەفۆنکردن بوو.",
+            onPressedBritish: () => speakdesks6("en-GB"),
+            onPressedAmerican: () => speakdesks6("en-US"),
           ),
           // desks700"),
           // speakdesks7

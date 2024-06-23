@@ -231,30 +231,12 @@ class KurdishMeaning extends StatelessWidget {
 کوردی: لفکە، ھەوری قاپ‌شتن، قاپ‌شۆر، کاسەشۆر
 """),
           const DefinitionKurdish(text: "١. (ناو) جلیک بۆ شۆردنی قاپ‌وقاچاغ"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "The dishcloth was damp and ready for use."),
-                    ExampleSentenceKurdish(
-                        text: "لفکەکە وشک بوو و ئامادەی بەکارھێنان بوو."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "dishcloth", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdishcloths1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdishcloths1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "The dishcloth was damp and ready for use.",
+            kurdishText:
+                "لفکەکە وشک بوو و ئامادەی بەکارھێنان بوو.", // dishcloth
+            onPressedBritish: () => speakdishcloths1("en-GB"),
+            onPressedAmerican: () => speakdishcloths1("en-US"),
           ),
           // dishcloths200"),
           // speakdishcloths2

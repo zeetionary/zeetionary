@@ -242,59 +242,22 @@ class KurdishMeaning extends StatelessWidget {
 کوردی: بووک، وەوی، وەڤی
 """),
           const DefinitionKurdish(text: "١. (ناو) ژنی کوڕەکەت"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The relationship between mother-in-law and daughter-in-law can sometimes be challenging."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "پەیوەندی نێوان بووک و خەسوو ھەندێکجار دەکرێت دژوار بێت."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "daughter-in-law", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdaughterinlaws1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdaughterinlaws1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "The relationship between mother-in-law and daughter-in-law can sometimes be challenging.",
+            kurdishText:
+                "پەیوەندی نێوان بووک و خەسوو ھەندێکجار دەکرێت دژوار بێت.", // daughter-in-law
+            onPressedBritish: () => speakdaughterinlaws1("en-GB"),
+            onPressedAmerican: () => speakdaughterinlaws1("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "She welcomed her daughter-in-law into the family with open arms."),
-                    ExampleSentenceKurdish(
-                        text: "بە باوەشی کراوەوە بەخێرھاتنی بووکەکەیی کرد."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "daughter-in-law", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdaughterinlaws2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdaughterinlaws2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "She welcomed her daughter-in-law into the family with open arms.",
+            kurdishText:
+                "بە باوەشی کراوەوە بەخێرھاتنی بووکەکەیی کرد.", // daughter-in-law
+            onPressedBritish: () => speakdaughterinlaws2("en-GB"),
+            onPressedAmerican: () => speakdaughterinlaws2("en-US"),
           ),
         ],
       ),

@@ -363,30 +363,12 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "١. (ناو) دەشتێکی کراوە بە گردی نزمەوە، بەتایبەتی لە باشووری ئینگلتەرە"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "She enjoyed cycling through the South Downs."),
-                    ExampleSentenceKurdish(
-                        text: "حەزی بە پاسکیلسواری لە دەشتەکانی باشوور بوو."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "downs", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdownss1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdownss1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "She enjoyed cycling through the South Downs.",
+            kurdishText:
+                "حەزی بە پاسکیلسواری لە دەشتەکانی باشوور بوو.", // downs
+            onPressedBritish: () => speakdownss1("en-GB"),
+            onPressedAmerican: () => speakdownss1("en-US"),
           ),
           // downss200"),
           // speakdownss2

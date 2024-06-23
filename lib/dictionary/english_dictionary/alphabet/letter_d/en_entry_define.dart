@@ -293,198 +293,65 @@ class KurdishMeaning extends StatelessWidget {
 """),
           const DefinitionKurdish(
               text: "١. (کردار) ڕوونکردنەوەی واتای وشە یان زاراوەیەک"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "The term ‘normal’ is difficult to define."),
-                    ExampleSentenceKurdish(
-                        text: "وشەی 'normal' گرانە پێناسە بکرێت."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "define", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdefines1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdefines1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "The term ‘normal’ is difficult to define.",
+            kurdishText: "وشەی 'normal' گرانە پێناسە بکرێت.", // define
+            onPressedBritish: () => speakdefines1("en-GB"),
+            onPressedAmerican: () => speakdefines1("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "Life imprisonment is defined as 60 years under state law."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "زیندانی ھەتاھەتایی بە ٦٠ ساڵ دیاریکراوە بەپێی یاسای وڵات."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdefines2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdefines2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "Life imprisonment is defined as 60 years under state law.",
+            kurdishText:
+                "زیندانی ھەتاھەتایی بە ٦٠ ساڵ دیاریکراوە بەپێی یاسای وڵات.",
+            onPressedBritish: () => speakdefines2("en-GB"),
+            onPressedAmerican: () => speakdefines2("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "Before I answer your question, could you define your terms a little more (= explain what you mean by the words you have used)?"),
-                    ExampleSentenceKurdish(
-                        text:
-                            "پێش ئەوەی وەڵامی پرسیارەکەت بدەمەوە دەتوانیت کەمێک زیاتر دەستەواژەکانت پێناسە بکەیت؟"),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdefines3("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdefines3("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "Before I answer your question, could you define your terms a little more (= explain what you mean by the words you have used)?",
+            kurdishText:
+                "پێش ئەوەی وەڵامی پرسیارەکەت بدەمەوە دەتوانیت کەمێک زیاتر دەستەواژەکانت پێناسە بکەیت؟",
+            onPressedBritish: () => speakdefines3("en-GB"),
+            onPressedAmerican: () => speakdefines3("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٢. (کردار) ناساندن یان باسکردنی سرووشتی کەسێک یان شتێک"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "The goals of the project are clearly defined."),
-                    ExampleSentenceKurdish(
-                        text: "ئامانجەکانی پڕۆژەکە بەڕوونی ناسێندراون."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdefines4("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdefines4("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "The goals of the project are clearly defined.",
+            kurdishText: "ئامانجەکانی پڕۆژەکە بەڕوونی ناسێندراون.",
+            onPressedBritish: () => speakdefines4("en-GB"),
+            onPressedAmerican: () => speakdefines4("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The difficulty of a problem was defined in terms of how long it took to complete."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "سەختی کێشەیەک بەوە ناسێنرابوو کە چەندە زۆری دەبرد کە چارەسەر بکرێت."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdefines5("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdefines5("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "The difficulty of a problem was defined in terms of how long it took to complete.",
+            kurdishText:
+                "سەختی کێشەیەک بەوە ناسێنرابوو کە چەندە زۆری دەبرد کە چارەسەر بکرێت.",
+            onPressedBritish: () => speakdefines5("en-GB"),
+            onPressedAmerican: () => speakdefines5("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "It is difficult to define what makes him so popular."),
-                    ExampleSentenceKurdish(
-                        text: "سەختە دیاری بکرێت چی وەھا بەناوبانگی دەکات."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdefines6("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdefines6("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "It is difficult to define what makes him so popular.",
+            kurdishText: "سەختە دیاری بکرێت چی وەھا بەناوبانگی دەکات.",
+            onPressedBritish: () => speakdefines6("en-GB"),
+            onPressedAmerican: () => speakdefines6("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "He defines himself as an independent."),
-                    ExampleSentenceKurdish(text: "خۆی وەکو سەربەخۆ دەناسێنێت."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdefines7("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdefines7("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "He defines himself as an independent.",
+            kurdishText: "خۆی وەکو سەربەخۆ دەناسێنێت.",
+            onPressedBritish: () => speakdefines7("en-GB"),
+            onPressedAmerican: () => speakdefines7("en-US"),
           ),
           // defines800"),
           // speakdefines8

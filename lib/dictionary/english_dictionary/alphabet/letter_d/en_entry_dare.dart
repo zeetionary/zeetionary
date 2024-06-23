@@ -280,194 +280,61 @@ class KurdishMeaning extends StatelessWidget {
 """),
           const DefinitionKurdish(
               text: "١. (ھاوەڵناو) ھێندە زیرەک و بوێر کە شتێک بکەیت"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "She said it as loudly as she dared."),
-                    ExampleSentenceKurdish(text: "ھەتا توانی بە بەرزی گوتی."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "dare", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdares1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdares1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "She said it as loudly as she dared.",
+            kurdishText: "ھەتا توانی بە بەرزی گوتی.", // dare
+            onPressedBritish: () => speakdares1("en-GB"),
+            onPressedAmerican: () => speakdares1("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "He didn’t dare (to) say what he thought."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "بوێری ئەوەی نەبوو ئەوە بڵێت کە بیری لێ دەکردەوە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdares2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdares2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "He didn’t dare (to) say what he thought.",
+            kurdishText: "بوێری ئەوەی نەبوو ئەوە بڵێت کە بیری لێ دەکردەوە.",
+            onPressedBritish: () => speakdares2("en-GB"),
+            onPressedAmerican: () => speakdares2("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "They daren't ask for any more money."),
-                    ExampleSentenceKurdish(
-                        text: "بوێری ئەوەیان نەکرد داوای پارەی زیاتر بکەن."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdares3("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdares3("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "They daren't ask for any more money.",
+            kurdishText: "بوێری ئەوەیان نەکرد داوای پارەی زیاتر بکەن.",
+            onPressedBritish: () => speakdares3("en-GB"),
+            onPressedAmerican: () => speakdares3("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "She dared not breathe a word of it to anybody."),
-                    ExampleSentenceKurdish(
-                        text: "بوێری ئەوەی نەکرد یەک قسە لای ھیچ کەسێک بکات."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdares4("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdares4("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "She dared not breathe a word of it to anybody.",
+            kurdishText: "بوێری ئەوەی نەکرد یەک قسە لای ھیچ کەسێک بکات.",
+            onPressedBritish: () => speakdares4("en-GB"),
+            onPressedAmerican: () => speakdares4("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(text: "I hardly dared breathe."),
-                    ExampleSentenceKurdish(
-                        text: "بە ئەستەم بوێری ھەناسەدانم ھەبوو."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdares5("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdares5("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "I hardly dared breathe.",
+            kurdishText: "بە ئەستەم بوێری ھەناسەدانم ھەبوو.",
+            onPressedBritish: () => speakdares5("en-GB"),
+            onPressedAmerican: () => speakdares5("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
                   "٢. (کردار) ڕازیکردنی کەسێک بۆ کردنی شتێکی مەترسیدار، سەخت، یان شەرمھێنەر بۆ ئەوەی پیشانی بدات کە ناترسێت"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "Some of the older boys had dared him to do it."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "ھەندێک لە کوڕە بەتەمەنەکان تەحەدایان کردبوو کە بیکات."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdares6("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdares6("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "Some of the older boys had dared him to do it.",
+            kurdishText:
+                "ھەندێک لە کوڕە بەتەمەنەکان تەحەدایان کردبوو کە بیکات.",
+            onPressedBritish: () => speakdares6("en-GB"),
+            onPressedAmerican: () => speakdares6("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
                   "٣. (ناو) شتێکی مەترسیدار، سەخت، یان شەرمھێنەر کە ھەوڵ دەدەیت وا لە کەسێک بکەیت بیکات، بۆ ئەوەی بزانیت کە دەیکات"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                      text: "He climbed onto the roof for a dare.",
-                      note: "American: He climbed onto the roof on a dare.",
-                    ),
-                    ExampleSentenceKurdish(
-                        text: "سەرکەوتە سەربانەکە بۆ تەحەدایەک."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdares7("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdares7("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "He climbed onto the roof for a dare.",
+            englishNote: "American: He climbed onto the roof on a dare.",
+            kurdishText: "سەرکەوتە سەربانەکە بۆ تەحەدایەک.",
+            onPressedBritish: () => speakdares7("en-GB"),
+            onPressedAmerican: () => speakdares7("en-US"),
           ),
         ],
       ),

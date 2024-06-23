@@ -259,113 +259,37 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "١. (ناو) ھەڵسوکەوتی بەڕێزانە کە لەگەڵ ستانداردە ئەخلاقییەکان یەکدەگرێتەوە و ڕێز بۆ کەسانی دیکە پیشان دەدات"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "Her behaviour showed a total lack of common decency."),
-                    ExampleSentenceKurdish(
-                        text: "ڕەفتارەکەی بە تەواوی نەبوونی ئەدەبی پیشاندا."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "decency", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdecencys1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdecencys1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "Her behaviour showed a total lack of common decency.",
+            kurdishText:
+                "ڕەفتارەکەی بە تەواوی نەبوونی ئەدەبی پیشاندا.", // decency
+            onPressedBritish: () => speakdecencys1("en-GB"),
+            onPressedAmerican: () => speakdecencys1("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "Have you no sense of decency?"),
-                    ExampleSentenceKurdish(text: "ھیچ ئەدەبت نییە؟"),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdecencys2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdecencys2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "Have you no sense of decency?",
+            kurdishText: "ھیچ ئەدەبت نییە؟",
+            onPressedBritish: () => speakdecencys2("en-GB"),
+            onPressedAmerican: () => speakdecencys2("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "He might have had the decency to apologize."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "دەکرا ھێندە ڕەوشتی ھەبایە کە دەوای لێبوردنی کردبا."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdecencys3("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdecencys3("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "He might have had the decency to apologize.",
+            kurdishText: "دەکرا ھێندە ڕەوشتی ھەبایە کە دەوای لێبوردنی کردبا.",
+            onPressedBritish: () => speakdecencys3("en-GB"),
+            onPressedAmerican: () => speakdecencys3("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٢. (ناو) شێوازی ھەڵسوکەوتی پەسەندکراوی کۆمەڵگا"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "Basic decency says that animals should be treated acceptably."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "داب‌ودەستوور بنەڕەتی دەڵێت ئاژەڵان دەبێت بە پەسەندکراوی مامەڵەیان لەگەڵ بکرێت."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdecencys4("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdecencys4("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "Basic decency says that animals should be treated acceptably.",
+            kurdishText:
+                "داب‌ودەستوور بنەڕەتی دەڵێت ئاژەڵان دەبێت بە پەسەندکراوی مامەڵەیان لەگەڵ بکرێت.",
+            onPressedBritish: () => speakdecencys4("en-GB"),
+            onPressedAmerican: () => speakdecencys4("en-US"),
           ),
         ],
       ),

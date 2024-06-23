@@ -391,123 +391,46 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   """١. (ھاوەڵکار) بەشێوەیەک کە ئەنجامی خوازراو بەدەست دەھێنێت"""),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            """The company must reduce costs to compete effectively."""),
-                    ExampleSentenceKurdish(
-                        text:
-                            """کۆمپانیاکە دەبێت خەرجی کەمبکاتەوە بۆ ئەوەی کاریگەرانە ڕکابەری بکات."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "effectively", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakeffectivelys1("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakeffectivelys1("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                """The company must reduce costs to compete effectively.""",
+            kurdishText:
+                """کۆمپانیاکە دەبێت خەرجی کەمبکاتەوە بۆ ئەوەی کاریگەرانە ڕکابەری بکات.""", // effectively
+            onPressedBritish: () => speakeffectivelys1("en-GB"),
+            onPressedAmerican: () => speakeffectivelys1("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: """ژممارە. (ھاوەڵکار) پێنناسە"""),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            """You dealt with the situation very effectively."""),
-                    ExampleSentenceKurdish(
-                        text: """زۆر کاریگەرانە مامەڵەت لەگەڵ دۆخەکە کرد."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakeffectivelys2("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakeffectivelys2("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: """You dealt with the situation very effectively.""",
+            kurdishText: """زۆر کاریگەرانە مامەڵەت لەگەڵ دۆخەکە کرد.""",
+            onPressedBritish: () => speakeffectivelys2("en-GB"),
+            onPressedAmerican: () => speakeffectivelys2("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
                   """٢. (ھاوەڵکار) بەکاردێت کە باس لە ڕاستییەکانی دۆخێک دەکەیت"""),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            """The war itself did not effectively end until two years later."""),
-                    ExampleSentenceKurdish(
-                        text:
-                            """جەنگەکە خۆی بەکردارەکی تاوەکو دوو ساڵ دواتر تەواو نەبوو."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakeffectivelys3("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakeffectivelys3("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                """The war itself did not effectively end until two years later.""",
+            kurdishText:
+                """جەنگەکە خۆی بەکردارەکی تاوەکو دوو ساڵ دواتر تەواو نەبوو.""",
+            onPressedBritish: () => speakeffectivelys3("en-GB"),
+            onPressedAmerican: () => speakeffectivelys3("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: """ژممارە. (ھاوەڵکار) پێنناسە"""),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            """Effectively, this means that companies will be able to avoid regulations."""),
-                    ExampleSentenceKurdish(
-                        text:
-                            """بە کرداری، ئەمە واتا کۆمپانیاکان دەتوانن لە ڕێساکان خۆیان بدزنەوە."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakeffectivelys4("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakeffectivelys4("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                """Effectively, this means that companies will be able to avoid regulations.""",
+            kurdishText:
+                """بە کرداری، ئەمە واتا کۆمپانیاکان دەتوانن لە ڕێساکان خۆیان بدزنەوە.""",
+            onPressedBritish: () => speakeffectivelys4("en-GB"),
+            onPressedAmerican: () => speakeffectivelys4("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: """ژممارە. (ھاوەڵکار) پێنناسە"""),

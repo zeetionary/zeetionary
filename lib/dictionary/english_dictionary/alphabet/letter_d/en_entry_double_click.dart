@@ -365,32 +365,13 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "١. (کردار) ئەوەی دوو جار پەنجە بنێیت بە ماوسی کۆمپیوتەردا"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "To run an application, just double-click on the icon."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "بۆ کردنەوەی ئەپێک، تەنھا دەبڵ کلیک لەسەر ئایکۆنەکەی بکە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "double-click", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdoubleclicks1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdoubleclicks1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "To run an application, just double-click on the icon.",
+            kurdishText:
+                "بۆ کردنەوەی ئەپێک، تەنھا دەبڵ کلیک لەسەر ئایکۆنەکەی بکە.", // double-click
+            onPressedBritish: () => speakdoubleclicks1("en-GB"),
+            onPressedAmerican: () => speakdoubleclicks1("en-US"),
           ),
           // doubleclicks200"),
           // speakdoubleclicks2

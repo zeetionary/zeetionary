@@ -233,32 +233,13 @@ class KurdishMeaning extends StatelessWidget {
 """),
           const DefinitionKurdish(
               text: "١. (ھاوەڵناو) درەختێک کە ھەموو ساڵێک گەڵاکانی دەوەرێت"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The forest was a mix of evergreen and deciduous trees."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "دارستانەکە تێکەڵەیەک لە درەختی ھەمیشە سەوز و گەڵاوەریو بوو."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "deciduous", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdeciduouss1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdeciduouss1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "The forest was a mix of evergreen and deciduous trees.",
+            kurdishText:
+                "دارستانەکە تێکەڵەیەک لە درەختی ھەمیشە سەوز و گەڵاوەریو بوو.", // deciduous
+            onPressedBritish: () => speakdeciduouss1("en-GB"),
+            onPressedAmerican: () => speakdeciduouss1("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "٢. (ھاوەڵناو) پێنناسە"),

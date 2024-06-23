@@ -243,58 +243,19 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "١. (ناو) بەڵگەنامەیەکی فەرمی کە دەڵێت کەسێک دەبێت بکوژرێت بۆ تاوانێک کە ئەنجامی داوە"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "The president signed the death warrant."),
-                    ExampleSentenceKurdish(
-                        text: "سەرۆک سزای مەرگەکەی پەسەند کرد."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "death warrant", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdeathwarrants1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdeathwarrants1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "The president signed the death warrant.",
+            kurdishText: "سەرۆک سزای مەرگەکەی پەسەند کرد.", // death warrant
+            onPressedBritish: () => speakdeathwarrants1("en-GB"),
+            onPressedAmerican: () => speakdeathwarrants1("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The king refused to sign the death warrant for his old friend."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "پاشا ڕەتیکردەوە سزای مەرگی ھاوڕێ کۆنەکەی واژۆ بکات."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdeathwarrants2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdeathwarrants2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "The king refused to sign the death warrant for his old friend.",
+            kurdishText: "پاشا ڕەتیکردەوە سزای مەرگی ھاوڕێ کۆنەکەی واژۆ بکات.",
+            onPressedBritish: () => speakdeathwarrants2("en-GB"),
+            onPressedAmerican: () => speakdeathwarrants2("en-US"),
           ),
         ],
       ),

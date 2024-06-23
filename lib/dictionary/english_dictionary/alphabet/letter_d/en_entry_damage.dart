@@ -386,171 +386,55 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "١. (ناو) زیانی فیزیکی کە لە نرخ، جوانی، یان سوودی شتێک کەم دەکاتەوە"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The building suffered extensive damage by fire in 1925."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "بیناکە ڕووبەڕووی زیانی زۆر بە ئاگر بوویەوە لە ساڵی ١٩٢٥."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "damage", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdamages1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdamages1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "The building suffered extensive damage by fire in 1925.",
+            kurdishText:
+                "بیناکە ڕووبەڕووی زیانی زۆر بە ئاگر بوویەوە لە ساڵی ١٩٢٥.", // damage
+            onPressedBritish: () => speakdamages1("en-GB"),
+            onPressedAmerican: () => speakdamages1("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "The accident caused no permanent damage."),
-                    ExampleSentenceKurdish(
-                        text: "ڕووداوەکە ھیچ زیانێکی ھەمیشەیی درووست نەکرد."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdamages2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdamages2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "The accident caused no permanent damage.",
+            kurdishText: "ڕووداوەکە ھیچ زیانێکی ھەمیشەیی درووست نەکرد.",
+            onPressedBritish: () => speakdamages2("en-GB"),
+            onPressedAmerican: () => speakdamages2("en-US"),
           ),
           Column(
             children: [
               MyExpansionTile(
                 children: [
-                  Row(
-                    children: [
-                      const Expanded(
-                        child: Column(
-                          children: [
-                            ExampleSentenceEnglish(
-                                text:
-                                    "She suffered minor brain damage at birth."),
-                            ExampleSentenceKurdish(
-                                text:
-                                    "لە کاتی لەدایکبووندا ڕووبەڕووی زیانی بچووکی مێشکی بوویەوە."),
-                          ],
-                        ),
-                      ),
-                      const CustomSizedBoxForTTS(),
-                      Column(
-                        children: [
-                          CustomIconButtonBritish(
-                            onPressed: () => speakdamages3("en-GB"),
-                          ),
-                          CustomIconButtonAmerican(
-                            onPressed: () => speakdamages3("en-US"),
-                          ),
-                        ],
-                      ),
-                    ],
+                  SentencesRow(
+                    englishText: "She suffered minor brain damage at birth.",
+                    kurdishText:
+                        "لە کاتی لەدایکبووندا ڕووبەڕووی زیانی بچووکی مێشکی بوویەوە.",
+                    onPressedBritish: () => speakdamages3("en-GB"),
+                    onPressedAmerican: () => speakdamages3("en-US"),
                   ),
                   const DividerSentences(),
-                  Row(
-                    children: [
-                      const Expanded(
-                        child: Column(
-                          children: [
-                            ExampleSentenceEnglish(
-                                text:
-                                    "The earthquake caused damage to property estimated at £6 billion."),
-                            ExampleSentenceKurdish(
-                                text:
-                                    "بومەلەرزەکە زیانی مادی بە بەھای ٦ ملیار پاوەند درووست کرد."),
-                          ],
-                        ),
-                      ),
-                      const CustomSizedBoxForTTS(),
-                      Column(
-                        children: [
-                          CustomIconButtonBritish(
-                            onPressed: () => speakdamages4("en-GB"),
-                          ),
-                          CustomIconButtonAmerican(
-                            onPressed: () => speakdamages4("en-US"),
-                          ),
-                        ],
-                      ),
-                    ],
+                  SentencesRow(
+                    englishText:
+                        "The earthquake caused damage to property estimated at £6 billion.",
+                    kurdishText:
+                        "بومەلەرزەکە زیانی مادی بە بەھای ٦ ملیار پاوەند درووست کرد.",
+                    onPressedBritish: () => speakdamages4("en-GB"),
+                    onPressedAmerican: () => speakdamages4("en-US"),
                   ),
                   const DividerSentences(),
-                  Row(
-                    children: [
-                      const Expanded(
-                        child: Column(
-                          children: [
-                            ExampleSentenceEnglish(
-                                text: "The storm didn't do much damage."),
-                            ExampleSentenceKurdish(
-                                text: "زریانەکە زیانی زۆری نەگەیاند."),
-                          ],
-                        ),
-                      ),
-                      const CustomSizedBoxForTTS(),
-                      Column(
-                        children: [
-                          CustomIconButtonBritish(
-                            onPressed: () => speakdamages5("en-GB"),
-                          ),
-                          CustomIconButtonAmerican(
-                            onPressed: () => speakdamages5("en-US"),
-                          ),
-                        ],
-                      ),
-                    ],
+                  SentencesRow(
+                    englishText: "The storm didn't do much damage.",
+                    kurdishText: "زریانەکە زیانی زۆری نەگەیاند.",
+                    onPressedBritish: () => speakdamages5("en-GB"),
+                    onPressedAmerican: () => speakdamages5("en-US"),
                   ),
                   const DividerSentences(),
-                  Row(
-                    children: [
-                      const Expanded(
-                        child: Column(
-                          children: [
-                            ExampleSentenceEnglish(
-                                text:
-                                    "It could take years to repair the damage."),
-                            ExampleSentenceKurdish(
-                                text:
-                                    "دەکرێت چەندین ساڵی پێبچێت بۆ چاککردنەوەی زیانەکە."),
-                          ],
-                        ),
-                      ),
-                      const CustomSizedBoxForTTS(),
-                      Column(
-                        children: [
-                          CustomIconButtonBritish(
-                            onPressed: () => speakdamages6("en-GB"),
-                          ),
-                          CustomIconButtonAmerican(
-                            onPressed: () => speakdamages6("en-US"),
-                          ),
-                        ],
-                      ),
-                    ],
+                  SentencesRow(
+                    englishText: "It could take years to repair the damage.",
+                    kurdishText:
+                        "دەکرێت چەندین ساڵی پێبچێت بۆ چاککردنەوەی زیانەکە.",
+                    onPressedBritish: () => speakdamages6("en-GB"),
+                    onPressedAmerican: () => speakdamages6("en-US"),
                   ),
                 ],
               ),
@@ -559,368 +443,110 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٢. (ناو) کاریگەرییە خراپەکانی سەر کەسێک یان شتێک"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The children suffered psychological and emotional damage."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "منداڵەکان تووشی کێشەی دەروونی و سۆزداری بوونەوە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdamages7("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdamages7("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "The children suffered psychological and emotional damage.",
+            kurdishText: "منداڵەکان تووشی کێشەی دەروونی و سۆزداری بوونەوە.",
+            onPressedBritish: () => speakdamages7("en-GB"),
+            onPressedAmerican: () => speakdamages7("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "This could cause serious damage to the country's economy."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "ئەمە دەکرێت زیانی مەترسیدار بۆ ئابووری وڵاتەکە درووست بکات."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdamages8("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdamages8("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "This could cause serious damage to the country's economy.",
+            kurdishText:
+                "ئەمە دەکرێت زیانی مەترسیدار بۆ ئابووری وڵاتەکە درووست بکات.",
+            onPressedBritish: () => speakdamages8("en-GB"),
+            onPressedAmerican: () => speakdamages8("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "It will be hard to repair the damage to his reputation."),
-                    ExampleSentenceKurdish(
-                        text: "سەخت دەبێت لەکەداری ناوبانگی چاکبکرێتەوە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdamages9("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdamages9("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "It will be hard to repair the damage to his reputation.",
+            kurdishText: "سەخت دەبێت لەکەداری ناوبانگی چاکبکرێتەوە.",
+            onPressedBritish: () => speakdamages9("en-GB"),
+            onPressedAmerican: () => speakdamages9("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "Don't you think you've done enough damage already?"),
-                    ExampleSentenceKurdish(
-                        text:
-                            "پێتوانییە تا ئێستا بەشی پێویست زیانت گەیاندبێت؟"),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdamages10("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdamages10("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "Don't you think you've done enough damage already?",
+            kurdishText: "پێتوانییە تا ئێستا بەشی پێویست زیانت گەیاندبێت؟",
+            onPressedBritish: () => speakdamages10("en-GB"),
+            onPressedAmerican: () => speakdamages10("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "Don't try to apologize—the damage is done."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "ھەوڵ مەدە داوای لێبووردن بکەیت، زیانەکە گەشتووە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdamages11("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdamages11("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "Don't try to apologize—the damage is done.",
+            kurdishText: "ھەوڵ مەدە داوای لێبووردن بکەیت، زیانەکە گەشتووە.",
+            onPressedBritish: () => speakdamages11("en-GB"),
+            onPressedAmerican: () => speakdamages11("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The incident did permanent damage to relations between the two countries."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "ڕووداوەکە زیانی ھەمیشەیی گەیاند بە پەیوەندی نێوان دوو وڵاتەکە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdamages12("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdamages12("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "The incident did permanent damage to relations between the two countries.",
+            kurdishText:
+                "ڕووداوەکە زیانی ھەمیشەیی گەیاند بە پەیوەندی نێوان دوو وڵاتەکە.",
+            onPressedBritish: () => speakdamages12("en-GB"),
+            onPressedAmerican: () => speakdamages12("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
                   "٣. (ناو) بڕە پارەیەک کە وەک قەرەبوو لەلایەن دادگاوە دەدرێت"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "He was ordered to pay damages totalling £30 000."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "سزادرا بە دانی قەرەبوو بە کۆی گشتی ٣٠٠٠٠ پاوەند."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdamages13("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdamages13("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "He was ordered to pay damages totalling £30 000.",
+            kurdishText: "سزادرا بە دانی قەرەبوو بە کۆی گشتی ٣٠٠٠٠ پاوەند.",
+            onPressedBritish: () => speakdamages13("en-GB"),
+            onPressedAmerican: () => speakdamages13("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "They intend to sue for damages."),
-                    ExampleSentenceKurdish(
-                        text: "نیازیان ھەیە سکاڵا بۆ قەرەبوو تۆمار بکەن."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdamages14("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdamages14("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "They intend to sue for damages.",
+            kurdishText: "نیازیان ھەیە سکاڵا بۆ قەرەبوو تۆمار بکەن.",
+            onPressedBritish: () => speakdamages14("en-GB"),
+            onPressedAmerican: () => speakdamages14("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                      text: "Ann was awarded £6 000 (in) damages.ئان",
-                      note: "Also: Ann was awarded damages of £6 000.",
-                    ),
-                    ExampleSentenceKurdish(
-                        text: "ئان ٦٠٠٠ پاوەندی وەک قەرەبوو پێدرا."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdamages15("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdamages15("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "Ann was awarded £6 000 (in) damages.ئان",
+            englishNote: "Also: Ann was awarded damages of £6 000.",
+            kurdishText: "ئان ٦٠٠٠ پاوەندی وەک قەرەبوو پێدرا.",
+            onPressedBritish: () => speakdamages15("en-GB"),
+            onPressedAmerican: () => speakdamages15("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٤. (کردار) زیان گەیاندن بە کەسێک یان شتێک"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The church was badly damaged by the 1997 earthquake."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "کڵێساکە بەخراپی زیانی پێگەشت بە بومەلەرزەکەی ١٩٩٧."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdamages16("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdamages16("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "The church was badly damaged by the 1997 earthquake.",
+            kurdishText: "کڵێساکە بەخراپی زیانی پێگەشت بە بومەلەرزەکەی ١٩٩٧.",
+            onPressedBritish: () => speakdamages16("en-GB"),
+            onPressedAmerican: () => speakdamages16("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "Smoking seriously damages your health."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "جگەرەکێشان بە خراپی زیان دەگەیەنێت بە تەندرووستیت."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdamages17("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdamages17("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "Smoking seriously damages your health.",
+            kurdishText: "جگەرەکێشان بە خراپی زیان دەگەیەنێت بە تەندرووستیت.",
+            onPressedBritish: () => speakdamages17("en-GB"),
+            onPressedAmerican: () => speakdamages17("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "Our car was damaged beyond repair in the crash."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "ئۆۆتمبێلەکەمان ھێندە بەر زیان کەوت لە ڕووداوەکەدا کە چاکنەدەکرایەوە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdamages18("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdamages18("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "Our car was damaged beyond repair in the crash.",
+            kurdishText:
+                "ئۆۆتمبێلەکەمان ھێندە بەر زیان کەوت لە ڕووداوەکەدا کە چاکنەدەکرایەوە.",
+            onPressedBritish: () => speakdamages18("en-GB"),
+            onPressedAmerican: () => speakdamages18("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "She fears the allegations could permanently damage her reputation."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "دەترسێت کە تۆمەتەکان بۆ ھەمیشەیی ناوبانگی لەکەدار بکەن."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdamages19("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdamages19("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "She fears the allegations could permanently damage her reputation.",
+            kurdishText:
+                "دەترسێت کە تۆمەتەکان بۆ ھەمیشەیی ناوبانگی لەکەدار بکەن.",
+            onPressedBritish: () => speakdamages19("en-GB"),
+            onPressedAmerican: () => speakdamages19("en-US"),
           ),
         ],
       ),

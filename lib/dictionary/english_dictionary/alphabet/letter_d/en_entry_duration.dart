@@ -379,91 +379,33 @@ class KurdishMeaning extends StatelessWidget {
 کوردی: بەردەوامی، مانەوە، خایەن، ماوە،	(زمانەوانی) خایاندن
 """),
           const DefinitionKurdish(text: """١. (ناو) ماوەی بەردەوامی شتێک"""),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            """The school was used as a hospital for the duration of the war."""),
-                    ExampleSentenceKurdish(
-                        text:
-                            """قوتابخانەکە وەک نەخۆشخانە بەکارھات لە ماوەی جەنگەکەدا."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "duration", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdurations1("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdurations1("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                """The school was used as a hospital for the duration of the war.""",
+            kurdishText:
+                """قوتابخانەکە وەک نەخۆشخانە بەکارھات لە ماوەی جەنگەکەدا.""", // duration
+            onPressedBritish: () => speakdurations1("en-GB"),
+            onPressedAmerican: () => speakdurations1("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            """Taking antibiotics will shorten the duration of the illness."""),
-                    ExampleSentenceKurdish(
-                        text:
-                            """وەرگرتنی دژەبەکتریا ماوەی نەخۆشییەکە کەمدەکاتەوە."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdurations2("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdurations2("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                """Taking antibiotics will shorten the duration of the illness.""",
+            kurdishText:
+                """وەرگرتنی دژەبەکتریا ماوەی نەخۆشییەکە کەمدەکاتەوە.""",
+            onPressedBritish: () => speakdurations2("en-GB"),
+            onPressedAmerican: () => speakdurations2("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            """The overall duration of the flight was 11 hours."""),
-                    ExampleSentenceKurdish(
-                        text: """ماوەی گشتی گەشتەکە ١١ کاتژمێر بوو."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdurations3("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdurations3("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: """The overall duration of the flight was 11 hours.""",
+            kurdishText: """ماوەی گشتی گەشتەکە ١١ کاتژمێر بوو.""",
+            onPressedBritish: () => speakdurations3("en-GB"),
+            onPressedAmerican: () => speakdurations3("en-US"),
           ),
           // durations400
           // speakdurations4

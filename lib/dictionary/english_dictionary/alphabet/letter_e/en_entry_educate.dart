@@ -407,182 +407,67 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   """١. (کردار) فێرکردنی کەسێک بۆ ماوەیەک لە قوتابخانە، زانکۆ، ھتد"""),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: """She was educated in the US."""),
-                    ExampleSentenceKurdish(
-                        text: """لە ئەمریکا پەروەردە کرا."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "educate", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakeducates1("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakeducates1("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: """She was educated in the US.""",
+            kurdishText: """لە ئەمریکا پەروەردە کرا.""", // educate
+            onPressedBritish: () => speakeducates1("en-GB"),
+            onPressedAmerican: () => speakeducates1("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: """ژممارە. (کردار) پێنناسە"""),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            """All their children have been educated privately."""),
-                    ExampleSentenceKurdish(
-                        text:
-                            """ھەموو منداڵەکانیان بەشێوەیەکی تایبەتی پەروەردە کراون."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakeducates2("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakeducates2("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: """All their children have been educated privately.""",
+            kurdishText:
+                """ھەموو منداڵەکانیان بەشێوەیەکی تایبەتی پەروەردە کراون.""",
+            onPressedBritish: () => speakeducates2("en-GB"),
+            onPressedAmerican: () => speakeducates2("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: """ژممارە. (کردار) پێنناسە"""),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            """He was educated at his local school and then at Oxford."""),
-                    ExampleSentenceKurdish(
-                        text:
-                            """لە قوتابخانە خۆجێییەکەی خۆت پەروەردە کرا و دواتریش لە ئۆکسفۆرد-."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakeducates3("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakeducates3("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                """He was educated at his local school and then at Oxford.""",
+            kurdishText:
+                """لە قوتابخانە خۆجێییەکەی خۆت پەروەردە کرا و دواتریش لە ئۆکسفۆرد-.""",
+            onPressedBritish: () => speakeducates3("en-GB"),
+            onPressedAmerican: () => speakeducates3("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
                   """٢. (کردار) فێرکردنی کەسێک سەبارەت بە شتێک یان شێوازی کردنی شتێک"""),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            """He believed the BBC's purpose was ‘to inform, educate and entertain’."""),
-                    ExampleSentenceKurdish(
-                        text:
-                            """باوەڕی وابوو ئامانجی بی‌بی‌سی ئەوە بوو کە 'زانیاری بدات، پەروەردە بکات، و چێژ ببەخشێت'."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakeducates4("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakeducates4("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                """He believed the BBC's purpose was ‘to inform, educate and entertain’.""",
+            kurdishText:
+                """باوەڕی وابوو ئامانجی بی‌بی‌سی ئەوە بوو کە 'زانیاری بدات، پەروەردە بکات، و چێژ ببەخشێت'.""",
+            onPressedBritish: () => speakeducates4("en-GB"),
+            onPressedAmerican: () => speakeducates4("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: """ژممارە. (کردار) پێنناسە"""),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            """Children need to be educated on the dangers of drug-taking."""),
-                    ExampleSentenceKurdish(
-                        text:
-                            """منداڵان دەبێت ئاگادار بکرێنەوە سەبارەت بە زیانەکانی کێشانی مادەی ھۆشبەر."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakeducates5("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakeducates5("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                """Children need to be educated on the dangers of drug-taking.""",
+            kurdishText:
+                """منداڵان دەبێت ئاگادار بکرێنەوە سەبارەت بە زیانەکانی کێشانی مادەی ھۆشبەر.""",
+            onPressedBritish: () => speakeducates5("en-GB"),
+            onPressedAmerican: () => speakeducates5("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: """ژممارە. (کردار) پێنناسە"""),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            """The campaign is intended to educate people to respect the environment."""),
-                    ExampleSentenceKurdish(
-                        text:
-                            """کەمپینەکە ئامانجیەتی خەڵکی فێر بکات ڕێز لە ژینگە بگرن."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakeducates6("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakeducates6("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                """The campaign is intended to educate people to respect the environment.""",
+            kurdishText:
+                """کەمپینەکە ئامانجیەتی خەڵکی فێر بکات ڕێز لە ژینگە بگرن.""",
+            onPressedBritish: () => speakeducates6("en-GB"),
+            onPressedAmerican: () => speakeducates6("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: """ژممارە. (کردار) پێنناسە"""),

@@ -379,91 +379,33 @@ class KurdishMeaning extends StatelessWidget {
 """),
           const DefinitionKurdish(
               text: """١. (ھاوەڵناو) ھەبوونی گومان سەبارەت بە شتێک"""),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: """I was rather dubious about the whole idea."""),
-                    ExampleSentenceKurdish(
-                        text:
-                            """کەمێک گوماناوی بووم سەبارەت بە تەواوی پلانەکە."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "dubious", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdubiouss1("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdubiouss1("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: """I was rather dubious about the whole idea.""",
+            kurdishText:
+                """کەمێک گوماناوی بووم سەبارەت بە تەواوی پلانەکە.""", // dubious
+            onPressedBritish: () => speakdubiouss1("en-GB"),
+            onPressedAmerican: () => speakdubiouss1("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            """Kate looked dubious, but did as she was asked."""),
-                    ExampleSentenceKurdish(
-                        text:
-                            """کەیت بەگومان بوو، بەڵام ئەوەی کرد کە داوای لێکرا."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdubiouss2("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdubiouss2("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: """Kate looked dubious, but did as she was asked.""",
+            kurdishText:
+                """کەیت بەگومان بوو، بەڵام ئەوەی کرد کە داوای لێکرا.""",
+            onPressedBritish: () => speakdubiouss2("en-GB"),
+            onPressedAmerican: () => speakdubiouss2("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: """٢. (ھاوەڵناو) کە ڕاستگۆ نییە"""),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            """The man who sold it to him was known to be of dubious character."""),
-                    ExampleSentenceKurdish(
-                        text:
-                            """ئەو پیاوەی کە پێی فرۆشت بۆ کەسایەتیی تەڵەکەبازیی ناسراوبوو."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdubiouss3("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdubiouss3("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                """The man who sold it to him was known to be of dubious character.""",
+            kurdishText:
+                """ئەو پیاوەی کە پێی فرۆشت بۆ کەسایەتیی تەڵەکەبازیی ناسراوبوو.""",
+            onPressedBritish: () => speakdubiouss3("en-GB"),
+            onPressedAmerican: () => speakdubiouss3("en-US"),
           ),
           // dubiouss400
           // speakdubiouss4

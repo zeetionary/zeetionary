@@ -363,28 +363,11 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "١. (ھاوەڵکار) خەواڵووانە؛ بەشێوەیەک کە ماندوو دیاریت و دەتەوێت بخەویت"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(text: "She yawned drowsily."),
-                    ExampleSentenceKurdish(text: "خەواڵووانە باوێشکی دا."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "drowsily", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdrowsilys1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdrowsilys1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "She yawned drowsily.",
+            kurdishText: "خەواڵووانە باوێشکی دا.", // drowsily
+            onPressedBritish: () => speakdrowsilys1("en-GB"),
+            onPressedAmerican: () => speakdrowsilys1("en-US"),
           ),
           // drowsilys200"),
           // speakdrowsilys2

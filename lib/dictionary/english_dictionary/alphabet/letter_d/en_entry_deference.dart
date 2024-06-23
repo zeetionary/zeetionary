@@ -251,62 +251,24 @@ class KurdishMeaning extends StatelessWidget {
 """),
           const DefinitionKurdish(
               text: "١. (ناو) ڕەفتارێک کە ڕێزلێگرتن پیشان دەدات"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The women wore veils in deference to the customs of the country."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "ژنەکان لەچکیان پۆشی وەک ڕێزێک بۆ نەریتەکانی وڵاتەکە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "deference", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdeferences1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdeferences1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "The women wore veils in deference to the customs of the country.",
+            kurdishText:
+                "ژنەکان لەچکیان پۆشی وەک ڕێزێک بۆ نەریتەکانی وڵاتەکە.", // deference
+            onPressedBritish: () => speakdeferences1("en-GB"),
+            onPressedAmerican: () => speakdeferences1("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The flags were lowered out of deference to the bereaved family."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "ئاڵاکان نزمکرانەوە وەک ڕێزێک بۆ خانەوادە تازیەبارەکە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdeferences2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdeferences2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "The flags were lowered out of deference to the bereaved family.",
+            kurdishText:
+                "ئاڵاکان نزمکرانەوە وەک ڕێزێک بۆ خانەوادە تازیەبارەکە.",
+            onPressedBritish: () => speakdeferences2("en-GB"),
+            onPressedAmerican: () => speakdeferences2("en-US"),
           ),
           // deferences300"),
           // speakdeferences3

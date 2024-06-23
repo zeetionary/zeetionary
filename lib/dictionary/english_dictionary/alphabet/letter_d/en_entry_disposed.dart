@@ -249,87 +249,32 @@ class KurdishMeaning extends StatelessWidget {
 """),
           const DefinitionKurdish(
               text: "١. (ھاوەڵناو) ھەبوونی ئامادەیی بۆ کردنی شتێک"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(text: "I'm not disposed to argue."),
-                    ExampleSentenceKurdish(text: "مەیکی مشتومڕم نییە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "disposed", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdisposeds1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdisposeds1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "I'm not disposed to argue.",
+            kurdishText: "مەیکی مشتومڕم نییە.", // disposed
+            onPressedBritish: () => speakdisposeds1("en-GB"),
+            onPressedAmerican: () => speakdisposeds1("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "You're most welcome to join us if you feel so disposed."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "زۆر خۆشحاڵ دەبین پەیوەندیمان پێوە بکەیت ئەگەر حەزت لێیە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdisposeds2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdisposeds2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "You're most welcome to join us if you feel so disposed.",
+            kurdishText:
+                "زۆر خۆشحاڵ دەبین پەیوەندیمان پێوە بکەیت ئەگەر حەزت لێیە.",
+            onPressedBritish: () => speakdisposeds2("en-GB"),
+            onPressedAmerican: () => speakdisposeds2("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٢. (ھاوەڵناو) ھەبوونی بۆچوونی خراپ/باش لەسەر کەسێک"),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "She seems favourably disposed to the move."),
-                    ExampleSentenceKurdish(
-                        text: "وادەردەکەوێت ئەرێنییانە لەگەڵ جوڵەکەدا بێت."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdisposeds3("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdisposeds3("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "She seems favourably disposed to the move.",
+            kurdishText: "وادەردەکەوێت ئەرێنییانە لەگەڵ جوڵەکەدا بێت.",
+            onPressedBritish: () => speakdisposeds3("en-GB"),
+            onPressedAmerican: () => speakdisposeds3("en-US"),
           ),
           // disposeds400"),
           // speakdisposeds4

@@ -248,59 +248,21 @@ class KurdishMeaning extends StatelessWidget {
 """),
           const DefinitionKurdish(
               text: "١. (ناو) کەشتییەکی بچووک کە لە جەنگدا بەکاردێت"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "The navy deployed a destroyer to the region."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "ھێزی دەریایی کەشتییەکی شەڕکەری نارد بۆ ھەرێمەکە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "destroyer", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdestroyers1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdestroyers1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "The navy deployed a destroyer to the region.",
+            kurdishText:
+                "ھێزی دەریایی کەشتییەکی شەڕکەری نارد بۆ ھەرێمەکە.", // destroyer
+            onPressedBritish: () => speakdestroyers1("en-GB"),
+            onPressedAmerican: () => speakdestroyers1("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: "٢. (ناو) کەسێک یان شتێک کە وێرانکەرە"),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "Sugar is the destroyer of healthy teeth."),
-                    ExampleSentenceKurdish(
-                        text: "شەکر وێرانکەری ددانی تەندرووستە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdestroyers2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdestroyers2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "Sugar is the destroyer of healthy teeth.",
+            kurdishText: "شەکر وێرانکەری ددانی تەندرووستە.",
+            onPressedBritish: () => speakdestroyers2("en-GB"),
+            onPressedAmerican: () => speakdestroyers2("en-US"),
           ),
           // destroyers300"),
           // speakdestroyers3

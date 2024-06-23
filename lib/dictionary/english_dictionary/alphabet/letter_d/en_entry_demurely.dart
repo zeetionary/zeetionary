@@ -234,31 +234,11 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "١. (ھاوەڵکار) بە بێ‌دەنگی و جدی بەبێ ئەوەی سەرنج ڕابکێشێت"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "She sat with her hands folded demurely in her lap."),
-                    ExampleSentenceKurdish(
-                        text: "دانیشت و دەستەکانی بە مەندی خستە کۆشی."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "demurely", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdemurelys1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdemurelys1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "She sat with her hands folded demurely in her lap.",
+            kurdishText: "دانیشت و دەستەکانی بە مەندی خستە کۆشی.", // demurely
+            onPressedBritish: () => speakdemurelys1("en-GB"),
+            onPressedAmerican: () => speakdemurelys1("en-US"),
           ),
           // demurelys200"),
           // speakdemurelys2

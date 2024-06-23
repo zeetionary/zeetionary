@@ -374,62 +374,24 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "١. (ناو) بە فەرمی کۆتایی ھێنان بە ھاوسەرگیرییەک، ڕێکەوتنێکی بازرگانی، یان پەرلەمان"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The company was set up following the dissolution of the Soviet Union."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "کۆمپانیاکە درووستکرا لە دوای ھەڵوەشانەوەی یەکێتیی سۆڤیەت."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "dissolution", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdissolutions1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdissolutions1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "The company was set up following the dissolution of the Soviet Union.",
+            kurdishText:
+                "کۆمپانیاکە درووستکرا لە دوای ھەڵوەشانەوەی یەکێتیی سۆڤیەت.", // dissolution
+            onPressedBritish: () => speakdissolutions1("en-GB"),
+            onPressedAmerican: () => speakdissolutions1("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: "٢. (ناو) پڕۆسەی کەم کەم نەمانی شتێک"),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The dissolution of barriers of class and gender improves equality."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "نەمانی بەربەستە چینایەتی و ڕەگەزییەکان یەکسانی بەھێز دەکات."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdissolutions2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdissolutions2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "The dissolution of barriers of class and gender improves equality.",
+            kurdishText:
+                "نەمانی بەربەستە چینایەتی و ڕەگەزییەکان یەکسانی بەھێز دەکات.",
+            onPressedBritish: () => speakdissolutions2("en-GB"),
+            onPressedAmerican: () => speakdissolutions2("en-US"),
           ),
           // dissolutions300"),
           // speakdissolutions3

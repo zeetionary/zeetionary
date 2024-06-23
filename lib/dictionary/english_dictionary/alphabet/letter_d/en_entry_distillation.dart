@@ -382,92 +382,33 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "١. (ناو) پڕۆسەی خاوێنکردنەوەی شلەیەک بە ئەوەی بیکەیت بە ھەڵم و دواتر ساردی بکەیتەوە و دڵۆپەکانی کۆبکەیتەوە؛ ئامادەکردن شلەیەک بەو شێوەیە"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "Usually the liquid is extracted by distillation."),
-                    ExampleSentenceKurdish(
-                        text: "زۆرجار شلەکە بە دڵۆپاندن دەردەکرێت."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "distillation", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdistillations1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdistillations1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "Usually the liquid is extracted by distillation.",
+            kurdishText: "زۆرجار شلەکە بە دڵۆپاندن دەردەکرێت.", // distillation
+            onPressedBritish: () => speakdistillations1("en-GB"),
+            onPressedAmerican: () => speakdistillations1("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
                   "٢. (ناو) پڕۆسەی وەرگرتنی بیرۆکە، واتا، یان زانیاری سەرەکیی شتێک؛ شتێک کە واتای سەرەکیی شتێک دەبەخشێت"),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The movie is a perfect distillation of adolescence."),
-                    ExampleSentenceKurdish(
-                        text: "فیلمەکە وێنایەکی تەواوی گەنجێتییە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdistillations2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdistillations2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "The movie is a perfect distillation of adolescence.",
+            kurdishText: "فیلمەکە وێنایەکی تەواوی گەنجێتییە.",
+            onPressedBritish: () => speakdistillations2("en-GB"),
+            onPressedAmerican: () => speakdistillations2("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The report is a distillation of hundreds of past studies on the subject."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "ڕاپۆرتەکە کۆکراوەی سەدان توێژینەوەی ڕابردووە لەسەر بابەتەکە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdistillations3("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdistillations3("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "The report is a distillation of hundreds of past studies on the subject.",
+            kurdishText:
+                "ڕاپۆرتەکە کۆکراوەی سەدان توێژینەوەی ڕابردووە لەسەر بابەتەکە.",
+            onPressedBritish: () => speakdistillations3("en-GB"),
+            onPressedAmerican: () => speakdistillations3("en-US"),
           ),
           // distillations400"),
           // speakdistillations4

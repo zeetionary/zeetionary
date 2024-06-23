@@ -429,701 +429,230 @@ class KurdishMeaning extends StatelessWidget {
 """),
           const DefinitionKurdish(
               text: "١. (ناو) ئاراستەی گشتی جوڵەی کەسێک یان شتێک"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "They headed in the direction of the village."),
-                    ExampleSentenceKurdish(text: "بە ئاراستەی گوندەکە چوون."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "direction", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdirections1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdirections1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "They headed in the direction of the village.",
+            kurdishText: "بە ئاراستەی گوندەکە چوون.", // direction
+            onPressedBritish: () => speakdirections1("en-GB"),
+            onPressedAmerican: () => speakdirections1("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "She pointed in my direction."),
-                    ExampleSentenceKurdish(text: "بە ئاراستەی من ئاماژەی کرد."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdirections2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdirections2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "She pointed in my direction.",
+            kurdishText: "بە ئاراستەی من ئاماژەی کرد.",
+            onPressedBritish: () => speakdirections2("en-GB"),
+            onPressedAmerican: () => speakdirections2("en-US"),
           ),
           Column(
             children: [
               MyExpansionTile(
                 children: [
-                  Row(
-                    children: [
-                      const Expanded(
-                        child: Column(
-                          children: [
-                            ExampleSentenceEnglish(
-                                text:
-                                    "They hit a truck coming in the opposite direction."),
-                            ExampleSentenceKurdish(
-                                text:
-                                    "کێشایان بە بارھەڵگرێکدا کە بە ئاراستەی پێچەوانەوە دەھات."),
-                          ],
-                        ),
-                      ),
-                      const CustomSizedBoxForTTS(),
-                      Column(
-                        children: [
-                          CustomIconButtonBritish(
-                            onPressed: () => speakdirections3("en-GB"),
-                          ),
-                          CustomIconButtonAmerican(
-                            onPressed: () => speakdirections3("en-US"),
-                          ),
-                        ],
-                      ),
-                    ],
+                  SentencesRow(
+                    englishText:
+                        "They hit a truck coming in the opposite direction.",
+                    kurdishText:
+                        "کێشایان بە بارھەڵگرێکدا کە بە ئاراستەی پێچەوانەوە دەھات.",
+                    onPressedBritish: () => speakdirections3("en-GB"),
+                    onPressedAmerican: () => speakdirections3("en-US"),
                   ),
-                  // const DividerDefinition(),
-                  // const DefinitionKurdish(text: "ژممارە. (ناو) پێنناسە"),
                   const DividerSentences(),
-                  Row(
-                    children: [
-                      const Expanded(
-                        child: Column(
-                          children: [
-                            ExampleSentenceEnglish(
-                                text:
-                                    "The road was blocked in both directions."),
-                            ExampleSentenceKurdish(
-                                text: "ڕێگاکە لە ھەردوو ئاراستەوە گیرابوو."),
-                          ],
-                        ),
-                      ),
-                      const CustomSizedBoxForTTS(),
-                      Column(
-                        children: [
-                          CustomIconButtonBritish(
-                            onPressed: () => speakdirections4("en-GB"),
-                          ),
-                          CustomIconButtonAmerican(
-                            onPressed: () => speakdirections4("en-US"),
-                          ),
-                        ],
-                      ),
-                    ],
+                  SentencesRow(
+                    englishText: "The road was blocked in both directions.",
+                    kurdishText: "ڕێگاکە لە ھەردوو ئاراستەوە گیرابوو.",
+                    onPressedBritish: () => speakdirections4("en-GB"),
+                    onPressedAmerican: () => speakdirections4("en-US"),
                   ),
-                  // const DividerDefinition(),
-                  // const DefinitionKurdish(text: "ژممارە. (ناو) پێنناسە"),
                   const DividerSentences(),
-                  Row(
-                    children: [
-                      const Expanded(
-                        child: Column(
-                          children: [
-                            ExampleSentenceEnglish(
-                                text:
-                                    "The aircraft was flying in a northerly direction."),
-                            ExampleSentenceKurdish(
-                                text: "فڕۆکەکە بە ئاراستەی باکووردا دەچوو."),
-                          ],
-                        ),
-                      ),
-                      const CustomSizedBoxForTTS(),
-                      Column(
-                        children: [
-                          CustomIconButtonBritish(
-                            onPressed: () => speakdirections5("en-GB"),
-                          ),
-                          CustomIconButtonAmerican(
-                            onPressed: () => speakdirections5("en-US"),
-                          ),
-                        ],
-                      ),
-                    ],
+                  SentencesRow(
+                    englishText:
+                        "The aircraft was flying in a northerly direction.",
+                    kurdishText: "فڕۆکەکە بە ئاراستەی باکووردا دەچوو.",
+                    onPressedBritish: () => speakdirections5("en-GB"),
+                    onPressedAmerican: () => speakdirections5("en-US"),
                   ),
-                  // const DividerDefinition(),
-                  // const DefinitionKurdish(text: "ژممارە. (ناو) پێنناسە"),
                   const DividerSentences(),
-                  Row(
-                    children: [
-                      const Expanded(
-                        child: Column(
-                          children: [
-                            ExampleSentenceEnglish(
-                                text:
-                                    "When the police arrived, the crowd scattered in all directions."),
-                            ExampleSentenceKurdish(
-                                text:
-                                    "کە پۆلیس گەشت، خەڵکەکە بە ھەموو ئاراستەکاندا ھەڵھاتن."),
-                          ],
-                        ),
-                      ),
-                      const CustomSizedBoxForTTS(),
-                      Column(
-                        children: [
-                          CustomIconButtonBritish(
-                            onPressed: () => speakdirections6("en-GB"),
-                          ),
-                          CustomIconButtonAmerican(
-                            onPressed: () => speakdirections6("en-US"),
-                          ),
-                        ],
-                      ),
-                    ],
+                  SentencesRow(
+                    englishText:
+                        "When the police arrived, the crowd scattered in all directions.",
+                    kurdishText:
+                        "کە پۆلیس گەشت، خەڵکەکە بە ھەموو ئاراستەکاندا ھەڵھاتن.",
+                    onPressedBritish: () => speakdirections6("en-GB"),
+                    onPressedAmerican: () => speakdirections6("en-US"),
                   ),
-                  // const DividerDefinition(),
-                  // const DefinitionKurdish(text: "ژممارە. (ناو) پێنناسە"),
                   const DividerSentences(),
-                  Row(
-                    children: [
-                      const Expanded(
-                        child: Column(
-                          children: [
-                            ExampleSentenceEnglish(
-                                text: "Has the wind changed direction?"),
-                            ExampleSentenceKurdish(
-                                text: "بایەکە ئارستەی گۆڕیەو؟"),
-                          ],
-                        ),
-                      ),
-                      const CustomSizedBoxForTTS(),
-                      Column(
-                        children: [
-                          CustomIconButtonBritish(
-                            onPressed: () => speakdirections7("en-GB"),
-                          ),
-                          CustomIconButtonAmerican(
-                            onPressed: () => speakdirections7("en-US"),
-                          ),
-                        ],
-                      ),
-                    ],
+                  SentencesRow(
+                    englishText: "Has the wind changed direction?",
+                    kurdishText: "بایەکە ئارستەی گۆڕیەو؟",
+                    onPressedBritish: () => speakdirections7("en-GB"),
+                    onPressedAmerican: () => speakdirections7("en-US"),
                   ),
                 ],
               ),
             ],
           ),
+
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
                   "٢. (ناو) ڕێنمایی سەبارەت بە کردنی شتێک، ڕۆشتن بۆ شوێنێک، ھتد"),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "Let's stop and ask for directions."),
-                    ExampleSentenceKurdish(
-                        text: "با بوەستین و پرسیار بۆ ناونیشان بکەیت."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdirections8("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdirections8("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "Let's stop and ask for directions.",
+            kurdishText: "با بوەستین و پرسیار بۆ ناونیشان بکەیت.",
+            onPressedBritish: () => speakdirections8("en-GB"),
+            onPressedAmerican: () => speakdirections8("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "A farmer gave us directions to the town."),
-                    ExampleSentenceKurdish(
-                        text: "جوتیارێک ناونیشانی شارۆچکەکەی پێداین."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdirections9("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdirections9("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "A farmer gave us directions to the town.",
+            kurdishText: "جوتیارێک ناونیشانی شارۆچکەکەی پێداین.",
+            onPressedBritish: () => speakdirections9("en-GB"),
+            onPressedAmerican: () => speakdirections9("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "With all pesticides, follow the directions for use carefully."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "بۆ ھەموو مێرووکوژێک، بەوریاییەوە شوێن ڕێنماییەکانی بەکارھێنان بکەوە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdirections10("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdirections10("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "With all pesticides, follow the directions for use carefully.",
+            kurdishText:
+                "بۆ ھەموو مێرووکوژێک، بەوریاییەوە شوێن ڕێنماییەکانی بەکارھێنان بکەوە.",
+            onPressedBritish: () => speakdirections10("en-GB"),
+            onPressedAmerican: () => speakdirections10("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٣. (ناو) ئاراستەی بەرەوپێشچوونی کەس/شتێک"),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The exhibition provides evidence of several new directions in her work."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "پێشانگاکە بەڵگەی ژمارەیەک ئاقاری تازە لە کارەکەیدا پیشان دەدات."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdirections11("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdirections11("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "The exhibition provides evidence of several new directions in her work.",
+            kurdishText:
+                "پێشانگاکە بەڵگەی ژمارەیەک ئاقاری تازە لە کارەکەیدا پیشان دەدات.",
+            onPressedBritish: () => speakdirections11("en-GB"),
+            onPressedAmerican: () => speakdirections11("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "I am very unhappy with the direction the club is taking."),
-                    ExampleSentenceKurdish(
-                        text: "زۆر دڵتەنگم بەو ئاقارەی یانەکە پێیدا دەڕوات."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdirections12("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdirections12("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "I am very unhappy with the direction the club is taking.",
+            kurdishText: "زۆر دڵتەنگم بەو ئاقارەی یانەکە پێیدا دەڕوات.",
+            onPressedBritish: () => speakdirections12("en-GB"),
+            onPressedAmerican: () => speakdirections12("en-US"),
           ),
           Column(
             children: [
               MyExpansionTile(
                 children: [
-                  Row(
-                    children: [
-                      const Expanded(
-                        child: Column(
-                          children: [
-                            ExampleSentenceEnglish(
-                                text:
-                                    "He wants to take the company in a different direction."),
-                            ExampleSentenceKurdish(
-                                text:
-                                    "دەیەوێت کۆمپانیاکە بە ئاراستەیەکی جیاوازدا ببات."),
-                          ],
-                        ),
-                      ),
-                      const CustomSizedBoxForTTS(),
-                      Column(
-                        children: [
-                          CustomIconButtonBritish(
-                            onPressed: () => speakdirections13("en-GB"),
-                          ),
-                          CustomIconButtonAmerican(
-                            onPressed: () => speakdirections13("en-US"),
-                          ),
-                        ],
-                      ),
-                    ],
+                  SentencesRow(
+                    englishText:
+                        "He wants to take the company in a different direction.",
+                    kurdishText:
+                        "دەیەوێت کۆمپانیاکە بە ئاراستەیەکی جیاوازدا ببات.",
+                    onPressedBritish: () => speakdirections13("en-GB"),
+                    onPressedAmerican: () => speakdirections13("en-US"),
                   ),
-                  // const DividerDefinition(),
-                  // const DefinitionKurdish(text: "ژممارە. (ناو) پێنناسە"),
                   const DividerSentences(),
-                  Row(
-                    children: [
-                      const Expanded(
-                        child: Column(
-                          children: [
-                            ExampleSentenceEnglish(
-                                text:
-                                    "Do you feel your career is heading/headed in the right direction?"),
-                            ExampleSentenceKurdish(
-                                text:
-                                    "پێتوایە کارەکەت بە ئاقارێکی گونجاودا دەچێت؟"),
-                          ],
-                        ),
-                      ),
-                      const CustomSizedBoxForTTS(),
-                      Column(
-                        children: [
-                          CustomIconButtonBritish(
-                            onPressed: () => speakdirections14("en-GB"),
-                          ),
-                          CustomIconButtonAmerican(
-                            onPressed: () => speakdirections14("en-US"),
-                          ),
-                        ],
-                      ),
-                    ],
+                  SentencesRow(
+                    englishText:
+                        "Do you feel your career is heading/headed in the right direction?",
+                    kurdishText: "پێتوایە کارەکەت بە ئاقارێکی گونجاودا دەچێت؟",
+                    onPressedBritish: () => speakdirections14("en-GB"),
+                    onPressedAmerican: () => speakdirections14("en-US"),
                   ),
-                  // const DividerDefinition(),
-                  // const DefinitionKurdish(text: "ژممارە. (ناو) پێنناسە"),
                   const DividerSentences(),
-                  Row(
-                    children: [
-                      const Expanded(
-                        child: Column(
-                          children: [
-                            ExampleSentenceEnglish(
-                                text:
-                                    "It's only a small improvement, but at least it's a step in the right direction."),
-                            ExampleSentenceKurdish(
-                                text:
-                                    "تەنھا بەرەوپێشچوونێکی بچووکە، بەڵام ھیچ نەبێت ھەنگاوێکە بە ئاراستەی گونجاودا."),
-                          ],
-                        ),
-                      ),
-                      const CustomSizedBoxForTTS(),
-                      Column(
-                        children: [
-                          CustomIconButtonBritish(
-                            onPressed: () => speakdirections15("en-GB"),
-                          ),
-                          CustomIconButtonAmerican(
-                            onPressed: () => speakdirections15("en-US"),
-                          ),
-                        ],
-                      ),
-                    ],
+                  SentencesRow(
+                    englishText:
+                        "It's only a small improvement, but at least it's a step in the right direction.",
+                    kurdishText:
+                        "تەنھا بەرەوپێشچوونێکی بچووکە، بەڵام ھیچ نەبێت ھەنگاوێکە بە ئاراستەی گونجاودا.",
+                    onPressedBritish: () => speakdirections15("en-GB"),
+                    onPressedAmerican: () => speakdirections15("en-US"),
                   ),
                 ],
               ),
             ],
           ),
+
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
                   "٤. (ناو) شوێنی گشتی کە کەسێک یان شتێک لێیەوە دێت یان گەشە دەکات"),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "Support came from an unexpected direction."),
-                    ExampleSentenceKurdish(
-                        text: "پشتیوانی لە بەرەیەکی چاوەڕوان نەکراوەوە ھات."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdirections16("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdirections16("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "Support came from an unexpected direction.",
+            kurdishText: "پشتیوانی لە بەرەیەکی چاوەڕوان نەکراوەوە ھات.",
+            onPressedBritish: () => speakdirections16("en-GB"),
+            onPressedAmerican: () => speakdirections16("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "Let us approach the subject from a different direction."),
-                    ExampleSentenceKurdish(
-                        text: "با لە باباتەکە بگەین لە ئاراستەیەکی جیاوازەوە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdirections17("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdirections17("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "Let us approach the subject from a different direction.",
+            kurdishText: "با لە باباتەکە بگەین لە ئاراستەیەکی جیاوازەوە.",
+            onPressedBritish: () => speakdirections17("en-GB"),
+            onPressedAmerican: () => speakdirections17("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: "٥. (ناو) مەبەست؛ ئامانج"),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "We are looking for somebody with a clear sense of direction."),
-                    ExampleSentenceKurdish(
-                        text: "بۆ کەسێک دەگەڕێین کە ئامانجی ڕوونی ھەبێت."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdirections18("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdirections18("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "We are looking for somebody with a clear sense of direction.",
+            kurdishText: "بۆ کەسێک دەگەڕێین کە ئامانجی ڕوونی ھەبێت.",
+            onPressedBritish: () => speakdirections18("en-GB"),
+            onPressedAmerican: () => speakdirections18("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "Once again her life felt lacking in direction."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "جارێکی دیکە ژیانی وا دەردەکەوت کە ئامانجی نەبێت."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdirections19("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdirections19("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "Once again her life felt lacking in direction.",
+            kurdishText: "جارێکی دیکە ژیانی وا دەردەکەوت کە ئامانجی نەبێت.",
+            onPressedBritish: () => speakdirections19("en-GB"),
+            onPressedAmerican: () => speakdirections19("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "There seems to be no clear direction in his policy."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "وا دەردەکەوێت کە ھیچ ئامانجێکی ڕوون لە سیاسەتیدا نەبێت."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdirections20("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdirections20("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "There seems to be no clear direction in his policy.",
+            kurdishText:
+                "وا دەردەکەوێت کە ھیچ ئامانجێکی ڕوون لە سیاسەتیدا نەبێت.",
+            onPressedBritish: () => speakdirections20("en-GB"),
+            onPressedAmerican: () => speakdirections20("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٦. (ناو) ھونەری بەڕێوەبردن و ئاراستەکردنی شتێک"),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "She was entrusted with the direction of the project."),
-                    ExampleSentenceKurdish(
-                        text: "متمانەی بەڕێوەبردنی پڕۆژەکەی پێدرا."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdirections21("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdirections21("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "She was entrusted with the direction of the project.",
+            kurdishText: "متمانەی بەڕێوەبردنی پڕۆژەکەی پێدرا.",
+            onPressedBritish: () => speakdirections21("en-GB"),
+            onPressedAmerican: () => speakdirections21("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "All work was produced by the students under the direction of John Williams."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "ھەموو کارەکان لەلایەن خوێندکارانەوە لەژێر سەرپەرشتی جۆن ویلیامز ئەنجام درا."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdirections22("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdirections22("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "All work was produced by the students under the direction of John Williams.",
+            kurdishText:
+                "ھەموو کارەکان لەلایەن خوێندکارانەوە لەژێر سەرپەرشتی جۆن ویلیامز ئەنجام درا.",
+            onPressedBritish: () => speakdirections22("en-GB"),
+            onPressedAmerican: () => speakdirections22("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "All such research is under government direction."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "ھەموو لێکۆڵینەوەیەکی وەھا لەژێر سەرپەرشتی حکومەت دەکرێت."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdirections23("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdirections23("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "All such research is under government direction.",
+            kurdishText:
+                "ھەموو لێکۆڵینەوەیەکی وەھا لەژێر سەرپەرشتی حکومەت دەکرێت.",
+            onPressedBritish: () => speakdirections23("en-GB"),
+            onPressedAmerican: () => speakdirections23("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The new workers need direction from a supervisor."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "کرێکارە تازەکان پێویستیان بە ڕێنماییە لە سەرپەرشتیارێکەوە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdirections24("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdirections24("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "The new workers need direction from a supervisor.",
+            kurdishText:
+                "کرێکارە تازەکان پێویستیان بە ڕێنماییە لە سەرپەرشتیارێکەوە.",
+            onPressedBritish: () => speakdirections24("en-GB"),
+            onPressedAmerican: () => speakdirections24("en-US"),
           ),
           // directions2500"),
           // speakdirections25

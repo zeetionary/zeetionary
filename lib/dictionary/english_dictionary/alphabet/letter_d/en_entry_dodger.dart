@@ -363,32 +363,13 @@ class KurdishMeaning extends StatelessWidget {
 """),
           const DefinitionKurdish(
               text: "١. (ناو) کەسێک کە فێڵبازانە خۆی لە شتێک ئەدزێتەوە"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The politician was criticized for being a dodger, never giving clear answers."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "سیاسەتوانەکە وەک تەڵەکەبازێک سەرزەنشت کرا کە ھەرگیز وەڵامی ڕوونی نەدەدا."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "dodger", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdodgers1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdodgers1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "The politician was criticized for being a dodger, never giving clear answers.",
+            kurdishText:
+                "سیاسەتوانەکە وەک تەڵەکەبازێک سەرزەنشت کرا کە ھەرگیز وەڵامی ڕوونی نەدەدا.", // dodger
+            onPressedBritish: () => speakdodgers1("en-GB"),
+            onPressedAmerican: () => speakdodgers1("en-US"),
           ),
           // dodgers200"),
           // speakdodgers2

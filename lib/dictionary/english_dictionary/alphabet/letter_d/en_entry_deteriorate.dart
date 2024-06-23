@@ -268,119 +268,42 @@ class KurdishMeaning extends StatelessWidget {
 کوردی: ژەنگاو بوون، گەندەڵ بوون، خراپ کردن
 """),
           const DefinitionKurdish(text: "١. (کردار) خراپتر بوون"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "Her health deteriorated rapidly, and she died shortly afterwards."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "تەندرووستی بە خێرایی خراپتر بوو و کەمێک دواتر مرد."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "deteriorate", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdeteriorates1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdeteriorates1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "Her health deteriorated rapidly, and she died shortly afterwards.",
+            kurdishText:
+                "تەندرووستی بە خێرایی خراپتر بوو و کەمێک دواتر مرد.", // deteriorate
+            onPressedBritish: () => speakdeteriorates1("en-GB"),
+            onPressedAmerican: () => speakdeteriorates1("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "They had to cope with deteriorating weather conditions."),
-                    ExampleSentenceKurdish(
-                        text: "پێویست بوو بەرگەی دۆخی خراپتری کەشوھەوا بگرن."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdeteriorates2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdeteriorates2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "They had to cope with deteriorating weather conditions.",
+            kurdishText: "پێویست بوو بەرگەی دۆخی خراپتری کەشوھەوا بگرن.",
+            onPressedBritish: () => speakdeteriorates2("en-GB"),
+            onPressedAmerican: () => speakdeteriorates2("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The discussion quickly deteriorated into an angry argument."),
-                    ExampleSentenceKurdish(
-                        text: "باسەکە زوو توندتر بوو بۆ مشتومڕی گەرم."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdeteriorates3("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdeteriorates3("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "The discussion quickly deteriorated into an angry argument.",
+            kurdishText: "باسەکە زوو توندتر بوو بۆ مشتومڕی گەرم.",
+            onPressedBritish: () => speakdeteriorates3("en-GB"),
+            onPressedAmerican: () => speakdeteriorates3("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The unrest rapidly deteriorated into civil war."),
-                    ExampleSentenceKurdish(
-                        text: "ئاژاوەکە بە خێرایی تەشەنەی کرد بۆ شەڕی ناوخۆ."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdeteriorates4("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdeteriorates4("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "The unrest rapidly deteriorated into civil war.",
+            kurdishText: "ئاژاوەکە بە خێرایی تەشەنەی کرد بۆ شەڕی ناوخۆ.",
+            onPressedBritish: () => speakdeteriorates4("en-GB"),
+            onPressedAmerican: () => speakdeteriorates4("en-US"),
           ),
           // deteriorates500"),
           // speakdeteriorates5

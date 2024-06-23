@@ -241,57 +241,20 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "١. (ناو) دڵۆپەی بچووکی ئاو کە لە شەودا لەسەر زەوی درووست دەبێت"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "The grass was wet with early morning dew."),
-                    ExampleSentenceKurdish(
-                        text: "گیاکە تەڕ بوو بە ئاونگی بەرەبەیان."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "dew", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdews1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdews1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "The grass was wet with early morning dew.",
+            kurdishText: "گیاکە تەڕ بوو بە ئاونگی بەرەبەیان.", // dew
+            onPressedBritish: () => speakdews1("en-GB"),
+            onPressedAmerican: () => speakdews1("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "There was a heavy dew tonight."),
-                    ExampleSentenceKurdish(text: "ئەمشەو شەونمێکی زۆر ھەبوو."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdews2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdews2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "There was a heavy dew tonight.",
+            kurdishText: "ئەمشەو شەونمێکی زۆر ھەبوو.",
+            onPressedBritish: () => speakdews2("en-GB"),
+            onPressedAmerican: () => speakdews2("en-US"),
           ),
           // dews300"),
           // speakdews3

@@ -265,139 +265,46 @@ class KurdishMeaning extends StatelessWidget {
 // """),
           const DefinitionKurdish(
               text: "١. (کردار) خواردنی تەواوی شتێک بە خێرایی"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "He devoured half of his burger in one bite."),
-                    ExampleSentenceKurdish(
-                        text: "نیوەی لەفەکەی بە یەک قەپ ھەڵلووشی."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "devour", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdevours1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdevours1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "He devoured half of his burger in one bite.",
+            kurdishText: "نیوەی لەفەکەی بە یەک قەپ ھەڵلووشی.", // devour
+            onPressedBritish: () => speakdevours1("en-GB"),
+            onPressedAmerican: () => speakdevours1("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "The animal quickly devoured its prey."),
-                    ExampleSentenceKurdish(
-                        text: "ئاژەڵەکە بەخێرایی نێچیرەکەیی خوارد."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdevours2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdevours2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "The animal quickly devoured its prey.",
+            kurdishText: "ئاژەڵەکە بەخێرایی نێچیرەکەیی خوارد.",
+            onPressedBritish: () => speakdevours2("en-GB"),
+            onPressedAmerican: () => speakdevours2("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٢. (کردار) خوێندنەوە یان سەیرکردنی شتێک بە حەزێکی زۆرەوە"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "His dark eyes devoured her beauty."),
-                    ExampleSentenceKurdish(
-                        text: "چاوە ڕەشەکانی نغرۆی جوانییەکەی بووبوو."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdevours3("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdevours3("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "His dark eyes devoured her beauty.",
+            kurdishText: "چاوە ڕەشەکانی نغرۆی جوانییەکەی بووبوو.",
+            onPressedBritish: () => speakdevours3("en-GB"),
+            onPressedAmerican: () => speakdevours3("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "She devoured everything she could lay her hands on: books, magazines and newspapers."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "ھەر شتێکی دەخوویندەوە کە دەستی پێ بگات: کتێب، گۆڤار، ڕۆژنامە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdevours4("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdevours4("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "She devoured everything she could lay her hands on: books, magazines and newspapers.",
+            kurdishText:
+                "ھەر شتێکی دەخوویندەوە کە دەستی پێ بگات: کتێب، گۆڤار، ڕۆژنامە.",
+            onPressedBritish: () => speakdevours4("en-GB"),
+            onPressedAmerican: () => speakdevours4("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: "٣. (کردار) لەناوبردنی شتێک"),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(text: "Flames devoured the house."),
-                    ExampleSentenceKurdish(text: "بڵێسە خانووەکەی لەناوبرد."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdevours5("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdevours5("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "Flames devoured the house.",
+            kurdishText: "بڵێسە خانووەکەی لەناوبرد.",
+            onPressedBritish: () => speakdevours5("en-GB"),
+            onPressedAmerican: () => speakdevours5("en-US"),
           ),
           // devours600"),
           // speakdevours6

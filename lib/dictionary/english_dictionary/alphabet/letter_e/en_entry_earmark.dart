@@ -398,155 +398,58 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   """١. (کردار) بڕیاردانی ئەوەی کە شتێک بۆ مەبەستێکی تایبەتی بەکاردێت، یان گوتنی ئەوەی کە شتێک بەسەر کەسێک/شتێکدا دێت لە داھاتوودا"""),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            """The money had been earmarked for spending on new school buildings."""),
-                    ExampleSentenceKurdish(
-                        text:
-                            """پارەکە تەرخانکرابوو بۆ خەرجکردنی بۆ بینای قوتابخانەی تازە."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "earmark", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakearmarks1("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakearmarks1("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                """The money had been earmarked for spending on new school buildings.""",
+            kurdishText:
+                """پارەکە تەرخانکرابوو بۆ خەرجکردنی بۆ بینای قوتابخانەی تازە.""", // earmark
+            onPressedBritish: () => speakearmarks1("en-GB"),
+            onPressedAmerican: () => speakearmarks1("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            """The factory has been earmarked for closure."""),
-                    ExampleSentenceKurdish(
-                        text: """کارگەکە بڕیاری داخرانی درابوو."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakearmarks2("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakearmarks2("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: """The factory has been earmarked for closure.""",
+            kurdishText: """کارگەکە بڕیاری داخرانی درابوو.""",
+            onPressedBritish: () => speakearmarks2("en-GB"),
+            onPressedAmerican: () => speakearmarks2("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            """She was earmarked early as a possible champion."""),
-                    ExampleSentenceKurdish(
-                        text:
-                            """ھەر لە سەرەتاوە وەک یەکێک لە پاڵەوانەکان دیاریکرابوو."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakearmarks3("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakearmarks3("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: """She was earmarked early as a possible champion.""",
+            kurdishText:
+                """ھەر لە سەرەتاوە وەک یەکێک لە پاڵەوانەکان دیاریکرابوو.""",
+            onPressedBritish: () => speakearmarks3("en-GB"),
+            onPressedAmerican: () => speakearmarks3("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
                   """٢. (ناو) تایبەتمەندی یان خاسیەتێک کە تایبەتە بە کەسێک/شتێک"""),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            """The incident has all the earmarks of a terrorist attack."""),
-                    ExampleSentenceKurdish(
-                        text:
-                            """ڕووداوەکە ھەموو نیشانەکانی ھێرشی تیرۆریستی ھەبوو."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakearmarks4("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakearmarks4("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                """The incident has all the earmarks of a terrorist attack.""",
+            kurdishText:
+                """ڕووداوەکە ھەموو نیشانەکانی ھێرشی تیرۆریستی ھەبوو.""",
+            onPressedBritish: () => speakearmarks4("en-GB"),
+            onPressedAmerican: () => speakearmarks4("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
                   """٣. (ناو) لە ئەمریکا، بریتییە لە ڕێنمایی حکومەت بۆ خەرجکردنی گوژمەیەک پارە لە شتێکدا"""),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            """Federal earmarks for scientific research can be based on political connections and lobbying."""),
-                    ExampleSentenceKurdish(
-                        text:
-                            """پێشینەیی حکومەت لە توێژینەوەی زانستی دەکرێت بوەستێتە سەر پەیوەندیی سیاسی و لۆبیکردن."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakearmarks5("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakearmarks5("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                """Federal earmarks for scientific research can be based on political connections and lobbying.""",
+            kurdishText:
+                """پێشینەیی حکومەت لە توێژینەوەی زانستی دەکرێت بوەستێتە سەر پەیوەندیی سیاسی و لۆبیکردن.""",
+            onPressedBritish: () => speakearmarks5("en-GB"),
+            onPressedAmerican: () => speakearmarks5("en-US"),
           ),
           // earmarks600earmarks6
           // speakearmarks6

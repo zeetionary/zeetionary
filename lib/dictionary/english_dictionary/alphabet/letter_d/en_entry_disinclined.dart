@@ -242,61 +242,22 @@ class KurdishMeaning extends StatelessWidget {
 کوردی: بێ‌مەیل، سارد، بەدڵ‌تێوەنەچوو، بێ‌دڵ، نابەدڵ، نەخواز
 """),
           const DefinitionKurdish(text: "١. (ھاوەڵناو) بەبوونی ئامادەیی"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "He was strongly disinclined to believe anything that she said."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "تەواو بێ‌مەیل بوو لە باوەڕکردن بە ھەر شتێک کە دەیگوت."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "disinclined", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdisinclineds1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdisinclineds1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "He was strongly disinclined to believe anything that she said.",
+            kurdishText:
+                "تەواو بێ‌مەیل بوو لە باوەڕکردن بە ھەر شتێک کە دەیگوت.", // disinclined
+            onPressedBritish: () => speakdisinclineds1("en-GB"),
+            onPressedAmerican: () => speakdisinclineds1("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "She felt disinclined to go home to my empty house."),
-                    ExampleSentenceKurdish(
-                        text: "نابەدڵم لەوەی بچمەوە ماڵەوە بۆ ماڵە چۆڵەکەم."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdisinclineds2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdisinclineds2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "She felt disinclined to go home to my empty house.",
+            kurdishText: "نابەدڵم لەوەی بچمەوە ماڵەوە بۆ ماڵە چۆڵەکەم.",
+            onPressedBritish: () => speakdisinclineds2("en-GB"),
+            onPressedAmerican: () => speakdisinclineds2("en-US"),
           ),
           // disinclineds300"),
           // speakdisinclineds3

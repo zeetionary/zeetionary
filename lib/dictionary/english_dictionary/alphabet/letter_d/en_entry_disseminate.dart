@@ -243,60 +243,23 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "١. (کردار) بڵاوکردنەوەی زانیاری، زانست، ھتد بۆ ئەوەی بە زۆرترین کەس بگات"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "Their findings have been widely disseminated."),
-                    ExampleSentenceKurdish(
-                        text: "دۆزینەوەکانیان بە بەرفراوانی بڵاوکراونەتەوە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "disseminate", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdisseminates1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdisseminates1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "Their findings have been widely disseminated.",
+            kurdishText:
+                "دۆزینەوەکانیان بە بەرفراوانی بڵاوکراونەتەوە.", // disseminate
+            onPressedBritish: () => speakdisseminates1("en-GB"),
+            onPressedAmerican: () => speakdisseminates1("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "One of the organization's aims is to disseminate information about the disease."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "یەکێک لە ئامانجەکانی دامەزراوەکە ئەوەیە کە زانیاری لەسەر نەخۆشییەکە بڵاوبکاتەوە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdisseminates2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdisseminates2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "One of the organization's aims is to disseminate information about the disease.",
+            kurdishText:
+                "یەکێک لە ئامانجەکانی دامەزراوەکە ئەوەیە کە زانیاری لەسەر نەخۆشییەکە بڵاوبکاتەوە.",
+            onPressedBritish: () => speakdisseminates2("en-GB"),
+            onPressedAmerican: () => speakdisseminates2("en-US"),
           ),
           // disseminates300"),
           // speakdisseminates3

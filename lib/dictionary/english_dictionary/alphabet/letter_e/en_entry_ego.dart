@@ -396,153 +396,56 @@ class KurdishMeaning extends StatelessWidget {
 """),
           const DefinitionKurdish(
               text: """١. (ناو) ھەستکردن بە بەھا و گرنگی خۆت"""),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            """He has the biggest ego of anyone I've ever met."""),
-                    ExampleSentenceKurdish(
-                        text:
-                            """خۆخوازیی زۆرترینی ھەیە لە نێو ئەوانەی کە دیومە."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "ego", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakegos1("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakegos1("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: """He has the biggest ego of anyone I've ever met.""",
+            kurdishText:
+                """خۆخوازیی زۆرترینی ھەیە لە نێو ئەوانەی کە دیومە.""", // ego
+            onPressedBritish: () => speakegos1("en-GB"),
+            onPressedAmerican: () => speakegos1("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: """Winning the prize really boosted her ego."""),
-                    ExampleSentenceKurdish(
-                        text:
-                            """بردنەوەی خەڵاتەکە بەڕاستی خۆپێ‌زلیی زیاد کرد."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakegos2("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakegos2("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: """Winning the prize really boosted her ego.""",
+            kurdishText: """بردنەوەی خەڵاتەکە بەڕاستی خۆپێ‌زلیی زیاد کرد.""",
+            onPressedBritish: () => speakegos2("en-GB"),
+            onPressedAmerican: () => speakegos2("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            """It was a huge blow to his ego to find out he was so unpopular."""),
-                    ExampleSentenceKurdish(
-                        text:
-                            """لێدانێکی گەورە بوو لە خۆپەرستیی کە زانی ھێندە لەبەرچاوکەوتوو بوو."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakegos3("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakegos3("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                """It was a huge blow to his ego to find out he was so unpopular.""",
+            kurdishText:
+                """لێدانێکی گەورە بوو لە خۆپەرستیی کە زانی ھێندە لەبەرچاوکەوتوو بوو.""",
+            onPressedBritish: () => speakegos3("en-GB"),
+            onPressedAmerican: () => speakegos3("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            """She likes to mix with people who flatter her ego."""),
-                    ExampleSentenceKurdish(
-                        text:
-                            """حەز دەکات تێکەڵ بەو کەسانە بێت کە بە شان و باڵی خۆپێ‌زلیی ھەڵدەدەن."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakegos4("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakegos4("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                """She likes to mix with people who flatter her ego.""",
+            kurdishText:
+                """حەز دەکات تێکەڵ بەو کەسانە بێت کە بە شان و باڵی خۆپێ‌زلیی ھەڵدەدەن.""",
+            onPressedBritish: () => speakegos4("en-GB"),
+            onPressedAmerican: () => speakegos4("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
                   """٢. (ناو) ئەو بەشەی مێشک کە بەرپرسە بۆ ھەستکردن بەوەی کە کێیت"""),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            """Freud introduced the idea that a part of the ego is unconscious."""),
-                    ExampleSentenceKurdish(
-                        text:
-                            """فرۆید ئەو بیرۆکەیەی ھێنایە بوون کە بەشێک لە خود نائاگایە."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakegos5("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakegos5("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                """Freud introduced the idea that a part of the ego is unconscious.""",
+            kurdishText:
+                """فرۆید ئەو بیرۆکەیەی ھێنایە بوون کە بەشێک لە خود نائاگایە.""",
+            onPressedBritish: () => speakegos5("en-GB"),
+            onPressedAmerican: () => speakegos5("en-US"),
           ),
           // egos600egos6
           // speakegos6

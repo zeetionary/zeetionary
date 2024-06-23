@@ -259,119 +259,43 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "١. (ھاوەڵناو) کە دەبێتە ھۆکاری دڵتەنگی، یان دڵتەنگی پیشان دەدات"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "Christmas will be dismal without the children."),
-                    ExampleSentenceKurdish(
-                        text: "کریسمس بەبێ منداڵان پەژارەبار دەبێت."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "dismal", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdismals1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdismals1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "Christmas will be dismal without the children.",
+            kurdishText: "کریسمس بەبێ منداڵان پەژارەبار دەبێت.", // dismal
+            onPressedBritish: () => speakdismals1("en-GB"),
+            onPressedAmerican: () => speakdismals1("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "He watched the dismal faces of the players as they trudged back to the dressing room."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "سەیری ڕووخساری خەماوی یاریزانەکانی دەکرد کە بەرەو ژووری خۆگۆڕینەکە دەگەڕانەوە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdismals2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdismals2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "He watched the dismal faces of the players as they trudged back to the dressing room.",
+            kurdishText:
+                "سەیری ڕووخساری خەماوی یاریزانەکانی دەکرد کە بەرەو ژووری خۆگۆڕینەکە دەگەڕانەوە.",
+            onPressedBritish: () => speakdismals2("en-GB"),
+            onPressedAmerican: () => speakdismals2("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٢. (ھاوەڵناو) کە سەرکەوتوو نییە؛ کوالێتی خراپە"),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "Last year's results were fairly dismal."),
-                    ExampleSentenceKurdish(
-                        text: "ئەنجامەکانی ساڵی ڕابردوو تاڕادەیەک خراپ بوون."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdismals3("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdismals3("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "Last year's results were fairly dismal.",
+            kurdishText: "ئەنجامەکانی ساڵی ڕابردوو تاڕادەیەک خراپ بوون.",
+            onPressedBritish: () => speakdismals3("en-GB"),
+            onPressedAmerican: () => speakdismals3("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "Their recent attempt to increase sales has been a dismal failure."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "ئەم ھەوڵەی دواییان بۆ زیادکردنی فرۆش شکستێکی خراپ بووە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdismals4("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdismals4("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "Their recent attempt to increase sales has been a dismal failure.",
+            kurdishText:
+                "ئەم ھەوڵەی دواییان بۆ زیادکردنی فرۆش شکستێکی خراپ بووە.",
+            onPressedBritish: () => speakdismals4("en-GB"),
+            onPressedAmerican: () => speakdismals4("en-US"),
           ),
           // dismals500"),
           // speakdismals5

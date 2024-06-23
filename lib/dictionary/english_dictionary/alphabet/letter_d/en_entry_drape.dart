@@ -419,223 +419,71 @@ class KurdishMeaning extends StatelessWidget {
 """),
           const DefinitionKurdish(
               text: "١. (کردار) دانانی جلێک یان قوماشێک بەسەر کەسێک/شتێک"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "She had a shawl draped around her shoulders."),
-                    ExampleSentenceKurdish(
-                        text: "دەسماڵیکی دابوو بەسەر شانیدا."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "drape", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdrapes1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdrapes1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "She had a shawl draped around her shoulders.",
+            kurdishText: "دەسماڵیکی دابوو بەسەر شانیدا.", // drape
+            onPressedBritish: () => speakdrapes1("en-GB"),
+            onPressedAmerican: () => speakdrapes1("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "He draped his coat over the back of the chair."),
-                    ExampleSentenceKurdish(
-                        text: "قەمسەڵەکەی دابوو بەسەر پشتی کورسییەکەدا."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdrapes2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdrapes2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "He draped his coat over the back of the chair.",
+            kurdishText: "قەمسەڵەکەی دابوو بەسەر پشتی کورسییەکەدا.",
+            onPressedBritish: () => speakdrapes2("en-GB"),
+            onPressedAmerican: () => speakdrapes2("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: "٢. (کردار) کە بە فشی شۆڕبووبێتەوە"),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "Some silk fabrics will drape beautifully."),
-                    ExampleSentenceKurdish(
-                        text: "ھەندێک قوماشی ئاوریشم بە جوانی شۆڕدەبێتەوە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdrapes3("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdrapes3("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "Some silk fabrics will drape beautifully.",
+            kurdishText: "ھەندێک قوماشی ئاوریشم بە جوانی شۆڕدەبێتەوە.",
+            onPressedBritish: () => speakdrapes3("en-GB"),
+            onPressedAmerican: () => speakdrapes3("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٣. (کردار) داپۆشین یان ڕازاندنەوە بە قوماش"),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "The body was draped in a blanket."),
-                    ExampleSentenceKurdish(
-                        text: "لاشەکە بە بەتانییەک پێچرابوویەوە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdrapes4("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdrapes4("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "The body was draped in a blanket.",
+            kurdishText: "لاشەکە بە بەتانییەک پێچرابوویەوە.",
+            onPressedBritish: () => speakdrapes4("en-GB"),
+            onPressedAmerican: () => speakdrapes4("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
                   "٤. (کردار) ئەوەی کە بەشێکی جەستەت بەسەر لەسەر شتێک بە ئارامی دابنێیت"),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "His arm was draped casually around her shoulders."),
-                    ExampleSentenceKurdish(
-                        text: "باڵی لەگۆترە دابوو بەسەر شانیدا."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdrapes5("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdrapes5("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "His arm was draped casually around her shoulders.",
+            kurdishText: "باڵی لەگۆترە دابوو بەسەر شانیدا.",
+            onPressedBritish: () => speakdrapes5("en-GB"),
+            onPressedAmerican: () => speakdrapes5("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: "٥. (ناو) پەردەیەکی ئەستووری درێژ"),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "These drapes will need to be professionally cleaned."),
-                    ExampleSentenceKurdish(
-                        text: "ئەم پەردانە دەبێت پڕۆفیشناڵانە پاکبکرێنەوە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdrapes6("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdrapes6("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "These drapes will need to be professionally cleaned.",
+            kurdishText: "ئەم پەردانە دەبێت پڕۆفیشناڵانە پاکبکرێنەوە.",
+            onPressedBritish: () => speakdrapes6("en-GB"),
+            onPressedAmerican: () => speakdrapes6("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(text: "Could you open the drapes?"),
-                    ExampleSentenceKurdish(
-                        text: "دەتوانیت پەردەکان پاکبکەیتەوە؟"),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdrapes7("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdrapes7("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "Could you open the drapes?",
+            kurdishText: "دەتوانیت پەردەکان پاکبکەیتەوە؟",
+            onPressedBritish: () => speakdrapes7("en-GB"),
+            onPressedAmerican: () => speakdrapes7("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "We'll have to replace the drapes."),
-                    ExampleSentenceKurdish(text: "دەبێت پەردەکان بگۆڕین."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdrapes8("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdrapes8("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "We'll have to replace the drapes.",
+            kurdishText: "دەبێت پەردەکان بگۆڕین.",
+            onPressedBritish: () => speakdrapes8("en-GB"),
+            onPressedAmerican: () => speakdrapes8("en-US"),
           ),
           // drapes900"),
           // speakdrapes9

@@ -373,64 +373,26 @@ class KurdishMeaning extends StatelessWidget {
 """),
           const DefinitionKurdish(
               text: """١. (ناو) ڕوونکردنەوەی ئاڵۆز یان پڕ وردەکاری شتێک"""),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            """The importance of the plan needs no further elaboration."""),
-                    ExampleSentenceKurdish(
-                        text:
-                            """گرنگی پلانەکە پێویستیی بە ڕوونکردنەوەی زیاتر نییە."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "elaboration", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakelaborations1("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakelaborations1("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                """The importance of the plan needs no further elaboration.""",
+            kurdishText:
+                """گرنگی پلانەکە پێویستیی بە ڕوونکردنەوەی زیاتر نییە.""", // elaboration
+            onPressedBritish: () => speakelaborations1("en-GB"),
+            onPressedAmerican: () => speakelaborations1("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
                   """٢. (ناو) گەڵاڵەکردنی پلان، بیرۆکە، ھتد ـی ئاڵۆز یان پڕ وردەکاری"""),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            """Further discussion led to the elaboration of new policy principles."""),
-                    ExampleSentenceKurdish(
-                        text:
-                            """باسی زیاتر گەشت بە گەڵاڵەکردنی بنچینەکانی سیاسەتی تازە."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakelaborations2("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakelaborations2("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                """Further discussion led to the elaboration of new policy principles.""",
+            kurdishText:
+                """باسی زیاتر گەشت بە گەڵاڵەکردنی بنچینەکانی سیاسەتی تازە.""",
+            onPressedBritish: () => speakelaborations2("en-GB"),
+            onPressedAmerican: () => speakelaborations2("en-US"),
           ),
           // elaborations300elaborations3
           // speakelaborations3

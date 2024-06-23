@@ -263,115 +263,39 @@ class KurdishMeaning extends StatelessWidget {
 کوردی: شیاو بوون، لایق بوون، شایان بوون
 """),
           const DefinitionKurdish(text: "١. (کردار) شایان بوون"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "You deserve a rest after all that hard work."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "شایانی حەسانەوەیەکی لە دوای ئەو ھەموو کارە سەختە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "deserve", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdeserves1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdeserves1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "You deserve a rest after all that hard work.",
+            kurdishText:
+                "شایانی حەسانەوەیەکی لە دوای ئەو ھەموو کارە سەختە.", // deserve
+            onPressedBritish: () => speakdeserves1("en-GB"),
+            onPressedAmerican: () => speakdeserves1("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "The report deserves careful consideration."),
-                    ExampleSentenceKurdish(
-                        text: "ڕاپۆرتەکە شایەنی لێوردبوونەوەی وردە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdeserves2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdeserves2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "The report deserves careful consideration.",
+            kurdishText: "ڕاپۆرتەکە شایەنی لێوردبوونەوەی وردە.",
+            onPressedBritish: () => speakdeserves2("en-GB"),
+            onPressedAmerican: () => speakdeserves2("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "This idea deserves more attention."),
-                    ExampleSentenceKurdish(
-                        text: "ئەم بیرۆکەیە شایەنی سەرنجپێدانی زیاترە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdeserves3("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdeserves3("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "This idea deserves more attention.",
+            kurdishText: "ئەم بیرۆکەیە شایەنی سەرنجپێدانی زیاترە.",
+            onPressedBritish: () => speakdeserves3("en-GB"),
+            onPressedAmerican: () => speakdeserves3("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "One player in particular deserves a mention."),
-                    ExampleSentenceKurdish(
-                        text: "یاریزانێک بەتایبەتی شایەنی ناوھێنانە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdeserves4("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdeserves4("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "One player in particular deserves a mention.",
+            kurdishText: "یاریزانێک بەتایبەتی شایەنی ناوھێنانە.",
+            onPressedBritish: () => speakdeserves4("en-GB"),
+            onPressedAmerican: () => speakdeserves4("en-US"),
           ),
           // deserves500"),
           // speakdeserves5

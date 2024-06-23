@@ -233,31 +233,12 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "١. (ھاوەڵناو) زۆر بچووک یان بێ‌بەھا کە شایەنی بیرکردنەوە نییە"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "They offered us a derisory £50 a week."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "٥٠ پاوەند گاڵتەجاڕانەیان بۆ ھەفتەیەکیان پێمان پێشکەس کرد."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "derisory", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakderisorys1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakderisorys1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "They offered us a derisory £50 a week.",
+            kurdishText:
+                "٥٠ پاوەند گاڵتەجاڕانەیان بۆ ھەفتەیەکیان پێمان پێشکەس کرد.", // derisory
+            onPressedBritish: () => speakderisorys1("en-GB"),
+            onPressedAmerican: () => speakderisorys1("en-US"),
           ),
           // skipped_meaning
           // const DividerDefinition(),

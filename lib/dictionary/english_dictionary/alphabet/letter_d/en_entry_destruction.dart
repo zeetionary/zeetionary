@@ -269,122 +269,45 @@ class KurdishMeaning extends StatelessWidget {
 کوردی: وێرانی، کاولی، خاپووری، کامباخی، تێکچوویی، وێران‌کردن، کاول‌کردن، تێکدان، خاپوورکردن، داڕماندن، داڕووخاندن، تەخت‌وپەخت‌کردن، ھەڵتەکاندن، بەقوڕگرتن، داربەسەر بەردەوەنەھێشتن، تیاچوون، لەنێوچوون، نەمان، سڕانەوە،	مایەی تیاچوون
 """),
           const DefinitionKurdish(text: "١. (ناو) لەناوبردنی شتێک"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The central argument is that capitalism sows the seeds of its own destruction (= creates the forces that destroy it)."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "مشتومڕی سەرەکی ئەوەی سەرمایەداری ئەو تۆوانە دەچێنێت ک لەناوی دەبەن."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "destruction", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdestructions1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdestructions1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "The central argument is that capitalism sows the seeds of its own destruction (= creates the forces that destroy it).",
+            kurdishText:
+                "مشتومڕی سەرەکی ئەوەی سەرمایەداری ئەو تۆوانە دەچێنێت ک لەناوی دەبەن.", // destruction
+            onPressedBritish: () => speakdestructions1("en-GB"),
+            onPressedAmerican: () => speakdestructions1("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "He had miraculously survived the destruction of the spacecraft."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "سەرسوڕھێنەرانە لە مووشەکە ئاسمانییەکە ڕزگاری بوو."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdestructions2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdestructions2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "He had miraculously survived the destruction of the spacecraft.",
+            kurdishText: "سەرسوڕھێنەرانە لە مووشەکە ئاسمانییەکە ڕزگاری بوو.",
+            onPressedBritish: () => speakdestructions2("en-GB"),
+            onPressedAmerican: () => speakdestructions2("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "He witnessed the destruction of most of his work in a studio fire."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "لەناوچوونی زۆرینەی کارەکانی لە ئاگری ستودیۆکەیدا بە چاوەکانی دی."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdestructions3("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdestructions3("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "He witnessed the destruction of most of his work in a studio fire.",
+            kurdishText:
+                "لەناوچوونی زۆرینەی کارەکانی لە ئاگری ستودیۆکەیدا بە چاوەکانی دی.",
+            onPressedBritish: () => speakdestructions3("en-GB"),
+            onPressedAmerican: () => speakdestructions3("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The earthquake caused loss of life and property destruction."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "بومەلەرزەکە بوو بەھۆی ژمارەیەکی زۆر لە لەناوچوونی گیانی و مادی."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdestructions4("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdestructions4("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "The earthquake caused loss of life and property destruction.",
+            kurdishText:
+                "بومەلەرزەکە بوو بەھۆی ژمارەیەکی زۆر لە لەناوچوونی گیانی و مادی.",
+            onPressedBritish: () => speakdestructions4("en-GB"),
+            onPressedAmerican: () => speakdestructions4("en-US"),
           ),
           // destructions500"),
           // speakdestructions5

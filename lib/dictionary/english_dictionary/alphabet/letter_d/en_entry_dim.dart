@@ -338,392 +338,128 @@ class KurdishMeaning extends StatelessWidget {
 کوردی: تاریک، تار، بێ‌شەوق، بێ‌ڕووناکی، بێ‌ڕۆشنایی،	(شەوق) کز، کەم،	(چاو) کەم‌سۆما، کز، لێڵ، چاک‌نەدیتوو،	لێڵ، ڕوون نییە، نامەعلووم، نادیار، تەماوی،	گێژ، کەم‌ھۆش، گەمژە، حەپە
 """),
           const DefinitionKurdish(text: "١. (ھاوەڵناو) کە ڕۆشن نییە"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "This light is too dim to read by."),
-                    ExampleSentenceKurdish(
-                        text: "ئەم ڕۆشناییە زۆر کزە کە لە پاڵیدا بخوێنیتەوە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "dim", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdims1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdims1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "This light is too dim to read by.",
+            kurdishText: "ئەم ڕۆشناییە زۆر کزە کە لە پاڵیدا بخوێنیتەوە.", // dim
+            onPressedBritish: () => speakdims1("en-GB"),
+            onPressedAmerican: () => speakdims1("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "A dim lamp swung in the entrance."),
-                    ExampleSentenceKurdish(
-                        text: "گڵۆپێکی کز لە دەروازەکە دەجوڵایەوە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdims2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdims2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "A dim lamp swung in the entrance.",
+            kurdishText: "گڵۆپێکی کز لە دەروازەکە دەجوڵایەوە.",
+            onPressedBritish: () => speakdims2("en-GB"),
+            onPressedAmerican: () => speakdims2("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "Owls' eyesight is good in dim light."),
-                    ExampleSentenceKurdish(
-                        text: "بینایی کوندەپەپوو باشە لە ڕۆشنایی کزدا."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdims3("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdims3("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "Owls' eyesight is good in dim light.",
+            kurdishText: "بینایی کوندەپەپوو باشە لە ڕۆشنایی کزدا.",
+            onPressedBritish: () => speakdims3("en-GB"),
+            onPressedAmerican: () => speakdims3("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
                   "٢. (ھاوەڵناو) شوێنێک کە ناتوانی باش ببینیت بەھۆی ئەوەی کە ڕۆشنایی زۆر نییە"),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The room was dim because the curtains were half drawn."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "ژوورەکە کز بوو بەھۆی ئەوەی پەردەکان بە نیوە لادرابوون."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdims4("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdims4("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "The room was dim because the curtains were half drawn.",
+            kurdishText:
+                "ژوورەکە کز بوو بەھۆی ئەوەی پەردەکان بە نیوە لادرابوون.",
+            onPressedBritish: () => speakdims4("en-GB"),
+            onPressedAmerican: () => speakdims4("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(text: "The living room looked dim."),
-                    ExampleSentenceKurdish(text: "ژووری میوانەکە کز دیاربوو."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdims5("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdims5("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "The living room looked dim.",
+            kurdishText: "ژووری میوانەکە کز دیاربوو.",
+            onPressedBritish: () => speakdims5("en-GB"),
+            onPressedAmerican: () => speakdims5("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
                   "٣. (ھاوەڵناو) شێوەیەک کە ناتوانیت باش بیبینیت بەھۆی ئەوەی ڕۆشنایی زۆر نییە"),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "I could see a dim shape in the doorway."),
-                    ExampleSentenceKurdish(
-                        text: "شێوەیەکی ناڕوونم دەبینی لەپێش دەرگاکە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdims6("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdims6("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "I could see a dim shape in the doorway.",
+            kurdishText: "شێوەیەکی ناڕوونم دەبینی لەپێش دەرگاکە.",
+            onPressedBritish: () => speakdims6("en-GB"),
+            onPressedAmerican: () => speakdims6("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: "٤. (ھاوەڵناو) چاوێک کە باش نابینێت"),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "His eyesight is getting dim."),
-                    ExampleSentenceKurdish(text: "بینایی کز دەبێت."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdims7("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdims7("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "His eyesight is getting dim.",
+            kurdishText: "بینایی کز دەبێت.",
+            onPressedBritish: () => speakdims7("en-GB"),
+            onPressedAmerican: () => speakdims7("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٥. (ھاوەڵناو) یادەوەرییەک کە باش بیرت نایەتەوە"),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "She had a dim recollection of the visit."),
-                    ExampleSentenceKurdish(
-                        text: "بیرەوەرییەکی لاوازی سەردانەکەی ھەبوو."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdims8("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdims8("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "She had a dim recollection of the visit.",
+            kurdishText: "بیرەوەرییەکی لاوازی سەردانەکەی ھەبوو.",
+            onPressedBritish: () => speakdims8("en-GB"),
+            onPressedAmerican: () => speakdims8("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: "٦. (ھاوەڵناو) کەسێک کە زیرەک نییە"),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(text: "He's very dim."),
-                    ExampleSentenceKurdish(text: "تەواو گێژە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdims9("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdims9("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "He's very dim.",
+            kurdishText: "تەواو گێژە.",
+            onPressedBritish: () => speakdims9("en-GB"),
+            onPressedAmerican: () => speakdims9("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "He seems incredibly dim sometimes!"),
-                    ExampleSentenceKurdish(
-                        text: "ھەندێک جار لەڕادەبەدەر گێژە!"),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdims10("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdims10("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "He seems incredibly dim sometimes!",
+            kurdishText: "ھەندێک جار لەڕادەبەدەر گێژە!",
+            onPressedBritish: () => speakdims10("en-GB"),
+            onPressedAmerican: () => speakdims10("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٧. (ھاوەڵناو) کە ھیچ ھۆکارێک نادات بۆ ھەبوونی ھیوا"),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "Her future career prospects look dim."),
-                    ExampleSentenceKurdish(
-                        text: "ئاسۆی کاری داھاتووی کز دیارە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdims11("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdims11("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "Her future career prospects look dim.",
+            kurdishText: "ئاسۆی کاری داھاتووی کز دیارە.",
+            onPressedBritish: () => speakdims11("en-GB"),
+            onPressedAmerican: () => speakdims11("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: "٨. (کردار) کزبوونی ڕۆشنایی"),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The lights in the theatre dimmed as the curtain rose."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "لایتەکانی ھۆڵی شانۆکە کزبوون کە پەردەکە بەرزبوویەوە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdims12("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdims12("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "The lights in the theatre dimmed as the curtain rose.",
+            kurdishText: "لایتەکانی ھۆڵی شانۆکە کزبوون کە پەردەکە بەرزبوویەوە.",
+            onPressedBritish: () => speakdims12("en-GB"),
+            onPressedAmerican: () => speakdims12("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The electric light flickered and dimmed slightly."),
-                    ExampleSentenceKurdish(
-                        text: "لایتە کارەباییەکە پرتەی کرد و کەمێک کزبوو."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdims13("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdims13("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "The electric light flickered and dimmed slightly.",
+            kurdishText: "لایتە کارەباییەکە پرتەی کرد و کەمێک کزبوو.",
+            onPressedBritish: () => speakdims13("en-GB"),
+            onPressedAmerican: () => speakdims13("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: "٩. (کردار) کاڵبوونەوەی ھەست یان شتێک"),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "Her passion for dancing never dimmed over the years."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "خولیای بۆ سەما بە درێژایی ساڵان ھەرگیز کاڵ نەبوویەوە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdims14("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdims14("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "Her passion for dancing never dimmed over the years.",
+            kurdishText:
+                "خولیای بۆ سەما بە درێژایی ساڵان ھەرگیز کاڵ نەبوویەوە.",
+            onPressedBritish: () => speakdims14("en-GB"),
+            onPressedAmerican: () => speakdims14("en-US"),
           ),
           // dims1500"),
           // speakdims15

@@ -250,91 +250,32 @@ class KurdishMeaning extends StatelessWidget {
 کوردی: ناحەز، شەرماوی، شوورەیی، عەیب، ئابڕووبەرە، سووک، خراپ، خوێڕی، ناپیاو، بێ‌ئابڕوو، ناپیاو، نزم، سووک‌وچروک
 """),
           const DefinitionKurdish(text: "١. (ھاوەڵناو) کە شایەنی ڕێز نییە"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "It would have been dishonourable of her not to keep her promise."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "جێگای شوورەیی دەبوو بۆی کە بەڵێنەکەی نەپارێزێت."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "dishonourable", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdishonourables1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdishonourables1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "It would have been dishonourable of her not to keep her promise.",
+            kurdishText:
+                "جێگای شوورەیی دەبوو بۆی کە بەڵێنەکەی نەپارێزێت.", // dishonourable
+            onPressedBritish: () => speakdishonourables1("en-GB"),
+            onPressedAmerican: () => speakdishonourables1("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "He was given a dishonourable discharge (= an order to leave the army for unacceptable behaviour)."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "مۆڵەتی شەرماوی درا دەرکرا (بەھۆی ڕەفتاری نابەجێ)."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdishonourables2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdishonourables2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "He was given a dishonourable discharge (= an order to leave the army for unacceptable behaviour).",
+            kurdishText: "مۆڵەتی شەرماوی درا دەرکرا (بەھۆی ڕەفتاری نابەجێ).",
+            onPressedBritish: () => speakdishonourables2("en-GB"),
+            onPressedAmerican: () => speakdishonourables2("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "They regard killing an unarmed man as dishonourable."),
-                    ExampleSentenceKurdish(
-                        text: "کوشتنی پیاوێکی بێ چەک بە عەیبە دادەنەن."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdishonourables3("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdishonourables3("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "They regard killing an unarmed man as dishonourable.",
+            kurdishText: "کوشتنی پیاوێکی بێ چەک بە عەیبە دادەنەن.",
+            onPressedBritish: () => speakdishonourables3("en-GB"),
+            onPressedAmerican: () => speakdishonourables3("en-US"),
           ),
           // dishonourables400"),
           // speakdishonourables4

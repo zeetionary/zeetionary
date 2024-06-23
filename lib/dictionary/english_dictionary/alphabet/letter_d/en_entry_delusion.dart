@@ -274,146 +274,50 @@ class KurdishMeaning extends StatelessWidget {
 """),
           const DefinitionKurdish(
               text: "١. (ناو) باوەڕی ناڕاست بە خۆت و ئەو دۆخەی تێیدایت"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "Don't go getting delusions of grandeur (= a belief that you are more important than you actually are)."),
-                    ExampleSentenceKurdish(
-                        text: "خەیاڵاوی مەبە سەبارەت بە سەنگی خۆت."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "delusion", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdelusions1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdelusions1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "Don't go getting delusions of grandeur (= a belief that you are more important than you actually are).",
+            kurdishText: "خەیاڵاوی مەبە سەبارەت بە سەنگی خۆت.", // delusion
+            onPressedBritish: () => speakdelusions1("en-GB"),
+            onPressedAmerican: () => speakdelusions1("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "Love can be nothing but a delusion."),
-                    ExampleSentenceKurdish(
-                        text: "خۆشەویستی دەکرێت ھیچ نەبێت جگە لە وڕێنە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdelusions2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdelusions2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "Love can be nothing but a delusion.",
+            kurdishText: "خۆشەویستی دەکرێت ھیچ نەبێت جگە لە وڕێنە.",
+            onPressedBritish: () => speakdelusions2("en-GB"),
+            onPressedAmerican: () => speakdelusions2("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "They are under the delusion that the virus has gone away."),
-                    ExampleSentenceKurdish(
-                        text: "لەو خەیاڵەدان کە ڤایرۆدەکە نەماوە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdelusions3("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdelusions3("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "They are under the delusion that the virus has gone away.",
+            kurdishText: "لەو خەیاڵەدان کە ڤایرۆدەکە نەماوە.",
+            onPressedBritish: () => speakdelusions3("en-GB"),
+            onPressedAmerican: () => speakdelusions3("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
                   "٢. (ناو) فریودانی خۆت بەوەی باوەڕ بە شتێک بکەیت کە ڕاست نییە"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "My mother had a tremendous capacity for delusion."),
-                    ExampleSentenceKurdish(
-                        text: "دایکم توانایەکی زۆری بۆ خۆخەڵەتاندن ھەیە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdelusions4("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdelusions4("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "My mother had a tremendous capacity for delusion.",
+            kurdishText: "دایکم توانایەکی زۆری بۆ خۆخەڵەتاندن ھەیە.",
+            onPressedBritish: () => speakdelusions4("en-GB"),
+            onPressedAmerican: () => speakdelusions4("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "He seems to have retreated into a world of fear and delusion."),
-                    ExampleSentenceKurdish(
-                        text: "وادیارە چووەتە ناو دوونیای ترس و خەیاڵەوە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdelusions5("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdelusions5("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "He seems to have retreated into a world of fear and delusion.",
+            kurdishText: "وادیارە چووەتە ناو دوونیای ترس و خەیاڵەوە.",
+            onPressedBritish: () => speakdelusions5("en-GB"),
+            onPressedAmerican: () => speakdelusions5("en-US"),
           ),
           // delusions600"),
           // speakdelusions6

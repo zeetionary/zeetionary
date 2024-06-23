@@ -258,121 +258,45 @@ class KurdishMeaning extends StatelessWidget {
 کوردی: ورد، چکۆلە، چکۆلانە، پچوک، بچوک، گچکە، وردیلانە،	(ڕێزمان) سەربە چکۆلاندن، پچوک‌کراو، پچوک‌دەربڕ، ئاماژە دەکا بە چکۆلەبوونەوە،(ڕێزمان) وشەی چکۆلێنراو یان پچوک‌کراو
 """),
           const DefinitionKurdish(text: "١. (ناو) زۆر بچووک"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "She was a diminutive figure beside her husband."),
-                    ExampleSentenceKurdish(
-                        text: "ھەیکەلێکی بچووک بوو لە تەنیشت ھاوسەرەکەی."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "diminutive", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdiminutives1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdiminutives1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "She was a diminutive figure beside her husband.",
+            kurdishText:
+                "ھەیکەلێکی بچووک بوو لە تەنیشت ھاوسەرەکەی.", // diminutive
+            onPressedBritish: () => speakdiminutives1("en-GB"),
+            onPressedAmerican: () => speakdiminutives1("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "He exercised frequently, trying to add strength to his diminutive body."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "زوو زوو ڕاھێنانی دەکرد بەوەی ھەوڵی دەدا ھێز بۆ جەستە بچووکەکەی زیاد بکات."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdiminutives2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdiminutives2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "He exercised frequently, trying to add strength to his diminutive body.",
+            kurdishText:
+                "زوو زوو ڕاھێنانی دەکرد بەوەی ھەوڵی دەدا ھێز بۆ جەستە بچووکەکەی زیاد بکات.",
+            onPressedBritish: () => speakdiminutives2("en-GB"),
+            onPressedAmerican: () => speakdiminutives2("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
                   "٢. (ناو) وشەیەک یان بەشێکی وشەکە کە ئەوە دەردەبڕێت کە شتێک بچووکە"),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The findings do not support previous studies on gender differences in parental use of diminutives with young children."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "دۆزینەوەکان پشتگیری توێژینەوە کۆنەکان ناکەن لەوەی کە جیاوازیی ڕەگەزی لە نێوان دایباباندا ھەبووبێت بۆ وشەی چکۆلێنراو بۆ منداڵان."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdiminutives3("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdiminutives3("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "The findings do not support previous studies on gender differences in parental use of diminutives with young children.",
+            kurdishText:
+                "دۆزینەوەکان پشتگیری توێژینەوە کۆنەکان ناکەن لەوەی کە جیاوازیی ڕەگەزی لە نێوان دایباباندا ھەبووبێت بۆ وشەی چکۆلێنراو بۆ منداڵان.",
+            onPressedBritish: () => speakdiminutives3("en-GB"),
+            onPressedAmerican: () => speakdiminutives3("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: "٣. (ناو) کورتکراوەی ناوێک"),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "Her friends call her Margaret, never using diminutives such as Maggie."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "ھاوڕێکانی پێی دەڵێن مارگرێت، ھەرگیز کورتکراوەکانی وەک ماگی بەکارناھێنن."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdiminutives4("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdiminutives4("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "Her friends call her Margaret, never using diminutives such as Maggie.",
+            kurdishText:
+                "ھاوڕێکانی پێی دەڵێن مارگرێت، ھەرگیز کورتکراوەکانی وەک ماگی بەکارناھێنن.",
+            onPressedBritish: () => speakdiminutives4("en-GB"),
+            onPressedAmerican: () => speakdiminutives4("en-US"),
           ),
           // diminutives500"),
           // speakdiminutives5

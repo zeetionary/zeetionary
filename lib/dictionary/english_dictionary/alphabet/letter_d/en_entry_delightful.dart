@@ -255,84 +255,29 @@ class KurdishMeaning extends StatelessWidget {
 کوردی: خۆش، بەلەزەت
 """),
           const DefinitionKurdish(text: "١. (ھاوەڵناو) زۆر خۆش، باش"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "It was a delightful little village."),
-                    ExampleSentenceKurdish(text: "گوندێکی بچووکی خۆش بوو."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "delightful", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdelightfuls1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdelightfuls1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "It was a delightful little village.",
+            kurdishText: "گوندێکی بچووکی خۆش بوو.", // delightful
+            onPressedBritish: () => speakdelightfuls1("en-GB"),
+            onPressedAmerican: () => speakdelightfuls1("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "Our new neighbours are delightful."),
-                    ExampleSentenceKurdish(
-                        text: "دراوسێ تازەکانمان زۆر زۆر باشن."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdelightfuls2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdelightfuls2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "Our new neighbours are delightful.",
+            kurdishText: "دراوسێ تازەکانمان زۆر زۆر باشن.",
+            onPressedBritish: () => speakdelightfuls2("en-GB"),
+            onPressedAmerican: () => speakdelightfuls2("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "Thank you for a delightful evening."),
-                    ExampleSentenceKurdish(text: "سوپاس بۆ ئەم ئێوارە خۆشە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdelightfuls3("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdelightfuls3("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "Thank you for a delightful evening.",
+            kurdishText: "سوپاس بۆ ئەم ئێوارە خۆشە.",
+            onPressedBritish: () => speakdelightfuls3("en-GB"),
+            onPressedAmerican: () => speakdelightfuls3("en-US"),
           ),
           // delightfuls400"),
           // speakdelightfuls4

@@ -362,31 +362,11 @@ class KurdishMeaning extends StatelessWidget {
 """),
           const DefinitionKurdish(
               text: """١. (ھاوەڵکار) بەشێوەیەکی نامۆ یان ترسێنەر"""),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            """The streets are eerily quiet here at night."""),
-                    ExampleSentenceKurdish(
-                        text: """شەقامەکان ترسینەرانە چۆڵن لە شەودا."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "eerily", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakeerilys1("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakeerilys1("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: """The streets are eerily quiet here at night.""",
+            kurdishText: """شەقامەکان ترسینەرانە چۆڵن لە شەودا.""", // eerily
+            onPressedBritish: () => speakeerilys1("en-GB"),
+            onPressedAmerican: () => speakeerilys1("en-US"),
           ),
           // eerilys200eerilys2
           // speakeerilys2

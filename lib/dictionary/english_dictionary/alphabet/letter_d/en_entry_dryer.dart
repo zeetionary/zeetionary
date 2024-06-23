@@ -369,58 +369,20 @@ class KurdishMeaning extends StatelessWidget {
 کوردی: مەتریاڵی وشک‌کەرەوە،	دەزگای وشک‌کردنەوە،	(لە لێکدانا) ـوشک‌کەرەوە، ـوشکێن
 """),
           const DefinitionKurdish(text: "١. (ناو) ئامێری وشککەرەوە"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "Don’t put that sweater in the dryer."),
-                    ExampleSentenceKurdish(
-                        text: "ئەو بلووزە مەخەرە وشککەرەوەکەوە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "dryer", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdryers1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdryers1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "Don’t put that sweater in the dryer.",
+            kurdishText: "ئەو بلووزە مەخەرە وشککەرەوەکەوە.", // dryer
+            onPressedBritish: () => speakdryers1("en-GB"),
+            onPressedAmerican: () => speakdryers1("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "She used a hairdryer after her shower."),
-                    ExampleSentenceKurdish(
-                        text: "لە دوای مەلەکەی قژوشک‌کەرەوەیەکی بەکارھێنا."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdryers2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdryers2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "She used a hairdryer after her shower.",
+            kurdishText: "لە دوای مەلەکەی قژوشک‌کەرەوەیەکی بەکارھێنا.",
+            onPressedBritish: () => speakdryers2("en-GB"),
+            onPressedAmerican: () => speakdryers2("en-US"),
           ),
           // dryers300"),
           // speakdryers3

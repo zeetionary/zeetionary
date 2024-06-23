@@ -259,116 +259,39 @@ class KurdishMeaning extends StatelessWidget {
 """),
           const DefinitionKurdish(
               text: "١. (کردار) پارچەپارچەبوون و لەناوچوون"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The plane disintegrated as it fell into the sea."),
-                    ExampleSentenceKurdish(
-                        text: "فڕۆکەکە پارچەپارچە بوو کە کەوتە ناو دەریاکەوە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "disintegrate", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdisintegrates1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdisintegrates1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "The plane disintegrated as it fell into the sea.",
+            kurdishText:
+                "فڕۆکەکە پارچەپارچە بوو کە کەوتە ناو دەریاکەوە.", // disintegrate
+            onPressedBritish: () => speakdisintegrates1("en-GB"),
+            onPressedAmerican: () => speakdisintegrates1("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The wall just disintegrated in a shower of fragments and dust."),
-                    ExampleSentenceKurdish(
-                        text: "دیوارەکە بوو بە لێشاوێک لە پڕش و خۆڵ."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdisintegrates2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdisintegrates2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "The wall just disintegrated in a shower of fragments and dust.",
+            kurdishText: "دیوارەکە بوو بە لێشاوێک لە پڕش و خۆڵ.",
+            onPressedBritish: () => speakdisintegrates2("en-GB"),
+            onPressedAmerican: () => speakdisintegrates2("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "The bag had already begun to disintegrate."),
-                    ExampleSentenceKurdish(
-                        text: "جانتاکە پێشوەختە دەستی بە داڕزان کردووە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdisintegrates3("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdisintegrates3("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "The bag had already begun to disintegrate.",
+            kurdishText: "جانتاکە پێشوەختە دەستی بە داڕزان کردووە.",
+            onPressedBritish: () => speakdisintegrates3("en-GB"),
+            onPressedAmerican: () => speakdisintegrates3("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
                   "٢. (کردار) لەدەستدانی بەھێزی و یەکپارچەیی و کەم کەم شیبوونەوە"),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The authority of the central government was rapidly disintegrating."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "دەسەڵاتی حکومەتی ناوەندی بە خێرایی ھەڵدەوەشاوە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdisintegrates4("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdisintegrates4("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "The authority of the central government was rapidly disintegrating.",
+            kurdishText: "دەسەڵاتی حکومەتی ناوەندی بە خێرایی ھەڵدەوەشاوە.",
+            onPressedBritish: () => speakdisintegrates4("en-GB"),
+            onPressedAmerican: () => speakdisintegrates4("en-US"),
           ),
           // disintegrates500"),
           // speakdisintegrates5

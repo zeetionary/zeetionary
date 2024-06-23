@@ -412,203 +412,68 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   """١. (ناو) جومگەی ناوەڕاستی باڵ لە بەشی سەرەوە و خوارەوە کە تێیدا لە ناوەڕاستدا دەچەمێتەوە"""),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: """She jabbed him with her elbow."""),
-                    ExampleSentenceKurdish(
-                        text: """بە ئانیشکی پاڵی پێوە نا."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "elbow", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakelbows1("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakelbows1("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: """She jabbed him with her elbow.""",
+            kurdishText: """بە ئانیشکی پاڵی پێوە نا.""", // elbow
+            onPressedBritish: () => speakelbows1("en-GB"),
+            onPressedAmerican: () => speakelbows1("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: """He rested his elbows on his knees."""),
-                    ExampleSentenceKurdish(
-                        text: """ئانیشکی خستە سەر ئەژنۆکانی."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakelbows2("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakelbows2("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: """He rested his elbows on his knees.""",
+            kurdishText: """ئانیشکی خستە سەر ئەژنۆکانی.""",
+            onPressedBritish: () => speakelbows2("en-GB"),
+            onPressedAmerican: () => speakelbows2("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: """He's fractured his elbow."""),
-                    ExampleSentenceKurdish(text: """ئانیشکی شکا."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakelbows3("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakelbows3("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: """He's fractured his elbow.""",
+            kurdishText: """ئانیشکی شکا.""",
+            onPressedBritish: () => speakelbows3("en-GB"),
+            onPressedAmerican: () => speakelbows3("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            """I banged my elbow on the table as I got up."""),
-                    ExampleSentenceKurdish(
-                        text:
-                            """ئانیشکمم کێشا بە مێزەکەدا کە ھەستامە سەر پێ."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakelbows4("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakelbows4("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: """I banged my elbow on the table as I got up.""",
+            kurdishText: """ئانیشکمم کێشا بە مێزەکەدا کە ھەستامە سەر پێ.""",
+            onPressedBritish: () => speakelbows4("en-GB"),
+            onPressedAmerican: () => speakelbows4("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text: """٢. (ناو) ئەو بەشەی جل کە ئانیشک دادەپۆشێت"""),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: """The jacket was worn at the elbows."""),
-                    ExampleSentenceKurdish(
-                        text: """چاکەتەکە ڕزیبوو لە ئانیشکیدا."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakelbows5("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakelbows5("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: """The jacket was worn at the elbows.""",
+            kurdishText: """چاکەتەکە ڕزیبوو لە ئانیشکیدا.""",
+            onPressedBritish: () => speakelbows5("en-GB"),
+            onPressedAmerican: () => speakelbows5("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: """٣. (کردار) پاڵنان بە ئانیشک"""),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            """She elbowed me out of the way to get to the front of the line."""),
-                    ExampleSentenceKurdish(
-                        text:
-                            """ئانیشکی پێمدا کێشا بۆ چوونە پێشەوەی ڕیزەکە."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakelbows6("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakelbows6("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                """She elbowed me out of the way to get to the front of the line.""",
+            kurdishText: """ئانیشکی پێمدا کێشا بۆ چوونە پێشەوەی ڕیزەکە.""",
+            onPressedBritish: () => speakelbows6("en-GB"),
+            onPressedAmerican: () => speakelbows6("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            """His friend elbowed him aside and stepped forward."""),
-                    ExampleSentenceKurdish(
-                        text: """ھاوڕێکەی پاڵی نایە کەنارەوە و چووە پێشەوە."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakelbows7("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakelbows7("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                """His friend elbowed him aside and stepped forward.""",
+            kurdishText: """ھاوڕێکەی پاڵی نایە کەنارەوە و چووە پێشەوە.""",
+            onPressedBritish: () => speakelbows7("en-GB"),
+            onPressedAmerican: () => speakelbows7("en-US"),
           ),
           // elbows800elbows8
           // speakelbows8

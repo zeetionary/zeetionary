@@ -372,62 +372,24 @@ class KurdishMeaning extends StatelessWidget {
 """),
           const DefinitionKurdish(
               text: "١. (ناو) نەبوونی ھاودەنگی و ڕێکەوتن لە نێوان خەڵکیدا"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "Disunity among opposition groups will prevent real change from happening."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "ناتەبایی لە نێوان گرووپەکانی ئۆپۆزسیۆن ڕێگا دەگرێت لەوەی گۆڕانی ڕاستەقینە ڕووبدات."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "disunity", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdisunitys1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdisunitys1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "Disunity among opposition groups will prevent real change from happening.",
+            kurdishText:
+                "ناتەبایی لە نێوان گرووپەکانی ئۆپۆزسیۆن ڕێگا دەگرێت لەوەی گۆڕانی ڕاستەقینە ڕووبدات.", // disunity
+            onPressedBritish: () => speakdisunitys1("en-GB"),
+            onPressedAmerican: () => speakdisunitys1("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "It was all part of our enemies' plans to sow disunity in our society."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "ھەموو بەشێک لە پلانی دووژمن بوو بۆ درووستکردنی ناتەبایی لە کۆمەڵگاکەماندا."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdisunitys2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdisunitys2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "It was all part of our enemies' plans to sow disunity in our society.",
+            kurdishText:
+                "ھەموو بەشێک لە پلانی دووژمن بوو بۆ درووستکردنی ناتەبایی لە کۆمەڵگاکەماندا.",
+            onPressedBritish: () => speakdisunitys2("en-GB"),
+            onPressedAmerican: () => speakdisunitys2("en-US"),
           ),
           // disunitys300"),
           // speakdisunitys3

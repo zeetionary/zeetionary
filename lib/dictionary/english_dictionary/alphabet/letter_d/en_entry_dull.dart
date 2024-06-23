@@ -493,498 +493,171 @@ class KurdishMeaning extends StatelessWidget {
 """),
           const DefinitionKurdish(
               text: """١. (ھاوەڵناو) شتێک کە ناخۆشە و چێژی لێ نابینێت"""),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: """Life in a small town could be deadly dull."""),
-                    ExampleSentenceKurdish(
-                        text:
-                            """ژیان لە شارۆچکەیەکی بچووکدا دەکرێت تەواو بێزارکەر بێت."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "dull", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdulls1("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdulls1("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: """Life in a small town could be deadly dull.""",
+            kurdishText:
+                """ژیان لە شارۆچکەیەکی بچووکدا دەکرێت تەواو بێزارکەر بێت.""", // dull
+            onPressedBritish: () => speakdulls1("en-GB"),
+            onPressedAmerican: () => speakdulls1("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: """ژممارە. (کردار) پێنناسە"""),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            """The first half of the game was pretty dull."""),
-                    ExampleSentenceKurdish(
-                        text: """یەکەم گێمی یارییەکە تەواو ناخۆش بوو."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdulls2("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdulls2("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: """The first half of the game was pretty dull.""",
+            kurdishText: """یەکەم گێمی یارییەکە تەواو ناخۆش بوو.""",
+            onPressedBritish: () => speakdulls2("en-GB"),
+            onPressedAmerican: () => speakdulls2("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: """ژممارە. (کردار) پێنناسە"""),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            """There's never a dull moment when John's around."""),
-                    ExampleSentenceKurdish(
-                        text: """ھەرگیز ساتێکی خەماوی نییە کە جۆن لێرەیە."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdulls3("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdulls3("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: """There's never a dull moment when John's around.""",
+            kurdishText: """ھەرگیز ساتێکی خەماوی نییە کە جۆن لێرەیە.""",
+            onPressedBritish: () => speakdulls3("en-GB"),
+            onPressedAmerican: () => speakdulls3("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: """ژممارە. (کردار) پێنناسە"""),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: """He is the author of several dull novels."""),
-                    ExampleSentenceKurdish(
-                        text: """نووسەری ژمارەیەک ڕۆمانی خەمبارێنە."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdulls4("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdulls4("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: """He is the author of several dull novels.""",
+            kurdishText: """نووسەری ژمارەیەک ڕۆمانی خەمبارێنە.""",
+            onPressedBritish: () => speakdulls4("en-GB"),
+            onPressedAmerican: () => speakdulls4("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text: """٢. (ھاوەڵناو) کە ڕۆشن و درەوشاوە نییە"""),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(text: """Her eyes were dull."""),
-                    ExampleSentenceKurdish(text: """چاوەکانی تەڵخ بوون."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdulls5("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdulls5("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: """Her eyes were dull.""",
+            kurdishText: """چاوەکانی تەڵخ بوون.""",
+            onPressedBritish: () => speakdulls5("en-GB"),
+            onPressedAmerican: () => speakdulls5("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: """ژممارە. (کردار) پێنناسە"""),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: """The fire died down to a dull glow."""),
-                    ExampleSentenceKurdish(
-                        text: """ئاگرەکە کزبوویەوە بۆ ڕۆشنایەکی کز."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdulls6("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdulls6("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: """The fire died down to a dull glow.""",
+            kurdishText: """ئاگرەکە کزبوویەوە بۆ ڕۆشنایەکی کز.""",
+            onPressedBritish: () => speakdulls6("en-GB"),
+            onPressedAmerican: () => speakdulls6("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: """٣. (ھاوەڵناو) بە ھەورێکی زۆرەوە"""),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: """It was a dull, grey day."""),
-                    ExampleSentenceKurdish(
-                        text: """ڕۆژێکی لێڵی ھەوراوی بوو."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdulls7("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdulls7("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: """It was a dull, grey day.""",
+            kurdishText: """ڕۆژێکی لێڵی ھەوراوی بوو.""",
+            onPressedBritish: () => speakdulls7("en-GB"),
+            onPressedAmerican: () => speakdulls7("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text: """٤. (ھاوەڵناو) دەنگێک کە ڕوون یان بەرز نییە"""),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            """I heard a dull thud from the kitchen and realized she must have fainted."""),
-                    ExampleSentenceKurdish(
-                        text:
-                            """گوێم لە تەپەیەکی نزم بوو لە چێشتخانەکە و زانیم کە دەبێت لەھۆش خۆی چووبێت."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdulls8("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdulls8("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                """I heard a dull thud from the kitchen and realized she must have fainted.""",
+            kurdishText:
+                """گوێم لە تەپەیەکی نزم بوو لە چێشتخانەکە و زانیم کە دەبێت لەھۆش خۆی چووبێت.""",
+            onPressedBritish: () => speakdulls8("en-GB"),
+            onPressedAmerican: () => speakdulls8("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text: """٥. (ھاوەڵناو) ئازارێک کە توند نییە بەڵام بەردەوامە"""),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            """She felt a dull ache at the back of her head."""),
-                    ExampleSentenceKurdish(
-                        text:
-                            """ھەستی بە ژانێکی سووک لە پشتەوەی سەری دەکرد."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdulls9("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdulls9("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: """She felt a dull ache at the back of her head.""",
+            kurdishText: """ھەستی بە ژانێکی سووک لە پشتەوەی سەری دەکرد.""",
+            onPressedBritish: () => speakdulls9("en-GB"),
+            onPressedAmerican: () => speakdulls9("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text: """٦. (ھاوەڵناو) کەسێک کە درەنگ لە شت تێدەگات"""),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            """The teacher patiently explained to the dull pupil."""),
-                    ExampleSentenceKurdish(
-                        text:
-                            """مامۆستاکە پشوودرێژانە بۆ خوێندکارە گەمژەکەی ڕوونکردەوە."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdulls10("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdulls10("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                """The teacher patiently explained to the dull pupil.""",
+            kurdishText:
+                """مامۆستاکە پشوودرێژانە بۆ خوێندکارە گەمژەکەی ڕوونکردەوە.""",
+            onPressedBritish: () => speakdulls10("en-GB"),
+            onPressedAmerican: () => speakdulls10("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: """٧. (ھاوەڵناو) بازاڕێکی ھێواش"""),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: """Don't sell into a dull market."""),
-                    ExampleSentenceKurdish(
-                        text: """بە بازاڕێکی مردوو مەفرۆشە."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdulls11("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdulls11("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: """Don't sell into a dull market.""",
+            kurdishText: """بە بازاڕێکی مردوو مەفرۆشە.""",
+            onPressedBritish: () => speakdulls11("en-GB"),
+            onPressedAmerican: () => speakdulls11("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text: """٨. (کردار) لاوازکردنی ھەستێک یان ئازارێک"""),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            """The tablets they gave him dulled the pain for a while."""),
-                    ExampleSentenceKurdish(
-                        text:
-                            """ئەو حەبانەی پێیاندا بۆ کەمێک ئازارەکەیان سووککرد."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdulls12("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdulls12("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                """The tablets they gave him dulled the pain for a while.""",
+            kurdishText:
+                """ئەو حەبانەی پێیاندا بۆ کەمێک ئازارەکەیان سووککرد.""",
+            onPressedBritish: () => speakdulls12("en-GB"),
+            onPressedAmerican: () => speakdulls12("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: """ژممارە. (کردار) پێنناسە"""),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: """The pain of loss never dulls."""),
-                    ExampleSentenceKurdish(
-                        text: """ئازاری لەدەستدان ھەرگیز سووک نابێت."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdulls13("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdulls13("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: """The pain of loss never dulls.""",
+            kurdishText: """ئازاری لەدەستدان ھەرگیز سووک نابێت.""",
+            onPressedBritish: () => speakdulls13("en-GB"),
+            onPressedAmerican: () => speakdulls13("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: """ژممارە. (کردار) پێنناسە"""),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            """The heat dulled my enjoyment of the journey."""),
-                    ExampleSentenceKurdish(
-                        text: """گەرماکە چێژبینینمی لە گەشتەکە کەمکرد."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdulls14("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdulls14("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: """The heat dulled my enjoyment of the journey.""",
+            kurdishText: """گەرماکە چێژبینینمی لە گەشتەکە کەمکرد.""",
+            onPressedBritish: () => speakdulls14("en-GB"),
+            onPressedAmerican: () => speakdulls14("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text: """٩. (کردار) خاوکردنەوە یان بێزارکردنی کەسێک"""),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: """He felt dulled and stupid with sleep."""),
-                    ExampleSentenceKurdish(
-                        text: """ھەستی بە سستی و گێژی دەکرد لە خەودا."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdulls15("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdulls15("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: """He felt dulled and stupid with sleep.""",
+            kurdishText: """ھەستی بە سستی و گێژی دەکرد لە خەودا.""",
+            onPressedBritish: () => speakdulls15("en-GB"),
+            onPressedAmerican: () => speakdulls15("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
                   """١٠. (کردار) وابکەیت کە شتێک کەمتر ڕۆشن، پاک، یان تیژ بێت"""),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            """His eyes dulled and he slumped to the ground."""),
-                    ExampleSentenceKurdish(
-                        text: """چاوەکانی تەڵخ بوون و کێشای بە زەوییەکەدا."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdulls16("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdulls16("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: """His eyes dulled and he slumped to the ground.""",
+            kurdishText: """چاوەکانی تەڵخ بوون و کێشای بە زەوییەکەدا.""",
+            onPressedBritish: () => speakdulls16("en-GB"),
+            onPressedAmerican: () => speakdulls16("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: """ژممارە. (کردار) پێنناسە"""),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: """The endless rain seemed to dull all sound."""),
-                    ExampleSentenceKurdish(
-                        text:
-                            """بارانە بێ کۆتاکە وادیاربوو کە ھەموو دەنگێک کپ بکاتەوە."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdulls17("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdulls17("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: """The endless rain seemed to dull all sound.""",
+            kurdishText:
+                """بارانە بێ کۆتاکە وادیاربوو کە ھەموو دەنگێک کپ بکاتەوە.""",
+            onPressedBritish: () => speakdulls17("en-GB"),
+            onPressedAmerican: () => speakdulls17("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: """ژممارە. (کردار) پێنناسە"""),

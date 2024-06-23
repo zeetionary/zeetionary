@@ -372,61 +372,22 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "١. (کردار) گۆڕینی شێوە، ڕووکەش، یان دەنگی شتێک بەشێوەیەک کە نەناسرێتەوە"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "The loudspeaker seemed to distort his voice."),
-                    ExampleSentenceKurdish(
-                        text: "بڵندگۆکە وادیاربوو کە دەنگی بشێوێنێت."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "distort", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdistorts1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdistorts1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "The loudspeaker seemed to distort his voice.",
+            kurdishText: "بڵندگۆکە وادیاربوو کە دەنگی بشێوێنێت.", // distort
+            onPressedBritish: () => speakdistorts1("en-GB"),
+            onPressedAmerican: () => speakdistorts1("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
                   "٢. (کردار) شێواندنی زانیاری، بیرۆکە، ھتد بەشێوەیەک کە چی دیکە ڕاست نیین"),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "Newspapers are often guilty of distorting the truth."),
-                    ExampleSentenceKurdish(
-                        text: "ڕۆژنامەکان زۆرجار ھۆکاری شێواندنی ڕاستین."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdistorts2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdistorts2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "Newspapers are often guilty of distorting the truth.",
+            kurdishText: "ڕۆژنامەکان زۆرجار ھۆکاری شێواندنی ڕاستین.",
+            onPressedBritish: () => speakdistorts2("en-GB"),
+            onPressedAmerican: () => speakdistorts2("en-US"),
           ),
           // distorts300"),
           // speakdistorts3

@@ -380,87 +380,31 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   """١. (کردار) چوونە سەر کەشتی یان فڕۆکەیەک بۆ چوونە شوێنێک"""),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: """The invasion force was ready to embark."""),
-                    ExampleSentenceKurdish(
-                        text: """ھێزە ھێرشکارەکە ئامادە بوو بۆ بەڕێکەوتن."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "embark", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakembarks1("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakembarks1("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: """The invasion force was ready to embark.""",
+            kurdishText:
+                """ھێزە ھێرشکارەکە ئامادە بوو بۆ بەڕێکەوتن.""", // embark
+            onPressedBritish: () => speakembarks1("en-GB"),
+            onPressedAmerican: () => speakembarks1("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: """The team embarked for Italy."""),
-                    ExampleSentenceKurdish(text: """بەڕێکەوتن بۆ ئیتالیا."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakembarks2("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakembarks2("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: """The team embarked for Italy.""",
+            kurdishText: """بەڕێکەوتن بۆ ئیتالیا.""",
+            onPressedBritish: () => speakembarks2("en-GB"),
+            onPressedAmerican: () => speakembarks2("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            """They travelled with him to the coast to watch him embark."""),
-                    ExampleSentenceKurdish(
-                        text:
-                            """تا کەنارەکە لەگەڵی چوون تا ببینن کە سەردەکەوێت."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakembarks3("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakembarks3("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                """They travelled with him to the coast to watch him embark.""",
+            kurdishText: """تا کەنارەکە لەگەڵی چوون تا ببینن کە سەردەکەوێت.""",
+            onPressedBritish: () => speakembarks3("en-GB"),
+            onPressedAmerican: () => speakembarks3("en-US"),
           ),
           // embarks400embarks4
           // speakembarks4

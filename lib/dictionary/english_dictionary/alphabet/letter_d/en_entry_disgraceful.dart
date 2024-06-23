@@ -243,60 +243,22 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "١. (ھاوەڵناو) زۆر خراپ و پەسەند نەکراو؛ کە خەڵکی دەبێت شەرمی لێ بکەن"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "His behaviour was absolutely disgraceful!"),
-                    ExampleSentenceKurdish(
-                        text: "ھەڵسوکەوتی تەواو شەرمھێنەر بوو."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "disgraceful", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdisgracefuls1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdisgracefuls1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "His behaviour was absolutely disgraceful!",
+            kurdishText: "ھەڵسوکەوتی تەواو شەرمھێنەر بوو.", // disgraceful
+            onPressedBritish: () => speakdisgracefuls1("en-GB"),
+            onPressedAmerican: () => speakdisgracefuls1("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "It's disgraceful that none of the family tried to help her."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "شەرمە کە ھیچ یەک لە خێزانەکە ھەوڵیان نەدا یارمەتی بدەن."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdisgracefuls2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdisgracefuls2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "It's disgraceful that none of the family tried to help her.",
+            kurdishText:
+                "شەرمە کە ھیچ یەک لە خێزانەکە ھەوڵیان نەدا یارمەتی بدەن.",
+            onPressedBritish: () => speakdisgracefuls2("en-GB"),
+            onPressedAmerican: () => speakdisgracefuls2("en-US"),
           ),
           // disgracefuls300"),
           // speakdisgracefuls3

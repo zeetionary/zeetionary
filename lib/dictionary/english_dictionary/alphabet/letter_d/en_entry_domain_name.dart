@@ -363,30 +363,11 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "١. (ناو) ناوی وێبسایتێک یان ژمارەیەک وێبسایت لەسەر ئینتەرنێت"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "You will need to register a domain name."),
-                    ExampleSentenceKurdish(
-                        text: "دەبێت ناوی دۆمەینێک تۆمار بکەیت."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "domain name", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdomainnames1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdomainnames1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "You will need to register a domain name.",
+            kurdishText: "دەبێت ناوی دۆمەینێک تۆمار بکەیت.", // domain name
+            onPressedBritish: () => speakdomainnames1("en-GB"),
+            onPressedAmerican: () => speakdomainnames1("en-US"),
           ),
           // domainnames200"),
           // speakdomainnames2

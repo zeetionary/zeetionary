@@ -414,210 +414,76 @@ class KurdishMeaning extends StatelessWidget {
 """),
           const DefinitionKurdish(
               text: """١. (ھاوەڵناو) پەوەندیدار بە ھەستەکانی مرۆڤ"""),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            """The emotional impact of the film is powerful and lasting."""),
-                    ExampleSentenceKurdish(
-                        text:
-                            """کاریگەریی سۆزداری فیلمەکە بەھێز و درێژخایەنە."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "emotional", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakemotionals1("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakemotionals1("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                """The emotional impact of the film is powerful and lasting.""",
+            kurdishText:
+                """کاریگەریی سۆزداری فیلمەکە بەھێز و درێژخایەنە.""", // emotional
+            onPressedBritish: () => speakemotionals1("en-GB"),
+            onPressedAmerican: () => speakemotionals1("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            """He clearly feels an emotional connection to the place."""),
-                    ExampleSentenceKurdish(
-                        text:
-                            """بە ئاشکرا ھەست بە پەیوەندییەکی سۆزەکی دەکات بە شوێنەکەوە."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakemotionals2("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakemotionals2("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                """He clearly feels an emotional connection to the place.""",
+            kurdishText:
+                """بە ئاشکرا ھەست بە پەیوەندییەکی سۆزەکی دەکات بە شوێنەکەوە.""",
+            onPressedBritish: () => speakemotionals2("en-GB"),
+            onPressedAmerican: () => speakemotionals2("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            """Mothers are often the ones who provide emotional support for the family."""),
-                    ExampleSentenceKurdish(
-                        text:
-                            """دایکان زۆرجار ئەوانەن کە پشتگیری سۆزی دەدەن بە خێزان."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakemotionals3("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakemotionals3("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                """Mothers are often the ones who provide emotional support for the family.""",
+            kurdishText:
+                """دایکان زۆرجار ئەوانەن کە پشتگیری سۆزی دەدەن بە خێزان.""",
+            onPressedBritish: () => speakemotionals3("en-GB"),
+            onPressedAmerican: () => speakemotionals3("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
                   """٢. (ھاوەڵناو) کە وا لە خەڵکی دەکات ھەستی بەھێز دەرببڕن"""),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            """The anniversary of the accident was very emotional for him."""),
-                    ExampleSentenceKurdish(
-                        text: """ساڵیادی ڕووداوەکە زۆر ھەست‌بزوێن بوو بۆی."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakemotionals4("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakemotionals4("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                """The anniversary of the accident was very emotional for him.""",
+            kurdishText: """ساڵیادی ڕووداوەکە زۆر ھەست‌بزوێن بوو بۆی.""",
+            onPressedBritish: () => speakemotionals4("en-GB"),
+            onPressedAmerican: () => speakemotionals4("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: """This is a very emotional time for me."""),
-                    ExampleSentenceKurdish(
-                        text: """کاتێکی زۆر بزوێنەر بوو بۆی."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakemotionals5("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakemotionals5("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: """This is a very emotional time for me.""",
+            kurdishText: """کاتێکی زۆر بزوێنەر بوو بۆی.""",
+            onPressedBritish: () => speakemotionals5("en-GB"),
+            onPressedAmerican: () => speakemotionals5("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
                   """٣. (ھاوەڵناو) بۆ کەسێکە کە ھەست و سۆزی زۆر پیشان دەدات"""),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: """She was in a very emotional state."""),
-                    ExampleSentenceKurdish(
-                        text: """لە دۆخێکی زۆر سۆزەکی بوو."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakemotionals6("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakemotionals6("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: """She was in a very emotional state.""",
+            kurdishText: """لە دۆخێکی زۆر سۆزەکی بوو.""",
+            onPressedBritish: () => speakemotionals6("en-GB"),
+            onPressedAmerican: () => speakemotionals6("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            """He tends to get emotional on these occasions."""),
-                    ExampleSentenceKurdish(
-                        text: """وەھایە کە لەم بۆنانەدا بەسۆز دەبێت."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakemotionals7("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakemotionals7("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: """He tends to get emotional on these occasions.""",
+            kurdishText: """وەھایە کە لەم بۆنانەدا بەسۆز دەبێت.""",
+            onPressedBritish: () => speakemotionals7("en-GB"),
+            onPressedAmerican: () => speakemotionals7("en-US"),
           ),
           // emotionals800emotionals8
           // speakemotionals8

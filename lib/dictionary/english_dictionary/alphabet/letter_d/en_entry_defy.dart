@@ -283,174 +283,58 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "١. (کردار) ڕەتکردنەوەی ئەوەی گوێڕایەڵ بیت یان ڕێز بگریت لە کەسێکی دەسەڵاتدار، یاسایەک، ھتد"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "I wouldn't have dared to defy my teachers."),
-                    ExampleSentenceKurdish(
-                        text: "بوێری ئەوەم نەدەکرد بێگوێی مامۆستاکانم بکەم."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "defy", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdefys1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdefys1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "I wouldn't have dared to defy my teachers.",
+            kurdishText: "بوێری ئەوەم نەدەکرد بێگوێی مامۆستاکانم بکەم.", // defy
+            onPressedBritish: () => speakdefys1("en-GB"),
+            onPressedAmerican: () => speakdefys1("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "Hundreds of people today defied the ban on political gatherings."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "سەدان کەس ئەمڕۆ سەرپێچی قەدەغەکردنی کۆبوونەوەی سیاسییان کرد."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdefys2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdefys2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "Hundreds of people today defied the ban on political gatherings.",
+            kurdishText:
+                "سەدان کەس ئەمڕۆ سەرپێچی قەدەغەکردنی کۆبوونەوەی سیاسییان کرد.",
+            onPressedBritish: () => speakdefys2("en-GB"),
+            onPressedAmerican: () => speakdefys2("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "He is willing to defy his own party."),
-                    ExampleSentenceKurdish(
-                        text: "ئامادەیە لە پارتەکەی خۆی یاخی ببێت."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdefys3("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdefys3("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "He is willing to defy his own party.",
+            kurdishText: "ئامادەیە لە پارتەکەی خۆی یاخی ببێت.",
+            onPressedBritish: () => speakdefys3("en-GB"),
+            onPressedAmerican: () => speakdefys3("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "Journalists were openly defying the authorities."),
-                    ExampleSentenceKurdish(
-                        text: "ڕۆژنامەنووسان بە ئاشکرا دژی بەرپرسان دەبوون."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdefys4("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdefys4("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "Journalists were openly defying the authorities.",
+            kurdishText: "ڕۆژنامەنووسان بە ئاشکرا دژی بەرپرسان دەبوون.",
+            onPressedBritish: () => speakdefys4("en-GB"),
+            onPressedAmerican: () => speakdefys4("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
                   "٢. (کردار) کە ئاسان نابێت باس بکرێت، ڕوونکردنەوەی بۆ بدرێت، ڕوون بکرێتەوە، ھتد"),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "The beauty of the scene defies description."),
-                    ExampleSentenceKurdish(
-                        text: "جوانی دیمەنەکە لە باسکردن نایەت."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdefys5("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdefys5("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "The beauty of the scene defies description.",
+            kurdishText: "جوانی دیمەنەکە لە باسکردن نایەت.",
+            onPressedBritish: () => speakdefys5("en-GB"),
+            onPressedAmerican: () => speakdefys5("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "His face was so odd that it defies description."),
-                    ExampleSentenceKurdish(
-                        text: "ڕووخساری ھێندە نامۆ بوو کە لە باسکردن نایەت."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdefys6("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdefys6("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "His face was so odd that it defies description.",
+            kurdishText: "ڕووخساری ھێندە نامۆ بوو کە لە باسکردن نایەت.",
+            onPressedBritish: () => speakdefys6("en-GB"),
+            onPressedAmerican: () => speakdefys6("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "٣. (کردار) بە ئاستێکی زۆر وەستانەوە دژ بە"),

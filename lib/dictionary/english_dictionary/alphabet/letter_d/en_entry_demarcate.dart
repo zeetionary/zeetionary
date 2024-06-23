@@ -250,60 +250,21 @@ class KurdishMeaning extends StatelessWidget {
 // کوردی: سنووردار کردن، نیشانە دانان
 // """),
           const DefinitionKurdish(text: "١. (کردار) دانانی سنوورێک بۆ شتێک"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "Plots of land have been demarcated by barbed wire."),
-                    ExampleSentenceKurdish(
-                        text: "پارچە زەوی بە تەلی دڕکاوی کێشراون."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "demarcate", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdemarcates1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdemarcates1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "Plots of land have been demarcated by barbed wire.",
+            kurdishText: "پارچە زەوی بە تەلی دڕکاوی کێشراون.", // demarcate
+            onPressedBritish: () => speakdemarcates1("en-GB"),
+            onPressedAmerican: () => speakdemarcates1("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The police demarcated the city into eighteen geographical divisions."),
-                    ExampleSentenceKurdish(
-                        text: "پۆلیس شارەکەی کرد بە ھەشت یەکەی جوگرافییەوە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdemarcates2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdemarcates2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "The police demarcated the city into eighteen geographical divisions.",
+            kurdishText: "پۆلیس شارەکەی کرد بە ھەشت یەکەی جوگرافییەوە.",
+            onPressedBritish: () => speakdemarcates2("en-GB"),
+            onPressedAmerican: () => speakdemarcates2("en-US"),
           ),
           // demarcates300"),
           // speakdemarcates3

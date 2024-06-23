@@ -257,88 +257,31 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "١. (ناو) کەسێک کە جێگری سەرکردەیەک، بەڕێوەبەری قوتابخانە، بەڕێوەبەری بازرگانییەک، ھتد ـە"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "I'm acting as deputy till the manager returns."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "وەک جێگر کار دەکەم تاوەکو بەڕێوەبەر دەگەڕێتەوە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "deputy", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdeputys1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdeputys1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "I'm acting as deputy till the manager returns.",
+            kurdishText:
+                "وەک جێگر کار دەکەم تاوەکو بەڕێوەبەر دەگەڕێتەوە.", // deputy
+            onPressedBritish: () => speakdeputys1("en-GB"),
+            onPressedAmerican: () => speakdeputys1("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "She was appointed deputy head of the school."),
-                    ExampleSentenceKurdish(
-                        text: "وەک جێگری بەڕێوەبەری قوتابخانەکە دیاریکرا."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdeputys2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdeputys2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "She was appointed deputy head of the school.",
+            kurdishText: "وەک جێگری بەڕێوەبەری قوتابخانەکە دیاریکرا.",
+            onPressedBritish: () => speakdeputys2("en-GB"),
+            onPressedAmerican: () => speakdeputys2("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٢. (ناو) ئەندام پەرلەمانی چەند وڵاتێک"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "23 women were among the 77 deputies elected."),
-                    ExampleSentenceKurdish(
-                        text: "٢٣ ژن لەناو ئەو ٧٧ ئەندامەن کە ھەڵبژێردراون."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdeputys3("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdeputys3("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "23 women were among the 77 deputies elected.",
+            kurdishText: "٢٣ ژن لەناو ئەو ٧٧ ئەندامەن کە ھەڵبژێردراون.",
+            onPressedBritish: () => speakdeputys3("en-GB"),
+            onPressedAmerican: () => speakdeputys3("en-US"),
           ),
           // deputys400"),
           // speakdeputys4

@@ -268,121 +268,43 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "١. (ناو) گرووپێک کەس کە نوێنەری دیدەکانی دامەزراوەیەک، وڵاتێک، ھتد"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "A well-known academic will head the delegation."),
-                    ExampleSentenceKurdish(
-                        text: "لێکۆڵەرێکی ناسراو سەرکردایەتی شاندەکە دەکات."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "delegation", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdelegations1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdelegations1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "A well-known academic will head the delegation.",
+            kurdishText:
+                "لێکۆڵەرێکی ناسراو سەرکردایەتی شاندەکە دەکات.", // delegation
+            onPressedBritish: () => speakdelegations1("en-GB"),
+            onPressedAmerican: () => speakdelegations1("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The British delegation walked out of the discussions in protest."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "شاندی بەریتانیا لە باسەکە چوونە دەرەوە وەک ناڕەزایی."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdelegations2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdelegations2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "The British delegation walked out of the discussions in protest.",
+            kurdishText: "شاندی بەریتانیا لە باسەکە چوونە دەرەوە وەک ناڕەزایی.",
+            onPressedBritish: () => speakdelegations2("en-GB"),
+            onPressedAmerican: () => speakdelegations2("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The delegation included representatives from nine nations."),
-                    ExampleSentenceKurdish(
-                        text: "شاندەکە نوێنەرایەتی نۆ وڵاتی لەخۆدەگرت."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdelegations3("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdelegations3("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "The delegation included representatives from nine nations.",
+            kurdishText: "شاندەکە نوێنەرایەتی نۆ وڵاتی لەخۆدەگرت.",
+            onPressedBritish: () => speakdelegations3("en-GB"),
+            onPressedAmerican: () => speakdelegations3("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٢. (ناو) پێدانی ئەرک و بەرپرسیاریەتی کە زۆرجار ھی خۆتە"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "All managers should learn effective delegation."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "ھەموو بەڕێوەبەرەکان دەبێت فێری پێ‌ڕاسپاردنی کاریگەر ببن."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdelegations4("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdelegations4("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "All managers should learn effective delegation.",
+            kurdishText:
+                "ھەموو بەڕێوەبەرەکان دەبێت فێری پێ‌ڕاسپاردنی کاریگەر ببن.",
+            onPressedBritish: () => speakdelegations4("en-GB"),
+            onPressedAmerican: () => speakdelegations4("en-US"),
           ),
           // delegations500"),
           // speakdelegations5

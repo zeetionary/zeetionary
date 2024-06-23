@@ -391,536 +391,175 @@ class KurdishMeaning extends StatelessWidget {
 """),
           const DefinitionKurdish(
               text: "١. (ناو) کاری پاراستنی کەسێک/شتێک لە ھێرش، ڕەخنە، ھتد"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "What points can be raised in defence of this argument?"),
-                    ExampleSentenceKurdish(
-                        text:
-                            "چی خاڵێک دەکرێت باس بکرێت بۆ بەرگری لە بۆچوونەکەی؟"),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "defence", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdefences1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdefences1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "What points can be raised in defence of this argument?",
+            kurdishText:
+                "چی خاڵێک دەکرێت باس بکرێت بۆ بەرگری لە بۆچوونەکەی؟", // defence
+            onPressedBritish: () => speakdefences1("en-GB"),
+            onPressedAmerican: () => speakdefences1("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "I have to say in her defence that she knew nothing about it beforehand."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "وەک برگرییەک لێی دەبێت بڵێم پێشوەختە ھیچی نەزانی."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdefences2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdefences2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "I have to say in her defence that she knew nothing about it beforehand.",
+            kurdishText: "وەک برگرییەک لێی دەبێت بڵێم پێشوەختە ھیچی نەزانی.",
+            onPressedBritish: () => speakdefences2("en-GB"),
+            onPressedAmerican: () => speakdefences2("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "When her brother was criticized she leapt to his defence."),
-                    ExampleSentenceKurdish(
-                        text: "کە براکەی سەرزەنشت کرا گەشتە بەرگری لێی."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdefences3("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdefences3("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "When her brother was criticized she leapt to his defence.",
+            kurdishText: "کە براکەی سەرزەنشت کرا گەشتە بەرگری لێی.",
+            onPressedBritish: () => speakdefences3("en-GB"),
+            onPressedAmerican: () => speakdefences3("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "He paid tribute to all those who had died in defence of their country."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "ڕێزی نا لە ھەموو ئەوانەی کە لە بەرگری وڵاتەکەیاندا گیانیان بەخت کردبوو."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdefences4("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdefences4("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "He paid tribute to all those who had died in defence of their country.",
+            kurdishText:
+                "ڕێزی نا لە ھەموو ئەوانەی کە لە بەرگری وڵاتەکەیاندا گیانیان بەخت کردبوو.",
+            onPressedBritish: () => speakdefences4("en-GB"),
+            onPressedAmerican: () => speakdefences4("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(text: "She spoke in his defence."),
-                    ExampleSentenceKurdish(text: "بۆ بەرگری لێی قسەی کرد."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdefences5("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdefences5("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "She spoke in his defence.",
+            kurdishText: "بۆ بەرگری لێی قسەی کرد.",
+            onPressedBritish: () => speakdefences5("en-GB"),
+            onPressedAmerican: () => speakdefences5("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٢. (ناو) شتێک کە ئەرکی پارێزەر دەبینێت"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "At this point the country had no effective air defences."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "لەم قۆناغەدا وڵاتەکە ھیچ بەرگرییەکی ئاسمانی کاریگەری نەبوو."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdefences6("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdefences6("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "At this point the country had no effective air defences.",
+            kurdishText:
+                "لەم قۆناغەدا وڵاتەکە ھیچ بەرگرییەکی ئاسمانی کاریگەری نەبوو.",
+            onPressedBritish: () => speakdefences6("en-GB"),
+            onPressedAmerican: () => speakdefences6("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The town walls were built as a defence against enemy attacks."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "شووراکانی بیناکە وەک بەرگرییەک دژ بە ھێرشەکانی دوژمن بنیات نران."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdefences7("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdefences7("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "The town walls were built as a defence against enemy attacks.",
+            kurdishText:
+                "شووراکانی بیناکە وەک بەرگرییەک دژ بە ھێرشەکانی دوژمن بنیات نران.",
+            onPressedBritish: () => speakdefences7("en-GB"),
+            onPressedAmerican: () => speakdefences7("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The body has natural defence mechanisms to protect it from disease."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "لەش میکانیزمی سرووشتی بەرگری ھەیە دژ بە نەخۆشی."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdefences8("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdefences8("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "The body has natural defence mechanisms to protect it from disease.",
+            kurdishText: "لەش میکانیزمی سرووشتی بەرگری ھەیە دژ بە نەخۆشی.",
+            onPressedBritish: () => speakdefences8("en-GB"),
+            onPressedAmerican: () => speakdefences8("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "They are building up defences along the river."),
-                    ExampleSentenceKurdish(
-                        text: "بە درێژایی ڕووبارەکە بەرگری درووست دەکەن."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdefences9("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdefences9("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "They are building up defences along the river.",
+            kurdishText: "بە درێژایی ڕووبارەکە بەرگری درووست دەکەن.",
+            onPressedBritish: () => speakdefences9("en-GB"),
+            onPressedAmerican: () => speakdefences9("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: "٣. (ناو) وەزارەتی بەرگری وڵاتێک"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "Issues of national defence are a matter for the government."),
-                    ExampleSentenceKurdish(
-                        text: "بابەتەکانی بەرگری نیشتیمانی مژارێکن بۆ حکومەت."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdefences10("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdefences10("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "Issues of national defence are a matter for the government.",
+            kurdishText: "بابەتەکانی بەرگری نیشتیمانی مژارێکن بۆ حکومەت.",
+            onPressedBritish: () => speakdefences10("en-GB"),
+            onPressedAmerican: () => speakdefences10("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "Further cuts in defence spending are being considered."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "کەمکردنەوەی زیاتر لە خەرجی بەرگری لەبەرچاو دەگیردرێن."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdefences11("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdefences11("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "Further cuts in defence spending are being considered.",
+            kurdishText:
+                "کەمکردنەوەی زیاتر لە خەرجی بەرگری لەبەرچاو دەگیردرێن.",
+            onPressedBritish: () => speakdefences11("en-GB"),
+            onPressedAmerican: () => speakdefences11("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "He was the youngest person ever to serve as U.S. Defense Secretary."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "گەنجترین کەس بوو کە وەک وەزیری بەرگری ئەمریکا دەست بەکاربێت."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdefences12("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdefences12("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "He was the youngest person ever to serve as U.S. Defense Secretary.",
+            kurdishText:
+                "گەنجترین کەس بوو کە وەک وەزیری بەرگری ئەمریکا دەست بەکاربێت.",
+            onPressedBritish: () => speakdefences12("en-GB"),
+            onPressedAmerican: () => speakdefences12("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "Robert McNamara was Secretary of Defense under Presidents Kennedy and Johnson."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "ڕۆبێرت مکنامارا وەزیری بەرگری بۆ سەرۆک کەنەدی و جۆنسن."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdefences13("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdefences13("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "Robert McNamara was Secretary of Defense under Presidents Kennedy and Johnson.",
+            kurdishText:
+                "ڕۆبێرت مکنامارا وەزیری بەرگری بۆ سەرۆک کەنەدی و جۆنسن.",
+            onPressedBritish: () => speakdefences13("en-GB"),
+            onPressedAmerican: () => speakdefences13("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٤. (ناو) شتێک کە دەنووسرێت بۆ پشتیوانی شتێک"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The book is a closely argued defence of the economic theory of Keynes."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "کتێبەکە بە ئاستێکی زۆر دادەنرێت وەک پشتیوانییەک لە بیردۆزی ئابووری کینز."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdefences14("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdefences14("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "The book is a closely argued defence of the economic theory of Keynes.",
+            kurdishText:
+                "کتێبەکە بە ئاستێکی زۆر دادەنرێت وەک پشتیوانییەک لە بیردۆزی ئابووری کینز.",
+            onPressedBritish: () => speakdefences14("en-GB"),
+            onPressedAmerican: () => speakdefences14("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
                   "٥. (ناو) ئەوەی لە دادگا دەگوترێت بۆ سەلماندنی ئەوەی کەسێک بێ‌تاوانە"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "Her defence was that she was somewhere completely different at the time of the crime."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "بەرگرییەکەی ئەوە بوو کە لە شوێنێکی زۆر جیاواز بوو لە کارت تاوانەکەدا."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdefences15("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdefences15("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "Her defence was that she was somewhere completely different at the time of the crime.",
+            kurdishText:
+                "بەرگرییەکەی ئەوە بوو کە لە شوێنێکی زۆر جیاواز بوو لە کارت تاوانەکەدا.",
+            onPressedBritish: () => speakdefences15("en-GB"),
+            onPressedAmerican: () => speakdefences15("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "He wanted to conduct his own defence."),
-                    ExampleSentenceKurdish(
-                        text: "دەیویست خۆی بەرگرییەکەی ئەنجام بدات."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdefences16("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdefences16("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "He wanted to conduct his own defence.",
+            kurdishText: "دەیویست خۆی بەرگرییەکەی ئەنجام بدات.",
+            onPressedBritish: () => speakdefences16("en-GB"),
+            onPressedAmerican: () => speakdefences16("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٦. (ناو) پارێزەر یان دەستەی پارێزەری کەسێک"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The defence requested more time to prepare their case."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "دەستەی پارێزەری داوای کاتی زیاتریان کرد بۆ ئامادەکردنی کەیسەکە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdefences17("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdefences17("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "The defence requested more time to prepare their case.",
+            kurdishText:
+                "دەستەی پارێزەری داوای کاتی زیاتریان کرد بۆ ئامادەکردنی کەیسەکە.",
+            onPressedBritish: () => speakdefences17("en-GB"),
+            onPressedAmerican: () => speakdefences17("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: "٧. (ناو) یاریزانانی بەرگری تیمێک"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "Welford cut through the defence to score the winning goal."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "ویڵفۆرد بە ناو بەرگریکاراندا تێپەڕی بۆ تۆمارکردنی گۆڵی بردنەوە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdefences18("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdefences18("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "Welford cut through the defence to score the winning goal.",
+            kurdishText:
+                "ویڵفۆرد بە ناو بەرگریکاراندا تێپەڕی بۆ تۆمارکردنی گۆڵی بردنەوە.",
+            onPressedBritish: () => speakdefences18("en-GB"),
+            onPressedAmerican: () => speakdefences18("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                      text: "She plays in defence.",
-                      note: "She plays on defence.",
-                    ),
-                    ExampleSentenceKurdish(text: "لە بەرگریدا یاری دەکات."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdefences19("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdefences19("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "She plays in defence.",
+            englishNote: "She plays on defence.",
+            kurdishText: "لە بەرگریدا یاری دەکات.",
+            onPressedBritish: () => speakdefences19("en-GB"),
+            onPressedAmerican: () => speakdefences19("en-US"),
           ),
           // "I have to say in her defence that she knew nothing about it beforehand.0"),
           // speakdefences20

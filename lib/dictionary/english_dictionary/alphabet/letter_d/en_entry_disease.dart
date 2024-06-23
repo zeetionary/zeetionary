@@ -266,145 +266,50 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "١. (ناو) نەخۆشییەک کە تووشی مرۆڤ، ئاژەڵان، یان ڕووەک دەبێت و زۆرجار بەھۆی تووشبوونەوەیە"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "In 19th century England, infectious diseases were the principal cause of death."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "لە سەدەی ١٩ ـی ئینگلتەرەدا، نەخۆشییە گواستراوەکان ھۆکاری سەرەکیی مردن بوون."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "disease", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdiseases1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdiseases1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "In 19th century England, infectious diseases were the principal cause of death.",
+            kurdishText:
+                "لە سەدەی ١٩ ـی ئینگلتەرەدا، نەخۆشییە گواستراوەکان ھۆکاری سەرەکیی مردن بوون.", // disease
+            onPressedBritish: () => speakdiseases1("en-GB"),
+            onPressedAmerican: () => speakdiseases1("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "Smoking increases the risk of heart disease."),
-                    ExampleSentenceKurdish(
-                        text: "جگەرەکێشان مەترسی نەخۆشی دڵ زیاد دەکات."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdiseases2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdiseases2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "Smoking increases the risk of heart disease.",
+            kurdishText: "جگەرەکێشان مەترسی نەخۆشی دڵ زیاد دەکات.",
+            onPressedBritish: () => speakdiseases2("en-GB"),
+            onPressedAmerican: () => speakdiseases2("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "It is not known what causes the disease."),
-                    ExampleSentenceKurdish(
-                        text: "نەزانراوە چی دەبێتە ھۆکاری نەخۆشییەکە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdiseases3("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdiseases3("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "It is not known what causes the disease.",
+            kurdishText: "نەزانراوە چی دەبێتە ھۆکاری نەخۆشییەکە.",
+            onPressedBritish: () => speakdiseases3("en-GB"),
+            onPressedAmerican: () => speakdiseases3("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "He suffers from a rare blood disease."),
-                    ExampleSentenceKurdish(
-                        text: "بەدەست نەخۆشییەکی دەگمەنی خوێنەوە دەناڵێنێت."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdiseases4("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdiseases4("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "He suffers from a rare blood disease.",
+            kurdishText: "بەدەست نەخۆشییەکی دەگمەنی خوێنەوە دەناڵێنێت.",
+            onPressedBritish: () => speakdiseases4("en-GB"),
+            onPressedAmerican: () => speakdiseases4("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٢. (ناو) شتێک کە ھەڵەیە لە کەسێکدا، کۆمەڵگەیەکدا، ھتد"),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "Greed is a disease of modern society."),
-                    ExampleSentenceKurdish(
-                        text: "تەماح نەخۆشییەکی کۆمەڵگای سەردەمە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdiseases5("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdiseases5("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "Greed is a disease of modern society.",
+            kurdishText: "تەماح نەخۆشییەکی کۆمەڵگای سەردەمە.",
+            onPressedBritish: () => speakdiseases5("en-GB"),
+            onPressedAmerican: () => speakdiseases5("en-US"),
           ),
           // diseases600"),
           // speakdiseases6

@@ -252,94 +252,37 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "١. (ناو) کەسێک کە شوێن وانەکانی سەرکردەیەکی ئایینی یان سیاسی دەکەوێت"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "He commanded them to go out and make disciples of all nations."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "فەرمانی پێکردن بچن و مرید لە ھەموو نەتەوەکانەوە باوەڕ پێ‌بھێنن."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "disciple", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdisciples1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdisciples1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "He commanded them to go out and make disciples of all nations.",
+            kurdishText:
+                "فەرمانی پێکردن بچن و مرید لە ھەموو نەتەوەکانەوە باوەڕ پێ‌بھێنن.", // disciple
+            onPressedBritish: () => speakdisciples1("en-GB"),
+            onPressedAmerican: () => speakdisciples1("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "These ideas are central to the work of Freud and his disciples."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "ئەم بیرۆکانە سەرەکین بۆ کارەکانی فرۆید و شوێنکەوتووانی."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdisciples2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdisciples2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "These ideas are central to the work of Freud and his disciples.",
+            kurdishText:
+                "ئەم بیرۆکانە سەرەکین بۆ کارەکانی فرۆید و شوێنکەوتووانی.",
+            onPressedBritish: () => speakdisciples2("en-GB"),
+            onPressedAmerican: () => speakdisciples2("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
                   "٢. (ناو) یەکێک لە شوێنکەوتووانی عیسای مەسیح کە ھێشتا لەسەر زەوی بوو"),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "John was close to Jesus and often called the beloved disciple."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "جۆن (یەحیا) نزیک لە عیسای مەسیح بوو و پێی دەگوترا قوتابییە خۆشەویستەکە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdisciples3("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdisciples3("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "John was close to Jesus and often called the beloved disciple.",
+            kurdishText:
+                "جۆن (یەحیا) نزیک لە عیسای مەسیح بوو و پێی دەگوترا قوتابییە خۆشەویستەکە.",
+            onPressedBritish: () => speakdisciples3("en-GB"),
+            onPressedAmerican: () => speakdisciples3("en-US"),
           ),
           // disciples400"),
           // speakdisciples4

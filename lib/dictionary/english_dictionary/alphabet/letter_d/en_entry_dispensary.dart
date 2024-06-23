@@ -233,32 +233,13 @@ class KurdishMeaning extends StatelessWidget {
 """),
           const DefinitionKurdish(
               text: "١. (ناو) شوێنێک کە دەرمان بۆ نەخۆش ئامادە دەکرێت"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "Patients get their medicines from the hospital's dispensary."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "نەخۆشان دەرمانەکانیان لە دەرمانخانەی نەخۆشخانەکە وەردەگرن."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "dispensary", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdispensarys1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdispensarys1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "Patients get their medicines from the hospital's dispensary.",
+            kurdishText:
+                "نەخۆشان دەرمانەکانیان لە دەرمانخانەی نەخۆشخانەکە وەردەگرن.", // dispensary
+            onPressedBritish: () => speakdispensarys1("en-GB"),
+            onPressedAmerican: () => speakdispensarys1("en-US"),
           ),
           // dispensarys200"),
           // speakdispensarys2

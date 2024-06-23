@@ -232,30 +232,12 @@ class KurdishMeaning extends StatelessWidget {
 // """),
           const DefinitionKurdish(
               text: "١. (ناو) سەگێک کە لاشە و گوێی درێژ و لاقی کورت ھەیە"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "Dachshunds are known for their playful nature."),
-                    ExampleSentenceKurdish(
-                        text: "پێ‌کوڵەکان ناسراون بۆ سرووشتی ھاروھاجییان."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "dachshund", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdachshunds1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdachshunds1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "Dachshunds are known for their playful nature.",
+            kurdishText:
+                "پێ‌کوڵەکان ناسراون بۆ سرووشتی ھاروھاجییان.", // dachshund
+            onPressedBritish: () => speakdachshunds1("en-GB"),
+            onPressedAmerican: () => speakdachshunds1("en-US"),
           ),
         ],
       ),

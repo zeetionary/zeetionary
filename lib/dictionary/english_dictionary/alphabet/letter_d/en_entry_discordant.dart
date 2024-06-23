@@ -232,32 +232,12 @@ class KurdishMeaning extends StatelessWidget {
 کوردی: ناساز، یەک‌نەکەوتوو، دژ، ناتەبا، ناکۆک
 """),
           const DefinitionKurdish(text: "١. (ھاوەڵناو) کە پێکەوە ناگونجێن"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "Discordant opinions prevail even among good judges."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "بۆچوونی جیاواز تەنانەت لە نێوان دادوەرە باشەکانیش سەرھەڵ دەدات."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "discordant", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdiscordants1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdiscordants1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "Discordant opinions prevail even among good judges.",
+            kurdishText:
+                "بۆچوونی جیاواز تەنانەت لە نێوان دادوەرە باشەکانیش سەرھەڵ دەدات.", // discordant
+            onPressedBritish: () => speakdiscordants1("en-GB"),
+            onPressedAmerican: () => speakdiscordants1("en-US"),
           ),
           // discordants200"),
           // speakdiscordants2

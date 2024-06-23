@@ -406,169 +406,56 @@ class KurdishMeaning extends StatelessWidget {
               text:
                   "١. (کردار) بەخێرایی جوڵان بە لایەکدا بۆ ئەوەی لە کەسێک/شتێک دووربکەویتەوە"),
           const AlsoEnglishckb(word: "ھەروەھا: duck"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "He ran across the road, dodging the traffic."),
-                    ExampleSentenceKurdish(
-                        text: "بە شەقامەکەدا ڕایکرد و خۆی لە ھاتووچۆ پاراست."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "dodge", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdodges1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdodges1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "He ran across the road, dodging the traffic.",
+            kurdishText:
+                "بە شەقامەکەدا ڕایکرد و خۆی لە ھاتووچۆ پاراست.", // dodge
+            onPressedBritish: () => speakdodges1("en-GB"),
+            onPressedAmerican: () => speakdodges1("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The girl dodged behind a tree to hide from the other children."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "کچەکە خۆی لە پشتی دارێک شاردەوە بۆ خۆشاردنەوە لە منداڵەکانی دیکە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdodges2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdodges2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "The girl dodged behind a tree to hide from the other children.",
+            kurdishText:
+                "کچەکە خۆی لە پشتی دارێک شاردەوە بۆ خۆشاردنەوە لە منداڵەکانی دیکە.",
+            onPressedBritish: () => speakdodges2("en-GB"),
+            onPressedAmerican: () => speakdodges2("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "We had to dodge their missiles."),
-                    ExampleSentenceKurdish(
-                        text: "پێویست بوو خۆمان لە مووشەکەکانیان بپارێزین."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdodges3("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdodges3("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "We had to dodge their missiles.",
+            kurdishText: "پێویست بوو خۆمان لە مووشەکەکانیان بپارێزین.",
+            onPressedBritish: () => speakdodges3("en-GB"),
+            onPressedAmerican: () => speakdodges3("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٢. (کردار) دوورکەوتنەوە لە کردنی شتێک"),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "He dodged his military service."),
-                    ExampleSentenceKurdish(
-                        text: "خۆی لە خزمەتی سەربازی دزییەوە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdodges4("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdodges4("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "He dodged his military service.",
+            kurdishText: "خۆی لە خزمەتی سەربازی دزییەوە.",
+            onPressedBritish: () => speakdodges4("en-GB"),
+            onPressedAmerican: () => speakdodges4("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "She tried to dodge paying her taxes."),
-                    ExampleSentenceKurdish(
-                        text: "ھەوڵیدا خۆی لە دانی باجەکانی بدزێتەوە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdodges5("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdodges5("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "She tried to dodge paying her taxes.",
+            kurdishText: "ھەوڵیدا خۆی لە دانی باجەکانی بدزێتەوە.",
+            onPressedBritish: () => speakdodges5("en-GB"),
+            onPressedAmerican: () => speakdodges5("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: "٣. (ناو) فێڵێکی زیرەکانە و چەوت"),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "When it comes to getting off work, he knows all the dodges."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "کە دێتە سەر نەچوون بۆ سەر کار، ھەموو فێڵەکان دەزانێت."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdodges6("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdodges6("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "When it comes to getting off work, he knows all the dodges.",
+            kurdishText:
+                "کە دێتە سەر نەچوون بۆ سەر کار، ھەموو فێڵەکان دەزانێت.",
+            onPressedBritish: () => speakdodges6("en-GB"),
+            onPressedAmerican: () => speakdodges6("en-US"),
           ),
           // dodges700"),
           // speakdodges7

@@ -373,62 +373,24 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   """١. (ناو) گەورەترین باڵندەی ڕاوکەر کە دەنووکێکی تیژی چەماوەی ھەیە لەگەڵ بینایی زۆر بەھێز"""),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            """Above the mountain, eagles circled in soundless flight."""),
-                    ExampleSentenceKurdish(
-                        text:
-                            """لە سەروو چیاکانەوە داڵ بە فڕینی بێدەنگ دەسووڕانەوە."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "eagle", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakeagles1("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakeagles1("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                """Above the mountain, eagles circled in soundless flight.""",
+            kurdishText:
+                """لە سەروو چیاکانەوە داڵ بە فڕینی بێدەنگ دەسووڕانەوە.""", // eagle
+            onPressedBritish: () => speakeagles1("en-GB"),
+            onPressedAmerican: () => speakeagles1("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            """We saw the eagle swoop from the sky to catch its prey."""),
-                    ExampleSentenceKurdish(
-                        text:
-                            """داڵەکەمان بینی لە ئاسمانەوە دابەزی بۆ گرتنی نێچیرەکەی."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakeagles2("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakeagles2("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                """We saw the eagle swoop from the sky to catch its prey.""",
+            kurdishText:
+                """داڵەکەمان بینی لە ئاسمانەوە دابەزی بۆ گرتنی نێچیرەکەی.""",
+            onPressedBritish: () => speakeagles2("en-GB"),
+            onPressedAmerican: () => speakeagles2("en-US"),
           ),
           // eagles300eagles3
           // speakeagles3

@@ -234,32 +234,13 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "١. (ناو) بینایەک، ئۆتۆمبێلێک، ھتد کە زۆر مەترسیدارە و دەکرێت ببێتە ھۆکاری مەرگ"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The cars blocking the exits could turn this place into a death trap."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "ئەو ئۆۆتمبێلانەی کە ڕێگای چوونە دەرەوەیان قەتیس کردووە دەکرێت ئەم شوێنە بکەن بە تەڵەی مەرگ."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "death trap", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdeathtraps1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdeathtraps1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "The cars blocking the exits could turn this place into a death trap.",
+            kurdishText:
+                "ئەو ئۆۆتمبێلانەی کە ڕێگای چوونە دەرەوەیان قەتیس کردووە دەکرێت ئەم شوێنە بکەن بە تەڵەی مەرگ.", // death trap
+            onPressedBritish: () => speakdeathtraps1("en-GB"),
+            onPressedAmerican: () => speakdeathtraps1("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "٢. (ھاوەڵناو) پێنناسە"),

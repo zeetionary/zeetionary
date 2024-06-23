@@ -240,58 +240,21 @@ class KurdishMeaning extends StatelessWidget {
 کوردی: شێواو، ئاڵۆزاو، ئاڵۆسکاو، شپرزە، شڕوشێواو، شەپڕێو، شل‌وشێواو
 """),
           const DefinitionKurdish(text: "١. (ھاوەڵناو) زۆر ناڕێک"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "He looked tired and dishevelled."),
-                    ExampleSentenceKurdish(text: "ماندوو و شڕوشێواو دیاربوو."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "dishevelled", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdishevelleds1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdishevelleds1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "He looked tired and dishevelled.",
+            kurdishText: "ماندوو و شڕوشێواو دیاربوو.", // dishevelled
+            onPressedBritish: () => speakdishevelleds1("en-GB"),
+            onPressedAmerican: () => speakdishevelleds1("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "She returned at 1 a.m. in a dishevelled state."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "لە دۆخێکی شێوادا لە کاتژمێری ١ ـی نیوە شەودا گەڕایەوە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdishevelleds2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdishevelleds2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "She returned at 1 a.m. in a dishevelled state.",
+            kurdishText:
+                "لە دۆخێکی شێوادا لە کاتژمێری ١ ـی نیوە شەودا گەڕایەوە.",
+            onPressedBritish: () => speakdishevelleds2("en-GB"),
+            onPressedAmerican: () => speakdishevelleds2("en-US"),
           ),
           // dishevelleds300"),
           // speakdishevelleds3

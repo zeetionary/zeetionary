@@ -372,61 +372,22 @@ class KurdishMeaning extends StatelessWidget {
 """),
           const DefinitionKurdish(
               text: """١. (ناو) چوونە سەر/ناو کەشتییەک یان فڕۆکەیەک"""),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            """You'll be asked for those documents on embarkation."""),
-                    ExampleSentenceKurdish(
-                        text:
-                            """داوای ئەو بەڵگەنامانەت لێدەکرێت لەگەڵ سەرکەوتنەسەر."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "embarkation", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakembarkations1("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakembarkations1("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                """You'll be asked for those documents on embarkation.""",
+            kurdishText:
+                """داوای ئەو بەڵگەنامانەت لێدەکرێت لەگەڵ سەرکەوتنەسەر.""", // embarkation
+            onPressedBritish: () => speakembarkations1("en-GB"),
+            onPressedAmerican: () => speakembarkations1("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            """I returned to my original point of embarkation."""),
-                    ExampleSentenceKurdish(
-                        text: """گەڕامەوە خاڵی سەرەتای سەرکەوتنم."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakembarkations2("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakembarkations2("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: """I returned to my original point of embarkation.""",
+            kurdishText: """گەڕامەوە خاڵی سەرەتای سەرکەوتنم.""",
+            onPressedBritish: () => speakembarkations2("en-GB"),
+            onPressedAmerican: () => speakembarkations2("en-US"),
           ),
           // embarkations300embarkations3
           // speakembarkations3

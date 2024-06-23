@@ -250,89 +250,32 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "١. (ھاوەڵناو) ساختەچییانە؛ کە ئامانج لێی خەڵەتاندنی خەڵکی بێت"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "Beware of dishonest traders in the tourist areas."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "ئاگاداری فرۆشیاری ساختەچی بە لە ناوچە گەشتیارییەکان."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "dishonest", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdishonests1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdishonests1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "Beware of dishonest traders in the tourist areas.",
+            kurdishText:
+                "ئاگاداری فرۆشیاری ساختەچی بە لە ناوچە گەشتیارییەکان.", // dishonest
+            onPressedBritish: () => speakdishonests1("en-GB"),
+            onPressedAmerican: () => speakdishonests1("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "She has been dishonest with voters."),
-                    ExampleSentenceKurdish(text: "ناپاک بووە لەگەڵ دەنگدەران."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdishonests2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdishonests2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "She has been dishonest with voters.",
+            kurdishText: "ناپاک بووە لەگەڵ دەنگدەران.",
+            onPressedBritish: () => speakdishonests2("en-GB"),
+            onPressedAmerican: () => speakdishonests2("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "He has been dishonest about his age and academic qualifications."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "ساختەکار بووە سەبارەت بە تەمەنی و بڕوانامەی ئەکادیمیی."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdishonests3("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdishonests3("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "He has been dishonest about his age and academic qualifications.",
+            kurdishText:
+                "ساختەکار بووە سەبارەت بە تەمەنی و بڕوانامەی ئەکادیمیی.",
+            onPressedBritish: () => speakdishonests3("en-GB"),
+            onPressedAmerican: () => speakdishonests3("en-US"),
           ),
           // dishonests400"),
           // speakdishonests4

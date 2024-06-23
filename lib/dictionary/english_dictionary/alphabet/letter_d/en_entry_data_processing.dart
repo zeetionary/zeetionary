@@ -238,32 +238,13 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "١. (ناو) زنجیرە کردارێک کە کۆمپیوتەرێک لەسەر داتا ئەنجامی دەدات بۆ بەرھەمھێنانی ئەنجام"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The course covers the basics of data-processing methods and tools."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "کۆرسەکە سەرەتاکانی ڕێگا و ئامرازەکانی لێکدانەوەی داتا لەخۆدەگرێت."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "data processing", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdataprocessings1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdataprocessings1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "The course covers the basics of data-processing methods and tools.",
+            kurdishText:
+                "کۆرسەکە سەرەتاکانی ڕێگا و ئامرازەکانی لێکدانەوەی داتا لەخۆدەگرێت.", // data processing
+            onPressedBritish: () => speakdataprocessings1("en-GB"),
+            onPressedAmerican: () => speakdataprocessings1("en-US"),
           ),
         ],
       ),

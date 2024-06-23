@@ -240,58 +240,20 @@ class KurdishMeaning extends StatelessWidget {
 // کوردی:
 // """),
           const DefinitionKurdish(text: "١. (ناو) کپکردنی دەنگ، ھەست، ھتد"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "He was given drugs to deaden the pain."),
-                    ExampleSentenceKurdish(
-                        text: "دەرمانی پێدرا بۆ کوشتنی ئازارەکە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "deaden", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdeadens1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdeadens1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "He was given drugs to deaden the pain.",
+            kurdishText: "دەرمانی پێدرا بۆ کوشتنی ئازارەکە.", // deaden
+            onPressedBritish: () => speakdeadens1("en-GB"),
+            onPressedAmerican: () => speakdeadens1("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The wood panelling in the rooms deadened any noise from outside."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "دانانی پانێڵی تەختەیی لە ژوورەکان ھەموو ژاوەژاوێکی دەرەوەی کپکردووە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdeadens2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdeadens2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "The wood panelling in the rooms deadened any noise from outside.",
+            kurdishText:
+                "دانانی پانێڵی تەختەیی لە ژوورەکان ھەموو ژاوەژاوێکی دەرەوەی کپکردووە.",
+            onPressedBritish: () => speakdeadens2("en-GB"),
+            onPressedAmerican: () => speakdeadens2("en-US"),
           ),
         ],
       ),

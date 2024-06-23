@@ -251,87 +251,29 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "١. (ناو) ھەوڵ و ماندووبوون کە کەسێک بۆ کارێک یان چالاکییەک تەرخانی دەکات"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "I really admire Gina for her dedication to her family."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "بەڕاستی سەرسامی جینام بۆ خۆتەرخانکردنی بۆ خێزانەکەی."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "dedication", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdedications1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdedications1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "I really admire Gina for her dedication to her family.",
+            kurdishText:
+                "بەڕاستی سەرسامی جینام بۆ خۆتەرخانکردنی بۆ خێزانەکەی.", // dedication
+            onPressedBritish: () => speakdedications1("en-GB"),
+            onPressedAmerican: () => speakdedications1("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "It takes dedication to be successful in a sport."),
-                    ExampleSentenceKurdish(
-                        text: "سەرکەوتن لە وەرزشدا خۆتەرخانکردنی دەوێت."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdedications2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdedications2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "It takes dedication to be successful in a sport.",
+            kurdishText: "سەرکەوتن لە وەرزشدا خۆتەرخانکردنی دەوێت.",
+            onPressedBritish: () => speakdedications2("en-GB"),
+            onPressedAmerican: () => speakdedications2("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "You will need dedication and determination to complete the course."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "پێویستیت بە خۆتەرخانکردن و شێلگیری بۆ تەواوکردنی کۆرسەکە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdedications3("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdedications3("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "You will need dedication and determination to complete the course.",
+            kurdishText:
+                "پێویستیت بە خۆتەرخانکردن و شێلگیری بۆ تەواوکردنی کۆرسەکە.",
+            onPressedBritish: () => speakdedications3("en-GB"),
+            onPressedAmerican: () => speakdedications3("en-US"),
           ),
         ],
       ),

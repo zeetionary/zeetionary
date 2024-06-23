@@ -275,170 +275,54 @@ class KurdishMeaning extends StatelessWidget {
 """),
           const DefinitionKurdish(
               text: "١. (کردار) زیادبوونی شتێک، بۆ نموونە ھەستێک"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "Their friendship soon deepened into love."),
-                    ExampleSentenceKurdish(
-                        text: "ھاوڕێیەتییەکەیان زوو قووڵبوویەوە بۆ خۆشەویستی."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "deepen", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdeepens1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdeepens1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "Their friendship soon deepened into love.",
+            kurdishText:
+                "ھاوڕێیەتییەکەیان زوو قووڵبوویەوە بۆ خۆشەویستی.", // deepen
+            onPressedBritish: () => speakdeepens1("en-GB"),
+            onPressedAmerican: () => speakdeepens1("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: "٢. (کردار) خراپتربوون"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "Warships were sent in as the crisis deepened."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "کەشتییە جەنگییەکان نێردران کە قەیرانەکە خراپتر بوو."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdeepens2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdeepens2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "Warships were sent in as the crisis deepened.",
+            kurdishText: "کەشتییە جەنگییەکان نێردران کە قەیرانەکە خراپتر بوو.",
+            onPressedBritish: () => speakdeepens2("en-GB"),
+            onPressedAmerican: () => speakdeepens2("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: "٣. (کردار) قووڵبوون"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "The water deepened gradually."),
-                    ExampleSentenceKurdish(text: "ئاوەکە کەم کەم قووڵبوو."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdeepens3("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdeepens3("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "The water deepened gradually.",
+            kurdishText: "ئاوەکە کەم کەم قووڵبوو.",
+            onPressedBritish: () => speakdeepens3("en-GB"),
+            onPressedAmerican: () => speakdeepens3("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "There were plans to deepen a stretch of the river."),
-                    ExampleSentenceKurdish(
-                        text: "پلان ھەبوو بەشێکی ئاوەکە قووڵ بکرێتەوە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdeepens4("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdeepens4("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "There were plans to deepen a stretch of the river.",
+            kurdishText: "پلان ھەبوو بەشێکی ئاوەکە قووڵ بکرێتەوە.",
+            onPressedBritish: () => speakdeepens4("en-GB"),
+            onPressedAmerican: () => speakdeepens4("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٤. (کردار) بەھێزکردنی زانیاری و تێگەشتنت بۆ شتێک"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The knowledge of their disease deepened their shock."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "زانیارییان بۆ نەخۆشییەکە شۆکەکەیانی قووڵ کردەوە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdeepens5("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdeepens5("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "The knowledge of their disease deepened their shock.",
+            kurdishText: "زانیارییان بۆ نەخۆشییەکە شۆکەکەیانی قووڵ کردەوە.",
+            onPressedBritish: () => speakdeepens5("en-GB"),
+            onPressedAmerican: () => speakdeepens5("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٥. (کردار) تاریکبوونی ڕەنگ یان ڕۆشنایی"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The shadows deepened as the sun dropped below the horizon."),
-                    ExampleSentenceKurdish(
-                        text: "سێبەرەکان تاریک بوون کە خۆر کەوتە خوار ئاسۆ."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdeepens6("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdeepens6("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "The shadows deepened as the sun dropped below the horizon.",
+            kurdishText: "سێبەرەکان تاریک بوون کە خۆر کەوتە خوار ئاسۆ.",
+            onPressedBritish: () => speakdeepens6("en-GB"),
+            onPressedAmerican: () => speakdeepens6("en-US"),
           ),
           // skipped_meaning
           // const DividerDefinition(),

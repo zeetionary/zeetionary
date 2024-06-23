@@ -372,62 +372,24 @@ class KurdishMeaning extends StatelessWidget {
 // """),
           const DefinitionKurdish(
               text: """١. (ناو) ئیمپراتۆر؛ سەرکردەی ژمارەیەک وڵات"""),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            """It is the tomb of Emperor Qin Shi Huang, emperor of China."""),
-                    ExampleSentenceKurdish(
-                        text:
-                            """ئەوە گۆڕی ئیمپراتۆر چین شی ھوانگە، ئیپراتۆری چین."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "emperor", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakemperors1("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakemperors1("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                """It is the tomb of Emperor Qin Shi Huang, emperor of China.""",
+            kurdishText:
+                """ئەوە گۆڕی ئیمپراتۆر چین شی ھوانگە، ئیپراتۆری چین.""", // emperor
+            onPressedBritish: () => speakemperors1("en-GB"),
+            onPressedAmerican: () => speakemperors1("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            """It was under the emperor Justinian that these advances were made."""),
-                    ExampleSentenceKurdish(
-                        text:
-                            """لە سەردەمی ئیمپراتۆر جەستینیان بوو کە ئەم پێشکەوتنانە ئەنجامدران."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakemperors2("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakemperors2("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                """It was under the emperor Justinian that these advances were made.""",
+            kurdishText:
+                """لە سەردەمی ئیمپراتۆر جەستینیان بوو کە ئەم پێشکەوتنانە ئەنجامدران.""",
+            onPressedBritish: () => speakemperors2("en-GB"),
+            onPressedAmerican: () => speakemperors2("en-US"),
           ),
           // emperors300emperors3
           // speakemperors3

@@ -242,62 +242,22 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "١. (ھاوەڵکار) بەشێوەیەک کە ھەوڵ و ماندووبوون لە کارەکەت پیشان دەدات"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "They worked diligently on the task they had been given."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "ماندوونەناسانە کاریان لەسەر ئەو ئەرکە دەکرد کە پێیان درابوو."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "diligently", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdiligentlys1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdiligentlys1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "They worked diligently on the task they had been given.",
+            kurdishText:
+                "ماندوونەناسانە کاریان لەسەر ئەو ئەرکە دەکرد کە پێیان درابوو.", // diligently
+            onPressedBritish: () => speakdiligentlys1("en-GB"),
+            onPressedAmerican: () => speakdiligentlys1("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "She diligently completed each task she was given."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "شێلگیرانە ھەر ئەرکێکی تەواو دەکرد کە پێی بدرایە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdiligentlys2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdiligentlys2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "She diligently completed each task she was given.",
+            kurdishText: "شێلگیرانە ھەر ئەرکێکی تەواو دەکرد کە پێی بدرایە.",
+            onPressedBritish: () => speakdiligentlys2("en-GB"),
+            onPressedAmerican: () => speakdiligentlys2("en-US"),
           ),
           // diligentlys300"),
           // speakdiligentlys3

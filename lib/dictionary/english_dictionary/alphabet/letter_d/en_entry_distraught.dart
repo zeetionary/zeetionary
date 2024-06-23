@@ -373,62 +373,24 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "١. (ھاوەڵناو) کە بەشێوەیەک بێزاریت کە ناتوانیت بە ڕوونی بیربکەیتەوە"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "She’s still too distraught to speak about the tragedy."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "ھێشتا زۆر سەرلێ‌شێواوە تاوەکو قسە لەسەر تراژیدیاکە بکات."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "distraught", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdistraughts1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdistraughts1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "She’s still too distraught to speak about the tragedy.",
+            kurdishText:
+                "ھێشتا زۆر سەرلێ‌شێواوە تاوەکو قسە لەسەر تراژیدیاکە بکات.", // distraught
+            onPressedBritish: () => speakdistraughts1("en-GB"),
+            onPressedAmerican: () => speakdistraughts1("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The child’s distraught parents pleaded for witnesses to contact the police."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "دایبابە سەرلێ‌شێواوەوەکەی منداڵەکە لە شایەتحاڵان پاڕانەوە پەیوەندی بە پۆلیسەوە بکەن."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdistraughts2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdistraughts2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "The child’s distraught parents pleaded for witnesses to contact the police.",
+            kurdishText:
+                "دایبابە سەرلێ‌شێواوەوەکەی منداڵەکە لە شایەتحاڵان پاڕانەوە پەیوەندی بە پۆلیسەوە بکەن.",
+            onPressedBritish: () => speakdistraughts2("en-GB"),
+            onPressedAmerican: () => speakdistraughts2("en-US"),
           ),
           // distraughts300"),
           // speakdistraughts3

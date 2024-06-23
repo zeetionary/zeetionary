@@ -363,30 +363,11 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "١. (ھاوەڵناو) نائاسوودە بەھۆی ئەوەی ھەوای سارد پێیدا دەچێت"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "She shivered in the draughty old house."),
-                    ExampleSentenceKurdish(
-                        text: "لە خانووە کۆنە باگرتووەکەدا دەلەرزی."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "drafty", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdraftys1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdraftys1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "She shivered in the draughty old house.",
+            kurdishText: "لە خانووە کۆنە باگرتووەکەدا دەلەرزی.", // drafty
+            onPressedBritish: () => speakdraftys1("en-GB"),
+            onPressedAmerican: () => speakdraftys1("en-US"),
           ),
           // draftys200"),
           // speakdraftys2

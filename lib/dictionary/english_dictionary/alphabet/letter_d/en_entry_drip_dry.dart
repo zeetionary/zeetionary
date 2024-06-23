@@ -372,61 +372,23 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "١. (ھاوەڵناو) جۆرە قوماشێک کە لۆچی تێناکەوێت و پێویستی بە ئووتووکردن نییە"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "The drip-dry shirt was perfect for travel."),
-                    ExampleSentenceKurdish(
-                        text: "فانیلە دەقەکەی باشترین بوو بۆ گەشت."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "drip-dry", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdripdrys1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdripdrys1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "The drip-dry shirt was perfect for travel.",
+            kurdishText: "فانیلە دەقەکەی باشترین بوو بۆ گەشت.", // drip-dry
+            onPressedBritish: () => speakdripdrys1("en-GB"),
+            onPressedAmerican: () => speakdripdrys1("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٢. (کردار) وشککردنەوەی جلێک بەوەی ھەڵیبواسیت"),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "If I were you, I'd hang that sweater on the line and let it drip-dry."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "ئەگەر تۆ بوومایە، ئەو بلووزەم دەدا بەسەر تەنافەکەدا و دەمھێشت ئاوەچۆڕ بکات."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdripdrys2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdripdrys2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "If I were you, I'd hang that sweater on the line and let it drip-dry.",
+            kurdishText:
+                "ئەگەر تۆ بوومایە، ئەو بلووزەم دەدا بەسەر تەنافەکەدا و دەمھێشت ئاوەچۆڕ بکات.",
+            onPressedBritish: () => speakdripdrys2("en-GB"),
+            onPressedAmerican: () => speakdripdrys2("en-US"),
           ),
           // dripdrys300"),
           // speakdripdrys3

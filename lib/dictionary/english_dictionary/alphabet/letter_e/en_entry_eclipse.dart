@@ -397,157 +397,61 @@ class KurdishMeaning extends StatelessWidget {
 کوردی: مانگ‌گیران، خۆرگیران، ڕۆژگیران،	پووکانەوە، کوێربوونەوە، لەبیرچوونەوە، دیارنەبوون، لێڵایی‌داھاتن
 """),
           const DefinitionKurdish(text: """١. (ناو) خۆرگیران و مانگ‌گیران"""),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            """On Wednesday there will be a total/partial eclipse of the sun."""),
-                    ExampleSentenceKurdish(
-                        text:
-                            """ڕۆژی چوارشەممە گیرانی تەواوەتی/بەشیکی خۆر ڕوودەدات."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "eclipse", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakeclipses1("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakeclipses1("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                """On Wednesday there will be a total/partial eclipse of the sun.""",
+            kurdishText:
+                """ڕۆژی چوارشەممە گیرانی تەواوەتی/بەشیکی خۆر ڕوودەدات.""", // eclipse
+            onPressedBritish: () => speakeclipses1("en-GB"),
+            onPressedAmerican: () => speakeclipses1("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
                   """٢. (ناو) لەدەستدانی دەسەڵات، گرنگی، ھتد، بەتایبەتی بەھۆی ئەوەی کەسێکی دیکە دەسەڵات، گرنگی، ھتد ـی زیاتری بەدەستھێناوە"""),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            """The election result marked the eclipse of the right wing."""),
-                    ExampleSentenceKurdish(
-                        text:
-                            """ئەنجامی ھەڵبژاردنەکە پووکانەوەی باڵی ڕاستڕەوی دیاریکرد."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakeclipses2("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakeclipses2("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                """The election result marked the eclipse of the right wing.""",
+            kurdishText:
+                """ئەنجامی ھەڵبژاردنەکە پووکانەوەی باڵی ڕاستڕەوی دیاریکرد.""",
+            onPressedBritish: () => speakeclipses2("en-GB"),
+            onPressedAmerican: () => speakeclipses2("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: """ژممارە. (کردار) پێنناسە"""),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            """Her work was in eclipse for most of the 20th century."""),
-                    ExampleSentenceKurdish(
-                        text:
-                            """کارەکەی بۆ زۆرینەی سەدەی بیستەم لە دیارنەبووندا بوو."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakeclipses3("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakeclipses3("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                """Her work was in eclipse for most of the 20th century.""",
+            kurdishText:
+                """کارەکەی بۆ زۆرینەی سەدەی بیستەم لە دیارنەبووندا بوو.""",
+            onPressedBritish: () => speakeclipses3("en-GB"),
+            onPressedAmerican: () => speakeclipses3("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text: """٣. (کردار) بوونە ھۆکاری گیرانی خۆر یان مانگ"""),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            """The moon will be totally eclipsed at 12.10 p.m."""),
-                    ExampleSentenceKurdish(
-                        text:
-                            """مانگ بە رەواوی دەگیردرێت لە کاتژمێر ١٢:١٠ دوای نیوەڕۆ."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakeclipses4("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakeclipses4("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: """The moon will be totally eclipsed at 12.10 p.m.""",
+            kurdishText:
+                """مانگ بە رەواوی دەگیردرێت لە کاتژمێر ١٢:١٠ دوای نیوەڕۆ.""",
+            onPressedBritish: () => speakeclipses4("en-GB"),
+            onPressedAmerican: () => speakeclipses4("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
                   """٤. (کردار) واکردنی ئەوەی کەسێک/شتێک گرنگ، بەناوبانگ، یان باش نەبێت"""),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            """Though a talented player, he was completely eclipsed by his brother."""),
-                    ExampleSentenceKurdish(
-                        text:
-                            """ئەگەرچی یاریزانێکی بە ئەزموون بوو، بە تەواوی بەھۆی براکەیەوە دیارنەبوو (بەھۆی ئەوەی براکەی باشتر بوو)."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakeclipses5("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakeclipses5("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                """Though a talented player, he was completely eclipsed by his brother.""",
+            kurdishText:
+                """ئەگەرچی یاریزانێکی بە ئەزموون بوو، بە تەواوی بەھۆی براکەیەوە دیارنەبوو (بەھۆی ئەوەی براکەی باشتر بوو).""",
+            onPressedBritish: () => speakeclipses5("en-GB"),
+            onPressedAmerican: () => speakeclipses5("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: """ژممارە. (کردار) پێنناسە"""),

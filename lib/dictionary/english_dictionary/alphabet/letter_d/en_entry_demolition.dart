@@ -259,93 +259,36 @@ class KurdishMeaning extends StatelessWidget {
 کوردی: تێکدان، ھەڵتەکاندن، ھەڕەماندن، کاول‌کردن، خاپوورکردن، تێک‌تەپاندن،	(تیۆری و ھتد) ھەڵوەشاندنەوە، ھەڵتەکاندن، بەتاڵ‌کردنەوە، پووچاندنەوە
 """),
           const DefinitionKurdish(text: "١. (ناو) ڕووخاندنی بینایەک"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The whole row of houses is scheduled for demolition."),
-                    ExampleSentenceKurdish(
-                        text: "تەواوی ڕیزە ماڵەکان دیاری کراون بۆ ڕووخاندن."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "demolition", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdemolitions1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdemolitions1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "The whole row of houses is scheduled for demolition.",
+            kurdishText:
+                "تەواوی ڕیزە ماڵەکان دیاری کراون بۆ ڕووخاندن.", // demolition
+            onPressedBritish: () => speakdemolitions1("en-GB"),
+            onPressedAmerican: () => speakdemolitions1("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
                   "٢. (ناو) سەلماندنی ئەوەی کە بیرۆکەیەک یان بیردۆزێک بە تەواوی ھەڵەیە"),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "His speech did a very effective demolition job on the government's proposals."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "وتارەکەی کارێکیزۆر کاریگەرانەی ھەڵتەکاندنی پێشنیارەکانی حکومەتی کرد."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdemolitions2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdemolitions2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "His speech did a very effective demolition job on the government's proposals.",
+            kurdishText:
+                "وتارەکەی کارێکیزۆر کاریگەرانەی ھەڵتەکاندنی پێشنیارەکانی حکومەتی کرد.",
+            onPressedBritish: () => speakdemolitions2("en-GB"),
+            onPressedAmerican: () => speakdemolitions2("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: "٣. (ناو) بردنەوە بە ئاسانی و تەواوی"),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "Ferguson completed the demolition with a fifth goal 13 minutes from time."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "فێرکسن خاپوورکردنەکەی کۆتایی پێھێنا بە پێنجەم گۆڵ ١٣ خولەک پێش کۆتایی."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdemolitions3("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdemolitions3("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "Ferguson completed the demolition with a fifth goal 13 minutes from time.",
+            kurdishText:
+                "فێرکسن خاپوورکردنەکەی کۆتایی پێھێنا بە پێنجەم گۆڵ ١٣ خولەک پێش کۆتایی.",
+            onPressedBritish: () => speakdemolitions3("en-GB"),
+            onPressedAmerican: () => speakdemolitions3("en-US"),
           ),
           // demolitions400"),
           // speakdemolitions4

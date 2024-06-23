@@ -250,88 +250,29 @@ class KurdishMeaning extends StatelessWidget {
 // """),
           const DefinitionKurdish(
               text: "١. (ناو) کۆرسێکی خوێندن لە کۆلێژ یان زانکۆ"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "Most students here are studying for a qualification at diploma level."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "زۆرینەی خوێندکارانی ئێرە بۆ بڕوانامەیەک دەخوێنن لە ئاستی دیپلۆما."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "diploma", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdiplomas1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdiplomas1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "Most students here are studying for a qualification at diploma level.",
+            kurdishText:
+                "زۆرینەی خوێندکارانی ئێرە بۆ بڕوانامەیەک دەخوێنن لە ئاستی دیپلۆما.", // diploma
+            onPressedBritish: () => speakdiplomas1("en-GB"),
+            onPressedAmerican: () => speakdiplomas1("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "She was taking a diploma in business management."),
-                    ExampleSentenceKurdish(
-                        text: "دیپلۆمای دەخوێند لە بەڕێوەبەرێتی بازرگانی."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdiplomas2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdiplomas2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "She was taking a diploma in business management.",
+            kurdishText: "دیپلۆمای دەخوێند لە بەڕێوەبەرێتی بازرگانی.",
+            onPressedBritish: () => speakdiplomas2("en-GB"),
+            onPressedAmerican: () => speakdiplomas2("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: "٢. (ناو) بڕوانامەی دیپلۆما"),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The university awards diplomas in higher education."),
-                    ExampleSentenceKurdish(
-                        text: "زانکۆکە دیپلۆما دەبەخشێت لە خوێندنی باڵادا."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdiplomas3("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdiplomas3("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "The university awards diplomas in higher education.",
+            kurdishText: "زانکۆکە دیپلۆما دەبەخشێت لە خوێندنی باڵادا.",
+            onPressedBritish: () => speakdiplomas3("en-GB"),
+            onPressedAmerican: () => speakdiplomas3("en-US"),
           ),
           // diplomas400"),
           // speakdiplomas4

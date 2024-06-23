@@ -371,59 +371,20 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   """١. (ناو) پیاوێکی خانەدان لە بەرزترین پلە، یان دەسەڵاتداری دەوڵەتێکی بچووک"""),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            """They claim to be descendants of a French duke."""),
-                    ExampleSentenceKurdish(
-                        text: """بانگەشەی ئەوە دەکەن نەوەی میرێک بن."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "duke", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdukes1("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdukes1("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: """They claim to be descendants of a French duke.""",
+            kurdishText: """بانگەشەی ئەوە دەکەن نەوەی میرێک بن.""", // duke
+            onPressedBritish: () => speakdukes1("en-GB"),
+            onPressedAmerican: () => speakdukes1("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: """The duke is desirous of meeting you."""),
-                    ExampleSentenceKurdish(
-                        text: """میر ئارەزووی بینینتی ھەیە."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdukes2("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdukes2("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: """The duke is desirous of meeting you.""",
+            kurdishText: """میر ئارەزووی بینینتی ھەیە.""",
+            onPressedBritish: () => speakdukes2("en-GB"),
+            onPressedAmerican: () => speakdukes2("en-US"),
           ),
           // dukes300
           // speakdukes3

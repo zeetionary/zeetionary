@@ -369,58 +369,20 @@ class KurdishMeaning extends StatelessWidget {
 کوردی: بێ‌دەنگانە، بێ‌ورتەلێ‌ھاتن
 """),
           const DefinitionKurdish(text: """١. (ھاوەڵکار) بەبێ قسەکردن"""),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: """She stared dumbly into space."""),
-                    ExampleSentenceKurdish(
-                        text: """بێ‌دەنگانە لە دەورووبەری دەڕوانی."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "dumbly", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdumblys1("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdumblys1("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: """She stared dumbly into space.""",
+            kurdishText: """بێ‌دەنگانە لە دەورووبەری دەڕوانی.""", // dumbly
+            onPressedBritish: () => speakdumblys1("en-GB"),
+            onPressedAmerican: () => speakdumblys1("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: """٢. (ھاوەڵکار) گەمژانە"""),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: """‘This means what?’ Derek asked dumbly."""),
-                    ExampleSentenceKurdish(
-                        text: """دێریک گەمژانە پرسی 'ئەمە واتای چییە؟'"""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdumblys2("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdumblys2("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: """‘This means what?’ Derek asked dumbly.""",
+            kurdishText: """دێریک گەمژانە پرسی 'ئەمە واتای چییە؟'""",
+            onPressedBritish: () => speakdumblys2("en-GB"),
+            onPressedAmerican: () => speakdumblys2("en-US"),
           ),
           // dumblys300
           // speakdumblys3

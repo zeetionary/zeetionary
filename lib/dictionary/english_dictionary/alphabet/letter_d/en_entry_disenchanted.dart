@@ -243,60 +243,22 @@ class KurdishMeaning extends StatelessWidget {
 """),
           const DefinitionKurdish(
               text: "١. (ھاوەڵناو) کە چی دیکە بەجۆش نیت بۆ کەسێک/شتێک"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "He was becoming disenchanted with his job as a lawyer."),
-                    ExampleSentenceKurdish(
-                        text: "بێزار لە کارەکەی وەک پارێزەر."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "disenchanted", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdisenchanteds1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdisenchanteds1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "He was becoming disenchanted with his job as a lawyer.",
+            kurdishText: "بێزار لە کارەکەی وەک پارێزەر.", // disenchanted
+            onPressedBritish: () => speakdisenchanteds1("en-GB"),
+            onPressedAmerican: () => speakdisenchanteds1("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "Many in the party had become disenchanted with the reforms."),
-                    ExampleSentenceKurdish(
-                        text: "زۆرێک لە پارتەکە دڵسارد بوون بە چاکسازییەکان."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdisenchanteds2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdisenchanteds2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "Many in the party had become disenchanted with the reforms.",
+            kurdishText: "زۆرێک لە پارتەکە دڵسارد بوون بە چاکسازییەکان.",
+            onPressedBritish: () => speakdisenchanteds2("en-GB"),
+            onPressedAmerican: () => speakdisenchanteds2("en-US"),
           ),
           // disenchanteds300"),
           // speakdisenchanteds3

@@ -269,121 +269,44 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "١. (کردار) باسکردن، ڕوونکردنەوە، یان کێشانی شتێک بە وردەکارییەوە"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "Our objectives need to be precisely delineated."),
-                    ExampleSentenceKurdish(
-                        text: "ئامانجەکانمان دەبێت بە وردی ڕوونبکرێنەوە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "delineate", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdelineates1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdelineates1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "Our objectives need to be precisely delineated.",
+            kurdishText:
+                "ئامانجەکانمان دەبێت بە وردی ڕوونبکرێنەوە.", // delineate
+            onPressedBritish: () => speakdelineates1("en-GB"),
+            onPressedAmerican: () => speakdelineates1("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The ship's route is clearly delineated on the map."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "ڕێگای کەشتییەکە بە ڕوونی لەسەر نەخشەکە ڕوونکراوەتەوە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdelineates2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdelineates2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "The ship's route is clearly delineated on the map.",
+            kurdishText:
+                "ڕێگای کەشتییەکە بە ڕوونی لەسەر نەخشەکە ڕوونکراوەتەوە.",
+            onPressedBritish: () => speakdelineates2("en-GB"),
+            onPressedAmerican: () => speakdelineates2("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The main characters are clearly delineated in the first chapter."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "کارەکتەرە سەرەکییەکان بە ڕوونی لە یەکەم بەشدا باسکراون."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdelineates3("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdelineates3("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "The main characters are clearly delineated in the first chapter.",
+            kurdishText:
+                "کارەکتەرە سەرەکییەکان بە ڕوونی لە یەکەم بەشدا باسکراون.",
+            onPressedBritish: () => speakdelineates3("en-GB"),
+            onPressedAmerican: () => speakdelineates3("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The boundary of the car park is delineated by a low brick wall."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "سنوورەکانی پارکی ئۆتۆمبێلەکان جیاکراونەتەوە بە ڕەسیفێکی نزمی خشتی."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdelineates4("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdelineates4("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "The boundary of the car park is delineated by a low brick wall.",
+            kurdishText:
+                "سنوورەکانی پارکی ئۆتۆمبێلەکان جیاکراونەتەوە بە ڕەسیفێکی نزمی خشتی.",
+            onPressedBritish: () => speakdelineates4("en-GB"),
+            onPressedAmerican: () => speakdelineates4("en-US"),
           ),
           // delineates500"),
           // speakdelineates5

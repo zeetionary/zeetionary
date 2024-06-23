@@ -381,89 +381,32 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "١. (ھاوەڵکار) بەرەو خوارەوەی گردێک؛ بە ئاراستەیەک کە بۆ خوارەوە دەچێت"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "It's so much easier running downhill!"),
-                    ExampleSentenceKurdish(
-                        text: "زۆر ئاسانترە بۆ خوارەوەی گردەکە ڕابکەیت!"),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "downhill", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdownhills1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdownhills1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "It's so much easier running downhill!",
+            kurdishText: "زۆر ئاسانترە بۆ خوارەوەی گردەکە ڕابکەیت!", // downhill
+            onPressedBritish: () => speakdownhills1("en-GB"),
+            onPressedAmerican: () => speakdownhills1("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: "٢. (ھاوەڵناو) کە لێژە"),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The route is all downhill from here to the finishing line."),
-                    ExampleSentenceKurdish(
-                        text: "ڕێگاکە لێرەوە تاوەکو ھێڵی کۆتایی لێژە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdownhills2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdownhills2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "The route is all downhill from here to the finishing line.",
+            kurdishText: "ڕێگاکە لێرەوە تاوەکو ھێڵی کۆتایی لێژە.",
+            onPressedBritish: () => speakdownhills2("en-GB"),
+            onPressedAmerican: () => speakdownhills2("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: "٣. (ناو) لێژایی"),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "I knew that if I wanted to win, I had to get faster on the downhills."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "دەمزانی کە ئەگەر دەمویست ببەمەوە، دەبوو لە لێژاییەکان خێراتر ڕابکەم."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdownhills3("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdownhills3("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "I knew that if I wanted to win, I had to get faster on the downhills.",
+            kurdishText:
+                "دەمزانی کە ئەگەر دەمویست ببەمەوە، دەبوو لە لێژاییەکان خێراتر ڕابکەم.",
+            onPressedBritish: () => speakdownhills3("en-GB"),
+            onPressedAmerican: () => speakdownhills3("en-US"),
           ),
           // downhills400"),
           // speakdownhills4

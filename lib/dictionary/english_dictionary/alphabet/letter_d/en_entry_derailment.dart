@@ -248,61 +248,24 @@ class KurdishMeaning extends StatelessWidget {
 """),
           const DefinitionKurdish(
               text: "١. (ناو) دەرچوونی شەمەندەفەر لەسەر سکەکەی"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "The number of train derailments has risen."),
-                    ExampleSentenceKurdish(
-                        text: "ژمارەی لە‌سکەدەرچوونی شەمەندەفەر زیادی کردووە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "derailment", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakderailments1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakderailments1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "The number of train derailments has risen.",
+            kurdishText:
+                "ژمارەی لە‌سکەدەرچوونی شەمەندەفەر زیادی کردووە.", // derailment
+            onPressedBritish: () => speakderailments1("en-GB"),
+            onPressedAmerican: () => speakderailments1("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
                   "٢. (ناو) وەستانی شتێک کە بەردەوام بێت بەو شێوەیەی مەبەست لێیەتی"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "Poor planning caused the project’s derailment."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "پلانادانانی خراپ بوو بە ھۆکاری بەلاڕێداچوونی پڕۆژەکە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakderailments2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakderailments2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "Poor planning caused the project’s derailment.",
+            kurdishText:
+                "پلانادانانی خراپ بوو بە ھۆکاری بەلاڕێداچوونی پڕۆژەکە.",
+            onPressedBritish: () => speakderailments2("en-GB"),
+            onPressedAmerican: () => speakderailments2("en-US"),
           ),
           // derailments300"),
           // speakderailments3

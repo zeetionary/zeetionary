@@ -382,61 +382,23 @@ class KurdishMeaning extends StatelessWidget {
               Routemaster.of(context).push("/english-emirate/emir");
             },
           ),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            """He was appointed to the emirate after his father's death."""),
-                    ExampleSentenceKurdish(
-                        text:
-                            """پێگەی ئەمیرییەتی پێدرا لە دوای مەرگی باوکی."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "emirate", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakemirates1("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakemirates1("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                """He was appointed to the emirate after his father's death.""",
+            kurdishText:
+                """پێگەی ئەمیرییەتی پێدرا لە دوای مەرگی باوکی.""", // emirate
+            onPressedBritish: () => speakemirates1("en-GB"),
+            onPressedAmerican: () => speakemirates1("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text: """٢. (ناو) ناوچەیەک کە ئەمیرێک دەسەڵاتدارییەتی"""),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: """The emirate has its own legal system."""),
-                    ExampleSentenceKurdish(
-                        text: """ئیمارەتەکە سیستەمی یاسایی خۆی ھەیە."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakemirates2("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakemirates2("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: """The emirate has its own legal system.""",
+            kurdishText: """ئیمارەتەکە سیستەمی یاسایی خۆی ھەیە.""",
+            onPressedBritish: () => speakemirates2("en-GB"),
+            onPressedAmerican: () => speakemirates2("en-US"),
           ),
           // emirates300emirates3
           // speakemirates3

@@ -253,61 +253,23 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "١. (ناو) دۆخێک کە تێیدا کەسێک وای لێ دەکرێت ھەموو ڕێز و بەھایەکی لەدەست بدات"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "Prisoners face degradation through harsh treatment."),
-                    ExampleSentenceKurdish(
-                        text: "زیندانییەکان ڕووبەڕووی سووکایەتی دەبنەوە بو ."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "degradation", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdegradations1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdegradations1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "Prisoners face degradation through harsh treatment.",
+            kurdishText:
+                "زیندانییەکان ڕووبەڕووی سووکایەتی دەبنەوە بو .", // degradation
+            onPressedBritish: () => speakdegradations1("en-GB"),
+            onPressedAmerican: () => speakdegradations1("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: "٢. (کردار) پڕۆسەی خراپبوونی شتێک"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "Pollution causes environmental degradation in many areas."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "پیسبوون بووە بە ھۆکاری لێک‌ھەڵوەشان ژینگەیی لە زۆر ناوچەدا."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdegradations2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdegradations2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "Pollution causes environmental degradation in many areas.",
+            kurdishText:
+                "پیسبوون بووە بە ھۆکاری لێک‌ھەڵوەشان ژینگەیی لە زۆر ناوچەدا.",
+            onPressedBritish: () => speakdegradations2("en-GB"),
+            onPressedAmerican: () => speakdegradations2("en-US"),
           ),
           // degradations300"),
           // speakdegradations3

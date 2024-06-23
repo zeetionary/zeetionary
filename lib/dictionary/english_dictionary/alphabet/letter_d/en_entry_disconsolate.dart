@@ -242,61 +242,24 @@ class KurdishMeaning extends StatelessWidget {
 کوردی: خەمبار، بەخەم، کز، مات، پەرێشان، دڵپڕ، دڵشکاو، دڵتەنگ
 """),
           const DefinitionKurdish(text: "١. (ھاوەڵناو) زۆر دڵتەنگ و نائومێد"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The disconsolate players left for home without a trophy."),
-                    ExampleSentenceKurdish(
-                        text: "یاریزانە دڵپڕەکان چوونەوە ماڵەوە بەبێ خەڵات."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "disconsolate", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdisconsolates1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdisconsolates1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "The disconsolate players left for home without a trophy.",
+            kurdishText:
+                "یاریزانە دڵپڕەکان چوونەوە ماڵەوە بەبێ خەڵات.", // disconsolate
+            onPressedBritish: () => speakdisconsolates1("en-GB"),
+            onPressedAmerican: () => speakdisconsolates1("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The players were disconsolate after losing what should have been an easy game."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "یاریزانەکان پەرێشان بوون بەوەی کە دەبوو بردنەوەیەکی ئاسان بایە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdisconsolates2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdisconsolates2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "The players were disconsolate after losing what should have been an easy game.",
+            kurdishText:
+                "یاریزانەکان پەرێشان بوون بەوەی کە دەبوو بردنەوەیەکی ئاسان بایە.",
+            onPressedBritish: () => speakdisconsolates2("en-GB"),
+            onPressedAmerican: () => speakdisconsolates2("en-US"),
           ),
           // disconsolates300"),
           // speakdisconsolates3

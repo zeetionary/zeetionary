@@ -248,87 +248,30 @@ class KurdishMeaning extends StatelessWidget {
 کوردی: بێزار، بێزراو، ڕق‌لێ‌بوو، قین‌لێ‌بوو، ناخۆش‌ویستوو، لالووت
 """),
           const DefinitionKurdish(text: "١. (ھاوەڵناو) کە بێزت دێنێتەوە"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "I was disgusted at/by the sight."),
-                    ExampleSentenceKurdish(text: "بێزم ھاتەوە بە دیمەنەکە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "disgusted", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdisgusteds1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdisgusteds1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "I was disgusted at/by the sight.",
+            kurdishText: "بێزم ھاتەوە بە دیمەنەکە.", // disgusted
+            onPressedBritish: () => speakdisgusteds1("en-GB"),
+            onPressedAmerican: () => speakdisgusteds1("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "I was disgusted with myself for eating so much."),
-                    ExampleSentenceKurdish(
-                        text: "بێزم لە خۆم دەکردەوە کە ئەوەندەم خوارد."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdisgusteds2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdisgusteds2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "I was disgusted with myself for eating so much.",
+            kurdishText: "بێزم لە خۆم دەکردەوە کە ئەوەندەم خوارد.",
+            onPressedBritish: () => speakdisgusteds2("en-GB"),
+            onPressedAmerican: () => speakdisgusteds2("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "He was disgusted to see such awful living conditions."),
-                    ExampleSentenceKurdish(
-                        text: "قینی ھاتەوە کە دۆخی ژیانی خراپی وەھای بینی."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdisgusteds3("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdisgusteds3("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "He was disgusted to see such awful living conditions.",
+            kurdishText: "قینی ھاتەوە کە دۆخی ژیانی خراپی وەھای بینی.",
+            onPressedBritish: () => speakdisgusteds3("en-GB"),
+            onPressedAmerican: () => speakdisgusteds3("en-US"),
           ),
           // disgusteds400"),
           // speakdisgusteds4

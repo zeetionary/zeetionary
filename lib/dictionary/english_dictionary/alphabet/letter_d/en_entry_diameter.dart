@@ -250,83 +250,26 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "١. (ناو) ھێڵێکی ڕاست لە لایەکی بازنەیەک یان ھەر شتێکی خڕ بۆ ھەر لایەکی دیکە کە بە چەقدا تێپەڕێت"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The diameter of the tree trunk was more than a metre."),
-                    ExampleSentenceKurdish(
-                        text: "تیرەی دارەکە زیاتر لە مەترێک بوو."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "diameter", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdiameters1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdiameters1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "The diameter of the tree trunk was more than a metre.",
+            kurdishText: "تیرەی دارەکە زیاتر لە مەترێک بوو.", // diameter
+            onPressedBritish: () => speakdiameters1("en-GB"),
+            onPressedAmerican: () => speakdiameters1("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "The dome is 42.3 metres in diameter."),
-                    ExampleSentenceKurdish(
-                        text: "گومەزەکە ٤٢,٣ مەترە لە تیرەدا."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdiameters2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdiameters2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "The dome is 42.3 metres in diameter.",
+            kurdishText: "گومەزەکە ٤٢,٣ مەترە لە تیرەدا.",
+            onPressedBritish: () => speakdiameters2("en-GB"),
+            onPressedAmerican: () => speakdiameters2("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "The tubes have an internal diameter of 2 mm."),
-                    ExampleSentenceKurdish(
-                        text: "بۆریچکەکان تیرەی ناوەکی ٢ میلیمەتریان ھەیە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdiameters3("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdiameters3("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "The tubes have an internal diameter of 2 mm.",
+            kurdishText: "بۆریچکەکان تیرەی ناوەکی ٢ میلیمەتریان ھەیە.",
+            onPressedBritish: () => speakdiameters3("en-GB"),
+            onPressedAmerican: () => speakdiameters3("en-US"),
           ),
           // diameters400"),
           // speakdiameters4

@@ -251,91 +251,34 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "١. (ھاوەڵناو) پیشاندانی ھەوڵ و ماندووبوون لە پیشە و کاردا"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "Leo is very diligent in/about his work."),
-                    ExampleSentenceKurdish(
-                        text: "لیۆ زۆر ڕەنج‌کێشە لە کارەکەیدا."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "diligent", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdiligents1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdiligents1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "Leo is very diligent in/about his work.",
+            kurdishText: "لیۆ زۆر ڕەنج‌کێشە لە کارەکەیدا.", // diligent
+            onPressedBritish: () => speakdiligents1("en-GB"),
+            onPressedAmerican: () => speakdiligents1("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "Their lawyer was extremely diligent in preparing their case."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "پارێزەرەکەیان تەواو نەسرەوتوو بوو لە ئامادەکردنی کەیسەکەیان."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdiligents2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdiligents2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "Their lawyer was extremely diligent in preparing their case.",
+            kurdishText:
+                "پارێزەرەکەیان تەواو نەسرەوتوو بوو لە ئامادەکردنی کەیسەکەیان.",
+            onPressedBritish: () => speakdiligents2("en-GB"),
+            onPressedAmerican: () => speakdiligents2("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٢. (ھاوەڵناو) کە بە وریایی و وردەکاری کراوە"),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The discovery was made after years of diligent research."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "دۆزینەوەکە لەدوای ساڵانێک لە لێکۆڵینەوەی شێلگیر ئەنجام درا."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdiligents3("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdiligents3("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "The discovery was made after years of diligent research.",
+            kurdishText:
+                "دۆزینەوەکە لەدوای ساڵانێک لە لێکۆڵینەوەی شێلگیر ئەنجام درا.",
+            onPressedBritish: () => speakdiligents3("en-GB"),
+            onPressedAmerican: () => speakdiligents3("en-US"),
           ),
           // diligents400"),
           // speakdiligents4

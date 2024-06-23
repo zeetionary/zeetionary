@@ -252,90 +252,32 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "١. (ناو) لاوازکردنی شلەیەک بە زیادکردنی ئاو یان شلەیەکی دیکە بۆی"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The drug's effectiveness is decreased by dilution."),
-                    ExampleSentenceKurdish(
-                        text: "کاریگەری دەرمانەکە کەم دەبێتەوە بە تراواندنی."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "dilution", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdilutions1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdilutions1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "The drug's effectiveness is decreased by dilution.",
+            kurdishText:
+                "کاریگەری دەرمانەکە کەم دەبێتەوە بە تراواندنی.", // dilution
+            onPressedBritish: () => speakdilutions1("en-GB"),
+            onPressedAmerican: () => speakdilutions1("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "Tests are underway to see whether two dilutions of this vaccine are effective."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "تاقیکردنەوە خەریکە دەکرێت کە ئایا دووجار تراواندنی ئەم ڤاکسینە کاریگەرە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdilutions2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdilutions2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "Tests are underway to see whether two dilutions of this vaccine are effective.",
+            kurdishText:
+                "تاقیکردنەوە خەریکە دەکرێت کە ئایا دووجار تراواندنی ئەم ڤاکسینە کاریگەرە.",
+            onPressedBritish: () => speakdilutions2("en-GB"),
+            onPressedAmerican: () => speakdilutions2("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٢. (ناو) لاوازکردن یان کەمکردنی کاریگەری شتێک"),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "This is a serious dilution of their election promises."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "ئەمە لاوازکردنێکی جدی بەڵێنەکانی ھەڵبژاردنیانە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdilutions3("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdilutions3("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "This is a serious dilution of their election promises.",
+            kurdishText: "ئەمە لاوازکردنێکی جدی بەڵێنەکانی ھەڵبژاردنیانە.",
+            onPressedBritish: () => speakdilutions3("en-GB"),
+            onPressedAmerican: () => speakdilutions3("en-US"),
           ),
           // dilutions400"),
           // speakdilutions4

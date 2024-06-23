@@ -370,62 +370,23 @@ class KurdishMeaning extends StatelessWidget {
 // کوردی:
 // """),
           const DefinitionKurdish(text: """١. (ژمارە) ژمارە ٨٠"""),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            """They've invited eighty (guests) to the wedding."""),
-                    ExampleSentenceKurdish(
-                        text:
-                            """ھەشتا میوانیان بانگھێشتی ھاسەرگیرییەکە کردووە."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "eighty", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakeightys1("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakeightys1("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: """They've invited eighty (guests) to the wedding.""",
+            kurdishText:
+                """ھەشتا میوانیان بانگھێشتی ھاسەرگیرییەکە کردووە.""", // eighty
+            onPressedBritish: () => speakeightys1("en-GB"),
+            onPressedAmerican: () => speakeightys1("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            """We had eighty applicants for the job, but we've whittled them down to six."""),
-                    ExampleSentenceKurdish(
-                        text:
-                            """ھەشتا داواکارمان بۆ کارەکە ھەبوو، بەڵام بۆ شەش کەس کەممان کردوونە."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakeightys2("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakeightys2("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                """We had eighty applicants for the job, but we've whittled them down to six.""",
+            kurdishText:
+                """ھەشتا داواکارمان بۆ کارەکە ھەبوو، بەڵام بۆ شەش کەس کەممان کردوونە.""",
+            onPressedBritish: () => speakeightys2("en-GB"),
+            onPressedAmerican: () => speakeightys2("en-US"),
           ),
           // eightys300eightys3
           // speakeightys3

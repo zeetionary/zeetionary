@@ -240,58 +240,20 @@ class KurdishMeaning extends StatelessWidget {
 // کوردی:
 // """),
           const DefinitionKurdish(text: "١. (ناو) یەکەی پێوانی بەرزی دەنگ"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "Noise from the disco reached 110 decibels."),
-                    ExampleSentenceKurdish(
-                        text: "ژاوەژاو لە دیسکۆیەکەوە گەشتە ١١٠ دێسبڵ."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "decibel", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdecibels1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdecibels1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "Noise from the disco reached 110 decibels.",
+            kurdishText: "ژاوەژاو لە دیسکۆیەکەوە گەشتە ١١٠ دێسبڵ.", // decibel
+            onPressedBritish: () => speakdecibels1("en-GB"),
+            onPressedAmerican: () => speakdecibels1("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "Gary’s voice rose several decibels as he finally lost patience with them."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "دەنگی گاری گەشتە چەند دێسبڵێک کە لەکۆتاییدا پشوودرێژی لەگەڵیان نەما."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdecibels2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdecibels2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "Gary’s voice rose several decibels as he finally lost patience with them.",
+            kurdishText:
+                "دەنگی گاری گەشتە چەند دێسبڵێک کە لەکۆتاییدا پشوودرێژی لەگەڵیان نەما.",
+            onPressedBritish: () => speakdecibels2("en-GB"),
+            onPressedAmerican: () => speakdecibels2("en-US"),
           ),
         ],
       ),

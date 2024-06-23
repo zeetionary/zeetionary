@@ -462,787 +462,266 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "١. (کردار) پێدانی مۆڵەتی فەرمی بە کەسێک بۆ جێھێشتنی پۆلیس یان ھێزە چەکدارەکان؛ دەرکردنی کەسێک"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "He was discharged from the army following his injury."),
-                    ExampleSentenceKurdish(
-                        text: "لە دوای برینداربوونی لە سوپا مۆڵەت درا."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "discharge", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdischarges1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdischarges1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "He was discharged from the army following his injury.",
+            kurdishText: "لە دوای برینداربوونی لە سوپا مۆڵەت درا.", // discharge
+            onPressedBritish: () => speakdischarges1("en-GB"),
+            onPressedAmerican: () => speakdischarges1("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "She was discharged from the police force for bad conduct."),
-                    ExampleSentenceKurdish(
-                        text: "لە ھێزی پۆلیس دەرکرا بۆ مامەڵەی خراپ."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdischarges2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdischarges2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "She was discharged from the police force for bad conduct.",
+            kurdishText: "لە ھێزی پۆلیس دەرکرا بۆ مامەڵەی خراپ.",
+            onPressedBritish: () => speakdischarges2("en-GB"),
+            onPressedAmerican: () => speakdischarges2("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "He was found guilty and dishonourably discharged from the army."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "بە تاوانبار ناسێنرا بە شەرمەزارییەوە لە سوپا دەرکرا."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdischarges3("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdischarges3("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "He was found guilty and dishonourably discharged from the army.",
+            kurdishText: "بە تاوانبار ناسێنرا بە شەرمەزارییەوە لە سوپا دەرکرا.",
+            onPressedBritish: () => speakdischarges3("en-GB"),
+            onPressedAmerican: () => speakdischarges3("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
                   "٢. (کردار) ڕێگەدان بە کەسێک کە نەخۆشخانە جێبھێڵێت بەھۆی ئەوەی تەندرووستی باشە"),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "Patients were being discharged from the hospital too early."),
-                    ExampleSentenceKurdish(
-                        text: "نەخۆشەکان زۆر زوو لە نەخۆشخانە دەردەکران."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdischarges4("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdischarges4("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "Patients were being discharged from the hospital too early.",
+            kurdishText: "نەخۆشەکان زۆر زوو لە نەخۆشخانە دەردەکران.",
+            onPressedBritish: () => speakdischarges4("en-GB"),
+            onPressedAmerican: () => speakdischarges4("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "All the people involved in the accident have now been discharged from hospital."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "ھەموو ئەو کەسانەی لە ڕووداوەکە بەژداربوون ئێستا لە نەخۆشخانە دەرکراون."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdischarges5("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdischarges5("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "All the people involved in the accident have now been discharged from hospital.",
+            kurdishText:
+                "ھەموو ئەو کەسانەی لە ڕووداوەکە بەژداربوون ئێستا لە نەخۆشخانە دەرکراون.",
+            onPressedBritish: () => speakdischarges5("en-GB"),
+            onPressedAmerican: () => speakdischarges5("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "She had discharged herself against medical advice."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "بە پێچەوانەی ئامۆژگاریی پزیشکییەوە نەخۆشخانەی جێھێشتبوو."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdischarges6("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdischarges6("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "She had discharged herself against medical advice.",
+            kurdishText:
+                "بە پێچەوانەی ئامۆژگاریی پزیشکییەوە نەخۆشخانەی جێھێشتبوو.",
+            onPressedBritish: () => speakdischarges6("en-GB"),
+            onPressedAmerican: () => speakdischarges6("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٣. (کردار) ڕێگادان بە کەسێک کە دادگا یان زیندان جێبھێڵێت"),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "He was conditionally discharged after admitting the theft."),
-                    ExampleSentenceKurdish(
-                        text: "بە مەرج ئازادکرا لە دوای داننان بەدزییەکە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdischarges7("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdischarges7("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "He was conditionally discharged after admitting the theft.",
+            kurdishText: "بە مەرج ئازادکرا لە دوای داننان بەدزییەکە.",
+            onPressedBritish: () => speakdischarges7("en-GB"),
+            onPressedAmerican: () => speakdischarges7("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "She was formally discharged by the court."),
-                    ExampleSentenceKurdish(
-                        text: "بە فەرمی لەلایەن دادگاوە ئازادکرا."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdischarges8("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdischarges8("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "She was formally discharged by the court.",
+            kurdishText: "بە فەرمی لەلایەن دادگاوە ئازادکرا.",
+            onPressedBritish: () => speakdischarges8("en-GB"),
+            onPressedAmerican: () => speakdischarges8("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
                   "٤. (کردار) ڕێگادان بە ئەندامێکی دەستەی سوێندخۆران کە کار لەسەر کەیسێک نەکات"),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "If the jury cannot agree, it should be discharged."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "ئەگەر دەستەی سوێندخۆران ناتوانن ڕازی بن، دەبێت مۆڵەت بدرێن."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdischarges9("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdischarges9("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "If the jury cannot agree, it should be discharged.",
+            kurdishText:
+                "ئەگەر دەستەی سوێندخۆران ناتوانن ڕازی بن، دەبێت مۆڵەت بدرێن.",
+            onPressedBritish: () => speakdischarges9("en-GB"),
+            onPressedAmerican: () => speakdischarges9("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٥. (کردار) ڕێگادان بەوەی گاز یان شلە بڕژێت"),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The river is diverted through the power station before discharging into the sea."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "ڕووبارەکە لە ڕێگای وێستگەی وزەکەوە ئاراستەی دەگۆڕێت پێش ئەوەی بڕژێنرێتە دەریاوە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdischarges10("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdischarges10("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "The river is diverted through the power station before discharging into the sea.",
+            kurdishText:
+                "ڕووبارەکە لە ڕێگای وێستگەی وزەکەوە ئاراستەی دەگۆڕێت پێش ئەوەی بڕژێنرێتە دەریاوە.",
+            onPressedBritish: () => speakdischarges10("en-GB"),
+            onPressedAmerican: () => speakdischarges10("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The factory was fined for discharging chemicals into the river."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "کارگەکە سزادرا بۆ ڕژاندنی مادەی کیمیایی بۆ ناو ڕووبارەکە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdischarges11("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdischarges11("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "The factory was fined for discharging chemicals into the river.",
+            kurdishText:
+                "کارگەکە سزادرا بۆ ڕژاندنی مادەی کیمیایی بۆ ناو ڕووبارەکە.",
+            onPressedBritish: () => speakdischarges11("en-GB"),
+            onPressedAmerican: () => speakdischarges11("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٦. (کردار) ھاتنە دەرەوەی شلەی وەک کێم لە جەستەوە"),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "The wound started discharging pus."),
-                    ExampleSentenceKurdish(
-                        text: "برینەکە دەستی بە دەردانی کێم کرد."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdischarges12("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdischarges12("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "The wound started discharging pus.",
+            kurdishText: "برینەکە دەستی بە دەردانی کێم کرد.",
+            onPressedBritish: () => speakdischarges12("en-GB"),
+            onPressedAmerican: () => speakdischarges12("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: "٧. (کردار) دەردانی وزە یان ھێز"),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "Lightning is caused by clouds discharging electricity."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "برووسکە درووست دەبێت کە ھەورەکان کارەبا درووست دەکەن."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdischarges13("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdischarges13("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "Lightning is caused by clouds discharging electricity.",
+            kurdishText:
+                "برووسکە درووست دەبێت کە ھەورەکان کارەبا درووست دەکەن.",
+            onPressedBritish: () => speakdischarges13("en-GB"),
+            onPressedAmerican: () => speakdischarges13("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
                   "٨. (کردار) کردنی ھەر شتێک کە پێویستە بۆ ئەنجامدانی ئەرکێک"),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "I will faithfully discharge my duties."),
-                    ExampleSentenceKurdish(
-                        text: "بە ئەمەکەوە کۆتایی بە ئەرکەکانم دێنم."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdischarges14("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdischarges14("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "I will faithfully discharge my duties.",
+            kurdishText: "بە ئەمەکەوە کۆتایی بە ئەرکەکانم دێنم.",
+            onPressedBritish: () => speakdischarges14("en-GB"),
+            onPressedAmerican: () => speakdischarges14("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "His widow was unable to discharge the debt."),
-                    ExampleSentenceKurdish(
-                        text: "بێوەژنەکەی توانای نەبوو قەرزەکان بداتەوە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdischarges15("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdischarges15("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "His widow was unable to discharge the debt.",
+            kurdishText: "بێوەژنەکەی توانای نەبوو قەرزەکان بداتەوە.",
+            onPressedBritish: () => speakdischarges15("en-GB"),
+            onPressedAmerican: () => speakdischarges15("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "He could not properly discharge his duties."),
-                    ExampleSentenceKurdish(
-                        text: "نەیدەتوانی بە گونجاوی ئەرکەکانی ئەنجام بدات."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdischarges16("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdischarges16("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "He could not properly discharge his duties.",
+            kurdishText: "نەیدەتوانی بە گونجاوی ئەرکەکانی ئەنجام بدات.",
+            onPressedBritish: () => speakdischarges16("en-GB"),
+            onPressedAmerican: () => speakdischarges16("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: "٩. (کردار) تەقاندنی فیشەکێک"),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The police officer accidentally discharged a firearm while unloading it."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "پۆلیسێک بە ڕێکەوت چەکێکی تەقاند لەکاتی بەتاڵکردنەوەی."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdischarges17("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdischarges17("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "The police officer accidentally discharged a firearm while unloading it.",
+            kurdishText:
+                "پۆلیسێک بە ڕێکەوت چەکێکی تەقاند لەکاتی بەتاڵکردنەوەی.",
+            onPressedBritish: () => speakdischarges17("en-GB"),
+            onPressedAmerican: () => speakdischarges17("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "He knocked her hand down and the gun discharged into the floor."),
-                    ExampleSentenceKurdish(
-                        text: "کێشای بە دەستیدا و چەکەەک کەوتە سەر زەوی."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdischarges18("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdischarges18("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "He knocked her hand down and the gun discharged into the floor.",
+            kurdishText: "کێشای بە دەستیدا و چەکەەک کەوتە سەر زەوی.",
+            onPressedBritish: () => speakdischarges18("en-GB"),
+            onPressedAmerican: () => speakdischarges18("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: "١٠. (ناو) ڕژاندنی گاس یان شلە"),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "A ban on the discharge of toxic waste will soon be implemented."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "قەدەغەیەک لەسەر ڕژاندنی پاشەڕۆی ژەھراوی بەزووی دەخرێتە بواری جێبەجێکردنەوە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdischarges19("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdischarges19("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "A ban on the discharge of toxic waste will soon be implemented.",
+            kurdishText:
+                "قەدەغەیەک لەسەر ڕژاندنی پاشەڕۆی ژەھراوی بەزووی دەخرێتە بواری جێبەجێکردنەوە.",
+            onPressedBritish: () => speakdischarges19("en-GB"),
+            onPressedAmerican: () => speakdischarges19("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "Changes in vaginal discharge can indicate an infection."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "گۆڕان لە دەردراوی زێ دەکرێت ئاماژە بە تووشبوون بێت."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdischarges20("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdischarges20("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "Changes in vaginal discharge can indicate an infection.",
+            kurdishText: "گۆڕان لە دەردراوی زێ دەکرێت ئاماژە بە تووشبوون بێت.",
+            onPressedBritish: () => speakdischarges20("en-GB"),
+            onPressedAmerican: () => speakdischarges20("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "١١. (ناو) دەرچوونی وزەی کارەبا لە شتێکەوە"),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The storm produced a loud thunder with each electrical discharge."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "زریانەکە برووسکەیەکی بەرزی درووست دەکرد لەگەڵ ھەر چەخماخەیەکی کارەبایی."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdischarges21("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdischarges21("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "The storm produced a loud thunder with each electrical discharge.",
+            kurdishText:
+                "زریانەکە برووسکەیەکی بەرزی درووست دەکرد لەگەڵ ھەر چەخماخەیەکی کارەبایی.",
+            onPressedBritish: () => speakdischarges21("en-GB"),
+            onPressedAmerican: () => speakdischarges21("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
                   "١٢. (ناو) مۆڵەتدان یان دەرکردنی کەسێک لە ھێزی پۆلیس یان سوپا"),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The illness resulted in his discharge from the army."),
-                    ExampleSentenceKurdish(
-                        text: "نەخۆشییەکە درووست بوو بەھۆی دەرکردنی لە سوپا."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdischarges22("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdischarges22("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "The illness resulted in his discharge from the army.",
+            kurdishText: "نەخۆشییەکە درووست بوو بەھۆی دەرکردنی لە سوپا.",
+            onPressedBritish: () => speakdischarges22("en-GB"),
+            onPressedAmerican: () => speakdischarges22("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "His quick discharge came as a surprise to everyone."),
-                    ExampleSentenceKurdish(
-                        text: "دەرکردنی خێرای سوپرایز بوو بۆ ھەموان."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdopsum1s23("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdopsum1s23("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "His quick discharge came as a surprise to everyone.",
+            kurdishText: "دەرکردنی خێرای سوپرایز بوو بۆ ھەموان.",
+            onPressedBritish: () => speakdopsum1s23("en-GB"),
+            onPressedAmerican: () => speakdopsum1s23("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
                   "١٣. (ناو) ڕێگەدان بە کەسێک کە نەخۆشخانە جێبھێڵێت بەھۆی ئەوەی تەندرووستە"),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The doctor will provide instructions before your discharge from the hospital."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "پزیشکەکە ڕێنماییت پێدەدات پێش مۆڵەتدانت لە نەخۆشخانە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdopsum1s24("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdopsum1s24("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "The doctor will provide instructions before your discharge from the hospital.",
+            kurdishText:
+                "پزیشکەکە ڕێنماییت پێدەدات پێش مۆڵەتدانت لە نەخۆشخانە.",
+            onPressedBritish: () => speakdopsum1s24("en-GB"),
+            onPressedAmerican: () => speakdopsum1s24("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "١٤. (ناو) ڕێگادان بە کەسێک کە زیندان یان دادگا جێبھێڵێت"),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "He was given an absolute discharge but banned from driving for twelve months."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "ئازادکردنی تەواوی پێدرا بەڵام ١٢ مانگ شۆفێری لێ قەدەغە کرا."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdopsum1s25("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdopsum1s25("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "He was given an absolute discharge but banned from driving for twelve months.",
+            kurdishText:
+                "ئازادکردنی تەواوی پێدرا بەڵام ١٢ مانگ شۆفێری لێ قەدەغە کرا.",
+            onPressedBritish: () => speakdopsum1s25("en-GB"),
+            onPressedAmerican: () => speakdopsum1s25("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "١٥. (ناو) ئەنجامدانی ئەرکێک یان دانەوەی قەرز"),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The judge gave him a one-year conditional discharge."),
-                    ExampleSentenceKurdish(
-                        text: "دادوەرەکە یەک ساڵ ئازادیی بە مەرجی پێدرا."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdopsum1s26("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdopsum1s26("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "The judge gave him a one-year conditional discharge.",
+            kurdishText: "دادوەرەکە یەک ساڵ ئازادیی بە مەرجی پێدرا.",
+            onPressedBritish: () => speakdopsum1s26("en-GB"),
+            onPressedAmerican: () => speakdopsum1s26("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: "١٦. (ناو) تەقاندنی فیشەکێک"),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The gun had an accidental discharge when it fell."),
-                    ExampleSentenceKurdish(
-                        text: "چەکەکە تەقاندنێکی بەڕێکەوتی ھەبوو کە کەوت."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdopsum1s27("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdopsum1s27("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "The gun had an accidental discharge when it fell.",
+            kurdishText: "چەکەکە تەقاندنێکی بەڕێکەوتی ھەبوو کە کەوت.",
+            onPressedBritish: () => speakdopsum1s27("en-GB"),
+            onPressedAmerican: () => speakdopsum1s27("en-US"),
           ),
           // dopsum1s2800"),
           // speakdopsum1s28

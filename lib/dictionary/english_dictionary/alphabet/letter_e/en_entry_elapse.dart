@@ -370,61 +370,23 @@ class KurdishMeaning extends StatelessWidget {
 کوردی: تێپەڕاندن، ڕابوردن، تێپەڕ کردن
 """),
           const DefinitionKurdish(text: """١. (کردار) تێپەڕینی کات"""),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: """Many years elapsed before they met again."""),
-                    ExampleSentenceKurdish(
-                        text:
-                            """زۆر ساڵان تێپەڕین پێش ئەوەی دووبارە یەکیان بینییەوە."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "elapse", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakelapses1("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakelapses1("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: """Many years elapsed before they met again.""",
+            kurdishText:
+                """زۆر ساڵان تێپەڕین پێش ئەوەی دووبارە یەکیان بینییەوە.""", // elapse
+            onPressedBritish: () => speakelapses1("en-GB"),
+            onPressedAmerican: () => speakelapses1("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            """Four years had elapsed since he left college and still he hadn't found a job."""),
-                    ExampleSentenceKurdish(
-                        text:
-                            """چوار ساڵ تێپەڕی بوو لەوەتەی کۆلێژی تەواو کردبوو و ھێشتا کارێکی نەدۆزیبووەوە."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakelapses2("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakelapses2("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                """Four years had elapsed since he left college and still he hadn't found a job.""",
+            kurdishText:
+                """چوار ساڵ تێپەڕی بوو لەوەتەی کۆلێژی تەواو کردبوو و ھێشتا کارێکی نەدۆزیبووەوە.""",
+            onPressedBritish: () => speakelapses2("en-GB"),
+            onPressedAmerican: () => speakelapses2("en-US"),
           ),
           // elapses300elapses3
           // speakelapses3

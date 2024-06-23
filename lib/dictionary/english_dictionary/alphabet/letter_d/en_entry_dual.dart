@@ -379,88 +379,32 @@ class KurdishMeaning extends StatelessWidget {
 """),
           const DefinitionKurdish(
               text: "١. (ھاوەڵناو) ھەبوونی دوو لایەن یان شێوە"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "She has dual nationality (= is a citizen of two different countries)."),
-                    ExampleSentenceKurdish(text: "دوو ڕەگەزنامەی ھەیە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "dual", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakduals1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakduals1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "She has dual nationality (= is a citizen of two different countries).",
+            kurdishText: "دوو ڕەگەزنامەی ھەیە.", // dual
+            onPressedBritish: () => speakduals1("en-GB"),
+            onPressedAmerican: () => speakduals1("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The piece of furniture serves a dual purpose as a cupboard and as a table."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "کەلووپەلە ناوماڵەکە دوو سوودی ھەبوو وەک دۆڵابێک و مێزێک."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakduals2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakduals2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "The piece of furniture serves a dual purpose as a cupboard and as a table.",
+            kurdishText:
+                "کەلووپەلە ناوماڵەکە دوو سوودی ھەبوو وەک دۆڵابێک و مێزێک.",
+            onPressedBritish: () => speakduals2("en-GB"),
+            onPressedAmerican: () => speakduals2("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "Everything he says has a dual meaning."),
-                    ExampleSentenceKurdish(
-                        text: "ھەر شتێک کە دەیڵێت دوو واتای ھەیە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakduals3("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakduals3("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "Everything he says has a dual meaning.",
+            kurdishText: "ھەر شتێک کە دەیڵێت دوو واتای ھەیە.",
+            onPressedBritish: () => speakduals3("en-GB"),
+            onPressedAmerican: () => speakduals3("en-US"),
           ),
           // duals400"),
           // speakduals4

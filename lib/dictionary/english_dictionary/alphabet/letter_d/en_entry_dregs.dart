@@ -389,120 +389,43 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "١. (ناو) کۆتا دڵۆپەکانی شتێک کە تێکەڵ بووە لەگەڵ مادەی ڕەق کە لە بنی شووشە یان بوتڵێک کە زۆرجار ناخورێتەوە"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "I wanted a last drink of coffee, but there were only dregs left."),
-                    ExampleSentenceKurdish(
-                        text: "کۆتا قومم دەویست بەڵام تەنھا نیشتووەکەی مابوو."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "dregs", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdregss1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdregss1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "I wanted a last drink of coffee, but there were only dregs left.",
+            kurdishText:
+                "کۆتا قومم دەویست بەڵام تەنھا نیشتووەکەی مابوو.", // dregs
+            onPressedBritish: () => speakdregss1("en-GB"),
+            onPressedAmerican: () => speakdregss1("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "٢. (ناو) خراپترین بەشەکانی شتێک کە ھیچ سوود و بەھای نییە"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "He emptied the dregs of his tea into the sink."),
-                    ExampleSentenceKurdish(
-                        text: "تڵپی چاییەکەی ڕژاندە دەستشۆرەکەوە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdregss2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdregss2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "He emptied the dregs of his tea into the sink.",
+            kurdishText: "تڵپی چاییەکەی ڕژاندە دەستشۆرەکەوە.",
+            onPressedBritish: () => speakdregss2("en-GB"),
+            onPressedAmerican: () => speakdregss2("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٢. (ناو) خراپترین بەشەکانی شتێک کە ھیچ سوود و بەھای نییە"),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "They get all the best food and we get the dregs."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "ئەوان باشترین خواردنەکان وەردەگرن و ئێمەش پاشماوە وەردەگرین."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdregss3("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdregss3("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "They get all the best food and we get the dregs.",
+            kurdishText:
+                "ئەوان باشترین خواردنەکان وەردەگرن و ئێمەش پاشماوە وەردەگرین.",
+            onPressedBritish: () => speakdregss3("en-GB"),
+            onPressedAmerican: () => speakdregss3("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: "٣. (ناو) کۆتا بەشەکانی شتێک"),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "She was still suffering from the dregs of a flu virus."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "ھێشتا دەیناڵاند بەدەست پاشماوەی ڤایرۆسێکی ھەڵامەت."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdregss4("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdregss4("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "She was still suffering from the dregs of a flu virus.",
+            kurdishText: "ھێشتا دەیناڵاند بەدەست پاشماوەی ڤایرۆسێکی ھەڵامەت.",
+            onPressedBritish: () => speakdregss4("en-GB"),
+            onPressedAmerican: () => speakdregss4("en-US"),
           ),
           // dregss500"),
           // speakdregss5

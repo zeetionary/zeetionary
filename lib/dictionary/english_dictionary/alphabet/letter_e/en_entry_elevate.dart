@@ -397,155 +397,57 @@ class KurdishMeaning extends StatelessWidget {
 """),
           const DefinitionKurdish(
               text: """١. (کردار) پێدانی پێگە یان جێگای بەرز بە کەسێک"""),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            """He elevated many of his friends to powerful positions within the government."""),
-                    ExampleSentenceKurdish(
-                        text:
-                            """زۆرێک لە ھاوڕێکانی بەرزکردەوە بۆ پێگەی گرنگ لە حکومەتدا."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "elevate", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakelevates1("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakelevates1("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                """He elevated many of his friends to powerful positions within the government.""",
+            kurdishText:
+                """زۆرێک لە ھاوڕێکانی بەرزکردەوە بۆ پێگەی گرنگ لە حکومەتدا.""", // elevate
+            onPressedBritish: () => speakelevates1("en-GB"),
+            onPressedAmerican: () => speakelevates1("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: """ژممارە. (کردار) پێنناسە"""),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            """It was an attempt to elevate football to a subject worthy of study."""),
-                    ExampleSentenceKurdish(
-                        text:
-                            """ھەوڵێک بوو بۆ بەرزکردنەوەی تۆپی پێ بۆ ئاستی بابەتێک کە شایەنی خوێندن بێت."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakelevates2("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakelevates2("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                """It was an attempt to elevate football to a subject worthy of study.""",
+            kurdishText:
+                """ھەوڵێک بوو بۆ بەرزکردنەوەی تۆپی پێ بۆ ئاستی بابەتێک کە شایەنی خوێندن بێت.""",
+            onPressedBritish: () => speakelevates2("en-GB"),
+            onPressedAmerican: () => speakelevates2("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text: """٢. (کردار) بەرزکردنەوە یان دانان لە شوێنێکی بەرزتر"""),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            """It is important that the injured leg should be elevated."""),
-                    ExampleSentenceKurdish(
-                        text:
-                            """گرنگە کە لاقە بریندارەکە دەبێت بەرز بکرێتەوە."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakelevates3("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakelevates3("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                """It is important that the injured leg should be elevated.""",
+            kurdishText: """گرنگە کە لاقە بریندارەکە دەبێت بەرز بکرێتەوە.""",
+            onPressedBritish: () => speakelevates3("en-GB"),
+            onPressedAmerican: () => speakelevates3("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text: """٣. (کردار) بەرزکردنەوەی ئاستی شتێک"""),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: """Smoking often elevates blood pressure."""),
-                    ExampleSentenceKurdish(
-                        text:
-                            """جگەرەکێشان زۆرجار فشاری خوێن بەرز دەکاتەوە."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakelevates4("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakelevates4("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: """Smoking often elevates blood pressure.""",
+            kurdishText: """جگەرەکێشان زۆرجار فشاری خوێن بەرز دەکاتەوە.""",
+            onPressedBritish: () => speakelevates4("en-GB"),
+            onPressedAmerican: () => speakelevates4("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
                   """٤. (کردار) بەھێزکردنی کەشی دەروونی کەسێک بەشێوەیەک کە ھەست بە دڵخۆشی بکات"""),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            """The song never failed to elevate his spirits."""),
-                    ExampleSentenceKurdish(
-                        text:
-                            """گۆرانییەکە ھەرگیز وانەدەبوو کە ڕووحییەتی بەرز نەکاتەوە."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakelevates5("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakelevates5("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: """The song never failed to elevate his spirits.""",
+            kurdishText:
+                """گۆرانییەکە ھەرگیز وانەدەبوو کە ڕووحییەتی بەرز نەکاتەوە.""",
+            onPressedBritish: () => speakelevates5("en-GB"),
+            onPressedAmerican: () => speakelevates5("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: """ژممارە. (کردار) پێنناسە"""),

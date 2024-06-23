@@ -242,58 +242,20 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "١. (ھاوەڵناو) کە ڕەفتاری خراپ و بێڕێزی بۆ کەسانی دیکە پیشان دەدات"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "He didn’t wish to appear discourteous."),
-                    ExampleSentenceKurdish(
-                        text: "نەیدەویست بە بێ‌ڕەوشتانە دەربکەوێت."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "discourteous", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdiscourteouss1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdiscourteouss1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "He didn’t wish to appear discourteous.",
+            kurdishText: "نەیدەویست بە بێ‌ڕەوشتانە دەربکەوێت.", // discourteous
+            onPressedBritish: () => speakdiscourteouss1("en-GB"),
+            onPressedAmerican: () => speakdiscourteouss1("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "The employees were unhelpful and discourteous."),
-                    ExampleSentenceKurdish(
-                        text: "کارمەندەکان بێ‌سوود و بێ‌ئەدەب بوون."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdiscourteouss2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdiscourteouss2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "The employees were unhelpful and discourteous.",
+            kurdishText: "کارمەندەکان بێ‌سوود و بێ‌ئەدەب بوون.",
+            onPressedBritish: () => speakdiscourteouss2("en-GB"),
+            onPressedAmerican: () => speakdiscourteouss2("en-US"),
           ),
           // discourteouss300"),
           // speakdiscourteouss3

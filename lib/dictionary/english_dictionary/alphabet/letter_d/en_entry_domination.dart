@@ -381,91 +381,34 @@ class KurdishMeaning extends StatelessWidget {
 """),
           const DefinitionKurdish(
               text: "١. (ناو) کۆنترۆڵ یان دەسەڵات بەسەر کەسێک/شتێکدا"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The movie was about a group of robots set on world domination (= control of all countries)."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "فیلمەکە لەسەر ژمارەیەک ڕۆبۆت بوو کە ئامانجیان بوو جیھان کۆنترۆڵ بکەن."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "domination", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdominations1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdominations1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "The movie was about a group of robots set on world domination (= control of all countries).",
+            kurdishText:
+                "فیلمەکە لەسەر ژمارەیەک ڕۆبۆت بوو کە ئامانجیان بوو جیھان کۆنترۆڵ بکەن.", // domination
+            onPressedBritish: () => speakdominations1("en-GB"),
+            onPressedAmerican: () => speakdominations1("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "Laws were enacted to combat male domination over women in the workplace."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "یاسا دەرکران بۆ ڕێگری لە دەسەڵاتی پیاوان بەسەر ژناندا لە شوێنی کار."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdominations2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdominations2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "Laws were enacted to combat male domination over women in the workplace.",
+            kurdishText:
+                "یاسا دەرکران بۆ ڕێگری لە دەسەڵاتی پیاوان بەسەر ژناندا لە شوێنی کار.",
+            onPressedBritish: () => speakdominations2("en-GB"),
+            onPressedAmerican: () => speakdominations2("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٢. (ناو) ئەوەی کە گرنگترین خاسیەتی شتێک بێت"),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "Visitors noticed the domination of photography in this year's exhibition."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "سەردانکەران ھەستیان کرد بە زاڵی وێنەگری لە پێشانگای ئەمساڵدا."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdominations3("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdominations3("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "Visitors noticed the domination of photography in this year's exhibition.",
+            kurdishText:
+                "سەردانکەران ھەستیان کرد بە زاڵی وێنەگری لە پێشانگای ئەمساڵدا.",
+            onPressedBritish: () => speakdominations3("en-GB"),
+            onPressedAmerican: () => speakdominations3("en-US"),
           ),
           // dominations400"),
           // speakdominations4

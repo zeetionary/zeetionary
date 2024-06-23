@@ -243,60 +243,21 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "١. (ناو) توانای پیشاندانی بڕیاردانی باش سەبارەت بە کوالێتی کەسێک/شتێک"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "He shows great discernment in his choice of friends."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "تێگەشتووی زۆر پیشان دەدات لە ھەڵبژاردنی ھاوڕێکانیدا."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "discernment", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdiscernments1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdiscernments1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "He shows great discernment in his choice of friends.",
+            kurdishText:
+                "تێگەشتووی زۆر پیشان دەدات لە ھەڵبژاردنی ھاوڕێکانیدا.", // discernment
+            onPressedBritish: () => speakdiscernments1("en-GB"),
+            onPressedAmerican: () => speakdiscernments1("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "It's clear that you are a person of discernment."),
-                    ExampleSentenceKurdish(text: "ڕوونە کە کەسێکی بەسەلیقەیت."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdiscernments2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdiscernments2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "It's clear that you are a person of discernment.",
+            kurdishText: "ڕوونە کە کەسێکی بەسەلیقەیت.",
+            onPressedBritish: () => speakdiscernments2("en-GB"),
+            onPressedAmerican: () => speakdiscernments2("en-US"),
           ),
           // discernments300"),
           // speakdiscernments3

@@ -406,181 +406,67 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   """١. (ھاوەڵناو) زۆر ئاڵۆز پڕ وردەکاری؛ کە بە وریایی ئامادە و ڕێکخراوە"""),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: """She had prepared a very elaborate meal."""),
-                    ExampleSentenceKurdish(
-                        text:
-                            """ژەمە خواردنێکی زۆر شارەزایانەی ئامادە کردبوو."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "elaborate", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakelaborates1("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakelaborates1("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: """She had prepared a very elaborate meal.""",
+            kurdishText:
+                """ژەمە خواردنێکی زۆر شارەزایانەی ئامادە کردبوو.""", // elaborate
+            onPressedBritish: () => speakelaborates1("en-GB"),
+            onPressedAmerican: () => speakelaborates1("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: """It all turned out to be an elaborate hoax."""),
-                    ExampleSentenceKurdish(
-                        text: """ھەمووی وا دەرچوو کە فێڵێکی ئاڵۆز بێت."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakelaborates2("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakelaborates2("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: """It all turned out to be an elaborate hoax.""",
+            kurdishText: """ھەمووی وا دەرچوو کە فێڵێکی ئاڵۆز بێت.""",
+            onPressedBritish: () => speakelaborates2("en-GB"),
+            onPressedAmerican: () => speakelaborates2("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
                   """٢. (کردار) ڕوونکردنەوە یان باسکردنی شتێک بە وردەکاریی زیاتر"""),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            """He said he was resigning but did not elaborate on his reasons."""),
-                    ExampleSentenceKurdish(
-                        text:
-                            """گوتی دەستلەکاردەکێشێتەوە، بەڵام ھۆکارەکەی ڕووننەکردەوە."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakelaborates3("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakelaborates3("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                """He said he was resigning but did not elaborate on his reasons.""",
+            kurdishText:
+                """گوتی دەستلەکاردەکێشێتەوە، بەڵام ھۆکارەکەی ڕووننەکردەوە.""",
+            onPressedBritish: () => speakelaborates3("en-GB"),
+            onPressedAmerican: () => speakelaborates3("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: """Let me briefly elaborate on this."""),
-                    ExampleSentenceKurdish(
-                        text: """ڕێگام بدە بە کورتی ئەمە ڕوونبکەمەوە."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakelaborates4("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakelaborates4("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: """Let me briefly elaborate on this.""",
+            kurdishText: """ڕێگام بدە بە کورتی ئەمە ڕوونبکەمەوە.""",
+            onPressedBritish: () => speakelaborates4("en-GB"),
+            onPressedAmerican: () => speakelaborates4("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            """They refused to elaborate on the reasons for their decision."""),
-                    ExampleSentenceKurdish(
-                        text:
-                            """ڕەتیان کردەوە ھۆکارەکانیان بۆ بڕیارەکە ڕوونبکەنەوە."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakelaborates5("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakelaborates5("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                """They refused to elaborate on the reasons for their decision.""",
+            kurdishText:
+                """ڕەتیان کردەوە ھۆکارەکانیان بۆ بڕیارەکە ڕوونبکەنەوە.""",
+            onPressedBritish: () => speakelaborates5("en-GB"),
+            onPressedAmerican: () => speakelaborates5("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
                   """٣. (کردار) گەڵاڵەکردنی پلانێک، بیرۆکەیەک، ھتد و وا بکەیت کە ئاڵۆز یان پڕ وردەکاری بێت"""),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            """In his plays he takes simple traditional tales and elaborates them."""),
-                    ExampleSentenceKurdish(
-                        text:
-                            """لە شانۆکانیدا چیرۆکە سادە نەریتییەکان دەبات و وردەکاریان بۆ زیاد دەکات."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakelaborates6("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakelaborates6("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                """In his plays he takes simple traditional tales and elaborates them.""",
+            kurdishText:
+                """لە شانۆکانیدا چیرۆکە سادە نەریتییەکان دەبات و وردەکاریان بۆ زیاد دەکات.""",
+            onPressedBritish: () => speakelaborates6("en-GB"),
+            onPressedAmerican: () => speakelaborates6("en-US"),
           ),
           // elaborates700elaborates7
           // speakelaborates7

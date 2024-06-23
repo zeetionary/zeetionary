@@ -779,1224 +779,386 @@ class KurdishMeaning extends StatelessWidget {
 """),
           const DefinitionKurdish(
               text: "١. (کردار) کێشانی وێنەیەکی شتێک بە پێنووس یان تەباشیر"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(text: "You draw beautifully."),
-                    ExampleSentenceKurdish(text: "جوان وێنە دەکێشیت."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "draw", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdraws1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdraws1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "You draw beautifully.",
+            kurdishText: "جوان وێنە دەکێشیت.", // draw
+            onPressedBritish: () => speakdraws1("en-GB"),
+            onPressedAmerican: () => speakdraws1("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(text: "She drew a house."),
-                    ExampleSentenceKurdish(text: "وێنەی خانوویەکی کێشا."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdraws2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdraws2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "She drew a house.",
+            kurdishText: "وێنەی خانوویەکی کێشا.",
+            onPressedBritish: () => speakdraws2("en-GB"),
+            onPressedAmerican: () => speakdraws2("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "He drew a circle in the sand with a stick."),
-                    ExampleSentenceKurdish(
-                        text: "بە چیلکەیەک بازنەیەکی لە خۆڵەکەدا کێشا."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdraws3("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdraws3("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "He drew a circle in the sand with a stick.",
+            kurdishText: "بە چیلکەیەک بازنەیەکی لە خۆڵەکەدا کێشا.",
+            onPressedBritish: () => speakdraws3("en-GB"),
+            onPressedAmerican: () => speakdraws3("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
                   "٢. (کردار) باسکردنی شتێک بە وشە بە شێوەیەک کە وێنایەک درووست بکات"),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The report drew a grim picture of inefficiency and corruption."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "ڕاپۆرتەکە وێنەیەکی خەمناکی  لێنەھاتوویی و گەندەڵی پیشان دەدات."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdraws4("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdraws4("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "The report drew a grim picture of inefficiency and corruption.",
+            kurdishText:
+                "ڕاپۆرتەکە وێنەیەکی خەمناکی  لێنەھاتوویی و گەندەڵی پیشان دەدات.",
+            onPressedBritish: () => speakdraws4("en-GB"),
+            onPressedAmerican: () => speakdraws4("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
                   "٣. (کردار) ھەبوونی بیرکردنەوەیەکی دیاریکراو لە دوای ئەوەی کە لێکۆڵینەوەت لە شتێک کردووە یان بیرت لێکردووەتەوە"),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "Is it possible to draw inferences about the environment during the Bronze Age?"),
-                    ExampleSentenceKurdish(
-                        text:
-                            "دەکرێت ئەنجام‌گیری بکرێت سەبارەت بە ژینگە لە سەردەمی برۆنزدا."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdraws5("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdraws5("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "Is it possible to draw inferences about the environment during the Bronze Age?",
+            kurdishText:
+                "دەکرێت ئەنجام‌گیری بکرێت سەبارەت بە ژینگە لە سەردەمی برۆنزدا.",
+            onPressedBritish: () => speakdraws5("en-GB"),
+            onPressedAmerican: () => speakdraws5("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "What conclusions did you draw from the report?"),
-                    ExampleSentenceKurdish(
-                        text: "چی ئەنجامێکت وەرگرت لە ڕاپۆرتەکەوە؟"),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdraws6("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdraws6("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "What conclusions did you draw from the report?",
+            kurdishText: "چی ئەنجامێکت وەرگرت لە ڕاپۆرتەکەوە؟",
+            onPressedBritish: () => speakdraws6("en-GB"),
+            onPressedAmerican: () => speakdraws6("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "We can draw some lessons for the future from this accident."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "لەم وانەیەوە دەکرێت ژمارەیەک وانە بۆ داھاتوو وەربگرین."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdraws7("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdraws7("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "We can draw some lessons for the future from this accident.",
+            kurdishText:
+                "لەم وانەیەوە دەکرێت ژمارەیەک وانە بۆ داھاتوو وەربگرین.",
+            onPressedBritish: () => speakdraws7("en-GB"),
+            onPressedAmerican: () => speakdraws7("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٤. (کردار) پیشاندانی بەرواردی نێوان دوو شت"),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "He attempted to draw a contrast between himself and the prime minister."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "ھەوڵیدا بەراوردکارییەک لە نێوان خۆی و سەرۆک وەزیراندا بکات."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdraws8("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdraws8("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "He attempted to draw a contrast between himself and the prime minister.",
+            kurdishText:
+                "ھەوڵیدا بەراوردکارییەک لە نێوان خۆی و سەرۆک وەزیراندا بکات.",
+            onPressedBritish: () => speakdraws8("en-GB"),
+            onPressedAmerican: () => speakdraws8("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The site's boundaries were drawn by the Department of the Environment."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "سنوورەکانی ناوچەکە لەلایەن وەزارەتی ژینگەوە کێشران."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdraws9("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdraws9("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "The site's boundaries were drawn by the Department of the Environment.",
+            kurdishText: "سنوورەکانی ناوچەکە لەلایەن وەزارەتی ژینگەوە کێشران.",
+            onPressedBritish: () => speakdraws9("en-GB"),
+            onPressedAmerican: () => speakdraws9("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
                   "٥. (کردار) درووستکردنی/ھێنانە بوونی کاردانەوەیەک یان وەڵامێک"),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "The plan has drawn a lot of criticism."),
-                    ExampleSentenceKurdish(
-                        text: "پلانەکە زۆر ڕەخنەی تووش بووە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdraws10("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdraws10("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "The plan has drawn a lot of criticism.",
+            kurdishText: "پلانەکە زۆر ڕەخنەی تووش بووە.",
+            onPressedBritish: () => speakdraws10("en-GB"),
+            onPressedAmerican: () => speakdraws10("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The announcement drew loud applause from the audience."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "ڕاگەیاندنەکە چەپڵەڕێزانی بەرزی گوێگرانی لێکەوتەوە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdraws11("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdraws11("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "The announcement drew loud applause from the audience.",
+            kurdishText: "ڕاگەیاندنەکە چەپڵەڕێزانی بەرزی گوێگرانی لێکەوتەوە.",
+            onPressedBritish: () => speakdraws11("en-GB"),
+            onPressedAmerican: () => speakdraws11("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The reforms drew widespread support from voters."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "چاکسازییەکان پشتیوانی بەرفروانی دەنگدەرانی ھەبوو."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdraws12("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdraws12("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "The reforms drew widespread support from voters.",
+            kurdishText: "چاکسازییەکان پشتیوانی بەرفروانی دەنگدەرانی ھەبوو.",
+            onPressedBritish: () => speakdraws12("en-GB"),
+            onPressedAmerican: () => speakdraws12("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٦. (کردار) ئاراستەکردنی سەرنجی کەسێک بۆ شتێک"),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "Our aim is to draw attention to the plight of these children."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "ئامانجمان ئەوەیە سەرنج بھێنینە سەر دۆخی خراپی ئەم منداڵانە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdraws13("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdraws13("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "Our aim is to draw attention to the plight of these children.",
+            kurdishText:
+                "ئامانجمان ئەوەیە سەرنج بھێنینە سەر دۆخی خراپی ئەم منداڵانە.",
+            onPressedBritish: () => speakdraws13("en-GB"),
+            onPressedAmerican: () => speakdraws13("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "The exhibition drew great critical attention."),
-                    ExampleSentenceKurdish(
-                        text: "پێشانگاکە سەرنجی زۆری ڕەخنەگری ڕاکێشا."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdraws14("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdraws14("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "The exhibition drew great critical attention.",
+            kurdishText: "پێشانگاکە سەرنجی زۆری ڕەخنەگری ڕاکێشا.",
+            onPressedBritish: () => speakdraws14("en-GB"),
+            onPressedAmerican: () => speakdraws14("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "My eyes were drawn to the man in the corner."),
-                    ExampleSentenceKurdish(
-                        text: "چاوم کەوتە سەر پیاوی سووچەکە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdraws15("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdraws15("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "My eyes were drawn to the man in the corner.",
+            kurdishText: "چاوم کەوتە سەر پیاوی سووچەکە.",
+            onPressedBritish: () => speakdraws15("en-GB"),
+            onPressedAmerican: () => speakdraws15("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٧. (کردار) سەرنجڕاکێشانی کەسێک یان حەزی لا درووست بکەیت"),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "The movie is drawing large audiences."),
-                    ExampleSentenceKurdish(
-                        text: "فیلمەکە گوێگری زۆری کۆکردووەتەوە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdraws16("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdraws16("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "The movie is drawing large audiences.",
+            kurdishText: "فیلمەکە گوێگری زۆری کۆکردووەتەوە.",
+            onPressedBritish: () => speakdraws16("en-GB"),
+            onPressedAmerican: () => speakdraws16("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "The events continue to draw huge crowds."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "ئەم بۆنانە بەردەوامن لەوەی جەماوەری زۆر کۆبکەنەوە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdraws17("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdraws17("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "The events continue to draw huge crowds.",
+            kurdishText: "ئەم بۆنانە بەردەوامن لەوەی جەماوەری زۆر کۆبکەنەوە.",
+            onPressedBritish: () => speakdraws17("en-GB"),
+            onPressedAmerican: () => speakdraws17("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The course draws students from all over the country."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "کۆرسەکە خوێندکاری لە ھەموو وڵاتەکەوە کۆکردووەتەوە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdraws18("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdraws18("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "The course draws students from all over the country.",
+            kurdishText: "کۆرسەکە خوێندکاری لە ھەموو وڵاتەکەوە کۆکردووەتەوە.",
+            onPressedBritish: () => speakdraws18("en-GB"),
+            onPressedAmerican: () => speakdraws18("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "He was increasingly drawn to the idea of making short films."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "زیاتر و زیاتر حەزی کرد بە بیرۆکەی بەرھەمھێنانی کورتە فیلم."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdraws19("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdraws19("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "He was increasingly drawn to the idea of making short films.",
+            kurdishText:
+                "زیاتر و زیاتر حەزی کرد بە بیرۆکەی بەرھەمھێنانی کورتە فیلم.",
+            onPressedBritish: () => speakdraws19("en-GB"),
+            onPressedAmerican: () => speakdraws19("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٨. (کردار) ڕۆشتن بەو ئاراستەیەی کە باسکراوە"),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "The train drew into the station."),
-                    ExampleSentenceKurdish(
-                        text: "شەمەندەفەرەکە ھاتە ناو وێستگەکە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdraws20("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdraws20("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "The train drew into the station.",
+            kurdishText: "شەمەندەفەرەکە ھاتە ناو وێستگەکە.",
+            onPressedBritish: () => speakdraws20("en-GB"),
+            onPressedAmerican: () => speakdraws20("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "Their car drew alongside ours."),
-                    ExampleSentenceKurdish(
-                        text: "ئۆتۆمبێلەکەیان ھاتە تەنیشت ئەوەی ئێمە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdraws21("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdraws21("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "Their car drew alongside ours.",
+            kurdishText: "ئۆتۆمبێلەکەیان ھاتە تەنیشت ئەوەی ئێمە.",
+            onPressedBritish: () => speakdraws21("en-GB"),
+            onPressedAmerican: () => speakdraws21("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "Her retirement is drawing near."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "(خوازراوی) خانەنشینبوونەکەی وادەردەکەوت نزیکتر ببێتەوە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdraws22("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdraws22("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "Her retirement is drawing near.",
+            kurdishText:
+                "(خوازراوی) خانەنشینبوونەکەی وادەردەکەوت نزیکتر ببێتەوە.",
+            onPressedBritish: () => speakdraws22("en-GB"),
+            onPressedAmerican: () => speakdraws22("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "The meeting was drawing to a close."),
-                    ExampleSentenceKurdish(
-                        text: "(خوازراوی) چاوپێکەوتنەکە بەرەو کۆتایی دەچوو."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdraws23("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdraws23("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "The meeting was drawing to a close.",
+            kurdishText: "(خوازراوی) چاوپێکەوتنەکە بەرەو کۆتایی دەچوو.",
+            onPressedBritish: () => speakdraws23("en-GB"),
+            onPressedAmerican: () => speakdraws23("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٩. (کردار) جوڵاندنی شتێک/کەسێک بە ڕاکێشانی بە ھێواشی"),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "He drew the cork out of the bottle."),
-                    ExampleSentenceKurdish(
-                        text: "تۆپەوانەکەی لە بوتڵەکە دەرکرد."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdraws24("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdraws24("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "He drew the cork out of the bottle.",
+            kurdishText: "تۆپەوانەکەی لە بوتڵەکە دەرکرد.",
+            onPressedBritish: () => speakdraws24("en-GB"),
+            onPressedAmerican: () => speakdraws24("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "I drew my chair up closer to the fire."),
-                    ExampleSentenceKurdish(
-                        text: "کورسیەکەمم لە ئاگرەکە نزیکتر کردەوە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdraws25("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdraws25("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "I drew my chair up closer to the fire.",
+            kurdishText: "کورسیەکەمم لە ئاگرەکە نزیکتر کردەوە.",
+            onPressedBritish: () => speakdraws25("en-GB"),
+            onPressedAmerican: () => speakdraws25("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "She drew me onto the balcony."),
-                    ExampleSentenceKurdish(text: "ڕایکێشامە باڵکۆنەکە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdraws26("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdraws26("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "She drew me onto the balcony.",
+            kurdishText: "ڕایکێشامە باڵکۆنەکە.",
+            onPressedBritish: () => speakdraws26("en-GB"),
+            onPressedAmerican: () => speakdraws26("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "I tried to draw him aside (= for example where I could talk to him privately)."),
-                    ExampleSentenceKurdish(
-                        text: "ھەوڵمدا ڕایکێشمەوە کەنارەوە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdraws27("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdraws27("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "I tried to draw him aside (= for example where I could talk to him privately).",
+            kurdishText: "ھەوڵمدا ڕایکێشمەوە کەنارەوە.",
+            onPressedBritish: () => speakdraws27("en-GB"),
+            onPressedAmerican: () => speakdraws27("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "١١. (کردار) بەستن یان کردنەوەی پەردە، ھتد"),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(text: "The blinds were drawn."),
-                    ExampleSentenceKurdish(text: "پەردەکان کرابوونەوە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdraws28("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdraws28("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "The blinds were drawn.",
+            kurdishText: "پەردەکان کرابوونەوە.",
+            onPressedBritish: () => speakdraws28("en-GB"),
+            onPressedAmerican: () => speakdraws28("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "It was getting dark so I switched on the light and drew the curtains."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "تاریکی دەکرد بۆیە لایتەکەم کردەوە و پەردەکانم لادا."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdraws29("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdraws29("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "It was getting dark so I switched on the light and drew the curtains.",
+            kurdishText: "تاریکی دەکرد بۆیە لایتەکەم کردەوە و پەردەکانم لادا.",
+            onPressedBritish: () => speakdraws29("en-GB"),
+            onPressedAmerican: () => speakdraws29("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "She drew back the curtains and let the sunlight in."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "پەردەکانی کردەوە و ھێشتی ھەتاوەکە بێتە ژوورەوە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdraws30("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdraws30("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "She drew back the curtains and let the sunlight in.",
+            kurdishText: "پەردەکانی کردەوە و ھێشتی ھەتاوەکە بێتە ژوورەوە.",
+            onPressedBritish: () => speakdraws30("en-GB"),
+            onPressedAmerican: () => speakdraws30("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
                   "١٢. (کردار) دەرھێنانی چەک یان شمشیر بۆ ھێرشکردنە سەر کەسێک"),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(text: "She drew a revolver on me."),
-                    ExampleSentenceKurdish(text: "شەشتیرێکی لێم ڕاکێشا."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdraws31("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdraws31("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "She drew a revolver on me.",
+            kurdishText: "شەشتیرێکی لێم ڕاکێشا.",
+            onPressedBritish: () => speakdraws31("en-GB"),
+            onPressedAmerican: () => speakdraws31("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "He came towards them with his sword drawn."),
-                    ExampleSentenceKurdish(
-                        text: "بەرەو ڕوویان ھات بە شمشێر ڕاکێشراوی."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdraws32("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdraws32("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "He came towards them with his sword drawn.",
+            kurdishText: "بەرەو ڕوویان ھات بە شمشێر ڕاکێشراوی.",
+            onPressedBritish: () => speakdraws32("en-GB"),
+            onPressedAmerican: () => speakdraws32("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "١٣. (کردار) وا لە کەسێک بکەیت زیاتر لەسەر شتێک بڵێت"),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "Spielberg refused to be drawn on his next movie."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "سپیڵبێرگ ڕەتیکردەوە بدركیندرێت لەسەر فیلمی داھاتووی."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdraws33("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdraws33("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "Spielberg refused to be drawn on his next movie.",
+            kurdishText: "سپیڵبێرگ ڕەتیکردەوە بدركیندرێت لەسەر فیلمی داھاتووی.",
+            onPressedBritish: () => speakdraws33("en-GB"),
+            onPressedAmerican: () => speakdraws33("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
                   "١٤. (کردار) بڕیاردان لەسەر شتێک بە ڕاکێشانی کارد، بلیت، ژمارە بە شانس"),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(text: "We drew for partners."),
-                    ExampleSentenceKurdish(text: "ڕاکێشانیان بۆ ھاوبەش کرد."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdraws34("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdraws34("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "We drew for partners.",
+            kurdishText: "ڕاکێشانیان بۆ ھاوبەش کرد.",
+            onPressedBritish: () => speakdraws34("en-GB"),
+            onPressedAmerican: () => speakdraws34("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(text: "He drew the winning ticket."),
-                    ExampleSentenceKurdish(text: "کاردی بردنەوەی ڕاکێشا."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdraws35("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdraws35("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "He drew the winning ticket.",
+            kurdishText: "کاردی بردنەوەی ڕاکێشا.",
+            onPressedBritish: () => speakdraws35("en-GB"),
+            onPressedAmerican: () => speakdraws35("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "Names were drawn from a hat for the last few places."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "ناوەکان لە کڵاوێک ڕاکێشران بۆ چەند شوێنی کەمی کۆتایی."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdraws36("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdraws36("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "Names were drawn from a hat for the last few places.",
+            kurdishText:
+                "ناوەکان لە کڵاوێک ڕاکێشران بۆ چەند شوێنی کەمی کۆتایی.",
+            onPressedBritish: () => speakdraws36("en-GB"),
+            onPressedAmerican: () => speakdraws36("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                      text:
-                          "Italy has been drawn against Spain in the first round.",
-                      note: "Similar: Italy has been drawn to play Spain.",
-                    ),
-                    ExampleSentenceKurdish(
-                        text:
-                            "لە یەکەم قۆناغدا ئیتالیا دژ بە ئیسپانیا ڕاکێشراوە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdraws37("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdraws37("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "Italy has been drawn against Spain in the first round.",
+            englishNote: "Similar: Italy has been drawn to play Spain.",
+            kurdishText: "لە یەکەم قۆناغدا ئیتالیا دژ بە ئیسپانیا ڕاکێشراوە.",
+            onPressedBritish: () => speakdraws37("en-GB"),
+            onPressedAmerican: () => speakdraws37("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "١٥. (کردار) تەواوبوونی یارییەک بەبێ بردنەوەی ھیچ لایەک"),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "England and France drew 3–3."),
-                    ExampleSentenceKurdish(
-                        text: "ئینگلتەرە و فەرەنسا ٣-٣ یەکسان بوون."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdraws38("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdraws38("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "England and France drew 3–3.",
+            kurdishText: "ئینگلتەرە و فەرەنسا ٣-٣ یەکسان بوون.",
+            onPressedBritish: () => speakdraws38("en-GB"),
+            onPressedAmerican: () => speakdraws38("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                      text: "England drew with/against France.",
-                      note: "Similar: England drew their game against France.",
-                    ),
-                    ExampleSentenceKurdish(
-                        text: "ئینگلتەرە دژ بە فەرەنسا یەکسان بوو."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdraws39("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdraws39("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "England drew with/against France.",
+            englishNote: "Similar: England drew their game against France.",
+            kurdishText: "ئینگلتەرە دژ بە فەرەنسا یەکسان بوو.",
+            onPressedBritish: () => speakdraws39("en-GB"),
+            onPressedAmerican: () => speakdraws39("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "١٦. (کردار) ڕاکێشانی پارە لە بانکێک یان ھەژمارێک"),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(text: "I drew out £200."),
-                    ExampleSentenceKurdish(text: "٢٠٠ پاوەندم ڕاکێشا."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdraws40("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdraws40("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "I drew out £200.",
+            kurdishText: "٢٠٠ پاوەندم ڕاکێشا.",
+            onPressedBritish: () => speakdraws40("en-GB"),
+            onPressedAmerican: () => speakdraws40("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "Can I draw £80 out of my account?"),
-                    ExampleSentenceKurdish(
-                        text: "دەکرێت ٨٠ پاوەند لە ھەژمارەکەم ڕابکێشم؟"),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdraws41("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdraws41("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "Can I draw £80 out of my account?",
+            kurdishText: "دەکرێت ٨٠ پاوەند لە ھەژمارەکەم ڕابکێشم؟",
+            onPressedBritish: () => speakdraws41("en-GB"),
+            onPressedAmerican: () => speakdraws41("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "The cheque was drawn on his personal account."),
-                    ExampleSentenceKurdish(
-                        text: "چەکەکە لە ھەژماری کەسیی ڕاکێشرا."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdraws42("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdraws42("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "The cheque was drawn on his personal account.",
+            kurdishText: "چەکەکە لە ھەژماری کەسیی ڕاکێشرا.",
+            onPressedBritish: () => speakdraws42("en-GB"),
+            onPressedAmerican: () => speakdraws42("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "١٧. (کردار) دەرھێنانی گاس یان شلە لە شوێنێک"),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "The device draws gas along the pipe."),
-                    ExampleSentenceKurdish(
-                        text: "ئامێرەکە گاس بە بۆرییەکەدا ڕادەکێشێت."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdraws43("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdraws43("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "The device draws gas along the pipe.",
+            kurdishText: "ئامێرەکە گاس بە بۆرییەکەدا ڕادەکێشێت.",
+            onPressedBritish: () => speakdraws43("en-GB"),
+            onPressedAmerican: () => speakdraws43("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: "١٨. (کردار) ھەڵمژینی دووکەڵ یان ھەوا"),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "She breathed deeply, drawing in the fresh mountain air."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "بە قووڵی ھەناسەی دا و ھەوا پاکەکەی چیاکانی ھەڵمژی."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdraws44("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdraws44("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "She breathed deeply, drawing in the fresh mountain air.",
+            kurdishText: "بە قووڵی ھەناسەی دا و ھەوا پاکەکەی چیاکانی ھەڵمژی.",
+            onPressedBritish: () => speakdraws44("en-GB"),
+            onPressedAmerican: () => speakdraws44("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
@@ -2004,207 +1166,72 @@ class KurdishMeaning extends StatelessWidget {
                   "١٩. (ناو) ئەوەی کە شتێک ھەڵبژێریت، بۆ نموونە براوی خەڵاتێک یان ئەو تیمانەی کە دژ بە یەکدی یاری دەکەن لە پاڵەوانێتییەکدا؛ پاڵەوانێتییەک کە بەژداربووەکانی بەم شێوەیە ھەڵدەبژێردرێت"),
           // const DividerSentences(),
           const AlsoEnglishckb(word: "ھەروەھا: drawing"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The draw for the raffle takes place on Saturday."),
-                    ExampleSentenceKurdish(
-                        text: "ھەڵبژاردنی تیروپشکەکە ڕۆژی یەکشەممە دەبێت."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdraws45("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdraws45("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "The draw for the raffle takes place on Saturday.",
+            kurdishText: "ھەڵبژاردنی تیروپشکەکە ڕۆژی یەکشەممە دەبێت.",
+            onPressedBritish: () => speakdraws45("en-GB"),
+            onPressedAmerican: () => speakdraws45("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "I’m now going to call on the President to make the draw."),
-                    ExampleSentenceKurdish(
-                        text: "ئێستاش داوا لە سەرۆک دەکەم ھەڵبژاردنەکە بکات."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdraws46("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdraws46("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "I’m now going to call on the President to make the draw.",
+            kurdishText: "ئێستاش داوا لە سەرۆک دەکەم ھەڵبژاردنەکە بکات.",
+            onPressedBritish: () => speakdraws46("en-GB"),
+            onPressedAmerican: () => speakdraws46("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٢٠. (ناو) یارییەک کە بە یەکسانی تەواو دەبێت"),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "The match ended in a two-all draw."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "یارییەکە کۆتایی ھات بە دوو (خاڵ/گۆڵ) بۆ ھەر لایەک."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdraws47("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdraws47("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "The match ended in a two-all draw.",
+            kurdishText: "یارییەکە کۆتایی ھات بە دوو (خاڵ/گۆڵ) بۆ ھەر لایەک.",
+            onPressedBritish: () => speakdraws47("en-GB"),
+            onPressedAmerican: () => speakdraws47("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "He managed to hold Smith to a draw (= to stop him from winning when he seemed likely to do so)."),
-                    ExampleSentenceKurdish(
-                        text: "توانی یەکسان بێت لەگەڵ سمیس."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdraws48("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdraws48("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "He managed to hold Smith to a draw (= to stop him from winning when he seemed likely to do so).",
+            kurdishText: "توانی یەکسان بێت لەگەڵ سمیس.",
+            onPressedBritish: () => speakdraws48("en-GB"),
+            onPressedAmerican: () => speakdraws48("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
                   "٢١. (ناو) یارییەکی وەرزشی یان ژمارەیەک یاری کە تیمەکان یان یاریزانەکان بە ڕاکێشان ھەڵدەبژێردرێن"),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "Liverpool have an away draw against Manchester United."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "لیڤەرپوول یارییەکی دەرەوەی یاریگای خۆی لەگەڵ مانچیستەر یونایتید ھەیە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdraws49("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdraws49("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "Liverpool have an away draw against Manchester United.",
+            kurdishText:
+                "لیڤەرپوول یارییەکی دەرەوەی یاریگای خۆی لەگەڵ مانچیستەر یونایتید ھەیە.",
+            onPressedBritish: () => speakdraws49("en-GB"),
+            onPressedAmerican: () => speakdraws49("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٢٢. (ناو) شتێک یان کەسێک کە سەرنجی زۆر کەس ڕادەکێشێت"),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "She is currently one of the biggest draws on the Irish music scene."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "لە ئێستادا یەکێک لە گەورەترین ناوەکانی میوزیکی ئێرلەندی."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdraws50("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdraws50("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "She is currently one of the biggest draws on the Irish music scene.",
+            kurdishText:
+                "لە ئێستادا یەکێک لە گەورەترین ناوەکانی میوزیکی ئێرلەندی.",
+            onPressedBritish: () => speakdraws50("en-GB"),
+            onPressedAmerican: () => speakdraws50("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: "٢٣. (ناو) قومدان لە جگەرە"),
           // const DividerSentences(),
           const AlsoEnglishckb(word: "ھەروەھا: drag"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "She took one last draw from the cigarette."),
-                    ExampleSentenceKurdish(
-                        text: "یەک قومی کۆتایی لە جگەرەکە دا."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdraws51("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdraws51("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "She took one last draw from the cigarette.",
+            kurdishText: "یەک قومی کۆتایی لە جگەرەکە دا.",
+            onPressedBritish: () => speakdraws51("en-GB"),
+            onPressedAmerican: () => speakdraws51("en-US"),
           ),
           // draws5200"),
           // speakdraws52

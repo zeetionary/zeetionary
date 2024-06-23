@@ -243,63 +243,25 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "١. (ناو) توێکاریکردنی مرۆڤێک، ئاژەڵێک، یان ڕووەکێکی مردوو بۆ لێکۆڵینەوە لێی"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "Traditional surgical approaches to spinal pain involve open dissection of soft tissue and bone."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "ڕێگا کۆنەکانی نەشتەرگەری توێکاری کردنەوەی شانەی نەرم و ئێسک لە خۆدەگرێت."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "dissection", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdissections1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdissections1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "Traditional surgical approaches to spinal pain involve open dissection of soft tissue and bone.",
+            kurdishText:
+                "ڕێگا کۆنەکانی نەشتەرگەری توێکاری کردنەوەی شانەی نەرم و ئێسک لە خۆدەگرێت.", // dissection
+            onPressedBritish: () => speakdissections1("en-GB"),
+            onPressedAmerican: () => speakdissections1("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٢. (ناو) لێکۆڵینەوە لە شتێک بە وردی و وردەکاریی تەواو"),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "Your enjoyment of a novel can suffer from too much analysis and dissection."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "چێژت بۆ ڕۆمانێک دەکرێت کەمبێتەوە بەھۆی شێکردنەوە و لێکۆڵینەوە زۆر."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdissections2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdissections2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "Your enjoyment of a novel can suffer from too much analysis and dissection.",
+            kurdishText:
+                "چێژت بۆ ڕۆمانێک دەکرێت کەمبێتەوە بەھۆی شێکردنەوە و لێکۆڵینەوە زۆر.",
+            onPressedBritish: () => speakdissections2("en-GB"),
+            onPressedAmerican: () => speakdissections2("en-US"),
           ),
           // dissections300"),
           // speakdissections3

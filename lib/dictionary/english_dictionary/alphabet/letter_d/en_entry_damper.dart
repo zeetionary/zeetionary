@@ -260,119 +260,43 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "١. (ناو) پارچە کانزایەک کە کۆنترۆڵی تینی ئاگرێک دەکات بە ڕێگەدان بە ھەوای زۆر یان کەم"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "Some fireplaces have no need for a damper."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "ھەندێک ئاگردان پێویستیان بە دەمەوانەی ھەوا نییە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "damper", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdampers1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdampers1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "Some fireplaces have no need for a damper.",
+            kurdishText:
+                "ھەندێک ئاگردان پێویستیان بە دەمەوانەی ھەوا نییە.", // damper
+            onPressedBritish: () => speakdampers1("en-GB"),
+            onPressedAmerican: () => speakdampers1("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٢. (ناو) ئامێرێک کە ھەزە کەم دەکاتەوە"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The new model has new springs and dampers and a sports exhaust."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "جۆرە تازەکە سپرینگی تازە و زمانەی دەنگ‌بڕ و ئەکسۆزی وەرزشی ھەیە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdampers2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdampers2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "The new model has new springs and dampers and a sports exhaust.",
+            kurdishText:
+                "جۆرە تازەکە سپرینگی تازە و زمانەی دەنگ‌بڕ و ئەکسۆزی وەرزشی ھەیە.",
+            onPressedBritish: () => speakdampers2("en-GB"),
+            onPressedAmerican: () => speakdampers2("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٣. (ناو) شتێک کە لە خۆشی، سەرکەوتن، ھتد کەمدەکاتەوە"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "Lily isn't letting motherhood put a damper on her social life."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "لیلی ناھێڵێت دایکایەتی لە ژیانی کۆمەڵایەتیی کەمبکاتەوە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdampers3("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdampers3("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "Lily isn't letting motherhood put a damper on her social life.",
+            kurdishText:
+                "لیلی ناھێڵێت دایکایەتی لە ژیانی کۆمەڵایەتیی کەمبکاتەوە.",
+            onPressedBritish: () => speakdampers3("en-GB"),
+            onPressedAmerican: () => speakdampers3("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "Both the kids were sick while we were in Boston, so that put a damper on things."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "ھەردوو منداڵەکە نەخۆش بوون کە لە بۆستن بووین، بۆیە ئەوە ماتەمی خستە سەر شتەکان."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdampers4("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdampers4("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "Both the kids were sick while we were in Boston, so that put a damper on things.",
+            kurdishText:
+                "ھەردوو منداڵەکە نەخۆش بوون کە لە بۆستن بووین، بۆیە ئەوە ماتەمی خستە سەر شتەکان.",
+            onPressedBritish: () => speakdampers4("en-GB"),
+            onPressedAmerican: () => speakdampers4("en-US"),
           ),
         ],
       ),

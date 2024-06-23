@@ -371,59 +371,21 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   """١. (ناو) کۆتایی ڕۆژ کە ڕۆشنایی تا ڕادەیەک بە تەواوی نەماوە بەڵام ھێشتا تاریک نییە"""),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: """The street lights go on at dusk."""),
-                    ExampleSentenceKurdish(
-                        text:
-                            """لایتی سەر شەقامەکان دادەگیرسێن لە زەردەپەڕدا."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "dusk", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdusks1("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdusks1("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: """The street lights go on at dusk.""",
+            kurdishText:
+                """لایتی سەر شەقامەکان دادەگیرسێن لە زەردەپەڕدا.""", // dusk
+            onPressedBritish: () => speakdusks1("en-GB"),
+            onPressedAmerican: () => speakdusks1("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: """She arrived home as dusk was falling."""),
-                    ExampleSentenceKurdish(
-                        text: """گەشتەوە ماڵەوە کە زەردەپەڕ دادەھات."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdusks2("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdusks2("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: """She arrived home as dusk was falling.""",
+            kurdishText: """گەشتەوە ماڵەوە کە زەردەپەڕ دادەھات.""",
+            onPressedBritish: () => speakdusks2("en-GB"),
+            onPressedAmerican: () => speakdusks2("en-US"),
           ),
           // dusks300
           // speakdusks3

@@ -277,172 +277,57 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "١. (ناو) ئەندازە لە بۆشاییدا، بۆ نموونە ئەوەی کە شتێک چەندە بەرز، فراوان، یان درێژە"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "We measured the dimensions of the kitchen."),
-                    ExampleSentenceKurdish(
-                        text: "ئەندازەی چێشتخانەکەمان پێوا."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "dimension", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdimensions1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdimensions1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "We measured the dimensions of the kitchen.",
+            kurdishText: "ئەندازەی چێشتخانەکەمان پێوا.", // dimension
+            onPressedBritish: () => speakdimensions1("en-GB"),
+            onPressedAmerican: () => speakdimensions1("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "It is important to measure the exact dimensions of the room."),
-                    ExampleSentenceKurdish(
-                        text: "گرنگە کە ئەندازەی تەواوی ژوورەکە بپێویت."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdimensions2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdimensions2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "It is important to measure the exact dimensions of the room.",
+            kurdishText: "گرنگە کە ئەندازەی تەواوی ژوورەکە بپێویت.",
+            onPressedBritish: () => speakdimensions2("en-GB"),
+            onPressedAmerican: () => speakdimensions2("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The fourth dimension, time, is also finite in extent."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "چوارەم ڕەھەند، کات، ھەروەھا بێ کۆتاییە لە بڕدا."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdimensions3("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdimensions3("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "The fourth dimension, time, is also finite in extent.",
+            kurdishText: "چوارەم ڕەھەند، کات، ھەروەھا بێ کۆتاییە لە بڕدا.",
+            onPressedBritish: () => speakdimensions3("en-GB"),
+            onPressedAmerican: () => speakdimensions3("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The images can be viewed in three dimensions using these special glasses."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "وێنەکان دەکرێت بە سێ ڕەھەندی پیشان بدرێن بە بەکارھێانی ئەم شووشە تایبەتانە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdimensions4("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdimensions4("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "The images can be viewed in three dimensions using these special glasses.",
+            kurdishText:
+                "وێنەکان دەکرێت بە سێ ڕەھەندی پیشان بدرێن بە بەکارھێانی ئەم شووشە تایبەتانە.",
+            onPressedBritish: () => speakdimensions4("en-GB"),
+            onPressedAmerican: () => speakdimensions4("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: "٢. (ناو) ئاستی دۆخێک"),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The company faced a problem of considerable dimensions with its finances."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "کۆمپانیاکە ڕووبەڕووی کێشەی قەبارە گەورە بوویەوە لە ڕووی داراییەوە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdimensions5("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdimensions5("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "The company faced a problem of considerable dimensions with its finances.",
+            kurdishText:
+                "کۆمپانیاکە ڕووبەڕووی کێشەی قەبارە گەورە بوویەوە لە ڕووی داراییەوە.",
+            onPressedBritish: () => speakdimensions5("en-GB"),
+            onPressedAmerican: () => speakdimensions5("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٣. (ناو) لایەنێکی سەیرکردن یان بیرکردنەوە لە شتێک"),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "Her job added a new dimension to her life."),
-                    ExampleSentenceKurdish(
-                        text: "کارەکەی لایەنێکی تازەی بۆ ژیانی زیادکرد."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdimensions6("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdimensions6("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "Her job added a new dimension to her life.",
+            kurdishText: "کارەکەی لایەنێکی تازەی بۆ ژیانی زیادکرد.",
+            onPressedBritish: () => speakdimensions6("en-GB"),
+            onPressedAmerican: () => speakdimensions6("en-US"),
           ),
           // dimensions700"),
           // speakdimensions7

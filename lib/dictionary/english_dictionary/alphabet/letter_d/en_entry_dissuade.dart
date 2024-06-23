@@ -370,60 +370,21 @@ class KurdishMeaning extends StatelessWidget {
 """),
           const DefinitionKurdish(
               text: "١. (کردار) ڕازیکردنی کەسێک بۆ ئەوەی شتێک نەکات"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "I tried to dissuade him from giving up his job."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "ھەوڵمدا پەشیمانی بکەمەوە لەوەی واز لە کارەکەی بھێنێت."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "dissuade", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdissuades1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdissuades1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "I tried to dissuade him from giving up his job.",
+            kurdishText:
+                "ھەوڵمدا پەشیمانی بکەمەوە لەوەی واز لە کارەکەی بھێنێت.", // dissuade
+            onPressedBritish: () => speakdissuades1("en-GB"),
+            onPressedAmerican: () => speakdissuades1("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "She made no attempt to dissuade him."),
-                    ExampleSentenceKurdish(
-                        text: "ھیچ ھەوڵێکی نەدا پەشیمانی بکاتەوە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdissuades2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdissuades2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "She made no attempt to dissuade him.",
+            kurdishText: "ھیچ ھەوڵێکی نەدا پەشیمانی بکاتەوە.",
+            onPressedBritish: () => speakdissuades2("en-GB"),
+            onPressedAmerican: () => speakdissuades2("en-US"),
           ),
           // dissuades300"),
           // speakdissuades3

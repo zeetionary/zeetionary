@@ -380,94 +380,37 @@ class KurdishMeaning extends StatelessWidget {
 کوردی: شتی جیاکەرەوە، جیاکار، بەربەست،	دابەش‌گەر، بەش‌کەر
 """),
           const DefinitionKurdish(text: "١. (ناو) شتێک کە شتێک دابەش دەکات"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "Portable sound-absorbent room dividers allow the area to be sectioned to suit your requirements."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "دابەشکاری دژە دەنگی ھەڵگرتەنی ڕێگا دەدەن ناوچەکە بەش‌بەش بکرێت بۆ ئەوەی لەگەڵ پێویستییەکانت بگونجێت."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "divider", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdividers1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdividers1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "Portable sound-absorbent room dividers allow the area to be sectioned to suit your requirements.",
+            kurdishText:
+                "دابەشکاری دژە دەنگی ھەڵگرتەنی ڕێگا دەدەن ناوچەکە بەش‌بەش بکرێت بۆ ئەوەی لەگەڵ پێویستییەکانت بگونجێت.", // divider
+            onPressedBritish: () => speakdividers1("en-GB"),
+            onPressedAmerican: () => speakdividers1("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
                   "٢. (ناو) پڕگاڵ؛ کەرەستەیەک کە لە دوو لاقی درێژی پێکھاتووە بەکاردێت بۆ پێوانەکردنی گۆشە"),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The artist used a pair of dividers to create precise circles."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "ھونەرمەندەکە پڕگاڵێکی بەکارھێنا بۆ درووستکردنی بازنەیەکی تەواو."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdividers2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdividers2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "The artist used a pair of dividers to create precise circles.",
+            kurdishText:
+                "ھونەرمەندەکە پڕگاڵێکی بەکارھێنا بۆ درووستکردنی بازنەیەکی تەواو.",
+            onPressedBritish: () => speakdividers2("en-GB"),
+            onPressedAmerican: () => speakdividers2("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: "٣. (ناو) شتێک کە خەڵکی لەسەری ناکۆکن"),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "On the Labour side, the big divider was still nuclear weapons."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "سەبارەت بە پارتی کرێکاران، بابەتی مشتومڕ ھێشتا چەکی ئەتۆمی بوو."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdividers3("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdividers3("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "On the Labour side, the big divider was still nuclear weapons.",
+            kurdishText:
+                "سەبارەت بە پارتی کرێکاران، بابەتی مشتومڕ ھێشتا چەکی ئەتۆمی بوو.",
+            onPressedBritish: () => speakdividers3("en-GB"),
+            onPressedAmerican: () => speakdividers3("en-US"),
           ),
           // dividers400"),
           // speakdividers4

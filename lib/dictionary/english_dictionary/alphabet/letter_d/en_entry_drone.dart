@@ -416,204 +416,70 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "١. (ناو) باڵەفڕێک کە لە زەوییەوە کۆنترۆڵ دەکرێت و بەکاردێت بۆ بەردانەوەی بۆمب، گواستنەوەی کەلوپەل، وێنەگرتن، ھتد"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The film crew got some breathtaking footage from their drone."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "تیمی وێنەگرییەکە ژمارەیەک دیمەنی ناوازەیان بە درۆنەکەیان گرت."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "drone", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdrones1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdrones1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "The film crew got some breathtaking footage from their drone.",
+            kurdishText:
+                "تیمی وێنەگرییەکە ژمارەیەک دیمەنی ناوازەیان بە درۆنەکەیان گرت.", // drone
+            onPressedBritish: () => speakdrones1("en-GB"),
+            onPressedAmerican: () => speakdrones1("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "Drone strikes killed 20 people in rebel-held areas."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "ھێرشە درۆنییەکان ٢٠ کەسیان کوشت لە ناوچەکانی ژێر دەستی یاخیبووەکان."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdrones2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdrones2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "Drone strikes killed 20 people in rebel-held areas.",
+            kurdishText:
+                "ھێرشە درۆنییەکان ٢٠ کەسیان کوشت لە ناوچەکانی ژێر دەستی یاخیبووەکان.",
+            onPressedBritish: () => speakdrones2("en-GB"),
+            onPressedAmerican: () => speakdrones2("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "Get ready for a future where drones are delivering our packages."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "ئامادە بە بۆ داھاتوویەک کە تێیدا درۆنەکان پاکێجەکانمان دەگوازنەوە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdrones3("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdrones3("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "Get ready for a future where drones are delivering our packages.",
+            kurdishText:
+                "ئامادە بە بۆ داھاتوویەک کە تێیدا درۆنەکان پاکێجەکانمان دەگوازنەوە.",
+            onPressedBritish: () => speakdrones3("en-GB"),
+            onPressedAmerican: () => speakdrones3("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: "٢. (ناو) دەنگەدەنگێکی نزمی بەردەوام"),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "Outside the tent I could hear the constant drone of insects."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "لە دەرەوەی کووخەکەوە گوێم لە گیزەگیری بەردەوامی مێرووەکان بوو."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdrones4("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdrones4("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "Outside the tent I could hear the constant drone of insects.",
+            kurdishText:
+                "لە دەرەوەی کووخەکەوە گوێم لە گیزەگیری بەردەوامی مێرووەکان بوو.",
+            onPressedBritish: () => speakdrones4("en-GB"),
+            onPressedAmerican: () => speakdrones4("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "The drone of his voice made me feel sleepy."),
-                    ExampleSentenceKurdish(
-                        text: "گیزەگیزی دەنگی خستمیە خەوەوە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdrones5("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdrones5("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "The drone of his voice made me feel sleepy.",
+            kurdishText: "گیزەگیزی دەنگی خستمیە خەوەوە.",
+            onPressedBritish: () => speakdrones5("en-GB"),
+            onPressedAmerican: () => speakdrones5("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٣. (ناو) کەسێکی تەمەڵ کە ھیچ سوودی بۆ کۆمەڵگە نییە"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The medieval lord of the manor was what some today would call a drone."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "ئاغای زەوی‌وزار لە سەردەمانی ناوەڕاست ئەوە بوو کە ئێستا خەڵکی پێی دەڵێن تەوەزەل."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdrones6("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdrones6("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "The medieval lord of the manor was what some today would call a drone.",
+            kurdishText:
+                "ئاغای زەوی‌وزار لە سەردەمانی ناوەڕاست ئەوە بوو کە ئێستا خەڵکی پێی دەڵێن تەوەزەل.",
+            onPressedBritish: () => speakdrones6("en-GB"),
+            onPressedAmerican: () => speakdrones6("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٤. (کردار) دەرکردنی دەنگێکی نزمی بەردەوام"),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "A plane was droning in the distance."),
-                    ExampleSentenceKurdish(
-                        text: "فڕۆکەیەک لە دوورەوە گیڤەی دەھات."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdrones7("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdrones7("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "A plane was droning in the distance.",
+            kurdishText: "فڕۆکەیەک لە دوورەوە گیڤەی دەھات.",
+            onPressedBritish: () => speakdrones7("en-GB"),
+            onPressedAmerican: () => speakdrones7("en-US"),
           ),
           // drones800"),
           // speakdrones8

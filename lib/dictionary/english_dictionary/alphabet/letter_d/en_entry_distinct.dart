@@ -414,206 +414,72 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "١. (ھاوەڵناو) کە بە ئاسانی یان ڕوونی دەبینرێت یان دەبیسترێت"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "There was a distinct smell of gas."),
-                    ExampleSentenceKurdish(text: "بۆنێکی ئاشکرای گاس ھەبوو."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "distinct", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdistincts1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdistincts1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "There was a distinct smell of gas.",
+            kurdishText: "بۆنێکی ئاشکرای گاس ھەبوو.", // distinct
+            onPressedBritish: () => speakdistincts1("en-GB"),
+            onPressedAmerican: () => speakdistincts1("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "His voice was quiet but every word was distinct."),
-                    ExampleSentenceKurdish(
-                        text: "دەنگی کپ بوو بەڵام ھەموو وشەکان ڕوون بوون."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdistincts2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdistincts2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "His voice was quiet but every word was distinct.",
+            kurdishText: "دەنگی کپ بوو بەڵام ھەموو وشەکان ڕوون بوون.",
+            onPressedBritish: () => speakdistincts2("en-GB"),
+            onPressedAmerican: () => speakdistincts2("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: "٢. (ھاوەڵناو) کە بە ئاشکرا جیاوازە"),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The results of the survey fell into two distinct groups."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "ئەنجامەکانی ڕاپرسییەکە بەسەر دوو گرووپی ئاشکرادا دابەش بوون."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdistincts3("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdistincts3("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "The results of the survey fell into two distinct groups.",
+            kurdishText:
+                "ئەنجامەکانی ڕاپرسییەکە بەسەر دوو گرووپی ئاشکرادا دابەش بوون.",
+            onPressedBritish: () => speakdistincts3("en-GB"),
+            onPressedAmerican: () => speakdistincts3("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "She was studying lung cancer, as distinct from other types of cancer."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "توێژینەوەی لەسەر شێرپەنجەی سنگ دەکرد، بە پێی جیاوازیی لەگەڵ جۆرەکانی دیکەی شێرپەنجە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdistincts4("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdistincts4("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "She was studying lung cancer, as distinct from other types of cancer.",
+            kurdishText:
+                "توێژینەوەی لەسەر شێرپەنجەی سنگ دەکرد، بە پێی جیاوازیی لەگەڵ جۆرەکانی دیکەی شێرپەنجە.",
+            onPressedBritish: () => speakdistincts4("en-GB"),
+            onPressedAmerican: () => speakdistincts4("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The various dialects are quite distinct from one another."),
-                    ExampleSentenceKurdish(
-                        text: "شێوەزارە جیاوازەکان تەواو لە یەکدی جیاوازن."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdistincts5("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdistincts5("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "The various dialects are quite distinct from one another.",
+            kurdishText: "شێوەزارە جیاوازەکان تەواو لە یەکدی جیاوازن.",
+            onPressedBritish: () => speakdistincts5("en-GB"),
+            onPressedAmerican: () => speakdistincts5("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
                   "٣. (ھاوەڵناو) بۆ جەختکردنەوە لەوەی کە وابیردەکەیتەوە بیرۆکەیەک یان دۆخێک بەدڵنیاییەوە بوونی ھەیە و گرنگە"),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "A strike is now a distinct possibility."),
-                    ExampleSentenceKurdish(
-                        text: "مانگرتن لە ئێستادا ئەگەرێکی ئاشکرایە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdistincts6("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdistincts6("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "A strike is now a distinct possibility.",
+            kurdishText: "مانگرتن لە ئێستادا ئەگەرێکی ئاشکرایە.",
+            onPressedBritish: () => speakdistincts6("en-GB"),
+            onPressedAmerican: () => speakdistincts6("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "Being tall gave Tony a distinct advantage."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "ئەوەی کە درێژ بوو قازانجێکی ئاشکرای دا بە تۆنی."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdistincts7("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdistincts7("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "Being tall gave Tony a distinct advantage.",
+            kurdishText: "ئەوەی کە درێژ بوو قازانجێکی ئاشکرای دا بە تۆنی.",
+            onPressedBritish: () => speakdistincts7("en-GB"),
+            onPressedAmerican: () => speakdistincts7("en-US"),
           ),
           // distincts800"),
           // speakdistincts8

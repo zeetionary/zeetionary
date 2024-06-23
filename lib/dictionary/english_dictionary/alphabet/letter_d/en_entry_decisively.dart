@@ -240,61 +240,22 @@ class KurdishMeaning extends StatelessWidget {
 // """),
           const DefinitionKurdish(
               text: "١. (ھاوەڵکار) بەشێوەیەک کە بۆ داھاتووی شتێک گرنگە"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "At Waterloo Napoleon was decisively defeated."),
-                    ExampleSentenceKurdish(
-                        text: "لە جەنگی واتەرلۆ ناپۆلیۆن بە سەختی بەزێندرا."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "decisively", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdecisivelys1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdecisivelys1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "At Waterloo Napoleon was decisively defeated.",
+            kurdishText:
+                "لە جەنگی واتەرلۆ ناپۆلیۆن بە سەختی بەزێندرا.", // decisively
+            onPressedBritish: () => speakdecisivelys1("en-GB"),
+            onPressedAmerican: () => speakdecisivelys1("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
                   "٢. (ھاوەڵکار) بەشێوەیەک کە توانای بڕیاردانی خێرا پیشان دەدات"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "Congress must act decisively against this threat."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "کۆنگرێس دەبێت دەستبەجێ ھەنگاو دژی ئەم مەترسییە بنێت."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdecisivelys2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdecisivelys2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "Congress must act decisively against this threat.",
+            kurdishText: "کۆنگرێس دەبێت دەستبەجێ ھەنگاو دژی ئەم مەترسییە بنێت.",
+            onPressedBritish: () => speakdecisivelys2("en-GB"),
+            onPressedAmerican: () => speakdecisivelys2("en-US"),
           ),
         ],
       ),

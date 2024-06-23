@@ -364,31 +364,13 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "١. (ناو) کارگەیەک کە مادەی کحولی تام بەھێزی لێ درووست دەکرێت بە پڕۆسەی دڵۆپاندن (بە ئەوەی بیکەیت بە ھەڵم و دواتر ساردی بکەیتەوە و دڵۆپەکانی کۆبکەیتەوە)"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The town had a whisky distillery that is 40 years old."),
-                    ExampleSentenceKurdish(
-                        text: "شارۆچکەکە کارگەیەکی ویسکی ھەیە کە ٤٠ ساڵ کۆنە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "distillery", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdistillerys1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdistillerys1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "The town had a whisky distillery that is 40 years old.",
+            kurdishText:
+                "شارۆچکەکە کارگەیەکی ویسکی ھەیە کە ٤٠ ساڵ کۆنە.", // distillery
+            onPressedBritish: () => speakdistillerys1("en-GB"),
+            onPressedAmerican: () => speakdistillerys1("en-US"),
           ),
           // distillerys200"),
           // speakdistillerys2

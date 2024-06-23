@@ -373,62 +373,24 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   """١. (ناو) دەنگدەرانی ناوچەیەک کە مافی دەنگدانیان ھەیە و وەک یەک گرووپ سەیر دەکرێن"""),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            """Only 60 per cent of the electorate voted in the last election."""),
-                    ExampleSentenceKurdish(
-                        text:
-                            """تەنھا ٦٠ لە سەدی دەنگدەران لە ھەڵبژاردنی پێشوو دەنگیان دا."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "electorate", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakelectorates1("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakelectorates1("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                """Only 60 per cent of the electorate voted in the last election.""",
+            kurdishText:
+                """تەنھا ٦٠ لە سەدی دەنگدەران لە ھەڵبژاردنی پێشوو دەنگیان دا.""", // electorate
+            onPressedBritish: () => speakelectorates1("en-GB"),
+            onPressedAmerican: () => speakelectorates1("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            """His statements are likely to cost him dearly among the general electorate."""),
-                    ExampleSentenceKurdish(
-                        text:
-                            """لێدوانەکانی ئەگەری ھەیە زۆر بکەوێت لەسەری لەناو دەنگدەرە گشتییەکاندا."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakelectorates2("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakelectorates2("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                """His statements are likely to cost him dearly among the general electorate.""",
+            kurdishText:
+                """لێدوانەکانی ئەگەری ھەیە زۆر بکەوێت لەسەری لەناو دەنگدەرە گشتییەکاندا.""",
+            onPressedBritish: () => speakelectorates2("en-GB"),
+            onPressedAmerican: () => speakelectorates2("en-US"),
           ),
           // electorates300electorates3
           // speakelectorates3

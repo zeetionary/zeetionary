@@ -381,91 +381,34 @@ class KurdishMeaning extends StatelessWidget {
 """),
           const DefinitionKurdish(
               text: """١. (ناو) سڕینەوە یان بە تەواوی ڕزگاربوون لە شتێک"""),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: """The elimination of disease took 5 months."""),
-                    ExampleSentenceKurdish(
-                        text: """لەناوبردنی نەخۆشییەکە پێنج مانگی پێچوو."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "elimination", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakeliminations1("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakeliminations1("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: """The elimination of disease took 5 months.""",
+            kurdishText:
+                """لەناوبردنی نەخۆشییەکە پێنج مانگی پێچوو.""", // elimination
+            onPressedBritish: () => speakeliminations1("en-GB"),
+            onPressedAmerican: () => speakeliminations1("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text: """٢. (ناو) دەرکردنی کەسێک یان تیمێک لە پاڵەوانێتییەک"""),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            """There were three eliminations in the first round of the competition."""),
-                    ExampleSentenceKurdish(
-                        text:
-                            """سێ دەرکردن ھەبوو لە یەکەم قۆناغی پاڵەوانێتییەکە."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakeliminations2("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakeliminations2("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                """There were three eliminations in the first round of the competition.""",
+            kurdishText: """سێ دەرکردن ھەبوو لە یەکەم قۆناغی پاڵەوانێتییەکە.""",
+            onPressedBritish: () => speakeliminations2("en-GB"),
+            onPressedAmerican: () => speakeliminations2("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: """٣. (ناو) کوشتنی کەسێک"""),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            """The elimination of his opponents became his strategy for solidifying his grip on power."""),
-                    ExampleSentenceKurdish(
-                        text:
-                            """لەناوبردنی دوژمنەکانی بوو بە ستراتیژیی بۆ بەھێزکردنی کۆنتڕۆڵی دەسەڵاتی."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakeliminations3("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakeliminations3("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                """The elimination of his opponents became his strategy for solidifying his grip on power.""",
+            kurdishText:
+                """لەناوبردنی دوژمنەکانی بوو بە ستراتیژیی بۆ بەھێزکردنی کۆنتڕۆڵی دەسەڵاتی.""",
+            onPressedBritish: () => speakeliminations3("en-GB"),
+            onPressedAmerican: () => speakeliminations3("en-US"),
           ),
           // eliminations400eliminations4
           // speakeliminations4

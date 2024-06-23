@@ -353,434 +353,143 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "١. (ناو) شتێک یان ئامێرێک کە دیزاین کراوە بۆ ئەنجامدانی کارێکی دیاریکراو"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The new devices will be installed at US airports."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "ئامێرە تازەکان لە فڕۆکەخانەکانی ئەمریکا دادەنرێن."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "device", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdevices1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdevices1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "The new devices will be installed at US airports.",
+            kurdishText:
+                "ئامێرە تازەکان لە فڕۆکەخانەکانی ئەمریکا دادەنرێن.", // device
+            onPressedBritish: () => speakdevices1("en-GB"),
+            onPressedAmerican: () => speakdevices1("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "This device allows deaf people to communicate by typing messages instead of speaking."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "ئەم ئامێرە یارمەتی کەسانی کەڕ دەدات کە گفتوگۆ بکەن نووسینی نامە نەک قسەکردن."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdevices2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdevices2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "This device allows deaf people to communicate by typing messages instead of speaking.",
+            kurdishText:
+                "ئەم ئامێرە یارمەتی کەسانی کەڕ دەدات کە گفتوگۆ بکەن نووسینی نامە نەک قسەکردن.",
+            onPressedBritish: () => speakdevices2("en-GB"),
+            onPressedAmerican: () => speakdevices2("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "All new cars are now fitted with these safety devices."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "ھەموو ئۆتۆمبێلە تازەکان ئێستا ئەم ئامێری سەلامەتییانەیان تێدا دانراوە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdevices3("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdevices3("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "All new cars are now fitted with these safety devices.",
+            kurdishText:
+                "ھەموو ئۆتۆمبێلە تازەکان ئێستا ئەم ئامێری سەلامەتییانەیان تێدا دانراوە.",
+            onPressedBritish: () => speakdevices3("en-GB"),
+            onPressedAmerican: () => speakdevices3("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "He measured the room using an ingenious electronic device."),
-                    ExampleSentenceKurdish(
-                        text: "ژوورەکەی پێوا بە ئامێرێکی ئەلیکترۆنی ناوازە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdevices4("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdevices4("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "He measured the room using an ingenious electronic device.",
+            kurdishText: "ژوورەکەی پێوا بە ئامێرێکی ئەلیکترۆنی ناوازە.",
+            onPressedBritish: () => speakdevices4("en-GB"),
+            onPressedAmerican: () => speakdevices4("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "This device enables pilots to navigate with pinpoint accuracy."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "ئامێرەکە ڕێگا بە فڕۆکەوانان دەدات بە درووستی ورد تێپەڕن."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdevices5("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdevices5("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "This device enables pilots to navigate with pinpoint accuracy.",
+            kurdishText:
+                "ئامێرەکە ڕێگا بە فڕۆکەوانان دەدات بە درووستی ورد تێپەڕن.",
+            onPressedBritish: () => speakdevices5("en-GB"),
+            onPressedAmerican: () => speakdevices5("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
                   "٢. (ناو) ئامێرێکی کۆمپیوتەری، بەتایبەتی یەکێکی بچووکی وەک موبایلی زیرەک"),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "You can store thousands of photos on your device."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "دەتوانیت ھەزاران وێنە لەسەر موبایلەکەت کۆگا بکەیت."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdevices6("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdevices6("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "You can store thousands of photos on your device.",
+            kurdishText: "دەتوانیت ھەزاران وێنە لەسەر موبایلەکەت کۆگا بکەیت.",
+            onPressedBritish: () => speakdevices6("en-GB"),
+            onPressedAmerican: () => speakdevices6("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "Now connect the device to your computer."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "ئێستا ئامێرەکە پەیوەست بکە بە کۆمپیوتەرەکەتەوە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdevices7("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdevices7("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "Now connect the device to your computer.",
+            kurdishText: "ئێستا ئامێرەکە پەیوەست بکە بە کۆمپیوتەرەکەتەوە.",
+            onPressedBritish: () => speakdevices7("en-GB"),
+            onPressedAmerican: () => speakdevices7("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: "٣. (ناو) بۆمب یان تەقەمەنییەک"),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "It was the world's first atomic device."),
-                    ExampleSentenceKurdish(
-                        text: "یەکەمین بۆمبی ئەتۆمی جیھان بوو."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdevices8("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdevices8("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "It was the world's first atomic device.",
+            kurdishText: "یەکەمین بۆمبی ئەتۆمی جیھان بوو.",
+            onPressedBritish: () => speakdevices8("en-GB"),
+            onPressedAmerican: () => speakdevices8("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "A powerful device exploded outside the station."),
-                    ExampleSentenceKurdish(
-                        text: "بۆمبێکی بەھێز لە دەرەوەی بیناکە تەقییەوە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdevices9("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdevices9("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "A powerful device exploded outside the station.",
+            kurdishText: "بۆمبێکی بەھێز لە دەرەوەی بیناکە تەقییەوە.",
+            onPressedBritish: () => speakdevices9("en-GB"),
+            onPressedAmerican: () => speakdevices9("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
                   "٤. (ناو) شێوازێکی کردنی شتێک کە ئەنجامێکی دیاریکراوی دەبێت"),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "Targeted advertising on social media is very successful as a marketing device."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "ڕیکلامی ئاراستەکراوی سەر تۆڕە کۆمەڵایەتییەکان زۆر سەرکەوتووە وەک ڕێگایەکی بەبازاڕکردن."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdevices10("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdevices10("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "Targeted advertising on social media is very successful as a marketing device.",
+            kurdishText:
+                "ڕیکلامی ئاراستەکراوی سەر تۆڕە کۆمەڵایەتییەکان زۆر سەرکەوتووە وەک ڕێگایەکی بەبازاڕکردن.",
+            onPressedBritish: () => speakdevices10("en-GB"),
+            onPressedAmerican: () => speakdevices10("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "We use a range of devices for testing children's numerical ability."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "ژمارەیەک ڕێگا بەکاردێنین بۆ تاقیکردنەوەی توانای ژمارەیی منداڵان."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdevices11("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdevices11("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "We use a range of devices for testing children's numerical ability.",
+            kurdishText:
+                "ژمارەیەک ڕێگا بەکاردێنین بۆ تاقیکردنەوەی توانای ژمارەیی منداڵان.",
+            onPressedBritish: () => speakdevices11("en-GB"),
+            onPressedAmerican: () => speakdevices11("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "This was originally intended as a device for making sure taxes were paid on time."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "ئەمە لە سەرەتادا ڕێگایەک بوو مەبەست لێی دڵنیایی کردنەوەی ئەوەی بوو کە باج لەکاتی خۆیدا دەدرا."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdevices12("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdevices12("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "This was originally intended as a device for making sure taxes were paid on time.",
+            kurdishText:
+                "ئەمە لە سەرەتادا ڕێگایەک بوو مەبەست لێی دڵنیایی کردنەوەی ئەوەی بوو کە باج لەکاتی خۆیدا دەدرا.",
+            onPressedBritish: () => speakdevices12("en-GB"),
+            onPressedAmerican: () => speakdevices12("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
                   "٥. (ناو) پلان یان فێڵێک کە بەکاردێت بۆ بەدەستخستنی شتێک کە کەسێک دەیەوێت"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The report was a device used to hide rather than reveal problems."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "ڕاپۆرتەکە پلانێک بوو شاردنەوە نەک ئاشکراکردنی شتەکان."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdevices13("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdevices13("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "The report was a device used to hide rather than reveal problems.",
+            kurdishText:
+                "ڕاپۆرتەکە پلانێک بوو شاردنەوە نەک ئاشکراکردنی شتەکان.",
+            onPressedBritish: () => speakdevices13("en-GB"),
+            onPressedAmerican: () => speakdevices13("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "This device can be seen as somewhat dishonest."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "ئەم پلانە دەکرێت تاڕادەیەک بە تەڵەکەبازی ببینرێت."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdevices14("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdevices14("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "This device can be seen as somewhat dishonest.",
+            kurdishText: "ئەم پلانە دەکرێت تاڕادەیەک بە تەڵەکەبازی ببینرێت.",
+            onPressedBritish: () => speakdevices14("en-GB"),
+            onPressedAmerican: () => speakdevices14("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
                   "٦. (ناو) شێوازێکی وشە کە ئامانج لێی ئەوەیە کاریگەرییەکی تایبەتی ھەبێت لە نووسین یان قسەکردندا"),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "Metaphor and symbol are literary devices."),
-                    ExampleSentenceKurdish(
-                        text: "میتافۆر و سمبول وەسیلەی ئەدەبین."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdevices15("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdevices15("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "Metaphor and symbol are literary devices.",
+            kurdishText: "میتافۆر و سمبول وەسیلەی ئەدەبین.",
+            onPressedBritish: () => speakdevices15("en-GB"),
+            onPressedAmerican: () => speakdevices15("en-US"),
           ),
           // devices1600"),
           // speakdevices16

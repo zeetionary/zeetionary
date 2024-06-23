@@ -249,87 +249,29 @@ class KurdishMeaning extends StatelessWidget {
 """),
           const DefinitionKurdish(
               text: "١. (کردار) بەژداریکردن لە چالاکییەک، وەرزشێک، ھتد"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "She is a talented musician but is content to just dabble."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "میوزیکژەنێکی بەھرەدارە، بەڵام ڕازییە بەوەی تەنھا بەختی تاقی بکاتەوە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "dabble", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdabbles1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdabbles1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "She is a talented musician but is content to just dabble.",
+            kurdishText:
+                "میوزیکژەنێکی بەھرەدارە، بەڵام ڕازییە بەوەی تەنھا بەختی تاقی بکاتەوە.", // dabble
+            onPressedBritish: () => speakdabbles1("en-GB"),
+            onPressedAmerican: () => speakdabbles1("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "He dabbles in local politics."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "لە ھەڵبژاردنە خۆجێییەکان بەختی خۆی تاقی دەکاتەوە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdabbles2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdabbles2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "He dabbles in local politics.",
+            kurdishText: "لە ھەڵبژاردنە خۆجێییەکان بەختی خۆی تاقی دەکاتەوە.",
+            onPressedBritish: () => speakdabbles2("en-GB"),
+            onPressedAmerican: () => speakdabbles2("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٢. (کردار) ڕاوەشاندنی دەست و قاچت لە ئاودا"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "She dabbled her toes in the river."),
-                    ExampleSentenceKurdish(
-                        text: "پەنجەی لە ڕووبارەکەدا ڕاوەشاند."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdabbles3("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdabbles3("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "She dabbled her toes in the river.",
+            kurdishText: "پەنجەی لە ڕووبارەکەدا ڕاوەشاند.",
+            onPressedBritish: () => speakdabbles3("en-GB"),
+            onPressedAmerican: () => speakdabbles3("en-US"),
           ),
         ],
       ),

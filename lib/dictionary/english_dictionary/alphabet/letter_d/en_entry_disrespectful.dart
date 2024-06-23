@@ -242,62 +242,23 @@ class KurdishMeaning extends StatelessWidget {
 کوردی: بێ‌ڕەوشت، ڕووشە، بێ‌شەرم، ناماقووڵ، ناماقووڵانە، سووکانە
 """),
           const DefinitionKurdish(text: "١. (ھاوەڵناو) بێڕێز"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "I did not mean to be disrespectful to the memory of those who died."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "نەمدەویست بێڕێز بم بەرامبەر یادەوەری ئەوانەی کە مردن."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "disrespectful", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdisrespectfuls1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdisrespectfuls1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "I did not mean to be disrespectful to the memory of those who died.",
+            kurdishText:
+                "نەمدەویست بێڕێز بم بەرامبەر یادەوەری ئەوانەی کە مردن.", // disrespectful
+            onPressedBritish: () => speakdisrespectfuls1("en-GB"),
+            onPressedAmerican: () => speakdisrespectfuls1("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "They were angered by what they perceived as disrespectful comments."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "تووڕەبوون بەوەی کە وەک لێدوانی بێڕێزانە بینییان."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdisrespectfuls2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdisrespectfuls2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "They were angered by what they perceived as disrespectful comments.",
+            kurdishText: "تووڕەبوون بەوەی کە وەک لێدوانی بێڕێزانە بینییان.",
+            onPressedBritish: () => speakdisrespectfuls2("en-GB"),
+            onPressedAmerican: () => speakdisrespectfuls2("en-US"),
           ),
           // disrespectfuls300"),
           // speakdisrespectfuls3

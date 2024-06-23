@@ -372,60 +372,22 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "١. (ناو) ئەو بۆشاییەی کە دەرگای تێدایە، یان پێش دەرگا کە سەرپۆش کرابێت"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "She stood in the doorway for a moment before going in."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "بۆ ساتێک لە دەرگاکەدا وەستا پێش ئەوەی بچێتە ژوورەوە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "doorway", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdoorways1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdoorways1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "She stood in the doorway for a moment before going in.",
+            kurdishText:
+                "بۆ ساتێک لە دەرگاکەدا وەستا پێش ئەوەی بچێتە ژوورەوە.", // doorway
+            onPressedBritish: () => speakdoorways1("en-GB"),
+            onPressedAmerican: () => speakdoorways1("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "Rubbish was piled up in the shop doorway."),
-                    ExampleSentenceKurdish(
-                        text: "زباڵە کۆبووبووەوە لە بەردەرگای فرۆشگاکە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdoorways2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdoorways2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "Rubbish was piled up in the shop doorway.",
+            kurdishText: "زباڵە کۆبووبووەوە لە بەردەرگای فرۆشگاکە.",
+            onPressedBritish: () => speakdoorways2("en-GB"),
+            onPressedAmerican: () => speakdoorways2("en-US"),
           ),
           // doorways300"),
           // speakdoorways3

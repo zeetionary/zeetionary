@@ -243,62 +243,23 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "١. (ناو) پێدانی دەسەڵات لە حکومەت یان دەسەڵاتی ناوەندییەوە بە یەکێکی خۆجێیی"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "He was one of the key architects of Scottish devolution."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "یەکێک لە ئەندازیارانی لامەرکەزی بوو لە سکۆتلەندا."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "devolution", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdevolutions1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdevolutions1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "He was one of the key architects of Scottish devolution.",
+            kurdishText:
+                "یەکێک لە ئەندازیارانی لامەرکەزی بوو لە سکۆتلەندا.", // devolution
+            onPressedBritish: () => speakdevolutions1("en-GB"),
+            onPressedAmerican: () => speakdevolutions1("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The majority of people in the province are in favour of devolution."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "زۆرینەی خەڵکی لە پارێزگاکە لەگەڵ سیستەمی لامەرکەزین."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdevolutions2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdevolutions2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "The majority of people in the province are in favour of devolution.",
+            kurdishText: "زۆرینەی خەڵکی لە پارێزگاکە لەگەڵ سیستەمی لامەرکەزین.",
+            onPressedBritish: () => speakdevolutions2("en-GB"),
+            onPressedAmerican: () => speakdevolutions2("en-US"),
           ),
           // devolutions300"),
           // speakdevolutions3

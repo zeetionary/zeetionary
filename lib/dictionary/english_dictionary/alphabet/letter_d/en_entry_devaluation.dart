@@ -253,63 +253,25 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "١. (ناو) داشکانی بەھای دراوی وڵاتێک کە لەگەڵ دراوی وڵاتێکی دیکە دەگۆڕدرێتەوە"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "There has been a further small devaluation against the dollar."),
-                    ExampleSentenceKurdish(
-                        text: "داشکانی بچووکی زیاتر دژ بە دۆلار ڕوویداوە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "devaluation", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdevaluations1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdevaluations1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "There has been a further small devaluation against the dollar.",
+            kurdishText:
+                "داشکانی بچووکی زیاتر دژ بە دۆلار ڕوویداوە.", // devaluation
+            onPressedBritish: () => speakdevaluations1("en-GB"),
+            onPressedAmerican: () => speakdevaluations1("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
                   "٢. (ناو) بێ‌بەھاکردنی شتێک یان پیشاندانی بە کەمتر گرنگ وەک لەوەی ھەیە"),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The existence of slavery represents a devaluation of human life."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "بوونی کۆیلایەتی بێ‌بەھایی ژیانی مرۆڤ پیشان دەدات."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdevaluations2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdevaluations2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "The existence of slavery represents a devaluation of human life.",
+            kurdishText: "بوونی کۆیلایەتی بێ‌بەھایی ژیانی مرۆڤ پیشان دەدات.",
+            onPressedBritish: () => speakdevaluations2("en-GB"),
+            onPressedAmerican: () => speakdevaluations2("en-US"),
           ),
           // devaluations300"),
           // speakdevaluations3

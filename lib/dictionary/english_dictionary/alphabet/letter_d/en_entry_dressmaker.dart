@@ -363,30 +363,12 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "١. (ناو) کەسێک کە جلی ژنان درووست دەکات، بە تایبەتی وەک پیشەیەک"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "The dressmaker sewed a beautiful wedding gown."),
-                    ExampleSentenceKurdish(
-                        text: "بەرگ‌درووەکە جلێکی جوانی بووکێنی دووری."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "dressmaker", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdressmakers1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdressmakers1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "The dressmaker sewed a beautiful wedding gown.",
+            kurdishText:
+                "بەرگ‌درووەکە جلێکی جوانی بووکێنی دووری.", // dressmaker
+            onPressedBritish: () => speakdressmakers1("en-GB"),
+            onPressedAmerican: () => speakdressmakers1("en-US"),
           ),
           // dressmakers200"),
           // speakdressmakers2

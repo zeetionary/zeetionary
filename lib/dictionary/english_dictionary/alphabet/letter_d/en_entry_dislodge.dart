@@ -251,92 +251,34 @@ class KurdishMeaning extends StatelessWidget {
 """),
           const DefinitionKurdish(
               text: "١. (کردار) دەرکردنی شتێک لە شوێنی یاسایی خۆی"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The wind dislodged one or two tiles from the roof."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "بایەکە یەک یان دوو تەنکەخشتی لەسەر بانەکە لێکردەوە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "dislodge", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdislodges1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdislodges1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "The wind dislodged one or two tiles from the roof.",
+            kurdishText:
+                "بایەکە یەک یان دوو تەنکەخشتی لەسەر بانەکە لێکردەوە.", // dislodge
+            onPressedBritish: () => speakdislodges1("en-GB"),
+            onPressedAmerican: () => speakdislodges1("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The key was rusted and stuck firmly, seemingly impossible to dislodge."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "کلیلەکە ژەنگی گرتبوو و بە توندی گیری کردبوو کە وادیاربوو ئەستەم بێت دەربکرێت."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdislodges2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdislodges2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "The key was rusted and stuck firmly, seemingly impossible to dislodge.",
+            kurdishText:
+                "کلیلەکە ژەنگی گرتبوو و بە توندی گیری کردبوو کە وادیاربوو ئەستەم بێت دەربکرێت.",
+            onPressedBritish: () => speakdislodges2("en-GB"),
+            onPressedAmerican: () => speakdislodges2("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
                   "٢. (کردار) زۆرکردن لە کەسێک کە شوێنێک، پێگەیەک، یان کارێک جێبھێڵێت"),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The rebels have so far failed to dislodge the President."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "یاخیبووەکان یاوەکو ئێستا شکستیان ھێناوە لەوەی سەرۆک دەربکەن."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdislodges3("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdislodges3("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "The rebels have so far failed to dislodge the President.",
+            kurdishText:
+                "یاخیبووەکان یاوەکو ئێستا شکستیان ھێناوە لەوەی سەرۆک دەربکەن.",
+            onPressedBritish: () => speakdislodges3("en-GB"),
+            onPressedAmerican: () => speakdislodges3("en-US"),
           ),
           // dislodges400"),
           // speakdislodges4

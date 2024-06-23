@@ -254,93 +254,36 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "١. (ناو) ڕێگری لە کەسێک کە شتێک بکات بەھۆی ئەوەی یاسای شکاندووە"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The skier suffered two disqualifications in two separate events."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "خلیسکەوانەکە لە دوو بۆنەی جیاوازدا دوو جار بێبەشکرا."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "disqualification", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdisqualifications1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdisqualifications1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "The skier suffered two disqualifications in two separate events.",
+            kurdishText:
+                "خلیسکەوانەکە لە دوو بۆنەی جیاوازدا دوو جار بێبەشکرا.", // disqualification
+            onPressedBritish: () => speakdisqualifications1("en-GB"),
+            onPressedAmerican: () => speakdisqualifications1("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "Any form of cheating means automatic disqualification."),
-                    ExampleSentenceKurdish(
-                        text: "ھەر جۆرە فێڵێک واتە ڕاستەوخۆ بێبەشکردن."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdisqualifications2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdisqualifications2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "Any form of cheating means automatic disqualification.",
+            kurdishText: "ھەر جۆرە فێڵێک واتە ڕاستەوخۆ بێبەشکردن.",
+            onPressedBritish: () => speakdisqualifications2("en-GB"),
+            onPressedAmerican: () => speakdisqualifications2("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
                   "٢. (ناو) شتێک کە وادەکات کەسێک نەگونجاو بێت بۆ چالاکییەک یان پێگەیەک"),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "Inexperience is not necessarily a disqualification for high political office."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "کەم ئەزموونی مەرج نییە لێنەوەشاوەیی بێت بۆ پێگەی سیاسیی بەرز."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdisqualifications3("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdisqualifications3("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "Inexperience is not necessarily a disqualification for high political office.",
+            kurdishText:
+                "کەم ئەزموونی مەرج نییە لێنەوەشاوەیی بێت بۆ پێگەی سیاسیی بەرز.",
+            onPressedBritish: () => speakdisqualifications3("en-GB"),
+            onPressedAmerican: () => speakdisqualifications3("en-US"),
           ),
           // disqualifications400"),
           // speakdisqualifications4

@@ -327,336 +327,104 @@ class KurdishMeaning extends StatelessWidget {
 کوردی: ون‌بوون، بزر‌بوون، دیار نەبوون
 """),
           const DefinitionKurdish(text: "١. (کردار) لەبەرچاو نەمان"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "With that, Matt promptly disappeared."),
-                    ExampleSentenceKurdish(
-                        text: "لەگەڵ ئەوەی، مات لەناکو دیارنەما."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "disappear", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdisappears1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdisappears1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "With that, Matt promptly disappeared.",
+            kurdishText: "لەگەڵ ئەوەی، مات لەناکو دیارنەما.", // disappear
+            onPressedBritish: () => speakdisappears1("en-GB"),
+            onPressedAmerican: () => speakdisappears1("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "The mirror made the ceiling seem to disappear."),
-                    ExampleSentenceKurdish(
-                        text: "ئاوێنەکە بنبانەکەی وا پیشاندا کە ونبووبێت."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdisappears2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdisappears2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "The mirror made the ceiling seem to disappear.",
+            kurdishText: "ئاوێنەکە بنبانەکەی وا پیشاندا کە ونبووبێت.",
+            onPressedBritish: () => speakdisappears2("en-GB"),
+            onPressedAmerican: () => speakdisappears2("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "The plane disappeared behind a cloud."),
-                    ExampleSentenceKurdish(
-                        text: "فڕۆکەکە لەپشتی ھەورێکەوە ونبوو."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdisappears3("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdisappears3("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "The plane disappeared behind a cloud.",
+            kurdishText: "فڕۆکەکە لەپشتی ھەورێکەوە ونبوو.",
+            onPressedBritish: () => speakdisappears3("en-GB"),
+            onPressedAmerican: () => speakdisappears3("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "Lisa watched until the train disappeared from view."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "لیسا سەیری کرد تاوەکو شەمەندەفەرەکە لەبەرچاوام ونبوو."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdisappears4("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdisappears4("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "Lisa watched until the train disappeared from view.",
+            kurdishText:
+                "لیسا سەیری کرد تاوەکو شەمەندەفەرەکە لەبەرچاوام ونبوو.",
+            onPressedBritish: () => speakdisappears4("en-GB"),
+            onPressedAmerican: () => speakdisappears4("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: "٢. (کردار) وەستان لە بوون"),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "The problem won't just disappear."),
-                    ExampleSentenceKurdish(text: "کێشەکە ھەروا چارە نابێت."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdisappears5("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdisappears5("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "The problem won't just disappear.",
+            kurdishText: "کێشەکە ھەروا چارە نابێت.",
+            onPressedBritish: () => speakdisappears5("en-GB"),
+            onPressedAmerican: () => speakdisappears5("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "Her nervousness quickly disappeared once she was on stage."),
-                    ExampleSentenceKurdish(
-                        text: "شڵەژاوییەکەی زوو نەما کە لەسەر سەکۆکە بوو."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdisappears6("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdisappears6("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "Her nervousness quickly disappeared once she was on stage.",
+            kurdishText: "شڵەژاوییەکەی زوو نەما کە لەسەر سەکۆکە بوو.",
+            onPressedBritish: () => speakdisappears6("en-GB"),
+            onPressedAmerican: () => speakdisappears6("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "Wildlife is fast disappearing from our countryside."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "ژیانی کێوی بەخێرایی لەناودەچێت لە دەرەوەی شارمان."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdisappears7("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdisappears7("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "Wildlife is fast disappearing from our countryside.",
+            kurdishText: "ژیانی کێوی بەخێرایی لەناودەچێت لە دەرەوەی شارمان.",
+            onPressedBritish: () => speakdisappears7("en-GB"),
+            onPressedAmerican: () => speakdisappears7("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "These fish have virtually disappeared from their traditional waters."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "ئەم ماسییانە تا ئاستێکی زۆر لەناوچوونە لە ئاوەکانی خپیان."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdisappears8("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdisappears8("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "These fish have virtually disappeared from their traditional waters.",
+            kurdishText:
+                "ئەم ماسییانە تا ئاستێکی زۆر لەناوچوونە لە ئاوەکانی خپیان.",
+            onPressedBritish: () => speakdisappears8("en-GB"),
+            onPressedAmerican: () => speakdisappears8("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: "٣. (کردار) ونبوون"),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "I can never find a pen in this house. They disappear as soon as I buy them."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "ھەرگیز ناتوانم پێنووسێک لەم ماڵەدا بدۆزمەوە. وندەبن ھەرکە دەیانکڕم."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdisappears9("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdisappears9("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "I can never find a pen in this house. They disappear as soon as I buy them.",
+            kurdishText:
+                "ھەرگیز ناتوانم پێنووسێک لەم ماڵەدا بدۆزمەوە. وندەبن ھەرکە دەیانکڕم.",
+            onPressedBritish: () => speakdisappears9("en-GB"),
+            onPressedAmerican: () => speakdisappears9("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The plane mysteriously disappeared over the Indian Ocean."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "فڕۆکەکە بەشێوەیەکی نھێنی لەسەر زەریای ھندی ونبوو."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdisappears10("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdisappears10("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "The plane mysteriously disappeared over the Indian Ocean.",
+            kurdishText: "فڕۆکەکە بەشێوەیەکی نھێنی لەسەر زەریای ھندی ونبوو.",
+            onPressedBritish: () => speakdisappears10("en-GB"),
+            onPressedAmerican: () => speakdisappears10("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The plane suddenly just disappeared from the radar screen."),
-                    ExampleSentenceKurdish(
-                        text: "فڕۆکەکە لەناکاو لە شاشەی ڕادار ونبوو."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdisappears11("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdisappears11("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "The plane suddenly just disappeared from the radar screen.",
+            kurdishText: "فڕۆکەکە لەناکاو لە شاشەی ڕادار ونبوو.",
+            onPressedBritish: () => speakdisappears11("en-GB"),
+            onPressedAmerican: () => speakdisappears11("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
                   "٤. (کردار) کوشتن یان ھێشتنەوەی کەسێک بەبێ دادگایی لە زیندان، بەزۆری بۆ ھۆکاری سیاسی"),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "One month later, he was disappeared by the regime."),
-                    ExampleSentenceKurdish(
-                        text: "مانگێک دواتر لەلایەن ڕژێمەوە سەرنقووم کرا."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdisappears12("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdisappears12("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "One month later, he was disappeared by the regime.",
+            kurdishText: "مانگێک دواتر لەلایەن ڕژێمەوە سەرنقووم کرا.",
+            onPressedBritish: () => speakdisappears12("en-GB"),
+            onPressedAmerican: () => speakdisappears12("en-US"),
           ),
           // disappears1300"),
           // speakdisappears13

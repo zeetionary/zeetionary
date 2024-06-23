@@ -364,31 +364,12 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   """١. (ناو) فێرکردنی زمانی ئینگلیزی بەو کەسانەی کە زمانی یەکەمیان نییە، کورتکراوەیە بۆ English Language Teaching"""),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            """The university offers an ELT certification program."""),
-                    ExampleSentenceKurdish(
-                        text: """زانکۆکە پڕۆگرامێکی بڕوانامەی ELT ھەیە."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "ELT", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakELTs1("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakELTs1("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                """The university offers an ELT certification program.""",
+            kurdishText: """زانکۆکە پڕۆگرامێکی بڕوانامەی ELT ھەیە.""", // ELT
+            onPressedBritish: () => speakELTs1("en-GB"),
+            onPressedAmerican: () => speakELTs1("en-US"),
           ),
           // ELTs200ELTs2
           // speakELTs2

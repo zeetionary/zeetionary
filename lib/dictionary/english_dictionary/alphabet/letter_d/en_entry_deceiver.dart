@@ -234,32 +234,13 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "١. (ناو) کەسێک کە وادەکات باوەڕ بە شتێک بکەیت کە ڕاست نییە"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "It could be difficult to detect a lie, especially from a well-practised deceiver."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "دەکرێت سەخت بێت ھەست بە درۆیەک بکەیت، بە تایبەتی لە تەڵەکەبازێکی باش ڕاھاتووەوە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "deceiver", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdeceivers1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdeceivers1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "It could be difficult to detect a lie, especially from a well-practised deceiver.",
+            kurdishText:
+                "دەکرێت سەخت بێت ھەست بە درۆیەک بکەیت، بە تایبەتی لە تەڵەکەبازێکی باش ڕاھاتووەوە.", // deceiver
+            onPressedBritish: () => speakdeceivers1("en-GB"),
+            onPressedAmerican: () => speakdeceivers1("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "٢. (ھاوەڵناو) پێنناسە"),

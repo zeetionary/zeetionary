@@ -371,61 +371,22 @@ class KurdishMeaning extends StatelessWidget {
 // """),
           const DefinitionKurdish(
               text: """١. (ناو) خانەدانێکی پلە بەرزێکی بەریتانی"""),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: """The Earl of Essex led troops in battle."""),
-                    ExampleSentenceKurdish(
-                        text:
-                            """ئێرڵی ئێسێکس ڕابەرایەتی ھێزەکانی کرد لە جەنگدا."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "earl", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakearls1("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakearls1("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: """The Earl of Essex led troops in battle.""",
+            kurdishText:
+                """ئێرڵی ئێسێکس ڕابەرایەتی ھێزەکانی کرد لە جەنگدا.""", // earl
+            onPressedBritish: () => speakearls1("en-GB"),
+            onPressedAmerican: () => speakearls1("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            """The Earl of Northumberland was executed for treason."""),
-                    ExampleSentenceKurdish(
-                        text:
-                            """ئێرڵی نۆرسەمبەرلاند بە تاوانی خیانەت کوژرا."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakearls2("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakearls2("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                """The Earl of Northumberland was executed for treason.""",
+            kurdishText: """ئێرڵی نۆرسەمبەرلاند بە تاوانی خیانەت کوژرا.""",
+            onPressedBritish: () => speakearls2("en-GB"),
+            onPressedAmerican: () => speakearls2("en-US"),
           ),
           // earls300earls3
           // speakearls3

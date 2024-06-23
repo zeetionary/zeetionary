@@ -395,145 +395,49 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "١. (ھاوەڵناو) کە لە ڕووی دەروونییەوە نەخۆشە، بەتایبەتی بەھۆی ئەزموونی خراپ و ناخۆش"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "His behaviour is deeply disturbed."),
-                    ExampleSentenceKurdish(
-                        text: "ھەڵسوکەوتی بە تەواوی ناتەواوە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "disturbed", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdisturbeds1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdisturbeds1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "His behaviour is deeply disturbed.",
+            kurdishText: "ھەڵسوکەوتی بە تەواوی ناتەواوە.", // disturbed
+            onPressedBritish: () => speakdisturbeds1("en-GB"),
+            onPressedAmerican: () => speakdisturbeds1("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "Many of our patients are severely disturbed."),
-                    ExampleSentenceKurdish(
-                        text: "زۆرێک لە نەخۆشەکانمان زۆر ناتەواون."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdisturbeds2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdisturbeds2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "Many of our patients are severely disturbed.",
+            kurdishText: "زۆرێک لە نەخۆشەکانمان زۆر ناتەواون.",
+            onPressedBritish: () => speakdisturbeds2("en-GB"),
+            onPressedAmerican: () => speakdisturbeds2("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٢. (ھاوەڵناو) کە دڵخۆش نییە یان ئەزموونی زۆر خراپی ھەیە"),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "The killer had a disturbed family background."),
-                    ExampleSentenceKurdish(
-                        text: "بکوژەکە پێشینەیەکی خێزانی شپرزەی ھەبوو."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdisturbeds3("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdisturbeds3("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "The killer had a disturbed family background.",
+            kurdishText: "بکوژەکە پێشینەیەکی خێزانی شپرزەی ھەبوو.",
+            onPressedBritish: () => speakdisturbeds3("en-GB"),
+            onPressedAmerican: () => speakdisturbeds3("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٣. (ھاوەڵناو) زۆر ناڕەحەت و کەساس سەبارەت بە شتێک"),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "I felt vaguely disturbed by the incident."),
-                    ExampleSentenceKurdish(
-                        text: "تەواو ھەستم بە شڵەژاوی کرد بە ڕووداوەکە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdisturbeds4("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdisturbeds4("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "I felt vaguely disturbed by the incident.",
+            kurdishText: "تەواو ھەستم بە شڵەژاوی کرد بە ڕووداوەکە.",
+            onPressedBritish: () => speakdisturbeds4("en-GB"),
+            onPressedAmerican: () => speakdisturbeds4("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "I was deeply disturbed and depressed by the news."),
-                    ExampleSentenceKurdish(
-                        text: "تەواو ناڕەحەت و نیگەران بووم بە ھەواڵەکە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdisturbeds5("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdisturbeds5("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "I was deeply disturbed and depressed by the news.",
+            kurdishText: "تەواو ناڕەحەت و نیگەران بووم بە ھەواڵەکە.",
+            onPressedBritish: () => speakdisturbeds5("en-GB"),
+            onPressedAmerican: () => speakdisturbeds5("en-US"),
           ),
           // disturbeds600"),
           // speakdisturbeds6

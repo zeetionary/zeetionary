@@ -362,30 +362,11 @@ class KurdishMeaning extends StatelessWidget {
 """),
           const DefinitionKurdish(
               text: "١. (ناو) ئەوەی جێگەی دڵتەنگی و ناخۆشی بێت"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "She hated the dreariness of her everyday life."),
-                    ExampleSentenceKurdish(
-                        text: "ڕقی لە ناخۆشیی ژیانی ڕۆژانەی بوو."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "dreariness", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdrearinesss1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdrearinesss1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "She hated the dreariness of her everyday life.",
+            kurdishText: "ڕقی لە ناخۆشیی ژیانی ڕۆژانەی بوو.", // dreariness
+            onPressedBritish: () => speakdrearinesss1("en-GB"),
+            onPressedAmerican: () => speakdrearinesss1("en-US"),
           ),
           // drearinesss200"),
           // speakdrearinesss2

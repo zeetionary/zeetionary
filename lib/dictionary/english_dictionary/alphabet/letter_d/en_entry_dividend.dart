@@ -391,117 +391,40 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "١. (ناو) بڕێک لەو قازانجەی کە کۆمپانیایەک دەیدات بە خاوەن پشکەکان"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "Investors will still pay tax on their foreign share dividends."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "سەرمایەداران ھێشتا دەبێت باج بدەن لەسەر پارەی وەرگیراو لە پشکی بیانی."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "dividend", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdividends1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdividends1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "Investors will still pay tax on their foreign share dividends.",
+            kurdishText:
+                "سەرمایەداران ھێشتا دەبێت باج بدەن لەسەر پارەی وەرگیراو لە پشکی بیانی.", // dividend
+            onPressedBritish: () => speakdividends1("en-GB"),
+            onPressedAmerican: () => speakdividends1("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The company has not yet declared its dividends for this year."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "کۆمپانیاکە ھێشتا قازانجی خاوەن پشکەکانی ڕانەگەیاندووە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdividends2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdividends2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "The company has not yet declared its dividends for this year.",
+            kurdishText:
+                "کۆمپانیاکە ھێشتا قازانجی خاوەن پشکەکانی ڕانەگەیاندووە.",
+            onPressedBritish: () => speakdividends2("en-GB"),
+            onPressedAmerican: () => speakdividends2("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: "٢. (ناو) قازانج یان سوودی زۆر"),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "Exercising regularly will pay dividends in the end."),
-                    ExampleSentenceKurdish(
-                        text: "ڕاھێنانی بەردەوام لە کۆتاییدا قازانجی دەبێت."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdividends3("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdividends3("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "Exercising regularly will pay dividends in the end.",
+            kurdishText: "ڕاھێنانی بەردەوام لە کۆتاییدا قازانجی دەبێت.",
+            onPressedBritish: () => speakdividends3("en-GB"),
+            onPressedAmerican: () => speakdividends3("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "Her hard work paid dividends when she won the school dancing competition."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "ھەوڵە سەختەکانی سوودیان بەخشییەوە کە پێشبڕکێی سەمای قوتابخانەکەی بردەوە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdividends4("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdividends4("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "Her hard work paid dividends when she won the school dancing competition.",
+            kurdishText:
+                "ھەوڵە سەختەکانی سوودیان بەخشییەوە کە پێشبڕکێی سەمای قوتابخانەکەی بردەوە.",
+            onPressedBritish: () => speakdividends4("en-GB"),
+            onPressedAmerican: () => speakdividends4("en-US"),
           ),
           // dividends500"),
           // speakdividends5

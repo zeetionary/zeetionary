@@ -269,121 +269,44 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "١. (ئامراز) بۆ وتنی ئەوەی شتێک ڕاستە یان ڕوویداوە سەرەڕای ئەوەی شتێکی دیکە ڕەنگە ڕوویدابێت"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "Her voice was shaking despite all her efforts to control it."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "دەنگی دەلەرزی سەرەڕای ھەموو ھەوڵەکانی بۆ کۆنترۆڵکردنی."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "despite", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdespites1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdespites1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "Her voice was shaking despite all her efforts to control it.",
+            kurdishText:
+                "دەنگی دەلەرزی سەرەڕای ھەموو ھەوڵەکانی بۆ کۆنترۆڵکردنی.", // despite
+            onPressedBritish: () => speakdespites1("en-GB"),
+            onPressedAmerican: () => speakdespites1("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "Despite applying for hundreds of jobs, he is still out of work."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "سەرەڕای ناردنی داخوازی بۆ سەدان کار، ھێشتا بێکارە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdespites2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdespites2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "Despite applying for hundreds of jobs, he is still out of work.",
+            kurdishText: "سەرەڕای ناردنی داخوازی بۆ سەدان کار، ھێشتا بێکارە.",
+            onPressedBritish: () => speakdespites2("en-GB"),
+            onPressedAmerican: () => speakdespites2("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "She was good at physics despite the fact that she found it boring."),
-                    ExampleSentenceKurdish(
-                        text: "لە فیزیادا باش بوو سەرەڕای ئەوەی ڕقی لێی بوو."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdespites3("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdespites3("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "She was good at physics despite the fact that she found it boring.",
+            kurdishText: "لە فیزیادا باش بوو سەرەڕای ئەوەی ڕقی لێی بوو.",
+            onPressedBritish: () => speakdespites3("en-GB"),
+            onPressedAmerican: () => speakdespites3("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
                   "٢. (ئامراز) بۆ وتنی ئەوەی شتێک ڕوویدا ئەگەرچی کەسێک نەیویست"),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "He had to laugh despite himself."),
-                    ExampleSentenceKurdish(
-                        text: "پێویست بوو پێ بکەنێت دژ بە ویستی خۆی."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdespites4("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdespites4("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "He had to laugh despite himself.",
+            kurdishText: "پێویست بوو پێ بکەنێت دژ بە ویستی خۆی.",
+            onPressedBritish: () => speakdespites4("en-GB"),
+            onPressedAmerican: () => speakdespites4("en-US"),
           ),
           // despites500"),
           // speakdespites5

@@ -241,57 +241,20 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "١. (کردار) کە کەسێک تووشی نیگەرانی، شڵەژاوی، یان شەرمەزاری دەکات"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "His answer rather disconcerted her."),
-                    ExampleSentenceKurdish(
-                        text: "وەڵامەکەی تا ڕادەیەک نیگەرانی کرد."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "disconcert", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdisconcerts1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdisconcerts1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "His answer rather disconcerted her.",
+            kurdishText: "وەڵامەکەی تا ڕادەیەک نیگەرانی کرد.", // disconcert
+            onPressedBritish: () => speakdisconcerts1("en-GB"),
+            onPressedAmerican: () => speakdisconcerts1("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "The whole experience had disconcerted him."),
-                    ExampleSentenceKurdish(text: "تەواوی دۆخەکە شڵەژاندی."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdisconcerts2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdisconcerts2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "The whole experience had disconcerted him.",
+            kurdishText: "تەواوی دۆخەکە شڵەژاندی.",
+            onPressedBritish: () => speakdisconcerts2("en-GB"),
+            onPressedAmerican: () => speakdisconcerts2("en-US"),
           ),
           // disconcerts300"),
           // speakdisconcerts3

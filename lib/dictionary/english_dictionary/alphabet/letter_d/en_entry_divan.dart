@@ -371,61 +371,24 @@ class KurdishMeaning extends StatelessWidget {
 """),
           const DefinitionKurdish(
               text: "١. (ناو) جێخەوێک کە ژێرێکی ئەستوور و دۆشەکەیەکی ھەیە"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(text: "We slept on a double divan."),
-                    ExampleSentenceKurdish(
-                        text: "لەسەر دیوانێکی دوو کەسی نووستین."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "divan", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdivans1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdivans1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "We slept on a double divan.",
+            kurdishText: "لەسەر دیوانێکی دوو کەسی نووستین.", // divan
+            onPressedBritish: () => speakdivans1("en-GB"),
+            onPressedAmerican: () => speakdivans1("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
                   "٢. (ناو) کورسییەکی کە پشت یان جێدەستی نییە و زیاتر لە یەک کەس دەگرێت"),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "He used the divan as a makeshift bed when guests stayed over."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "دیوانەکەی وەک جێخەوێکی کاتی بەکاردەھێنا کە میوان دەمانەوە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdivans2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdivans2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "He used the divan as a makeshift bed when guests stayed over.",
+            kurdishText:
+                "دیوانەکەی وەک جێخەوێکی کاتی بەکاردەھێنا کە میوان دەمانەوە.",
+            onPressedBritish: () => speakdivans2("en-GB"),
+            onPressedAmerican: () => speakdivans2("en-US"),
           ),
           // divans300"),
           // speakdivans3

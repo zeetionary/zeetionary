@@ -364,31 +364,12 @@ class KurdishMeaning extends StatelessWidget {
 // کوردی:
 // """),
           const DefinitionKurdish(text: "١. (ناو) چەکێک کە دوو لوولەی ھەیە"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "He went hunting with his double-barrelled shotgun."),
-                    ExampleSentenceKurdish(
-                        text: "بە تفەنگە دوو لوولەییەکەیەوە چوو بۆ ڕاو."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "double-barrelled", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdoublebarrelleds1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdoublebarrelleds1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "He went hunting with his double-barrelled shotgun.",
+            kurdishText:
+                "بە تفەنگە دوو لوولەییەکەیەوە چوو بۆ ڕاو.", // double-barrelled
+            onPressedBritish: () => speakdoublebarrelleds1("en-GB"),
+            onPressedAmerican: () => speakdoublebarrelleds1("en-US"),
           ),
           // doublebarrelleds200"),
           // speakdoublebarrelleds2

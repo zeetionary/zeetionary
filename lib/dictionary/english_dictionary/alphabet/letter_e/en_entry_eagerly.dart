@@ -371,61 +371,21 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   """١. (ھاوەڵکار) بەشێوەیەکی زۆر خرۆشاو سەبارەت بە شتێک کە ڕوودەدات یان شتێک کە دەتەوێت ڕووبدات"""),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            """They eagerly accepted my offer of hospitality."""),
-                    ExampleSentenceKurdish(
-                        text:
-                            """بەپەرۆشەوە پێشنیاری میواندۆستیمیان پەسەند کرد."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "eagerly", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakeagerlys1("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakeagerlys1("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: """They eagerly accepted my offer of hospitality.""",
+            kurdishText:
+                """بەپەرۆشەوە پێشنیاری میواندۆستیمیان پەسەند کرد.""", // eagerly
+            onPressedBritish: () => speakeagerlys1("en-GB"),
+            onPressedAmerican: () => speakeagerlys1("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            """We have been eagerly following their progress."""),
-                    ExampleSentenceKurdish(
-                        text: """بەتاسەوە ئاگاداری پەرەسەندنیان بووینە."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakeagerlys2("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakeagerlys2("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: """We have been eagerly following their progress.""",
+            kurdishText: """بەتاسەوە ئاگاداری پەرەسەندنیان بووینە.""",
+            onPressedBritish: () => speakeagerlys2("en-GB"),
+            onPressedAmerican: () => speakeagerlys2("en-US"),
           ),
         ],
       ),

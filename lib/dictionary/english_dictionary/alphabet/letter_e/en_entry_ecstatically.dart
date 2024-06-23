@@ -363,30 +363,12 @@ class KurdishMeaning extends StatelessWidget {
 """),
           const DefinitionKurdish(
               text: """١. (ھاوەڵکار) بەشێوەیەکی دڵخۆشانە و بەجۆش"""),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: """For a time, we were ecstatically happy."""),
-                    ExampleSentenceKurdish(
-                        text: """بۆ ماوەیەک، بە تین‌وگوڕەوە دڵخۆش بووین."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "ecstatically", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakecstaticallys1("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakecstaticallys1("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: """For a time, we were ecstatically happy.""",
+            kurdishText:
+                """بۆ ماوەیەک، بە تین‌وگوڕەوە دڵخۆش بووین.""", // ecstatically
+            onPressedBritish: () => speakecstaticallys1("en-GB"),
+            onPressedAmerican: () => speakecstaticallys1("en-US"),
           ),
           // ecstaticallys200ecstaticallys2
           // speakecstaticallys2

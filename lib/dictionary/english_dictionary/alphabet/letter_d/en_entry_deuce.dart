@@ -249,57 +249,21 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "١. (ناو) لە یاری تێنسدا کاتێکە کە ھەردوو یاریزانەکە ٤٠ خاڵیان ھەبێت، و لە دوای ئەوە یەکێک دەبێت دوو خاڵ بە دوای یەکدیدا تۆمار بکات  بۆ ئەوەی بباتەوە"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "The match reached deuce in the final set."),
-                    ExampleSentenceKurdish(
-                        text: "یارییەکە لە کۆتا قۆناغدا گەشت بە دیوس."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "deuce", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdeuces1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdeuces1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "The match reached deuce in the final set.",
+            kurdishText: "یارییەکە لە کۆتا قۆناغدا گەشت بە دیوس.", // deuce
+            onPressedBritish: () => speakdeuces1("en-GB"),
+            onPressedAmerican: () => speakdeuces1("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٢. (ناو) بۆ دەربڕینی تووڕەیی بەکاردێت لە پرسیاردا"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(text: "What the deuce is he doing?"),
-                    ExampleSentenceKurdish(text: "چی بێجێییەک دەکات؟"),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdeuces2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdeuces2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "What the deuce is he doing?",
+            kurdishText: "چی بێجێییەک دەکات؟",
+            onPressedBritish: () => speakdeuces2("en-GB"),
+            onPressedAmerican: () => speakdeuces2("en-US"),
           ),
           // deuces300"),
           // speakdeuces3

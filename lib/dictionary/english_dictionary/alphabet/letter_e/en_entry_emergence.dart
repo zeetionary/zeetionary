@@ -371,63 +371,25 @@ class KurdishMeaning extends StatelessWidget {
 کوردی: پەیدابوون، دەرکەوتن، ھاتنەڕوو، سەرھەڵدان، ھاتنەدەرێ، ئاشکرابوون، ڕوون‌بوونەوە، وەدیارکەوتن،	پێکھاتن، ڕەخسان، پەیدابوون، دەرکەوتن، سەرھەڵدان،	(گوڵ، خونچە و ھتد) پشکوتن، گوڵ‌کردن، دەمەترەک
 """),
           const DefinitionKurdish(text: """١. (ناو) دەرکەوتنی شتێک"""),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            """Scientists study the island's emergence from the sea for clues about Earth's history."""),
-                    ExampleSentenceKurdish(
-                        text:
-                            """زاناکان لێکۆڵینەوە لە دەرکەوتنی دوورگەکە لە دەریاوە دەکەن بۆ سەرەداو سەبارەت بە مژووی زەوی."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "emergence", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakemergences1("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakemergences1("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                """Scientists study the island's emergence from the sea for clues about Earth's history.""",
+            kurdishText:
+                """زاناکان لێکۆڵینەوە لە دەرکەوتنی دوورگەکە لە دەریاوە دەکەن بۆ سەرەداو سەبارەت بە مژووی زەوی.""", // emergence
+            onPressedBritish: () => speakemergences1("en-GB"),
+            onPressedAmerican: () => speakemergences1("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text: """٢. (ناو) دەستکردن بە ھەبوون یان ئەوەی پێ بزاندرێت"""),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            """Language has not always kept up with the emergence of new types of family."""),
-                    ExampleSentenceKurdish(
-                        text:
-                            """زمان ھەمیشە بەردەوام نەبوو لەگەڵ دەرکەوتنی جۆری تازەی خێزان."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakemergences2("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakemergences2("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                """Language has not always kept up with the emergence of new types of family.""",
+            kurdishText:
+                """زمان ھەمیشە بەردەوام نەبوو لەگەڵ دەرکەوتنی جۆری تازەی خێزان.""",
+            onPressedBritish: () => speakemergences2("en-GB"),
+            onPressedAmerican: () => speakemergences2("en-US"),
           ),
           // emergences300emergences3
           // speakemergences3

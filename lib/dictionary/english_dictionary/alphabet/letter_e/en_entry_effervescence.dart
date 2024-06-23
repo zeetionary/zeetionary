@@ -370,59 +370,22 @@ class KurdishMeaning extends StatelessWidget {
 کوردی: ھەڵقوڵان، ھەڵچوون، قڵپە(کردن)، تۆقلەھەڵدان، کەف‌کردن، کوڵ‌ڕێژی، گازداربوون، فیشقەکردن، کوڵەکوڵ،	تین‌وگوڕ، کەف‌وکوڵ، گڕوپف، جۆش‌وخرۆش
 """),
           const DefinitionKurdish(text: """١. (ناو) بەجۆش و پڕ لە وزە"""),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: """He loved her vitality and effervescence."""),
-                    ExampleSentenceKurdish(
-                        text: """حەزی بە بەتینی و جۆش‌وخرۆشی بوو."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "effervescence", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakeffervescences1("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakeffervescences1("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: """He loved her vitality and effervescence.""",
+            kurdishText:
+                """حەزی بە بەتینی و جۆش‌وخرۆشی بوو.""", // effervescence
+            onPressedBritish: () => speakeffervescences1("en-GB"),
+            onPressedAmerican: () => speakeffervescences1("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text: """٢. (ناو) کەفی بچووکی گاس لە شلەدا"""),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: """The wine has a light effervescence."""),
-                    ExampleSentenceKurdish(
-                        text: """شەرابەکە کەف‌کردنێکی ڕۆشنی ھەیە."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakeffervescences2("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakeffervescences2("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: """The wine has a light effervescence.""",
+            kurdishText: """شەرابەکە کەف‌کردنێکی ڕۆشنی ھەیە.""",
+            onPressedBritish: () => speakeffervescences2("en-GB"),
+            onPressedAmerican: () => speakeffervescences2("en-US"),
           ),
           // effervescences300effervescences3
           // speakeffervescences3

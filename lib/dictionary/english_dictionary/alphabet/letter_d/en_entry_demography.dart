@@ -234,32 +234,13 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "١. (ناو) گۆڕانی ژمارەی لەدایکبوون، مردن، نەخۆشی، ھتد لە کۆمەڵگایەکدا"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The increase in the number of young people leaving to work in the cities has had a dramatic impact on the demography of the villages."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "زیادبوونی ڕێژەی جێھێشتنی لەلایەن گەنجانەوە بۆ کارکردن لە شارەکاندا کاریگەرییەکی گەورەی لەسەر دیمۆگرافیای گوندەکان ھەبووە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "demography", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdemographys1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdemographys1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "The increase in the number of young people leaving to work in the cities has had a dramatic impact on the demography of the villages.",
+            kurdishText:
+                "زیادبوونی ڕێژەی جێھێشتنی لەلایەن گەنجانەوە بۆ کارکردن لە شارەکاندا کاریگەرییەکی گەورەی لەسەر دیمۆگرافیای گوندەکان ھەبووە.", // demography
+            onPressedBritish: () => speakdemographys1("en-GB"),
+            onPressedAmerican: () => speakdemographys1("en-US"),
           ),
           // demographys200"),
           // speakdemographys2

@@ -388,113 +388,39 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "١. (ناو) چەکمەجە کە ھەندێک کەلوپەلی ماڵەوە ھەیەتی و بە ڕاکێشان دەکرێتەوە"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "He pushed the drawer shut with a bang."),
-                    ExampleSentenceKurdish(text: "بە زرمەیەک چەکمەجەکەی گرت."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "drawer", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdrawers1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdrawers1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "He pushed the drawer shut with a bang.",
+            kurdishText: "بە زرمەیەک چەکمەجەکەی گرت.", // drawer
+            onPressedBritish: () => speakdrawers1("en-GB"),
+            onPressedAmerican: () => speakdrawers1("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "He put the letters in the drawer."),
-                    ExampleSentenceKurdish(text: "نامەکانی خستە چەکمەجەکە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdrawers2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdrawers2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "He put the letters in the drawer.",
+            kurdishText: "نامەکانی خستە چەکمەجەکە.",
+            onPressedBritish: () => speakdrawers2("en-GB"),
+            onPressedAmerican: () => speakdrawers2("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "What do you think you are doing, rummaging through my drawers?"),
-                    ExampleSentenceKurdish(
-                        text: "پێتوایە چی دەکەیت کە چەکمەجەکەمت تێک‌وپێكداوە؟"),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdrawers3("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdrawers3("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "What do you think you are doing, rummaging through my drawers?",
+            kurdishText: "پێتوایە چی دەکەیت کە چەکمەجەکەمت تێک‌وپێكداوە؟",
+            onPressedBritish: () => speakdrawers3("en-GB"),
+            onPressedAmerican: () => speakdrawers3("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: "٢. (ناو) کەسێک کە وێنە دەکێشێت"),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "He is an expert drawer and painter."),
-                    ExampleSentenceKurdish(
-                        text: "وێنەکێش و نیگارکێشێکی بە ئەزموونە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdrawers4("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdrawers4("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "He is an expert drawer and painter.",
+            kurdishText: "وێنەکێش و نیگارکێشێکی بە ئەزموونە.",
+            onPressedBritish: () => speakdrawers4("en-GB"),
+            onPressedAmerican: () => speakdrawers4("en-US"),
           ),
           // drawers500"),
           // speakdrawers5

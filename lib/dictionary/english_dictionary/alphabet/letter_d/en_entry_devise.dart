@@ -243,62 +243,24 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "١. (کردار) دۆزینەوەی شتێکی تازە یان ڕێگای تازەی کردنی شتێک"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "A new system has been devised to control traffic in the city."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "سیستەمێکی تازە داڕێژراوە بۆ کۆنترۆڵکردنی ھاتووچۆ لە شارەکەدا."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "devise", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdevises1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdevises1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "A new system has been devised to control traffic in the city.",
+            kurdishText:
+                "سیستەمێکی تازە داڕێژراوە بۆ کۆنترۆڵکردنی ھاتووچۆ لە شارەکەدا.", // devise
+            onPressedBritish: () => speakdevises1("en-GB"),
+            onPressedAmerican: () => speakdevises1("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "Scientists have devised a method of recycling the contaminated oil."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "زاناکان ڕێگایەکیان داڕشتووە بۆ دووبارە بەکارھێنانەوەی نەوتە پیسبووەکە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdevises2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdevises2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "Scientists have devised a method of recycling the contaminated oil.",
+            kurdishText:
+                "زاناکان ڕێگایەکیان داڕشتووە بۆ دووبارە بەکارھێنانەوەی نەوتە پیسبووەکە.",
+            onPressedBritish: () => speakdevises2("en-GB"),
+            onPressedAmerican: () => speakdevises2("en-US"),
           ),
           // devises300"),
           // speakdevises3

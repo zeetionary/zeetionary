@@ -365,31 +365,12 @@ class KurdishMeaning extends StatelessWidget {
 // """),
           const DefinitionKurdish(text: """١. (ناو) بەشی دریاگوزاری خێرا"""),
           const AlsoEnglishckb(word: "ھەروەھا: casualty"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            """She had to be rushed to the emergency room."""),
-                    ExampleSentenceKurdish(
-                        text: """دەبوو ببردرێت بۆ بەشی فریاگوزاری خێرا."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "emergency room", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakemergencyrooms1("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakemergencyrooms1("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: """She had to be rushed to the emergency room.""",
+            kurdishText:
+                """دەبوو ببردرێت بۆ بەشی فریاگوزاری خێرا.""", // emergency room
+            onPressedBritish: () => speakemergencyrooms1("en-GB"),
+            onPressedAmerican: () => speakemergencyrooms1("en-US"),
           ),
           // emergencyrooms200emergencyrooms2
           // speakemergencyrooms2

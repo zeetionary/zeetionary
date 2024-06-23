@@ -312,301 +312,95 @@ class KurdishMeaning extends StatelessWidget {
 کوردی: قاپ، دەوری، کاسە، جام، بایە،	چێشت، نان، خۆراک،	ئانتێنی کاسەیی، سێڵ یان ساج،	نافەرمی تیکە، جەرگ، لەبار، سێکسی،	(تکنیکی) قاپ، جام، قاپ‌وکەوچک، قاپ‌وقاچاخ، ھێربار، حاجەت
 """),
           const DefinitionKurdish(text: "١. (ناو) دەوری خواردن"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "Bake in a shallow dish for 45 mins."),
-                    ExampleSentenceKurdish(
-                        text: "بۆ ٤٥ خولەک بیبرژێنە لە دەورییەکی کەم‌قووڵ."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "dish", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdishs1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdishs1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "Bake in a shallow dish for 45 mins.",
+            kurdishText: "بۆ ٤٥ خولەک بیبرژێنە لە دەورییەکی کەم‌قووڵ.", // dish
+            onPressedBritish: () => speakdishs1("en-GB"),
+            onPressedAmerican: () => speakdishs1("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "Arrange the salad in a dish."),
-                    ExampleSentenceKurdish(
-                        text: "زەڵاتەکە لە دەورییەکدا ڕێکبخە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdishs2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdishs2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "Arrange the salad in a dish.",
+            kurdishText: "زەڵاتەکە لە دەورییەکدا ڕێکبخە.",
+            onPressedBritish: () => speakdishs2("en-GB"),
+            onPressedAmerican: () => speakdishs2("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٢. (ناو) قاپ‌وقاچاغ کە پێویستە بشۆردرێت"),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "I'll do the dishes (= wash them)."),
-                    ExampleSentenceKurdish(text: "من قاپەکان دەشۆم."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdishs3("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdishs3("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "I'll do the dishes (= wash them).",
+            kurdishText: "من قاپەکان دەشۆم.",
+            onPressedBritish: () => speakdishs3("en-GB"),
+            onPressedAmerican: () => speakdishs3("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "My first real job was washing dishes in a restaurant."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "یەکەم کاری ڕاستەقینەم شۆردنی قاپ‌وقاچاغ بوو لە چێشتخانەیەک."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdishs4("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdishs4("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "My first real job was washing dishes in a restaurant.",
+            kurdishText:
+                "یەکەم کاری ڕاستەقینەم شۆردنی قاپ‌وقاچاغ بوو لە چێشتخانەیەک.",
+            onPressedBritish: () => speakdishs4("en-GB"),
+            onPressedAmerican: () => speakdishs4("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "He dried the dishes and put them away."),
-                    ExampleSentenceKurdish(
-                        text: "قاپەکانی وشککردەوە و لایبردن."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdishs5("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdishs5("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "He dried the dishes and put them away.",
+            kurdishText: "قاپەکانی وشککردەوە و لایبردن.",
+            onPressedBritish: () => speakdishs5("en-GB"),
+            onPressedAmerican: () => speakdishs5("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
                   "٣. (ناو) خواردنێک کە وەک بەشێک لە ژەمێک بە شێوەیەکی دیاریکراو ئامادەکراوە"),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "This makes an excellent hot main dish."),
-                    ExampleSentenceKurdish(
-                        text: "ئەمە خواردنێکی سەرەکیی ناوازەی گەرم پێکدێنێت."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdishs6("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdishs6("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "This makes an excellent hot main dish.",
+            kurdishText: "ئەمە خواردنێکی سەرەکیی ناوازەی گەرم پێکدێنێت.",
+            onPressedBritish: () => speakdishs6("en-GB"),
+            onPressedAmerican: () => speakdishs6("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "I decided to cook his favourite dish."),
-                    ExampleSentenceKurdish(
-                        text: "بڕیارمدا خواردنی دڵخوازی لێ بنێم."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdishs7("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdishs7("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "I decided to cook his favourite dish.",
+            kurdishText: "بڕیارمدا خواردنی دڵخوازی لێ بنێم.",
+            onPressedBritish: () => speakdishs7("en-GB"),
+            onPressedAmerican: () => speakdishs7("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(text: "Goulash is a meat dish."),
-                    ExampleSentenceKurdish(text: "گولاش خواردنێکی گۆشتییە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdishs8("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdishs8("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "Goulash is a meat dish.",
+            kurdishText: "گولاش خواردنێکی گۆشتییە.",
+            onPressedBritish: () => speakdishs8("en-GB"),
+            onPressedAmerican: () => speakdishs8("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "Serve one or two main dishes with salads."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "یەک یان دوو خواردنی سەرەکی لێ بنێ لەگەڵ زەڵاتە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdishs9("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdishs9("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "Serve one or two main dishes with salads.",
+            kurdishText: "یەک یان دوو خواردنی سەرەکی لێ بنێ لەگەڵ زەڵاتە.",
+            onPressedBritish: () => speakdishs9("en-GB"),
+            onPressedAmerican: () => speakdishs9("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٤. (ناو) ھەر شتێک کە شێوەی وەک دەفرێکە"),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "The soap dish keeps the soap dry and clean."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "جێ‌سابوونەکە سابوونەکە بە وشکی و پاک دەھێڵێتەوە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdishs10("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdishs10("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "The soap dish keeps the soap dry and clean.",
+            kurdishText: "جێ‌سابوونەکە سابوونەکە بە وشکی و پاک دەھێڵێتەوە.",
+            onPressedBritish: () => speakdishs10("en-GB"),
+            onPressedAmerican: () => speakdishs10("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: "٥. (ناو) ژنێکی ورووژێنەر"),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(text: "What a dish!"),
-                    ExampleSentenceKurdish(text: "چی ورووژێنەرە!"),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdishs11("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdishs11("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "What a dish!",
+            kurdishText: "چی ورووژێنەرە!",
+            onPressedBritish: () => speakdishs11("en-GB"),
+            onPressedAmerican: () => speakdishs11("en-US"),
           ),
           // dishs1200"),
           // speakdishs12

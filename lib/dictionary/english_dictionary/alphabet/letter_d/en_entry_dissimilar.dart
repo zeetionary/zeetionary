@@ -370,59 +370,21 @@ class KurdishMeaning extends StatelessWidget {
 کوردی: جیاواز، جیا، لێک‌نەچوو، ناچونیەک، لەیەکترنەچوو، ناھاوشێوە، ناھاوجۆر، نەیەک
 """),
           const DefinitionKurdish(text: "١. (ھاوەڵناو) کە وەک شتێکی دیکە نییە"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "These wines are not dissimilar (= are similar)."),
-                    ExampleSentenceKurdish(text: "ئەم شەرابانە جیاواز نیین."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "dissimilar", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdissimilars1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdissimilars1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "These wines are not dissimilar (= are similar).",
+            kurdishText: "ئەم شەرابانە جیاواز نیین.", // dissimilar
+            onPressedBritish: () => speakdissimilars1("en-GB"),
+            onPressedAmerican: () => speakdissimilars1("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The two languages are completely dissimilar from each other."),
-                    ExampleSentenceKurdish(
-                        text: "دوو زمانەکە تەواو جیاوازن لە یەکدی."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdissimilars2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdissimilars2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "The two languages are completely dissimilar from each other.",
+            kurdishText: "دوو زمانەکە تەواو جیاوازن لە یەکدی.",
+            onPressedBritish: () => speakdissimilars2("en-GB"),
+            onPressedAmerican: () => speakdissimilars2("en-US"),
           ),
           // dissimilars300"),
           // speakdissimilars3

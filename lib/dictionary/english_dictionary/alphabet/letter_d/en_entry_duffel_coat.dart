@@ -363,31 +363,12 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   """١. (ناو) پاڵتۆیەکی قورس کە لە خووری پێکھاتووە، و زۆرجار کڵاوێکی ھەیە و بە دوگمە و قەیتان دەبەسترێت"""),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: """He wore a duffel coat in the cold weather."""),
-                    ExampleSentenceKurdish(
-                        text:
-                            """قەمسەڵەیەکی فەرووداری لە کەشە ساردەکەدا لەبەر کرد."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "duffel coat", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakduffelcoats1("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakduffelcoats1("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: """He wore a duffel coat in the cold weather.""",
+            kurdishText:
+                """قەمسەڵەیەکی فەرووداری لە کەشە ساردەکەدا لەبەر کرد.""", // duffel coat
+            onPressedBritish: () => speakduffelcoats1("en-GB"),
+            onPressedAmerican: () => speakduffelcoats1("en-US"),
           ),
           // duffelcoats200
           // speakduffelcoats2

@@ -242,62 +242,24 @@ class KurdishMeaning extends StatelessWidget {
 """),
           const DefinitionKurdish(
               text: "١. (ناو) پڕۆسەی بڵاوبوونەوەی خەڵکی/شت"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "We have seen the violent dispersal of crowds of protesters."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "بڵاوەپێکردنی توندوتیژانەی جەماوەرانت خۆپیشاندەرانمان بینیوە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "dispersal", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdispersals1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdispersals1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "We have seen the violent dispersal of crowds of protesters.",
+            kurdishText:
+                "بڵاوەپێکردنی توندوتیژانەی جەماوەرانت خۆپیشاندەرانمان بینیوە.", // dispersal
+            onPressedBritish: () => speakdispersals1("en-GB"),
+            onPressedAmerican: () => speakdispersals1("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "In addition to wind dispersal, the seeds can also be dispersed by water."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "سەرەڕای بڵاوبوونەوە بە با، تۆوەکان ھەروەھا دەکرێت بە ئاویش بڵاوببنەوە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdispersals2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdispersals2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "In addition to wind dispersal, the seeds can also be dispersed by water.",
+            kurdishText:
+                "سەرەڕای بڵاوبوونەوە بە با، تۆوەکان ھەروەھا دەکرێت بە ئاویش بڵاوببنەوە.",
+            onPressedBritish: () => speakdispersals2("en-GB"),
+            onPressedAmerican: () => speakdispersals2("en-US"),
           ),
           // dispersals300"),
           // speakdispersals3

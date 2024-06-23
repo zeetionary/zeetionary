@@ -293,197 +293,66 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "١. (ناو) خۆشەویستی، پشتیوانی، یان چاودێری زۆر بۆ کەسێک/شتێک"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "His devotion to his wife and family is touching."),
-                    ExampleSentenceKurdish(
-                        text: "خۆبەخشینەکەی بە ژن و خێزانەکەی کارتێ‌کەرە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "devotion", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdevotions1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdevotions1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "His devotion to his wife and family is touching.",
+            kurdishText:
+                "خۆبەخشینەکەی بە ژن و خێزانەکەی کارتێ‌کەرە.", // devotion
+            onPressedBritish: () => speakdevotions1("en-GB"),
+            onPressedAmerican: () => speakdevotions1("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "They showed great devotion to each other."),
-                    ExampleSentenceKurdish(
-                        text: "خەم‌خۆریی گەورەیان بە یەکدی پیشان دەدا."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdevotions2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdevotions2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "They showed great devotion to each other.",
+            kurdishText: "خەم‌خۆریی گەورەیان بە یەکدی پیشان دەدا.",
+            onPressedBritish: () => speakdevotions2("en-GB"),
+            onPressedAmerican: () => speakdevotions2("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٢. (ناو) بەخشێنی وزە و کاتی زۆر بە شتێک"),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "Her devotion to the job left her with very little free time."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "خۆتەرخانکردنی بۆ کارەکە بە کاتی بەتاڵی کەمەوە ھێشتییەوە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdevotions3("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdevotions3("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "Her devotion to the job left her with very little free time.",
+            kurdishText:
+                "خۆتەرخانکردنی بۆ کارەکە بە کاتی بەتاڵی کەمەوە ھێشتییەوە.",
+            onPressedBritish: () => speakdevotions3("en-GB"),
+            onPressedAmerican: () => speakdevotions3("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The judge praised the firefighters for their bravery and devotion to duty."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "دادوەرەکە پەسنی ئاگرکوژێنەرەوەکانی دا بۆ بوێری و لەخۆبوردووییان."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdevotions4("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdevotions4("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "The judge praised the firefighters for their bravery and devotion to duty.",
+            kurdishText:
+                "دادوەرەکە پەسنی ئاگرکوژێنەرەوەکانی دا بۆ بوێری و لەخۆبوردووییان.",
+            onPressedBritish: () => speakdevotions4("en-GB"),
+            onPressedAmerican: () => speakdevotions4("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: "٣. (ناو) نازی ئایینی"),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "He was a man of deep religious devotion."),
-                    ExampleSentenceKurdish(
-                        text: "پیاوێکی نوێژکاری قووڵی ئایینی بوو."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdevotions5("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdevotions5("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "He was a man of deep religious devotion.",
+            kurdishText: "پیاوێکی نوێژکاری قووڵی ئایینی بوو.",
+            onPressedBritish: () => speakdevotions5("en-GB"),
+            onPressedAmerican: () => speakdevotions5("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The statue of the emperor became an object of devotion."),
-                    ExampleSentenceKurdish(
-                        text: "پەیکەری ئیمپراتۆر بوو بە کەرەستەیەکی پەرستش."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdevotions6("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdevotions6("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "The statue of the emperor became an object of devotion.",
+            kurdishText: "پەیکەری ئیمپراتۆر بوو بە کەرەستەیەکی پەرستش.",
+            onPressedBritish: () => speakdevotions6("en-GB"),
+            onPressedAmerican: () => speakdevotions6("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: "٤. (ناو) نوێژ و نزای ئایینی"),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(text: "She went to her devotions."),
-                    ExampleSentenceKurdish(text: "چوو بۆ نزاکانی."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdevotions7("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdevotions7("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "She went to her devotions.",
+            kurdishText: "چوو بۆ نزاکانی.",
+            onPressedBritish: () => speakdevotions7("en-GB"),
+            onPressedAmerican: () => speakdevotions7("en-US"),
           ),
           // devotions800"),
           // speakdevotions8

@@ -251,62 +251,24 @@ class KurdishMeaning extends StatelessWidget {
 """),
           const DefinitionKurdish(
               text: "١. (ناو) ئاشکراکردنی شتێک بۆ خەڵکی کە پێشووتر نھێنی بوو"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The bank will need full disclosure of your financial situation and assets."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "بانکەکە پێویستی بە خستنەوەڕووی تەواوی دۆخی داراییت و سامانەکەت."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "disclosure", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdisclosures1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdisclosures1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "The bank will need full disclosure of your financial situation and assets.",
+            kurdishText:
+                "بانکەکە پێویستی بە خستنەوەڕووی تەواوی دۆخی داراییت و سامانەکەت.", // disclosure
+            onPressedBritish: () => speakdisclosures1("en-GB"),
+            onPressedAmerican: () => speakdisclosures1("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The court ruled to prevent public disclosure of the contents of the documents."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "دادگاکە بڕیاری دا دژ بە ئاشکراکردنی گشتی ناوەڕۆکی بەڵگەنامەکان."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdisclosures2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdisclosures2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "The court ruled to prevent public disclosure of the contents of the documents.",
+            kurdishText:
+                "دادگاکە بڕیاری دا دژ بە ئاشکراکردنی گشتی ناوەڕۆکی بەڵگەنامەکان.",
+            onPressedBritish: () => speakdisclosures2("en-GB"),
+            onPressedAmerican: () => speakdisclosures2("en-US"),
           ),
           // skipped_meaning
           // const DividerDefinition(),

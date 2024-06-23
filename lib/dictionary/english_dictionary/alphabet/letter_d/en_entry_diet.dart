@@ -309,284 +309,94 @@ class KurdishMeaning extends StatelessWidget {
 """),
           const DefinitionKurdish(
               text: "١. (ناو) ئەو خواردن و خواردنەوانەی کە بەردەوام دەیانخۆیت"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "I loved the Japanese diet of rice, vegetables and fish."),
-                    ExampleSentenceKurdish(
-                        text: "حەزم بە خۆراکی ژاپۆنی برنج، سەوزە و ماسی بوو."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "diet", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdiets1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdiets1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "I loved the Japanese diet of rice, vegetables and fish.",
+            kurdishText:
+                "حەزم بە خۆراکی ژاپۆنی برنج، سەوزە و ماسی بوو.", // diet
+            onPressedBritish: () => speakdiets1("en-GB"),
+            onPressedAmerican: () => speakdiets1("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The traditional Mediterranean diet is fairly high in fat."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "خواردنی باوی ناوچەی دەریای ناوەڕاست تا ڕادەیەک بەرزە لە چەوری."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdiets2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdiets2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "The traditional Mediterranean diet is fairly high in fat.",
+            kurdishText:
+                "خواردنی باوی ناوچەی دەریای ناوەڕاست تا ڕادەیەک بەرزە لە چەوری.",
+            onPressedBritish: () => speakdiets2("en-GB"),
+            onPressedAmerican: () => speakdiets2("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "It is important to eat a balanced diet."),
-                    ExampleSentenceKurdish(
-                        text: "گرنگە کە سیستەمێکی خۆراکی ھاوسەنگت ھەبێت."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdiets3("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdiets3("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "It is important to eat a balanced diet.",
+            kurdishText: "گرنگە کە سیستەمێکی خۆراکی ھاوسەنگت ھەبێت.",
+            onPressedBritish: () => speakdiets3("en-GB"),
+            onPressedAmerican: () => speakdiets3("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "She was told to change her diet and quit smoking."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "پێی گوترا جۆری خۆراکی بگۆڕێت و واز لە جگەرەکێشان بھێنێت."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdiets4("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdiets4("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "She was told to change her diet and quit smoking.",
+            kurdishText:
+                "پێی گوترا جۆری خۆراکی بگۆڕێت و واز لە جگەرەکێشان بھێنێت.",
+            onPressedBritish: () => speakdiets4("en-GB"),
+            onPressedAmerican: () => speakdiets4("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "The animal's diet consists mainly of grasses."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "خواردنی ڕۆژانەی ئاژەڵەکە بەشێوەیەکی گشتی پشت دەبەستێت بە گژووگیا."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdiets5("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdiets5("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "The animal's diet consists mainly of grasses.",
+            kurdishText:
+                "خواردنی ڕۆژانەی ئاژەڵەکە بەشێوەیەکی گشتی پشت دەبەستێت بە گژووگیا.",
+            onPressedBritish: () => speakdiets5("en-GB"),
+            onPressedAmerican: () => speakdiets5("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
                   "٢. (ناو) کۆمەڵێکی سنووردار لە خواردن کە دەیانخۆیت بۆ ھۆکاری تەندرووستی یان کێش دابەزاندن"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "He followed a strict low-fat diet."),
-                    ExampleSentenceKurdish(
-                        text: "پابەندی پارێزێکی کەم چەوری توند بوو."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdiets6("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdiets6("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "He followed a strict low-fat diet.",
+            kurdishText: "پابەندی پارێزێکی کەم چەوری توند بوو.",
+            onPressedBritish: () => speakdiets6("en-GB"),
+            onPressedAmerican: () => speakdiets6("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "I decided to go on a diet (= to lose weight) before my holiday."),
-                    ExampleSentenceKurdish(
-                        text: "بڕیارمدا پێش پشووەکەم دەست بە پارێزێک بکەم."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdiets7("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdiets7("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "I decided to go on a diet (= to lose weight) before my holiday.",
+            kurdishText: "بڕیارمدا پێش پشووەکەم دەست بە پارێزێک بکەم.",
+            onPressedBritish: () => speakdiets7("en-GB"),
+            onPressedAmerican: () => speakdiets7("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "She is trying to lose weight through diet and exercise."),
-                    ExampleSentenceKurdish(
-                        text: "ھەوڵ دەدات کێش دابەزێنێت بە پارێز و ڕاھێنان."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdiets8("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdiets8("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "She is trying to lose weight through diet and exercise.",
+            kurdishText: "ھەوڵ دەدات کێش دابەزێنێت بە پارێز و ڕاھێنان.",
+            onPressedBritish: () => speakdiets8("en-GB"),
+            onPressedAmerican: () => speakdiets8("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٣. (ناو) ڕێژەیەکی زۆر لە ھەندێک چالاکیی سنووردار"),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "Children today are brought up on a diet of video games and TV on demand."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "ئەم سەردەمە منداڵان بە زەبەندییەکی زۆر لە یارییە ڤیدیۆییەکان و تەکەفیزیۆن لە بەردەستیان گەورە دەکرێن."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdiets9("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdiets9("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "Children today are brought up on a diet of video games and TV on demand.",
+            kurdishText:
+                "ئەم سەردەمە منداڵان بە زەبەندییەکی زۆر لە یارییە ڤیدیۆییەکان و تەکەفیزیۆن لە بەردەستیان گەورە دەکرێن.",
+            onPressedBritish: () => speakdiets9("en-GB"),
+            onPressedAmerican: () => speakdiets9("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: "٤. (کردار) دەسکردن بە پارێز"),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "She's always dieting but she never seems to lose any weight."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "ھەمیشە پارێز دەکات بەڵام ھەرگیز ھیچ کێش لەدەست نادات."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdiets10("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdiets10("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "She's always dieting but she never seems to lose any weight.",
+            kurdishText:
+                "ھەمیشە پارێز دەکات بەڵام ھەرگیز ھیچ کێش لەدەست نادات.",
+            onPressedBritish: () => speakdiets10("en-GB"),
+            onPressedAmerican: () => speakdiets10("en-US"),
           ),
           // diets1100"),
           // speakdiets11

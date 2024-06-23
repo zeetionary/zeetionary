@@ -248,82 +248,25 @@ class KurdishMeaning extends StatelessWidget {
 """),
           const DefinitionKurdish(
               text: "١. (کردار) ھەبوونی بۆچوونێکی دیاریکراو لەسەر کەسێک/شتێک"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "The evening was deemed a great success."),
-                    ExampleSentenceKurdish(
-                        text: "ئێوارەکە بە سەرکەوتنێکی گەورە دانرا."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "deem", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdeems1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdeems1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "The evening was deemed a great success.",
+            kurdishText: "ئێوارەکە بە سەرکەوتنێکی گەورە دانرا.", // deem
+            onPressedBritish: () => speakdeems1("en-GB"),
+            onPressedAmerican: () => speakdeems1("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "I deem it an honour to be invited."),
-                    ExampleSentenceKurdish(
-                        text: "بە شانازییەکم دانا کە بانگھێشت کرابم."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdeems2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdeems2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "I deem it an honour to be invited.",
+            kurdishText: "بە شانازییەکم دانا کە بانگھێشت کرابم.",
+            onPressedBritish: () => speakdeems2("en-GB"),
+            onPressedAmerican: () => speakdeems2("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "They would take any action deemed necessary."),
-                    ExampleSentenceKurdish(
-                        text: "ھەر ھەنگاوێک دەنێن کە بە پێویست ببینرێت."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdeems3("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdeems3("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "They would take any action deemed necessary.",
+            kurdishText: "ھەر ھەنگاوێک دەنێن کە بە پێویست ببینرێت.",
+            onPressedBritish: () => speakdeems3("en-GB"),
+            onPressedAmerican: () => speakdeems3("en-US"),
           ),
         ],
       ),

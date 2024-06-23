@@ -396,149 +396,53 @@ class KurdishMeaning extends StatelessWidget {
 کوردی: بوومەلەرزە، عەردھەژیان، بیبەلەرز، بوولەرە، زەمین‌لەرزە
 """),
           const DefinitionKurdish(text: """١. (ناو) بوومەلەرزە"""),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: """I was asleep when the earthquake struck."""),
-                    ExampleSentenceKurdish(
-                        text: """خەوتبووم کە بوومەلەرزەکە ڕوویدا."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "earthquake", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakearthquakes1("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakearthquakes1("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: """I was asleep when the earthquake struck.""",
+            kurdishText: """خەوتبووم کە بوومەلەرزەکە ڕوویدا.""", // earthquake
+            onPressedBritish: () => speakearthquakes1("en-GB"),
+            onPressedAmerican: () => speakearthquakes1("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            """Much of the town was destroyed in the earthquake."""),
-                    ExampleSentenceKurdish(
-                        text:
-                            """زۆرێک لە شارۆچکەکە لە بوومەلەرزەکەدا داڕووخا."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakearthquakes2("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakearthquakes2("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                """Much of the town was destroyed in the earthquake.""",
+            kurdishText: """زۆرێک لە شارۆچکەکە لە بوومەلەرزەکەدا داڕووخا.""",
+            onPressedBritish: () => speakearthquakes2("en-GB"),
+            onPressedAmerican: () => speakearthquakes2("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            """It was the biggest earthquake ever recorded in the US."""),
-                    ExampleSentenceKurdish(
-                        text:
-                            """ئەوە بەھێزترین بوومەلەرزە بوو کە لە ئەمریکا تۆمار کرابێت."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakearthquakes3("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakearthquakes3("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                """It was the biggest earthquake ever recorded in the US.""",
+            kurdishText:
+                """ئەوە بەھێزترین بوومەلەرزە بوو کە لە ئەمریکا تۆمار کرابێت.""",
+            onPressedBritish: () => speakearthquakes3("en-GB"),
+            onPressedAmerican: () => speakearthquakes3("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            """The area has not experienced a major earthquake in more than 700 years."""),
-                    ExampleSentenceKurdish(
-                        text:
-                            """ناوچەکە بۆ ٧٠٠ ساڵ دەبێت بوومەلەرزەی بەھێزی بەخۆوە نەدیوە."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakearthquakes4("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakearthquakes4("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                """The area has not experienced a major earthquake in more than 700 years.""",
+            kurdishText:
+                """ناوچەکە بۆ ٧٠٠ ساڵ دەبێت بوومەلەرزەی بەھێزی بەخۆوە نەدیوە.""",
+            onPressedBritish: () => speakearthquakes4("en-GB"),
+            onPressedAmerican: () => speakearthquakes4("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            """The earthquake hit the city at two in the morning."""),
-                    ExampleSentenceKurdish(
-                        text: """بوومە لە شارەکەی دا لە دووی بەرەبەیاندا."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakearthquakes5("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakearthquakes5("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                """The earthquake hit the city at two in the morning.""",
+            kurdishText: """بوومە لە شارەکەی دا لە دووی بەرەبەیاندا.""",
+            onPressedBritish: () => speakearthquakes5("en-GB"),
+            onPressedAmerican: () => speakearthquakes5("en-US"),
           ),
           // earthquakes600earthquakes6
           // speakearthquakes6

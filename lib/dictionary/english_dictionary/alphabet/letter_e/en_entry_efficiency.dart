@@ -407,184 +407,68 @@ class KurdishMeaning extends StatelessWidget {
 """),
           const DefinitionKurdish(
               text: """١. (ناو) کردنی شتێک بەبێ بەفیڕۆدان"""),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            """I was impressed by the efficiency with which she handled the crisis."""),
-                    ExampleSentenceKurdish(
-                        text:
-                            """سەرسام بووم بەو کارامەییەی کە مامەڵەی لەگەڵ کێشەکە کرد."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "efficiency", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakefficiencys1("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakefficiencys1("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                """I was impressed by the efficiency with which she handled the crisis.""",
+            kurdishText:
+                """سەرسام بووم بەو کارامەییەی کە مامەڵەی لەگەڵ کێشەکە کرد.""", // efficiency
+            onPressedBritish: () => speakefficiencys1("en-GB"),
+            onPressedAmerican: () => speakefficiencys1("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: """ژممارە. (ناو) پێنناسە"""),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            """She has run the project with great efficiency."""),
-                    ExampleSentenceKurdish(
-                        text: """پڕۆژەکەی بە کارامەیی زۆرەوە بەڕێوەبردووە."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakefficiencys2("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakefficiencys2("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: """She has run the project with great efficiency.""",
+            kurdishText: """پڕۆژەکەی بە کارامەیی زۆرەوە بەڕێوەبردووە.""",
+            onPressedBritish: () => speakefficiencys2("en-GB"),
+            onPressedAmerican: () => speakefficiencys2("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: """ژممارە. (ناو) پێنناسە"""),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            """The new computer system will cut costs and increase efficiency."""),
-                    ExampleSentenceKurdish(
-                        text:
-                            """سیستەمە کۆمپیوتەرییە تازەکە خەرجی کەم دەکاتەوە و کارامەیی زیاد دەکات."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakefficiencys3("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakefficiencys3("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                """The new computer system will cut costs and increase efficiency.""",
+            kurdishText:
+                """سیستەمە کۆمپیوتەرییە تازەکە خەرجی کەم دەکاتەوە و کارامەیی زیاد دەکات.""",
+            onPressedBritish: () => speakefficiencys3("en-GB"),
+            onPressedAmerican: () => speakefficiencys3("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: """ژممارە. (ناو) پێنناسە"""),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            """A team of inspectors will be monitoring the efficiency of the new system."""),
-                    ExampleSentenceKurdish(
-                        text:
-                            """تیمێک لە پشکنەران چاودێریی کارامەیی سیستەمە تازەکە دەکەن."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakefficiencys4("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakefficiencys4("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                """A team of inspectors will be monitoring the efficiency of the new system.""",
+            kurdishText:
+                """تیمێک لە پشکنەران چاودێریی کارامەیی سیستەمە تازەکە دەکەن.""",
+            onPressedBritish: () => speakefficiencys4("en-GB"),
+            onPressedAmerican: () => speakefficiencys4("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text: """٢. (ناو) ڕێگاکانی کەمکردنەوەی بەفیڕۆدانی کات و پارە"""),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            """We are looking at our business to see where savings and efficiencies can be made."""),
-                    ExampleSentenceKurdish(
-                        text:
-                            """سەیری بازرگانییەکەمان دەکەین تاوەکوو بزانین لە کوێدا دەکرێت پاشەکەوت و باش‌کارکردوویی ئەنجام بدرێت."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakefficiencys5("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakefficiencys5("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                """We are looking at our business to see where savings and efficiencies can be made.""",
+            kurdishText:
+                """سەیری بازرگانییەکەمان دەکەین تاوەکوو بزانین لە کوێدا دەکرێت پاشەکەوت و باش‌کارکردوویی ئەنجام بدرێت.""",
+            onPressedBritish: () => speakefficiencys5("en-GB"),
+            onPressedAmerican: () => speakefficiencys5("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
                   """٣. (ناو) پەیوەندیی نێوان ئەو وزەیەی کە دەچێتە ناو ئامێرێک یان بزوێنەرێک، و ئەو ڕێژەیەی کە بەرھەمی دەھێنێت"""),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            """What is the efficiency percentage of solar panels?"""),
-                    ExampleSentenceKurdish(
-                        text:
-                            """ڕێژەی سەدی ئەنجام‌دانەوەی ڕووتەختی خۆری چەندە؟"""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakefficiencys6("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakefficiencys6("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                """What is the efficiency percentage of solar panels?""",
+            kurdishText: """ڕێژەی سەدی ئەنجام‌دانەوەی ڕووتەختی خۆری چەندە؟""",
+            onPressedBritish: () => speakefficiencys6("en-GB"),
+            onPressedAmerican: () => speakefficiencys6("en-US"),
           ),
           // efficiencys700efficiencys7
           // speakefficiencys7

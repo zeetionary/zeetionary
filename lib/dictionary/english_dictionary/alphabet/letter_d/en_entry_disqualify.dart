@@ -252,91 +252,34 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "١. (کردار) ڕێگری لە کەسێک کە شتێک بکات بەھۆی ئەوەی یاسای شکاندووە"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "He was disqualified from the competition for using drugs."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "لە پێشبڕکێیەکە بێبەشکرا بەھۆی بەکارھێنانی دەرمان."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "disqualify", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdisqualifys1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdisqualifys1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "He was disqualified from the competition for using drugs.",
+            kurdishText:
+                "لە پێشبڕکێیەکە بێبەشکرا بەھۆی بەکارھێنانی دەرمان.", // disqualify
+            onPressedBritish: () => speakdisqualifys1("en-GB"),
+            onPressedAmerican: () => speakdisqualifys1("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "You could be disqualified from driving for up to three years."),
-                    ExampleSentenceKurdish(
-                        text: "دەکرێت بۆ سێ ساڵ لە شۆفێریکردن بێبەش بکرێیت."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdisqualifys2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdisqualifys2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "You could be disqualified from driving for up to three years.",
+            kurdishText: "دەکرێت بۆ سێ ساڵ لە شۆفێریکردن بێبەش بکرێیت.",
+            onPressedBritish: () => speakdisqualifys2("en-GB"),
+            onPressedAmerican: () => speakdisqualifys2("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
                   "٢. (کردار) بڕیاردانی ئەوەی کەسێک گونجاو نییە بۆ چالاکییەک یان پێگەیەک"),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "A heart condition disqualified him for military service."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "کێشەیەکی تەندرووستی دڵی بێبەشی کرد لە خزمەتی سەربازی."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdisqualifys3("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdisqualifys3("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "A heart condition disqualified him for military service.",
+            kurdishText:
+                "کێشەیەکی تەندرووستی دڵی بێبەشی کرد لە خزمەتی سەربازی.",
+            onPressedBritish: () => speakdisqualifys3("en-GB"),
+            onPressedAmerican: () => speakdisqualifys3("en-US"),
           ),
           // disqualifys400"),
           // speakdisqualifys4

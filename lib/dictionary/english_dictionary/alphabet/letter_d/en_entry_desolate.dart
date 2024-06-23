@@ -283,172 +283,59 @@ class KurdishMeaning extends StatelessWidget {
 کوردی: کاول، وێران، خاپوور، کاولە، وێرانە، چۆڵ،	دڵتەنگ، ناڕەحەت‌کەر، مات، کز، خەمبار،	تەنیا، بێ‌کەس، بێچارە، قوڕبەسەر، ھەناسەسارد، نەحەساوە 
 """),
           const DefinitionKurdish(text: "١. (ناو) چۆڵ‌وھۆڵ"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "The house stands desolate and empty."),
-                    ExampleSentenceKurdish(text: "خانووەکە چۆڵ‌وھۆڵ و بەتاڵە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "desolate", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdesolates1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdesolates1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "The house stands desolate and empty.",
+            kurdishText: "خانووەکە چۆڵ‌وھۆڵ و بەتاڵە.", // desolate
+            onPressedBritish: () => speakdesolates1("en-GB"),
+            onPressedAmerican: () => speakdesolates1("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(text: "The land was left desolate."),
-                    ExampleSentenceKurdish(text: "خانووەکە بە چۆڵی جێھێڵدرا."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdesolates2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdesolates2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "The land was left desolate.",
+            kurdishText: "خانووەکە بە چۆڵی جێھێڵدرا.",
+            onPressedBritish: () => speakdesolates2("en-GB"),
+            onPressedAmerican: () => speakdesolates2("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "It was difficult to imagine a more desolate place."),
-                    ExampleSentenceKurdish(
-                        text: "ئەستەم بوو خەیاڵی شوێنێکی چۆڵتر بکرێت."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdesolates3("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdesolates3("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "It was difficult to imagine a more desolate place.",
+            kurdishText: "ئەستەم بوو خەیاڵی شوێنێکی چۆڵتر بکرێت.",
+            onPressedBritish: () => speakdesolates3("en-GB"),
+            onPressedAmerican: () => speakdesolates3("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: "٢. (ھاوەڵناو) تەنھا و بێزار"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The loss of his friend made him feel utterly desolate."),
-                    ExampleSentenceKurdish(
-                        text: "لەدەستدانی ھاوڕێکەی تەواو تەنھای کرد."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdesolates4("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdesolates4("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "The loss of his friend made him feel utterly desolate.",
+            kurdishText: "لەدەستدانی ھاوڕێکەی تەواو تەنھای کرد.",
+            onPressedBritish: () => speakdesolates4("en-GB"),
+            onPressedAmerican: () => speakdesolates4("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "They were far from their families, desolate and frightened."),
-                    ExampleSentenceKurdish(
-                        text: "دوور لە خێزانەکانیان بوون بە مات و ترساوی."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdesolates5("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdesolates5("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "They were far from their families, desolate and frightened.",
+            kurdishText: "دوور لە خێزانەکانیان بوون بە مات و ترساوی.",
+            onPressedBritish: () => speakdesolates5("en-GB"),
+            onPressedAmerican: () => speakdesolates5("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٣. (کردار) نەھێشتنی خۆشی و ھیوا لە کەسێک"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "She had been desolated by the death of her friend."),
-                    ExampleSentenceKurdish(
-                        text: "تاسەبار بووبوو بەھۆی مردنی ھاوڕێکەیەوە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdesolates6("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdesolates6("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "She had been desolated by the death of her friend.",
+            kurdishText: "تاسەبار بووبوو بەھۆی مردنی ھاوڕێکەیەوە.",
+            onPressedBritish: () => speakdesolates6("en-GB"),
+            onPressedAmerican: () => speakdesolates6("en-US"),
           ),
           // desolates700"),
           // speakdesolates7

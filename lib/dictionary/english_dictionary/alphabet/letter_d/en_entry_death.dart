@@ -414,359 +414,106 @@ class KurdishMeaning extends StatelessWidget {
 کوردی: مردن، مەرگ، ئاووگڵ، کوژران، تیاچوون،	کوشتن،	مایەی کوژران، گیان‌گر،	کۆتایی، تیاچوون، نەمان،	ئاکام
 """),
           const DefinitionKurdish(text: "١. (ناو) مردن یان کوژرانی کەسێک"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "It is believed she died a violent death."),
-                    ExampleSentenceKurdish(
-                        text: "باوەڕ وایە بە کوشتنێکی دڕندانە مرد."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "death", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdeaths1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdeaths1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "It is believed she died a violent death.",
+            kurdishText: "باوەڕ وایە بە کوشتنێکی دڕندانە مرد.", // death
+            onPressedBritish: () => speakdeaths1("en-GB"),
+            onPressedAmerican: () => speakdeaths1("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "He suffered a slow and painful death."),
-                    ExampleSentenceKurdish(
-                        text: "تووشی مەرگێکی ھێواش و بەئازار بوو."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdeaths2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdeaths2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "He suffered a slow and painful death.",
+            kurdishText: "تووشی مەرگێکی ھێواش و بەئازار بوو.",
+            onPressedBritish: () => speakdeaths2("en-GB"),
+            onPressedAmerican: () => speakdeaths2("en-US"),
           ),
           Column(
             children: [
               MyExpansionTile(
                 children: [
-                  Row(
-                    children: [
-                      const Expanded(
-                        child: Column(
-                          children: [
-                            ExampleSentenceEnglish(
-                                text: "He met his death two years later."),
-                            ExampleSentenceKurdish(
-                                text: "دوای دوو ساڵ بە مەرگی خۆی گەشت."),
-                          ],
-                        ),
-                      ),
-                      const CustomSizedBoxForTTS(),
-                      Column(
-                        children: [
-                          CustomIconButtonBritish(
-                            onPressed: () => speakdeaths3("en-GB"),
-                          ),
-                          CustomIconButtonAmerican(
-                            onPressed: () => speakdeaths3("en-US"),
-                          ),
-                        ],
-                      ),
-                    ],
+                  SentencesRow(
+                    englishText: "He met his death two years later.",
+                    kurdishText: "دوای دوو ساڵ بە مەرگی خۆی گەشت.",
+                    onPressedBritish: () => speakdeaths3("en-GB"),
+                    onPressedAmerican: () => speakdeaths3("en-US"),
                   ),
                   const DividerSentences(),
-                  Row(
-                    children: [
-                      const Expanded(
-                        child: Column(
-                          children: [
-                            ExampleSentenceEnglish(
-                                text:
-                                    "He witnessed the death of his mother from tuberculosis."),
-                            ExampleSentenceKurdish(
-                                text:
-                                    "شایەتحاڵی مەرگی دایکی بوو بە نەخۆشی سیل."),
-                          ],
-                        ),
-                      ),
-                      const CustomSizedBoxForTTS(),
-                      Column(
-                        children: [
-                          CustomIconButtonBritish(
-                            onPressed: () => speakdeaths4("en-GB"),
-                          ),
-                          CustomIconButtonAmerican(
-                            onPressed: () => speakdeaths4("en-US"),
-                          ),
-                        ],
-                      ),
-                    ],
+                  SentencesRow(
+                    englishText:
+                        "He witnessed the death of his mother from tuberculosis.",
+                    kurdishText: "شایەتحاڵی مەرگی دایکی بوو بە نەخۆشی سیل.",
+                    onPressedBritish: () => speakdeaths4("en-GB"),
+                    onPressedAmerican: () => speakdeaths4("en-US"),
                   ),
                   const DividerSentences(),
-                  Row(
-                    children: [
-                      const Expanded(
-                        child: Column(
-                          children: [
-                            ExampleSentenceEnglish(
-                                text: "Her death came at the age of 82."),
-                            ExampleSentenceKurdish(
-                                text: "لە تەمەنی ٨٢ ساڵیدا کۆچی دوایی کرد."),
-                          ],
-                        ),
-                      ),
-                      const CustomSizedBoxForTTS(),
-                      Column(
-                        children: [
-                          CustomIconButtonBritish(
-                            onPressed: () => speakdeaths5("en-GB"),
-                          ),
-                          CustomIconButtonAmerican(
-                            onPressed: () => speakdeaths5("en-US"),
-                          ),
-                        ],
-                      ),
-                    ],
+                  SentencesRow(
+                    englishText: "Her death came at the age of 82.",
+                    kurdishText: "لە تەمەنی ٨٢ ساڵیدا کۆچی دوایی کرد.",
+                    onPressedBritish: () => speakdeaths5("en-GB"),
+                    onPressedAmerican: () => speakdeaths5("en-US"),
                   ),
                   const DividerSentences(),
-                  Row(
-                    children: [
-                      const Expanded(
-                        child: Column(
-                          children: [
-                            ExampleSentenceEnglish(
-                                text:
-                                    "How far would they go to avenge the death of their friend?"),
-                            ExampleSentenceKurdish(
-                                text:
-                                    "تا چەند دەچن بۆ تۆڵەکردنەوەی مەرگی ھاوڕێکەیان؟"),
-                          ],
-                        ),
-                      ),
-                      const CustomSizedBoxForTTS(),
-                      Column(
-                        children: [
-                          CustomIconButtonBritish(
-                            onPressed: () => speakdeaths6("en-GB"),
-                          ),
-                          CustomIconButtonAmerican(
-                            onPressed: () => speakdeaths6("en-US"),
-                          ),
-                        ],
-                      ),
-                    ],
+                  SentencesRow(
+                    englishText:
+                        "How far would they go to avenge the death of their friend?",
+                    kurdishText:
+                        "تا چەند دەچن بۆ تۆڵەکردنەوەی مەرگی ھاوڕێکەیان؟",
+                    onPressedBritish: () => speakdeaths6("en-GB"),
+                    onPressedAmerican: () => speakdeaths6("en-US"),
                   ),
                   const DividerSentences(),
-                  Row(
-                    children: [
-                      const Expanded(
-                        child: Column(
-                          children: [
-                            ExampleSentenceEnglish(
-                                text: "More deaths occur in winter."),
-                            ExampleSentenceKurdish(
-                                text: "مەرگی زیاتر لە زستاندا ڕوودەدەن."),
-                          ],
-                        ),
-                      ),
-                      const CustomSizedBoxForTTS(),
-                      Column(
-                        children: [
-                          CustomIconButtonBritish(
-                            onPressed: () => speakdeaths7("en-GB"),
-                          ),
-                          CustomIconButtonAmerican(
-                            onPressed: () => speakdeaths7("en-US"),
-                          ),
-                        ],
-                      ),
-                    ],
+                  SentencesRow(
+                    englishText: "More deaths occur in winter.",
+                    kurdishText: "مەرگی زیاتر لە زستاندا ڕوودەدەن.",
+                    onPressedBritish: () => speakdeaths7("en-GB"),
+                    onPressedAmerican: () => speakdeaths7("en-US"),
                   ),
                   const DividerSentences(),
-                  Row(
-                    children: [
-                      const Expanded(
-                        child: Column(
-                          children: [
-                            ExampleSentenceEnglish(
-                                text:
-                                    "Obesity is a leading cause of preventable deaths."),
-                            ExampleSentenceKurdish(
-                                text:
-                                    "قەڵەوی ھۆکاری سەرەکی مردنی پێشپێگیراوە."),
-                          ],
-                        ),
-                      ),
-                      const CustomSizedBoxForTTS(),
-                      Column(
-                        children: [
-                          CustomIconButtonBritish(
-                            onPressed: () => speakdeaths8("en-GB"),
-                          ),
-                          CustomIconButtonAmerican(
-                            onPressed: () => speakdeaths8("en-US"),
-                          ),
-                        ],
-                      ),
-                    ],
+                  SentencesRow(
+                    englishText:
+                        "Obesity is a leading cause of preventable deaths.",
+                    kurdishText: "قەڵەوی ھۆکاری سەرەکی مردنی پێشپێگیراوە.",
+                    onPressedBritish: () => speakdeaths8("en-GB"),
+                    onPressedAmerican: () => speakdeaths8("en-US"),
                   ),
                   const DividerSentences(),
-                  Row(
-                    children: [
-                      const Expanded(
-                        child: Column(
-                          children: [
-                            ExampleSentenceEnglish(
-                                text:
-                                    "On Samuel's death, the farm passed to his sons."),
-                            ExampleSentenceKurdish(
-                                text:
-                                    "لەگەڵ مردنی ساموێل، کێڵگەکە بەر کوڕەکانی کەوت."),
-                          ],
-                        ),
-                      ),
-                      const CustomSizedBoxForTTS(),
-                      Column(
-                        children: [
-                          CustomIconButtonBritish(
-                            onPressed: () => speakdeaths9("en-GB"),
-                          ),
-                          CustomIconButtonAmerican(
-                            onPressed: () => speakdeaths9("en-US"),
-                          ),
-                        ],
-                      ),
-                    ],
+                  SentencesRow(
+                    englishText:
+                        "On Samuel's death, the farm passed to his sons.",
+                    kurdishText:
+                        "لەگەڵ مردنی ساموێل، کێڵگەکە بەر کوڕەکانی کەوت.",
+                    onPressedBritish: () => speakdeaths9("en-GB"),
+                    onPressedAmerican: () => speakdeaths9("en-US"),
                   ),
                   const DividerSentences(),
-                  Row(
-                    children: [
-                      const Expanded(
-                        child: Column(
-                          children: [
-                            ExampleSentenceEnglish(
-                                text:
-                                    "Police are not treating the death as suspicious."),
-                            ExampleSentenceKurdish(
-                                text: "پۆلیس مردنەکە بە گوماناوی سەیر ناکەن."),
-                          ],
-                        ),
-                      ),
-                      const CustomSizedBoxForTTS(),
-                      Column(
-                        children: [
-                          CustomIconButtonBritish(
-                            onPressed: () => speakdeaths10("en-GB"),
-                          ),
-                          CustomIconButtonAmerican(
-                            onPressed: () => speakdeaths10("en-US"),
-                          ),
-                        ],
-                      ),
-                    ],
+                  SentencesRow(
+                    englishText:
+                        "Police are not treating the death as suspicious.",
+                    kurdishText: "پۆلیس مردنەکە بە گوماناوی سەیر ناکەن.",
+                    onPressedBritish: () => speakdeaths10("en-GB"),
+                    onPressedAmerican: () => speakdeaths10("en-US"),
                   ),
                   const DividerSentences(),
-                  Row(
-                    children: [
-                      const Expanded(
-                        child: Column(
-                          children: [
-                            ExampleSentenceEnglish(
-                                text:
-                                    "Women accounted for 2% of all combat deaths."),
-                            ExampleSentenceKurdish(
-                                text: "ژنان ڕێژەی ٢٪ ـی مردنەکانی جەنگ بوون."),
-                          ],
-                        ),
-                      ),
-                      const CustomSizedBoxForTTS(),
-                      Column(
-                        children: [
-                          CustomIconButtonBritish(
-                            onPressed: () => speakdeaths11("en-GB"),
-                          ),
-                          CustomIconButtonAmerican(
-                            onPressed: () => speakdeaths11("en-US"),
-                          ),
-                        ],
-                      ),
-                    ],
+                  SentencesRow(
+                    englishText: "Women accounted for 2% of all combat deaths.",
+                    kurdishText: "ژنان ڕێژەی ٢٪ ـی مردنەکانی جەنگ بوون.",
+                    onPressedBritish: () => speakdeaths11("en-GB"),
+                    onPressedAmerican: () => speakdeaths11("en-US"),
                   ),
                   const DividerSentences(),
-                  Row(
-                    children: [
-                      const Expanded(
-                        child: Column(
-                          children: [
-                            ExampleSentenceEnglish(
-                                text:
-                                    "She faked her own death so he couldn't find her."),
-                            ExampleSentenceKurdish(
-                                text:
-                                    "مردنی خۆی ساختە کرد بۆ ئەوەی نەیدۆزێتەوە."),
-                          ],
-                        ),
-                      ),
-                      const CustomSizedBoxForTTS(),
-                      Column(
-                        children: [
-                          CustomIconButtonBritish(
-                            onPressed: () => speakdeaths12("en-GB"),
-                          ),
-                          CustomIconButtonAmerican(
-                            onPressed: () => speakdeaths12("en-US"),
-                          ),
-                        ],
-                      ),
-                    ],
+                  SentencesRow(
+                    englishText:
+                        "She faked her own death so he couldn't find her.",
+                    kurdishText: "مردنی خۆی ساختە کرد بۆ ئەوەی نەیدۆزێتەوە.",
+                    onPressedBritish: () => speakdeaths12("en-GB"),
+                    onPressedAmerican: () => speakdeaths12("en-US"),
                   ),
                   const DividerSentences(),
-                  Row(
-                    children: [
-                      const Expanded(
-                        child: Column(
-                          children: [
-                            ExampleSentenceEnglish(
-                                text:
-                                    "The annual total of road deaths is falling."),
-                            ExampleSentenceKurdish(
-                                text:
-                                    "مردنی گشتی ساڵانەی سەر شەقامەکان دادەبەزێت."),
-                          ],
-                        ),
-                      ),
-                      const CustomSizedBoxForTTS(),
-                      Column(
-                        children: [
-                          CustomIconButtonBritish(
-                            onPressed: () => speakdeaths13("en-GB"),
-                          ),
-                          CustomIconButtonAmerican(
-                            onPressed: () => speakdeaths13("en-US"),
-                          ),
-                        ],
-                      ),
-                    ],
+                  SentencesRow(
+                    englishText: "The annual total of road deaths is falling.",
+                    kurdishText: "مردنی گشتی ساڵانەی سەر شەقامەکان دادەبەزێت.",
+                    onPressedBritish: () => speakdeaths13("en-GB"),
+                    onPressedAmerican: () => speakdeaths13("en-US"),
                   ),
                 ],
               ),
@@ -774,278 +521,87 @@ class KurdishMeaning extends StatelessWidget {
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: "٢. (ناو) کۆتایی ژیان"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "Police are trying to establish the cause of death."),
-                    ExampleSentenceKurdish(
-                        text: "پۆلیس ھەوڵ دەدەن ھۆکاری مردن دیاری بکەن."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdeaths14("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdeaths14("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "Police are trying to establish the cause of death.",
+            kurdishText: "پۆلیس ھەوڵ دەدەن ھۆکاری مردن دیاری بکەن.",
+            onPressedBritish: () => speakdeaths14("en-GB"),
+            onPressedAmerican: () => speakdeaths14("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The disease can cause death unless the patient is treated promptly."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "نەخۆشییەکە دەکرێت ببێتە ھۆکاری مردن مەگەر ئەوەی نەخۆشەکە بەزووی چارەسەر بکرێت."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdeaths15("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdeaths15("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "The disease can cause death unless the patient is treated promptly.",
+            kurdishText:
+                "نەخۆشییەکە دەکرێت ببێتە ھۆکاری مردن مەگەر ئەوەی نەخۆشەکە بەزووی چارەسەر بکرێت.",
+            onPressedBritish: () => speakdeaths15("en-GB"),
+            onPressedAmerican: () => speakdeaths15("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "Do you believe in life after death?"),
-                    ExampleSentenceKurdish(
-                        text: "باوەڕت بە ژیانی دوای مردن ھەیە؟"),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdeaths16("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdeaths16("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "Do you believe in life after death?",
+            kurdishText: "باوەڕت بە ژیانی دوای مردن ھەیە؟",
+            onPressedBritish: () => speakdeaths16("en-GB"),
+            onPressedAmerican: () => speakdeaths16("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "He was sentenced to death (= to be executed)."),
-                    ExampleSentenceKurdish(text: "بە مردن سزا درا."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdeaths17("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdeaths17("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "He was sentenced to death (= to be executed).",
+            kurdishText: "بە مردن سزا درا.",
+            onPressedBritish: () => speakdeaths17("en-GB"),
+            onPressedAmerican: () => speakdeaths17("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "Millions of people starved to death (= were killed by lack of food)."),
-                    ExampleSentenceKurdish(
-                        text: "ملیۆنان کەس لە برسییەتیدا مردن."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdeaths18("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdeaths18("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "Millions of people starved to death (= were killed by lack of food).",
+            kurdishText: "ملیۆنان کەس لە برسییەتیدا مردن.",
+            onPressedBritish: () => speakdeaths18("en-GB"),
+            onPressedAmerican: () => speakdeaths18("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "Four prisoners were under sentence of death."),
-                    ExampleSentenceKurdish(
-                        text: "چوار زیندانی سزای مەرگیان ھەبوو."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdeaths19("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdeaths19("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "Four prisoners were under sentence of death.",
+            kurdishText: "چوار زیندانی سزای مەرگیان ھەبوو.",
+            onPressedBritish: () => speakdeaths19("en-GB"),
+            onPressedAmerican: () => speakdeaths19("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "Touching the wires means instant death."),
-                    ExampleSentenceKurdish(
-                        text: "دەستدان لە وایەرەکان واتا مردنی دەستبەجێ."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdeaths20("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdeaths20("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "Touching the wires means instant death.",
+            kurdishText: "دەستدان لە وایەرەکان واتا مردنی دەستبەجێ.",
+            onPressedBritish: () => speakdeaths20("en-GB"),
+            onPressedAmerican: () => speakdeaths20("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
                   "٣. (ناو) وەستاندنی پڕۆسەی زیندەکیمیایی ژیان لە خانە یان شانەدا"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "This process becomes irreversible and leads to cell death."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "پڕۆسەکە ھەڵنەوەشاوە دەبێت و دەبێتە ھۆکاری مردنی خانە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdeaths21("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdeaths21("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "This process becomes irreversible and leads to cell death.",
+            kurdishText:
+                "پڕۆسەکە ھەڵنەوەشاوە دەبێت و دەبێتە ھۆکاری مردنی خانە.",
+            onPressedBritish: () => speakdeaths21("en-GB"),
+            onPressedAmerican: () => speakdeaths21("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٤. (ناو) کۆتایی یان لەناوچوونی ھەمیشەیی شتێک"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "By 1740 European feudalism was in its death throes."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "لە ساڵی ١٧٤٠ دەرەبەگایەتی لە ئەورووپا لە ژانی مەرگدا بوو."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdeaths22("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdeaths22("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "By 1740 European feudalism was in its death throes.",
+            kurdishText:
+                "لە ساڵی ١٧٤٠ دەرەبەگایەتی لە ئەورووپا لە ژانی مەرگدا بوو.",
+            onPressedBritish: () => speakdeaths22("en-GB"),
+            onPressedAmerican: () => speakdeaths22("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "Delivering on time is a matter of life and death for a small company."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "گەیاندن لەکاتی خۆیدا بابەتی ژیان و مردنە بۆ کۆمپانیایەکی بچووک."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdeaths23("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdeaths23("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "Delivering on time is a matter of life and death for a small company.",
+            kurdishText:
+                "گەیاندن لەکاتی خۆیدا بابەتی ژیان و مردنە بۆ کۆمپانیایەکی بچووک.",
+            onPressedBritish: () => speakdeaths23("en-GB"),
+            onPressedAmerican: () => speakdeaths23("en-US"),
           ),
         ],
       ),

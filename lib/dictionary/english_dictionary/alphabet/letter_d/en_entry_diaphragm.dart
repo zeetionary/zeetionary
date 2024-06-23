@@ -233,30 +233,11 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "١. (ناو) توێژاڵێک لە ماسولکە لە دەوری گەدە و سنگ کە بۆ کۆنترۆڵی ھەناسەدان بەکاردێت"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "The diaphragm contracts when you inhale."),
-                    ExampleSentenceKurdish(
-                        text: "ناوپەنچک گرژدەبێتەوە کە ھەناسە دەمژیت."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "diaphragm", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdiaphragms1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdiaphragms1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "The diaphragm contracts when you inhale.",
+            kurdishText: "ناوپەنچک گرژدەبێتەوە کە ھەناسە دەمژیت.", // diaphragm
+            onPressedBritish: () => speakdiaphragms1("en-GB"),
+            onPressedAmerican: () => speakdiaphragms1("en-US"),
           ),
           // skipped_meaning
           // diaphragms200"),

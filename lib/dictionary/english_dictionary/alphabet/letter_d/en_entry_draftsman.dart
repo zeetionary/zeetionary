@@ -373,59 +373,23 @@ class KurdishMeaning extends StatelessWidget {
               text:
                   "١. (ناو) کەسێک کە پلان و وێنەکێشانی ئامێر و بینای تازە دادەڕێژێت"),
           // const AlsoEnglishckb(word: "ھەروەھا: draughtsman"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The draftsman created blueprints for the new building."),
-                    ExampleSentenceKurdish(
-                        text: "نەخشەکێشەکە نەخشەی بینا تازەکەی دانا."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "draftsman", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdraftsmans1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdraftsmans1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "The draftsman created blueprints for the new building.",
+            kurdishText: "نەخشەکێشەکە نەخشەی بینا تازەکەی دانا.", // draftsman
+            onPressedBritish: () => speakdraftsmans1("en-GB"),
+            onPressedAmerican: () => speakdraftsmans1("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٢. (ناو) کەسێک کە کاری وێنەکێشان دەکات"),
           // const DividerSentences(),
           // const AlsoEnglishckb(word: "ھەروەھا: draughtsman"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(text: "He's a poor draftsman."),
-                    ExampleSentenceKurdish(text: "وێنەکێشێکی ھەژارە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdraftsmans2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdraftsmans2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "He's a poor draftsman.",
+            kurdishText: "وێنەکێشێکی ھەژارە.",
+            onPressedBritish: () => speakdraftsmans2("en-GB"),
+            onPressedAmerican: () => speakdraftsmans2("en-US"),
           ),
           // draftsmans300"),
           // speakdraftsmans3

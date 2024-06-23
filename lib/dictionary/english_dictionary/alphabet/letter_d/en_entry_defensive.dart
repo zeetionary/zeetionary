@@ -276,150 +276,52 @@ class KurdishMeaning extends StatelessWidget {
 """),
           const DefinitionKurdish(
               text: "١. (ھاوەڵناو) پاراستنی کەسێک/شتێک دژ بە ھێرش"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "These are purely defensive measures."),
-                    ExampleSentenceKurdish(
-                        text: "ئەمانە تەنھا ھەنگاوی خۆپارێزین."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "defensive", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdefensives1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdefensives1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "These are purely defensive measures.",
+            kurdishText: "ئەمانە تەنھا ھەنگاوی خۆپارێزین.", // defensive
+            onPressedBritish: () => speakdefensives1("en-GB"),
+            onPressedAmerican: () => speakdefensives1("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "Troops took up a defensive position around the town."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "ھێزەکان چوونە حاڵەتی بەرگرییەوە لە دەوری شارۆچکەکە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdefensives2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdefensives2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "Troops took up a defensive position around the town.",
+            kurdishText: "ھێزەکان چوونە حاڵەتی بەرگرییەوە لە دەوری شارۆچکەکە.",
+            onPressedBritish: () => speakdefensives2("en-GB"),
+            onPressedAmerican: () => speakdefensives2("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
                   "٢. (ھاوەڵناو) ڕەفتارکردن بەشێوەیەک کە وای پیشان دەدات وا ھەست دەکەیت سەرزەنشت دەکرێیت"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "Don't ask him about his plans—he just gets defensive."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "لێم مەپرسە سەبارەت بە پلانەکانی ـ تەنھا دەچێتە دۆخی خۆپارێزی."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdefensives3("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdefensives3("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "Don't ask him about his plans—he just gets defensive.",
+            kurdishText:
+                "لێم مەپرسە سەبارەت بە پلانەکانی ـ تەنھا دەچێتە دۆخی خۆپارێزی.",
+            onPressedBritish: () => speakdefensives3("en-GB"),
+            onPressedAmerican: () => speakdefensives3("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "٤. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "He is extremely defensive about his work."),
-                    ExampleSentenceKurdish(
-                        text: "تەواو بەرگریکاری کارەکەیەتی."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdefensives4("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdefensives4("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "He is extremely defensive about his work.",
+            kurdishText: "تەواو بەرگریکاری کارەکەیەتی.",
+            onPressedBritish: () => speakdefensives4("en-GB"),
+            onPressedAmerican: () => speakdefensives4("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
                   "٣. (ھاوەڵناو) ھەوڵدان لە پاراستنی گۆڵەکەت دژ بە تیمی بەرامبەر"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "He's currently the best defensive player on the team."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "لە ئێستادا باشترین یاریزانی بەرگریکارە لە تیمەکەدا."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdefensives5("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdefensives5("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "He's currently the best defensive player on the team.",
+            kurdishText: "لە ئێستادا باشترین یاریزانی بەرگریکارە لە تیمەکەدا.",
+            onPressedBritish: () => speakdefensives5("en-GB"),
+            onPressedAmerican: () => speakdefensives5("en-US"),
           ),
           // defensives600"),
           // speakdefensives6

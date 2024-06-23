@@ -529,599 +529,190 @@ class KurdishMeaning extends StatelessWidget {
 """),
           const DefinitionKurdish(
               text: "١. (کردار) بەتاڵکردنی شتێک بە دەرکردنی ئاوەکەی"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "The marshes have been drained."),
-                    ExampleSentenceKurdish(text: "زۆنگاوەکان بەتاڵ بوونە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "drain", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdrains1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdrains1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "The marshes have been drained.",
+            kurdishText: "زۆنگاوەکان بەتاڵ بوونە.", // drain
+            onPressedBritish: () => speakdrains1("en-GB"),
+            onPressedAmerican: () => speakdrains1("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "You will need to drain the central heating system before you replace the radiator."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "دەبێت سیستەمە سەرەکییەکەی گەرمی بەتاڵ بکەیت پێش ئەوەی ڕادیەیتەرەکە بگۆڕیت."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdrains2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdrains2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "You will need to drain the central heating system before you replace the radiator.",
+            kurdishText:
+                "دەبێت سیستەمە سەرەکییەکەی گەرمی بەتاڵ بکەیت پێش ئەوەی ڕادیەیتەرەکە بگۆڕیت.",
+            onPressedBritish: () => speakdrains2("en-GB"),
+            onPressedAmerican: () => speakdrains2("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "The swimming pool drains very slowly."),
-                    ExampleSentenceKurdish(
-                        text: "مەلەوانگەکە زۆر بە ھێواشی بەتاڵ دەبێتەوە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdrains3("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdrains3("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "The swimming pool drains very slowly.",
+            kurdishText: "مەلەوانگەکە زۆر بە ھێواشی بەتاڵ دەبێتەوە.",
+            onPressedBritish: () => speakdrains3("en-GB"),
+            onPressedAmerican: () => speakdrains3("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(text: "Leave the dishes to drain."),
-                    ExampleSentenceKurdish(
-                        text: "قاپەکان جێبھێڵە ئاوەچۆڕ بکەن."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdrains4("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdrains4("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "Leave the dishes to drain.",
+            kurdishText: "قاپەکان جێبھێڵە ئاوەچۆڕ بکەن.",
+            onPressedBritish: () => speakdrains4("en-GB"),
+            onPressedAmerican: () => speakdrains4("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: "٢. (کردار) نەھێشتنی شلە لە شتێک"),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "We had to drain the oil out of the engine."),
-                    ExampleSentenceKurdish(
-                        text: "پێویست بوو ڕۆنەکە لە بزوێنەرەکە دەربکەین."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdrains5("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdrains5("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "We had to drain the oil out of the engine.",
+            kurdishText: "پێویست بوو ڕۆنەکە لە بزوێنەرەکە دەربکەین.",
+            onPressedBritish: () => speakdrains5("en-GB"),
+            onPressedAmerican: () => speakdrains5("en-US"),
           ),
           Column(
             children: [
               MyExpansionTile(
                 children: [
-                  Row(
-                    children: [
-                      const Expanded(
-                        child: Column(
-                          children: [
-                            ExampleSentenceEnglish(
-                                text:
-                                    "Drain off the excess fat from the meat."),
-                            ExampleSentenceKurdish(
-                                text: "چەورییە زیادەکە لە گۆشتەکە بکەرەوە."),
-                          ],
-                        ),
-                      ),
-                      const CustomSizedBoxForTTS(),
-                      Column(
-                        children: [
-                          CustomIconButtonBritish(
-                            onPressed: () => speakdrains6("en-GB"),
-                          ),
-                          CustomIconButtonAmerican(
-                            onPressed: () => speakdrains6("en-US"),
-                          ),
-                        ],
-                      ),
-                    ],
+                  SentencesRow(
+                    englishText: "Drain off the excess fat from the meat.",
+                    kurdishText: "چەورییە زیادەکە لە گۆشتەکە بکەرەوە.",
+                    onPressedBritish: () => speakdrains6("en-GB"),
+                    onPressedAmerican: () => speakdrains6("en-US"),
                   ),
-                  // const DividerDefinition(),
-                  // const DefinitionKurdish(text: "ژممارە. (ناو) پێنناسە"),
                   const DividerSentences(),
-                  Row(
-                    children: [
-                      const Expanded(
-                        child: Column(
-                          children: [
-                            ExampleSentenceEnglish(
-                                text:
-                                    "She pulled out the plug and the water drained away."),
-                            ExampleSentenceKurdish(
-                                text: "دەمەوانەکەی دەرھێنا و ئاوەکە دەرچوو."),
-                          ],
-                        ),
-                      ),
-                      const CustomSizedBoxForTTS(),
-                      Column(
-                        children: [
-                          CustomIconButtonBritish(
-                            onPressed: () => speakdrains7("en-GB"),
-                          ),
-                          CustomIconButtonAmerican(
-                            onPressed: () => speakdrains7("en-US"),
-                          ),
-                        ],
-                      ),
-                    ],
+                  SentencesRow(
+                    englishText:
+                        "She pulled out the plug and the water drained away.",
+                    kurdishText: "دەمەوانەکەی دەرھێنا و ئاوەکە دەرچوو.",
+                    onPressedBritish: () => speakdrains7("en-GB"),
+                    onPressedAmerican: () => speakdrains7("en-US"),
                   ),
-                  // const DividerDefinition(),
-                  // const DefinitionKurdish(text: "ژممارە. (ناو) پێنناسە"),
                   const DividerSentences(),
-                  Row(
-                    children: [
-                      const Expanded(
-                        child: Column(
-                          children: [
-                            ExampleSentenceEnglish(
-                                text: "My anger slowly drained away."),
-                            ExampleSentenceKurdish(
-                                text: "(خوازراوی) تووڕەییەکەم بەھێواشی نەما."),
-                          ],
-                        ),
-                      ),
-                      const CustomSizedBoxForTTS(),
-                      Column(
-                        children: [
-                          CustomIconButtonBritish(
-                            onPressed: () => speakdrains8("en-GB"),
-                          ),
-                          CustomIconButtonAmerican(
-                            onPressed: () => speakdrains8("en-US"),
-                          ),
-                        ],
-                      ),
-                    ],
+                  SentencesRow(
+                    englishText: "My anger slowly drained away.",
+                    kurdishText: "(خوازراوی) تووڕەییەکەم بەھێواشی نەما.",
+                    onPressedBritish: () => speakdrains8("en-GB"),
+                    onPressedAmerican: () => speakdrains8("en-US"),
                   ),
-                  // const DividerDefinition(),
-                  // const DefinitionKurdish(text: "ژممارە. (ناو) پێنناسە"),
                   const DividerSentences(),
-                  Row(
-                    children: [
-                      const Expanded(
-                        child: Column(
-                          children: [
-                            ExampleSentenceEnglish(
-                                text: "The river drains into a lake."),
-                            ExampleSentenceKurdish(
-                                text: "ڕووبارەکە بەتاڵ دەبێتە ناو دەریاچەیەک."),
-                          ],
-                        ),
-                      ),
-                      const CustomSizedBoxForTTS(),
-                      Column(
-                        children: [
-                          CustomIconButtonBritish(
-                            onPressed: () => speakdrains9("en-GB"),
-                          ),
-                          CustomIconButtonAmerican(
-                            onPressed: () => speakdrains9("en-US"),
-                          ),
-                        ],
-                      ),
-                    ],
+                  SentencesRow(
+                    englishText: "The river drains into a lake.",
+                    kurdishText: "ڕووبارەکە بەتاڵ دەبێتە ناو دەریاچەیەک.",
+                    onPressedBritish: () => speakdrains9("en-GB"),
+                    onPressedAmerican: () => speakdrains9("en-US"),
                   ),
-                  // const DividerDefinition(),
-                  // const DefinitionKurdish(text: "ژممارە. (ناو) پێنناسە"),
                   const DividerSentences(),
-                  Row(
-                    children: [
-                      const Expanded(
-                        child: Column(
-                          children: [
-                            ExampleSentenceEnglish(
-                                text: "His face drained of colour."),
-                            ExampleSentenceKurdish(
-                                text: "(خوازراوی) ڕووخساری ڕەنگی تێدا نەما."),
-                          ],
-                        ),
-                      ),
-                      const CustomSizedBoxForTTS(),
-                      Column(
-                        children: [
-                          CustomIconButtonBritish(
-                            onPressed: () => speakdrains10("en-GB"),
-                          ),
-                          CustomIconButtonAmerican(
-                            onPressed: () => speakdrains10("en-US"),
-                          ),
-                        ],
-                      ),
-                    ],
+                  SentencesRow(
+                    englishText: "His face drained of colour.",
+                    kurdishText: "(خوازراوی) ڕووخساری ڕەنگی تێدا نەما.",
+                    onPressedBritish: () => speakdrains10("en-GB"),
+                    onPressedAmerican: () => speakdrains10("en-US"),
                   ),
-                  // const DividerDefinition(),
-                  // const DefinitionKurdish(text: "ژممارە. (ناو) پێنناسە"),
                   const DividerSentences(),
-                  Row(
-                    children: [
-                      const Expanded(
-                        child: Column(
-                          children: [
-                            ExampleSentenceEnglish(
-                                text: "The blood drains out of the body."),
-                            ExampleSentenceKurdish(
-                                text: "خوێن لە جەستەی نەما."),
-                          ],
-                        ),
-                      ),
-                      const CustomSizedBoxForTTS(),
-                      Column(
-                        children: [
-                          CustomIconButtonBritish(
-                            onPressed: () => speakdrains11("en-GB"),
-                          ),
-                          CustomIconButtonAmerican(
-                            onPressed: () => speakdrains11("en-US"),
-                          ),
-                        ],
-                      ),
-                    ],
+                  SentencesRow(
+                    englishText: "The blood drains out of the body.",
+                    kurdishText: "خوێن لە جەستەی نەما.",
+                    onPressedBritish: () => speakdrains11("en-GB"),
+                    onPressedAmerican: () => speakdrains11("en-US"),
                   ),
-                  // const DividerDefinition(),
-                  // const DefinitionKurdish(text: "ژممارە. (ناو) پێنناسە"),
                   const DividerSentences(),
-                  Row(
-                    children: [
-                      const Expanded(
-                        child: Column(
-                          children: [
-                            ExampleSentenceEnglish(
-                                text:
-                                    "The country's coal reserves are being drained away."),
-                            ExampleSentenceKurdish(
-                                text:
-                                    "(خوازراوی) یەدەگی خەڵووزی وڵاتەکە دەدۆشرێت."),
-                          ],
-                        ),
-                      ),
-                      const CustomSizedBoxForTTS(),
-                      Column(
-                        children: [
-                          CustomIconButtonBritish(
-                            onPressed: () => speakdrains12("en-GB"),
-                          ),
-                          CustomIconButtonAmerican(
-                            onPressed: () => speakdrains12("en-US"),
-                          ),
-                        ],
-                      ),
-                    ],
+                  SentencesRow(
+                    englishText:
+                        "The country's coal reserves are being drained away.",
+                    kurdishText: "(خوازراوی) یەدەگی خەڵووزی وڵاتەکە دەدۆشرێت.",
+                    onPressedBritish: () => speakdrains12("en-GB"),
+                    onPressedAmerican: () => speakdrains12("en-US"),
                   ),
                 ],
               ),
             ],
           ),
+
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
                   "٣. (کردار) بەتاڵکردنی شتێک بە خواردنەوەی ھەموو ئەوەی تێیدایە"),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "In one gulp, he drained the glass."),
-                    ExampleSentenceKurdish(
-                        text: "بە یەک ھەڵقوڕان ھەموو گڵاسەکەی بەتاڵکرد."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdrains13("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdrains13("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "In one gulp, he drained the glass.",
+            kurdishText: "بە یەک ھەڵقوڕان ھەموو گڵاسەکەی بەتاڵکرد.",
+            onPressedBritish: () => speakdrains13("en-GB"),
+            onPressedAmerican: () => speakdrains13("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "She quickly drained the last of her drink."),
-                    ExampleSentenceKurdish(
-                        text: "بەخێرایی کۆتا خواردنەوەیی ھەڵقوڕاند."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdrains14("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdrains14("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "She quickly drained the last of her drink.",
+            kurdishText: "بەخێرایی کۆتا خواردنەوەیی ھەڵقوڕاند.",
+            onPressedBritish: () => speakdrains14("en-GB"),
+            onPressedAmerican: () => speakdrains14("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
                   "٤. (کردار) لاوازکردن، ھەژارکردن، ھتد ــی کەسێک بە بردنی ھەموو توانا، پارە، ھتد ــی"),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "My mother's hospital expenses were slowly draining my income."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "تێچووی نەخۆشخانەی دایکم بەھێواشی داھاتەکەم تەواو دەکەن."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdrains15("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdrains15("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "My mother's hospital expenses were slowly draining my income.",
+            kurdishText:
+                "تێچووی نەخۆشخانەی دایکم بەھێواشی داھاتەکەم تەواو دەکەن.",
+            onPressedBritish: () => speakdrains15("en-GB"),
+            onPressedAmerican: () => speakdrains15("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(text: "I felt drained of energy."),
-                    ExampleSentenceKurdish(text: "ھەستم بە نەبوونی وزە دەکرد."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdrains16("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdrains16("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "I felt drained of energy.",
+            kurdishText: "ھەستم بە نەبوونی وزە دەکرد.",
+            onPressedBritish: () => speakdrains16("en-GB"),
+            onPressedAmerican: () => speakdrains16("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "His voice was utterly drained of emotion."),
-                    ExampleSentenceKurdish(
-                        text: "دەنگی تەواو بێ ھەست‌وسۆز بوو."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdrains17("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdrains17("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "His voice was utterly drained of emotion.",
+            kurdishText: "دەنگی تەواو بێ ھەست‌وسۆز بوو.",
+            onPressedBritish: () => speakdrains17("en-GB"),
+            onPressedAmerican: () => speakdrains17("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٥. (ناو) ئاوەڕۆیەک کە زێرابی شلە دەگوازێتەوە"),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "We had to call in a plumber to unblock the drain."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "پێویست بوو وەستایەکی بۆری بانگ بکەین بۆ پاککردنەوەی زێرابەکە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdrains18("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdrains18("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "We had to call in a plumber to unblock the drain.",
+            kurdishText:
+                "پێویست بوو وەستایەکی بۆری بانگ بکەین بۆ پاککردنەوەی زێرابەکە.",
+            onPressedBritish: () => speakdrains18("en-GB"),
+            onPressedAmerican: () => speakdrains18("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The drains (= the system of pipes) date from the beginning of the century."),
-                    ExampleSentenceKurdish(
-                        text: "ئاوەڕۆکان بۆ سەرەتای سەدەکە دەگەڕێنەوە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdrains19("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdrains19("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "The drains (= the system of pipes) date from the beginning of the century.",
+            kurdishText: "ئاوەڕۆکان بۆ سەرەتای سەدەکە دەگەڕێنەوە.",
+            onPressedBritish: () => speakdrains19("en-GB"),
+            onPressedAmerican: () => speakdrains19("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: "٦. (ناو) سەرە مەنھۆڵ"),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "She used a drain strainer to prevent food from going down."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "پاڵوێنکەیەکی مەنھۆڵی بەکارھێنا بۆ ڕێگری لەوەی خواردن بچێتە خوارەوە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdrains20("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdrains20("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "She used a drain strainer to prevent food from going down.",
+            kurdishText:
+                "پاڵوێنکەیەکی مەنھۆڵی بەکارھێنا بۆ ڕێگری لەوەی خواردن بچێتە خوارەوە.",
+            onPressedBritish: () => speakdrains20("en-GB"),
+            onPressedAmerican: () => speakdrains20("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
                   "٧. (ناو) شتێک کە پارە، کات، ھتد ـێ زۆر بەکاردێنێت کە دەکرێت بۆ شتێکی بەکاربێت"),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "Military spending is a huge drain on the country's resources."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "خەرجی سەربازی بارێکی قورسە لەسەر سەرچاوەکانی وڵاتەکە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdrains21("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdrains21("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "Military spending is a huge drain on the country's resources.",
+            kurdishText:
+                "خەرجی سەربازی بارێکی قورسە لەسەر سەرچاوەکانی وڵاتەکە.",
+            onPressedBritish: () => speakdrains21("en-GB"),
+            onPressedAmerican: () => speakdrains21("en-US"),
           ),
           // drains2200"),
           // speakdrains22

@@ -242,63 +242,24 @@ class KurdishMeaning extends StatelessWidget {
 """),
           const DefinitionKurdish(
               text: "١. (ھاوەڵناو) کە دەکرێت بناسرێتەوە یان تێگەشتن ھەبێت بۆی"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "There is often no discernible difference between rival brands."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "زۆرجار ھیچ جیاوازی ھەستپێکراو نییە لە نێوان براندە ڕکابەرەکاندا."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "discernible", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdiscernibles1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdiscernibles1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "There is often no discernible difference between rival brands.",
+            kurdishText:
+                "زۆرجار ھیچ جیاوازی ھەستپێکراو نییە لە نێوان براندە ڕکابەرەکاندا.", // discernible
+            onPressedBritish: () => speakdiscernibles1("en-GB"),
+            onPressedAmerican: () => speakdiscernibles1("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
                   "٢. (ھاوەڵناو) کە دەکرێت ببینرێت یان ببیسترێت، بەڵام بە ڕوونی نا"),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "His face was barely discernible in the gloom."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "ڕووخساری بە یەستەم دەناسرایەوە لە تاریکییەکەدا."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdiscernibles2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdiscernibles2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "His face was barely discernible in the gloom.",
+            kurdishText: "ڕووخساری بە یەستەم دەناسرایەوە لە تاریکییەکەدا.",
+            onPressedBritish: () => speakdiscernibles2("en-GB"),
+            onPressedAmerican: () => speakdiscernibles2("en-US"),
           ),
           // discernibles300"),
           // speakdiscernibles3

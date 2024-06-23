@@ -250,61 +250,22 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "١. (کردار) کەمکردنەوەی شتێک بە ڕێژەیەکی زۆر بەشێوەیەک کە بەشی پێویستی نامێنێتەوە"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "Our cash reserves are being depleted at an alarming rate."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "پارەی کاشی پاشەکەوتکراومان بە ڕێژەیەکی مەترسیدار کەم دەبێتەوە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "deplete", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdepletes1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdepletes1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "Our cash reserves are being depleted at an alarming rate.",
+            kurdishText:
+                "پارەی کاشی پاشەکەوتکراومان بە ڕێژەیەکی مەترسیدار کەم دەبێتەوە.", // deplete
+            onPressedBritish: () => speakdepletes1("en-GB"),
+            onPressedAmerican: () => speakdepletes1("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "Food supplies were severely depleted."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "ئازووقەی خواردنمان بەڕێژەیەکی زۆر بەتاڵ بووبوو."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdepletes2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdepletes2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "Food supplies were severely depleted.",
+            kurdishText: "ئازووقەی خواردنمان بەڕێژەیەکی زۆر بەتاڵ بووبوو.",
+            onPressedBritish: () => speakdepletes2("en-GB"),
+            onPressedAmerican: () => speakdepletes2("en-US"),
           ),
           // depletes300"),
           // speakdepletes3

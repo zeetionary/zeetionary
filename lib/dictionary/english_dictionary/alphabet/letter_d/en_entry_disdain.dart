@@ -266,147 +266,53 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "١. (ناو) ئەو ھەستەی کە کەسێک/شتێک ھێندە باش نییە کە شایەنی ڕێز بێت"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "She treated him with disdain."),
-                    ExampleSentenceKurdish(
-                        text: "بە بی‌ڕێزییەوە مامەڵەی لەگەڵ دەکرد."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "disdain", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdisdains1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdisdains1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "She treated him with disdain.",
+            kurdishText: "بە بی‌ڕێزییەوە مامەڵەی لەگەڵ دەکرد.", // disdain
+            onPressedBritish: () => speakdisdains1("en-GB"),
+            onPressedAmerican: () => speakdisdains1("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "He turned his head away in disdain."),
-                    ExampleSentenceKurdish(text: "لە بێڕێزیدا ڕووی وەرگێڕا."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdisdains2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdisdains2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "He turned his head away in disdain.",
+            kurdishText: "لە بێڕێزیدا ڕووی وەرگێڕا.",
+            onPressedBritish: () => speakdisdains2("en-GB"),
+            onPressedAmerican: () => speakdisdains2("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
                   "٢. (کردار) بیرکردنەوە بەو شێوەیەی کە کەسێک/شتێک شایەنی ڕێزت نییە"),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "She disdained his offer of help."),
-                    ExampleSentenceKurdish(
-                        text: "بە سووکی سەیری پێشنیاری یارمەتیی کرد."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdisdains3("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdisdains3("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "She disdained his offer of help.",
+            kurdishText: "بە سووکی سەیری پێشنیاری یارمەتیی کرد.",
+            onPressedBritish: () => speakdisdains3("en-GB"),
+            onPressedAmerican: () => speakdisdains3("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "He disdained all people less well educated than himself."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "بێزی دەکردەوە لە ھەموو ئەو کەسانەی کەمتر لە خۆی خوێندەوار بوون."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdisdains4("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdisdains4("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "He disdained all people less well educated than himself.",
+            kurdishText:
+                "بێزی دەکردەوە لە ھەموو ئەو کەسانەی کەمتر لە خۆی خوێندەوار بوون.",
+            onPressedBritish: () => speakdisdains4("en-GB"),
+            onPressedAmerican: () => speakdisdains4("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
                   "٣. (کردار) ڕەتکردنەوەی ئەوەی شتێک بکەیت بەھۆی ئەوەی پێتوایە لە خوار پێگەی خۆتە"),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "He disdained to turn to his son for advice."),
-                    ExampleSentenceKurdish(
-                        text: "بە عەیبەی دادەنا ڕوو لە کوڕەکەی بکات بۆ ڕاوێژ."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdisdains5("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdisdains5("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "He disdained to turn to his son for advice.",
+            kurdishText: "بە عەیبەی دادەنا ڕوو لە کوڕەکەی بکات بۆ ڕاوێژ.",
+            onPressedBritish: () => speakdisdains5("en-GB"),
+            onPressedAmerican: () => speakdisdains5("en-US"),
           ),
           // disdains600"),
           // speakdisdains6

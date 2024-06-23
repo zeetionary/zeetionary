@@ -372,62 +372,24 @@ class KurdishMeaning extends StatelessWidget {
 """),
           const DefinitionKurdish(
               text: """١. (ھاوەڵناو) کردنی ئەوەی کە چاوەڕێت لێ دەکرێت"""),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            """She is a dutiful daughter, always helping her parents."""),
-                    ExampleSentenceKurdish(
-                        text:
-                            """کچێکی گوێڕایەڵە کە ھەمیشە یارمەتی دایبابی دەدات."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "dutiful", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdutifuls1("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdutifuls1("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                """She is a dutiful daughter, always helping her parents.""",
+            kurdishText:
+                """کچێکی گوێڕایەڵە کە ھەمیشە یارمەتی دایبابی دەدات.""", // dutiful
+            onPressedBritish: () => speakdutifuls1("en-GB"),
+            onPressedAmerican: () => speakdutifuls1("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            """The soldier was dutiful, following orders without question."""),
-                    ExampleSentenceKurdish(
-                        text:
-                            """سەربازەکە گوێڕایەڵ بوو و شوێنی فەرمان دەکەوت بەبێ پرسیارکردن."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdutifuls2("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdutifuls2("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                """The soldier was dutiful, following orders without question.""",
+            kurdishText:
+                """سەربازەکە گوێڕایەڵ بوو و شوێنی فەرمان دەکەوت بەبێ پرسیارکردن.""",
+            onPressedBritish: () => speakdutifuls2("en-GB"),
+            onPressedAmerican: () => speakdutifuls2("en-US"),
           ),
           // dutifuls300
           // speakdutifuls3

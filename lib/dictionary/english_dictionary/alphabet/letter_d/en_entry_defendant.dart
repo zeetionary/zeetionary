@@ -251,62 +251,22 @@ class KurdishMeaning extends StatelessWidget {
 """),
           const DefinitionKurdish(
               text: "١. (ناو) کەسی تۆمەتبار لە دانیشتنی دادگادا"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "Several witnesses gave evidence for the defendant."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "ژمارەیەک شایەتحاڵ گەواھییان بۆ تاوانبارکراوەکە دا."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "defendant", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdefendants1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdefendants1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "Several witnesses gave evidence for the defendant.",
+            kurdishText:
+                "ژمارەیەک شایەتحاڵ گەواھییان بۆ تاوانبارکراوەکە دا.", // defendant
+            onPressedBritish: () => speakdefendants1("en-GB"),
+            onPressedAmerican: () => speakdefendants1("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The jury found the defendant guilty on all counts."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "دەستەی دادوەران تاوانبارکراوەکەیان بە بەرپرسی ھەموو تاوانەکان دانا."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdefendants2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdefendants2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "The jury found the defendant guilty on all counts.",
+            kurdishText:
+                "دەستەی دادوەران تاوانبارکراوەکەیان بە بەرپرسی ھەموو تاوانەکان دانا.",
+            onPressedBritish: () => speakdefendants2("en-GB"),
+            onPressedAmerican: () => speakdefendants2("en-US"),
           ),
           // defendants300"),
           // speakdefendants3

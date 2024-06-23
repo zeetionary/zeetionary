@@ -355,424 +355,130 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "١. (سەرسوڕمان) وشەیەکی جنێودان کە خەڵکی بەکاریدێنن کە تووڕەن"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "Oh damn! I forgot he was coming."),
-                    ExampleSentenceKurdish(
-                        text: "ئاھ نەفرەت! بیرم چوو ئەو دێت."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "damn", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdamns1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdamns1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "Oh damn! I forgot he was coming.",
+            kurdishText: "ئاھ نەفرەت! بیرم چوو ئەو دێت.", // damn
+            onPressedBritish: () => speakdamns1("en-GB"),
+            onPressedAmerican: () => speakdamns1("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(text: "It's broken! Damn!"),
-                    ExampleSentenceKurdish(text: "شکاوە! بە نەفرەت بێت!."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdamns2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdamns2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "It's broken! Damn!",
+            kurdishText: "شکاوە! بە نەفرەت بێت!.",
+            onPressedBritish: () => speakdamns2("en-GB"),
+            onPressedAmerican: () => speakdamns2("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "Damn, I've spilled coffee down my blouse!"),
-                    ExampleSentenceKurdish(
-                        text: "بە زیادم نەکرد، قاوەم ڕژاند بە بلووزەکەمدا."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdamns3("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdamns3("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "Damn, I've spilled coffee down my blouse!",
+            kurdishText: "بە زیادم نەکرد، قاوەم ڕژاند بە بلووزەکەمدا.",
+            onPressedBritish: () => speakdamns3("en-GB"),
+            onPressedAmerican: () => speakdamns3("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٢. (ھاوەڵناو) جنێوێک کە لە کاتی تووڕەیی بەکاردێت"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(text: "Where's that damn book!"),
-                    ExampleSentenceKurdish(
-                        text: "ئەو کتێبە نەفرەتییە لەکوێیە!"),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdamns4("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdamns4("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "Where's that damn book!",
+            kurdishText: "ئەو کتێبە نەفرەتییە لەکوێیە!",
+            onPressedBritish: () => speakdamns4("en-GB"),
+            onPressedAmerican: () => speakdamns4("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "The damned thing won't start!"),
-                    ExampleSentenceKurdish(
-                        text: "ئەو شتە نەفرەتییە دەستپێ ناکات."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdamns5("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdamns5("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "The damned thing won't start!",
+            kurdishText: "ئەو شتە نەفرەتییە دەستپێ ناکات.",
+            onPressedBritish: () => speakdamns5("en-GB"),
+            onPressedAmerican: () => speakdamns5("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "It's none of your damn business!"),
-                    ExampleSentenceKurdish(
-                        text: "ھیچ پەیوەندییەکی لەعنەتی بە تۆوە نییە!"),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdamns6("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdamns6("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "It's none of your damn business!",
+            kurdishText: "ھیچ پەیوەندییەکی لەعنەتی بە تۆوە نییە!",
+            onPressedBritish: () => speakdamns6("en-GB"),
+            onPressedAmerican: () => speakdamns6("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(text: "He's a damn nuisance!"),
-                    ExampleSentenceKurdish(text: "بێزارکەرێکی نەفرەتییە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdamns7("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdamns7("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "He's a damn nuisance!",
+            kurdishText: "بێزارکەرێکی نەفرەتییە.",
+            onPressedBritish: () => speakdamns7("en-GB"),
+            onPressedAmerican: () => speakdamns7("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٣. (ھاوەڵناو) بۆ جەختکردنەوە لەوەی دەیڵێیت"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(text: "What a damn shame!"),
-                    ExampleSentenceKurdish(text: "چی شەرمێکی گەورەیە!"),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdamns8("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdamns8("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "What a damn shame!",
+            kurdishText: "چی شەرمێکی گەورەیە!",
+            onPressedBritish: () => speakdamns8("en-GB"),
+            onPressedAmerican: () => speakdamns8("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: "٤. (کردار) بەکاردێت لەکاتی جنێودان"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "Damn you! I'm not going to let you bully me."),
-                    ExampleSentenceKurdish(
-                        text: "بە نەفرەت بیت! ناھێڵم ببیت بە کەڵەگا لێم."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdamns9("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdamns9("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "Damn you! I'm not going to let you bully me.",
+            kurdishText: "بە نەفرەت بیت! ناھێڵم ببیت بە کەڵەگا لێم.",
+            onPressedBritish: () => speakdamns9("en-GB"),
+            onPressedAmerican: () => speakdamns9("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "Damn this machine! Why won't it work?"),
-                    ExampleSentenceKurdish(
-                        text: "نەفرەت لەم ئامێرە! بۆچی کار ناکات؟"),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdamns10("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdamns10("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "Damn this machine! Why won't it work?",
+            kurdishText: "نەفرەت لەم ئامێرە! بۆچی کار ناکات؟",
+            onPressedBritish: () => speakdamns10("en-GB"),
+            onPressedAmerican: () => speakdamns10("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: "٥. (کردار) خستنە دۆزەخ"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "As a child she was taught that she would be damned for her sins."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "وەک منداڵێک فێرکرا کە دەخرێتە دۆزەخ بۆ تاوانەکانی."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdamns11("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdamns11("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "As a child she was taught that she would be damned for her sins.",
+            kurdishText: "وەک منداڵێک فێرکرا کە دەخرێتە دۆزەخ بۆ تاوانەکانی.",
+            onPressedBritish: () => speakdamns11("en-GB"),
+            onPressedAmerican: () => speakdamns11("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: "٦. (کردار) سەرزەنشت کردنی توند"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The film was damned by the critics for its mindless violence."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "فیلمەکە لەلایەن ڕەخنەگرانەوە ڕەخنەی لێ گیردرا بۆ توندوتیژی بێ ھەستانەی."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdamns12("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdamns12("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "The film was damned by the critics for its mindless violence.",
+            kurdishText:
+                "فیلمەکە لەلایەن ڕەخنەگرانەوە ڕەخنەی لێ گیردرا بۆ توندوتیژی بێ ھەستانەی.",
+            onPressedBritish: () => speakdamns12("en-GB"),
+            onPressedAmerican: () => speakdamns12("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٧. (ھاوەڵکار) جنێوێک کە بەکاردێت بۆ دەربڕینی تووڕەیی"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(text: "Don't be so damn silly!"),
-                    ExampleSentenceKurdish(text: "ھێندە لەعنەتی گەمژە مەبە!"),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdamns13("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdamns13("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "Don't be so damn silly!",
+            kurdishText: "ھێندە لەعنەتی گەمژە مەبە!",
+            onPressedBritish: () => speakdamns13("en-GB"),
+            onPressedAmerican: () => speakdamns13("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "What a damn stupid question!"),
-                    ExampleSentenceKurdish(text: "چی پرسیارێکی ھیچی گەمژانە!"),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdamns14("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdamns14("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "What a damn stupid question!",
+            kurdishText: "چی پرسیارێکی ھیچی گەمژانە!",
+            onPressedBritish: () => speakdamns14("en-GB"),
+            onPressedAmerican: () => speakdamns14("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٨. (ھاوەڵکار) بۆ جەختکردنەوە لەوەی دەیڵێتر"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "We got out pretty damned fast!"),
-                    ExampleSentenceKurdish(text: "زۆر بەخێرایی دەرچووین!"),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdamns15("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdamns15("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "We got out pretty damned fast!",
+            kurdishText: "زۆر بەخێرایی دەرچووین!",
+            onPressedBritish: () => speakdamns15("en-GB"),
+            onPressedAmerican: () => speakdamns15("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "I'm damn sure she had no idea."),
-                    ExampleSentenceKurdish(
-                        text: "تەواو دڵنیام لەوەی ھیچ نازانێت."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdamns16("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdamns16("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "I'm damn sure she had no idea.",
+            kurdishText: "تەواو دڵنیام لەوەی ھیچ نازانێت.",
+            onPressedBritish: () => speakdamns16("en-GB"),
+            onPressedAmerican: () => speakdamns16("en-US"),
           ),
         ],
       ),

@@ -242,59 +242,21 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "١. (ھاوەڵکار) بەشێوەی فێڵبازانە کە ئامانج لێی خەڵەتاندنی خەڵکییە"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "He was accused of dishonestly obtaining property."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "تاوانبارکرا بەوەی بە فێڵبازانە زەوی بەدەستھێناوە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "dishonestly", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdishonestlys1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdishonestlys1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "He was accused of dishonestly obtaining property.",
+            kurdishText:
+                "تاوانبارکرا بەوەی بە فێڵبازانە زەوی بەدەستھێناوە.", // dishonestly
+            onPressedBritish: () => speakdishonestlys1("en-GB"),
+            onPressedAmerican: () => speakdishonestlys1("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "The money was dishonestly obtained."),
-                    ExampleSentenceKurdish(text: "پارەکە بە فێڵ بەدەستھێنرا."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdishonestlys2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdishonestlys2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "The money was dishonestly obtained.",
+            kurdishText: "پارەکە بە فێڵ بەدەستھێنرا.",
+            onPressedBritish: () => speakdishonestlys2("en-GB"),
+            onPressedAmerican: () => speakdishonestlys2("en-US"),
           ),
           // dishonestlys300"),
           // speakdishonestlys3

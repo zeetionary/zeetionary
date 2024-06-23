@@ -276,143 +276,46 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "١. (کردار) زانین، ناسینەوە، یان تێگەشتن لە شتێک، بەتایبەتی شتێک کە ئاشکرا نییە"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "It is possible to discern a number of different techniques in her work."),
-                    ExampleSentenceKurdish(
-                        text: "دەکرێت ژمارەیەک تەکنیک لە کارەکەی بناسرێتەوە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "discern", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdiscerns1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdiscerns1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "It is possible to discern a number of different techniques in her work.",
+            kurdishText:
+                "دەکرێت ژمارەیەک تەکنیک لە کارەکەی بناسرێتەوە.", // discern
+            onPressedBritish: () => speakdiscerns1("en-GB"),
+            onPressedAmerican: () => speakdiscerns1("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "He discerned a certain coldness in their welcome."),
-                    ExampleSentenceKurdish(
-                        text: "ھەستی بە جۆرە ساردییەک کرد لە خێراتنەکەی."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdiscerns2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdiscerns2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "He discerned a certain coldness in their welcome.",
+            kurdishText: "ھەستی بە جۆرە ساردییەک کرد لە خێراتنەکەی.",
+            onPressedBritish: () => speakdiscerns2("en-GB"),
+            onPressedAmerican: () => speakdiscerns2("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "It is often difficult to discern how widespread public support is."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "زۆرجار سەختە بزانرێت پشتیوانی خەڵکی چەندە بەرفراوانە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdiscerns3("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdiscerns3("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "It is often difficult to discern how widespread public support is.",
+            kurdishText:
+                "زۆرجار سەختە بزانرێت پشتیوانی خەڵکی چەندە بەرفراوانە.",
+            onPressedBritish: () => speakdiscerns3("en-GB"),
+            onPressedAmerican: () => speakdiscerns3("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: " I quickly discerned that something was wrong."),
-                    ExampleSentenceKurdish(
-                        text: "بەخێرایی زەنیم کە شتێک ھەڵەیە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdiscerns4("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdiscerns4("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: " I quickly discerned that something was wrong.",
+            kurdishText: "بەخێرایی زەنیم کە شتێک ھەڵەیە.",
+            onPressedBritish: () => speakdiscerns4("en-GB"),
+            onPressedAmerican: () => speakdiscerns4("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٢. (کردار) بینین یان بیستنی شتێک، زۆرجار بە ئەستەم"),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "We could just discern the house in the distance."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "بە ئەستەم دەمانتوانی خانووەکە ببینین لە دوورەوە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdiscerns5("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdiscerns5("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "We could just discern the house in the distance.",
+            kurdishText: "بە ئەستەم دەمانتوانی خانووەکە ببینین لە دوورەوە.",
+            onPressedBritish: () => speakdiscerns5("en-GB"),
+            onPressedAmerican: () => speakdiscerns5("en-US"),
           ),
           // "She could clearly discern a figure walking up towards the house."),
           // speakdiscerns6

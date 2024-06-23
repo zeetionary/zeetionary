@@ -262,120 +262,41 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "١. (کردار) بڵاوکردنەوەی شتێکی وەک بۆیە، قوڕ، ھتد بەسەر شتێکی تردا"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The walls of the building were daubed with red paint."),
-                    ExampleSentenceKurdish(
-                        text: "دیوارەکانی بیناکان بە بۆیە سواخ دران."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "daub", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdaubs1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdaubs1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "The walls of the building were daubed with red paint.",
+            kurdishText: "دیوارەکانی بیناکان بە بۆیە سواخ دران.", // daub
+            onPressedBritish: () => speakdaubs1("en-GB"),
+            onPressedAmerican: () => speakdaubs1("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "They used spray paint to daub slogans on the walls."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "بۆیەیەکی سپرەییان بەکارھێنا بۆ ھەڵسوانی سلۆگان لەسەر دیوارەکە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdaubs2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdaubs2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "They used spray paint to daub slogans on the walls.",
+            kurdishText:
+                "بۆیەیەکی سپرەییان بەکارھێنا بۆ ھەڵسوانی سلۆگان لەسەر دیوارەکە.",
+            onPressedBritish: () => speakdaubs2("en-GB"),
+            onPressedAmerican: () => speakdaubs2("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
                   "٢. (ناو) تێکەڵەیەکی قوڕ کە لە ڕابردوودا بەکاردەھات بۆ درووستکردنی دیوار"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The walls of the ancient house were made of wattle and daub."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "خانووەکانی ماڵە کۆنەکان لە چیخ و قوڕ درووستکرابوون."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdaubs3("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdaubs3("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "The walls of the ancient house were made of wattle and daub.",
+            kurdishText: "خانووەکانی ماڵە کۆنەکان لە چیخ و قوڕ درووستکرابوون.",
+            onPressedBritish: () => speakdaubs3("en-GB"),
+            onPressedAmerican: () => speakdaubs3("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
                   "٣. (ناو) کەمێک لە مادەیەک، بۆ نموونە بۆیەیەک، کە بە خراپی بڵاوکراوەتەوە"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "He noticed a daub of sauce on his shirt sleeve."),
-                    ExampleSentenceKurdish(
-                        text: "سەرنجی نەختێک سۆسی دا لەسەر قۆڵی جلەکەی."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdaubs4("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdaubs4("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "He noticed a daub of sauce on his shirt sleeve.",
+            kurdishText: "سەرنجی نەختێک سۆسی دا لەسەر قۆڵی جلەکەی.",
+            onPressedBritish: () => speakdaubs4("en-GB"),
+            onPressedAmerican: () => speakdaubs4("en-US"),
           ),
         ],
       ),

@@ -372,60 +372,22 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   """١. (کردار) دەردانی شتێک، بۆ نموونە ڕۆشنایی، گەرمی، ھتد"""),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            """The metal container began to emit a clicking sound."""),
-                    ExampleSentenceKurdish(
-                        text:
-                            """کاسە پۆڵایینەکە دەستیکرد بە درووستکردنی دەنگێکی تیکەتیک."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "emit", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakemits1("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakemits1("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                """The metal container began to emit a clicking sound.""",
+            kurdishText:
+                """کاسە پۆڵایینەکە دەستیکرد بە درووستکردنی دەنگێکی تیکەتیک.""", // emit
+            onPressedBritish: () => speakemits1("en-GB"),
+            onPressedAmerican: () => speakemits1("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: """Sulphur gases were emitted by the volcano."""),
-                    ExampleSentenceKurdish(
-                        text: """گازی سلفەر لەلایەن گڕکانەکەوە دەردرا."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakemits2("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakemits2("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: """Sulphur gases were emitted by the volcano.""",
+            kurdishText: """گازی سلفەر لەلایەن گڕکانەکەوە دەردرا.""",
+            onPressedBritish: () => speakemits2("en-GB"),
+            onPressedAmerican: () => speakemits2("en-US"),
           ),
           // emits300emits3
           // speakemits3

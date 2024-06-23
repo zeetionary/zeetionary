@@ -370,61 +370,20 @@ class KurdishMeaning extends StatelessWidget {
 """),
           const DefinitionKurdish(
               text: """١. (ھاوەڵناو) کە پێویستی بە ھەوڵێکی کەمە"""),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            """He made playing the guitar look effortless."""),
-                    ExampleSentenceKurdish(
-                        text: """ژەنینی گیتاری ئاسان دەرخست."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "effortless", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakeffortlesss1("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakeffortlesss1("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: """He made playing the guitar look effortless.""",
+            kurdishText: """ژەنینی گیتاری ئاسان دەرخست.""", // effortless
+            onPressedBritish: () => speakeffortlesss1("en-GB"),
+            onPressedAmerican: () => speakeffortlesss1("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            """When you watch her dance it looks so effortless."""),
-                    ExampleSentenceKurdish(
-                        text:
-                            """کە سەیری دەکەیت سەما دەکات زۆر ئاسان دەردەکەوێت."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakeffortlesss2("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakeffortlesss2("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: """When you watch her dance it looks so effortless.""",
+            kurdishText: """کە سەیری دەکەیت سەما دەکات زۆر ئاسان دەردەکەوێت.""",
+            onPressedBritish: () => speakeffortlesss2("en-GB"),
+            onPressedAmerican: () => speakeffortlesss2("en-US"),
           ),
           // effortlesss300effortlesss3
           // speakeffortlesss3

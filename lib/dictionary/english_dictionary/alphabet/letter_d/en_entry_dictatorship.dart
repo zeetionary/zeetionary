@@ -258,116 +258,39 @@ class KurdishMeaning extends StatelessWidget {
 کوردی: زۆرداری، دیکتاتۆری،	حکومەتی دیکتاتۆری،	وڵاتی دیکتاتۆری
 """),
           const DefinitionKurdish(text: "١. (ناو) دەسەڵاتی دیکتاتۆری"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The generals established a military dictatorship."),
-                    ExampleSentenceKurdish(
-                        text: "ژەنەراڵەکە دەسەڵاتێکی دیکتاتۆری درووستکرد."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "dictatorship", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdictatorships1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdictatorships1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "The generals established a military dictatorship.",
+            kurdishText:
+                "ژەنەراڵەکە دەسەڵاتێکی دیکتاتۆری درووستکرد.", // dictatorship
+            onPressedBritish: () => speakdictatorships1("en-GB"),
+            onPressedAmerican: () => speakdictatorships1("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "They succeeded in overthrowing the fascist dictatorship."),
-                    ExampleSentenceKurdish(
-                        text: "سەرکەوتن لە لادانی دیکتاتۆرییەتە فاشیستەکە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdictatorships2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdictatorships2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "They succeeded in overthrowing the fascist dictatorship.",
+            kurdishText: "سەرکەوتن لە لادانی دیکتاتۆرییەتە فاشیستەکە.",
+            onPressedBritish: () => speakdictatorships2("en-GB"),
+            onPressedAmerican: () => speakdictatorships2("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "These men had all lived under dictatorship."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "ئەم پیاوانە ھەموویان لە دەسەڵاتی زۆردارانەدا ژیاون."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdictatorships3("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdictatorships3("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "These men had all lived under dictatorship.",
+            kurdishText: "ئەم پیاوانە ھەموویان لە دەسەڵاتی زۆردارانەدا ژیاون.",
+            onPressedBritish: () => speakdictatorships3("en-GB"),
+            onPressedAmerican: () => speakdictatorships3("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٢. (ناو) وڵاتێک کە لەلایەن دیکتاتۆرێکەوە بەڕێوەدەبردرێت"),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "Some of these countries are democracies and some are dictatorships."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "ھەندێک لەم وڵاتانە دیموکراسین و ھەندێکیان دیکتاتۆرییەتن."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdictatorships4("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdictatorships4("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "Some of these countries are democracies and some are dictatorships.",
+            kurdishText:
+                "ھەندێک لەم وڵاتانە دیموکراسین و ھەندێکیان دیکتاتۆرییەتن.",
+            onPressedBritish: () => speakdictatorships4("en-GB"),
+            onPressedAmerican: () => speakdictatorships4("en-US"),
           ),
           // dictatorships500"),
           // speakdictatorships5

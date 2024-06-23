@@ -248,60 +248,21 @@ class KurdishMeaning extends StatelessWidget {
 کوردی: خەماوی، ناڕەحەت‌کەر، دڵتەنگ‌کەر، دڵساردکەرەوە، ناھومێدکەر
 """),
           const DefinitionKurdish(text: "١. (ھاوەڵناو) کە دڵتەنگت دەکات"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "Looking for a job these days can be very depressing."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "لەم ڕۆژانەدا گەڕان بۆ کار دەکرێت زۆر خەماوی بێت."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "depressing", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdepressings1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdepressings1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "Looking for a job these days can be very depressing.",
+            kurdishText:
+                "لەم ڕۆژانەدا گەڕان بۆ کار دەکرێت زۆر خەماوی بێت.", // depressing
+            onPressedBritish: () => speakdepressings1("en-GB"),
+            onPressedAmerican: () => speakdepressings1("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "We found it a deeply depressing experience."),
-                    ExampleSentenceKurdish(
-                        text: "بە ئەزموونێکی زۆر ناھومێدکەر بینیم."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdepressings2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdepressings2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "We found it a deeply depressing experience.",
+            kurdishText: "بە ئەزموونێکی زۆر ناھومێدکەر بینیم.",
+            onPressedBritish: () => speakdepressings2("en-GB"),
+            onPressedAmerican: () => speakdepressings2("en-US"),
           ),
           // depressings300"),
           // speakdepressings3

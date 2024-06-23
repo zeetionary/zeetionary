@@ -371,61 +371,23 @@ class KurdishMeaning extends StatelessWidget {
 // کوردی: ھۆش‌بڵاوی، سەرلێ‌سەنراوی، گێژی، تاساوی، حەپەساوی، کاسی، سەرلێ‌شێواوی، شێواوی، پەرێشانی،	سەرقاڵی، شتی خڵافاندن،	(خوازە) شێتی، سەوداسەری، شەیدایی
 // """),
           const DefinitionKurdish(text: "١. (ناو) شتێک کە سەرنجت دەبات"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "I find it hard to work at home because there are too many distractions."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "بە سەختی دەزانم لە ماڵەوە کاربکەم چونکە سەرنجبەری زۆر ھەیە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "distraction", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdistractions1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdistractions1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "I find it hard to work at home because there are too many distractions.",
+            kurdishText:
+                "بە سەختی دەزانم لە ماڵەوە کاربکەم چونکە سەرنجبەری زۆر ھەیە.", // distraction
+            onPressedBritish: () => speakdistractions1("en-GB"),
+            onPressedAmerican: () => speakdistractions1("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "The TV provided a distraction from his work."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "تەلەفیزیۆنەکە سەرقاڵییەکی پێدەدات لە کارەکەی (کەمێک لە کارەکەی دووردەخاتەوە)."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdistractions2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdistractions2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "The TV provided a distraction from his work.",
+            kurdishText:
+                "تەلەفیزیۆنەکە سەرقاڵییەکی پێدەدات لە کارەکەی (کەمێک لە کارەکەی دووردەخاتەوە).",
+            onPressedBritish: () => speakdistractions2("en-GB"),
+            onPressedAmerican: () => speakdistractions2("en-US"),
           ),
           // distractions300"),
           // speakdistractions3

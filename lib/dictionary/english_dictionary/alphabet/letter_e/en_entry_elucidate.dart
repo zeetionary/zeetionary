@@ -380,87 +380,31 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   """١. (کردار) ڕوونکردنەوەی شتێک بەوەی بە ڕوونتر باسی بکەیت"""),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: """He elucidated a point of grammar."""),
-                    ExampleSentenceKurdish(
-                        text: """خاڵێکی ڕێزمانی ڕوونکردەوە."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "elucidate", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakelucidates1("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakelucidates1("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: """He elucidated a point of grammar.""",
+            kurdishText: """خاڵێکی ڕێزمانی ڕوونکردەوە.""", // elucidate
+            onPressedBritish: () => speakelucidates1("en-GB"),
+            onPressedAmerican: () => speakelucidates1("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            """The aim of the report is to elucidate the main points of the new regulations."""),
-                    ExampleSentenceKurdish(
-                        text:
-                            """ئامانجی ئەم ڕاپۆرتە ئەوەیە خاڵە سەرەکییەکانی ڕێسا تازەکان ڕوونبکاتەوە."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakelucidates2("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakelucidates2("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                """The aim of the report is to elucidate the main points of the new regulations.""",
+            kurdishText:
+                """ئامانجی ئەم ڕاپۆرتە ئەوەیە خاڵە سەرەکییەکانی ڕێسا تازەکان ڕوونبکاتەوە.""",
+            onPressedBritish: () => speakelucidates2("en-GB"),
+            onPressedAmerican: () => speakelucidates2("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(text: """Let me elucidate."""),
-                    ExampleSentenceKurdish(
-                        text: """ڕێگام بدە ڕوونی بکەمەوە."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakelucidates3("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakelucidates3("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: """Let me elucidate.""",
+            kurdishText: """ڕێگام بدە ڕوونی بکەمەوە.""",
+            onPressedBritish: () => speakelucidates3("en-GB"),
+            onPressedAmerican: () => speakelucidates3("en-US"),
           ),
           // elucidates400elucidates4
           // speakelucidates4

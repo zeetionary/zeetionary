@@ -290,208 +290,74 @@ class KurdishMeaning extends StatelessWidget {
 کوردی: ڕۆیشتن، کەوتنەڕێ، ملی ڕێگەگرتن، کۆچ، بەجێ‌ھێشتن،	کاتی ڕۆیشتن، سەعاتی ڕۆیشتن،	لادان، تێپەڕین، ترازان، دووری، خۆبواردن،	شێوەی نوێ، ڕێگای تازە، کاری تازە
 """),
           const DefinitionKurdish(text: "١. (ناو) جێھێشتنی شوێنێک"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "His sudden departure threw the office into chaos."),
-                    ExampleSentenceKurdish(
-                        text: "جێھێشتنی کەناژاوت ئۆفیسەکەی خستە پاشاگەردانی."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "departure", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdepartures1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdepartures1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "His sudden departure threw the office into chaos.",
+            kurdishText:
+                "جێھێشتنی کەناژاوت ئۆفیسەکەی خستە پاشاگەردانی.", // departure
+            onPressedBritish: () => speakdepartures1("en-GB"),
+            onPressedAmerican: () => speakdepartures1("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "They had received no news of him since his departure from the island."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "ھیچ ھەواڵێکی ئەویان پێنەگەشتبوو لەوەتەی ڕۆشتنی لە دوورگەکە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdepartures2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdepartures2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "They had received no news of him since his departure from the island.",
+            kurdishText:
+                "ھیچ ھەواڵێکی ئەویان پێنەگەشتبوو لەوەتەی ڕۆشتنی لە دوورگەکە.",
+            onPressedBritish: () => speakdepartures2("en-GB"),
+            onPressedAmerican: () => speakdepartures2("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "She postponed her departure to Scotland."),
-                    ExampleSentenceKurdish(text: "ڕۆشتنی بۆ سکۆتلەندا دواخست."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdepartures3("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdepartures3("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "She postponed her departure to Scotland.",
+            kurdishText: "ڕۆشتنی بۆ سکۆتلەندا دواخست.",
+            onPressedBritish: () => speakdepartures3("en-GB"),
+            onPressedAmerican: () => speakdepartures3("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "Flights should be confirmed 48 hours before departure."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "گەشتەکان ٤٨ کاتژمێر پێش دەرچوون دەبێت دووپاتبکرێنەوە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdepartures4("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdepartures4("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "Flights should be confirmed 48 hours before departure.",
+            kurdishText:
+                "گەشتەکان ٤٨ کاتژمێر پێش دەرچوون دەبێت دووپاتبکرێنەوە.",
+            onPressedBritish: () => speakdepartures4("en-GB"),
+            onPressedAmerican: () => speakdepartures4("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
                   "٢. (ناو) فرۆکەیەک، شەمەندەفەرێک، ھتد کە شوێنێک لە کاتێکی دیاریکراودا جێدەھێڵێت"),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "All departures are from Manchester."),
-                    ExampleSentenceKurdish(
-                        text: "ھەموو دەرچوونەکان لە مانچیستەرەوەن."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdepartures5("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdepartures5("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "All departures are from Manchester.",
+            kurdishText: "ھەموو دەرچوونەکان لە مانچیستەرەوەن.",
+            onPressedBritish: () => speakdepartures5("en-GB"),
+            onPressedAmerican: () => speakdepartures5("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٣. (ناو) ئەو بەشەی فڕۆکەخانە کە بۆی دەچیت پێش فڕین"),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "There were long delays and queues in departures."),
-                    ExampleSentenceKurdish(
-                        text: "دواکەوتن و ڕیزی درێژ ھەبوو لە بەشی دەرچووندا."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdepartures6("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdepartures6("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "There were long delays and queues in departures.",
+            kurdishText: "دواکەوتن و ڕیزی درێژ ھەبوو لە بەشی دەرچووندا.",
+            onPressedBritish: () => speakdepartures6("en-GB"),
+            onPressedAmerican: () => speakdepartures6("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٤. (ناو) شتێک کە جیاوازە لەوەی باو یان ثێشبینیکراوە"),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "This project represents a big departure for me."),
-                    ExampleSentenceKurdish(
-                        text: "پڕۆژەکە کارێکی زۆر تازەیە بۆ من."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdepartures7("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdepartures7("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "This project represents a big departure for me.",
+            kurdishText: "پڕۆژەکە کارێکی زۆر تازەیە بۆ من.",
+            onPressedBritish: () => speakdepartures7("en-GB"),
+            onPressedAmerican: () => speakdepartures7("en-US"),
           ),
           // departures800"),
           // speakdepartures8

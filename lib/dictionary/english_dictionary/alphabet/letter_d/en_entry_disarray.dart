@@ -251,89 +251,32 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "١. (ناو) نەبوونی ڕێکخستن و ڕێکوپێکی لە دۆخێک یان شوێنێکدا"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "The peace talks broke up in disarray."),
-                    ExampleSentenceKurdish(
-                        text: "گفتوگۆکانی ئاشتی بە بە شپرزەیی کۆتایی ھات."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "disarray", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdisarrays1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdisarrays1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "The peace talks broke up in disarray.",
+            kurdishText:
+                "گفتوگۆکانی ئاشتی بە بە شپرزەیی کۆتایی ھات.", // disarray
+            onPressedBritish: () => speakdisarrays1("en-GB"),
+            onPressedAmerican: () => speakdisarrays1("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "Our plans were thrown into disarray by her arrival."),
-                    ExampleSentenceKurdish(
-                        text: "پلانەکانمان بە گەشتنی تێکچون."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdisarrays2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdisarrays2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "Our plans were thrown into disarray by her arrival.",
+            kurdishText: "پلانەکانمان بە گەشتنی تێکچون.",
+            onPressedBritish: () => speakdisarrays2("en-GB"),
+            onPressedAmerican: () => speakdisarrays2("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "We’re decorating, so everything’s in complete disarray at home."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "خەریکی جوانکارین بۆیە ھەموو شتێک شۆرزەی تەواوە لە ماڵەوە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdisarrays3("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdisarrays3("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "We’re decorating, so everything’s in complete disarray at home.",
+            kurdishText:
+                "خەریکی جوانکارین بۆیە ھەموو شتێک شۆرزەی تەواوە لە ماڵەوە.",
+            onPressedBritish: () => speakdisarrays3("en-GB"),
+            onPressedAmerican: () => speakdisarrays3("en-US"),
           ),
           // disarrays400"),
           // speakdisarrays4

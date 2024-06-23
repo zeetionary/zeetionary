@@ -241,57 +241,21 @@ class KurdishMeaning extends StatelessWidget {
 """),
           const DefinitionKurdish(
               text: "١. (ھاوەڵناو) نەویستنی ئەوەی لەسەر کەسێک/شتێک بزانیت"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "He was totally uninterested in sport."),
-                    ExampleSentenceKurdish(
-                        text: "تەواو ناتامەزرۆ دیاربوو سەبارەت بە وەرزش."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "uninterested", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakuninteresteds1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakuninteresteds1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "He was totally uninterested in sport.",
+            kurdishText:
+                "تەواو ناتامەزرۆ دیاربوو سەبارەت بە وەرزش.", // uninterested
+            onPressedBritish: () => speakuninteresteds1("en-GB"),
+            onPressedAmerican: () => speakuninteresteds1("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "She seemed cold and uninterested."),
-                    ExampleSentenceKurdish(text: "ساردوسڕ و ناھۆگر دیاربوو."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakuninteresteds2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakuninteresteds2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "She seemed cold and uninterested.",
+            kurdishText: "ساردوسڕ و ناھۆگر دیاربوو.",
+            onPressedBritish: () => speakuninteresteds2("en-GB"),
+            onPressedAmerican: () => speakuninteresteds2("en-US"),
           ),
           // uninteresteds300"),
           // speakuninteresteds3

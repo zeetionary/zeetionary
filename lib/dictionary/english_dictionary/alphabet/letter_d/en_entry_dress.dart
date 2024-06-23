@@ -508,522 +508,163 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "١. (ناو) جلێک کە یەک دەستەیە و شۆڕدەبێتەوە تاوەکو لاوەکان"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "I appeared in a slinky satin dress."),
-                    ExampleSentenceKurdish(
-                        text: "بە عەزیەیەکی پێوەچەسپی نەرمەوە دەرکەوتم."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "dress", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdresss1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdresss1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "I appeared in a slinky satin dress.",
+            kurdishText: "بە عەزیەیەکی پێوەچەسپی نەرمەوە دەرکەوتم.", // dress
+            onPressedBritish: () => speakdresss1("en-GB"),
+            onPressedAmerican: () => speakdresss1("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "These shoes go best with my dress."),
-                    ExampleSentenceKurdish(
-                        text: "ئەم جلانە باش دەگونجێن لەگەڵ عەزیەکەم."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdresss2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdresss2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "These shoes go best with my dress.",
+            kurdishText: "ئەم جلانە باش دەگونجێن لەگەڵ عەزیەکەم.",
+            onPressedBritish: () => speakdresss2("en-GB"),
+            onPressedAmerican: () => speakdresss2("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "You will look elegant in a simple black dress."),
-                    ExampleSentenceKurdish(
-                        text: "کەشخە دەردەکەویت بە عەزیەیەکی سادەی ڕەشەوە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdresss3("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdresss3("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "You will look elegant in a simple black dress.",
+            kurdishText: "کەشخە دەردەکەویت بە عەزیەیەکی سادەی ڕەشەوە.",
+            onPressedBritish: () => speakdresss3("en-GB"),
+            onPressedAmerican: () => speakdresss3("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: "٢. (ناو) جلێک لە جۆرێکی دیاریکراو"),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "He has no dress sense (= no idea of how to dress well)."),
-                    ExampleSentenceKurdish(
-                        text: "ھیچ سەلیقەی جل لەبەرکردنی نییە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdresss4("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdresss4("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "He has no dress sense (= no idea of how to dress well).",
+            kurdishText: "ھیچ سەلیقەی جل لەبەرکردنی نییە.",
+            onPressedBritish: () => speakdresss4("en-GB"),
+            onPressedAmerican: () => speakdresss4("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "We were allowed to wear casual dress on Fridays."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "ڕێگەمان پێدەدرا لە ڕۆژانی ھەینیدا جلێکی ئاسایی لەبەر بکەین."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdresss5("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdresss5("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "We were allowed to wear casual dress on Fridays.",
+            kurdishText:
+                "ڕێگەمان پێدەدرا لە ڕۆژانی ھەینیدا جلێکی ئاسایی لەبەر بکەین.",
+            onPressedBritish: () => speakdresss5("en-GB"),
+            onPressedAmerican: () => speakdresss5("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: "٣. (کردار) لەبەرکردنی جل"),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(text: "I dressed quickly."),
-                    ExampleSentenceKurdish(text: "بەخێرایی جلم لەبەرکرد."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdresss6("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdresss6("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "I dressed quickly.",
+            kurdishText: "بەخێرایی جلم لەبەرکرد.",
+            onPressedBritish: () => speakdresss6("en-GB"),
+            onPressedAmerican: () => speakdresss6("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(text: "Get up and get dressed!"),
-                    ExampleSentenceKurdish(text: "ھەستە و خۆت بپۆشە!"),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdresss7("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdresss7("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "Get up and get dressed!",
+            kurdishText: "ھەستە و خۆت بپۆشە!",
+            onPressedBritish: () => speakdresss7("en-GB"),
+            onPressedAmerican: () => speakdresss7("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "She dressed the children in their best clothes."),
-                    ExampleSentenceKurdish(
-                        text: "باشترین جلی لەبەری منداڵەکانی کرد."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdresss8("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdresss8("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "She dressed the children in their best clothes.",
+            kurdishText: "باشترین جلی لەبەری منداڵەکانی کرد.",
+            onPressedBritish: () => speakdresss8("en-GB"),
+            onPressedAmerican: () => speakdresss8("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "You're old enough to dress yourself now."),
-                    ExampleSentenceKurdish(
-                        text: "ئێستا ھێندە گەورەیت کە خۆت جل لەبەربکەیت."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdresss9("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdresss9("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "You're old enough to dress yourself now.",
+            kurdishText: "ئێستا ھێندە گەورەیت کە خۆت جل لەبەربکەیت.",
+            onPressedBritish: () => speakdresss9("en-GB"),
+            onPressedAmerican: () => speakdresss9("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "Her mother always dressed them identically."),
-                    ExampleSentenceKurdish(
-                        text: "دایکی ھەمیشە وەک یەک جلی لەبەر دەکردن."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdresss10("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdresss10("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "Her mother always dressed them identically.",
+            kurdishText: "دایکی ھەمیشە وەک یەک جلی لەبەر دەکردن.",
+            onPressedBritish: () => speakdresss10("en-GB"),
+            onPressedAmerican: () => speakdresss10("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٤. (کردار) لەبەرکردنی جۆرە جلێکی دیاریکراو"),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "All staff are expected to dress appropriately."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "ھەموو ستافەکە چاوەڕوانییان لێدەکرێت بە گونجاوی جل لەبەر بکەن."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdresss11("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdresss11("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "All staff are expected to dress appropriately.",
+            kurdishText:
+                "ھەموو ستافەکە چاوەڕوانییان لێدەکرێت بە گونجاوی جل لەبەر بکەن.",
+            onPressedBritish: () => speakdresss11("en-GB"),
+            onPressedAmerican: () => speakdresss11("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "You should dress for cold weather today."),
-                    ExampleSentenceKurdish(
-                        text: "ئەمڕۆ دەبێت بۆ کەشی سارد خۆت بپۆشیت."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdresss12("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdresss12("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "You should dress for cold weather today.",
+            kurdishText: "ئەمڕۆ دەبێت بۆ کەشی سارد خۆت بپۆشیت.",
+            onPressedBritish: () => speakdresss12("en-GB"),
+            onPressedAmerican: () => speakdresss12("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "She always dressed entirely in black."),
-                    ExampleSentenceKurdish(
-                        text: "ھەمیشە بە تەواوی ڕەشی لەبەردەکرد."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdresss13("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdresss13("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "She always dressed entirely in black.",
+            kurdishText: "ھەمیشە بە تەواوی ڕەشی لەبەردەکرد.",
+            onPressedBritish: () => speakdresss13("en-GB"),
+            onPressedAmerican: () => speakdresss13("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "Susan always dresses very elegantly."),
-                    ExampleSentenceKurdish(
-                        text: "سوزان ھەمیشە زۆر کەشخانە جل لەبەر دەکات."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdresss14("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdresss14("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "Susan always dresses very elegantly.",
+            kurdishText: "سوزان ھەمیشە زۆر کەشخانە جل لەبەر دەکات.",
+            onPressedBritish: () => speakdresss14("en-GB"),
+            onPressedAmerican: () => speakdresss14("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: "٥. (کردار) لەبەرکردنی جلی فەرمی"),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "Do they expect us to dress for dinner?"),
-                    ExampleSentenceKurdish(
-                        text:
-                            "چاوەڕێی ئەوەمان لێدەکەن بۆ نانی ئێوارە جلی فەرمی لەبەر بکەین؟"),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdresss15("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdresss15("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "Do they expect us to dress for dinner?",
+            kurdishText:
+                "چاوەڕێی ئەوەمان لێدەکەن بۆ نانی ئێوارە جلی فەرمی لەبەر بکەین؟",
+            onPressedBritish: () => speakdresss15("en-GB"),
+            onPressedAmerican: () => speakdresss15("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٦. (کردار) دابینکردنی جل بۆ کەسێکی بەناوبانگ"),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "He dresses many of Hollywood's most famous young stars."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "جل بۆ زۆرێک لە ناسراوترین ئەستێرە گەنجەکانی ھۆڵیوود دابین دەکات."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdresss16("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdresss16("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "He dresses many of Hollywood's most famous young stars.",
+            kurdishText:
+                "جل بۆ زۆرێک لە ناسراوترین ئەستێرە گەنجەکانی ھۆڵیوود دابین دەکات.",
+            onPressedBritish: () => speakdresss16("en-GB"),
+            onPressedAmerican: () => speakdresss16("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٧. (کردار) چارەسەرکردنی برینێک یان داپۆشینی"),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "The nurse will dress that cut for you."),
-                    ExampleSentenceKurdish(
-                        text: "پەرستارەکە ئاگای لە برینەکەت دەبێت."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdresss17("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdresss17("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "The nurse will dress that cut for you.",
+            kurdishText: "پەرستارەکە ئاگای لە برینەکەت دەبێت.",
+            onPressedBritish: () => speakdresss17("en-GB"),
+            onPressedAmerican: () => speakdresss17("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٨. (کردار) ئامادەکردنی خۆراک بۆ لێنان"),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "She dressed the chicken before roasting it."),
-                    ExampleSentenceKurdish(
-                        text: "مریشکەکەی کەوڵ کرد پێش برژاندنی."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdresss18("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdresss18("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "She dressed the chicken before roasting it.",
+            kurdishText: "مریشکەکەی کەوڵ کرد پێش برژاندنی.",
+            onPressedBritish: () => speakdresss18("en-GB"),
+            onPressedAmerican: () => speakdresss18("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: "٩. (کردار) ڕازاندنەوەی شتێک"),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "She had her hair dressed by a stylist."),
-                    ExampleSentenceKurdish(
-                        text: "قژی لای ئاڕایشت‌گەرێک ڕازاندەوە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdresss19("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdresss19("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "She had her hair dressed by a stylist.",
+            kurdishText: "قژی لای ئاڕایشت‌گەرێک ڕازاندەوە.",
+            onPressedBritish: () => speakdresss19("en-GB"),
+            onPressedAmerican: () => speakdresss19("en-US"),
           ),
           // dresss_2000"),
           // speakdresss20

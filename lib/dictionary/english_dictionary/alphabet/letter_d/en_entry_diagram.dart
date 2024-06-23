@@ -259,117 +259,41 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "١. (ناو) وێنەکێشانێکی سادە بە بەکارھێنانی ھێل بۆ ڕوونکردنەوەی ئەوەی شتێک بۆ کوێ دەجوڵێت، چۆن کار دەکات، ھتد"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "The results are shown in diagram 2."),
-                    ExampleSentenceKurdish(
-                        text: "ئەنجامەکان لە ھێڵکاری ٢ پیشان دەدرێن."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "diagram", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdiagrams1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdiagrams1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "The results are shown in diagram 2.",
+            kurdishText: "ئەنجامەکان لە ھێڵکاری ٢ پیشان دەدرێن.", // diagram
+            onPressedBritish: () => speakdiagrams1("en-GB"),
+            onPressedAmerican: () => speakdiagrams1("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "Compare this system to the one shown in diagram B."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "ئەم سیستەمە بەراورد بکە لەگەڵ ئەوەی لە ھێڵکاری B پیشان دراوە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdiagrams2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdiagrams2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "Compare this system to the one shown in diagram B.",
+            kurdishText:
+                "ئەم سیستەمە بەراورد بکە لەگەڵ ئەوەی لە ھێڵکاری B پیشان دراوە.",
+            onPressedBritish: () => speakdiagrams2("en-GB"),
+            onPressedAmerican: () => speakdiagrams2("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(text: "See the diagram on page 31."),
-                    ExampleSentenceKurdish(
-                        text: "ھێڵکارییەکە لەسەر پەڕەی ٣١ ببینە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdiagrams3("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdiagrams3("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "See the diagram on page 31.",
+            kurdishText: "ھێڵکارییەکە لەسەر پەڕەی ٣١ ببینە.",
+            onPressedBritish: () => speakdiagrams3("en-GB"),
+            onPressedAmerican: () => speakdiagrams3("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: "٢. (کردار) پیشاندان بە ھێڵکاری"),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The overall structures of these enzymes are diagrammed in Fig 1."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "پێکھاتەی گشتیی ئەم ئەنزیمانە لە شێوەی ١ ھێلکاری کراوە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdiagrams4("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdiagrams4("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "The overall structures of these enzymes are diagrammed in Fig 1.",
+            kurdishText:
+                "پێکھاتەی گشتیی ئەم ئەنزیمانە لە شێوەی ١ ھێلکاری کراوە.",
+            onPressedBritish: () => speakdiagrams4("en-GB"),
+            onPressedAmerican: () => speakdiagrams4("en-US"),
           ),
           // diagrams500"),
           // speakdiagrams5

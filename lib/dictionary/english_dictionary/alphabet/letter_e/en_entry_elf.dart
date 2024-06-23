@@ -364,32 +364,13 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   """١. (ناو) لە چیرۆکدا گیانلەبەرێکی بچووکە بە تیژەوە کە ھێزی سیحراوی ھەیە"""),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            """In some stories, elves possess magical abilities and can cast spells or communicate with nature."""),
-                    ExampleSentenceKurdish(
-                        text:
-                            """لە ژمارەیەک چیرۆکدا، ئێلفەکان توانای سیحرئاسایان ھەیە و جادوو دەکەن یان قسە لەگەڵ سرووشت دەکەن."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "elf", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakelfs1("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakelfs1("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                """In some stories, elves possess magical abilities and can cast spells or communicate with nature.""",
+            kurdishText:
+                """لە ژمارەیەک چیرۆکدا، ئێلفەکان توانای سیحرئاسایان ھەیە و جادوو دەکەن یان قسە لەگەڵ سرووشت دەکەن.""", // elf
+            onPressedBritish: () => speakelfs1("en-GB"),
+            onPressedAmerican: () => speakelfs1("en-US"),
           ),
           // elfs200elfs2
           // speakelfs2

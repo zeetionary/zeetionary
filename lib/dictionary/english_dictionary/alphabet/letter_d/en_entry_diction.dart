@@ -232,32 +232,13 @@ class KurdishMeaning extends StatelessWidget {
 کوردی: شێوەی دەربڕین، شێوازی قسەکردن یان وتن، شێواز،	ھەڵبژاردن یان بەکارھێنانی وشەکان، وشەبەندی، تێک‌ھەڵکێشانی وشەکان
 """),
           const DefinitionKurdish(text: "١. (ناو) شێوازی خوێندنەوەی وشە"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "It is very helpful for a language teacher to have good diction."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "زۆرباش دەبێت بۆ مامۆستای زمان کە گۆکردنی باش بێت."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "diction", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdictions1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdictions1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "It is very helpful for a language teacher to have good diction.",
+            kurdishText:
+                "زۆرباش دەبێت بۆ مامۆستای زمان کە گۆکردنی باش بێت.", // diction
+            onPressedBritish: () => speakdictions1("en-GB"),
+            onPressedAmerican: () => speakdictions1("en-US"),
           ),
           // dictions200"),
           // speakdictions2

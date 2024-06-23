@@ -379,89 +379,32 @@ class KurdishMeaning extends StatelessWidget {
 """),
           const DefinitionKurdish(
               text: """١. (ھاوەڵناو) کە زۆر ڕۆشن نییە؛ کە ڕەنگی تاریکە"""),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: """Her skin turned a dusky gold in the sun."""),
-                    ExampleSentenceKurdish(
-                        text:
-                            """پێستی بوو بە ئاڵتوونی تاریک لەبەر خۆرەکەدا."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "dusky", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakduskys1("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakduskys1("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: """Her skin turned a dusky gold in the sun.""",
+            kurdishText:
+                """پێستی بوو بە ئاڵتوونی تاریک لەبەر خۆرەکەدا.""", // dusky
+            onPressedBritish: () => speakduskys1("en-GB"),
+            onPressedAmerican: () => speakduskys1("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            """The setting sun tinged the sky with a dusky orange."""),
-                    ExampleSentenceKurdish(
-                        text:
-                            """خۆرە ئاوابووەکە ئاسمانی گەشاندەوە بە پرتەقاڵییەکی تاریک."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakduskys2("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakduskys2("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                """The setting sun tinged the sky with a dusky orange.""",
+            kurdishText:
+                """خۆرە ئاوابووەکە ئاسمانی گەشاندەوە بە پرتەقاڵییەکی تاریک.""",
+            onPressedBritish: () => speakduskys2("en-GB"),
+            onPressedAmerican: () => speakduskys2("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: """In autumn, the leaves turn a dusky red."""),
-                    ExampleSentenceKurdish(
-                        text: """لە پاییزدا، گەڵاکان سووری تێرن."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakduskys3("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakduskys3("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: """In autumn, the leaves turn a dusky red.""",
+            kurdishText: """لە پاییزدا، گەڵاکان سووری تێرن.""",
+            onPressedBritish: () => speakduskys3("en-GB"),
+            onPressedAmerican: () => speakduskys3("en-US"),
           ),
           // duskys400
           // speakduskys4

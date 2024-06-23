@@ -364,32 +364,13 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "١. (ناو) ناوچەی نزیک لەنگەرگا (ئەو شوێنەی باری کەشتی سەردەخردرێت و دادەگیردرێت)"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "Hundreds of millions of pounds are needed to redevelop large areas of derelict dockland."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "سەدان ملیۆن پاوەند پێویستن بۆ دووبارە گەشەپێدانەوەی ناوچە گەورەکانی شوێنی پشتگوێخراوی لەنگەرخستن."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "dockland", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdocklands1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdocklands1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "Hundreds of millions of pounds are needed to redevelop large areas of derelict dockland.",
+            kurdishText:
+                "سەدان ملیۆن پاوەند پێویستن بۆ دووبارە گەشەپێدانەوەی ناوچە گەورەکانی شوێنی پشتگوێخراوی لەنگەرخستن.", // dockland
+            onPressedBritish: () => speakdocklands1("en-GB"),
+            onPressedAmerican: () => speakdocklands1("en-US"),
           ),
           // docklands200"),
           // speakdocklands2

@@ -251,62 +251,23 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "١. (کردار) دەرکردنی کەسێک لە وڵاتێک، بەزۆری بەھۆی ئەوەی یاسای شکاندووە یان مافی مانەوەی لە وڵاتەکە نییە"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "He was convicted of drug offences and deported."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "تاوانبارکرا بە تاوانی مادەی ھۆشبەر و دیپۆرت کرایەوە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "deport", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdeports1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdeports1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "He was convicted of drug offences and deported.",
+            kurdishText:
+                "تاوانبارکرا بە تاوانی مادەی ھۆشبەر و دیپۆرت کرایەوە.", // deport
+            onPressedBritish: () => speakdeports1("en-GB"),
+            onPressedAmerican: () => speakdeports1("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "Many refugees were forcibly deported back to the countries they had come from."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "زۆر پەنابەر بەزۆر نێردرانەوە بۆ ئەو وڵاتانەی لێیانەوە ھاتبوون."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdeports2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdeports2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "Many refugees were forcibly deported back to the countries they had come from.",
+            kurdishText:
+                "زۆر پەنابەر بەزۆر نێردرانەوە بۆ ئەو وڵاتانەی لێیانەوە ھاتبوون.",
+            onPressedBritish: () => speakdeports2("en-GB"),
+            onPressedAmerican: () => speakdeports2("en-US"),
           ),
           // deports300"),
           // speakdeports3

@@ -363,30 +363,11 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   """١. (ناو) کوپێکی بچووک بۆ ھەڵگرتنی ھێلکەیەکی کوڵاو کە دەیخۆیت"""),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: """She placed the boiled egg in the egg cup."""),
-                    ExampleSentenceKurdish(
-                        text: """ھێلکە کوڵاوەکەی خستە سەر جێ‌ھێلکەکە."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "egg cup", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakeggcups1("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakeggcups1("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: """She placed the boiled egg in the egg cup.""",
+            kurdishText: """ھێلکە کوڵاوەکەی خستە سەر جێ‌ھێلکەکە.""", // egg cup
+            onPressedBritish: () => speakeggcups1("en-GB"),
+            onPressedAmerican: () => speakeggcups1("en-US"),
           ),
           // eggcups200eggcups2
           // speakeggcups2

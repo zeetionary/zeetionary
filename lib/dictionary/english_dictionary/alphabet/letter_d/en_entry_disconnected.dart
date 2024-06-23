@@ -261,123 +261,47 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "١. (ھاوەڵناو) کە پەیوەست نییە بە کەس و شتانی دەورووبەرییەوە"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "I felt disconnected from the world around me."),
-                    ExampleSentenceKurdish(
-                        text: "ھەستم بە دابڕاوی لە جیھانی دەورووبەرم دەکرد."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "disconnected", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdisconnecteds1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdisconnecteds1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "I felt disconnected from the world around me.",
+            kurdishText:
+                "ھەستم بە دابڕاوی لە جیھانی دەورووبەرم دەکرد.", // disconnected
+            onPressedBritish: () => speakdisconnecteds1("en-GB"),
+            onPressedAmerican: () => speakdisconnecteds1("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "She had not slept and was feeling numb and disconnected."),
-                    ExampleSentenceKurdish(
-                        text: "نەخەوتبوو و ھەستی بە گێژی و دابڕاوی دەکرد."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdisconnecteds2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdisconnecteds2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "She had not slept and was feeling numb and disconnected.",
+            kurdishText: "نەخەوتبوو و ھەستی بە گێژی و دابڕاوی دەکرد.",
+            onPressedBritish: () => speakdisconnecteds2("en-GB"),
+            onPressedAmerican: () => speakdisconnecteds2("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
                   "٢. (ھاوەڵناو) قسەیەک یان نووسینێکی کە بەشەکانی پێکەوە لۆژیکانە پەیوەندیدار نین"),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The three parts of his argument feel a little disconnected."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "سێ بەشەکەی مشتومڕەکەی کەمێک بێ‌سەرەوبەرە دیارن."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdisconnecteds3("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdisconnecteds3("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "The three parts of his argument feel a little disconnected.",
+            kurdishText: "سێ بەشەکەی مشتومڕەکەی کەمێک بێ‌سەرەوبەرە دیارن.",
+            onPressedBritish: () => speakdisconnecteds3("en-GB"),
+            onPressedAmerican: () => speakdisconnecteds3("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
                   "٣. (ھاوەڵناو) کە نەبەستراوە بە تۆڕێک، سەرچاوەی وزەوە، ھتد"),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "All he found was an empty office and a disconnected phone."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "ھەموو ئەوەی دۆزییەوە ئۆفیسێکی چۆڵ و موبایلێکی بێ پەیوەندی بوو."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdisconnecteds4("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdisconnecteds4("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "All he found was an empty office and a disconnected phone.",
+            kurdishText:
+                "ھەموو ئەوەی دۆزییەوە ئۆفیسێکی چۆڵ و موبایلێکی بێ پەیوەندی بوو.",
+            onPressedBritish: () => speakdisconnecteds4("en-GB"),
+            onPressedAmerican: () => speakdisconnecteds4("en-US"),
           ),
           // disconnecteds500"),
           // speakdisconnecteds5

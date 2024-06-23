@@ -234,32 +234,13 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "١. (کردار) قسەکردن لەسەر شتێک کە پەیوەندیدار نییە بە بابەتی سەرەکی ئەوەی قسەی لەسەر دەکەیت"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "To digress for a moment, I would like to remind you that there will be no classes next week."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "بۆ کەمێک لادان لە بابەت، دەمەوێت بیرتانی بھێنمەوە کە ھەفتەی داھاتوو وانە نابێت."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "digress", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdigresss1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdigresss1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "To digress for a moment, I would like to remind you that there will be no classes next week.",
+            kurdishText:
+                "بۆ کەمێک لادان لە بابەت، دەمەوێت بیرتانی بھێنمەوە کە ھەفتەی داھاتوو وانە نابێت.", // digress
+            onPressedBritish: () => speakdigresss1("en-GB"),
+            onPressedAmerican: () => speakdigresss1("en-US"),
           ),
           // digresss200"),
           // speakdigresss2

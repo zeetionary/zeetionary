@@ -243,62 +243,23 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "١. (ھاوەڵناو) وریا لەوەی دەیڵێیت یان دەیکەیت، بۆ ئەوەی شتێک بە نھێنی بھێڵیتەوە یان دوور بکەویتەوە لە دروستکردنی کێشە بۆ کەسێک یان ئەوەی شەرمەزاری بکەیت"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "He was always very discreet about his love affairs."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "ھەمیشە زۆر قایم‌کار بوو سەبارەت بە پەیوەندییە سۆزدارییەکانی."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "discreet", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdiscreets1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdiscreets1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "He was always very discreet about his love affairs.",
+            kurdishText:
+                "ھەمیشە زۆر قایم‌کار بوو سەبارەت بە پەیوەندییە سۆزدارییەکانی.", // discreet
+            onPressedBritish: () => speakdiscreets1("en-GB"),
+            onPressedAmerican: () => speakdiscreets1("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "A discreet glance at the clock told me the interview had lasted an hour."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "نیگایەکی وریایانە لە کاتژمێرەکە پیشانی دام کە چاوپێکەوتنەکە یەک کاتژمێری خایاندبوو."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdiscreets2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdiscreets2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "A discreet glance at the clock told me the interview had lasted an hour.",
+            kurdishText:
+                "نیگایەکی وریایانە لە کاتژمێرەکە پیشانی دام کە چاوپێکەوتنەکە یەک کاتژمێری خایاندبوو.",
+            onPressedBritish: () => speakdiscreets2("en-GB"),
+            onPressedAmerican: () => speakdiscreets2("en-US"),
           ),
           // discreets300"),
           // speakdiscreets3

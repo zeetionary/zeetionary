@@ -268,119 +268,43 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "١. (ناو) بەشێکی دامەزراوەیەکی گەورەی وەک حکومەتێک، کۆمپانیایەک، ھتد"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "He is a lecturer in the department of psychology at Trinity College."),
-                    ExampleSentenceKurdish(
-                        text: "وانەبێژە لە بەشی دەروونناسی لە کۆلێژی ترینیتی."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "department", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdepartments1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdepartments1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "He is a lecturer in the department of psychology at Trinity College.",
+            kurdishText:
+                "وانەبێژە لە بەشی دەروونناسی لە کۆلێژی ترینیتی.", // department
+            onPressedBritish: () => speakdepartments1("en-GB"),
+            onPressedAmerican: () => speakdepartments1("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The children's department (= in a large store) sells a wide range of good quality clothes."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "بەشی منداڵان جۆری جیاواز لە جلی کوالێتی بەرز دەفرۆشێت."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdepartments2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdepartments2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "The children's department (= in a large store) sells a wide range of good quality clothes.",
+            kurdishText:
+                "بەشی منداڵان جۆری جیاواز لە جلی کوالێتی بەرز دەفرۆشێت.",
+            onPressedBritish: () => speakdepartments2("en-GB"),
+            onPressedAmerican: () => speakdepartments2("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "She used to work in the IT department."),
-                    ExampleSentenceKurdish(
-                        text: "جاران لە بەشی ئای‌تی دەیخوێند."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdepartments3("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdepartments3("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "She used to work in the IT department.",
+            kurdishText: "جاران لە بەشی ئای‌تی دەیخوێند.",
+            onPressedBritish: () => speakdepartments3("en-GB"),
+            onPressedAmerican: () => speakdepartments3("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "A new member of staff has joined the department."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "ئەندامێکی تازەی ستافەکە پەیوەندیی بە بەشەکەوە کردووە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdepartments4("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdepartments4("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "A new member of staff has joined the department.",
+            kurdishText:
+                "ئەندامێکی تازەی ستافەکە پەیوەندیی بە بەشەکەوە کردووە.",
+            onPressedBritish: () => speakdepartments4("en-GB"),
+            onPressedAmerican: () => speakdepartments4("en-US"),
           ),
           // departments500"),
           // speakdepartments5

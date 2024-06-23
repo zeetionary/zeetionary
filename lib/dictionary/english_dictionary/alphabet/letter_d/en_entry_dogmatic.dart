@@ -364,31 +364,12 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "١. (ھاوەڵناو) ھەبوونی ئەو باوەڕەی کە بۆچوونەکانت ڕاستن و کەسانی دیکە دەبێت بەبێ پرسیارکردن یان ڕوونکردنەوە پەسەندی بکەن"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "He was strident and dogmatic in giving his opinions."),
-                    ExampleSentenceKurdish(
-                        text: "چاونەترس و دەمارگرژ بوو لە بۆچوونەکانیدا."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "dogmatic", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdogmatics1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdogmatics1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "He was strident and dogmatic in giving his opinions.",
+            kurdishText:
+                "چاونەترس و دەمارگرژ بوو لە بۆچوونەکانیدا.", // dogmatic
+            onPressedBritish: () => speakdogmatics1("en-GB"),
+            onPressedAmerican: () => speakdogmatics1("en-US"),
           ),
           // dogmatics200"),
           // speakdogmatics2

@@ -241,59 +241,20 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "١. (ناو) شکستی تەواو بۆ گەشتنە ڕێککەوتن یان چارەسەری مشتومڕێک"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                      text: "The strike appeared to have reached deadlock.",
-                      note: "American: The strike has reached a deadlock.",
-                    ),
-                    ExampleSentenceKurdish(
-                        text:
-                            "مانگرتنەکە وا دەردەکەوێت کە گەشتبێت بە بن‌بەست."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "deadlock", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdeadlocks1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdeadlocks1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "The strike appeared to have reached deadlock.",
+            englishNote: "American: The strike has reached a deadlock.",
+            kurdishText:
+                "مانگرتنەکە وا دەردەکەوێت کە گەشتبێت بە بن‌بەست.", // deadlock
+            onPressedBritish: () => speakdeadlocks1("en-GB"),
+            onPressedAmerican: () => speakdeadlocks1("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "The negotiations ended in (a) deadlock."),
-                    ExampleSentenceKurdish(
-                        text: "دانوستانەکان بە بێ‌دەرەتان کۆتایی ھات."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdeadlocks2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdeadlocks2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "The negotiations ended in (a) deadlock.",
+            kurdishText: "دانوستانەکان بە بێ‌دەرەتان کۆتایی ھات.",
+            onPressedBritish: () => speakdeadlocks2("en-GB"),
+            onPressedAmerican: () => speakdeadlocks2("en-US"),
           ),
         ],
       ),

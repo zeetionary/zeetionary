@@ -372,60 +372,22 @@ class KurdishMeaning extends StatelessWidget {
 """),
           const DefinitionKurdish(
               text: """١. (ناو) ڕوونکردنەوەی زیاتری شتێک"""),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            """Their objectives and methods require further elucidation."""),
-                    ExampleSentenceKurdish(
-                        text:
-                            """ئامانج و ڕێگاکان پێویستییان بە ڕوونکردنەوەیە."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "elucidation", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakelucidations1("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakelucidations1("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                """Their objectives and methods require further elucidation.""",
+            kurdishText:
+                """ئامانج و ڕێگاکان پێویستییان بە ڕوونکردنەوەیە.""", // elucidation
+            onPressedBritish: () => speakelucidations1("en-GB"),
+            onPressedAmerican: () => speakelucidations1("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: """These figures need elucidation."""),
-                    ExampleSentenceKurdish(
-                        text: """ئەم ئامارانە پێویستییان بە ڕوونکردنەوەیە."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakelucidations2("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakelucidations2("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: """These figures need elucidation.""",
+            kurdishText: """ئەم ئامارانە پێویستییان بە ڕوونکردنەوەیە.""",
+            onPressedBritish: () => speakelucidations2("en-GB"),
+            onPressedAmerican: () => speakelucidations2("en-US"),
           ),
           // elucidations300elucidations3
           // speakelucidations3

@@ -252,94 +252,37 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "١. (ھاوەڵناو) کە دەبێتە ھۆکاری کێشە بەشێوەیەک کە شتێک بە ئاسایی نەتوانێت بەرەو پێشەوە بچێت"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "She had a disruptive influence on the rest of the class."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "کاریگەری تێکدەری لەسەر ئەوانەی دیکە پۆلەکە ھەبوو."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "disruptive", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdisruptives1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdisruptives1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "She had a disruptive influence on the rest of the class.",
+            kurdishText:
+                "کاریگەری تێکدەری لەسەر ئەوانەی دیکە پۆلەکە ھەبوو.", // disruptive
+            onPressedBritish: () => speakdisruptives1("en-GB"),
+            onPressedAmerican: () => speakdisruptives1("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "He warned that her presence was potentially disruptive."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "ئاگاداری ئەوەی دا کە بوونی لەوێ ئەکرا مایەی گێرەشێوێنی بێت."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdisruptives2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdisruptives2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "He warned that her presence was potentially disruptive.",
+            kurdishText:
+                "ئاگاداری ئەوەی دا کە بوونی لەوێ ئەکرا مایەی گێرەشێوێنی بێت.",
+            onPressedBritish: () => speakdisruptives2("en-GB"),
+            onPressedAmerican: () => speakdisruptives2("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
                   "٢. (ھاوەڵناو) تازە و ڕەسەن بەشێوەیەک کە کاریگەری گەورەی دەبێت لەسەر شێوەی کردنی شتێک"),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "Printing in 3D is a disruptive technology which may transform manufacturing."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "چاپی سێ دووری تەکنەلۆژیایەکی داھێنەرانەیە کە دەکرێت پیشەسازیی بەرھەمھێنان بگۆڕێت."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdisruptives3("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdisruptives3("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "Printing in 3D is a disruptive technology which may transform manufacturing.",
+            kurdishText:
+                "چاپی سێ دووری تەکنەلۆژیایەکی داھێنەرانەیە کە دەکرێت پیشەسازیی بەرھەمھێنان بگۆڕێت.",
+            onPressedBritish: () => speakdisruptives3("en-GB"),
+            onPressedAmerican: () => speakdisruptives3("en-US"),
           ),
           // disruptives400"),
           // speakdisruptives4

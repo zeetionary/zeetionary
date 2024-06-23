@@ -462,384 +462,132 @@ class KurdishMeaning extends StatelessWidget {
 کوردی: دەرکەوتن، ھاتنەدەر، سەرھەڵدان
 """),
           const DefinitionKurdish(text: """١. (کردار) دەرکەوتن"""),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            """The crabs emerge at low tide to look for food."""),
-                    ExampleSentenceKurdish(
-                        text:
-                            """قرژاڵەکان لە شەپۆلی نزمدا دەردەکەون بۆ  گەڕان بۆ خواردن."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "emerge", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakemerges1("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakemerges1("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: """The crabs emerge at low tide to look for food.""",
+            kurdishText:
+                """قرژاڵەکان لە شەپۆلی نزمدا دەردەکەون بۆ  گەڕان بۆ خواردن.""", // emerge
+            onPressedBritish: () => speakemerges1("en-GB"),
+            onPressedAmerican: () => speakemerges1("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: """ژممارە. (کردار) پێنناسە"""),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: """She finally emerged from her room at noon."""),
-                    ExampleSentenceKurdish(
-                        text:
-                            """لەکۆتاییدا لە نیوەڕۆدا لە ژوورەکەی ھاتە دەرەوە."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakemerges2("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakemerges2("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: """She finally emerged from her room at noon.""",
+            kurdishText: """لەکۆتاییدا لە نیوەڕۆدا لە ژوورەکەی ھاتە دەرەوە.""",
+            onPressedBritish: () => speakemerges2("en-GB"),
+            onPressedAmerican: () => speakemerges2("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: """ژممارە. (کردار) پێنناسە"""),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: """The swimmer emerged from the lake."""),
-                    ExampleSentenceKurdish(
-                        text: """مەلەوانەکە لە دەریاچەکە ھاتە دەرەوە."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakemerges3("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakemerges3("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: """The swimmer emerged from the lake.""",
+            kurdishText: """مەلەوانەکە لە دەریاچەکە ھاتە دەرەوە.""",
+            onPressedBritish: () => speakemerges3("en-GB"),
+            onPressedAmerican: () => speakemerges3("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: """ژممارە. (کردار) پێنناسە"""),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: """He emerged from the shadows."""),
-                    ExampleSentenceKurdish(
-                        text: """لە تاریکییەکە ھاتە دەرەوە."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakemerges4("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakemerges4("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: """He emerged from the shadows.""",
+            kurdishText: """لە تاریکییەکە ھاتە دەرەوە.""",
+            onPressedBritish: () => speakemerges4("en-GB"),
+            onPressedAmerican: () => speakemerges4("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: """٢. (کردار) کە دەزاندرێن"""),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            """No new evidence emerged during the investigation."""),
-                    ExampleSentenceKurdish(
-                        text:
-                            """ھیچ بەڵگەی تازە لە ماوەی لێکۆڵینەوەکە نەزاندرا."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakemerges5("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakemerges5("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                """No new evidence emerged during the investigation.""",
+            kurdishText: """ھیچ بەڵگەی تازە لە ماوەی لێکۆڵینەوەکە نەزاندرا.""",
+            onPressedBritish: () => speakemerges5("en-GB"),
+            onPressedAmerican: () => speakemerges5("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: """ژممارە. (کردار) پێنناسە"""),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            """More details have emerged of his relationship with the film star."""),
-                    ExampleSentenceKurdish(
-                        text:
-                            """وردەکاریی زیاتر دەرکەوتووە سەبارەت بە پەیوەندییەکەی لەگەڵ ئەستێرە فیلمییەکە."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakemerges6("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakemerges6("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                """More details have emerged of his relationship with the film star.""",
+            kurdishText:
+                """وردەکاریی زیاتر دەرکەوتووە سەبارەت بە پەیوەندییەکەی لەگەڵ ئەستێرە فیلمییەکە.""",
+            onPressedBritish: () => speakemerges6("en-GB"),
+            onPressedAmerican: () => speakemerges6("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: """ژممارە. (کردار) پێنناسە"""),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            """Problems with this drug are now beginning to emerge."""),
-                    ExampleSentenceKurdish(
-                        text:
-                            """کێشەکانی ئەم دەرمانە لە ئێستادا دەست بە دەرکەوتن دەکەن."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakemerges7("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakemerges7("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                """Problems with this drug are now beginning to emerge.""",
+            kurdishText:
+                """کێشەکانی ئەم دەرمانە لە ئێستادا دەست بە دەرکەوتن دەکەن.""",
+            onPressedBritish: () => speakemerges7("en-GB"),
+            onPressedAmerican: () => speakemerges7("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: """ژممارە. (کردار) پێنناسە"""),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            """It emerged that the company was going to be sold."""),
-                    ExampleSentenceKurdish(
-                        text: """ئەوە زاندرا کە کۆمپانیاکە دەفرۆشردرێت."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakemerges8("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakemerges8("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                """It emerged that the company was going to be sold.""",
+            kurdishText: """ئەوە زاندرا کە کۆمپانیاکە دەفرۆشردرێت.""",
+            onPressedBritish: () => speakemerges8("en-GB"),
+            onPressedAmerican: () => speakemerges8("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: """٣. (کردار) دەستکردن بە ھەبوون"""),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            """After the elections opposition groups began to emerge."""),
-                    ExampleSentenceKurdish(
-                        text:
-                            """لە دوای ھەڵبژاردنەکان گرووپی ئۆپۆزسیۆن دەستیان کرد بە درووست بوون."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakemerges9("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakemerges9("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                """After the elections opposition groups began to emerge.""",
+            kurdishText:
+                """لە دوای ھەڵبژاردنەکان گرووپی ئۆپۆزسیۆن دەستیان کرد بە درووست بوون.""",
+            onPressedBritish: () => speakemerges9("en-GB"),
+            onPressedAmerican: () => speakemerges9("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: """ژممارە. (کردار) پێنناسە"""),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: """He emerged as a key figure in the campaign"""),
-                    ExampleSentenceKurdish(
-                        text:
-                            """وەک کەسایەتییەکی سەرەکی لە کەمپینەکە دەرکەوت."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakemerges10("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakemerges10("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: """He emerged as a key figure in the campaign""",
+            kurdishText: """وەک کەسایەتییەکی سەرەکی لە کەمپینەکە دەرکەوت.""",
+            onPressedBritish: () => speakemerges10("en-GB"),
+            onPressedAmerican: () => speakemerges10("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: """ژممارە. (کردار) پێنناسە"""),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            """The University of Colorado emerged as the overall winner."""),
-                    ExampleSentenceKurdish(
-                        text: """زانکۆی کۆلۆرادۆ وەک براوەی گشتی دەرکەوت."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakemerges11("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakemerges11("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                """The University of Colorado emerged as the overall winner.""",
+            kurdishText: """زانکۆی کۆلۆرادۆ وەک براوەی گشتی دەرکەوت.""",
+            onPressedBritish: () => speakemerges11("en-GB"),
+            onPressedAmerican: () => speakemerges11("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text: """٤. (کردار) ڕزگاربوون لە دۆخێک یان ئەزموونێکی سەخت"""),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            """She emerged from the scandal with her reputation intact."""),
-                    ExampleSentenceKurdish(
-                        text:
-                            """لە ئابڕووچوونەکە ڕزگاری بوو بە مانەوەی ناوبانگی بە سەلامەتی."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakemerges12("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakemerges12("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                """She emerged from the scandal with her reputation intact.""",
+            kurdishText:
+                """لە ئابڕووچوونەکە ڕزگاری بوو بە مانەوەی ناوبانگی بە سەلامەتی.""",
+            onPressedBritish: () => speakemerges12("en-GB"),
+            onPressedAmerican: () => speakemerges12("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: """ژممارە. (کردار) پێنناسە"""),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            """The world is slowly emerging from recession."""),
-                    ExampleSentenceKurdish(
-                        text: """جیھان بە ھێواشی لە قەیرانەکە دەردەچێت."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakemerges13("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakemerges13("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: """The world is slowly emerging from recession.""",
+            kurdishText: """جیھان بە ھێواشی لە قەیرانەکە دەردەچێت.""",
+            onPressedBritish: () => speakemerges13("en-GB"),
+            onPressedAmerican: () => speakemerges13("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: """ژممارە. (کردار) پێنناسە"""),

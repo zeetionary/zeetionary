@@ -315,306 +315,96 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "١. (ناو) لەدەستدانی ڕێز و پەسەندبوون لای کەسانی دیکە بەھۆی خراۆی ڕەفتار"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "Her behaviour has brought disgrace on her family."),
-                    ExampleSentenceKurdish(
-                        text: "ھەڵسوکەوتی شەرمی ھێناوە بۆ خانەوادەکەی."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "disgrace", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdisgraces1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdisgraces1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "Her behaviour has brought disgrace on her family.",
+            kurdishText: "ھەڵسوکەوتی شەرمی ھێناوە بۆ خانەوادەکەی.", // disgrace
+            onPressedBritish: () => speakdisgraces1("en-GB"),
+            onPressedAmerican: () => speakdisgraces1("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The swimmer was sent home from the Olympics in disgrace."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "مەلەوانەکە بە شەرمەوە لە ئۆڵۆمپیاد نێردرایەوە ماڵەوە-."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdisgraces2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdisgraces2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "The swimmer was sent home from the Olympics in disgrace.",
+            kurdishText:
+                "مەلەوانەکە بە شەرمەوە لە ئۆڵۆمپیاد نێردرایەوە ماڵەوە-.",
+            onPressedBritish: () => speakdisgraces2("en-GB"),
+            onPressedAmerican: () => speakdisgraces2("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "Sam was in disgrace with his parents."),
-                    ExampleSentenceKurdish(
-                        text: "سام شەرمەزاری دایک و باوکی بوو."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdisgraces3("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdisgraces3("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "Sam was in disgrace with his parents.",
+            kurdishText: "سام شەرمەزاری دایک و باوکی بوو.",
+            onPressedBritish: () => speakdisgraces3("en-GB"),
+            onPressedAmerican: () => speakdisgraces3("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "There is no disgrace in being poor."),
-                    ExampleSentenceKurdish(
-                        text: "ھیچ شەرمێک نییە لە ھەژاربووندا."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdisgraces4("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdisgraces4("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "There is no disgrace in being poor.",
+            kurdishText: "ھیچ شەرمێک نییە لە ھەژاربووندا.",
+            onPressedBritish: () => speakdisgraces4("en-GB"),
+            onPressedAmerican: () => speakdisgraces4("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
                   "٢. (ناو) شتێک کە ھێندە خراپە کە کەسانی پەیوەندیدار پێوەی دەبێت ھەست بە شەرم بکەن"),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "Your homework is an absolute disgrace."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "ئەرکی ماڵەوەت جێگەی شەرمەزارییە (زۆر خراپ ئەنجامت داوە)."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdisgraces5("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdisgraces5("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "Your homework is an absolute disgrace.",
+            kurdishText:
+                "ئەرکی ماڵەوەت جێگەی شەرمەزارییە (زۆر خراپ ئەنجامت داوە).",
+            onPressedBritish: () => speakdisgraces5("en-GB"),
+            onPressedAmerican: () => speakdisgraces5("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "The state of our roads is a national disgrace."),
-                    ExampleSentenceKurdish(
-                        text: "دۆخی ڕێگاکانمان ئابڕووچوونێکی نیشتیمانییە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdisgraces6("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdisgraces6("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "The state of our roads is a national disgrace.",
+            kurdishText: "دۆخی ڕێگاکانمان ئابڕووچوونێکی نیشتیمانییە.",
+            onPressedBritish: () => speakdisgraces6("en-GB"),
+            onPressedAmerican: () => speakdisgraces6("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "That sort of behaviour is a disgrace to the legal profession."),
-                    ExampleSentenceKurdish(
-                        text: "ھەڵسوکەوتی وەھا شەرمە بۆ کاری یاسایی."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdisgraces7("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdisgraces7("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "That sort of behaviour is a disgrace to the legal profession.",
+            kurdishText: "ھەڵسوکەوتی وەھا شەرمە بۆ کاری یاسایی.",
+            onPressedBritish: () => speakdisgraces7("en-GB"),
+            onPressedAmerican: () => speakdisgraces7("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "You are a disgrace to this school."),
-                    ExampleSentenceKurdish(
-                        text: "جێگەی شەرمی بۆ ئەم قوتابخانەیە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdisgraces8("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdisgraces8("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "You are a disgrace to this school.",
+            kurdishText: "جێگەی شەرمی بۆ ئەم قوتابخانەیە.",
+            onPressedBritish: () => speakdisgraces8("en-GB"),
+            onPressedAmerican: () => speakdisgraces8("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٣. (ناو) ڕەفتارکردن بە شێوەیەک کە شەرمەزاری لێدەکەوێتەوە"),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "I disgraced myself by drinking far too much."),
-                    ExampleSentenceKurdish(
-                        text: "خۆم شەرمەزار کرد بە خواردنەوەی ئێجگار زۆر."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdisgraces9("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdisgraces9("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "I disgraced myself by drinking far too much.",
+            kurdishText: "خۆم شەرمەزار کرد بە خواردنەوەی ئێجگار زۆر.",
+            onPressedBritish: () => speakdisgraces9("en-GB"),
+            onPressedAmerican: () => speakdisgraces9("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "He had disgraced the family name."),
-                    ExampleSentenceKurdish(
-                        text: "ناوی خێزانەکەی شەرمەزار کردبوو."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdisgraces10("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdisgraces10("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "He had disgraced the family name.",
+            kurdishText: "ناوی خێزانەکەی شەرمەزار کردبوو.",
+            onPressedBritish: () => speakdisgraces10("en-GB"),
+            onPressedAmerican: () => speakdisgraces10("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
                   "٤. (ناو) لەدەستدانی ڕێزی کەسانی دیکە بە شێوەیەک کە پێگەیەکی دەسەڵات لەدەست دەدەیت"),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "He was publicly disgraced and sent into exile."),
-                    ExampleSentenceKurdish(
-                        text: "بە شێوەیەکی گشتی بێڕێز کرا و دوورخرایەوە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdisgraces11("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdisgraces11("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "He was publicly disgraced and sent into exile.",
+            kurdishText: "بە شێوەیەکی گشتی بێڕێز کرا و دوورخرایەوە.",
+            onPressedBritish: () => speakdisgraces11("en-GB"),
+            onPressedAmerican: () => speakdisgraces11("en-US"),
           ),
           // disgraces1200"),
           // speakdisgraces12

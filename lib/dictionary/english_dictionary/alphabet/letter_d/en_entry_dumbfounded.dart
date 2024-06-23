@@ -372,60 +372,21 @@ class KurdishMeaning extends StatelessWidget {
 """),
           const DefinitionKurdish(
               text: """١. (ھاوەڵناو) نەتوانینی قسەکردن بەھۆی سەرسامی"""),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: """The news left her dumbfounded."""),
-                    ExampleSentenceKurdish(
-                        text: """ھەواڵەکە بە حەپەساوی ھێشتییەوە."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "dumbfounded", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdumbfoundeds1("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdumbfoundeds1("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: """The news left her dumbfounded.""",
+            kurdishText: """ھەواڵەکە بە حەپەساوی ھێشتییەوە.""", // dumbfounded
+            onPressedBritish: () => speakdumbfoundeds1("en-GB"),
+            onPressedAmerican: () => speakdumbfoundeds1("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            """She looked absolutely dumbfounded when I told her what had happened."""),
-                    ExampleSentenceKurdish(
-                        text:
-                            """تەواو واق‌وڕماو دیاربوو کە پێم گوت چی ڕوویدابوو."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdumbfoundeds2("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdumbfoundeds2("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                """She looked absolutely dumbfounded when I told her what had happened.""",
+            kurdishText: """تەواو واق‌وڕماو دیاربوو کە پێم گوت چی ڕوویدابوو.""",
+            onPressedBritish: () => speakdumbfoundeds2("en-GB"),
+            onPressedAmerican: () => speakdumbfoundeds2("en-US"),
           ),
           // dumbfoundeds300
           // speakdumbfoundeds3

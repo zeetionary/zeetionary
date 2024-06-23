@@ -257,88 +257,31 @@ class KurdishMeaning extends StatelessWidget {
 """),
           const DefinitionKurdish(
               text: "١. (ناو) پڕۆسەی دۆزینەوە یان تێبینی کردنی شتێک"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "Many problems escape detection."),
-                    ExampleSentenceKurdish(text: "زۆر کێشە ھەست پێ ناکرێن."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "detection", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdetections1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdetections1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "Many problems escape detection.",
+            kurdishText: "زۆر کێشە ھەست پێ ناکرێن.", // detection
+            onPressedBritish: () => speakdetections1("en-GB"),
+            onPressedAmerican: () => speakdetections1("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "Early detection of cancers is vitally important."),
-                    ExampleSentenceKurdish(
-                        text: "تێبینی کردنی زووی شێرپەنجە زۆر گرنگە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdetections2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdetections2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "Early detection of cancers is vitally important.",
+            kurdishText: "تێبینی کردنی زووی شێرپەنجە زۆر گرنگە.",
+            onPressedBritish: () => speakdetections2("en-GB"),
+            onPressedAmerican: () => speakdetections2("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "Last year the detection rate for car theft was just 13 per cent."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "ساڵی ڕابردوو دۆزینەوەی ئۆتۆمبێل دزین (لەلایەن پۆلیسەوە) تەنھا ١٣ لە سەد بوو."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdetections3("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdetections3("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "Last year the detection rate for car theft was just 13 per cent.",
+            kurdishText:
+                "ساڵی ڕابردوو دۆزینەوەی ئۆتۆمبێل دزین (لەلایەن پۆلیسەوە) تەنھا ١٣ لە سەد بوو.",
+            onPressedBritish: () => speakdetections3("en-GB"),
+            onPressedAmerican: () => speakdetections3("en-US"),
           ),
           // detections400"),
           // speakdetections4

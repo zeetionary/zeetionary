@@ -243,61 +243,24 @@ class KurdishMeaning extends StatelessWidget {
 """),
           const DefinitionKurdish(
               text: "١. (ناو) ئەوەی کە بە گوێی کەسێک نەکەیت"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "His behaviour was seen as another act of disobedience."),
-                    ExampleSentenceKurdish(
-                        text: "ھەڵسوکەوتەکەی وەک کارێکی دیکەی لاساری بینرا."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "disobedience", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdisobediences1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdisobediences1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "His behaviour was seen as another act of disobedience.",
+            kurdishText:
+                "ھەڵسوکەوتەکەی وەک کارێکی دیکەی لاساری بینرا.", // disobedience
+            onPressedBritish: () => speakdisobediences1("en-GB"),
+            onPressedAmerican: () => speakdisobediences1("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "Parents should not encourage disobedience by rewarding bad behaviour."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "دایک و باوکان نابێت ھانی لاساری بدەن بە پاداشتکردنی ڕەفتاری خراپ."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdisobediences2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdisobediences2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "Parents should not encourage disobedience by rewarding bad behaviour.",
+            kurdishText:
+                "دایک و باوکان نابێت ھانی لاساری بدەن بە پاداشتکردنی ڕەفتاری خراپ.",
+            onPressedBritish: () => speakdisobediences2("en-GB"),
+            onPressedAmerican: () => speakdisobediences2("en-US"),
           ),
           // disobediences300"),
           // speakdisobediences3

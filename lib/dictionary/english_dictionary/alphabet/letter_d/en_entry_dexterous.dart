@@ -240,59 +240,21 @@ class KurdishMeaning extends StatelessWidget {
 """),
           const DefinitionKurdish(
               text: "١. (ھاوەڵناو) شارەزا، بەتایبەتی لە بەکارھێنانی دەستدا"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "Baseball players have to be fast and dexterous."),
-                    ExampleSentenceKurdish(
-                        text: "یاریزانانی بەیسبۆڵ دەبێت خێرا و شارەزا بن."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "dexterous", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdexterouss1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdexterouss1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "Baseball players have to be fast and dexterous.",
+            kurdishText:
+                "یاریزانانی بەیسبۆڵ دەبێت خێرا و شارەزا بن.", // dexterous
+            onPressedBritish: () => speakdexterouss1("en-GB"),
+            onPressedAmerican: () => speakdexterouss1("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "She was lively and dexterous intellectually."),
-                    ExampleSentenceKurdish(
-                        text: "لەلایەنی ھزرییەوە چالاک و شارەزا بوو."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdexterouss2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdexterouss2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "She was lively and dexterous intellectually.",
+            kurdishText: "لەلایەنی ھزرییەوە چالاک و شارەزا بوو.",
+            onPressedBritish: () => speakdexterouss2("en-GB"),
+            onPressedAmerican: () => speakdexterouss2("en-US"),
           ),
           // dexterouss300"),
           // speakdexterouss3

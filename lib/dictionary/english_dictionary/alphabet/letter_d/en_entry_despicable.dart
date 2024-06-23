@@ -257,87 +257,31 @@ class KurdishMeaning extends StatelessWidget {
 کوردی: سووک، چەپەڵ، سووک‌وتڕۆ، پیس، ڕووڕەش، ھیچ‌وپووچ، ناحەز، بێزراوی، نائاکارانە، جێی‌سەرکۆنە، ڕشێنەرەوە
 """),
           const DefinitionKurdish(text: "١. (ھاوەڵناو) زۆر خراپ"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "I hate you! You're despicable."),
-                    ExampleSentenceKurdish(text: "ڕقم لێتە! چەپەڵیت."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "despicable", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdespicables1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdespicables1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "I hate you! You're despicable.",
+            kurdishText: "ڕقم لێتە! چەپەڵیت.", // despicable
+            onPressedBritish: () => speakdespicables1("en-GB"),
+            onPressedAmerican: () => speakdespicables1("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "Police have condemned the theft from an elderly widow as despicable."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "پۆلیس دزییەکەیان لە بێوەژنە پیرەکە بە قێزەون ناوھێناوە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdespicables2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdespicables2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "Police have condemned the theft from an elderly widow as despicable.",
+            kurdishText:
+                "پۆلیس دزییەکەیان لە بێوەژنە پیرەکە بە قێزەون ناوھێناوە.",
+            onPressedBritish: () => speakdespicables2("en-GB"),
+            onPressedAmerican: () => speakdespicables2("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "To fail was considered despicable."),
-                    ExampleSentenceKurdish(
-                        text: "شکستھێنان بە بێزراوی دادەنرا."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdespicables3("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdespicables3("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "To fail was considered despicable.",
+            kurdishText: "شکستھێنان بە بێزراوی دادەنرا.",
+            onPressedBritish: () => speakdespicables3("en-GB"),
+            onPressedAmerican: () => speakdespicables3("en-US"),
           ),
           // despicables400"),
           // speakdespicables4

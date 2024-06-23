@@ -369,60 +369,22 @@ class KurdishMeaning extends StatelessWidget {
 کوردی: بەکارنەھێنراو، چۆڵ‌کراو، وەلانراو، بەجێ‌ھێڵراو، لەکارنەکراو، پەک‌کەوتوو، لەکارکەوتوو، وازلێ‌ھێنراو
 """),
           const DefinitionKurdish(text: "١. (ھاوەڵناو) کە چی دیکە بەکارنایەت"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "The party was held in a disused warehouse."),
-                    ExampleSentenceKurdish(
-                        text: "ئاھەنگەکە لە کۆگایەکی چۆڵ‌کراو ئەنجام درا."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "disused", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdisuseds1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdisuseds1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "The party was held in a disused warehouse.",
+            kurdishText:
+                "ئاھەنگەکە لە کۆگایەکی چۆڵ‌کراو ئەنجام درا.", // disused
+            onPressedBritish: () => speakdisuseds1("en-GB"),
+            onPressedAmerican: () => speakdisuseds1("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "We went for a walk along a disused railway line."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "چووین بۆ پیاسەیەک بە ھێڵێکی بەکارنەھێنراوی شەمەندەفەردا."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdisuseds2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdisuseds2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "We went for a walk along a disused railway line.",
+            kurdishText:
+                "چووین بۆ پیاسەیەک بە ھێڵێکی بەکارنەھێنراوی شەمەندەفەردا.",
+            onPressedBritish: () => speakdisuseds2("en-GB"),
+            onPressedAmerican: () => speakdisuseds2("en-US"),
           ),
           // disuseds300"),
           // speakdisuseds3

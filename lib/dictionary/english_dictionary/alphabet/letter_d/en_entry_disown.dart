@@ -249,88 +249,30 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "١. (کردار) دەستبەرداربوون لە کەسێک/شتێک کە چی دیکە ناتەوێت"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "Her family disowned her for marrying a foreigner."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "خێزانەکەی حاشایان لێکرد بۆ ھاوسەرگیری لەگەڵ بیانییەک."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "disown", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdisowns1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdisowns1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "Her family disowned her for marrying a foreigner.",
+            kurdishText:
+                "خێزانەکەی حاشایان لێکرد بۆ ھاوسەرگیری لەگەڵ بیانییەک.", // disown
+            onPressedBritish: () => speakdisowns1("en-GB"),
+            onPressedAmerican: () => speakdisowns1("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "Later he publicly disowned the rebellion."),
-                    ExampleSentenceKurdish(
-                        text: "دواتر بە فەرمی خۆی لە یاخیبوونەکە بێبەری کرد."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdisowns2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdisowns2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "Later he publicly disowned the rebellion.",
+            kurdishText: "دواتر بە فەرمی خۆی لە یاخیبوونەکە بێبەری کرد.",
+            onPressedBritish: () => speakdisowns2("en-GB"),
+            onPressedAmerican: () => speakdisowns2("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "They have never disowned their humble roots."),
-                    ExampleSentenceKurdish(
-                        text: "خۆیان لە بنەچە سادەکەیان بێبەری نەکردووە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdisowns3("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdisowns3("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "They have never disowned their humble roots.",
+            kurdishText: "خۆیان لە بنەچە سادەکەیان بێبەری نەکردووە.",
+            onPressedBritish: () => speakdisowns3("en-GB"),
+            onPressedAmerican: () => speakdisowns3("en-US"),
           ),
           // disowns400"),
           // speakdisowns4

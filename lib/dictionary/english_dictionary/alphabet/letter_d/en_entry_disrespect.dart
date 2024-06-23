@@ -264,146 +264,49 @@ class KurdishMeaning extends StatelessWidget {
 کوردی: بێ‌ڕێزی، بێ‌حورمەتی، سووکایەتی
 """),
           const DefinitionKurdish(text: "١. (ناو) نەبوونی ڕێز بۆ خەڵکی/شت"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "No disrespect intended. It was just a joke."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "ھیچ مەبەستم لە بێڕیزی نەبوو. تەنھا گاڵتەیەک بوو."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "disrespect", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdisrespects1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdisrespects1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "No disrespect intended. It was just a joke.",
+            kurdishText:
+                "ھیچ مەبەستم لە بێڕیزی نەبوو. تەنھا گاڵتەیەک بوو.", // disrespect
+            onPressedBritish: () => speakdisrespects1("en-GB"),
+            onPressedAmerican: () => speakdisrespects1("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "She felt he had total disrespect for women."),
-                    ExampleSentenceKurdish(
-                        text: "وای ھەست دەکرد کە بێڕێزی تەواوی بۆ ژنان ھەیە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdisrespects2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdisrespects2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "She felt he had total disrespect for women.",
+            kurdishText: "وای ھەست دەکرد کە بێڕێزی تەواوی بۆ ژنان ھەیە.",
+            onPressedBritish: () => speakdisrespects2("en-GB"),
+            onPressedAmerican: () => speakdisrespects2("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "They have shown a total disrespect for the law."),
-                    ExampleSentenceKurdish(
-                        text: "بێڕێزی تەواویان بۆ یاساکە پیشانداوە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdisrespects3("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdisrespects3("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "They have shown a total disrespect for the law.",
+            kurdishText: "بێڕێزی تەواویان بۆ یاساکە پیشانداوە.",
+            onPressedBritish: () => speakdisrespects3("en-GB"),
+            onPressedAmerican: () => speakdisrespects3("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: "٢. (کردار) بێڕیزی کردن بە کەسێک/شتێک"),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "They were accused of disrespecting the country's flag."),
-                    ExampleSentenceKurdish(
-                        text: "تاوانبارکران بە بێڕێزیکردن بە ئاڵای وڵاتەکە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdisrespects4("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdisrespects4("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "They were accused of disrespecting the country's flag.",
+            kurdishText: "تاوانبارکران بە بێڕێزیکردن بە ئاڵای وڵاتەکە.",
+            onPressedBritish: () => speakdisrespects4("en-GB"),
+            onPressedAmerican: () => speakdisrespects4("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "He denied disrespecting the disaster victims."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "نکۆڵی کرد لە بێڕێزیکردن بە قوربانیانی کارەساتەکە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdisrespects5("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdisrespects5("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "He denied disrespecting the disaster victims.",
+            kurdishText: "نکۆڵی کرد لە بێڕێزیکردن بە قوربانیانی کارەساتەکە.",
+            onPressedBritish: () => speakdisrespects5("en-GB"),
+            onPressedAmerican: () => speakdisrespects5("en-US"),
           ),
           // disrespects600"),
           // speakdisrespects6

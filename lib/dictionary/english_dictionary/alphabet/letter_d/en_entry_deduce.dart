@@ -252,87 +252,29 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "١. (کردار) گەڵاڵەکردنی بۆچوونێک لەسەر شتێک بەپشتبەستن بەو زانیارییانەی کە ھەتە"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "We can deduce a lot from what people choose to buy."),
-                    ExampleSentenceKurdish(
-                        text: "دەتوانیت زۆر شت تێبگەین لەوەی کە خەڵکی دەیکڕن."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "deduce", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdeduces1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdeduces1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "We can deduce a lot from what people choose to buy.",
+            kurdishText:
+                "دەتوانیت زۆر شت تێبگەین لەوەی کە خەڵکی دەیکڕن.", // deduce
+            onPressedBritish: () => speakdeduces1("en-GB"),
+            onPressedAmerican: () => speakdeduces1("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "Can we deduce from your silence that you do not approve?"),
-                    ExampleSentenceKurdish(
-                        text:
-                            "دەتوانین لە بێ‌دەنگییەکەت ئەوە گەڵاڵە بکەین کە ڕازی نیت؟"),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdeduces2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdeduces2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "Can we deduce from your silence that you do not approve?",
+            kurdishText:
+                "دەتوانین لە بێ‌دەنگییەکەت ئەوە گەڵاڵە بکەین کە ڕازی نیت؟",
+            onPressedBritish: () => speakdeduces2("en-GB"),
+            onPressedAmerican: () => speakdeduces2("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "We deduce from his behaviour that he is trying to gain attention."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "لە ڕەفتارییەوە تێدەگەین کە دەیەوێت سەرنج ڕابکێشێت."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdeduces3("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdeduces3("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "We deduce from his behaviour that he is trying to gain attention.",
+            kurdishText: "لە ڕەفتارییەوە تێدەگەین کە دەیەوێت سەرنج ڕابکێشێت.",
+            onPressedBritish: () => speakdeduces3("en-GB"),
+            onPressedAmerican: () => speakdeduces3("en-US"),
           ),
         ],
       ),

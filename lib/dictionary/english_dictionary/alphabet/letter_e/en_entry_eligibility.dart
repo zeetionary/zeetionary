@@ -374,62 +374,24 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   """١. (ناو) ئەوەی کە بتوانیت شتێکت ھەبێت یان بیکەیت بەھۆی ئەوەی مەرجەکانی کردنیت تێدایە یان لە تەمەنی گونجاودایت"""),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            """Marriage to a national gave automatic eligibility for citizenship."""),
-                    ExampleSentenceKurdish(
-                        text:
-                            """ھاوسەرگیری لەگەڵ ھاونیشتیمانییەک پێ‌ڕەوایی خۆکارانەی بۆ ناسنامە پێدا."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "eligibility", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakeligibilitys1("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakeligibilitys1("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                """Marriage to a national gave automatic eligibility for citizenship.""",
+            kurdishText:
+                """ھاوسەرگیری لەگەڵ ھاونیشتیمانییەک پێ‌ڕەوایی خۆکارانەی بۆ ناسنامە پێدا.""", // eligibility
+            onPressedBritish: () => speakeligibilitys1("en-GB"),
+            onPressedAmerican: () => speakeligibilitys1("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            """She assessed each of her students to determine their eligibility to take the higher exam."""),
-                    ExampleSentenceKurdish(
-                        text:
-                            """ھەر یەکێک لە خوێندکارەکانی ھەڵسەنگاند بۆ دیاریکردنی شیاوییان بۆ وەرگرتنی تاقیکردنەوەی ئاستی باڵاتر."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakeligibilitys2("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakeligibilitys2("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                """She assessed each of her students to determine their eligibility to take the higher exam.""",
+            kurdishText:
+                """ھەر یەکێک لە خوێندکارەکانی ھەڵسەنگاند بۆ دیاریکردنی شیاوییان بۆ وەرگرتنی تاقیکردنەوەی ئاستی باڵاتر.""",
+            onPressedBritish: () => speakeligibilitys2("en-GB"),
+            onPressedAmerican: () => speakeligibilitys2("en-US"),
           ),
           // eligibilitys300eligibilitys3
           // speakeligibilitys3

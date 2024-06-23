@@ -371,61 +371,22 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "١. (ناو) کەسێک کە لە کۆلێژ یان قوتابخانە دەردەچێت پێش تەواوکردنی خوێندنەکەی"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "He was a loner and a dropout."),
-                    ExampleSentenceKurdish(
-                        text: "کەسێک کە گۆشەگیر و دەرچوو لە قوتابخانە بوو."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "dropout", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdropouts1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdropouts1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "He was a loner and a dropout.",
+            kurdishText:
+                "کەسێک کە گۆشەگیر و دەرچوو لە قوتابخانە بوو.", // dropout
+            onPressedBritish: () => speakdropouts1("en-GB"),
+            onPressedAmerican: () => speakdropouts1("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٢. (ناو) کەسێک کە بەھا کۆمەڵایەتییەکان ڕەتدەکاتەوە"),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "He’s a dropout who will never have a steady job."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "یاخییەکە کە ھەرگیز ھەرگیز کارێکی بەردەوامی نییە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdropouts2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdropouts2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "He’s a dropout who will never have a steady job.",
+            kurdishText: "یاخییەکە کە ھەرگیز ھەرگیز کارێکی بەردەوامی نییە.",
+            onPressedBritish: () => speakdropouts2("en-GB"),
+            onPressedAmerican: () => speakdropouts2("en-US"),
           ),
           // dropouts300"),
           // speakdropouts3

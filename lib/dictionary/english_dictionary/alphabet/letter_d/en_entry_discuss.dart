@@ -328,361 +328,121 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "١. (کردار) قسەکردن لەسەر شتێک لەگەڵ کەسێک، بەتایبەتی بۆ بڕیاردان "),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "Have you discussed the problem with anyone?"),
-                    ExampleSentenceKurdish(
-                        text: "کێشەکەت لەگەڵ ھیچ کەس باس کردووە؟"),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "discuss", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdiscusss1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdiscusss1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "Have you discussed the problem with anyone?",
+            kurdishText: "کێشەکەت لەگەڵ ھیچ کەس باس کردووە؟", // discuss
+            onPressedBritish: () => speakdiscusss1("en-GB"),
+            onPressedAmerican: () => speakdiscusss1("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "I'm not prepared to discuss this on the phone."),
-                    ExampleSentenceKurdish(
-                        text: "ئامادەنیم ئەمە بە تەلەفۆن باس بکەم."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdiscusss2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdiscusss2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "I'm not prepared to discuss this on the phone.",
+            kurdishText: "ئامادەنیم ئەمە بە تەلەفۆن باس بکەم.",
+            onPressedBritish: () => speakdiscusss2("en-GB"),
+            onPressedAmerican: () => speakdiscusss2("en-US"),
           ),
           Column(
             children: [
               MyExpansionTile(
                 children: [
-                  Row(
-                    children: [
-                      const Expanded(
-                        child: Column(
-                          children: [
-                            ExampleSentenceEnglish(
-                                text:
-                                    "They met to discuss the possibility of working together."),
-                            ExampleSentenceKurdish(
-                                text:
-                                    "یەکیان بینی بۆ باسکردنی ئەگەری کارکردن پێکەوە."),
-                          ],
-                        ),
-                      ),
-                      const CustomSizedBoxForTTS(),
-                      Column(
-                        children: [
-                          CustomIconButtonBritish(
-                            onPressed: () => speakdiscusss3("en-GB"),
-                          ),
-                          CustomIconButtonAmerican(
-                            onPressed: () => speakdiscusss3("en-US"),
-                          ),
-                        ],
-                      ),
-                    ],
+                  SentencesRow(
+                    englishText:
+                        "They met to discuss the possibility of working together.",
+                    kurdishText:
+                        "یەکیان بینی بۆ باسکردنی ئەگەری کارکردن پێکەوە.",
+                    onPressedBritish: () => speakdiscusss3("en-GB"),
+                    onPressedAmerican: () => speakdiscusss3("en-US"),
                   ),
-                  // const DividerDefinition(),
-                  // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
                   const DividerSentences(),
-                  Row(
-                    children: [
-                      const Expanded(
-                        child: Column(
-                          children: [
-                            ExampleSentenceEnglish(
-                                text: "We need to discuss when we should go."),
-                            ExampleSentenceKurdish(
-                                text: "دەبێت باس لەوە بکەین کە کەی بچین."),
-                          ],
-                        ),
-                      ),
-                      const CustomSizedBoxForTTS(),
-                      Column(
-                        children: [
-                          CustomIconButtonBritish(
-                            onPressed: () => speakdiscusss4("en-GB"),
-                          ),
-                          CustomIconButtonAmerican(
-                            onPressed: () => speakdiscusss4("en-US"),
-                          ),
-                        ],
-                      ),
-                    ],
+                  SentencesRow(
+                    englishText: "We need to discuss when we should go.",
+                    kurdishText: "دەبێت باس لەوە بکەین کە کەی بچین.",
+                    onPressedBritish: () => speakdiscusss4("en-GB"),
+                    onPressedAmerican: () => speakdiscusss4("en-US"),
                   ),
-                  // const DividerDefinition(),
-                  // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
                   const DividerSentences(),
-                  Row(
-                    children: [
-                      const Expanded(
-                        child: Column(
-                          children: [
-                            ExampleSentenceEnglish(
-                                text:
-                                    "We briefly discussed buying a second car."),
-                            ExampleSentenceKurdish(
-                                text:
-                                    "بە کورتی باسمان لە کڕینی ئۆتۆمبێلی دووەم کرد."),
-                          ],
-                        ),
-                      ),
-                      const CustomSizedBoxForTTS(),
-                      Column(
-                        children: [
-                          CustomIconButtonBritish(
-                            onPressed: () => speakdiscusss5("en-GB"),
-                          ),
-                          CustomIconButtonAmerican(
-                            onPressed: () => speakdiscusss5("en-US"),
-                          ),
-                        ],
-                      ),
-                    ],
+                  SentencesRow(
+                    englishText: "We briefly discussed buying a second car.",
+                    kurdishText:
+                        "بە کورتی باسمان لە کڕینی ئۆتۆمبێلی دووەم کرد.",
+                    onPressedBritish: () => speakdiscusss5("en-GB"),
+                    onPressedAmerican: () => speakdiscusss5("en-US"),
                   ),
-                  // const DividerDefinition(),
-                  // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
                   const DividerSentences(),
-                  Row(
-                    children: [
-                      const Expanded(
-                        child: Column(
-                          children: [
-                            ExampleSentenceEnglish(
-                                text:
-                                    "They discussed the whole family possibly travelling together."),
-                            ExampleSentenceKurdish(
-                                text:
-                                    "باسیان لەوە کرد کە بکرێت تەواوی خێزانەکە پێکەوە گەشت بکەن."),
-                          ],
-                        ),
-                      ),
-                      const CustomSizedBoxForTTS(),
-                      Column(
-                        children: [
-                          CustomIconButtonBritish(
-                            onPressed: () => speakdiscusss6("en-GB"),
-                          ),
-                          CustomIconButtonAmerican(
-                            onPressed: () => speakdiscusss6("en-US"),
-                          ),
-                        ],
-                      ),
-                    ],
+                  SentencesRow(
+                    englishText:
+                        "They discussed the whole family possibly travelling together.",
+                    kurdishText:
+                        "باسیان لەوە کرد کە بکرێت تەواوی خێزانەکە پێکەوە گەشت بکەن.",
+                    onPressedBritish: () => speakdiscusss6("en-GB"),
+                    onPressedAmerican: () => speakdiscusss6("en-US"),
                   ),
-                  // const DividerDefinition(),
-                  // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
                   const DividerSentences(),
-                  Row(
-                    children: [
-                      const Expanded(
-                        child: Column(
-                          children: [
-                            ExampleSentenceEnglish(
-                                text: "He refused to discuss it with me."),
-                            ExampleSentenceKurdish(
-                                text: "ڕەتیکردەوە لەگەڵم باسی بکات."),
-                          ],
-                        ),
-                      ),
-                      const CustomSizedBoxForTTS(),
-                      Column(
-                        children: [
-                          CustomIconButtonBritish(
-                            onPressed: () => speakdiscusss7("en-GB"),
-                          ),
-                          CustomIconButtonAmerican(
-                            onPressed: () => speakdiscusss7("en-US"),
-                          ),
-                        ],
-                      ),
-                    ],
+                  SentencesRow(
+                    englishText: "He refused to discuss it with me.",
+                    kurdishText: "ڕەتیکردەوە لەگەڵم باسی بکات.",
+                    onPressedBritish: () => speakdiscusss7("en-GB"),
+                    onPressedAmerican: () => speakdiscusss7("en-US"),
                   ),
-                  // const DividerDefinition(),
-                  // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
                   const DividerSentences(),
-                  Row(
-                    children: [
-                      const Expanded(
-                        child: Column(
-                          children: [
-                            ExampleSentenceEnglish(
-                                text:
-                                    "Ralph called a meeting to discuss how they should respond to the offer."),
-                            ExampleSentenceKurdish(
-                                text:
-                                    "ڕاڵف داوای کۆبوونەوەیەکی کرد بۆ باسکردنی ئەوەی چۆن وەڵامی پێشنیارەکە بدەنەوە."),
-                          ],
-                        ),
-                      ),
-                      const CustomSizedBoxForTTS(),
-                      Column(
-                        children: [
-                          CustomIconButtonBritish(
-                            onPressed: () => speakdiscusss8("en-GB"),
-                          ),
-                          CustomIconButtonAmerican(
-                            onPressed: () => speakdiscusss8("en-US"),
-                          ),
-                        ],
-                      ),
-                    ],
+                  SentencesRow(
+                    englishText:
+                        "Ralph called a meeting to discuss how they should respond to the offer.",
+                    kurdishText:
+                        "ڕاڵف داوای کۆبوونەوەیەکی کرد بۆ باسکردنی ئەوەی چۆن وەڵامی پێشنیارەکە بدەنەوە.",
+                    onPressedBritish: () => speakdiscusss8("en-GB"),
+                    onPressedAmerican: () => speakdiscusss8("en-US"),
                   ),
-                  // const DividerDefinition(),
-                  // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
                   const DividerSentences(),
-                  Row(
-                    children: [
-                      const Expanded(
-                        child: Column(
-                          children: [
-                            ExampleSentenceEnglish(
-                                text:
-                                    "I wouldn't accept the job without discussing it with my family first."),
-                            ExampleSentenceKurdish(
-                                text:
-                                    "کارەکە وەرناگرم بەبێ باسکردنی لەگەڵ خێزانەکەم."),
-                          ],
-                        ),
-                      ),
-                      const CustomSizedBoxForTTS(),
-                      Column(
-                        children: [
-                          CustomIconButtonBritish(
-                            onPressed: () => speakdiscusss9("en-GB"),
-                          ),
-                          CustomIconButtonAmerican(
-                            onPressed: () => speakdiscusss9("en-US"),
-                          ),
-                        ],
-                      ),
-                    ],
+                  SentencesRow(
+                    englishText:
+                        "I wouldn't accept the job without discussing it with my family first.",
+                    kurdishText:
+                        "کارەکە وەرناگرم بەبێ باسکردنی لەگەڵ خێزانەکەم.",
+                    onPressedBritish: () => speakdiscusss9("en-GB"),
+                    onPressedAmerican: () => speakdiscusss9("en-US"),
                   ),
                 ],
               ),
             ],
           ),
+
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
                   "٢. (کردار) نووسین یان قسەکردن لەسەر شتێک بە وردی و پیشاندانی بیرۆکە و بۆچوونی جیاواز لەسەری"),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "This topic will be discussed at greater length in the next chapter."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "بابەتەکە بە درێژی زیاتر باسی لێوە دەکرێت لە بەشی دواتر."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdiscusss10("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdiscusss10("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "This topic will be discussed at greater length in the next chapter.",
+            kurdishText:
+                "بابەتەکە بە درێژی زیاتر باسی لێوە دەکرێت لە بەشی دواتر.",
+            onPressedBritish: () => speakdiscusss10("en-GB"),
+            onPressedAmerican: () => speakdiscusss10("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The author discusses the economic impact of these changes."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "نووسەرەکە باس لە کاریگەریی ئابووری ئەم گۆڕانکارییانە دەکات."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdiscusss11("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdiscusss11("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "The author discusses the economic impact of these changes.",
+            kurdishText:
+                "نووسەرەکە باس لە کاریگەریی ئابووری ئەم گۆڕانکارییانە دەکات.",
+            onPressedBritish: () => speakdiscusss11("en-GB"),
+            onPressedAmerican: () => speakdiscusss11("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The article discusses how teachers can use technology in their classrooms."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "وتارەکە باس لەوە دەکات کە چۆن مامۆستایان دەتوانن تەکنەلۆژیا لە پۆلەکاندا بەکاربھێنن."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdiscusss12("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdiscusss12("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "The article discusses how teachers can use technology in their classrooms.",
+            kurdishText:
+                "وتارەکە باس لەوە دەکات کە چۆن مامۆستایان دەتوانن تەکنەلۆژیا لە پۆلەکاندا بەکاربھێنن.",
+            onPressedBritish: () => speakdiscusss12("en-GB"),
+            onPressedAmerican: () => speakdiscusss12("en-US"),
           ),
           // discusss1300"),
           // speakdiscusss13

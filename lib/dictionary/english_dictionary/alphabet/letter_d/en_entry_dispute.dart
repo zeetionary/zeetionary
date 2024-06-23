@@ -292,235 +292,83 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "١. (ناو) مشتومڕی نێوان دوو کەس، گرووپ، یان وڵات لەسەر شتێک کە ناکۆکن لەسەری"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The union is in dispute with management over working hours."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "سەندیکاکە لە مشتومڕدایە لەگەڵ بەڕێوەبەرایەتی سەبارەت بە کاتژمێرەکانی کارکردن."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "dispute", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdisputes1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdisputes1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "The union is in dispute with management over working hours.",
+            kurdishText:
+                "سەندیکاکە لە مشتومڕدایە لەگەڵ بەڕێوەبەرایەتی سەبارەت بە کاتژمێرەکانی کارکردن.", // dispute
+            onPressedBritish: () => speakdisputes1("en-GB"),
+            onPressedAmerican: () => speakdisputes1("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The cause of the accident was still in dispute (= being argued about)."),
-                    ExampleSentenceKurdish(
-                        text: "ھۆکاری ڕووداوەکە ھێشتا جێگای مشتومڕ بوو."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdisputes2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdisputes2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "The cause of the accident was still in dispute (= being argued about).",
+            kurdishText: "ھۆکاری ڕووداوەکە ھێشتا جێگای مشتومڕ بوو.",
+            onPressedBritish: () => speakdisputes2("en-GB"),
+            onPressedAmerican: () => speakdisputes2("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "These are not the issues under dispute."),
-                    ExampleSentenceKurdish(
-                        text: "ئەمانە بابەتی جێگای مشتومڕ نین."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdisputes3("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdisputes3("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "These are not the issues under dispute.",
+            kurdishText: "ئەمانە بابەتی جێگای مشتومڕ نین.",
+            onPressedBritish: () => speakdisputes3("en-GB"),
+            onPressedAmerican: () => speakdisputes3("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
                   "٢. (کردار) گومانکردن لەوەی کە شتێک ڕاستە یان لەلایەنی یاساییەوە ڕاست یان پەسەندە"),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "These figures have been disputed."),
-                    ExampleSentenceKurdish(text: "ئامارەکان تانەیان لێدراوە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdisputes4("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdisputes4("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "These figures have been disputed.",
+            kurdishText: "ئامارەکان تانەیان لێدراوە.",
+            onPressedBritish: () => speakdisputes4("en-GB"),
+            onPressedAmerican: () => speakdisputes4("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "The family wanted to dispute the will."),
-                    ExampleSentenceKurdish(
-                        text: "خێزانەکە دەیانەوێت تانە لە وەسیەتنامەکە بدەن."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdisputes5("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdisputes5("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "The family wanted to dispute the will.",
+            kurdishText: "خێزانەکە دەیانەوێت تانە لە وەسیەتنامەکە بدەن.",
+            onPressedBritish: () => speakdisputes5("en-GB"),
+            onPressedAmerican: () => speakdisputes5("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "No one is disputing that there is a problem."),
-                    ExampleSentenceKurdish(
-                        text: "ھیچ کەس ئەوە ڕەتناکاتەوە کە کێشەیەک ھەیە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdisputes6("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdisputes6("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "No one is disputing that there is a problem.",
+            kurdishText: "ھیچ کەس ئەوە ڕەتناکاتەوە کە کێشەیەک ھەیە.",
+            onPressedBritish: () => speakdisputes6("en-GB"),
+            onPressedAmerican: () => speakdisputes6("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٣. (کردار) مشتومڕکردن لەگەڵ کەسێک سەبارەت بە شتێک"),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The United Nations recognizes the area as a disputed territory."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "نەتەوە یەکگرتووەکان ناوچەکە بە ناوچەی کێشەلەسەر دادەنێت."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdisputes7("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdisputes7("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "The United Nations recognizes the area as a disputed territory.",
+            kurdishText:
+                "نەتەوە یەکگرتووەکان ناوچەکە بە ناوچەی کێشەلەسەر دادەنێت.",
+            onPressedBritish: () => speakdisputes7("en-GB"),
+            onPressedAmerican: () => speakdisputes7("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The effectiveness of this treatment is still hotly disputed."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "کاریگەریی ئەم چارەسەرە ھێشتا بەتوندی ناکۆکی لەسەرە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdisputes8("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdisputes8("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "The effectiveness of this treatment is still hotly disputed.",
+            kurdishText: "کاریگەریی ئەم چارەسەرە ھێشتا بەتوندی ناکۆکی لەسەرە.",
+            onPressedBritish: () => speakdisputes8("en-GB"),
+            onPressedAmerican: () => speakdisputes8("en-US"),
           ),
           // disputes900"),
           // speakdisputes9

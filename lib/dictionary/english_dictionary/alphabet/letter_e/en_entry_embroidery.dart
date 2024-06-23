@@ -379,85 +379,30 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   """١. (ناو) شێوە و وێنەی جیاواز کە دەچندرێن لەسەر جل بە دەزووی ڕەنگ جیاواز؛ جلێک کە بەم شێوەیە ڕازێندراوەتەوە"""),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: """Let me show you Pat's embroideries."""),
-                    ExampleSentenceKurdish(
-                        text: """ڕێگام بدە گوڵ‌چنیی پاتت پێ پیشان بدەم."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "embroidery", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakembroiderys1("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakembroiderys1("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: """Let me show you Pat's embroideries.""",
+            kurdishText:
+                """ڕێگام بدە گوڵ‌چنیی پاتت پێ پیشان بدەم.""", // embroidery
+            onPressedBritish: () => speakembroiderys1("en-GB"),
+            onPressedAmerican: () => speakembroiderys1("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: """It was a beautiful piece of embroidery."""),
-                    ExampleSentenceKurdish(
-                        text: """کارێکی جوانی گوڵ‌چنی بوو."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakembroiderys2("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakembroiderys2("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: """It was a beautiful piece of embroidery.""",
+            kurdishText: """کارێکی جوانی گوڵ‌چنی بوو.""",
+            onPressedBritish: () => speakembroiderys2("en-GB"),
+            onPressedAmerican: () => speakembroiderys2("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: """٢. (ناو) کاری گوڵ‌چنی بەم شێوەیە"""),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: """I'm not very good at embroidery."""),
-                    ExampleSentenceKurdish(text: """زۆر باش نیم لە گوڵ‌چنی."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakembroiderys3("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakembroiderys3("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: """I'm not very good at embroidery.""",
+            kurdishText: """زۆر باش نیم لە گوڵ‌چنی.""",
+            onPressedBritish: () => speakembroiderys3("en-GB"),
+            onPressedAmerican: () => speakembroiderys3("en-US"),
           ),
           // embroiderys400embroiderys4
           // speakembroiderys4

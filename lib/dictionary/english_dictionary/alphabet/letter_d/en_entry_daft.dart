@@ -240,54 +240,18 @@ class KurdishMeaning extends StatelessWidget {
 """),
           const DefinitionKurdish(
               text: "١. (ھاوەڵناو) گەوج، زۆرجار بەشێوەیەک کە پێکەنیناوییە"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(text: "Don't be so daft!"),
-                    ExampleSentenceKurdish(text: "ھێندە گەمژە مەبە!"),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "daft", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdafts1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdafts1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "Don't be so daft!",
+            kurdishText: "ھێندە گەمژە مەبە!", // daft
+            onPressedBritish: () => speakdafts1("en-GB"),
+            onPressedAmerican: () => speakdafts1("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "She's not as daft as she looks."),
-                    ExampleSentenceKurdish(
-                        text: "بەو شێوەیە گەمژە نییە کە دەردەکەوێت."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdafts2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdafts2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "She's not as daft as she looks.",
+            kurdishText: "بەو شێوەیە گەمژە نییە کە دەردەکەوێت.",
+            onPressedBritish: () => speakdafts2("en-GB"),
+            onPressedAmerican: () => speakdafts2("en-US"),
           ),
         ],
       ),

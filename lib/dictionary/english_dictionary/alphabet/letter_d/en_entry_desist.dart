@@ -247,60 +247,21 @@ class KurdishMeaning extends StatelessWidget {
 کوردی: دەست ھەڵگرتن، دەستکێشانەوە
 """),
           const DefinitionKurdish(text: "١. (کردار) وەستان لە کردنی شتێک"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "They agreed to desist from the bombing campaign."),
-                    ExampleSentenceKurdish(
-                        text: "ڕازی بوون بە وەستاندنی کەمپینی بۆمبارانەکە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "desist", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdesists1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdesists1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "They agreed to desist from the bombing campaign.",
+            kurdishText:
+                "ڕازی بوون بە وەستاندنی کەمپینی بۆمبارانەکە.", // desist
+            onPressedBritish: () => speakdesists1("en-GB"),
+            onPressedAmerican: () => speakdesists1("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The high winds are expected to desist tomorrow."),
-                    ExampleSentenceKurdish(
-                        text: "بایە بەھێزەکان پێشبینی دەکرێن سبەی نەمێنن."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdesists2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdesists2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "The high winds are expected to desist tomorrow.",
+            kurdishText: "بایە بەھێزەکان پێشبینی دەکرێن سبەی نەمێنن.",
+            onPressedBritish: () => speakdesists2("en-GB"),
+            onPressedAmerican: () => speakdesists2("en-US"),
           ),
           // desists300"),
           // speakdesists3

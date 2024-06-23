@@ -454,352 +454,118 @@ class KurdishMeaning extends StatelessWidget {
 """),
           const DefinitionKurdish(
               text: """١. (ناو) ھێلکەیەک کە بێچووی تێدایە"""),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            """The female sits on the eggs until they hatch."""),
-                    ExampleSentenceKurdish(
-                        text:
-                            """مێینەکە لەسەر ھێلکەکان کڕدەکەوێت تاوەکو ھەڵدێن."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "egg", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakeggs1("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakeggs1("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: """The female sits on the eggs until they hatch.""",
+            kurdishText:
+                """مێینەکە لەسەر ھێلکەکان کڕدەکەوێت تاوەکو ھەڵدێن.""", // egg
+            onPressedBritish: () => speakeggs1("en-GB"),
+            onPressedAmerican: () => speakeggs1("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            """The fish lay thousands of eggs at one time."""),
-                    ExampleSentenceKurdish(
-                        text:
-                            """ماسییەکان ھەزاران ھێلکە لە یەک کاتدا دەنێنەوە."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakeggs2("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakeggs2("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: """The fish lay thousands of eggs at one time.""",
+            kurdishText: """ماسییەکان ھەزاران ھێلکە لە یەک کاتدا دەنێنەوە.""",
+            onPressedBritish: () => speakeggs2("en-GB"),
+            onPressedAmerican: () => speakeggs2("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: """Many reptiles bury their eggs."""),
-                    ExampleSentenceKurdish(
-                        text: """زۆر خشۆک ھێلکەکانیان دەنێژن."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakeggs3("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakeggs3("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: """Many reptiles bury their eggs.""",
+            kurdishText: """زۆر خشۆک ھێلکەکانیان دەنێژن.""",
+            onPressedBritish: () => speakeggs3("en-GB"),
+            onPressedAmerican: () => speakeggs3("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: """The males stay and guard the eggs."""),
-                    ExampleSentenceKurdish(
-                        text: """نێرەکان دەمێننەوە ھێلکەکان دەپارێزن."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakeggs4("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakeggs4("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: """The males stay and guard the eggs.""",
+            kurdishText: """نێرەکان دەمێننەوە ھێلکەکان دەپارێزن.""",
+            onPressedBritish: () => speakeggs4("en-GB"),
+            onPressedAmerican: () => speakeggs4("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: """٢. (ناو) ھێلکەیەک کە دەخوردرێت"""),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: """You've got some egg on your shirt."""),
-                    ExampleSentenceKurdish(
-                        text: """ھەندێک ھێلکە بە جلەکەتەوەیە."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakeggs5("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakeggs5("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: """You've got some egg on your shirt.""",
+            kurdishText: """ھەندێک ھێلکە بە جلەکەتەوەیە.""",
+            onPressedBritish: () => speakeggs5("en-GB"),
+            onPressedAmerican: () => speakeggs5("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: """Crack two eggs into the mixture."""),
-                    ExampleSentenceKurdish(
-                        text: """دوو ھێلکە بشکێنە ناو تێکەڵەکە."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakeggs6("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakeggs6("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: """Crack two eggs into the mixture.""",
+            kurdishText: """دوو ھێلکە بشکێنە ناو تێکەڵەکە.""",
+            onPressedBritish: () => speakeggs6("en-GB"),
+            onPressedAmerican: () => speakeggs6("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            """Separate the eggs, putting the whites to one side."""),
-                    ExampleSentenceKurdish(
-                        text:
-                            """ھێلکەکان جیابکەرەوە و سپێنەکان بخە لایەکەوە."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakeggs7("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakeggs7("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                """Separate the eggs, putting the whites to one side.""",
+            kurdishText: """ھێلکەکان جیابکەرەوە و سپێنەکان بخە لایەکەوە.""",
+            onPressedBritish: () => speakeggs7("en-GB"),
+            onPressedAmerican: () => speakeggs7("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            """How do you like your eggs - fried or boiled?"""),
-                    ExampleSentenceKurdish(
-                        text:
-                            """حەز دەکەیت ھێلکەکانت چۆن بن ـ برژاو یان کوڵاو؟"""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakeggs8("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakeggs8("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: """How do you like your eggs - fried or boiled?""",
+            kurdishText: """حەز دەکەیت ھێلکەکانت چۆن بن ـ برژاو یان کوڵاو؟""",
+            onPressedBritish: () => speakeggs8("en-GB"),
+            onPressedAmerican: () => speakeggs8("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            """Mix the butter with the sugar and then add the egg."""),
-                    ExampleSentenceKurdish(
-                        text:
-                            """کەرەکە لەگەڵ شەکر تێکەڵ بکە و دواتر ھێلکەکە زیاد بکە."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakeggs9("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakeggs9("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                """Mix the butter with the sugar and then add the egg.""",
+            kurdishText:
+                """کەرەکە لەگەڵ شەکر تێکەڵ بکە و دواتر ھێلکەکە زیاد بکە.""",
+            onPressedBritish: () => speakeggs9("en-GB"),
+            onPressedAmerican: () => speakeggs9("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            """Crack three eggs into a bowl and mix them together."""),
-                    ExampleSentenceKurdish(
-                        text: """سێ ھێلکە بشکێنە ناو جامێک و تێکەڵیان بکە."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakeggs10("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakeggs10("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                """Crack three eggs into a bowl and mix them together.""",
+            kurdishText: """سێ ھێلکە بشکێنە ناو جامێک و تێکەڵیان بکە.""",
+            onPressedBritish: () => speakeggs10("en-GB"),
+            onPressedAmerican: () => speakeggs10("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
                   """٣. (ناو) خانەیەک کە لەگەڵ سپێرم یەک دەگرێت و منداڵێک یان بیچووی ئاژەڵێک درووست دەکات"""),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: """The male sperm fertilizes the female egg."""),
-                    ExampleSentenceKurdish(
-                        text: """سپێرمی نێرینەکە ھێلکەی مێینەکە دەپیتێنێت."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakeggs11("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakeggs11("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: """The male sperm fertilizes the female egg.""",
+            kurdishText: """سپێرمی نێرینەکە ھێلکەی مێینەکە دەپیتێنێت.""",
+            onPressedBritish: () => speakeggs11("en-GB"),
+            onPressedAmerican: () => speakeggs11("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            """Many women conceive through the use of a donor egg."""),
-                    ExampleSentenceKurdish(
-                        text: """زۆر ژن منداڵیان دەبێت بە ھێلکەی بەخشراو."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakeggs12("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakeggs12("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                """Many women conceive through the use of a donor egg.""",
+            kurdishText: """زۆر ژن منداڵیان دەبێت بە ھێلکەی بەخشراو.""",
+            onPressedBritish: () => speakeggs12("en-GB"),
+            onPressedAmerican: () => speakeggs12("en-US"),
           ),
           // eggs1300eggs13
           // speakeggs13

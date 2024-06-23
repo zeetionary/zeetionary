@@ -366,32 +366,13 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   """١. (ناو) سەرکردەیەکی ڕێزلێگیراو کە چی دیکە کاری چالاکی نییە و بە ڕاوێژکاری باش دەبیندرێت"""),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            """He is one of the medical profession's elder statesmen."""),
-                    ExampleSentenceKurdish(
-                        text:
-                            """بە یەکێک لە سەردارانی پیشەی پزیشکی دادەندرێت."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "elder statesman", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakelderstatesmans1("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakelderstatesmans1("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                """He is one of the medical profession's elder statesmen.""",
+            kurdishText:
+                """بە یەکێک لە سەردارانی پیشەی پزیشکی دادەندرێت.""", // elder statesman
+            onPressedBritish: () => speakelderstatesmans1("en-GB"),
+            onPressedAmerican: () => speakelderstatesmans1("en-US"),
           ),
           // elderstatesmans200elderstatesmans2
           // speakelderstatesmans2

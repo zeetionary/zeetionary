@@ -415,628 +415,206 @@ class KurdishMeaning extends StatelessWidget {
 کوردی: پیشان‌دان، نیشان‌دان، ڕانان، نواندن، نانەبەر، خستنەڕوو، خستنەبەرچاو،	ئاشکراکردن، دەربڕین، خستنەڕوو، دەرخستن،	سەرجەم ئەو شتانەی خراونەتەڕوو
 """),
           const DefinitionKurdish(text: "١. (کردار) نمایشکردنی شتێک"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The exhibition gives local artists an opportunity to display their work."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "پێشانگاکە ھەلێک بە ھونەرمەندە خۆجێییەکان دەدات کە کارەکانیان نمایش بکەن."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "display", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdisplays1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdisplays1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "The exhibition gives local artists an opportunity to display their work.",
+            kurdishText:
+                "پێشانگاکە ھەلێک بە ھونەرمەندە خۆجێییەکان دەدات کە کارەکانیان نمایش بکەن.", // display
+            onPressedBritish: () => speakdisplays1("en-GB"),
+            onPressedAmerican: () => speakdisplays1("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "His football trophies were prominently displayed in the kitchen."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "مەدالیاکانی تۆپی‌پێی بە شێوەیەکی دیار لە چێشتخانەکە نمایش کرابوون."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdisplays2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdisplays2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "His football trophies were prominently displayed in the kitchen.",
+            kurdishText:
+                "مەدالیاکانی تۆپی‌پێی بە شێوەیەکی دیار لە چێشتخانەکە نمایش کرابوون.",
+            onPressedBritish: () => speakdisplays2("en-GB"),
+            onPressedAmerican: () => speakdisplays2("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "She displayed her bruises for all to see."),
-                    ExampleSentenceKurdish(
-                        text: "شین‌بوونەوەکانیی پیشانی ھەموان دا کە بیبینن."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdisplays3("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdisplays3("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "She displayed her bruises for all to see.",
+            kurdishText: "شین‌بوونەوەکانیی پیشانی ھەموان دا کە بیبینن.",
+            onPressedBritish: () => speakdisplays3("en-GB"),
+            onPressedAmerican: () => speakdisplays3("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "She proudly displayed her certificate to her parents."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "بە شانازییەوە بڕوانامەکەی پیشانی دایک و باوکی دا کە بیبینن."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdisplays4("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdisplays4("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "She proudly displayed her certificate to her parents.",
+            kurdishText:
+                "بە شانازییەوە بڕوانامەکەی پیشانی دایک و باوکی دا کە بیبینن.",
+            onPressedBritish: () => speakdisplays4("en-GB"),
+            onPressedAmerican: () => speakdisplays4("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
                   "٢. (کردار) پیشاندانی خاسیەتێک، ھەستێک، شارەزاییەک، یان ڕەفتارێک"),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "I have rarely seen her display any sign of emotion."),
-                    ExampleSentenceKurdish(
-                        text: "بە دەگمەن دیومە ھیچ ھەستێک پیشان بدات."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdisplays5("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdisplays5("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "I have rarely seen her display any sign of emotion.",
+            kurdishText: "بە دەگمەن دیومە ھیچ ھەستێک پیشان بدات.",
+            onPressedBritish: () => speakdisplays5("en-GB"),
+            onPressedAmerican: () => speakdisplays5("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "These statistics display a definite trend."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "ئەم ئامارانە ترێندێکی گومان‌لێ‌نەکراو پیشان دەدەن."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdisplays6("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdisplays6("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "These statistics display a definite trend.",
+            kurdishText: "ئەم ئامارانە ترێندێکی گومان‌لێ‌نەکراو پیشان دەدەن.",
+            onPressedBritish: () => speakdisplays6("en-GB"),
+            onPressedAmerican: () => speakdisplays6("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "Many animals in stressful conditions display this behaviour."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "زۆر ئاژەڵ کە لە دۆخی پڕگوشاریدا ئەم ھەڵسوکەوتە پیشان دەدەن."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdisplays7("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdisplays7("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "Many animals in stressful conditions display this behaviour.",
+            kurdishText:
+                "زۆر ئاژەڵ کە لە دۆخی پڕگوشاریدا ئەم ھەڵسوکەوتە پیشان دەدەن.",
+            onPressedBritish: () => speakdisplays7("en-GB"),
+            onPressedAmerican: () => speakdisplays7("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "From 1811 until his death in 1820, George III displayed symptoms of insanity."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "لە ساڵی ١٨١١ تاوەکو مەرگی لە ١٨٢٩ جۆرجی سێیەم نیشانەکانی شێتیی ھەبوو."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdisplays8("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdisplays8("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "From 1811 until his death in 1820, George III displayed symptoms of insanity.",
+            kurdishText:
+                "لە ساڵی ١٨١١ تاوەکو مەرگی لە ١٨٢٩ جۆرجی سێیەم نیشانەکانی شێتیی ھەبوو.",
+            onPressedBritish: () => speakdisplays8("en-GB"),
+            onPressedAmerican: () => speakdisplays8("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "He displayed remarkable courage."),
-                    ExampleSentenceKurdish(text: "بوێری بێ وێنەی پیشان دا."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdisplays9("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdisplays9("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "He displayed remarkable courage.",
+            kurdishText: "بوێری بێ وێنەی پیشان دا.",
+            onPressedBritish: () => speakdisplays9("en-GB"),
+            onPressedAmerican: () => speakdisplays9("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "A group of artists will be displaying their skills to the students."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "کۆمەڵێک ھونەرمەند تواناکانیان پیشانی خوێندکاران دەدەن."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdisplays10("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdisplays10("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "A group of artists will be displaying their skills to the students.",
+            kurdishText:
+                "کۆمەڵێک ھونەرمەند تواناکانیان پیشانی خوێندکاران دەدەن.",
+            onPressedBritish: () => speakdisplays10("en-GB"),
+            onPressedAmerican: () => speakdisplays10("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: "٣. (کردار) پیشاندانی زانیاری"),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "Giant screens displayed images of cheering crowds."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "شاشەی زەبەلاح وێنەی جەماوەرە ھیوابەخشەکەیان پیشان دەدا."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdisplays11("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdisplays11("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "Giant screens displayed images of cheering crowds.",
+            kurdishText:
+                "شاشەی زەبەلاح وێنەی جەماوەرە ھیوابەخشەکەیان پیشان دەدا.",
+            onPressedBritish: () => speakdisplays11("en-GB"),
+            onPressedAmerican: () => speakdisplays11("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
                   "٤. (ناو) نمایشکی کۆمەڵە شتێک لە شوێنێکی گشتیدا بۆ زانیاری، خۆشی، یان ڕیکلام کردن"),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The medals can be seen in a display cabinet on the first floor."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "مەدالیاکان لە کابینەیەکی پیشان‌داندا دەبینرێن لە نھۆمی یەکەم."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdisplays12("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdisplays12("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "The medals can be seen in a display cabinet on the first floor.",
+            kurdishText:
+                "مەدالیاکان لە کابینەیەکی پیشان‌داندا دەبینرێن لە نھۆمی یەکەم.",
+            onPressedBritish: () => speakdisplays12("en-GB"),
+            onPressedAmerican: () => speakdisplays12("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The display includes examples of her work in progress."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "پێشانگاکە نموونەی کارەکانی پیشان دەدات کە لە ژێر کارکرداندان."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdisplays13("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdisplays13("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "The display includes examples of her work in progress.",
+            kurdishText:
+                "پێشانگاکە نموونەی کارەکانی پیشان دەدات کە لە ژێر کارکرداندان.",
+            onPressedBritish: () => speakdisplays13("en-GB"),
+            onPressedAmerican: () => speakdisplays13("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The museum has a display of old medical instruments."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "مۆزەخانەکە پێشانگایەکی کەرەستە کۆنە پزیشکییەکانی ھەیە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdisplays14("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdisplays14("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "The museum has a display of old medical instruments.",
+            kurdishText:
+                "مۆزەخانەکە پێشانگایەکی کەرەستە کۆنە پزیشکییەکانی ھەیە.",
+            onPressedBritish: () => speakdisplays14("en-GB"),
+            onPressedAmerican: () => speakdisplays14("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "There was a prominent display of her photographs in the living room."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "خستنەڕوویەکی لەبەرچاوی وێنەکانی لە ژووری میوانییەکە بوو."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdisplays15("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdisplays15("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "There was a prominent display of her photographs in the living room.",
+            kurdishText:
+                "خستنەڕوویەکی لەبەرچاوی وێنەکانی لە ژووری میوانییەکە بوو.",
+            onPressedBritish: () => speakdisplays15("en-GB"),
+            onPressedAmerican: () => speakdisplays15("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٥. (ناو) پیشاندانی شتێک یان ئەنجامدانی شارەزاییەک"),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "They put on a spectacular firework display."),
-                    ExampleSentenceKurdish(
-                        text: "نمایشێکی یاری ئاگرینی ناوازە دەخەنەڕوو."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdisplays16("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdisplays16("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "They put on a spectacular firework display.",
+            kurdishText: "نمایشێکی یاری ئاگرینی ناوازە دەخەنەڕوو.",
+            onPressedBritish: () => speakdisplays16("en-GB"),
+            onPressedAmerican: () => speakdisplays16("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "The team produced an impressive display."),
-                    ExampleSentenceKurdish(
-                        text: "تیمەکە نمایشێکی بەشکۆی پیشاندا."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdisplays17("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdisplays17("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "The team produced an impressive display.",
+            kurdishText: "تیمەکە نمایشێکی بەشکۆی پیشاندا.",
+            onPressedBritish: () => speakdisplays17("en-GB"),
+            onPressedAmerican: () => speakdisplays17("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "Most of the local people attended the firework display."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "زۆرێک لە خەڵکە ناوخۆییەکە بەژداری نمایشی یارییە ئاگرینەکە بوون."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdisplays18("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdisplays18("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "Most of the local people attended the firework display.",
+            kurdishText:
+                "زۆرێک لە خەڵکە ناوخۆییەکە بەژداری نمایشی یارییە ئاگرینەکە بوون.",
+            onPressedBritish: () => speakdisplays18("en-GB"),
+            onPressedAmerican: () => speakdisplays18("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
                   "٦. (ناو) دۆخێک کە تێیدا خاسیەتێک، ھەستێک، توانایەک، ھتد پیشان دەدەیت"),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "There may be specific events which trigger aggressive displays in your dog."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "ڕەنگە بۆنەی دیاریکراو ھەبێت ببێتە ھۆی پیشاندانی توندوتیژی لە سەگەکەتدا."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdisplays19("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdisplays19("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "There may be specific events which trigger aggressive displays in your dog.",
+            kurdishText:
+                "ڕەنگە بۆنەی دیاریکراو ھەبێت ببێتە ھۆی پیشاندانی توندوتیژی لە سەگەکەتدا.",
+            onPressedBritish: () => speakdisplays19("en-GB"),
+            onPressedAmerican: () => speakdisplays19("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "Despite his outward display of friendliness, I sensed he was concealing something."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "سەرەڕای نمایشی دۆستانەی ڕووکەشی، ھەستم کرد کە شتێکی دەشاردەوە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdisplays20("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdisplays20("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "Despite his outward display of friendliness, I sensed he was concealing something.",
+            kurdishText:
+                "سەرەڕای نمایشی دۆستانەی ڕووکەشی، ھەستم کرد کە شتێکی دەشاردەوە.",
+            onPressedBritish: () => speakdisplays20("en-GB"),
+            onPressedAmerican: () => speakdisplays20("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "I witnessed a rare display of affection between them."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "چاوم بە پیشاندانێکی دەگمەنی ھەست و سۆز کەوت لە نێوانیاندا."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdisplays21("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdisplays21("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "I witnessed a rare display of affection between them.",
+            kurdishText:
+                "چاوم بە پیشاندانێکی دەگمەنی ھەست و سۆز کەوت لە نێوانیاندا.",
+            onPressedBritish: () => speakdisplays21("en-GB"),
+            onPressedAmerican: () => speakdisplays21("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٧. (ناو) ئەوەی لەسەر شاشەی کۆمپیوتەرێک دەردەکەوێت"),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The display shows the time in hours and minutes."),
-                    ExampleSentenceKurdish(
-                        text: "شاشەکە کات بە کاتژمێر و خولەک پیشان دەدات."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdisplays22("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdisplays22("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "The display shows the time in hours and minutes.",
+            kurdishText: "شاشەکە کات بە کاتژمێر و خولەک پیشان دەدات.",
+            onPressedBritish: () => speakdisplays22("en-GB"),
+            onPressedAmerican: () => speakdisplays22("en-US"),
           ),
         ],
       ),

@@ -379,90 +379,33 @@ class KurdishMeaning extends StatelessWidget {
 کوردی: بەڕشت، ڕشت، شێلگیر،	دڵ‌گەرم، پشت‌ئەستوور، پشت‌گەرم، بەبڕیار، سوور، زەحمەت‌کێش، پڕکار، بەکار،	بەگوڕ، سەرڕاستانە، بەبڕیارانە، شێلیگرانە،	بەڕشت، شێلگیری، دڵ‌گەرمی، پشت‌ئەستووری، پشت‌گەرمی، سووربوون، زەحمەت‌کێشی، پڕکاری، بەکاری، حەول، تێکۆشان
 """),
           const DefinitionKurdish(text: """١. (ھاوەڵناو) زۆر ڕشت و جدی"""),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            """Despite her earnest efforts, she could not find a job."""),
-                    ExampleSentenceKurdish(
-                        text:
-                            """سەرەڕای ھەوڵە بەڕستەکانی، نەیتوانی کارێک بدۆزێتەوە."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "earnest", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakearnests1("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakearnests1("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                """Despite her earnest efforts, she could not find a job.""",
+            kurdishText:
+                """سەرەڕای ھەوڵە بەڕستەکانی، نەیتوانی کارێک بدۆزێتەوە.""", // earnest
+            onPressedBritish: () => speakearnests1("en-GB"),
+            onPressedAmerican: () => speakearnests1("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            """When I looked over, he was in earnest conversation with his father."""),
-                    ExampleSentenceKurdish(
-                        text:
-                            """کە سەرم بەرزکردەوە، لە گفتوگۆی جدیدا بوو لەگەڵ باوکی."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakearnests2("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakearnests2("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                """When I looked over, he was in earnest conversation with his father.""",
+            kurdishText:
+                """کە سەرم بەرزکردەوە، لە گفتوگۆی جدیدا بوو لەگەڵ باوکی.""",
+            onPressedBritish: () => speakearnests2("en-GB"),
+            onPressedAmerican: () => speakearnests2("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: """٢. (ناو) پێنناسە"""),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: """He was a very earnest young man."""),
-                    ExampleSentenceKurdish(
-                        text: """پیاوێکی گەنجی زۆر شێلگیر بوو."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakearnests3("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakearnests3("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: """He was a very earnest young man.""",
+            kurdishText: """پیاوێکی گەنجی زۆر شێلگیر بوو.""",
+            onPressedBritish: () => speakearnests3("en-GB"),
+            onPressedAmerican: () => speakearnests3("en-US"),
           ),
           // earnests400earnests4
           // speakearnests4

@@ -243,61 +243,21 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "١. (ناو) کەسێک کە کاری لێدانی میوزیکی بەناوبانگە لەسەر تەلەفیزیۆن، ڕادیۆ، یانەیەک، ئاھەنگێک، ھتد"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The disc jockey played the latest hits at the party."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "دی‌جەییەکە تازەترین گۆرانییە بەناوبانگەکانی لە ئاھەنگەکە لێدا."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "disc jockey", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdiscjockeys1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdiscjockeys1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "The disc jockey played the latest hits at the party.",
+            kurdishText:
+                "دی‌جەییەکە تازەترین گۆرانییە بەناوبانگەکانی لە ئاھەنگەکە لێدا.", // disc jockey
+            onPressedBritish: () => speakdiscjockeys1("en-GB"),
+            onPressedAmerican: () => speakdiscjockeys1("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The disc jockey at the club kept the crowd dancing."),
-                    ExampleSentenceKurdish(
-                        text: "دی‌جەیی یانەکە جەماوەرەکەی لە سەمادا ھێشتەوە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdiscjockeys2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdiscjockeys2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "The disc jockey at the club kept the crowd dancing.",
+            kurdishText: "دی‌جەیی یانەکە جەماوەرەکەی لە سەمادا ھێشتەوە.",
+            onPressedBritish: () => speakdiscjockeys2("en-GB"),
+            onPressedAmerican: () => speakdiscjockeys2("en-US"),
           ),
           // discjockeys300"),
           // speakdiscjockeys3

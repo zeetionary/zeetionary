@@ -574,740 +574,232 @@ class KurdishMeaning extends StatelessWidget {
 کوردی: وشک، تورت، کزر، کوێر (کانی)، زەھا،	کەم‌باران، بێ‌ئاو، وشک،	(مانگا) بێ‌شیر، وشک‌کردوو، بێ‌دەم‌ودۆ،	(نان) بێ‌کەرە، وشک،	ڕەق، وشکەوەبوو، ڕەقەوەبوو،	(خواردنەوە) تاڵ، شیرین نییە، مزر،	تینوو، تھنی، تینوێتی‌ھێنەر، تینووتی دێنێ،	ناخۆش، وشک، ماندووکەر، وەڕەزکەر،	سارد، وشک، ساردوسڕ،	ئاشکرا، دیار، بەرچاو
 """),
           const DefinitionKurdish(text: "١. (ھاوەڵناو) وشک"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(text: "Is my shirt dry yet?"),
-                    ExampleSentenceKurdish(text: "کراسەکەم ئێستا وشکە؟"),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "dry", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdrys1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdrys1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "Is my shirt dry yet?",
+            kurdishText: "کراسەکەم ئێستا وشکە؟", // dry
+            onPressedBritish: () => speakdrys1("en-GB"),
+            onPressedAmerican: () => speakdrys1("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "Store onions in a cool dry place."),
-                    ExampleSentenceKurdish(
-                        text: "پیاز لە شوێنێکی وشکی سارد ھەڵبگرە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdrys2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdrys2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "Store onions in a cool dry place.",
+            kurdishText: "پیاز لە شوێنێکی وشکی سارد ھەڵبگرە.",
+            onPressedBritish: () => speakdrys2("en-GB"),
+            onPressedAmerican: () => speakdrys2("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "I'm afraid this cake has turned out very dry."),
-                    ExampleSentenceKurdish(
-                        text: "بەداخەوەم کە کێکەکە زۆر وشک دەرچووە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdrys3("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdrys3("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "I'm afraid this cake has turned out very dry.",
+            kurdishText: "بەداخەوەم کە کێکەکە زۆر وشک دەرچووە.",
+            onPressedBritish: () => speakdrys3("en-GB"),
+            onPressedAmerican: () => speakdrys3("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "Some plants grow better in dry soil."),
-                    ExampleSentenceKurdish(
-                        text: "ھەندێک ڕووەک لە خاکی وشكدا باشتر گەشە دەکەن."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdrys4("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdrys4("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "Some plants grow better in dry soil.",
+            kurdishText: "ھەندێک ڕووەک لە خاکی وشكدا باشتر گەشە دەکەن.",
+            onPressedBritish: () => speakdrys4("en-GB"),
+            onPressedAmerican: () => speakdrys4("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "When the paint is completely dry, apply another coat."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "کە بۆیەکە بە تەواوی وشکە، چینێکی دیکە بدە بە سەریدا."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdrys5("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdrys5("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "When the paint is completely dry, apply another coat.",
+            kurdishText: "کە بۆیەکە بە تەواوی وشکە، چینێکی دیکە بدە بە سەریدا.",
+            onPressedBritish: () => speakdrys5("en-GB"),
+            onPressedAmerican: () => speakdrys5("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "It was summer and the rivers were dry (= had no water in them)."),
-                    ExampleSentenceKurdish(
-                        text: "ھاوین بوو و ڕووبارەکان وشک بوون."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdrys6("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdrys6("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "It was summer and the rivers were dry (= had no water in them).",
+            kurdishText: "ھاوین بوو و ڕووبارەکان وشک بوون.",
+            onPressedBritish: () => speakdrys6("en-GB"),
+            onPressedAmerican: () => speakdrys6("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(text: "He towelled himself dry."),
-                    ExampleSentenceKurdish(text: "خۆی بە خاولییەک وشککردەوە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdrys7("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdrys7("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "He towelled himself dry.",
+            kurdishText: "خۆی بە خاولییەک وشککردەوە.",
+            onPressedBritish: () => speakdrys7("en-GB"),
+            onPressedAmerican: () => speakdrys7("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(text: "Ruth felt her mouth go dry."),
-                    ExampleSentenceKurdish(
-                        text: "ڕووس ھەستی دەکرد دەمی وشکدەبوو."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdrys8("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdrys8("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "Ruth felt her mouth go dry.",
+            kurdishText: "ڕووس ھەستی دەکرد دەمی وشکدەبوو.",
+            onPressedBritish: () => speakdrys8("en-GB"),
+            onPressedAmerican: () => speakdrys8("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: "٢. (ھاوەڵناو) بە بوونی کەمێک باران"),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "I hope it stays dry for our picnic."),
-                    ExampleSentenceKurdish(
-                        text: "ھیوادارم کەم‌باران بێت بۆ سەفرەکەمان."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdrys9("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdrys9("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "I hope it stays dry for our picnic.",
+            kurdishText: "ھیوادارم کەم‌باران بێت بۆ سەفرەکەمان.",
+            onPressedBritish: () => speakdrys9("en-GB"),
+            onPressedAmerican: () => speakdrys9("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "There is every prospect of the weather remaining dry this week."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "ھەموو پێشبینییەک دەکرێت کەشووھەوا ئەم ھەفتەیە بێ‌باران بمێنێتەوە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdrys10("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdrys10("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "There is every prospect of the weather remaining dry this week.",
+            kurdishText:
+                "ھەموو پێشبینییەک دەکرێت کەشووھەوا ئەم ھەفتەیە بێ‌باران بمێنێتەوە.",
+            onPressedBritish: () => speakdrys10("en-GB"),
+            onPressedAmerican: () => speakdrys10("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "The day will start bright and mainly dry."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "ڕۆژەکە بە گەشاوەیی و تا ڕادەیەک بێ‌باران دەستپێدەکات."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdrys11("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdrys11("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "The day will start bright and mainly dry.",
+            kurdishText:
+                "ڕۆژەکە بە گەشاوەیی و تا ڕادەیەک بێ‌باران دەستپێدەکات.",
+            onPressedBritish: () => speakdrys11("en-GB"),
+            onPressedAmerican: () => speakdrys11("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: "٣. (ھاوەڵناو) بەبێ چەوری سرووشتی"),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "This is a shampoo for dry hair."),
-                    ExampleSentenceKurdish(text: "ئەمە شامپۆیەکە بۆ قژی وشک."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdrys12("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdrys12("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "This is a shampoo for dry hair.",
+            kurdishText: "ئەمە شامپۆیەکە بۆ قژی وشک.",
+            onPressedBritish: () => speakdrys12("en-GB"),
+            onPressedAmerican: () => speakdrys12("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: "٤. (ھاوەڵناو) کە بەڵغەم درووست ناکات"),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "He had a dry hacking cough all night."),
-                    ExampleSentenceKurdish(
-                        text: "تەواوی شەوەکە کۆکەڕەشەیەکی وشکی ھەبوو."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdrys13("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdrys13("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "He had a dry hacking cough all night.",
+            kurdishText: "تەواوی شەوەکە کۆکەڕەشەیەکی وشکی ھەبوو.",
+            onPressedBritish: () => speakdrys13("en-GB"),
+            onPressedAmerican: () => speakdrys13("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
                   "٥. (ھاوەڵناو) نانێک کە بە تەنھا دەخوردرێت بەبێ پەنیر، دۆشاو، ھتد"),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "Breakfast consisted of dry bread and a cup of tea."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "نانی بەیانی لە نانەوشکە و پیاڵەیەک چا پێکھاتبوو."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdrys14("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdrys14("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "Breakfast consisted of dry bread and a cup of tea.",
+            kurdishText: "نانی بەیانی لە نانەوشکە و پیاڵەیەک چا پێکھاتبوو.",
+            onPressedBritish: () => speakdrys14("en-GB"),
+            onPressedAmerican: () => speakdrys14("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: "٦. (ھاوەڵناو) کە شیرین نییە"),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "This wine is too dry for me."),
-                    ExampleSentenceKurdish(text: "شەرابەکە زۆر بێ‌تامە بۆ من."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdrys15("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdrys15("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "This wine is too dry for me.",
+            kurdishText: "شەرابەکە زۆر بێ‌تامە بۆ من.",
+            onPressedBritish: () => speakdrys15("en-GB"),
+            onPressedAmerican: () => speakdrys15("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٧. (ھاوەڵناو) گاڵتەیەک کە زیرەکانە و شاراوەیە"),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "He was a man of few words with a dry sense of humour."),
-                    ExampleSentenceKurdish(
-                        text: "کەسێکی کەمدوو بوو بە حەزێکی بۆ شۆخی شاراوە ."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdrys16("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdrys16("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "He was a man of few words with a dry sense of humour.",
+            kurdishText: "کەسێکی کەمدوو بوو بە حەزێکی بۆ شۆخی شاراوە .",
+            onPressedBritish: () => speakdrys16("en-GB"),
+            onPressedAmerican: () => speakdrys16("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٨. (ھاوەڵناو) بەبێ پیشاندانی ھەست و سۆز"),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "He replied in a cold, dry manner."),
-                    ExampleSentenceKurdish(
-                        text: "بەشێوەیەکی ساردوسڕ و وشک وەڵامی دایەوە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdrys17("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdrys17("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "He replied in a cold, dry manner.",
+            kurdishText: "بەشێوەیەکی ساردوسڕ و وشک وەڵامی دایەوە.",
+            onPressedBritish: () => speakdrys17("en-GB"),
+            onPressedAmerican: () => speakdrys17("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: "٩. (ھاوەڵناو) کە سەرنجڕاکێش نییە"),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "Government reports tend to make dry reading."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "ڕاپۆرتەکانی حکومەت وا دەکەن خوێندنەوە ماندووکەر بێت."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdrys18("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdrys18("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "Government reports tend to make dry reading.",
+            kurdishText: "ڕاپۆرتەکانی حکومەت وا دەکەن خوێندنەوە ماندووکەر بێت.",
+            onPressedBritish: () => speakdrys18("en-GB"),
+            onPressedAmerican: () => speakdrys18("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: "١٠. (ھاوەڵناو) بەبێ کحوول"),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "He's been dry (= has drunk no alcohol) for a year now."),
-                    ExampleSentenceKurdish(
-                        text: "چەندین ساڵ دەبێت دوورە لە کحوول."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdrys19("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdrys19("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "He's been dry (= has drunk no alcohol) for a year now.",
+            kurdishText: "چەندین ساڵ دەبێت دوورە لە کحوول.",
+            onPressedBritish: () => speakdrys19("en-GB"),
+            onPressedAmerican: () => speakdrys19("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "١١. (ھاوەڵناو) تینوو؛ کە تینووت دەکات"),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(text: "I'm a bit dry."),
-                    ExampleSentenceKurdish(text: "کەمێک تینووم."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdrys20("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdrys20("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "I'm a bit dry.",
+            kurdishText: "کەمێک تینووم.",
+            onPressedBritish: () => speakdrys20("en-GB"),
+            onPressedAmerican: () => speakdrys20("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(text: "This is dry work."),
-                    ExampleSentenceKurdish(text: "کارێکی تینووکەرە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdrys21("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdrys21("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "This is dry work.",
+            kurdishText: "کارێکی تینووکەرە.",
+            onPressedBritish: () => speakdrys21("en-GB"),
+            onPressedAmerican: () => speakdrys21("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: "١٢. (ناو) شوێنێکی وشک"),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "You must be so wet! Come into the dry."),
-                    ExampleSentenceKurdish(
-                        text: "دەبێت زۆر تەڕ بیت! وەرە وشکاییەکە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdrys22("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdrys22("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "You must be so wet! Come into the dry.",
+            kurdishText: "دەبێت زۆر تەڕ بیت! وەرە وشکاییەکە.",
+            onPressedBritish: () => speakdrys22("en-GB"),
+            onPressedAmerican: () => speakdrys22("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: "١٣. (ناو) وەرزی وشکێتی"),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The dry had started and the grass was turning yellow."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "وەرزی وشکێتی دەستیپێکردبوو و گژووگیا زەرد دەبوون."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdrys23("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdrys23("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "The dry had started and the grass was turning yellow.",
+            kurdishText: "وەرزی وشکێتی دەستیپێکردبوو و گژووگیا زەرد دەبوون.",
+            onPressedBritish: () => speakdrys23("en-GB"),
+            onPressedAmerican: () => speakdrys23("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: "١٤. (کردار) وشکبوون"),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "He did the laundry and hung it out to dry."),
-                    ExampleSentenceKurdish(
-                        text: "جلەکانی شووشت و ھەڵیواسین تاوەکو وشکببنەوە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdrys24("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdrys24("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "He did the laundry and hung it out to dry.",
+            kurdishText: "جلەکانی شووشت و ھەڵیواسین تاوەکو وشکببنەوە.",
+            onPressedBritish: () => speakdrys24("en-GB"),
+            onPressedAmerican: () => speakdrys24("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "Be careful. The paint hasn't dried yet."),
-                    ExampleSentenceKurdish(
-                        text: "وریابە. بۆیەکە ھێشتا وشک نەبووەتەوە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdrys25("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdrys25("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "Be careful. The paint hasn't dried yet.",
+            kurdishText: "وریابە. بۆیەکە ھێشتا وشک نەبووەتەوە.",
+            onPressedBritish: () => speakdrys25("en-GB"),
+            onPressedAmerican: () => speakdrys25("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "You wash the dishes and I'll dry."),
-                    ExampleSentenceKurdish(
-                        text: "تۆ قاپەکان بشۆ و من وشکیان دەکەمەوە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdrys26("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdrys26("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "You wash the dishes and I'll dry.",
+            kurdishText: "تۆ قاپەکان بشۆ و من وشکیان دەکەمەوە.",
+            onPressedBritish: () => speakdrys26("en-GB"),
+            onPressedAmerican: () => speakdrys26("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "Use this towel to dry your hands."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "ئەم خاولییە بەکاربھێنە بۆ وشککردنەوەی دەستەکانت."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdrys27("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdrys27("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "Use this towel to dry your hands.",
+            kurdishText: "ئەم خاولییە بەکاربھێنە بۆ وشککردنەوەی دەستەکانت.",
+            onPressedBritish: () => speakdrys27("en-GB"),
+            onPressedAmerican: () => speakdrys27("en-US"),
           ),
           // drys2800"),
           // speakdrys28

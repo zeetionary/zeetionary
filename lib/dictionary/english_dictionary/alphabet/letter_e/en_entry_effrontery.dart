@@ -370,32 +370,12 @@ class KurdishMeaning extends StatelessWidget {
 """),
           const DefinitionKurdish(
               text: """١. (ناو) ڕەفتاری بێ‌ڕێزی و بێشەرمانە"""),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            """He had the effrontery to accuse me of lying!"""),
-                    ExampleSentenceKurdish(
-                        text:
-                            """بێ‌ئابڕوویی ئەوەی ھەبوو کە بە درۆکردن تاوانبارم بکات."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "effrontery", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakeffronterys1("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakeffronterys1("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: """He had the effrontery to accuse me of lying!""",
+            kurdishText:
+                """بێ‌ئابڕوویی ئەوەی ھەبوو کە بە درۆکردن تاوانبارم بکات.""", // effrontery
+            onPressedBritish: () => speakeffronterys1("en-GB"),
+            onPressedAmerican: () => speakeffronterys1("en-US"),
           ),
           // effronterys200"""),
           // onPressed: () => speakeffronterys2("en-GB" ""),

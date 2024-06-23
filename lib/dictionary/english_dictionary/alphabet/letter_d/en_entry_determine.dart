@@ -327,326 +327,114 @@ class KurdishMeaning extends StatelessWidget {
 """),
           const DefinitionKurdish(
               text: "١. (کردار)دۆزینەوەی ڕاستییەکان سەبارەت بە شتێک"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "An inquiry was set up to determine the cause of the accident."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "لێکۆڵینەوەیەک دەستپێکرا بۆ دیاریکردنی ھۆکاری ڕووداوەکە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "determine", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdetermines1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdetermines1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "An inquiry was set up to determine the cause of the accident.",
+            kurdishText:
+                "لێکۆڵینەوەیەک دەستپێکرا بۆ دیاریکردنی ھۆکاری ڕووداوەکە.", // determine
+            onPressedBritish: () => speakdetermines1("en-GB"),
+            onPressedAmerican: () => speakdetermines1("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "Try to determine the extent of the problem."),
-                    ExampleSentenceKurdish(
-                        text: "ھەوڵ بدە قووڵی ڕووداوەکە دیاری بکە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdetermines2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdetermines2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "Try to determine the extent of the problem.",
+            kurdishText: "ھەوڵ بدە قووڵی ڕووداوەکە دیاری بکە.",
+            onPressedBritish: () => speakdetermines2("en-GB"),
+            onPressedAmerican: () => speakdetermines2("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "It is difficult to determine when drama first appeared in India."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "سەختە دیاری بکرێت کەی دراما بۆ یەکەمجار لە ھندستان دەرکەوت."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdetermines3("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdetermines3("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "It is difficult to determine when drama first appeared in India.",
+            kurdishText:
+                "سەختە دیاری بکرێت کەی دراما بۆ یەکەمجار لە ھندستان دەرکەوت.",
+            onPressedBritish: () => speakdetermines3("en-GB"),
+            onPressedAmerican: () => speakdetermines3("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "It was determined that she had died of natural causes."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "ئەوە دیاریکرا کە بە ھۆکاری سرووشتی گیانی لەدەستدا."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdetermines4("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdetermines4("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "It was determined that she had died of natural causes.",
+            kurdishText: "ئەوە دیاریکرا کە بە ھۆکاری سرووشتی گیانی لەدەستدا.",
+            onPressedBritish: () => speakdetermines4("en-GB"),
+            onPressedAmerican: () => speakdetermines4("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
                   "٢. (کردار) واکردنی ئەوەی شتێک بە ڕێگایەک یان شێوازێکی دیاریکراو ڕووبدات"),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "Rural voters in key states will determine the outcome of the election."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "دەنگدەرە گوندنشینەکان لە ویلایەتە گرنگەکان ئەنجامی ھەڵبژاردنەکە دیاری دەکەن."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdetermines5("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdetermines5("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "Rural voters in key states will determine the outcome of the election.",
+            kurdishText:
+                "دەنگدەرە گوندنشینەکان لە ویلایەتە گرنگەکان ئەنجامی ھەڵبژاردنەکە دیاری دەکەن.",
+            onPressedBritish: () => speakdetermines5("en-GB"),
+            onPressedAmerican: () => speakdetermines5("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "Upbringing plays an important part in determining a person's character."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "پێگەیاندن بەشێکی گرنگی کەسایەتی کەسێک پێکدێنێت."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdetermines6("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdetermines6("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "Upbringing plays an important part in determining a person's character.",
+            kurdishText: "پێگەیاندن بەشێکی گرنگی کەسایەتی کەسێک پێکدێنێت.",
+            onPressedBritish: () => speakdetermines6("en-GB"),
+            onPressedAmerican: () => speakdetermines6("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "Age and experience will be determining factors in our choice of candidate."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "تەمەن و ئەزموون فاکتەری دیاریکەر دەبن لە ھەڵبژاردنمان بۆ بەربژێر."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdetermines7("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdetermines7("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "Age and experience will be determining factors in our choice of candidate.",
+            kurdishText:
+                "تەمەن و ئەزموون فاکتەری دیاریکەر دەبن لە ھەڵبژاردنمان بۆ بەربژێر.",
+            onPressedBritish: () => speakdetermines7("en-GB"),
+            onPressedAmerican: () => speakdetermines7("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٣. (کردار) بە فەرمی بڕیاردان یان دیاریکردنی شتێک"),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "A date for the meeting has yet to be determined."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "ڕێکەوتێک بۆ چاوپێکەوتنەکە ھێشتا ماوە بڕیاری لێ بدرێت."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdetermines8("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdetermines8("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "A date for the meeting has yet to be determined.",
+            kurdishText:
+                "ڕێکەوتێک بۆ چاوپێکەوتنەکە ھێشتا ماوە بڕیاری لێ بدرێت.",
+            onPressedBritish: () => speakdetermines8("en-GB"),
+            onPressedAmerican: () => speakdetermines8("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The court determined (that) the defendant should pay the legal costs."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "دادگا بڕیاریدا تاوانبارکراو دەبێت خەرجییە یاساییەکان بدات."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdetermines9("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdetermines9("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "The court determined (that) the defendant should pay the legal costs.",
+            kurdishText:
+                "دادگا بڕیاریدا تاوانبارکراو دەبێت خەرجییە یاساییەکان بدات.",
+            onPressedBritish: () => speakdetermines9("en-GB"),
+            onPressedAmerican: () => speakdetermines9("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٤. (کردار) بە تەواوی بڕیاردان بۆ کردنی شتێک"),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "They determined to start early."),
-                    ExampleSentenceKurdish(text: "بڕیاریاندا زوو دەستپێ بکەن."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdetermines10("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdetermines10("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "They determined to start early.",
+            kurdishText: "بڕیاریاندا زوو دەستپێ بکەن.",
+            onPressedBritish: () => speakdetermines10("en-GB"),
+            onPressedAmerican: () => speakdetermines10("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The government determined on a change of policy."),
-                    ExampleSentenceKurdish(
-                        text: "حکومەت بڕیاری گۆڕانی سیاسەتی دا."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdetermines11("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdetermines11("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "The government determined on a change of policy.",
+            kurdishText: "حکومەت بڕیاری گۆڕانی سیاسەتی دا.",
+            onPressedBritish: () => speakdetermines11("en-GB"),
+            onPressedAmerican: () => speakdetermines11("en-US"),
           ),
           // determines1200"),
           // speakdetermines12

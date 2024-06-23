@@ -363,32 +363,12 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   """١. (کردار) بەدزییەوە گوێگرتن لەوەی کەسانی دیکە دەیڵێن"""),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            """We caught him eavesdropping outside the window."""),
-                    ExampleSentenceKurdish(
-                        text:
-                            """گرتمان کە لە دەرەوەی پەنجەرەکەوە گوێی دەگرت."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "eavesdrop", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakeavesdrops1("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakeavesdrops1("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: """We caught him eavesdropping outside the window.""",
+            kurdishText:
+                """گرتمان کە لە دەرەوەی پەنجەرەکەوە گوێی دەگرت.""", // eavesdrop
+            onPressedBritish: () => speakeavesdrops1("en-GB"),
+            onPressedAmerican: () => speakeavesdrops1("en-US"),
           ),
           // eavesdrops200eavesdrops2
           // speakeavesdrops2

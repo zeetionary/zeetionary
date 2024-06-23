@@ -387,111 +387,36 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "١. (ناو) ئاوەڕێیەک کە لە تەنیشت ڕێگا یان کێڵگەیەک درووست دەکرێت بۆ گلدانەوەی ئاو"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "The car left the road and ended up in a ditch."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "ئۆتۆمبێلەکە لە ڕێگا دەرچوو و کەوتە ئاوەڕێیەکەوە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "ditch", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakditchs1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakditchs1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "The car left the road and ended up in a ditch.",
+            kurdishText:
+                "ئۆتۆمبێلەکە لە ڕێگا دەرچوو و کەوتە ئاوەڕێیەکەوە.", // ditch
+            onPressedBritish: () => speakditchs1("en-GB"),
+            onPressedAmerican: () => speakditchs1("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "I tripped and fell into a muddy ditch."),
-                    ExampleSentenceKurdish(
-                        text: "پێم ھەڵکەوت و کەوتمە ناو ئاوەڕێیەکی قوڕاوی."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakditchs2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakditchs2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "I tripped and fell into a muddy ditch.",
+            kurdishText: "پێم ھەڵکەوت و کەوتمە ناو ئاوەڕێیەکی قوڕاوی.",
+            onPressedBritish: () => speakditchs2("en-GB"),
+            onPressedAmerican: () => speakditchs2("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٢. (کردار) وازھێنان لە شتێک بەھۆی ئەوەی کە ناتەوێت"),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(text: "He ditched his girlfriend."),
-                    ExampleSentenceKurdish(text: "وازی لە کچە دۆستەکەی ھێنا."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakditchs3("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakditchs3("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "He ditched his girlfriend.",
+            kurdishText: "وازی لە کچە دۆستەکەی ھێنا.",
+            onPressedBritish: () => speakditchs3("en-GB"),
+            onPressedAmerican: () => speakditchs3("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The new road building programme has been ditched."),
-                    ExampleSentenceKurdish(
-                        text: "پڕۆگرامی بنیاتنانی ڕێگا تازەکە وازیلێھێندراوە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakditchs4("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakditchs4("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "The new road building programme has been ditched.",
+            kurdishText: "پڕۆگرامی بنیاتنانی ڕێگا تازەکە وازیلێھێندراوە.",
+            onPressedBritish: () => speakditchs4("en-GB"),
+            onPressedAmerican: () => speakditchs4("en-US"),
           ),
           // ditchs500"),
           // speakditchs5

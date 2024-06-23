@@ -260,119 +260,43 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "١. (ناو) دۆخێک کە کێشە درووست دەکات، بەتایبەتی یەکێک کە دەبێت لە نێوان دوو ھەڵبژاردەی وەک یەک گرنگدا ھەڵبژاردن بکەیت"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "I could see no way of resolving this moral dilemma."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "نەمدەتوانی ھیچ ڕێگایەکی چارەسەری ئەم ئاستەنگە ئەخلاقییە ببینم."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "dilemma", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdilemmas1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdilemmas1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "I could see no way of resolving this moral dilemma.",
+            kurdishText:
+                "نەمدەتوانی ھیچ ڕێگایەکی چارەسەری ئەم ئاستەنگە ئەخلاقییە ببینم.", // dilemma
+            onPressedBritish: () => speakdilemmas1("en-GB"),
+            onPressedAmerican: () => speakdilemmas1("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The digital era brings new ethical dilemmas for journalists."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "سەردەمی دیجیتاڵی ئاستەنگی ڕەوشتی تازە بۆ ڕۆژنامەنووسان درووست دەکات."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdilemmas2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdilemmas2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "The digital era brings new ethical dilemmas for journalists.",
+            kurdishText:
+                "سەردەمی دیجیتاڵی ئاستەنگی ڕەوشتی تازە بۆ ڕۆژنامەنووسان درووست دەکات.",
+            onPressedBritish: () => speakdilemmas2("en-GB"),
+            onPressedAmerican: () => speakdilemmas2("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: " They were caught in a real dilemma."),
-                    ExampleSentenceKurdish(text: "کەوتنە گرفتێکی تەواوەوە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdilemmas3("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdilemmas3("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: " They were caught in a real dilemma.",
+            kurdishText: "کەوتنە گرفتێکی تەواوەوە.",
+            onPressedBritish: () => speakdilemmas3("en-GB"),
+            onPressedAmerican: () => speakdilemmas3("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "She faced a dilemma about whether to accept the offer or not."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "کەوتە دوڕیانێکەوە کە ئایا پێشنیارەکە پەسەند بکات یان نا."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdilemmas4("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdilemmas4("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "She faced a dilemma about whether to accept the offer or not.",
+            kurdishText:
+                "کەوتە دوڕیانێکەوە کە ئایا پێشنیارەکە پەسەند بکات یان نا.",
+            onPressedBritish: () => speakdilemmas4("en-GB"),
+            onPressedAmerican: () => speakdilemmas4("en-US"),
           ),
           // dilemmas500"),
           // speakdilemmas5

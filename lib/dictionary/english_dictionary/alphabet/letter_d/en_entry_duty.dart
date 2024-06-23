@@ -481,439 +481,153 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   """١. (ناو) شتێک کە پێتوایە دەبێت بیکەیت چونکە پێتوایە بەرپرسیاریەتی ئەخلاقی یان یان یاساییتە"""),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: """It is my duty to report it to the police."""),
-                    ExampleSentenceKurdish(
-                        text: """ئەوە ئەرکمە کە کە بە پۆلیسی بڵێم."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "duty", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdutys1("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdutys1("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: """It is my duty to report it to the police.""",
+            kurdishText: """ئەوە ئەرکمە کە کە بە پۆلیسی بڵێم.""", // duty
+            onPressedBritish: () => speakdutys1("en-GB"),
+            onPressedAmerican: () => speakdutys1("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: """ژممارە. (ناو) پێنناسە"""),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            """Local councillors have a duty to serve the community."""),
-                    ExampleSentenceKurdish(
-                        text:
-                            """ئەندامانی ئەنجوومەنەکە ئەرکیانە خزمەتی کۆمەڵگەکە بکەن."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdutys2("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdutys2("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                """Local councillors have a duty to serve the community.""",
+            kurdishText:
+                """ئەندامانی ئەنجوومەنەکە ئەرکیانە خزمەتی کۆمەڵگەکە بکەن.""",
+            onPressedBritish: () => speakdutys2("en-GB"),
+            onPressedAmerican: () => speakdutys2("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: """ژممارە. (ناو) پێنناسە"""),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            """The company owes a duty of care to its employees."""),
-                    ExampleSentenceKurdish(
-                        text:
-                            """کۆمپانیاکە بەرپرسیاریەتیی چاودێریی کارمەندەکانیی لەسەرە."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdutys3("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdutys3("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                """The company owes a duty of care to its employees.""",
+            kurdishText:
+                """کۆمپانیاکە بەرپرسیاریەتیی چاودێریی کارمەندەکانیی لەسەرە.""",
+            onPressedBritish: () => speakdutys3("en-GB"),
+            onPressedAmerican: () => speakdutys3("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: """ژممارە. (ناو) پێنناسە"""),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            """I don't want you to visit me simply out of a sense of duty."""),
-                    ExampleSentenceKurdish(
-                        text:
-                            """نامەوێت سەردانم بکەیت تەنھا وەک ھەستکردن بە ئەرکێک."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdutys4("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdutys4("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                """I don't want you to visit me simply out of a sense of duty.""",
+            kurdishText:
+                """نامەوێت سەردانم بکەیت تەنھا وەک ھەستکردن بە ئەرکێک.""",
+            onPressedBritish: () => speakdutys4("en-GB"),
+            onPressedAmerican: () => speakdutys4("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: """٢. (ناو) ئەو کارەی کە پیشەکەتە"""),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: """Report for duty at 8 a.m."""),
-                    ExampleSentenceKurdish(
-                        text: """لە ٨ ـی بەیانی بچۆ سەر کارەکەت."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdutys5("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdutys5("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: """Report for duty at 8 a.m.""",
+            kurdishText: """لە ٨ ـی بەیانی بچۆ سەر کارەکەت.""",
+            onPressedBritish: () => speakdutys5("en-GB"),
+            onPressedAmerican: () => speakdutys5("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: """ژممارە. (ناو) پێنناسە"""),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(text: """He was on kitchen duty."""),
-                    ExampleSentenceKurdish(text: """لە کاری چێشتخانە بوو."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdutys6("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdutys6("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: """He was on kitchen duty.""",
+            kurdishText: """لە کاری چێشتخانە بوو.""",
+            onPressedBritish: () => speakdutys6("en-GB"),
+            onPressedAmerican: () => speakdutys6("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: """ژممارە. (ناو) پێنناسە"""),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: """He's been suspended from active duty."""),
-                    ExampleSentenceKurdish(
-                        text: """لە کاری چالاکی سڕکرا بوو."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdutys7("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdutys7("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: """He's been suspended from active duty.""",
+            kurdishText: """لە کاری چالاکی سڕکرا بوو.""",
+            onPressedBritish: () => speakdutys7("en-GB"),
+            onPressedAmerican: () => speakdutys7("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: """ژممارە. (ناو) پێنناسە"""),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            """Her son was released from duty in the army to visit her in hospital."""),
-                    ExampleSentenceKurdish(
-                        text:
-                            """کوڕەکەی لە کاری سەربازی نێردرایەوە بۆ ئەوەی سەردانی بکات لە نەخۆشخانە."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdutys8("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdutys8("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                """Her son was released from duty in the army to visit her in hospital.""",
+            kurdishText:
+                """کوڕەکەی لە کاری سەربازی نێردرایەوە بۆ ئەوەی سەردانی بکات لە نەخۆشخانە.""",
+            onPressedBritish: () => speakdutys8("en-GB"),
+            onPressedAmerican: () => speakdutys8("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text: """٣. (ناو) ئەو ئەرکانەی کە بەشێکن لە کارەکەت"""),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            """I spend a lot of time on administrative duties."""),
-                    ExampleSentenceKurdish(
-                        text: """کاتی زۆرم بەسەر برد بە ئەرکی بەڕێوەبردن."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdutys9("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdutys9("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: """I spend a lot of time on administrative duties.""",
+            kurdishText: """کاتی زۆرم بەسەر برد بە ئەرکی بەڕێوەبردن.""",
+            onPressedBritish: () => speakdutys9("en-GB"),
+            onPressedAmerican: () => speakdutys9("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: """ژممارە. (ناو) پێنناسە"""),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            """The princess has taken on her mother's official duties."""),
-                    ExampleSentenceKurdish(
-                        text:
-                            """شازادە خاتوونەکە ئەرکە فەرمییەکانی دایکی گرتبووە ئەستۆ."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdutys10("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdutys10("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                """The princess has taken on her mother's official duties.""",
+            kurdishText:
+                """شازادە خاتوونەکە ئەرکە فەرمییەکانی دایکی گرتبووە ئەستۆ.""",
+            onPressedBritish: () => speakdutys10("en-GB"),
+            onPressedAmerican: () => speakdutys10("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: """ژممارە. (ناو) پێنناسە"""),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            """Your duties will include greeting visitors and answering the phone."""),
-                    ExampleSentenceKurdish(
-                        text:
-                            """ئەرکەکانت خێرھاتنکردنی سەردانکاران و وەڵامدانەوەی تەلەفۆن دەگرێتەوە."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdutys11("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdutys11("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                """Your duties will include greeting visitors and answering the phone.""",
+            kurdishText:
+                """ئەرکەکانت خێرھاتنکردنی سەردانکاران و وەڵامدانەوەی تەلەفۆن دەگرێتەوە.""",
+            onPressedBritish: () => speakdutys11("en-GB"),
+            onPressedAmerican: () => speakdutys11("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: """ژممارە. (ناو) پێنناسە"""),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: """The cleaning duties now fell to Rachel."""),
-                    ExampleSentenceKurdish(
-                        text:
-                            """ئەرکەکانی پاککردنەوە ئێستا بەسەر ڕەیچڵدا کەوت."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdutys12("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdutys12("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: """The cleaning duties now fell to Rachel.""",
+            kurdishText: """ئەرکەکانی پاککردنەوە ئێستا بەسەر ڕەیچڵدا کەوت.""",
+            onPressedBritish: () => speakdutys12("en-GB"),
+            onPressedAmerican: () => speakdutys12("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: """ژممارە. (ناو) پێنناسە"""),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: """I share the cooking duties with Bell."""),
-                    ExampleSentenceKurdish(
-                        text:
-                            """ئەرکەکانی خواردن لێنان لەگەڵ بێڵ بەش دەکەم."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdutys13("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdutys13("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: """I share the cooking duties with Bell.""",
+            kurdishText: """ئەرکەکانی خواردن لێنان لەگەڵ بێڵ بەش دەکەم.""",
+            onPressedBritish: () => speakdutys13("en-GB"),
+            onPressedAmerican: () => speakdutys13("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: """ژممارە. (ناو) پێنناسە"""),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            """The troops are here to perform peacekeeping duties."""),
-                    ExampleSentenceKurdish(
-                        text: """ھێزەکان لێرەن بۆ ئەرکی ئاشتیپارێزی."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdutys14("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdutys14("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                """The troops are here to perform peacekeeping duties.""",
+            kurdishText: """ھێزەکان لێرەن بۆ ئەرکی ئاشتیپارێزی.""",
+            onPressedBritish: () => speakdutys14("en-GB"),
+            onPressedAmerican: () => speakdutys14("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
                   """٤. (ناو) باجێک کە دەیدەیت بۆ ئەو شتانەی کە دەیانکڕیت، بەتایبەتی بۆ ئەو شتانەی کە دەیانھێنیتە ناو وڵاتێک"""),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: """The US imposed a duty on imports."""),
-                    ExampleSentenceKurdish(
-                        text: """ئەمریکا باجی بەسەر ھاوردەدا سەپاند."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdutys15("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdutys15("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: """The US imposed a duty on imports.""",
+            kurdishText: """ئەمریکا باجی بەسەر ھاوردەدا سەپاند.""",
+            onPressedBritish: () => speakdutys15("en-GB"),
+            onPressedAmerican: () => speakdutys15("en-US"),
           ),
           // dutys1600
           // speakdutys16

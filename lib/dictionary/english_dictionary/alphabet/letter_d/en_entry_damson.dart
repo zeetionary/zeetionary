@@ -232,32 +232,13 @@ class KurdishMeaning extends StatelessWidget {
 // کوردی: ھەڵووژەڕەشە، ھەڵووچەڕەشە
 // """),
           const DefinitionKurdish(text: "١. (ھاوەڵناو) ھەڵووژەڕەشە"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The damson tree in their garden yielded a bountiful harvest this year."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "دار ھەڵووژەی باخچەکەیان ئەمساڵ بەرھەمی زۆری ھێنا."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "damson", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdamsons1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdamsons1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "The damson tree in their garden yielded a bountiful harvest this year.",
+            kurdishText:
+                "دار ھەڵووژەی باخچەکەیان ئەمساڵ بەرھەمی زۆری ھێنا.", // damson
+            onPressedBritish: () => speakdamsons1("en-GB"),
+            onPressedAmerican: () => speakdamsons1("en-US"),
           ),
         ],
       ),

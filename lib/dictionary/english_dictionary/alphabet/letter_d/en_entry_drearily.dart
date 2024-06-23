@@ -372,60 +372,22 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "١. (ھاوەڵکار) بەشێوەیەک کە دڵتەنگ پیشانت دەدات و ئەوەی کە حەز بە ھیچ نەکەیت"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "‘I didn’t get the job,’ he said drearily."),
-                    ExampleSentenceKurdish(
-                        text: "بە دڵتەنگییەوە گوتی 'کارەکەم پێنەدرا.'"),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "drearily", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdrearilys1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdrearilys1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "‘I didn’t get the job,’ he said drearily.",
+            kurdishText: "بە دڵتەنگییەوە گوتی 'کارەکەم پێنەدرا.'", // drearily
+            onPressedBritish: () => speakdrearilys1("en-GB"),
+            onPressedAmerican: () => speakdrearilys1("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The dresses all looked drearily similar—I didn’t like any of them."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "کراسەکان ھەموویان ناسەرنج‌ڕاکێشانە وەک یەک بوون ـ حەزم بە ھیچیان نەبوو."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdrearilys2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdrearilys2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "The dresses all looked drearily similar—I didn’t like any of them.",
+            kurdishText:
+                "کراسەکان ھەموویان ناسەرنج‌ڕاکێشانە وەک یەک بوون ـ حەزم بە ھیچیان نەبوو.",
+            onPressedBritish: () => speakdrearilys2("en-GB"),
+            onPressedAmerican: () => speakdrearilys2("en-US"),
           ),
           // drearilys300"),
           // speakdrearilys3

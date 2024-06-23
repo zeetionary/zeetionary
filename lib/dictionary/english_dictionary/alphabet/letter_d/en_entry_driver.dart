@@ -401,161 +401,49 @@ class KurdishMeaning extends StatelessWidget {
 کوردی: شۆفیر، لێخوڕ، ئاژۆت‌کار
 """),
           const DefinitionKurdish(text: "١. (ناو) شۆفێری ئۆتۆمبێل"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "She climbed into the driver's seat."),
-                    ExampleSentenceKurdish(text: "چووە کۆشنی شۆفێری."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "driver", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdrivers1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdrivers1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "She climbed into the driver's seat.",
+            kurdishText: "چووە کۆشنی شۆفێری.", // driver
+            onPressedBritish: () => speakdrivers1("en-GB"),
+            onPressedAmerican: () => speakdrivers1("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "The accident was the other driver's fault."),
-                    ExampleSentenceKurdish(
-                        text: "ڕووداوەکە ھەڵەی شۆفێرەکەی دیکە بوو."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdrivers2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdrivers2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "The accident was the other driver's fault.",
+            kurdishText: "ڕووداوەکە ھەڵەی شۆفێرەکەی دیکە بوو.",
+            onPressedBritish: () => speakdrivers2("en-GB"),
+            onPressedAmerican: () => speakdrivers2("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "What he wanted most was to be a racing driver."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "ئەوەی کە زۆرترین دەیویست بوون بە شؤفێری پێشبڕکێ بوو."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdrivers3("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdrivers3("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "What he wanted most was to be a racing driver.",
+            kurdishText: "ئەوەی کە زۆرترین دەیویست بوون بە شؤفێری پێشبڕکێ بوو.",
+            onPressedBritish: () => speakdrivers3("en-GB"),
+            onPressedAmerican: () => speakdrivers3("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "Dangerous drivers face imprisonment."),
-                    ExampleSentenceKurdish(
-                        text: "شۆفێرانی سەرکێش ڕووبەڕووی زیندانی دەبنەوە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdrivers4("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdrivers4("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "Dangerous drivers face imprisonment.",
+            kurdishText: "شۆفێرانی سەرکێش ڕووبەڕووی زیندانی دەبنەوە.",
+            onPressedBritish: () => speakdrivers4("en-GB"),
+            onPressedAmerican: () => speakdrivers4("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(text: "She's a good driver."),
-                    ExampleSentenceKurdish(text: "شۆفێرێکی باشە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdrivers5("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdrivers5("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "She's a good driver.",
+            kurdishText: "شۆفێرێکی باشە.",
+            onPressedBritish: () => speakdrivers5("en-GB"),
+            onPressedAmerican: () => speakdrivers5("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٢. (ناو) شتێک کە کاریگەری سەرەکی لەسەر شتێک ھەیە"),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "Housing is a key driver of the economy."),
-                    ExampleSentenceKurdish(
-                        text: "خانووبەرە پاڵنەری سەرەکی ئابوورییە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdrivers6("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdrivers6("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "Housing is a key driver of the economy.",
+            kurdishText: "خانووبەرە پاڵنەری سەرەکی ئابوورییە.",
+            onPressedBritish: () => speakdrivers6("en-GB"),
+            onPressedAmerican: () => speakdrivers6("en-US"),
           ),
           // drivers700"),
           // speakdrivers7

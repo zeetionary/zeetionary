@@ -248,62 +248,21 @@ class KurdishMeaning extends StatelessWidget {
 // """),
           const DefinitionKurdish(
               text: "١. (کردار) دەستخستنە ناو شتێک بۆ گەڕان لە ناوی"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "She delved in her handbag for a pen.",
-                        note:
-                            "Similar: I grabbed my bag and delved for a pen."),
-                    ExampleSentenceKurdish(
-                        text: "دەستی خستە ناو جانتاکەی بۆ پێنووسێک."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "delve", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdelves1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdelves1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "She delved in her handbag for a pen.",
+            englishNote: "Similar: I grabbed my bag and delved for a pen.",
+            kurdishText: "دەستی خستە ناو جانتاکەی بۆ پێنووسێک.", // delve
+            onPressedBritish: () => speakdelves1("en-GB"),
+            onPressedAmerican: () => speakdelves1("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "We saw water birds delving in the mud for food."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "باڵندەی ئاویمان بینی دەچوونە ناو قوڕەکە بۆ خواردن."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdelves2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdelves2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "We saw water birds delving in the mud for food.",
+            kurdishText: "باڵندەی ئاویمان بینی دەچوونە ناو قوڕەکە بۆ خواردن.",
+            onPressedBritish: () => speakdelves2("en-GB"),
+            onPressedAmerican: () => speakdelves2("en-US"),
           ),
           // delves300"),
           // speakdelves3

@@ -372,60 +372,21 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "١. (ھاوەڵناو) کە بە دڵنیاییەوە شکست دەھێنێت، ئازار دەچێژێت، دەمرێت، ھتد"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The movie tells the story of a doomed love affair."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "فیلمەکە چیرۆکی پەیوەندییەکی خۆشەویستی کارەساتبار باس دەکات."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "doomed", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdoomeds1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdoomeds1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "The movie tells the story of a doomed love affair.",
+            kurdishText:
+                "فیلمەکە چیرۆکی پەیوەندییەکی خۆشەویستی کارەساتبار باس دەکات.", // doomed
+            onPressedBritish: () => speakdoomeds1("en-GB"),
+            onPressedAmerican: () => speakdoomeds1("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "He thinks the company is utterly doomed."),
-                    ExampleSentenceKurdish(
-                        text: "پێموایە کۆمپانیاکە بە تەواوی دادەڕمێت."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdoomeds2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdoomeds2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "He thinks the company is utterly doomed.",
+            kurdishText: "پێموایە کۆمپانیاکە بە تەواوی دادەڕمێت.",
+            onPressedBritish: () => speakdoomeds2("en-GB"),
+            onPressedAmerican: () => speakdoomeds2("en-US"),
           ),
           // doomeds300"),
           // speakdoomeds3

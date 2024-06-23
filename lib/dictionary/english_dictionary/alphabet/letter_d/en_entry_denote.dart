@@ -267,119 +267,43 @@ class KurdishMeaning extends StatelessWidget {
 // کوردی: نیشانە دانان، مانا کردن
 // """),
           const DefinitionKurdish(text: "١. (کردار) بوون بە ئاماژەی شتێک"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "A very high temperature often denotes a serious illness."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "بوونی تایەکی زۆر زۆرجار ئاماژەیە بە نەخۆشییەکی سەخت."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "denote", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdenotes1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdenotes1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "A very high temperature often denotes a serious illness.",
+            kurdishText:
+                "بوونی تایەکی زۆر زۆرجار ئاماژەیە بە نەخۆشییەکی سەخت.", // denote
+            onPressedBritish: () => speakdenotes1("en-GB"),
+            onPressedAmerican: () => speakdenotes1("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The white belt signifies/​denotes that he's an absolute beginner."),
-                    ExampleSentenceKurdish(
-                        text: "پشتێنە سپییەکە ئاماژەیە بەوەی تەواو سەرەتایە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdenotes2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdenotes2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "The white belt signifies/​denotes that he's an absolute beginner.",
+            kurdishText: "پشتێنە سپییەکە ئاماژەیە بەوەی تەواو سەرەتایە.",
+            onPressedBritish: () => speakdenotes2("en-GB"),
+            onPressedAmerican: () => speakdenotes2("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: "٢. (کردار) ھەبوونی واتایەک"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "In this example ‘X’ denotes the time taken and ‘Y’ denotes the distance covered."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "لەم نموونەدا 'X' ئەو کاتە دەردەبڕێت کە پێی چووە و 'Y' ئەو دوورییەی کە بڕدراوە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdenotes3("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdenotes3("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "In this example ‘X’ denotes the time taken and ‘Y’ denotes the distance covered.",
+            kurdishText:
+                "لەم نموونەدا 'X' ئەو کاتە دەردەبڕێت کە پێی چووە و 'Y' ئەو دوورییەی کە بڕدراوە.",
+            onPressedBritish: () => speakdenotes3("en-GB"),
+            onPressedAmerican: () => speakdenotes3("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "The red triangle denotes danger."),
-                    ExampleSentenceKurdish(
-                        text: "سێگۆشەی سوور ئاماژەیە بە مەترسی."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdenotes4("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdenotes4("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "The red triangle denotes danger.",
+            kurdishText: "سێگۆشەی سوور ئاماژەیە بە مەترسی.",
+            onPressedBritish: () => speakdenotes4("en-GB"),
+            onPressedAmerican: () => speakdenotes4("en-US"),
           ),
           // denotes500"),
           // speakdenotes5

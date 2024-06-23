@@ -269,121 +269,45 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "١. (کردار) ناردنی سەرباز یان چەک بۆ شوێنێک کە ئامادەی جەنگن"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "2 000 troops were deployed in the area."),
-                    ExampleSentenceKurdish(
-                        text: "٢٠٠٠ سەرباز لە ناوچەکە بڵاوەیان پێکرا."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "deploy", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdeploys1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdeploys1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "2 000 troops were deployed in the area.",
+            kurdishText: "٢٠٠٠ سەرباز لە ناوچەکە بڵاوەیان پێکرا.", // deploy
+            onPressedBritish: () => speakdeploys1("en-GB"),
+            onPressedAmerican: () => speakdeploys1("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "At least 5 000 missiles were deployed along the border."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "بە لایەنی کەمەوە ٥٠٠٠ سەرباز لەسەر سنوور بڵاوەیان پێکرا."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdeploys2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdeploys2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "At least 5 000 missiles were deployed along the border.",
+            kurdishText:
+                "بە لایەنی کەمەوە ٥٠٠٠ سەرباز لەسەر سنوور بڵاوەیان پێکرا.",
+            onPressedBritish: () => speakdeploys2("en-GB"),
+            onPressedAmerican: () => speakdeploys2("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٢. (کردار) بەکارھێنانی شتێک بە کاریگەرانە"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The company is reconsidering the way in which it deploys its resources/staff."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "کۆمپانیاکە دووبارە بیر لە شێوازی بەکارھێنانی سەرچاوەکانی/ستافەکەی دەکاتەوە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdeploys3("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdeploys3("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "The company is reconsidering the way in which it deploys its resources/staff.",
+            kurdishText:
+                "کۆمپانیاکە دووبارە بیر لە شێوازی بەکارھێنانی سەرچاوەکانی/ستافەکەی دەکاتەوە.",
+            onPressedBritish: () => speakdeploys3("en-GB"),
+            onPressedAmerican: () => speakdeploys3("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "My job doesn't really allow me fully to deploy my skills/talents."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "کارەکەم لەڕاستیدا ڕێگام نادا بە تەواوی شارەزایی/بەھرەکانم بەکاربھێنم."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdeploys4("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdeploys4("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "My job doesn't really allow me fully to deploy my skills/talents.",
+            kurdishText:
+                "کارەکەم لەڕاستیدا ڕێگام نادا بە تەواوی شارەزایی/بەھرەکانم بەکاربھێنم.",
+            onPressedBritish: () => speakdeploys4("en-GB"),
+            onPressedAmerican: () => speakdeploys4("en-US"),
           ),
           // deploys500"),
           // speakdeploys5

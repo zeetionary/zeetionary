@@ -372,62 +372,23 @@ class KurdishMeaning extends StatelessWidget {
 """),
           const DefinitionKurdish(
               text: """١. (ناو) ھەستی دڵخۆشی و بەجۆشی زۆر"""),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            """She felt a great sense of elation as she started on the journey."""),
-                    ExampleSentenceKurdish(
-                        text:
-                            """ھەستی بە شادییەکی زۆر کرد کە گەشتەکەی دەست پێکرد."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "elation", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakelations1("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakelations1("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                """She felt a great sense of elation as she started on the journey.""",
+            kurdishText:
+                """ھەستی بە شادییەکی زۆر کرد کە گەشتەکەی دەست پێکرد.""", // elation
+            onPressedBritish: () => speakelations1("en-GB"),
+            onPressedAmerican: () => speakelations1("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            """She showed her elation at having finally achieved her ambition."""),
-                    ExampleSentenceKurdish(
-                        text:
-                            """دڵخۆشیی پیشاندا بە لەکۆتاییدا گەشتن بە خۆزگەکەی."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakelations2("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakelations2("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                """She showed her elation at having finally achieved her ambition.""",
+            kurdishText: """دڵخۆشیی پیشاندا بە لەکۆتاییدا گەشتن بە خۆزگەکەی.""",
+            onPressedBritish: () => speakelations2("en-GB"),
+            onPressedAmerican: () => speakelations2("en-US"),
           ),
           // elations300elations3
           // speakelations3

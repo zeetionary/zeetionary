@@ -250,62 +250,23 @@ class KurdishMeaning extends StatelessWidget {
 // کوردی: لە ورە خستن، لاواز کردنی ورە
 // """),
           const DefinitionKurdish(text: "١. (کردار) دابەزاندنی ورەی کەسێک"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "Constant criticism is enough to demoralize anybody."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "لۆمەی بەردەوام بەسە بۆ دابەزاندنی ورەی ھەر کەسێک."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "demoralize", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdemoralizes1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdemoralizes1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "Constant criticism is enough to demoralize anybody.",
+            kurdishText:
+                "لۆمەی بەردەوام بەسە بۆ دابەزاندنی ورەی ھەر کەسێک.", // demoralize
+            onPressedBritish: () => speakdemoralizes1("en-GB"),
+            onPressedAmerican: () => speakdemoralizes1("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "Many members were demoralized by the leadership’s failure to implement reforms."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "زۆر ئەندام بێ‌ورەبوون بە شکستی سەرکردایەتی بۆ ئەنجامدانی چاکسازی."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdemoralizes2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdemoralizes2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "Many members were demoralized by the leadership’s failure to implement reforms.",
+            kurdishText:
+                "زۆر ئەندام بێ‌ورەبوون بە شکستی سەرکردایەتی بۆ ئەنجامدانی چاکسازی.",
+            onPressedBritish: () => speakdemoralizes2("en-GB"),
+            onPressedAmerican: () => speakdemoralizes2("en-US"),
           ),
           // demoralizes300"),
           // speakdemoralizes3

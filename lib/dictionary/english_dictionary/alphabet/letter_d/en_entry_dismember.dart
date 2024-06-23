@@ -241,62 +241,23 @@ class KurdishMeaning extends StatelessWidget {
 """),
           const DefinitionKurdish(
               text: "١. (کردار) پارچەپارچەکردنی لاشەی کەسێک یان ئاژەڵێک"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "Police say the body had been dismembered."),
-                    ExampleSentenceKurdish(
-                        text: "پۆلیس دەڵێن لاشەکە پارچەپارچە کرابوو."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "dismember", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdismembers1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdismembers1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "Police say the body had been dismembered.",
+            kurdishText: "پۆلیس دەڵێن لاشەکە پارچەپارچە کرابوو.", // dismember
+            onPressedBritish: () => speakdismembers1("en-GB"),
+            onPressedAmerican: () => speakdismembers1("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
                   "٢. (کردار) دابەشکردنی وڵاتێک یان دامەزراوەیەک بۆ بەشی بچووک بچووک"),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The British railway network has gradually been dismembered."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "تۆڕی شەمەندەفەری بەریتانیا کەم کەم پارچەپارچە کراوە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdismembers2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdismembers2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "The British railway network has gradually been dismembered.",
+            kurdishText: "تۆڕی شەمەندەفەری بەریتانیا کەم کەم پارچەپارچە کراوە.",
+            onPressedBritish: () => speakdismembers2("en-GB"),
+            onPressedAmerican: () => speakdismembers2("en-US"),
           ),
           // dismembers300"),
           // speakdismembers3

@@ -372,61 +372,23 @@ class KurdishMeaning extends StatelessWidget {
 """),
           const DefinitionKurdish(
               text: """١. (ناو) داری سەختی ڕەشی ژمارەیەک درەختی خولگەیی"""),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            """The handles of medical instruments used to be made of ebony."""),
-                    ExampleSentenceKurdish(
-                        text:
-                            """دەسکی ئامرازە پزیشکییەکانی پزیشکی جاران لە ڕەشەدار درووست دەکران."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "ebony", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakebonys1("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakebonys1("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                """The handles of medical instruments used to be made of ebony.""",
+            kurdishText:
+                """دەسکی ئامرازە پزیشکییەکانی پزیشکی جاران لە ڕەشەدار درووست دەکران.""", // ebony
+            onPressedBritish: () => speakebonys1("en-GB"),
+            onPressedAmerican: () => speakebonys1("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: """٢. (ھاوەڵناو) ھەبوونی ڕەنگی ڕەش"""),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            """Their eyes were painted ebony and their mouths red."""),
-                    ExampleSentenceKurdish(
-                        text: """چاویان بە ڕەش بۆیەکرا و دەمیان بە سوور."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakebonys2("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakebonys2("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                """Their eyes were painted ebony and their mouths red.""",
+            kurdishText: """چاویان بە ڕەش بۆیەکرا و دەمیان بە سوور.""",
+            onPressedBritish: () => speakebonys2("en-GB"),
+            onPressedAmerican: () => speakebonys2("en-US"),
           ),
           // ebonys300ebonys3
           // speakebonys3

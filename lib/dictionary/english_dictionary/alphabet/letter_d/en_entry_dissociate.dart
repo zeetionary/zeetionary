@@ -382,91 +382,33 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "١. (کردار) خۆجیاکردنەوە لە کەسێک/شتێک یان شتێک بکەیت بۆ پیشاندانی ئەوەی پشتگیری کەسێک/شتێک ناکەیت"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "He tried to dissociate himself from the party's more extreme views."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "ھەوڵیدا خۆی لە دیدە توندەکانی پارتەکە دووربخاتەوە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "dissociate", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdissociates1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdissociates1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "He tried to dissociate himself from the party's more extreme views.",
+            kurdishText:
+                "ھەوڵیدا خۆی لە دیدە توندەکانی پارتەکە دووربخاتەوە.", // dissociate
+            onPressedBritish: () => speakdissociates1("en-GB"),
+            onPressedAmerican: () => speakdissociates1("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "They were determined to dissociate the UN from any agreement to impose sanctions."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "سووربوون لەسەر ئەوەی کە نەتەوە یەکگرتووەکان بەدووربگرن لە ھەر ڕێکەوتنێک بۆ سەپاندنی گەمارۆ."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdissociates2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdissociates2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "They were determined to dissociate the UN from any agreement to impose sanctions.",
+            kurdishText:
+                "سووربوون لەسەر ئەوەی کە نەتەوە یەکگرتووەکان بەدووربگرن لە ھەر ڕێکەوتنێک بۆ سەپاندنی گەمارۆ.",
+            onPressedBritish: () => speakdissociates2("en-GB"),
+            onPressedAmerican: () => speakdissociates2("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
                   "٢. (کردار) بیرکردنەوە لە دوو کەس/شت بەوەی کە جیاواز بن نەک ھەمان شت"),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "She tried to dissociate the two events in her mind."),
-                    ExampleSentenceKurdish(
-                        text: "ھەوڵیدا دوو بۆنەکە لە ھزریدا جیابکاتەوە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdissociates3("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdissociates3("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "She tried to dissociate the two events in her mind.",
+            kurdishText: "ھەوڵیدا دوو بۆنەکە لە ھزریدا جیابکاتەوە.",
+            onPressedBritish: () => speakdissociates3("en-GB"),
+            onPressedAmerican: () => speakdissociates3("en-US"),
           ),
           // dissociates400"),
           // speakdissociates4

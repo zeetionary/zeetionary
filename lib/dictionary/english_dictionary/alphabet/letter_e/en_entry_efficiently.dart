@@ -373,62 +373,24 @@ class KurdishMeaning extends StatelessWidget {
 """),
           const DefinitionKurdish(
               text: """١. (ھاوەڵکار) بە باشی و وریایی، بەبێ بەفیڕۆدان"""),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            """Resources must be used efficiently to avoid waste."""),
-                    ExampleSentenceKurdish(
-                        text:
-                            """سەرچاوەان دەبێت بە لێوەشاوەیی بەکاربێن بۆ دووربوون کە بەفیڕۆدان."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "efficiently", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakefficientlys1("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakefficientlys1("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                """Resources must be used efficiently to avoid waste.""",
+            kurdishText:
+                """سەرچاوەان دەبێت بە لێوەشاوەیی بەکاربێن بۆ دووربوون کە بەفیڕۆدان.""", // efficiently
+            onPressedBritish: () => speakefficientlys1("en-GB"),
+            onPressedAmerican: () => speakefficientlys1("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            """If markets fail or do not work efficiently, government has a role to play."""),
-                    ExampleSentenceKurdish(
-                        text:
-                            """ئەگەر بازاڕەکان شکست بھێنن یان کاریگەرانە کار نەکەن، حکومەت ئەرکیەتی ڕۆڵ ببینێت."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakefficientlys2("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakefficientlys2("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                """If markets fail or do not work efficiently, government has a role to play.""",
+            kurdishText:
+                """ئەگەر بازاڕەکان شکست بھێنن یان کاریگەرانە کار نەکەن، حکومەت ئەرکیەتی ڕۆڵ ببینێت.""",
+            onPressedBritish: () => speakefficientlys2("en-GB"),
+            onPressedAmerican: () => speakefficientlys2("en-US"),
           ),
           // efficientlys300efficientlys3
           // speakefficientlys3

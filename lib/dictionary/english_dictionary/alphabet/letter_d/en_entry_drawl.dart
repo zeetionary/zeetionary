@@ -371,60 +371,22 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "١. (ناو) شێوازێکی قسەکردن کە تێیدا دەنگە نەبزوێنەکان درێژ دەکرێنەوە و وشەکان بە ڕوونی جیاناکرێنەوە"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "She spoke in a slow southern drawl."),
-                    ExampleSentenceKurdish(
-                        text: "بە گۆکردنێکی ھێواشی باشوورییەوە قسەی دەکرد."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "drawl", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdrawls1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdrawls1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "She spoke in a slow southern drawl.",
+            kurdishText: "بە گۆکردنێکی ھێواشی باشوورییەوە قسەی دەکرد.", // drawl
+            onPressedBritish: () => speakdrawls1("en-GB"),
+            onPressedAmerican: () => speakdrawls1("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
                   "٢. (کردار) قسەکردن بە ناڕوونی و درێژکردنەوەی دەنگە بزوێنەکان"),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "He had a smooth drawling voice."),
-                    ExampleSentenceKurdish(
-                        text: "دەنگێکی نەرمی درێژکراوی ھەبوو."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdrawls2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdrawls2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "He had a smooth drawling voice.",
+            kurdishText: "دەنگێکی نەرمی درێژکراوی ھەبوو.",
+            onPressedBritish: () => speakdrawls2("en-GB"),
+            onPressedAmerican: () => speakdrawls2("en-US"),
           ),
           // drawls300"),
           // speakdrawls3

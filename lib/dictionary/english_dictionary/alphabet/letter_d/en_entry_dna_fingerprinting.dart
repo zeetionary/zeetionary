@@ -366,32 +366,13 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "١. (ناو) شێوازی دۆزینەوەی شێوەی جینەکانی کەسێک، بەتایبەتی بۆ دۆزینەوە کەسێک یان زانینی ئەوەی کەسێک تاوانێکی ئەنجامداوە"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "Scientists use DNA fingerprinting in wildlife studies to track animal populations."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "زاناکان پەنجەمۆرھەڵگرتنی دی‌ئێن‌ئەی بەکاردێنن بۆ ئاگابوون لە دانیشتوانی ئاژەڵان."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "DNA fingerprinting", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakDNAfingerprintings1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakDNAfingerprintings1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "Scientists use DNA fingerprinting in wildlife studies to track animal populations.",
+            kurdishText:
+                "زاناکان پەنجەمۆرھەڵگرتنی دی‌ئێن‌ئەی بەکاردێنن بۆ ئاگابوون لە دانیشتوانی ئاژەڵان.", // DNA fingerprinting
+            onPressedBritish: () => speakDNAfingerprintings1("en-GB"),
+            onPressedAmerican: () => speakDNAfingerprintings1("en-US"),
           ),
           // DNAfingerprintings200"),
           // speakDNAfingerprintings2

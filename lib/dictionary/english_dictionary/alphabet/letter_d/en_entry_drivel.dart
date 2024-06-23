@@ -379,88 +379,32 @@ class KurdishMeaning extends StatelessWidget {
 """),
           const DefinitionKurdish(
               text: "١. (ناو) بیرۆکە و قسە کە پێتوایە ڕاستی نین و بێ‌بەھان"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "How can you watch that drivel on TV?"),
-                    ExampleSentenceKurdish(
-                        text:
-                            "چۆن دەتوانیت سەیری ئەو فڵتەفڵتە لەسەر تەلەفیزیۆن بکەیت؟"),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "drivel", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdrivels1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdrivels1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "How can you watch that drivel on TV?",
+            kurdishText:
+                "چۆن دەتوانیت سەیری ئەو فڵتەفڵتە لەسەر تەلەفیزیۆن بکەیت؟", // drivel
+            onPressedBritish: () => speakdrivels1("en-GB"),
+            onPressedAmerican: () => speakdrivels1("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(text: "Don’t talk such drivel."),
-                    ExampleSentenceKurdish(text: "ھێندە ھەڵیت‌وپەڵیت مەڵێ."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdrivels2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdrivels2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "Don’t talk such drivel.",
+            kurdishText: "ھێندە ھەڵیت‌وپەڵیت مەڵێ.",
+            onPressedBritish: () => speakdrivels2("en-GB"),
+            onPressedAmerican: () => speakdrivels2("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٢. (کردار) قسەکردن لەسەر ئەو شتانەی کە ھیچن"),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "I've just been listening to Aunt Elsie drivelling on."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "تەنھا گوێم لە پوورە ئێلزی دەگرت ھەڵیت‌وپەڵیتی دەگوت."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdrivels3("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdrivels3("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "I've just been listening to Aunt Elsie drivelling on.",
+            kurdishText: "تەنھا گوێم لە پوورە ئێلزی دەگرت ھەڵیت‌وپەڵیتی دەگوت.",
+            onPressedBritish: () => speakdrivels3("en-GB"),
+            onPressedAmerican: () => speakdrivels3("en-US"),
           ),
           // drivels400"),
           // speakdrivels4

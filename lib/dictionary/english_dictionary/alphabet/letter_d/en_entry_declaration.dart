@@ -298,232 +298,79 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "١. (ناو) بەیاننامەیەکی فەرمی، بەتایبەتی سەبارەت بە کاری حلومەت یان دامەزراوەیەک"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The declaration asked governments to consider introducing new environmental taxes."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "بەیاننامەکە داوای لە حکومەتەکان کرد کە باجی ژینگەیی تازە لەبەرچاو بگرن."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "declaration", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdeclarations1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdeclarations1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "The declaration asked governments to consider introducing new environmental taxes.",
+            kurdishText:
+                "بەیاننامەکە داوای لە حکومەتەکان کرد کە باجی ژینگەیی تازە لەبەرچاو بگرن.", // declaration
+            onPressedBritish: () => speakdeclarations1("en-GB"),
+            onPressedAmerican: () => speakdeclarations1("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The government will issue a formal declaration tomorrow."),
-                    ExampleSentenceKurdish(
-                        text: "حکومەت سبەی بەیانامەیەکی فەرمی ڕادەگەیەنێت."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdeclarations2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdeclarations2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "The government will issue a formal declaration tomorrow.",
+            kurdishText: "حکومەت سبەی بەیانامەیەکی فەرمی ڕادەگەیەنێت.",
+            onPressedBritish: () => speakdeclarations2("en-GB"),
+            onPressedAmerican: () => speakdeclarations2("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "All four countries have adopted the declaration against hunting these rare animals."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "ھەر چوار وڵاتەکە ڕازی بوونە بە بەیاننامەیەک دژ بە ڕاوکردنی ئەم ئاژەڵە دەگمەنانە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdeclarations3("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdeclarations3("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "All four countries have adopted the declaration against hunting these rare animals.",
+            kurdishText:
+                "ھەر چوار وڵاتەکە ڕازی بوونە بە بەیاننامەیەک دژ بە ڕاوکردنی ئەم ئاژەڵە دەگمەنانە.",
+            onPressedBritish: () => speakdeclarations3("en-GB"),
+            onPressedAmerican: () => speakdeclarations3("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
                   "٢. (ناو) لێدوانێکی نووسراو یان گوتراو، بەتایبەتی سەبارەت بەوەی کە خەڵکی ھەست یان باوەڕیان چۆنە"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "She had been waiting for him to make a declaration of love."),
-                    ExampleSentenceKurdish(
-                        text: "چاوەڕوانی بوو کە خۆشەویستیی بۆ بەیان بکات."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdeclarations4("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdeclarations4("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "She had been waiting for him to make a declaration of love.",
+            kurdishText: "چاوەڕوانی بوو کە خۆشەویستیی بۆ بەیان بکات.",
+            onPressedBritish: () => speakdeclarations4("en-GB"),
+            onPressedAmerican: () => speakdeclarations4("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The Russian leader received a ringing declaration of support yesterday."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "سەرۆکی ڕووسیا دوێنێ بەیانێکی بەھێزی پشتیوانی پێگەشت."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdeclarations5("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdeclarations5("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "The Russian leader received a ringing declaration of support yesterday.",
+            kurdishText: "سەرۆکی ڕووسیا دوێنێ بەیانێکی بەھێزی پشتیوانی پێگەشت.",
+            onPressedBritish: () => speakdeclarations5("en-GB"),
+            onPressedAmerican: () => speakdeclarations5("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٣. (ناو) لێدوانێکی فەرمی نووسراو کە زانیاری دەدات"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "We were asked to sign a declaration to the effect that we were UK citizens."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "داوامان لێکرا ڕاگەیاندنامەیەک واژۆ بکەین بەو واتایەی کە ھاوڵاتی بەریتانیاین."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdeclarations6("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdeclarations6("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "We were asked to sign a declaration to the effect that we were UK citizens.",
+            kurdishText:
+                "داوامان لێکرا ڕاگەیاندنامەیەک واژۆ بکەین بەو واتایەی کە ھاوڵاتی بەریتانیاین.",
+            onPressedBritish: () => speakdeclarations6("en-GB"),
+            onPressedAmerican: () => speakdeclarations6("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "False declaration of hours worked may lead to dismissal."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "بە ھەڵە ڕاگەیاندنی کاتژمێرەکانی کارکردن ڕەنگە ببێتە ھۆکاری دەرکردن."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdeclarations7("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdeclarations7("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "False declaration of hours worked may lead to dismissal.",
+            kurdishText:
+                "بە ھەڵە ڕاگەیاندنی کاتژمێرەکانی کارکردن ڕەنگە ببێتە ھۆکاری دەرکردن.",
+            onPressedBritish: () => speakdeclarations7("en-GB"),
+            onPressedAmerican: () => speakdeclarations7("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٤. (ناو) ڕاگەیاندنی ئەنجامی ھەڵبژاردن"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The declaration of the poll will take place tomorrow morning."),
-                    ExampleSentenceKurdish(
-                        text: "ڕاگەیاندنی سەرژمێرییەکە بەیانی سبەی دەبێت."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdeclarations8("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdeclarations8("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "The declaration of the poll will take place tomorrow morning.",
+            kurdishText: "ڕاگەیاندنی سەرژمێرییەکە بەیانی سبەی دەبێت.",
+            onPressedBritish: () => speakdeclarations8("en-GB"),
+            onPressedAmerican: () => speakdeclarations8("en-US"),
           ),
         ],
       ),

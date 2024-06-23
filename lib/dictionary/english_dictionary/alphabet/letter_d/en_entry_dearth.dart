@@ -232,32 +232,13 @@ class KurdishMeaning extends StatelessWidget {
 کوردی: گرانی، کەمی، نەبوونی، قاتی، قاتی‌وقڕی
 """),
           const DefinitionKurdish(text: "١. (ناو) کەمی شتێک"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "There was a dearth of reliable information on the subject."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "کەماسی زانیاری باوەڕپێکراو ھەبوو لەسەر بابەتەکە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "dearth", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdearths1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdearths1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "There was a dearth of reliable information on the subject.",
+            kurdishText:
+                "کەماسی زانیاری باوەڕپێکراو ھەبوو لەسەر بابەتەکە.", // dearth
+            onPressedBritish: () => speakdearths1("en-GB"),
+            onPressedAmerican: () => speakdearths1("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "٢. (ھاوەڵناو) پێنناسە"),

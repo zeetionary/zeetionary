@@ -370,60 +370,22 @@ class KurdishMeaning extends StatelessWidget {
 // کوردی:
 // """),
           const DefinitionKurdish(text: "١. (ناو) پلیکانەی پێش دەرگا"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The police turned up on their doorstep at 3 o'clock this morning."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "کاتژمێر ٣ ــی ئەم بەیانییە پۆلیس ھاتنە پێش دەرگایان."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "doorstep", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdoorsteps1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdoorsteps1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "The police turned up on their doorstep at 3 o'clock this morning.",
+            kurdishText:
+                "کاتژمێر ٣ ــی ئەم بەیانییە پۆلیس ھاتنە پێش دەرگایان.", // doorstep
+            onPressedBritish: () => speakdoorsteps1("en-GB"),
+            onPressedAmerican: () => speakdoorsteps1("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "He left the package on the doorstep."),
-                    ExampleSentenceKurdish(
-                        text: "پاکێجەکەی لە پێش دەرگایان جێھێشت."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdoorsteps2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdoorsteps2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "He left the package on the doorstep.",
+            kurdishText: "پاکێجەکەی لە پێش دەرگایان جێھێشت.",
+            onPressedBritish: () => speakdoorsteps2("en-GB"),
+            onPressedAmerican: () => speakdoorsteps2("en-US"),
           ),
           // doorsteps300"),
           // speakdoorsteps3

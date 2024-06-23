@@ -369,58 +369,22 @@ class KurdishMeaning extends StatelessWidget {
 کوردی: گەورەترین، بەساڵاچووترین، پیرترین، بەتەمەن‌ترین، گەورە، نۆبەرە، نخری
 """),
           const DefinitionKurdish(text: """١. (ھاوەڵناو) بەتەمەنترین"""),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(text: """Tom is my eldest son."""),
-                    ExampleSentenceKurdish(text: """تۆم بەتەمەنترین کوڕمە."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "eldest", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakeldests1("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakeldests1("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: """Tom is my eldest son.""",
+            kurdishText: """تۆم بەتەمەنترین کوڕمە.""", // eldest
+            onPressedBritish: () => speakeldests1("en-GB"),
+            onPressedAmerican: () => speakeldests1("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
                   """٢. (ھاوەڵناو) بۆ پیشاندانی بەتەمەنترینی سێ کەس یان زیاتر"""),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: """He was the eldest of four kids."""),
-                    ExampleSentenceKurdish(
-                        text: """بەتەمەنترینی چوار منداڵ بوو."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakeldests2("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakeldests2("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: """He was the eldest of four kids.""",
+            kurdishText: """بەتەمەنترینی چوار منداڵ بوو.""",
+            onPressedBritish: () => speakeldests2("en-GB"),
+            onPressedAmerican: () => speakeldests2("en-US"),
           ),
           // eldests300eldests3
           // speakeldests3

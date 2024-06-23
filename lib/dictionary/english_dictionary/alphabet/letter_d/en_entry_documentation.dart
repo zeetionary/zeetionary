@@ -383,91 +383,33 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "١. (ناو) ئەو بەڵگەنامانەی کە بۆ شتێک پێویستن یان دەبن بە بەڵگەی شتێک"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "I couldn't enter the country because I didn't have all the necessary documentation."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "نەمتوانی بچمە وڵاتەکەوە چونکە ھەموو بەڵگەنامە پێویستەکانم نەبوو."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "documentation", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdocumentations1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdocumentations1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "I couldn't enter the country because I didn't have all the necessary documentation.",
+            kurdishText:
+                "نەمتوانی بچمە وڵاتەکەوە چونکە ھەموو بەڵگەنامە پێویستەکانم نەبوو.", // documentation
+            onPressedBritish: () => speakdocumentations1("en-GB"),
+            onPressedAmerican: () => speakdocumentations1("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "Passengers without the correct documentation (= official papers saying who they are) will not be allowed to travel."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "ئەو گەشتیارانەی کە بەڵگەنامەی درووستیان نییە ڕێگایان پێ نادرێت گەشت بکەن."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdocumentations2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdocumentations2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "Passengers without the correct documentation (= official papers saying who they are) will not be allowed to travel.",
+            kurdishText:
+                "ئەو گەشتیارانەی کە بەڵگەنامەی درووستیان نییە ڕێگایان پێ نادرێت گەشت بکەن.",
+            onPressedBritish: () => speakdocumentations2("en-GB"),
+            onPressedAmerican: () => speakdocumentations2("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٢. (ناو) ڕێنمایی نووسراو بۆ کردنی شتێک"),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "Each product is fully supported with user documentation."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "ھەموو بەرھەمێک ڕێنمایی تەواوی بەکارھێنەری لەگەڵە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdocumentations3("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdocumentations3("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "Each product is fully supported with user documentation.",
+            kurdishText: "ھەموو بەرھەمێک ڕێنمایی تەواوی بەکارھێنەری لەگەڵە.",
+            onPressedBritish: () => speakdocumentations3("en-GB"),
+            onPressedAmerican: () => speakdocumentations3("en-US"),
           ),
           // documentations400"),
           // speakdocumentations4

@@ -366,31 +366,12 @@ class KurdishMeaning extends StatelessWidget {
           const AlsoEnglishckb(
               word:
                   "ھەروەھا: ئەمریکی: dorm, residence hall ـ بەریتانی: hall of residence, hall"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "She shared a dormitory with three other students."),
-                    ExampleSentenceKurdish(
-                        text: "ژوورێکی داخلی ھەبوو لەگەڵ سێ خوێندکاری دیکە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "dormitory", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdormitorys1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdormitorys1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "She shared a dormitory with three other students.",
+            kurdishText:
+                "ژوورێکی داخلی ھەبوو لەگەڵ سێ خوێندکاری دیکە.", // dormitory
+            onPressedBritish: () => speakdormitorys1("en-GB"),
+            onPressedAmerican: () => speakdormitorys1("en-US"),
           ),
           // dormitorys200"),
           // speakdormitorys2

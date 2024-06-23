@@ -233,32 +233,13 @@ class KurdishMeaning extends StatelessWidget {
 """),
           const DefinitionKurdish(
               text: "١. (کردار) بردنی زەوی، خانوو، یان سامانی کەسێک"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "A lot of people were dispossessed of their homes during the civil war."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "زۆر کەس بێخاوەن کران لە ماڵەکانیان لە کاتی شەڕە ناوخۆییەکە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "dispossess", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdispossesss1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdispossesss1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "A lot of people were dispossessed of their homes during the civil war.",
+            kurdishText:
+                "زۆر کەس بێخاوەن کران لە ماڵەکانیان لە کاتی شەڕە ناوخۆییەکە.", // dispossess
+            onPressedBritish: () => speakdispossesss1("en-GB"),
+            onPressedAmerican: () => speakdispossesss1("en-US"),
           ),
           // dispossesss200"),
           // speakdispossesss2

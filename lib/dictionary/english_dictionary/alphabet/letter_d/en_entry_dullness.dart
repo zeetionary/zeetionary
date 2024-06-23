@@ -381,93 +381,36 @@ class KurdishMeaning extends StatelessWidget {
 """),
           const DefinitionKurdish(
               text: """١. (ناو) ئەوەی کە شتێک سەرنجڕاکێش یان چێژبەخش نەبێت"""),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            """She managed to get exquisite material out of the dullness of her home town."""),
-                    ExampleSentenceKurdish(
-                        text:
-                            """توانی شتی جوان لە ناخۆشی شارەکەیدا بدۆزێتەوە."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "dullness", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdullnesss1("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdullnesss1("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                """She managed to get exquisite material out of the dullness of her home town.""",
+            kurdishText:
+                """توانی شتی جوان لە ناخۆشی شارەکەیدا بدۆزێتەوە.""", // dullness
+            onPressedBritish: () => speakdullnesss1("en-GB"),
+            onPressedAmerican: () => speakdullnesss1("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text: """٢. (ناو) ئەوەی کە ڕۆشن یان درەوشاوە نەبێت"""),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            """The sky was bright, contrasting with the dullness of the bare tree branches reaching upwards."""),
-                    ExampleSentenceKurdish(
-                        text:
-                            """ئاسمان ڕۆشن بوو، کە ڕوون دیاربوو کەگەڵ بێ‌ڕەنگی لقە ڕووتەکانی دارەکە کە بەرز دەبوونەوە."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdullnesss2("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdullnesss2("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                """The sky was bright, contrasting with the dullness of the bare tree branches reaching upwards.""",
+            kurdishText:
+                """ئاسمان ڕۆشن بوو، کە ڕوون دیاربوو کەگەڵ بێ‌ڕەنگی لقە ڕووتەکانی دارەکە کە بەرز دەبوونەوە.""",
+            onPressedBritish: () => speakdullnesss2("en-GB"),
+            onPressedAmerican: () => speakdullnesss2("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: """٣. (ناو) ھەوراوی و کەمێک تاریک"""),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            """The dullness of the cloudy sky and the increasing wind made us decide to turn back."""),
-                    ExampleSentenceKurdish(
-                        text:
-                            """تاریکی ئاسمانە ھەوراوییەکە و بایە زئادبووەکە وای لێ کردین بڕیار بدەین بگەڕێینەوە."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdullnesss3("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdullnesss3("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                """The dullness of the cloudy sky and the increasing wind made us decide to turn back.""",
+            kurdishText:
+                """تاریکی ئاسمانە ھەوراوییەکە و بایە زئادبووەکە وای لێ کردین بڕیار بدەین بگەڕێینەوە.""",
+            onPressedBritish: () => speakdullnesss3("en-GB"),
+            onPressedAmerican: () => speakdullnesss3("en-US"),
           ),
           // dullnesss400
           // speakdullnesss4

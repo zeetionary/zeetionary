@@ -236,31 +236,12 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "١. (ناو) داوایەک لە بانکەکەت کە ڕێگا بدات بە کەسێک یان دامەزراوەیەک کە پارە لە ھەژمارەکەت دەربکات لە کاتێکی دیاریکراودا، بۆ نموونە بۆ کڕینی خزمەتگوزارییەک بە مانگانە"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "We pay all our bills by direct debit."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "پارەی تەواوی پسووڵەکانمان دەدەین بە پێدانی ڕاستەوخۆ."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "direct debit", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdirectdebits1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdirectdebits1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "We pay all our bills by direct debit.",
+            kurdishText:
+                "پارەی تەواوی پسووڵەکانمان دەدەین بە پێدانی ڕاستەوخۆ.", // direct debit
+            onPressedBritish: () => speakdirectdebits1("en-GB"),
+            onPressedAmerican: () => speakdirectdebits1("en-US"),
           ),
           // directdebits200"),
           // speakdirectdebits2

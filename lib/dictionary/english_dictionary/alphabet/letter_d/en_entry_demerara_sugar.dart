@@ -232,30 +232,12 @@ class KurdishMeaning extends StatelessWidget {
 // کوردی:
 // """),
           const DefinitionKurdish(text: "١. (ناو) جۆرە شەکرێکی زبری قاوەیی"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "I sprinkled Demerara sugar on my yogurt."),
-                    ExampleSentenceKurdish(
-                        text: "شەکری قاوەییم پرژاند بەسەر ماستەکەمدا."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "demerara sugar", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdemerarasugars1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdemerarasugars1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "I sprinkled Demerara sugar on my yogurt.",
+            kurdishText:
+                "شەکری قاوەییم پرژاند بەسەر ماستەکەمدا.", // demerara sugar
+            onPressedBritish: () => speakdemerarasugars1("en-GB"),
+            onPressedAmerican: () => speakdemerarasugars1("en-US"),
           ),
           // demerarasugars200"),
           // speakdemerarasugars2

@@ -362,30 +362,11 @@ class KurdishMeaning extends StatelessWidget {
 // """),
           const DefinitionKurdish(
               text: """١. (ناو) دارێکی بەرز کە گەڵای فراوانی ھەیە"""),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: """The avenue was planted with elm."""),
-                    ExampleSentenceKurdish(
-                        text: """شەقامەکە داری ئێلمی لێ چێندرابوو."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "elm", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakelms1("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakelms1("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: """The avenue was planted with elm.""",
+            kurdishText: """شەقامەکە داری ئێلمی لێ چێندرابوو.""", // elm
+            onPressedBritish: () => speakelms1("en-GB"),
+            onPressedAmerican: () => speakelms1("en-US"),
           ),
           // elms200elms2
           // speakelms2

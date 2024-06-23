@@ -258,89 +258,30 @@ class KurdishMeaning extends StatelessWidget {
 کوردی: خۆش، بەتام، بەلەزەت,	(خوازە) جوان، ژیکەڵە، ڕند، لەدڵ‌چەقیو
 """),
           const DefinitionKurdish(text: "١. (ھاوەڵناو) تەواو خۆش و بەلەزەت"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The delectable smell of fresh bread filled the room."),
-                    ExampleSentenceKurdish(
-                        text: "بۆنی خۆشی نانی تازە ژوورەکەی پڕکرد."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "delectable", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdelectables1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdelectables1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "The delectable smell of fresh bread filled the room.",
+            kurdishText: "بۆنی خۆشی نانی تازە ژوورەکەی پڕکرد.", // delectable
+            onPressedBritish: () => speakdelectables1("en-GB"),
+            onPressedAmerican: () => speakdelectables1("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The kitchen was full of delectable smells during dinner."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "چێشتخانەکە پڕ لە بۆنی خۆش بوو لەکاتی نانی نیوەڕۆ."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdelectables2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdelectables2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "The kitchen was full of delectable smells during dinner.",
+            kurdishText: "چێشتخانەکە پڕ لە بۆنی خۆش بوو لەکاتی نانی نیوەڕۆ.",
+            onPressedBritish: () => speakdelectables2("en-GB"),
+            onPressedAmerican: () => speakdelectables2("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: "٢. (ھاوەڵناو) کەسێکی جوان"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "She is Tara، Steve’s delectable girlfriend."),
-                    ExampleSentenceKurdish(
-                        text: "ئەو تارایە، دۆستە کچە سەرنجڕاکێشەکەی ستیڤ."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdelectables3("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdelectables3("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "She is Tara، Steve’s delectable girlfriend.",
+            kurdishText: "ئەو تارایە، دۆستە کچە سەرنجڕاکێشەکەی ستیڤ.",
+            onPressedBritish: () => speakdelectables3("en-GB"),
+            onPressedAmerican: () => speakdelectables3("en-US"),
           ),
           // delectables400"),
           // speakdelectables4

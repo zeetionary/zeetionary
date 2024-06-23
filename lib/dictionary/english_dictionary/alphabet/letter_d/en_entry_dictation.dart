@@ -257,113 +257,36 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "١. (ناو) قسەکردن یان خوێندنەوە بۆ ئەوەی کەسێک قسەکانت بنووسێتەوە یان تۆمار بکرێت"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "Her secretary is very good at taking dictation."),
-                    ExampleSentenceKurdish(
-                        text: "سکرتێرەکەی زۆرباشە لە نووسینەوە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "dictation", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdictations1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdictations1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "Her secretary is very good at taking dictation.",
+            kurdishText: "سکرتێرەکەی زۆرباشە لە نووسینەوە.", // dictation
+            onPressedBritish: () => speakdictations1("en-GB"),
+            onPressedAmerican: () => speakdictations1("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "I wrote some letters at his dictation."),
-                    ExampleSentenceKurdish(
-                        text: "ھەندێک نامەم لەگەڵ قسەکردنی ئەو نووسی."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdictations2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdictations2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "I wrote some letters at his dictation.",
+            kurdishText: "ھەندێک نامەم لەگەڵ قسەکردنی ئەو نووسی.",
+            onPressedBritish: () => speakdictations2("en-GB"),
+            onPressedAmerican: () => speakdictations2("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
                   "٢. (ناو) تاقیکردنەوەیەک کە تێیدا خوێندکاران ئەوە دەنووسنەوە کە بۆیان دەخوێندرێتەوە"),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "The teacher gave them a dictation."),
-                    ExampleSentenceKurdish(
-                        text: "مامۆستاکە تاقیکردنەوەی دیکتەیشنی پێیان کرد."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdictations3("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdictations3("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "The teacher gave them a dictation.",
+            kurdishText: "مامۆستاکە تاقیکردنەوەی دیکتەیشنی پێیان کرد.",
+            onPressedBritish: () => speakdictations3("en-GB"),
+            onPressedAmerican: () => speakdictations3("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "We did a French dictation in class."),
-                    ExampleSentenceKurdish(
-                        text: "دیکتەیشنی زمانی فەرەنسیمان لە پۆلدا کرد."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdictations4("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdictations4("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "We did a French dictation in class.",
+            kurdishText: "دیکتەیشنی زمانی فەرەنسیمان لە پۆلدا کرد.",
+            onPressedBritish: () => speakdictations4("en-GB"),
+            onPressedAmerican: () => speakdictations4("en-US"),
           ),
           // dictations500"),
           // speakdictations5

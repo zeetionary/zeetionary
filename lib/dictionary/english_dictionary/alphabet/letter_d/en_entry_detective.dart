@@ -252,61 +252,23 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "١. (ناو) کەسێک کە کاری لێکۆڵینەوە لە تاوان و گرتنی تاوانبارانە؛ یان کەسێک بۆ ئەم کارانە بە کرێ گیردراوە"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "Several objects were taken away by detectives from the anti-terrorist squad."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "ژمارەیەک شت لە تیمی دژە تیرۆرەوە لەلایەن لێکۆڵەرەوانەوە بردران."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "detective", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdetectives1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdetectives1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "Several objects were taken away by detectives from the anti-terrorist squad.",
+            kurdishText:
+                "ژمارەیەک شت لە تیمی دژە تیرۆرەوە لەلایەن لێکۆڵەرەوانەوە بردران.", // detective
+            onPressedBritish: () => speakdetectives1("en-GB"),
+            onPressedAmerican: () => speakdetectives1("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "Sherlock Holmes was Conan Doyle's fictional detective."),
-                    ExampleSentenceKurdish(
-                        text: "شێرلۆک ھۆڵمز لێکۆڵەری خەیاڵی کۆنان دۆیڵ بوو."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdetectives2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdetectives2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "Sherlock Holmes was Conan Doyle's fictional detective.",
+            kurdishText: "شێرلۆک ھۆڵمز لێکۆڵەری خەیاڵی کۆنان دۆیڵ بوو.",
+            onPressedBritish: () => speakdetectives2("en-GB"),
+            onPressedAmerican: () => speakdetectives2("en-US"),
           ),
           // detectives300"),
           // speakdetectives3

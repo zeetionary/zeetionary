@@ -365,32 +365,13 @@ class KurdishMeaning extends StatelessWidget {
               text:
                   "١. (ناو) دەرزی وردی سەر گەورە کە بەکاردێت بۆ لکاندنی کاغەز بە دیوارێک"),
           const AlsoEnglishckb(word: "ھەروەھا: thumbtack, tack"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "She used a drawing pin to hang the poster on the wall."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "پۆنزی بەکارھێنا بۆ بەستنی پۆستەرەکە بە دیوارەکەوە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "drawing pin", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdrawingpins1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdrawingpins1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "She used a drawing pin to hang the poster on the wall.",
+            kurdishText:
+                "پۆنزی بەکارھێنا بۆ بەستنی پۆستەرەکە بە دیوارەکەوە.", // drawing pin
+            onPressedBritish: () => speakdrawingpins1("en-GB"),
+            onPressedAmerican: () => speakdrawingpins1("en-US"),
           ),
           // drawingpins200"),
           // speakdrawingpins2

@@ -396,143 +396,49 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   """١. (ناو) ھەستێکی بەھێزی وەک خۆشەویستی، ڕق، تووڕەیی، ھتد"""),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: """They expressed mixed emotions at the news."""),
-                    ExampleSentenceKurdish(
-                        text: """ھەستی تێکەڵاوی بۆ ھەواڵەکە دەربڕی."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "emotion", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakemotions1("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakemotions1("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: """They expressed mixed emotions at the news.""",
+            kurdishText: """ھەستی تێکەڵاوی بۆ ھەواڵەکە دەربڕی.""", // emotion
+            onPressedBritish: () => speakemotions1("en-GB"),
+            onPressedAmerican: () => speakemotions1("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: """Fear is a normal human emotion."""),
-                    ExampleSentenceKurdish(text: """ترس ھەستی ئاسایی مرۆڤە."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakemotions2("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakemotions2("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: """Fear is a normal human emotion.""",
+            kurdishText: """ترس ھەستی ئاسایی مرۆڤە.""",
+            onPressedBritish: () => speakemotions2("en-GB"),
+            onPressedAmerican: () => speakemotions2("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            """The decision was based on emotion rather than rational thought."""),
-                    ExampleSentenceKurdish(
-                        text:
-                            """بڕیارەکە پشتی بە ھەست و سۆز بەست نەک بیرکردنەوەی ئاقڵانە."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakemotions3("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakemotions3("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                """The decision was based on emotion rather than rational thought.""",
+            kurdishText:
+                """بڕیارەکە پشتی بە ھەست و سۆز بەست نەک بیرکردنەوەی ئاقڵانە.""",
+            onPressedBritish: () => speakemotions3("en-GB"),
+            onPressedAmerican: () => speakemotions3("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: """Mary was overcome with emotion."""),
-                    ExampleSentenceKurdish(
-                        text: """ماری پڕ لە ھەست و سۆز بوو."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakemotions4("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakemotions4("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: """Mary was overcome with emotion.""",
+            kurdishText: """ماری پڕ لە ھەست و سۆز بوو.""",
+            onPressedBritish: () => speakemotions4("en-GB"),
+            onPressedAmerican: () => speakemotions4("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: """He lost control of his emotions."""),
-                    ExampleSentenceKurdish(
-                        text: """کۆنترۆڵی ھەستەکانی لەدەستدا."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakemotions5("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakemotions5("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: """He lost control of his emotions.""",
+            kurdishText: """کۆنترۆڵی ھەستەکانی لەدەستدا.""",
+            onPressedBritish: () => speakemotions5("en-GB"),
+            onPressedAmerican: () => speakemotions5("en-US"),
           ),
           // emotions600emotions6
           // speakemotions6

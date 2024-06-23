@@ -528,30 +528,12 @@ class KurdishMeaning extends StatelessWidget {
 کوردی: 
 """),
           const DefinitionKurdish(text: """١. (ھاوەڵناو) پێنناسە"""),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            """// speakdopsum1s100000000000000000000000000000000"""),
-                    ExampleSentenceKurdish(text: """رستە_رستە_رستە_رستە."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "dopsum1", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdopsum1s1("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdopsum1s1("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                """// speakdopsum1s100000000000000000000000000000000""",
+            kurdishText: """رستە_رستە_رستە_رستە.""", // dopsum1
+            onPressedBritish: () => speakdopsum1s1("en-GB"),
+            onPressedAmerican: () => speakdopsum1s1("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),

@@ -250,62 +250,24 @@ class KurdishMeaning extends StatelessWidget {
 // کوردی: ددانی، سەربە ددان یان ددانەکان
 // """),
           const DefinitionKurdish(text: "١. (ھاوەڵناو) پەیوەندیدار بە ددان"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "Pregnant women don't have to pay dental charges under the current health system."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "ژنانی دووگیان پێویست ناکات تێچووی ددان بدەن بەپێی ئەم سیستەمە تەندرووستیەی ئێستا."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "dental", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdentals1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdentals1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "Pregnant women don't have to pay dental charges under the current health system.",
+            kurdishText:
+                "ژنانی دووگیان پێویست ناکات تێچووی ددان بدەن بەپێی ئەم سیستەمە تەندرووستیەی ئێستا.", // dental
+            onPressedBritish: () => speakdentals1("en-GB"),
+            onPressedAmerican: () => speakdentals1("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "I had some very expensive dental treatment recently - but it'll save me problems in the future."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "تازەگی ھەندێک چارەسەری ددانی گرانبەھام ھەبوو، بەڵام لە داھاتوودا لە کێشە دوورم دەخاتەوە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdentals2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdentals2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "I had some very expensive dental treatment recently - but it'll save me problems in the future.",
+            kurdishText:
+                "تازەگی ھەندێک چارەسەری ددانی گرانبەھام ھەبوو، بەڵام لە داھاتوودا لە کێشە دوورم دەخاتەوە.",
+            onPressedBritish: () => speakdentals2("en-GB"),
+            onPressedAmerican: () => speakdentals2("en-US"),
           ),
           // dentals300"),
           // speakdentals3

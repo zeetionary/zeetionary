@@ -364,32 +364,13 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   """١. (کردار) دزینی پارەیەک کە بەرپرسی بۆی یان ھی خاوەن کارەکەت"""),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            """He was found guilty of embezzling £150 000 of public funds."""),
-                    ExampleSentenceKurdish(
-                        text:
-                            """بە تاوانباری دزینی ١٥٠٠٠٠ پاوەندی پارەی گشتی دانرا."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "embezzle", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakembezzles1("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakembezzles1("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                """He was found guilty of embezzling £150 000 of public funds.""",
+            kurdishText:
+                """بە تاوانباری دزینی ١٥٠٠٠٠ پاوەندی پارەی گشتی دانرا.""", // embezzle
+            onPressedBritish: () => speakembezzles1("en-GB"),
+            onPressedAmerican: () => speakembezzles1("en-US"),
           ),
           // embezzles200embezzles2
           // speakembezzles2

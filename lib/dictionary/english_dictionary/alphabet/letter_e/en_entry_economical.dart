@@ -397,150 +397,53 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   """١. (ھاوەڵناو) پێدانی بەھا یان خزمەتگوزاری باش بە لەبەربەرچاوگرتنی ئەو کات و پارەیەی تەرخانکراوە"""),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            """It would be more economical to buy the bigger size."""),
-                    ExampleSentenceKurdish(
-                        text: """باشتر دەبێت قەبارە گەورەکە بکڕین."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "economical", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakeconomicals1("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakeconomicals1("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                """It would be more economical to buy the bigger size.""",
+            kurdishText: """باشتر دەبێت قەبارە گەورەکە بکڕین.""", // economical
+            onPressedBritish: () => speakeconomicals1("en-GB"),
+            onPressedAmerican: () => speakeconomicals1("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: """This new oven is highly economical."""),
-                    ExampleSentenceKurdish(
-                        text:
-                            """ئەم فڕنە تازەیە زۆر گونجاوە (بە بەراورد بە نرخەکەی)."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakeconomicals2("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakeconomicals2("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: """This new oven is highly economical.""",
+            kurdishText:
+                """ئەم فڕنە تازەیە زۆر گونجاوە (بە بەراورد بە نرخەکەی).""",
+            onPressedBritish: () => speakeconomicals2("en-GB"),
+            onPressedAmerican: () => speakeconomicals2("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text: """٢. (ھاوەڵناو) کە زیاتر لە پێویست خەرج ناکات"""),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            """This arrangement is more economical with space."""),
-                    ExampleSentenceKurdish(
-                        text: """ئەم ڕێکخستنە شوێنی کەمتری پێویستە."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakeconomicals3("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakeconomicals3("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: """This arrangement is more economical with space.""",
+            kurdishText: """ئەم ڕێکخستنە شوێنی کەمتری پێویستە.""",
+            onPressedBritish: () => speakeconomicals3("en-GB"),
+            onPressedAmerican: () => speakeconomicals3("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            """People were urged to be economical with water as a drought was declared."""),
-                    ExampleSentenceKurdish(
-                        text:
-                            """خەڵکی ھاندەدرێن دەسپێوەگر بن بە ئاو کە وشکەساڵی ڕاگەیەندرا."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakeconomicals4("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakeconomicals4("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                """People were urged to be economical with water as a drought was declared.""",
+            kurdishText:
+                """خەڵکی ھاندەدرێن دەسپێوەگر بن بە ئاو کە وشکەساڵی ڕاگەیەندرا.""",
+            onPressedBritish: () => speakeconomicals4("en-GB"),
+            onPressedAmerican: () => speakeconomicals4("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text: """٣. (ھاوەڵناو) کە پارەی زیاد لە پێویست خەرج ناکات"""),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            """He was economical in all areas of his life."""),
-                    ExampleSentenceKurdish(
-                        text: """نادەسبڵاو بوو لە ھەموو لایەنەکانی ژیانی."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakeconomicals5("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakeconomicals5("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: """He was economical in all areas of his life.""",
+            kurdishText: """نادەسبڵاو بوو لە ھەموو لایەنەکانی ژیانی.""",
+            onPressedBritish: () => speakeconomicals5("en-GB"),
+            onPressedAmerican: () => speakeconomicals5("en-US"),
           ),
           // economicals600economicals6
           // speakeconomicals6

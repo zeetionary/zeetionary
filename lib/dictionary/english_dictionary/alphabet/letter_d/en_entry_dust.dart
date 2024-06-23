@@ -434,295 +434,102 @@ class KurdishMeaning extends StatelessWidget {
 کوردی: خۆڵ‌وخاک، تەپ‌وتۆز، سۆنک، تۆز،	گەردە، ھەڵاڵە، خاکە، ھاڕاوە،	سووکی، چروکی، خوێڕیەتی، نزمی،	شتی سووک یان ھیچەکە،	(وێژەیی) خاکە، پاشماوەی کەسێکی مردوو
 """),
           const DefinitionKurdish(text: """١. (ناو) تۆز"""),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            """A cloud of dust rose as the truck drove off."""),
-                    ExampleSentenceKurdish(
-                        text:
-                            """تۆپەڵە تۆزێک بەرزبوویەوە کە بارھەڵگرەکە دەستی بە ڕۆشتن کرد."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "dust", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdusts1("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdusts1("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: """A cloud of dust rose as the truck drove off.""",
+            kurdishText:
+                """تۆپەڵە تۆزێک بەرزبوویەوە کە بارھەڵگرەکە دەستی بە ڕۆشتن کرد.""", // dust
+            onPressedBritish: () => speakdusts1("en-GB"),
+            onPressedAmerican: () => speakdusts1("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: """ژممارە. (کردار) پێنناسە"""),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            """Fine particles of dust will get everywhere."""),
-                    ExampleSentenceKurdish(
-                        text: """تەنۆلکەی بچووک لە تۆز دەگاتە ھەموو شوێنێک."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdusts2("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdusts2("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: """Fine particles of dust will get everywhere.""",
+            kurdishText: """تەنۆلکەی بچووک لە تۆز دەگاتە ھەموو شوێنێک.""",
+            onPressedBritish: () => speakdusts2("en-GB"),
+            onPressedAmerican: () => speakdusts2("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: """ژممارە. (کردار) پێنناسە"""),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            """The workers wear masks to avoid inhaling the dust."""),
-                    ExampleSentenceKurdish(
-                        text:
-                            """کرێکارەکان دەمامک دەبەستن بۆ دوورکەوتنەوە لە ھەڵمژینی تۆزەکە."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdusts3("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdusts3("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                """The workers wear masks to avoid inhaling the dust.""",
+            kurdishText:
+                """کرێکارەکان دەمامک دەبەستن بۆ دوورکەوتنەوە لە ھەڵمژینی تۆزەکە.""",
+            onPressedBritish: () => speakdusts3("en-GB"),
+            onPressedAmerican: () => speakdusts3("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
                   """٢. (ناو) تۆزی ورد کە درووست دەبێت لە بینا، سەرزەوی، کەلووپەلی ماڵەوە، ھتد"""),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: """The books were all covered with dust."""),
-                    ExampleSentenceKurdish(
-                        text: """کتێبەکان ھەموو بە تۆز داپۆشرابوون."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdusts4("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdusts4("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: """The books were all covered with dust.""",
+            kurdishText: """کتێبەکان ھەموو بە تۆز داپۆشرابوون.""",
+            onPressedBritish: () => speakdusts4("en-GB"),
+            onPressedAmerican: () => speakdusts4("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: """ژممارە. (کردار) پێنناسە"""),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            """There was a thick layer of dust on the table."""),
-                    ExampleSentenceKurdish(
-                        text: """جینێکی ئەستوور لە تۆز لەسەر مێزەکە بوو."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdusts5("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdusts5("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: """There was a thick layer of dust on the table.""",
+            kurdishText: """جینێکی ئەستوور لە تۆز لەسەر مێزەکە بوو.""",
+            onPressedBritish: () => speakdusts5("en-GB"),
+            onPressedAmerican: () => speakdusts5("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: """ژممارە. (کردار) پێنناسە"""),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: """She is allergic to house dust."""),
-                    ExampleSentenceKurdish(
-                        text: """ھەستیارە بە تۆزی ناو خانوو."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdusts6("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdusts6("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: """She is allergic to house dust.""",
+            kurdishText: """ھەستیارە بە تۆزی ناو خانوو.""",
+            onPressedBritish: () => speakdusts6("en-GB"),
+            onPressedAmerican: () => speakdusts6("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
                   """٣. (کردار) لێکردنەوەی تۆز لە کەلووپەل و شت بە قوماشێک"""),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: """I broke the vase while I was dusting."""),
-                    ExampleSentenceKurdish(
-                        text: """گوڵدانەکەم شکاند کە پاککردنەوەم دەکرد."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdusts7("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdusts7("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: """I broke the vase while I was dusting.""",
+            kurdishText: """گوڵدانەکەم شکاند کە پاککردنەوەم دەکرد.""",
+            onPressedBritish: () => speakdusts7("en-GB"),
+            onPressedAmerican: () => speakdusts7("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: """ژممارە. (کردار) پێنناسە"""),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: """Could you dust the sitting room?"""),
-                    ExampleSentenceKurdish(
-                        text:
-                            """دەتوانیت ژووری دانیشتنەکە لە تۆز پاکبکەیتەوە؟"""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdusts8("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdusts8("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: """Could you dust the sitting room?""",
+            kurdishText: """دەتوانیت ژووری دانیشتنەکە لە تۆز پاکبکەیتەوە؟""",
+            onPressedBritish: () => speakdusts8("en-GB"),
+            onPressedAmerican: () => speakdusts8("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
                   """٤. (کردار) لێکردنەوەی تۆز لە خۆت/کەسێک/شتێک بە دەستت یان فڵچەیەک"""),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: """She dusted some ash from her sleeve."""),
-                    ExampleSentenceKurdish(
-                        text: """ھەندێک خۆڵەمێشی لە قۆڵەکەی لێکردەوە."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdusts9("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdusts9("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: """She dusted some ash from her sleeve.""",
+            kurdishText: """ھەندێک خۆڵەمێشی لە قۆڵەکەی لێکردەوە.""",
+            onPressedBritish: () => speakdusts9("en-GB"),
+            onPressedAmerican: () => speakdusts9("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text: """٥. (کردار) داپۆشینی شتێک بە وردە ھاڕاوە"""),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: """Dust the cake with sugar."""),
-                    ExampleSentenceKurdish(text: """کێکەکە بە شەکر بپرژێنە."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdusts10("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdusts10("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: """Dust the cake with sugar.""",
+            kurdishText: """کێکەکە بە شەکر بپرژێنە.""",
+            onPressedBritish: () => speakdusts10("en-GB"),
+            onPressedAmerican: () => speakdusts10("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: """ژممارە. (کردار) پێنناسە"""),

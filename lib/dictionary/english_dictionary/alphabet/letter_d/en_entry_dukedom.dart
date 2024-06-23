@@ -363,32 +363,12 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   """١. (ناو) پێگەی ئەوەی کەسێک دیوک بێت، یان ئەو زەوییەی کە دیوکێک خاوەنداری دەکات"""),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            """The people of the dukedom respected their ruler."""),
-                    ExampleSentenceKurdish(
-                        text:
-                            """خەڵکی دیوک‌نشینەکە ڕێزی دەسەڵاتدارەکەیانیان دەگرت."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "dukedom", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdukedoms1("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdukedoms1("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: """The people of the dukedom respected their ruler.""",
+            kurdishText:
+                """خەڵکی دیوک‌نشینەکە ڕێزی دەسەڵاتدارەکەیانیان دەگرت.""", // dukedom
+            onPressedBritish: () => speakdukedoms1("en-GB"),
+            onPressedAmerican: () => speakdukedoms1("en-US"),
           ),
           // dukedoms200
           // speakdukedoms2

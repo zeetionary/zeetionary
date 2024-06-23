@@ -372,61 +372,23 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   """١. (ناو) توانای بەکارھێنانی زمان و دەربڕینی بۆچوونەکانت بەباشی"""),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            """She was renowned for her eloquence and beauty."""),
-                    ExampleSentenceKurdish(
-                        text: """بۆ جوانی و ڕەوانبێژییەکەی بەناوبانگ بوو."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "eloquence", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakeloquences1("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakeloquences1("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: """She was renowned for her eloquence and beauty.""",
+            kurdishText:
+                """بۆ جوانی و ڕەوانبێژییەکەی بەناوبانگ بوو.""", // eloquence
+            onPressedBritish: () => speakeloquences1("en-GB"),
+            onPressedAmerican: () => speakeloquences1("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            """His wit and eloquence made it a joy to be around him."""),
-                    ExampleSentenceKurdish(
-                        text:
-                            """تێگەیشتوویی و ڕەوانبێژیی وایدەکرد خۆشییەک بێت لە دەورووبەری بیت."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakeloquences2("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakeloquences2("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                """His wit and eloquence made it a joy to be around him.""",
+            kurdishText:
+                """تێگەیشتوویی و ڕەوانبێژیی وایدەکرد خۆشییەک بێت لە دەورووبەری بیت.""",
+            onPressedBritish: () => speakeloquences2("en-GB"),
+            onPressedAmerican: () => speakeloquences2("en-US"),
           ),
           // eloquences300eloquences3
           // speakeloquences3

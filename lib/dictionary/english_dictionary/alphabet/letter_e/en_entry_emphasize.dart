@@ -408,184 +408,70 @@ class KurdishMeaning extends StatelessWidget {
 """),
           const DefinitionKurdish(
               text: """١. (کردار) گرنگیدانی تایبەت بە شتێک"""),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            """His speech emphasized the importance of attracting industry to the town."""),
-                    ExampleSentenceKurdish(
-                        text:
-                            """وتارەکەی جەختی کردەوە لە ڕاکێشانی پیشەسازی بۆ شارۆچکەکە."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "emphasize", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakemphasizes1("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakemphasizes1("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                """His speech emphasized the importance of attracting industry to the town.""",
+            kurdishText:
+                """وتارەکەی جەختی کردەوە لە ڕاکێشانی پیشەسازی بۆ شارۆچکەکە.""", // emphasize
+            onPressedBritish: () => speakemphasizes1("en-GB"),
+            onPressedAmerican: () => speakemphasizes1("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: """ژممارە. (کردار) پێنناسە"""),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            """The report emphasizes the need for economic stability."""),
-                    ExampleSentenceKurdish(
-                        text:
-                            """ڕاپۆرتەکە جەختدەکاتەوە لە پێویستی بۆ جێگیریی ئابووری."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakemphasizes2("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakemphasizes2("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                """The report emphasizes the need for economic stability.""",
+            kurdishText:
+                """ڕاپۆرتەکە جەختدەکاتەوە لە پێویستی بۆ جێگیریی ئابووری.""",
+            onPressedBritish: () => speakemphasizes2("en-GB"),
+            onPressedAmerican: () => speakemphasizes2("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: """ژممارە. (کردار) پێنناسە"""),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            """She emphasized the point in an interview at the weekend."""),
-                    ExampleSentenceKurdish(
-                        text:
-                            """جەختی لە خاڵەکەوە کردەوە لە چاوپێکەوتنێکدا لە کۆتایی ھەفتە."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakemphasizes3("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakemphasizes3("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                """She emphasized the point in an interview at the weekend.""",
+            kurdishText:
+                """جەختی لە خاڵەکەوە کردەوە لە چاوپێکەوتنێکدا لە کۆتایی ھەفتە.""",
+            onPressedBritish: () => speakemphasizes3("en-GB"),
+            onPressedAmerican: () => speakemphasizes3("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: """ژممارە. (کردار) پێنناسە"""),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            """She emphasized that their plan would mean sacrifices and hard work."""),
-                    ExampleSentenceKurdish(
-                        text:
-                            """جەختیکردەوە کە پلانەکەیان قوربانی و کاری سەختی پێویستە."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakemphasizes4("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakemphasizes4("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                """She emphasized that their plan would mean sacrifices and hard work.""",
+            kurdishText:
+                """جەختیکردەوە کە پلانەکەیان قوربانی و کاری سەختی پێویستە.""",
+            onPressedBritish: () => speakemphasizes4("en-GB"),
+            onPressedAmerican: () => speakemphasizes4("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text: """٢. (کردار) واکردنی ئەوەی شتێک بە ئاسانی تێبینی بکرێت"""),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            """The rising tone of his voice emphasized his panic."""),
-                    ExampleSentenceKurdish(
-                        text: """بەرزی تۆنی دەنگی جەختی لە ترسەکەی کردەوە."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakemphasizes5("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakemphasizes5("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                """The rising tone of his voice emphasized his panic.""",
+            kurdishText: """بەرزی تۆنی دەنگی جەختی لە ترسەکەی کردەوە.""",
+            onPressedBritish: () => speakemphasizes5("en-GB"),
+            onPressedAmerican: () => speakemphasizes5("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
                   """٣. (کردار) دانانی زەبرێک  لەسەر وشەیەک یان واژەیەک لە کاتی خوێندنەوە، بەتایبەتی بۆ پیشاندانی ئەوەی کە گرنگە"""),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            """You can use italics or capitals to emphasize a word in a piece of writing."""),
-                    ExampleSentenceKurdish(
-                        text:
-                            """دەتوانیت شێوەی لاری یان پیتی گەورە بەکاربھێنیت بۆ زەبردانان لەسەر وشەیەک لە نووسیندا."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakemphasizes6("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakemphasizes6("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                """You can use italics or capitals to emphasize a word in a piece of writing.""",
+            kurdishText:
+                """دەتوانیت شێوەی لاری یان پیتی گەورە بەکاربھێنیت بۆ زەبردانان لەسەر وشەیەک لە نووسیندا.""",
+            onPressedBritish: () => speakemphasizes6("en-GB"),
+            onPressedAmerican: () => speakemphasizes6("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: """ژممارە. (کردار) پێنناسە"""),

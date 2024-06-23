@@ -372,64 +372,25 @@ class KurdishMeaning extends StatelessWidget {
 """),
           const DefinitionKurdish(
               text: """١. (ناو) بەرھەمھێنان یان دەردانی ڕۆشنایی، گەرمی، ھتد"""),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            """Excess infrared emission was detected around six of these stars."""),
-                    ExampleSentenceKurdish(
-                        text:
-                            """دەردانی زیادەی تیشکی ژێرسوور تێبینی کرا لە دەوری شەش لەم ئەستێرانە."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "emission", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakemissions1("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakemissions1("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                """Excess infrared emission was detected around six of these stars.""",
+            kurdishText:
+                """دەردانی زیادەی تیشکی ژێرسوور تێبینی کرا لە دەوری شەش لەم ئەستێرانە.""", // emission
+            onPressedBritish: () => speakemissions1("en-GB"),
+            onPressedAmerican: () => speakemissions1("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
                   """٢. (ناو) گاس، گەرمی، ڕۆشنایی، ھتد کە دەردرێتە ھەواوەوە"""),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            """The government has pledged to clean up industrial emissions."""),
-                    ExampleSentenceKurdish(
-                        text:
-                            """حکومەت بەڵێنی داوە دەردانی پیشەسازی نەھێڵێت."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakemissions2("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakemissions2("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                """The government has pledged to clean up industrial emissions.""",
+            kurdishText: """حکومەت بەڵێنی داوە دەردانی پیشەسازی نەھێڵێت.""",
+            onPressedBritish: () => speakemissions2("en-GB"),
+            onPressedAmerican: () => speakemissions2("en-US"),
           ),
           // emissions300emissions3
           // speakemissions3

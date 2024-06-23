@@ -388,122 +388,45 @@ class KurdishMeaning extends StatelessWidget {
 کوردی: دەستەوەستان، شەرمەزار کردن
 """),
           const DefinitionKurdish(text: """١. (کردار) شەرمەزارکردنی کەسێک"""),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            """Her questions about my private life embarrassed me."""),
-                    ExampleSentenceKurdish(
-                        text:
-                            """پرسیارەکانی سەبارەت بە ژیانی کەسیم خەجاڵەتی کردم."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "embarrass", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakembarrasss1("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakembarrasss1("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                """Her questions about my private life embarrassed me.""",
+            kurdishText:
+                """پرسیارەکانی سەبارەت بە ژیانی کەسیم خەجاڵەتی کردم.""", // embarrass
+            onPressedBritish: () => speakembarrasss1("en-GB"),
+            onPressedAmerican: () => speakembarrasss1("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            """I didn't want to embarrass him by kissing him in front of his friends."""),
-                    ExampleSentenceKurdish(
-                        text:
-                            """نەمویست خەجاڵەتی بکەم بە ماچکردنی لە پێش ھاوڕێکانی."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakembarrasss2("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakembarrasss2("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                """I didn't want to embarrass him by kissing him in front of his friends.""",
+            kurdishText:
+                """نەمویست خەجاڵەتی بکەم بە ماچکردنی لە پێش ھاوڕێکانی.""",
+            onPressedBritish: () => speakembarrasss2("en-GB"),
+            onPressedAmerican: () => speakembarrasss2("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            """You're embarrassing him with your compliments!"""),
-                    ExampleSentenceKurdish(
-                        text: """شەرمەزاری دەکەیت بە پیاھەڵدانەکانت."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakembarrasss3("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakembarrasss3("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: """You're embarrassing him with your compliments!""",
+            kurdishText: """شەرمەزاری دەکەیت بە پیاھەڵدانەکانت.""",
+            onPressedBritish: () => speakembarrasss3("en-GB"),
+            onPressedAmerican: () => speakembarrasss3("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text: """٢. (کردار) بوونە ھۆکاری کێشە یان ناڕەحەتی بۆ کەسێک"""),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            """The speech was deliberately designed to embarrass the prime minister."""),
-                    ExampleSentenceKurdish(
-                        text:
-                            """وتارەکە بە ئەنقەست دانرابوو بۆ لێدان لە سەرۆک وەزیران."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakembarrasss4("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakembarrasss4("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                """The speech was deliberately designed to embarrass the prime minister.""",
+            kurdishText:
+                """وتارەکە بە ئەنقەست دانرابوو بۆ لێدان لە سەرۆک وەزیران.""",
+            onPressedBritish: () => speakembarrasss4("en-GB"),
+            onPressedAmerican: () => speakembarrasss4("en-US"),
           ),
           // embarrasss500embarrasss5
           // speakembarrasss5

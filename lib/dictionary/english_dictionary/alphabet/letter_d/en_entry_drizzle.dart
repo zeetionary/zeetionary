@@ -393,136 +393,44 @@ class KurdishMeaning extends StatelessWidget {
 کوردی: پڕوشە، ڕشێن، تەپ‌ونم، نم‌نمەی باران، خناف، نەرمەباران، سووکەباران
 """),
           const DefinitionKurdish(text: "١. (کردار) بوونی نمەباران"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(text: "It was drizzling outside."),
-                    ExampleSentenceKurdish(text: "لە دەرەوە نمە بارانێک بوو."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "drizzle", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdrizzles1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdrizzles1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "It was drizzling outside.",
+            kurdishText: "لە دەرەوە نمە بارانێک بوو.", // drizzle
+            onPressedBritish: () => speakdrizzles1("en-GB"),
+            onPressedAmerican: () => speakdrizzles1("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "When they left it was beginning to drizzle."),
-                    ExampleSentenceKurdish(
-                        text: "کە چوون خەریکبوو دەستی دەکرد بە نمەباران."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdrizzles2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdrizzles2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "When they left it was beginning to drizzle.",
+            kurdishText: "کە چوون خەریکبوو دەستی دەکرد بە نمەباران.",
+            onPressedBritish: () => speakdrizzles2("en-GB"),
+            onPressedAmerican: () => speakdrizzles2("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٢. (کردار) ڕژاندنی کەمێک شلە بە ڕووی شتێکدا"),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "Drizzle the lemon juice over the fish."),
-                    ExampleSentenceKurdish(
-                        text: "ئاو لیمۆکە بپرژێنە بەسەر ماسییەکەدا."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdrizzles3("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdrizzles3("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "Drizzle the lemon juice over the fish.",
+            kurdishText: "ئاو لیمۆکە بپرژێنە بەسەر ماسییەکەدا.",
+            onPressedBritish: () => speakdrizzles3("en-GB"),
+            onPressedAmerican: () => speakdrizzles3("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: "٣. (ناو) نمەباران"),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "A light drizzle was falling."),
-                    ExampleSentenceKurdish(text: "نمەبارانێکی لەسەرخۆ دەباری."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdrizzles4("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdrizzles4("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "A light drizzle was falling.",
+            kurdishText: "نمەبارانێکی لەسەرخۆ دەباری.",
+            onPressedBritish: () => speakdrizzles4("en-GB"),
+            onPressedAmerican: () => speakdrizzles4("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "We walked home through the drizzle."),
-                    ExampleSentenceKurdish(
-                        text: "بە نمەبارانەکەدا بۆ ماڵەوە چووینەوە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdrizzles5("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdrizzles5("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "We walked home through the drizzle.",
+            kurdishText: "بە نمەبارانەکەدا بۆ ماڵەوە چووینەوە.",
+            onPressedBritish: () => speakdrizzles5("en-GB"),
+            onPressedAmerican: () => speakdrizzles5("en-US"),
           ),
           // drizzles600"),
           // speakdrizzles6

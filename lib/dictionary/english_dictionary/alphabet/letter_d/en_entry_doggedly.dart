@@ -363,32 +363,13 @@ class KurdishMeaning extends StatelessWidget {
 """),
           const DefinitionKurdish(
               text: "١. (ھاوەڵکار) بەشێوەیەک کە وازناھێنیت"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "Although the men fought doggedly on, a sense of hopeless despair engulfed them."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "ئەگەرچی پیاوەکان کۆڵنەدەرانە جەنگان، ھەستێکی بێ‌ھیوایی باڵی بەسەریاندا کێشابوو."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "doggedly", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdoggedlys1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdoggedlys1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "Although the men fought doggedly on, a sense of hopeless despair engulfed them.",
+            kurdishText:
+                "ئەگەرچی پیاوەکان کۆڵنەدەرانە جەنگان، ھەستێکی بێ‌ھیوایی باڵی بەسەریاندا کێشابوو.", // doggedly
+            onPressedBritish: () => speakdoggedlys1("en-GB"),
+            onPressedAmerican: () => speakdoggedlys1("en-US"),
           ),
           // doggedlys200"),
           // speakdoggedlys2

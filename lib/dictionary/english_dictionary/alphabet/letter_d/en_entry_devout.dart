@@ -233,32 +233,12 @@ class KurdishMeaning extends StatelessWidget {
 """),
           const DefinitionKurdish(
               text: "١. (ھاوەڵناو) پابەندی تەواو بە ئایینێک"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "She is a devout Christian who attends church daily."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "مەسیحییەکی لەخواترسە کە ھەموو ڕۆژێک دەچێتە کڵێسا."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "devout", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdevouts1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdevouts1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "She is a devout Christian who attends church daily.",
+            kurdishText:
+                "مەسیحییەکی لەخواترسە کە ھەموو ڕۆژێک دەچێتە کڵێسا.", // devout
+            onPressedBritish: () => speakdevouts1("en-GB"),
+            onPressedAmerican: () => speakdevouts1("en-US"),
           ),
           // devouts200"),
           // speakdevouts2

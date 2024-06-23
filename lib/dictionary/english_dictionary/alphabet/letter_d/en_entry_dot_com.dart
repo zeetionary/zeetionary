@@ -372,60 +372,22 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "١. (ناو) کۆمپانیایەک کە لەسەر ئینتەرنێت کەلوپەل دەفرۆشێت، بەتایبەتی کە ناونیشانی ئینتەرنێتی بە .com کۆتایی دێت"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "The weaker dot-coms collapsed."),
-                    ExampleSentenceKurdish(
-                        text: "کۆمپانیا لاوازەکان داڕووخان."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "dot-com", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdotcoms1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdotcoms1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "The weaker dot-coms collapsed.",
+            kurdishText: "کۆمپانیا لاوازەکان داڕووخان.", // dot-com
+            onPressedBritish: () => speakdotcoms1("en-GB"),
+            onPressedAmerican: () => speakdotcoms1("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "A survey found that 20 of the top 150 European dotcoms could run out of cash within a year."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "ڕاپرسییەک دۆزییەوە کە ٢٠ لە گەورەترین ١٥٠ کۆمپانیای ئەورووپی سەر ئینتەرنێت دەکرێت پارەی کاشیان نەمێنێت لە یەک ساڵدا."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdotcoms2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdotcoms2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "A survey found that 20 of the top 150 European dotcoms could run out of cash within a year.",
+            kurdishText:
+                "ڕاپرسییەک دۆزییەوە کە ٢٠ لە گەورەترین ١٥٠ کۆمپانیای ئەورووپی سەر ئینتەرنێت دەکرێت پارەی کاشیان نەمێنێت لە یەک ساڵدا.",
+            onPressedBritish: () => speakdotcoms2("en-GB"),
+            onPressedAmerican: () => speakdotcoms2("en-US"),
           ),
           // dotcoms300"),
           // speakdotcoms3

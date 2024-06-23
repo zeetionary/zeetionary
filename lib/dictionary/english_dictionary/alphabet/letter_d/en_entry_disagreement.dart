@@ -270,120 +270,42 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "١. (ناو) دۆخێک کە خەڵکی ناکۆکیان ھەیە لەسەر شتێک و زۆرجار مشتومڕ دەکەن"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "Disagreement arose about exactly how to plan the holiday."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "ناکۆکی دەستیپێکرد لەسەر ئەوەی چۆن پلانی پشووەکە دابنرێت."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "disagreement", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdisagreements1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdisagreements1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "Disagreement arose about exactly how to plan the holiday.",
+            kurdishText:
+                "ناکۆکی دەستیپێکرد لەسەر ئەوەی چۆن پلانی پشووەکە دابنرێت.", // disagreement
+            onPressedBritish: () => speakdisagreements1("en-GB"),
+            onPressedAmerican: () => speakdisagreements1("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "There's no room for disagreement on this point."),
-                    ExampleSentenceKurdish(
-                        text: "ھیچ ڕێگایەک بۆ ناکۆکی نییە لەسەر ئەم خاڵە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdisagreements2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdisagreements2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "There's no room for disagreement on this point.",
+            kurdishText: "ھیچ ڕێگایەک بۆ ناکۆکی نییە لەسەر ئەم خاڵە.",
+            onPressedBritish: () => speakdisagreements2("en-GB"),
+            onPressedAmerican: () => speakdisagreements2("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "There is considerable disagreement over the safety of the treatment."),
-                    ExampleSentenceKurdish(
-                        text: "ناکۆکیی بەرچاو ھەیە لەسەر سەلامەتیی دەرمانەکە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdisagreements3("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdisagreements3("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "There is considerable disagreement over the safety of the treatment.",
+            kurdishText: "ناکۆکیی بەرچاو ھەیە لەسەر سەلامەتیی دەرمانەکە.",
+            onPressedBritish: () => speakdisagreements3("en-GB"),
+            onPressedAmerican: () => speakdisagreements3("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "We are in total disagreement as to how to proceed."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "لە ناکۆکیی تەواوداین سەبارەت بەوەی چۆن بەرەوپێش بچین."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdisagreements4("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdisagreements4("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "We are in total disagreement as to how to proceed.",
+            kurdishText:
+                "لە ناکۆکیی تەواوداین سەبارەت بەوەی چۆن بەرەوپێش بچین.",
+            onPressedBritish: () => speakdisagreements4("en-GB"),
+            onPressedAmerican: () => speakdisagreements4("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "٢. (ناو) جیاوازیی نێوان دوو شت کە دەبێت وەک یەکدی بن"),

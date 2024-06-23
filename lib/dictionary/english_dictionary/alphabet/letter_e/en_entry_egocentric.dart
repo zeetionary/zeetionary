@@ -380,88 +380,31 @@ class KurdishMeaning extends StatelessWidget {
 """),
           const DefinitionKurdish(
               text: """١. (ھاوەڵناو) کەسێک کە تەنھا بیر لە خۆی دەکاتەوە"""),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            """Young children are usually egocentric because they haven’t learnt other forms of behaviour."""),
-                    ExampleSentenceKurdish(
-                        text:
-                            """منداڵانی گەنج بە تەواوی خۆپەرستن چونکە ھێشتا شێوازەکانی دیکەی ڕەفتارکردن فێرنەبوونە."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "egocentric", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakegocentrics1("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakegocentrics1("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                """Young children are usually egocentric because they haven’t learnt other forms of behaviour.""",
+            kurdishText:
+                """منداڵانی گەنج بە تەواوی خۆپەرستن چونکە ھێشتا شێوازەکانی دیکەی ڕەفتارکردن فێرنەبوونە.""", // egocentric
+            onPressedBritish: () => speakegocentrics1("en-GB"),
+            onPressedAmerican: () => speakegocentrics1("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: """I find her very egocentric."""),
-                    ExampleSentenceKurdish(
-                        text: """زۆر خۆپەرست دێتە بەرچاوم."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakegocentrics2("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakegocentrics2("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: """I find her very egocentric.""",
+            kurdishText: """زۆر خۆپەرست دێتە بەرچاوم.""",
+            onPressedBritish: () => speakegocentrics2("en-GB"),
+            onPressedAmerican: () => speakegocentrics2("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: """He was a supremely egocentric man."""),
-                    ExampleSentenceKurdish(
-                        text: """پیاوێکی تەواو خۆپەرست بوو."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakegocentrics3("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakegocentrics3("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: """He was a supremely egocentric man.""",
+            kurdishText: """پیاوێکی تەواو خۆپەرست بوو.""",
+            onPressedBritish: () => speakegocentrics3("en-GB"),
+            onPressedAmerican: () => speakegocentrics3("en-US"),
           ),
           // egocentrics400egocentrics4
           // speakegocentrics4

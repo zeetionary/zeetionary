@@ -232,32 +232,13 @@ class KurdishMeaning extends StatelessWidget {
 // کوردی: زیندان یان گیراوی سیاسی
 // """),
           const DefinitionKurdish(text: "١. (ناو) کەسێک کە زیندانی کراوە"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The detainee can make a formal complaint after release."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "زیندانییەکە دەتوانێت سکاڵایەکی فەرمی پێشکەش بکات لە دوای ئازادبوونی."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "detainee", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdetainees1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdetainees1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "The detainee can make a formal complaint after release.",
+            kurdishText:
+                "زیندانییەکە دەتوانێت سکاڵایەکی فەرمی پێشکەش بکات لە دوای ئازادبوونی.", // detainee
+            onPressedBritish: () => speakdetainees1("en-GB"),
+            onPressedAmerican: () => speakdetainees1("en-US"),
           ),
           // detainees200"),
           // speakdetainees2

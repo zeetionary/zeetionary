@@ -240,61 +240,23 @@ class KurdishMeaning extends StatelessWidget {
 // کوردی:
 // """),
           const DefinitionKurdish(text: "١. (کردار) بێبەشکردن لە میراتی"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "He threatened to disinherit his eldest son."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "ھەڕەشەی ئەوەی کرد گەورەترین کوڕی لە میراتی بێبەش بکات."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "disinherit", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdisinherits1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdisinherits1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "He threatened to disinherit his eldest son.",
+            kurdishText:
+                "ھەڕەشەی ئەوەی کرد گەورەترین کوڕی لە میراتی بێبەش بکات.", // disinherit
+            onPressedBritish: () => speakdisinherits1("en-GB"),
+            onPressedAmerican: () => speakdisinherits1("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "Are you worried that your father might disinherit you if you go off the tracks again?"),
-                    ExampleSentenceKurdish(
-                        text:
-                            "لەوە ناترسیت کە باوکت لەوانەیە لە میراتی بێبەشت بکات ئەگەر دووبارە لە ڕێگا لا بدەیت؟"),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdisinherits2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdisinherits2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "Are you worried that your father might disinherit you if you go off the tracks again?",
+            kurdishText:
+                "لەوە ناترسیت کە باوکت لەوانەیە لە میراتی بێبەشت بکات ئەگەر دووبارە لە ڕێگا لا بدەیت؟",
+            onPressedBritish: () => speakdisinherits2("en-GB"),
+            onPressedAmerican: () => speakdisinherits2("en-US"),
           ),
           // disinherits300"),
           // speakdisinherits3

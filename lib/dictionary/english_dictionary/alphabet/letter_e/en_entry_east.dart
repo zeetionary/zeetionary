@@ -481,437 +481,152 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   """١. (ناو) ڕۆژھەڵات؛ زۆرجار ئەو ئاراستەیەیە کە خۆر لێیەوە ھەڵدێت"""),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(text: """Which way is east?"""),
-                    ExampleSentenceKurdish(text: """کام لایە ڕۆژھەڵاتە؟"""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "east", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakeasts1("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakeasts1("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: """Which way is east?""",
+            kurdishText: """کام لایە ڕۆژھەڵاتە؟""", // east
+            onPressedBritish: () => speakeasts1("en-GB"),
+            onPressedAmerican: () => speakeasts1("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: """A gale was blowing from the east."""),
-                    ExampleSentenceKurdish(
-                        text: """ڕەشەبایەک لە ڕۆژھەڵاتەوە ھەڵی دەکرد."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakeasts2("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakeasts2("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: """A gale was blowing from the east.""",
+            kurdishText: """ڕەشەبایەک لە ڕۆژھەڵاتەوە ھەڵی دەکرد.""",
+            onPressedBritish: () => speakeasts2("en-GB"),
+            onPressedAmerican: () => speakeasts2("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            """The points of the compass are north, south, east, and west."""),
-                    ExampleSentenceKurdish(
-                        text:
-                            """خاڵەکانی قیبلەنما لە باکوور، باشوور، ڕۆژھەڵات، و ڕۆژئاوا پێکدێن."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakeasts3("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakeasts3("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                """The points of the compass are north, south, east, and west.""",
+            kurdishText:
+                """خاڵەکانی قیبلەنما لە باکوور، باشوور، ڕۆژھەڵات، و ڕۆژئاوا پێکدێن.""",
+            onPressedBritish: () => speakeasts3("en-GB"),
+            onPressedAmerican: () => speakeasts3("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            """Most of the country, except the east, is rural."""),
-                    ExampleSentenceKurdish(
-                        text:
-                            """زۆرێک لە وڵاتەکە، جگە لە ڕۆژھەڵات، دەشتنشینە."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakeasts4("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakeasts4("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: """Most of the country, except the east, is rural.""",
+            kurdishText: """زۆرێک لە وڵاتەکە، جگە لە ڕۆژھەڵات، دەشتنشینە.""",
+            onPressedBritish: () => speakeasts4("en-GB"),
+            onPressedAmerican: () => speakeasts4("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: """Her home is in the east of France."""),
-                    ExampleSentenceKurdish(
-                        text: """ماڵی لە ڕۆژھەڵاتی فەرەنسایە."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakeasts5("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakeasts5("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: """Her home is in the east of France.""",
+            kurdishText: """ماڵی لە ڕۆژھەڵاتی فەرەنسایە.""",
+            onPressedBritish: () => speakeasts5("en-GB"),
+            onPressedAmerican: () => speakeasts5("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text: """٢. (ناو) ڕۆژھەڵاتی وڵاتێک، شارێک، ھتد"""),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            """The east of the country is especially popular with tourists."""),
-                    ExampleSentenceKurdish(
-                        text:
-                            """ڕۆژھەڵاتی وڵاتەکە زیاتر لای گەشتیاران باوە."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakeasts6("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakeasts6("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                """The east of the country is especially popular with tourists.""",
+            kurdishText: """ڕۆژھەڵاتی وڵاتەکە زیاتر لای گەشتیاران باوە.""",
+            onPressedBritish: () => speakeasts6("en-GB"),
+            onPressedAmerican: () => speakeasts6("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            """Around 2 000 teachers from around the East of England attended the conference."""),
-                    ExampleSentenceKurdish(
-                        text:
-                            """نزیکەی ٢٠٠٠ مامۆستا لە ڕۆژھەڵاتی ئینگلتەراوە بەژداری کۆنفرانسەکەیان."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakeasts7("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakeasts7("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                """Around 2 000 teachers from around the East of England attended the conference.""",
+            kurdishText:
+                """نزیکەی ٢٠٠٠ مامۆستا لە ڕۆژھەڵاتی ئینگلتەراوە بەژداری کۆنفرانسەکەیان.""",
+            onPressedBritish: () => speakeasts7("en-GB"),
+            onPressedAmerican: () => speakeasts7("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            """I was born in the East, but now live in San Francisco."""),
-                    ExampleSentenceKurdish(
-                        text:
-                            """لە ڕۆژھەڵات (ــی ئەمریکا) لەدایکبووم، بەڵام ئێستا لە سانفرانسیسکۆ دەژیم."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakeasts8("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakeasts8("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                """I was born in the East, but now live in San Francisco.""",
+            kurdishText:
+                """لە ڕۆژھەڵات (ــی ئەمریکا) لەدایکبووم، بەڵام ئێستا لە سانفرانسیسکۆ دەژیم.""",
+            onPressedBritish: () => speakeasts8("en-GB"),
+            onPressedAmerican: () => speakeasts8("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            """House prices in the east have risen significantly over the last five years."""),
-                    ExampleSentenceKurdish(
-                        text:
-                            """نرخی خانوو لە ڕۆژھەڵات زۆر بەرزبووە لە پێنج ساڵی ڕابردوودا."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakeasts9("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakeasts9("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                """House prices in the east have risen significantly over the last five years.""",
+            kurdishText:
+                """نرخی خانوو لە ڕۆژھەڵات زۆر بەرزبووە لە پێنج ساڵی ڕابردوودا.""",
+            onPressedBritish: () => speakeasts9("en-GB"),
+            onPressedAmerican: () => speakeasts9("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
                   """٣. (ناو) وڵاتانی ڕۆژھەڵاتی ئاسیا، بەتایبەتی چین، ژاپۆن، و ھندستان"""),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            """European traders started trading with the East in the 15th century."""),
-                    ExampleSentenceKurdish(
-                        text:
-                            """بازرگانانی ڕۆژئاوا دەستیان کرد بە بازرگانی لەگەڵ ڕۆژھەڵات لە سەدەی ١٥ ــدا."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakeasts10("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakeasts10("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                """European traders started trading with the East in the 15th century.""",
+            kurdishText:
+                """بازرگانانی ڕۆژئاوا دەستیان کرد بە بازرگانی لەگەڵ ڕۆژھەڵات لە سەدەی ١٥ ــدا.""",
+            onPressedBritish: () => speakeasts10("en-GB"),
+            onPressedAmerican: () => speakeasts10("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text: """٤. (ھاوەڵناو) لە ڕۆژھەڵات یان بەرەو ڕۆژھەڵات"""),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: """They live on the east coast."""),
-                    ExampleSentenceKurdish(
-                        text: """لە کەناری ڕۆژھەڵات دەژین."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakeasts11("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakeasts11("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: """They live on the east coast.""",
+            kurdishText: """لە کەناری ڕۆژھەڵات دەژین.""",
+            onPressedBritish: () => speakeasts11("en-GB"),
+            onPressedAmerican: () => speakeasts11("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: """They live on the city's east side."""),
-                    ExampleSentenceKurdish(
-                        text: """لە لای ڕۆژھەڵاتی شارەکە دەژین."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakeasts12("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakeasts12("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: """They live on the city's east side.""",
+            kurdishText: """لە لای ڕۆژھەڵاتی شارەکە دەژین.""",
+            onPressedBritish: () => speakeasts12("en-GB"),
+            onPressedAmerican: () => speakeasts12("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: """٥. (ھاوەڵکار) بەرەو ڕۆژھەڵات"""),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(text: """The house faces east."""),
-                    ExampleSentenceKurdish(
-                        text: """خانووەکە ڕووی لە ڕۆژھەڵاتە."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakeasts13("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakeasts13("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: """The house faces east.""",
+            kurdishText: """خانووەکە ڕووی لە ڕۆژھەڵاتە.""",
+            onPressedBritish: () => speakeasts13("en-GB"),
+            onPressedAmerican: () => speakeasts13("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: """The storm is expected to head east."""),
-                    ExampleSentenceKurdish(
-                        text: """زریانەکە پێشبینی دەکرێت بۆ ڕۆژھەڵات بچێت."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakeasts14("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakeasts14("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: """The storm is expected to head east.""",
+            kurdishText: """زریانەکە پێشبینی دەکرێت بۆ ڕۆژھەڵات بچێت.""",
+            onPressedBritish: () => speakeasts14("en-GB"),
+            onPressedAmerican: () => speakeasts14("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: """٦. (ھاوەڵکار) نزیکتر لە ڕۆژھەڵات"""),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: """They live five miles east of Oxford."""),
-                    ExampleSentenceKurdish(
-                        text: """پێنج میل لە ڕۆژھەڵاتی ئۆکسفۆردەوە دەژین."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakeasts15("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakeasts15("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: """They live five miles east of Oxford.""",
+            kurdishText: """پێنج میل لە ڕۆژھەڵاتی ئۆکسفۆردەوە دەژین.""",
+            onPressedBritish: () => speakeasts15("en-GB"),
+            onPressedAmerican: () => speakeasts15("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),

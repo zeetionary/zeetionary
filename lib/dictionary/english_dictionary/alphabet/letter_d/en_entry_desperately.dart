@@ -256,84 +256,28 @@ class KurdishMeaning extends StatelessWidget {
 کوردی: لە ڕووی ناچاری‌یەوە، بە ناچاری، لە حەیبەت، لە ناچاری‌دا، توند، بە توندی، یەکجار
 """),
           const DefinitionKurdish(text: "١. (ھاوەڵکار) بە ناچاری"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "She looked desperately around for a weapon."),
-                    ExampleSentenceKurdish(
-                        text: "باناچاری سەیری دورووبەری دەکرد بۆ چەکێک."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "desperately", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdesperatelys1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdesperatelys1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "She looked desperately around for a weapon.",
+            kurdishText:
+                "باناچاری سەیری دورووبەری دەکرد بۆ چەکێک.", // desperately
+            onPressedBritish: () => speakdesperatelys1("en-GB"),
+            onPressedAmerican: () => speakdesperatelys1("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: "٢. (ھاوەڵکار) ئێجگار زۆر"),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "He grew up desperately poor."),
-                    ExampleSentenceKurdish(
-                        text: "بە تەواوی ھەژارانە گەورە بوو."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdesperatelys2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdesperatelys2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "He grew up desperately poor.",
+            kurdishText: "بە تەواوی ھەژارانە گەورە بوو.",
+            onPressedBritish: () => speakdesperatelys2("en-GB"),
+            onPressedAmerican: () => speakdesperatelys2("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "They desperately wanted a child."),
-                    ExampleSentenceKurdish(
-                        text: "بە ئاستێکی زۆر منداڵێکیان دەویست."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdesperatelys3("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdesperatelys3("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "They desperately wanted a child.",
+            kurdishText: "بە ئاستێکی زۆر منداڵێکیان دەویست.",
+            onPressedBritish: () => speakdesperatelys3("en-GB"),
+            onPressedAmerican: () => speakdesperatelys3("en-US"),
           ),
           // desperatelys400"),
           // speakdesperatelys4

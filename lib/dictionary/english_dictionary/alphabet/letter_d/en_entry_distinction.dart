@@ -463,352 +463,120 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "١. (ناو) جیاوازییەکی ڕوون بە تایبەتی لە نێوان ژمارەیەک کەس یان شت کە لێکچوون"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "Philosophers did not use to make a distinction between arts and science."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "فەیلەسووفان جاران جیاوازییان لە نێوان ھونەر و زانست نە دەکرد."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "distinction", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdistinctions1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdistinctions1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "Philosophers did not use to make a distinction between arts and science.",
+            kurdishText:
+                "فەیلەسووفان جاران جیاوازییان لە نێوان ھونەر و زانست نە دەکرد.", // distinction
+            onPressedBritish: () => speakdistinctions1("en-GB"),
+            onPressedAmerican: () => speakdistinctions1("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "We need to draw a distinction between the two events."),
-                    ExampleSentenceKurdish(
-                        text: "دەبێت جیاوازی نێوان دوو ڕووداوەکە بکەین."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdistinctions2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdistinctions2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "We need to draw a distinction between the two events.",
+            kurdishText: "دەبێت جیاوازی نێوان دوو ڕووداوەکە بکەین.",
+            onPressedBritish: () => speakdistinctions2("en-GB"),
+            onPressedAmerican: () => speakdistinctions2("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "Cultural distinctions lie at the heart of these issues."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "جیاوازیی کەلتووری لە کرۆکی ئەم بابەتانەدا ھەیە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdistinctions3("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdistinctions3("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "Cultural distinctions lie at the heart of these issues.",
+            kurdishText: "جیاوازیی کەلتووری لە کرۆکی ئەم بابەتانەدا ھەیە.",
+            onPressedBritish: () => speakdistinctions3("en-GB"),
+            onPressedAmerican: () => speakdistinctions3("en-US"),
           ),
           Column(
             children: [
               MyExpansionTile(
                 children: [
-                  Row(
-                    children: [
-                      const Expanded(
-                        child: Column(
-                          children: [
-                            ExampleSentenceEnglish(
-                                text:
-                                    "It was a subtle distinction but a very important one."),
-                            ExampleSentenceKurdish(
-                                text: "جیاوازییەکی ورد بەڵام گرنگ بوو."),
-                          ],
-                        ),
-                      ),
-                      const CustomSizedBoxForTTS(),
-                      Column(
-                        children: [
-                          CustomIconButtonBritish(
-                            onPressed: () => speakdistinctions4("en-GB"),
-                          ),
-                          CustomIconButtonAmerican(
-                            onPressed: () => speakdistinctions4("en-US"),
-                          ),
-                        ],
-                      ),
-                    ],
+                  SentencesRow(
+                    englishText:
+                        "It was a subtle distinction but a very important one.",
+                    kurdishText: "جیاوازییەکی ورد بەڵام گرنگ بوو.",
+                    onPressedBritish: () => speakdistinctions4("en-GB"),
+                    onPressedAmerican: () => speakdistinctions4("en-US"),
                   ),
-                  // const DividerDefinition(),
-                  // const DefinitionKurdish(text: "ژممارە. (ناو) پێنناسە"),
                   const DividerSentences(),
-                  Row(
-                    children: [
-                      const Expanded(
-                        child: Column(
-                          children: [
-                            ExampleSentenceEnglish(
-                                text:
-                                    "She draws an important distinction between the different kinds of illness."),
-                            ExampleSentenceKurdish(
-                                text:
-                                    "جیاوازییەکی گرنگ دەکات لە نێوان جۆرە جیاوازەکانی نەخۆشیدا."),
-                          ],
-                        ),
-                      ),
-                      const CustomSizedBoxForTTS(),
-                      Column(
-                        children: [
-                          CustomIconButtonBritish(
-                            onPressed: () => speakdistinctions5("en-GB"),
-                          ),
-                          CustomIconButtonAmerican(
-                            onPressed: () => speakdistinctions5("en-US"),
-                          ),
-                        ],
-                      ),
-                    ],
+                  SentencesRow(
+                    englishText:
+                        "She draws an important distinction between the different kinds of illness.",
+                    kurdishText:
+                        "جیاوازییەکی گرنگ دەکات لە نێوان جۆرە جیاوازەکانی نەخۆشیدا.",
+                    onPressedBritish: () => speakdistinctions5("en-GB"),
+                    onPressedAmerican: () => speakdistinctions5("en-US"),
                   ),
-                  // const DividerDefinition(),
-                  // const DefinitionKurdish(text: "ژممارە. (ناو) پێنناسە"),
                   const DividerSentences(),
-                  Row(
-                    children: [
-                      const Expanded(
-                        child: Column(
-                          children: [
-                            ExampleSentenceEnglish(
-                                text:
-                                    "She tends to blur the distinctions between family and friends."),
-                            ExampleSentenceKurdish(
-                                text:
-                                    "مەیکی ئەوەی ھەیە کە جیاوازی نێوان خێزان و ھاوڕێ کاڵ بکاتەوە."),
-                          ],
-                        ),
-                      ),
-                      const CustomSizedBoxForTTS(),
-                      Column(
-                        children: [
-                          CustomIconButtonBritish(
-                            onPressed: () => speakdistinctions6("en-GB"),
-                          ),
-                          CustomIconButtonAmerican(
-                            onPressed: () => speakdistinctions6("en-US"),
-                          ),
-                        ],
-                      ),
-                    ],
+                  SentencesRow(
+                    englishText:
+                        "She tends to blur the distinctions between family and friends.",
+                    kurdishText:
+                        "مەیکی ئەوەی ھەیە کە جیاوازی نێوان خێزان و ھاوڕێ کاڵ بکاتەوە.",
+                    onPressedBritish: () => speakdistinctions6("en-GB"),
+                    onPressedAmerican: () => speakdistinctions6("en-US"),
                   ),
                 ],
               ),
             ],
           ),
+
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٢. (ناو) جیاکردنەوەی خەڵکی و شت بۆ گرووپی جیاواز"),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The new law makes no distinction between adults and children (= treats them equally)."),
-                    ExampleSentenceKurdish(
-                        text: "یاساکە جیاوازی نێوان گەورە و منداڵ ناکات."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdistinctions7("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdistinctions7("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "The new law makes no distinction between adults and children (= treats them equally).",
+            kurdishText: "یاساکە جیاوازی نێوان گەورە و منداڵ ناکات.",
+            onPressedBritish: () => speakdistinctions7("en-GB"),
+            onPressedAmerican: () => speakdistinctions7("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "All groups are entitled to this money without distinction."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "ھەموو گرووپەکان مافیان بەسەر ئەم پارەوە ھەیە بەبێ جیاوازی."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdistinctions8("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdistinctions8("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "All groups are entitled to this money without distinction.",
+            kurdishText:
+                "ھەموو گرووپەکان مافیان بەسەر ئەم پارەوە ھەیە بەبێ جیاوازی.",
+            onPressedBritish: () => speakdistinctions8("en-GB"),
+            onPressedAmerican: () => speakdistinctions8("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: "٣. (ناو) ئەوەی کە شتێکی تایبەت بیت"),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "She had the distinction of being the first woman to fly the Atlantic."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "ئەو تایبەتییەی ھەبوو کە یەکەم ژن بوو بەسەر زەریای ئەتڵەسیدا بفڕێت."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdistinctions9("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdistinctions9("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "She had the distinction of being the first woman to fly the Atlantic.",
+            kurdishText:
+                "ئەو تایبەتییەی ھەبوو کە یەکەم ژن بوو بەسەر زەریای ئەتڵەسیدا بفڕێت.",
+            onPressedBritish: () => speakdistinctions9("en-GB"),
+            onPressedAmerican: () => speakdistinctions9("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "New York does not have the nation's oldest subway system; that distinction belongs to Boston."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "نیویۆرک کۆنترین سیستەمی شەمەندەفەری ژێرزەوی نییە؛ ئەو شانازییە ھی بۆستنە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdistinctions10("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdistinctions10("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "New York does not have the nation's oldest subway system; that distinction belongs to Boston.",
+            kurdishText:
+                "نیویۆرک کۆنترین سیستەمی شەمەندەفەری ژێرزەوی نییە؛ ئەو شانازییە ھی بۆستنە.",
+            onPressedBritish: () => speakdistinctions10("en-GB"),
+            onPressedAmerican: () => speakdistinctions10("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٣. (ناو) خاسیەتی ئەوەی کە نایاب یان گرنگ بیت"),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "She is a historian of great distinction."),
-                    ExampleSentenceKurdish(text: "مێژوونووسێکی خاوەن پێگەیە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdistinctions11("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdistinctions11("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "She is a historian of great distinction.",
+            kurdishText: "مێژوونووسێکی خاوەن پێگەیە.",
+            onPressedBritish: () => speakdistinctions11("en-GB"),
+            onPressedAmerican: () => speakdistinctions11("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "He served with distinction in the First World War."),
-                    ExampleSentenceKurdish(
-                        text: "بە ئیمتیازەوە لە جەنگی یەکەمی جیھان جەنگا."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdistinctions12("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdistinctions12("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "He served with distinction in the First World War.",
+            kurdishText: "بە ئیمتیازەوە لە جەنگی یەکەمی جیھان جەنگا.",
+            onPressedBritish: () => speakdistinctions12("en-GB"),
+            onPressedAmerican: () => speakdistinctions12("en-US"),
           ),
           // distinctions1300"),
           // speakdistinctions13

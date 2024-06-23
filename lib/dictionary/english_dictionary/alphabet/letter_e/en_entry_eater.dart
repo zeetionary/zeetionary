@@ -371,56 +371,20 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   """١. (ناو) کەسێک یان ئاژەڵێک کە شتێکی دیاریکراو دەخوات یان بەشێوەیەکی دیاریکراو دەیخوات"""),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: """He's a big eater (= he eats a lot)."""),
-                    ExampleSentenceKurdish(text: """بخۆرێکی گەورەیە."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "eater", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakeaters1("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakeaters1("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: """He's a big eater (= he eats a lot).""",
+            kurdishText: """بخۆرێکی گەورەیە.""", // eater
+            onPressedBritish: () => speakeaters1("en-GB"),
+            onPressedAmerican: () => speakeaters1("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: """We're not great meat eaters."""),
-                    ExampleSentenceKurdish(text: """گۆشتخۆری باش نیین."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakeaters2("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakeaters2("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: """We're not great meat eaters.""",
+            kurdishText: """گۆشتخۆری باش نیین.""",
+            onPressedBritish: () => speakeaters2("en-GB"),
+            onPressedAmerican: () => speakeaters2("en-US"),
           ),
           // eaters300eaters3
           // speakeaters3

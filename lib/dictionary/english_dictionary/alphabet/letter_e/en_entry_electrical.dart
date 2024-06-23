@@ -371,59 +371,21 @@ class KurdishMeaning extends StatelessWidget {
 """),
           const DefinitionKurdish(
               text: """١. (ھاوەڵناو) پەوەندیدار بە کارەبا"""),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: """I think it's got an electrical fault."""),
-                    ExampleSentenceKurdish(
-                        text: """پێموایە کێشەیەکی کارەبایی ھەیە."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "electrical", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakelectricals1("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakelectricals1("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: """I think it's got an electrical fault.""",
+            kurdishText: """پێموایە کێشەیەکی کارەبایی ھەیە.""", // electrical
+            onPressedBritish: () => speakelectricals1("en-GB"),
+            onPressedAmerican: () => speakelectricals1("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            """There is a 25% discount on all electrical goods until the end of the week."""),
-                    ExampleSentenceKurdish(
-                        text: """داشکاندنی ٢٥٪ ھەیە تاوەکو کۆتایی ھەفتەکە."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakelectricals2("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakelectricals2("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                """There is a 25% discount on all electrical goods until the end of the week.""",
+            kurdishText: """داشکاندنی ٢٥٪ ھەیە تاوەکو کۆتایی ھەفتەکە.""",
+            onPressedBritish: () => speakelectricals2("en-GB"),
+            onPressedAmerican: () => speakelectricals2("en-US"),
           ),
           // electricals300electricals3
           // speakelectricals3

@@ -264,115 +264,39 @@ class KurdishMeaning extends StatelessWidget {
 """),
           const DefinitionKurdish(
               text: "١. (ھاوەڵناو) بەبێ خواردن، خۆراک، ھتد کە گرنگن"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "He had a deprived childhood in a London slum."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "منداڵییەکی ھەژاری ھەبوو لە ھەژاراوایەکی لەندەن."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "deprived", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdepriveds1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdepriveds1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "He had a deprived childhood in a London slum.",
+            kurdishText:
+                "منداڵییەکی ھەژاری ھەبوو لە ھەژاراوایەکی لەندەن.", // deprived
+            onPressedBritish: () => speakdepriveds1("en-GB"),
+            onPressedAmerican: () => speakdepriveds1("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "He took pictures in deprived areas of the city."),
-                    ExampleSentenceKurdish(
-                        text: "وێنەی ناوچە ھەژارنشینەکانی شارەکە گرت."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdepriveds2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdepriveds2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "He took pictures in deprived areas of the city.",
+            kurdishText: "وێنەی ناوچە ھەژارنشینەکانی شارەکە گرت.",
+            onPressedBritish: () => speakdepriveds2("en-GB"),
+            onPressedAmerican: () => speakdepriveds2("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "The workers were deprived of fair wages."),
-                    ExampleSentenceKurdish(
-                        text: "کرێکارەکان دابڕاو کرابوون لە مووچەی یەکسان."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdepriveds3("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdepriveds3("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "The workers were deprived of fair wages.",
+            kurdishText: "کرێکارەکان دابڕاو کرابوون لە مووچەی یەکسان.",
+            onPressedBritish: () => speakdepriveds3("en-GB"),
+            onPressedAmerican: () => speakdepriveds3("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "She grew up deprived of love."),
-                    ExampleSentenceKurdish(text: "بەبێ خۆشەویستی گەورە بوو."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdepriveds4("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdepriveds4("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "She grew up deprived of love.",
+            kurdishText: "بەبێ خۆشەویستی گەورە بوو.",
+            onPressedBritish: () => speakdepriveds4("en-GB"),
+            onPressedAmerican: () => speakdepriveds4("en-US"),
           ),
           // depriveds500"),
           // speakdepriveds5

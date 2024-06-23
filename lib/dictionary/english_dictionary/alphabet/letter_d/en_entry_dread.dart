@@ -403,173 +403,60 @@ class KurdishMeaning extends StatelessWidget {
 کوردی: ترس، تۆقین، خۆف، باک، سام، ئەندێش، ترۆر، نیگەرانی، دڵەڕاوکێ،	مایەی ترس، مایەی نیگەرانی، مایەی تۆقین، ترسێنەر، تۆقێنەر، جێی‌ترس
 """),
           const DefinitionKurdish(text: "١. (کردار) زۆر ترسان لە شتێک"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "This was the moment he had been dreading."),
-                    ExampleSentenceKurdish(
-                        text: "ئەمە ئەو ساتە بوو کە لێی دەترسا."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "dread", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdreads1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdreads1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "This was the moment he had been dreading.",
+            kurdishText: "ئەمە ئەو ساتە بوو کە لێی دەترسا.", // dread
+            onPressedBritish: () => speakdreads1("en-GB"),
+            onPressedAmerican: () => speakdreads1("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(text: "I dread being sick."),
-                    ExampleSentenceKurdish(text: "تۆقاوم لەوەی نەخۆش بم."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdreads2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdreads2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "I dread being sick.",
+            kurdishText: "تۆقاوم لەوەی نەخۆش بم.",
+            onPressedBritish: () => speakdreads2("en-GB"),
+            onPressedAmerican: () => speakdreads2("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "She dreads her husband finding out."),
-                    ExampleSentenceKurdish(
-                        text: "تۆقاوە لەوەی ھاوژینەکەی بزانێت."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdreads3("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdreads3("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "She dreads her husband finding out.",
+            kurdishText: "تۆقاوە لەوەی ھاوژینەکەی بزانێت.",
+            onPressedBritish: () => speakdreads3("en-GB"),
+            onPressedAmerican: () => speakdreads3("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
                   "٢. (ناو) ترسێکی زۆر لە شتێک کە لە داھاتوودا ڕوودەدات  یان لەوانەیە ڕووبدات"),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "She has an irrational dread of hospitals."),
-                    ExampleSentenceKurdish(
-                        text: "ترسێکی نائەقڵانی لە نەخۆشخانە ھەیە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdreads4("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdreads4("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "She has an irrational dread of hospitals.",
+            kurdishText: "ترسێکی نائەقڵانی لە نەخۆشخانە ھەیە.",
+            onPressedBritish: () => speakdreads4("en-GB"),
+            onPressedAmerican: () => speakdreads4("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The committee members live in dread of (= are always worried about) anything that may cause a scandal."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "ئەندامانی لیژنەکە بەردەوام تۆقاون لە ھەر شتێک کە ئابڕووچوونێک درووست بکات."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdreads5("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdreads5("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "The committee members live in dread of (= are always worried about) anything that may cause a scandal.",
+            kurdishText:
+                "ئەندامانی لیژنەکە بەردەوام تۆقاون لە ھەر شتێک کە ئابڕووچوونێک درووست بکات.",
+            onPressedBritish: () => speakdreads5("en-GB"),
+            onPressedAmerican: () => speakdreads5("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "My greatest dread is that my parents will find out."),
-                    ExampleSentenceKurdish(
-                        text: "گەورەترین ترسم ئەوەیە دایبابم بزانن."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdreads6("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdreads6("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "My greatest dread is that my parents will find out.",
+            kurdishText: "گەورەترین ترسم ئەوەیە دایبابم بزانن.",
+            onPressedBritish: () => speakdreads6("en-GB"),
+            onPressedAmerican: () => speakdreads6("en-US"),
           ),
           // dreads700"),
           // speakdreads7

@@ -372,60 +372,22 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "١. (ناو) ئەو ماوەی ژیان کە پیر بوویت و ناتوانیت بە ڕوونی بیر بکەیتەوە"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "I need you to look after me in my dotage."),
-                    ExampleSentenceKurdish(
-                        text: "ئەوەم لێت دەوێت ئاگات لێم بێت لە پیرییمدا."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "dotage", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdotages1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdotages1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "I need you to look after me in my dotage.",
+            kurdishText: "ئەوەم لێت دەوێت ئاگات لێم بێت لە پیرییمدا.", // dotage
+            onPressedBritish: () => speakdotages1("en-GB"),
+            onPressedAmerican: () => speakdotages1("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The women now share their dotage in the old folks' home."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "دوو ژنەکە ئێستا تەمەنی پیریان بەسەر دەبەن لە خانەی بەساڵاچووان."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdotages2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdotages2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "The women now share their dotage in the old folks' home.",
+            kurdishText:
+                "دوو ژنەکە ئێستا تەمەنی پیریان بەسەر دەبەن لە خانەی بەساڵاچووان.",
+            onPressedBritish: () => speakdotages2("en-GB"),
+            onPressedAmerican: () => speakdotages2("en-US"),
           ),
           // dotages300"),
           // speakdotages3

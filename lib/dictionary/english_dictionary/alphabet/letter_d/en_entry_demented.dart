@@ -249,60 +249,21 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "١. (ھاوەڵناو) ڕەفتارکردن بەشێوەیەکی شێتانە بەھۆی ئەوەی تەواو بێزار یان نیگەرانیت"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "I've been nearly demented with worry about you."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "بە نزیکەیی سەرلێشێواو بوومە بە نیگەرانی سەبارەت بە تۆ."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "demented", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdementeds1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdementeds1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "I've been nearly demented with worry about you.",
+            kurdishText:
+                "بە نزیکەیی سەرلێشێواو بوومە بە نیگەرانی سەبارەت بە تۆ.", // demented
+            onPressedBritish: () => speakdementeds1("en-GB"),
+            onPressedAmerican: () => speakdementeds1("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "The children have driven me demented today."),
-                    ExampleSentenceKurdish(
-                        text: "منداڵەکان ئەمڕۆ شێتیان کردووم."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdementeds2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdementeds2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "The children have driven me demented today.",
+            kurdishText: "منداڵەکان ئەمڕۆ شێتیان کردووم.",
+            onPressedBritish: () => speakdementeds2("en-GB"),
+            onPressedAmerican: () => speakdementeds2("en-US"),
           ),
           // dementeds300"),
           // speakdementeds3

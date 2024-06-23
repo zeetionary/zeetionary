@@ -379,85 +379,29 @@ class KurdishMeaning extends StatelessWidget {
 """),
           const DefinitionKurdish(
               text: "١. (کردار) چەمانەوە، شۆڕبوونەوە، یان جوڵان بۆ خوارەوە"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "She was so tired, her eyelids were beginning to droop."),
-                    ExampleSentenceKurdish(
-                        text: "زۆر ماندوو بوو کە پێڵووی چاوانی شۆڕبووبوونەوە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "droop", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdroops1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdroops1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "She was so tired, her eyelids were beginning to droop.",
+            kurdishText:
+                "زۆر ماندوو بوو کە پێڵووی چاوانی شۆڕبووبوونەوە.", // droop
+            onPressedBritish: () => speakdroops1("en-GB"),
+            onPressedAmerican: () => speakdroops1("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "The plants were drooping from lack of water."),
-                    ExampleSentenceKurdish(
-                        text: "ڕووەکەکان بەھۆی کەم‌ئاوییەوە شۆڕبووبوونەوە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdroops2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdroops2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "The plants were drooping from lack of water.",
+            kurdishText: "ڕووەکەکان بەھۆی کەم‌ئاوییەوە شۆڕبووبوونەوە.",
+            onPressedBritish: () => speakdroops2("en-GB"),
+            onPressedAmerican: () => speakdroops2("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: "٢. (کردار) دڵتەنگی یان بێزاربوون"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "Our spirits drooped when we heard the news."),
-                    ExampleSentenceKurdish(
-                        text: "دڵ و دەروونمان گیرا کە ھەواڵەکەمان بیست."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdroops3("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdroops3("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "Our spirits drooped when we heard the news.",
+            kurdishText: "دڵ و دەروونمان گیرا کە ھەواڵەکەمان بیست.",
+            onPressedBritish: () => speakdroops3("en-GB"),
+            onPressedAmerican: () => speakdroops3("en-US"),
           ),
           // droops400"),
           // speakdroops4

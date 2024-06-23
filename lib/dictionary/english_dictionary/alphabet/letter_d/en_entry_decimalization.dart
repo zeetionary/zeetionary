@@ -235,32 +235,13 @@ class KurdishMeaning extends StatelessWidget {
 """),
           const DefinitionKurdish(
               text: "١. (ناو) پڕۆسەی گۆڕینی سیستەمێک بۆ سیستەمی دەیان"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The government announced plans for the decimalization of the currency."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "حکومەت ڕایگەیاند پلانی ھەیە بۆ بە دەیانکردنی دراو."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "decimalization", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdecimalizations1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdecimalizations1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "The government announced plans for the decimalization of the currency.",
+            kurdishText:
+                "حکومەت ڕایگەیاند پلانی ھەیە بۆ بە دەیانکردنی دراو.", // decimalization
+            onPressedBritish: () => speakdecimalizations1("en-GB"),
+            onPressedAmerican: () => speakdecimalizations1("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "٢. (ھاوەڵناو) پێنناسە"),

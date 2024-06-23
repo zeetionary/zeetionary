@@ -249,84 +249,27 @@ class KurdishMeaning extends StatelessWidget {
 """),
           const DefinitionKurdish(
               text: "١. (ناو) ماوەی دە ساڵ، بەتایبەتی بە دوای یەکدا"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "The nineties were a decade of rapid advances."),
-                    ExampleSentenceKurdish(
-                        text: "نەوەدەکان دەیەی پێشکەوتنێکی خێرا بوو."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "decade", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdecades1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdecades1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "The nineties were a decade of rapid advances.",
+            kurdishText: "نەوەدەکان دەیەی پێشکەوتنێکی خێرا بوو.", // decade
+            onPressedBritish: () => speakdecades1("en-GB"),
+            onPressedAmerican: () => speakdecades1("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: " He's changed a lot over the past decade."),
-                    ExampleSentenceKurdish(
-                        text: "زۆر گۆڕاوە لە ماوەی دە ساڵی ڕابردوودا."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdecades2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdecades2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: " He's changed a lot over the past decade.",
+            kurdishText: "زۆر گۆڕاوە لە ماوەی دە ساڵی ڕابردوودا.",
+            onPressedBritish: () => speakdecades2("en-GB"),
+            onPressedAmerican: () => speakdecades2("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The war may be short but the environmental impacts could last for decades."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "جەنگەکە ڕەنگە کورتخایەن بێت، بەڵام کاریگەرییە کورتخایەنەکانی دەکرێت دەیان ساڵ بخەیەنێت."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdecades3("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdecades3("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "The war may be short but the environmental impacts could last for decades.",
+            kurdishText:
+                "جەنگەکە ڕەنگە کورتخایەن بێت، بەڵام کاریگەرییە کورتخایەنەکانی دەکرێت دەیان ساڵ بخەیەنێت.",
+            onPressedBritish: () => speakdecades3("en-GB"),
+            onPressedAmerican: () => speakdecades3("en-US"),
           ),
         ],
       ),

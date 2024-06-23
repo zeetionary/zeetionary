@@ -248,85 +248,29 @@ class KurdishMeaning extends StatelessWidget {
 // """),
           const DefinitionKurdish(
               text: "١. (کردار) گەورەبوون، فراوانبوون، یان زیاتر کرانەوە"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(text: "Her eyes dilated with fear."),
-                    ExampleSentenceKurdish(
-                        text: "چاوەکانی لە ترسدا گەورە بوون."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "dilate", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdilates1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdilates1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "Her eyes dilated with fear.",
+            kurdishText: "چاوەکانی لە ترسدا گەورە بوون.", // dilate
+            onPressedBritish: () => speakdilates1("en-GB"),
+            onPressedAmerican: () => speakdilates1("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "The medication dilates blood vessels."),
-                    ExampleSentenceKurdish(
-                        text: "دەرمانەکە موولوولەکانی خوێنی فراوان دەکرد."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdilates2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdilates2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "The medication dilates blood vessels.",
+            kurdishText: "دەرمانەکە موولوولەکانی خوێنی فراوان دەکرد.",
+            onPressedBritish: () => speakdilates2("en-GB"),
+            onPressedAmerican: () => speakdilates2("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "The patient’s pupils were dilated."),
-                    ExampleSentenceKurdish(
-                        text: "بیلبیلەکانی چاوی نەخۆشەکە گەورەبوون."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdilates3("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdilates3("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "The patient’s pupils were dilated.",
+            kurdishText: "بیلبیلەکانی چاوی نەخۆشەکە گەورەبوون.",
+            onPressedBritish: () => speakdilates3("en-GB"),
+            onPressedAmerican: () => speakdilates3("en-US"),
           ),
           // dilates400"),
           // speakdilates4

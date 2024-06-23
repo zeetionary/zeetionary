@@ -388,120 +388,43 @@ class KurdishMeaning extends StatelessWidget {
 """),
           const DefinitionKurdish(
               text: """١. (ھاوەڵناو) کردنی شتێک بەبێ بەفیڕۆدان"""),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: """We offer a fast and efficient service."""),
-                    ExampleSentenceKurdish(
-                        text:
-                            """خزمەتگوزارییەکی خێرا و کارامە پێشکەش دەکەین."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "efficient", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakefficients1("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakefficients1("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: """We offer a fast and efficient service.""",
+            kurdishText:
+                """خزمەتگوزارییەکی خێرا و کارامە پێشکەش دەکەین.""", // efficient
+            onPressedBritish: () => speakefficients1("en-GB"),
+            onPressedAmerican: () => speakefficients1("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            """This is simply the most efficient way to do it."""),
-                    ExampleSentenceKurdish(
-                        text: """ئەمە بەدڵنیاییەوە باشترین ڕێگایە بۆ کردنی."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakefficients2("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakefficients2("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: """This is simply the most efficient way to do it.""",
+            kurdishText: """ئەمە بەدڵنیاییەوە باشترین ڕێگایە بۆ کردنی.""",
+            onPressedBritish: () => speakefficients2("en-GB"),
+            onPressedAmerican: () => speakefficients2("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            """As we get older, our bodies become less efficient at burning up calories."""),
-                    ExampleSentenceKurdish(
-                        text:
-                            """کە بەتەمەنتر دەبین، لەشمان کەمتر کارامە دەبێت لە سوتاندنی کالۆری."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakefficients3("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakefficients3("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                """As we get older, our bodies become less efficient at burning up calories.""",
+            kurdishText:
+                """کە بەتەمەنتر دەبین، لەشمان کەمتر کارامە دەبێت لە سوتاندنی کالۆری.""",
+            onPressedBritish: () => speakefficients3("en-GB"),
+            onPressedAmerican: () => speakefficients3("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            """These magnificent animals were remarkably efficient at survival."""),
-                    ExampleSentenceKurdish(
-                        text:
-                            """ئەم ئاژەڵە ناوازانە تەواو بە شێوەیەکی بەرچاو کارامە بوون لە ڕزگاربووندا."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakefficients4("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakefficients4("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                """These magnificent animals were remarkably efficient at survival.""",
+            kurdishText:
+                """ئەم ئاژەڵە ناوازانە تەواو بە شێوەیەکی بەرچاو کارامە بوون لە ڕزگاربووندا.""",
+            onPressedBritish: () => speakefficients4("en-GB"),
+            onPressedAmerican: () => speakefficients4("en-US"),
           ),
           // efficients500efficients5
           // speakefficients5

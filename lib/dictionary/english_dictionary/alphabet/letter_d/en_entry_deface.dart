@@ -241,57 +241,18 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "١. (کردار) ناشرینکردنی شێوەی شتێک بە تایبەتی بە وێنەکێشان و نووسین لەسەری"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "They were charged with defacing public property."),
-                    ExampleSentenceKurdish(
-                        text: "تاوانبارکردن بە شێواندنی ماڵی گشتی."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "deface", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdefaces1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdefaces1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "They were charged with defacing public property.",
+            kurdishText: "تاوانبارکردن بە شێواندنی ماڵی گشتی.", // deface
+            onPressedBritish: () => speakdefaces1("en-GB"),
+            onPressedAmerican: () => speakdefaces1("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "He was fined for defacing library books."),
-                    ExampleSentenceKurdish(
-                        text: "سزادرا بۆ شێواندنی پەرتووکی کتێبخانە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdefaces2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdefaces2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "He was fined for defacing library books.",
+            kurdishText: "سزادرا بۆ شێواندنی پەرتووکی کتێبخانە.",
+            onPressedBritish: () => speakdefaces2("en-GB"),
+            onPressedAmerican: () => speakdefaces2("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "٣. (ھاوەڵناو) پێنناسە"),

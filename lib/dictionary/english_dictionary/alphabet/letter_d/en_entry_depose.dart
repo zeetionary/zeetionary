@@ -248,59 +248,22 @@ class KurdishMeaning extends StatelessWidget {
 کوردی: لابردن، وەلانان، لێوەرگرتنەوە
 """),
           const DefinitionKurdish(text: "١. (کردار) لادان لە دەسەڵات"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "He joined a rebellion to depose the repressive regime."),
-                    ExampleSentenceKurdish(
-                        text: "پەیوەندی بە شۆڕشێکەوە کرد بۆ لادانی ڕژێمەکە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "depose", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdeposes1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdeposes1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "He joined a rebellion to depose the repressive regime.",
+            kurdishText:
+                "پەیوەندی بە شۆڕشێکەوە کرد بۆ لادانی ڕژێمەکە.", // depose
+            onPressedBritish: () => speakdeposes1("en-GB"),
+            onPressedAmerican: () => speakdeposes1("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "The president was deposed in a military coup."),
-                    ExampleSentenceKurdish(
-                        text: "سەرۆکەکە لە کودەتایەکی سەربازیدا لادرا."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdeposes2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdeposes2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "The president was deposed in a military coup.",
+            kurdishText: "سەرۆکەکە لە کودەتایەکی سەربازیدا لادرا.",
+            onPressedBritish: () => speakdeposes2("en-GB"),
+            onPressedAmerican: () => speakdeposes2("en-US"),
           ),
           // deposes300"),
           // speakdeposes3

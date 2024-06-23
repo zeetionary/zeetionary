@@ -406,184 +406,66 @@ class KurdishMeaning extends StatelessWidget {
 کوردی: وشکی، زوھایی،	کەم‌بارانی، بێ‌بارانی، بێ‌ئاوی،	ساردوسڕی، وشکی، کەمتەرخەمی، گوێ‌پێ‌نەدان
 """),
           const DefinitionKurdish(text: "١. (ناو) وشکێتی"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "The medicine may cause dryness of the mouth."),
-                    ExampleSentenceKurdish(
-                        text: "دەرمانەکە ڕەنگە ببێتە ھۆکاری وشکێتی دەم."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "dryness", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdrynesss1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdrynesss1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "The medicine may cause dryness of the mouth.",
+            kurdishText: "دەرمانەکە ڕەنگە ببێتە ھۆکاری وشکێتی دەم.", // dryness
+            onPressedBritish: () => speakdrynesss1("en-GB"),
+            onPressedAmerican: () => speakdrynesss1("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: "٢. (ناو) کەم‌بارانی"),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The result of this summer's dryness was a poor harvest."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "ئەنجامی کەم‌بارانی ئەم ھاوینە کەمی بەرھەم بووە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdrynesss2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdrynesss2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "The result of this summer's dryness was a poor harvest.",
+            kurdishText: "ئەنجامی کەم‌بارانی ئەم ھاوینە کەمی بەرھەم بووە.",
+            onPressedBritish: () => speakdrynesss2("en-GB"),
+            onPressedAmerican: () => speakdrynesss2("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
                   "٣. (ناو) نەبوونی چەوری سرووشتی کە پێست یان موو تەندرووست و نەرم دەکات"),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "Regular application of the lotion will help prevent dryness of the skin."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "بەردەوام بەکارھێنانی کرێمەکە دەکرێت ڕێگا لە وشکێتی پێست بگرێت."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdrynesss3("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdrynesss3("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "Regular application of the lotion will help prevent dryness of the skin.",
+            kurdishText:
+                "بەردەوام بەکارھێنانی کرێمەکە دەکرێت ڕێگا لە وشکێتی پێست بگرێت.",
+            onPressedBritish: () => speakdrynesss3("en-GB"),
+            onPressedAmerican: () => speakdrynesss3("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: "٤. (ناو) ئەوەی کە شەرابێک شیرین نییە"),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "This chart shows the scale of dryness of red and white wines."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "ئەم ھێڵکارییە ئاستی کەم شەکری شەرابی سوور و سپی پیشان دەدات."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdrynesss4("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdrynesss4("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "This chart shows the scale of dryness of red and white wines.",
+            kurdishText:
+                "ئەم ھێڵکارییە ئاستی کەم شەکری شەرابی سوور و سپی پیشان دەدات.",
+            onPressedBritish: () => speakdrynesss4("en-GB"),
+            onPressedAmerican: () => speakdrynesss4("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٥. (ناو) ئەوەی کە  شۆخییەک بە زیرەکانە و نھێنی بێت"),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "Not everyone appreciated the dryness of his humour."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "ھەموو کەس نەیدەتوانی پێشبینی زیرەکیی گاڵتەوگەپەکەی بکات."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdrynesss5("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdrynesss5("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "Not everyone appreciated the dryness of his humour.",
+            kurdishText:
+                "ھەموو کەس نەیدەتوانی پێشبینی زیرەکیی گاڵتەوگەپەکەی بکات.",
+            onPressedBritish: () => speakdrynesss5("en-GB"),
+            onPressedAmerican: () => speakdrynesss5("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٦. (ناو) شتێک، بەتایبەتی نووسین، کە سەرنجڕاکێش نییە"),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "He defended her prose against the charge of dryness."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "پشتگیری لە پەخشانەکەی دژ بەوەی کە وشک و ناخۆش بێت."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdrynesss6("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdrynesss6("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "He defended her prose against the charge of dryness.",
+            kurdishText: "پشتگیری لە پەخشانەکەی دژ بەوەی کە وشک و ناخۆش بێت.",
+            onPressedBritish: () => speakdrynesss6("en-GB"),
+            onPressedAmerican: () => speakdrynesss6("en-US"),
           ),
           // drynesss700"),
           // speakdrynesss7

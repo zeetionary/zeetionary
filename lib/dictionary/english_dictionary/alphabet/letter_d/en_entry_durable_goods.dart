@@ -365,32 +365,12 @@ class KurdishMeaning extends StatelessWidget {
               text:
                   "١. (ناو) ئەو کەلووپەلانەی کە بۆ ماوەیەکی زۆر بەردەوام دەبن لە دوای کڕینیان، بۆ نموونە ئۆتۆمبێل، تەلەفیزیۆن، ھتد"),
           const AlsoEnglishckb(word: "ھەروەھا: consumer durables، durables"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            """People buy durable goods for long-term use."""),
-                    ExampleSentenceKurdish(
-                        text:
-                            """خەڵکی کەلووپەلە قایمەکان دەکڕن بۆ بەکارھێنانی درێژخایەن."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "durable goods", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdurablegoodss1("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdurablegoodss1("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: """People buy durable goods for long-term use.""",
+            kurdishText:
+                """خەڵکی کەلووپەلە قایمەکان دەکڕن بۆ بەکارھێنانی درێژخایەن.""", // durable goods
+            onPressedBritish: () => speakdurablegoodss1("en-GB"),
+            onPressedAmerican: () => speakdurablegoodss1("en-US"),
           ),
           // durablegoodss200
           // speakdurablegoodss2

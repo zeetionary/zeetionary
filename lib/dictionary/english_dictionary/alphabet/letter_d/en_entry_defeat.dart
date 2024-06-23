@@ -336,362 +336,111 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "١. (کردار) بردنەوە دژ بە کەسێک لە جەنگ، ڕکابەری، یاری وەرزشی، ھتد"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "He defeated the champion in three sets."),
-                    ExampleSentenceKurdish(
-                        text: "پاڵەوانەکەی لە سێ قۆناغدا تێکشکاند."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "defeat", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdefeats1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdefeats1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "He defeated the champion in three sets.",
+            kurdishText: "پاڵەوانەکەی لە سێ قۆناغدا تێکشکاند.", // defeat
+            onPressedBritish: () => speakdefeats1("en-GB"),
+            onPressedAmerican: () => speakdefeats1("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The goal is to defeat the enemy by whatever means possible."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "ئامانجەکە تێکشکاندنی دوژمنە بە ھەر ڕێگایەک پێویست بکات."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdefeats2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdefeats2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "The goal is to defeat the enemy by whatever means possible.",
+            kurdishText:
+                "ئامانجەکە تێکشکاندنی دوژمنە بە ھەر ڕێگایەک پێویست بکات.",
+            onPressedBritish: () => speakdefeats2("en-GB"),
+            onPressedAmerican: () => speakdefeats2("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "Garibaldi defeated the Neapolitan army."),
-                    ExampleSentenceKurdish(
-                        text: "گاریباڵدی سوپای ناپۆلیۆنی تێکشکاند."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdefeats3("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdefeats3("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "Garibaldi defeated the Neapolitan army.",
+            kurdishText: "گاریباڵدی سوپای ناپۆلیۆنی تێکشکاند.",
+            onPressedBritish: () => speakdefeats3("en-GB"),
+            onPressedAmerican: () => speakdefeats3("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "It was said that he could not be defeated in battle."),
-                    ExampleSentenceKurdish(
-                        text: "دەگوترا کە نەدەکرا لە شەڕدا تێکنشکێنرێت."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdefeats4("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdefeats4("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "It was said that he could not be defeated in battle.",
+            kurdishText: "دەگوترا کە نەدەکرا لە شەڕدا تێکنشکێنرێت.",
+            onPressedBritish: () => speakdefeats4("en-GB"),
+            onPressedAmerican: () => speakdefeats4("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٢. (کردار) وەستاندنی کەسێک لە سەرکەوتن"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "They are united in their determination to defeat global terrorism."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "یەکگرتوون لە شێلگیرییان بۆ لەناوبردنی تیرۆریزم."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdefeats5("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdefeats5("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "They are united in their determination to defeat global terrorism.",
+            kurdishText: "یەکگرتوون لە شێلگیرییان بۆ لەناوبردنی تیرۆریزم.",
+            onPressedBritish: () => speakdefeats5("en-GB"),
+            onPressedAmerican: () => speakdefeats5("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The proposed bill was decisively defeated in Parliament."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "پڕۆژە پێشنیارکراوەکە بە توندی لە پەرلەماندا ڕەتکرایەوە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdefeats6("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdefeats6("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "The proposed bill was decisively defeated in Parliament.",
+            kurdishText:
+                "پڕۆژە پێشنیارکراوەکە بە توندی لە پەرلەماندا ڕەتکرایەوە.",
+            onPressedBritish: () => speakdefeats6("en-GB"),
+            onPressedAmerican: () => speakdefeats6("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "The motion was defeated by 19 votes."),
-                    ExampleSentenceKurdish(
-                        text: "پڕۆژە یاساکە بە ١٩ دەنگ ڕەتکرایەوە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdefeats7("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdefeats7("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "The motion was defeated by 19 votes.",
+            kurdishText: "پڕۆژە یاساکە بە ١٩ دەنگ ڕەتکرایەوە.",
+            onPressedBritish: () => speakdefeats7("en-GB"),
+            onPressedAmerican: () => speakdefeats7("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "Writing down your password so you remember it defeats the purpose of having a password."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "نووسینی تێپەڕەوشەیەک بۆ ئەوەی بەبیرت بێتەوە مەبەستی ھەبوونی تێپەڕەوشە ناھێڵێت."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdefeats8("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdefeats8("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "Writing down your password so you remember it defeats the purpose of having a password.",
+            kurdishText:
+                "نووسینی تێپەڕەوشەیەک بۆ ئەوەی بەبیرت بێتەوە مەبەستی ھەبوونی تێپەڕەوشە ناھێڵێت.",
+            onPressedBritish: () => speakdefeats8("en-GB"),
+            onPressedAmerican: () => speakdefeats8("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: "٣. (کردار) نەبوونی توانای تێگەشتن"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(text: "Question 6 defeated us."),
-                    ExampleSentenceKurdish(
-                        text: "پرسیاری شەش شکستی پێ ھێناین."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdefeats9("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdefeats9("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "Question 6 defeated us.",
+            kurdishText: "پرسیاری شەش شکستی پێ ھێناین.",
+            onPressedBritish: () => speakdefeats9("en-GB"),
+            onPressedAmerican: () => speakdefeats9("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٤. (ناو) شکستھێنان لە بردنەوە یان سەرکەوتن"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "The party faces defeat in the election."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "پارتەکە لە ھەڵبژاردنەکەدا ڕووبەڕووی شکست دەبێتەوە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdefeats10("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdefeats10("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "The party faces defeat in the election.",
+            kurdishText: "پارتەکە لە ھەڵبژاردنەکەدا ڕووبەڕووی شکست دەبێتەوە.",
+            onPressedBritish: () => speakdefeats10("en-GB"),
+            onPressedAmerican: () => speakdefeats10("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The world champion has only had two defeats in 20 fights."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "پاڵەوانە نێودەوڵەتییەکە تەنھا دوو شکستی ھەبووە لە ٢٠ ڕووبەڕووبوونەوەدا."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdefeats11("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdefeats11("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "The world champion has only had two defeats in 20 fights.",
+            kurdishText:
+                "پاڵەوانە نێودەوڵەتییەکە تەنھا دوو شکستی ھەبووە لە ٢٠ ڕووبەڕووبوونەوەدا.",
+            onPressedBritish: () => speakdefeats11("en-GB"),
+            onPressedAmerican: () => speakdefeats11("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "They finally had to admit defeat (= stop trying to be successful)."),
-                    ExampleSentenceKurdish(
-                        text: "لە کۆتاییدا ناچاربوون دان بە شکستدا بنێن."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdefeats12("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdefeats12("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "They finally had to admit defeat (= stop trying to be successful).",
+            kurdishText: "لە کۆتاییدا ناچاربوون دان بە شکستدا بنێن.",
+            onPressedBritish: () => speakdefeats12("en-GB"),
+            onPressedAmerican: () => speakdefeats12("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: "٥. (ناو) تێکشکاندنی کەسێک/شتێک"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The army inflicted a heavy defeat on rebel forces."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "سوپا شکستێکی گەورەی ھێنا بەسەر ھێزە یاخیبووەکاندا."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdefeats13("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdefeats13("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "The army inflicted a heavy defeat on rebel forces.",
+            kurdishText: "سوپا شکستێکی گەورەی ھێنا بەسەر ھێزە یاخیبووەکاندا.",
+            onPressedBritish: () => speakdefeats13("en-GB"),
+            onPressedAmerican: () => speakdefeats13("en-US"),
           ),
         ],
       ),

@@ -235,32 +235,13 @@ class KurdishMeaning extends StatelessWidget {
 // """),
           const DefinitionKurdish(
               text: "١. (ناو) جۆرێک نەخۆشی سەخت کە دەبێتە ھۆکاری مەیینی خوێن"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "Passengers on long-haul flights are being warned about the risks of deep vein thrombosis."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "گەشتیارانی سەر گەشتە دوورەکان ئاگادار دەکرێنەوە سەبارەت بە مەترسییەکانی دی‌ڤی‌تی."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "deep vein thrombosis", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdeepveinthrombosiss1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdeepveinthrombosiss1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "Passengers on long-haul flights are being warned about the risks of deep vein thrombosis.",
+            kurdishText:
+                "گەشتیارانی سەر گەشتە دوورەکان ئاگادار دەکرێنەوە سەبارەت بە مەترسییەکانی دی‌ڤی‌تی.", // deep vein thrombosis
+            onPressedBritish: () => speakdeepveinthrombosiss1("en-GB"),
+            onPressedAmerican: () => speakdeepveinthrombosiss1("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "٢. (ھاوەڵناو) پێنناسە"),

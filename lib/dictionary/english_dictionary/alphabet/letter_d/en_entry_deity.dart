@@ -250,61 +250,23 @@ class KurdishMeaning extends StatelessWidget {
 کوردی: خودایی، خوایەتی، خودایەتی، خودا
 """),
           const DefinitionKurdish(text: "١. (ناو) خوداوەند یان خواژن"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "Many animals were seen as the manifestation of a deity."),
-                    ExampleSentenceKurdish(
-                        text: "زۆر ئاژەڵ لە وێنای خودادا دەبینران."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "deity", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdeitys1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdeitys1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "Many animals were seen as the manifestation of a deity.",
+            kurdishText: "زۆر ئاژەڵ لە وێنای خودادا دەبینران.", // deity
+            onPressedBritish: () => speakdeitys1("en-GB"),
+            onPressedAmerican: () => speakdeitys1("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "Ares and Aphrodite were the ancient Greek deities of war and love."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "ئارس و ئەفرۆدایت خوداوەندە کۆنەکانی یۆنان بوون بۆ جەنگ و خۆشەویستی."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdeitys2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdeitys2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "Ares and Aphrodite were the ancient Greek deities of war and love.",
+            kurdishText:
+                "ئارس و ئەفرۆدایت خوداوەندە کۆنەکانی یۆنان بوون بۆ جەنگ و خۆشەویستی.",
+            onPressedBritish: () => speakdeitys2("en-GB"),
+            onPressedAmerican: () => speakdeitys2("en-US"),
           ),
           // deitys300"),
           // speakdeitys3

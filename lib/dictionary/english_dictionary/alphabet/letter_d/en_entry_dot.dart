@@ -437,285 +437,95 @@ class KurdishMeaning extends StatelessWidget {
 کوردی: خاڵ، پنۆک، پن، پنت، چکێ، نەختێ، تۆزاڵێ، بڕێ، بڕێکی کەم
 """),
           const DefinitionKurdish(text: "١. (ناو) خاڵ"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "There are dots above the letters i and j."),
-                    ExampleSentenceKurdish(
-                        text: "خاڵ ھەیە لەسەر پیتەکانی i و j."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "dot", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdots1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdots1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "There are dots above the letters i and j.",
+            kurdishText: "خاڵ ھەیە لەسەر پیتەکانی i و j.", // dot
+            onPressedBritish: () => speakdots1("en-GB"),
+            onPressedAmerican: () => speakdots1("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The helicopters appeared as two black dots on the horizon."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "ھەلیکۆپتەرەکان وەک دوو خاڵی ڕەش لە ئاسۆدا دەردەکەوتن."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdots2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdots2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "The helicopters appeared as two black dots on the horizon.",
+            kurdishText:
+                "ھەلیکۆپتەرەکان وەک دوو خاڵی ڕەش لە ئاسۆدا دەردەکەوتن.",
+            onPressedBritish: () => speakdots2("en-GB"),
+            onPressedAmerican: () => speakdots2("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "The island is a small green dot on the map."),
-                    ExampleSentenceKurdish(
-                        text: "دوورگەکە خاڵێکی سەوزی بچووکە لەسەر نەخشەکە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdots3("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdots3("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "The island is a small green dot on the map.",
+            kurdishText: "دوورگەکە خاڵێکی سەوزی بچووکە لەسەر نەخشەکە.",
+            onPressedBritish: () => speakdots3("en-GB"),
+            onPressedAmerican: () => speakdots3("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: "٢. (ناو) خاڵێک لە ناوی وێبسایتێکدا"),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "\"What's the web address?\" \"www dot cambridge dot org\"."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "'ناونیشانی سەر ئیتەرنێت چییە؟' 'www dot cambridge dot org'."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdots4("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdots4("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "\"What's the web address?\" \"www dot cambridge dot org\".",
+            kurdishText:
+                "'ناونیشانی سەر ئیتەرنێت چییە؟' 'www dot cambridge dot org'.",
+            onPressedBritish: () => speakdots4("en-GB"),
+            onPressedAmerican: () => speakdots4("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٣. (ناو) ئەو ئاماژەیەی کۆدی مۆرس کە کورتترە لەوەی دیکە"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "Telegrams were sent using the complex dots and dashes of Morse code."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "تەلەگرامەکان بە بەکارھێنانی دۆت و داشی ئاڵۆزی کۆدی مۆرس دەنێردران."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdots5("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdots5("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "Telegrams were sent using the complex dots and dashes of Morse code.",
+            kurdishText:
+                "تەلەگرامەکان بە بەکارھێنانی دۆت و داشی ئاڵۆزی کۆدی مۆرس دەنێردران.",
+            onPressedBritish: () => speakdots5("en-GB"),
+            onPressedAmerican: () => speakdots5("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: "٤. (کردار) دانانی خاڵێک"),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "Why do you never dot your i's?"),
-                    ExampleSentenceKurdish(
-                        text: "بۆچی ھەرگیز خاڵ ناخەیتە سەر پیتە i ــەکانت؟"),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdots6("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdots6("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "Why do you never dot your i's?",
+            kurdishText: "بۆچی ھەرگیز خاڵ ناخەیتە سەر پیتە i ــەکانت؟",
+            onPressedBritish: () => speakdots6("en-GB"),
+            onPressedAmerican: () => speakdots6("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: "٥. (کردار) بڵاوکردنەوە بە ناوچەیەکدا"),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The countryside was dotted with small villages."),
-                    ExampleSentenceKurdish(text: "دەشتەکە پڕبوو لە گوند."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdots7("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdots7("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "The countryside was dotted with small villages.",
+            kurdishText: "دەشتەکە پڕبوو لە گوند.",
+            onPressedBritish: () => speakdots7("en-GB"),
+            onPressedAmerican: () => speakdots7("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "There are lots of Italian restaurants dotted around London."),
-                    ExampleSentenceKurdish(
-                        text: "ژمارەیەکی زۆر چێشتخانەی ئیتالی ھەن لە لەندەن."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdots8("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdots8("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "There are lots of Italian restaurants dotted around London.",
+            kurdishText: "ژمارەیەکی زۆر چێشتخانەی ئیتالی ھەن لە لەندەن.",
+            onPressedBritish: () => speakdots8("en-GB"),
+            onPressedAmerican: () => speakdots8("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "Small villages dot the countryside."),
-                    ExampleSentenceKurdish(
-                        text: "گوندی بچووک بە دەشتەکەدا بڵاوبوونە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdots9("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdots9("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "Small villages dot the countryside.",
+            kurdishText: "گوندی بچووک بە دەشتەکەدا بڵاوبوونە.",
+            onPressedBritish: () => speakdots9("en-GB"),
+            onPressedAmerican: () => speakdots9("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
                   "٦. (کردار) دانانی بڕێکی کەم لە شتێک لە ژمارەیەک شوێن یان لەسەر ڕوویەک"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                      text: "Dot your face with the cream.",
-                      note: "Similar: Dot the cream all over your face.",
-                    ),
-                    ExampleSentenceKurdish(text: "ڕووخسارت بگرە کرێم."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdots10("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdots10("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "Dot your face with the cream.",
+            englishNote: "Similar: Dot the cream all over your face.",
+            kurdishText: "ڕووخسارت بگرە کرێم.",
+            onPressedBritish: () => speakdots10("en-GB"),
+            onPressedAmerican: () => speakdots10("en-US"),
           ),
           // dots1100"),
           // speakdots11

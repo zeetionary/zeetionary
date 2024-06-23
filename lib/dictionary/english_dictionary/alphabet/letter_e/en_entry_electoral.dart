@@ -363,32 +363,13 @@ class KurdishMeaning extends StatelessWidget {
 // """),
           const DefinitionKurdish(
               text: """١. (ھاوەڵناو) پەیوەندیدار بە ھەڵبژاردن"""),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            """The committee endorses electoral reforms for fairer elections."""),
-                    ExampleSentenceKurdish(
-                        text:
-                            """لیژنەکە پشتگیری چاکسازی ھەڵبژاردن دەکات بۆ ھەڵبژاردنی دادەپەروەرانەتر."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "electoral", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakelectorals1("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakelectorals1("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                """The committee endorses electoral reforms for fairer elections.""",
+            kurdishText:
+                """لیژنەکە پشتگیری چاکسازی ھەڵبژاردن دەکات بۆ ھەڵبژاردنی دادەپەروەرانەتر.""", // electoral
+            onPressedBritish: () => speakelectorals1("en-GB"),
+            onPressedAmerican: () => speakelectorals1("en-US"),
           ),
           // electorals200electorals2
           // speakelectorals2

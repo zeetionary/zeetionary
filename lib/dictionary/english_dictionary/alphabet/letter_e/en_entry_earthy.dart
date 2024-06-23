@@ -371,59 +371,21 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   """١. (ھاوەڵناو) پەیوەندیدار بە جەستە، سێکس، ھتد بەشێوەیەکی کراوە و ڕاستەوخۆ کە ھەندێک کەس ڕەنگە بێ‌شەرمی یان جێگەی شەرمی ببینن """),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: """She has an earthy sense of humour."""),
-                    ExampleSentenceKurdish(
-                        text: """حەزی بێ‌شەرمانەی گاڵتەوگەپی ھەیە."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "earthy", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakearthys1("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakearthys1("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: """She has an earthy sense of humour.""",
+            kurdishText: """حەزی بێ‌شەرمانەی گاڵتەوگەپی ھەیە.""", // earthy
+            onPressedBritish: () => speakearthys1("en-GB"),
+            onPressedAmerican: () => speakearthys1("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text: """٢. (ھاوەڵناو) وەک یان پەیوەندیدار بە زەوی"""),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: """He enjoyed the earthy smell of the forest."""),
-                    ExampleSentenceKurdish(
-                        text: """چێژی لە بۆنی خۆڵاوی دارستانەکە بینی."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakearthys2("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakearthys2("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: """He enjoyed the earthy smell of the forest.""",
+            kurdishText: """چێژی لە بۆنی خۆڵاوی دارستانەکە بینی.""",
+            onPressedBritish: () => speakearthys2("en-GB"),
+            onPressedAmerican: () => speakearthys2("en-US"),
           ),
           // earthys300earthys3
           // speakearthys3

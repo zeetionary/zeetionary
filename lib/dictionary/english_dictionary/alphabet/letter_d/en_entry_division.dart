@@ -492,460 +492,152 @@ class KurdishMeaning extends StatelessWidget {
 کوردی: دابەشاندن، دابەش‌کردن، بەش‌کردن، پارڤەکر(د)ن، دەستە(دەستە)کردن، پۆلاندن، بەشاندن، بەش‌بەش‌کردن، کەرت(کەرت)کردن، قاش‌کردن،	کەرت، بەش، پشک، پار،	کێشە، دژایەتی، جیاوازی، ناتەبایی، ناسازی، من‌وتۆیی، کەلێن، کەلەبەر، دووبەرەکایەتی،	(بەتایبەت لە پارلێمانی بریتانیادا) دەنگ‌دان،	سنوور، ھێڵی جیاکردنەوە، جیاکار،	(سەربازی) لەشکر، سپا
 """),
           const DefinitionKurdish(text: "١. (ناو) پڕۆسەی دابەشکردن"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "he organism begins as a single cell and grows by cell division."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "گیانلەبەرەکە بە یەک خانە دەست پێدەکات و بە دابەشبوونی خانە گەشي دەکات."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "division", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdivisions1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdivisions1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "he organism begins as a single cell and grows by cell division.",
+            kurdishText:
+                "گیانلەبەرەکە بە یەک خانە دەست پێدەکات و بە دابەشبوونی خانە گەشي دەکات.", // division
+            onPressedBritish: () => speakdivisions1("en-GB"),
+            onPressedAmerican: () => speakdivisions1("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "We need to ensure a fair division of time and resources."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "دەبێت دڵنیایی بکەین لە دابەشکردنی یەکسانی کات و سەرچاوەکان."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdivisions2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdivisions2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "We need to ensure a fair division of time and resources.",
+            kurdishText:
+                "دەبێت دڵنیایی بکەین لە دابەشکردنی یەکسانی کات و سەرچاوەکان.",
+            onPressedBritish: () => speakdivisions2("en-GB"),
+            onPressedAmerican: () => speakdivisions2("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "His will detailed his assets and gave instructions for their division among his children."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "وەسیەتەکەی سامانەکەی دەخستەڕوو و ڕێنمایی دەدا بۆ دابەشکردنیان لە نێوان کوڕەکانیدا."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdivisions3("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdivisions3("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "His will detailed his assets and gave instructions for their division among his children.",
+            kurdishText:
+                "وەسیەتەکەی سامانەکەی دەخستەڕوو و ڕێنمایی دەدا بۆ دابەشکردنیان لە نێوان کوڕەکانیدا.",
+            onPressedBritish: () => speakdivisions3("en-GB"),
+            onPressedAmerican: () => speakdivisions3("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: "٢. (ناو) پڕۆسەی دابەشکردنی ژمارە"),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "She calculated the division by three in her head, quickly determining the answer."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "لە مێشکیدا بەسەر سێدا دابەشی کرد و زوو وەڵامەکەی دۆزییەوە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdivisions4("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdivisions4("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "She calculated the division by three in her head, quickly determining the answer.",
+            kurdishText:
+                "لە مێشکیدا بەسەر سێدا دابەشی کرد و زوو وەڵامەکەی دۆزییەوە.",
+            onPressedBritish: () => speakdivisions4("en-GB"),
+            onPressedAmerican: () => speakdivisions4("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: "٣. (ناو) جیاوازی یان ناکۆکی"),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "We choose peace over hatred and division."),
-                    ExampleSentenceKurdish(
-                        text: "ئاشتیمان ھەڵبژارد بەسەر ڕق و دووبەرەکایەتی."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdivisions5("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdivisions5("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "We choose peace over hatred and division.",
+            kurdishText: "ئاشتیمان ھەڵبژارد بەسەر ڕق و دووبەرەکایەتی.",
+            onPressedBritish: () => speakdivisions5("en-GB"),
+            onPressedAmerican: () => speakdivisions5("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "There are deep divisions in the party over the war."),
-                    ExampleSentenceKurdish(
-                        text: "دووبەرەکی قووڵ لە پارتکەدا ھەیە دژ بە جەنگەکە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdivisions6("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdivisions6("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "There are deep divisions in the party over the war.",
+            kurdishText: "دووبەرەکی قووڵ لە پارتکەدا ھەیە دژ بە جەنگەکە.",
+            onPressedBritish: () => speakdivisions6("en-GB"),
+            onPressedAmerican: () => speakdivisions6("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "Her comments appeared to have deepened divisions between the two countries."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "لێدوانەکانی وادەرکەوت کە جیاوازی نێوان دوو وڵاتەکە قووڵ بکاتەوە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdivisions7("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdivisions7("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "Her comments appeared to have deepened divisions between the two countries.",
+            kurdishText:
+                "لێدوانەکانی وادەرکەوت کە جیاوازی نێوان دوو وڵاتەکە قووڵ بکاتەوە.",
+            onPressedBritish: () => speakdivisions7("en-GB"),
+            onPressedAmerican: () => speakdivisions7("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "He has tried to sow division among the people."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "ھەوڵیداوە دووبەرەکی درووست بکات لەناو خەڵکەکەدا."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdivisions8("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdivisions8("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "He has tried to sow division among the people.",
+            kurdishText: "ھەوڵیداوە دووبەرەکی درووست بکات لەناو خەڵکەکەدا.",
+            onPressedBritish: () => speakdivisions8("en-GB"),
+            onPressedAmerican: () => speakdivisions8("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٤. (ناو) بەشێکی گەورە یان گرنگی دامەزراوەیەک"),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The company's sales division is going to be restructured."),
-                    ExampleSentenceKurdish(
-                        text: "بەشی فرۆشی کۆمپانیاکە دووبارە ڕێکدەخرێتەوە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdivisions9("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdivisions9("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "The company's sales division is going to be restructured.",
+            kurdishText: "بەشی فرۆشی کۆمپانیاکە دووبارە ڕێکدەخرێتەوە.",
+            onPressedBritish: () => speakdivisions9("en-GB"),
+            onPressedAmerican: () => speakdivisions9("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "She works in the marketing division."),
-                    ExampleSentenceKurdish(
-                        text: "لە لقی بەبازاڕکردن کار دەکات."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdivisions10("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdivisions10("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "She works in the marketing division.",
+            kurdishText: "لە لقی بەبازاڕکردن کار دەکات.",
+            onPressedBritish: () => speakdivisions10("en-GB"),
+            onPressedAmerican: () => speakdivisions10("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The company recently launched its publishing division."),
-                    ExampleSentenceKurdish(
-                        text: "کۆمپانیاکە تازەگی بەشی بڵاوکردنەوەی کردەوە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdivisions11("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdivisions11("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "The company recently launched its publishing division.",
+            kurdishText: "کۆمپانیاکە تازەگی بەشی بڵاوکردنەوەی کردەوە.",
+            onPressedBritish: () => speakdivisions11("en-GB"),
+            onPressedAmerican: () => speakdivisions11("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
                   "٥. (ناو) بەشێکی شارێک یان وڵاتێک کە بە بەشێکی جیاواز دادەنرێت بۆ مەبەستی بەڕێوەبردن"),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "Nagpur is the most eastern division in the state."),
-                    ExampleSentenceKurdish(
-                        text: "ناگپوور ڕۆژھەڵاتترین بەشی ویلایەتەکەیە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdivisions12("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdivisions12("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "Nagpur is the most eastern division in the state.",
+            kurdishText: "ناگپوور ڕۆژھەڵاتترین بەشی ویلایەتەکەیە.",
+            onPressedBritish: () => speakdivisions12("en-GB"),
+            onPressedAmerican: () => speakdivisions12("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
                   "٦. (ناو) گرووپێک لە ژمارەیەک تیم یان وەرزشکار کە دژ بە یەکدی ڕکابەری دەکەن"),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "The club will finish second in Division One."),
-                    ExampleSentenceKurdish(
-                        text: "یانەکە دووەم دەبێت لە کۆمەڵەی یەک."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdivisions13("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdivisions13("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "The club will finish second in Division One.",
+            kurdishText: "یانەکە دووەم دەبێت لە کۆمەڵەی یەک.",
+            onPressedBritish: () => speakdivisions13("en-GB"),
+            onPressedAmerican: () => speakdivisions13("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: "٧. (ناو) یەکەیەکی سوپا"),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The commander of the fourth infantry division defied orders."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "فەرمانداری یەکەی چوارەمی پیادە سەرپێچی بڕیارەکانی کرد."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdivisions14("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdivisions14("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "The commander of the fourth infantry division defied orders.",
+            kurdishText:
+                "فەرمانداری یەکەی چوارەمی پیادە سەرپێچی بڕیارەکانی کرد.",
+            onPressedBritish: () => speakdivisions14("en-GB"),
+            onPressedAmerican: () => speakdivisions14("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: "٨. (ناو) ھێڵێک کە شتێک دابەش دەکات"),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "A hedge forms the division between their land and ours."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "پەرژینێکی دەوەن زەوییەکەیان لە ھی ئێمە جیادەکاتەوە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdivisions15("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdivisions15("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "A hedge forms the division between their land and ours.",
+            kurdishText: "پەرژینێکی دەوەن زەوییەکەیان لە ھی ئێمە جیادەکاتەوە.",
+            onPressedBritish: () => speakdivisions15("en-GB"),
+            onPressedAmerican: () => speakdivisions15("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "Sometimes there is no simple division between good and evil."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "ھەندێک کات ھیچ جیاکەرەوەیەکی سادە نییە لە نێوان باش و خراپدا."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdivisions16("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdivisions16("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "Sometimes there is no simple division between good and evil.",
+            kurdishText:
+                "ھەندێک کات ھیچ جیاکەرەوەیەکی سادە نییە لە نێوان باش و خراپدا.",
+            onPressedBritish: () => speakdivisions16("en-GB"),
+            onPressedAmerican: () => speakdivisions16("en-US"),
           ),
           // divisions1700"),
           // speakdivisions17

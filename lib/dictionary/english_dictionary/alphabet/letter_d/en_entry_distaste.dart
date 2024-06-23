@@ -371,60 +371,22 @@ class KurdishMeaning extends StatelessWidget {
 """),
           const DefinitionKurdish(
               text: "١. (ناو) ھەستی ئەوەی کە کەسێک/شتێک بێزراوە"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "He looked around the filthy room in distaste."),
-                    ExampleSentenceKurdish(
-                        text: "بە بێزەوە سەیری ژوورە پیسەکەی کرد."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "distaste", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdistastes1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdistastes1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "He looked around the filthy room in distaste.",
+            kurdishText: "بە بێزەوە سەیری ژوورە پیسەکەی کرد.", // distaste
+            onPressedBritish: () => speakdistastes1("en-GB"),
+            onPressedAmerican: () => speakdistastes1("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "He couldn't hide his distaste at having to sleep in such a filthy room."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "نەیدەتوانی بێزی خۆی لەوە بشارێتەوە کە دەبێت لە ژوورێکی وەھا پیس بخەوێت."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdistastes2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdistastes2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "He couldn't hide his distaste at having to sleep in such a filthy room.",
+            kurdishText:
+                "نەیدەتوانی بێزی خۆی لەوە بشارێتەوە کە دەبێت لە ژوورێکی وەھا پیس بخەوێت.",
+            onPressedBritish: () => speakdistastes2("en-GB"),
+            onPressedAmerican: () => speakdistastes2("en-US"),
           ),
           // distastes300"),
           // speakdistastes3

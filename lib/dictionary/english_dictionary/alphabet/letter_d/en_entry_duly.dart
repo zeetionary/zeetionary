@@ -371,63 +371,23 @@ class KurdishMeaning extends StatelessWidget {
 """),
           const DefinitionKurdish(
               text: """١. (ھاوەڵکار) بەشێوەی درووست یان ڕاست"""),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            """The document was duly signed by the inspector."""),
-                    ExampleSentenceKurdish(
-                        text:
-                            """بەڵگەنامەکە بە درووستی لەلایەن پشکنەرەکەوە واژۆکرا."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "duly", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdulys1("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdulys1("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: """The document was duly signed by the inspector.""",
+            kurdishText:
+                """بەڵگەنامەکە بە درووستی لەلایەن پشکنەرەکەوە واژۆکرا.""", // duly
+            onPressedBritish: () => speakdulys1("en-GB"),
+            onPressedAmerican: () => speakdulys1("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text: """٢. (ھاوەڵکار) لە کاتی چاوەڕوانکراو یان درووست"""),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            """They duly arrived at 9.30 in spite of torrential rain."""),
-                    ExampleSentenceKurdish(
-                        text:
-                            """لە وەختی خۆیدا ھاتن سەرەڕای بارانی بەلێزمە."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdulys2("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdulys2("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                """They duly arrived at 9.30 in spite of torrential rain.""",
+            kurdishText: """لە وەختی خۆیدا ھاتن سەرەڕای بارانی بەلێزمە.""",
+            onPressedBritish: () => speakdulys2("en-GB"),
+            onPressedAmerican: () => speakdulys2("en-US"),
           ),
           // dulys300
           // speakdulys3

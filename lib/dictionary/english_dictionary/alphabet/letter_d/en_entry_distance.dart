@@ -527,578 +527,191 @@ class KurdishMeaning extends StatelessWidget {
 کوردی: ڕێگا، مەودا، دووری، دۆژ، دوورەوە، جیاوازی، ماوە،	ساردی، ساردوسڕی، نەدوێنی، کەم‌قسەیی، نەمرچی،	کاکی‌بەکاکی، چۆڵگە، چۆڵەوار، دەشت
 """),
           const DefinitionKurdish(text: "١. (ناو) مەودای نێوان دوو کەس یان شت"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "Paul has to drive very long distances as part of his job."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "پاوڵ دەبێت مەودای زۆر ببڕێت وەک بەشێک لە کارەکەی."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "distance", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdistances1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdistances1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "Paul has to drive very long distances as part of his job.",
+            kurdishText:
+                "پاوڵ دەبێت مەودای زۆر ببڕێت وەک بەشێک لە کارەکەی.", // distance
+            onPressedBritish: () => speakdistances1("en-GB"),
+            onPressedAmerican: () => speakdistances1("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                      text: "What’s the distance from New York City to Boston?",
-                      note:
-                          "Also: What’s the distance between New York City and Boston?",
-                    ),
-                    ExampleSentenceKurdish(
-                        text: "مەودای نێوان نیویۆرک و بۆستن چەندە؟"),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdistances2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdistances2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "What’s the distance from New York City to Boston?",
+            englishNote:
+                "Also: What’s the distance between New York City and Boston?",
+            kurdishText: "مەودای نێوان نیویۆرک و بۆستن چەندە؟",
+            onPressedBritish: () => speakdistances2("en-GB"),
+            onPressedAmerican: () => speakdistances2("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The wind carries pollen over considerable distances."),
-                    ExampleSentenceKurdish(
-                        text: "با ھەڵاڵە بەسەر مەودای بەرچاودا دەبات."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdistances3("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdistances3("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "The wind carries pollen over considerable distances.",
+            kurdishText: "با ھەڵاڵە بەسەر مەودای بەرچاودا دەبات.",
+            onPressedBritish: () => speakdistances3("en-GB"),
+            onPressedAmerican: () => speakdistances3("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The beach is within walking distance of my house (= you can walk there easily)."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "کەنارەکە ھێندەی دووری بەپێ‌چوون دوورە لە ماڵەکەمەوە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdistances4("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdistances4("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "The beach is within walking distance of my house (= you can walk there easily).",
+            kurdishText: "کەنارەکە ھێندەی دووری بەپێ‌چوون دوورە لە ماڵەکەمەوە.",
+            onPressedBritish: () => speakdistances4("en-GB"),
+            onPressedAmerican: () => speakdistances4("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "In the US, distance is measured in miles."),
-                    ExampleSentenceKurdish(
-                        text: "لە ئەمریکا دووری بە میل دەپێورێت."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdistances5("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdistances5("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "In the US, distance is measured in miles.",
+            kurdishText: "لە ئەمریکا دووری بە میل دەپێورێت.",
+            onPressedBritish: () => speakdistances5("en-GB"),
+            onPressedAmerican: () => speakdistances5("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٢. (ناو) ئەوەی کە دوور بێت بەپێی کات یان مەودا"),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "Distance is no problem on the internet."),
-                    ExampleSentenceKurdish(
-                        text: "دووری لەسەر ئینتەرنێت کێشە نییە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdistances6("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdistances6("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "Distance is no problem on the internet.",
+            kurdishText: "دووری لەسەر ئینتەرنێت کێشە نییە.",
+            onPressedBritish: () => speakdistances6("en-GB"),
+            onPressedAmerican: () => speakdistances6("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "They don't see their family because of geographical distance."),
-                    ExampleSentenceKurdish(
-                        text: "خێزانەکەیان نابینن بەھۆی دووری جوگرافییەوە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdistances7("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdistances7("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "They don't see their family because of geographical distance.",
+            kurdishText: "خێزانەکەیان نابینن بەھۆی دووری جوگرافییەوە.",
+            onPressedBritish: () => speakdistances7("en-GB"),
+            onPressedAmerican: () => speakdistances7("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "No time or distance can limit this type of friendship."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "ھیچ کات یان مەودایەک ئەم جۆرە ھاوڕێیەتییە سنووردار ناکات."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdistances8("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdistances8("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "No time or distance can limit this type of friendship.",
+            kurdishText:
+                "ھیچ کات یان مەودایەک ئەم جۆرە ھاوڕێیەتییە سنووردار ناکات.",
+            onPressedBritish: () => speakdistances8("en-GB"),
+            onPressedAmerican: () => speakdistances8("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
                   "٣. (ناو) خاڵێک کە بە ڕێژەیەکی دیاریکراو دوورە لە شتێکی ترەوە"),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "You'll never get the ball in from that distance."),
-                    ExampleSentenceKurdish(
-                        text: "ھەرگیز لەو دوورییەوە تۆپەکە تێناخەیت."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdistances9("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdistances9("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "You'll never get the ball in from that distance.",
+            kurdishText: "ھەرگیز لەو دوورییەوە تۆپەکە تێناخەیت.",
+            onPressedBritish: () => speakdistances9("en-GB"),
+            onPressedAmerican: () => speakdistances9("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The cat sat and watched us from a safe distance."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "پشیلەکە لە دوورییەکی سەلامەتەوە دانیشت و سەیرمانی کرد."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdistances10("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdistances10("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "The cat sat and watched us from a safe distance.",
+            kurdishText:
+                "پشیلەکە لە دوورییەکی سەلامەتەوە دانیشت و سەیرمانی کرد.",
+            onPressedBritish: () => speakdistances10("en-GB"),
+            onPressedAmerican: () => speakdistances10("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "Visitors can only view the painting from a distance of three metres."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "سەردانکەران دەتوانن تابلۆکە ببینن تەنھا لە دووری سێ مەترەوە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdistances11("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdistances11("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "Visitors can only view the painting from a distance of three metres.",
+            kurdishText:
+                "سەردانکەران دەتوانن تابلۆکە ببینن تەنھا لە دووری سێ مەترەوە.",
+            onPressedBritish: () => speakdistances11("en-GB"),
+            onPressedAmerican: () => speakdistances11("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٤. (ناو) جیاوازی یان نەبوونی پەیوەندی نێوان دوو شت"),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The distance between fashion and art remains as great as ever."),
-                    ExampleSentenceKurdish(
-                        text: "مەودای نێوان فاشن و ھونەر وەک ھەمیشە زۆرە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdistances12("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdistances12("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "The distance between fashion and art remains as great as ever.",
+            kurdishText: "مەودای نێوان فاشن و ھونەر وەک ھەمیشە زۆرە.",
+            onPressedBritish: () => speakdistances12("en-GB"),
+            onPressedAmerican: () => speakdistances12("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The government is keen to put some distance between itself and these events (= show that there is no connection between them)."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "حکومەت مەیلی ھەیە ھەندێک مەودا بخاتە نێوان خۆی و ئەم ڕووداوانەوە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdistances13("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdistances13("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "The government is keen to put some distance between itself and these events (= show that there is no connection between them).",
+            kurdishText:
+                "حکومەت مەیلی ھەیە ھەندێک مەودا بخاتە نێوان خۆی و ئەم ڕووداوانەوە.",
+            onPressedBritish: () => speakdistances13("en-GB"),
+            onPressedAmerican: () => speakdistances13("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "Eddie is, by some distance (= by a great amount), the funniest character in the show."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "ئێدی بە مەودایەکی زۆر پێکەناویترین کارەکتەری بەرنامەکەیە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdistances14("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdistances14("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "Eddie is, by some distance (= by a great amount), the funniest character in the show.",
+            kurdishText:
+                "ئێدی بە مەودایەکی زۆر پێکەناویترین کارەکتەری بەرنامەکەیە.",
+            onPressedBritish: () => speakdistances14("en-GB"),
+            onPressedAmerican: () => speakdistances14("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
                   "٥. (ناو) دۆخێک کە تێیدا کەمی ھەستی ھاوڕێیەتی یان پەیوەندیی نزیک ھەیە لە نێوان دوو کەس یان گرووپدا"),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The coldness and distance in her voice took me by surprise."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "ساردوسڕی و مڕومۆچی لە دەنگیدا تووشی سوپرایزی کردم."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdistances15("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdistances15("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "The coldness and distance in her voice took me by surprise.",
+            kurdishText: "ساردوسڕی و مڕومۆچی لە دەنگیدا تووشی سوپرایزی کردم.",
+            onPressedBritish: () => speakdistances15("en-GB"),
+            onPressedAmerican: () => speakdistances15("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "There was a growing distance between the two sides of the family."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "دابڕانێکی تەشەنەکردوو ھەبوو لە نێوان دوو لایەنەکەی خێزانەکەدا."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdistances16("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdistances16("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "There was a growing distance between the two sides of the family.",
+            kurdishText:
+                "دابڕانێکی تەشەنەکردوو ھەبوو لە نێوان دوو لایەنەکەی خێزانەکەدا.",
+            onPressedBritish: () => speakdistances16("en-GB"),
+            onPressedAmerican: () => speakdistances16("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٦. (کردار) ئەوەی کە کەمتر تێکەڵ بیت لەگەڵ کەسێک/شتێک"),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "When he retired, he tried to distance himself from politics."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "کە خانەنشین بوو ھەوڵیدا خۆی لە سیاسەت دووربخاتەوە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdistances17("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdistances17("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "When he retired, he tried to distance himself from politics.",
+            kurdishText: "کە خانەنشین بوو ھەوڵیدا خۆی لە سیاسەت دووربخاتەوە.",
+            onPressedBritish: () => speakdistances17("en-GB"),
+            onPressedAmerican: () => speakdistances17("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The company has tried to distance itself from the remarks made by some of its employees."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "کۆمپانیاکە ھەوڵیداوە خۆی بێبەری بکات لەو لێدوانانەی کە لەلایەن ھەندێک کارمەندییەوە دراوە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdistances18("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdistances18("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "The company has tried to distance itself from the remarks made by some of its employees.",
+            kurdishText:
+                "کۆمپانیاکە ھەوڵیداوە خۆی بێبەری بکات لەو لێدوانانەی کە لەلایەن ھەندێک کارمەندییەوە دراوە.",
+            onPressedBritish: () => speakdistances18("en-GB"),
+            onPressedAmerican: () => speakdistances18("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
                   "٧. (کردار) دوورخستنەوەی کەسێک/شتێک لە کەسێک/شتێک یان ئەوەی پەیوەندیی نێوانیان نەھێڵیت"),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "Her mother wished to distance her from the rough village children."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "دایکی ھەوڵیدا دووری بخاتەوە لە منداڵە توندوتیژەکانی گوند."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdistances19("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdistances19("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "Her mother wished to distance her from the rough village children.",
+            kurdishText:
+                "دایکی ھەوڵیدا دووری بخاتەوە لە منداڵە توندوتیژەکانی گوند.",
+            onPressedBritish: () => speakdistances19("en-GB"),
+            onPressedAmerican: () => speakdistances19("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "These narrative techniques actually distance the reader from the story."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "تەکنیکەکانی گێڕانەوە لە ڕاستیدا خوێنەر لە چیرۆکەکە دادەبڕن."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdistances20("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdistances20("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "These narrative techniques actually distance the reader from the story.",
+            kurdishText:
+                "تەکنیکەکانی گێڕانەوە لە ڕاستیدا خوێنەر لە چیرۆکەکە دادەبڕن.",
+            onPressedBritish: () => speakdistances20("en-GB"),
+            onPressedAmerican: () => speakdistances20("en-US"),
           ),
           // distances2100"),
           // speakdistances21

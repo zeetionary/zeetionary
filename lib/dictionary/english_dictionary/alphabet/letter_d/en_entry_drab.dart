@@ -379,88 +379,31 @@ class KurdishMeaning extends StatelessWidget {
 """),
           const DefinitionKurdish(
               text: "١. (ھاوەڵناو) بێزارکەر؛ کە ھیچ جوانی و حەزی تێدا نییە"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "She longed to be out of the cold, drab little office."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "بەتاسە بوو کە لە ئۆفیسە بچووکە ناخۆش و ساردەکەی دەردەچێت."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "drab", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdrabs1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdrabs1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "She longed to be out of the cold, drab little office.",
+            kurdishText:
+                "بەتاسە بوو کە لە ئۆفیسە بچووکە ناخۆش و ساردەکەی دەردەچێت.", // drab
+            onPressedBritish: () => speakdrabs1("en-GB"),
+            onPressedAmerican: () => speakdrabs1("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "She looked drab and ordinary today."),
-                    ExampleSentenceKurdish(
-                        text: "ئەمڕۆ و وشک و ئاسایی دیاربوو."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdrabs2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdrabs2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "She looked drab and ordinary today.",
+            kurdishText: "ئەمڕۆ و وشک و ئاسایی دیاربوو.",
+            onPressedBritish: () => speakdrabs2("en-GB"),
+            onPressedAmerican: () => speakdrabs2("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "They found the world drab and depressing."),
-                    ExampleSentenceKurdish(
-                        text: "دونیایان بە وشک و وەڕسکەر دەبینی."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdrabs3("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdrabs3("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "They found the world drab and depressing.",
+            kurdishText: "دونیایان بە وشک و وەڕسکەر دەبینی.",
+            onPressedBritish: () => speakdrabs3("en-GB"),
+            onPressedAmerican: () => speakdrabs3("en-US"),
           ),
           // drabs400"),
           // speakdrabs4

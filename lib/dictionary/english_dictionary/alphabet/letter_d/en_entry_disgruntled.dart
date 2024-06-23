@@ -243,60 +243,22 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "١. (ھاوەڵناو) بێزار یان نائومێد بەھۆی ئەوەی شتێک ڕوویداوە کە بێزاری کردوویت"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "I left feeling disgruntled at the way I'd been treated."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "ڕۆشتم بەوەی ھەستم بە وەڕەزی دەکرد بە شێوەیەی کە مامەڵەم لەگەڵ کرا."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "disgruntled", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdisgruntleds1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdisgruntleds1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "I left feeling disgruntled at the way I'd been treated.",
+            kurdishText:
+                "ڕۆشتم بەوەی ھەستم بە وەڕەزی دەکرد بە شێوەیەی کە مامەڵەم لەگەڵ کرا.", // disgruntled
+            onPressedBritish: () => speakdisgruntleds1("en-GB"),
+            onPressedAmerican: () => speakdisgruntleds1("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "He's feeling very disgruntled with his boss."),
-                    ExampleSentenceKurdish(
-                        text: "زۆر جاڕزە لە سەرپەرشتیارەکەی."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdisgruntleds2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdisgruntleds2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "He's feeling very disgruntled with his boss.",
+            kurdishText: "زۆر جاڕزە لە سەرپەرشتیارەکەی.",
+            onPressedBritish: () => speakdisgruntleds2("en-GB"),
+            onPressedAmerican: () => speakdisgruntleds2("en-US"),
           ),
           // disgruntleds300"),
           // speakdisgruntleds3

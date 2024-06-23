@@ -400,150 +400,54 @@ class KurdishMeaning extends StatelessWidget {
             note:
                 "تێبینی: لە ئینگلیزی ئەمریکی زیاتر وشەی downward بەکاردێت بۆ ھەموو واتاکانی downwards",
           ),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "She was lying face downwards on the grass."),
-                    ExampleSentenceKurdish(
-                        text: "لەسەر دەم ڕوو لە گیاکە پاڵکەوتبوو."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "downwards", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdownwardss1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdownwardss1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "She was lying face downwards on the grass.",
+            kurdishText: "لەسەر دەم ڕوو لە گیاکە پاڵکەوتبوو.", // downwards
+            onPressedBritish: () => speakdownwardss1("en-GB"),
+            onPressedAmerican: () => speakdownwardss1("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The garden sloped gently downwards to the river."),
-                    ExampleSentenceKurdish(
-                        text: "باخچەکە بەوردی بەرەوە ڕووبارەکە لێژ دەبوویەوە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdownwardss2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdownwardss2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "The garden sloped gently downwards to the river.",
+            kurdishText: "باخچەکە بەوردی بەرەوە ڕووبارەکە لێژ دەبوویەوە.",
+            onPressedBritish: () => speakdownwardss2("en-GB"),
+            onPressedAmerican: () => speakdownwardss2("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٢. (ھاوەڵکار) بۆ ئاست یان بڕێکی کەمتر"),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "Nine per cent of commuters used public transport in 2018 and the trend is downwards."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "نۆ لە سەدی ھاتووچۆکاران گواستنەوەی گشتیان لە ٢٠١٨ ــدا بەکارھێنا و ترێندەکە بۆ کەمتر دەچێت."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdownwardss3("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdownwardss3("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "Nine per cent of commuters used public transport in 2018 and the trend is downwards.",
+            kurdishText:
+                "نۆ لە سەدی ھاتووچۆکاران گواستنەوەی گشتیان لە ٢٠١٨ ــدا بەکارھێنا و ترێندەکە بۆ کەمتر دەچێت.",
+            onPressedBritish: () => speakdownwardss3("en-GB"),
+            onPressedAmerican: () => speakdownwardss3("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "It was a policy welcomed by world leaders from the US president downwards."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "سیاسەتێک بوو کە لەلایەن سەرکردەکانی جیھانەوە لە سەرۆکی ئەمریکاوە بۆ خوارەوە پێشوازی لێکرا."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdownwardss4("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdownwardss4("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "It was a policy welcomed by world leaders from the US president downwards.",
+            kurdishText:
+                "سیاسەتێک بوو کە لەلایەن سەرکردەکانی جیھانەوە لە سەرۆکی ئەمریکاوە بۆ خوارەوە پێشوازی لێکرا.",
+            onPressedBritish: () => speakdownwardss4("en-GB"),
+            onPressedAmerican: () => speakdownwardss4("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The economy is in a bad state and the stock market is spiraling downwards."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "ئابووری لە دۆخێکی خراپە و بازاڕی بۆرسە بۆ ئاستێکی خراپتر دەچێت."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdownwardss5("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdownwardss5("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "The economy is in a bad state and the stock market is spiraling downwards.",
+            kurdishText:
+                "ئابووری لە دۆخێکی خراپە و بازاڕی بۆرسە بۆ ئاستێکی خراپتر دەچێت.",
+            onPressedBritish: () => speakdownwardss5("en-GB"),
+            onPressedAmerican: () => speakdownwardss5("en-US"),
           ),
           // downwardss600"),
           // speakdownwardss6

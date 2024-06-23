@@ -373,62 +373,23 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "١. (ھاوەڵناو) کە دەبێتە ھۆکاری ئەوەی خەڵکی بەسەر بەرەی دژبەردا دابەش ببن"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "He believes that unemployment is socially divisive."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "باوەڕی وایە کە بێکاری لە ڕووی کۆمەڵایەتییەوە مایەی دووبەرەکییە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "divisive", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdivisives1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdivisives1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "He believes that unemployment is socially divisive.",
+            kurdishText:
+                "باوەڕی وایە کە بێکاری لە ڕووی کۆمەڵایەتییەوە مایەی دووبەرەکییە.", // divisive
+            onPressedBritish: () => speakdivisives1("en-GB"),
+            onPressedAmerican: () => speakdivisives1("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The Vietnam war was an extremely divisive issue in the US."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "جەنگی ڤێتنام بابەتێکی تەواو کێشەنەرەوە بوو لە ئەمریکا."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdivisives2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdivisives2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "The Vietnam war was an extremely divisive issue in the US.",
+            kurdishText:
+                "جەنگی ڤێتنام بابەتێکی تەواو کێشەنەرەوە بوو لە ئەمریکا.",
+            onPressedBritish: () => speakdivisives2("en-GB"),
+            onPressedAmerican: () => speakdivisives2("en-US"),
           ),
           // divisives300"),
           // speakdivisives3

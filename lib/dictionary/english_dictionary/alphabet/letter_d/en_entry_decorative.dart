@@ -242,59 +242,21 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "١. (ھاوەڵناو) کە ڕازێندراوەتەوە، یان مەبەست لێی ئەوەیە ڕازاوە بێت"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "The mirror is functional yet decorative."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "ئاوێنەکە ئەرکەکەی بەجێدێنێت و لەگەڵیدا ڕازاوەشە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "decorative", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdecoratives1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdecoratives1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "The mirror is functional yet decorative.",
+            kurdishText:
+                "ئاوێنەکە ئەرکەکەی بەجێدێنێت و لەگەڵیدا ڕازاوەشە.", // decorative
+            onPressedBritish: () => speakdecoratives1("en-GB"),
+            onPressedAmerican: () => speakdecoratives1("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The decorative touches have made this house a welcoming home."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "دەستپێداھێنانی ڕازاوە ئەم خانووەیان کردووە بە ماڵێکی دڵگیر."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdecoratives2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdecoratives2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "The decorative touches have made this house a welcoming home.",
+            kurdishText:
+                "دەستپێداھێنانی ڕازاوە ئەم خانووەیان کردووە بە ماڵێکی دڵگیر.",
+            onPressedBritish: () => speakdecoratives2("en-GB"),
+            onPressedAmerican: () => speakdecoratives2("en-US"),
           ),
         ],
       ),

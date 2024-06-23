@@ -257,89 +257,32 @@ class KurdishMeaning extends StatelessWidget {
 """),
           const DefinitionKurdish(
               text: "١. (ھاوەڵکار) بەوریایی و وردەکاری زۆرەوە"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The artist spent hours on the delicately carved chair."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "ھونەرکارەکە چەندین کاتژمێری بەسەر برد بە کورسییە بەوریایی داتاشراوەکەوە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "delicately", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdelicatelys1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdelicatelys1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "The artist spent hours on the delicately carved chair.",
+            kurdishText:
+                "ھونەرکارەکە چەندین کاتژمێری بەسەر برد بە کورسییە بەوریایی داتاشراوەکەوە.", // delicately
+            onPressedBritish: () => speakdelicatelys1("en-GB"),
+            onPressedAmerican: () => speakdelicatelys1("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: "٢. (ھاوەڵکار) بەوریایی و شارەزایی"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "He stepped delicately over the broken glass."),
-                    ExampleSentenceKurdish(
-                        text: "بە وریایی پێی خستە سەر شووشە شکاوەکان."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdelicatelys2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdelicatelys2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "He stepped delicately over the broken glass.",
+            kurdishText: "بە وریایی پێی خستە سەر شووشە شکاوەکان.",
+            onPressedBritish: () => speakdelicatelys2("en-GB"),
+            onPressedAmerican: () => speakdelicatelys2("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٣. (ھاوەڵکار) بە ھەستیاری و بەبێ ئازاردانی ھەستی کەس"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "This matter needs to be delicately handled."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "ئەم بابەتە دەبێت بە ھەستیارییەوە مامەڵەی لەگەڵ بکرێت."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdelicatelys3("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdelicatelys3("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "This matter needs to be delicately handled.",
+            kurdishText:
+                "ئەم بابەتە دەبێت بە ھەستیارییەوە مامەڵەی لەگەڵ بکرێت.",
+            onPressedBritish: () => speakdelicatelys3("en-GB"),
+            onPressedAmerican: () => speakdelicatelys3("en-US"),
           ),
           // delicatelys400"),
           // speakdelicatelys4

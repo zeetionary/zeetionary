@@ -307,236 +307,83 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "١. (ھاوەڵناو) پێویستی بە کەسێک/شتێک بۆ ڕزگاربوون یان سەرکەوتوو بوون"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "You can't be dependent on your parents all your life."),
-                    ExampleSentenceKurdish(
-                        text: "ناکرێت ھەموو ژیانت پشت بە دایبابت ببەستیت."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "dependent", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdependents1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdependents1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "You can't be dependent on your parents all your life.",
+            kurdishText:
+                "ناکرێت ھەموو ژیانت پشت بە دایبابت ببەستیت.", // dependent
+            onPressedBritish: () => speakdependents1("en-GB"),
+            onPressedAmerican: () => speakdependents1("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The festival is heavily dependent on sponsorship for its success."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "فیستیڤاڵەکە تەواو پشتبەستووە بە سپۆنسەر بۆ سەرکەوتنی."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdependents2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdependents2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "The festival is heavily dependent on sponsorship for its success.",
+            kurdishText:
+                "فیستیڤاڵەکە تەواو پشتبەستووە بە سپۆنسەر بۆ سەرکەوتنی.",
+            onPressedBritish: () => speakdependents2("en-GB"),
+            onPressedAmerican: () => speakdependents2("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "74% of people in the survey were at least partially dependent on their cars."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "٧٤٪ ـی ئەو کەسانەی سەرژمێری کران تا ڕادەیەک کەمێک پشتبەستوو بوون ئۆتۆمبێلەکانیان."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdependents3("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdependents3("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "74% of people in the survey were at least partially dependent on their cars.",
+            kurdishText:
+                "٧٤٪ ـی ئەو کەسانەی سەرژمێری کران تا ڕادەیەک کەمێک پشتبەستوو بوون ئۆتۆمبێلەکانیان.",
+            onPressedBritish: () => speakdependents3("en-GB"),
+            onPressedAmerican: () => speakdependents3("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "Small companies are dependent upon the local economy."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "کۆمپانیا بچووکەکان پشت بە ئابووری خۆجێیی دەبەستن."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdependents4("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdependents4("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "Small companies are dependent upon the local economy.",
+            kurdishText: "کۆمپانیا بچووکەکان پشت بە ئابووری خۆجێیی دەبەستن.",
+            onPressedBritish: () => speakdependents4("en-GB"),
+            onPressedAmerican: () => speakdependents4("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: "٢. (ھاوەڵناو) ئاڵوودە بە شتێک"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "It's very easy to become dependent on sleeping pills."),
-                    ExampleSentenceKurdish(
-                        text: "زۆر ئاسانە ئاڵوودە بیت بە حەبی خەو."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdependents5("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdependents5("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "It's very easy to become dependent on sleeping pills.",
+            kurdishText: "زۆر ئاسانە ئاڵوودە بیت بە حەبی خەو.",
+            onPressedBritish: () => speakdependents5("en-GB"),
+            onPressedAmerican: () => speakdependents5("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: "٣. (ھاوەڵناو) کاریگەربوون بە شتێک"),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "A child's development is dependent on many factors."),
-                    ExampleSentenceKurdish(
-                        text: "گەشەی منداڵ پشت بە زۆر فاکتەر دەبەستێت."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdependents6("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdependents6("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "A child's development is dependent on many factors.",
+            kurdishText: "گەشەی منداڵ پشت بە زۆر فاکتەر دەبەستێت.",
+            onPressedBritish: () => speakdependents6("en-GB"),
+            onPressedAmerican: () => speakdependents6("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The price is dependent on how many extras you choose."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "نرخەکە پشت دەبەستێت بەوەی چەند دانەی زیاتر ھەڵدەبژێریت."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdependents7("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdependents7("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "The price is dependent on how many extras you choose.",
+            kurdishText:
+                "نرخەکە پشت دەبەستێت بەوەی چەند دانەی زیاتر ھەڵدەبژێریت.",
+            onPressedBritish: () => speakdependents7("en-GB"),
+            onPressedAmerican: () => speakdependents7("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٤. (ناو) پاڕستە؛ ڕستەیەک کە پشت بە یەکێکی دیکە دەبەستێت"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The word ‘because’ forces the clause to be dependent on some other main clause."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "وشەی 'because' بڕگەکە ناچار دەکات پشت بە یەکێکی دیکەی سەرەکی ببەستێت."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdependents8("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdependents8("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "The word ‘because’ forces the clause to be dependent on some other main clause.",
+            kurdishText:
+                "وشەی 'because' بڕگەکە ناچار دەکات پشت بە یەکێکی دیکەی سەرەکی ببەستێت.",
+            onPressedBritish: () => speakdependents8("en-GB"),
+            onPressedAmerican: () => speakdependents8("en-US"),
           ),
           const DividerDefinition(),
           Column(

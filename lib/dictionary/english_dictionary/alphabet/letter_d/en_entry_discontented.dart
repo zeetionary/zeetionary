@@ -242,60 +242,22 @@ class KurdishMeaning extends StatelessWidget {
 """),
           const DefinitionKurdish(
               text: "١. (ھاوەڵناو) دڵتەنگ لەبەر ئەوەی ڕازی نیت بە دۆخەکەت"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "He felt discontented with the way his life had turned out."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "ھەستی بە ناڕەزامەندی دەکرد بەو ئاقارەی ژیانی پێیدا دەچوو."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "discontented", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdiscontenteds1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdiscontenteds1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "He felt discontented with the way his life had turned out.",
+            kurdishText:
+                "ھەستی بە ناڕەزامەندی دەکرد بەو ئاقارەی ژیانی پێیدا دەچوو.", // discontented
+            onPressedBritish: () => speakdiscontenteds1("en-GB"),
+            onPressedAmerican: () => speakdiscontenteds1("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "Many of the workers are deeply discontented."),
-                    ExampleSentenceKurdish(
-                        text: "زۆرێک لە کرێکارەکان تەواو ناقایلن."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdiscontenteds2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdiscontenteds2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "Many of the workers are deeply discontented.",
+            kurdishText: "زۆرێک لە کرێکارەکان تەواو ناقایلن.",
+            onPressedBritish: () => speakdiscontenteds2("en-GB"),
+            onPressedAmerican: () => speakdiscontenteds2("en-US"),
           ),
           // discontenteds300"),
           // speakdiscontenteds3

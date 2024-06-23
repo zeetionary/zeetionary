@@ -244,61 +244,23 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "١. (ھاوەڵکار) بەشێوەیەک کە زۆر گەورە یان بچووکە بەراورد بە شتێکی دیکە"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The lower-paid spend a disproportionately large amount of their earnings on food."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "کەسانی کەم دەرامەت ڕێژەیەکی نامەرامبەرانە زۆر لە خواردندا خەرج دەکەن."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "disproportionately", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdisproportionatelys1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdisproportionatelys1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "The lower-paid spend a disproportionately large amount of their earnings on food.",
+            kurdishText:
+                "کەسانی کەم دەرامەت ڕێژەیەکی نامەرامبەرانە زۆر لە خواردندا خەرج دەکەن.", // disproportionately
+            onPressedBritish: () => speakdisproportionatelys1("en-GB"),
+            onPressedAmerican: () => speakdisproportionatelys1("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "The disease disproportionately affects women."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "نەخۆشییەکە بە شێوەیەکی ناھاوڕێژە کاریگەری لە ژنان دەکات."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdisproportionatelys2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdisproportionatelys2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "The disease disproportionately affects women.",
+            kurdishText:
+                "نەخۆشییەکە بە شێوەیەکی ناھاوڕێژە کاریگەری لە ژنان دەکات.",
+            onPressedBritish: () => speakdisproportionatelys2("en-GB"),
+            onPressedAmerican: () => speakdisproportionatelys2("en-US"),
           ),
           // disproportionatelys300"),
           // speakdisproportionatelys3

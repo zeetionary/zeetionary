@@ -393,142 +393,48 @@ class KurdishMeaning extends StatelessWidget {
 // کوردی:
 // """),
           const DefinitionKurdish(text: """١. (ناو) یازدەھەم"""),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: """Today is the eleventh (of May)."""),
-                    ExampleSentenceKurdish(text: """ئەمڕۆ یەزدەھەمی ئایارە."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "eleventh", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakelevenths1("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakelevenths1("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: """Today is the eleventh (of May).""",
+            kurdishText: """ئەمڕۆ یەزدەھەمی ئایارە.""", // eleventh
+            onPressedBritish: () => speakelevenths1("en-GB"),
+            onPressedAmerican: () => speakelevenths1("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: """It's her eleventh birthday."""),
-                    ExampleSentenceKurdish(
-                        text: """یازدەھەمین ساڵیادی لە دایکبوونیەتی."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakelevenths2("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakelevenths2("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: """It's her eleventh birthday.""",
+            kurdishText: """یازدەھەمین ساڵیادی لە دایکبوونیەتی.""",
+            onPressedBritish: () => speakelevenths2("en-GB"),
+            onPressedAmerican: () => speakelevenths2("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: """My office is on the eleventh floor."""),
-                    ExampleSentenceKurdish(
-                        text: """ئۆفیسەکەم لە نھۆمی یازدەھەمە."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakelevenths3("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakelevenths3("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: """My office is on the eleventh floor.""",
+            kurdishText: """ئۆفیسەکەم لە نھۆمی یازدەھەمە.""",
+            onPressedBritish: () => speakelevenths3("en-GB"),
+            onPressedAmerican: () => speakelevenths3("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            """It's the eleventh time that I've been to America."""),
-                    ExampleSentenceKurdish(
-                        text: """ئەوە یازدەھەمین جارە کە چوومەتە ئەمریکا."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakelevenths4("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakelevenths4("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                """It's the eleventh time that I've been to America.""",
+            kurdishText: """ئەوە یازدەھەمین جارە کە چوومەتە ئەمریکا.""",
+            onPressedBritish: () => speakelevenths4("en-GB"),
+            onPressedAmerican: () => speakelevenths4("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: """He finished eleventh in the race."""),
-                    ExampleSentenceKurdish(
-                        text: """یازدەھەمین بووە لە پێشبڕکێیەکە."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakelevenths5("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakelevenths5("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: """He finished eleventh in the race.""",
+            kurdishText: """یازدەھەمین بووە لە پێشبڕکێیەکە.""",
+            onPressedBritish: () => speakelevenths5("en-GB"),
+            onPressedAmerican: () => speakelevenths5("en-US"),
           ),
           // elevenths600elevenths6
           // speakelevenths6

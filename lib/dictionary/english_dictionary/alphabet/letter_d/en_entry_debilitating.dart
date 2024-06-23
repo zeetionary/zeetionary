@@ -242,60 +242,22 @@ class KurdishMeaning extends StatelessWidget {
 """),
           const DefinitionKurdish(
               text: "١. (ھاوەڵناو) کە لاشە و دەروونی کەسێک لاواز دەکات"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "She found the heat debilitating."),
-                    ExampleSentenceKurdish(
-                        text: "گەرمییەکەی بە لاوازکەر دەبینی."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "debilitating", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdebilitatings1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdebilitatings1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "She found the heat debilitating.",
+            kurdishText: "گەرمییەکەی بە لاوازکەر دەبینی.", // debilitating
+            onPressedBritish: () => speakdebilitatings1("en-GB"),
+            onPressedAmerican: () => speakdebilitatings1("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٢. (ھاوەڵناو) کەو وڵاتێک، دامەزراوەیەک، ھتد لاواز دەکات"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The economy is now strengthening after a long and debilitating recession."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "ئابووری لە ئێستادا بەھێز دەبێت لە دوای قەیرانێکی درێژ و سستکەر."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdebilitatings2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdebilitatings2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "The economy is now strengthening after a long and debilitating recession.",
+            kurdishText:
+                "ئابووری لە ئێستادا بەھێز دەبێت لە دوای قەیرانێکی درێژ و سستکەر.",
+            onPressedBritish: () => speakdebilitatings2("en-GB"),
+            onPressedAmerican: () => speakdebilitatings2("en-US"),
           ),
         ],
       ),

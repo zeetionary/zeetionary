@@ -242,59 +242,21 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "١. (ناو) فریودەر؛ بەشێوەیەک کە وادەکات باوەڕ بە درۆیەک بکرێت"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "Appearances can often be deceptive (= things are not always what they seem to be)."),
-                    ExampleSentenceKurdish(
-                        text: "ڕووکەش زۆرجار دەکرێت چەاشەکار بێت."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "deceptive", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdeceptives1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdeceptives1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "Appearances can often be deceptive (= things are not always what they seem to be).",
+            kurdishText: "ڕووکەش زۆرجار دەکرێت چەاشەکار بێت.", // deceptive
+            onPressedBritish: () => speakdeceptives1("en-GB"),
+            onPressedAmerican: () => speakdeceptives1("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The firm was found guilty of publishing a misleading and deceptive advertisement."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "کۆمپانیاکە بە تاوانبار ناسێنرا بۆ بڵاوکردنەوەی بانفەشەیەکی چەواشەکار و فریودەر."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdeceptives2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdeceptives2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "The firm was found guilty of publishing a misleading and deceptive advertisement.",
+            kurdishText:
+                "کۆمپانیاکە بە تاوانبار ناسێنرا بۆ بڵاوکردنەوەی بانفەشەیەکی چەواشەکار و فریودەر.",
+            onPressedBritish: () => speakdeceptives2("en-GB"),
+            onPressedAmerican: () => speakdeceptives2("en-US"),
           ),
         ],
       ),

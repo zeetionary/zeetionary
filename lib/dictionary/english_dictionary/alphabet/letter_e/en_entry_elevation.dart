@@ -388,125 +388,47 @@ class KurdishMeaning extends StatelessWidget {
 کوردی: بەرزکردنەوە، بردنەسەرەوە، ژووربوونەوە، باڵابوونەوە، چوونەسەرەوە، بەرزبوونەوە، ھەڵکشان،	بەرزی، بڵیندی،	تەپۆڵکە، گرد، زورک، بڵیندایی، جێگای بەرز، بەرزایی (بەتایبەت لە ئاستی دەریاوە)،	نەخشەی لایەکی خانووبەرە،	گۆشە (چەک‌وچۆڵ)
 """),
           const DefinitionKurdish(text: """١. (ناو) وەرگرتنی پێگەی بەرزتر"""),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            """His elevation to the presidency of the new republic was generally popular."""),
-                    ExampleSentenceKurdish(
-                        text:
-                            """بەرزکردنەوەی بۆ سەرۆکایەتی کۆمارە تازەکە بە گشتی پەسندکراو بوو."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "elevation", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakelevations1("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakelevations1("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                """His elevation to the presidency of the new republic was generally popular.""",
+            kurdishText:
+                """بەرزکردنەوەی بۆ سەرۆکایەتی کۆمارە تازەکە بە گشتی پەسندکراو بوو.""", // elevation
+            onPressedBritish: () => speakelevations1("en-GB"),
+            onPressedAmerican: () => speakelevations1("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
                   """٢. (ناو) بەرزی شوێنیک، بەتایبەتی لە ئاستی ڕووی دەریاوە"""),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            """The city is at an elevation of 2 000 metres."""),
-                    ExampleSentenceKurdish(
-                        text: """شارەکە لە بەرزی ٢٠٠٠ مەترە."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakelevations2("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakelevations2("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: """The city is at an elevation of 2 000 metres.""",
+            kurdishText: """شارەکە لە بەرزی ٢٠٠٠ مەترە.""",
+            onPressedBritish: () => speakelevations2("en-GB"),
+            onPressedAmerican: () => speakelevations2("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: """٣. (ناو) گرد"""),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            """The flagpole stands on a small elevation in front of the building."""),
-                    ExampleSentenceKurdish(
-                        text:
-                            """داراڵاکە لەسەر گردێکی بچووکە لە پێش بیناکە."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakelevations3("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakelevations3("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                """The flagpole stands on a small elevation in front of the building.""",
+            kurdishText: """داراڵاکە لەسەر گردێکی بچووکە لە پێش بیناکە.""",
+            onPressedBritish: () => speakelevations3("en-GB"),
+            onPressedAmerican: () => speakelevations3("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
                   """٤. (ناو) لایەکی بینایەک، یان وێنەیەکی لەلایەن ئەندازیارێکەوە"""),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            """This plan shows the front, side, and back elevations of the new supermarket."""),
-                    ExampleSentenceKurdish(
-                        text:
-                            """ئەم پلانە پێشەوە، لا، و پشتەوەی بینای سوپەرمارکێتە تازەکە پیشان دەدات."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakelevations4("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakelevations4("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                """This plan shows the front, side, and back elevations of the new supermarket.""",
+            kurdishText:
+                """ئەم پلانە پێشەوە، لا، و پشتەوەی بینای سوپەرمارکێتە تازەکە پیشان دەدات.""",
+            onPressedBritish: () => speakelevations4("en-GB"),
+            onPressedAmerican: () => speakelevations4("en-US"),
           ),
           // elevations500elevations5
           // speakelevations5

@@ -362,32 +362,12 @@ class KurdishMeaning extends StatelessWidget {
 کوردی: پوول یان تەختەی دۆمینە
 """),
           const DefinitionKurdish(text: "١. (ناو) دۆمینە یان یاریی دۆمینە"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "She placed a domino on the table, starting the game."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "دۆمینەیەکی خستە سەر تەختەکە و یارییەکەی دەستپێکرد."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "domino", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdominos1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdominos1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "She placed a domino on the table, starting the game.",
+            kurdishText:
+                "دۆمینەیەکی خستە سەر تەختەکە و یارییەکەی دەستپێکرد.", // domino
+            onPressedBritish: () => speakdominos1("en-GB"),
+            onPressedAmerican: () => speakdominos1("en-US"),
           ),
           // dominos200"),
           // speakdominos2

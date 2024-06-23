@@ -360,417 +360,136 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "١. (ھاوەڵناو) بێ‌ھیوا و ئامادەیی بۆ کردنی ھەر شتێک بەبێ گرنگیدان بە مەترسی"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "The prisoners grew increasingly desperate."),
-                    ExampleSentenceKurdish(
-                        text: "زیندانییەکان کەم‌کەم ھیوابڕاو بوون."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "desperate", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdesperates1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdesperates1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "The prisoners grew increasingly desperate.",
+            kurdishText: "زیندانییەکان کەم‌کەم ھیوابڕاو بوون.", // desperate
+            onPressedBritish: () => speakdesperates1("en-GB"),
+            onPressedAmerican: () => speakdesperates1("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "Stores are getting desperate after two years of poor sales."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "فرۆشگاکان موحتاج بوونە لە دوای دوو ساڵ لە فرۆشی خراپ."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdesperates2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdesperates2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "Stores are getting desperate after two years of poor sales.",
+            kurdishText:
+                "فرۆشگاکان موحتاج بوونە لە دوای دوو ساڵ لە فرۆشی خراپ.",
+            onPressedBritish: () => speakdesperates2("en-GB"),
+            onPressedAmerican: () => speakdesperates2("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "I heard sounds of a desperate struggle in the next room."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "گوێم لە دەنگی ھەوڵدانێکی ناچاری بوو لە ژوورەکەی دیکە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdesperates3("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdesperates3("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "I heard sounds of a desperate struggle in the next room.",
+            kurdishText:
+                "گوێم لە دەنگی ھەوڵدانێکی ناچاری بوو لە ژوورەکەی دیکە.",
+            onPressedBritish: () => speakdesperates3("en-GB"),
+            onPressedAmerican: () => speakdesperates3("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "I was starting to get desperate."),
-                    ExampleSentenceKurdish(
-                        text: "دەستم دەکرد بەوەی بێچارە بم."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdesperates4("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdesperates4("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "I was starting to get desperate.",
+            kurdishText: "دەستم دەکرد بەوەی بێچارە بم.",
+            onPressedBritish: () => speakdesperates4("en-GB"),
+            onPressedAmerican: () => speakdesperates4("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(text: "She felt utterly desperate."),
-                    ExampleSentenceKurdish(
-                        text: "تەواو ھەستی بە بێھوودەیی دەکرد."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdesperates5("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdesperates5("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "She felt utterly desperate.",
+            kurdishText: "تەواو ھەستی بە بێھوودەیی دەکرد.",
+            onPressedBritish: () => speakdesperates5("en-GB"),
+            onPressedAmerican: () => speakdesperates5("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The sudden loss of his money had made him desperate."),
-                    ExampleSentenceKurdish(
-                        text: "لەدەستدانی لەناکاوی پارەکەی بێچارەی کردبوو."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdesperates6("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdesperates6("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "The sudden loss of his money had made him desperate.",
+            kurdishText: "لەدەستدانی لەناکاوی پارەکەی بێچارەی کردبوو.",
+            onPressedBritish: () => speakdesperates6("en-GB"),
+            onPressedAmerican: () => speakdesperates6("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٢. (ھاوەڵناو) کارێک کە ھیوای سەرکەوتنی کەمە"),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "He made a desperate bid for freedom."),
-                    ExampleSentenceKurdish(
-                        text: "ھەوڵێکی بێھوودەی دا بۆ سەرکەوتن."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdesperates7("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdesperates7("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "He made a desperate bid for freedom.",
+            kurdishText: "ھەوڵێکی بێھوودەی دا بۆ سەرکەوتن.",
+            onPressedBritish: () => speakdesperates7("en-GB"),
+            onPressedAmerican: () => speakdesperates7("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "She clung to the edge in a desperate attempt to save herself."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "خۆی بە قەراغەکەدا ڕاگرت لە ھەوڵێکی بێھوودەدا بۆ ڕزگارکردنی خۆی."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdesperates8("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdesperates8("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "She clung to the edge in a desperate attempt to save herself.",
+            kurdishText:
+                "خۆی بە قەراغەکەدا ڕاگرت لە ھەوڵێکی بێھوودەدا بۆ ڕزگارکردنی خۆی.",
+            onPressedBritish: () => speakdesperates8("en-GB"),
+            onPressedAmerican: () => speakdesperates8("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "Doctors were fighting a desperate battle to save the little girl's life."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "پزیشکان لە ھەوڵێکی بێھوودەدا ھەوڵیان دەدا ژیانی کچە بچووکەکە ڕزگاربکەن."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdesperates9("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdesperates9("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "Doctors were fighting a desperate battle to save the little girl's life.",
+            kurdishText:
+                "پزیشکان لە ھەوڵێکی بێھوودەدا ھەوڵیان دەدا ژیانی کچە بچووکەکە ڕزگاربکەن.",
+            onPressedBritish: () => speakdesperates9("en-GB"),
+            onPressedAmerican: () => speakdesperates9("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: "٣. (ھاوەڵناو) ویستنی زۆری شتێک"),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(text: "I'm desperate for a coffee."),
-                    ExampleSentenceKurdish(text: "موحتاجی کارێکم."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdesperates10("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdesperates10("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "I'm desperate for a coffee.",
+            kurdishText: "موحتاجی کارێکم.",
+            onPressedBritish: () => speakdesperates10("en-GB"),
+            onPressedAmerican: () => speakdesperates10("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "He was so desperate for a job he would have done anything."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "زۆر چاولەدەست بوو بۆ کارێک کە ھەموو شتێکی دەکرد."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdesperates11("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdesperates11("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "He was so desperate for a job he would have done anything.",
+            kurdishText: "زۆر چاولەدەست بوو بۆ کارێک کە ھەموو شتێکی دەکرد.",
+            onPressedBritish: () => speakdesperates11("en-GB"),
+            onPressedAmerican: () => speakdesperates11("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "I was absolutely desperate to see her."),
-                    ExampleSentenceKurdish(text: "تەواو موحتاجی بینینی بووم."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdesperates12("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdesperates12("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "I was absolutely desperate to see her.",
+            kurdishText: "تەواو موحتاجی بینینی بووم.",
+            onPressedBritish: () => speakdesperates12("en-GB"),
+            onPressedAmerican: () => speakdesperates12("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٤. (ھاوەڵناو) تەواو جدی یان مەترسیدار"),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "They face a desperate shortage of clean water."),
-                    ExampleSentenceKurdish(
-                        text: "تووشی کەماسییەکی توندی ئاوی پاک بوونەتەوە.-"),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdesperates13("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdesperates13("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "They face a desperate shortage of clean water.",
+            kurdishText: "تووشی کەماسییەکی توندی ئاوی پاک بوونەتەوە.-",
+            onPressedBritish: () => speakdesperates13("en-GB"),
+            onPressedAmerican: () => speakdesperates13("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "His financial situation was desperate."),
-                    ExampleSentenceKurdish(text: "دۆخی دارایی شلۆق بوو."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdesperates14("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdesperates14("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "His financial situation was desperate.",
+            kurdishText: "دۆخی دارایی شلۆق بوو.",
+            onPressedBritish: () => speakdesperates14("en-GB"),
+            onPressedAmerican: () => speakdesperates14("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "He had died in desperate poverty."),
-                    ExampleSentenceKurdish(text: "لە ھەژارییەکی سەختدا مرد."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdesperates15("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdesperates15("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "He had died in desperate poverty.",
+            kurdishText: "لە ھەژارییەکی سەختدا مرد.",
+            onPressedBritish: () => speakdesperates15("en-GB"),
+            onPressedAmerican: () => speakdesperates15("en-US"),
           ),
           // desperates1600"),
           // speakdesperates16

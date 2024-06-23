@@ -253,62 +253,24 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "١. (ناو) ھێڵیک یان سنوورێک کە دوو شت جیادەکاتەوە، بۆ نموونە جۆری کار، گرووپی خەڵکی یان پارچە زەوی"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "It was hard to draw clear lines of demarcation between work and leisure."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "سەخت بوو ھێڵێکی جیاکەرەوە لە نێوان کار و دەس‌بەتاڵی."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "demarcation", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdemarcations1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdemarcations1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "It was hard to draw clear lines of demarcation between work and leisure.",
+            kurdishText:
+                "سەخت بوو ھێڵێکی جیاکەرەوە لە نێوان کار و دەس‌بەتاڵی.", // demarcation
+            onPressedBritish: () => speakdemarcations1("en-GB"),
+            onPressedAmerican: () => speakdemarcations1("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The river serves as the line of demarcation (= the line showing the separation) between the two countries."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "ڕووبارەکە ڕۆڵی ھێڵی جیاکەرەوەی نێوان دوو وڵاتەکە دەبینێت."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdemarcations2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdemarcations2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "The river serves as the line of demarcation (= the line showing the separation) between the two countries.",
+            kurdishText:
+                "ڕووبارەکە ڕۆڵی ھێڵی جیاکەرەوەی نێوان دوو وڵاتەکە دەبینێت.",
+            onPressedBritish: () => speakdemarcations2("en-GB"),
+            onPressedAmerican: () => speakdemarcations2("en-US"),
           ),
           // demarcations300"),
           // speakdemarcations3

@@ -373,59 +373,22 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "١. (ناو) کەسێک یان کۆمپانیایەک کە کەلوپەل بەسەر فرۆشگا، ھتد ــدا دابەش دەکات"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "They are Japan's largest software distributor."),
-                    ExampleSentenceKurdish(
-                        text: "گەورەترین دابەشکاری نەرمامێرن لە ژاپۆن."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "distributor", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdistributors1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdistributors1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "They are Japan's largest software distributor.",
+            kurdishText:
+                "گەورەترین دابەشکاری نەرمامێرن لە ژاپۆن.", // distributor
+            onPressedBritish: () => speakdistributors1("en-GB"),
+            onPressedAmerican: () => speakdistributors1("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "We are the primary distributor of the system in France."),
-                    ExampleSentenceKurdish(
-                        text: "بڵاوکەرەوەی سەرەکی سیستەمەکەین لە ژاپۆن."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdistributors2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdistributors2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "We are the primary distributor of the system in France.",
+            kurdishText: "بڵاوکەرەوەی سەرەکی سیستەمەکەین لە ژاپۆن.",
+            onPressedBritish: () => speakdistributors2("en-GB"),
+            onPressedAmerican: () => speakdistributors2("en-US"),
           ),
           // distributors300"),
           // speakdistributors3

@@ -240,60 +240,21 @@ class KurdishMeaning extends StatelessWidget {
 // """),
           const DefinitionKurdish(
               text: "١. (کردار) ڕێگری لە کەسێک/شتێک کە وەک گرووپێک کار بکات"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "They set about disbanding the terrorist groups."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "دەستیان بە ھەڵوەشاندنەوەی گرووپە تیرۆریستییەکان کرد."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "disband", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdisbands1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdisbands1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "They set about disbanding the terrorist groups.",
+            kurdishText:
+                "دەستیان بە ھەڵوەشاندنەوەی گرووپە تیرۆریستییەکان کرد.", // disband
+            onPressedBritish: () => speakdisbands1("en-GB"),
+            onPressedAmerican: () => speakdisbands1("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "The committee formally disbanded in August."),
-                    ExampleSentenceKurdish(
-                        text: "لیژنەکە بە فەرمی لە ئابدا ھەڵوەشایەوە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdisbands2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdisbands2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "The committee formally disbanded in August.",
+            kurdishText: "لیژنەکە بە فەرمی لە ئابدا ھەڵوەشایەوە.",
+            onPressedBritish: () => speakdisbands2("en-GB"),
+            onPressedAmerican: () => speakdisbands2("en-US"),
           ),
           // disbands300"),
           // speakdisbands3

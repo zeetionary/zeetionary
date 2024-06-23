@@ -239,59 +239,21 @@ class KurdishMeaning extends StatelessWidget {
 کوردی: لێ‌بڕاوانە، شێلگیرانە، بێ‌گومان، بێ شک و دوودڵی، بە دڵنیایی‌یەوە
 """),
           const DefinitionKurdish(text: "١. (ھاوەڵکار) بە دڵنیایی و ئاشکرایی"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "Amy was looking decidedly worried."),
-                    ExampleSentenceKurdish(
-                        text: "ئەیمی بە ئاشکرایی نیگەران دیار بوو."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "decidedly", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdecidedlys1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdecidedlys1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "Amy was looking decidedly worried.",
+            kurdishText: "ئەیمی بە ئاشکرایی نیگەران دیار بوو.", // decidedly
+            onPressedBritish: () => speakdecidedlys1("en-GB"),
+            onPressedAmerican: () => speakdecidedlys1("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
                   "٢. (ھاوەڵکار) بەشێوەیەک کە ئەوە دەردەخات کە دڵنیا و سووریت لەسەر شتێک"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "She decidedly said that she was innocent."),
-                    ExampleSentenceKurdish(
-                        text: "بە دڵنیاییەوە گوتی کە بێ‌تاوانە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdecidedlys2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdecidedlys2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "She decidedly said that she was innocent.",
+            kurdishText: "بە دڵنیاییەوە گوتی کە بێ‌تاوانە.",
+            onPressedBritish: () => speakdecidedlys2("en-GB"),
+            onPressedAmerican: () => speakdecidedlys2("en-US"),
           ),
         ],
       ),

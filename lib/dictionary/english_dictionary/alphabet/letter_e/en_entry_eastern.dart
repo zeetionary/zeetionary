@@ -382,90 +382,33 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   """١. (ھاوەڵناو) کە دەکەوێتە ڕۆژھەڵات یان ڕووی لە ڕۆژھەڵاتە"""),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            """There has been flooding in eastern parts of the city."""),
-                    ExampleSentenceKurdish(
-                        text: """لافاو لە ڕۆژھەڵاتی شارەکە بووە."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "eastern", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakeasterns1("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakeasterns1("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                """There has been flooding in eastern parts of the city.""",
+            kurdishText: """لافاو لە ڕۆژھەڵاتی شارەکە بووە.""", // eastern
+            onPressedBritish: () => speakeasterns1("en-GB"),
+            onPressedAmerican: () => speakeasterns1("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            """The eastern part of the country is very mountainous."""),
-                    ExampleSentenceKurdish(
-                        text: """بەشی ڕۆژھەڵاتی وڵاتەکە زۆر شاخاوییە."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakeasterns2("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakeasterns2("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                """The eastern part of the country is very mountainous.""",
+            kurdishText: """بەشی ڕۆژھەڵاتی وڵاتەکە زۆر شاخاوییە.""",
+            onPressedBritish: () => speakeasterns2("en-GB"),
+            onPressedAmerican: () => speakeasterns2("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            """Buddhism and other Eastern (= Asian) religions fascinate me."""),
-                    ExampleSentenceKurdish(
-                        text:
-                            """بودیزم و ئایینە ڕۆژھەڵاتییەکانی دیکە سەرنجم ڕادەکێشن."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakeasterns3("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakeasterns3("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                """Buddhism and other Eastern (= Asian) religions fascinate me.""",
+            kurdishText:
+                """بودیزم و ئایینە ڕۆژھەڵاتییەکانی دیکە سەرنجم ڕادەکێشن.""",
+            onPressedBritish: () => speakeasterns3("en-GB"),
+            onPressedAmerican: () => speakeasterns3("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),

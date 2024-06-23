@@ -297,145 +297,52 @@ class KurdishMeaning extends StatelessWidget {
 """),
           const DefinitionKurdish(
               text: "١. (ھاوەڵناو) کە ھەموو ڕۆژێک ڕوودەدات"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "Many people still read a daily newspaper."),
-                    ExampleSentenceKurdish(
-                        text: "زۆر کەس ھێشتا ڕۆژنامەیەکی ڕۆژانە دەخوێننەوە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "daily", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdailys1("en-GB"),
+SentencesRow(
+  englishText: "Many people still read a daily newspaper.",
+kurdishText: "زۆر کەس ھێشتا ڕۆژنامەیەکی ڕۆژانە دەخوێننەوە.", // daily
+onPressedBritish: () => speakdailys1("en-GB"),
+  onPressedAmerican: () => speakdailys1("en-US"),
                   ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdailys1("en-US"),
-                  ),
-                ],
-              ),
-            ],
-          ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The daily routine is the same for all prisoners."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "The daily routine is the same for all prisoners.."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdailys2("en-GB"),
+          SentencesRow(
+  englishText:
+                            "The daily routine is the same for all prisoners.",
+kurdishText:
+                            "The daily routine is the same for all prisoners..",
+                    onPressedBritish: () => speakdailys2("en-GB"),
+  onPressedAmerican: () => speakdailys2("en-US"),
                   ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdailys2("en-US"),
-                  ),
-                ],
-              ),
-            ],
-          ),
           Column(
             children: [
               MyExpansionTile(
                 children: [
-                  Row(
-                    children: [
-                      const Expanded(
-                        child: Column(
-                          children: [
-                            ExampleSentenceEnglish(
-                                text:
-                                    "Keep a record of your daily activities."),
-                            ExampleSentenceKurdish(
-                                text: "تۆمارێکی چالاکییەکانی ڕۆژانەت ڕابگرە."),
-                          ],
-                        ),
-                      ),
-                      const CustomSizedBoxForTTS(),
-                      Column(
-                        children: [
-                          CustomIconButtonBritish(
-                            onPressed: () => speakdailys3("en-GB"),
+                  SentencesRow(
+  englishText:
+                                    "Keep a record of your daily activities.",
+kurdishText: "تۆمارێکی چالاکییەکانی ڕۆژانەت ڕابگرە.",
+onPressedBritish: () => speakdailys3("en-GB"),
+onPressedAmerican: () => speakdailys3("en-US"),
                           ),
-                          CustomIconButtonAmerican(
-                            onPressed: () => speakdailys3("en-US"),
-                          ),
-                        ],
-                      ),
-                    ],
-                  ),
                   const DividerSentences(),
-                  Row(
-                    children: [
-                      const Expanded(
-                        child: Column(
-                          children: [
-                            ExampleSentenceEnglish(
-                                text:
-                                    "There are daily flights from Dublin to Barcelona."),
-                            ExampleSentenceKurdish(
-                                text:
-                                    "گەشتی ڕۆژانە ھەیە لە دبلنەوە بۆ بارشەلۆنە."),
-                          ],
-                        ),
-                      ),
-                      const CustomSizedBoxForTTS(),
-                      Column(
-                        children: [
-                          CustomIconButtonBritish(
-                            onPressed: () => speakdailys4("en-GB"),
+                  SentencesRow(
+  englishText:
+                                    "There are daily flights from Dublin to Barcelona.",
+kurdishText:
+                                    "گەشتی ڕۆژانە ھەیە لە دبلنەوە بۆ بارشەلۆنە.",
+onPressedBritish: () => speakdailys4("en-GB"),
+onPressedAmerican: () => speakdailys4("en-US"),
                           ),
-                          CustomIconButtonAmerican(
-                            onPressed: () => speakdailys4("en-US"),
-                          ),
-                        ],
-                      ),
-                    ],
-                  ),
+                    
                   const DividerSentences(),
-                  Row(
-                    children: [
-                      const Expanded(
-                        child: Column(
-                          children: [
-                            ExampleSentenceEnglish(
-                                text:
-                                    "The simple things of daily living are often the biggest challenges for him."),
-                            ExampleSentenceKurdish(
-                                text:
-                                    "سادەترین شتەکانی ژیانی ڕۆژانە گەورەترین کێشەکانن بۆ ئەو."),
-                          ],
-                        ),
-                      ),
-                      const CustomSizedBoxForTTS(),
-                      Column(
-                        children: [
-                          CustomIconButtonBritish(
-                            onPressed: () => speakdailys5("en-GB"),
+                  SentencesRow(
+  englishText:
+                                    "The simple things of daily living are often the biggest challenges for him.",
+kurdishText:
+                                    "سادەترین شتەکانی ژیانی ڕۆژانە گەورەترین کێشەکانن بۆ ئەو.",
+onPressedBritish: () => speakdailys5("en-GB"),
+onPressedAmerican: () => speakdailys5("en-US"),
                           ),
-                          CustomIconButtonAmerican(
-                            onPressed: () => speakdailys5("en-US"),
-                          ),
-                        ],
-                      ),
-                    ],
-                  ),
+                    
                 ],
               ),
             ],
@@ -443,111 +350,36 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٢. (ھاوەڵناو) پەیوەندیدار بە کاری یەک ڕۆژ"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(text: "They charge a daily rate."),
-                    ExampleSentenceKurdish(
-                        text: "پارە بەشێوەی ڕۆژانە وەردەگرن."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdailys6("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdailys6("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+  englishText: "They charge a daily rate.",
+kurdishText: "پارە بەشێوەی ڕۆژانە وەردەگرن.",
+                    onPressedBritish: () => speakdailys6("en-GB"),
+  onPressedAmerican: () => speakdailys6("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: "٣. (ھاوەڵکار) ھەموو ڕۆژێک"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "The machines are inspected twice daily."),
-                    ExampleSentenceKurdish(
-                        text: "ئامێرەکان دوو جار لە ڕۆژێکدا دەپشکندرێن."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdailys7("en-GB"),
+SentencesRow(
+  englishText: "The machines are inspected twice daily.",
+kurdishText: "ئامێرەکان دوو جار لە ڕۆژێکدا دەپشکندرێن.",
+                    onPressedBritish: () => speakdailys7("en-GB"),
+  onPressedAmerican: () => speakdailys7("en-US"),
                   ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdailys7("en-US"),
-                  ),
-                ],
-              ),
-            ],
-          ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "The temperature was recorded daily."),
-                    ExampleSentenceKurdish(
-                        text: "پلەی گەرمیم بەشێوەی ڕۆژانە تۆماردەکرا."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdailys8("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdailys8("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+  englishText: "The temperature was recorded daily.",
+kurdishText: "پلەی گەرمیم بەشێوەی ڕۆژانە تۆماردەکرا.",
+                    onPressedBritish: () => speakdailys8("en-GB"),
+  onPressedAmerican: () => speakdailys8("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
                   "٤. (ناو) ڕۆژنامەیەک کە ھەموو ڕۆژێک جگە لە یەکشەممان بڵاودەکرێتەوە"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "The story was in all the dailies."),
-                    ExampleSentenceKurdish(
-                        text: "بابەتەکە لەسەر ھەموو ڕۆژنامە ڕۆژانەییەکان بوو."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdailys9("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdailys9("en-US"),
-                  ),
-                ],
-              ),
-            ],
+SentencesRow(
+  englishText: "The story was in all the dailies.",
+kurdishText: "بابەتەکە لەسەر ھەموو ڕۆژنامە ڕۆژانەییەکان بوو.",
+                    onPressedBritish: () => speakdailys9("en-GB"),
+  onPressedAmerican: () => speakdailys9("en-US"),
           ),
         ],
       ),

@@ -380,89 +380,31 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   """١. (ھاوەڵناو) کە گرنگی بە شوێنکەوتنی یاسا و ڕێسا نادات ڕازی دەبێت بە شت بەبێ تووڕەبون یان نیگەرانبوون"""),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: """I wish I had such easy-going parents!"""),
-                    ExampleSentenceKurdish(
-                        text:
-                            """خۆزگە دەخوازم کە دایببای وەھا لێبوردەم ھەبا."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "easy-going", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakeasygoings1("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakeasygoings1("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: """I wish I had such easy-going parents!""",
+            kurdishText:
+                """خۆزگە دەخوازم کە دایببای وەھا لێبوردەم ھەبا.""", // easy-going
+            onPressedBritish: () => speakeasygoings1("en-GB"),
+            onPressedAmerican: () => speakeasygoings1("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            """His friends described him as an easy-going person."""),
-                    ExampleSentenceKurdish(
-                        text:
-                            """ھاوڕێکانی وەک کەسێکی نەرم‌ونیان باسیان کرد."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakeasygoings2("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakeasygoings2("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                """His friends described him as an easy-going person.""",
+            kurdishText: """ھاوڕێکانی وەک کەسێکی نەرم‌ونیان باسیان کرد.""",
+            onPressedBritish: () => speakeasygoings2("en-GB"),
+            onPressedAmerican: () => speakeasygoings2("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: """Normally he had an easy-going manner."""),
-                    ExampleSentenceKurdish(
-                        text: """بەشێوەی ئاسایی ھەڵسوکەوتی لەسەرەخۆی بوو."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakeasygoings3("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakeasygoings3("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: """Normally he had an easy-going manner.""",
+            kurdishText: """بەشێوەی ئاسایی ھەڵسوکەوتی لەسەرەخۆی بوو.""",
+            onPressedBritish: () => speakeasygoings3("en-GB"),
+            onPressedAmerican: () => speakeasygoings3("en-US"),
           ),
           // easygoings400easygoings4
           // speakeasygoings4

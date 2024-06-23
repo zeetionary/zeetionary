@@ -379,87 +379,29 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   """١. (ناو) زبڵدانێکی گەورە کە بانێکی ھەیە و زۆرجار لە دەرەوەی ماڵەوە دادەندرێت"""),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: """How regularly are the dustbins emptied?"""),
-                    ExampleSentenceKurdish(
-                        text: """چەند زوو زبڵدانەکان بەتاڵ دەکرێنەوە؟"""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "dustbin", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdustbins1("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdustbins1("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: """How regularly are the dustbins emptied?""",
+            kurdishText: """چەند زوو زبڵدانەکان بەتاڵ دەکرێنەوە؟""", // dustbin
+            onPressedBritish: () => speakdustbins1("en-GB"),
+            onPressedAmerican: () => speakdustbins1("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            """She chucked the mouldy potatoes in the dustbin."""),
-                    ExampleSentenceKurdish(
-                        text: """پەتاتە بۆگەنەکانی فڕێدایە زبڵدانەکەوە."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdustbins2("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdustbins2("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: """She chucked the mouldy potatoes in the dustbin.""",
+            kurdishText: """پەتاتە بۆگەنەکانی فڕێدایە زبڵدانەکەوە.""",
+            onPressedBritish: () => speakdustbins2("en-GB"),
+            onPressedAmerican: () => speakdustbins2("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: """These old shoes can go in the dustbin now."""),
-                    ExampleSentenceKurdish(
-                        text: """ئەم پێڵاوە کۆنانە ئێستا بۆ زبڵدانەکە باشن."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdustbins3("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdustbins3("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: """These old shoes can go in the dustbin now.""",
+            kurdishText: """ئەم پێڵاوە کۆنانە ئێستا بۆ زبڵدانەکە باشن.""",
+            onPressedBritish: () => speakdustbins3("en-GB"),
+            onPressedAmerican: () => speakdustbins3("en-US"),
           ),
           // dustbins400
           // speakdustbins4

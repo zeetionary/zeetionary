@@ -249,85 +249,29 @@ class KurdishMeaning extends StatelessWidget {
 // """),
           const DefinitionKurdish(
               text: "١. (کردار) گۆڕینی شتێک لە زمانی کۆدەوە بۆ زمانێکی ئاسایی"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "They were able to decipher the French military codes."),
-                    ExampleSentenceKurdish(
-                        text: "توانیان کۆدەکانی سوپای فەرەنسا بشکێنن."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "decipher", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdeciphers1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdeciphers1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "They were able to decipher the French military codes.",
+            kurdishText: "توانیان کۆدەکانی سوپای فەرەنسا بشکێنن.", // decipher
+            onPressedBritish: () => speakdeciphers1("en-GB"),
+            onPressedAmerican: () => speakdeciphers1("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "She quickly deciphered the whole message."),
-                    ExampleSentenceKurdish(
-                        text: "بە خێرایی لە تەواوی پەیامەکە تێگەشت."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdeciphers2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdeciphers2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "She quickly deciphered the whole message.",
+            kurdishText: "بە خێرایی لە تەواوی پەیامەکە تێگەشت.",
+            onPressedBritish: () => speakdeciphers2("en-GB"),
+            onPressedAmerican: () => speakdeciphers2("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
                   "٢. (کردار) سەرکەوتن لە دۆزینەوەی واتای شتێک کە سەختە بۆ تێگەشتن یان خوێندنەوە"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "Can anyone decipher his handwriting?"),
-                    ExampleSentenceKurdish(text: "کەس لە دەستوخەتی تێدەگات؟"),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdeciphers3("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdeciphers3("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "Can anyone decipher his handwriting?",
+            kurdishText: "کەس لە دەستوخەتی تێدەگات؟",
+            onPressedBritish: () => speakdeciphers3("en-GB"),
+            onPressedAmerican: () => speakdeciphers3("en-US"),
           ),
         ],
       ),

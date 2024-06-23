@@ -374,62 +374,24 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   """١. (ناو) ئازادکردنی کەسێک، بەتایبەتی لە کۆنترۆڵی یاسایی، سیاسی، یان کۆمەڵایەتیکە کە ئەوە سنووردار دەکات کە دەتوانن چی بکەن"""),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            """The country marked its emancipation from colonial rule."""),
-                    ExampleSentenceKurdish(
-                        text:
-                            """وڵاتەکە بە بە ڕزگاربوون لە دەسەڵاتی داگیرکاری تێپەڕبوو."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "emancipation", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakemancipations1("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakemancipations1("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                """The country marked its emancipation from colonial rule.""",
+            kurdishText:
+                """وڵاتەکە بە بە ڕزگاربوون لە دەسەڵاتی داگیرکاری تێپەڕبوو.""", // emancipation
+            onPressedBritish: () => speakemancipations1("en-GB"),
+            onPressedAmerican: () => speakemancipations1("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            """Emancipation gave them the freedom they longed for."""),
-                    ExampleSentenceKurdish(
-                        text:
-                            """ڕزگاربوون ئەو ئازادییەی پێدان کە ھیوایان بۆ دەخواست."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakemancipations2("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakemancipations2("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                """Emancipation gave them the freedom they longed for.""",
+            kurdishText:
+                """ڕزگاربوون ئەو ئازادییەی پێدان کە ھیوایان بۆ دەخواست.""",
+            onPressedBritish: () => speakemancipations2("en-GB"),
+            onPressedAmerican: () => speakemancipations2("en-US"),
           ),
           // emancipations300emancipations3
           // speakemancipations3

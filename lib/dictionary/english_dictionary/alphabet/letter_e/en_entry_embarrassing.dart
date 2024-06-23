@@ -407,183 +407,67 @@ class KurdishMeaning extends StatelessWidget {
 کوردی: شڵەژێنەر، پەشۆکێنەر، ناڕەحەت‌کەر، نیگەران‌کەر، تاسێنەر، ناخۆش 
 """),
           const DefinitionKurdish(text: """١. (ھاوەڵناو) کە شەرمەزارت دەکات"""),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            """His terrible acting is just embarrassing to watch."""),
-                    ExampleSentenceKurdish(
-                        text: """نمایشە خراپەکەی جێگەی شەرمە بۆ سەیرکردن."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "embarrassing", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakembarrassings1("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakembarrassings1("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                """His terrible acting is just embarrassing to watch.""",
+            kurdishText:
+                """نمایشە خراپەکەی جێگەی شەرمە بۆ سەیرکردن.""", // embarrassing
+            onPressedBritish: () => speakembarrassings1("en-GB"),
+            onPressedAmerican: () => speakembarrassings1("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            """It can be embarrassing for children to tell complete strangers about such incidents."""),
-                    ExampleSentenceKurdish(
-                        text:
-                            """دەکرێت جێگای شەرم بێت بۆ منداڵان کە ڕووداوی وەھا بە کەسانی تەواو نامۆ بڵێن."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakembarrassings2("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakembarrassings2("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                """It can be embarrassing for children to tell complete strangers about such incidents.""",
+            kurdishText:
+                """دەکرێت جێگای شەرم بێت بۆ منداڵان کە ڕووداوی وەھا بە کەسانی تەواو نامۆ بڵێن.""",
+            onPressedBritish: () => speakembarrassings2("en-GB"),
+            onPressedAmerican: () => speakembarrassings2("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            """It was so embarrassing having to sing in public."""),
-                    ExampleSentenceKurdish(
-                        text:
-                            """زۆر شەرمھێنەر بوو کە پێویست بوو لە شوێنی گشتی گۆرانی بڵێم."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakembarrassings3("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakembarrassings3("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: """It was so embarrassing having to sing in public.""",
+            kurdishText:
+                """زۆر شەرمھێنەر بوو کە پێویست بوو لە شوێنی گشتی گۆرانی بڵێم.""",
+            onPressedBritish: () => speakembarrassings3("en-GB"),
+            onPressedAmerican: () => speakembarrassings3("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            """My mother's presence made the situation even more embarrassing."""),
-                    ExampleSentenceKurdish(
-                        text:
-                            """ئامادەیی دایکم دۆخەکەی زیاتر شەرمھێنەر کرد."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakembarrassings4("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakembarrassings4("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                """My mother's presence made the situation even more embarrassing.""",
+            kurdishText: """ئامادەیی دایکم دۆخەکەی زیاتر شەرمھێنەر کرد.""",
+            onPressedBritish: () => speakembarrassings4("en-GB"),
+            onPressedAmerican: () => speakembarrassings4("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
                   """٢. (ھاوەڵناو) کە وا دەکات کەسێک/شتێک خراپ، گەمژە، تەڵەکەباز دەربکەوێت"""),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            """This EU ruling puts Britain in a very embarrassing position."""),
-                    ExampleSentenceKurdish(
-                        text:
-                            """بڕیارەکەی یەکێتیی ئەورووپا بەریتانیا دەخاتە پێگەیەکی زۆر ناخۆشەوە."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakembarrassings5("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakembarrassings5("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                """This EU ruling puts Britain in a very embarrassing position.""",
+            kurdishText:
+                """بڕیارەکەی یەکێتیی ئەورووپا بەریتانیا دەخاتە پێگەیەکی زۆر ناخۆشەوە.""",
+            onPressedBritish: () => speakembarrassings5("en-GB"),
+            onPressedAmerican: () => speakembarrassings5("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            """The report is likely to prove highly embarrassing to the government."""),
-                    ExampleSentenceKurdish(
-                        text:
-                            """ڕاپۆرتەکە ئەگەری ھەیە زۆر تاسێنەر بێت بۆ حکومەت."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakembarrassings6("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakembarrassings6("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                """The report is likely to prove highly embarrassing to the government.""",
+            kurdishText: """ڕاپۆرتەکە ئەگەری ھەیە زۆر تاسێنەر بێت بۆ حکومەت.""",
+            onPressedBritish: () => speakembarrassings6("en-GB"),
+            onPressedAmerican: () => speakembarrassings6("en-US"),
           ),
           // embarrassings700embarrassings7
           // speakembarrassings7

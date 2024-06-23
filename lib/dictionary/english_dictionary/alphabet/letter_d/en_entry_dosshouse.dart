@@ -364,32 +364,12 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "١. (ناو) ھوتێلێکی تەواو ھەرزان بۆ ئەو کەسانەی کە شوێنی مانەوەیان نییە"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The city has several dosshouses for people in need."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "شارەکە ژمارەیەک ھوتێلی جێ‌پەنای ھەیە بۆ کەسانی نەدار."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "dosshouse", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdosshouses1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdosshouses1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "The city has several dosshouses for people in need.",
+            kurdishText:
+                "شارەکە ژمارەیەک ھوتێلی جێ‌پەنای ھەیە بۆ کەسانی نەدار.", // dosshouse
+            onPressedBritish: () => speakdosshouses1("en-GB"),
+            onPressedAmerican: () => speakdosshouses1("en-US"),
           ),
           // dosshouses200"),
           // speakdosshouses2

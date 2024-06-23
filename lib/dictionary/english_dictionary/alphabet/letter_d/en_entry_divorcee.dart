@@ -364,32 +364,13 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "١. (ناو) کەسێک کە بە فەرمی ھاوسەرگیرییەکەی کۆتایی ھاتووە، بەتایبەتی ژنێک"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "She became a divorcee after the marriage ended in a legal separation."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "بوو بە بێوەژن لە دوای ئەوەی ھاوسەرگیرییەکە بە جیابوونەوەی فەرمی کۆتایی ھات."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "divorcee", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdivorcees1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdivorcees1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "She became a divorcee after the marriage ended in a legal separation.",
+            kurdishText:
+                "بوو بە بێوەژن لە دوای ئەوەی ھاوسەرگیرییەکە بە جیابوونەوەی فەرمی کۆتایی ھات.", // divorcee
+            onPressedBritish: () => speakdivorcees1("en-GB"),
+            onPressedAmerican: () => speakdivorcees1("en-US"),
           ),
           // divorcees200"),
           // speakdivorcees2

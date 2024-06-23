@@ -445,326 +445,117 @@ class KurdishMeaning extends StatelessWidget {
 کوردی: دەنگ‌دانەوە، زایەڵە، پێژن، گومنی، ڕەنگ‌دانەوە، کاردانەوە، پەرچەکردار، وەڵام،	لاسایی‌کەرەوە، چاولێکەر.	شۆپ، جێ، مۆرک، شەقڵ، شوێن،	دووبارەبوونەوە،	پێئاژۆ، ئەنجام، ئاکام
 """),
           const DefinitionKurdish(text: """١. (کردار) دەنگدانەوە"""),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: """Her footsteps echoed in the empty room."""),
-                    ExampleSentenceKurdish(
-                        text:
-                            """ھەنگاوەکانی دەنگیان دەدایەوە لە ژوورە بەتاڵەکەدا."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "echo", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakechos1("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakechos1("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: """Her footsteps echoed in the empty room.""",
+            kurdishText:
+                """ھەنگاوەکانی دەنگیان دەدایەوە لە ژوورە بەتاڵەکەدا.""", // echo
+            onPressedBritish: () => speakechos1("en-GB"),
+            onPressedAmerican: () => speakechos1("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: """ژممارە. (ناو) پێنناسە"""),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: """The call echoed off the walls of the cave."""),
-                    ExampleSentenceKurdish(
-                        text:
-                            """ھاوارکردنەکە دژ بە دیوارەکانی ئەشکەوتەکە دەنگی دایەوە."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakechos2("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakechos2("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: """The call echoed off the walls of the cave.""",
+            kurdishText:
+                """ھاوارکردنەکە دژ بە دیوارەکانی ئەشکەوتەکە دەنگی دایەوە.""",
+            onPressedBritish: () => speakechos2("en-GB"),
+            onPressedAmerican: () => speakechos2("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: """٢. (کردار) دەرکردنەوەی دەنگ"""),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(text: """The whole house echoed."""),
-                    ExampleSentenceKurdish(text: """خانووەکە دەنگی دایەوە."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakechos3("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakechos3("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: """The whole house echoed.""",
+            kurdishText: """خانووەکە دەنگی دایەوە.""",
+            onPressedBritish: () => speakechos3("en-GB"),
+            onPressedAmerican: () => speakechos3("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: """ژممارە. (ناو) پێنناسە"""),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: """The valley echoed back his voice."""),
-                    ExampleSentenceKurdish(
-                        text: """دۆڵەکە دەنگی دەنگ دایەوە."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakechos4("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakechos4("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: """The valley echoed back his voice.""",
+            kurdishText: """دۆڵەکە دەنگی دەنگ دایەوە.""",
+            onPressedBritish: () => speakechos4("en-GB"),
+            onPressedAmerican: () => speakechos4("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: """ژممارە. (ناو) پێنناسە"""),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            """The street echoed with the cries of children."""),
-                    ExampleSentenceKurdish(
-                        text:
-                            """شەقامەکان بە ھاواری منداڵان دەنگی دەدایەوە."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakechos5("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakechos5("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: """The street echoed with the cries of children.""",
+            kurdishText: """شەقامەکان بە ھاواری منداڵان دەنگی دەدایەوە.""",
+            onPressedBritish: () => speakechos5("en-GB"),
+            onPressedAmerican: () => speakechos5("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
                   """٣. (کردار) دووبارەکردنەوەی بۆچوون یان بیرۆکەیەک چونکە لەگەڵی ڕازیت"""),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            """This is a view echoed by many on the right of the party."""),
-                    ExampleSentenceKurdish(
-                        text:
-                            """ئەمە دیدێکە زۆرێک لە ڕاستڕەوانی پارتەکە لەگەڵی ھاوڕان."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakechos6("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakechos6("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                """This is a view echoed by many on the right of the party.""",
+            kurdishText:
+                """ئەمە دیدێکە زۆرێک لە ڕاستڕەوانی پارتەکە لەگەڵی ھاوڕان.""",
+            onPressedBritish: () => speakechos6("en-GB"),
+            onPressedAmerican: () => speakechos6("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: """ژممارە. (ناو) پێنناسە"""),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: """They had ideas which seem to echo our own."""),
-                    ExampleSentenceKurdish(
-                        text:
-                            """ژمارەیەک بیرۆکەیان ھەبوو کە وادیاربوو لەگەڵ ئەوانەی ئێمە بگونجێن."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakechos7("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakechos7("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: """They had ideas which seem to echo our own.""",
+            kurdishText:
+                """ژمارەیەک بیرۆکەیان ھەبوو کە وادیاربوو لەگەڵ ئەوانەی ئێمە بگونجێن.""",
+            onPressedBritish: () => speakechos7("en-GB"),
+            onPressedAmerican: () => speakechos7("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: """٤. (ناو) دەنگدانەوەی دەنگ"""),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            """There was an echo on the phone and I couldn't hear clearly."""),
-                    ExampleSentenceKurdish(
-                        text:
-                            """دەنگدانەوەیەک ھەبوو لەسەر تەلەفۆنەکە و نەمدەتوانی بەباشی ببیستم."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakechos8("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakechos8("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                """There was an echo on the phone and I couldn't hear clearly.""",
+            kurdishText:
+                """دەنگدانەوەیەک ھەبوو لەسەر تەلەفۆنەکە و نەمدەتوانی بەباشی ببیستم.""",
+            onPressedBritish: () => speakechos8("en-GB"),
+            onPressedAmerican: () => speakechos8("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: """ژممارە. (ناو) پێنناسە"""),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: """The hills sent back a faint echo."""),
-                    ExampleSentenceKurdish(
-                        text: """گردەکان دەنگدانەوەیەکی نزمیان دەردەکرد."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakechos9("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakechos9("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: """The hills sent back a faint echo.""",
+            kurdishText: """گردەکان دەنگدانەوەیەکی نزمیان دەردەکرد.""",
+            onPressedBritish: () => speakechos9("en-GB"),
+            onPressedAmerican: () => speakechos9("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text: """٥. (ناو) شتێک کە شتێکی دیکەت بەبیردەھێنێتەوە"""),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            """Yesterday's crash has grim echoes of previous disasters."""),
-                    ExampleSentenceKurdish(
-                        text:
-                            """پێکدادانەکە وەبیرھێنەرەوەی خەمناکی کارەساتەکانی پێشووترە."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakechos10("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakechos10("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                """Yesterday's crash has grim echoes of previous disasters.""",
+            kurdishText:
+                """پێکدادانەکە وەبیرھێنەرەوەی خەمناکی کارەساتەکانی پێشووترە.""",
+            onPressedBritish: () => speakechos10("en-GB"),
+            onPressedAmerican: () => speakechos10("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
                   """٦. (ناو) دیدو و بۆچوونیک کە لەگەڵ یەکێکی دیکە دەگونجێت کە پێشتر باسکراوە یان بیری لێکراوە"""),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            """His words were an echo of what she had heard many times before."""),
-                    ExampleSentenceKurdish(
-                        text:
-                            """قسەکانی سووپاتکەرەوەی ئەوە بوو کە پێشووتر چەندین جار بیستبووی."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakechos11("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakechos11("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                """His words were an echo of what she had heard many times before.""",
+            kurdishText:
+                """قسەکانی سووپاتکەرەوەی ئەوە بوو کە پێشووتر چەندین جار بیستبووی.""",
+            onPressedBritish: () => speakechos11("en-GB"),
+            onPressedAmerican: () => speakechos11("en-US"),
           ),
           // echos1200echos12
           // speakechos12

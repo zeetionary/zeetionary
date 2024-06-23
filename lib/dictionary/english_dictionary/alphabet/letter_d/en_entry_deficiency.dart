@@ -265,121 +265,41 @@ class KurdishMeaning extends StatelessWidget {
 کوردی: کەمی، ناتەواوی، کەم‌وکووڕی، نیوەچڵی، عەیب، خەوش
 """),
           const DefinitionKurdish(text: "١. (ناو) نەبوونی بڕی پێویست لە شتێک"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "Vitamin deficiency in the diet can cause illness."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "کەمی ڤیتامین لە خۆراکدا دەکرێت ببێتە ھۆکاری نەخۆشی."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "deficiency", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdeficiencys1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdeficiencys1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "Vitamin deficiency in the diet can cause illness.",
+            kurdishText:
+                "کەمی ڤیتامین لە خۆراکدا دەکرێت ببێتە ھۆکاری نەخۆشی.", // deficiency
+            onPressedBritish: () => speakdeficiencys1("en-GB"),
+            onPressedAmerican: () => speakdeficiencys1("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "He's suffering from a severe vitamin deficiency."),
-                    ExampleSentenceKurdish(
-                        text: "تووشی کەمییەکی زۆری ڤیتامین بووە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdeficiencys2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdeficiencys2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "He's suffering from a severe vitamin deficiency.",
+            kurdishText: "تووشی کەمییەکی زۆری ڤیتامین بووە.",
+            onPressedBritish: () => speakdeficiencys2("en-GB"),
+            onPressedAmerican: () => speakdeficiencys2("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
                   "٢. (ھاوەڵناو) ھەڵە یان لاوازی لە شتێکدا کە وادەکات کەمتر سەرکەوتوو بێت"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "He considers the lack of central control to be a serious deficiency."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "نەبوونی کۆنترۆڵی ناوەندی بە کەماسییەکی سەخت دادەنێت."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdeficiencys3("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdeficiencys3("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "He considers the lack of central control to be a serious deficiency.",
+            kurdishText: "نەبوونی کۆنترۆڵی ناوەندی بە کەماسییەکی سەخت دادەنێت.",
+            onPressedBritish: () => speakdeficiencys3("en-GB"),
+            onPressedAmerican: () => speakdeficiencys3("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The deficiencies in their argument are easy to spot."),
-                    ExampleSentenceKurdish(
-                        text: "لاوازی بۆچوونەکانیان ئاسانە ببینرێت."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdeficiencys4("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdeficiencys4("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "The deficiencies in their argument are easy to spot.",
+            kurdishText: "لاوازی بۆچوونەکانیان ئاسانە ببینرێت.",
+            onPressedBritish: () => speakdeficiencys4("en-GB"),
+            onPressedAmerican: () => speakdeficiencys4("en-US"),
           ),
           // deficiencys500"),
           // speakdeficiencys5

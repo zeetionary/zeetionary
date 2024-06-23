@@ -366,32 +366,13 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   """١. (ھاوەڵکار) بە شێوەیەکی ئێلیکترۆنیکی؛ بەوەی کە لە زۆر بەشی بچووک پێکھاتووە کە تەزوویەکی کارەبای بچووک کۆنترۆڵ و ئاراستە دەکەن"""),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            """The data is all processed electronically these days."""),
-                    ExampleSentenceKurdish(
-                        text:
-                            """داتا ئەم ڕۆژانە ھەمووی بە شێوەیەکی ئێلیکترۆنیکی کاری پێدەکرێت."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "electronically", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakelectronicallys1("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakelectronicallys1("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                """The data is all processed electronically these days.""",
+            kurdishText:
+                """داتا ئەم ڕۆژانە ھەمووی بە شێوەیەکی ئێلیکترۆنیکی کاری پێدەکرێت.""", // electronically
+            onPressedBritish: () => speakelectronicallys1("en-GB"),
+            onPressedAmerican: () => speakelectronicallys1("en-US"),
           ),
           // electronicallys200electronicallys2
           // speakelectronicallys2

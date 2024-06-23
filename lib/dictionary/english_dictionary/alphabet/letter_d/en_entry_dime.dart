@@ -232,31 +232,12 @@ class KurdishMeaning extends StatelessWidget {
 // کوردی:
 // """),
           const DefinitionKurdish(text: "١. (ناو) دراوی سکەی ئەمریکا و کەنەدا"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "I gave the boy two dimes to buy himself some candy."),
-                    ExampleSentenceKurdish(
-                        text: "دوو دایمم دا بە کوڕەکە بۆ کڕینی شیرینی بپ خۆی."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "dime", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdimes1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdimes1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "I gave the boy two dimes to buy himself some candy.",
+            kurdishText:
+                "دوو دایمم دا بە کوڕەکە بۆ کڕینی شیرینی بپ خۆی.", // dime
+            onPressedBritish: () => speakdimes1("en-GB"),
+            onPressedAmerican: () => speakdimes1("en-US"),
           ),
           // dimes200"),
           // speakdimes2

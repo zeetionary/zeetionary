@@ -422,237 +422,83 @@ class KurdishMeaning extends StatelessWidget {
 """),
           const DefinitionKurdish(
               text: "١. (ناو) ئامێرێک کە بۆ کونکردن بەکاردێت"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "She bored a hole in the tree with a cordless drill."),
-                    ExampleSentenceKurdish(
-                        text: "کونێکی کردە دارەکە بە دریڵێکی شەحن."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "drill", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdrills1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdrills1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "She bored a hole in the tree with a cordless drill.",
+            kurdishText: "کونێکی کردە دارەکە بە دریڵێکی شەحن.", // drill
+            onPressedBritish: () => speakdrills1("en-GB"),
+            onPressedAmerican: () => speakdrills1("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "Do you know how to use a power drill?"),
-                    ExampleSentenceKurdish(
-                        text: "دەزانیت چۆن دریڵێکی کارەبایی بەکاربھێنیت."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdrills2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdrills2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "Do you know how to use a power drill?",
+            kurdishText: "دەزانیت چۆن دریڵێکی کارەبایی بەکاربھێنیت.",
+            onPressedBritish: () => speakdrills2("en-GB"),
+            onPressedAmerican: () => speakdrills2("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
                   "٢. (ناو) شێوازێکی فێربوونی شتێک بە ئەنجامدانی ڕاھێنانی دووبارە و دووبارە"),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The teacher used a math drill to practice multiplication."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "مامۆستاکە مەشقێکی بیرکاری بەکارھێنا بۆ فێربوونی لێکدان."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdrills3("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdrills3("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "The teacher used a math drill to practice multiplication.",
+            kurdishText:
+                "مامۆستاکە مەشقێکی بیرکاری بەکارھێنا بۆ فێربوونی لێکدان.",
+            onPressedBritish: () => speakdrills3("en-GB"),
+            onPressedAmerican: () => speakdrills3("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: "٣. (کردار) کونکردن بە دریڵ"),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "The dentist started drilling my tooth."),
-                    ExampleSentenceKurdish(
-                        text: "پزیشکە ددانەکە دەستی بە کونکردنی ددانم کرد."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdrills4("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdrills4("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "The dentist started drilling my tooth.",
+            kurdishText: "پزیشکە ددانەکە دەستی بە کونکردنی ددانم کرد.",
+            onPressedBritish: () => speakdrills4("en-GB"),
+            onPressedAmerican: () => speakdrills4("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "Drill a series of holes in the frame."),
-                    ExampleSentenceKurdish(
-                        text: "زنجیرە کونێک بکە چوارچێوەکە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdrills5("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdrills5("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "Drill a series of holes in the frame.",
+            kurdishText: "زنجیرە کونێک بکە چوارچێوەکە.",
+            onPressedBritish: () => speakdrills5("en-GB"),
+            onPressedAmerican: () => speakdrills5("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
                   "٤. (کردار) ھەوڵدان بۆ بەدەستھێنانی نەوت یان ئاو بە کەندنی زەوی یان بنکی دەریا"),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "They're drilling for oil off the Irish coast."),
-                    ExampleSentenceKurdish(
-                        text: "لە کەناراوەکانی ئێرلەندا بۆ نەوت دەگەڕێن."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdrills6("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdrills6("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "They're drilling for oil off the Irish coast.",
+            kurdishText: "لە کەناراوەکانی ئێرلەندا بۆ نەوت دەگەڕێن.",
+            onPressedBritish: () => speakdrills6("en-GB"),
+            onPressedAmerican: () => speakdrills6("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
                   "٥. (کردار) فێرکردنی کەسێک کە شتێک بکات بە دووبارەکردنەوەی بۆ چەندین جار"),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The children were drilled to leave the classroom quickly when the fire bell rang."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "منداڵەکان فێرکران کە زوو پۆلەکە جێبھێڵن کە زەنگی ئاگرەکە لێیدا."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdrills7("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdrills7("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "The children were drilled to leave the classroom quickly when the fire bell rang.",
+            kurdishText:
+                "منداڵەکان فێرکران کە زوو پۆلەکە جێبھێڵن کە زەنگی ئاگرەکە لێیدا.",
+            onPressedBritish: () => speakdrills7("en-GB"),
+            onPressedAmerican: () => speakdrills7("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
                   "٦. (کردار) مەشقکردن بە سەرباز بۆ ئەنجامدانی کردەی سەربازی"),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The soldiers were being drilled outside the barracks."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "سەربازەکان لە دەرەوەی کەمپەکانیان مەشقیان پێدەکرا."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdrills8("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdrills8("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "The soldiers were being drilled outside the barracks.",
+            kurdishText: "سەربازەکان لە دەرەوەی کەمپەکانیان مەشقیان پێدەکرا.",
+            onPressedBritish: () => speakdrills8("en-GB"),
+            onPressedAmerican: () => speakdrills8("en-US"),
           ),
           // drills900"),
           // speakdrills9

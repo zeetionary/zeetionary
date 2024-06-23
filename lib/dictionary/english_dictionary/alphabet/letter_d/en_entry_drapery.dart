@@ -362,30 +362,11 @@ class KurdishMeaning extends StatelessWidget {
 کوردی: پارچەفرۆشی، کوتاڵ‌فرۆشی،	پارچە، پارچەی پەردەیی، پەردە،	چین، لۆ، قەد، چین، چین‌تێ‌کەوتوویی
 """),
           const DefinitionKurdish(text: "١. (ناو) قوماش کە بە فشی شۆڕبووەتەوە"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "The style is noted for its flowing drapery."),
-                    ExampleSentenceKurdish(
-                        text: "ستایڵەکە ناسراوە بۆ شۆڕبوونەوەی شەپۆلیی."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "drapery", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdraperys1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdraperys1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "The style is noted for its flowing drapery.",
+            kurdishText: "ستایڵەکە ناسراوە بۆ شۆڕبوونەوەی شەپۆلیی.", // drapery
+            onPressedBritish: () => speakdraperys1("en-GB"),
+            onPressedAmerican: () => speakdraperys1("en-US"),
           ),
           const DividerDefinition(),
           Column(

@@ -249,83 +249,28 @@ class KurdishMeaning extends StatelessWidget {
 """),
           const DefinitionKurdish(
               text: "١. (ھاوەڵناو) بوێر؛ ئامادەی کردنی کاری مەترسیدار"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "There are plenty of activities at the resort for the less daring."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "ژمارەیەکی زۆر چالاکی ھەیە لە سەیرانگاکە بۆ کەسانی کەم بوێر."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "daring", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdarings1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdarings1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "There are plenty of activities at the resort for the less daring.",
+            kurdishText:
+                "ژمارەیەکی زۆر چالاکی ھەیە لە سەیرانگاکە بۆ کەسانی کەم بوێر.", // daring
+            onPressedBritish: () => speakdarings1("en-GB"),
+            onPressedAmerican: () => speakdarings1("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(text: "He had grown more daring."),
-                    ExampleSentenceKurdish(text: "زیاتر بوێر بووە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdarings2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdarings2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "He had grown more daring.",
+            kurdishText: "زیاتر بوێر بووە.",
+            onPressedBritish: () => speakdarings2("en-GB"),
+            onPressedAmerican: () => speakdarings2("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: "٢. (ناو) بوێر"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "He showed great daring on the battlefield."),
-                    ExampleSentenceKurdish(
-                        text: "بوێری زۆری پیشاندا لە مەیدانی جەنگدا."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdarings3("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdarings3("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "He showed great daring on the battlefield.",
+            kurdishText: "بوێری زۆری پیشاندا لە مەیدانی جەنگدا.",
+            onPressedBritish: () => speakdarings3("en-GB"),
+            onPressedAmerican: () => speakdarings3("en-US"),
           ),
         ],
       ),

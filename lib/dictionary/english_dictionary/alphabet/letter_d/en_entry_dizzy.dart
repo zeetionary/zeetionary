@@ -389,119 +389,41 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "١. (ھاوەڵناو) ھەستکردن بەوەی ھەموو شتێک دەسووڕێتەوە و ناتوانیت ھاوسەنگی ڕابگریت"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "Climbing so high made me feel dizzy."),
-                    ExampleSentenceKurdish(
-                        text: "سەرکەوتنی ھێندە بەرز وای لێکردم گێژبخۆم."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "dizzy", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdizzys1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdizzys1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "Climbing so high made me feel dizzy.",
+            kurdishText: "سەرکەوتنی ھێندە بەرز وای لێکردم گێژبخۆم.", // dizzy
+            onPressedBritish: () => speakdizzys1("en-GB"),
+            onPressedAmerican: () => speakdizzys1("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "He was all right, just a bit dizzy, that's all."),
-                    ExampleSentenceKurdish(
-                        text: "باش بوو، تەنھا کەمێک گێژخواردوو بوو و تەواو."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdizzys2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdizzys2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "He was all right, just a bit dizzy, that's all.",
+            kurdishText: "باش بوو، تەنھا کەمێک گێژخواردوو بوو و تەواو.",
+            onPressedBritish: () => speakdizzys2("en-GB"),
+            onPressedAmerican: () => speakdizzys2("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٢. (ھاوەڵناو) کە وات لێدەکات سەرت گێژ بخوات"),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The dizzy pace of life in Hong Kong can be overwhelming for newcomers."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "خێرایی سەرگێژکەری ژیان لە ھۆنگ کۆنگ دەکرێت سەخت بێت بۆ تازەھاتووان."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdizzys3("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdizzys3("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "The dizzy pace of life in Hong Kong can be overwhelming for newcomers.",
+            kurdishText:
+                "خێرایی سەرگێژکەری ژیان لە ھۆنگ کۆنگ دەکرێت سەخت بێت بۆ تازەھاتووان.",
+            onPressedBritish: () => speakdizzys3("en-GB"),
+            onPressedAmerican: () => speakdizzys3("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: "٣. (ھاوەڵناو) گەمژە"),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "In the film, she played the part of a dizzy blonde."),
-                    ExampleSentenceKurdish(
-                        text: "لە فیلمەکە ڕۆڵی قژ زەردێکی گێژ دەبینێت."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdizzys4("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdizzys4("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "In the film, she played the part of a dizzy blonde.",
+            kurdishText: "لە فیلمەکە ڕۆڵی قژ زەردێکی گێژ دەبینێت.",
+            onPressedBritish: () => speakdizzys4("en-GB"),
+            onPressedAmerican: () => speakdizzys4("en-US"),
           ),
           // dizzys500"),
           // speakdizzys5

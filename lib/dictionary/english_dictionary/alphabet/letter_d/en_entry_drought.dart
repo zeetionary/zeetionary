@@ -372,63 +372,25 @@ class KurdishMeaning extends StatelessWidget {
 """),
           const DefinitionKurdish(
               text: "١. (ناو) وشکەساڵی؛ ماوەیەک لە بێ بارانی"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "Farmers are facing ruin after two years of severe drought."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "جوتیاران ڕووبەڕووی ئافات بوونە دوای دوو ساڵ لە وشکەساڵی سەخت."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "drought", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdroughts1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdroughts1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "Farmers are facing ruin after two years of severe drought.",
+            kurdishText:
+                "جوتیاران ڕووبەڕووی ئافات بوونە دوای دوو ساڵ لە وشکەساڵی سەخت.", // drought
+            onPressedBritish: () => speakdroughts1("en-GB"),
+            onPressedAmerican: () => speakdroughts1("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٢. (ناو) ماوەیەکی دوور و ودرێژ لە نەبوونی شتێک"),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The team is desperate to end a ten-game goal drought."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "تیمەکە لە حەیبەتی کۆتاییھێنان بە گۆڵنەکردنە لە دە یاریدا."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdroughts2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdroughts2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "The team is desperate to end a ten-game goal drought.",
+            kurdishText:
+                "تیمەکە لە حەیبەتی کۆتاییھێنان بە گۆڵنەکردنە لە دە یاریدا.",
+            onPressedBritish: () => speakdroughts2("en-GB"),
+            onPressedAmerican: () => speakdroughts2("en-US"),
           ),
           // droughts300"),
           // speakdroughts3

@@ -361,31 +361,12 @@ class KurdishMeaning extends StatelessWidget {
 کوردی: گڵەخۆرکە، کرمی نێو گڵ یان خۆڵ، کرمەسوورکە
 """),
           const DefinitionKurdish(text: """١. (ناو) کرمی زەوی"""),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: """Birds often eat earthworms in the garden."""),
-                    ExampleSentenceKurdish(
-                        text:
-                            """باڵندەکان زۆرجار کرمی زەوی لە باخچەکە دەخۆن."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "earthworm", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakearthworms1("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakearthworms1("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: """Birds often eat earthworms in the garden.""",
+            kurdishText:
+                """باڵندەکان زۆرجار کرمی زەوی لە باخچەکە دەخۆن.""", // earthworm
+            onPressedBritish: () => speakearthworms1("en-GB"),
+            onPressedAmerican: () => speakearthworms1("en-US"),
           ),
           // earthworms200earthworms2
           // speakearthworms2

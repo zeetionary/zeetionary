@@ -242,62 +242,23 @@ class KurdishMeaning extends StatelessWidget {
 """),
           const DefinitionKurdish(
               text: "١. (کردار) ڕێکخستنی خەڵک/شت بە شێوەیەکی دیاریکراو"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The visitors disposed themselves in a circle round the statue."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "سەردانکاران بە بازنەیەکی بە دەوری پەیکەرەکەدا خۆیان ڕێکخست."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "dispose", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdisposes1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdisposes1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "The visitors disposed themselves in a circle round the statue.",
+            kurdishText:
+                "سەردانکاران بە بازنەیەکی بە دەوری پەیکەرەکەدا خۆیان ڕێکخست.", // dispose
+            onPressedBritish: () => speakdisposes1("en-GB"),
+            onPressedAmerican: () => speakdisposes1("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٢. (کردار) ئەوەی وا لە کەسێک بکەیت بەشێوەیەک ڕەفتار بکات"),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "This is a drug that disposes the patient to sleep."),
-                    ExampleSentenceKurdish(
-                        text: "ئەمە دەرمانێکە کە نەخۆشەکە دەخاتە خەو."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdisposes2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdisposes2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "This is a drug that disposes the patient to sleep.",
+            kurdishText: "ئەمە دەرمانێکە کە نەخۆشەکە دەخاتە خەو.",
+            onPressedBritish: () => speakdisposes2("en-GB"),
+            onPressedAmerican: () => speakdisposes2("en-US"),
           ),
           // disposes300"),
           // speakdisposes3

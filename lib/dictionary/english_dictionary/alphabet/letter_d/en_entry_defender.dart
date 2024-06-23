@@ -257,90 +257,33 @@ class KurdishMeaning extends StatelessWidget {
 کوردی: بەرگری‌کەر، بەر(گە)گر،	پارێزەر، بەرەڤان‌کار،	لایەنگر، داژدار، پشتیوان
 """),
           const DefinitionKurdish(text: "١. (ناو) یاریزانی بەرگریکار"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The Brazilian attack put France's defenders under pressure."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "ھێرشی بەرازیل بەرگریکارانی فەرەنسای خستە ژێر پەستانەوە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "defender", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdefenders1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdefenders1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "The Brazilian attack put France's defenders under pressure.",
+            kurdishText:
+                "ھێرشی بەرازیل بەرگریکارانی فەرەنسای خستە ژێر پەستانەوە.", // defender
+            onPressedBritish: () => speakdefenders1("en-GB"),
+            onPressedAmerican: () => speakdefenders1("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٢. (ناو) کەسێک کە بەرگری لە شتێک دەکات و باوەڕی پێی ھەیە"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "She is a defender of women’s rights."),
-                    ExampleSentenceKurdish(
-                        text: "داکۆکیکارێکی مافەکانی ژنانە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdefenders2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdefenders2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "She is a defender of women’s rights.",
+            kurdishText: "داکۆکیکارێکی مافەکانی ژنانە.",
+            onPressedBritish: () => speakdefenders2("en-GB"),
+            onPressedAmerican: () => speakdefenders2("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٣. (ھاوەڵناو) کەسێک کە شوێنێک لە ھێرش دەپارێزێت"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The city's defenders were outnumbered by the besieging army."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "بەرگریکارانی شارەکە لە ڕووی ژمارەوە بەزێندرابوون لەلایەن سوپای گەمارۆدەرەوە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdefenders3("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdefenders3("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "The city's defenders were outnumbered by the besieging army.",
+            kurdishText:
+                "بەرگریکارانی شارەکە لە ڕووی ژمارەوە بەزێندرابوون لەلایەن سوپای گەمارۆدەرەوە.",
+            onPressedBritish: () => speakdefenders3("en-GB"),
+            onPressedAmerican: () => speakdefenders3("en-US"),
           ),
           // defenders400"),
           // speakdefenders4

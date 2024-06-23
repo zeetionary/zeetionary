@@ -243,60 +243,22 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "١. (ناو) کاری جێھێشتنی پارتێکی سیاسی، وڵاتێک، ھتد بۆ پەیوەندیکردن بە یەکێکی دیکەوە"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "There have been several defections from the ruling party."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "ژمارەیەک ھەڵگەڕانەوە لە پارتی دەسەڵاتدار ڕوویداوە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "defection", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdefections1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdefections1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "There have been several defections from the ruling party.",
+            kurdishText:
+                "ژمارەیەک ھەڵگەڕانەوە لە پارتی دەسەڵاتدار ڕوویداوە.", // defection
+            onPressedBritish: () => speakdefections1("en-GB"),
+            onPressedAmerican: () => speakdefections1("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "Recent changes in policy have resulted in large-scale defection from the party."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "گۆڕانە تازەکان لە سیاسەتدا بووە بەھۆی ھەڵگەڕانەوەی گەورە لە پارتەکە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdefections2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdefections2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "Recent changes in policy have resulted in large-scale defection from the party.",
+            kurdishText:
+                "گۆڕانە تازەکان لە سیاسەتدا بووە بەھۆی ھەڵگەڕانەوەی گەورە لە پارتەکە.",
+            onPressedBritish: () => speakdefections2("en-GB"),
+            onPressedAmerican: () => speakdefections2("en-US"),
           ),
         ],
       ),

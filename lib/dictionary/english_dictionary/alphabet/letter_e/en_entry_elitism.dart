@@ -364,32 +364,13 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   """١. (ناو) شێوازێکی بەڕێوەبردنی سیستەمێک، کۆمەڵگایەک، ھتد کە تێیدا تەنھا کەمینەیەک دەسەڵاتیان ھەیە"""),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            """Many people believe that private education encourages elitism."""),
-                    ExampleSentenceKurdish(
-                        text:
-                            """زۆر کەس باوەڕیان وایە خوێندنی تایبەت ھاندەری ھەڵبژاردەگەرییە."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "elitism", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakelitisms1("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakelitisms1("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                """Many people believe that private education encourages elitism.""",
+            kurdishText:
+                """زۆر کەس باوەڕیان وایە خوێندنی تایبەت ھاندەری ھەڵبژاردەگەرییە.""", // elitism
+            onPressedBritish: () => speakelitisms1("en-GB"),
+            onPressedAmerican: () => speakelitisms1("en-US"),
           ),
           // elitisms200elitisms2
           // speakelitisms2

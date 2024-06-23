@@ -407,188 +407,72 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   """١. (ناو) کەسێک کە بەرپرسی ڕۆژنامەیەک، گۆڤارێک، ھتد ــە یان بەشێکە لە بەشی بەڕێوەبردن کە بڕیار دەدەن چی بڵاوبکرێتەوە"""),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            """She got a job as a web editor on the local paper."""),
-                    ExampleSentenceKurdish(
-                        text:
-                            """کارێکی وەرگرت وەک سەرنووسەری ئینتەرنێتی ڕۆژنامە ناوخۆییەکە."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "editor", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakeditors1("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakeditors1("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                """She got a job as a web editor on the local paper.""",
+            kurdishText:
+                """کارێکی وەرگرت وەک سەرنووسەری ئینتەرنێتی ڕۆژنامە ناوخۆییەکە.""", // editor
+            onPressedBritish: () => speakeditors1("en-GB"),
+            onPressedAmerican: () => speakeditors1("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: """ژممارە. (ناو) پێنناسە"""),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: """He is a former editor of the journal."""),
-                    ExampleSentenceKurdish(
-                        text: """سەرنووسەری پێشووتری جۆرناڵەکەیە."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakeditors2("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakeditors2("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: """He is a former editor of the journal.""",
+            kurdishText: """سەرنووسەری پێشووتری جۆرناڵەکەیە.""",
+            onPressedBritish: () => speakeditors2("en-GB"),
+            onPressedAmerican: () => speakeditors2("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
                   """٢. (ناو) کەسێک کە کتێبێک یان نووسراوی دیکە بۆ بڵاوکردنەوە ئامادە دەکات، بۆ نموونە بە ڕاستکردنەوەی ھەڵە و باشترکردنی"""),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            """Jenny Cook is a writer and editor based in New York."""),
-                    ExampleSentenceKurdish(
-                        text:
-                            """جێنی کووک نووسەر و پێداچوونکارە لە نیویۆرک."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakeditors3("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakeditors3("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                """Jenny Cook is a writer and editor based in New York.""",
+            kurdishText: """جێنی کووک نووسەر و پێداچوونکارە لە نیویۆرک.""",
+            onPressedBritish: () => speakeditors3("en-GB"),
+            onPressedAmerican: () => speakeditors3("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
                   """٣. (ناو) کەسێک کە کاری دەستکاریکردنی فیلم یان پڕۆگرامی ڕادیۆیی یان تەلەفیزیۆن دەکات بە دانان و ڕێکخستنی ئەوەی کە پیشان دەدرێت"""),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            """Kazan hired him as cameraman, editor and producer for ‘The Visitors’."""),
-                    ExampleSentenceKurdish(
-                        text:
-                            """کازان بەکرێی گرت وەک وێنەگر، مۆنتاژگەر و بەرھەمھێنەر بۆ فیلی 'The Visitors'."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakeditors4("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakeditors4("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                """Kazan hired him as cameraman, editor and producer for ‘The Visitors’.""",
+            kurdishText:
+                """کازان بەکرێی گرت وەک وێنەگر، مۆنتاژگەر و بەرھەمھێنەر بۆ فیلی 'The Visitors'.""",
+            onPressedBritish: () => speakeditors4("en-GB"),
+            onPressedAmerican: () => speakeditors4("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
                   """٤. (ناو) ڕۆژنامەنووسێک کە لەسەر بابەتێکی دیاریکراو کار دەکات"""),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            """The economics editor explained the impact of new trade policies."""),
-                    ExampleSentenceKurdish(
-                        text:
-                            """ڕۆژنامەنووسە ئابوورییەکە کاریگەری سیاسەتە تازەکانی بازرگانی ڕوونکردەوە."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakeditors5("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakeditors5("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                """The economics editor explained the impact of new trade policies.""",
+            kurdishText:
+                """ڕۆژنامەنووسە ئابوورییەکە کاریگەری سیاسەتە تازەکانی بازرگانی ڕوونکردەوە.""",
+            onPressedBritish: () => speakeditors5("en-GB"),
+            onPressedAmerican: () => speakeditors5("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
                   """٥. (ناو) کەسێک کە نووسینی نووسەرێک یان زیاتر کۆدەکاتەوە و بە کتێبێک بڵاویان دەکاتەوە"""),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            """She's the editor of a new collection of children stories."""),
-                    ExampleSentenceKurdish(
-                        text:
-                            """ئامادەکاری کۆمەڵێکی تازە لە چیرۆکی منداڵانە."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakeditors6("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakeditors6("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                """She's the editor of a new collection of children stories.""",
+            kurdishText: """ئامادەکاری کۆمەڵێکی تازە لە چیرۆکی منداڵانە.""",
+            onPressedBritish: () => speakeditors6("en-GB"),
+            onPressedAmerican: () => speakeditors6("en-US"),
           ),
           // editors700editors7
           // speakeditors7

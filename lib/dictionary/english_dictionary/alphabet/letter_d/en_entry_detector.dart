@@ -249,58 +249,20 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "١. (ناو) ئامێرێک کە بەکاردێت بۆ ھەستکردن بە شتێک، وەک دووکەڵ، تەقینەوە، ھتد یان گۆڕان لە پەستان یان پلەی گەرمی"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "The smoke detector went off in the kitchen."),
-                    ExampleSentenceKurdish(
-                        text: "دووکەڵدۆزەکە لە چێشتخانەکە کەوتە کار."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "detector", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdetectors1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdetectors1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "The smoke detector went off in the kitchen.",
+            kurdishText: "دووکەڵدۆزەکە لە چێشتخانەکە کەوتە کار.", // detector
+            onPressedBritish: () => speakdetectors1("en-GB"),
+            onPressedAmerican: () => speakdetectors1("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "The radiation detector showed high levels."),
-                    ExampleSentenceKurdish(
-                        text: "تیشکدەرپێوەکە ئاستی بەرزی پیشاندا."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdetectors2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdetectors2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "The radiation detector showed high levels.",
+            kurdishText: "تیشکدەرپێوەکە ئاستی بەرزی پیشاندا.",
+            onPressedBritish: () => speakdetectors2("en-GB"),
+            onPressedAmerican: () => speakdetectors2("en-US"),
           ),
           // detectors300"),
           // speakdetectors3

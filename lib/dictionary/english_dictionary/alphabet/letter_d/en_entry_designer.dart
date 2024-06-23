@@ -292,203 +292,70 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "١. (ناو) کەسێک کە جل، بینا، ھتد دیزاین دەکات بە کێشانی شێوە یان پلان بۆی"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "She's a highly original young designer."),
-                    ExampleSentenceKurdish(
-                        text: "دیزاینەرێکی گەنجی زۆر ڕەسەنە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "designer", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdesigners1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdesigners1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "She's a highly original young designer.",
+            kurdishText: "دیزاینەرێکی گەنجی زۆر ڕەسەنە.", // designer
+            onPressedBritish: () => speakdesigners1("en-GB"),
+            onPressedAmerican: () => speakdesigners1("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "Mary Quant was the first fashion designer to raise hemlines."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "ماری کوانت یەکەم دیزاینەری فاشن بوو کە لێواری تەنوورە بەرزبکاتەوە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdesigners2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdesigners2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "Mary Quant was the first fashion designer to raise hemlines.",
+            kurdishText:
+                "ماری کوانت یەکەم دیزاینەری فاشن بوو کە لێواری تەنوورە بەرزبکاتەوە.",
+            onPressedBritish: () => speakdesigners2("en-GB"),
+            onPressedAmerican: () => speakdesigners2("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "This designer has recently branched out into children's wear."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "ئەم دیزاینەرە تازەگی پەلی ھاویشتووە بۆ جلی منداڵان."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdesigners3("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdesigners3("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "This designer has recently branched out into children's wear.",
+            kurdishText: "ئەم دیزاینەرە تازەگی پەلی ھاویشتووە بۆ جلی منداڵان.",
+            onPressedBritish: () => speakdesigners3("en-GB"),
+            onPressedAmerican: () => speakdesigners3("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "She was a very imaginative designer."),
-                    ExampleSentenceKurdish(
-                        text: "دیزاینەرێکی زۆر دووربین بوو."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdesigners4("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdesigners4("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "She was a very imaginative designer.",
+            kurdishText: "دیزاینەرێکی زۆر دووربین بوو.",
+            onPressedBritish: () => speakdesigners4("en-GB"),
+            onPressedAmerican: () => speakdesigners4("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
                   "٢. (ھاوەڵناو) کە لەلایەن دیزاینەرێکی بەناوبانگەوە درووستکراوە"),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "I can't afford designer label clothes."),
-                    ExampleSentenceKurdish(
-                        text: "ناتوانم خەرجی جلی دیزاینەران بکەم."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdesigners5("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdesigners5("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "I can't afford designer label clothes.",
+            kurdishText: "ناتوانم خەرجی جلی دیزاینەران بکەم.",
+            onPressedBritish: () => speakdesigners5("en-GB"),
+            onPressedAmerican: () => speakdesigners5("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "Her favourite designer label is Armani."),
-                    ExampleSentenceKurdish(
-                        text: "جلی دیزاینەری دڵخوازی ئەلمانییە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdesigners6("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdesigners6("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "Her favourite designer label is Armani.",
+            kurdishText: "جلی دیزاینەری دڵخوازی ئەلمانییە.",
+            onPressedBritish: () => speakdesigners6("en-GB"),
+            onPressedAmerican: () => speakdesigners6("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "I don't possess any designer clothes."),
-                    ExampleSentenceKurdish(text: "ھیچ جلێکی دیزاینەرم نییە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdesigners7("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdesigners7("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "I don't possess any designer clothes.",
+            kurdishText: "ھیچ جلێکی دیزاینەرم نییە.",
+            onPressedBritish: () => speakdesigners7("en-GB"),
+            onPressedAmerican: () => speakdesigners7("en-US"),
           ),
           // designers800"),
           // speakdesigners8

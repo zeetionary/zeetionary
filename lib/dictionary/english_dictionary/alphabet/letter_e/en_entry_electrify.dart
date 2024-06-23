@@ -379,92 +379,34 @@ class KurdishMeaning extends StatelessWidget {
 // """),
           const DefinitionKurdish(
               text: """١. (کردار) واکردنی ئەوەی شتێک بە کارەبا کار  بکات"""),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            """The railway line was electrified in the 1950s."""),
-                    ExampleSentenceKurdish(
-                        text:
-                            """ھێڵی شەمەندەفەرەکە بە کارەبا کرا لە ساڵی ١٩٥٠."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "electrify", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakelectrifys1("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakelectrifys1("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: """The railway line was electrified in the 1950s.""",
+            kurdishText:
+                """ھێڵی شەمەندەفەرەکە بە کارەبا کرا لە ساڵی ١٩٥٠.""", // electrify
+            onPressedBritish: () => speakelectrifys1("en-GB"),
+            onPressedAmerican: () => speakelectrifys1("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: """ژممارە. (کردار) پێنناسە"""),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            """He had all the fences around his home electrified."""),
-                    ExampleSentenceKurdish(
-                        text:
-                            """تەواوی پەرژینەکانی دەوری ماڵەکەی کارەبایی کردبوو."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakelectrifys2("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakelectrifys2("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                """He had all the fences around his home electrified.""",
+            kurdishText:
+                """تەواوی پەرژینەکانی دەوری ماڵەکەی کارەبایی کردبوو.""",
+            onPressedBritish: () => speakelectrifys2("en-GB"),
+            onPressedAmerican: () => speakelectrifys2("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
                   """٢. (کردار) واکردنی ئەوەی کەسێک بەجۆش و دڵشاد بێت سەبارەت بە شتێک"""),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: """Her performance electrified the audience."""),
-                    ExampleSentenceKurdish(
-                        text: """نمایشەکەی ئامادەبووانی سەرسام کرد."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakelectrifys3("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakelectrifys3("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: """Her performance electrified the audience.""",
+            kurdishText: """نمایشەکەی ئامادەبووانی سەرسام کرد.""",
+            onPressedBritish: () => speakelectrifys3("en-GB"),
+            onPressedAmerican: () => speakelectrifys3("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: """ژممارە. (کردار) پێنناسە"""),

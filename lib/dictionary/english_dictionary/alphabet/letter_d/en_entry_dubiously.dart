@@ -379,92 +379,35 @@ class KurdishMeaning extends StatelessWidget {
 کوردی: بە گومانەوە، بە شێوەیێکی گومان‌لێ‌کراو
 """),
           const DefinitionKurdish(text: """١. (ھاوەڵکار) بە گومانەوە"""),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: """Helen looked at him dubiously."""),
-                    ExampleSentenceKurdish(
-                        text: """ھێلین بەگومانەوە سەیری دەکرد."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "dubiously", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdubiouslys1("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdubiouslys1("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: """Helen looked at him dubiously.""",
+            kurdishText: """ھێلین بەگومانەوە سەیری دەکرد.""", // dubiously
+            onPressedBritish: () => speakdubiouslys1("en-GB"),
+            onPressedAmerican: () => speakdubiouslys1("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text: """٢. (ھاوەڵکار) بەشێوەیەک کە تەڵەکەبازی لەخۆدەگرێت"""),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            """The main impact of the law will be to protect the wealthy and their dubiously acquired assets."""),
-                    ExampleSentenceKurdish(
-                        text:
-                            """کاریگەریی سەرەکی یااساکە پاراستنی دەوڵەمەندەکان دەبێت لەگەڵ سامانی کۆکراوەیان بە گومان‌لێ‌کراوی."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdubiouslys2("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdubiouslys2("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                """The main impact of the law will be to protect the wealthy and their dubiously acquired assets.""",
+            kurdishText:
+                """کاریگەریی سەرەکی یااساکە پاراستنی دەوڵەمەندەکان دەبێت لەگەڵ سامانی کۆکراوەیان بە گومان‌لێ‌کراوی.""",
+            onPressedBritish: () => speakdubiouslys2("en-GB"),
+            onPressedAmerican: () => speakdubiouslys2("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text: """٣. (ھاوەڵکار) بەشێوەیەک کە باش نییە"""),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            """He entered the country on dubiously authentic travel documents."""),
-                    ExampleSentenceKurdish(
-                        text:
-                            """چووە وڵاتەکەوە بە بەڵگەنامەی گەشتی گومان‌لێ‌کراو."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdubiouslys3("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdubiouslys3("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                """He entered the country on dubiously authentic travel documents.""",
+            kurdishText:
+                """چووە وڵاتەکەوە بە بەڵگەنامەی گەشتی گومان‌لێ‌کراو.""",
+            onPressedBritish: () => speakdubiouslys3("en-GB"),
+            onPressedAmerican: () => speakdubiouslys3("en-US"),
           ),
           // dubiouslys400
           // speakdubiouslys4

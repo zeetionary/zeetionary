@@ -364,30 +364,11 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "١. (ناو) نمایشکردنی کتێبێک، بۆنەیەک، ھتد لە شانۆ یان فیلمێکدا"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "It's not a documentary; it's a dramatization."),
-                    ExampleSentenceKurdish(
-                        text: "دۆکیومێنتەری نییە؛ بەشانۆییکردنە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "dramatization", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdramatizations1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdramatizations1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "It's not a documentary; it's a dramatization.",
+            kurdishText: "دۆکیومێنتەری نییە؛ بەشانۆییکردنە.", // dramatization
+            onPressedBritish: () => speakdramatizations1("en-GB"),
+            onPressedAmerican: () => speakdramatizations1("en-US"),
           ),
           // dramatizations200"),
           // speakdramatizations2

@@ -273,144 +273,49 @@ class KurdishMeaning extends StatelessWidget {
 """),
           const DefinitionKurdish(
               text: "١. (ھاوەڵناو) کە حەز دەکەیت ھەتبێت یان بیکەیت"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "Such measures are desirable, if not essential."),
-                    ExampleSentenceKurdish(
-                        text: "ھەنگاوی وەھا خواستراون ئەگەر سەرەکیش نەبن."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "desirable", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdesirables1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdesirables1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "Such measures are desirable, if not essential.",
+            kurdishText:
+                "ھەنگاوی وەھا خواستراون ئەگەر سەرەکیش نەبن.", // desirable
+            onPressedBritish: () => speakdesirables1("en-GB"),
+            onPressedAmerican: () => speakdesirables1("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "The house has many desirable features."),
-                    ExampleSentenceKurdish(
-                        text: "خانووەکە ژمارەیەک خاسیەتی دڵ‌ویستووی ھەیە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdesirables2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdesirables2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "The house has many desirable features.",
+            kurdishText: "خانووەکە ژمارەیەک خاسیەتی دڵ‌ویستووی ھەیە.",
+            onPressedBritish: () => speakdesirables2("en-GB"),
+            onPressedAmerican: () => speakdesirables2("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "Experience of computers is highly desirable."),
-                    ExampleSentenceKurdish(
-                        text: "ئەزموونی کۆمپیوتەر تەواو ویستراوە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdesirables3("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdesirables3("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "Experience of computers is highly desirable.",
+            kurdishText: "ئەزموونی کۆمپیوتەر تەواو ویستراوە.",
+            onPressedBritish: () => speakdesirables3("en-GB"),
+            onPressedAmerican: () => speakdesirables3("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٢. (ھاوەڵناو) کە لایەنی سێکسی کەسانی دیکە دورووژێنێت"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "He found her intensely desirable."),
-                    ExampleSentenceKurdish(text: "تەواو بە ورووژێنەر بینی."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdesirables4("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdesirables4("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "He found her intensely desirable.",
+            kurdishText: "تەواو بە ورووژێنەر بینی.",
+            onPressedBritish: () => speakdesirables4("en-GB"),
+            onPressedAmerican: () => speakdesirables4("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "She suddenly saw herself as a desirable young woman."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "لەناکاو خۆی بە ژنێکی گەنجی ورووژێنەر ھاتە بەرچاو."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdesirables5("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdesirables5("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "She suddenly saw herself as a desirable young woman.",
+            kurdishText: "لەناکاو خۆی بە ژنێکی گەنجی ورووژێنەر ھاتە بەرچاو.",
+            onPressedBritish: () => speakdesirables5("en-GB"),
+            onPressedAmerican: () => speakdesirables5("en-US"),
           ),
           // desirables600"),
           // speakdesirables6

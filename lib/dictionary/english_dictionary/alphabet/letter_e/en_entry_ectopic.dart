@@ -363,32 +363,13 @@ class KurdishMeaning extends StatelessWidget {
 // """),
           const DefinitionKurdish(
               text: """١. (ھاوەڵناو) لە شوێنێک یان جێگایەکی نائاسایی"""),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            """This results in formation of ectopic bone around the hip."""),
-                    ExampleSentenceKurdish(
-                        text:
-                            """ئەمە دەبێت ھۆکاری درووستبوونی ئێسکی جێگۆڕاو لە نزیکی سمت."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "ectopic", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakectopics1("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakectopics1("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                """This results in formation of ectopic bone around the hip.""",
+            kurdishText:
+                """ئەمە دەبێت ھۆکاری درووستبوونی ئێسکی جێگۆڕاو لە نزیکی سمت.""", // ectopic
+            onPressedBritish: () => speakectopics1("en-GB"),
+            onPressedAmerican: () => speakectopics1("en-US"),
           ),
           // ectopics200ectopics2
           // speakectopics2

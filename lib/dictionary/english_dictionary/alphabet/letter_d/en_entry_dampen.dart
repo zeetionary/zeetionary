@@ -257,114 +257,38 @@ class KurdishMeaning extends StatelessWidget {
 کوردی: شێدار بوون، کز بوون، کەم کردن
 """),
           const DefinitionKurdish(text: "١. (کردار) کەمێک تەڕکردنی شتێک"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "He dampened his hair to make it lie flat."),
-                    ExampleSentenceKurdish(
-                        text: "قژی تەڕکرد بۆ ئەوەی بە سافی بوەستێت."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "dampen", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdampens1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdampens1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "He dampened his hair to make it lie flat.",
+            kurdishText: "قژی تەڕکرد بۆ ئەوەی بە سافی بوەستێت.", // dampen
+            onPressedBritish: () => speakdampens1("en-GB"),
+            onPressedAmerican: () => speakdampens1("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "Perspiration dampened her face and neck."),
-                    ExampleSentenceKurdish(
-                        text: "ئارەقەکردن ڕووخسار و ملی تەڕکرد."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdampens2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdampens2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "Perspiration dampened her face and neck.",
+            kurdishText: "ئارەقەکردن ڕووخسار و ملی تەڕکرد.",
+            onPressedBritish: () => speakdampens2("en-GB"),
+            onPressedAmerican: () => speakdampens2("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٢. (کردار) کپکردنەوەی ھەستێک یان کاردانەوەیەک"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "None of the setbacks could dampen his enthusiasm for the project."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "ھیچ یەکێک لە بەربەستەکان نەیاندەتوانی جۆشوخرۆشی بۆ پڕۆژەکە کەم بکەنەوە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdampens3("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdampens3("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "None of the setbacks could dampen his enthusiasm for the project.",
+            kurdishText:
+                "ھیچ یەکێک لە بەربەستەکان نەیاندەتوانی جۆشوخرۆشی بۆ پڕۆژەکە کەم بکەنەوە.",
+            onPressedBritish: () => speakdampens3("en-GB"),
+            onPressedAmerican: () => speakdampens3("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "She wasn't going to let anything dampen her spirits today."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "ڕێگای نەدەدا ھیچ شتێک بۆ ئەمڕۆ ڕۆحییەتی دابمرکێنێتەوە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdampens4("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdampens4("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "She wasn't going to let anything dampen her spirits today.",
+            kurdishText:
+                "ڕێگای نەدەدا ھیچ شتێک بۆ ئەمڕۆ ڕۆحییەتی دابمرکێنێتەوە.",
+            onPressedBritish: () => speakdampens4("en-GB"),
+            onPressedAmerican: () => speakdampens4("en-US"),
           ),
         ],
       ),

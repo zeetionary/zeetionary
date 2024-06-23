@@ -370,56 +370,18 @@ class KurdishMeaning extends StatelessWidget {
 """),
           const DefinitionKurdish(
               text: "١. (کردار) ڕێگەدان بەوەی تف لە دەمت بێتە خوارەوە"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "The dog was drooling at the mouth."),
-                    ExampleSentenceKurdish(
-                        text: "سەگەکە ئاو بە دەمیدا دەھاتە خوارەوە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "drool", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdrools1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdrools1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "The dog was drooling at the mouth.",
+            kurdishText: "سەگەکە ئاو بە دەمیدا دەھاتە خوارەوە.", // drool
+            onPressedBritish: () => speakdrools1("en-GB"),
+            onPressedAmerican: () => speakdrools1("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "Babies drool a lot when they are teething."),
-                    ExampleSentenceKurdish(
-                        text: "منداڵان تف زۆر دەردەکەن کە ددان دەردەکەن."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdrools2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdrools2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "Babies drool a lot when they are teething.",
+            kurdishText: "منداڵان تف زۆر دەردەکەن کە ددان دەردەکەن.",
+            onPressedBritish: () => speakdrools2("en-GB"),
+            onPressedAmerican: () => speakdrools2("en-US"),
           ),
           // drools300"),
           // speakdrools3

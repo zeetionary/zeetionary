@@ -241,62 +241,23 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "١. (ناو) پەپکێکی تەختی خڕی قورس کە لە یارییەکی وەرزشیدا فڕێ دەدرێت"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "She hurled the discus across the field."),
-                    ExampleSentenceKurdish(
-                        text: "پەپکەکەی بە گۆڕەپانەکەدا فڕێدا."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "discus", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdiscuss1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdiscuss1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "She hurled the discus across the field.",
+            kurdishText: "پەپکەکەی بە گۆڕەپانەکەدا فڕێدا.", // discus
+            onPressedBritish: () => speakdiscuss1("en-GB"),
+            onPressedAmerican: () => speakdiscuss1("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
                   "٢. (ناو) جۆرە یارییەک کە ھەرچەندە دوور بکرێت پەپک ھەڵدەدەیت"),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "He regained his discus title after a few years."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "لە دوای چەند ساڵێک پاڵەوانێتی پەپکەھاوێژی بەدەستھێنایەوە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdiscuss2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdiscuss2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "He regained his discus title after a few years.",
+            kurdishText:
+                "لە دوای چەند ساڵێک پاڵەوانێتی پەپکەھاوێژی بەدەستھێنایەوە.",
+            onPressedBritish: () => speakdiscuss2("en-GB"),
+            onPressedAmerican: () => speakdiscuss2("en-US"),
           ),
           // discuss300"),
           // speakdiscuss3

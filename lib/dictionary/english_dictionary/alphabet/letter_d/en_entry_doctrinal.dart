@@ -364,32 +364,13 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "١. (ھاوەڵناو) پەیوەندیدار بە دید و بۆچوونێک یان دەستەیەک بیر و بۆچوون کە دەگوترێتەوە لەلایەن کڵێسایەک، پارتێکی سیاسی، ھتد"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The church issued a doctrinal statement on its core beliefs."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "کڵێساکە لێدوانێکی ڕێبازەکانی بڵاوکردەوە لەسەر باوەڕە بنچینەییەکانی."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "doctrinal", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdoctrinals1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdoctrinals1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "The church issued a doctrinal statement on its core beliefs.",
+            kurdishText:
+                "کڵێساکە لێدوانێکی ڕێبازەکانی بڵاوکردەوە لەسەر باوەڕە بنچینەییەکانی.", // doctrinal
+            onPressedBritish: () => speakdoctrinals1("en-GB"),
+            onPressedAmerican: () => speakdoctrinals1("en-US"),
           ),
           // doctrinals200"),
           // speakdoctrinals2

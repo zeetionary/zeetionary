@@ -259,85 +259,31 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "١. (ھاوەڵکار) بەشێوەیەکی ورووژاوی کە ناتوانیت بەشێوەی ئاسایی قسە بکەیت و بیربکەیتەوە"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "He moaned deliriously and covered his eyes with his arm."),
-                    ExampleSentenceKurdish(
-                        text: "وڕاویانە باوێشكی دا و چاوەکانی بە باڵی داخست."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "deliriously", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdeliriouslys1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdeliriouslys1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "He moaned deliriously and covered his eyes with his arm.",
+            kurdishText:
+                "وڕاویانە باوێشكی دا و چاوەکانی بە باڵی داخست.", // deliriously
+            onPressedBritish: () => speakdeliriouslys1("en-GB"),
+            onPressedAmerican: () => speakdeliriouslys1("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: "٢. (ھاوەڵکار) بە ئاستێکی زۆر"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "Kate and Peter are deliriously happy together."),
-                    ExampleSentenceKurdish(
-                        text: "کەیت و پیتەر تەواو دڵخۆشن پێکەوە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdeliriouslys2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdeliriouslys2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "Kate and Peter are deliriously happy together.",
+            kurdishText: "کەیت و پیتەر تەواو دڵخۆشن پێکەوە.",
+            onPressedBritish: () => speakdeliriouslys2("en-GB"),
+            onPressedAmerican: () => speakdeliriouslys2("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(text: "He was deliriously in love."),
-                    ExampleSentenceKurdish(text: "تەواو لە خۆشەویستیدا بوو."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdeliriouslys3("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdeliriouslys3("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "He was deliriously in love.",
+            kurdishText: "تەواو لە خۆشەویستیدا بوو.",
+            onPressedBritish: () => speakdeliriouslys3("en-GB"),
+            onPressedAmerican: () => speakdeliriouslys3("en-US"),
           ),
           // deliriouslys400"),
           // speakdeliriouslys4

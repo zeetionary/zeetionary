@@ -378,87 +378,28 @@ class KurdishMeaning extends StatelessWidget {
 // """),
           const DefinitionKurdish(
               text: "١. (کردار) کوژاندنەوەی ئاگر یان ڕۆشنایی"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "He doused the flames with a fire extinguisher."),
-                    ExampleSentenceKurdish(
-                        text: "بڵێسەکانی بە ئاگر کوژێنەرەوەیەک کوژاندەوە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "douse", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdouses1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdouses1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "He doused the flames with a fire extinguisher.",
+            kurdishText: "بڵێسەکانی بە ئاگر کوژێنەرەوەیەک کوژاندەوە.", // douse
+            onPressedBritish: () => speakdouses1("en-GB"),
+            onPressedAmerican: () => speakdouses1("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٢. (کردار) ڕژاندنی شلەیەکی زۆر بەسەر شتێکدا"),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "The car was doused in petrol and set alight."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "ئۆتۆمبێلەکە لە بەنزین ھەڵکێشرا و ئاگری تێبەردرا."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdouses2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdouses2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "The car was doused in petrol and set alight.",
+            kurdishText: "ئۆتۆمبێلەکە لە بەنزین ھەڵکێشرا و ئاگری تێبەردرا.",
+            onPressedBritish: () => speakdouses2("en-GB"),
+            onPressedAmerican: () => speakdouses2("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The horses are doused with buckets of cold water."),
-                    ExampleSentenceKurdish(
-                        text: "ئەسپەکان خوسێندران بە سەتڵە ئاوی سەرد."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdouses3("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdouses3("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "The horses are doused with buckets of cold water.",
+            kurdishText: "ئەسپەکان خوسێندران بە سەتڵە ئاوی سەرد.",
+            onPressedBritish: () => speakdouses3("en-GB"),
+            onPressedAmerican: () => speakdouses3("en-US"),
           ),
           // douses400"),
           // speakdouses4

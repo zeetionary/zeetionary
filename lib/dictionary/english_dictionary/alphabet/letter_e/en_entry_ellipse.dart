@@ -363,30 +363,11 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   """١. (ناو) شێوە ھێلکەییەک کە وەک بازنەیەک وایە کە لە دوو لای بەرامبەرەوە پەستێندرابێت"""),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: """The planet's orbit is an ellipse."""),
-                    ExampleSentenceKurdish(
-                        text: """خولگەی ھەسارەکە ھێلکەییە."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "ellipse", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakellipses1("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakellipses1("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: """The planet's orbit is an ellipse.""",
+            kurdishText: """خولگەی ھەسارەکە ھێلکەییە.""", // ellipse
+            onPressedBritish: () => speakellipses1("en-GB"),
+            onPressedAmerican: () => speakellipses1("en-US"),
           ),
           // ellipses200ellipses2
           // speakellipses2

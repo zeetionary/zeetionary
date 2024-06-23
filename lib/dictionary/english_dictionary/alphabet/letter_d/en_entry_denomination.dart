@@ -260,91 +260,34 @@ class KurdishMeaning extends StatelessWidget {
 کوردی: ناونان، ناولێنان، نێولەسەردانان، ناو،	دەستایین، تیرە، گروپ یان کۆمەڵێکی دینی،	یەکە، یەکینە،	نرخ، بایی،	ژێرەی ھاوبەش، ھاوژێرە
 """),
           const DefinitionKurdish(text: "١. (ناو) لقێکی کڵێسای مەسیحییەت"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "Christians of all denominations attended the conference."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "مەسیحی ھەموو گرووپە جیاوازەکان بەژداری کۆنفرانسەکە بوون."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "denomination", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdenominations1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdenominations1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "Christians of all denominations attended the conference.",
+            kurdishText:
+                "مەسیحی ھەموو گرووپە جیاوازەکان بەژداری کۆنفرانسەکە بوون.", // denomination
+            onPressedBritish: () => speakdenominations1("en-GB"),
+            onPressedAmerican: () => speakdenominations1("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: "٢. (ناو) لقێکی ئایینێک"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "Many synagogues belong to the largest American Jewish religious denomination."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "زۆرێک لە کەنیسەکان سەر بە گەورەترین گرووپی ئایینی جولەی ئەمریکیین."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdenominations2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdenominations2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "Many synagogues belong to the largest American Jewish religious denomination.",
+            kurdishText:
+                "زۆرێک لە کەنیسەکان سەر بە گەورەترین گرووپی ئایینی جولەی ئەمریکیین.",
+            onPressedBritish: () => speakdenominations2("en-GB"),
+            onPressedAmerican: () => speakdenominations2("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: "٣. (ناو) یەکەی نرخ، بەتایبەتی پارە"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "It always takes time to get used to the different denominations of coins when you go to a foreign country."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "ھەمیشە کاتی دەوێت بۆ ئەوەی ڕابێیت بە یەکە جیاوازەکانی دراو لە کاتی چوون بۆ وڵاتێکی بیانی."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdenominations3("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdenominations3("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "It always takes time to get used to the different denominations of coins when you go to a foreign country.",
+            kurdishText:
+                "ھەمیشە کاتی دەوێت بۆ ئەوەی ڕابێیت بە یەکە جیاوازەکانی دراو لە کاتی چوون بۆ وڵاتێکی بیانی.",
+            onPressedBritish: () => speakdenominations3("en-GB"),
+            onPressedAmerican: () => speakdenominations3("en-US"),
           ),
           // denominations400"),
           // speakdenominations4

@@ -257,113 +257,37 @@ class KurdishMeaning extends StatelessWidget {
 """),
           const DefinitionKurdish(
               text: "١. (کردار) خۆتەرخانکردن بۆ کارێک یان چالاکییەک"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "She dedicates herself to her work."),
-                    ExampleSentenceKurdish(
-                        text: "خۆی بۆ کارەکەی تەرخان دەکات."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "dedicate", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdedicates1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdedicates1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "She dedicates herself to her work.",
+            kurdishText: "خۆی بۆ کارەکەی تەرخان دەکات.", // dedicate
+            onPressedBritish: () => speakdedicates1("en-GB"),
+            onPressedAmerican: () => speakdedicates1("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "He dedicated his life to helping the poor."),
-                    ExampleSentenceKurdish(
-                        text: "ژیان بۆ یارمەتیدانی ھەژاران تەرخان کرد."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdedicates2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdedicates2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "He dedicated his life to helping the poor.",
+            kurdishText: "ژیان بۆ یارمەتیدانی ھەژاران تەرخان کرد.",
+            onPressedBritish: () => speakdedicates2("en-GB"),
+            onPressedAmerican: () => speakdedicates2("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
                   "٢. (کردار) ئاماژەکردن بە کەسێک لە سەرەتای کتێبێک، پارچە میوزیکێک یان نمایشێک، وتارێک، کە بەو کەسەی پێشکەش دەکەیت وەک سوپاسگوزاری"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "This book is dedicated to my parents."),
-                    ExampleSentenceKurdish(
-                        text: "ئەم کتێبە پێشکەشە بە دایبابم."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdedicates3("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdedicates3("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "This book is dedicated to my parents.",
+            kurdishText: "ئەم کتێبە پێشکەشە بە دایبابم.",
+            onPressedBritish: () => speakdedicates3("en-GB"),
+            onPressedAmerican: () => speakdedicates3("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "I want to dedicate this award to my first music teacher, Ben Gould."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "دەمەوێت ئەم خەڵاتە پێشکەش بکەم بە یەکەم مامۆستای میوزیکم بێن گوڵد."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdedicates4("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdedicates4("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "I want to dedicate this award to my first music teacher, Ben Gould.",
+            kurdishText:
+                "دەمەوێت ئەم خەڵاتە پێشکەش بکەم بە یەکەم مامۆستای میوزیکم بێن گوڵد.",
+            onPressedBritish: () => speakdedicates4("en-GB"),
+            onPressedAmerican: () => speakdedicates4("en-US"),
           ),
           // skipped_meaning
           // const DividerDefinition(),

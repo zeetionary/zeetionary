@@ -391,124 +391,47 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   """١. (ھاوەڵناو) پەیوەندیدار بە ئامادەکردن بۆ بڵاوکردنەوەی ڕۆژنامەیەک، گۆڤارێک، کتێبێک، یان پڕۆگرامێکی ڕادیۆ یان تەلەفیزیۆن """),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            """Some debates in Parliament are shown live and are outside editorial control."""),
-                    ExampleSentenceKurdish(
-                        text:
-                            """ھەندێک دیبەیتی پەرلەمان بە ڕاستەوخۆ پیشان دەدرێن و لە دەرەوەی دەسەڵاتی سەرنووسەرانن."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "editorial", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakeditorials1("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakeditorials1("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                """Some debates in Parliament are shown live and are outside editorial control.""",
+            kurdishText:
+                """ھەندێک دیبەیتی پەرلەمان بە ڕاستەوخۆ پیشان دەدرێن و لە دەرەوەی دەسەڵاتی سەرنووسەرانن.""", // editorial
+            onPressedBritish: () => speakeditorials1("en-GB"),
+            onPressedAmerican: () => speakeditorials1("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            """The paper follows an editorial policy that puts great emphasis on foreign news."""),
-                    ExampleSentenceKurdish(
-                        text:
-                            """ڕۆژنامەکە پابەندی سیاسەتێکی سەرنووسەری دەبێت کە گرنگی زۆر دەدات بە ھەواڵی بیانی."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakeditorials2("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakeditorials2("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                """The paper follows an editorial policy that puts great emphasis on foreign news.""",
+            kurdishText:
+                """ڕۆژنامەکە پابەندی سیاسەتێکی سەرنووسەری دەبێت کە گرنگی زۆر دەدات بە ھەواڵی بیانی.""",
+            onPressedBritish: () => speakeditorials2("en-GB"),
+            onPressedAmerican: () => speakeditorials2("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
                   """٢. (ناو) وتاری سەرنووسەر سەبارەت بە بۆچوونەکانی لەسەر بابەتێک"""),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            """He declared his support for the president in an editorial."""),
-                    ExampleSentenceKurdish(
-                        text:
-                            """لە سەروتارێکدا پشتگیری خۆی بۆ سەرۆک ڕاگەیاند."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakeditorials3("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakeditorials3("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                """He declared his support for the president in an editorial.""",
+            kurdishText: """لە سەروتارێکدا پشتگیری خۆی بۆ سەرۆک ڕاگەیاند.""",
+            onPressedBritish: () => speakeditorials3("en-GB"),
+            onPressedAmerican: () => speakeditorials3("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            """The lead editorial in today's New York Times criticized the policy."""),
-                    ExampleSentenceKurdish(
-                        text:
-                            """سەرنووسەری سەرەکی لە چاپی ئەمڕۆی نیویۆرک تایمزدا ڕەخنەی لە سیاسەتەکە گرت."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakeditorials4("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakeditorials4("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                """The lead editorial in today's New York Times criticized the policy.""",
+            kurdishText:
+                """سەرنووسەری سەرەکی لە چاپی ئەمڕۆی نیویۆرک تایمزدا ڕەخنەی لە سیاسەتەکە گرت.""",
+            onPressedBritish: () => speakeditorials4("en-GB"),
+            onPressedAmerican: () => speakeditorials4("en-US"),
           ),
           // editorials500editorials5
           // speakeditorials5

@@ -233,31 +233,12 @@ class KurdishMeaning extends StatelessWidget {
 """),
           const DefinitionKurdish(
               text: "١. (ناو) زیان گەیاندن بە شێوەی کەسێک، شتێک، یان شوێنێک"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "He suffered permanent disfigurement in the fire."),
-                    ExampleSentenceKurdish(
-                        text: "لە ئاگرەکەدا تووشی شێوانی ھەمیشەیی بوو."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "disfigurement", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdisfigurements1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdisfigurements1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "He suffered permanent disfigurement in the fire.",
+            kurdishText:
+                "لە ئاگرەکەدا تووشی شێوانی ھەمیشەیی بوو.", // disfigurement
+            onPressedBritish: () => speakdisfigurements1("en-GB"),
+            onPressedAmerican: () => speakdisfigurements1("en-US"),
           ),
           // disfigurements200"),
           // speakdisfigurements2

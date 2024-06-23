@@ -267,143 +267,45 @@ class KurdishMeaning extends StatelessWidget {
 کوردی: کەمتەرخەمی، گوێ‌پێ‌نەدان، لامسەرلایی، نادەربەستی، بێ‌خەیاڵی، خۆلێ‌گێل‌کردن، گوێ‌لێ‌خنین، بەتەنگەوەنەبوون، پشت‌گوێ‌خستن، بەھێندنەگرتن، گوێ‌لێ‌نەبوون، سەرنج‌پێ‌نەدان،	ڕەچاونەکردن، بێ‌ڕێزی، بێ‌حورمەتی
 """),
           const DefinitionKurdish(text: "١. (کردار) بیرنەکردنەوە لە شتێک"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The board completely disregarded my recommendations."),
-                    ExampleSentenceKurdish(
-                        text: "دەستەکە بە تەواوی پێشنیارەکانمی پشتگوێخست."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "disregard", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdisregards1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdisregards1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "The board completely disregarded my recommendations.",
+            kurdishText:
+                "دەستەکە بە تەواوی پێشنیارەکانمی پشتگوێخست.", // disregard
+            onPressedBritish: () => speakdisregards1("en-GB"),
+            onPressedAmerican: () => speakdisregards1("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "Safety rules were disregarded."),
-                    ExampleSentenceKurdish(
-                        text: "یاساکانی سەلامەتی پشتگوێخران."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdisregards2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdisregards2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "Safety rules were disregarded.",
+            kurdishText: "یاساکانی سەلامەتی پشتگوێخران.",
+            onPressedBritish: () => speakdisregards2("en-GB"),
+            onPressedAmerican: () => speakdisregards2("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "He totally disregarded all the advice he was given."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "بە تەواوی ھەموو ئەو ڕاوێژانەی پشتگوێ خست کە پێی درا."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdisregards3("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdisregards3("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "He totally disregarded all the advice he was given.",
+            kurdishText: "بە تەواوی ھەموو ئەو ڕاوێژانەی پشتگوێ خست کە پێی درا.",
+            onPressedBritish: () => speakdisregards3("en-GB"),
+            onPressedAmerican: () => speakdisregards3("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: "٢. (ناو) گرنگینەدان بە شتێک"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "She shows a total disregard for other people's feelings."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "کەمتەرخەمی تەواو پیشان دەدات بۆ ھەستی کەسانی دیکە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdisregards4("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdisregards4("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "She shows a total disregard for other people's feelings.",
+            kurdishText: "کەمتەرخەمی تەواو پیشان دەدات بۆ ھەستی کەسانی دیکە.",
+            onPressedBritish: () => speakdisregards4("en-GB"),
+            onPressedAmerican: () => speakdisregards4("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The company showed a disregard for the safety of the environment."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "کۆمپانیاکە پشت‌گوێ‌خستنی تەواوی پیشاندا بۆ سەلامەتی ژینگە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdisregards5("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdisregards5("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "The company showed a disregard for the safety of the environment.",
+            kurdishText:
+                "کۆمپانیاکە پشت‌گوێ‌خستنی تەواوی پیشاندا بۆ سەلامەتی ژینگە.",
+            onPressedBritish: () => speakdisregards5("en-GB"),
+            onPressedAmerican: () => speakdisregards5("en-US"),
           ),
           // disregards600"),
           // speakdisregards6

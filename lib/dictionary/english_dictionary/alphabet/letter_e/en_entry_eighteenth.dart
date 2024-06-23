@@ -362,32 +362,13 @@ class KurdishMeaning extends StatelessWidget {
 // کوردی:
 // """),
           const DefinitionKurdish(text: """١. (ژمارەی پلەیی) ھەژدەیەم"""),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            """She celebrated her eighteenth birthday with friends."""),
-                    ExampleSentenceKurdish(
-                        text:
-                            """لەگەڵ ھاوڕێیانی ھەژدەیەم ساڵیادی لەدایکبوونی گێڕا."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "eighteenth", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakeighteenths1("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakeighteenths1("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                """She celebrated her eighteenth birthday with friends.""",
+            kurdishText:
+                """لەگەڵ ھاوڕێیانی ھەژدەیەم ساڵیادی لەدایکبوونی گێڕا.""", // eighteenth
+            onPressedBritish: () => speakeighteenths1("en-GB"),
+            onPressedAmerican: () => speakeighteenths1("en-US"),
           ),
           // eighteenths200eighteenths2
           // speakeighteenths2

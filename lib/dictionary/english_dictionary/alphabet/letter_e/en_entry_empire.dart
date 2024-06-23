@@ -398,153 +398,57 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   """١. (ناو) ئیمپراتۆرییەت؛ ژمارەیەک وڵات کە لە لایەن یەک سەرکردە یان حکومەتەوە بەڕێوە دەبردرێن"""),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            """These invasions almost led to the collapse of the Roman Empire."""),
-                    ExampleSentenceKurdish(
-                        text:
-                            """ئەم داگیرکارییانە خەریک بوو ببن بە ھۆکاری ڕووخانی ئیمپراتۆرییەتی ڕۆم."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "empire", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakempires1("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakempires1("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                """These invasions almost led to the collapse of the Roman Empire.""",
+            kurdishText:
+                """ئەم داگیرکارییانە خەریک بوو ببن بە ھۆکاری ڕووخانی ئیمپراتۆرییەتی ڕۆم.""", // empire
+            onPressedBritish: () => speakempires1("en-GB"),
+            onPressedAmerican: () => speakempires1("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: """ژممارە. (ناو) پێنناسە"""),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            """The Japanese empire was quickly dismantled."""),
-                    ExampleSentenceKurdish(
-                        text: """ئیمپراتۆرییەتی ژاپۆن زوو ھەڵوەشێندرایەوە."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakempires2("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakempires2("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: """The Japanese empire was quickly dismantled.""",
+            kurdishText: """ئیمپراتۆرییەتی ژاپۆن زوو ھەڵوەشێندرایەوە.""",
+            onPressedBritish: () => speakempires2("en-GB"),
+            onPressedAmerican: () => speakempires2("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: """ژممارە. (ناو) پێنناسە"""),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: """The mighty empire finally crumbled."""),
-                    ExampleSentenceKurdish(
-                        text: """ئیمپراتۆرییەتە بەھێزەکە لەکۆتاییدا ڕووخا."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakempires3("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakempires3("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: """The mighty empire finally crumbled.""",
+            kurdishText: """ئیمپراتۆرییەتە بەھێزەکە لەکۆتاییدا ڕووخا.""",
+            onPressedBritish: () => speakempires3("en-GB"),
+            onPressedAmerican: () => speakempires3("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
                   """٢. (ناو) ژمارەیەک دامەزراوەی بازرگانی کە لەلایەن یەک کەسەوە کۆنترۆڵ دەکرێن"""),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            """He has built a huge business empire from humble beginnings."""),
-                    ExampleSentenceKurdish(
-                        text:
-                            """ئیمپراتۆرییەتێکی بازرگانیی زەبەلاحی درووستکردووە لە سەرەتای سادەوە."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakempires4("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakempires4("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                """He has built a huge business empire from humble beginnings.""",
+            kurdishText:
+                """ئیمپراتۆرییەتێکی بازرگانیی زەبەلاحی درووستکردووە لە سەرەتای سادەوە.""",
+            onPressedBritish: () => speakempires4("en-GB"),
+            onPressedAmerican: () => speakempires4("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
                   """٣. (ناو) چالاکییەک کە لەلایەن کەسێک یان گرووپێک کۆنترۆڵکراوە"""),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            """All the businessmen jealously guarded their own little empires."""),
-                    ExampleSentenceKurdish(
-                        text:
-                            """ھەموو بازرگانەکان بە تەماحەوە ئیمپراتۆرییەتە بچووکەکانی خۆیان دەپاراست."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakempires5("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakempires5("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                """All the businessmen jealously guarded their own little empires.""",
+            kurdishText:
+                """ھەموو بازرگانەکان بە تەماحەوە ئیمپراتۆرییەتە بچووکەکانی خۆیان دەپاراست.""",
+            onPressedBritish: () => speakempires5("en-GB"),
+            onPressedAmerican: () => speakempires5("en-US"),
           ),
           // empires600empires6
           // speakempires6

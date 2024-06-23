@@ -372,59 +372,20 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "١. (ھاوەڵناو) نەبوونی ئامادەیی بۆ باوەڕکردن بە شتێک/کەسێک"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "He has always been distrustful of authority."),
-                    ExampleSentenceKurdish(
-                        text: "ھەمیشە بێ متمانە بووە بە دەسەڵات."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "distrustful", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdistrustfuls1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdistrustfuls1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "He has always been distrustful of authority.",
+            kurdishText: "ھەمیشە بێ متمانە بووە بە دەسەڵات.", // distrustful
+            onPressedBritish: () => speakdistrustfuls1("en-GB"),
+            onPressedAmerican: () => speakdistrustfuls1("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "They tend to be distrustful of outsiders."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "مەیلی ئەوەیان ھەیە بەگومان بن بە کەسانی دەرەکی."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdistrustfuls2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdistrustfuls2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "They tend to be distrustful of outsiders.",
+            kurdishText: "مەیلی ئەوەیان ھەیە بەگومان بن بە کەسانی دەرەکی.",
+            onPressedBritish: () => speakdistrustfuls2("en-GB"),
+            onPressedAmerican: () => speakdistrustfuls2("en-US"),
           ),
           // distrustfuls300"),
           // speakdistrustfuls3

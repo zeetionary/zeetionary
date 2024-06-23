@@ -371,62 +371,23 @@ class KurdishMeaning extends StatelessWidget {
 """),
           const DefinitionKurdish(
               text: """١. (ناو) پیسایی ئاژەڵ، بەتایبەتی ئاژەڵی گەورە"""),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            """The farmer used dung to fertilize his fields."""),
-                    ExampleSentenceKurdish(
-                        text:
-                            """جوتیارەکە پەیینی بەکاردەھێنا بۆ پیتاندنی کێڵگەکانی."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "dung", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdungs1("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdungs1("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: """The farmer used dung to fertilize his fields.""",
+            kurdishText:
+                """جوتیارەکە پەیینی بەکاردەھێنا بۆ پیتاندنی کێڵگەکانی.""", // dung
+            onPressedBritish: () => speakdungs1("en-GB"),
+            onPressedAmerican: () => speakdungs1("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            """The dung smelled unpleasant but was useful as fertilizer."""),
-                    ExampleSentenceKurdish(
-                        text:
-                            """سەنێرەکە بۆنی ناخۆش بوو بەڵام بەسوود بوو وەک پیتێنەر."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdungs2("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdungs2("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                """The dung smelled unpleasant but was useful as fertilizer.""",
+            kurdishText:
+                """سەنێرەکە بۆنی ناخۆش بوو بەڵام بەسوود بوو وەک پیتێنەر.""",
+            onPressedBritish: () => speakdungs2("en-GB"),
+            onPressedAmerican: () => speakdungs2("en-US"),
           ),
           // dungs300
           // speakdungs3

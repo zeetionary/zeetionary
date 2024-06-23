@@ -251,67 +251,27 @@ class KurdishMeaning extends StatelessWidget {
 """),
           const DefinitionKurdish(
               text: "١. (ناو) گۆڕانی لەناکاو لە ئاراستەی شتێک"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                      text:
-                          "His shot took a deflection off a defender and finished in the net.",
-                      note:
-                          "Similar: His shot took a deflection and sailed into the net.",
-                    ),
-                    ExampleSentenceKurdish(
-                        text:
-                            "لێدانەکەی کێشای بە بەرگریکارەکەدا و چووە ناو تۆڕەکە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "deflection", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdeflections1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdeflections1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "His shot took a deflection off a defender and finished in the net.",
+            englishNote:
+                "Similar: His shot took a deflection and sailed into the net.",
+            kurdishText:
+                "لێدانەکەی کێشای بە بەرگریکارەکەدا و چووە ناو تۆڕەکە.", // deflection
+            onPressedBritish: () => speakdeflections1("en-GB"),
+            onPressedAmerican: () => speakdeflections1("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                      text:
-                          "The goal was scored with a deflection off the goalkeeper.",
-                      note:
-                          "Similar: The second goal was from a deflection off the Liverpool defender.",
-                    ),
-                    ExampleSentenceKurdish(
-                        text: "گۆڵەکە تۆمارکرا بە کێشانی بە گۆڵپارێزەکەدا."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdeflections2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdeflections2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "The goal was scored with a deflection off the goalkeeper.",
+            englishNote:
+                "Similar: The second goal was from a deflection off the Liverpool defender.",
+            kurdishText: "گۆڵەکە تۆمارکرا بە کێشانی بە گۆڵپارێزەکەدا.",
+            onPressedBritish: () => speakdeflections2("en-GB"),
+            onPressedAmerican: () => speakdeflections2("en-US"),
           ),
           // deflections300"),
           // speakdeflections3

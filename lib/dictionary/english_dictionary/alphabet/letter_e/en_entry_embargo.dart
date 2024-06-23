@@ -398,154 +398,56 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   """١. (ناو) بڕیارێکی فەرمی کە بازرگانی لەگەڵ وڵاتێک دەوەستێنێت"""),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: """We knew the arms embargo was being broken."""),
-                    ExampleSentenceKurdish(
-                        text: """دەمانزانی کە گەمارۆکان دەشکێندرێن."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "embargo", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakembargos1("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakembargos1("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: """We knew the arms embargo was being broken.""",
+            kurdishText: """دەمانزانی کە گەمارۆکان دەشکێندرێن.""", // embargo
+            onPressedBritish: () => speakembargos1("en-GB"),
+            onPressedAmerican: () => speakembargos1("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: """ژممارە. (کردار) پێنناسە"""),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            """He opposed the US trade embargo against Cuba."""),
-                    ExampleSentenceKurdish(
-                        text:
-                            """دژ بە ئابڵۆقەی بازرگانی ئەمریکا دژ بە کوبا بوو."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakembargos2("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakembargos2("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: """He opposed the US trade embargo against Cuba.""",
+            kurdishText: """دژ بە ئابڵۆقەی بازرگانی ئەمریکا دژ بە کوبا بوو.""",
+            onPressedBritish: () => speakembargos2("en-GB"),
+            onPressedAmerican: () => speakembargos2("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text: """٢. (ناو) قەدەغەکردنی فەرمیی چالاکییەک"""),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            """There is a complete embargo on taking photographs in court."""),
-                    ExampleSentenceKurdish(
-                        text:
-                            """قەدەغەی تەواو ھەیە لەسەر وێنەگرتن لە دادگادا."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakembargos3("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakembargos3("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                """There is a complete embargo on taking photographs in court.""",
+            kurdishText: """قەدەغەی تەواو ھەیە لەسەر وێنەگرتن لە دادگادا.""",
+            onPressedBritish: () => speakembargos3("en-GB"),
+            onPressedAmerican: () => speakembargos3("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
                   """٣. (کردار) بە فەرمی قەدەغەکردنی بازرگانی لەگەڵ وڵاتێک"""),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            """There have been calls to embargo all arms shipments to the region."""),
-                    ExampleSentenceKurdish(
-                        text:
-                            """داواکراوە ھەموو ناردنێکی چەک بۆ ھەرێمەکە قەدەغە بکرێت ."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakembargos4("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakembargos4("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                """There have been calls to embargo all arms shipments to the region.""",
+            kurdishText:
+                """داواکراوە ھەموو ناردنێکی چەک بۆ ھەرێمەکە قەدەغە بکرێت .""",
+            onPressedBritish: () => speakembargos4("en-GB"),
+            onPressedAmerican: () => speakembargos4("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text: """٤. (کردار) بە فەرمی قەدەغەکردنی بڵاوکردنەوەی شتێک"""),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            """The report is strictly embargoed for publication until Friday."""),
-                    ExampleSentenceKurdish(
-                        text:
-                            """ڕاپۆرتەکە بە توندی قەدەغەکراوە بۆ بڵاوکردنەوە تاوەکو ھەینی."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakembargos5("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakembargos5("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                """The report is strictly embargoed for publication until Friday.""",
+            kurdishText:
+                """ڕاپۆرتەکە بە توندی قەدەغەکراوە بۆ بڵاوکردنەوە تاوەکو ھەینی.""",
+            onPressedBritish: () => speakembargos5("en-GB"),
+            onPressedAmerican: () => speakembargos5("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: """ژممارە. (کردار) پێنناسە"""),

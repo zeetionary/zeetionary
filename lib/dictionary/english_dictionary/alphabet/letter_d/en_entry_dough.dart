@@ -377,85 +377,29 @@ class KurdishMeaning extends StatelessWidget {
 // کوردی:
 // """),
           const DefinitionKurdish(text: "١. (ناو) ھەویر"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(text: "Leave the dough to rise."),
-                    ExampleSentenceKurdish(
-                        text: "واز لە ھەویرەکە بێنە ھەڵبێت."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "dough", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdoughs1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdoughs1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "Leave the dough to rise.",
+            kurdishText: "واز لە ھەویرەکە بێنە ھەڵبێت.", // dough
+            onPressedBritish: () => speakdoughs1("en-GB"),
+            onPressedAmerican: () => speakdoughs1("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "She kneaded the dough and left it to rise."),
-                    ExampleSentenceKurdish(
-                        text: "ھەویرەکە بشێلە و وازی لێ بھێنە ھەڵبێت."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdoughs2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdoughs2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "She kneaded the dough and left it to rise.",
+            kurdishText: "ھەویرەکە بشێلە و وازی لێ بھێنە ھەڵبێت.",
+            onPressedBritish: () => speakdoughs2("en-GB"),
+            onPressedAmerican: () => speakdoughs2("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: "٢. (ناو) پارە"),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "I don't want to work but I need the dough."),
-                    ExampleSentenceKurdish(
-                        text: "نامەوێت کار بکەم بەڵام پێویستیم بە پارەکەیە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdoughs3("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdoughs3("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "I don't want to work but I need the dough.",
+            kurdishText: "نامەوێت کار بکەم بەڵام پێویستیم بە پارەکەیە.",
+            onPressedBritish: () => speakdoughs3("en-GB"),
+            onPressedAmerican: () => speakdoughs3("en-US"),
           ),
           // doughs400"),
           // speakdoughs4

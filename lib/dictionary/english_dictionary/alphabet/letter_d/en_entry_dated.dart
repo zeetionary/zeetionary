@@ -241,58 +241,20 @@ class KurdishMeaning extends StatelessWidget {
 """),
           const DefinitionKurdish(
               text: "١. (ھاوەڵناو) کۆنەباو؛ پەیوەندیدار بە ڕابردوو"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "These ideas seem a bit dated now."),
-                    ExampleSentenceKurdish(
-                        text: "ئەم باوەڕانە کەمێک کۆنەباو دەردەکەون ئێستا."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "dated", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdateds1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdateds1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "These ideas seem a bit dated now.",
+            kurdishText: "ئەم باوەڕانە کەمێک کۆنەباو دەردەکەون ئێستا.", // dated
+            onPressedBritish: () => speakdateds1("en-GB"),
+            onPressedAmerican: () => speakdateds1("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "This drama series is supposedly modern yet its characters live in a dated world."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "زنجیرە درامایەکە بە حساب سەردەمییانە بەڵام کارەکتەرەکانی لە جیھانێکی کۆنەباودا دەژین."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdateds2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdateds2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "This drama series is supposedly modern yet its characters live in a dated world.",
+            kurdishText:
+                "زنجیرە درامایەکە بە حساب سەردەمییانە بەڵام کارەکتەرەکانی لە جیھانێکی کۆنەباودا دەژین.",
+            onPressedBritish: () => speakdateds2("en-GB"),
+            onPressedAmerican: () => speakdateds2("en-US"),
           ),
         ],
       ),

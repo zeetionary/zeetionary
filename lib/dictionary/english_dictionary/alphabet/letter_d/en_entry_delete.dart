@@ -267,119 +267,42 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "١. (کردار) سڕینەوەی شتێک کە نووسراوە یان چاپکراوە، یان لەسەر کۆمپیوتەرێک کۆگا کراوە"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "Your name has been deleted from the list."),
-                    ExampleSentenceKurdish(
-                        text: "ناوت لە لیستەکە سڕدراوەتەوە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "delete", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdeletes1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdeletes1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "Your name has been deleted from the list.",
+            kurdishText: "ناوت لە لیستەکە سڕدراوەتەوە.", // delete
+            onPressedBritish: () => speakdeletes1("en-GB"),
+            onPressedAmerican: () => speakdeletes1("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "Delete the word ‘it’ and insert ‘them’."),
-                    ExampleSentenceKurdish(
-                        text: "وشەی 'it' بسڕەوە و 'them' زیاد بکە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdeletes2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdeletes2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "Delete the word ‘it’ and insert ‘them’.",
+            kurdishText: "وشەی 'it' بسڕەوە و 'them' زیاد بکە.",
+            onPressedBritish: () => speakdeletes2("en-GB"),
+            onPressedAmerican: () => speakdeletes2("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "I deleted your last email by mistake—could you send it again?"),
-                    ExampleSentenceKurdish(
-                        text:
-                            "کۆتا ئیمەیڵتم بە ھەڵە سڕییەوە ـ دەتوانیت بینێریتەوە؟"),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdeletes3("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdeletes3("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "I deleted your last email by mistake—could you send it again?",
+            kurdishText: "کۆتا ئیمەیڵتم بە ھەڵە سڕییەوە ـ دەتوانیت بینێریتەوە؟",
+            onPressedBritish: () => speakdeletes3("en-GB"),
+            onPressedAmerican: () => speakdeletes3("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٢. (ناو) دووگمەیەک لەسەر کۆمپیوتەرێک کە شتێک دەسڕێتەوە"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "Just use delete to remove a specific record from the database."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "تەنھا دووگمەی سڕینەوە بەکاربھێنە بۆ سڕینەوەی تۆمارێک لە داتابەیسەکە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdeletes4("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdeletes4("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "Just use delete to remove a specific record from the database.",
+            kurdishText:
+                "تەنھا دووگمەی سڕینەوە بەکاربھێنە بۆ سڕینەوەی تۆمارێک لە داتابەیسەکە.",
+            onPressedBritish: () => speakdeletes4("en-GB"),
+            onPressedAmerican: () => speakdeletes4("en-US"),
           ),
           // deletes500"),
           // speakdeletes5

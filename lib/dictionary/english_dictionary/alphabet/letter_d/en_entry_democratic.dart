@@ -294,211 +294,77 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "١. (ھاوەڵناو) پەیوەندیدار بە دیموکراسی؛ کە لەلایەن نوێنەرانی ھەڵبژێردراوەوە بەڕێوەدەبردرێت"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "Exercise your democratic right to vote."),
-                    ExampleSentenceKurdish(
-                        text: "مافی دیموکراسییانەی دەنگدانت بەکاربھێنە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "democratic", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdemocratics1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdemocratics1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "Exercise your democratic right to vote.",
+            kurdishText:
+                "مافی دیموکراسییانەی دەنگدانت بەکاربھێنە.", // democratic
+            onPressedBritish: () => speakdemocratics1("en-GB"),
+            onPressedAmerican: () => speakdemocratics1("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "They are aiming to make the institutions of the EU truly democratic."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "ئامانجیانە دامەزراوەکانی ئەورووپا تەواو بکەن بە دیموکراسی."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdemocratics2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdemocratics2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "They are aiming to make the institutions of the EU truly democratic.",
+            kurdishText:
+                "ئامانجیانە دامەزراوەکانی ئەورووپا تەواو بکەن بە دیموکراسی.",
+            onPressedBritish: () => speakdemocratics2("en-GB"),
+            onPressedAmerican: () => speakdemocratics2("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "They have a fairly democratic form of government."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "جۆرێکی تاڕادەیەک دیموکراسییانەی حکومەتیان ھەیە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdemocratics3("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdemocratics3("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "They have a fairly democratic form of government.",
+            kurdishText: "جۆرێکی تاڕادەیەک دیموکراسییانەی حکومەتیان ھەیە.",
+            onPressedBritish: () => speakdemocratics3("en-GB"),
+            onPressedAmerican: () => speakdemocratics3("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
                   "٢. (ھاوەڵناو) پەیوەندیدار بەو بنەمایەی کە ھەموو ئەندامان مافی یەکسانیان ھەیە لە بەڕێوەبردنی ڕێکخراوێک، ھتد"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The committee made a democratic decision on the new rules."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "لیژنەکە بڕیارێکی دیموکراسییانەی دا لەسەر یاسا تازەکان."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdemocratics4("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdemocratics4("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "The committee made a democratic decision on the new rules.",
+            kurdishText:
+                "لیژنەکە بڕیارێکی دیموکراسییانەی دا لەسەر یاسا تازەکان.",
+            onPressedBritish: () => speakdemocratics4("en-GB"),
+            onPressedAmerican: () => speakdemocratics4("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
                   "٣. (ھاوەڵناو) پشتبەستوو بەو بنەمایەی کە ھەموو ئەندامانی کۆمەڵگا یەکسانن نەک گرنگ بن بەپێی پارە یان چینی کۆمەڵایەتی"),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "In a democratic society, people vote to choose their leaders."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "لە کۆمەڵگایەکی دیموکراسییانەدا خەڵکی سەرکردەکانیان ھەڵدەبژێرن."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdemocratics5("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdemocratics5("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "In a democratic society, people vote to choose their leaders.",
+            kurdishText:
+                "لە کۆمەڵگایەکی دیموکراسییانەدا خەڵکی سەرکردەکانیان ھەڵدەبژێرن.",
+            onPressedBritish: () => speakdemocratics5("en-GB"),
+            onPressedAmerican: () => speakdemocratics5("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The government proposed democratic reforms to improve voting rights."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "حکومەت چاکسازی دیموکراسییانەی پێشنیارکرد بۆ بەھێزکردنی مافی دەنگدان."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdemocratics6("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdemocratics6("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "The government proposed democratic reforms to improve voting rights.",
+            kurdishText:
+                "حکومەت چاکسازی دیموکراسییانەی پێشنیارکرد بۆ بەھێزکردنی مافی دەنگدان.",
+            onPressedBritish: () => speakdemocratics6("en-GB"),
+            onPressedAmerican: () => speakdemocratics6("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٤. (ھاوەڵناو) پەیوەندیدار بە پارتی دیموکراتەکانی ئەمریکا"),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "He is the Democratic senator from Oregon."),
-                    ExampleSentenceKurdish(
-                        text: "سیناتۆری دیموکراتەکانە لە ئۆریگنەوە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdemocratics7("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdemocratics7("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "He is the Democratic senator from Oregon.",
+            kurdishText: "سیناتۆری دیموکراتەکانە لە ئۆریگنەوە.",
+            onPressedBritish: () => speakdemocratics7("en-GB"),
+            onPressedAmerican: () => speakdemocratics7("en-US"),
           ),
           // democratics800"),
           // speakdemocratics8

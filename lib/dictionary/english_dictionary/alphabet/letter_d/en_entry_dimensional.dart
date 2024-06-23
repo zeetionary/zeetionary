@@ -251,62 +251,24 @@ class KurdishMeaning extends StatelessWidget {
 کوردی: ڕەھەندی، سەربە دووری، سەربە ئەندازە
 """),
           const DefinitionKurdish(text: "١. (ھاوەڵناو) پەیوەندیدار بە ئەندازە"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "Cedar wood with its outstanding dimensional stability is resistant to warping."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "داری سیدار بە جێگیری ناوازەی ئەندازەیی خۆڕاگر بە چەمانەوە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "dimensional", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdimensionals1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdimensionals1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "Cedar wood with its outstanding dimensional stability is resistant to warping.",
+            kurdishText:
+                "داری سیدار بە جێگیری ناوازەی ئەندازەیی خۆڕاگر بە چەمانەوە.", // dimensional
+            onPressedBritish: () => speakdimensionals1("en-GB"),
+            onPressedAmerican: () => speakdimensionals1("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "I have my own 3D printer, but the dimensional accuracy isn't good enough."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "پرینتەری سێ دووری خۆم ھەیە، بەڵام درووستی ئەندازەکەی زۆر باش نییە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdimensionals2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdimensionals2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "I have my own 3D printer, but the dimensional accuracy isn't good enough.",
+            kurdishText:
+                "پرینتەری سێ دووری خۆم ھەیە، بەڵام درووستی ئەندازەکەی زۆر باش نییە.",
+            onPressedBritish: () => speakdimensionals2("en-GB"),
+            onPressedAmerican: () => speakdimensionals2("en-US"),
           ),
           // skipped_meaning
           // const DividerDefinition(),

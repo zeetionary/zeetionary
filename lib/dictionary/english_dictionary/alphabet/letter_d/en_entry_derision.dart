@@ -248,58 +248,21 @@ class KurdishMeaning extends StatelessWidget {
 """),
           const DefinitionKurdish(
               text: "١. (ناو) گاڵتەکردن بە کەسێک وەک ئەوەی گرنگ نەبێت"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "Her speech was greeted with howls of derision."),
-                    ExampleSentenceKurdish(
-                        text: "وتارەکەی بە قوولەی گاڵتەپێکردن پێشوازی لێکرا."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "derision", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakderisions1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakderisions1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "Her speech was greeted with howls of derision.",
+            kurdishText:
+                "وتارەکەی بە قوولەی گاڵتەپێکردن پێشوازی لێکرا.", // derision
+            onPressedBritish: () => speakderisions1("en-GB"),
+            onPressedAmerican: () => speakderisions1("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "They treated his suggestion with derision."),
-                    ExampleSentenceKurdish(
-                        text: "بە گاڵتەوە مامەڵەیان لەگەڵ پێشنیارەکەی کرد."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakderisions2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakderisions2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "They treated his suggestion with derision.",
+            kurdishText: "بە گاڵتەوە مامەڵەیان لەگەڵ پێشنیارەکەی کرد.",
+            onPressedBritish: () => speakderisions2("en-GB"),
+            onPressedAmerican: () => speakderisions2("en-US"),
           ),
           // derisions300"),
           // speakderisions3

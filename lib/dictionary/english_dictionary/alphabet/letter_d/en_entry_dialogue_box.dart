@@ -242,58 +242,21 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "١. (ناو) بۆکسێک کە لەسەر کۆمپیوتەرێک دەردەکەوێت و لە بەکارھێنەر دەپرسێت کە دواتر چی دەکات یان یان زانیاری بدات"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "Select an option from the dialog box."),
-                    ExampleSentenceKurdish(
-                        text: "ھەڵبژاردەیەک لە سندووقی دیالۆگەکە ھەڵبژێرە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "dialogue box", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdialogueboxs1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdialogueboxs1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "Select an option from the dialog box.",
+            kurdishText:
+                "ھەڵبژاردەیەک لە سندووقی دیالۆگەکە ھەڵبژێرە.", // dialogue box
+            onPressedBritish: () => speakdialogueboxs1("en-GB"),
+            onPressedAmerican: () => speakdialogueboxs1("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "Click on ‘open file’ in the dialogue box."),
-                    ExampleSentenceKurdish(
-                        text: "'open file' دابگرە لە سندووقی دیالۆگەکە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdialogueboxs2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdialogueboxs2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "Click on ‘open file’ in the dialogue box.",
+            kurdishText: "'open file' دابگرە لە سندووقی دیالۆگەکە.",
+            onPressedBritish: () => speakdialogueboxs2("en-GB"),
+            onPressedAmerican: () => speakdialogueboxs2("en-US"),
           ),
           // dialogueboxs300"),
           // speakdialogueboxs3

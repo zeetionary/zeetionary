@@ -380,92 +380,35 @@ class KurdishMeaning extends StatelessWidget {
 """),
           const DefinitionKurdish(
               text: """١. (کردار) جێگیرکردنی شتێک لە شوێنێک یان شتێل"""),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            """These attitudes are deeply embedded in our society (= felt very strongly and difficult to change)."""),
-                    ExampleSentenceKurdish(
-                        text:
-                            """(بەکارھێنانی خوازراوی) ئەم ڕەفتارانە تەواو ڕۆچوونە لە کۆمەڵگاکەماندا."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "embed", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakembeds1("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakembeds1("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                """These attitudes are deeply embedded in our society (= felt very strongly and difficult to change).""",
+            kurdishText:
+                """(بەکارھێنانی خوازراوی) ئەم ڕەفتارانە تەواو ڕۆچوونە لە کۆمەڵگاکەماندا.""", // embed
+            onPressedBritish: () => speakembeds1("en-GB"),
+            onPressedAmerican: () => speakembeds1("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: """ژممارە. (کردار) پێنناسە"""),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: """The bullet embedded itself in the wall."""),
-                    ExampleSentenceKurdish(
-                        text: """فیشەکەکە ڕۆچوو بە دیوارەکەدا."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakembeds2("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakembeds2("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: """The bullet embedded itself in the wall.""",
+            kurdishText: """فیشەکەکە ڕۆچوو بە دیوارەکەدا.""",
+            onPressedBritish: () => speakembeds2("en-GB"),
+            onPressedAmerican: () => speakembeds2("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
                   """٢. (کردار) ناردنی ڕۆژنامەنووس لەگەڵ سوپا بۆ ئەوەی لەگەڵیان بچن و ڕووماڵ بکەن"""),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            """Embedded reporters provide detailed accounts of the war."""),
-                    ExampleSentenceKurdish(
-                        text:
-                            """پەیامنێرە نێردراوەکان گێڕانەوەی وردی جەنگەکە دەگێڕنەوە."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakembeds3("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakembeds3("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                """Embedded reporters provide detailed accounts of the war.""",
+            kurdishText:
+                """پەیامنێرە نێردراوەکان گێڕانەوەی وردی جەنگەکە دەگێڕنەوە.""",
+            onPressedBritish: () => speakembeds3("en-GB"),
+            onPressedAmerican: () => speakembeds3("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: """ژممارە. (کردار) پێنناسە"""),

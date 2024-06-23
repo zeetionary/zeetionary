@@ -240,56 +240,18 @@ class KurdishMeaning extends StatelessWidget {
 """),
           const DefinitionKurdish(
               text: "١. (ناو) کاتێک کە تێیدا دەبێت شتێک بکرێت"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "I prefer to work to a deadline."),
-                    ExampleSentenceKurdish(
-                        text: "پێم باشە تاوەکو وادەی دیاریکراو."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "deadline", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdeadlines1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdeadlines1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "I prefer to work to a deadline.",
+            kurdishText: "پێم باشە تاوەکو وادەی دیاریکراو.", // deadline
+            onPressedBritish: () => speakdeadlines1("en-GB"),
+            onPressedAmerican: () => speakdeadlines1("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "The deadline for applications is 30 April."),
-                    ExampleSentenceKurdish(
-                        text: "دواوادە بۆ داخوازینامە ٣٠ ـی نیسانە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdeadlines2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdeadlines2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "The deadline for applications is 30 April.",
+            kurdishText: "دواوادە بۆ داخوازینامە ٣٠ ـی نیسانە.",
+            onPressedBritish: () => speakdeadlines2("en-GB"),
+            onPressedAmerican: () => speakdeadlines2("en-US"),
           ),
         ],
       ),

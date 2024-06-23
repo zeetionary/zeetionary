@@ -258,92 +258,33 @@ class KurdishMeaning extends StatelessWidget {
 کوردی: لەبەرگری‌ھاتوو، دەپارێزرێ، بەرگری‌لێ‌کراو،	(تیۆری و ھتد) لەپاساوھاتوو، پاساو دەدرێ، بەرگری لێ‌دەکرێ
 """),
           const DefinitionKurdish(text: "١. (ھاوەڵناو) پێنناسە"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "Are these measures either morally or legally defensible?"),
-                    ExampleSentenceKurdish(
-                        text:
-                            "ئایا ئەم ھەنگاوانە چی لەلایەنی ئەخلاقی یان یاسایی لەبەرگری‌ھاتوون؟"),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "defensible", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdefensibles1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdefensibles1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "Are these measures either morally or legally defensible?",
+            kurdishText:
+                "ئایا ئەم ھەنگاوانە چی لەلایەنی ئەخلاقی یان یاسایی لەبەرگری‌ھاتوون؟", // defensible
+            onPressedBritish: () => speakdefensibles1("en-GB"),
+            onPressedAmerican: () => speakdefensibles1("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "Is it morally defensible to deny legal advice to a prisoner?"),
-                    ExampleSentenceKurdish(
-                        text:
-                            "ئایا لە ڕووی ئەخلاقییەوە لەبەرگری‌ھاتووە کە ڕاوێژی یاسایی بە زیندانییەک نەدەیت؟"),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdefensibles2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdefensibles2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "Is it morally defensible to deny legal advice to a prisoner?",
+            kurdishText:
+                "ئایا لە ڕووی ئەخلاقییەوە لەبەرگری‌ھاتووە کە ڕاوێژی یاسایی بە زیندانییەک نەدەیت؟",
+            onPressedBritish: () => speakdefensibles2("en-GB"),
+            onPressedAmerican: () => speakdefensibles2("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "There is no defensible basis for this argument."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "ھیچ بنەمایەکی لەبەرگری‌ھاتوو نییە بۆ ئەم مشتومڕە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdefensibles3("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdefensibles3("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "There is no defensible basis for this argument.",
+            kurdishText: "ھیچ بنەمایەکی لەبەرگری‌ھاتوو نییە بۆ ئەم مشتومڕە.",
+            onPressedBritish: () => speakdefensibles3("en-GB"),
+            onPressedAmerican: () => speakdefensibles3("en-US"),
           ),
           // defensibles400"),
           // speakdefensibles4

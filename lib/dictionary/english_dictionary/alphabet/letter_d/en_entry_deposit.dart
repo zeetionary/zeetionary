@@ -318,299 +318,106 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "١. (ناو) بڕە پارەیەک کە وەک سەرەتایەک بۆ بڕێکی زیاتر دەدرێت"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "They normally ask you to pay £100 (as a) deposit."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "بەشێوەیەکی ئاسایی داوادەکەن ١٠٠ پاوەند وەک پێشەکی بدەیت."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "deposit", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdeposits1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdeposits1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "They normally ask you to pay £100 (as a) deposit.",
+            kurdishText:
+                "بەشێوەیەکی ئاسایی داوادەکەن ١٠٠ پاوەند وەک پێشەکی بدەیت.", // deposit
+            onPressedBritish: () => speakdeposits1("en-GB"),
+            onPressedAmerican: () => speakdeposits1("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "We've put down a five per cent deposit on the house."),
-                    ExampleSentenceKurdish(
-                        text: "پێشەکی پێنج لە سەدمان داناوە لەسەر خانووەکە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdeposits2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdeposits2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "We've put down a five per cent deposit on the house.",
+            kurdishText: "پێشەکی پێنج لە سەدمان داناوە لەسەر خانووەکە.",
+            onPressedBritish: () => speakdeposits2("en-GB"),
+            onPressedAmerican: () => speakdeposits2("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
                   "٢. (کردار) بڕە پارەیەک کە دایدەنێیت کاتێک شتێک بە قەرز دەبەیت و پارەکە وەردەگریتەوە ئەگەر شتەکە بەبێ زیان بگەڕێنیتەوە"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "They'll probably ask you to leave a deposit."),
-                    ExampleSentenceKurdish(
-                        text: "ئەگەری ھەیە داوات لێ بکەن بڕێک پارە بخەوێنیت."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdeposits3("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdeposits3("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "They'll probably ask you to leave a deposit.",
+            kurdishText: "ئەگەری ھەیە داوات لێ بکەن بڕێک پارە بخەوێنیت.",
+            onPressedBritish: () => speakdeposits3("en-GB"),
+            onPressedAmerican: () => speakdeposits3("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "You'll get back your deposit once we've checked the bikes are all right."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "بارمتەکەت وەردەگریتەوە کە سەیر دەکەین پاسکیلەکان تەواون."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdeposits4("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdeposits4("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "You'll get back your deposit once we've checked the bikes are all right.",
+            kurdishText:
+                "بارمتەکەت وەردەگریتەوە کە سەیر دەکەین پاسکیلەکان تەواون.",
+            onPressedBritish: () => speakdeposits4("en-GB"),
+            onPressedAmerican: () => speakdeposits4("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٣. (ناو) بڕە پارەیەک کە دەخرێتە ھەژمارێکی بانکییەوە"),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "She made a deposit of £60 into her account."),
-                    ExampleSentenceKurdish(
-                        text: "٦٠ پاوەندی خستە ھەژمارەکەیەوە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdeposits5("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdeposits5("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "She made a deposit of £60 into her account.",
+            kurdishText: "٦٠ پاوەندی خستە ھەژمارەکەیەوە.",
+            onPressedBritish: () => speakdeposits5("en-GB"),
+            onPressedAmerican: () => speakdeposits5("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
                   "٤. (ناو) بڕە پارەیەک کە بەربژێرێکی پەرلەمانی بەریتانیا دەیخەوێنێت و وەریدەگرێتەوە ئەگەر بباتەوە"),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "All the other candidates lost their deposits."),
-                    ExampleSentenceKurdish(
-                        text: "ھەموو کاندیدەکانی دیکە بارمتەکانیان لەدەستدا."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdeposits6("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdeposits6("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "All the other candidates lost their deposits.",
+            kurdishText: "ھەموو کاندیدەکانی دیکە بارمتەکانیان لەدەستدا.",
+            onPressedBritish: () => speakdeposits6("en-GB"),
+            onPressedAmerican: () => speakdeposits6("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٥. (کردار) دانانی پارە لە ھەژماری بانکی"),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "Millions were deposited in Swiss bank accounts."),
-                    ExampleSentenceKurdish(
-                        text: "ملیۆنان خرایە ھەژمارە بانکییەکانی سویسراوە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdeposits7("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdeposits7("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "Millions were deposited in Swiss bank accounts.",
+            kurdishText: "ملیۆنان خرایە ھەژمارە بانکییەکانی سویسراوە.",
+            onPressedBritish: () => speakdeposits7("en-GB"),
+            onPressedAmerican: () => speakdeposits7("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "You can withdraw and deposit money in any of our branches."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "دەتوانیت پارە ڕابکێشیت و بخەوێنیت لە ھەر یەکێک لە لقەکانمان."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdeposits8("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdeposits8("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "You can withdraw and deposit money in any of our branches.",
+            kurdishText:
+                "دەتوانیت پارە ڕابکێشیت و بخەوێنیت لە ھەر یەکێک لە لقەکانمان.",
+            onPressedBritish: () => speakdeposits8("en-GB"),
+            onPressedAmerican: () => speakdeposits8("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
                   "٦. (کردار) پێدانی بڕە پارەیەک وەک پێشەکی و دواتر دانەوەی بەشەکەی دیکە"),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "You deposit 20 percent now and pay the rest when the car is delivered."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "ئێستا پێشەکی ٢٠ لە سەد دەدەیت و ئەوەی دیکە ئەو کاتە کە ئۆتۆمبێلەکە دەگوازرێتەوە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdeposits9("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdeposits9("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "You deposit 20 percent now and pay the rest when the car is delivered.",
+            kurdishText:
+                "ئێستا پێشەکی ٢٠ لە سەد دەدەیت و ئەوەی دیکە ئەو کاتە کە ئۆتۆمبێلەکە دەگوازرێتەوە.",
+            onPressedBritish: () => speakdeposits9("en-GB"),
+            onPressedAmerican: () => speakdeposits9("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٧. (کردار) دانانی شتێک لە شوێنێکی دیاریکراو"),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "She deposited a pile of books on my desk."),
-                    ExampleSentenceKurdish(
-                        text: "ڕیزێک کتێبی خستە سەر مێزەکەم."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdeposits10("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdeposits10("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "She deposited a pile of books on my desk.",
+            kurdishText: "ڕیزێک کتێبی خستە سەر مێزەکەم.",
+            onPressedBritish: () => speakdeposits10("en-GB"),
+            onPressedAmerican: () => speakdeposits10("en-US"),
           ),
           // deposits1100"),
           // speakdeposits11

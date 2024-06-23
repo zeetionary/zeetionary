@@ -258,89 +258,31 @@ class KurdishMeaning extends StatelessWidget {
 کوردی: ھەڵس‌وکەوت، جووڵانەوە، ڕەوتار، ڕەفتار، شێوەی جووڵانەوە، شێوەی ڕەفتار
 """),
           const DefinitionKurdish(text: "١. (ناو) ڕەفتار و ھەڵسوکەوتی کەسێک"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "He maintained a professional demeanour throughout."),
-                    ExampleSentenceKurdish(
-                        text: "تەواوی ماوەکە ھەڵسوکەوتی پڕۆفیشناڵانەی پاراست."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "demeanour", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdemeanours1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdemeanours1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "He maintained a professional demeanour throughout.",
+            kurdishText:
+                "تەواوی ماوەکە ھەڵسوکەوتی پڕۆفیشناڵانەی پاراست.", // demeanour
+            onPressedBritish: () => speakdemeanours1("en-GB"),
+            onPressedAmerican: () => speakdemeanours1("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "Her demeanour seemed perfectly normal despite the shock."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "سەرەڕای شۆکەکە ھەڵسوکەوتی تەواو ئاسایی دیاربووە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdemeanours2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdemeanours2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "Her demeanour seemed perfectly normal despite the shock.",
+            kurdishText: "سەرەڕای شۆکەکە ھەڵسوکەوتی تەواو ئاسایی دیاربووە.",
+            onPressedBritish: () => speakdemeanours2("en-GB"),
+            onPressedAmerican: () => speakdemeanours2("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "He was surprised by her calm demeanour."),
-                    ExampleSentenceKurdish(
-                        text: "سەرسام بوو بە ھەڵسوکەوتی ئاسایی ئەو."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdemeanours3("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdemeanours3("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "He was surprised by her calm demeanour.",
+            kurdishText: "سەرسام بوو بە ھەڵسوکەوتی ئاسایی ئەو.",
+            onPressedBritish: () => speakdemeanours3("en-GB"),
+            onPressedAmerican: () => speakdemeanours3("en-US"),
           ),
           // demeanours400"),
           // speakdemeanours4

@@ -234,32 +234,13 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "١. (ناو) ڕووەکێکی بچووکی کێوی کە گوڵێکی زەردی گەشاوەی ھەیە کە دەبێتە تۆپەڵێکی سپی نەرمی تۆودار"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The children took turns blowing the dandelion clock (= the mass of white threads to which the seeds are attached)."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "منداڵەکان نۆرەیان گرتبوو بۆ ئەوەی فوو لە پشیلەپاییزەکە بکەن."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "dandelion", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdandelions1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdandelions1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "The children took turns blowing the dandelion clock (= the mass of white threads to which the seeds are attached).",
+            kurdishText:
+                "منداڵەکان نۆرەیان گرتبوو بۆ ئەوەی فوو لە پشیلەپاییزەکە بکەن.", // dandelion
+            onPressedBritish: () => speakdandelions1("en-GB"),
+            onPressedAmerican: () => speakdandelions1("en-US"),
           ),
         ],
       ),

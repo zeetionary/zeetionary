@@ -243,58 +243,20 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "١. (کردار) کوشتنی ژمارەیەکی زۆر لە ڕووەک، ئاژەڵ، یان مرۆڤ لە ناوچەیەکی دیاریکراودا"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The rabbit population was decimated by the disease."),
-                    ExampleSentenceKurdish(
-                        text: "حەشیمەتی کەروێشکەکان بە نەخۆشییەکە تیاچوون."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "decimate", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdecimates1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdecimates1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "The rabbit population was decimated by the disease.",
+            kurdishText:
+                "حەشیمەتی کەروێشکەکان بە نەخۆشییەکە تیاچوون.", // decimate
+            onPressedBritish: () => speakdecimates1("en-GB"),
+            onPressedAmerican: () => speakdecimates1("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "Populations of endangered animals have been decimated."),
-                    ExampleSentenceKurdish(
-                        text: "ڕێژەی ئاژەڵە مەترسی‌لەسەرەکان قڕی تێخراوە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdecimates2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdecimates2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "Populations of endangered animals have been decimated.",
+            kurdishText: "ڕێژەی ئاژەڵە مەترسی‌لەسەرەکان قڕی تێخراوە.",
+            onPressedBritish: () => speakdecimates2("en-GB"),
+            onPressedAmerican: () => speakdecimates2("en-US"),
           ),
         ],
       ),

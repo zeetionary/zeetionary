@@ -372,61 +372,22 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "١. (ھاوەڵناو) بە ئاستێکی زۆر کە کاریگەرییەکی لەناکاو، کاریگەر، یان توندوتیژی ھەیە"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The government is threatening to take drastic action."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "حکومەت ھەڕەشەی ئەوە دەکات کە ھەنگاوی توند بنێت."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "drastic", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdrastics1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdrastics1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "The government is threatening to take drastic action.",
+            kurdishText:
+                "حکومەت ھەڕەشەی ئەوە دەکات کە ھەنگاوی توند بنێت.", // drastic
+            onPressedBritish: () => speakdrastics1("en-GB"),
+            onPressedAmerican: () => speakdrastics1("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "Talk to me before you do anything drastic."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "قسەم لەگەڵ بکە پێش ئەوەی ھەر شتێکی بنچینەیی بکەیت."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdrastics2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdrastics2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "Talk to me before you do anything drastic.",
+            kurdishText: "قسەم لەگەڵ بکە پێش ئەوەی ھەر شتێکی بنچینەیی بکەیت.",
+            onPressedBritish: () => speakdrastics2("en-GB"),
+            onPressedAmerican: () => speakdrastics2("en-US"),
           ),
           // drastics300"),
           // speakdrastics3

@@ -370,61 +370,23 @@ class KurdishMeaning extends StatelessWidget {
 کوردی: زانستی ئابووری، ئابووری‌ناسی، ماڵ‌داری، ئابووری، تیۆری، بنەما یان کرداری ئابووری
 """),
           const DefinitionKurdish(text: """١. (ناو) خوێندنی ئابووری"""),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: """He studied politics and economics at Yale."""),
-                    ExampleSentenceKurdish(
-                        text: """سیاسەت و ئابووری لە یەیڵ خوێند."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "economics", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakeconomicss1("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakeconomicss1("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: """He studied politics and economics at Yale.""",
+            kurdishText: """سیاسەت و ئابووری لە یەیڵ خوێند.""", // economics
+            onPressedBritish: () => speakeconomicss1("en-GB"),
+            onPressedAmerican: () => speakeconomicss1("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
                   """٢. (ناو) ئەو شێوازەی کە پارە کاریگەری درووست دەکات یان ڕێکخراوە لە ناو بەشێکی بازرگانییەک یان کۆمەڵگە"""),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            """The economics of the project are very encouraging."""),
-                    ExampleSentenceKurdish(
-                        text: """ئابووریی پڕۆژەکە زۆر ھیواپێدەرە."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakeconomicss2("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakeconomicss2("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                """The economics of the project are very encouraging.""",
+            kurdishText: """ئابووریی پڕۆژەکە زۆر ھیواپێدەرە.""",
+            onPressedBritish: () => speakeconomicss2("en-GB"),
+            onPressedAmerican: () => speakeconomicss2("en-US"),
           ),
           // economicss300economicss3
           // speakeconomicss3

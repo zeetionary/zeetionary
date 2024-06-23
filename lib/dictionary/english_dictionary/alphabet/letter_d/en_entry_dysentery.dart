@@ -364,32 +364,13 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   """١. (ناو) نەخۆشییەک لە ڕیخۆڵەدا کە دەبێتە ھۆکاری سکچوون لەگەڵ خوێندا"""),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            """Dysentery often spreads through contaminated water."""),
-                    ExampleSentenceKurdish(
-                        text:
-                            """زگەشۆرە خوێنی زۆرجار بەھۆی ئاوی پیس دەگوازرێتەوە."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "dysentery", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdysenterys1("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdysenterys1("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                """Dysentery often spreads through contaminated water.""",
+            kurdishText:
+                """زگەشۆرە خوێنی زۆرجار بەھۆی ئاوی پیس دەگوازرێتەوە.""", // dysentery
+            onPressedBritish: () => speakdysenterys1("en-GB"),
+            onPressedAmerican: () => speakdysenterys1("en-US"),
           ),
           // dysenterys200
           // speakdysenterys2

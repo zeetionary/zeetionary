@@ -410,201 +410,69 @@ class KurdishMeaning extends StatelessWidget {
 // کوردی:
 // """),
           const DefinitionKurdish(text: """١. (ژمارە) ژمارە ١١"""),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            """There are only eleven of these rare animals left."""),
-                    ExampleSentenceKurdish(
-                        text: """تەنھا یازدە لەم ئاژەڵە دەگمەنانە ماون."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "eleven", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakelevens1("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakelevens1("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                """There are only eleven of these rare animals left.""",
+            kurdishText: """تەنھا یازدە لەم ئاژەڵە دەگمەنانە ماون.""", // eleven
+            onPressedBritish: () => speakelevens1("en-GB"),
+            onPressedAmerican: () => speakelevens1("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            """Twenty people were invited but only eleven turned up."""),
-                    ExampleSentenceKurdish(
-                        text:
-                            """بیست کەس بانگھێشت کران، بەڵام تەنھا یازدە ھاتن."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakelevens2("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakelevens2("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                """Twenty people were invited but only eleven turned up.""",
+            kurdishText: """بیست کەس بانگھێشت کران، بەڵام تەنھا یازدە ھاتن.""",
+            onPressedBritish: () => speakelevens2("en-GB"),
+            onPressedAmerican: () => speakelevens2("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: """Can you lend me eleven dollars?"""),
-                    ExampleSentenceKurdish(
-                        text: """یازدە دۆلارم بە قەرز پێ دەدەیت؟"""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakelevens3("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakelevens3("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: """Can you lend me eleven dollars?""",
+            kurdishText: """یازدە دۆلارم بە قەرز پێ دەدەیت؟""",
+            onPressedBritish: () => speakelevens3("en-GB"),
+            onPressedAmerican: () => speakelevens3("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(text: """Look at page eleven."""),
-                    ExampleSentenceKurdish(text: """سەیری لاپەڕە یازدە بکە."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakelevens4("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakelevens4("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: """Look at page eleven.""",
+            kurdishText: """سەیری لاپەڕە یازدە بکە.""",
+            onPressedBritish: () => speakelevens4("en-GB"),
+            onPressedAmerican: () => speakelevens4("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: """Eleven and two is thirteen."""),
-                    ExampleSentenceKurdish(
-                        text: """یازدە و دوو دەکەنە سیازدە."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakelevens5("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakelevens5("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: """Eleven and two is thirteen.""",
+            kurdishText: """یازدە و دوو دەکەنە سیازدە.""",
+            onPressedBritish: () => speakelevens5("en-GB"),
+            onPressedAmerican: () => speakelevens5("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: """Two elevens are twenty-two."""),
-                    ExampleSentenceKurdish(
-                        text: """دوو یازدەیی دەکاتە بیست و دوو."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakelevens6("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakelevens6("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: """Two elevens are twenty-two.""",
+            kurdishText: """دوو یازدەیی دەکاتە بیست و دوو.""",
+            onPressedBritish: () => speakelevens6("en-GB"),
+            onPressedAmerican: () => speakelevens6("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
                   """٢. (ژمارە) تیمێکی یازدە یاریزانی بۆ تۆپی پێ، کریکیت یان ھۆکی"""),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: """She was chosen for the first eleven."""),
-                    ExampleSentenceKurdish(
-                        text: """بۆ یەکەم یازدە یاریزان ھەڵبژێردرا."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakelevens7("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakelevens7("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: """She was chosen for the first eleven.""",
+            kurdishText: """بۆ یەکەم یازدە یاریزان ھەڵبژێردرا.""",
+            onPressedBritish: () => speakelevens7("en-GB"),
+            onPressedAmerican: () => speakelevens7("en-US"),
           ),
           // elevens800elevens8
           // speakelevens8

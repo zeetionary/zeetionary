@@ -305,261 +305,80 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "١. (ناو) نانی سەرەکیی ڕۆژ کە لە ناوەڕاستی ڕۆژەکە یان ئێوارە دەخورێت"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(text: "It's time for dinner."),
-                    ExampleSentenceKurdish(text: "کاتی شێوە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "dinner", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdinners1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdinners1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "It's time for dinner.",
+            kurdishText: "کاتی شێوە.", // dinner
+            onPressedBritish: () => speakdinners1("en-GB"),
+            onPressedAmerican: () => speakdinners1("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(text: "When do you have dinner?"),
-                    ExampleSentenceKurdish(text: "کەی نانی ئێوارە دەخۆن؟"),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdinners2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdinners2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "When do you have dinner?",
+            kurdishText: "کەی نانی ئێوارە دەخۆن؟",
+            onPressedBritish: () => speakdinners2("en-GB"),
+            onPressedAmerican: () => speakdinners2("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "What shall we have for dinner tonight?"),
-                    ExampleSentenceKurdish(text: "چی بۆ ئێوارە بخۆین؟"),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdinners3("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdinners3("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "What shall we have for dinner tonight?",
+            kurdishText: "چی بۆ ئێوارە بخۆین؟",
+            onPressedBritish: () => speakdinners3("en-GB"),
+            onPressedAmerican: () => speakdinners3("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "As I'm single, I tend to go out to dinner (= eat in a restaurant) a lot."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "بەو پێیەی سینگڵم، مەیلی ئەوەم ھەیە زۆر لە دەرەوە (لە چێشتخانە) نان بخۆم."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdinners4("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdinners4("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "As I'm single, I tend to go out to dinner (= eat in a restaurant) a lot.",
+            kurdishText:
+                "بەو پێیەی سینگڵم، مەیلی ئەوەم ھەیە زۆر لە دەرەوە (لە چێشتخانە) نان بخۆم.",
+            onPressedBritish: () => speakdinners4("en-GB"),
+            onPressedAmerican: () => speakdinners4("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "Let's invite them to dinner tomorrow."),
-                    ExampleSentenceKurdish(
-                        text: "با سبەی بانگھێشتی شێویان بکەین."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdinners5("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdinners5("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "Let's invite them to dinner tomorrow.",
+            kurdishText: "با سبەی بانگھێشتی شێویان بکەین.",
+            onPressedBritish: () => speakdinners5("en-GB"),
+            onPressedAmerican: () => speakdinners5("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "What time do you serve dinner?"),
-                    ExampleSentenceKurdish(text: "کەی نانی ئێوارە دادەنێن."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdinners6("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdinners6("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "What time do you serve dinner?",
+            kurdishText: "کەی نانی ئێوارە دادەنێن.",
+            onPressedBritish: () => speakdinners6("en-GB"),
+            onPressedAmerican: () => speakdinners6("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "It's your turn to cook dinner."),
-                    ExampleSentenceKurdish(text: "نۆرەتە شێو لێ بنێیت."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdinners7("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdinners7("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "It's your turn to cook dinner.",
+            kurdishText: "نۆرەتە شێو لێ بنێیت.",
+            onPressedBritish: () => speakdinners7("en-GB"),
+            onPressedAmerican: () => speakdinners7("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(text: "She didn't eat much dinner."),
-                    ExampleSentenceKurdish(text: "شێوی زۆری نەخوارد."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdinners8("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdinners8("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "She didn't eat much dinner.",
+            kurdishText: "شێوی زۆری نەخوارد.",
+            onPressedBritish: () => speakdinners8("en-GB"),
+            onPressedAmerican: () => speakdinners8("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(text: "I never eat a big dinner."),
-                    ExampleSentenceKurdish(
-                        text: "ھەرگیز نانی زۆری ئێوارە ناخۆم."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdinners9("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdinners9("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "I never eat a big dinner.",
+            kurdishText: "ھەرگیز نانی زۆری ئێوارە ناخۆم.",
+            onPressedBritish: () => speakdinners9("en-GB"),
+            onPressedAmerican: () => speakdinners9("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
                   "٢. (ناو) کۆبوونەوەیەکی گەورەی کۆمەڵایەتی بۆ خواردنی نانی ئێوارە"),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The club's annual dinner will be held on 3 June."),
-                    ExampleSentenceKurdish(
-                        text: "شێوی ساڵانەی یانەکە لە ٣ ـی حوزەیران دەبێت."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdinners10("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdinners10("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "The club's annual dinner will be held on 3 June.",
+            kurdishText: "شێوی ساڵانەی یانەکە لە ٣ ـی حوزەیران دەبێت.",
+            onPressedBritish: () => speakdinners10("en-GB"),
+            onPressedAmerican: () => speakdinners10("en-US"),
           ),
           // dinners1100"),
           // speakdinners11

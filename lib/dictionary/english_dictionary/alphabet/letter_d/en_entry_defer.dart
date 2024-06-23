@@ -284,171 +284,54 @@ class KurdishMeaning extends StatelessWidget {
 """),
           const DefinitionKurdish(
               text: "١. (کردار) دواخستنی شتێک تاوەکو کاتێکی دواتر"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The department deferred the decision for six months."),
-                    ExampleSentenceKurdish(
-                        text: "بەشەکە بڕیارەکەی بۆ ھەفتەیەک دواخست."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "defer", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdefers1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdefers1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "The department deferred the decision for six months.",
+            kurdishText: "بەشەکە بڕیارەکەی بۆ ھەفتەیەک دواخست.", // defer
+            onPressedBritish: () => speakdefers1("en-GB"),
+            onPressedAmerican: () => speakdefers1("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "She had applied for deferred admission to college."),
-                    ExampleSentenceKurdish(
-                        text: "داوای دواخستنی چوونە کۆلێژی کردبوو."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdefers2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdefers2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "She had applied for deferred admission to college.",
+            kurdishText: "داوای دواخستنی چوونە کۆلێژی کردبوو.",
+            onPressedBritish: () => speakdefers2("en-GB"),
+            onPressedAmerican: () => speakdefers2("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "The decision has been deferred indefinitely."),
-                    ExampleSentenceKurdish(
-                        text: "بڕیارەکە بۆ کاتێکی نادیار دواخراوە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdefers3("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdefers3("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "The decision has been deferred indefinitely.",
+            kurdishText: "بڕیارەکە بۆ کاتێکی نادیار دواخراوە.",
+            onPressedBritish: () => speakdefers3("en-GB"),
+            onPressedAmerican: () => speakdefers3("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
                   "٢. (کردار) ڕازی بوون بە بڕیاری کەسێک یان بیرکردنەوەی چونکە ڕێزی دەگریت"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "We will defer to whatever the committee decides."),
-                    ExampleSentenceKurdish(
-                        text: "پابەند دەبین بەوەی لیژنەکە بڕیاری لەسەر دەدات."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdefers4("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdefers4("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "We will defer to whatever the committee decides.",
+            kurdishText: "پابەند دەبین بەوەی لیژنەکە بڕیاری لەسەر دەدات.",
+            onPressedBritish: () => speakdefers4("en-GB"),
+            onPressedAmerican: () => speakdefers4("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "I defer to (= accept) your judgment."),
-                    ExampleSentenceKurdish(text: "بڕیارت پەسەند دەکەم."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdefers5("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdefers5("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "I defer to (= accept) your judgment.",
+            kurdishText: "بڕیارت پەسەند دەکەم.",
+            onPressedBritish: () => speakdefers5("en-GB"),
+            onPressedAmerican: () => speakdefers5("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "I have to defer to my boss on important decisions."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "دەبێت قایل بم لەگەڵ بەڕێوەبەرەکەم لە بڕیارە گرنگەکاندا."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdefers6("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdefers6("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "I have to defer to my boss on important decisions.",
+            kurdishText:
+                "دەبێت قایل بم لەگەڵ بەڕێوەبەرەکەم لە بڕیارە گرنگەکاندا.",
+            onPressedBritish: () => speakdefers6("en-GB"),
+            onPressedAmerican: () => speakdefers6("en-US"),
           ),
           // defers700"),
           // speakdefers7

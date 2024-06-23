@@ -374,62 +374,23 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "١. (ھاوەڵناو) ھەبوونی خاسیەتێک یان تایبەتمەندییەک کە وا دەکات شتێک جیاواز بێت و بە ئاسانی ببینرێت"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The male bird has distinctive white markings on its head."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "باڵندە نێرینەکە خاڵی جیاکەرەوەی سپی ھەیە لەسەر سەری."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "distinctive", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdistinctives1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdistinctives1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "The male bird has distinctive white markings on its head.",
+            kurdishText:
+                "باڵندە نێرینەکە خاڵی جیاکەرەوەی سپی ھەیە لەسەر سەری.", // distinctive
+            onPressedBritish: () => speakdistinctives1("en-GB"),
+            onPressedAmerican: () => speakdistinctives1("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "Each district of the city has its own distinctive character."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "ھەر گەڕەکێکی شارەکە خاسیەتی جیاکەرەوەی خۆی ھەیە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdistinctives2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdistinctives2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "Each district of the city has its own distinctive character.",
+            kurdishText: "ھەر گەڕەکێکی شارەکە خاسیەتی جیاکەرەوەی خۆی ھەیە.",
+            onPressedBritish: () => speakdistinctives2("en-GB"),
+            onPressedAmerican: () => speakdistinctives2("en-US"),
           ),
           // distinctives300"),
           // speakdistinctives3

@@ -381,92 +381,35 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "١. (ناو) کەسێک یان دامەزراوەیەک کە شتێک دەبەخشێت، بۆ نموونە پارە، خواردن، ھتد"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "She is one of the charity's main donors."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "یەکێکە لە بەخشەرە سەرەکییەکانی دامەزراوە خێرخوازییەکە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "donor", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdonors1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdonors1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "She is one of the charity's main donors.",
+            kurdishText:
+                "یەکێکە لە بەخشەرە سەرەکییەکانی دامەزراوە خێرخوازییەکە.", // donor
+            onPressedBritish: () => speakdonors1("en-GB"),
+            onPressedAmerican: () => speakdonors1("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The charity received £50 000 from an anonymous donor."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "دامەزراوە خێرخوازییەکە ٥٠٠٠٠ پاوەندی لە خێرخوازێکی نەناسراوەوە پێگەشت."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdonors2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdonors2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "The charity received £50 000 from an anonymous donor.",
+            kurdishText:
+                "دامەزراوە خێرخوازییەکە ٥٠٠٠٠ پاوەندی لە خێرخوازێکی نەناسراوەوە پێگەشت.",
+            onPressedBritish: () => speakdonors2("en-GB"),
+            onPressedAmerican: () => speakdonors2("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٢. (ناو) کەسێک کە خوێن یان ئەندامێکی جەستەی دەبەخشێت"),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The heart transplant will take place as soon as a suitable donor can be found."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "چاندنە دڵەکە ئەنجام دەدرێت ھەرکە بەخشەرێکی گونجاو دەدۆزرێتەوە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdonors3("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdonors3("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "The heart transplant will take place as soon as a suitable donor can be found.",
+            kurdishText:
+                "چاندنە دڵەکە ئەنجام دەدرێت ھەرکە بەخشەرێکی گونجاو دەدۆزرێتەوە.",
+            onPressedBritish: () => speakdonors3("en-GB"),
+            onPressedAmerican: () => speakdonors3("en-US"),
           ),
           // donors400"),
           // speakdonors4

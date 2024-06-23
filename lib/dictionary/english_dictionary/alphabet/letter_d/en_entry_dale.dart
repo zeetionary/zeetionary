@@ -233,31 +233,13 @@ class KurdishMeaning extends StatelessWidget {
 """),
           const DefinitionKurdish(
               text: "١. (ناو) دۆڵێک، بەتایبەتی لە باکووری ئینگلتەرە"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "We're going walking in the Yorkshire Dales this summer."),
-                    ExampleSentenceKurdish(
-                        text: "ئەم ھاوینە دەچین بۆ گەڕان لە دۆڵەکانی یۆرکشێر."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "dale", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdales1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdales1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "We're going walking in the Yorkshire Dales this summer.",
+            kurdishText:
+                "ئەم ھاوینە دەچین بۆ گەڕان لە دۆڵەکانی یۆرکشێر.", // dale
+            onPressedBritish: () => speakdales1("en-GB"),
+            onPressedAmerican: () => speakdales1("en-US"),
           ),
         ],
       ),

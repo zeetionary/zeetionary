@@ -363,29 +363,11 @@ class KurdishMeaning extends StatelessWidget {
 // """),
           const DefinitionKurdish(
               text: "١. (ناو) پەنجەرە کە دوو پارچە شووشەی ھەیە"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "We’re having double-glazing fitted."),
-                    ExampleSentenceKurdish(text: "پەنجەرەی دوو توێ دادەنێین."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "double glazing", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdoubleglazings1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdoubleglazings1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "We’re having double-glazing fitted.",
+            kurdishText: "پەنجەرەی دوو توێ دادەنێین.", // double glazing
+            onPressedBritish: () => speakdoubleglazings1("en-GB"),
+            onPressedAmerican: () => speakdoubleglazings1("en-US"),
           ),
           // doubleglazings200"),
           // speakdoubleglazings2

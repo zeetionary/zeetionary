@@ -292,222 +292,68 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "١. (ناو) ڕاستی و زانیاری، بە تایبەتی کە بە وردی لێکۆڵینەوەیان لێدەکرێت بۆ زانینی شت یان بڕیاردان "),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "We collected publicly available data over a 10-day period."),
-                    ExampleSentenceKurdish(
-                        text: "داتای ماوەی ١٠ ڕۆژی بەردەستی گشتیمان کۆکردەوە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "data", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdatas1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdatas1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "We collected publicly available data over a 10-day period.",
+            kurdishText:
+                "داتای ماوەی ١٠ ڕۆژی بەردەستی گشتیمان کۆکردەوە.", // data
+            onPressedBritish: () => speakdatas1("en-GB"),
+            onPressedAmerican: () => speakdatas1("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "What methods are you using to interpret the data?"),
-                    ExampleSentenceKurdish(
-                        text:
-                            "چی بیردۆزێک بەکاردێنیت بۆ تێگەشتن لە زانیارییەکان؟"),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdatas2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdatas2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "What methods are you using to interpret the data?",
+            kurdishText: "چی بیردۆزێک بەکاردێنیت بۆ تێگەشتن لە زانیارییەکان؟",
+            onPressedBritish: () => speakdatas2("en-GB"),
+            onPressedAmerican: () => speakdatas2("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "Table 2 provides data for southeast Nebraska."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "خشتەی ٢ داتای باشووری ڕۆژھەڵاتی نیبراسکا پیشان دەدات."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdatas3("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdatas3("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "Table 2 provides data for southeast Nebraska.",
+            kurdishText:
+                "خشتەی ٢ داتای باشووری ڕۆژھەڵاتی نیبراسکا پیشان دەدات.",
+            onPressedBritish: () => speakdatas3("en-GB"),
+            onPressedAmerican: () => speakdatas3("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "Our model is based on experimental data."),
-                    ExampleSentenceKurdish(
-                        text: "نموونەکەمان پشت بە داتای تاقیکراوە دەبەستێت."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdatas4("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdatas4("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "Our model is based on experimental data.",
+            kurdishText: "نموونەکەمان پشت بە داتای تاقیکراوە دەبەستێت.",
+            onPressedBritish: () => speakdatas4("en-GB"),
+            onPressedAmerican: () => speakdatas4("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "It is essential to protect your personal data."),
-                    ExampleSentenceKurdish(
-                        text: "زۆر گرنگە زانیاری کەسیت بپارێزیت."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdatas5("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdatas5("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "It is essential to protect your personal data.",
+            kurdishText: "زۆر گرنگە زانیاری کەسیت بپارێزیت.",
+            onPressedBritish: () => speakdatas5("en-GB"),
+            onPressedAmerican: () => speakdatas5("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "Multiple data collection methods were used."),
-                    ExampleSentenceKurdish(
-                        text: "ژمارەیەک شێوازی کۆکردنەوەی داتا بەکارھاتن."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdatas6("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdatas6("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "Multiple data collection methods were used.",
+            kurdishText: "ژمارەیەک شێوازی کۆکردنەوەی داتا بەکارھاتن.",
+            onPressedBritish: () => speakdatas6("en-GB"),
+            onPressedAmerican: () => speakdatas6("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٢. (ناو) ئەو زانیارییانەی لە کۆمپیوتەرێکە"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "All this data is stored on hundreds of servers in San Francisco."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "ھەموو داتایە لە سەدان سێرڤەر لە سان فرانسیسکۆ کۆگا کراون."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdatas7("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdatas7("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "All this data is stored on hundreds of servers in San Francisco.",
+            kurdishText:
+                "ھەموو داتایە لە سەدان سێرڤەر لە سان فرانسیسکۆ کۆگا کراون.",
+            onPressedBritish: () => speakdatas7("en-GB"),
+            onPressedAmerican: () => speakdatas7("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The computer can manipulate massive amounts of data."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "کۆمپیوتەرەکە دەتوانێت کار لەسەر بڕێکی ئێجگار زۆر لە داتا بکات."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdatas8("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdatas8("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "The computer can manipulate massive amounts of data.",
+            kurdishText:
+                "کۆمپیوتەرەکە دەتوانێت کار لەسەر بڕێکی ئێجگار زۆر لە داتا بکات.",
+            onPressedBritish: () => speakdatas8("en-GB"),
+            onPressedAmerican: () => speakdatas8("en-US"),
           ),
         ],
       ),

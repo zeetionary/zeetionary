@@ -488,451 +488,147 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "١. (کردار) بازدانە ناو ئاو بەشێوەیەک کە سەر و دەستت سەرەتا بچن"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "We dived into the river to cool off."),
-                    ExampleSentenceKurdish(
-                        text: "دابەزینە ناو ڕووبارەکە تاوەکو فێنک بینەوە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "dive", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdives1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdives1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "We dived into the river to cool off.",
+            kurdishText: "دابەزینە ناو ڕووبارەکە تاوەکو فێنک بینەوە.", // dive
+            onPressedBritish: () => speakdives1("en-GB"),
+            onPressedAmerican: () => speakdives1("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(text: "He dived off the bridge."),
-                    ExampleSentenceKurdish(
-                        text: "لە پردەکەوە بازی دایە خوارەوە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdives2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdives2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "He dived off the bridge.",
+            kurdishText: "لە پردەکەوە بازی دایە خوارەوە.",
+            onPressedBritish: () => speakdives2("en-GB"),
+            onPressedAmerican: () => speakdives2("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "Sam walked to the deep end of the pool and dived in."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "سام چووە لا قووڵەکەی مەلەوانگەکە و چووە خوارەوە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdives3("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdives3("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "Sam walked to the deep end of the pool and dived in.",
+            kurdishText: "سام چووە لا قووڵەکەی مەلەوانگەکە و چووە خوارەوە.",
+            onPressedBritish: () => speakdives3("en-GB"),
+            onPressedAmerican: () => speakdives3("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "She dived from the top diving board."),
-                    ExampleSentenceKurdish(
-                        text: "لە سەرەوەی تەختەی بازدانەکەوە بازی دا."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdives4("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdives4("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "She dived from the top diving board.",
+            kurdishText: "لە سەرەوەی تەختەی بازدانەکەوە بازی دا.",
+            onPressedBritish: () => speakdives4("en-GB"),
+            onPressedAmerican: () => speakdives4("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
                   "٢. (کردار) مەلەکردن لە ژێر ئاودا بە بەستنی کەرەستەی تایبەتی ھەناسەدان بۆ گەڕان بە شوێن شتدا یان کۆکردنەوەیان"),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The main purpose of his holiday to Greece was to go diving."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "مەبەستی سەرەکی پشووەکەی لە یۆنان بۆ چوونە مەلەی ژێرئاو بوو."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdives5("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdives5("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "The main purpose of his holiday to Greece was to go diving.",
+            kurdishText:
+                "مەبەستی سەرەکی پشووەکەی لە یۆنان بۆ چوونە مەلەی ژێرئاو بوو.",
+            onPressedBritish: () => speakdives5("en-GB"),
+            onPressedAmerican: () => speakdives5("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٣. (کردار) دابەزینە ئاستێکی نزمتری ژێرئاو"),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "The submarine dived to avoid being seen."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "ژێردەریاکە زیاتر دابەزی بۆ ئەوەی دووربێت لە بینین."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdives6("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdives6("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "The submarine dived to avoid being seen.",
+            kurdishText: "ژێردەریاکە زیاتر دابەزی بۆ ئەوەی دووربێت لە بینین.",
+            onPressedBritish: () => speakdives6("en-GB"),
+            onPressedAmerican: () => speakdives6("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "The whale dived as the harpoon struck it."),
-                    ExampleSentenceKurdish(
-                        text: "نەھەنگەکە چووە قوڵاییەوە کە ڕمەکە لێیدا."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdives7("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdives7("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "The whale dived as the harpoon struck it.",
+            kurdishText: "نەھەنگەکە چووە قوڵاییەوە کە ڕمەکە لێیدا.",
+            onPressedBritish: () => speakdives7("en-GB"),
+            onPressedAmerican: () => speakdives7("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٤. (کردار) دابەزین بە ستوونی لە حەوادا"),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "The seagulls soared then dived."),
-                    ExampleSentenceKurdish(
-                        text: "نەورەسەکان بەرزبوونەوە و دابەزین."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdives8("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdives8("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "The seagulls soared then dived.",
+            kurdishText: "نەورەسەکان بەرزبوونەوە و دابەزین.",
+            onPressedBritish: () => speakdives8("en-GB"),
+            onPressedAmerican: () => speakdives8("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "The plane dived down to attack."),
-                    ExampleSentenceKurdish(text: "فڕۆکەکە دابەزی بۆ ھێرشکردن."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdives9("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdives9("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "The plane dived down to attack.",
+            kurdishText: "فڕۆکەکە دابەزی بۆ ھێرشکردن.",
+            onPressedBritish: () => speakdives9("en-GB"),
+            onPressedAmerican: () => speakdives9("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
                   "٥. (کردار) بازدان یان جوڵان بە ئاراستەیەکی دیاریکراو، بەتایبەتی بۆ دووربوون لە شتێک، ھەوڵدانی گرتنی تۆپێک، ھتد"),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "We heard an explosion and dived for cover (= got into a place where we would be protected)."),
-                    ExampleSentenceKurdish(
-                        text: "تەقینەوەیەکمان بیست و خۆمان داخست بۆ پاراستن."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdives10("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdives10("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "We heard an explosion and dived for cover (= got into a place where we would be protected).",
+            kurdishText: "تەقینەوەیەکمان بیست و خۆمان داخست بۆ پاراستن.",
+            onPressedBritish: () => speakdives10("en-GB"),
+            onPressedAmerican: () => speakdives10("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "The goalie dived for the ball, but missed it."),
-                    ExampleSentenceKurdish(
-                        text: "گۆڵپارێزەکە خۆی بۆ تۆپەکە ھەڵدا بەڵام نەیگرت."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdives11("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdives11("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "The goalie dived for the ball, but missed it.",
+            kurdishText: "گۆڵپارێزەکە خۆی بۆ تۆپەکە ھەڵدا بەڵام نەیگرت.",
+            onPressedBritish: () => speakdives11("en-GB"),
+            onPressedAmerican: () => speakdives11("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "It started to rain so we dived into the nearest cafe."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "دەستی بە باران کرد بۆیە چووین بۆ نزیکترین قاوەخانە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdives12("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdives12("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "It started to rain so we dived into the nearest cafe.",
+            kurdishText: "دەستی بە باران کرد بۆیە چووین بۆ نزیکترین قاوەخانە.",
+            onPressedBritish: () => speakdives12("en-GB"),
+            onPressedAmerican: () => speakdives12("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٦. (کردار) بازدانە ناو ئاو بەوەی سەر و دەستت سەرەتا بچێت"),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(text: "He did a dive off a cliff."),
-                    ExampleSentenceKurdish(text: "لە قەدپاڵێکەوە خۆی ھەڵدا."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdives13("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdives13("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "He did a dive off a cliff.",
+            kurdishText: "لە قەدپاڵێکەوە خۆی ھەڵدا.",
+            onPressedBritish: () => speakdives13("en-GB"),
+            onPressedAmerican: () => speakdives13("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٧. (کردار) چوونە ژێرئاو و مەلەکردن بە کەرەستەی تایبەت"),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "We did a deep dive to see if we could find the wreckage."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "مەلەکردنێکی قووڵمان ئەنجامدا تاوەکە بزانین کە پاشماوەکە دەدۆزینەوە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdives14("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdives14("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "We did a deep dive to see if we could find the wreckage.",
+            kurdishText:
+                "مەلەکردنێکی قووڵمان ئەنجامدا تاوەکە بزانین کە پاشماوەکە دەدۆزینەوە.",
+            onPressedBritish: () => speakdives14("en-GB"),
+            onPressedAmerican: () => speakdives14("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٨. (کردار) لەناکاو مەلەکردن بۆ خوارەوە"),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "The plane went into a steep dive."),
-                    ExampleSentenceKurdish(
-                        text: "فڕۆکەکە کەوتە دابەزینێکی لێژەوە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdives15("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdives15("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "The plane went into a steep dive.",
+            kurdishText: "فڕۆکەکە کەوتە دابەزینێکی لێژەوە.",
+            onPressedBritish: () => speakdives15("en-GB"),
+            onPressedAmerican: () => speakdives15("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The pilot seemed to be having difficulty in pulling out of the dive."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "فڕۆکەوانەکە وادیاربوو کە کێشەی ھەبێت لە ڕێگری لە کەوتنەکە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdives16("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdives16("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "The pilot seemed to be having difficulty in pulling out of the dive.",
+            kurdishText:
+                "فڕۆکەوانەکە وادیاربوو کە کێشەی ھەبێت لە ڕێگری لە کەوتنەکە.",
+            onPressedBritish: () => speakdives16("en-GB"),
+            onPressedAmerican: () => speakdives16("en-US"),
           ),
           // dives1700"),
           // speakdives17

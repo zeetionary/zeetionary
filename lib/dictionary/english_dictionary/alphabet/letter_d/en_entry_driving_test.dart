@@ -365,32 +365,13 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "١. (ناو) تاقیکردنەوەیەک کە دەبێت تێیپەڕێنیت بۆ ئەوەی مۆڵەتی شۆفێری وەربگریت"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The driving test includes a written and a practical part."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "تاقیکردنەوەی شۆفێری بەشێکی نووسراو و یەکێکی کردارەکی لەخۆدەگرێت."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "driving test", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdrivingtests1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdrivingtests1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "The driving test includes a written and a practical part.",
+            kurdishText:
+                "تاقیکردنەوەی شۆفێری بەشێکی نووسراو و یەکێکی کردارەکی لەخۆدەگرێت.", // driving test
+            onPressedBritish: () => speakdrivingtests1("en-GB"),
+            onPressedAmerican: () => speakdrivingtests1("en-US"),
           ),
           // drivingtests200"),
           // speakdrivingtests2

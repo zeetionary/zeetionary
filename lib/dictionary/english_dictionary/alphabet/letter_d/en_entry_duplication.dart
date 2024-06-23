@@ -372,64 +372,26 @@ class KurdishMeaning extends StatelessWidget {
 کوردی: کۆپی، ڕوونووس، لەبەرھەڵگرتنەوە، لەبەرنووسینەوە،	دووبارەکردنەوە، دووپات‌کردنەوە (ناپێویست)،	دووبەرامبەرکردن، دووچەندانەکردن
 """),
           const DefinitionKurdish(text: """١. (ناو) لەبەرگرتنەوە"""),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            """Duplication of certain chromosomes can lead to abnormalities."""),
-                    ExampleSentenceKurdish(
-                        text:
-                            """لەبەرگرنەوەی ژمارەیەک کرۆمۆسۆمی دیاریکراو دەکرێت ببێتە ھۆکاری ڕیزپەڕێتی."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "duplication", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakduplications1("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakduplications1("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                """Duplication of certain chromosomes can lead to abnormalities.""",
+            kurdishText:
+                """لەبەرگرنەوەی ژمارەیەک کرۆمۆسۆمی دیاریکراو دەکرێت ببێتە ھۆکاری ڕیزپەڕێتی.""", // duplication
+            onPressedBritish: () => speakduplications1("en-GB"),
+            onPressedAmerican: () => speakduplications1("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
                   """٢. (ناو) کردنی شتێک دووبارە، بەتایبەتی کە پێویست نییە"""),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            """Organize teams to tackle complex problems and avoid duplication."""),
-                    ExampleSentenceKurdish(
-                        text:
-                            """تیمەکان ھەڵبژێرە بۆ مامەڵە لەگەڵ کێشە ئاڵۆزەکان و دووربوون لە دووبارەکردنەوە."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakduplications2("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakduplications2("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                """Organize teams to tackle complex problems and avoid duplication.""",
+            kurdishText:
+                """تیمەکان ھەڵبژێرە بۆ مامەڵە لەگەڵ کێشە ئاڵۆزەکان و دووربوون لە دووبارەکردنەوە.""",
+            onPressedBritish: () => speakduplications2("en-GB"),
+            onPressedAmerican: () => speakduplications2("en-US"),
           ),
           // duplications300
           // speakduplications3

@@ -259,115 +259,40 @@ class KurdishMeaning extends StatelessWidget {
 """),
           const DefinitionKurdish(
               text: "١. (ھاوەڵناو) ھەوڵدانی زۆر بۆ شتێک چونکە زۆر گرنگە بۆت"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "She is dedicated to her job."),
-                    ExampleSentenceKurdish(text: "بە پەرۆشە بۆ کارەکەی."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "dedicated", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdedicateds1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdedicateds1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "She is dedicated to her job.",
+            kurdishText: "بە پەرۆشە بۆ کارەکەی.", // dedicated
+            onPressedBritish: () => speakdedicateds1("en-GB"),
+            onPressedAmerican: () => speakdedicateds1("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The charity is dedicated to serving young people with special needs."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "ڕێکخراوە خێرخوازییەکە تەرخانکراوە بۆ خزمەتی ئەو کەسە گەنجانەی پێداویستی تایبەتیان ھەیە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdedicateds2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdedicateds2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "The charity is dedicated to serving young people with special needs.",
+            kurdishText:
+                "ڕێکخراوە خێرخوازییەکە تەرخانکراوە بۆ خزمەتی ئەو کەسە گەنجانەی پێداویستی تایبەتیان ھەیە.",
+            onPressedBritish: () => speakdedicateds2("en-GB"),
+            onPressedAmerican: () => speakdedicateds2("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The movement obviously still has its dedicated followers."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "بزووتنەوەکە بە ئاشکرایی ھێشتا شوێنکەوتووی خۆبەستەی خۆی ھەیە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdedicateds3("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdedicateds3("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "The movement obviously still has its dedicated followers.",
+            kurdishText:
+                "بزووتنەوەکە بە ئاشکرایی ھێشتا شوێنکەوتووی خۆبەستەی خۆی ھەیە.",
+            onPressedBritish: () => speakdedicateds3("en-GB"),
+            onPressedAmerican: () => speakdedicateds3("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٢. (ھاوەڵناو) کە تەنھا بۆ یەک جۆرە بەکاردێت"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "Software is exported through a dedicated satellite link."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "نەرمامێر ھەناردە دەکرێت لە ڕێگەی سەتەلایتێکی پێکەوەبەستی تەرخانکراو."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdedicateds4("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdedicateds4("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "Software is exported through a dedicated satellite link.",
+            kurdishText:
+                "نەرمامێر ھەناردە دەکرێت لە ڕێگەی سەتەلایتێکی پێکەوەبەستی تەرخانکراو.",
+            onPressedBritish: () => speakdedicateds4("en-GB"),
+            onPressedAmerican: () => speakdedicateds4("en-US"),
           ),
         ],
       ),

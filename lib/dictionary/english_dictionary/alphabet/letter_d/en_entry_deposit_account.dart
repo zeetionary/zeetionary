@@ -235,31 +235,12 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "١. (ناو) بانکێک کە سوو دەبەخشێت لەو پارەی تێیدەخرێت و زۆرجار پارەی بۆ ماوەیەکی زۆر تێدا دەھێڵیتەوە"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "He opened a deposit account to save money."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "ھەژمارێکی خەواندنی کردەوە بۆ پاشەکەوتکردنی پارە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "deposit account", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdepositaccounts1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdepositaccounts1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "He opened a deposit account to save money.",
+            kurdishText:
+                "ھەژمارێکی خەواندنی کردەوە بۆ پاشەکەوتکردنی پارە.", // deposit account
+            onPressedBritish: () => speakdepositaccounts1("en-GB"),
+            onPressedAmerican: () => speakdepositaccounts1("en-US"),
           ),
           // depositaccounts200"),
           // speakdepositaccounts2

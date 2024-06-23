@@ -240,58 +240,20 @@ class KurdishMeaning extends StatelessWidget {
 // کوردی: قەرزار، وام‌دار
 // """),
           const DefinitionKurdish(text: "١. (ناو) کەسێک کە قەرزارە"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "The debtor struggled to repay the loan."),
-                    ExampleSentenceKurdish(
-                        text: "قەرزدارەکە تەقەڵای بوو لە دانەوەی قەرزەکە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "debtor", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdebtors1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdebtors1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "The debtor struggled to repay the loan.",
+            kurdishText: "قەرزدارەکە تەقەڵای بوو لە دانەوەی قەرزەکە.", // debtor
+            onPressedBritish: () => speakdebtors1("en-GB"),
+            onPressedAmerican: () => speakdebtors1("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The debtor agreed to a repayment plan with the creditor."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "قەرزدارەکە ڕازی بوو بە پلانی دانەوەکە لەگەڵ خاوەن قەرزەکە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdebtors2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdebtors2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "The debtor agreed to a repayment plan with the creditor.",
+            kurdishText:
+                "قەرزدارەکە ڕازی بوو بە پلانی دانەوەکە لەگەڵ خاوەن قەرزەکە.",
+            onPressedBritish: () => speakdebtors2("en-GB"),
+            onPressedAmerican: () => speakdebtors2("en-US"),
           ),
         ],
       ),

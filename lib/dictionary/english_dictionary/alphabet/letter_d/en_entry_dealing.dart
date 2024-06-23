@@ -258,116 +258,41 @@ class KurdishMeaning extends StatelessWidget {
 کوردی: سەودا، مامەلە، ئاڵ‌ووێڵ، ئاڵ‌ووێر، چالاکی کارداری یان بازرگانی
 """),
           const DefinitionKurdish(text: "١. (ناو) چالاکی بازرگانی"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "I knew nothing of his business dealings."),
-                    ExampleSentenceKurdish(
-                        text: "ھیچم لەسەر چالاکییە بازرگانییەکانی نەدەزانی."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "dealing", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdealings1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdealings1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "I knew nothing of his business dealings.",
+            kurdishText:
+                "ھیچم لەسەر چالاکییە بازرگانییەکانی نەدەزانی.", // dealing
+            onPressedBritish: () => speakdealings1("en-GB"),
+            onPressedAmerican: () => speakdealings1("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "Have you had any previous dealings with this company?"),
-                    ExampleSentenceKurdish(
-                        text:
-                            "ھیچ پەیوەندییەکی پێشووترت لەگەڵ ئەم کۆمپانیایە ھەبووە؟"),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdealings2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdealings2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "Have you had any previous dealings with this company?",
+            kurdishText:
+                "ھیچ پەیوەندییەکی پێشووترت لەگەڵ ئەم کۆمپانیایە ھەبووە؟",
+            onPressedBritish: () => speakdealings2("en-GB"),
+            onPressedAmerican: () => speakdealings2("en-US"),
           ),
           // const DividerDefinition(),
           const DefinitionKurdish(text: "٢. (ناو) شێوازی مامەڵە لەگەڵ کەسێک"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The company built its success on a foundation of honest dealing with its customers."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "کۆمپانیاکە سەرکەوتنی بنیادناوە لەسەر بناغەی ڕاستگۆیی مامەڵەکردن لەگەڵ موشتەرییەکانی"),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdealings3("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdealings3("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "The company built its success on a foundation of honest dealing with its customers.",
+            kurdishText:
+                "کۆمپانیاکە سەرکەوتنی بنیادناوە لەسەر بناغەی ڕاستگۆیی مامەڵەکردن لەگەڵ موشتەرییەکانی",
+            onPressedBritish: () => speakdealings3("en-GB"),
+            onPressedAmerican: () => speakdealings3("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: "٣. (ناو) کڕین و فرۆشتن"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "Drug dealing is a serious crime that can result in heavy penalties."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "کڕین و فرۆشتنی مادەی ھۆشبەر تاوانێکی گەورەیە کە دەکرێت سزای توندی ھەبێت."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdealings4("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdealings4("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "Drug dealing is a serious crime that can result in heavy penalties.",
+            kurdishText:
+                "کڕین و فرۆشتنی مادەی ھۆشبەر تاوانێکی گەورەیە کە دەکرێت سزای توندی ھەبێت.",
+            onPressedBritish: () => speakdealings4("en-GB"),
+            onPressedAmerican: () => speakdealings4("en-US"),
           ),
         ],
       ),

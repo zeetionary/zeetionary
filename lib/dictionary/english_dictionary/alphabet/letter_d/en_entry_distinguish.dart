@@ -452,313 +452,99 @@ class KurdishMeaning extends StatelessWidget {
 // کوردی:
 // """),
           const DefinitionKurdish(text: "١. (کردار) جیاوازیکردنی نێوان دوو شت"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "At what age are children able to distinguish between right and wrong?"),
-                    ExampleSentenceKurdish(
-                        text:
-                            "لە چی تەمەنێکدا منداڵان فێردەبن جیاوازی لە نێوان ڕاست و ھەڵەدا بکەن؟"),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "distinguish", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdistinguishs1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdistinguishs1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "At what age are children able to distinguish between right and wrong?",
+            kurdishText:
+                "لە چی تەمەنێکدا منداڵان فێردەبن جیاوازی لە نێوان ڕاست و ھەڵەدا بکەن؟", // distinguish
+            onPressedBritish: () => speakdistinguishs1("en-GB"),
+            onPressedAmerican: () => speakdistinguishs1("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "It was hard to distinguish one twin from the other."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "سەخت بوو یەکێک لە دووانەکە لەوی دیکە جیابکرێتەوە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdistinguishs2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdistinguishs2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "It was hard to distinguish one twin from the other.",
+            kurdishText: "سەخت بوو یەکێک لە دووانەکە لەوی دیکە جیابکرێتەوە.",
+            onPressedBritish: () => speakdistinguishs2("en-GB"),
+            onPressedAmerican: () => speakdistinguishs2("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "Sometimes reality and fantasy are hard to distinguish."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "ھەندێک جار ڕاستی و خەیاڵ سەختە لە یەکدی جیابکرێنەوە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdistinguishs3("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdistinguishs3("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "Sometimes reality and fantasy are hard to distinguish.",
+            kurdishText: "ھەندێک جار ڕاستی و خەیاڵ سەختە لە یەکدی جیابکرێنەوە.",
+            onPressedBritish: () => speakdistinguishs3("en-GB"),
+            onPressedAmerican: () => speakdistinguishs3("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "We can distinguish five meanings of the word ‘mad’."),
-                    ExampleSentenceKurdish(
-                        text: "دەتوانین پێنج واتای وشەی 'mad' بناسێنین."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdistinguishs4("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdistinguishs4("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "We can distinguish five meanings of the word ‘mad’.",
+            kurdishText: "دەتوانین پێنج واتای وشەی 'mad' بناسێنین.",
+            onPressedBritish: () => speakdistinguishs4("en-GB"),
+            onPressedAmerican: () => speakdistinguishs4("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "Troops cannot always reliably distinguish between combatants and civilians."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "ھێزی چەکدار ناتوانن ھەمیشە جیاوازی لە نێوان چەکدار و خەڵکی مەدەنی بکەن."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdistinguishs5("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdistinguishs5("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "Troops cannot always reliably distinguish between combatants and civilians.",
+            kurdishText:
+                "ھێزی چەکدار ناتوانن ھەمیشە جیاوازی لە نێوان چەکدار و خەڵکی مەدەنی بکەن.",
+            onPressedBritish: () => speakdistinguishs5("en-GB"),
+            onPressedAmerican: () => speakdistinguishs5("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: "٢. (کردار) بوون بە خاڵی جیاکەرەوە"),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "What was it that distinguished her from her classmates?"),
-                    ExampleSentenceKurdish(
-                        text: "چی بوو کە ئەوەی لە ھاوپۆلەکانی جیادەکردەوە؟"),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdistinguishs6("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdistinguishs6("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "What was it that distinguished her from her classmates?",
+            kurdishText: "چی بوو کە ئەوەی لە ھاوپۆلەکانی جیادەکردەوە؟",
+            onPressedBritish: () => speakdistinguishs6("en-GB"),
+            onPressedAmerican: () => speakdistinguishs6("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The male bird is distinguished from the female by its red beak."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "باڵندە نێرینەکە لە مێینەکە جیادەکرێتەوە بە دەنووکە سوورەکەی."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdistinguishs7("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdistinguishs7("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "The male bird is distinguished from the female by its red beak.",
+            kurdishText:
+                "باڵندە نێرینەکە لە مێینەکە جیادەکرێتەوە بە دەنووکە سوورەکەی.",
+            onPressedBritish: () => speakdistinguishs7("en-GB"),
+            onPressedAmerican: () => speakdistinguishs7("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "Does your cat have any distinguishing marks?"),
-                    ExampleSentenceKurdish(
-                        text: "پشیلەکەت ھیچ خاڵی جیاکەرەوەی ھەیە؟"),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdistinguishs8("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdistinguishs8("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "Does your cat have any distinguishing marks?",
+            kurdishText: "پشیلەکەت ھیچ خاڵی جیاکەرەوەی ھەیە؟",
+            onPressedBritish: () => speakdistinguishs8("en-GB"),
+            onPressedAmerican: () => speakdistinguishs8("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The power of speech distinguishes human beings from animals."),
-                    ExampleSentenceKurdish(
-                        text: "توانای قسەکردن مرۆڤ لە ئاژەڵ جیادەکاتەوە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdistinguishs9("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdistinguishs9("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "The power of speech distinguishes human beings from animals.",
+            kurdishText: "توانای قسەکردن مرۆڤ لە ئاژەڵ جیادەکاتەوە.",
+            onPressedBritish: () => speakdistinguishs9("en-GB"),
+            onPressedAmerican: () => speakdistinguishs9("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٣. (کردار) توانینی ئەوەی شتێک ببینیت یان گوێت لێی بێت"),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "I could not distinguish her words, but she sounded agitated."),
-                    ExampleSentenceKurdish(
-                        text: "گوێم لە قسەکانی نەدەبوو، بەڵام تووڕە دیاربوو."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdistinguishs10("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdistinguishs10("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "I could not distinguish her words, but she sounded agitated.",
+            kurdishText: "گوێم لە قسەکانی نەدەبوو، بەڵام تووڕە دیاربوو.",
+            onPressedBritish: () => speakdistinguishs10("en-GB"),
+            onPressedAmerican: () => speakdistinguishs10("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٤. (کردار) کردنی شتێک زۆر بە باشی کە خەڵکی سەرسامت دەبن"),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "She has already distinguished herself as an athlete."),
-                    ExampleSentenceKurdish(
-                        text: "پێشوەختە خۆی وەک وەرزشوانێک دیاری کردووە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdistinguishs11("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdistinguishs11("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "She has already distinguished herself as an athlete.",
+            kurdishText: "پێشوەختە خۆی وەک وەرزشوانێک دیاری کردووە.",
+            onPressedBritish: () => speakdistinguishs11("en-GB"),
+            onPressedAmerican: () => speakdistinguishs11("en-US"),
           ),
           // distinguishs1200"),
           // speakdistinguishs12

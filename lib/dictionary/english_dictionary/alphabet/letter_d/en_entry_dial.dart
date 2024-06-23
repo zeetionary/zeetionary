@@ -274,172 +274,57 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "١. (ناو) پێوەرێک کە پلەی گەرمی، خێرایی، کات، بڕ، ھتد دەخوێنێتەوە"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "Check the tyre pressure on the dial."),
-                    ExampleSentenceKurdish(
-                        text: "لەسەر پێوەرەکە ھەوای تایەکە بپشکنە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "dial", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdials1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdials1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "Check the tyre pressure on the dial.",
+            kurdishText: "لەسەر پێوەرەکە ھەوای تایەکە بپشکنە.", // dial
+            onPressedBritish: () => speakdials1("en-GB"),
+            onPressedAmerican: () => speakdials1("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "You can tune into our station at 1460 on the radio dial."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "دەتوانیت گوێ لە وێستگەکەمان بگریت لە ١٤٦٠ لەسەر ڕادیۆگرەکە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdials2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdials2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "You can tune into our station at 1460 on the radio dial.",
+            kurdishText:
+                "دەتوانیت گوێ لە وێستگەکەمان بگریت لە ١٤٦٠ لەسەر ڕادیۆگرەکە.",
+            onPressedBritish: () => speakdials2("en-GB"),
+            onPressedAmerican: () => speakdials2("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "Can you read what it says on the dial?"),
-                    ExampleSentenceKurdish(
-                        text:
-                            "دەتوانیت تێ بگەیت لەوەی لەسەر خوێنەرەوەکە نووسراوە؟"),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdials3("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdials3("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "Can you read what it says on the dial?",
+            kurdishText: "دەتوانیت تێ بگەیت لەوەی لەسەر خوێنەرەوەکە نووسراوە؟",
+            onPressedBritish: () => speakdials3("en-GB"),
+            onPressedAmerican: () => speakdials3("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
                   "٢. (ناو) بەشی خڕی تەلەفۆنی کۆن کە سوڕ دەدرێت بۆ پەیوەندی کردن بە ژمارەیەکی دیاریکراوەوە"),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "He turned the dial carefully to avoid mistakes."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "بە وریایی ژمارەگری تەلەفۆنەکەی سوڕاند بۆ ئەوەی ھەڵە نەکات."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdials4("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdials4("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "He turned the dial carefully to avoid mistakes.",
+            kurdishText:
+                "بە وریایی ژمارەگری تەلەفۆنەکەی سوڕاند بۆ ئەوەی ھەڵە نەکات.",
+            onPressedBritish: () => speakdials4("en-GB"),
+            onPressedAmerican: () => speakdials4("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
                   "٣. (کردار) بەکارھێنانی موبایلێک یان ژمارەگری تەلەفۆنێک بۆ پەیوەندی کردن"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "He dialled the number and waited."),
-                    ExampleSentenceKurdish(
-                        text: "پەیوەندی بە ژمارەکەوە کرد و وەستا."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdials5("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdials5("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "He dialled the number and waited.",
+            kurdishText: "پەیوەندی بە ژمارەکەوە کرد و وەستا.",
+            onPressedBritish: () => speakdials5("en-GB"),
+            onPressedAmerican: () => speakdials5("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(text: "Dial 0033 for France."),
-                    ExampleSentenceKurdish(
-                        text: "پەیوەندی بە ٠٠٣٣ بکە بۆ فەرەنسا."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdials6("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdials6("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "Dial 0033 for France.",
+            kurdishText: "پەیوەندی بە ٠٠٣٣ بکە بۆ فەرەنسا.",
+            onPressedBritish: () => speakdials6("en-GB"),
+            onPressedAmerican: () => speakdials6("en-US"),
           ),
           // dials700"),
           // speakdials7

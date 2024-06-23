@@ -371,58 +371,20 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   """١. (ھاوەڵناو) زۆر دڵخۆش و بەجۆش بەھۆی ئەوەی کە شتێکی باش روویداوە"""),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: """They were elated at the result."""),
-                    ExampleSentenceKurdish(
-                        text: """دڵخۆش بوون بە ئەنجامەکە."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "elated", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakelateds1("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakelateds1("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: """They were elated at the result.""",
+            kurdishText: """دڵخۆش بوون بە ئەنجامەکە.""", // elated
+            onPressedBritish: () => speakelateds1("en-GB"),
+            onPressedAmerican: () => speakelateds1("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: """I was elated with the thrill of success."""),
-                    ExampleSentenceKurdish(
-                        text: """شاگەشکە بووم لە خۆشی سەرکەوتندا."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakelateds2("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakelateds2("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: """I was elated with the thrill of success.""",
+            kurdishText: """شاگەشکە بووم لە خۆشی سەرکەوتندا.""",
+            onPressedBritish: () => speakelateds2("en-GB"),
+            onPressedAmerican: () => speakelateds2("en-US"),
           ),
           // elateds300elateds3
           // speakelateds3

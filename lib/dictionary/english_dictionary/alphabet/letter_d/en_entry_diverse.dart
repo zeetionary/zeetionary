@@ -379,87 +379,31 @@ class KurdishMeaning extends StatelessWidget {
 """),
           const DefinitionKurdish(
               text: "١. (ھاوەڵناو) زۆر جیاواز لە یەکدی و جۆر جیاواز بن"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "My interests are very diverse."),
-                    ExampleSentenceKurdish(text: "حەزەکانم زۆر ھەمەچەشنن."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "diverse", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdiverses1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdiverses1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "My interests are very diverse.",
+            kurdishText: "حەزەکانم زۆر ھەمەچەشنن.", // diverse
+            onPressedBritish: () => speakdiverses1("en-GB"),
+            onPressedAmerican: () => speakdiverses1("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "People from diverse cultures were invited to the event."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "خەڵکی لە کەلتووری ھەمەچەشنەوە بانگھێشتی ئاھەنگەکە کران."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdiverses2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdiverses2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "People from diverse cultures were invited to the event.",
+            kurdishText:
+                "خەڵکی لە کەلتووری ھەمەچەشنەوە بانگھێشتی ئاھەنگەکە کران.",
+            onPressedBritish: () => speakdiverses2("en-GB"),
+            onPressedAmerican: () => speakdiverses2("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "The US is a vast and diverse country."),
-                    ExampleSentenceKurdish(
-                        text: "ئەمریکا وڵاتێکی گەورە و ھەمەچەشنە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdiverses3("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdiverses3("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "The US is a vast and diverse country.",
+            kurdishText: "ئەمریکا وڵاتێکی گەورە و ھەمەچەشنە.",
+            onPressedBritish: () => speakdiverses3("en-GB"),
+            onPressedAmerican: () => speakdiverses3("en-US"),
           ),
           // diverses400"),
           // speakdiverses4

@@ -394,148 +394,51 @@ class KurdishMeaning extends StatelessWidget {
 کوردی: جیڕ، جیراسا، کەژئاسا، کەژی، کێشی دێ، ئێلاستیک، نەرم، جۆر، لەگۆڕان‌ھاتوو، بگۆڕ
 """),
           const DefinitionKurdish(text: """١. (ناو) مادەی لاستیک"""),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            """This skirt needs some new elastic in the waist."""),
-                    ExampleSentenceKurdish(
-                        text:
-                            """تەنوورەکەدا لە کەمەردا پێویستیی بە ھەندێک لە لاستیک ھەیە."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "elastic", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakelastics1("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakelastics1("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: """This skirt needs some new elastic in the waist.""",
+            kurdishText:
+                """تەنوورەکەدا لە کەمەردا پێویستیی بە ھەندێک لە لاستیک ھەیە.""", // elastic
+            onPressedBritish: () => speakelastics1("en-GB"),
+            onPressedAmerican: () => speakelastics1("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: """The elastic in these socks has gone."""),
-                    ExampleSentenceKurdish(
-                        text: """لاستیکی ئەم گۆرەوییانە نەماوە."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakelastics2("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakelastics2("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: """The elastic in these socks has gone.""",
+            kurdishText: """لاستیکی ئەم گۆرەوییانە نەماوە.""",
+            onPressedBritish: () => speakelastics2("en-GB"),
+            onPressedAmerican: () => speakelastics2("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
                   """٢. (ھاوەڵناو) کە لە لاستیک درووستکراوە؛ کە دەکرێت کێشی بێت"""),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            """A lot of sportswear is made of very elastic material."""),
-                    ExampleSentenceKurdish(
-                        text:
-                            """زۆر جلی وەرزشی لە مادەی لاستیکی درووستکراون."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakelastics3("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakelastics3("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                """A lot of sportswear is made of very elastic material.""",
+            kurdishText: """زۆر جلی وەرزشی لە مادەی لاستیکی درووستکراون.""",
+            onPressedBritish: () => speakelastics3("en-GB"),
+            onPressedAmerican: () => speakelastics3("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: """٣. (ھاوەڵناو) کە دەکرێت بگۆڕدرێت"""),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: """The demand for the product is elastic."""),
-                    ExampleSentenceKurdish(
-                        text: """ئەڵماسی بەرھەمەکە بگۆڕە."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakelastics4("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakelastics4("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: """The demand for the product is elastic.""",
+            kurdishText: """ئەڵماسی بەرھەمەکە بگۆڕە.""",
+            onPressedBritish: () => speakelastics4("en-GB"),
+            onPressedAmerican: () => speakelastics4("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: """Our plans are fairly elastic."""),
-                    ExampleSentenceKurdish(
-                        text: """پلانەکانمان کەمێک لەگۆڕان‌ھاتوون."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakelastics5("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakelastics5("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: """Our plans are fairly elastic.""",
+            kurdishText: """پلانەکانمان کەمێک لەگۆڕان‌ھاتوون.""",
+            onPressedBritish: () => speakelastics5("en-GB"),
+            onPressedAmerican: () => speakelastics5("en-US"),
           ),
           // elastics600elastics6
           // speakelastics6

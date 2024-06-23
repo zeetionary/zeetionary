@@ -232,30 +232,11 @@ class KurdishMeaning extends StatelessWidget {
 // """),
           const DefinitionKurdish(
               text: "١. (ھاوەڵناو) کوالێتییەکی باش وەک لە ئاسایی"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "The deluxe edition is bound in leather."),
-                    ExampleSentenceKurdish(
-                        text: "چاپە تایبەتەکە لە چەرم نراوە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "deluxe", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdeluxes1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdeluxes1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "The deluxe edition is bound in leather.",
+            kurdishText: "چاپە تایبەتەکە لە چەرم نراوە.", // deluxe
+            onPressedBritish: () => speakdeluxes1("en-GB"),
+            onPressedAmerican: () => speakdeluxes1("en-US"),
           ),
           // deluxes200"),
           // speakdeluxes2

@@ -362,30 +362,11 @@ class KurdishMeaning extends StatelessWidget {
 """),
           const DefinitionKurdish(
               text: """١. (ناو) ئۆتۆمبێلێک کە زباڵە کۆدەکاتەوە"""),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: """The dustcart arrived early in the morning."""),
-                    ExampleSentenceKurdish(
-                        text: """زبڵکێشەکە بەیانی زوو ھات."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "dustcart", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdustcarts1("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdustcarts1("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: """The dustcart arrived early in the morning.""",
+            kurdishText: """زبڵکێشەکە بەیانی زوو ھات.""", // dustcart
+            onPressedBritish: () => speakdustcarts1("en-GB"),
+            onPressedAmerican: () => speakdustcarts1("en-US"),
           ),
           // dustcarts200
           // speakdustcarts2

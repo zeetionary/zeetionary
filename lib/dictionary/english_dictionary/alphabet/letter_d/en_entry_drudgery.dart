@@ -361,30 +361,11 @@ class KurdishMeaning extends StatelessWidget {
 کوردی: کوڵەمەرگی، چنگەکڕێ، کوێرەوەری، کاری گیان‌کێش، ڕەن(ج)کێشی، زەحمەت‌کێشی
 """),
           const DefinitionKurdish(text: "١. (ناو) کاری زەحمەت و ناخۆش"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "Cleaning the oven is sheer drudgery."),
-                    ExampleSentenceKurdish(
-                        text: "پاککردنەوەی فڕنەکە زەحمەتکێشی تەواوە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "drudgery", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdrudgerys1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdrudgerys1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "Cleaning the oven is sheer drudgery.",
+            kurdishText: "پاککردنەوەی فڕنەکە زەحمەتکێشی تەواوە.", // drudgery
+            onPressedBritish: () => speakdrudgerys1("en-GB"),
+            onPressedAmerican: () => speakdrudgerys1("en-US"),
           ),
           // drudgerys200"),
           // speakdrudgerys2

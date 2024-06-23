@@ -265,139 +265,45 @@ class KurdishMeaning extends StatelessWidget {
 کوردی: کچ، دۆت، کەنیشک، کەنی،	(خوازە) ژن
 """),
           const DefinitionKurdish(text: "١. (ناو) منداڵێکی کچ"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "We have two sons and a daughter."),
-                    ExampleSentenceKurdish(text: "دوو کوڕ و کچێکمان ھەیە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "daughter", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdaughters1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdaughters1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "We have two sons and a daughter.",
+            kurdishText: "دوو کوڕ و کچێکمان ھەیە.", // daughter
+            onPressedBritish: () => speakdaughters1("en-GB"),
+            onPressedAmerican: () => speakdaughters1("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "They have three grown-up daughters."),
-                    ExampleSentenceKurdish(text: "سێ کچی پێگوشتوویان ھەیە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdaughters2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdaughters2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "They have three grown-up daughters.",
+            kurdishText: "سێ کچی پێگوشتوویان ھەیە.",
+            onPressedBritish: () => speakdaughters2("en-GB"),
+            onPressedAmerican: () => speakdaughters2("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "She's the eldest daughter of an Oxford professor."),
-                    ExampleSentenceKurdish(
-                        text: "بە تەمەنترین کچی پڕۆفیسۆرێکی ئۆکسفۆردە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdaughters3("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdaughters3("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "She's the eldest daughter of an Oxford professor.",
+            kurdishText: "بە تەمەنترین کچی پڕۆفیسۆرێکی ئۆکسفۆردە.",
+            onPressedBritish: () => speakdaughters3("en-GB"),
+            onPressedAmerican: () => speakdaughters3("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "Living alone and trying to bring up a small daughter is no easy task."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "ژیانکردن بە تەنھا و گەورەکردنی کچێکی بچووک ئەرکێکی ئاسان نییە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdaughters4("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdaughters4("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "Living alone and trying to bring up a small daughter is no easy task.",
+            kurdishText:
+                "ژیانکردن بە تەنھا و گەورەکردنی کچێکی بچووک ئەرکێکی ئاسان نییە.",
+            onPressedBritish: () => speakdaughters4("en-GB"),
+            onPressedAmerican: () => speakdaughters4("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٢. (ناو) ژنی شوێن یان وڵاتێکی دیاریکراو"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "She was considered one of the town's most famous daughters for her achievements in science."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "بە یەکێک لە ھەرە بەناوبانگترین ژنەکانی شارۆچکەکە دادەنرا بۆ بەدەستھێنانەکانی لە زانستدا."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdaughters5("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdaughters5("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "She was considered one of the town's most famous daughters for her achievements in science.",
+            kurdishText:
+                "بە یەکێک لە ھەرە بەناوبانگترین ژنەکانی شارۆچکەکە دادەنرا بۆ بەدەستھێنانەکانی لە زانستدا.",
+            onPressedBritish: () => speakdaughters5("en-GB"),
+            onPressedAmerican: () => speakdaughters5("en-US"),
           ),
         ],
       ),

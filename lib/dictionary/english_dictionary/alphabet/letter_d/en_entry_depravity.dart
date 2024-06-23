@@ -232,31 +232,11 @@ class KurdishMeaning extends StatelessWidget {
 """),
           const DefinitionKurdish(
               text: "١. (ناو) بێئەخلاقی، یان کارێکی لەو شێوەیە"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "People were shocked by the criminal's depravity."),
-                    ExampleSentenceKurdish(
-                        text: "خەڵکی شۆک بوون بە خراپی تاوانکارەکە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "depravity", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdepravitys1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdepravitys1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "People were shocked by the criminal's depravity.",
+            kurdishText: "خەڵکی شۆک بوون بە خراپی تاوانکارەکە.", // depravity
+            onPressedBritish: () => speakdepravitys1("en-GB"),
+            onPressedAmerican: () => speakdepravitys1("en-US"),
           ),
           // depravitys200"),
           // speakdepravitys2

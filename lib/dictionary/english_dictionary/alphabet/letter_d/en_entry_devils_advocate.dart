@@ -236,32 +236,13 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "١. (ناو) کەسێک کە بۆچوونێک دەردەبڕێت کە باوەڕی پێی نییە بۆ دەستپێکردنی گفتوگۆ"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "I don't really believe all that - I was just playing devil's advocate."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "لە ڕاستیدا باوەڕم بە ھەموو ئەوە نییە ـ تەنھا ڕۆڵی شەیتانەکەی گرووپم دەگێڕا."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "devil's advocate", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdevilsadvocates1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdevilsadvocates1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "I don't really believe all that - I was just playing devil's advocate.",
+            kurdishText:
+                "لە ڕاستیدا باوەڕم بە ھەموو ئەوە نییە ـ تەنھا ڕۆڵی شەیتانەکەی گرووپم دەگێڕا.", // devil's advocate
+            onPressedBritish: () => speakdevilsadvocates1("en-GB"),
+            onPressedAmerican: () => speakdevilsadvocates1("en-US"),
           ),
           // devilsadvocates200"),
           // speakdevilsadvocates2

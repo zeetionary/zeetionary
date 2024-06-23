@@ -317,281 +317,94 @@ class KurdishMeaning extends StatelessWidget {
 """),
           const DefinitionKurdish(
               text: "١. (ھاوەڵناو) بەدڵنیایی؛ بەبێ ئەگەری گۆڕان"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "Can you give me a definite answer by tomorrow?"),
-                    ExampleSentenceKurdish(
-                        text:
-                            "دەتوانیت تاوەکو سبەی وەڵامێکی دڵنیایم پێ بدەیت؟"),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "definite", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdefinites1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdefinites1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "Can you give me a definite answer by tomorrow?",
+            kurdishText:
+                "دەتوانیت تاوەکو سبەی وەڵامێکی دڵنیایم پێ بدەیت؟", // definite
+            onPressedBritish: () => speakdefinites1("en-GB"),
+            onPressedAmerican: () => speakdefinites1("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "No definite conclusions can be drawn from this study."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "ھیچ دەرەنجامێکی تەواو ناکرێت لەم توێژینەوەوە درووست بکرێت."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdefinites2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdefinites2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "No definite conclusions can be drawn from this study.",
+            kurdishText:
+                "ھیچ دەرەنجامێکی تەواو ناکرێت لەم توێژینەوەوە درووست بکرێت.",
+            onPressedBritish: () => speakdefinites2("en-GB"),
+            onPressedAmerican: () => speakdefinites2("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "Is it definite that he's leaving?"),
-                    ExampleSentenceKurdish(text: "ئەوە یەکلایی بووە کە دەچێت؟"),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdefinites3("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdefinites3("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "Is it definite that he's leaving?",
+            kurdishText: "ئەوە یەکلایی بووە کە دەچێت؟",
+            onPressedBritish: () => speakdefinites3("en-GB"),
+            onPressedAmerican: () => speakdefinites3("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "I've heard rumours, but nothing definite."),
-                    ExampleSentenceKurdish(
-                        text: "دەنگۆم بیستووە، بەڵام ھیچی دڵنیایی نا."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdefinites4("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdefinites4("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "I've heard rumours, but nothing definite.",
+            kurdishText: "دەنگۆم بیستووە، بەڵام ھیچی دڵنیایی نا.",
+            onPressedBritish: () => speakdefinites4("en-GB"),
+            onPressedAmerican: () => speakdefinites4("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
                   "٢. (ھاوەڵناو) ئاشکرا؛ کە بە ئاسانی دەبینرێت یان تێگەشتنی بۆ دەکرێت"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "There was a definite improvement in the sound"),
-                    ExampleSentenceKurdish(
-                        text: "باشبوونێکی ئاشکرا ھەبوو لە دەنگەکەدا."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdefinites5("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdefinites5("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "There was a definite improvement in the sound",
+            kurdishText: "باشبوونێکی ئاشکرا ھەبوو لە دەنگەکەدا.",
+            onPressedBritish: () => speakdefinites5("en-GB"),
+            onPressedAmerican: () => speakdefinites5("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The look on her face was a definite sign that something was wrong."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "نیگای سەر ڕووخساری ئاماژەیەکی رون بوو کە شتێک ھەڵە بوو."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdefinites6("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdefinites6("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "The look on her face was a definite sign that something was wrong.",
+            kurdishText:
+                "نیگای سەر ڕووخساری ئاماژەیەکی رون بوو کە شتێک ھەڵە بوو.",
+            onPressedBritish: () => speakdefinites6("en-GB"),
+            onPressedAmerican: () => speakdefinites6("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "There was a definite feeling that things were getting worse."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "ئاماژەیەکی ئاشکرا ھەبوو کە شتەکان بەرەو خراپبوون دەچوون."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdefinites7("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdefinites7("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "There was a definite feeling that things were getting worse.",
+            kurdishText:
+                "ئاماژەیەکی ئاشکرا ھەبوو کە شتەکان بەرەو خراپبوون دەچوون.",
+            onPressedBritish: () => speakdefinites7("en-GB"),
+            onPressedAmerican: () => speakdefinites7("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
                   "٣. (ھاوەڵناو) دڵنیا لەوەی شتیک ڕوودەدات یان ئەوەی کە شتێک ڕاستە"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "He was pretty definite about the price."),
-                    ExampleSentenceKurdish(
-                        text: "تەواو دڵنیابوو سەبارەت بە نرخەکە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdefinites8("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdefinites8("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "He was pretty definite about the price.",
+            kurdishText: "تەواو دڵنیابوو سەبارەت بە نرخەکە.",
+            onPressedBritish: () => speakdefinites8("en-GB"),
+            onPressedAmerican: () => speakdefinites8("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "She was definite that they weren't coming till next week."),
-                    ExampleSentenceKurdish(
-                        text: "دڵنیابوو لەوەی تاوەکو ھەفتەی داھاتوو نایەن."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdefinites9("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdefinites9("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "She was definite that they weren't coming till next week.",
+            kurdishText: "دڵنیابوو لەوەی تاوەکو ھەفتەی داھاتوو نایەن.",
+            onPressedBritish: () => speakdefinites9("en-GB"),
+            onPressedAmerican: () => speakdefinites9("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(text: "I'm definite about this."),
-                    ExampleSentenceKurdish(text: "دڵنیام سەبارەت بەمە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdefinites10("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdefinites10("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "I'm definite about this.",
+            kurdishText: "دڵنیام سەبارەت بەمە.",
+            onPressedBritish: () => speakdefinites10("en-GB"),
+            onPressedAmerican: () => speakdefinites10("en-US"),
           ),
           // definites1100"),
           // speakdefinites11

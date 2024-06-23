@@ -275,150 +275,55 @@ class KurdishMeaning extends StatelessWidget {
 """),
           const DefinitionKurdish(
               text: "١. (ناو) چارەنووس؛ ئەوەی بەسەر کەسێکدا دێت لە داھاتوودا"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The destinies of five nations were decided at the peace conference."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "چارەنووسی پێنج وڵات لە کۆنفرانسەکەی ئاشتی دیاری دەکران."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "destiny", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdestinys1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdestinys1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "The destinies of five nations were decided at the peace conference.",
+            kurdishText:
+                "چارەنووسی پێنج وڵات لە کۆنفرانسەکەی ئاشتی دیاری دەکران.", // destiny
+            onPressedBritish: () => speakdestinys1("en-GB"),
+            onPressedAmerican: () => speakdestinys1("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "He wants to be in control of his own destiny."),
-                    ExampleSentenceKurdish(
-                        text: "دەیەوێت لە کۆنترۆڵی چارەنووسی خۆیدا بێت."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdestinys2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdestinys2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "He wants to be in control of his own destiny.",
+            kurdishText: "دەیەوێت لە کۆنترۆڵی چارەنووسی خۆیدا بێت.",
+            onPressedBritish: () => speakdestinys2("en-GB"),
+            onPressedAmerican: () => speakdestinys2("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "He came to Paris and found his true destiny as a poet."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "ھات بۆ پاریس و چارەنووسی ڕاستی خۆی وەک ھەڵبەستوانێک دۆزییەوە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdestinys3("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdestinys3("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "He came to Paris and found his true destiny as a poet.",
+            kurdishText:
+                "ھات بۆ پاریس و چارەنووسی ڕاستی خۆی وەک ھەڵبەستوانێک دۆزییەوە.",
+            onPressedBritish: () => speakdestinys3("en-GB"),
+            onPressedAmerican: () => speakdestinys3("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "No man can escape his destiny."),
-                    ExampleSentenceKurdish(
-                        text: "ھیچ کەس ناتوانێت لە چارەنووسی ھەڵبێت."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdestinys4("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdestinys4("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "No man can escape his destiny.",
+            kurdishText: "ھیچ کەس ناتوانێت لە چارەنووسی ھەڵبێت.",
+            onPressedBritish: () => speakdestinys4("en-GB"),
+            onPressedAmerican: () => speakdestinys4("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
                   "٢. (ناو) ئەو ھێزەی کە باوەڕ وایە کۆنترۆڵی ڕووداوەکان دەکات"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "I believe there's some force guiding us—call it God, destiny or fate."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "پێموایە ھێزێک ھەیە پاڵنەرمانە، ئیتر خودا، چارەنووس، یان قەدەر بێت."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdestinys5("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdestinys5("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "I believe there's some force guiding us—call it God, destiny or fate.",
+            kurdishText:
+                "پێموایە ھێزێک ھەیە پاڵنەرمانە، ئیتر خودا، چارەنووس، یان قەدەر بێت.",
+            onPressedBritish: () => speakdestinys5("en-GB"),
+            onPressedAmerican: () => speakdestinys5("en-US"),
           ),
           // destinys600"),
           // speakdestinys6

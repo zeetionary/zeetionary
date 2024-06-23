@@ -371,62 +371,24 @@ class KurdishMeaning extends StatelessWidget {
 // """),
           const DefinitionKurdish(
               text: "١. (ھاوەڵناو) کە لە ئۆتۆمبێلێکەوە ئەنجام دەدرێت"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The gang was involved in a drive-by killing last night."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "گرووپە تاوانکارەکە شەوی ڕابردوو تێوەگلان لە کووشتن لە ئۆتۆمبێلەوە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "drive-by", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdrivebys1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdrivebys1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "The gang was involved in a drive-by killing last night.",
+            kurdishText:
+                "گرووپە تاوانکارەکە شەوی ڕابردوو تێوەگلان لە کووشتن لە ئۆتۆمبێلەوە.", // drive-by
+            onPressedBritish: () => speakdrivebys1("en-GB"),
+            onPressedAmerican: () => speakdrivebys1("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
                   "٢. (ناو) ھێرشێک کە لە ئۆتۆمبێلێکەوە دەکرێت کە تێپەڕ دەبێت"),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "His brother was gunned down in a drive-by."),
-                    ExampleSentenceKurdish(
-                        text: "براکەی کوژرا لە ھێرشێک لە ئۆتۆمبێلێکەوە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdrivebys2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdrivebys2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "His brother was gunned down in a drive-by.",
+            kurdishText: "براکەی کوژرا لە ھێرشێک لە ئۆتۆمبێلێکەوە.",
+            onPressedBritish: () => speakdrivebys2("en-GB"),
+            onPressedAmerican: () => speakdrivebys2("en-US"),
           ),
           // drivebys300"),
           // speakdrivebys3

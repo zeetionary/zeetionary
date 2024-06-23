@@ -364,32 +364,13 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "١. (ناو) مێینەی ئاسک؛ مێینەی ژمارەیەکی ئاژەڵی وەک کەروێشک"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The doe and her fawn grazed peacefully in the meadow."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "ئاسکەمێوەکە و بەچکەکەی بە بێ‌دەنگی لە مێرگەکە دەلەوەڕان."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "doe", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdoes1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdoes1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "The doe and her fawn grazed peacefully in the meadow.",
+            kurdishText:
+                "ئاسکەمێوەکە و بەچکەکەی بە بێ‌دەنگی لە مێرگەکە دەلەوەڕان.", // doe
+            onPressedBritish: () => speakdoes1("en-GB"),
+            onPressedAmerican: () => speakdoes1("en-US"),
           ),
           // does200"),
           // speakdoes2

@@ -250,84 +250,28 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "١. (ناو) شێوەیەکی زمان کە لە ناوچەیەک قسەی پێ دەکرێت و دەکرێت ڕێزمان، وشە، و گۆکردنی جیاواز بێت لە ھەمان زمان لە شوێنەکانی دیکە"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "All languages and dialects change over time."),
-                    ExampleSentenceKurdish(
-                        text: "ھەموو زمان و شێوەزارەکان بەپێی کات دەگۆڕێن."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "dialect", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdialects1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdialects1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "All languages and dialects change over time.",
+            kurdishText:
+                "ھەموو زمان و شێوەزارەکان بەپێی کات دەگۆڕێن.", // dialect
+            onPressedBritish: () => speakdialects1("en-GB"),
+            onPressedAmerican: () => speakdialects1("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The poet uses a variety of Scots dialect words and expressions."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "ھەڵبەستوانەکە ژمارەیەک لە وشە و دەربڕینی سکۆتلەندی بەکاردێنێت."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdialects2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdialects2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "The poet uses a variety of Scots dialect words and expressions.",
+            kurdishText:
+                "ھەڵبەستوانەکە ژمارەیەک لە وشە و دەربڕینی سکۆتلەندی بەکاردێنێت.",
+            onPressedBritish: () => speakdialects2("en-GB"),
+            onPressedAmerican: () => speakdialects2("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "The poem is written in northern dialect."),
-                    ExampleSentenceKurdish(
-                        text: "ھەڵبەستەکە بە شێوەزاری باکوور نووسراوە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdialects3("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdialects3("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "The poem is written in northern dialect.",
+            kurdishText: "ھەڵبەستەکە بە شێوەزاری باکوور نووسراوە.",
+            onPressedBritish: () => speakdialects3("en-GB"),
+            onPressedAmerican: () => speakdialects3("en-US"),
           ),
           // dialects400"),
           // speakdialects4

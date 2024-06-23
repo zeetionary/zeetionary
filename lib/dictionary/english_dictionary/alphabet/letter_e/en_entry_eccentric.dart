@@ -371,61 +371,23 @@ class KurdishMeaning extends StatelessWidget {
 """),
           const DefinitionKurdish(
               text: """١. (ھاوەڵناو) کە خەڵکی بە نامۆ دایدەنێن"""),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            """His behaviour grew increasingly eccentric as time went on."""),
-                    ExampleSentenceKurdish(
-                        text: """کە کات تێدەپەڕی ڕەفتاری زیاتر نامۆ دەبوو."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "eccentric", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakeccentrics1("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakeccentrics1("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                """His behaviour grew increasingly eccentric as time went on.""",
+            kurdishText:
+                """کە کات تێدەپەڕی ڕەفتاری زیاتر نامۆ دەبوو.""", // eccentric
+            onPressedBritish: () => speakeccentrics1("en-GB"),
+            onPressedAmerican: () => speakeccentrics1("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text: """٢. (ناو) کەسێک کە خەڵکی بە نامۆ دایدەنێن"""),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            """Most people considered him a harmless eccentric."""),
-                    ExampleSentenceKurdish(
-                        text: """زۆر کەس بە شێتۆکەیەکی بێ‌زیان دایان دەنا."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakeccentrics2("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakeccentrics2("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: """Most people considered him a harmless eccentric.""",
+            kurdishText: """زۆر کەس بە شێتۆکەیەکی بێ‌زیان دایان دەنا.""",
+            onPressedBritish: () => speakeccentrics2("en-GB"),
+            onPressedAmerican: () => speakeccentrics2("en-US"),
           ),
           // eccentrics300eccentrics3
           // speakeccentrics3

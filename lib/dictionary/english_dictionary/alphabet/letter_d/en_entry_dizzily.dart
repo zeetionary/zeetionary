@@ -372,61 +372,23 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "١. (ھاوەڵکار) بەشێوەیەک کە وا ھەست دەکات ھەموو شتێک دەسووڕێتەوە و ناتوانیت ھاوسەنگی ڕابگریت"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "I looked dizzily over the edge."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "بە سەرگێژخواردوویەوە بەسەر قەراغەکەدا سەیرم کرد."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "dizzily", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdizzilys1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdizzilys1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "I looked dizzily over the edge.",
+            kurdishText:
+                "بە سەرگێژخواردوویەوە بەسەر قەراغەکەدا سەیرم کرد.", // dizzily
+            onPressedBritish: () => speakdizzilys1("en-GB"),
+            onPressedAmerican: () => speakdizzilys1("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The room spun dizzily and the next thing I knew I was on the floor looking up."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "ژوورەکە بە گێژخواردووییەوە دەسووڕایەوە و ئەوەی دواتر زانیم لەسەر زەوییەکە بوو، سەیری سەرەوەم دەکرد."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdizzilys2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdizzilys2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "The room spun dizzily and the next thing I knew I was on the floor looking up.",
+            kurdishText:
+                "ژوورەکە بە گێژخواردووییەوە دەسووڕایەوە و ئەوەی دواتر زانیم لەسەر زەوییەکە بوو، سەیری سەرەوەم دەکرد.",
+            onPressedBritish: () => speakdizzilys2("en-GB"),
+            onPressedAmerican: () => speakdizzilys2("en-US"),
           ),
           // dizzilys300"),
           // speakdizzilys3

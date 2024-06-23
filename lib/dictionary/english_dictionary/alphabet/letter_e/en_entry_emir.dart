@@ -364,32 +364,13 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   """١. (ناو) نازناوێک کە بە ژمارەیەک سەرکردەی موسڵمان دەدرێت"""),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            """As a senior advisor, he has a degree of influence over the emir."""),
-                    ExampleSentenceKurdish(
-                        text:
-                            """وەک ڕاوێژکارێکی باڵا، ھەندێک کاریگەری لەسەر ئەمیرەکە ھەیە."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "emir", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakemirs1("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakemirs1("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                """As a senior advisor, he has a degree of influence over the emir.""",
+            kurdishText:
+                """وەک ڕاوێژکارێکی باڵا، ھەندێک کاریگەری لەسەر ئەمیرەکە ھەیە.""", // emir
+            onPressedBritish: () => speakemirs1("en-GB"),
+            onPressedAmerican: () => speakemirs1("en-US"),
           ),
           // emirs200emirs2
           // speakemirs2

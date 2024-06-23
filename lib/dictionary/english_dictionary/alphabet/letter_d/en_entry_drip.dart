@@ -451,310 +451,105 @@ class KurdishMeaning extends StatelessWidget {
 """),
           const DefinitionKurdish(
               text: "١. (کردار) تکەکردنە خوارەوە بە دڵۆپی بچووک"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "She was hot and sweat dripped into her eyes."),
-                    ExampleSentenceKurdish(
-                        text: "گەرمای بوو و ئارەقە تکەی کردە ناو چاوانییەوە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "drip", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdrips1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdrips1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "She was hot and sweat dripped into her eyes.",
+            kurdishText:
+                "گەرمای بوو و ئارەقە تکەی کردە ناو چاوانییەوە.", // drip
+            onPressedBritish: () => speakdrips1("en-GB"),
+            onPressedAmerican: () => speakdrips1("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "Water was dripping down the walls."),
-                    ExampleSentenceKurdish(
-                        text: "ئاو بە دیوارەکاندا تکەی دەکردە خوارەوە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdrips2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdrips2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "Water was dripping down the walls.",
+            kurdishText: "ئاو بە دیوارەکاندا تکەی دەکردە خوارەوە.",
+            onPressedBritish: () => speakdrips2("en-GB"),
+            onPressedAmerican: () => speakdrips2("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The rain came down and dripped off the edges of the car."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "باران داباری و بە قەراغی ئۆتۆمبێلەکەدا ھاتە خوارەوە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdrips3("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdrips3("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "The rain came down and dripped off the edges of the car.",
+            kurdishText: "باران داباری و بە قەراغی ئۆتۆمبێلەکەدا ھاتە خوارەوە.",
+            onPressedBritish: () => speakdrips3("en-GB"),
+            onPressedAmerican: () => speakdrips3("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
                   "٢. (کردار) ئەوەی ڕێگا بە شتێک بدەیت تکە بکات یان ببیتە ھۆکاری"),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "Her hair dripped down her back."),
-                    ExampleSentenceKurdish(text: "قژی بە پشتیدا تکەی دەکرد."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdrips4("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdrips4("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "Her hair dripped down her back.",
+            kurdishText: "قژی بە پشتیدا تکەی دەکرد.",
+            onPressedBritish: () => speakdrips4("en-GB"),
+            onPressedAmerican: () => speakdrips4("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(text: "The tap was dripping."),
-                    ExampleSentenceKurdish(
-                        text: "شێرەکە (بەلووعە) تکەی دەکرد."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdrips5("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdrips5("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "The tap was dripping.",
+            kurdishText: "شێرەکە (بەلووعە) تکەی دەکرد.",
+            onPressedBritish: () => speakdrips5("en-GB"),
+            onPressedAmerican: () => speakdrips5("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "Be careful, you're dripping paint everywhere!"),
-                    ExampleSentenceKurdish(
-                        text: "وریابە، بە ھەموو شوێنێکدا بۆیە دەڕژێنیت."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdrips6("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdrips6("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "Be careful, you're dripping paint everywhere!",
+            kurdishText: "وریابە، بە ھەموو شوێنێکدا بۆیە دەڕژێنیت.",
+            onPressedBritish: () => speakdrips6("en-GB"),
+            onPressedAmerican: () => speakdrips6("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٣. (کردار) لەخۆگرتنی ڕێژەیەکی زۆر لە شتێک"),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "The trees were dripping with fruit."),
-                    ExampleSentenceKurdish(text: "دارەکان پڕ لە میوە بوون."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdrips7("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdrips7("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "The trees were dripping with fruit.",
+            kurdishText: "دارەکان پڕ لە میوە بوون.",
+            onPressedBritish: () => speakdrips7("en-GB"),
+            onPressedAmerican: () => speakdrips7("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(text: "His voice dripped sarcasm."),
-                    ExampleSentenceKurdish(text: "دەنگی گاڵتەجاڕی لێدەباری."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdrips8("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdrips8("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "His voice dripped sarcasm.",
+            kurdishText: "دەنگی گاڵتەجاڕی لێدەباری.",
+            onPressedBritish: () => speakdrips8("en-GB"),
+            onPressedAmerican: () => speakdrips8("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
                   "٤. (ناو) ئەوەی کە قەترە قەترەی شلە دەکەوێت؛ دەنگی تکەتک کەوتن"),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "All I could hear was the drip of the rain from the roof."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "ھەموو ئەوەی کە گوێم لێ بوو تەنھا تکەی باران لە سەرباکە بوو."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdrips9("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdrips9("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "All I could hear was the drip of the rain from the roof.",
+            kurdishText:
+                "ھەموو ئەوەی کە گوێم لێ بوو تەنھا تکەی باران لە سەرباکە بوو.",
+            onPressedBritish: () => speakdrips9("en-GB"),
+            onPressedAmerican: () => speakdrips9("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٥. (ناو) قەترەیەک شلە کە لە شتێکەوە دەکەوێت"),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "We put a bucket under the hole in the roof to catch the drips."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "سەتڵێکمان خستە ژێر کونی بنبانەکە بۆ گرتنەوەی تکەکان."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdrips10("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdrips10("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "We put a bucket under the hole in the roof to catch the drips.",
+            kurdishText: "سەتڵێکمان خستە ژێر کونی بنبانەکە بۆ گرتنەوەی تکەکان.",
+            onPressedBritish: () => speakdrips10("en-GB"),
+            onPressedAmerican: () => speakdrips10("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٦. (ناو) زنجیرە ڕووداوێک، بەتایبەتی ڕووداوی خراپ"),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The drip, drip of negative comments began to have an effect."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "لێدوانە نەرێنییە یەک‌ لەدوای یەکەکان دەستیان کرد بەوەی کاریگەرییان ھەبێت."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdrips11("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdrips11("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "The drip, drip of negative comments began to have an effect.",
+            kurdishText:
+                "لێدوانە نەرێنییە یەک‌ لەدوای یەکەکان دەستیان کرد بەوەی کاریگەرییان ھەبێت.",
+            onPressedBritish: () => speakdrips11("en-GB"),
+            onPressedAmerican: () => speakdrips11("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "٧. (ناو) پێنناسە"),

@@ -414,85 +414,29 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "١. (ناو) لەنگەرگای کەشتی کە تێیاندا چاکدەکرێنەوە یان بارەکانیان سەردەخردرێت یان دادەگیردرێت"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(text: "The ship was in dock."),
-                    ExampleSentenceKurdish(text: "کەشتییەکە لە لەنگەرگا بوو."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "dock", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdocks1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdocks1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "The ship was in dock.",
+            kurdishText: "کەشتییەکە لە لەنگەرگا بوو.", // dock
+            onPressedBritish: () => speakdocks1("en-GB"),
+            onPressedAmerican: () => speakdocks1("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "The ship is in dock for repairs."),
-                    ExampleSentenceKurdish(
-                        text: "کەشتییەکە لە لەنگەرگایە بۆ چاککردنەوە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdocks2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdocks2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "The ship is in dock for repairs.",
+            kurdishText: "کەشتییەکە لە لەنگەرگایە بۆ چاککردنەوە.",
+            onPressedBritish: () => speakdocks2("en-GB"),
+            onPressedAmerican: () => speakdocks2("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
                   "٢. (ناو) کۆمەڵە لەنگەرگای بەندەرێک کە بەکاردێن بۆ چاککردنەوەی کەشتییەکان، ھەڵگرتنی کەلوپەل، ھتد"),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "There are plans to redevelop the old docks."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "پلان ھەیە لەنگەرە کۆنەکان دووبارە بنیاتبنرێنەوە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdocks3("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdocks3("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "There are plans to redevelop the old docks.",
+            kurdishText: "پلان ھەیە لەنگەرە کۆنەکان دووبارە بنیاتبنرێنەوە.",
+            onPressedBritish: () => speakdocks3("en-GB"),
+            onPressedAmerican: () => speakdocks3("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
@@ -500,124 +444,46 @@ class KurdishMeaning extends StatelessWidget {
                   "٣. (ناو) سەکۆیەک کە درووست دەکرێت بەسەر دەریا یان ڕووباورێکدا کە بەلەمی پێوە دەبەسترێت یان خەڵکی لێیەوە دەتوانن بچنە ناو بەلەم و دابەزن"),
           // const DividerSentences(),
           const AlsoEnglishckb(word: "ھەروەھا: jetty"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The dock was bustling with activity as passengers disembarked from the ferry."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "کەڵەرەکە پڕ لە جموجۆڵ بوو کە گەشتیارەکان لە بەلەمەکە دادەبەزین."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdocks4("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdocks4("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "The dock was bustling with activity as passengers disembarked from the ferry.",
+            kurdishText:
+                "کەڵەرەکە پڕ لە جموجۆڵ بوو کە گەشتیارەکان لە بەلەمەکە دادەبەزین.",
+            onPressedBritish: () => speakdocks4("en-GB"),
+            onPressedAmerican: () => speakdocks4("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٤. (کردار) چوونی کەشتییەک بۆ بەندەرێک و مانەوەی لەوێ"),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "The ferry is expected to dock at 6."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "بەلەمەکە چاوەڕێ دەکرێت لە کاتژمێر ٦ لەنگەر بگرێت."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdocks5("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdocks5("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "The ferry is expected to dock at 6.",
+            kurdishText: "بەلەمەکە چاوەڕێ دەکرێت لە کاتژمێر ٦ لەنگەر بگرێت.",
+            onPressedBritish: () => speakdocks5("en-GB"),
+            onPressedAmerican: () => speakdocks5("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
                   "٥. (کردار) گەشتن بە یەکی دوو کەشتی ئاسمانی لە بۆشایی ئاسماندا"),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The Russians and Americans docked (= joined together in space) (their spacecraft) just after one o'clock this morning."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "ڕووسی و ئەمریکییەکان ڕێک دوای کاتژمێر یەکی ئەم نیوەڕۆیە نیشتنەوە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdocks6("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdocks6("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "The Russians and Americans docked (= joined together in space) (their spacecraft) just after one o'clock this morning.",
+            kurdishText:
+                "ڕووسی و ئەمریکییەکان ڕێک دوای کاتژمێر یەکی ئەم نیوەڕۆیە نیشتنەوە.",
+            onPressedBritish: () => speakdocks6("en-GB"),
+            onPressedAmerican: () => speakdocks6("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٦. (کردار) بینی بەشێک لە مووچەی کەسێک"),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "They've docked 15 per cent off my pay for this week."),
-                    ExampleSentenceKurdish(
-                        text: "١٥ لە سەدیان لە مووچەکەم بۆ ئەم ھەفتەیە بڕیوە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdocks7("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdocks7("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "They've docked 15 per cent off my pay for this week.",
+            kurdishText: "١٥ لە سەدیان لە مووچەکەم بۆ ئەم ھەفتەیە بڕیوە.",
+            onPressedBritish: () => speakdocks7("en-GB"),
+            onPressedAmerican: () => speakdocks7("en-US"),
           ),
           // docks800"),
           // speakdocks8

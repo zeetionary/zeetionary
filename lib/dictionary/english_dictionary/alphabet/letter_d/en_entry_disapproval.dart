@@ -259,116 +259,39 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "١. (ناو) ئەو ھەستەی کە ڕازی نیت بە بیرۆکەیەک، کارێک، یان ڕەفتاری کەسێکت بەدڵ نییە چونکە پێت وایە خراپە، گونجاو نییە یان کاریگەری خراپی لەسەر کەسێکی تر دەبێت"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "He shook his head in disapproval."),
-                    ExampleSentenceKurdish(
-                        text: "سەری ڕاوەشاند وەک ناڕەزایەتی."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "disapproval", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdisapprovals1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdisapprovals1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "He shook his head in disapproval.",
+            kurdishText: "سەری ڕاوەشاند وەک ناڕەزایەتی.", // disapproval
+            onPressedBritish: () => speakdisapprovals1("en-GB"),
+            onPressedAmerican: () => speakdisapprovals1("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "She looked at my clothes with disapproval."),
-                    ExampleSentenceKurdish(
-                        text: "بە ناڕەزایەتییەوە سەیری جلەکانمی کرد."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdisapprovals2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdisapprovals2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "She looked at my clothes with disapproval.",
+            kurdishText: "بە ناڕەزایەتییەوە سەیری جلەکانمی کرد.",
+            onPressedBritish: () => speakdisapprovals2("en-GB"),
+            onPressedAmerican: () => speakdisapprovals2("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "Agatha took this as a sign of disapproval."),
-                    ExampleSentenceKurdish(
-                        text: "ئاگاسا ئەمەی وەک ئاماژەی ناڕەزایەتی وەرگرت."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdisapprovals3("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdisapprovals3("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "Agatha took this as a sign of disapproval.",
+            kurdishText: "ئاگاسا ئەمەی وەک ئاماژەی ناڕەزایەتی وەرگرت.",
+            onPressedBritish: () => speakdisapprovals3("en-GB"),
+            onPressedAmerican: () => speakdisapprovals3("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "More than a hint of disapproval was in the boy's voice."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "زیاتر لە یەک ئاماژەی ناڕەزایی لە دەنگی کوڕەکەدا بوو."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdisapprovals4("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdisapprovals4("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "More than a hint of disapproval was in the boy's voice.",
+            kurdishText: "زیاتر لە یەک ئاماژەی ناڕەزایی لە دەنگی کوڕەکەدا بوو.",
+            onPressedBritish: () => speakdisapprovals4("en-GB"),
+            onPressedAmerican: () => speakdisapprovals4("en-US"),
           ),
           // disapprovals500"),
           // speakdisapprovals5

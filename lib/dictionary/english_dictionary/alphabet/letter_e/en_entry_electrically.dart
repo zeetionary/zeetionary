@@ -363,32 +363,13 @@ class KurdishMeaning extends StatelessWidget {
 کوردی: بە ڕێگای کارەباوە، بە کارەباوە، بە برقەوە، وەکوو برق، لە ناکاو
 """),
           const DefinitionKurdish(text: """١. (ھاوەڵناو) پێنناسە"""),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            """The system can be connected to virtually any type of electrically controlled device."""),
-                    ExampleSentenceKurdish(
-                        text:
-                            """سیستەمەکە دەکرێت پەیوەست بکرێت بە نزیکەیی ھەموو جۆرە ئامێرێکی کۆنترۆڵکراو بەکارەبا."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "electrically", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakelectricallys1("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakelectricallys1("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                """The system can be connected to virtually any type of electrically controlled device.""",
+            kurdishText:
+                """سیستەمەکە دەکرێت پەیوەست بکرێت بە نزیکەیی ھەموو جۆرە ئامێرێکی کۆنترۆڵکراو بەکارەبا.""", // electrically
+            onPressedBritish: () => speakelectricallys1("en-GB"),
+            onPressedAmerican: () => speakelectricallys1("en-US"),
           ),
           // electricallys200electricallys2
           // speakelectricallys2

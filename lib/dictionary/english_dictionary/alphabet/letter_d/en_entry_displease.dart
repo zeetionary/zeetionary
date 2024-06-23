@@ -239,58 +239,20 @@ class KurdishMeaning extends StatelessWidget {
 کوردی: خۆش نەبوون، نارەحەت کردن، زیزکردن
 """),
           const DefinitionKurdish(text: "١. (کردار) ناڕەحەتکردنی کەسێک"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "The tone of the letter displeased her."),
-                    ExampleSentenceKurdish(text: "تۆنی نامەکە ناڕەحەتی کرد."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "displease", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdispleases1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdispleases1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "The tone of the letter displeased her.",
+            kurdishText: "تۆنی نامەکە ناڕەحەتی کرد.", // displease
+            onPressedBritish: () => speakdispleases1("en-GB"),
+            onPressedAmerican: () => speakdispleases1("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "I wouldn't want to do anything to displease him."),
-                    ExampleSentenceKurdish(
-                        text: "نەمدەویست ھیچ شتێک بکەم کە ناڕەحەتی بکات."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdispleases2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdispleases2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "I wouldn't want to do anything to displease him.",
+            kurdishText: "نەمدەویست ھیچ شتێک بکەم کە ناڕەحەتی بکات.",
+            onPressedBritish: () => speakdispleases2("en-GB"),
+            onPressedAmerican: () => speakdispleases2("en-US"),
           ),
           // displeases300"),
           // speakdispleases3

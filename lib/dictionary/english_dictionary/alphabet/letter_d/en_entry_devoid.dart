@@ -247,86 +247,29 @@ class KurdishMeaning extends StatelessWidget {
 کوردی: بێ‌بەری لە، بێ، بێ‌بەش لە، بەتاڵ، بۆش، پەتی لە، خاڵی لە، بەری لە، بەبێ
 """),
           const DefinitionKurdish(text: "١. (ھاوەڵناو) تەواو بەبێ شتێک"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "The land is almost devoid of vegetation."),
-                    ExampleSentenceKurdish(
-                        text: "زەوییەکە تاڕادەیەک پەتییە لە میوەجات."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "devoid", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdevoids1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdevoids1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "The land is almost devoid of vegetation.",
+            kurdishText: "زەوییەکە تاڕادەیەک پەتییە لە میوەجات.", // devoid
+            onPressedBritish: () => speakdevoids1("en-GB"),
+            onPressedAmerican: () => speakdevoids1("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "Their apartment is devoid of all comforts."),
-                    ExampleSentenceKurdish(
-                        text: "باڵەخانەکە بەبێ ھیچ حەسانەوەیەکە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdevoids2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdevoids2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "Their apartment is devoid of all comforts.",
+            kurdishText: "باڵەخانەکە بەبێ ھیچ حەسانەوەیەکە.",
+            onPressedBritish: () => speakdevoids2("en-GB"),
+            onPressedAmerican: () => speakdevoids2("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "He seems to be devoid of compassion."),
-                    ExampleSentenceKurdish(
-                        text: "وادیارە کە داچۆڕاو بێت لە ھەر ڕەحمێک."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdevoids3("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdevoids3("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "He seems to be devoid of compassion.",
+            kurdishText: "وادیارە کە داچۆڕاو بێت لە ھەر ڕەحمێک.",
+            onPressedBritish: () => speakdevoids3("en-GB"),
+            onPressedAmerican: () => speakdevoids3("en-US"),
           ),
           // devoids400"),
           // speakdevoids4

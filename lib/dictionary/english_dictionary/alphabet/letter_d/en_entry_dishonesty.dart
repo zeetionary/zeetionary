@@ -241,59 +241,22 @@ class KurdishMeaning extends StatelessWidget {
 """),
           const DefinitionKurdish(
               text: "١. (ناو) کە ڕاستی سەرڕاست و بێ‌فێڵ نییە"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "Five polie officers were dismissed for dishonesty and misconduct."),
-                    ExampleSentenceKurdish(
-                        text: "پێنج پۆلیس دەرکران بۆ ناڕاستی و کاری ھەڵە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "dishonesty", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdishonestys1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdishonestys1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "Five polie officers were dismissed for dishonesty and misconduct.",
+            kurdishText:
+                "پێنج پۆلیس دەرکران بۆ ناڕاستی و کاری ھەڵە.", // dishonesty
+            onPressedBritish: () => speakdishonestys1("en-GB"),
+            onPressedAmerican: () => speakdishonestys1("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "Her dishonesty landed her in prison."),
-                    ExampleSentenceKurdish(
-                        text: "فڕوفێڵەکەی خستییە زیندانەوە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdishonestys2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdishonestys2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "Her dishonesty landed her in prison.",
+            kurdishText: "فڕوفێڵەکەی خستییە زیندانەوە.",
+            onPressedBritish: () => speakdishonestys2("en-GB"),
+            onPressedAmerican: () => speakdishonestys2("en-US"),
           ),
           // dishonestys300"),
           // speakdishonestys3

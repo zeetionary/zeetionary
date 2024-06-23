@@ -362,32 +362,13 @@ class KurdishMeaning extends StatelessWidget {
 // کوردی: سۆنە، نێرەمراوی، مراوی نێر
 // """),
           const DefinitionKurdish(text: "١. (ناو) سۆنەیەکی نێرە"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The children fed the drake pieces of bread by the lake."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "منداڵەکان لای دەریاچەکە پارچە نانیان دەدا بە سۆنە نێرەکە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "drake", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdrakes1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdrakes1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "The children fed the drake pieces of bread by the lake.",
+            kurdishText:
+                "منداڵەکان لای دەریاچەکە پارچە نانیان دەدا بە سۆنە نێرەکە.", // drake
+            onPressedBritish: () => speakdrakes1("en-GB"),
+            onPressedAmerican: () => speakdrakes1("en-US"),
           ),
           // drakes200"),
           // speakdrakes2

@@ -252,61 +252,23 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "١. (کردار) واکردنی ئەوەی کەسێک شتێک نەکات یان بەردەوام نەبێت لێی"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "I told him I wasn't interested, but he wasn't deterred."),
-                    ExampleSentenceKurdish(
-                        text: "گوتم حەزم پێی نییە، بەڵام کۆڵی نەدا."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "deter", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdeters1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdeters1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "I told him I wasn't interested, but he wasn't deterred.",
+            kurdishText: "گوتم حەزم پێی نییە، بەڵام کۆڵی نەدا.", // deter
+            onPressedBritish: () => speakdeters1("en-GB"),
+            onPressedAmerican: () => speakdeters1("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The high price of the service could deter people from seeking advice."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "بەرزیی نرخی خزمەتگوزاری دەکرێت خەڵکی ساردبکاتەوە لە داواکردنی ڕاوێژ."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdeters2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdeters2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "The high price of the service could deter people from seeking advice.",
+            kurdishText:
+                "بەرزیی نرخی خزمەتگوزاری دەکرێت خەڵکی ساردبکاتەوە لە داواکردنی ڕاوێژ.",
+            onPressedBritish: () => speakdeters2("en-GB"),
+            onPressedAmerican: () => speakdeters2("en-US"),
           ),
           // deters300"),
           // speakdeters3

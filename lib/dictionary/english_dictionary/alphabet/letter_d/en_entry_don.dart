@@ -381,90 +381,32 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "١. (ناو) مامۆستایەکی زانکۆ، بەتایبەتی لە ئۆکسفۆرد یان کامبریج"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "She aspired to become an Oxford don and teach at the university."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "خەونی بەوەوە دەبینی کە ببێت بە مامۆستای ئۆکسفۆرد و لە زانکۆکە وانە بڵێتەوە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "don", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdons1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdons1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "She aspired to become an Oxford don and teach at the university.",
+            kurdishText:
+                "خەونی بەوەوە دەبینی کە ببێت بە مامۆستای ئۆکسفۆرد و لە زانکۆکە وانە بڵێتەوە.", // don
+            onPressedBritish: () => speakdons1("en-GB"),
+            onPressedAmerican: () => speakdons1("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: "٢. (ناو) پیاوێکی ئیسپانی"),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "She imagined a Spanish don living here in the 1800s."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "خەیاڵی پیاوێکی ئیسپانی دەکرد کە لە ١٨٠٠ ـەکان لێرە ژیا بێت."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdons2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdons2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "She imagined a Spanish don living here in the 1800s.",
+            kurdishText:
+                "خەیاڵی پیاوێکی ئیسپانی دەکرد کە لە ١٨٠٠ ـەکان لێرە ژیا بێت.",
+            onPressedBritish: () => speakdons2("en-GB"),
+            onPressedAmerican: () => speakdons2("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: "٣. (کردار) لەبەرکردنی جل"),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "He donned his jacket and went out."),
-                    ExampleSentenceKurdish(
-                        text: "چاکەتەکەی لەبەر کرد و چووە دەرەوە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdons3("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdons3("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "He donned his jacket and went out.",
+            kurdishText: "چاکەتەکەی لەبەر کرد و چووە دەرەوە.",
+            onPressedBritish: () => speakdons3("en-GB"),
+            onPressedAmerican: () => speakdons3("en-US"),
           ),
           // dons400"),
           // speakdons4

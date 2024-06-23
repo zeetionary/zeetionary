@@ -233,32 +233,13 @@ class KurdishMeaning extends StatelessWidget {
 """),
           const DefinitionKurdish(
               text: "١. (ھاوەڵناو) پەیوەندیدار یان وەک بە دێوەزمە"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "This was a society in which demonic possession was greatly feared."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "ئەمە کۆمەڵگایەک بوو کە شەیتانی بوون زۆر تێیدا تۆقێنەر بوو."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "demonic", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdemonics1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdemonics1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "This was a society in which demonic possession was greatly feared.",
+            kurdishText:
+                "ئەمە کۆمەڵگایەک بوو کە شەیتانی بوون زۆر تێیدا تۆقێنەر بوو.", // demonic
+            onPressedBritish: () => speakdemonics1("en-GB"),
+            onPressedAmerican: () => speakdemonics1("en-US"),
           ),
           // demonics200"),
           // speakdemonics2

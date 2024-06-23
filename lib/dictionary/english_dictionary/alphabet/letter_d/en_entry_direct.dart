@@ -618,208 +618,66 @@ class KurdishMeaning extends StatelessWidget {
 """),
           const DefinitionKurdish(
               text: "١. (ھاوەڵناو) بە شێوەی ڕاستەوخۆ؛ بەبێ وەستان یان لادان"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "This door allows direct access from the kitchen to the garage."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "ئەم دەرگایە ڕێگای ڕاستەوخۆ لە چێشتخانەکە بۆ گەراجەکە دابین دەکات."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "direct", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdirects1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdirects1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "This door allows direct access from the kitchen to the garage.",
+            kurdishText:
+                "ئەم دەرگایە ڕێگای ڕاستەوخۆ لە چێشتخانەکە بۆ گەراجەکە دابین دەکات.", // direct
+            onPressedBritish: () => speakdirects1("en-GB"),
+            onPressedAmerican: () => speakdirects1("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "There's a direct train to Leeds (= it may stop at other stations but you do not have to change trains)."),
-                    ExampleSentenceKurdish(
-                        text: "شەمەندەفەری ڕاستەوخۆ ھەیە بۆ لیدز."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdirects2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdirects2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "There's a direct train to Leeds (= it may stop at other stations but you do not have to change trains).",
+            kurdishText: "شەمەندەفەری ڕاستەوخۆ ھەیە بۆ لیدز.",
+            onPressedBritish: () => speakdirects2("en-GB"),
+            onPressedAmerican: () => speakdirects2("en-US"),
           ),
           Column(
             children: [
               MyExpansionTile(
                 children: [
-                  Row(
-                    children: [
-                      const Expanded(
-                        child: Column(
-                          children: [
-                            ExampleSentenceEnglish(
-                                text: "Isn't there a more direct route?"),
-                            ExampleSentenceKurdish(
-                                text: "ڕێگایەکی زیاتر ڕاستەوخۆ نییە؟"),
-                          ],
-                        ),
-                      ),
-                      const CustomSizedBoxForTTS(),
-                      Column(
-                        children: [
-                          CustomIconButtonBritish(
-                            onPressed: () => speakdirects3("en-GB"),
-                          ),
-                          CustomIconButtonAmerican(
-                            onPressed: () => speakdirects3("en-US"),
-                          ),
-                        ],
-                      ),
-                    ],
+                  SentencesRow(
+                    englishText: "Isn't there a more direct route?",
+                    kurdishText: "ڕێگایەکی زیاتر ڕاستەوخۆ نییە؟",
+                    onPressedBritish: () => speakdirects3("en-GB"),
+                    onPressedAmerican: () => speakdirects3("en-US"),
                   ),
-                  // const DividerDefinition(),
-                  // const DefinitionKurdish(text: "ژممارە. (کردار) پێنناسە"),
                   const DividerSentences(),
-                  Row(
-                    children: [
-                      const Expanded(
-                        child: Column(
-                          children: [
-                            ExampleSentenceEnglish(
-                                text:
-                                    "The direct way to the river would be through the park."),
-                            ExampleSentenceKurdish(
-                                text:
-                                    "ڕێگای ڕاستەوخۆ بۆ ڕووبارەکە بە پارکەکەدا دەبێت."),
-                          ],
-                        ),
-                      ),
-                      const CustomSizedBoxForTTS(),
-                      Column(
-                        children: [
-                          CustomIconButtonBritish(
-                            onPressed: () => speakdirects4("en-GB"),
-                          ),
-                          CustomIconButtonAmerican(
-                            onPressed: () => speakdirects4("en-US"),
-                          ),
-                        ],
-                      ),
-                    ],
+                  SentencesRow(
+                    englishText:
+                        "The direct way to the river would be through the park.",
+                    kurdishText:
+                        "ڕێگای ڕاستەوخۆ بۆ ڕووبارەکە بە پارکەکەدا دەبێت.",
+                    onPressedBritish: () => speakdirects4("en-GB"),
+                    onPressedAmerican: () => speakdirects4("en-US"),
                   ),
-                  // const DividerDefinition(),
-                  // const DefinitionKurdish(text: "ژممارە. (کردار) پێنناسە"),
                   const DividerSentences(),
-                  Row(
-                    children: [
-                      const Expanded(
-                        child: Column(
-                          children: [
-                            ExampleSentenceEnglish(
-                                text:
-                                    "The most direct path to the summit is very steep and difficult."),
-                            ExampleSentenceKurdish(
-                                text:
-                                    "ڕەستەوخۆترین ڕێگا بۆ لوتکەکە زۆر سەرەوخوار و سەختە."),
-                          ],
-                        ),
-                      ),
-                      const CustomSizedBoxForTTS(),
-                      Column(
-                        children: [
-                          CustomIconButtonBritish(
-                            onPressed: () => speakdirects5("en-GB"),
-                          ),
-                          CustomIconButtonAmerican(
-                            onPressed: () => speakdirects5("en-US"),
-                          ),
-                        ],
-                      ),
-                    ],
+                  SentencesRow(
+                    englishText:
+                        "The most direct path to the summit is very steep and difficult.",
+                    kurdishText:
+                        "ڕەستەوخۆترین ڕێگا بۆ لوتکەکە زۆر سەرەوخوار و سەختە.",
+                    onPressedBritish: () => speakdirects5("en-GB"),
+                    onPressedAmerican: () => speakdirects5("en-US"),
                   ),
-                  // const DividerDefinition(),
-                  // const DefinitionKurdish(text: "ژممارە. (کردار) پێنناسە"),
                   const DividerSentences(),
-                  Row(
-                    children: [
-                      const Expanded(
-                        child: Column(
-                          children: [
-                            ExampleSentenceEnglish(
-                                text:
-                                    "There's a direct train connecting the airport and the city."),
-                            ExampleSentenceKurdish(
-                                text:
-                                    "شەمەندەفەرێکی ڕاستەوخۆ ھەیە کە فڕۆکەخانەکە و شارەکە پێکەوە دەبەستێت."),
-                          ],
-                        ),
-                      ),
-                      const CustomSizedBoxForTTS(),
-                      Column(
-                        children: [
-                          CustomIconButtonBritish(
-                            onPressed: () => speakdirects6("en-GB"),
-                          ),
-                          CustomIconButtonAmerican(
-                            onPressed: () => speakdirects6("en-US"),
-                          ),
-                        ],
-                      ),
-                    ],
+                  SentencesRow(
+                    englishText:
+                        "There's a direct train connecting the airport and the city.",
+                    kurdishText:
+                        "شەمەندەفەرێکی ڕاستەوخۆ ھەیە کە فڕۆکەخانەکە و شارەکە پێکەوە دەبەستێت.",
+                    onPressedBritish: () => speakdirects6("en-GB"),
+                    onPressedAmerican: () => speakdirects6("en-US"),
                   ),
-                  // const DividerDefinition(),
-                  // const DefinitionKurdish(text: "ژممارە. (کردار) پێنناسە"),
                   const DividerSentences(),
-                  Row(
-                    children: [
-                      const Expanded(
-                        child: Column(
-                          children: [
-                            ExampleSentenceEnglish(
-                                text:
-                                    "The bombers scored direct hits on two ships."),
-                            ExampleSentenceKurdish(
-                                text:
-                                    "بۆمبھاوێژەکان لێدانی ڕاستەوخۆیان دا لە کەشتی."),
-                          ],
-                        ),
-                      ),
-                      const CustomSizedBoxForTTS(),
-                      Column(
-                        children: [
-                          CustomIconButtonBritish(
-                            onPressed: () => speakdirects7("en-GB"),
-                          ),
-                          CustomIconButtonAmerican(
-                            onPressed: () => speakdirects7("en-US"),
-                          ),
-                        ],
-                      ),
-                    ],
+                  SentencesRow(
+                    englishText: "The bombers scored direct hits on two ships.",
+                    kurdishText:
+                        "بۆمبھاوێژەکان لێدانی ڕاستەوخۆیان دا لە کەشتی.",
+                    onPressedBritish: () => speakdirects7("en-GB"),
+                    onPressedAmerican: () => speakdirects7("en-US"),
                   ),
                 ],
               ),
@@ -830,180 +688,59 @@ class KurdishMeaning extends StatelessWidget {
               text:
                   "٢. (ھاوەڵناو) کە ڕوودەدات بەبێ دەستێوەردانی دەرەکی یان لەخۆگرتنی کەسی دیکە"),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "She has been in direct contact with the prime minister."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "لە پەیوەندیی ڕاستەوخۆدا بووە لەگەڵ سەرۆک وەزیران."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdirects8("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdirects8("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "She has been in direct contact with the prime minister.",
+            kurdishText: "لە پەیوەندیی ڕاستەوخۆدا بووە لەگەڵ سەرۆک وەزیران.",
+            onPressedBritish: () => speakdirects8("en-GB"),
+            onPressedAmerican: () => speakdirects8("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "There is a direct connection between these two phenomena."),
-                    ExampleSentenceKurdish(
-                        text: "پەیوەندیی ڕاستەوخۆ ھەیە لەنێوان دوو دیاردەکە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdirects9("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdirects9("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "There is a direct connection between these two phenomena.",
+            kurdishText: "پەیوەندیی ڕاستەوخۆ ھەیە لەنێوان دوو دیاردەکە.",
+            onPressedBritish: () => speakdirects9("en-GB"),
+            onPressedAmerican: () => speakdirects9("en-US"),
           ),
           Column(
             children: [
               MyExpansionTile(
                 children: [
-                  Row(
-                    children: [
-                      const Expanded(
-                        child: Column(
-                          children: [
-                            ExampleSentenceEnglish(
-                                text:
-                                    "He died as a direct result of his employer's actions."),
-                            ExampleSentenceKurdish(
-                                text:
-                                    "بە ئەنجامی ڕاستەوخۆی کارەکانی خاوەن کارەکەی گیانی لەدەستدا."),
-                          ],
-                        ),
-                      ),
-                      const CustomSizedBoxForTTS(),
-                      Column(
-                        children: [
-                          CustomIconButtonBritish(
-                            onPressed: () => speakdirects10("en-GB"),
-                          ),
-                          CustomIconButtonAmerican(
-                            onPressed: () => speakdirects10("en-US"),
-                          ),
-                        ],
-                      ),
-                    ],
+                  SentencesRow(
+                    englishText:
+                        "He died as a direct result of his employer's actions.",
+                    kurdishText:
+                        "بە ئەنجامی ڕاستەوخۆی کارەکانی خاوەن کارەکەی گیانی لەدەستدا.",
+                    onPressedBritish: () => speakdirects10("en-GB"),
+                    onPressedAmerican: () => speakdirects10("en-US"),
                   ),
-                  // const DividerDefinition(),
-                  // const DefinitionKurdish(text: "ژممارە. (کردار) پێنناسە"),
                   const DividerSentences(),
-                  Row(
-                    children: [
-                      const Expanded(
-                        child: Column(
-                          children: [
-                            ExampleSentenceEnglish(
-                                text:
-                                    "He was cleared of any direct involvement in the case."),
-                            ExampleSentenceKurdish(
-                                text:
-                                    "بێبەری کرا لە ھەر تێوەگلانێکی ڕاستەوخۆ لە کەیسەکەدا."),
-                          ],
-                        ),
-                      ),
-                      const CustomSizedBoxForTTS(),
-                      Column(
-                        children: [
-                          CustomIconButtonBritish(
-                            onPressed: () => speakdirects11("en-GB"),
-                          ),
-                          CustomIconButtonAmerican(
-                            onPressed: () => speakdirects11("en-US"),
-                          ),
-                        ],
-                      ),
-                    ],
+                  SentencesRow(
+                    englishText:
+                        "He was cleared of any direct involvement in the case.",
+                    kurdishText:
+                        "بێبەری کرا لە ھەر تێوەگلانێکی ڕاستەوخۆ لە کەیسەکەدا.",
+                    onPressedBritish: () => speakdirects11("en-GB"),
+                    onPressedAmerican: () => speakdirects11("en-US"),
                   ),
-                  // const DividerDefinition(),
-                  // const DefinitionKurdish(text: "ژممارە. (کردار) پێنناسە"),
                   const DividerSentences(),
-                  Row(
-                    children: [
-                      const Expanded(
-                        child: Column(
-                          children: [
-                            ExampleSentenceEnglish(
-                                text:
-                                    "Participation in sport brings many benefits, both direct and indirect."),
-                            ExampleSentenceKurdish(
-                                text:
-                                    "بەژداری کردن لە وەرزشدا زۆر سوودی ھەیە، چی ڕاستەوخۆ یان ناڕاستەوخۆ."),
-                          ],
-                        ),
-                      ),
-                      const CustomSizedBoxForTTS(),
-                      Column(
-                        children: [
-                          CustomIconButtonBritish(
-                            onPressed: () => speakdirects12("en-GB"),
-                          ),
-                          CustomIconButtonAmerican(
-                            onPressed: () => speakdirects12("en-US"),
-                          ),
-                        ],
-                      ),
-                    ],
+                  SentencesRow(
+                    englishText:
+                        "Participation in sport brings many benefits, both direct and indirect.",
+                    kurdishText:
+                        "بەژداری کردن لە وەرزشدا زۆر سوودی ھەیە، چی ڕاستەوخۆ یان ناڕاستەوخۆ.",
+                    onPressedBritish: () => speakdirects12("en-GB"),
+                    onPressedAmerican: () => speakdirects12("en-US"),
                   ),
-                  // const DividerDefinition(),
-                  // const DefinitionKurdish(text: "ژممارە. (کردار) پێنناسە"),
                   const DividerSentences(),
-                  Row(
-                    children: [
-                      const Expanded(
-                        child: Column(
-                          children: [
-                            ExampleSentenceEnglish(
-                                text:
-                                    "You only get the disease through direct contact with contaminated blood."),
-                            ExampleSentenceKurdish(
-                                text:
-                                    "نەخۆشییەکە دەگریت تەنھا بە بەرکەوتنی ڕاستەوخۆ لەگەڵ خوێنی پیس."),
-                          ],
-                        ),
-                      ),
-                      const CustomSizedBoxForTTS(),
-                      Column(
-                        children: [
-                          CustomIconButtonBritish(
-                            onPressed: () => speakdirects13("en-GB"),
-                          ),
-                          CustomIconButtonAmerican(
-                            onPressed: () => speakdirects13("en-US"),
-                          ),
-                        ],
-                      ),
-                    ],
+                  SentencesRow(
+                    englishText:
+                        "You only get the disease through direct contact with contaminated blood.",
+                    kurdishText:
+                        "نەخۆشییەکە دەگریت تەنھا بە بەرکەوتنی ڕاستەوخۆ لەگەڵ خوێنی پیس.",
+                    onPressedBritish: () => speakdirects13("en-GB"),
+                    onPressedAmerican: () => speakdirects13("en-US"),
                   ),
                 ],
               ),
@@ -1014,463 +751,148 @@ class KurdishMeaning extends StatelessWidget {
               text:
                   "٣. (ھاوەڵناو) بەبێ ھیچ شتێک لە نێوان سەرچاوەی گەرمی یان ڕۆشنایی"),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The plant should not be placed in direct sunlight."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "ڕووەکەکە نابێت لە پێش تیشکی ڕاستەوخۆی خۆر دابنرێت."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdirects14("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdirects14("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "The plant should not be placed in direct sunlight.",
+            kurdishText: "ڕووەکەکە نابێت لە پێش تیشکی ڕاستەوخۆی خۆر دابنرێت.",
+            onPressedBritish: () => speakdirects14("en-GB"),
+            onPressedAmerican: () => speakdirects14("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "Protect your child from direct sunlight by using a sunscreen."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "منداڵەکەت لە تیشکی ڕاستەوخۆی خۆر بپارێزە بە دژەخۆر."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdirects15("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdirects15("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "Protect your child from direct sunlight by using a sunscreen.",
+            kurdishText: "منداڵەکەت لە تیشکی ڕاستەوخۆی خۆر بپارێزە بە دژەخۆر.",
+            onPressedBritish: () => speakdirects15("en-GB"),
+            onPressedAmerican: () => speakdirects15("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
                   "٤. (ھاوەڵناو) گوتنی ڕاستەوخۆی ئەوەی دەتەوێت بە ڕوونی کە ھەموان تێبگەن"),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "He would not give a direct answer."),
-                    ExampleSentenceKurdish(
-                        text: "وەڵامێکی ڕاستەوخۆی نەدەدایەوە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdirects16("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdirects16("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "He would not give a direct answer.",
+            kurdishText: "وەڵامێکی ڕاستەوخۆی نەدەدایەوە.",
+            onPressedBritish: () => speakdirects16("en-GB"),
+            onPressedAmerican: () => speakdirects16("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "Her response is refreshingly direct."),
-                    ExampleSentenceKurdish(
-                        text: "وەڵامەکەی ئاسوودەبەخشانە سەرڕاست بوو."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdirects17("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdirects17("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "Her response is refreshingly direct.",
+            kurdishText: "وەڵامەکەی ئاسوودەبەخشانە سەرڕاست بوو.",
+            onPressedBritish: () => speakdirects17("en-GB"),
+            onPressedAmerican: () => speakdirects17("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "You'll have to get used to his direct manner."),
-                    ExampleSentenceKurdish(
-                        text: "دەبێت ڕابێیت بە ڕەفتاری ڕاستەوڕاستی."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdirects18("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdirects18("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "You'll have to get used to his direct manner.",
+            kurdishText: "دەبێت ڕابێیت بە ڕەفتاری ڕاستەوڕاستی.",
+            onPressedBritish: () => speakdirects18("en-GB"),
+            onPressedAmerican: () => speakdirects18("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "Their message is simple and direct: obesity kills."),
-                    ExampleSentenceKurdish(
-                        text: "پەیامەکە سادە و ڕاستەوخۆیە: قەڵەوی دەتکوژێت."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdirects19("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdirects19("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "Their message is simple and direct: obesity kills.",
+            kurdishText: "پەیامەکە سادە و ڕاستەوخۆیە: قەڵەوی دەتکوژێت.",
+            onPressedBritish: () => speakdirects19("en-GB"),
+            onPressedAmerican: () => speakdirects19("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٥. (ھاوەڵناو) کە بە ڕوونی شتێک پیشان دەدات"),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "There is no direct evidence for the beneficial effects of these herbs."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "ھیچ بەڵگەی درووست نییە بۆ کاریگەرییە بەسوودەکانی ئەم ڕووەکە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdirects20("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdirects20("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "There is no direct evidence for the beneficial effects of these herbs.",
+            kurdishText:
+                "ھیچ بەڵگەی درووست نییە بۆ کاریگەرییە بەسوودەکانی ئەم ڕووەکە.",
+            onPressedBritish: () => speakdirects20("en-GB"),
+            onPressedAmerican: () => speakdirects20("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "This information has a direct bearing on (= is closely connected with) the case."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "ئەم زانیارییە پەیوەندی ڕاستەوخۆی ھەیە لەگەڵ کەیسەکە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdirects21("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdirects21("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "This information has a direct bearing on (= is closely connected with) the case.",
+            kurdishText: "ئەم زانیارییە پەیوەندی ڕاستەوخۆی ھەیە لەگەڵ کەیسەکە.",
+            onPressedBritish: () => speakdirects21("en-GB"),
+            onPressedAmerican: () => speakdirects21("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "There was no direct proof of his personal involvement."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "ھیچ بەڵگەی ڕاستەوخۆ نییە سەبارەت بە تێوەگلانی کەسیی."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdirects22("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdirects22("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "There was no direct proof of his personal involvement.",
+            kurdishText: "ھیچ بەڵگەی ڕاستەوخۆ نییە سەبارەت بە تێوەگلانی کەسیی.",
+            onPressedBritish: () => speakdirects22("en-GB"),
+            onPressedAmerican: () => speakdirects22("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: "٦. (ھاوەڵناو) بە تەواوی"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "That's the direct opposite of what you told me yesterday."),
-                    ExampleSentenceKurdish(
-                        text: "ئەوە تەواو پێچەوانەی ئەوەیە کە دوێنێ پێت گوتم."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdopsum1s23("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdopsum1s23("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "That's the direct opposite of what you told me yesterday.",
+            kurdishText: "ئەوە تەواو پێچەوانەی ئەوەیە کە دوێنێ پێت گوتم.",
+            onPressedBritish: () => speakdopsum1s23("en-GB"),
+            onPressedAmerican: () => speakdopsum1s23("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
                   "٧. (ھاوەڵناو) خزمێک کە لە ڕێگەی دایک و باوکەوە بە یەکدی دەگەن"),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "Diana is a direct descendant of Robert Peel."),
-                    ExampleSentenceKurdish(
-                        text: "دایانا خزمی ڕاستەوخۆی ڕۆبێرت پیڵە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdopsum1s24("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdopsum1s24("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "Diana is a direct descendant of Robert Peel.",
+            kurdishText: "دایانا خزمی ڕاستەوخۆی ڕۆبێرت پیڵە.",
+            onPressedBritish: () => speakdopsum1s24("en-GB"),
+            onPressedAmerican: () => speakdopsum1s24("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٨. (کردار) کۆنترۆڵکردن یان ڕاستەوخۆ بەرپرسی کەس/شتێک بیت"),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "He was asked to take command and direct operations."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "داوای لێکرا فەرمانداری بگرێتە دەست و ڕابەرایەتی ئۆپەراسیۆنەکان بکات."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdopsum1s25("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdopsum1s25("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "He was asked to take command and direct operations.",
+            kurdishText:
+                "داوای لێکرا فەرمانداری بگرێتە دەست و ڕابەرایەتی ئۆپەراسیۆنەکان بکات.",
+            onPressedBritish: () => speakdopsum1s25("en-GB"),
+            onPressedAmerican: () => speakdopsum1s25("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "A police officer was directing traffic."),
-                    ExampleSentenceKurdish(
-                        text: "ئەفسەرێکی پۆلیس ھاتووچۆی ڕێکدەخست."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdopsum1s26("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdopsum1s26("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "A police officer was directing traffic.",
+            kurdishText: "ئەفسەرێکی پۆلیس ھاتووچۆی ڕێکدەخست.",
+            onPressedBritish: () => speakdopsum1s26("en-GB"),
+            onPressedAmerican: () => speakdopsum1s26("en-US"),
           ),
           Column(
             children: [
               MyExpansionTile(
                 children: [
-                  Row(
-                    children: [
-                      const Expanded(
-                        child: Column(
-                          children: [
-                            ExampleSentenceEnglish(
-                                text:
-                                    "How much should the teacher guide and direct the students?"),
-                            ExampleSentenceKurdish(
-                                text:
-                                    "تا چەند مامۆستا دەبێت ڕینوێنی و ئاراستەی خوێندکاران بکات؟"),
-                          ],
-                        ),
-                      ),
-                      const CustomSizedBoxForTTS(),
-                      Column(
-                        children: [
-                          CustomIconButtonBritish(
-                            onPressed: () => speakdopsum1s27("en-GB"),
-                          ),
-                          CustomIconButtonAmerican(
-                            onPressed: () => speakdopsum1s27("en-US"),
-                          ),
-                        ],
-                      ),
-                    ],
+                  SentencesRow(
+                    englishText:
+                        "How much should the teacher guide and direct the students?",
+                    kurdishText:
+                        "تا چەند مامۆستا دەبێت ڕینوێنی و ئاراستەی خوێندکاران بکات؟",
+                    onPressedBritish: () => speakdopsum1s27("en-GB"),
+                    onPressedAmerican: () => speakdopsum1s27("en-US"),
                   ),
-                  // const DividerDefinition(),
-                  // const DefinitionKurdish(text: "ژممارە. (کردار) پێنناسە"),
                   const DividerSentences(),
-                  Row(
-                    children: [
-                      const Expanded(
-                        child: Column(
-                          children: [
-                            ExampleSentenceEnglish(
-                                text:
-                                    "A new manager has been appointed to direct the project."),
-                            ExampleSentenceKurdish(
-                                text:
-                                    "بەڕێوەبەرێکی تازە دیاریکراوە کە پڕۆژەکە بەڕێوە ببات."),
-                          ],
-                        ),
-                      ),
-                      const CustomSizedBoxForTTS(),
-                      Column(
-                        children: [
-                          CustomIconButtonBritish(
-                            onPressed: () => speakdopsum1s28("en-GB"),
-                          ),
-                          CustomIconButtonAmerican(
-                            onPressed: () => speakdopsum1s28("en-US"),
-                          ),
-                        ],
-                      ),
-                    ],
+                  SentencesRow(
+                    englishText:
+                        "A new manager has been appointed to direct the project.",
+                    kurdishText:
+                        "بەڕێوەبەرێکی تازە دیاریکراوە کە پڕۆژەکە بەڕێوە ببات.",
+                    onPressedBritish: () => speakdopsum1s28("en-GB"),
+                    onPressedAmerican: () => speakdopsum1s28("en-US"),
                   ),
-                  // const DividerDefinition(),
-                  // const DefinitionKurdish(text: "ژممارە. (کردار) پێنناسە"),
                   const DividerSentences(),
-                  Row(
-                    children: [
-                      const Expanded(
-                        child: Column(
-                          children: [
-                            ExampleSentenceEnglish(
-                                text:
-                                    "The campaign was carefully directed from party central office."),
-                            ExampleSentenceKurdish(
-                                text:
-                                    "کەمپیەنەکە بەوریایی لە ئۆفیسی سەرەکیی پارتەکەوە ڕابەرایەتی دەکرا."),
-                          ],
-                        ),
-                      ),
-                      const CustomSizedBoxForTTS(),
-                      Column(
-                        children: [
-                          CustomIconButtonBritish(
-                            onPressed: () => speakdopsum1s29("en-GB"),
-                          ),
-                          CustomIconButtonAmerican(
-                            onPressed: () => speakdopsum1s29("en-US"),
-                          ),
-                        ],
-                      ),
-                    ],
+                  SentencesRow(
+                    englishText:
+                        "The campaign was carefully directed from party central office.",
+                    kurdishText:
+                        "کەمپیەنەکە بەوریایی لە ئۆفیسی سەرەکیی پارتەکەوە ڕابەرایەتی دەکرا.",
+                    onPressedBritish: () => speakdopsum1s29("en-GB"),
+                    onPressedAmerican: () => speakdopsum1s29("en-US"),
                   ),
                 ],
               ),
@@ -1480,479 +902,151 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text: "٩. (کردار) بوون بە دەرھێنەری فیلم، شانۆ، ھتد"),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "She prefers to act rather than direct."),
-                    ExampleSentenceKurdish(
-                        text: "پێی خۆشە نواندن بکات نەک دەرھێنان."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdopsum1s30("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdopsum1s30("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "She prefers to act rather than direct.",
+            kurdishText: "پێی خۆشە نواندن بکات نەک دەرھێنان.",
+            onPressedBritish: () => speakdopsum1s30("en-GB"),
+            onPressedAmerican: () => speakdopsum1s30("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "He directed the school play."),
-                    ExampleSentenceKurdish(text: "شانۆی قوتابخانەکەی دەرھێنا."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdopsum1s31("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdopsum1s31("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "He directed the school play.",
+            kurdishText: "شانۆی قوتابخانەکەی دەرھێنا.",
+            onPressedBritish: () => speakdopsum1s31("en-GB"),
+            onPressedAmerican: () => speakdopsum1s31("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The film was written and directed by Sofia Coppola."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "فیلمەکە لەلایەن سۆفیا کۆپۆلاوە نووسرا و دەرھێنرا."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdopsum1s32("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdopsum1s32("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "The film was written and directed by Sofia Coppola.",
+            kurdishText: "فیلمەکە لەلایەن سۆفیا کۆپۆلاوە نووسرا و دەرھێنرا.",
+            onPressedBritish: () => speakdopsum1s32("en-GB"),
+            onPressedAmerican: () => speakdopsum1s32("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "١٠. (کردار) ئاراستەکردنی شتێک لە ئامانجێکی دیاریکراو"),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "He directed his attention to the next task."),
-                    ExampleSentenceKurdish(
-                        text: "سەرنجی خستە سەر ئەرکی دواتر."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdopsum1s33("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdopsum1s33("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "He directed his attention to the next task.",
+            kurdishText: "سەرنجی خستە سەر ئەرکی دواتر.",
+            onPressedBritish: () => speakdopsum1s33("en-GB"),
+            onPressedAmerican: () => speakdopsum1s33("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "All our efforts should be directed towards helping those who need it."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "ھەموو ھەوڵەکانت دەبێت ڕوو لەوانە بن کە پێویستیان پێیەتی."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdopsum1s34("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdopsum1s34("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "All our efforts should be directed towards helping those who need it.",
+            kurdishText:
+                "ھەموو ھەوڵەکانت دەبێت ڕوو لەوانە بن کە پێویستیان پێیەتی.",
+            onPressedBritish: () => speakdopsum1s34("en-GB"),
+            onPressedAmerican: () => speakdopsum1s34("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "Her criticism was directed at her own superiors."),
-                    ExampleSentenceKurdish(
-                        text: "ڕەخنەکانی ڕوو لە پایەبەرزەکانی خۆی بوو."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdopsum1s35("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdopsum1s35("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "Her criticism was directed at her own superiors.",
+            kurdishText: "ڕەخنەکانی ڕوو لە پایەبەرزەکانی خۆی بوو.",
+            onPressedBritish: () => speakdopsum1s35("en-GB"),
+            onPressedAmerican: () => speakdopsum1s35("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "The book is directed at younger readers."),
-                    ExampleSentenceKurdish(
-                        text: "کتێبەکە بۆ خوێنەرانی گەنجترە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdopsum1s36("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdopsum1s36("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "The book is directed at younger readers.",
+            kurdishText: "کتێبەکە بۆ خوێنەرانی گەنجترە.",
+            onPressedBritish: () => speakdopsum1s36("en-GB"),
+            onPressedAmerican: () => speakdopsum1s36("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
                   "١١. (کردار) پیشاندانی کەسێک کە چۆن بگات بە شوێنێک یان بۆ کوێ بچێت"),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "It's not far—I'll direct you."),
-                    ExampleSentenceKurdish(text: "دوور نییە ـ ئاراستەت دەکەم."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdopsum1s37("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdopsum1s37("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "It's not far—I'll direct you.",
+            kurdishText: "دوور نییە ـ ئاراستەت دەکەم.",
+            onPressedBritish: () => speakdopsum1s37("en-GB"),
+            onPressedAmerican: () => speakdopsum1s37("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "Could you direct me to the station?"),
-                    ExampleSentenceKurdish(
-                        text: "دەتوانیت ڕێنوێنیم بکەیت بۆ وێستگەکە؟"),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdopsum1s38("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdopsum1s38("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "Could you direct me to the station?",
+            kurdishText: "دەتوانیت ڕێنوێنیم بکەیت بۆ وێستگەکە؟",
+            onPressedBritish: () => speakdopsum1s38("en-GB"),
+            onPressedAmerican: () => speakdopsum1s38("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "He was directed to a table beside the window."),
-                    ExampleSentenceKurdish(
-                        text: "ڕێنوێنی کرا بۆ مێزێک لە تەنیشت پەنجەرەکە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdopsum1s39("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdopsum1s39("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "He was directed to a table beside the window.",
+            kurdishText: "ڕێنوێنی کرا بۆ مێزێک لە تەنیشت پەنجەرەکە.",
+            onPressedBritish: () => speakdopsum1s39("en-GB"),
+            onPressedAmerican: () => speakdopsum1s39("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: "١٢. (کردار) دەرکردنی فەرمانێکی فەرمی"),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The police officers had been directed to search the building."),
-                    ExampleSentenceKurdish(
-                        text: "پۆلیسەکان فەرمانیان پێکرابوو بیناکە بگەڕێن."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdopsum1s40("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdopsum1s40("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "The police officers had been directed to search the building.",
+            kurdishText: "پۆلیسەکان فەرمانیان پێکرابوو بیناکە بگەڕێن.",
+            onPressedBritish: () => speakdopsum1s40("en-GB"),
+            onPressedAmerican: () => speakdopsum1s40("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                      text:
-                          "The judge directed that the mother be given custody of the children.",
-                      note:
-                          "British English also: The judge directed that the mother should be given custody of the children.",
-                    ),
-                    ExampleSentenceKurdish(
-                        text:
-                            "دادوەرەکە بڕیاری دا کە دایکەکە مافی چاودێری منداڵەکانی پێبدرێت."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdopsum1s41("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdopsum1s41("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "The judge directed that the mother be given custody of the children.",
+            englishNote:
+                "British English also: The judge directed that the mother should be given custody of the children.",
+            kurdishText:
+                "دادوەرەکە بڕیاری دا کە دایکەکە مافی چاودێری منداڵەکانی پێبدرێت.",
+            onPressedBritish: () => speakdopsum1s41("en-GB"),
+            onPressedAmerican: () => speakdopsum1s41("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "١٣. (کردار) ناردنی نامەیەک بۆ شوێن یان کەسێکی دیاریکراو"),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "Direct any complaints to the Customer Services department."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "ھەر ڕەخنەیەک بگەیەنن بە بەشی خزمەتگوزاری بەکارھێنەران."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdopsum1s42("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdopsum1s42("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "Direct any complaints to the Customer Services department.",
+            kurdishText:
+                "ھەر ڕەخنەیەک بگەیەنن بە بەشی خزمەتگوزاری بەکارھێنەران.",
+            onPressedBritish: () => speakdopsum1s42("en-GB"),
+            onPressedAmerican: () => speakdopsum1s42("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "١٤. (کردار) بەبێ گۆڕینی ڕێگا یان ئۆتۆمبێل"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "We flew direct to Hong Kong."),
-                    ExampleSentenceKurdish(text: "ڕاستەوخۆ بۆ ھۆنگ کۆنگ فڕین."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdopsum1s43("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdopsum1s43("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "We flew direct to Hong Kong.",
+            kurdishText: "ڕاستەوخۆ بۆ ھۆنگ کۆنگ فڕین.",
+            onPressedBritish: () => speakdopsum1s43("en-GB"),
+            onPressedAmerican: () => speakdopsum1s43("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "You can now fly direct from Birmingham airport."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "دەتوانیت ڕاستەوخۆ لە فڕۆکەخانەی بێرمینگھامەوە بفڕیت."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdopsum1s44("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdopsum1s44("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "You can now fly direct from Birmingham airport.",
+            kurdishText: "دەتوانیت ڕاستەوخۆ لە فڕۆکەخانەی بێرمینگھامەوە بفڕیت.",
+            onPressedBritish: () => speakdopsum1s44("en-GB"),
+            onPressedAmerican: () => speakdopsum1s44("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
                   "١٥. (کردار) بەبێ لەخۆگرتنی کەسانی دیکە، یان ئەوەی ھیچ کەس/شتێک لە نێواندا بێت"),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "I prefer to deal with him direct."),
-                    ExampleSentenceKurdish(
-                        text: "باشترە لام ڕاستەوخۆ مامەڵەی لەگەڵ بکەم."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdopsum1s45("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdopsum1s45("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "I prefer to deal with him direct.",
+            kurdishText: "باشترە لام ڕاستەوخۆ مامەڵەی لەگەڵ بکەم.",
+            onPressedBritish: () => speakdopsum1s45("en-GB"),
+            onPressedAmerican: () => speakdopsum1s45("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "Customers can buy produce direct from the farmer."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "کڕیاران دەتوانن ڕاستەوخۆ بەرھەم لە جوتیارەکە بکڕن."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdopsum1s46("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdopsum1s46("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "Customers can buy produce direct from the farmer.",
+            kurdishText: "کڕیاران دەتوانن ڕاستەوخۆ بەرھەم لە جوتیارەکە بکڕن.",
+            onPressedBritish: () => speakdopsum1s46("en-GB"),
+            onPressedAmerican: () => speakdopsum1s46("en-US"),
           ),
           // dopsum1s4700"),
           // speakdopsum1s47

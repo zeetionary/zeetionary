@@ -586,177 +586,55 @@ class KurdishMeaning extends StatelessWidget {
 کوردی: جیاوازی، کێشە، ناکۆکی، ناتەبایی، ناسازی، کەلێن، سنوور،	خاڵی وەرچەرخان، ئاوەڕێژ، دابەشگەی ئاو
 """),
           const DefinitionKurdish(text: "١. (کردار) دابەشکردن"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "The cells began to divide rapidly."),
-                    ExampleSentenceKurdish(
-                        text: "خانەکان بەخێرایی دەستیان بە دابەشبوون کرد."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "divide", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdivides1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdivides1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "The cells began to divide rapidly.",
+            kurdishText: "خانەکان بەخێرایی دەستیان بە دابەشبوون کرد.", // divide
+            onPressedBritish: () => speakdivides1("en-GB"),
+            onPressedAmerican: () => speakdivides1("en-US"),
           ),
           Column(
             children: [
               MyExpansionTile(
                 children: [
-                  Row(
-                    children: [
-                      const Expanded(
-                        child: Column(
-                          children: [
-                            ExampleSentenceEnglish(
-                                text:
-                                    "The questions divide into two categories: easy and hard."),
-                            ExampleSentenceKurdish(
-                                text:
-                                    "پرسیارەکان بەسەر دوو کۆمەڵەدا دابەشبوونە: ئاسان و سەخت."),
-                          ],
-                        ),
-                      ),
-                      const CustomSizedBoxForTTS(),
-                      Column(
-                        children: [
-                          CustomIconButtonBritish(
-                            onPressed: () => speakdivides2("en-GB"),
-                          ),
-                          CustomIconButtonAmerican(
-                            onPressed: () => speakdivides2("en-US"),
-                          ),
-                        ],
-                      ),
-                    ],
+                  SentencesRow(
+                    englishText:
+                        "The questions divide into two categories: easy and hard.",
+                    kurdishText:
+                        "پرسیارەکان بەسەر دوو کۆمەڵەدا دابەشبوونە: ئاسان و سەخت.",
+                    onPressedBritish: () => speakdivides2("en-GB"),
+                    onPressedAmerican: () => speakdivides2("en-US"),
                   ),
-                  // const DividerDefinition(),
-                  // const DefinitionKurdish(text: "ژممارە. (ناو) پێنناسە"),
                   const DividerSentences(),
-                  Row(
-                    children: [
-                      const Expanded(
-                        child: Column(
-                          children: [
-                            ExampleSentenceEnglish(
-                                text:
-                                    "After lunch we divided up for group discussions."),
-                            ExampleSentenceKurdish(
-                                text:
-                                    "دوای نانی نیوەڕۆ دابەش بووین بۆ گفتوگۆی گرووپی."),
-                          ],
-                        ),
-                      ),
-                      const CustomSizedBoxForTTS(),
-                      Column(
-                        children: [
-                          CustomIconButtonBritish(
-                            onPressed: () => speakdivides3("en-GB"),
-                          ),
-                          CustomIconButtonAmerican(
-                            onPressed: () => speakdivides3("en-US"),
-                          ),
-                        ],
-                      ),
-                    ],
+                  SentencesRow(
+                    englishText:
+                        "After lunch we divided up for group discussions.",
+                    kurdishText:
+                        "دوای نانی نیوەڕۆ دابەش بووین بۆ گفتوگۆی گرووپی.",
+                    onPressedBritish: () => speakdivides3("en-GB"),
+                    onPressedAmerican: () => speakdivides3("en-US"),
                   ),
-                  // const DividerDefinition(),
-                  // const DefinitionKurdish(text: "ژممارە. (ناو) پێنناسە"),
                   const DividerSentences(),
-                  Row(
-                    children: [
-                      const Expanded(
-                        child: Column(
-                          children: [
-                            ExampleSentenceEnglish(
-                                text: "I divided the class into four groups."),
-                            ExampleSentenceKurdish(
-                                text: "پۆلەکەم بەسەر چوار گرووپدا دابەش کرد."),
-                          ],
-                        ),
-                      ),
-                      const CustomSizedBoxForTTS(),
-                      Column(
-                        children: [
-                          CustomIconButtonBritish(
-                            onPressed: () => speakdivides4("en-GB"),
-                          ),
-                          CustomIconButtonAmerican(
-                            onPressed: () => speakdivides4("en-US"),
-                          ),
-                        ],
-                      ),
-                    ],
+                  SentencesRow(
+                    englishText: "I divided the class into four groups.",
+                    kurdishText: "پۆلەکەم بەسەر چوار گرووپدا دابەش کرد.",
+                    onPressedBritish: () => speakdivides4("en-GB"),
+                    onPressedAmerican: () => speakdivides4("en-US"),
                   ),
-                  // const DividerDefinition(),
-                  // const DefinitionKurdish(text: "ژممارە. (ناو) پێنناسە"),
                   const DividerSentences(),
-                  Row(
-                    children: [
-                      const Expanded(
-                        child: Column(
-                          children: [
-                            ExampleSentenceEnglish(
-                                text: "The book is divided into 11 sections."),
-                            ExampleSentenceKurdish(
-                                text: "کتێبەکە بەسەر ١١ بەشدا دابەش بووە."),
-                          ],
-                        ),
-                      ),
-                      const CustomSizedBoxForTTS(),
-                      Column(
-                        children: [
-                          CustomIconButtonBritish(
-                            onPressed: () => speakdivides5("en-GB"),
-                          ),
-                          CustomIconButtonAmerican(
-                            onPressed: () => speakdivides5("en-US"),
-                          ),
-                        ],
-                      ),
-                    ],
+                  SentencesRow(
+                    englishText: "The book is divided into 11 sections.",
+                    kurdishText: "کتێبەکە بەسەر ١١ بەشدا دابەش بووە.",
+                    onPressedBritish: () => speakdivides5("en-GB"),
+                    onPressedAmerican: () => speakdivides5("en-US"),
                   ),
-                  // const DividerDefinition(),
-                  // const DefinitionKurdish(text: "ژممارە. (ناو) پێنناسە"),
                   const DividerSentences(),
-                  Row(
-                    children: [
-                      const Expanded(
-                        child: Column(
-                          children: [
-                            ExampleSentenceEnglish(
-                                text:
-                                    "A sentence can be divided up into meaningful segments."),
-                            ExampleSentenceKurdish(
-                                text:
-                                    "ڕستەیەک دەکرێت بەسەر ژمارەیەک یەکەی واتاداردا دابەش بکرێت."),
-                          ],
-                        ),
-                      ),
-                      const CustomSizedBoxForTTS(),
-                      Column(
-                        children: [
-                          CustomIconButtonBritish(
-                            onPressed: () => speakdivides6("en-GB"),
-                          ),
-                          CustomIconButtonAmerican(
-                            onPressed: () => speakdivides6("en-US"),
-                          ),
-                        ],
-                      ),
-                    ],
+                  SentencesRow(
+                    englishText:
+                        "A sentence can be divided up into meaningful segments.",
+                    kurdishText:
+                        "ڕستەیەک دەکرێت بەسەر ژمارەیەک یەکەی واتاداردا دابەش بکرێت.",
+                    onPressedBritish: () => speakdivides6("en-GB"),
+                    onPressedAmerican: () => speakdivides6("en-US"),
                   ),
                 ],
               ),
@@ -767,616 +645,198 @@ class KurdishMeaning extends StatelessWidget {
               text:
                   "٢. (کردار) بەش‌بەشکردنی شتێک و دابەشکردنی بەسەر ژمارەیەک کەسدا "),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "They could not agree on how to divide the land."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "نەیاندەتوانی ڕێکبکەون لەسەر ئەوەی چۆن زەوییەکە دابەش بکەن."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdivides7("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdivides7("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "They could not agree on how to divide the land.",
+            kurdishText:
+                "نەیاندەتوانی ڕێکبکەون لەسەر ئەوەی چۆن زەوییەکە دابەش بکەن.",
+            onPressedBritish: () => speakdivides7("en-GB"),
+            onPressedAmerican: () => speakdivides7("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "Jack divided up the rest of the cash."),
-                    ExampleSentenceKurdish(text: "جاک باقی کاشەکەی دابەش کرد."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdivides8("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdivides8("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "Jack divided up the rest of the cash.",
+            kurdishText: "جاک باقی کاشەکەی دابەش کرد.",
+            onPressedBritish: () => speakdivides8("en-GB"),
+            onPressedAmerican: () => speakdivides8("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "We divided the work between us."),
-                    ExampleSentenceKurdish(
-                        text: "کارەکەمان لە نێوانماندا دابەشکرد."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdivides9("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdivides9("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "We divided the work between us.",
+            kurdishText: "کارەکەمان لە نێوانماندا دابەشکرد.",
+            onPressedBritish: () => speakdivides9("en-GB"),
+            onPressedAmerican: () => speakdivides9("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "Profits were divided up among the staff."),
-                    ExampleSentenceKurdish(
-                        text: "قازانجەکان بەسەر ستافەکە دابەشکران."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdivides10("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdivides10("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "Profits were divided up among the staff.",
+            kurdishText: "قازانجەکان بەسەر ستافەکە دابەشکران.",
+            onPressedBritish: () => speakdivides10("en-GB"),
+            onPressedAmerican: () => speakdivides10("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "The money was divided equally among his sons."),
-                    ExampleSentenceKurdish(
-                        text: "پارەکە بە یەکسانی بەسەر کوڕەکانیدا دابەشکرا."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdivides11("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdivides11("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "The money was divided equally among his sons.",
+            kurdishText: "پارەکە بە یەکسانی بەسەر کوڕەکانیدا دابەشکرا.",
+            onPressedBritish: () => speakdivides11("en-GB"),
+            onPressedAmerican: () => speakdivides11("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
                   "٣. (کردار) بەکارھێنانی بەشە جیاوازەکانی کاتت، وزەت، ھتد بۆ چالاکی و کاری جیاواز"),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "As working parents we think carefully about how we divide our time."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "وەک دایبابی ئیشکەر بە وریایی بیردەکەینەوە لەوەی چۆن کاتمان دابەش بکەین."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdivides12("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdivides12("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "As working parents we think carefully about how we divide our time.",
+            kurdishText:
+                "وەک دایبابی ئیشکەر بە وریایی بیردەکەینەوە لەوەی چۆن کاتمان دابەش بکەین.",
+            onPressedBritish: () => speakdivides12("en-GB"),
+            onPressedAmerican: () => speakdivides12("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "He divides his energies between politics and business."),
-                    ExampleSentenceKurdish(
-                        text: "وزەی بەسەر سیاسەت و کاردا دابەش دەکات."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdivides13("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdivides13("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "He divides his energies between politics and business.",
+            kurdishText: "وزەی بەسەر سیاسەت و کاردا دابەش دەکات.",
+            onPressedBritish: () => speakdivides13("en-GB"),
+            onPressedAmerican: () => speakdivides13("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "They divided their time between London and Boston."),
-                    ExampleSentenceKurdish(
-                        text: "کاتیان لە نێوان لەندەن و بۆستندا بەسەر دەبرد."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdivides14("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdivides14("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "They divided their time between London and Boston.",
+            kurdishText: "کاتیان لە نێوان لەندەن و بۆستندا بەسەر دەبرد.",
+            onPressedBritish: () => speakdivides14("en-GB"),
+            onPressedAmerican: () => speakdivides14("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
                   "٤. (کردار) دابەش بوون بەسەر دوو بەش یان زیاتر کە بە ئاراستەی جیاوازدا دەچن"),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "Where the path divides, keep right."),
-                    ExampleSentenceKurdish(
-                        text: "لەو شوێنەی ڕێگاکە جیادەبێتەوە، بە ڕاستدا بچۆ."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdivides15("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdivides15("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "Where the path divides, keep right.",
+            kurdishText: "لەو شوێنەی ڕێگاکە جیادەبێتەوە، بە ڕاستدا بچۆ.",
+            onPressedBritish: () => speakdivides15("en-GB"),
+            onPressedAmerican: () => speakdivides15("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "The river divides into several channels."),
-                    ExampleSentenceKurdish(
-                        text: "ڕووبارەکە بۆ ژمارەیەک جۆگە دابەش دەبێت."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdivides16("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdivides16("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "The river divides into several channels.",
+            kurdishText: "ڕووبارەکە بۆ ژمارەیەک جۆگە دابەش دەبێت.",
+            onPressedBritish: () => speakdivides16("en-GB"),
+            onPressedAmerican: () => speakdivides16("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٥. (کردار) جیاکردنەوەی دوو شت یان کەس"),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "Can it ever be right to divide a mother from her child?"),
-                    ExampleSentenceKurdish(
-                        text:
-                            "ھەرگیز دەکرێت درووست بێت کە دایکێک لە منداڵەکەی جیابکەیتەوە؟"),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdivides17("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdivides17("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "Can it ever be right to divide a mother from her child?",
+            kurdishText:
+                "ھەرگیز دەکرێت درووست بێت کە دایکێک لە منداڵەکەی جیابکەیتەوە؟",
+            onPressedBritish: () => speakdivides17("en-GB"),
+            onPressedAmerican: () => speakdivides17("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٦. (کردار) بوون بە خاڵی جیاکەرەوەی دوو شت یان کەس"),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "A fence divides off the western side of the grounds."),
-                    ExampleSentenceKurdish(
-                        text: "پەرژینێک لای ڕۆژئاوای زەوییەکان جیادەکاتەوە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdivides18("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdivides18("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "A fence divides off the western side of the grounds.",
+            kurdishText: "پەرژینێک لای ڕۆژئاوای زەوییەکان جیادەکاتەوە.",
+            onPressedBritish: () => speakdivides18("en-GB"),
+            onPressedAmerican: () => speakdivides18("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The English Channel divides England from France."),
-                    ExampleSentenceKurdish(
-                        text: "کەناڵی ئینگلیز ئینگلتەرە و فەرەنسا جیادکاتەوە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdivides19("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdivides19("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "The English Channel divides England from France.",
+            kurdishText: "کەناڵی ئینگلیز ئینگلتەرە و فەرەنسا جیادکاتەوە.",
+            onPressedBritish: () => speakdivides19("en-GB"),
+            onPressedAmerican: () => speakdivides19("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
                   "٧. (کردار) دابەشکردن؛ دۆزینەوەی ئەوەی ژمارەیەک چەند جار ژمارەیەکی دیکە لەخۆدەگرێت"),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(text: "It's easy to divide by ten."),
-                    ExampleSentenceKurdish(
-                        text: "ئاسانە بەسەر ١٠ ـدا دابەش بکەیت."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdivides20("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdivides20("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "It's easy to divide by ten.",
+            kurdishText: "ئاسانە بەسەر ١٠ ـدا دابەش بکەیت.",
+            onPressedBritish: () => speakdivides20("en-GB"),
+            onPressedAmerican: () => speakdivides20("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "30 divided by 6 is 5 (= 30 ÷ 6 = 5)."),
-                    ExampleSentenceKurdish(text: "٣٠ دابەشی ٦ دەبێتە ٥."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdivides21("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdivides21("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "30 divided by 6 is 5 (= 30 ÷ 6 = 5).",
+            kurdishText: "٣٠ دابەشی ٦ دەبێتە ٥.",
+            onPressedBritish: () => speakdivides21("en-GB"),
+            onPressedAmerican: () => speakdivides21("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The children are learning how to multiply and divide."),
-                    ExampleSentenceKurdish(
-                        text: "منداڵەکان فێردەبن چۆن لێکدان و دابەش بکەن."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdivides22("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdivides22("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "The children are learning how to multiply and divide.",
+            kurdishText: "منداڵەکان فێردەبن چۆن لێکدان و دابەش بکەن.",
+            onPressedBritish: () => speakdivides22("en-GB"),
+            onPressedAmerican: () => speakdivides22("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
                   "٨. (کردار) کە دەکرێت لێکبدرێت بۆ بەدەستھێنانی ژمارەیەکی دیکە"),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(text: "5 divides into 30 6 times."),
-                    ExampleSentenceKurdish(
-                        text: "٥ شەش جار بەسەر ٣٠ ـدا دابەش دەکرێت."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdivides23("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdivides23("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "5 divides into 30 6 times.",
+            kurdishText: "٥ شەش جار بەسەر ٣٠ ـدا دابەش دەکرێت.",
+            onPressedBritish: () => speakdivides23("en-GB"),
+            onPressedAmerican: () => speakdivides23("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٩. (کردار) وا لە خەڵکی بکەیت ناکۆک بن"),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "This issue has bitterly divided the community."),
-                    ExampleSentenceKurdish(
-                        text: "ئەم بابەتە بە توندی کۆمەڵگەکەی دابەش کردووە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdivides24("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdivides24("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "This issue has bitterly divided the community.",
+            kurdishText: "ئەم بابەتە بە توندی کۆمەڵگەکەی دابەش کردووە.",
+            onPressedBritish: () => speakdivides24("en-GB"),
+            onPressedAmerican: () => speakdivides24("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The building divides opinion (= some people like it and some do not)."),
-                    ExampleSentenceKurdish(text: "بیناکەکە ناکۆکی لەسەرە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdivides25("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdivides25("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "The building divides opinion (= some people like it and some do not).",
+            kurdishText: "بیناکەکە ناکۆکی لەسەرە.",
+            onPressedBritish: () => speakdivides25("en-GB"),
+            onPressedAmerican: () => speakdivides25("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "The party is deeply divided on this question."),
-                    ExampleSentenceKurdish(
-                        text: "پارتەکە بە قووڵی دابەش بووە لەسەر ئەم بابەتە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdivides26("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdivides26("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "The party is deeply divided on this question.",
+            kurdishText: "پارتەکە بە قووڵی دابەش بووە لەسەر ئەم بابەتە.",
+            onPressedBritish: () => speakdivides26("en-GB"),
+            onPressedAmerican: () => speakdivides26("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
                   "١٠. (ناو) جیاوازییەک کە دوو کەس یان شت لە یەکدی جیادەکاتەوە"),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "He offered advice on bridging cultural divides."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "ڕاوێژی پێشکەش کرد لەسەر کەمکردنەوەی جیاوازییە کەلتوورییەکان."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdivides27("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdivides27("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "He offered advice on bridging cultural divides.",
+            kurdishText:
+                "ڕاوێژی پێشکەش کرد لەسەر کەمکردنەوەی جیاوازییە کەلتوورییەکان.",
+            onPressedBritish: () => speakdivides27("en-GB"),
+            onPressedAmerican: () => speakdivides27("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "Will this deepen the divide between the country's rich and poor?"),
-                    ExampleSentenceKurdish(
-                        text:
-                            "ئایا ئەمە جیاوازییەکانی نێوان دەوڵەمەند و ھەژار قووڵ دەکاتەوە؟"),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdivides28("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdivides28("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "Will this deepen the divide between the country's rich and poor?",
+            kurdishText:
+                "ئایا ئەمە جیاوازییەکانی نێوان دەوڵەمەند و ھەژار قووڵ دەکاتەوە؟",
+            onPressedBritish: () => speakdivides28("en-GB"),
+            onPressedAmerican: () => speakdivides28("en-US"),
           ),
           // divides2900"),
           // speakdivides29

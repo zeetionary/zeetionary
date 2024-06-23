@@ -363,30 +363,12 @@ class KurdishMeaning extends StatelessWidget {
 // """),
           const DefinitionKurdish(
               text: "١. (ناو) بڕێک پارە کە وەک پێشەکی دەدرێت"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "We are saving for a down payment on a house."),
-                    ExampleSentenceKurdish(
-                        text: "پارە پاشەکەوت دەکەین بۆ پێشەکی خانوویەک."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "down payment", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdownpayments1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdownpayments1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "We are saving for a down payment on a house.",
+            kurdishText:
+                "پارە پاشەکەوت دەکەین بۆ پێشەکی خانوویەک.", // down payment
+            onPressedBritish: () => speakdownpayments1("en-GB"),
+            onPressedAmerican: () => speakdownpayments1("en-US"),
           ),
           // downpayments200"),
           // speakdownpayments2

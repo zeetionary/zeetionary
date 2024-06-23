@@ -372,62 +372,24 @@ class KurdishMeaning extends StatelessWidget {
 """),
           const DefinitionKurdish(
               text: "١. (ھاوەڵناو) بەرەو خوارەوە یان ڕوو لە خوارەوە"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "She was trapped in a downward spiral (= continuous increase) of personal unhappiness."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "لە گێژەڵووکەیەکی ڕوولە داشکانی نەھامەتیی کەسیدا گیری کردبوو."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "downward", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdownwards1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdownwards1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "She was trapped in a downward spiral (= continuous increase) of personal unhappiness.",
+            kurdishText:
+                "لە گێژەڵووکەیەکی ڕوولە داشکانی نەھامەتیی کەسیدا گیری کردبوو.", // downward
+            onPressedBritish: () => speakdownwards1("en-GB"),
+            onPressedAmerican: () => speakdownwards1("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The business was on a downward path, finally closing in 2019."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "بازرگانییەکە بە ئاقارێکی ڕوو لە داشکاندا دەچوو، لە کۆتاییدا لە ٢٠١٩ داخرا"),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdownwards2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdownwards2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "The business was on a downward path, finally closing in 2019.",
+            kurdishText:
+                "بازرگانییەکە بە ئاقارێکی ڕوو لە داشکاندا دەچوو، لە کۆتاییدا لە ٢٠١٩ داخرا",
+            onPressedBritish: () => speakdownwards2("en-GB"),
+            onPressedAmerican: () => speakdownwards2("en-US"),
           ),
           // downwards300"),
           // speakdownwards3

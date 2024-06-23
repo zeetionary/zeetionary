@@ -373,59 +373,21 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "١. (ھاوەڵناو) کە تەواو نیگەرانت دەکات چونکە کەسێک ئازار دەچێژێت"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "It was a very distressing documentary."),
-                    ExampleSentenceKurdish(
-                        text: "دۆکیمێنتارییەکی زۆر بە ئازار بوو."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "distressing", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdistressings1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdistressings1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "It was a very distressing documentary.",
+            kurdishText: "دۆکیمێنتارییەکی زۆر بە ئازار بوو.", // distressing
+            onPressedBritish: () => speakdistressings1("en-GB"),
+            onPressedAmerican: () => speakdistressings1("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The divorce was extremely distressing for the children."),
-                    ExampleSentenceKurdish(
-                        text: "جیابوونەوەکە تەواو بەژان بوو بۆ منداڵەکان."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdistressings2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdistressings2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "The divorce was extremely distressing for the children.",
+            kurdishText: "جیابوونەوەکە تەواو بەژان بوو بۆ منداڵەکان.",
+            onPressedBritish: () => speakdistressings2("en-GB"),
+            onPressedAmerican: () => speakdistressings2("en-US"),
           ),
           // distressings300"),
           // speakdistressings3

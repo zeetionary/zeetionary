@@ -240,61 +240,23 @@ class KurdishMeaning extends StatelessWidget {
 // کوردی:
 // """),
           const DefinitionKurdish(text: "١. (کردار) تێکدانی ڕەنگی شتێک"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "Plastic tends to discolour with age."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "پلاستیک مەیلی ھەیە لەگەڵ تەمەندا ڕەنگی تێکبچێت."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "discolour", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdiscolours1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdiscolours1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "Plastic tends to discolour with age.",
+            kurdishText:
+                "پلاستیک مەیلی ھەیە لەگەڵ تەمەندا ڕەنگی تێکبچێت.", // discolour
+            onPressedBritish: () => speakdiscolours1("en-GB"),
+            onPressedAmerican: () => speakdiscolours1("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The pipes were beginning to rust, discolouring the water."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "بۆرییەکان دەستیان بە ژەنگگرتن دەکرد و ڕەنگی ئاوەکەیان پیس دەکرد."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdiscolours2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdiscolours2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "The pipes were beginning to rust, discolouring the water.",
+            kurdishText:
+                "بۆرییەکان دەستیان بە ژەنگگرتن دەکرد و ڕەنگی ئاوەکەیان پیس دەکرد.",
+            onPressedBritish: () => speakdiscolours2("en-GB"),
+            onPressedAmerican: () => speakdiscolours2("en-US"),
           ),
           // discolours300"),
           // speakdiscolours3

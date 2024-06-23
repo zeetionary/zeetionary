@@ -381,95 +381,38 @@ class KurdishMeaning extends StatelessWidget {
 """),
           const DefinitionKurdish(
               text: """١. (ناو) زۆرکردن لە کەسێک کە شوێنێک جێبھێڵێت"""),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            """Most of the president's supporters believed his ejection from office was illegal."""),
-                    ExampleSentenceKurdish(
-                        text:
-                            """زۆرێک لە لایەنگیرانی سەرۆکەکە پێیان وایە دەرکردنی لە پێگەکە نایاسایی بوو."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "ejection", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakejections1("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakejections1("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                """Most of the president's supporters believed his ejection from office was illegal.""",
+            kurdishText:
+                """زۆرێک لە لایەنگیرانی سەرۆکەکە پێیان وایە دەرکردنی لە پێگەکە نایاسایی بوو.""", // ejection
+            onPressedBritish: () => speakejections1("en-GB"),
+            onPressedAmerican: () => speakejections1("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
                   """٢. (ناو) فڕێدانە دەرەوەی کەسێک لەناکاو و بە ھێزێکی زۆرەوە"""),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            """The volcano's ejection of hot rocks and ash created a massive cloud in the sky."""),
-                    ExampleSentenceKurdish(
-                        text:
-                            """دەردانی بەردی گەرم و خۆڵەمێش لەلایەن گڕکانەکەوە پەڵە ھەورێکی زەبەلاحی لە ئاسماندا درووست کرد."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakejections2("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakejections2("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                """The volcano's ejection of hot rocks and ash created a massive cloud in the sky.""",
+            kurdishText:
+                """دەردانی بەردی گەرم و خۆڵەمێش لەلایەن گڕکانەکەوە پەڵە ھەورێکی زەبەلاحی لە ئاسماندا درووست کرد.""",
+            onPressedBritish: () => speakejections2("en-GB"),
+            onPressedAmerican: () => speakejections2("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text: """٣. (ناو) دەرچوون لە فڕۆکەیەکەوە کە خەریکە تێکدەشکێت"""),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            """Engineers tested a parachute system that would allow pilots to survive high-altitude ejection."""),
-                    ExampleSentenceKurdish(
-                        text:
-                            """ئەندازیارەکان پەڕەشووتێکیان تاقیکردەوە کە ڕێگا بە فڕۆکەوانەکان دەدات ڕزگار بن لە دەرپەڕینی بەرزەوە."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakejections3("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakejections3("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                """Engineers tested a parachute system that would allow pilots to survive high-altitude ejection.""",
+            kurdishText:
+                """ئەندازیارەکان پەڕەشووتێکیان تاقیکردەوە کە ڕێگا بە فڕۆکەوانەکان دەدات ڕزگار بن لە دەرپەڕینی بەرزەوە.""",
+            onPressedBritish: () => speakejections3("en-GB"),
+            onPressedAmerican: () => speakejections3("en-US"),
           ),
           // ejections400ejections4
           // speakejections4

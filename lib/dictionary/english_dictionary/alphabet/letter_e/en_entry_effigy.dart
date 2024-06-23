@@ -372,60 +372,22 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   """١. (ناو) پەیکەری کەسێکی بەناوبانگ، خودا، ھتد؛ بووکەڵەیەک یان شتێک کە کەسێک بە ناشرینی پیشان دەدات"""),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            """Crowds marched through the streets carrying burning effigies of the president."""),
-                    ExampleSentenceKurdish(
-                        text:
-                            """جەماوەرەکە بە شەقامەکاندا ڕێپێوانیان بوو بە ھەڵگرتنی بووکەڵەی ئاگرتێبەردراوی سەرۆکەوە."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "effigy", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakeffigys1("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakeffigys1("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                """Crowds marched through the streets carrying burning effigies of the president.""",
+            kurdishText:
+                """جەماوەرەکە بە شەقامەکاندا ڕێپێوانیان بوو بە ھەڵگرتنی بووکەڵەی ئاگرتێبەردراوی سەرۆکەوە.""", // effigy
+            onPressedBritish: () => speakeffigys1("en-GB"),
+            onPressedAmerican: () => speakeffigys1("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: """The president was burnt in effigy."""),
-                    ExampleSentenceKurdish(
-                        text: """بووکەڵەی سەرۆک سوتێندرا."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakeffigys2("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakeffigys2("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: """The president was burnt in effigy.""",
+            kurdishText: """بووکەڵەی سەرۆک سوتێندرا.""",
+            onPressedBritish: () => speakeffigys2("en-GB"),
+            onPressedAmerican: () => speakeffigys2("en-US"),
           ),
           // effigys300effigys3
           // speakeffigys3

@@ -445,300 +445,96 @@ class KurdishMeaning extends StatelessWidget {
 """),
           const DefinitionKurdish(
               text: "١. (ناو) بە فەرمی کۆتایی ھێنان بە ھاوسەرگیرییەک"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "The marriage ended in divorce."),
-                    ExampleSentenceKurdish(
-                        text: "ھاوسەرگیرییەکە بە جیابوونەوە کۆتایی ھات."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "divorce", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdivorces1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdivorces1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "The marriage ended in divorce.",
+            kurdishText: "ھاوسەرگیرییەکە بە جیابوونەوە کۆتایی ھات.", // divorce
+            onPressedBritish: () => speakdivorces1("en-GB"),
+            onPressedAmerican: () => speakdivorces1("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "Divorce proceedings (= the legal process of divorce) started today."),
-                    ExampleSentenceKurdish(
-                        text: "کارەکانی جیابوونەوە ئەمڕۆ دەستیان پێکرد."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdivorces2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdivorces2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "Divorce proceedings (= the legal process of divorce) started today.",
+            kurdishText: "کارەکانی جیابوونەوە ئەمڕۆ دەستیان پێکرد.",
+            onPressedBritish: () => speakdivorces2("en-GB"),
+            onPressedAmerican: () => speakdivorces2("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "He remarried after a divorce from his first wife, Kate."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "دووبارە ھاوسەرگیری کردەوە لە دوای جیابوونەوە لە ژنی یەکەمی، کەیت."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdivorces3("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdivorces3("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "He remarried after a divorce from his first wife, Kate.",
+            kurdishText:
+                "دووبارە ھاوسەرگیری کردەوە لە دوای جیابوونەوە لە ژنی یەکەمی، کەیت.",
+            onPressedBritish: () => speakdivorces3("en-GB"),
+            onPressedAmerican: () => speakdivorces3("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(text: "Bella wants a divorce."),
-                    ExampleSentenceKurdish(text: "بێلا جیابوونەوەی دەوێت."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdivorces4("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdivorces4("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "Bella wants a divorce.",
+            kurdishText: "بێلا جیابوونەوەی دەوێت.",
+            onPressedBritish: () => speakdivorces4("en-GB"),
+            onPressedAmerican: () => speakdivorces4("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "She told him she was filing for divorce."),
-                    ExampleSentenceKurdish(
-                        text: "پێی گوت کە جیابوونەوە دەوێت."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdivorces5("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdivorces5("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "She told him she was filing for divorce.",
+            kurdishText: "پێی گوت کە جیابوونەوە دەوێت.",
+            onPressedBritish: () => speakdivorces5("en-GB"),
+            onPressedAmerican: () => speakdivorces5("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "He cited adultery as grounds for divorce."),
-                    ExampleSentenceKurdish(
-                        text: "داوێن پیسی بە ھۆکاری جیابوونەوەکە دانا."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdivorces6("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdivorces6("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "He cited adultery as grounds for divorce.",
+            kurdishText: "داوێن پیسی بە ھۆکاری جیابوونەوەکە دانا.",
+            onPressedBritish: () => speakdivorces6("en-GB"),
+            onPressedAmerican: () => speakdivorces6("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: "٢. (ناو) جیاکردنەوە"),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "Why is there such a divorce between the arts and the sciences in this country's schools?"),
-                    ExampleSentenceKurdish(
-                        text:
-                            "بۆچی جیاکردنەوە ھەیە لە نێوان ھونەر و زانستەکان لە قوتابخانەکانی ئەم وڵاتەدا؟"),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdivorces7("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdivorces7("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "Why is there such a divorce between the arts and the sciences in this country's schools?",
+            kurdishText:
+                "بۆچی جیاکردنەوە ھەیە لە نێوان ھونەر و زانستەکان لە قوتابخانەکانی ئەم وڵاتەدا؟",
+            onPressedBritish: () => speakdivorces7("en-GB"),
+            onPressedAmerican: () => speakdivorces7("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٣. (کردار) کۆتایی ھێنان بە ھاوسەرگیری"),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(text: "They're getting divorced."),
-                    ExampleSentenceKurdish(text: "جیادەبنەوە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdivorces8("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdivorces8("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "They're getting divorced.",
+            kurdishText: "جیادەبنەوە.",
+            onPressedBritish: () => speakdivorces8("en-GB"),
+            onPressedAmerican: () => speakdivorces8("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "She's divorcing her husband."),
-                    ExampleSentenceKurdish(text: "لە ھاوژینەکەی جیادەبێتەوە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdivorces9("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdivorces9("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "She's divorcing her husband.",
+            kurdishText: "لە ھاوژینەکەی جیادەبێتەوە.",
+            onPressedBritish: () => speakdivorces9("en-GB"),
+            onPressedAmerican: () => speakdivorces9("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "I'd heard they're divorcing."),
-                    ExampleSentenceKurdish(text: "بیستم جیادەبنەوە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdivorces10("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdivorces10("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "I'd heard they're divorcing.",
+            kurdishText: "بیستم جیادەبنەوە.",
+            onPressedBritish: () => speakdivorces10("en-GB"),
+            onPressedAmerican: () => speakdivorces10("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
                   "٤. (کردار) جیاکردنەوەی کەسێک، بیرۆکەیەک، بابەتێک، ھتد لە شتێک"),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "They believed that art should be divorced from politics."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "باوەڕیان وابوو ھونەر دەبێت لە سیاسەت جیابکرێتەوە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdivorces11("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdivorces11("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "They believed that art should be divorced from politics.",
+            kurdishText: "باوەڕیان وابوو ھونەر دەبێت لە سیاسەت جیابکرێتەوە.",
+            onPressedBritish: () => speakdivorces11("en-GB"),
+            onPressedAmerican: () => speakdivorces11("en-US"),
           ),
           // divorces1200"),
           // speakdivorces12

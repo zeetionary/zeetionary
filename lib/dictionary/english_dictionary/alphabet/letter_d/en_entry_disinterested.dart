@@ -244,60 +244,21 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "١. (ھاوەڵناو) ئەوەی کە کاریگەر نییە بە ھەستی کەسی، یان ئەوەی کە ڕەنگە ھەندێک سوودی ھەبێت بۆت"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "Her advice appeared to be disinterested."),
-                    ExampleSentenceKurdish(
-                        text: "ڕاوێژەکەی وادەرکەوت کە پاکانە بێت."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "disinterested", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdisinteresteds1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdisinteresteds1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "Her advice appeared to be disinterested.",
+            kurdishText: "ڕاوێژەکەی وادەرکەوت کە پاکانە بێت.", // disinterested
+            onPressedBritish: () => speakdisinteresteds1("en-GB"),
+            onPressedAmerican: () => speakdisinteresteds1("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "I was merely a disinterested spectator in the whole affair."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "لە تەواوی بابەتەکە تەنھا چاودێرێکی بێلایەن بووم."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdisinteresteds2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdisinteresteds2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "I was merely a disinterested spectator in the whole affair.",
+            kurdishText: "لە تەواوی بابەتەکە تەنھا چاودێرێکی بێلایەن بووم.",
+            onPressedBritish: () => speakdisinteresteds2("en-GB"),
+            onPressedAmerican: () => speakdisinteresteds2("en-US"),
           ),
           const DividerDefinition(),
           Column(

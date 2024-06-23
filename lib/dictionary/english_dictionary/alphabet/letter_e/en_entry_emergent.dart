@@ -363,32 +363,13 @@ class KurdishMeaning extends StatelessWidget {
 """),
           const DefinitionKurdish(
               text: """١. (ھاوەڵناو) تازە و ھێشتا لە قۆناغی دەرکەوتن"""),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            """The agencies are using the money to promote emergent technologies."""),
-                    ExampleSentenceKurdish(
-                        text:
-                            """ئاژانسەکان پارەکە بەکاردەھێنن بۆ پەرەپێدانی تەکنەلۆژیای تازەدەرکەوتوو."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "emergent", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakemergents1("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakemergents1("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                """The agencies are using the money to promote emergent technologies.""",
+            kurdishText:
+                """ئاژانسەکان پارەکە بەکاردەھێنن بۆ پەرەپێدانی تەکنەلۆژیای تازەدەرکەوتوو.""", // emergent
+            onPressedBritish: () => speakemergents1("en-GB"),
+            onPressedAmerican: () => speakemergents1("en-US"),
           ),
           // emergents200emergents2
           // speakemergents2

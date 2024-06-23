@@ -252,60 +252,21 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "١. (ناو) پیشاندانی کەسێک/شتێک بە شێوەیەکی دیاریکراو بە وشە یان وێنە"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "They object to the movie's depiction of gay people."),
-                    ExampleSentenceKurdish(
-                        text: "دژ بە وێناکردنی فیلمەکەن بۆ کەسانی گەی."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "depiction", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdepictions1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdepictions1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "They object to the movie's depiction of gay people.",
+            kurdishText: "دژ بە وێناکردنی فیلمەکەن بۆ کەسانی گەی.", // depiction
+            onPressedBritish: () => speakdepictions1("en-GB"),
+            onPressedAmerican: () => speakdepictions1("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "I disapprove of the depiction of violence on television."),
-                    ExampleSentenceKurdish(
-                        text: "دژ بە وێناکردنی توندوتیژیم لەسەر تەلەفیزیۆن."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdepictions2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdepictions2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "I disapprove of the depiction of violence on television.",
+            kurdishText: "دژ بە وێناکردنی توندوتیژیم لەسەر تەلەفیزیۆن.",
+            onPressedBritish: () => speakdepictions2("en-GB"),
+            onPressedAmerican: () => speakdepictions2("en-US"),
           ),
           // depictions300"),
           // speakdepictions3

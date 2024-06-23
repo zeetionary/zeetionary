@@ -235,32 +235,13 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "١. (ناو) ئەو دەنگەی کە لە تەکەفۆنێکەوە دەیبیستیت و واتای ئەوەیە کە دەتوانیت پەیوەندی تەلەفۆنی ئەنجام بدەیت"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "He waited for the dialling tone before dialing the number."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "چاوەڕێی تۆنی پەیوەندییەکەی کرد پێش ئەوەی پەیوەندی بە ژمارەکە بکات."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "dialling tone", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdiallingtones1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdiallingtones1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "He waited for the dialling tone before dialing the number.",
+            kurdishText:
+                "چاوەڕێی تۆنی پەیوەندییەکەی کرد پێش ئەوەی پەیوەندی بە ژمارەکە بکات.", // dialling tone
+            onPressedBritish: () => speakdiallingtones1("en-GB"),
+            onPressedAmerican: () => speakdiallingtones1("en-US"),
           ),
           // diallingtones200"),
           // speakdiallingtones2

@@ -370,59 +370,20 @@ class KurdishMeaning extends StatelessWidget {
 """),
           const DefinitionKurdish(
               text: """١. (ناو) گۆشتی نەرمی خوارەوەی گوێ"""),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: """She pierced her earlobe for earrings."""),
-                    ExampleSentenceKurdish(
-                        text: """نەرمێنەی گوێی بۆ گوارە کون کرد."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "earlobe", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakearlobes1("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakearlobes1("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: """She pierced her earlobe for earrings.""",
+            kurdishText: """نەرمێنەی گوێی بۆ گوارە کون کرد.""", // earlobe
+            onPressedBritish: () => speakearlobes1("en-GB"),
+            onPressedAmerican: () => speakearlobes1("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: """He felt a slight pain in his earlobe."""),
-                    ExampleSentenceKurdish(
-                        text:
-                            """ھەستی بە کەمێک ئازار دەکرد لە نەرمێنەی گوێی."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakearlobes2("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakearlobes2("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: """He felt a slight pain in his earlobe.""",
+            kurdishText: """ھەستی بە کەمێک ئازار دەکرد لە نەرمێنەی گوێی.""",
+            onPressedBritish: () => speakearlobes2("en-GB"),
+            onPressedAmerican: () => speakearlobes2("en-US"),
           ),
           // earlobes300earlobes3
           // speakearlobes3

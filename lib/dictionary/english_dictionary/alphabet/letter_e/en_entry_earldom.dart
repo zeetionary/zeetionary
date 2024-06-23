@@ -363,30 +363,11 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   """١. (ناو) لە پێگەیەکی خانەدانی بەرز لە بەریتانیا؛ ئەو خاکەی کە خانەدانێکی بەرز لە بەریتانیا ھەیەتی"""),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: """He inherited the earldom from his father."""),
-                    ExampleSentenceKurdish(
-                        text: """ئێرڵایەتی لە باوکییەوە بۆ مایەوە."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "earldom", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakearldoms1("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakearldoms1("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: """He inherited the earldom from his father.""",
+            kurdishText: """ئێرڵایەتی لە باوکییەوە بۆ مایەوە.""", // earldom
+            onPressedBritish: () => speakearldoms1("en-GB"),
+            onPressedAmerican: () => speakearldoms1("en-US"),
           ),
           // earldoms200earldoms2
           // speakearldoms2

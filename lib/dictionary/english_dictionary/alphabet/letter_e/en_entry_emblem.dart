@@ -371,59 +371,22 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   """١. (ناو) دیزاین یان وێنەیەک کە ناسنامەی وڵاتێک یان دامەزراوەیەکە"""),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: """A rose is the national emblem of England."""),
-                    ExampleSentenceKurdish(
-                        text: """گوڵ ناسنامەی ئینگلتەرەیە."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "emblem", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakemblems1("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakemblems1("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: """A rose is the national emblem of England.""",
+            kurdishText: """گوڵ ناسنامەی ئینگلتەرەیە.""", // emblem
+            onPressedBritish: () => speakemblems1("en-GB"),
+            onPressedAmerican: () => speakemblems1("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
                   """٢. (ناو) شتێک کە نموونەیەکی گونجاو یان بنچینەیەک وێنا دەکات"""),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: """The dove is an emblem of peace."""),
-                    ExampleSentenceKurdish(text: """کۆتر ھێمای ئاشتییە."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakemblems2("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakemblems2("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: """The dove is an emblem of peace.""",
+            kurdishText: """کۆتر ھێمای ئاشتییە.""",
+            onPressedBritish: () => speakemblems2("en-GB"),
+            onPressedAmerican: () => speakemblems2("en-US"),
           ),
           // emblems300emblems3
           // speakemblems3

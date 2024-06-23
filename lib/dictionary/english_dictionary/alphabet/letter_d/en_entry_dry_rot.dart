@@ -372,61 +372,23 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "١. (ناو) دار کە لەناوچووە و کراوە بە ھاڕاوە؛ ھەر کەڕوویەک کە دەبێتە ھۆکاری ئەمە"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "He scraped off the dry rot with a tool."),
-                    ExampleSentenceKurdish(
-                        text: "دارە ڕزیوەکەی بە ئامرازێک لێکردەوە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "dry rot", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdryrots1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdryrots1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "He scraped off the dry rot with a tool.",
+            kurdishText: "دارە ڕزیوەکەی بە ئامرازێک لێکردەوە.", // dry rot
+            onPressedBritish: () => speakdryrots1("en-GB"),
+            onPressedAmerican: () => speakdryrots1("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٢. (ناو) شتێک کە بە ھێواشی شتێکی دیکە لەناودەبات"),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "World War I confirmed the dry rot of the 19th-Century European patriarchy."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "جەنگی یەکەمی جیھانی دووپاتکردنەوەی وێرانکەری پیاوسالاری سەدەی ١٩ ـی ئەورووپا بوو."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdryrots2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdryrots2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "World War I confirmed the dry rot of the 19th-Century European patriarchy.",
+            kurdishText:
+                "جەنگی یەکەمی جیھانی دووپاتکردنەوەی وێرانکەری پیاوسالاری سەدەی ١٩ ـی ئەورووپا بوو.",
+            onPressedBritish: () => speakdryrots2("en-GB"),
+            onPressedAmerican: () => speakdryrots2("en-US"),
           ),
           // dryrots300"),
           // speakdryrots3

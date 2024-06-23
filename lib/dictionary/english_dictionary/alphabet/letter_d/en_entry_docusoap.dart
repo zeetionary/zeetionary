@@ -364,32 +364,13 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "١. (ناو) پڕۆگرامێکی تەلەفیزیۆنی کە لەسەر ژیانی کەسانی ڕاستییە"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "Have you seen the new docusoap about driving instructors?"),
-                    ExampleSentenceKurdish(
-                        text:
-                            "ئەو دۆکیوسەوپەت تازەت بینیوە لەسەر ڕێنماییکارانی شۆفێری؟"),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "docusoap", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdocusoaps1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdocusoaps1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "Have you seen the new docusoap about driving instructors?",
+            kurdishText:
+                "ئەو دۆکیوسەوپەت تازەت بینیوە لەسەر ڕێنماییکارانی شۆفێری؟", // docusoap
+            onPressedBritish: () => speakdocusoaps1("en-GB"),
+            onPressedAmerican: () => speakdocusoaps1("en-US"),
           ),
           // docusoaps200"),
           // speakdocusoaps2

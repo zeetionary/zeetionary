@@ -252,91 +252,33 @@ class KurdishMeaning extends StatelessWidget {
 // 3	دووکانی شیرفرۆشی
 // """),
           const DefinitionKurdish(text: "١. (ناو) بەرھەمە شیرەمەنییەکان"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The doctor told me to eat less red meat and dairy."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "پزیشکەکە پێی گوتم کە گۆشتی سوور و شیرەمەنی کەمتر بخۆم."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "dairy", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdairys1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdairys1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "The doctor told me to eat less red meat and dairy.",
+            kurdishText:
+                "پزیشکەکە پێی گوتم کە گۆشتی سوور و شیرەمەنی کەمتر بخۆم.", // dairy
+            onPressedBritish: () => speakdairys1("en-GB"),
+            onPressedAmerican: () => speakdairys1("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: "٢. (ھاوەڵناو) درووستکراو لە شیر"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "I'm trying to cut down on dairy products, which is difficult because I adore cheese."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "ھەوڵ دەدەم بەرھەمە شیرەمەنییەکان کەم بکەنوە، کە سەختە بۆم چونکە حەز بە پەنیر دەکەم."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdairys2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdairys2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "I'm trying to cut down on dairy products, which is difficult because I adore cheese.",
+            kurdishText:
+                "ھەوڵ دەدەم بەرھەمە شیرەمەنییەکان کەم بکەنوە، کە سەختە بۆم چونکە حەز بە پەنیر دەکەم.",
+            onPressedBritish: () => speakdairys2("en-GB"),
+            onPressedAmerican: () => speakdairys2("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٣. (ھاوەڵناو) پەیوەندیدار بە بەرھەمھێنانی شیر نەک گۆشت"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "My uncle recently sold his dairy herd and is now concentrating on arable farming."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "مامم بەم نزیکانە ڕانە شیرەمەنییەکەی فرۆشت و ئێستا سەرنجی لەسەر کشتووکاڵی جوتیارییە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdairys3("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdairys3("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "My uncle recently sold his dairy herd and is now concentrating on arable farming.",
+            kurdishText:
+                "مامم بەم نزیکانە ڕانە شیرەمەنییەکەی فرۆشت و ئێستا سەرنجی لەسەر کشتووکاڵی جوتیارییە.",
+            onPressedBritish: () => speakdairys3("en-GB"),
+            onPressedAmerican: () => speakdairys3("en-US"),
           ),
         ],
       ),

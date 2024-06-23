@@ -372,61 +372,24 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   """١. (ھاوەڵکار) بەشێوەیەک کە ھەبوونی توانای بەکارھێنانی زمان و دەربڕینی بۆچوونەکانت بەباشی پیشان دەدات"""),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: """She spoke eloquently on the subject."""),
-                    ExampleSentenceKurdish(
-                        text: """بە بە ڕەوان‌بێژی لەسەر بابەتەکە دووا."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "eloquently", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakeloquentlys1("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakeloquentlys1("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: """She spoke eloquently on the subject.""",
+            kurdishText:
+                """بە بە ڕەوان‌بێژی لەسەر بابەتەکە دووا.""", // eloquently
+            onPressedBritish: () => speakeloquentlys1("en-GB"),
+            onPressedAmerican: () => speakeloquentlys1("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text: """٢. (ھاوەڵکار) کە بەباشی شتێک دەردەبڕێت"""),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            """His face expressed his grief more eloquently than any words."""),
-                    ExampleSentenceKurdish(
-                        text:
-                            """ڕووخساری ڕەوانتر لە ھەر وشەیەک خەفەتەکەی دەردەبڕی."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakeloquentlys2("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakeloquentlys2("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                """His face expressed his grief more eloquently than any words.""",
+            kurdishText:
+                """ڕووخساری ڕەوانتر لە ھەر وشەیەک خەفەتەکەی دەردەبڕی.""",
+            onPressedBritish: () => speakeloquentlys2("en-GB"),
+            onPressedAmerican: () => speakeloquentlys2("en-US"),
           ),
           // eloquentlys300eloquentlys3
           // speakeloquentlys3

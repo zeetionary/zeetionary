@@ -365,32 +365,13 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "١. (ناو) ھەڵسوکەوتی تەڵەکەبازانە کە خەڵەتاندنی کەسانی دیکە لە خۆدەگرێت"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The local business community has been destroyed by corruption, cheating and double-dealing."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "کۆمەڵگە بازرگانییە خۆجێییەکە لەناوچووە بە گەندەڵی، فێڵکردن، و ساختەکاری."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "double-dealing", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdoubledealings1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdoubledealings1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "The local business community has been destroyed by corruption, cheating and double-dealing.",
+            kurdishText:
+                "کۆمەڵگە بازرگانییە خۆجێییەکە لەناوچووە بە گەندەڵی، فێڵکردن، و ساختەکاری.", // double-dealing
+            onPressedBritish: () => speakdoubledealings1("en-GB"),
+            onPressedAmerican: () => speakdoubledealings1("en-US"),
           ),
           // doubledealings200"),
           // speakdoubledealings2

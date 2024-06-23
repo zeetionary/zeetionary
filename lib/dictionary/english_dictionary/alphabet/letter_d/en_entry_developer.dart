@@ -250,89 +250,31 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "١. (ناو) کەسێک کە زەوی یان بینا دەکڕێت بۆ درووستکردنی خانووی تازە یان باشترکردنی ھی کۆنە بۆ ئەوەی قازانجی لێ بکات"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "A local developer is planning to build a supermarket on the site."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "وەبەرھێنەرێکی ناوخۆیی پلانی ھەیە سوپەرمارکێتێک لە شوێنەکە درووست بکات."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "developer", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdevelopers1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdevelopers1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "A local developer is planning to build a supermarket on the site.",
+            kurdishText:
+                "وەبەرھێنەرێکی ناوخۆیی پلانی ھەیە سوپەرمارکێتێک لە شوێنەکە درووست بکات.", // developer
+            onPressedBritish: () => speakdevelopers1("en-GB"),
+            onPressedAmerican: () => speakdevelopers1("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The flats are being built by a private developer."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "شووقەکان لەلایەن وەبەرھێنەرێکی کەرتی تایبەتەوە درووست دەکرێن."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdevelopers2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdevelopers2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "The flats are being built by a private developer.",
+            kurdishText:
+                "شووقەکان لەلایەن وەبەرھێنەرێکی کەرتی تایبەتەوە درووست دەکرێن.",
+            onPressedBritish: () => speakdevelopers2("en-GB"),
+            onPressedAmerican: () => speakdevelopers2("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٢. (ناو) کەسێک کە بەرھەمی تازە دیزاین و درووست دەکات"),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "Google is a leading software developer."),
-                    ExampleSentenceKurdish(
-                        text: "گووگڵ گەشەپێدەرێکی سەرەکی نەرمامێرە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdevelopers3("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdevelopers3("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "Google is a leading software developer.",
+            kurdishText: "گووگڵ گەشەپێدەرێکی سەرەکی نەرمامێرە.",
+            onPressedBritish: () => speakdevelopers3("en-GB"),
+            onPressedAmerican: () => speakdevelopers3("en-US"),
           ),
           // developers400"),
           // speakdevelopers4

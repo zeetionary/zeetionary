@@ -247,83 +247,25 @@ class KurdishMeaning extends StatelessWidget {
 کوردی: ڕۆژ، درێژایی ڕۆژ، ڕۆژگار
 """),
           const DefinitionKurdish(text: "١. (ناو) ماوەی ڕۆژ"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "You don't often see this bird in (the) daytime."),
-                    ExampleSentenceKurdish(
-                        text: "ئەم باڵندە زۆرجار لە ڕۆژدا نابینیت."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "daytime", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdaytimes1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdaytimes1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "You don't often see this bird in (the) daytime.",
+            kurdishText: "ئەم باڵندە زۆرجار لە ڕۆژدا نابینیت.", // daytime
+            onPressedBritish: () => speakdaytimes1("en-GB"),
+            onPressedAmerican: () => speakdaytimes1("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "Daytime temperatures never fell below 30°C."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "پلەی گەرمی ڕۆژانە ھەرگیز نایەتە خوار ٣٠ پلەی سیلیزی."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdaytimes2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdaytimes2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "Daytime temperatures never fell below 30°C.",
+            kurdishText: "پلەی گەرمی ڕۆژانە ھەرگیز نایەتە خوار ٣٠ پلەی سیلیزی.",
+            onPressedBritish: () => speakdaytimes2("en-GB"),
+            onPressedAmerican: () => speakdaytimes2("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "The park is open during (the) daytime."),
-                    ExampleSentenceKurdish(text: "پارکەکە لە ڕۆژدا کراوەیە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdaytimes3("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdaytimes3("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "The park is open during (the) daytime.",
+            kurdishText: "پارکەکە لە ڕۆژدا کراوەیە.",
+            onPressedBritish: () => speakdaytimes3("en-GB"),
+            onPressedAmerican: () => speakdaytimes3("en-US"),
           ),
         ],
       ),

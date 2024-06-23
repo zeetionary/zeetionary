@@ -364,32 +364,13 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "١. (ھاوەڵناو) چێژبینین لەو چالاکییانەی کە زیانبەخشن، وەک خواردنەوەی مادەی کحولی"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "He plays a dissipated American writer living in Europe."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "ڕۆڵی نووسەرێکی ئەمریکی دەبینێت کە لە ئەورووپا دەژی."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "dissipated", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdissipateds1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdissipateds1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "He plays a dissipated American writer living in Europe.",
+            kurdishText:
+                "ڕۆڵی نووسەرێکی ئەمریکی دەبینێت کە لە ئەورووپا دەژی.", // dissipated
+            onPressedBritish: () => speakdissipateds1("en-GB"),
+            onPressedAmerican: () => speakdissipateds1("en-US"),
           ),
           // dissipateds200"),
           // speakdissipateds2

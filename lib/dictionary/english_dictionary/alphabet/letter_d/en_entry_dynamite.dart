@@ -386,121 +386,44 @@ class KurdishMeaning extends StatelessWidget {
 کوردی: دینامیت، داینەمیت (تەقەمەنی‌یەکی بەھێز)،	شتی مەترسی‌دار، شتی خراپ
 """),
           const DefinitionKurdish(text: """١. (ناو) تەقەمەنییەکی بەھێز"""),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            """They used five tons of dynamite to blow up the rock."""),
-                    ExampleSentenceKurdish(
-                        text:
-                            """پێنج تەن دینامیتیان بەکارھێنا بۆ تەقاندنەوەی بەردەکە."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "dynamite", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdynamites1("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdynamites1("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                """They used five tons of dynamite to blow up the rock.""",
+            kurdishText:
+                """پێنج تەن دینامیتیان بەکارھێنا بۆ تەقاندنەوەی بەردەکە.""", // dynamite
+            onPressedBritish: () => speakdynamites1("en-GB"),
+            onPressedAmerican: () => speakdynamites1("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
                   """٢. (ناو) شتێک کە ئەگەری ھەیە کاردانەوەی توندوتیژی لێبکەوێتەوە یان کێشەی زۆر درووست بکات"""),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            """Don’t mention the war—it’s political dynamite."""),
-                    ExampleSentenceKurdish(
-                        text: """باسی جەنگەکە مەکە ـ بڤەیەکی سیاسییە."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdynamites2("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdynamites2("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: """Don’t mention the war—it’s political dynamite.""",
+            kurdishText: """باسی جەنگەکە مەکە ـ بڤەیەکی سیاسییە.""",
+            onPressedBritish: () => speakdynamites2("en-GB"),
+            onPressedAmerican: () => speakdynamites2("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: """The abortion issue is political dynamite."""),
-                    ExampleSentenceKurdish(
-                        text: """بابەتی لەباربردن بڤەیەکی سیاسییە."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdynamites3("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdynamites3("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: """The abortion issue is political dynamite.""",
+            kurdishText: """بابەتی لەباربردن بڤەیەکی سیاسییە.""",
+            onPressedBritish: () => speakdynamites3("en-GB"),
+            onPressedAmerican: () => speakdynamites3("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text: """٣. (کردار) لەناوبردنی شتێک بە دینامیت"""),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: """The rebels had dynamited the railway line."""),
-                    ExampleSentenceKurdish(
-                        text:
-                            """یاخیبووەکان ھێڵی شەمەندەفەرەکەیان بە دینامیت تەقاندەوە."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdynamites4("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdynamites4("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: """The rebels had dynamited the railway line.""",
+            kurdishText:
+                """یاخیبووەکان ھێڵی شەمەندەفەرەکەیان بە دینامیت تەقاندەوە.""",
+            onPressedBritish: () => speakdynamites4("en-GB"),
+            onPressedAmerican: () => speakdynamites4("en-US"),
           ),
           // dynamites500
           // speakdynamites5

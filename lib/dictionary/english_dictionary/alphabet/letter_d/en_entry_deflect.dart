@@ -292,206 +292,70 @@ class KurdishMeaning extends StatelessWidget {
 کوردی: چەماندن، خوار کردن، شکاندنەوە
 """),
           const DefinitionKurdish(text: "١. (کردار) گۆڕینی ئاراستە"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The ball deflected off Reid's body into the goal."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "تۆپەکە کێشای بە جەستەی ڕیددا و چووە ناو گۆڵەکە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "deflect", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdeflects1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdeflects1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "The ball deflected off Reid's body into the goal.",
+            kurdishText:
+                "تۆپەکە کێشای بە جەستەی ڕیددا و چووە ناو گۆڵەکە.", // deflect
+            onPressedBritish: () => speakdeflects1("en-GB"),
+            onPressedAmerican: () => speakdeflects1("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "He raised his arm to try to deflect the blow."),
-                    ExampleSentenceKurdish(
-                        text: "باڵی بەرزکردەوە بۆ لادانی مشتەکە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdeflects2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdeflects2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "He raised his arm to try to deflect the blow.",
+            kurdishText: "باڵی بەرزکردەوە بۆ لادانی مشتەکە.",
+            onPressedBritish: () => speakdeflects2("en-GB"),
+            onPressedAmerican: () => speakdeflects2("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The defender nearly deflected the ball into his own net."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "بەرگریکارەکە خەریک بوو تۆپەکە بخاتە ناو تۆڕەکەوە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdeflects3("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdeflects3("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "The defender nearly deflected the ball into his own net.",
+            kurdishText: "بەرگریکارەکە خەریک بوو تۆپەکە بخاتە ناو تۆڕەکەوە.",
+            onPressedBritish: () => speakdeflects3("en-GB"),
+            onPressedAmerican: () => speakdeflects3("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٢. (کردار) سەرکەوتن لەوەی شتێک بە ئاراستەت بێت"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "All attempts to deflect attention from his private life have failed."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "ھەموو ھەوڵەکان بۆ لادانی سەرنج لەسەر ژیانی کەسیی شکستی ھێناوە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdeflects4("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdeflects4("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "All attempts to deflect attention from his private life have failed.",
+            kurdishText:
+                "ھەموو ھەوڵەکان بۆ لادانی سەرنج لەسەر ژیانی کەسیی شکستی ھێناوە.",
+            onPressedBritish: () => speakdeflects4("en-GB"),
+            onPressedAmerican: () => speakdeflects4("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "She sought to deflect criticism by blaming her family."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "ھەوڵیدا خۆی لە ڕەخنە بدزێتەوە بە لۆمەکردنی خێزانەکەی."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdeflects5("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdeflects5("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "She sought to deflect criticism by blaming her family.",
+            kurdishText:
+                "ھەوڵیدا خۆی لە ڕەخنە بدزێتەوە بە لۆمەکردنی خێزانەکەی.",
+            onPressedBritish: () => speakdeflects5("en-GB"),
+            onPressedAmerican: () => speakdeflects5("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The government is seeking to deflect attention away from this problem."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "حکومەت ھەوڵ دەدات سەرنج لەسەر ئەم کێشەیە لابدات."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdeflects6("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdeflects6("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "The government is seeking to deflect attention away from this problem.",
+            kurdishText: "حکومەت ھەوڵ دەدات سەرنج لەسەر ئەم کێشەیە لابدات.",
+            onPressedBritish: () => speakdeflects6("en-GB"),
+            onPressedAmerican: () => speakdeflects6("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٣. (کردار) وەستاندنی کەسێک لە کردنی ئەوەی دەیەوێت بیکات"),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The government will not be deflected from its commitments."),
-                    ExampleSentenceKurdish(
-                        text: "حکومەت لە بەڵێنەکانی پەشیمان ناکرێتەوە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdeflects7("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdeflects7("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "The government will not be deflected from its commitments.",
+            kurdishText: "حکومەت لە بەڵێنەکانی پەشیمان ناکرێتەوە.",
+            onPressedBritish: () => speakdeflects7("en-GB"),
+            onPressedAmerican: () => speakdeflects7("en-US"),
           ),
           // deflects800"),
           // speakdeflects8

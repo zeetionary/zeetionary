@@ -364,32 +364,13 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "١. (ناو) کەسێک کە ھەوڵ دەدات یارمەتی کەسانی دیکە، بەڵام بەشێوەیەک دەیکات کە بێزارکەرە"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "Members of the church are not just a bunch of do-gooders."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "ئەندامانی کڵێسا تەنھا ئەوە نییە کەسانێکی چاکەخواز بن."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "do-gooder", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdogooders1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdogooders1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "Members of the church are not just a bunch of do-gooders.",
+            kurdishText:
+                "ئەندامانی کڵێسا تەنھا ئەوە نییە کەسانێکی چاکەخواز بن.", // do-gooder
+            onPressedBritish: () => speakdogooders1("en-GB"),
+            onPressedAmerican: () => speakdogooders1("en-US"),
           ),
           // dogooders200"),
           // speakdogooders2

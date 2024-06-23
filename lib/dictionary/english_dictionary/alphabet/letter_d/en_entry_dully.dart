@@ -380,90 +380,33 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   """١. (ھاوەڵکار) بەشێوەیەک کە ھەست، تێگەشتن، و حەز پیشان نادات"""),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: """‘I suppose so,’ she said dully."""),
-                    ExampleSentenceKurdish(
-                        text: """بە بێ‌تاقەتی‌یەوە گوتی 'پێموایە.'"""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "dully", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdullys1("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdullys1("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: """‘I suppose so,’ she said dully.""",
+            kurdishText: """بە بێ‌تاقەتی‌یەوە گوتی 'پێموایە.'""", // dully
+            onPressedBritish: () => speakdullys1("en-GB"),
+            onPressedAmerican: () => speakdullys1("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text: """٢. (ھاوەڵکار) بەشێوەیەک کە کەمێک تاریکە"""),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            """The moonlight shone dully on the surface of the lake."""),
-                    ExampleSentenceKurdish(
-                        text:
-                            """تریفەی مانگ دەدرەوشایەوە لەسەر ڕووی دەریاچەکە."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdullys2("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdullys2("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                """The moonlight shone dully on the surface of the lake.""",
+            kurdishText: """تریفەی مانگ دەدرەوشایەوە لەسەر ڕووی دەریاچەکە.""",
+            onPressedBritish: () => speakdullys2("en-GB"),
+            onPressedAmerican: () => speakdullys2("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
                   """٣. (ھاوەڵکار) کە دەبێت ھۆکاری ئازاری بەردەوام کە زۆر سەخت نییە"""),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(text: """His leg ached dully."""),
-                    ExampleSentenceKurdish(
-                        text: """لاقی بە سووکی ئازاری ھەبوو."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdullys3("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdullys3("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: """His leg ached dully.""",
+            kurdishText: """لاقی بە سووکی ئازاری ھەبوو.""",
+            onPressedBritish: () => speakdullys3("en-GB"),
+            onPressedAmerican: () => speakdullys3("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: """ژممارە. (ھاوەڵکار) پێنناسە"""),

@@ -363,30 +363,11 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   """١. (کردار) ھەڵھاتن لەگەڵ کەسێک بۆ ئەوەی بە نھێنی ھاوسەرگیری لەگەڵ بکەیت لەگەڵی"""),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: """She eloped with an Army officer."""),
-                    ExampleSentenceKurdish(
-                        text: """لەگەڵ ئەفسەرێکی سوپا ھەڵھات."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "elope", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakelopes1("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakelopes1("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: """She eloped with an Army officer.""",
+            kurdishText: """لەگەڵ ئەفسەرێکی سوپا ھەڵھات.""", // elope
+            onPressedBritish: () => speakelopes1("en-GB"),
+            onPressedAmerican: () => speakelopes1("en-US"),
           ),
           // elopes200elopes2
           // speakelopes2

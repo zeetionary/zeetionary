@@ -364,32 +364,13 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   """١. (ناو) گردێکی بچووک لە خۆڵ کە بەھۆی باوە لە نزیک دەریایەک یان لە بیابانێک درووست دەبێت"""),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            """They climbed the dune to get a better view of the desert."""),
-                    ExampleSentenceKurdish(
-                        text:
-                            """بەسەر گردەلمەکەدا سەرکەوتن بۆ ھەبوونی دیمەنێکی باشتری بیابانەکە."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "dune", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdunes1("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdunes1("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                """They climbed the dune to get a better view of the desert.""",
+            kurdishText:
+                """بەسەر گردەلمەکەدا سەرکەوتن بۆ ھەبوونی دیمەنێکی باشتری بیابانەکە.""", // dune
+            onPressedBritish: () => speakdunes1("en-GB"),
+            onPressedAmerican: () => speakdunes1("en-US"),
           ),
           // dunes200
           // speakdunes2

@@ -269,149 +269,53 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "١. (کردار) جیاکردنەوەی بیرۆکە، مشتومڕ، ھتد کە تێکەڵ بوونە"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "It's not easy to disentangle truth from lies."),
-                    ExampleSentenceKurdish(
-                        text: "ئاسان نییە ڕاستی لە درۆ جیابکەیتەوە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "disentangle", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdisentangles1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdisentangles1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "It's not easy to disentangle truth from lies.",
+            kurdishText: "ئاسان نییە ڕاستی لە درۆ جیابکەیتەوە.", // disentangle
+            onPressedBritish: () => speakdisentangles1("en-GB"),
+            onPressedAmerican: () => speakdisentangles1("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "It is important to disentangle all the factors that may be causing your stress."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "گرنگە کە ھەموو ئەو ھۆکارانە جیابکەیتەوە کە دەبنە ھۆکاری گوشار لەسەرت."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdisentangles2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdisentangles2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "It is important to disentangle all the factors that may be causing your stress.",
+            kurdishText:
+                "گرنگە کە ھەموو ئەو ھۆکارانە جیابکەیتەوە کە دەبنە ھۆکاری گوشار لەسەرت.",
+            onPressedBritish: () => speakdisentangles2("en-GB"),
+            onPressedAmerican: () => speakdisentangles2("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٢. (کردار) ھەڵوەشانەوەی شتێک کە تێکەڵی یەک بووە"),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "He tried to disentangle his fingers from her hair."),
-                    ExampleSentenceKurdish(
-                        text: "ھەوڵیدا پەنجەکانی لە قژی جیابکاتەوە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdisentangles3("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdisentangles3("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "He tried to disentangle his fingers from her hair.",
+            kurdishText: "ھەوڵیدا پەنجەکانی لە قژی جیابکاتەوە.",
+            onPressedBritish: () => speakdisentangles3("en-GB"),
+            onPressedAmerican: () => speakdisentangles3("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "She has just disentangled herself from a painful relationship."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "خوازراو تازەگی خۆی لە پەیوەندییەکی بەئازار دەرھێنابوو."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdisentangles4("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdisentangles4("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "She has just disentangled herself from a painful relationship.",
+            kurdishText:
+                "خوازراو تازەگی خۆی لە پەیوەندییەکی بەئازار دەرھێنابوو.",
+            onPressedBritish: () => speakdisentangles4("en-GB"),
+            onPressedAmerican: () => speakdisentangles4("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٣. (کردار) نەھێشتنی گرێ و تێکھەڵچوون لە شتێکدا"),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "He was sitting disentangling a coil of rope."),
-                    ExampleSentenceKurdish(
-                        text: "دانیشتبوو پێچاوپێچێک لە حەبلی جیادەکردەوە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdisentangles5("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdisentangles5("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "He was sitting disentangling a coil of rope.",
+            kurdishText: "دانیشتبوو پێچاوپێچێک لە حەبلی جیادەکردەوە.",
+            onPressedBritish: () => speakdisentangles5("en-GB"),
+            onPressedAmerican: () => speakdisentangles5("en-US"),
           ),
           // disentangles600"),
           // speakdisentangles6

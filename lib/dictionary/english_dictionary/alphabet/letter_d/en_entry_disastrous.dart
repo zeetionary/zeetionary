@@ -242,61 +242,23 @@ class KurdishMeaning extends StatelessWidget {
 """),
           const DefinitionKurdish(
               text: "١. (ھاوەڵناو) زۆر خراپ، زیانبەخش، یان شکستخواردوو"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "Lowering interest rates could have disastrous consequences for the economy."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "کەمکردنەوەی ڕێژەی سوو دەکرا لێکەوتەی کارەساتباری ھەبا بۆ ئابووری."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "disastrous", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdisastrouss1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdisastrouss1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "Lowering interest rates could have disastrous consequences for the economy.",
+            kurdishText:
+                "کەمکردنەوەی ڕێژەی سوو دەکرا لێکەوتەی کارەساتباری ھەبا بۆ ئابووری.", // disastrous
+            onPressedBritish: () => speakdisastrouss1("en-GB"),
+            onPressedAmerican: () => speakdisastrouss1("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "It was a disastrous start to the season for the team."),
-                    ExampleSentenceKurdish(
-                        text: "بۆ تتیمەکە سەرەتایەکی خراپ بوو بۆ وەرزەکە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdisastrouss2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdisastrouss2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "It was a disastrous start to the season for the team.",
+            kurdishText: "بۆ تتیمەکە سەرەتایەکی خراپ بوو بۆ وەرزەکە.",
+            onPressedBritish: () => speakdisastrouss2("en-GB"),
+            onPressedAmerican: () => speakdisastrouss2("en-US"),
           ),
           // disastrouss300"),
           // speakdisastrouss3

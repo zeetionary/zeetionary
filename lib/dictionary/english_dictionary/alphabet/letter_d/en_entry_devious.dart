@@ -249,88 +249,31 @@ class KurdishMeaning extends StatelessWidget {
 """),
           const DefinitionKurdish(
               text: "١. (ھاوەڵناو) بەشێوەی فێڵاوی و لەخشتەبەرانە"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "He got rich by devious means."),
-                    ExampleSentenceKurdish(
-                        text: "بە ڕێگای لەخشتەبەر دەوڵەمەند بوو."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "devious", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdeviouss1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdeviouss1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "He got rich by devious means.",
+            kurdishText: "بە ڕێگای لەخشتەبەر دەوڵەمەند بوو.", // devious
+            onPressedBritish: () => speakdeviouss1("en-GB"),
+            onPressedAmerican: () => speakdeviouss1("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "He's as devious as a politician needs to be."),
-                    ExampleSentenceKurdish(
-                        text: "ھێندەی سیاسەتمەدارێک فێڵبازە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdeviouss2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdeviouss2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "He's as devious as a politician needs to be.",
+            kurdishText: "ھێندەی سیاسەتمەدارێک فێڵبازە.",
+            onPressedBritish: () => speakdeviouss2("en-GB"),
+            onPressedAmerican: () => speakdeviouss2("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: "٢. (ھاوەڵناو) پێچاوپێچ"),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "He took a rather devious route which avoids the city centre."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "بە ڕێگایەکی پێچاوپێچدا چوو لە ؛ە سەنتەری شار دووردەکەوتەوە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdeviouss3("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdeviouss3("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "He took a rather devious route which avoids the city centre.",
+            kurdishText:
+                "بە ڕێگایەکی پێچاوپێچدا چوو لە ؛ە سەنتەری شار دووردەکەوتەوە.",
+            onPressedBritish: () => speakdeviouss3("en-GB"),
+            onPressedAmerican: () => speakdeviouss3("en-US"),
           ),
           // deviouss400"),
           // speakdeviouss4

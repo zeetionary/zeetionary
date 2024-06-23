@@ -250,89 +250,32 @@ class KurdishMeaning extends StatelessWidget {
 // """),
           const DefinitionKurdish(
               text: "١. (ناو) خاسیەتە سرووشتییەکانی کەسایەتی کەسێک"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "These dogs show a very sociable disposition."),
-                    ExampleSentenceKurdish(
-                        text: "ئەم سەگانە خووی زۆر کۆمەڵایەتی پیشان دەدەن."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "disposition", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdispositions1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdispositions1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "These dogs show a very sociable disposition.",
+            kurdishText:
+                "ئەم سەگانە خووی زۆر کۆمەڵایەتی پیشان دەدەن.", // disposition
+            onPressedBritish: () => speakdispositions1("en-GB"),
+            onPressedAmerican: () => speakdispositions1("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "Some scenes aren't recommended for viewers of a nervous disposition."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "ھەندێک لە دیمەنەکان باش نین بۆ ئەو بینەرانەی مەزاجێکی ترسنۆکانەیان ھەیە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdispositions2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdispositions2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "Some scenes aren't recommended for viewers of a nervous disposition.",
+            kurdishText:
+                "ھەندێک لە دیمەنەکان باش نین بۆ ئەو بینەرانەی مەزاجێکی ترسنۆکانەیان ھەیە.",
+            onPressedBritish: () => speakdispositions2("en-GB"),
+            onPressedAmerican: () => speakdispositions2("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
                   "٢. (ناو) ئەوەی کە حەز بکەیت بە شێوەیەکی دیاریکراو ڕەفتار بکەیت"),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "Do people have a natural disposition to be good?"),
-                    ExampleSentenceKurdish(
-                        text: "ئایا خەڵکی خووی ئەوەیان ھەیە کە باش بن؟"),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdispositions3("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdispositions3("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "Do people have a natural disposition to be good?",
+            kurdishText: "ئایا خەڵکی خووی ئەوەیان ھەیە کە باش بن؟",
+            onPressedBritish: () => speakdispositions3("en-GB"),
+            onPressedAmerican: () => speakdispositions3("en-US"),
           ),
           // dispositions400"),
           // speakdispositions4

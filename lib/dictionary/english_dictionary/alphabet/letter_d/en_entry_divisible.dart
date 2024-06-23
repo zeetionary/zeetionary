@@ -378,91 +378,33 @@ class KurdishMeaning extends StatelessWidget {
 کوردی: لەدابەش(بوون)ھاتوو، بەش دەکرێ، دابەش دەکرێ، دابەشیو
 """),
           const DefinitionKurdish(text: "١. (ھاوەڵناو) کە دەکرێت دابەش بکرێت"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "Plants are divisible into three main groups."),
-                    ExampleSentenceKurdish(
-                        text: "ڕووەکەکان بەسەر سێ گرووپدا دابەش دەکرێن."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "divisible", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdivisibles1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdivisibles1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "Plants are divisible into three main groups.",
+            kurdishText:
+                "ڕووەکەکان بەسەر سێ گرووپدا دابەش دەکرێن.", // divisible
+            onPressedBritish: () => speakdivisibles1("en-GB"),
+            onPressedAmerican: () => speakdivisibles1("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "He argued that all matter was infinitely divisible."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "مشتومڕی ئەوەی دەکرد کە ھەموو مادەیەک بێکۆتا لەدابەش‌ھاتووە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdivisibles2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdivisibles2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "He argued that all matter was infinitely divisible.",
+            kurdishText:
+                "مشتومڕی ئەوەی دەکرد کە ھەموو مادەیەک بێکۆتا لەدابەش‌ھاتووە.",
+            onPressedBritish: () => speakdivisibles2("en-GB"),
+            onPressedAmerican: () => speakdivisibles2("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
                   "٢. (ھاوەڵناو) کە دەکرێت دابەش بکرێت بەبێ ئەوەی ھیچ بمێنێتەوە"),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "8 is divisible by 2 and 4, but not by 3."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "٨ بەسەر ٢ و ٤ ـدا دابەش دەکرێت بەڵام بەسەر ٣ ـدا نا."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdivisibles3("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdivisibles3("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "8 is divisible by 2 and 4, but not by 3.",
+            kurdishText: "٨ بەسەر ٢ و ٤ ـدا دابەش دەکرێت بەڵام بەسەر ٣ ـدا نا.",
+            onPressedBritish: () => speakdivisibles3("en-GB"),
+            onPressedAmerican: () => speakdivisibles3("en-US"),
           ),
           // divisibles400"),
           // speakdivisibles4

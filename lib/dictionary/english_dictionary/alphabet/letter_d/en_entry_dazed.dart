@@ -242,58 +242,20 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "١. (ھاوەڵناو) نەبوونی توانای بیرکردنەوە بە ڕوونی، بەتایبەتی بەھۆی شۆکێکەوە یان کێشراوە بە سەرتدا"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "Survivors waited for the rescue boats, dazed and frightened."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "ڕزگاربووان چاوەڕێی بەلەمە ڕزگارکەرەکان بوو بە واق‌وڕماوی و ترساوییەوە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "dazed", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdazeds1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdazeds1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "Survivors waited for the rescue boats, dazed and frightened.",
+            kurdishText:
+                "ڕزگاربووان چاوەڕێی بەلەمە ڕزگارکەرەکان بوو بە واق‌وڕماوی و ترساوییەوە.", // dazed
+            onPressedBritish: () => speakdazeds1("en-GB"),
+            onPressedAmerican: () => speakdazeds1("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "Jimmy was still dazed by the blow to his head."),
-                    ExampleSentenceKurdish(
-                        text: "جیمی ھێشتا کاو بوو بە بەرکەوتنەکەی سەری."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdazeds2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdazeds2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "Jimmy was still dazed by the blow to his head.",
+            kurdishText: "جیمی ھێشتا کاو بوو بە بەرکەوتنەکەی سەری.",
+            onPressedBritish: () => speakdazeds2("en-GB"),
+            onPressedAmerican: () => speakdazeds2("en-US"),
           ),
         ],
       ),

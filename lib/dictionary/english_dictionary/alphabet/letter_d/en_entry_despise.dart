@@ -256,86 +256,29 @@ class KurdishMeaning extends StatelessWidget {
 """),
           const DefinitionKurdish(
               text: "١. (کردار) ڕق‌لێبوون و نەبوونی ھیچ ڕێزێک بۆ کەسێک/شتێک"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "She despised gossip in any form."),
-                    ExampleSentenceKurdish(
-                        text: "ڕقی لە قسەوقسەڵۆکە بە ھەموو جۆرێک."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "despise", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdespises1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdespises1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "She despised gossip in any form.",
+            kurdishText: "ڕقی لە قسەوقسەڵۆکە بە ھەموو جۆرێک.", // despise
+            onPressedBritish: () => speakdespises1("en-GB"),
+            onPressedAmerican: () => speakdespises1("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "I don’t know why they despise me so much."),
-                    ExampleSentenceKurdish(
-                        text: "نازانم بۆچی ھێندە ڕقیان لێمە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdespises2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdespises2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "I don’t know why they despise me so much.",
+            kurdishText: "نازانم بۆچی ھێندە ڕقیان لێمە.",
+            onPressedBritish: () => speakdespises2("en-GB"),
+            onPressedAmerican: () => speakdespises2("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "He despised himself for being so cowardly."),
-                    ExampleSentenceKurdish(
-                        text: "تەواو ڕقی لێی بوو بۆ لاوازییەکەی."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdespises3("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdespises3("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "He despised himself for being so cowardly.",
+            kurdishText: "تەواو ڕقی لێی بوو بۆ لاوازییەکەی.",
+            onPressedBritish: () => speakdespises3("en-GB"),
+            onPressedAmerican: () => speakdespises3("en-US"),
           ),
           // despises400"),
           // speakdespises4

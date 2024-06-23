@@ -363,30 +363,12 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   """١. (ناو) ژمارەیەک کە پیتی E لە پێشەوەی دەنووسرێت لەسەر پاکەتێک یان کیسەیەک وەک ئاماژەی ئەوەی کە ڕەنگ یان تامی دەستکرد زیادکراوە بۆ خواردن یان خواردنەوەیەک؛ تامێک، ڕەنگێک، ھتد ــی دەستکرد کە بۆ خواردنێک یان خواردنەوەیەک زیاد دەکرێت"""),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: """This sauce is full of E-numbers."""),
-                    ExampleSentenceKurdish(
-                        text: """ئەم سۆسە پڕە لە ڕەنگ و تامی ناسرووشتی."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "E-number", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakEnumbers1("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakEnumbers1("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: """This sauce is full of E-numbers.""",
+            kurdishText:
+                """ئەم سۆسە پڕە لە ڕەنگ و تامی ناسرووشتی.""", // E-number
+            onPressedBritish: () => speakEnumbers1("en-GB"),
+            onPressedAmerican: () => speakEnumbers1("en-US"),
           ),
           // Enumbers200Enumbers2
           // speakEnumbers2

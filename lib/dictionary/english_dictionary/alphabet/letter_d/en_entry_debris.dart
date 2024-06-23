@@ -252,89 +252,31 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "١. (ھاوەڵناو) پارچەی دار، کانزا، کەرەستەی بیناسازی، ھتد کە جێدەمێنێت لە دوای ئەوەی شتێک وێران دەبێت"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "Emergency teams are still clearing the debris from the plane crash."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "تیمەکانی فریاگوزاری ھێشتا پاشماوەی تێکشکانی فڕۆکەکە پاکدەکەنەوە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "debris", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdebriss1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdebriss1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "Emergency teams are still clearing the debris from the plane crash.",
+            kurdishText:
+                "تیمەکانی فریاگوزاری ھێشتا پاشماوەی تێکشکانی فڕۆکەکە پاکدەکەنەوە.", // debris
+            onPressedBritish: () => speakdebriss1("en-GB"),
+            onPressedAmerican: () => speakdebriss1("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "Several people were injured by flying debris in the explosion."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "ژمارەیەک کەس بریندار بوون بە داروپەردوو فڕیوی تەقینەوەکە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdebriss2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdebriss2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "Several people were injured by flying debris in the explosion.",
+            kurdishText:
+                "ژمارەیەک کەس بریندار بوون بە داروپەردوو فڕیوی تەقینەوەکە.",
+            onPressedBritish: () => speakdebriss2("en-GB"),
+            onPressedAmerican: () => speakdebriss2("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: "٢. (ناو) پاشەڕۆی بەجێماوی شتێک"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "Clear away leaves and other garden debris from the pond."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "گەڵا و پاشەڕۆکانی دیکەی باخچەکە لە گۆمەکە پاک بکەوە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdebriss3("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdebriss3("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "Clear away leaves and other garden debris from the pond.",
+            kurdishText: "گەڵا و پاشەڕۆکانی دیکەی باخچەکە لە گۆمەکە پاک بکەوە.",
+            onPressedBritish: () => speakdebriss3("en-GB"),
+            onPressedAmerican: () => speakdebriss3("en-US"),
           ),
         ],
       ),

@@ -370,62 +370,24 @@ class KurdishMeaning extends StatelessWidget {
 // کوردی: (زیندەناسی) درێژ و باریک، کێشراو
 // """),
           const DefinitionKurdish(text: """١. (کردار) درێژبوونەوە"""),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            """The acid causes the cells to elongate by increasing the uptake of water."""),
-                    ExampleSentenceKurdish(
-                        text:
-                            """ترشەڵۆکەکە دەبێتە ھۆکاری ئەوەی کە خانەکان درێژببنەوە بە زیادکردنی ھەڵمژینی ئاو."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "elongate", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakelongates1("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakelongates1("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                """The acid causes the cells to elongate by increasing the uptake of water.""",
+            kurdishText:
+                """ترشەڵۆکەکە دەبێتە ھۆکاری ئەوەی کە خانەکان درێژببنەوە بە زیادکردنی ھەڵمژینی ئاو.""", // elongate
+            onPressedBritish: () => speakelongates1("en-GB"),
+            onPressedAmerican: () => speakelongates1("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
                   """٢. (ھاوەڵناو) ھەبوونی شێوەیەک کە درێژترە وەک لەوەی پان بێت"""),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: """Acanthoclinus are elongate fishes."""),
-                    ExampleSentenceKurdish(
-                        text: """ئەکانسۆکلینس ماسی باریکەڵەن."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakelongates2("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakelongates2("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: """Acanthoclinus are elongate fishes.""",
+            kurdishText: """ئەکانسۆکلینس ماسی باریکەڵەن.""",
+            onPressedBritish: () => speakelongates2("en-GB"),
+            onPressedAmerican: () => speakelongates2("en-US"),
           ),
           // elongates300elongates3
           // speakelongates3

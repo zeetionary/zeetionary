@@ -364,32 +364,13 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   """١. (ناو) ھەریەک لەو جەمسەرانەی لێیەوە کارەبا دەچێتە باتری یان ئامێرێکی کارەبایی"""),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            """The battery has a positive and a negative electrode."""),
-                    ExampleSentenceKurdish(
-                        text:
-                            """باترییەکە ئێلیکترۆدێکی ئەرێنی و نەرێنی ھەیە."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "electrode", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakelectrodes1("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakelectrodes1("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                """The battery has a positive and a negative electrode.""",
+            kurdishText:
+                """باترییەکە ئێلیکترۆدێکی ئەرێنی و نەرێنی ھەیە.""", // electrode
+            onPressedBritish: () => speakelectrodes1("en-GB"),
+            onPressedAmerican: () => speakelectrodes1("en-US"),
           ),
           // electrodes200electrodes2
           // speakelectrodes2

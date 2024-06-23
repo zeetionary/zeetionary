@@ -484,60 +484,22 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   """١. (ناو) ھەوڵێک بۆ کردنی شتێک، بەتایبەتی کە کردنی سەختە"""),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: """The project was a team effort."""),
-                    ExampleSentenceKurdish(
-                        text: """پڕۆژەکە ھەوڵی تیمێک بوو."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "effort", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakefforts1("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakefforts1("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: """The project was a team effort.""",
+            kurdishText: """پڕۆژەکە ھەوڵی تیمێک بوو.""", // effort
+            onPressedBritish: () => speakefforts1("en-GB"),
+            onPressedAmerican: () => speakefforts1("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: """ژممارە. (ناو) پێنناسە"""),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            """I didn't really feel like going out, but I am glad I made the effort."""),
-                    ExampleSentenceKurdish(
-                        text:
-                            """لە ڕاستیدا حەزم بە چوونە دەرەوە نەبوو، بەڵام خۆشحاڵم کە ھەوڵم دا."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakefforts2("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakefforts2("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                """I didn't really feel like going out, but I am glad I made the effort.""",
+            kurdishText:
+                """لە ڕاستیدا حەزم بە چوونە دەرەوە نەبوو، بەڵام خۆشحاڵم کە ھەوڵم دا.""",
+            onPressedBritish: () => speakefforts2("en-GB"),
+            onPressedAmerican: () => speakefforts2("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: """ژممارە. (ناو) پێنناسە"""),
@@ -545,211 +507,77 @@ class KurdishMeaning extends StatelessWidget {
             children: [
               MyExpansionTile(
                 children: [
-                  Row(
-                    children: [
-                      const Expanded(
-                        child: Column(
-                          children: [
-                            ExampleSentenceEnglish(
-                                text:
-                                    """Please make an effort to be on time."""),
-                            ExampleSentenceKurdish(
-                                text: """تکایە ھەوڵ بدە لە کاتی خۆیدا بە."""),
-                          ],
-                        ),
-                      ),
-                      const CustomSizedBoxForTTS(),
-                      Column(
-                        children: [
-                          CustomIconButtonBritish(
-                            onPressed: () => speakefforts3("en-GB" ""),
-                          ),
-                          CustomIconButtonAmerican(
-                            onPressed: () => speakefforts3("en-US" ""),
-                          ),
-                        ],
-                      ),
-                    ],
+                  SentencesRow(
+                    englishText: """Please make an effort to be on time.""",
+                    kurdishText: """تکایە ھەوڵ بدە لە کاتی خۆیدا بە.""",
+                    onPressedBritish: () => speakefforts3("en-GB"),
+                    onPressedAmerican: () => speakefforts3("en-US" ""),
                   ),
                   // const DividerDefinition(),
                   // const DefinitionKurdish(text: """ژممارە. (ناو) پێنناسە"""),
                   const DividerSentences(),
-                  Row(
-                    children: [
-                      const Expanded(
-                        child: Column(
-                          children: [
-                            ExampleSentenceEnglish(
-                                text:
-                                    """We need to make a concerted effort to finish on time."""),
-                            ExampleSentenceKurdish(
-                                text:
-                                    """دەبێت ھەوڵێکی ھاوبەش بدەین کە لە کاتی خۆیدا تەواوی بکەین."""),
-                          ],
-                        ),
-                      ),
-                      const CustomSizedBoxForTTS(),
-                      Column(
-                        children: [
-                          CustomIconButtonBritish(
-                            onPressed: () => speakefforts4("en-GB" ""),
-                          ),
-                          CustomIconButtonAmerican(
-                            onPressed: () => speakefforts4("en-US" ""),
-                          ),
-                        ],
-                      ),
-                    ],
+                  SentencesRow(
+                    englishText:
+                        """We need to make a concerted effort to finish on time.""",
+                    kurdishText:
+                        """دەبێت ھەوڵێکی ھاوبەش بدەین کە لە کاتی خۆیدا تەواوی بکەین.""",
+                    onPressedBritish: () => speakefforts4("en-GB"),
+                    onPressedAmerican: () => speakefforts4("en-US" ""),
                   ),
                   // const DividerDefinition(),
                   // const DefinitionKurdish(text: """ژممارە. (ناو) پێنناسە"""),
                   const DividerSentences(),
-                  Row(
-                    children: [
-                      const Expanded(
-                        child: Column(
-                          children: [
-                            ExampleSentenceEnglish(
-                                text:
-                                    """You need to focus your efforts on critical areas first."""),
-                            ExampleSentenceKurdish(
-                                text:
-                                    """دەبێت سەرەتا سەرنجی ھەوڵەکانت بخەیتە سەر لایەنە گرنگەکان."""),
-                          ],
-                        ),
-                      ),
-                      const CustomSizedBoxForTTS(),
-                      Column(
-                        children: [
-                          CustomIconButtonBritish(
-                            onPressed: () => speakefforts5("en-GB" ""),
-                          ),
-                          CustomIconButtonAmerican(
-                            onPressed: () => speakefforts5("en-US" ""),
-                          ),
-                        ],
-                      ),
-                    ],
+                  SentencesRow(
+                    englishText:
+                        """You need to focus your efforts on critical areas first.""",
+                    kurdishText:
+                        """دەبێت سەرەتا سەرنجی ھەوڵەکانت بخەیتە سەر لایەنە گرنگەکان.""",
+                    onPressedBritish: () => speakefforts5("en-GB"),
+                    onPressedAmerican: () => speakefforts5("en-US" ""),
                   ),
                   // const DividerDefinition(),
                   // const DefinitionKurdish(text: """ژممارە. (ناو) پێنناسە"""),
                   const DividerSentences(),
-                  Row(
-                    children: [
-                      const Expanded(
-                        child: Column(
-                          children: [
-                            ExampleSentenceEnglish(
-                                text:
-                                    """I'm glad to hear that many of you support our efforts."""),
-                            ExampleSentenceKurdish(
-                                text:
-                                    """خۆشحاڵم کە دەبیستم زۆرێکتان پاڵپشتی ھەوڵەکانمانن."""),
-                          ],
-                        ),
-                      ),
-                      const CustomSizedBoxForTTS(),
-                      Column(
-                        children: [
-                          CustomIconButtonBritish(
-                            onPressed: () => speakefforts6("en-GB" ""),
-                          ),
-                          CustomIconButtonAmerican(
-                            onPressed: () => speakefforts6("en-US" ""),
-                          ),
-                        ],
-                      ),
-                    ],
+                  SentencesRow(
+                    englishText:
+                        """I'm glad to hear that many of you support our efforts.""",
+                    kurdishText:
+                        """خۆشحاڵم کە دەبیستم زۆرێکتان پاڵپشتی ھەوڵەکانمانن.""",
+                    onPressedBritish: () => speakefforts6("en-GB"),
+                    onPressedAmerican: () => speakefforts6("en-US" ""),
                   ),
                   // const DividerDefinition(),
                   // const DefinitionKurdish(text: """ژممارە. (ناو) پێنناسە"""),
                   const DividerSentences(),
-                  Row(
-                    children: [
-                      const Expanded(
-                        child: Column(
-                          children: [
-                            ExampleSentenceEnglish(
-                                text:
-                                    """The company has laid off 150 workers in an effort to save money."""),
-                            ExampleSentenceKurdish(
-                                text:
-                                    """کۆمپانیاکە ١٥٠ کرێکاری دەرکردووە لە ھەوڵێکدا بۆ گەڕاندنەوەی پارە."""),
-                          ],
-                        ),
-                      ),
-                      const CustomSizedBoxForTTS(),
-                      Column(
-                        children: [
-                          CustomIconButtonBritish(
-                            onPressed: () => speakefforts7("en-GB" ""),
-                          ),
-                          CustomIconButtonAmerican(
-                            onPressed: () => speakefforts7("en-US" ""),
-                          ),
-                        ],
-                      ),
-                    ],
+                  SentencesRow(
+                    englishText:
+                        """The company has laid off 150 workers in an effort to save money.""",
+                    kurdishText:
+                        """کۆمپانیاکە ١٥٠ کرێکاری دەرکردووە لە ھەوڵێکدا بۆ گەڕاندنەوەی پارە.""",
+                    onPressedBritish: () => speakefforts7("en-GB"),
+                    onPressedAmerican: () => speakefforts7("en-US" ""),
                   ),
                   // const DividerDefinition(),
                   // const DefinitionKurdish(text: """ژممارە. (ناو) پێنناسە"""),
                   const DividerSentences(),
-                  Row(
-                    children: [
-                      const Expanded(
-                        child: Column(
-                          children: [
-                            ExampleSentenceEnglish(
-                                text:
-                                    """Despite our best efforts, we didn't manage to win the game."""),
-                            ExampleSentenceKurdish(
-                                text:
-                                    """سەرەڕای باشترین ھەوڵەکانمان، نەمانتوانی یارییەکە ببەینەوە."""),
-                          ],
-                        ),
-                      ),
-                      const CustomSizedBoxForTTS(),
-                      Column(
-                        children: [
-                          CustomIconButtonBritish(
-                            onPressed: () => speakefforts8("en-GB" ""),
-                          ),
-                          CustomIconButtonAmerican(
-                            onPressed: () => speakefforts8("en-US" ""),
-                          ),
-                        ],
-                      ),
-                    ],
+                  SentencesRow(
+                    englishText:
+                        """Despite our best efforts, we didn't manage to win the game.""",
+                    kurdishText:
+                        """سەرەڕای باشترین ھەوڵەکانمان، نەمانتوانی یارییەکە ببەینەوە.""",
+                    onPressedBritish: () => speakefforts8("en-GB"),
+                    onPressedAmerican: () => speakefforts8("en-US" ""),
                   ),
                   // const DividerDefinition(),
                   // const DefinitionKurdish(text: """ژممارە. (ناو) پێنناسە"""),
                   const DividerSentences(),
-                  Row(
-                    children: [
-                      const Expanded(
-                        child: Column(
-                          children: [
-                            ExampleSentenceEnglish(
-                                text:
-                                    """He failed in his efforts to give up smoking."""),
-                            ExampleSentenceKurdish(
-                                text:
-                                    """لە ھەوڵەکانی بۆ وازھێنان لە جگەرەکێشان شکستی ھێنا."""),
-                          ],
-                        ),
-                      ),
-                      const CustomSizedBoxForTTS(),
-                      Column(
-                        children: [
-                          CustomIconButtonBritish(
-                            onPressed: () => speakefforts9("en-GB" ""),
-                          ),
-                          CustomIconButtonAmerican(
-                            onPressed: () => speakefforts9("en-US" ""),
-                          ),
-                        ],
-                      ),
-                    ],
+                  SentencesRow(
+                    englishText:
+                        """He failed in his efforts to give up smoking.""",
+                    kurdishText:
+                        """لە ھەوڵەکانی بۆ وازھێنان لە جگەرەکێشان شکستی ھێنا.""",
+                    onPressedBritish: () => speakefforts9("en-GB"),
+                    onPressedAmerican: () => speakefforts9("en-US" ""),
                   ),
                 ],
               ),
@@ -760,179 +588,64 @@ class KurdishMeaning extends StatelessWidget {
               text:
                   """٢. (ناو) وزەی جەستەیی یان دەروونی کە پێویستە بۆ کردنی شتێک"""),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: """You should put more effort into your work."""),
-                    ExampleSentenceKurdish(
-                        text: """دەبێت وزەی زیاتر بدەیت بە کارەکە."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakefforts10("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakefforts10("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: """You should put more effort into your work.""",
+            kurdishText: """دەبێت وزەی زیاتر بدەیت بە کارەکە.""",
+            onPressedBritish: () => speakefforts10("en-GB"),
+            onPressedAmerican: () => speakefforts10("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: """ژممارە. (ناو) پێنناسە"""),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            """A great deal of time and effort has gone into making this event a success."""),
-                    ExampleSentenceKurdish(
-                        text:
-                            """ھەوڵێکی زۆری کات و وزە دراوە بۆ سەرخستنی ئەم بۆنەیە."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakefforts11("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakefforts11("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                """A great deal of time and effort has gone into making this event a success.""",
+            kurdishText:
+                """ھەوڵێکی زۆری کات و وزە دراوە بۆ سەرخستنی ئەم بۆنەیە.""",
+            onPressedBritish: () => speakefforts11("en-GB"),
+            onPressedAmerican: () => speakefforts11("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: """ژممارە. (ناو) پێنناسە"""),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            """It's a long climb to the top, but well worth the effort."""),
-                    ExampleSentenceKurdish(
-                        text:
-                            """تا سەرەوە سەرکەوتنێکی درێژە، بەڵام شایەنی ھەوڵەکەیە."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakefforts12("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakefforts12("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                """It's a long climb to the top, but well worth the effort.""",
+            kurdishText:
+                """تا سەرەوە سەرکەوتنێکی درێژە، بەڵام شایەنی ھەوڵەکەیە.""",
+            onPressedBritish: () => speakefforts12("en-GB"),
+            onPressedAmerican: () => speakefforts12("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: """ژممارە. (ناو) پێنناسە"""),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: """The task required almost no effort."""),
-                    ExampleSentenceKurdish(
-                        text:
-                            """ئەرکەکە بەنزیکەیی پێویستی بە ھیچ وزەیەک نەبوو."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakefforts13("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakefforts13("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: """The task required almost no effort.""",
+            kurdishText: """ئەرکەکە بەنزیکەیی پێویستی بە ھیچ وزەیەک نەبوو.""",
+            onPressedBritish: () => speakefforts13("en-GB"),
+            onPressedAmerican: () => speakefforts13("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text: """٣. (ناو) چالاکی کۆمەڵە کەسێک بۆ کردنی شتێک"""),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            """The United Nations’ peacekeeping effort reduced violence in the region."""),
-                    ExampleSentenceKurdish(
-                        text:
-                            """ھەوڵی ئاشتی‌پارێزی نەتەوە یەکگرتووەکان توندوتیژی لە ھەرێمەکە کەمکردەوە."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakefforts14("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakefforts14("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                """The United Nations’ peacekeeping effort reduced violence in the region.""",
+            kurdishText:
+                """ھەوڵی ئاشتی‌پارێزی نەتەوە یەکگرتووەکان توندوتیژی لە ھەرێمەکە کەمکردەوە.""",
+            onPressedBritish: () => speakefforts14("en-GB"),
+            onPressedAmerican: () => speakefforts14("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text: """٤. (ناو) ئەنجامی ھەوڵی کردنی شتێک"""),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: """I'm afraid this essay is a poor effort."""),
-                    ExampleSentenceKurdish(
-                        text: """بەداخەوەم کە ئەم داڕشتنە ئەنجامێکی خراپە."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakefforts15("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakefforts15("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: """I'm afraid this essay is a poor effort.""",
+            kurdishText: """بەداخەوەم کە ئەم داڕشتنە ئەنجامێکی خراپە.""",
+            onPressedBritish: () => speakefforts15("en-GB"),
+            onPressedAmerican: () => speakefforts15("en-US"),
           ),
           // efforts1600efforts16
           // speakefforts16

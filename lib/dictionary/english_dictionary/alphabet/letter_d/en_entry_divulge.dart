@@ -372,58 +372,20 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "١. (کردار) پێدانی زانیارییەک بە کەسێک کە پێویستە نھێنی بێت"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "Police refused to divulge the identity of the suspect."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "پۆلیس ڕەتیکردەوە ناسنامەی گومانلێکراوەکە ئاشکرا بکات."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "divulge", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdivulges1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdivulges1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "Police refused to divulge the identity of the suspect.",
+            kurdishText:
+                "پۆلیس ڕەتیکردەوە ناسنامەی گومانلێکراوەکە ئاشکرا بکات.", // divulge
+            onPressedBritish: () => speakdivulges1("en-GB"),
+            onPressedAmerican: () => speakdivulges1("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "She refused to divulge the information."),
-                    ExampleSentenceKurdish(
-                        text: "ڕەتیکردەوە زانیارییەکە ئاشکرا بکات."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdivulges2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdivulges2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "She refused to divulge the information.",
+            kurdishText: "ڕەتیکردەوە زانیارییەکە ئاشکرا بکات.",
+            onPressedBritish: () => speakdivulges2("en-GB"),
+            onPressedAmerican: () => speakdivulges2("en-US"),
           ),
           // divulges300"),
           // speakdivulges3

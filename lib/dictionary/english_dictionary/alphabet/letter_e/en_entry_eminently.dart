@@ -369,58 +369,20 @@ class KurdishMeaning extends StatelessWidget {
 // کوردی: یەکجار زۆر، گەلێ
 // """),
           const DefinitionKurdish(text: """١. (ھاوەڵکار) یەکجار، گەلێ"""),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: """She seems eminently suitable for the job."""),
-                    ExampleSentenceKurdish(text: """گەلێ گونجاوە بۆ کارەکە."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "eminently", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakeminentlys1("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakeminentlys1("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: """She seems eminently suitable for the job.""",
+            kurdishText: """گەلێ گونجاوە بۆ کارەکە.""", // eminently
+            onPressedBritish: () => speakeminentlys1("en-GB"),
+            onPressedAmerican: () => speakeminentlys1("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            """Tony comes from an eminently respectable family."""),
-                    ExampleSentenceKurdish(
-                        text: """تۆنی سەر بە خێزانێکی تەواو ڕێزلێ‌گیردراوە."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakeminentlys2("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakeminentlys2("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: """Tony comes from an eminently respectable family.""",
+            kurdishText: """تۆنی سەر بە خێزانێکی تەواو ڕێزلێ‌گیردراوە.""",
+            onPressedBritish: () => speakeminentlys2("en-GB"),
+            onPressedAmerican: () => speakeminentlys2("en-US"),
           ),
           // eminentlys300eminentlys3
           // speakeminentlys3

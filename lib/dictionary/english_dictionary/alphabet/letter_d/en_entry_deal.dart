@@ -308,284 +308,95 @@ class KurdishMeaning extends StatelessWidget {
 """),
           const DefinitionKurdish(
               text: "١. (کردار) پێدانی کارد بە یاریزانان لە یاری کارددا"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(text: "Whose turn is it to deal?"),
-                    ExampleSentenceKurdish(text: "نۆرەی کێیە کارد دابەش بکات؟"),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "deal", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdeals1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdeals1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "Whose turn is it to deal?",
+            kurdishText: "نۆرەی کێیە کارد دابەش بکات؟", // deal
+            onPressedBritish: () => speakdeals1("en-GB"),
+            onPressedAmerican: () => speakdeals1("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٢. (کردار) کڕین و فرۆشتنی مادەی ھۆشبەر"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "You can often see people dealing openly on the streets."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "زۆرجار خەڵکی دەبینیت بە ئاشكرایی لەسەر شەقامەکان مادەی ھۆشبەر دەفرۆشن."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdeals2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdeals2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "You can often see people dealing openly on the streets.",
+            kurdishText:
+                "زۆرجار خەڵکی دەبینیت بە ئاشكرایی لەسەر شەقامەکان مادەی ھۆشبەر دەفرۆشن.",
+            onPressedBritish: () => speakdeals2("en-GB"),
+            onPressedAmerican: () => speakdeals2("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "He was sent to jail for dealing drugs to his friends."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "نێردرا بۆ زیندان بۆ فرۆشتنی مادەی ھۆشبەر بە ھاوڕێکانی."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdeals3("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdeals3("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "He was sent to jail for dealing drugs to his friends.",
+            kurdishText:
+                "نێردرا بۆ زیندان بۆ فرۆشتنی مادەی ھۆشبەر بە ھاوڕێکانی.",
+            onPressedBritish: () => speakdeals3("en-GB"),
+            onPressedAmerican: () => speakdeals3("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
                   "٣. (ناو) ڕێککەوتنێک، بە تایبەتی ھی بازرگانی، لەسەر مەرجی دیاریکراو بۆ کڕین و کردنی شتێک"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "She is travelling to New York to seal the deal (= conclude it)."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "گەشت دەکات بۆ نیویۆرک بۆ کۆتایی ھێنان بە ڕێککەوتنەکە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdeals4("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdeals4("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "She is travelling to New York to seal the deal (= conclude it).",
+            kurdishText:
+                "گەشت دەکات بۆ نیویۆرک بۆ کۆتایی ھێنان بە ڕێککەوتنەکە.",
+            onPressedBritish: () => speakdeals4("en-GB"),
+            onPressedAmerican: () => speakdeals4("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "We did a deal with the management on overtime."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "لەگەڵ بەڕێوەبەرایەتیدا ڕێککەوتنێکمان کرد سەبارەت بە کاتژمێری زیادەی کارکردن."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdeals5("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdeals5("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "We did a deal with the management on overtime.",
+            kurdishText:
+                "لەگەڵ بەڕێوەبەرایەتیدا ڕێککەوتنێکمان کرد سەبارەت بە کاتژمێری زیادەی کارکردن.",
+            onPressedBritish: () => speakdeals5("en-GB"),
+            onPressedAmerican: () => speakdeals5("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "I'll make a deal with you—I'll work evenings if you'll work weekends."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "ڕێککەوتنێکت لەگەڵ دەکەم ـ من ئێواران کار دەکەم ئەگەر تۆ کۆتایی ھەفتان کار بکەیت."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdeals6("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdeals6("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "I'll make a deal with you—I'll work evenings if you'll work weekends.",
+            kurdishText:
+                "ڕێککەوتنێکت لەگەڵ دەکەم ـ من ئێواران کار دەکەم ئەگەر تۆ کۆتایی ھەفتان کار بکەیت.",
+            onPressedBritish: () => speakdeals6("en-GB"),
+            onPressedAmerican: () => speakdeals6("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "He is trying to cut a deal (= make one) with the rebels."),
-                    ExampleSentenceKurdish(
-                        text: "ھەوڵ دەدات لەگەڵ یاخیبووان ڕێککەوتنێک بکات."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdeals7("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdeals7("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "He is trying to cut a deal (= make one) with the rebels.",
+            kurdishText: "ھەوڵ دەدات لەگەڵ یاخیبووان ڕێککەوتنێک بکات.",
+            onPressedBritish: () => speakdeals7("en-GB"),
+            onPressedAmerican: () => speakdeals7("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٤. (ناو) شێوازی مامەڵەکردن لەگەڵ کەسێک"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "If elected, the party has promised a new deal (= better and fairer treatment) for teachers."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "ئەگەر ھەڵبژێردرێن، پارتەکە بەڵێنی مامەڵەیەکی باشتری لەگەڵ مامۆستایان داوە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdeals8("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdeals8("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "If elected, the party has promised a new deal (= better and fairer treatment) for teachers.",
+            kurdishText:
+                "ئەگەر ھەڵبژێردرێن، پارتەکە بەڵێنی مامەڵەیەکی باشتری لەگەڵ مامۆستایان داوە.",
+            onPressedBritish: () => speakdeals8("en-GB"),
+            onPressedAmerican: () => speakdeals8("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "They knew they'd been given a raw deal (= been treated unfairly)."),
-                    ExampleSentenceKurdish(
-                        text: "دەیانزانی مامەڵەیەکی خراپیان لەگەڵ کراوە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdeals9("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdeals9("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "They knew they'd been given a raw deal (= been treated unfairly).",
+            kurdishText: "دەیانزانی مامەڵەیەکی خراپیان لەگەڵ کراوە.",
+            onPressedBritish: () => speakdeals9("en-GB"),
+            onPressedAmerican: () => speakdeals9("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "We tried to ensure that everyone got a fair deal."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "ھەوڵمان دڵنیایی بکەینەوە کە ھەموان مامەڵەیەکی یەکسانیان لەگەڵ کراوە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdeals10("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdeals10("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "We tried to ensure that everyone got a fair deal.",
+            kurdishText:
+                "ھەوڵمان دڵنیایی بکەینەوە کە ھەموان مامەڵەیەکی یەکسانیان لەگەڵ کراوە.",
+            onPressedBritish: () => speakdeals10("en-GB"),
+            onPressedAmerican: () => speakdeals10("en-US"),
           ),
         ],
       ),

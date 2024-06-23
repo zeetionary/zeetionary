@@ -378,82 +378,27 @@ class KurdishMeaning extends StatelessWidget {
 کوردی: دەرمان، بڕی دەرمانێ بۆ ئاژەڵ، ژەمەدەرمان
 """),
           const DefinitionKurdish(text: "١. (کردار) تەواو تەڕکردنی شتێک"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "We were caught in the storm and got drenched to the skin."),
-                    ExampleSentenceKurdish(
-                        text: "کەوتینە ناو زریانەکە و تا سەر پێستمان خووساین."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "drench", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdrenchs1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdrenchs1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "We were caught in the storm and got drenched to the skin.",
+            kurdishText:
+                "کەوتینە ناو زریانەکە و تا سەر پێستمان خووساین.", // drench
+            onPressedBritish: () => speakdrenchs1("en-GB"),
+            onPressedAmerican: () => speakdrenchs1("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "His face was drenched with sweat."),
-                    ExampleSentenceKurdish(
-                        text: "ڕووخساری خووسابوو لە ئارەقەدا."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdrenchs2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdrenchs2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "His face was drenched with sweat.",
+            kurdishText: "ڕووخساری خووسابوو لە ئارەقەدا.",
+            onPressedBritish: () => speakdrenchs2("en-GB"),
+            onPressedAmerican: () => speakdrenchs2("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "She drenched herself in perfume."),
-                    ExampleSentenceKurdish(text: "(خوازراوی) خۆی تێنا لە بۆن."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdrenchs3("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdrenchs3("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "She drenched herself in perfume.",
+            kurdishText: "(خوازراوی) خۆی تێنا لە بۆن.",
+            onPressedBritish: () => speakdrenchs3("en-GB"),
+            onPressedAmerican: () => speakdrenchs3("en-US"),
           ),
           // drenchs400"),
           // speakdrenchs4

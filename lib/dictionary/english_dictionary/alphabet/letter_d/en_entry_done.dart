@@ -386,120 +386,42 @@ class KurdishMeaning extends StatelessWidget {
 کوردی: (چێشت و ھتد) کوڵاو،	باش، دروست، چاک، پەسند،	تەواو
 """),
           const DefinitionKurdish(text: "١. (ھاوەڵناو) کە تەواو بووە"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "When you're done, perhaps I can say something."),
-                    ExampleSentenceKurdish(
-                        text: "کە تەواو بووین، ڕەنگە بتوانم شتێک بڵێم."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "done", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdones1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdones1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "When you're done, perhaps I can say something.",
+            kurdishText: "کە تەواو بووین، ڕەنگە بتوانم شتێک بڵێم.", // done
+            onPressedBritish: () => speakdones1("en-GB"),
+            onPressedAmerican: () => speakdones1("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "I'll be glad when this job is over and done with."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "خۆشحاڵ دەبم کە ئەم کارە تەواو دەبێت و کۆتایی پێدێت."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdones2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdones2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "I'll be glad when this job is over and done with.",
+            kurdishText: "خۆشحاڵ دەبم کە ئەم کارە تەواو دەبێت و کۆتایی پێدێت.",
+            onPressedBritish: () => speakdones2("en-GB"),
+            onPressedAmerican: () => speakdones2("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: "٢. (ھاوەڵناو) خواردنێک کە ئامادەیە"),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "The meat isn't quite done yet."),
-                    ExampleSentenceKurdish(
-                        text: "گۆشتەکە ھێشتا تەواو ئامادە نییە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdones3("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdones3("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "The meat isn't quite done yet.",
+            kurdishText: "گۆشتەکە ھێشتا تەواو ئامادە نییە.",
+            onPressedBritish: () => speakdones3("en-GB"),
+            onPressedAmerican: () => speakdones3("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
                   "٣. (ھاوەڵناو) کە پەسەندە، بەتایبەتی بۆ کەسانێک کە کۆمەڵە یاسایەکی توندی کۆمەڵایەتییان ھەیە"),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "At school, it simply wasn't done to show that you were upset."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "لە قوتابخانە، ئەوە بە تەواوی پەسەند نەکراوبوو کە پیشانی بدەیت کەوا بێزاریت."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdones4("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdones4("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "At school, it simply wasn't done to show that you were upset.",
+            kurdishText:
+                "لە قوتابخانە، ئەوە بە تەواوی پەسەند نەکراوبوو کە پیشانی بدەیت کەوا بێزاریت.",
+            onPressedBritish: () => speakdones4("en-GB"),
+            onPressedAmerican: () => speakdones4("en-US"),
           ),
           // dones500"),
           // speakdones5

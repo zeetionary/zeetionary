@@ -373,67 +373,27 @@ class KurdishMeaning extends StatelessWidget {
               text:
                   """١. (ناو) دیوارێکی سەخت کە درووست دەکرێت بۆ ڕێگری لەوەی ئاو بچێتە ناوچەیەکی نزمەوە لە دەریاوە"""),
           const AlsoEnglishckb(word: "ھەروەھا: dike"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            """During the 1997 floods the sea broke through the dyke."""),
-                    ExampleSentenceKurdish(
-                        text:
-                            """لە کاتی لافاوەکانی ١٩٩٧ دەریاکە بە بەربەستەکەدا تێپەڕی."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "dyke", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdykes1("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdykes1("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                """During the 1997 floods the sea broke through the dyke.""",
+            kurdishText:
+                """لە کاتی لافاوەکانی ١٩٩٧ دەریاکە بە بەربەستەکەدا تێپەڕی.""", // dyke
+            onPressedBritish: () => speakdykes1("en-GB"),
+            onPressedAmerican: () => speakdykes1("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text: """٢. (ناو) نۆکەندێک کە ئاو بە زەویدا دەبات"""),
           // const DividerSentences(),
           const AlsoEnglishckb(word: "ھەروەھا: dike، ditch"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            """The first dykes were cut in the Middle Ages."""),
-                    ExampleSentenceKurdish(
-                      text:
-                          """یەکەمین جۆگەکان لە سەردەمانی ناوەڕاست درووستکران.""",
-                      note:
-                          "زانیاری: سەدەکانی ناوەڕاست لە ئەورووپا نێوان سەدەی پێنج بۆ پازدە بوو",
-                    ),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdykes2("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdykes2("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: """The first dykes were cut in the Middle Ages.""",
+            kurdishText:
+                """یەکەمین جۆگەکان لە سەردەمانی ناوەڕاست درووستکران.""",
+            kurdishNote:
+                "زانیاری: سەدەکانی ناوەڕاست لە ئەورووپا نێوان سەدەی پێنج بۆ پازدە بوو",
+            onPressedBritish: () => speakdykes2("en-GB"),
+            onPressedAmerican: () => speakdykes2("en-US"),
           ),
           // dykes300
           // speakdykes3

@@ -365,32 +365,13 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   """١. (ھاوەڵناو) ھەبوونی بیروڕای بەھێز کە ھەرگیز ناگۆڕدرێن"""),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            """He's a dyed-in-the-wool traditionalist where cooking is concerned - he doesn't allow any modern gadgets in the kitchen."""),
-                    ExampleSentenceKurdish(
-                        text:
-                            """کە دێتە سەر بابی خواردن نەریتخوازێکی سەرسەختە کە ڕێگا بە ھیچ ئامرازێکی سەردەمیانە نادات لە چێشتخانەدا."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "dyed in the wool", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdyedinthewools1("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdyedinthewools1("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                """He's a dyed-in-the-wool traditionalist where cooking is concerned - he doesn't allow any modern gadgets in the kitchen.""",
+            kurdishText:
+                """کە دێتە سەر بابی خواردن نەریتخوازێکی سەرسەختە کە ڕێگا بە ھیچ ئامرازێکی سەردەمیانە نادات لە چێشتخانەدا.""", // dyed in the wool
+            onPressedBritish: () => speakdyedinthewools1("en-GB"),
+            onPressedAmerican: () => speakdyedinthewools1("en-US"),
           ),
           // dyedinthewools200
           // speakdyedinthewools2

@@ -382,59 +382,20 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "١. (ناو) کەلوپەلێکی ناوماڵ کە کە لە سەرەوە ڕەفی ھەیە و لە خوارەوە دۆڵابی ھەیە، بەکاردێت بۆ ھەڵگرتنی پیاڵە، دەوری، ھتد"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "I put the kettle on and took two cups and saucers down from the dresser."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "کترییەکەم خستە سەر و دوو کووپ و ژێرپیاڵەم لە میزی چێشتخانەکە دەرکرد."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "dresser", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdressers1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdressers1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "I put the kettle on and took two cups and saucers down from the dresser.",
+            kurdishText:
+                "کترییەکەم خستە سەر و دوو کووپ و ژێرپیاڵەم لە میزی چێشتخانەکە دەرکرد.", // dresser
+            onPressedBritish: () => speakdressers1("en-GB"),
+            onPressedAmerican: () => speakdressers1("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "There was a small dresser in the corner of the room."),
-                    ExampleSentenceKurdish(
-                        text: "میزێکی بچووکتر لە سووچی ژوورەکە ھەبوو."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdressers2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdressers2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "There was a small dresser in the corner of the room.",
+            kurdishText: "میزێکی بچووکتر لە سووچی ژوورەکە ھەبوو.",
+            onPressedBritish: () => speakdressers2("en-GB"),
+            onPressedAmerican: () => speakdressers2("en-US"),
           ),
           const DividerDefinition(),
           Column(
@@ -462,30 +423,11 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text: "٣. (ناو) کەسێک کە جل لەبەر دەکات بەو جۆرەی باسکراوە"),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "She was always a very stylish dresser."),
-                    ExampleSentenceKurdish(
-                        text: "ھەمیشە جل‌پۆشێکی زۆر بەستایل بوو."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdressers3("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdressers3("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "She was always a very stylish dresser.",
+            kurdishText: "ھەمیشە جل‌پۆشێکی زۆر بەستایل بوو.",
+            onPressedBritish: () => speakdressers3("en-GB"),
+            onPressedAmerican: () => speakdressers3("en-US"),
           ),
           // dressers400"),
           // speakdressers4

@@ -380,90 +380,31 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   """١. (ھاوەڵناو) کەسێک کە ژمارەیەک مەرجی تێدایە بۆ شتێک، یان لە تەمەنی گونجاوە بۆ شتێک"""),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            """The new regulations made a lot of prisoners eligible for early release."""),
-                    ExampleSentenceKurdish(
-                        text:
-                            """ڕێسا تازەکان زۆر زیندانی شایستە کرد بۆ ئازادکردنی پێشوەختە."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "eligible", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakeligibles1("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakeligibles1("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                """The new regulations made a lot of prisoners eligible for early release.""",
+            kurdishText:
+                """ڕێسا تازەکان زۆر زیندانی شایستە کرد بۆ ئازادکردنی پێشوەختە.""", // eligible
+            onPressedBritish: () => speakeligibles1("en-GB"),
+            onPressedAmerican: () => speakeligibles1("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            """You are not considered eligible for legal aid."""),
-                    ExampleSentenceKurdish(
-                        text: """شایستە بە یارمەتیی یاسایی نییت."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakeligibles2("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakeligibles2("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: """You are not considered eligible for legal aid.""",
+            kurdishText: """شایستە بە یارمەتیی یاسایی نییت.""",
+            onPressedBritish: () => speakeligibles2("en-GB"),
+            onPressedAmerican: () => speakeligibles2("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            """When are you eligible to vote in your country?"""),
-                    ExampleSentenceKurdish(
-                        text: """کەی مافی دانگدانت دەبێت لە وڵاتەکەت؟"""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakeligibles3("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakeligibles3("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: """When are you eligible to vote in your country?""",
+            kurdishText: """کەی مافی دانگدانت دەبێت لە وڵاتەکەت؟""",
+            onPressedBritish: () => speakeligibles3("en-GB"),
+            onPressedAmerican: () => speakeligibles3("en-US"),
           ),
           // eligibles400eligibles4
           // speakeligibles4

@@ -371,64 +371,26 @@ class KurdishMeaning extends StatelessWidget {
 کوردی: ژینگەناس، مەڵبەندناس، بووم‌ناس،	ژینگەپارێز، ژێنگەوان
 """),
           const DefinitionKurdish(text: """١. (ناو) زانای ژینگەیی"""),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            """The ecologist studied the rainforest's biodiversity."""),
-                    ExampleSentenceKurdish(
-                        text:
-                            """ژینگەناسەکە لێکۆڵینەوەی لە ھەمەچەشنیی دارستانە باراناوییەکە دەکرد."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "ecologist", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakecologists1("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakecologists1("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                """The ecologist studied the rainforest's biodiversity.""",
+            kurdishText:
+                """ژینگەناسەکە لێکۆڵینەوەی لە ھەمەچەشنیی دارستانە باراناوییەکە دەکرد.""", // ecologist
+            onPressedBritish: () => speakecologists1("en-GB"),
+            onPressedAmerican: () => speakecologists1("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
                   """٢. (ناو) کەسێک کە حەزی بە ژینگەناسییە و باوەڕی وایە ژینگە دەبێت بپارێزرێت"""),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            """He became an ecologist to help protect natural habitats."""),
-                    ExampleSentenceKurdish(
-                        text:
-                            """بوو بە ژینگەپارێزێک بۆ پاراستنی ژینگە سرووشتییەکان."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakecologists2("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakecologists2("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                """He became an ecologist to help protect natural habitats.""",
+            kurdishText:
+                """بوو بە ژینگەپارێزێک بۆ پاراستنی ژینگە سرووشتییەکان.""",
+            onPressedBritish: () => speakecologists2("en-GB"),
+            onPressedAmerican: () => speakecologists2("en-US"),
           ),
           // ecologists300ecologists3
           // speakecologists3

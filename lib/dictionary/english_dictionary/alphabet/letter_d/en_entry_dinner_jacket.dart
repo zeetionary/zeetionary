@@ -235,32 +235,13 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "١. (ناو) چاکەتێکی ڕەش یان سپی کە لەگەڵ بۆینباخ لە بۆنە فەرمییەکان لە ئێواراندا لەبەر دەکرێت"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The invitation required a dinner jacket for the dinner."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "میھرەجانەکە پێویستی بە چاکەتێکی شێوان بوو بۆ نانی ئێوارە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "dinner jacket", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdinnerjackets1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdinnerjackets1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "The invitation required a dinner jacket for the dinner.",
+            kurdishText:
+                "میھرەجانەکە پێویستی بە چاکەتێکی شێوان بوو بۆ نانی ئێوارە.", // dinner jacket
+            onPressedBritish: () => speakdinnerjackets1("en-GB"),
+            onPressedAmerican: () => speakdinnerjackets1("en-US"),
           ),
           // dinnerjackets200"),
           // speakdinnerjackets2

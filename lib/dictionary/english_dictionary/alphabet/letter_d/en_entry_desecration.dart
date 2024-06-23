@@ -252,60 +252,23 @@ class KurdishMeaning extends StatelessWidget {
 """),
           const DefinitionKurdish(
               text: "١. (ناو) زیان گەیاندن یان بێڕێزی کردن"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "Desecration of sacred sites and objects was widespread."),
-                    ExampleSentenceKurdish(
-                        text: "سوکایەتی بە شوێن و شتە پیرۆزەکان باو بوو."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "desecration", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdesecrations1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdesecrations1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "Desecration of sacred sites and objects was widespread.",
+            kurdishText:
+                "سوکایەتی بە شوێن و شتە پیرۆزەکان باو بوو.", // desecration
+            onPressedBritish: () => speakdesecrations1("en-GB"),
+            onPressedAmerican: () => speakdesecrations1("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "People were horrified at the desecration of the cemetery."),
-                    ExampleSentenceKurdish(
-                        text: "خەڵکی تاسان بە تێکدانی گۆڕستانەکە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdesecrations2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdesecrations2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "People were horrified at the desecration of the cemetery.",
+            kurdishText: "خەڵکی تاسان بە تێکدانی گۆڕستانەکە.",
+            onPressedBritish: () => speakdesecrations2("en-GB"),
+            onPressedAmerican: () => speakdesecrations2("en-US"),
           ),
           // desecrations300"),
           // speakdesecrations3

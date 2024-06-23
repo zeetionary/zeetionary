@@ -248,85 +248,27 @@ class KurdishMeaning extends StatelessWidget {
 کوردی: کانوونی یەکەم، سەرماوەز، دیسامبر
 """),
           const DefinitionKurdish(text: "١. (ناو) دوازدەیەم و کۆتا مانگی ساڵ"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(text: "She was born in December."),
-                    ExampleSentenceKurdish(
-                        text: "لە کانوونی یەکەمدا لەدایکبوو."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "December", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakDecembers1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakDecembers1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "She was born in December.",
+            kurdishText: "لە کانوونی یەکەمدا لەدایکبوو.", // December
+            onPressedBritish: () => speakDecembers1("en-GB"),
+            onPressedAmerican: () => speakDecembers1("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                      text:
-                          "The meeting is on the fifth of December/December the fifth.",
-                      note:
-                          "American English: The meeting is on December fifth.",
-                    ),
-                    ExampleSentenceKurdish(
-                        text: "چاوپێکەوتنەکە لە ڕۆژی پێنجی دوازدەیە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakDecembers2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakDecembers2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "The meeting is on the fifth of December/December the fifth.",
+            englishNote: "American English: The meeting is on December fifth.",
+            kurdishText: "چاوپێکەوتنەکە لە ڕۆژی پێنجی دوازدەیە.",
+            onPressedBritish: () => speakDecembers2("en-GB"),
+            onPressedAmerican: () => speakDecembers2("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "We went to Japan last December."),
-                    ExampleSentenceKurdish(
-                        text: "کانوونی یەکەمی ڕابردوو چووین بۆ ژاپۆن."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakDecembers3("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakDecembers3("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "We went to Japan last December.",
+            kurdishText: "کانوونی یەکەمی ڕابردوو چووین بۆ ژاپۆن.",
+            onPressedBritish: () => speakDecembers3("en-GB"),
+            onPressedAmerican: () => speakDecembers3("en-US"),
           ),
         ],
       ),

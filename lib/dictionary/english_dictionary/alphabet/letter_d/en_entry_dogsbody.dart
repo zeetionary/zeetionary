@@ -364,32 +364,13 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "١. (ناو) کەسێک کە ھەموو کارە ناخۆشەکان دەکات کە کەسانی دیکە ئامادە نین بیکەن و بە کەمتر لە کەسانی دیکە سەیر دەکرێت"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "I got myself a job as a general office dogsbody on a small magazine."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "کارێکم بۆ خۆم دەستخست وەک نۆکەرێک لە گۆڤارێکی بچووک."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "dogsbody", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdogsbodys1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdogsbodys1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "I got myself a job as a general office dogsbody on a small magazine.",
+            kurdishText:
+                "کارێکم بۆ خۆم دەستخست وەک نۆکەرێک لە گۆڤارێکی بچووک.", // dogsbody
+            onPressedBritish: () => speakdogsbodys1("en-GB"),
+            onPressedAmerican: () => speakdogsbodys1("en-US"),
           ),
           // dogsbodys200"),
           // speakdogsbodys2

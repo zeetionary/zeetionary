@@ -250,61 +250,23 @@ class KurdishMeaning extends StatelessWidget {
 """),
           const DefinitionKurdish(
               text: "١. (ناو) دۆخی بینایەک کە بەجێھێڵدراوە و بەکارنایەت"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The old railway station was in a state of dereliction."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "وێستگە کۆنەکەی شەمەندەفەر لە دۆخی والانراویدا بوو."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "dereliction", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakderelictions1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakderelictions1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "The old railway station was in a state of dereliction.",
+            kurdishText:
+                "وێستگە کۆنەکەی شەمەندەفەر لە دۆخی والانراویدا بوو.", // dereliction
+            onPressedBritish: () => speakderelictions1("en-GB"),
+            onPressedAmerican: () => speakderelictions1("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٢. (ناو) نەکردنی ئەوەی کە دەبێت بیکەیت"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "What you did was a grave dereliction of duty."),
-                    ExampleSentenceKurdish(
-                        text: "ئەوەی کردت پشت‌گوێ‌خستنی توندی ئەرک بوو."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakderelictions2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakderelictions2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "What you did was a grave dereliction of duty.",
+            kurdishText: "ئەوەی کردت پشت‌گوێ‌خستنی توندی ئەرک بوو.",
+            onPressedBritish: () => speakderelictions2("en-GB"),
+            onPressedAmerican: () => speakderelictions2("en-US"),
           ),
           // derelictions300"),
           // speakderelictions3

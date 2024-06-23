@@ -250,61 +250,23 @@ class KurdishMeaning extends StatelessWidget {
 کوردی: شارەزایی، وەستایی، لێزانی، دەس‌ڕەنگینی
 """),
           const DefinitionKurdish(text: "١. (ناو) جوڵەی خێرا و شارەزایانە"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The device must be used only with the greatest care and deftness of touch."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "ئامێرەکە دەبێت بە زۆرترین ئاگایی و دەستلێدانی شارەزایانە مامەڵەی لەگەڵ بکرێت."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "deftness", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdeftnesss1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdeftnesss1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "The device must be used only with the greatest care and deftness of touch.",
+            kurdishText:
+                "ئامێرەکە دەبێت بە زۆرترین ئاگایی و دەستلێدانی شارەزایانە مامەڵەی لەگەڵ بکرێت.", // deftness
+            onPressedBritish: () => speakdeftnesss1("en-GB"),
+            onPressedAmerican: () => speakdeftnesss1("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: "٢. (ناو) ھەبوونی شارەزایی"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The Government has already shown a deftness that has surprised politicians in both parties."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "حکومەت پێشوەختە شارەزایی وەھای پیشانداوە کە سیاسەتمەدارانی ھەردوو پارتەکەی سەرسامکردووە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdeftnesss2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdeftnesss2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "The Government has already shown a deftness that has surprised politicians in both parties.",
+            kurdishText:
+                "حکومەت پێشوەختە شارەزایی وەھای پیشانداوە کە سیاسەتمەدارانی ھەردوو پارتەکەی سەرسامکردووە.",
+            onPressedBritish: () => speakdeftnesss2("en-GB"),
+            onPressedAmerican: () => speakdeftnesss2("en-US"),
           ),
           // deftnesss300"),
           // speakdeftnesss3

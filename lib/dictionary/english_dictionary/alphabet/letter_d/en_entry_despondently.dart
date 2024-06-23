@@ -250,58 +250,21 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "١. (ھاوەڵکار) بەشێوەیەک کە دڵتەنگی و بێ‌ھیوایی پیشان دەدات"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "She sat despondently, saying nothing."),
-                    ExampleSentenceKurdish(
-                        text: "بە پەژارەوە دانیشتبوو و ھیچی نەدەگوت."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "despondently", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdespondentlys1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdespondentlys1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "She sat despondently, saying nothing.",
+            kurdishText:
+                "بە پەژارەوە دانیشتبوو و ھیچی نەدەگوت.", // despondently
+            onPressedBritish: () => speakdespondentlys1("en-GB"),
+            onPressedAmerican: () => speakdespondentlys1("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "She turned despondently from the window."),
-                    ExampleSentenceKurdish(
-                        text: "بە دڵتەنگییەوە لە پەنجەرەکە ڕووی وەرگێڕا."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdespondentlys2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdespondentlys2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "She turned despondently from the window.",
+            kurdishText: "بە دڵتەنگییەوە لە پەنجەرەکە ڕووی وەرگێڕا.",
+            onPressedBritish: () => speakdespondentlys2("en-GB"),
+            onPressedAmerican: () => speakdespondentlys2("en-US"),
           ),
           // despondentlys300"),
           // speakdespondentlys3

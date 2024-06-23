@@ -373,61 +373,22 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   """١. (ھاوەڵکار) بو ئاڵۆزی و وردەکاریی زۆرەوە؛ بەشێوەیەک کە بە وریایی کاری ئامادەکردن و ڕێکخستنی کراوە"""),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            """The company makes elaborately carved wooden chairs."""),
-                    ExampleSentenceKurdish(
-                        text:
-                            """کۆمپانیاکە کورسیی وەستایانە داتاشراو درووست دەکات."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "elaborately", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakelaboratelys1("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakelaboratelys1("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                """The company makes elaborately carved wooden chairs.""",
+            kurdishText:
+                """کۆمپانیاکە کورسیی وەستایانە داتاشراو درووست دەکات.""", // elaborately
+            onPressedBritish: () => speakelaboratelys1("en-GB"),
+            onPressedAmerican: () => speakelaboratelys1("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            """It was the most elaborately decorated cake."""),
-                    ExampleSentenceKurdish(
-                        text: """شارەزایانەترین کێکی ڕازێندراوە بوو."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakelaboratelys2("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakelaboratelys2("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: """It was the most elaborately decorated cake.""",
+            kurdishText: """شارەزایانەترین کێکی ڕازێندراوە بوو.""",
+            onPressedBritish: () => speakelaboratelys2("en-GB"),
+            onPressedAmerican: () => speakelaboratelys2("en-US"),
           ),
           // elaboratelys300elaboratelys3
           // speakelaboratelys3

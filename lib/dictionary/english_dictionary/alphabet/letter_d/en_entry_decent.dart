@@ -298,246 +298,78 @@ class KurdishMeaning extends StatelessWidget {
 """),
           const DefinitionKurdish(
               text: "١. (ھاوەڵناو) بە ستاندارد یان خاسیەتێکی باش"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "Mark did a decent job as a replacement for Turner."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "مارک کارێکی پەسەندی کرد وەک جێگرەوەیەکی تێرنەر."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "decent", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdecents1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdecents1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "Mark did a decent job as a replacement for Turner.",
+            kurdishText:
+                "مارک کارێکی پەسەندی کرد وەک جێگرەوەیەکی تێرنەر.", // decent
+            onPressedBritish: () => speakdecents1("en-GB"),
+            onPressedAmerican: () => speakdecents1("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "I just want to get a decent job with decent pay."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "تەنھا دەمەوێت کارێکی شایستە بە مووچەیەکی شایستە وەربگرم."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdecents2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdecents2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "I just want to get a decent job with decent pay.",
+            kurdishText:
+                "تەنھا دەمەوێت کارێکی شایستە بە مووچەیەکی شایستە وەربگرم.",
+            onPressedBritish: () => speakdecents2("en-GB"),
+            onPressedAmerican: () => speakdecents2("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "I need a decent night's sleep."),
-                    ExampleSentenceKurdish(
-                        text: "پێویستیم بە خەوێکی باشی شەوانە ھەیە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdecents3("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdecents3("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "I need a decent night's sleep.",
+            kurdishText: "پێویستیم بە خەوێکی باشی شەوانە ھەیە.",
+            onPressedBritish: () => speakdecents3("en-GB"),
+            onPressedAmerican: () => speakdecents3("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٢. (ھاوەڵناو) ڕەفتاری جوان و ڕاستگۆیانە"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "Everyone said he was a decent sort of guy."),
-                    ExampleSentenceKurdish(
-                        text: "ھەموان گوتیان کە پیاوێکی بەڕێز بوو."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdecents4("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdecents4("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "Everyone said he was a decent sort of guy.",
+            kurdishText: "ھەموان گوتیان کە پیاوێکی بەڕێز بوو.",
+            onPressedBritish: () => speakdecents4("en-GB"),
+            onPressedAmerican: () => speakdecents4("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "My uncle has been pretty decent to me."),
-                    ExampleSentenceKurdish(text: "مامم زۆر بەڕێز بووە لەگەڵم."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdecents5("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdecents5("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "My uncle has been pretty decent to me.",
+            kurdishText: "مامم زۆر بەڕێز بووە لەگەڵم.",
+            onPressedBritish: () => speakdecents5("en-GB"),
+            onPressedAmerican: () => speakdecents5("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(text: "That's very decent of you."),
-                    ExampleSentenceKurdish(text: "زۆر لە بەڕێزی خۆتە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdecents6("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdecents6("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "That's very decent of you.",
+            kurdishText: "زۆر لە بەڕێزی خۆتە.",
+            onPressedBritish: () => speakdecents6("en-GB"),
+            onPressedAmerican: () => speakdecents6("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٣. (ھاوەڵناو) پەسەندکراو لای خەڵکی لە دۆخێکی دیاریکراو"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(text: "That dress isn't decent."),
-                    ExampleSentenceKurdish(text: "ئەو جلە پەسەندکراو نییە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdecents7("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdecents7("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "That dress isn't decent.",
+            kurdishText: "ئەو جلە پەسەندکراو نییە.",
+            onPressedBritish: () => speakdecents7("en-GB"),
+            onPressedAmerican: () => speakdecents7("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "She ought to have waited for a decent interval before getting married again."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "دەبوو بۆ ماوەیەکی گونجاو چاوەڕوان بووبایە پێش ئەوەی دووبارە ھاوسەرگیری بکاتەوە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdecents8("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdecents8("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "She ought to have waited for a decent interval before getting married again.",
+            kurdishText:
+                "دەبوو بۆ ماوەیەکی گونجاو چاوەڕوان بووبایە پێش ئەوەی دووبارە ھاوسەرگیری بکاتەوە.",
+            onPressedBritish: () => speakdecents8("en-GB"),
+            onPressedAmerican: () => speakdecents8("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
                   "٤. (ھاوەڵناو) پۆشینی ھێندە جل کە ئاسایی بێت کەسێک بتبینێت"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "I can't go to the door—I'm not decent."),
-                    ExampleSentenceKurdish(
-                        text: "ناتوانم بچم بۆ دەرگاکە ـ پۆشتە نیم."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdecents9("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdecents9("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "I can't go to the door—I'm not decent.",
+            kurdishText: "ناتوانم بچم بۆ دەرگاکە ـ پۆشتە نیم.",
+            onPressedBritish: () => speakdecents9("en-GB"),
+            onPressedAmerican: () => speakdecents9("en-US"),
           ),
         ],
       ),

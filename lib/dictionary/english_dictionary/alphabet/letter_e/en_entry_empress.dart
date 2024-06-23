@@ -528,30 +528,12 @@ class KurdishMeaning extends StatelessWidget {
 کوردی: 
 """),
           const DefinitionKurdish(text: """١. (ھاوەڵناو) پێنناسە"""),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            """// speakempresss100000000000000000000000000000000"""),
-                    ExampleSentenceKurdish(text: """رستە_رستە_رستە_رستە."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "empress", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakempresss1("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakempresss1("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                """// speakempresss100000000000000000000000000000000""",
+            kurdishText: """رستە_رستە_رستە_رستە.""", // empress
+            onPressedBritish: () => speakempresss1("en-GB"),
+            onPressedAmerican: () => speakempresss1("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),

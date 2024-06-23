@@ -277,149 +277,54 @@ class KurdishMeaning extends StatelessWidget {
 """),
           const DefinitionKurdish(
               text: "١. (کردار) پێدانی ناوێک یان خاسیەتێک بە کەسێک"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "This area has been designated (as) a National Park."),
-                    ExampleSentenceKurdish(
-                        text: "ئەم ناوچە وەک پارکی نیشتیمانی ناسێنراوە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "designate", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdesignates1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdesignates1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "This area has been designated (as) a National Park.",
+            kurdishText:
+                "ئەم ناوچە وەک پارکی نیشتیمانی ناسێنراوە.", // designate
+            onPressedBritish: () => speakdesignates1("en-GB"),
+            onPressedAmerican: () => speakdesignates1("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The school has been designated a specialist science academy."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "قوتابخانەکە وەک ئەکادیمیایەکی زانستی تایبەتمەند ناسێنراوە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdesignates2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdesignates2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "The school has been designated a specialist science academy.",
+            kurdishText:
+                "قوتابخانەکە وەک ئەکادیمیایەکی زانستی تایبەتمەند ناسێنراوە.",
+            onPressedBritish: () => speakdesignates2("en-GB"),
+            onPressedAmerican: () => speakdesignates2("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "Several pupils were designated as having moderate or severe learning difficulties."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "ژمارەیەک خوێندکار بەوە دانران کە کێشەی سەخت یان ناوەندی فێربوونیان ھەبێت."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdesignates3("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdesignates3("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "Several pupils were designated as having moderate or severe learning difficulties.",
+            kurdishText:
+                "ژمارەیەک خوێندکار بەوە دانران کە کێشەی سەخت یان ناوەندی فێربوونیان ھەبێت.",
+            onPressedBritish: () => speakdesignates3("en-GB"),
+            onPressedAmerican: () => speakdesignates3("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٢. (کردار) دانانی کەسێک بۆ ئەرک یان کارێکی دیاریکراو"),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The director is allowed to designate his/her successor."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "بەڕێوەبەرەکە ڕێگاپێدراوە جێگرەوەکەی دیاری بکات."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdesignates4("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdesignates4("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "The director is allowed to designate his/her successor.",
+            kurdishText: "بەڕێوەبەرەکە ڕێگاپێدراوە جێگرەوەکەی دیاری بکات.",
+            onPressedBritish: () => speakdesignates4("en-GB"),
+            onPressedAmerican: () => speakdesignates4("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "Who has she designated (as) her deputy?"),
-                    ExampleSentenceKurdish(text: "کێی وەک جێگری ناساندووە؟"),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdesignates5("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdesignates5("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "Who has she designated (as) her deputy?",
+            kurdishText: "کێی وەک جێگری ناساندووە؟",
+            onPressedBritish: () => speakdesignates5("en-GB"),
+            onPressedAmerican: () => speakdesignates5("en-US"),
           ),
           // designates600"),
           // speakdesignates6

@@ -275,172 +275,61 @@ class KurdishMeaning extends StatelessWidget {
 // """),
           const DefinitionKurdish(
               text: "١. (ناو) ئەوەی کە ڕوودەدات ئەگەر ھیچ گۆڕانکارییەک نەکەیت"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(text: "The default is fifty lines."),
-                    ExampleSentenceKurdish(text: "دیفۆڵتەکە پەنجا دێڕە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "default", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdefaults1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdefaults1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "The default is fifty lines.",
+            kurdishText: "دیفۆڵتەکە پەنجا دێڕە.", // default
+            onPressedBritish: () => speakdefaults1("en-GB"),
+            onPressedAmerican: () => speakdefaults1("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The default option is to save your work every five minutes."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "ھەڵبژاردەی دیفۆڵت ئەوەیە کە کارەکەت ھەر پێنج خولەکێک پاشەکەوت بکەیت."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdefaults2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdefaults2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "The default option is to save your work every five minutes.",
+            kurdishText:
+                "ھەڵبژاردەی دیفۆڵت ئەوەیە کە کارەکەت ھەر پێنج خولەکێک پاشەکەوت بکەیت.",
+            onPressedBritish: () => speakdefaults2("en-GB"),
+            onPressedAmerican: () => speakdefaults2("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "What is your default browser?"),
-                    ExampleSentenceKurdish(text: "وێبگەڕی دیفۆڵتت چییە؟"),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdefaults3("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdefaults3("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "What is your default browser?",
+            kurdishText: "وێبگەڕی دیفۆڵتت چییە؟",
+            onPressedBritish: () => speakdefaults3("en-GB"),
+            onPressedAmerican: () => speakdefaults3("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
                   "٢. (ناو) شکستھێنان لە کردنی شتێک کە دەبێت بەپێی یاسا بکرێت، بەتایبەتی دانەوەی قەرز"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "The company is in default on the loan."),
-                    ExampleSentenceKurdish(
-                        text: "کۆمپانیاکە لە دانەوەی قەرزەکەی دواکەوتووە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdefaults4("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdefaults4("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "The company is in default on the loan.",
+            kurdishText: "کۆمپانیاکە لە دانەوەی قەرزەکەی دواکەوتووە.",
+            onPressedBritish: () => speakdefaults4("en-GB"),
+            onPressedAmerican: () => speakdefaults4("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
                   "٣. (کردار) شکستھێنان لە کردنی شتێک کە بەپێی یاسا دەبێت بیکەیت، بەتایبەتی لە دانەوەی قەرزدا"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "People who default on their mortgage repayments may have their home repossessed."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "کەسێک کە نەتوانێت پارەی بارمتەی بداتەوە ڕەنگە خانووەکەی لێ وەربگیردرێتەوە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdefaults5("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdefaults5("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "People who default on their mortgage repayments may have their home repossessed.",
+            kurdishText:
+                "کەسێک کە نەتوانێت پارەی بارمتەی بداتەوە ڕەنگە خانووەکەی لێ وەربگیردرێتەوە.",
+            onPressedBritish: () => speakdefaults5("en-GB"),
+            onPressedAmerican: () => speakdefaults5("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
                   "٤. (کردار) ڕوودان بەبێ ئەوەی ھیچ ھەڵبژاردەیەک یان گۆڕانکارییەک ناکەیت"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The program defaults to the standard style each time you open it."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "پڕۆگرامەکە دەگەڕێتەوە سەر ستایڵی ستاندارد ھەرکاتێک دەیکەیتەوە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdefaults6("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdefaults6("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "The program defaults to the standard style each time you open it.",
+            kurdishText:
+                "پڕۆگرامەکە دەگەڕێتەوە سەر ستایڵی ستاندارد ھەرکاتێک دەیکەیتەوە.",
+            onPressedBritish: () => speakdefaults6("en-GB"),
+            onPressedAmerican: () => speakdefaults6("en-US"),
           ),
         ],
       ),

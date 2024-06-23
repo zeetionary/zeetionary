@@ -351,425 +351,138 @@ class KurdishMeaning extends StatelessWidget {
 """),
           const DefinitionKurdish(
               text: "١. (ناو) ڕۆشتنە شوێنێک بەخێرایی و لەناکاو"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "When the doors opened, there was a mad dash for seats."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "کە دەرگاکان کرانەوە، تێڕژانێکی شێتانە ھەبوو بۆ کورسییەکان."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "dash", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdashs1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdashs1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "When the doors opened, there was a mad dash for seats.",
+            kurdishText:
+                "کە دەرگاکان کرانەوە، تێڕژانێکی شێتانە ھەبوو بۆ کورسییەکان.", // dash
+            onPressedBritish: () => speakdashs1("en-GB"),
+            onPressedAmerican: () => speakdashs1("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "He jumped off the bus and made a dash for the nearest bar."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "لە پاسەکە ھەڵبەزییە خوارەوە و بەرەو نزیکترین باڕ بۆی دەرچوو."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdashs2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdashs2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "He jumped off the bus and made a dash for the nearest bar.",
+            kurdishText:
+                "لە پاسەکە ھەڵبەزییە خوارەوە و بەرەو نزیکترین باڕ بۆی دەرچوو.",
+            onPressedBritish: () => speakdashs2("en-GB"),
+            onPressedAmerican: () => speakdashs2("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "We waited for the police to leave then made a dash for it (= left quickly in order to escape)."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "وەستاین تاوەکو پۆلیسەکان چوون و دواتر بۆی دەرچووین."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdashs3("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdashs3("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "We waited for the police to leave then made a dash for it (= left quickly in order to escape).",
+            kurdishText: "وەستاین تاوەکو پۆلیسەکان چوون و دواتر بۆی دەرچووین.",
+            onPressedBritish: () => speakdashs3("en-GB"),
+            onPressedAmerican: () => speakdashs3("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
                   "٢. (ناو) کردنی شتێک بە خێرایی بەھۆی ئەوەی کاتی پێویستت نیەی"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The book starts with a quick dash through the country's history."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "کتێبەکە دەستپێ دەکات بە چاوخشانێک بە مێژووی وڵاتەکەدا."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdashs4("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdashs4("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "The book starts with a quick dash through the country's history.",
+            kurdishText:
+                "کتێبەکە دەستپێ دەکات بە چاوخشانێک بە مێژووی وڵاتەکەدا.",
+            onPressedBritish: () => speakdashs4("en-GB"),
+            onPressedAmerican: () => speakdashs4("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
                   "٣. (ناو) ڕێژەیەکی کەم لە شتێک کە بۆ شتێکی دیکە زیاد دەکرێت"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(text: "Add a dash of lemon juice."),
-                    ExampleSentenceKurdish(
-                        text: "قەترەیەک ئاوی لیمۆ زیاد بکە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdashs5("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdashs5("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "Add a dash of lemon juice.",
+            kurdishText: "قەترەیەک ئاوی لیمۆ زیاد بکە.",
+            onPressedBritish: () => speakdashs5("en-GB"),
+            onPressedAmerican: () => speakdashs5("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "The rug adds a dash of colour to the room."),
-                    ExampleSentenceKurdish(
-                        text: "ڕایەخەکە نەختێک ڕەنگ بۆ ژوورەکە زیاد دەکات."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdashs6("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdashs6("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "The rug adds a dash of colour to the room.",
+            kurdishText: "ڕایەخەکە نەختێک ڕەنگ بۆ ژوورەکە زیاد دەکات.",
+            onPressedBritish: () => speakdashs6("en-GB"),
+            onPressedAmerican: () => speakdashs6("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "The food is European with a dash of Morocco."),
-                    ExampleSentenceKurdish(
-                        text: "خواردنەکە ئەورووپییە بە بڕێ مەغریبییەوە  ."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdashs7("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdashs7("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "The food is European with a dash of Morocco.",
+            kurdishText: "خواردنەکە ئەورووپییە بە بڕێ مەغریبییەوە  .",
+            onPressedBritish: () => speakdashs7("en-GB"),
+            onPressedAmerican: () => speakdashs7("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
                   "٤. (ناو) نیشانەی (—) کە بۆ جیاکردنەوەی بەشەکانی ڕستە بەکاردێت"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The use of a dash can add emphasis to a sentence."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "بەکارھێنانی داش دەکرێت جەختکردنەوە بۆ ڕستە زیاد بکات."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdashs8("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdashs8("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "The use of a dash can add emphasis to a sentence.",
+            kurdishText:
+                "بەکارھێنانی داش دەکرێت جەختکردنەوە بۆ ڕستە زیاد بکات.",
+            onPressedBritish: () => speakdashs8("en-GB"),
+            onPressedAmerican: () => speakdashs8("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٥. (ناو) ئەو ئاماژەیەی کۆدی مۆرس کە درێژترە لەوەی دیکە"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "It is broadcast in Morse code, the series of dots and dashes historically used to transmit information."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "بە کۆدی مۆرس پەخش دەکرێت، ئەو زنجیرەیە لە خاڵ و داش کە لە مێژوودا بەکارھێندراوە بۆ ناردنی زانیاری."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdashs9("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdashs9("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "It is broadcast in Morse code, the series of dots and dashes historically used to transmit information.",
+            kurdishText:
+                "بە کۆدی مۆرس پەخش دەکرێت، ئەو زنجیرەیە لە خاڵ و داش کە لە مێژوودا بەکارھێندراوە بۆ ناردنی زانیاری.",
+            onPressedBritish: () => speakdashs9("en-GB"),
+            onPressedAmerican: () => speakdashs9("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: "٦. (ناو) پێشبڕکێی ماوە کورت"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(text: "Who won the 100-yard dash?"),
-                    ExampleSentenceKurdish(
-                        text: "کێ ڕاکردنە ١٠٠ یاردییەکەی بردەوە؟"),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdashs10("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdashs10("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "Who won the 100-yard dash?",
+            kurdishText: "کێ ڕاکردنە ١٠٠ یاردییەکەی بردەوە؟",
+            onPressedBritish: () => speakdashs10("en-GB"),
+            onPressedAmerican: () => speakdashs10("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
                   "٧. (ناو) شێوازی ڕەفتارکردن کە جۆشوخرۆشی و متمانە کۆدەکاتەوە"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "He brought youthful energy, dash and charisma to the department."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "وزەی گەنجانە و گوڕوتین و کاریزمای ھێنا بۆ بەشەکە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdashs11("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdashs11("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "He brought youthful energy, dash and charisma to the department.",
+            kurdishText: "وزەی گەنجانە و گوڕوتین و کاریزمای ھێنا بۆ بەشەکە.",
+            onPressedBritish: () => speakdashs11("en-GB"),
+            onPressedAmerican: () => speakdashs11("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: "٨. (کردار) ڕۆشتن بۆ شوێنێک بە خێرایی"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "I must dash (= leave quickly), I'm late."),
-                    ExampleSentenceKurdish(
-                        text: "دەبێت بکەومە خۆم، دواکەوتووم."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdashs12("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdashs12("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "I must dash (= leave quickly), I'm late.",
+            kurdishText: "دەبێت بکەومە خۆم، دواکەوتووم.",
+            onPressedBritish: () => speakdashs12("en-GB"),
+            onPressedAmerican: () => speakdashs12("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "He dashed along the platform and jumped on the train."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "بەسەر سەکۆکەدا ڕایکرد و چووە ناو شەمەندەفەرەکە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdashs13("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdashs13("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "He dashed along the platform and jumped on the train.",
+            kurdishText: "بەسەر سەکۆکەدا ڕایکرد و چووە ناو شەمەندەفەرەکە.",
+            onPressedBritish: () => speakdashs13("en-GB"),
+            onPressedAmerican: () => speakdashs13("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: "١٤. (کردار) کێشان بە ڕوویەکدا"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The boat was dashed repeatedly against the rocks."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "بەلەمەکە دووبارە و دووبارە کێشای بە تەشەبەردەکاندا."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdashs14("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdashs14("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "The boat was dashed repeatedly against the rocks.",
+            kurdishText: "بەلەمەکە دووبارە و دووبارە کێشای بە تەشەبەردەکاندا.",
+            onPressedBritish: () => speakdashs14("en-GB"),
+            onPressedAmerican: () => speakdashs14("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(text: "He dashed her aside."),
-                    ExampleSentenceKurdish(text: "پاڵی داوە لاوە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdashs15("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdashs15("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "He dashed her aside.",
+            kurdishText: "پاڵی داوە لاوە.",
+            onPressedBritish: () => speakdashs15("en-GB"),
+            onPressedAmerican: () => speakdashs15("en-US"),
           ),
         ],
       ),

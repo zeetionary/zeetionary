@@ -259,115 +259,39 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "١. (ناو) کتێبێک کە دەتوانی ئەزموونی ڕۆژانە، بیرکردنەوەی کەسی، ھتد ـی تێدا بنووسیت"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "Do you keep a diary (= write one regularly)?"),
-                    ExampleSentenceKurdish(text: "یادنامەت ھەیە؟"),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "diary", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdiarys1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdiarys1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "Do you keep a diary (= write one regularly)?",
+            kurdishText: "یادنامەت ھەیە؟", // diary
+            onPressedBritish: () => speakdiarys1("en-GB"),
+            onPressedAmerican: () => speakdiarys1("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "Peter began writing his diary in October last year."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "پیتەر لە تشرینی یەکەمی ساڵی ڕابردوو دەستی بە نووسینی یادنامەکەی کرد."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdiarys2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdiarys2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "Peter began writing his diary in October last year.",
+            kurdishText:
+                "پیتەر لە تشرینی یەکەمی ساڵی ڕابردوو دەستی بە نووسینی یادنامەکەی کرد.",
+            onPressedBritish: () => speakdiarys2("en-GB"),
+            onPressedAmerican: () => speakdiarys2("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The writer's letters and diaries are being published next year."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "نامە و یادنامەکانی نووسەرەکە ساڵی داھاتوو بڵاودەکرێنەوە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdiarys3("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdiarys3("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "The writer's letters and diaries are being published next year.",
+            kurdishText:
+                "نامە و یادنامەکانی نووسەرەکە ساڵی داھاتوو بڵاودەکرێنەوە.",
+            onPressedBritish: () => speakdiarys3("en-GB"),
+            onPressedAmerican: () => speakdiarys3("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
                   "٢. (ناو) کتێبێک یان ئەپێک کە بۆشایی تێدایە بۆ ھەر ڕۆژێکی ساڵ بۆ تۆمارکردنی ئەو شتانەی کە دەبێت لە داھاتوودا بیان کەیت"),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "I've made a note in my diary."),
-                    ExampleSentenceKurdish(
-                        text: "تێبینییەکم لە ساڵنامەکەم نووسی."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdiarys4("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdiarys4("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "I've made a note in my diary.",
+            kurdishText: "تێبینییەکم لە ساڵنامەکەم نووسی.",
+            onPressedBritish: () => speakdiarys4("en-GB"),
+            onPressedAmerican: () => speakdiarys4("en-US"),
           ),
           // diarys500"),
           // speakdiarys5

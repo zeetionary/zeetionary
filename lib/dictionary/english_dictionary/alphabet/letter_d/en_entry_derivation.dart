@@ -250,61 +250,21 @@ class KurdishMeaning extends StatelessWidget {
 """),
           const DefinitionKurdish(
               text: "١. (ناو) بنەچەی شتێک، بەتایبەتی وشەیەک"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "Does anyone know the derivation of the word “OK”?"),
-                    ExampleSentenceKurdish(
-                        text: "ھیچ کەس بنەچەی وشەی 'OK' دەزانێت؟"),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "derivation", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakderivations1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakderivations1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "Does anyone know the derivation of the word “OK”?",
+            kurdishText: "ھیچ کەس بنەچەی وشەی 'OK' دەزانێت؟", // derivation
+            onPressedBritish: () => speakderivations1("en-GB"),
+            onPressedAmerican: () => speakderivations1("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٢. (ناو) بەدەستخستنی شتێک لە سەرچاوەیەکەوە"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The derivation of laws requires careful observation."),
-                    ExampleSentenceKurdish(
-                        text: "بەدەستخستنی یاسا پێویستی بە توێژینەوەی وردە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakderivations2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakderivations2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "The derivation of laws requires careful observation.",
+            kurdishText: "بەدەستخستنی یاسا پێویستی بە توێژینەوەی وردە.",
+            onPressedBritish: () => speakderivations2("en-GB"),
+            onPressedAmerican: () => speakderivations2("en-US"),
           ),
           // derivations300"),
           // speakderivations3

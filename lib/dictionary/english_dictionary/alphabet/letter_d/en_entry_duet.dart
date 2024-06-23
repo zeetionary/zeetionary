@@ -365,32 +365,13 @@ class KurdishMeaning extends StatelessWidget {
               text:
                   """١. (ناو) نمایشێک لەلایەن دوو گۆرانیبێژ یان میوزیکژەن؛ پارچە میوزیکێک کە بۆ دوو کەسە"""),
           const AlsoEnglishckb(word: "ھەروەھا: duo"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            """The host of the show did a duet with one of the guests."""),
-                    ExampleSentenceKurdish(
-                        text:
-                            """میوانداری نمایشەکە دوێتێکی لەگەڵ یەکێک لە میوانەکان ئەنجامدا."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "duet", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakduets1("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakduets1("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                """The host of the show did a duet with one of the guests.""",
+            kurdishText:
+                """میوانداری نمایشەکە دوێتێکی لەگەڵ یەکێک لە میوانەکان ئەنجامدا.""", // duet
+            onPressedBritish: () => speakduets1("en-GB"),
+            onPressedAmerican: () => speakduets1("en-US"),
           ),
           // duets200
           // speakduets2

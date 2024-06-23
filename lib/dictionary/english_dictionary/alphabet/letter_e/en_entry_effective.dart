@@ -416,215 +416,79 @@ class KurdishMeaning extends StatelessWidget {
 """),
           const DefinitionKurdish(
               text: """١. (ھاوەڵناو) کە ئەنجامی خوازراو بەدەست دەھێنێت"""),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            """Aspirin is a simple but highly effective treatment."""),
-                    ExampleSentenceKurdish(
-                        text:
-                            """ئەسپرین چارەسەرێکی سادە بەڵام تەواو کاریگەرە."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "effective", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakeffectives1("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakeffectives1("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                """Aspirin is a simple but highly effective treatment.""",
+            kurdishText:
+                """ئەسپرین چارەسەرێکی سادە بەڵام تەواو کاریگەرە.""", // effective
+            onPressedBritish: () => speakeffectives1("en-GB"),
+            onPressedAmerican: () => speakeffectives1("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            """Some people believe that violence is an effective way of protesting."""),
-                    ExampleSentenceKurdish(
-                        text:
-                            """ھەندێک کەس باوەڕیان وایە توندوتیژی ڕێگایەکی کاریگەری ناڕەزایی دەربڕینە."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakeffectives2("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakeffectives2("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                """Some people believe that violence is an effective way of protesting.""",
+            kurdishText:
+                """ھەندێک کەس باوەڕیان وایە توندوتیژی ڕێگایەکی کاریگەری ناڕەزایی دەربڕینە.""",
+            onPressedBritish: () => speakeffectives2("en-GB"),
+            onPressedAmerican: () => speakeffectives2("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            """I admire the effective use of colour in her paintings."""),
-                    ExampleSentenceKurdish(
-                        text:
-                            """سەرسامی بەکارھێنانی کاریگەری ڕەنگم لە تابلۆکانیدا."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakeffectives3("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakeffectives3("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                """I admire the effective use of colour in her paintings.""",
+            kurdishText:
+                """سەرسامی بەکارھێنانی کاریگەری ڕەنگم لە تابلۆکانیدا.""",
+            onPressedBritish: () => speakeffectives3("en-GB"),
+            onPressedAmerican: () => speakeffectives3("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            """The system has proved less effective than hoped."""),
-                    ExampleSentenceKurdish(
-                        text:
-                            """سیستەمەکە کەمتر بەباندۆر بووە وەک ئەوەی چاوەڕوان دەکرا."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakeffectives4("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakeffectives4("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: """The system has proved less effective than hoped.""",
+            kurdishText:
+                """سیستەمەکە کەمتر بەباندۆر بووە وەک ئەوەی چاوەڕوان دەکرا.""",
+            onPressedBritish: () => speakeffectives4("en-GB"),
+            onPressedAmerican: () => speakeffectives4("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: """٢. (ھاوەڵناو) ئەوەی کە ڕاستییە"""),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            """He has now taken effective control of the country."""),
-                    ExampleSentenceKurdish(
-                        text:
-                            """ئێستا کۆنترۆڵی تەواوی وڵاتەکەی گرتووەتە دەست."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakeffectives5("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakeffectives5("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                """He has now taken effective control of the country.""",
+            kurdishText: """ئێستا کۆنترۆڵی تەواوی وڵاتەکەی گرتووەتە دەست.""",
+            onPressedBritish: () => speakeffectives5("en-GB"),
+            onPressedAmerican: () => speakeffectives5("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            """In spite of what they are told, parents have no effective choice of schools."""),
-                    ExampleSentenceKurdish(
-                      text:
-                          """سەرەڕای ئەوەی پێیان دەگوترێت، دایبابان ھیچ ھەڵبژاردەیەکی کردارەکی قوتابخانەیان نییە.""",
-                      note: "واتە ناتوانن بەدڵی خۆیان قوتابخانە",
-                    ),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakeffectives6("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakeffectives6("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                """In spite of what they are told, parents have no effective choice of schools.""",
+            kurdishText:
+                """سەرەڕای ئەوەی پێیان دەگوترێت، دایبابان ھیچ ھەڵبژاردەیەکی کردارەکی قوتابخانەیان نییە.""",
+            kurdishNote: "واتە ناتوانن بەدڵی خۆیان قوتابخانە",
+            onPressedBritish: () => speakeffectives6("en-GB"),
+            onPressedAmerican: () => speakeffectives6("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text: """٣. (ھاوەڵناو) کە دەچنە بواری جێبەجێکردنەوە"""),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            """The new speed limit on this road becomes effective from 1 June."""),
-                    ExampleSentenceKurdish(
-                        text:
-                            """سنووری تیژڕەوی تازە دەچێتە بواری جێبەجێکردنەوە لە ١ ــی حوزەیران."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakeffectives7("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakeffectives7("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                """The new speed limit on this road becomes effective from 1 June.""",
+            kurdishText:
+                """سنووری تیژڕەوی تازە دەچێتە بواری جێبەجێکردنەوە لە ١ ــی حوزەیران.""",
+            onPressedBritish: () => speakeffectives7("en-GB"),
+            onPressedAmerican: () => speakeffectives7("en-US"),
           ),
           // effectives800effectives8
           // speakeffectives8

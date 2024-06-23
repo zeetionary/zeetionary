@@ -372,62 +372,23 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   """١. (ھاوەڵناو) زمانێکی قسەکردن کە ئاسان نییە لێی تێ بگەیت چونکە ڕستەکانی وشەی لێ سڕدراوەتەوە"""),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            """His message was written in a deliberately elliptical style."""),
-                    ExampleSentenceKurdish(
-                        text:
-                            """نامەکەی بە ئەنقەست بە ستایلێکی ھاووشەلابراو نووسرابوو."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "elliptical", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakellipticals1("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakellipticals1("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                """His message was written in a deliberately elliptical style.""",
+            kurdishText:
+                """نامەکەی بە ئەنقەست بە ستایلێکی ھاووشەلابراو نووسرابوو.""", // elliptical
+            onPressedBritish: () => speakellipticals1("en-GB"),
+            onPressedAmerican: () => speakellipticals1("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text: """٢. (ھاوەڵناو) ھەبوونی شێوە ھێلکەیی"""),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            """She bought an elliptical mirror for her room."""),
-                    ExampleSentenceKurdish(
-                        text: """ئاوێنەیی ھێلکەیی بۆ ژوورەکەی کڕی."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakellipticals2("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakellipticals2("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: """She bought an elliptical mirror for her room.""",
+            kurdishText: """ئاوێنەیی ھێلکەیی بۆ ژوورەکەی کڕی.""",
+            onPressedBritish: () => speakellipticals2("en-GB"),
+            onPressedAmerican: () => speakellipticals2("en-US"),
           ),
           // ellipticals300ellipticals3
           // speakellipticals3

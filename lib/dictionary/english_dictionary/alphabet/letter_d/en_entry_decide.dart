@@ -377,359 +377,110 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "١. (کردار) بەوریایی بیرکردنەوە سەبارەت بە ھەموو ئەو ھەڵبژاردانەی بەردەستن و ھەڵبژاردنی یەکێکیان"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(text: "It's up to you to decide."),
-                    ExampleSentenceKurdish(text: "بەدەست تۆیە بڕیار بدەیت."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "decide", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdecides1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdecides1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "It's up to you to decide.",
+            kurdishText: "بەدەست تۆیە بڕیار بدەیت.", // decide
+            onPressedBritish: () => speakdecides1("en-GB"),
+            onPressedAmerican: () => speakdecides1("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "You will have to decide soon."),
-                    ExampleSentenceKurdish(text: "دەبێت بەزوویی بڕیار بدەیت."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdecides2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdecides2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "You will have to decide soon.",
+            kurdishText: "دەبێت بەزوویی بڕیار بدەیت.",
+            onPressedBritish: () => speakdecides2("en-GB"),
+            onPressedAmerican: () => speakdecides2("en-US"),
           ),
           Column(
             children: [
               MyExpansionTile(
                 children: [
-                  Row(
-                    children: [
-                      const Expanded(
-                        child: Column(
-                          children: [
-                            ExampleSentenceEnglish(
-                                text:
-                                    "I can't tell you what to do—you'll have to decide for yourself."),
-                            ExampleSentenceKurdish(
-                                text:
-                                    "ناتوانم پێت بڵێم چی بکەیت ـ خۆت دەبێت بڕیار بدەیت."),
-                          ],
-                        ),
-                      ),
-                      const CustomSizedBoxForTTS(),
-                      Column(
-                        children: [
-                          CustomIconButtonBritish(
-                            onPressed: () => speakdecides3("en-GB"),
-                          ),
-                          CustomIconButtonAmerican(
-                            onPressed: () => speakdecides3("en-US"),
-                          ),
-                        ],
-                      ),
-                    ],
+                  SentencesRow(
+                    englishText:
+                        "I can't tell you what to do—you'll have to decide for yourself.",
+                    kurdishText:
+                        "ناتوانم پێت بڵێم چی بکەیت ـ خۆت دەبێت بڕیار بدەیت.",
+                    onPressedBritish: () => speakdecides3("en-GB"),
+                    onPressedAmerican: () => speakdecides3("en-US"),
                   ),
                   const DividerSentences(),
-                  Row(
-                    children: [
-                      const Expanded(
-                        child: Column(
-                          children: [
-                            ExampleSentenceEnglish(
-                                text:
-                                    "We've decided not to go away after all."),
-                            ExampleSentenceKurdish(
-                                text:
-                                    "لە کۆتاییدا بڕیارمان داوە دوور نەکەوینەوە."),
-                          ],
-                        ),
-                      ),
-                      const CustomSizedBoxForTTS(),
-                      Column(
-                        children: [
-                          CustomIconButtonBritish(
-                            onPressed: () => speakdecides4("en-GB"),
-                          ),
-                          CustomIconButtonAmerican(
-                            onPressed: () => speakdecides4("en-US"),
-                          ),
-                        ],
-                      ),
-                    ],
+                  SentencesRow(
+                    englishText: "We've decided not to go away after all.",
+                    kurdishText: "لە کۆتاییدا بڕیارمان داوە دوور نەکەوینەوە.",
+                    onPressedBritish: () => speakdecides4("en-GB"),
+                    onPressedAmerican: () => speakdecides4("en-US"),
                   ),
                   const DividerSentences(),
-                  Row(
-                    children: [
-                      const Expanded(
-                        child: Column(
-                          children: [
-                            ExampleSentenceEnglish(
-                                text:
-                                    "Why did you decide to look for a new job?"),
-                            ExampleSentenceKurdish(
-                                text: "بۆچی بڕیارت دا بۆ کارێکی تازە بگەڕێیت؟"),
-                          ],
-                        ),
-                      ),
-                      const CustomSizedBoxForTTS(),
-                      Column(
-                        children: [
-                          CustomIconButtonBritish(
-                            onPressed: () => speakdecides5("en-GB"),
-                          ),
-                          CustomIconButtonAmerican(
-                            onPressed: () => speakdecides5("en-US"),
-                          ),
-                        ],
-                      ),
-                    ],
+                  SentencesRow(
+                    englishText: "Why did you decide to look for a new job?",
+                    kurdishText: "بۆچی بڕیارت دا بۆ کارێکی تازە بگەڕێیت؟",
+                    onPressedBritish: () => speakdecides5("en-GB"),
+                    onPressedAmerican: () => speakdecides5("en-US"),
                   ),
                   const DividerSentences(),
-                  Row(
-                    children: [
-                      const Expanded(
-                        child: Column(
-                          children: [
-                            ExampleSentenceEnglish(
-                                text:
-                                    "She gave up politics and decided instead to focus on charity work."),
-                            ExampleSentenceKurdish(
-                                text:
-                                    "وازی لە سیاسەت ھێنا و بڕیاری دا لە جیاتیدا سەرنج بخاتە سەر کاری خێرخوازی."),
-                          ],
-                        ),
-                      ),
-                      const CustomSizedBoxForTTS(),
-                      Column(
-                        children: [
-                          CustomIconButtonBritish(
-                            onPressed: () => speakdecides6("en-GB"),
-                          ),
-                          CustomIconButtonAmerican(
-                            onPressed: () => speakdecides6("en-US"),
-                          ),
-                        ],
-                      ),
-                    ],
+                  SentencesRow(
+                    englishText:
+                        "She gave up politics and decided instead to focus on charity work.",
+                    kurdishText:
+                        "وازی لە سیاسەت ھێنا و بڕیاری دا لە جیاتیدا سەرنج بخاتە سەر کاری خێرخوازی.",
+                    onPressedBritish: () => speakdecides6("en-GB"),
+                    onPressedAmerican: () => speakdecides6("en-US"),
                   ),
                   const DividerSentences(),
-                  Row(
-                    children: [
-                      const Expanded(
-                        child: Column(
-                          children: [
-                            ExampleSentenceEnglish(
-                                text:
-                                    "The government has already decided that the law needs to be changed."),
-                            ExampleSentenceKurdish(
-                                text:
-                                    "حکومەت پێشوەختە بڕیاری داوە کە یاساکە پێویستە بگۆڕدرێت."),
-                          ],
-                        ),
-                      ),
-                      const CustomSizedBoxForTTS(),
-                      Column(
-                        children: [
-                          CustomIconButtonBritish(
-                            onPressed: () => speakdecides7("en-GB"),
-                          ),
-                          CustomIconButtonAmerican(
-                            onPressed: () => speakdecides7("en-US"),
-                          ),
-                        ],
-                      ),
-                    ],
+                  SentencesRow(
+                    englishText:
+                        "The government has already decided that the law needs to be changed.",
+                    kurdishText:
+                        "حکومەت پێشوەختە بڕیاری داوە کە یاساکە پێویستە بگۆڕدرێت.",
+                    onPressedBritish: () => speakdecides7("en-GB"),
+                    onPressedAmerican: () => speakdecides7("en-US"),
                   ),
                   const DividerSentences(),
-                  Row(
-                    children: [
-                      const Expanded(
-                        child: Column(
-                          children: [
-                            ExampleSentenceEnglish(
-                                text:
-                                    "She decided that she wanted to live in France."),
-                            ExampleSentenceKurdish(
-                                text: "بڕیاری دا کە دەیەوێت لە پاریس بژی."),
-                          ],
-                        ),
-                      ),
-                      const CustomSizedBoxForTTS(),
-                      Column(
-                        children: [
-                          CustomIconButtonBritish(
-                            onPressed: () => speakdecides8("en-GB"),
-                          ),
-                          CustomIconButtonAmerican(
-                            onPressed: () => speakdecides8("en-US"),
-                          ),
-                        ],
-                      ),
-                    ],
+                  SentencesRow(
+                    englishText:
+                        "She decided that she wanted to live in France.",
+                    kurdishText: "بڕیاری دا کە دەیەوێت لە پاریس بژی.",
+                    onPressedBritish: () => speakdecides8("en-GB"),
+                    onPressedAmerican: () => speakdecides8("en-US"),
                   ),
                   const DividerSentences(),
-                  Row(
-                    children: [
-                      const Expanded(
-                        child: Column(
-                          children: [
-                            ExampleSentenceEnglish(
-                                text:
-                                    "You have the right to decide what you want to do."),
-                            ExampleSentenceKurdish(
-                                text:
-                                    "مافی ئەوەت ھەیە بڕیارت بدەیت چیت دەوێت بیکەیت."),
-                          ],
-                        ),
-                      ),
-                      const CustomSizedBoxForTTS(),
-                      Column(
-                        children: [
-                          CustomIconButtonBritish(
-                            onPressed: () => speakdecides9("en-GB"),
-                          ),
-                          CustomIconButtonAmerican(
-                            onPressed: () => speakdecides9("en-US"),
-                          ),
-                        ],
-                      ),
-                    ],
+                  SentencesRow(
+                    englishText:
+                        "You have the right to decide what you want to do.",
+                    kurdishText:
+                        "مافی ئەوەت ھەیە بڕیارت بدەیت چیت دەوێت بیکەیت.",
+                    onPressedBritish: () => speakdecides9("en-GB"),
+                    onPressedAmerican: () => speakdecides9("en-US"),
                   ),
                   const DividerSentences(),
-                  Row(
-                    children: [
-                      const Expanded(
-                        child: Column(
-                          children: [
-                            ExampleSentenceEnglish(
-                                text: "I can't decide what to wear."),
-                            ExampleSentenceKurdish(
-                                text: "ناتوانم بڕیار بدەم چی لەبەر بکەم."),
-                          ],
-                        ),
-                      ),
-                      const CustomSizedBoxForTTS(),
-                      Column(
-                        children: [
-                          CustomIconButtonBritish(
-                            onPressed: () => speakdecides10("en-GB"),
-                          ),
-                          CustomIconButtonAmerican(
-                            onPressed: () => speakdecides10("en-US"),
-                          ),
-                        ],
-                      ),
-                    ],
+                  SentencesRow(
+                    englishText: "I can't decide what to wear.",
+                    kurdishText: "ناتوانم بڕیار بدەم چی لەبەر بکەم.",
+                    onPressedBritish: () => speakdecides10("en-GB"),
+                    onPressedAmerican: () => speakdecides10("en-US"),
                   ),
                   const DividerSentences(),
-                  Row(
-                    children: [
-                      const Expanded(
-                        child: Column(
-                          children: [
-                            ExampleSentenceEnglish(
-                                text:
-                                    "She couldn’t decide whether he was telling the truth or not."),
-                            ExampleSentenceKurdish(
-                                text:
-                                    "نەیدەتوانی بڕیار بدات کە ئایا ڕاستییەکە دەڵێت یان نا."),
-                          ],
-                        ),
-                      ),
-                      const CustomSizedBoxForTTS(),
-                      Column(
-                        children: [
-                          CustomIconButtonBritish(
-                            onPressed: () => speakdecides11("en-GB"),
-                          ),
-                          CustomIconButtonAmerican(
-                            onPressed: () => speakdecides11("en-US"),
-                          ),
-                        ],
-                      ),
-                    ],
+                  SentencesRow(
+                    englishText:
+                        "She couldn’t decide whether he was telling the truth or not.",
+                    kurdishText:
+                        "نەیدەتوانی بڕیار بدات کە ئایا ڕاستییەکە دەڵێت یان نا.",
+                    onPressedBritish: () => speakdecides11("en-GB"),
+                    onPressedAmerican: () => speakdecides11("en-US"),
                   ),
                   const DividerSentences(),
-                  Row(
-                    children: [
-                      const Expanded(
-                        child: Column(
-                          children: [
-                            ExampleSentenceEnglish(
-                                text:
-                                    "It was difficult to decide between the two candidates."),
-                            ExampleSentenceKurdish(
-                                text:
-                                    "قورسە لەنێوان دوو بەربژێرەکەدا بڕیار بدەم."),
-                          ],
-                        ),
-                      ),
-                      const CustomSizedBoxForTTS(),
-                      Column(
-                        children: [
-                          CustomIconButtonBritish(
-                            onPressed: () => speakdecides12("en-GB"),
-                          ),
-                          CustomIconButtonAmerican(
-                            onPressed: () => speakdecides12("en-US"),
-                          ),
-                        ],
-                      ),
-                    ],
+                  SentencesRow(
+                    englishText:
+                        "It was difficult to decide between the two candidates.",
+                    kurdishText: "قورسە لەنێوان دوو بەربژێرەکەدا بڕیار بدەم.",
+                    onPressedBritish: () => speakdecides12("en-GB"),
+                    onPressedAmerican: () => speakdecides12("en-US"),
                   ),
                   const DividerSentences(),
-                  Row(
-                    children: [
-                      const Expanded(
-                        child: Column(
-                          children: [
-                            ExampleSentenceEnglish(
-                                text:
-                                    "They decided against taking legal action."),
-                            ExampleSentenceKurdish(
-                                text: "بڕیار دژ بە ڕێوشوێنی یاسایی دا."),
-                          ],
-                        ),
-                      ),
-                      const CustomSizedBoxForTTS(),
-                      Column(
-                        children: [
-                          CustomIconButtonBritish(
-                            onPressed: () => speakdecides13("en-GB"),
-                          ),
-                          CustomIconButtonAmerican(
-                            onPressed: () => speakdecides13("en-US"),
-                          ),
-                        ],
-                      ),
-                    ],
+                  SentencesRow(
+                    englishText: "They decided against taking legal action.",
+                    kurdishText: "بڕیار دژ بە ڕێوشوێنی یاسایی دا.",
+                    onPressedBritish: () => speakdecides13("en-GB"),
+                    onPressedAmerican: () => speakdecides13("en-US"),
                   ),
                 ],
               ),
@@ -738,173 +489,57 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٢. (کردار) دەرکردنی بڕیارێکی فەرمی  یان یاسایی"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "The Appeal Court decided in their favour."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "دادگای تێھەڵچوونەوە لە بەرژەوەندییان بڕیاری دا."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdecides14("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdecides14("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "The Appeal Court decided in their favour.",
+            kurdishText: "دادگای تێھەڵچوونەوە لە بەرژەوەندییان بڕیاری دا.",
+            onPressedBritish: () => speakdecides14("en-GB"),
+            onPressedAmerican: () => speakdecides14("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "It is always possible that the judge may decide against you."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "ھەمیشە ڕێی تێ دەچێت دادوەرەکە دژ بە تۆ بڕیار بدات."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdecides15("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdecides15("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "It is always possible that the judge may decide against you.",
+            kurdishText: "ھەمیشە ڕێی تێ دەچێت دادوەرەکە دژ بە تۆ بڕیار بدات.",
+            onPressedBritish: () => speakdecides15("en-GB"),
+            onPressedAmerican: () => speakdecides15("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٣. (کردار) دانانی کاریگەری لەسەر ئەنجامی شتێک"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "A mixture of skill and good luck decided the outcome of the game."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "تێکەڵەیەک لە شارەزایی و بەخت بڕیاری لە ئەنجامی یارییەکە دا."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdecides16("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdecides16("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "A mixture of skill and good luck decided the outcome of the game.",
+            kurdishText:
+                "تێکەڵەیەک لە شارەزایی و بەخت بڕیاری لە ئەنجامی یارییەکە دا.",
+            onPressedBritish: () => speakdecides16("en-GB"),
+            onPressedAmerican: () => speakdecides16("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "A number of factors decide whether a movie will be successful or not."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "چەند فاکتەرێک بڕیار دەدەن کە ئایا فیلمێک سەرکەوتوو دەبێت یان نا."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdecides1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdecides1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "A number of factors decide whether a movie will be successful or not.",
+            kurdishText:
+                "چەند فاکتەرێک بڕیار دەدەن کە ئایا فیلمێک سەرکەوتوو دەبێت یان نا.",
+            onPressedBritish: () => speakdecides1("en-GB"),
+            onPressedAmerican: () => speakdecides1("en-US"),
           ),
+
           const DefinitionKurdish(
               text: "٤. (کردار) بوون بە ھۆکاری ئەوەی کەسێک شتێک بکات"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "For most customers, price is the deciding factor."),
-                    ExampleSentenceKurdish(
-                        text: "بۆ من، نرخ فاکتەری بڕیاردەرە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdecides17("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdecides17("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "For most customers, price is the deciding factor.",
+            kurdishText: "بۆ من، نرخ فاکتەری بڕیاردەرە.",
+            onPressedBritish: () => speakdecides17("en-GB"),
+            onPressedAmerican: () => speakdecides17("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "They offered me free accommodation for a year, and that decided me."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "جێگای مانەوەی بێ‌بەرامبەری یەک ساڵیان پێدام، و ئەوە یەکلامی کردەوە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdecides18("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdecides18("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "They offered me free accommodation for a year, and that decided me.",
+            kurdishText:
+                "جێگای مانەوەی بێ‌بەرامبەری یەک ساڵیان پێدام، و ئەوە یەکلامی کردەوە.",
+            onPressedBritish: () => speakdecides18("en-GB"),
+            onPressedAmerican: () => speakdecides18("en-US"),
           ),
         ],
       ),

@@ -251,64 +251,26 @@ class KurdishMeaning extends StatelessWidget {
 // """),
           const DefinitionKurdish(
               text: "١. (کردار) بوون بە جێگری کەسێک بۆ ماوەیەکی کاتی"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "Ms Green has asked me to deputize for her at the meeting."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "بەڕێز گرین داوای لێکردووم شوێنی پڕبکەمەوە لە کۆبوونەوەکە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "deputize", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdeputizes1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdeputizes1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "Ms Green has asked me to deputize for her at the meeting.",
+            kurdishText:
+                "بەڕێز گرین داوای لێکردووم شوێنی پڕبکەمەوە لە کۆبوونەوەکە.", // deputize
+            onPressedBritish: () => speakdeputizes1("en-GB"),
+            onPressedAmerican: () => speakdeputizes1("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
                   "٢. (کردار) پێدانی دەسەڵات بە کەسێک کە ئەرکێکی دیاریکراو ئەنجام بدات"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "Santa Clara police deputized about 100 out-of-town officers to help patrol the stadium."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "پۆلیسی سانتا کلارا داوای لە ١٠٠ ئەفسەری دەرەوەی شارۆچکەکە کرد کە پاسەوانی یاریگاکە بکەن."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdeputizes2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdeputizes2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "Santa Clara police deputized about 100 out-of-town officers to help patrol the stadium.",
+            kurdishText:
+                "پۆلیسی سانتا کلارا داوای لە ١٠٠ ئەفسەری دەرەوەی شارۆچکەکە کرد کە پاسەوانی یاریگاکە بکەن.",
+            onPressedBritish: () => speakdeputizes2("en-GB"),
+            onPressedAmerican: () => speakdeputizes2("en-US"),
           ),
           // deputizes300"),
           // speakdeputizes3

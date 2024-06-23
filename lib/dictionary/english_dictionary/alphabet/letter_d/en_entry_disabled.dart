@@ -259,118 +259,42 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "١. (ھاوەڵناو) ھەبوونی دۆخێکی جەستەیی یان دەروونی کە وا دەکات سەخت بێت بۆ ھەندێک کەس شتانێک بکەن کە زۆر کەس دەتوانن بیکەن"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "My sister is learning disabled (= she has a learning disability)."),
-                    ExampleSentenceKurdish(
-                        text: "خوشکەکەم کەمئەندامی لە فێربووندا ھەیە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "disabled", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdisableds1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdisableds1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "My sister is learning disabled (= she has a learning disability).",
+            kurdishText: "خوشکەکەم کەمئەندامی لە فێربووندا ھەیە.", // disabled
+            onPressedBritish: () => speakdisableds1("en-GB"),
+            onPressedAmerican: () => speakdisableds1("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "The stroke left him disabled."),
-                    ExampleSentenceKurdish(text: "جەڵدەکە کەمئەندامی کرد."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdisableds2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdisableds2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "The stroke left him disabled.",
+            kurdishText: "جەڵدەکە کەمئەندامی کرد.",
+            onPressedBritish: () => speakdisableds2("en-GB"),
+            onPressedAmerican: () => speakdisableds2("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "We support disabled students in further and higher education."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "پشتیوانی خوێندکارانی کەمئەندام دەکەین لە خوێندنی زیاتر و بەرزتر."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdisableds3("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdisableds3("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "We support disabled students in further and higher education.",
+            kurdishText:
+                "پشتیوانی خوێندکارانی کەمئەندام دەکەین لە خوێندنی زیاتر و بەرزتر.",
+            onPressedBritish: () => speakdisableds3("en-GB"),
+            onPressedAmerican: () => speakdisableds3("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: "٢. (ھاوەڵناو) ئەو کەسانەی پەککەوتەن"),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "They provide caring for the sick, elderly and disabled."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "چاودێری دەدەن بە نەخۆشان، بەساڵاچووان و پەککەوتووان."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdisableds4("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdisableds4("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "They provide caring for the sick, elderly and disabled.",
+            kurdishText: "چاودێری دەدەن بە نەخۆشان، بەساڵاچووان و پەککەوتووان.",
+            onPressedBritish: () => speakdisableds4("en-GB"),
+            onPressedAmerican: () => speakdisableds4("en-US"),
           ),
           // disableds500"),
           // speakdisableds5

@@ -260,93 +260,36 @@ class KurdishMeaning extends StatelessWidget {
 """),
           const DefinitionKurdish(
               text: "١. (ناو) سێیەمین پیتی ئەلفوبێی یۆنانی"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "Delta is written as Δ in uppercase and δ in lowercase."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "دەلتا بە شێوەی گەورە بە Δ دەنووسرێت بە بچووکیش بە δ."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "delta", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdeltas1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdeltas1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "Delta is written as Δ in uppercase and δ in lowercase.",
+            kurdishText:
+                "دەلتا بە شێوەی گەورە بە Δ دەنووسرێت بە بچووکیش بە δ.", // delta
+            onPressedBritish: () => speakdeltas1("en-GB"),
+            onPressedAmerican: () => speakdeltas1("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
                   "٢. (ناو) پارچە زەوییەک کە شێوەی سێگۆشەیە و تێیدا ڕووبارێک بووە بە چەند لقێکەوە پێش ئەوەی تێکەڵ بە دەریا ببێت"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The Nile Delta is known for its rich soil and agriculture."),
-                    ExampleSentenceKurdish(
-                        text: "دەلتای نیل بۆ خاک و کشتوکاڵی بەپیتی ناسراوە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdeltas2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdeltas2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "The Nile Delta is known for its rich soil and agriculture.",
+            kurdishText: "دەلتای نیل بۆ خاک و کشتوکاڵی بەپیتی ناسراوە.",
+            onPressedBritish: () => speakdeltas2("en-GB"),
+            onPressedAmerican: () => speakdeltas2("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
                   "٣. (ناو) یەکێک لە شێوە گۆڕاوەکانی SARS-CoV-2 کە بۆ یەکەمجار لە ساڵی ٢٠٢٠ بڵاوبووەوە و ساڵی ٢٠٢١ ناونرا دەلتا. ئەمە بوو بە سەرەکیترین جۆری ڤایرۆسەکە تاوەکو ئۆمیکرۆن لە کۆتایی ٢٠٢١ بڵاوبوویەوە"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The Delta variant proved to be more transmissible than earlier variants of the virus."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "گۆڕاوی دەلتا سەلماندی کە زیاتر گوازراوەیە وەک لە گۆڕاوەکانی پێشووتری ڤایرۆسەکە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdeltas3("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdeltas3("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "The Delta variant proved to be more transmissible than earlier variants of the virus.",
+            kurdishText:
+                "گۆڕاوی دەلتا سەلماندی کە زیاتر گوازراوەیە وەک لە گۆڕاوەکانی پێشووتری ڤایرۆسەکە.",
+            onPressedBritish: () => speakdeltas3("en-GB"),
+            onPressedAmerican: () => speakdeltas3("en-US"),
           ),
           // deltas400"),
           // speakdeltas4

@@ -394,146 +394,50 @@ class KurdishMeaning extends StatelessWidget {
 کوردی: ڕێک‌وپێک، جوان، شۆخ، شۆخ‌وشەنگ، شەدەلار، بەلەنجەولار، پڕلەوردەکاری، ناسک، سەرنج‌ڕاکێش، بەئەدا، بەناز، بەئەتوار، بەعینوان
 """),
           const DefinitionKurdish(text: """١. (ھاوەڵناو) سەرنجڕاکێش و جوان"""),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: """She was tall and elegant."""),
-                    ExampleSentenceKurdish(text: """درێژ و شۆخ‌وشەنگ بوو."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "elegant", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakelegants1("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakelegants1("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: """She was tall and elegant.""",
+            kurdishText: """درێژ و شۆخ‌وشەنگ بوو.""", // elegant
+            onPressedBritish: () => speakelegants1("en-GB"),
+            onPressedAmerican: () => speakelegants1("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: """He cut an elegant figure in a dark suit."""),
-                    ExampleSentenceKurdish(
-                        text:
-                            """بە جلێکی تۆخەوە بە شێوەیەکی بەلەنجەولار دەرکەوت."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakelegants2("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakelegants2("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: """He cut an elegant figure in a dark suit.""",
+            kurdishText: """بە جلێکی تۆخەوە بە شێوەیەکی بەلەنجەولار دەرکەوت.""",
+            onPressedBritish: () => speakelegants2("en-GB"),
+            onPressedAmerican: () => speakelegants2("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text: """٢. (ھاوەڵناو) کە سەرنجڕاکێشە جوان دیزاین کراوە"""),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            """She was looking for something cool and elegant to wear."""),
-                    ExampleSentenceKurdish(
-                        text: """بۆ شتێکی جوان و شۆخ دەگەڕا لەبەری بکات."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakelegants3("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakelegants3("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                """She was looking for something cool and elegant to wear.""",
+            kurdishText: """بۆ شتێکی جوان و شۆخ دەگەڕا لەبەری بکات.""",
+            onPressedBritish: () => speakelegants3("en-GB"),
+            onPressedAmerican: () => speakelegants3("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: """She's got the most elegant writing style."""),
-                    ExampleSentenceKurdish(
-                        text: """جوانترین ستایلی نووسینی ھەیە."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakelegants4("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakelegants4("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: """She's got the most elegant writing style.""",
+            kurdishText: """جوانترین ستایلی نووسینی ھەیە.""",
+            onPressedBritish: () => speakelegants4("en-GB"),
+            onPressedAmerican: () => speakelegants4("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text: """٣. (ھاوەڵناو) زیرەکانە بەڵام سادە"""),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            """He found an elegant solution to the problem."""),
-                    ExampleSentenceKurdish(
-                        text: """چارەسەرێکی سادەی بۆ کێشەکە دۆزییەوە."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakelegants5("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakelegants5("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: """He found an elegant solution to the problem.""",
+            kurdishText: """چارەسەرێکی سادەی بۆ کێشەکە دۆزییەوە.""",
+            onPressedBritish: () => speakelegants5("en-GB"),
+            onPressedAmerican: () => speakelegants5("en-US"),
           ),
           // elegants600elegants6
           // speakelegants6

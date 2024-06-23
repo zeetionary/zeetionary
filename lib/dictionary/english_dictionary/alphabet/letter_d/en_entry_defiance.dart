@@ -260,91 +260,34 @@ class KurdishMeaning extends StatelessWidget {
 """),
           const DefinitionKurdish(
               text: "١. (ناو) ڕەتکردنەوەی گوێڕایەڵی کەسێک/شتێک"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "Nuclear testing was resumed in defiance of an international ban."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "تاقیکردنەوەی ئەتۆمی بەردەوام بوو بە نافەرمانی قەدەغەی نێودەوڵەتی."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "defiance", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdefiances1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdefiances1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "Nuclear testing was resumed in defiance of an international ban.",
+            kurdishText:
+                "تاقیکردنەوەی ئەتۆمی بەردەوام بوو بە نافەرمانی قەدەغەی نێودەوڵەتی.", // defiance
+            onPressedBritish: () => speakdefiances1("en-GB"),
+            onPressedAmerican: () => speakdefiances1("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "She held up a clenched fist in a gesture of defiance."),
-                    ExampleSentenceKurdish(
-                        text: "مشتێکی بەرزکردەوە وەک ئاماژەیەکی بەرەنگاری."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdefiances2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdefiances2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "She held up a clenched fist in a gesture of defiance.",
+            kurdishText: "مشتێکی بەرزکردەوە وەک ئاماژەیەکی بەرەنگاری.",
+            onPressedBritish: () => speakdefiances2("en-GB"),
+            onPressedAmerican: () => speakdefiances2("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "They organized a street demonstration in complete defiance of the government ban."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "خۆپیشاندانی سەرشەقامیان ڕێکخست بە گوێ‌پێنەدانی تەواو بە قەدەغەی حکومەت."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdefiances3("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdefiances3("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "They organized a street demonstration in complete defiance of the government ban.",
+            kurdishText:
+                "خۆپیشاندانی سەرشەقامیان ڕێکخست بە گوێ‌پێنەدانی تەواو بە قەدەغەی حکومەت.",
+            onPressedBritish: () => speakdefiances3("en-GB"),
+            onPressedAmerican: () => speakdefiances3("en-US"),
           ),
           // defiances400"),
           // speakdefiances4

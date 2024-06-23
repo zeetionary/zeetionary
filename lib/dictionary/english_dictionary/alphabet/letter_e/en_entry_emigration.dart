@@ -373,61 +373,23 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   """١. (ناو) جێھێشتنی وڵاتەکەت بۆ ئەوەی بۆ ھەمیشەیی لە وڵاتێکی دیکە بژیت"""),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            """Emigration to Western Europe has been significant."""),
-                    ExampleSentenceKurdish(
-                        text: """کۆچکردن بۆ ئەورووپای ڕۆژئاوا زۆر بووە."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "emigration", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakemigrations1("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakemigrations1("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                """Emigration to Western Europe has been significant.""",
+            kurdishText:
+                """کۆچکردن بۆ ئەورووپای ڕۆژئاوا زۆر بووە.""", // emigration
+            onPressedBritish: () => speakemigrations1("en-GB"),
+            onPressedAmerican: () => speakemigrations1("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            """There should be new rules for emigrations and refugees."""),
-                    ExampleSentenceKurdish(
-                        text:
-                            """دەبێت یاسای تازە بۆ کۆچکردن و ئاوارەکان ھەبێت."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakemigrations2("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakemigrations2("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                """There should be new rules for emigrations and refugees.""",
+            kurdishText: """دەبێت یاسای تازە بۆ کۆچکردن و ئاوارەکان ھەبێت.""",
+            onPressedBritish: () => speakemigrations2("en-GB"),
+            onPressedAmerican: () => speakemigrations2("en-US"),
           ),
           // emigrations300emigrations3
           // speakemigrations3

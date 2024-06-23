@@ -244,60 +244,22 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "١. (کردار) وەستان لە کردن، بەکارھێنان، یان دابینکردنی شتێک، بەتایبەتی کە بە بەردەوامی کردووتە"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "It was decided to discontinue the treatment after three months."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "لە دوای سێ مانگ بڕیار درا دەرمانەکە بوەستێنرێت."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "discontinue", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdiscontinues1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdiscontinues1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "It was decided to discontinue the treatment after three months.",
+            kurdishText:
+                "لە دوای سێ مانگ بڕیار درا دەرمانەکە بوەستێنرێت.", // discontinue
+            onPressedBritish: () => speakdiscontinues1("en-GB"),
+            onPressedAmerican: () => speakdiscontinues1("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The company has discontinued the practice of providing the staff with free lunches."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "کۆمپانیاکە وەستاوە لە دابینکردنی خواردنی بەلاش بە ستافەکەی."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdiscontinues2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdiscontinues2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "The company has discontinued the practice of providing the staff with free lunches.",
+            kurdishText:
+                "کۆمپانیاکە وەستاوە لە دابینکردنی خواردنی بەلاش بە ستافەکەی.",
+            onPressedBritish: () => speakdiscontinues2("en-GB"),
+            onPressedAmerican: () => speakdiscontinues2("en-US"),
           ),
           // discontinues300"),
           // speakdiscontinues3

@@ -304,261 +304,88 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "١. (کردار) وا لە خەڵکی دیکە بکەیت کە ڕێزی کەسێک/شتێک نەکەن"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The photos were deliberately taken to discredit the president."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "وێنەکان بە ئەنقەست گیردران بۆ ناوزڕاندنی سەرۆک."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "discredit", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdiscredits1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdiscredits1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "The photos were deliberately taken to discredit the president.",
+            kurdishText:
+                "وێنەکان بە ئەنقەست گیردران بۆ ناوزڕاندنی سەرۆک.", // discredit
+            onPressedBritish: () => speakdiscredits1("en-GB"),
+            onPressedAmerican: () => speakdiscredits1("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "She accused the minister of trying to discredit the government."),
-                    ExampleSentenceKurdish(
-                        text: "وەزیرەکەی تۆمەتبار کرد بە ئابڕووبردنی حکومەت."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdiscredits2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdiscredits2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "She accused the minister of trying to discredit the government.",
+            kurdishText: "وەزیرەکەی تۆمەتبار کرد بە ئابڕووبردنی حکومەت.",
+            onPressedBritish: () => speakdiscredits2("en-GB"),
+            onPressedAmerican: () => speakdiscredits2("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "This was a blatant attempt to discredit this company."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "ئەمە ھەوڵێکی ئاشکرا بوو بۆ ناوزڕاندنی ئەم کۆمپانیایە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdiscredits3("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdiscredits3("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "This was a blatant attempt to discredit this company.",
+            kurdishText:
+                "ئەمە ھەوڵێکی ئاشکرا بوو بۆ ناوزڕاندنی ئەم کۆمپانیایە.",
+            onPressedBritish: () => speakdiscredits3("en-GB"),
+            onPressedAmerican: () => speakdiscredits3("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
                   "٢. (کردار) واکردنی ئەوەی خەڵکی بوەستن لە باوەڕکردن بە شتێک"),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "These theories are now largely discredited among linguists."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "ئەم بیردۆزانە ئێستا بەزۆری لەلایەن زمانناسانەوە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdiscredits4("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdiscredits4("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "These theories are now largely discredited among linguists.",
+            kurdishText: "ئەم بیردۆزانە ئێستا بەزۆری لەلایەن زمانناسانەوە.",
+            onPressedBritish: () => speakdiscredits4("en-GB"),
+            onPressedAmerican: () => speakdiscredits4("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "This new evidence discredits earlier findings."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "ئەم بەڵگە تازەیە دۆزینەوە کۆنەکان بەدرۆدەخاتەوە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdiscredits5("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdiscredits5("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "This new evidence discredits earlier findings.",
+            kurdishText: "ئەم بەڵگە تازەیە دۆزینەوە کۆنەکان بەدرۆدەخاتەوە.",
+            onPressedBritish: () => speakdiscredits5("en-GB"),
+            onPressedAmerican: () => speakdiscredits5("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: "٣. (ناو) زیان بە ناوبانگی کەسێک/شتێک"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "Violent football fans bring discredit on the teams they support."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "ھەوادارە توندوتیژەکانی تۆپی پێ مایەی ئابڕووچوونن بۆ ئەو تیمەی پشتگیری دەکەن."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdiscredits6("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdiscredits6("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "Violent football fans bring discredit on the teams they support.",
+            kurdishText:
+                "ھەوادارە توندوتیژەکانی تۆپی پێ مایەی ئابڕووچوونن بۆ ئەو تیمەی پشتگیری دەکەن.",
+            onPressedBritish: () => speakdiscredits6("en-GB"),
+            onPressedAmerican: () => speakdiscredits6("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "My brother’s behaviour did great discredit to the family."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "ڕەفتاری براکەم ئابڕووچوونی گەورەی گەیاند بە خێزانەکە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdiscredits7("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdiscredits7("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "My brother’s behaviour did great discredit to the family.",
+            kurdishText:
+                "ڕەفتاری براکەم ئابڕووچوونی گەورەی گەیاند بە خێزانەکە.",
+            onPressedBritish: () => speakdiscredits7("en-GB"),
+            onPressedAmerican: () => speakdiscredits7("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "Britain, to its discredit, did not speak out against these atrocities."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "بەریتانیا، بە مایەی ئابڕووچوونی، دەنگی نەکرد دژ بەم تاوانانە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdiscredits8("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdiscredits8("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "Britain, to its discredit, did not speak out against these atrocities.",
+            kurdishText:
+                "بەریتانیا، بە مایەی ئابڕووچوونی، دەنگی نەکرد دژ بەم تاوانانە.",
+            onPressedBritish: () => speakdiscredits8("en-GB"),
+            onPressedAmerican: () => speakdiscredits8("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٤. (ناو) شتێک یان کەسێک کە جێگای ئابڕووچوونە"),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "They were a discredit to their country."),
-                    ExampleSentenceKurdish(
-                        text: "شەرمھێنەر بوون بۆ وڵاتەکەیان."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdiscredits9("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdiscredits9("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "They were a discredit to their country.",
+            kurdishText: "شەرمھێنەر بوون بۆ وڵاتەکەیان.",
+            onPressedBritish: () => speakdiscredits9("en-GB"),
+            onPressedAmerican: () => speakdiscredits9("en-US"),
           ),
           // discredits_1000"),
           // speakdiscredits10

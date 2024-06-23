@@ -363,32 +363,12 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   """١. (ناو) ژەمە خواردنێکی زۆر بچووک، بۆ نموونە بسکیت و چا، کە خەڵکی لە نزیکی ١١ ـی پێش نیوەڕۆ دەیخۆن"""),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            """Elevenses helps keep you going until lunchtime."""),
-                    ExampleSentenceKurdish(
-                        text:
-                            """قاوەڵتوون یارمەتیدەرت دەبن تاوەکو نانی نیوەڕۆ بڕ بکەیت."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "elevenses", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakelevensess1("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakelevensess1("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: """Elevenses helps keep you going until lunchtime.""",
+            kurdishText:
+                """قاوەڵتوون یارمەتیدەرت دەبن تاوەکو نانی نیوەڕۆ بڕ بکەیت.""", // elevenses
+            onPressedBritish: () => speakelevensess1("en-GB"),
+            onPressedAmerican: () => speakelevensess1("en-US"),
           ),
           // elevensess200elevensess2
           // speakelevensess2

@@ -415,1119 +415,196 @@ class KurdishMeaning extends StatelessWidget {
 کوردی: مردن، قاڵب، داڕێژگە، مۆر، نەرد، مۆرە، زار، دار،	قومار، بەخت، شانس،	قاڵاوێز
 """),
           const DefinitionKurdish(text: "١. (کردار) وەستان لە ژیان"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "My father died suddenly at the age of 48."),
-                    ExampleSentenceKurdish(
-                        text: "باوکم کەناکاو لە تەمەنی ٤٨ ساڵیدا گیانی سپارد."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "die", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdies1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdies1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "My father died suddenly at the age of 48.",
+            kurdishText:
+                "باوکم lەناکاو لە تەمەنی ٤٨ ساڵیدا گیانی سپارد.", // die
+            onPressedBritish: () => speakdies1("en-GB"),
+            onPressedAmerican: () => speakdies1("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "At least six people have died in the accident."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "بە لایەنی کەمەوە شەش کەس لە ڕووداوەکە گیانیان لەدەستداوە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdies2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdies2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "At least six people have died in the accident.",
+            kurdishText:
+                "بە لایەنی کەمەوە شەش کەس لە ڕووداوەکە گیانیان لەدەستداوە.",
+            onPressedBritish: () => speakdies2("en-GB"),
+            onPressedAmerican: () => speakdies2("en-US"),
           ),
           Column(
             children: [
               MyExpansionTile(
                 children: [
-                  Row(
-                    children: [
-                      const Expanded(
-                        child: Column(
-                          children: [
-                            ExampleSentenceEnglish(
-                                text:
-                                    "That plant's going to die if you don't water it!"),
-                            ExampleSentenceKurdish(
-                                text: "ڕووەکەکان دەمرن ئەگەر ئاویان نەدەیت."),
-                          ],
-                        ),
-                      ),
-                      const CustomSizedBoxForTTS(),
-                      Column(
-                        children: [
-                          CustomIconButtonBritish(
-                            onPressed: () => speakdies3("en-GB"),
-                          ),
-                          CustomIconButtonAmerican(
-                            onPressed: () => speakdies3("en-US"),
-                          ),
-                        ],
-                      ),
-                    ],
+                  SentencesRow(
+                    englishText:
+                        "That plant's going to die if you don't water it!",
+                    kurdishText: "ڕووەکەکان دەمرن ئەگەر ئاویان نەدەیت.",
+                    onPressedBritish: () => speakdies3("en-GB"),
+                    onPressedAmerican: () => speakdies3("en-US"),
                   ),
-                  // const DividerDefinition(),
-                  // const DefinitionKurdish(text: "ژممارە. (کردار) پێنناسە"),
                   const DividerSentences(),
-                  Row(
-                    children: [
-                      const Expanded(
-                        child: Column(
-                          children: [
-                            ExampleSentenceEnglish(
-                                text: "He later died in hospital."),
-                            ExampleSentenceKurdish(
-                                text: "دواتر لە نەخۆشخانە گیانی لەدەستدا."),
-                          ],
-                        ),
-                      ),
-                      const CustomSizedBoxForTTS(),
-                      Column(
-                        children: [
-                          CustomIconButtonBritish(
-                            onPressed: () => speakdies4("en-GB"),
-                          ),
-                          CustomIconButtonAmerican(
-                            onPressed: () => speakdies4("en-US"),
-                          ),
-                        ],
-                      ),
-                    ],
+                  SentencesRow(
+                    englishText: "He later died in hospital.",
+                    kurdishText: "دواتر لە نەخۆشخانە گیانی لەدەستدا.",
+                    onPressedBritish: () => speakdies4("en-GB"),
+                    onPressedAmerican: () => speakdies4("en-US"),
                   ),
-                  // const DividerDefinition(),
-                  // const DefinitionKurdish(text: "ژممارە. (کردار) پێنناسە"),
                   const DividerSentences(),
-                  Row(
-                    children: [
-                      const Expanded(
-                        child: Column(
-                          children: [
-                            ExampleSentenceEnglish(
-                                text: "They died fighting for their country."),
-                            ExampleSentenceKurdish(
-                                text: "مردن لەکاتی شەڕدا بۆ وڵاتەکەیان."),
-                          ],
-                        ),
-                      ),
-                      const CustomSizedBoxForTTS(),
-                      Column(
-                        children: [
-                          CustomIconButtonBritish(
-                            onPressed: () => speakdies5("en-GB"),
-                          ),
-                          CustomIconButtonAmerican(
-                            onPressed: () => speakdies5("en-US"),
-                          ),
-                        ],
-                      ),
-                    ],
+                  SentencesRow(
+                    englishText: "They died fighting for their country.",
+                    kurdishText: "مردن لەکاتی شەڕدا بۆ وڵاتەکەیان.",
+                    onPressedBritish: () => speakdies5("en-GB"),
+                    onPressedAmerican: () => speakdies5("en-US"),
                   ),
-                  // const DividerDefinition(),
-                  // const DefinitionKurdish(text: "ژممارە. (کردار) پێنناسە"),
                   const DividerSentences(),
-                  Row(
-                    children: [
-                      const Expanded(
-                        child: Column(
-                          children: [
-                            ExampleSentenceEnglish(
-                                text:
-                                    "She died peacefully after a long illness."),
-                            ExampleSentenceKurdish(
-                                text:
-                                    "لە دوای نەخۆشییەکی درێژخایەن بە ئاسوودەیی مرد."),
-                          ],
-                        ),
-                      ),
-                      const CustomSizedBoxForTTS(),
-                      Column(
-                        children: [
-                          CustomIconButtonBritish(
-                            onPressed: () => speakdies6("en-GB"),
-                          ),
-                          CustomIconButtonAmerican(
-                            onPressed: () => speakdies6("en-US"),
-                          ),
-                        ],
-                      ),
-                    ],
+                  SentencesRow(
+                    englishText: "She died peacefully after a long illness.",
+                    kurdishText:
+                        "لە دوای نەخۆشییەکی درێژخایەن بە ئاسوودەیی مرد.",
+                    onPressedBritish: () => speakdies6("en-GB"),
+                    onPressedAmerican: () => speakdies6("en-US"),
                   ),
-                  // const DividerDefinition(),
-                  // const DefinitionKurdish(text: "ژممارە. (کردار) پێنناسە"),
                   const DividerSentences(),
-                  Row(
-                    children: [
-                      const Expanded(
-                        child: Column(
-                          children: [
-                            ExampleSentenceEnglish(
-                                text:
-                                    "A further 156 people have died with Covid-19 (= they had the disease when they died)."),
-                            ExampleSentenceKurdish(
-                                text:
-                                    "١٥٦ کەسی دیکە بە کۆرۆنا گیانیان لەدەستداوە."),
-                          ],
-                        ),
-                      ),
-                      const CustomSizedBoxForTTS(),
-                      Column(
-                        children: [
-                          CustomIconButtonBritish(
-                            onPressed: () => speakdies7("en-GB"),
-                          ),
-                          CustomIconButtonAmerican(
-                            onPressed: () => speakdies7("en-US"),
-                          ),
-                        ],
-                      ),
-                    ],
+                  SentencesRow(
+                    englishText:
+                        "A further 156 people have died with Covid-19 (= they had the disease when they died).",
+                    kurdishText: "١٥٦ کەسی دیکە بە کۆرۆنا گیانیان لەدەستداوە.",
+                    onPressedBritish: () => speakdies7("en-GB"),
+                    onPressedAmerican: () => speakdies7("en-US"),
                   ),
-                  // const DividerDefinition(),
-                  // const DefinitionKurdish(text: "ژممارە. (کردار) پێنناسە"),
                   const DividerSentences(),
-                  Row(
-                    children: [
-                      const Expanded(
-                        child: Column(
-                          children: [
-                            ExampleSentenceEnglish(
-                                text: "He was ready to die for his cause."),
-                            ExampleSentenceKurdish(
-                                text: "ئامادەبوو گیان بەخت بکات بۆ ئەم دۆزە."),
-                          ],
-                        ),
-                      ),
-                      const CustomSizedBoxForTTS(),
-                      Column(
-                        children: [
-                          CustomIconButtonBritish(
-                            onPressed: () => speakdies8("en-GB"),
-                          ),
-                          CustomIconButtonAmerican(
-                            onPressed: () => speakdies8("en-US"),
-                          ),
-                        ],
-                      ),
-                    ],
+                  SentencesRow(
+                    englishText: "He was ready to die for his cause.",
+                    kurdishText: "ئامادەبوو گیان بەخت بکات بۆ ئەم دۆزە.",
+                    onPressedBritish: () => speakdies8("en-GB"),
+                    onPressedAmerican: () => speakdies8("en-US"),
                   ),
-                  // const DividerDefinition(),
-                  // const DefinitionKurdish(text: "ژممارە. (کردار) پێنناسە"),
                   const DividerSentences(),
-                  Row(
-                    children: [
-                      const Expanded(
-                        child: Column(
-                          children: [
-                            ExampleSentenceEnglish(
-                                text:
-                                    "I'll never forget it to my dying day (= until I die)."),
-                            ExampleSentenceKurdish(
-                                text: "تاوەکو کۆتا ڕۆژەکانم لەبیری ناکەم."),
-                          ],
-                        ),
-                      ),
-                      const CustomSizedBoxForTTS(),
-                      Column(
-                        children: [
-                          CustomIconButtonBritish(
-                            onPressed: () => speakdies9("en-GB"),
-                          ),
-                          CustomIconButtonAmerican(
-                            onPressed: () => speakdies9("en-US"),
-                          ),
-                        ],
-                      ),
-                    ],
+                  SentencesRow(
+                    englishText:
+                        "I'll never forget it to my dying day (= until I die).",
+                    kurdishText: "تاوەکو کۆتا ڕۆژەکانم لەبیری ناکەم.",
+                    onPressedBritish: () => speakdies9("en-GB"),
+                    onPressedAmerican: () => speakdies9("en-US"),
                   ),
-                  // const DividerDefinition(),
-                  // const DefinitionKurdish(text: "ژممارە. (کردار) پێنناسە"),
                   const DividerSentences(),
-                  Row(
-                    children: [
-                      const Expanded(
-                        child: Column(
-                          children: [
-                            ExampleSentenceEnglish(
-                                text:
-                                    "I nearly died when I saw him there (= it was very embarrassing)."),
-                            ExampleSentenceKurdish(
-                                text: "خەریک بوو بمرم کە لەوێ بینیم."),
-                          ],
-                        ),
-                      ),
-                      const CustomSizedBoxForTTS(),
-                      Column(
-                        children: [
-                          CustomIconButtonBritish(
-                            onPressed: () => speakdies10("en-GB"),
-                          ),
-                          CustomIconButtonAmerican(
-                            onPressed: () => speakdies10("en-US"),
-                          ),
-                        ],
-                      ),
-                    ],
+                  SentencesRow(
+                    englishText:
+                        "I nearly died when I saw him there (= it was very embarrassing).",
+                    kurdishText: "خەریک بوو بمرم کە لەوێ بینیم.",
+                    onPressedBritish: () => speakdies10("en-GB"),
+                    onPressedAmerican: () => speakdies10("en-US"),
                   ),
-                  // const DividerDefinition(),
-                  // const DefinitionKurdish(text: "ژممارە. (کردار) پێنناسە"),
                   const DividerSentences(),
-                  Row(
-                    children: [
-                      const Expanded(
-                        child: Column(
-                          children: [
-                            ExampleSentenceEnglish(text: "She died young."),
-                            ExampleSentenceKurdish(text: "بە گەنجی مرد."),
-                          ],
-                        ),
-                      ),
-                      const CustomSizedBoxForTTS(),
-                      Column(
-                        children: [
-                          CustomIconButtonBritish(
-                            onPressed: () => speakdies11("en-GB"),
-                          ),
-                          CustomIconButtonAmerican(
-                            onPressed: () => speakdies11("en-US"),
-                          ),
-                        ],
-                      ),
-                    ],
+                  SentencesRow(
+                    englishText: "She died young.",
+                    kurdishText: "بە گەنجی مرد.",
+                    onPressedBritish: () => speakdies11("en-GB"),
+                    onPressedAmerican: () => speakdies11("en-US"),
                   ),
-                  // const DividerDefinition(),
-                  // const DefinitionKurdish(text: "ژممارە. (کردار) پێنناسە"),
                   const DividerSentences(),
-                  Row(
-                    children: [
-                      const Expanded(
-                        child: Column(
-                          children: [
-                            ExampleSentenceEnglish(
-                                text: "At least they died happy."),
-                            ExampleSentenceKurdish(
-                                text: "ھیچ نەبێت بە خۆشی مردن."),
-                          ],
-                        ),
-                      ),
-                      const CustomSizedBoxForTTS(),
-                      Column(
-                        children: [
-                          CustomIconButtonBritish(
-                            onPressed: () => speakdies12("en-GB"),
-                          ),
-                          CustomIconButtonAmerican(
-                            onPressed: () => speakdies12("en-US"),
-                          ),
-                        ],
-                      ),
-                    ],
+                  SentencesRow(
+                    englishText: "At least they died happy.",
+                    kurdishText: "ھیچ نەبێت بە خۆشی مردن.",
+                    onPressedBritish: () => speakdies12("en-GB"),
+                    onPressedAmerican: () => speakdies12("en-US"),
                   ),
-                  // const DividerDefinition(),
-                  // const DefinitionKurdish(text: "ژممارە. (کردار) پێنناسە"),
                   const DividerSentences(),
-                  Row(
-                    children: [
-                      const Expanded(
-                        child: Column(
-                          children: [
-                            ExampleSentenceEnglish(text: "He died a hero."),
-                            ExampleSentenceKurdish(text: "وەک پاڵەوانێک مرد."),
-                          ],
-                        ),
-                      ),
-                      const CustomSizedBoxForTTS(),
-                      Column(
-                        children: [
-                          CustomIconButtonBritish(
-                            onPressed: () => speakdies13("en-GB"),
-                          ),
-                          CustomIconButtonAmerican(
-                            onPressed: () => speakdies13("en-US"),
-                          ),
-                        ],
-                      ),
-                    ],
+                  SentencesRow(
+                    englishText: "He died a hero.",
+                    kurdishText: "وەک پاڵەوانێک مرد.",
+                    onPressedBritish: () => speakdies13("en-GB"),
+                    onPressedAmerican: () => speakdies13("en-US"),
                   ),
-                  // const DividerDefinition(),
-                  // const DefinitionKurdish(text: "ژممارە. (کردار) پێنناسە"),
                   const DividerSentences(),
-                  Row(
-                    children: [
-                      const Expanded(
-                        child: Column(
-                          children: [
-                            ExampleSentenceEnglish(text: "He died a poor man."),
-                            ExampleSentenceKurdish(
-                                text: "وەک پیاوێکی ھەژار مرد."),
-                          ],
-                        ),
-                      ),
-                      const CustomSizedBoxForTTS(),
-                      Column(
-                        children: [
-                          CustomIconButtonBritish(
-                            onPressed: () => speakdies14("en-GB"),
-                          ),
-                          CustomIconButtonAmerican(
-                            onPressed: () => speakdies14("en-US"),
-                          ),
-                        ],
-                      ),
-                    ],
+                  SentencesRow(
+                    englishText: "He died a poor man.",
+                    kurdishText: "وەک پیاوێکی ھەژار مرد.",
+                    onPressedBritish: () => speakdies14("en-GB"),
+                    onPressedAmerican: () => speakdies14("en-US"),
                   ),
-                  // const DividerDefinition(),
-                  // const DefinitionKurdish(text: "ژممارە. (کردار) پێنناسە"),
                   const DividerSentences(),
-                  Row(
-                    children: [
-                      const Expanded(
-                        child: Column(
-                          children: [
-                            ExampleSentenceEnglish(
-                                text: "Her husband died suddenly last week."),
-                            ExampleSentenceKurdish(
-                                text: "ھاوسەرەکەی ھەفتەی پێشوو لەناکاو مرد."),
-                          ],
-                        ),
-                      ),
-                      const CustomSizedBoxForTTS(),
-                      Column(
-                        children: [
-                          CustomIconButtonBritish(
-                            onPressed: () => speakdies15("en-GB"),
-                          ),
-                          CustomIconButtonAmerican(
-                            onPressed: () => speakdies15("en-US"),
-                          ),
-                        ],
-                      ),
-                    ],
+                  SentencesRow(
+                    englishText: "Her husband died suddenly last week.",
+                    kurdishText: "ھاوسەرەکەی ھەفتەی پێشوو لەناکاو مرد.",
+                    onPressedBritish: () => speakdies15("en-GB"),
+                    onPressedAmerican: () => speakdies15("en-US"),
                   ),
-                  // const DividerDefinition(),
-                  // const DefinitionKurdish(text: "ژممارە. (کردار) پێنناسە"),
                   const DividerSentences(),
-                  Row(
-                    children: [
-                      const Expanded(
-                        child: Column(
-                          children: [
-                            ExampleSentenceEnglish(
-                                text:
-                                    "Her father died tragically in a car crash."),
-                            ExampleSentenceKurdish(
-                                text:
-                                    "باوکی بە تراژیدیایەک لە پێکدادانێکدا مرد."),
-                          ],
-                        ),
-                      ),
-                      const CustomSizedBoxForTTS(),
-                      Column(
-                        children: [
-                          CustomIconButtonBritish(
-                            onPressed: () => speakdies16("en-GB"),
-                          ),
-                          CustomIconButtonAmerican(
-                            onPressed: () => speakdies16("en-US"),
-                          ),
-                        ],
-                      ),
-                    ],
+                  SentencesRow(
+                    englishText: "Her father died tragically in a car crash.",
+                    kurdishText: "باوکی بە تراژیدیایەک لە پێکدادانێکدا مرد.",
+                    onPressedBritish: () => speakdies16("en-GB"),
+                    onPressedAmerican: () => speakdies16("en-US"),
                   ),
-                  // const DividerDefinition(),
-                  // const DefinitionKurdish(text: "ژممارە. (کردار) پێنناسە"),
                   const DividerSentences(),
-                  Row(
-                    children: [
-                      const Expanded(
-                        child: Column(
-                          children: [
-                            ExampleSentenceEnglish(text: "That plant's died."),
-                            ExampleSentenceKurdish(text: "ڕووەکەکە مردووە."),
-                          ],
-                        ),
-                      ),
-                      const CustomSizedBoxForTTS(),
-                      Column(
-                        children: [
-                          CustomIconButtonBritish(
-                            onPressed: () => speakdies17("en-GB"),
-                          ),
-                          CustomIconButtonAmerican(
-                            onPressed: () => speakdies17("en-US"),
-                          ),
-                        ],
-                      ),
-                    ],
+                  SentencesRow(
+                    englishText: "That plant's died.",
+                    kurdishText: "ڕووەکەکە مردووە.",
+                    onPressedBritish: () => speakdies17("en-GB"),
+                    onPressedAmerican: () => speakdies17("en-US"),
                   ),
-                  // const DividerDefinition(),
-                  // const DefinitionKurdish(text: "ژممارە. (کردار) پێنناسە"),
                   const DividerSentences(),
-                  Row(
-                    children: [
-                      const Expanded(
-                        child: Column(
-                          children: [
-                            ExampleSentenceEnglish(
-                                text: "He died for his beliefs."),
-                            ExampleSentenceKurdish(text: "بۆ ئامانجەکانی مرد."),
-                          ],
-                        ),
-                      ),
-                      const CustomSizedBoxForTTS(),
-                      Column(
-                        children: [
-                          CustomIconButtonBritish(
-                            onPressed: () => speakdies18("en-GB"),
-                          ),
-                          CustomIconButtonAmerican(
-                            onPressed: () => speakdies18("en-US"),
-                          ),
-                        ],
-                      ),
-                    ],
-                  ), // const DividerDefinition(),
-                  // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
-                  const DividerSentences(),
-                  Row(
-                    children: [
-                      const Expanded(
-                        child: Column(
-                          children: [
-                            ExampleSentenceEnglish(
-                                text: "The engine spluttered and died."),
-                            ExampleSentenceKurdish(
-                                text: "بزوێنەرەکە بڵتەیەکی کرد و کوژایەوە."),
-                          ],
-                        ),
-                      ),
-                      const CustomSizedBoxForTTS(),
-                      Column(
-                        children: [
-                          CustomIconButtonBritish(
-                            onPressed: () => speakdies23("en-GB"),
-                          ),
-                          CustomIconButtonAmerican(
-                            onPressed: () => speakdies23("en-US"),
-                          ),
-                        ],
-                      ),
-                    ],
+                  SentencesRow(
+                    englishText: "He died for his beliefs.",
+                    kurdishText: "بۆ ئامانجەکانی مرد.",
+                    onPressedBritish: () => speakdies18("en-GB"),
+                    onPressedAmerican: () => speakdies18("en-US"),
                   ),
+                  const DividerSentences(),
+                  SentencesRow(
+                    englishText: "The engine spluttered and died.",
+                    kurdishText: "بزوێنەرەکە بڵتەیەکی کرد و کوژایەوە.",
+                    onPressedBritish: () => speakdies23("en-GB"),
+                    onPressedAmerican: () => speakdies23("en-US"),
+                  ),
+
                   const DividerDefinition(),
                   const DefinitionKurdish(
                       text: "٤. (ناو) پارچە کانزایەک کە وەک قاڵب بەکاردێت"),
                   // const DividerSentences(),
-                  Row(
-                    children: [
-                      const Expanded(
-                        child: Column(
-                          children: [
-                            ExampleSentenceEnglish(
-                                text:
-                                    "The worker placed the metal under the die."),
-                            ExampleSentenceKurdish(
-                                text: "کرێکارەکە کانزاکەی خستە ژێر قاڵبەکەوە."),
-                          ],
-                        ),
-                      ),
-                      const CustomSizedBoxForTTS(),
-                      Column(
-                        children: [
-                          CustomIconButtonBritish(
-                            onPressed: () => speakdies24("en-GB"),
-                          ),
-                          CustomIconButtonAmerican(
-                            onPressed: () => speakdies24("en-US"),
-                          ),
-                        ],
-                      ),
-                    ],
+                  SentencesRow(
+                    englishText: "The worker placed the metal under the die.",
+                    kurdishText: "کرێکارەکە کانزاکەی خستە ژێر قاڵبەکەوە.",
+                    onPressedBritish: () => speakdies24("en-GB"),
+                    onPressedAmerican: () => speakdies24("en-US"),
                   ),
-                  // const DividerDefinition(),
-                  // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
-                  // const DividerSentences(),
-                  // Row(
-                  //   children: [
-                  //     const Expanded(
-                  //       child: Column(
-                  //         children: [
-                  // dies2500"),
-                  //           ExampleSentenceKurdish(text: "رستە_رستە_رستە_رستە."),
-                  //         ],
-                  //       ),
-                  //     ),
-                  //     const CustomSizedBoxForTTS(),
-                  //     Column(
-                  //       children: [
-                  //         CustomIconButtonBritish(
-                  // dies25("en-GB"),
-                  //         ),
-                  //         CustomIconButtonAmerican(
-                  // dies25("en-US"),
-                  //         ),
-                  //       ],
-                  //     ),
-                  //   ],
-                  // ),
-                  // const DividerDefinition(),
-                  // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
-                  // const DividerSentences(),
-                  // Row(
-                  //   children: [
-                  //     const Expanded(
-                  //       child: Column(
-                  //         children: [
-                  // dies2600"),
-                  //           ExampleSentenceKurdish(text: "رستە_رستە_رستە_رستە."),
-                  //         ],
-                  //       ),
-                  //     ),
-                  //     const CustomSizedBoxForTTS(),
-                  //     Column(
-                  //       children: [
-                  //         CustomIconButtonBritish(
-                  // dies26("en-GB"),
-                  //         ),
-                  //         CustomIconButtonAmerican(
-                  // dies26("en-US"),
-                  //         ),
-                  //       ],
-                  //     ),
-                  //   ],
-                  // ),
-                  // const DividerDefinition(),
-                  // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
-                  // const DividerSentences(),
-                  // Row(
-                  //   children: [
-                  //     const Expanded(
-                  //       child: Column(
-                  //         children: [
-                  // dies2700"),
-                  //           ExampleSentenceKurdish(text: "رستە_رستە_رستە_رستە."),
-                  //         ],
-                  //       ),
-                  //     ),
-                  //     const CustomSizedBoxForTTS(),
-                  //     Column(
-                  //       children: [
-                  //         CustomIconButtonBritish(
-                  // dies27("en-GB"),
-                  //         ),
-                  //         CustomIconButtonAmerican(
-                  // dies27("en-US"),
-                  //         ),
-                  //       ],
-                  //     ),
-                  //   ],
-                  // ),
-                  // const DividerDefinition(),
-                  // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
-                  // const DividerSentences(),
-                  // Row(
-                  //   children: [
-                  //     const Expanded(
-                  //       child: Column(
-                  //         children: [
-                  // dies2800"),
-                  //           ExampleSentenceKurdish(text: "رستە_رستە_رستە_رستە."),
-                  //         ],
-                  //       ),
-                  //     ),
-                  //     const CustomSizedBoxForTTS(),
-                  //     Column(
-                  //       children: [
-                  //         CustomIconButtonBritish(
-                  // dies28("en-GB"),
-                  //         ),
-                  //         CustomIconButtonAmerican(
-                  // dies28("en-US"),
-                  //         ),
-                  //       ],
-                  //     ),
-                  //   ],
-                  // ),
-                  // const DividerDefinition(),
-                  // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
-                  // const DividerSentences(),
-                  // Row(
-                  //   children: [
-                  //     const Expanded(
-                  //       child: Column(
-                  //         children: [
-                  // dies2900"),
-                  //           ExampleSentenceKurdish(text: "رستە_رستە_رستە_رستە."),
-                  //         ],
-                  //       ),
-                  //     ),
-                  //     const CustomSizedBoxForTTS(),
-                  //     Column(
-                  //       children: [
-                  //         CustomIconButtonBritish(
-                  // dies29("en-GB"),
-                  //         ),
-                  //         CustomIconButtonAmerican(
-                  // dies29("en-US"),
-                  //         ),
-                  //       ],
-                  //     ),
-                  //   ],
-                  // ),
-                  // const DividerDefinition(),
-                  // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
-                  // const DividerSentences(),
-                  // Row(
-                  //   children: [
-                  //     const Expanded(
-                  //       child: Column(
-                  //         children: [
-                  // dies_3000"),
-                  //           ExampleSentenceKurdish(text: "رستە_رستە_رستە_رستە."),
-                  //         ],
-                  //       ),
-                  //     ),
-                  //     const CustomSizedBoxForTTS(),
-                  //     Column(
-                  //       children: [
-                  //         CustomIconButtonBritish(
-                  // dies30("en-GB"),
-                  //         ),
-                  //         CustomIconButtonAmerican(
-                  // dies30("en-US"),
-                  //         ),
-                  //       ],
-                  //     ),
-                  //   ],
-                  // ),
-                  // const DividerDefinition(),
-                  // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
-                  // const DividerSentences(),
-                  // Row(
-                  //   children: [
-                  //     const Expanded(
-                  //       child: Column(
-                  //         children: [
-                  // dies3100"),
-                  //           ExampleSentenceKurdish(text: "رستە_رستە_رستە_رستە."),
-                  //         ],
-                  //       ),
-                  //     ),
-                  //     const CustomSizedBoxForTTS(),
-                  //     Column(
-                  //       children: [
-                  //         CustomIconButtonBritish(
-                  // dies31("en-GB"),
-                  //         ),
-                  //         CustomIconButtonAmerican(
-                  // dies31("en-US"),
-                  //         ),
-                  //       ],
-                  //     ),
-                  //   ],
-                  // ),
-                  // const DividerDefinition(),
-                  // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
-                  // const DividerSentences(),
-                  // Row(
-                  //   children: [
-                  //     const Expanded(
-                  //       child: Column(
-                  //         children: [
-                  // dies3200"),
-                  //           ExampleSentenceKurdish(text: "رستە_رستە_رستە_رستە."),
-                  //         ],
-                  //       ),
-                  //     ),
-                  //     const CustomSizedBoxForTTS(),
-                  //     Column(
-                  //       children: [
-                  //         CustomIconButtonBritish(
-                  // dies32("en-GB"),
-                  //         ),
-                  //         CustomIconButtonAmerican(
-                  // dies32("en-US"),
-                  //         ),
-                  //       ],
-                  //     ),
-                  //   ],
-                  // ),
-                  // const DividerDefinition(),
-                  // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
-                  // const DividerSentences(),
-                  // Row(
-                  //   children: [
-                  //     const Expanded(
-                  //       child: Column(
-                  //         children: [
-                  // dies3300"),
-                  //           ExampleSentenceKurdish(text: "رستە_رستە_رستە_رستە."),
-                  //         ],
-                  //       ),
-                  //     ),
-                  //     const CustomSizedBoxForTTS(),
-                  //     Column(
-                  //       children: [
-                  //         CustomIconButtonBritish(
-                  // dies33("en-GB"),
-                  //         ),
-                  //         CustomIconButtonAmerican(
-                  // dies33("en-US"),
-                  //         ),
-                  //       ],
-                  //     ),
-                  //   ],
-                  // ),
-                  // const DividerDefinition(),
-                  // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
-                  // const DividerSentences(),
-                  // Row(
-                  //   children: [
-                  //     const Expanded(
-                  //       child: Column(
-                  //         children: [
-                  // dies3400"),
-                  //           ExampleSentenceKurdish(text: "رستە_رستە_رستە_رستە."),
-                  //         ],
-                  //       ),
-                  //     ),
-                  //     const CustomSizedBoxForTTS(),
-                  //     Column(
-                  //       children: [
-                  //         CustomIconButtonBritish(
-                  // dies34("en-GB"),
-                  //         ),
-                  //         CustomIconButtonAmerican(
-                  // dies34("en-US"),
-                  //         ),
-                  //       ],
-                  //     ),
-                  //   ],
-                  // ),
-                  // const DividerDefinition(),
-                  // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
-                  // const DividerSentences(),
-                  // Row(
-                  //   children: [
-                  //     const Expanded(
-                  //       child: Column(
-                  //         children: [
-                  // dies3500"),
-                  //           ExampleSentenceKurdish(text: "رستە_رستە_رستە_رستە."),
-                  //         ],
-                  //       ),
-                  //     ),
-                  //     const CustomSizedBoxForTTS(),
-                  //     Column(
-                  //       children: [
-                  //         CustomIconButtonBritish(
-                  // dies35("en-GB"),
-                  //         ),
-                  //         CustomIconButtonAmerican(
-                  // dies35("en-US"),
-                  //         ),
-                  //       ],
-                  //     ),
-                  //   ],
-                  // ),
-                  // const DividerDefinition(),
-                  // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
-                  // const DividerSentences(),
-                  // Row(
-                  //   children: [
-                  //     const Expanded(
-                  //       child: Column(
-                  //         children: [
-                  // dies3600"),
-                  //           ExampleSentenceKurdish(text: "رستە_رستە_رستە_رستە."),
-                  //         ],
-                  //       ),
-                  //     ),
-                  //     const CustomSizedBoxForTTS(),
-                  //     Column(
-                  //       children: [
-                  //         CustomIconButtonBritish(
-                  // dies36("en-GB"),
-                  //         ),
-                  //         CustomIconButtonAmerican(
-                  // dies36("en-US"),
-                  //         ),
-                  //       ],
-                  //     ),
-                  //   ],
-                  // ),
-                  // const DividerDefinition(),
-                  // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
-                  // const DividerSentences(),
-                  // Row(
-                  //   children: [
-                  //     const Expanded(
-                  //       child: Column(
-                  //         children: [
-                  // dies3700"),
-                  //           ExampleSentenceKurdish(text: "رستە_رستە_رستە_رستە."),
-                  //         ],
-                  //       ),
-                  //     ),
-                  //     const CustomSizedBoxForTTS(),
-                  //     Column(
-                  //       children: [
-                  //         CustomIconButtonBritish(
-                  // dies37("en-GB"),
-                  //         ),
-                  //         CustomIconButtonAmerican(
-                  // dies37("en-US"),
-                  //         ),
-                  //       ],
-                  //     ),
-                  //   ],
-                  // ),
-                  // const DividerDefinition(),
-                  // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
-                  // const DividerSentences(),
-                  // Row(
-                  //   children: [
-                  //     const Expanded(
-                  //       child: Column(
-                  //         children: [
-                  // dies3800"),
-                  //           ExampleSentenceKurdish(text: "رستە_رستە_رستە_رستە."),
-                  //         ],
-                  //       ),
-                  //     ),
-                  //     const CustomSizedBoxForTTS(),
-                  //     Column(
-                  //       children: [
-                  //         CustomIconButtonBritish(
-                  // dies38("en-GB"),
-                  //         ),
-                  //         CustomIconButtonAmerican(
-                  // dies38("en-US"),
-                  //         ),
-                  //       ],
-                  //     ),
-                  //   ],
-                  // ),
-                  // const DividerDefinition(),
-                  // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
-                  // const DividerSentences(),
-                  // Row(
-                  //   children: [
-                  //     const Expanded(
-                  //       child: Column(
-                  //         children: [
-                  // dies3900"),
-                  //           ExampleSentenceKurdish(text: "رستە_رستە_رستە_رستە."),
-                  //         ],
-                  //       ),
-                  //     ),
-                  //     const CustomSizedBoxForTTS(),
-                  //     Column(
-                  //       children: [
-                  //         CustomIconButtonBritish(
-                  // dies39("en-GB"),
-                  //         ),
-                  //         CustomIconButtonAmerican(
-                  // dies39("en-US"),
-                  //         ),
-                  //       ],
-                  //     ),
-                  //   ],
-                  // ),
-                  // const DividerDefinition(),
-                  // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
-                  // const DividerSentences(),
-                  // Row(
-                  //   children: [
-                  //     const Expanded(
-                  //       child: Column(
-                  //         children: [
-                  // dies_4000"),
-                  //           ExampleSentenceKurdish(text: "رستە_رستە_رستە_رستە."),
-                  //         ],
-                  //       ),
-                  //     ),
-                  //     const CustomSizedBoxForTTS(),
-                  //     Column(
-                  //       children: [
-                  //         CustomIconButtonBritish(
-                  // dies40("en-GB"),
-                  //         ),
-                  //         CustomIconButtonAmerican(
-                  // dies40("en-US"),
-                  //         ),
-                  //       ],
-                  //     ),
-                  //   ],
-                  // ),
-                  // const DividerDefinition(),
-                  // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
-                  // const DividerSentences(),
-                  // Row(
-                  //   children: [
-                  //     const Expanded(
-                  //       child: Column(
-                  //         children: [
-                  // dies4100"),
-                  //           ExampleSentenceKurdish(text: "رستە_رستە_رستە_رستە."),
-                  //         ],
-                  //       ),
-                  //     ),
-                  //     const CustomSizedBoxForTTS(),
-                  //     Column(
-                  //       children: [
-                  //         CustomIconButtonBritish(
-                  // dies41("en-GB"),
-                  //         ),
-                  //         CustomIconButtonAmerican(
-                  // dies41("en-US"),
-                  //         ),
-                  //       ],
-                  //     ),
-                  //   ],
-                  // ),
                 ],
               ),
             ],
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: "٢. (کردار) وەستان لە بوون"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(text: "The old customs are dying."),
-                    ExampleSentenceKurdish(text: "نەریتە کۆنەکان دەپووکێنەوە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdies19("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdies19("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "The old customs are dying.",
+            kurdishText: "نەریتە کۆنەکان دەپووکێنەوە.",
+            onPressedBritish: () => speakdies19("en-GB"),
+            onPressedAmerican: () => speakdies19("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "His secret died with him (= he never told anyone)."),
-                    ExampleSentenceKurdish(
-                        text: "نھێنییەکەی لەگەڵ خۆی بردە گۆڕ."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdies20("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdies20("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "His secret died with him (= he never told anyone).",
+            kurdishText: "نھێنییەکەی لەگەڵ خۆی بردە گۆڕ.",
+            onPressedBritish: () => speakdies20("en-GB"),
+            onPressedAmerican: () => speakdies20("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "٣. (کردار) پێنناسە"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The words died on my lips (= I stopped speaking)."),
-                    ExampleSentenceKurdish(text: "وشەکان لە قوڕگم گیران."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdies21("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdies21("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "The words died on my lips (= I stopped speaking).",
+            kurdishText: "وشەکان لە قوڕگم گیران.",
+            onPressedBritish: () => speakdies21("en-GB"),
+            onPressedAmerican: () => speakdies21("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: "٣. (کردار) وەستان لە کارکردن"),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "My phone died and I had no way to contact you."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "موبایلەکەم کوژایەوە و ھیچ ڕێگایەکم نەبوو پەیوەندیت پێوە بکەم."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdies22("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdies22("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "My phone died and I had no way to contact you.",
+            kurdishText:
+                "موبایلەکەم کوژایەوە و ھیچ ڕێگایەکم نەبوو پەیوەندیت پێوە بکەم.",
+            onPressedBritish: () => speakdies22("en-GB"),
+            onPressedAmerican: () => speakdies22("en-US"),
           ),
         ],
       ),

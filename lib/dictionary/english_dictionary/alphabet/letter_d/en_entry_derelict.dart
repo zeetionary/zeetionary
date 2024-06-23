@@ -265,118 +265,41 @@ class KurdishMeaning extends StatelessWidget {
 """),
           const DefinitionKurdish(
               text: "١. (ھاوەڵناو) کە چۆڵکراوە و لە دۆخێکی خراپدایە"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "The canal has been derelict for many years."),
-                    ExampleSentenceKurdish(
-                        text: "کەناڵەکە بۆ چەندین ساڵ دەبێت بێ‌خاوەنە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "derelict", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakderelicts1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakderelicts1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "The canal has been derelict for many years.",
+            kurdishText: "کەناڵەکە بۆ چەندین ساڵ دەبێت بێ‌خاوەنە.", // derelict
+            onPressedBritish: () => speakderelicts1("en-GB"),
+            onPressedAmerican: () => speakderelicts1("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "The land lay derelict for ten years."),
-                    ExampleSentenceKurdish(
-                        text: "زەوییەکە بۆ دە ساڵ بێ‌خاوەن بوو."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakderelicts2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakderelicts2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "The land lay derelict for ten years.",
+            kurdishText: "زەوییەکە بۆ دە ساڵ بێ‌خاوەن بوو.",
+            onPressedBritish: () => speakderelicts2("en-GB"),
+            onPressedAmerican: () => speakderelicts2("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
                   "٢. (ھاوەڵناو) بە تەواوی شکستخواردوو لە ئەنجامدانی ئەرکەکانت"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "They have been grossly derelict in their duty."),
-                    ExampleSentenceKurdish(
-                        text: "تەواو کەمتەرخەم لە ئەرکەکانیاندا."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakderelicts3("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakderelicts3("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "They have been grossly derelict in their duty.",
+            kurdishText: "تەواو کەمتەرخەم لە ئەرکەکانیاندا.",
+            onPressedBritish: () => speakderelicts3("en-GB"),
+            onPressedAmerican: () => speakderelicts3("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "She realizes that she's been derelict in her responsibilities as a mother."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "زانی کە نابەرپرس بووە لە ئەرکەکانیدا وەک دایکێک."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakderelicts4("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakderelicts4("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "She realizes that she's been derelict in her responsibilities as a mother.",
+            kurdishText: "زانی کە نابەرپرس بووە لە ئەرکەکانیدا وەک دایکێک.",
+            onPressedBritish: () => speakderelicts4("en-GB"),
+            onPressedAmerican: () => speakderelicts4("en-US"),
           ),
           // derelicts500"),
           // speakderelicts5

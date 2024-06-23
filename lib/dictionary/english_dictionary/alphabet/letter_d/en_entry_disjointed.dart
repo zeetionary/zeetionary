@@ -243,61 +243,23 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "١. (ھاوەڵناو) کە بە شێوەیەکی ڕوون یان لۆژیکانە باس نەکراوە"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The novel suffers from a disjointed plot and insignificant characters."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "ڕۆمانەکە کێشەی داڕشتنی بێ‌سەروبەری ھەیە لەگەڵ کارەکتەری ناگرنگ."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "disjointed", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdisjointeds1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdisjointeds1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "The novel suffers from a disjointed plot and insignificant characters.",
+            kurdishText:
+                "ڕۆمانەکە کێشەی داڕشتنی بێ‌سەروبەری ھەیە لەگەڵ کارەکتەری ناگرنگ.", // disjointed
+            onPressedBritish: () => speakdisjointeds1("en-GB"),
+            onPressedAmerican: () => speakdisjointeds1("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The evidence is disjointed and sometimes contradictory."),
-                    ExampleSentenceKurdish(
-                        text: "بەڵگەکە شێواو و ھەندێک جار بەخودناکۆکە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdisjointeds2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdisjointeds2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "The evidence is disjointed and sometimes contradictory.",
+            kurdishText: "بەڵگەکە شێواو و ھەندێک جار بەخودناکۆکە.",
+            onPressedBritish: () => speakdisjointeds2("en-GB"),
+            onPressedAmerican: () => speakdisjointeds2("en-US"),
           ),
           // disjointeds300"),
           // speakdisjointeds3

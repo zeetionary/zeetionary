@@ -259,116 +259,40 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "١. (ناو) کتێب یان سەرچاوەیەکی ئەلیکترۆنی کە وشەی تێدایە کە بە ڕیزبەندی ئەلفبێ ڕیزکراون و واتاکانیان ڕوونکراوەتەوە، یان ھاوواتایەک لە زمانێکی دیکەدا دەدات بە دەستەوە"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "If you don't know the meaning of a word, look it up in the dictionary."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "ئەگەر واتای وشەیەک نازانیت، لە فەرھەنگەکە بۆی بگەڕێ."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "dictionary", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdictionarys1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdictionarys1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "If you don't know the meaning of a word, look it up in the dictionary.",
+            kurdishText:
+                "ئەگەر واتای وشەیەک نازانیت، لە فەرھەنگەکە بۆی بگەڕێ.", // dictionary
+            onPressedBritish: () => speakdictionarys1("en-GB"),
+            onPressedAmerican: () => speakdictionarys1("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "I couldn't find the word in the dictionary."),
-                    ExampleSentenceKurdish(
-                        text: "وشەکەم لە فەرھەنگەکە نەدۆزییەوە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdictionarys2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdictionarys2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "I couldn't find the word in the dictionary.",
+            kurdishText: "وشەکەم لە فەرھەنگەکە نەدۆزییەوە.",
+            onPressedBritish: () => speakdictionarys2("en-GB"),
+            onPressedAmerican: () => speakdictionarys2("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "You need a dictionary to understand what he's saying half the time."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "نیوەی کاتەکان پێویستیت بە فەرھەنگێکە بۆ تێگەشتن لەوەی کە دەیڵێت."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdictionarys3("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdictionarys3("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "You need a dictionary to understand what he's saying half the time.",
+            kurdishText:
+                "نیوەی کاتەکان پێویستیت بە فەرھەنگێکە بۆ تێگەشتن لەوەی کە دەیڵێت.",
+            onPressedBritish: () => speakdictionarys3("en-GB"),
+            onPressedAmerican: () => speakdictionarys3("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
                   "٢. (ناو) کتێبێک کە واتای ئەو وشانە ڕوون دەکاتەوە کە لە بابەتێکی دیاریکراودا بەکاردێن"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "I decided to consult a medical dictionary."),
-                    ExampleSentenceKurdish(
-                        text: "بڕیارمدا لە کتێبێکی تەندرووستی بگەڕێم."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdictionarys4("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdictionarys4("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "I decided to consult a medical dictionary.",
+            kurdishText: "بڕیارمدا لە کتێبێکی تەندرووستی بگەڕێم.",
+            onPressedBritish: () => speakdictionarys4("en-GB"),
+            onPressedAmerican: () => speakdictionarys4("en-US"),
           ),
           // dictionarys500"),
           // speakdictionarys5

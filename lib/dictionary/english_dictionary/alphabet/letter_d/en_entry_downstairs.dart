@@ -395,146 +395,51 @@ class KurdishMeaning extends StatelessWidget {
 """),
           const DefinitionKurdish(
               text: "١. (ھاوەڵکار) لە نھۆمی خوارتر؛ بەرەو نھۆمی خوارتر"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "I heard someone coming downstairs."),
-                    ExampleSentenceKurdish(
-                        text: "گوێم لە کەسێک بوو لە خوارەوە دەھات."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "downstairs", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdownstairss1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdownstairss1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "I heard someone coming downstairs.",
+            kurdishText: "گوێم لە کەسێک بوو لە خوارەوە دەھات.", // downstairs
+            onPressedBritish: () => speakdownstairss1("en-GB"),
+            onPressedAmerican: () => speakdownstairss1("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "I couldn't sleep so I went downstairs and watched TV."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "نەمدەتوانی بخەوم، بۆیە چوومە خوارەوە و سەیری تەلەفیزیۆنم کرد."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdownstairss2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdownstairss2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "I couldn't sleep so I went downstairs and watched TV.",
+            kurdishText:
+                "نەمدەتوانی بخەوم، بۆیە چوومە خوارەوە و سەیری تەلەفیزیۆنم کرد.",
+            onPressedBritish: () => speakdownstairss2("en-GB"),
+            onPressedAmerican: () => speakdownstairss2("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "Wait downstairs in the hall."),
-                    ExampleSentenceKurdish(
-                        text: "لە خوارەوە لە ھۆڵەکە چاوەڕێ بە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdownstairss3("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdownstairss3("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "Wait downstairs in the hall.",
+            kurdishText: "لە خوارەوە لە ھۆڵەکە چاوەڕێ بە.",
+            onPressedBritish: () => speakdownstairss3("en-GB"),
+            onPressedAmerican: () => speakdownstairss3("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٢. (ھاوەڵناو) پەیوەندیدار ەب نھۆمی خوارتر"),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "I knocked on the door of my downstairs neighbour."),
-                    ExampleSentenceKurdish(
-                        text: "لە دەرگای دراوسێکانم لە نھۆمی خوارتر دا."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdownstairss4("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdownstairss4("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "I knocked on the door of my downstairs neighbour.",
+            kurdishText: "لە دەرگای دراوسێکانم لە نھۆمی خوارتر دا.",
+            onPressedBritish: () => speakdownstairss4("en-GB"),
+            onPressedAmerican: () => speakdownstairss4("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٣. (ناو) نھۆمێکی خوارتری خانوو یان بینایەک"),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "We're painting the downstairs."),
-                    ExampleSentenceKurdish(text: "نھۆمی خوارەوە بۆیە دەکەین."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdownstairss5("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdownstairss5("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "We're painting the downstairs.",
+            kurdishText: "نھۆمی خوارەوە بۆیە دەکەین.",
+            onPressedBritish: () => speakdownstairss5("en-GB"),
+            onPressedAmerican: () => speakdownstairss5("en-US"),
           ),
           // downstairss600"),
           // speakdownstairss6

@@ -370,60 +370,20 @@ class KurdishMeaning extends StatelessWidget {
 """),
           const DefinitionKurdish(
               text: "١. (ھاوەڵناو) کە دڵتەنگت دەکات و ئەوەی حەزت بە ھیچ نەبێت"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "She had spent another dreary day in the office."),
-                    ExampleSentenceKurdish(
-                        text: "ڕۆژێکی دیکەی ناخۆشی لە ئۆفیسەکە بەسەر برد."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "dreary", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdrearys1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdrearys1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "She had spent another dreary day in the office.",
+            kurdishText: "ڕۆژێکی دیکەی ناخۆشی لە ئۆفیسەکە بەسەر برد.", // dreary
+            onPressedBritish: () => speakdrearys1("en-GB"),
+            onPressedAmerican: () => speakdrearys1("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "It was a gray, dreary day, with periods of rain."),
-                    ExampleSentenceKurdish(
-                        text: "ڕۆژێکی لێڵی ناخۆش بوو بە ناوەناوە بارانەوە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdrearys2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdrearys2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "It was a gray, dreary day, with periods of rain.",
+            kurdishText: "ڕۆژێکی لێڵی ناخۆش بوو بە ناوەناوە بارانەوە.",
+            onPressedBritish: () => speakdrearys2("en-GB"),
+            onPressedAmerican: () => speakdrearys2("en-US"),
           ),
           // drearys300"),
           // speakdrearys3

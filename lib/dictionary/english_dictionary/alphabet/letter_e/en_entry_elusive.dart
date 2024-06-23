@@ -373,61 +373,22 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   """١. (ھاوەڵناو) کە سەختە بۆ دۆزینەوە، ناساندن، یان بەدەستھێنان"""),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            """Eric, as elusive as ever, was nowhere to be found."""),
-                    ExampleSentenceKurdish(
-                        text: """ئێریک وەک ھەمیشە تێکەڵ‌پێکەڵ بوو."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "elusive", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakelusives1("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakelusives1("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                """Eric, as elusive as ever, was nowhere to be found.""",
+            kurdishText: """ئێریک وەک ھەمیشە تێکەڵ‌پێکەڵ بوو.""", // elusive
+            onPressedBritish: () => speakelusives1("en-GB"),
+            onPressedAmerican: () => speakelusives1("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            """A solution to the problem of toxic waste is proving elusive."""),
-                    ExampleSentenceKurdish(
-                        text:
-                            """چارەسەرێک بۆ کێسەی پاشەڕۆی پیس ئاڵۆز دەردەکەوێت."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakelusives2("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakelusives2("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                """A solution to the problem of toxic waste is proving elusive.""",
+            kurdishText: """چارەسەرێک بۆ کێسەی پاشەڕۆی پیس ئاڵۆز دەردەکەوێت.""",
+            onPressedBritish: () => speakelusives2("en-GB"),
+            onPressedAmerican: () => speakelusives2("en-US"),
           ),
           // elusives300elusives3
           // speakelusives3

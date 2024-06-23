@@ -453,756 +453,240 @@ class KurdishMeaning extends StatelessWidget {
 کوردی: داخوازی، داوا، برەو،	(ئابوری) داخوازی، داوا،	حەوجێ، پێویستی،	داخوازی پێدان،	(خوازە) بار، قورسایی
 """),
           const DefinitionKurdish(text: "١. (ناو) داوایەکی بەھێز بۆ شتێک"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "A federal judge rejected their demands."),
-                    ExampleSentenceKurdish(
-                        text: "دادوەرێکی فیدراڵی داواکانی ڕەتکردنەوە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "demand", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdemands1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdemands1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "A federal judge rejected their demands.",
+            kurdishText: "دادوەرێکی فیدراڵی داواکانی ڕەتکردنەوە.", // demand
+            onPressedBritish: () => speakdemands1("en-GB"),
+            onPressedAmerican: () => speakdemands1("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The management had no intention of meeting union demands."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "بەڕێوەبەرایەتی ھیچ نیازێکی نەبوو داواکانی سەندیکاکە جێبەچی بکات."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdemands2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdemands2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "The management had no intention of meeting union demands.",
+            kurdishText:
+                "بەڕێوەبەرایەتی ھیچ نیازێکی نەبوو داواکانی سەندیکاکە جێبەچی بکات.",
+            onPressedBritish: () => speakdemands2("en-GB"),
+            onPressedAmerican: () => speakdemands2("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "Campaigners have stepped up their demands for immediate government action."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "چالاکوانان فشاریان زیاد کردووە بۆ داوای ھەنگاوی دەستبەجێی حکومەت."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdemands3("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdemands3("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "Campaigners have stepped up their demands for immediate government action.",
+            kurdishText:
+                "چالاکوانان فشاریان زیاد کردووە بۆ داوای ھەنگاوی دەستبەجێی حکومەت.",
+            onPressedBritish: () => speakdemands3("en-GB"),
+            onPressedAmerican: () => speakdemands3("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "I think your demand for a higher salary is perfectly reasonable."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "پێموایە داواکەت بۆ مووچەی بەرزتر تەواو لە جێگای خۆیەتی."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdemands4("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdemands4("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "I think your demand for a higher salary is perfectly reasonable.",
+            kurdishText:
+                "پێموایە داواکەت بۆ مووچەی بەرزتر تەواو لە جێگای خۆیەتی.",
+            onPressedBritish: () => speakdemands4("en-GB"),
+            onPressedAmerican: () => speakdemands4("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
                   "٢. (ناو) ئەو شتانەی کە کەسێک یان شتێک ناچارت دەکات بیکەیت، بە تایبەتی شتی سەخت، ماندووکەر، ھتد"),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "Juggling the demands of work and family is never easy."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "گونجاندنی پێویستییەکانی کار و خێزان ھەرگیز ئاسان نییە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdemands5("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdemands5("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "Juggling the demands of work and family is never easy.",
+            kurdishText:
+                "گونجاندنی پێویستییەکانی کار و خێزان ھەرگیز ئاسان نییە.",
+            onPressedBritish: () => speakdemands5("en-GB"),
+            onPressedAmerican: () => speakdemands5("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "She shouldn't always give in to his demands."),
-                    ExampleSentenceKurdish(
-                        text: "نابێت ھەمیشە مل بدات بۆ حەوجێیەکانی."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdemands6("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdemands6("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "She shouldn't always give in to his demands.",
+            kurdishText: "نابێت ھەمیشە مل بدات بۆ حەوجێیەکانی.",
+            onPressedBritish: () => speakdemands6("en-GB"),
+            onPressedAmerican: () => speakdemands6("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "Flying makes enormous demands on pilots."),
-                    ExampleSentenceKurdish(
-                        text: "فڕین قورسایی زۆر دەخاتە سەر فڕۆکەوانان."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdemands7("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdemands7("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "Flying makes enormous demands on pilots.",
+            kurdishText: "فڕین قورسایی زۆر دەخاتە سەر فڕۆکەوانان.",
+            onPressedBritish: () => speakdemands7("en-GB"),
+            onPressedAmerican: () => speakdemands7("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "As a director he makes huge demands on his actors."),
-                    ExampleSentenceKurdish(
-                        text: "وەک دەرھێنەرێک داوای زۆر لە ئەکتەرەکانی دەکات."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdemands8("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdemands8("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "As a director he makes huge demands on his actors.",
+            kurdishText: "وەک دەرھێنەرێک داوای زۆر لە ئەکتەرەکانی دەکات.",
+            onPressedBritish: () => speakdemands8("en-GB"),
+            onPressedAmerican: () => speakdemands8("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "We must prepare children to respond to the demands of work."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "دەبێت منداڵان ڕابھێنین بۆ پێداویستییەکانی کارکردن."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdemands9("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdemands9("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "We must prepare children to respond to the demands of work.",
+            kurdishText: "دەبێت منداڵان ڕابھێنین بۆ پێداویستییەکانی کارکردن.",
+            onPressedBritish: () => speakdemands9("en-GB"),
+            onPressedAmerican: () => speakdemands9("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "I think the demands of this job are excessive."),
-                    ExampleSentenceKurdish(
-                        text: "پێموایە حەوجێیەکانی ئەم کارە زۆرن."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdemands10("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdemands10("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "I think the demands of this job are excessive.",
+            kurdishText: "پێموایە حەوجێیەکانی ئەم کارە زۆرن.",
+            onPressedBritish: () => speakdemands10("en-GB"),
+            onPressedAmerican: () => speakdemands10("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The person who cannot say ‘no’ to others' requests is likely to be overwhelmed by external demands."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "ئەو کەسەی کە ناتوانێت بڵێت 'نەخێر' بە داواکانی کەسانی دیکە ئەگەری ھەیە بکەوێتە ژێر باری دەرەکییەوە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdemands11("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdemands11("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "The person who cannot say ‘no’ to others' requests is likely to be overwhelmed by external demands.",
+            kurdishText:
+                "ئەو کەسەی کە ناتوانێت بڵێت 'نەخێر' بە داواکانی کەسانی دیکە ئەگەری ھەیە بکەوێتە ژێر باری دەرەکییەوە.",
+            onPressedBritish: () => speakdemands11("en-GB"),
+            onPressedAmerican: () => speakdemands11("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: "٣. (ناو) ویستی کڕیاران بۆ شت کڕین"),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(text: "Demand is exceeding supply."),
-                    ExampleSentenceKurdish(text: "خواست شتومەک زیاد دەکات."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdemands12("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdemands12("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "Demand is exceeding supply.",
+            kurdishText: "خواست شتومەک زیاد دەکات.",
+            onPressedBritish: () => speakdemands12("en-GB"),
+            onPressedAmerican: () => speakdemands12("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "It is becoming more difficult for us to meet demand."),
-                    ExampleSentenceKurdish(
-                        text: "سەختتر دەبێت بۆمان بە خواستدا ڕابگەین."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdemands13("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdemands13("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "It is becoming more difficult for us to meet demand.",
+            kurdishText: "سەختتر دەبێت بۆمان بە خواستدا ڕابگەین.",
+            onPressedBritish: () => speakdemands13("en-GB"),
+            onPressedAmerican: () => speakdemands13("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "Consumer demand for organic foods continues to increase rapidly."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "خواستی کڕیاران بۆ خواردنی ئەندامی بەردەوامە لەوەی بەخێرایی زیاد بکات."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdemands14("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdemands14("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "Consumer demand for organic foods continues to increase rapidly.",
+            kurdishText:
+                "خواستی کڕیاران بۆ خواردنی ئەندامی بەردەوامە لەوەی بەخێرایی زیاد بکات.",
+            onPressedBritish: () => speakdemands14("en-GB"),
+            onPressedAmerican: () => speakdemands14("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "We are struggling to satisfy the demand for the product."),
-                    ExampleSentenceKurdish(
-                        text: "تەقەڵامانە لە ڕاگەشتن بە خواست بۆ بەرھەمەکە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdemands15("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdemands15("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "We are struggling to satisfy the demand for the product.",
+            kurdishText: "تەقەڵامانە لە ڕاگەشتن بە خواست بۆ بەرھەمەکە.",
+            onPressedBritish: () => speakdemands15("en-GB"),
+            onPressedAmerican: () => speakdemands15("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٣. (کردار) داواکردن بە بەھێزی بۆ شتێک"),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "They are demanding the release of all political prisoners."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "داوای ئازادبوونی ھەموو زیندانییە سیاسییەکان دەکەن."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdemands16("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdemands16("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "They are demanding the release of all political prisoners.",
+            kurdishText: "داوای ئازادبوونی ھەموو زیندانییە سیاسییەکان دەکەن.",
+            onPressedBritish: () => speakdemands16("en-GB"),
+            onPressedAmerican: () => speakdemands16("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "You should demand an apology in writing."),
-                    ExampleSentenceKurdish(
-                        text: "دەبێت بە نووسین داوای لێبوردنخوازییەک بکەیت."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdemands17("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdemands17("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "You should demand an apology in writing.",
+            kurdishText: "دەبێت بە نووسین داوای لێبوردنخوازییەک بکەیت.",
+            onPressedBritish: () => speakdemands17("en-GB"),
+            onPressedAmerican: () => speakdemands17("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "Protesters demanded the resignation of the prime minister."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "خۆپیشاندەران داوای دەستلەکارکێشانەوەی سەرۆک وەزیران دەکەن."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdemands18("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdemands18("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "Protesters demanded the resignation of the prime minister.",
+            kurdishText:
+                "خۆپیشاندەران داوای دەستلەکارکێشانەوەی سەرۆک وەزیران دەکەن.",
+            onPressedBritish: () => speakdemands18("en-GB"),
+            onPressedAmerican: () => speakdemands18("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                      text: "The UN has demanded that all troops be withdrawn.",
-                      note:
-                          "British English also: They are demanding that all troops should be withdrawn.",
-                    ),
-                    ExampleSentenceKurdish(
-                        text:
-                            "نەتەوە یەکگرتووەکان داوای کردووە ھەموو ھێزەکان بکشێندرێنەوە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdemands19("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdemands19("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "The UN has demanded that all troops be withdrawn.",
+            englishNote:
+                "British English also: They are demanding that all troops should be withdrawn.",
+            kurdishText:
+                "نەتەوە یەکگرتووەکان داوای کردووە ھەموو ھێزەکان بکشێندرێنەوە.",
+            onPressedBritish: () => speakdemands19("en-GB"),
+            onPressedAmerican: () => speakdemands19("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "We demand a lot of our teachers."),
-                    ExampleSentenceKurdish(
-                        text: "داوای زۆر لە مامۆستایان دەکەین."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdemands20("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdemands20("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "We demand a lot of our teachers.",
+            kurdishText: "داوای زۆر لە مامۆستایان دەکەین.",
+            onPressedBritish: () => speakdemands20("en-GB"),
+            onPressedAmerican: () => speakdemands20("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "I demand to see the manager."),
-                    ExampleSentenceKurdish(
-                        text: "داوای بینیی بەڕێوەبەر دەکەم."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdemands21("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdemands21("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "I demand to see the manager.",
+            kurdishText: "داوای بینیی بەڕێوەبەر دەکەم.",
+            onPressedBritish: () => speakdemands21("en-GB"),
+            onPressedAmerican: () => speakdemands21("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "He had demanded money from her."),
-                    ExampleSentenceKurdish(text: "داوای پارەی لێکردبوو."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdemands22("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdemands22("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "He had demanded money from her.",
+            kurdishText: "داوای پارەی لێکردبوو.",
+            onPressedBritish: () => speakdemands22("en-GB"),
+            onPressedAmerican: () => speakdemands22("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٤. (کردار) پرسینی شتێک بە تووڕەیی و توندی"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "‘Who the hell are you?’ he demanded angrily."),
-                    ExampleSentenceKurdish(
-                        text: "بە تووڕەییەوە پرسی 'تۆ چی نەفرەتییەکەیت؟'"),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdemands23("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdemands23("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "‘Who the hell are you?’ he demanded angrily.",
+            kurdishText: "بە تووڕەییەوە پرسی 'تۆ چی نەفرەتییەکەیت؟'",
+            onPressedBritish: () => speakdemands23("en-GB"),
+            onPressedAmerican: () => speakdemands23("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "‘And where have you been?’ he demanded angrily."),
-                    ExampleSentenceKurdish(
-                        text: "بە تووڕەییەوە پرسی 'و لە کوێ بوویت؟'"),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdemands24("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdemands24("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "‘And where have you been?’ he demanded angrily.",
+            kurdishText: "بە تووڕەییەوە پرسی 'و لە کوێ بوویت؟'",
+            onPressedBritish: () => speakdemands24("en-GB"),
+            onPressedAmerican: () => speakdemands24("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٥. (کردار) داواکردنی کەلوپەل و خزمەتگوزاری"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "Today's consumers are demanding a greater variety of produce."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "کڕیارانی ئەم سەردەمە خواستیان لەسەر جۆری زیاتری بەرھەم ھەیە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdemands25("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdemands25("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "Today's consumers are demanding a greater variety of produce.",
+            kurdishText:
+                "کڕیارانی ئەم سەردەمە خواستیان لەسەر جۆری زیاتری بەرھەم ھەیە.",
+            onPressedBritish: () => speakdemands25("en-GB"),
+            onPressedAmerican: () => speakdemands25("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
                   "٦. (کردار) پێویستبوونی شتێک بۆ ئەوەی لە شتێکی دیکەدا سەرکەوتوو بیت"),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "This sport demands both speed and strength."),
-                    ExampleSentenceKurdish(
-                        text: "ئەم وەرزشە پێویستی بە خێرایی و ھێز ھەیە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdemands26("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdemands26("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "This sport demands both speed and strength.",
+            kurdishText: "ئەم وەرزشە پێویستی بە خێرایی و ھێز ھەیە.",
+            onPressedBritish: () => speakdemands26("en-GB"),
+            onPressedAmerican: () => speakdemands26("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "She can be a very tough negotiator when the situation demands it."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "دەکرێت دانووستانکارێکی توند بێت کە دۆخەکە پێویستی پیی بێت."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdemands27("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdemands27("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "She can be a very tough negotiator when the situation demands it.",
+            kurdishText:
+                "دەکرێت دانووستانکارێکی توند بێت کە دۆخەکە پێویستی پیی بێت.",
+            onPressedBritish: () => speakdemands27("en-GB"),
+            onPressedAmerican: () => speakdemands27("en-US"),
           ),
           // demands2800"),
           // speakdemands28

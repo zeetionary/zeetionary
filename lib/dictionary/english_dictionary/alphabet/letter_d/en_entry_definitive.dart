@@ -259,90 +259,33 @@ class KurdishMeaning extends StatelessWidget {
 """),
           const DefinitionKurdish(
               text: "١. (ھاوەڵناو) کۆتا؛ کە چی دیکە ناگۆڕێت"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The definitive version of the text is ready to be published."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "کۆتا وەشانی ئەم نووسینە ئامادەیە بۆ بڵاوکردنەوە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "definitive", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdefinitives1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdefinitives1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "The definitive version of the text is ready to be published.",
+            kurdishText:
+                "کۆتا وەشانی ئەم نووسینە ئامادەیە بۆ بڵاوکردنەوە.", // definitive
+            onPressedBritish: () => speakdefinitives1("en-GB"),
+            onPressedAmerican: () => speakdefinitives1("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "Clearly, this study can not provide a definitive answer."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "ئاشکرایە ئەم توێژینەوەیە وەڵامێکی مسۆگەر نادات بەدەستەوە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdefinitives2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdefinitives2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "Clearly, this study can not provide a definitive answer.",
+            kurdishText:
+                "ئاشکرایە ئەم توێژینەوەیە وەڵامێکی مسۆگەر نادات بەدەستەوە.",
+            onPressedBritish: () => speakdefinitives2("en-GB"),
+            onPressedAmerican: () => speakdefinitives2("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٢. (ھاوەڵناو) کە بە باشترین جۆر دادەنرێت و باشتر نابێت"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "He's written the definitive guide to Thailand."),
-                    ExampleSentenceKurdish(
-                        text: "ڕێبەرییەکی نایابی بۆ وڵاتی تایلاند نووسیوە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdefinitives3("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdefinitives3("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "He's written the definitive guide to Thailand.",
+            kurdishText: "ڕێبەرییەکی نایابی بۆ وڵاتی تایلاند نووسیوە.",
+            onPressedBritish: () => speakdefinitives3("en-GB"),
+            onPressedAmerican: () => speakdefinitives3("en-US"),
           ),
           // definitives400"),
           // speakdefinitives4

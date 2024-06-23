@@ -364,32 +364,13 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   """١. (شێوەی لێکدەر) پەیوەندیدار بە پەیوەندیی ئەلیکترۆنی، بەتایبەتی ئینتەرنێت، بۆ ناردنی زانیاری، ئەنجامدانی کار، ھتد"""),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            """Many companies use e-commerce to reach more customers."""),
-                    ExampleSentenceKurdish(
-                        text:
-                            """زۆر کۆمپانیا بازرگانیی ئەلیکترۆنی بەکاردێنن بۆ گەشتن بە کڕیاری زیاتر."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "e-", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speaketwos1("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speaketwos1("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                """Many companies use e-commerce to reach more customers.""",
+            kurdishText:
+                """زۆر کۆمپانیا بازرگانیی ئەلیکترۆنی بەکاردێنن بۆ گەشتن بە کڕیاری زیاتر.""", // e-
+            onPressedBritish: () => speaketwos1("en-GB"),
+            onPressedAmerican: () => speaketwos1("en-US"),
           ),
           // etwos200etwos2
           // speaketwos2

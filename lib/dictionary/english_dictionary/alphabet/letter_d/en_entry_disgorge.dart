@@ -240,60 +240,22 @@ class KurdishMeaning extends StatelessWidget {
 """),
           const DefinitionKurdish(
               text: "١. (کردار) ڕژاندنە دەرەوەی شتێک بە ڕێژەیەکی زۆر"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "The pipe disgorges sewage into the sea."),
-                    ExampleSentenceKurdish(
-                        text: "بۆرییەکە ئاوەرۆ فڕێ دەداتە ناو دەریاکە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "disgorge", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdisgorges1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdisgorges1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "The pipe disgorges sewage into the sea.",
+            kurdishText: "بۆرییەکە ئاوەرۆ فڕێ دەداتە ناو دەریاکە.", // disgorge
+            onPressedBritish: () => speakdisgorges1("en-GB"),
+            onPressedAmerican: () => speakdisgorges1("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٢. (کردار) ھاتنە دەرەوەی خەڵکی لە وەسیلەیەکی گواستنەوە"),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "The bus disgorged a crowd of noisy children."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "پاسەکە ژمارەیەک لە منداڵی دەنگبەرزی لێ دابەزیە خوارەوە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdisgorges2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdisgorges2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "The bus disgorged a crowd of noisy children.",
+            kurdishText:
+                "پاسەکە ژمارەیەک لە منداڵی دەنگبەرزی لێ دابەزیە خوارەوە.",
+            onPressedBritish: () => speakdisgorges2("en-GB"),
+            onPressedAmerican: () => speakdisgorges2("en-US"),
           ),
           // disgorges300"),
           // speakdisgorges3

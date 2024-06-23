@@ -371,61 +371,24 @@ class KurdishMeaning extends StatelessWidget {
 // کوردی:
 // """),
           const DefinitionKurdish(text: """١. (کردار) کارەبادان لە کەسێک"""),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            """He was electrocuted in Virginia in 2006 (= punished by being killed in the electric chair)."""),
-                    ExampleSentenceKurdish(
-                        text: """ساڵی ٢٠٠٦ لە ڤیرجینیا کارەبای لێدرا."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "electrocute", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakelectrocutes1("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakelectrocutes1("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                """He was electrocuted in Virginia in 2006 (= punished by being killed in the electric chair).""",
+            kurdishText:
+                """ساڵی ٢٠٠٦ لە ڤیرجینیا کارەبای لێدرا.""", // electrocute
+            onPressedBritish: () => speakelectrocutes1("en-GB"),
+            onPressedAmerican: () => speakelectrocutes1("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            """The boy was electrocuted when he wandered onto a railway track."""),
-                    ExampleSentenceKurdish(
-                        text:
-                            """کوڕەکە کارەبا گرتی کە بە ڕێگای شەمەندەفەرەکەدا دەسووڕایەوە."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakelectrocutes2("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakelectrocutes2("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                """The boy was electrocuted when he wandered onto a railway track.""",
+            kurdishText:
+                """کوڕەکە کارەبا گرتی کە بە ڕێگای شەمەندەفەرەکەدا دەسووڕایەوە.""",
+            onPressedBritish: () => speakelectrocutes2("en-GB"),
+            onPressedAmerican: () => speakelectrocutes2("en-US"),
           ),
           // electrocutes300electrocutes3
           // speakelectrocutes3

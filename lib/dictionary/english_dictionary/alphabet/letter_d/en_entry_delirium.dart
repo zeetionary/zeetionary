@@ -251,60 +251,22 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "١. (ناو) دۆخێکی دەروونی کە تێیدا کەسێک دەخرۆشێت و ناتوانێت بە ڕوونی بیربکاتەوە یان قسە بکات"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "He mumbled in delirium all night."),
-                    ExampleSentenceKurdish(
-                        text: "تەواوی شەوەکە لە وڕاوەدا مینگەمینگی دەکرد."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "delirium", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdeliriums1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdeliriums1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "He mumbled in delirium all night.",
+            kurdishText:
+                "تەواوی شەوەکە لە وڕاوەدا مینگەمینگی دەکرد.", // delirium
+            onPressedBritish: () => speakdeliriums1("en-GB"),
+            onPressedAmerican: () => speakdeliriums1("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: "٢. (ناو) خرۆشاوی یەکجار زۆر"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "I've never seen such delirium at a football game before."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "ھەرگیز خرۆشاوی وەھام لە یارییەکی تۆپی‌پێدا نەدیوە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdeliriums2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdeliriums2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "I've never seen such delirium at a football game before.",
+            kurdishText: "ھەرگیز خرۆشاوی وەھام لە یارییەکی تۆپی‌پێدا نەدیوە.",
+            onPressedBritish: () => speakdeliriums2("en-GB"),
+            onPressedAmerican: () => speakdeliriums2("en-US"),
           ),
           // deliriums300"),
           // speakdeliriums3

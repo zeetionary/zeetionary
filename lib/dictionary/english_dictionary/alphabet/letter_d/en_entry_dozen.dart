@@ -410,198 +410,69 @@ class KurdishMeaning extends StatelessWidget {
 // کوردی:
 // """),
           const DefinitionKurdish(text: "١. (ناو، دیارخەر) ١٢ دانە لە شتێک"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(text: "Give me a dozen, please."),
-                    ExampleSentenceKurdish(text: "تکایە دەرزەنێکم پێبدە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "dozen", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdozens1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdozens1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "Give me a dozen, please.",
+            kurdishText: "تکایە دەرزەنێکم پێبدە.", // dozen
+            onPressedBritish: () => speakdozens1("en-GB"),
+            onPressedAmerican: () => speakdozens1("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "ژممارە. (ناو، دیارخەر) پێنناسە"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "This recipe makes three dozen cookies."),
-                    ExampleSentenceKurdish(
-                        text: "ئەم ڕەچەتەیە سێ دەرزەن بسکیتی لێ دێت."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdozens2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdozens2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "This recipe makes three dozen cookies.",
+            kurdishText: "ئەم ڕەچەتەیە سێ دەرزەن بسکیتی لێ دێت.",
+            onPressedBritish: () => speakdozens2("en-GB"),
+            onPressedAmerican: () => speakdozens2("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٢. (ناو، دیارخەر) گرووپێکی نزیک لە ١٢ کەس یان شت"),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The company employs no more than a couple of dozen people."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "کۆمپانیاکە زیاتر لە چەند دەرزەنێک خەڵکی بە کرێ ناگرێت."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdozens3("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdozens3("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "The company employs no more than a couple of dozen people.",
+            kurdishText:
+                "کۆمپانیاکە زیاتر لە چەند دەرزەنێک خەڵکی بە کرێ ناگرێت.",
+            onPressedBritish: () => speakdozens3("en-GB"),
+            onPressedAmerican: () => speakdozens3("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "ژممارە. (ناو، دیارخەر) پێنناسە"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "There was only space for a half-dozen tables."),
-                    ExampleSentenceKurdish(
-                        text: "شوێنی تەنھا نزیکەی نیو دەرزەن مێز ھەبوو."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdozens4("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdozens4("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "There was only space for a half-dozen tables.",
+            kurdishText: "شوێنی تەنھا نزیکەی نیو دەرزەن مێز ھەبوو.",
+            onPressedBritish: () => speakdozens4("en-GB"),
+            onPressedAmerican: () => speakdozens4("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٣. (ناو، دیارخەر) خەڵک یان شتانێکی زۆر"),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "I've been there dozens of times."),
-                    ExampleSentenceKurdish(text: "چەندین جار چوومەتە ئەوێ."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdozens5("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdozens5("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "I've been there dozens of times.",
+            kurdishText: "چەندین جار چوومەتە ئەوێ.",
+            onPressedBritish: () => speakdozens5("en-GB"),
+            onPressedAmerican: () => speakdozens5("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "ژممارە. (ناو، دیارخەر) پێنناسە"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "We interviewed dozens and dozens of people."),
-                    ExampleSentenceKurdish(
-                        text: "چاوپێکەوتنمان لەگەڵ چەندان و چەندان کەس کرد."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdozens6("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdozens6("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "We interviewed dozens and dozens of people.",
+            kurdishText: "چاوپێکەوتنمان لەگەڵ چەندان و چەندان کەس کرد.",
+            onPressedBritish: () => speakdozens6("en-GB"),
+            onPressedAmerican: () => speakdozens6("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "ژممارە. (ناو، دیارخەر) پێنناسە"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "They arrived in dozens (= in large numbers)."),
-                    ExampleSentenceKurdish(text: "بە دەرزەن گەشتن."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdozens7("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdozens7("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "They arrived in dozens (= in large numbers).",
+            kurdishText: "بە دەرزەن گەشتن.",
+            onPressedBritish: () => speakdozens7("en-GB"),
+            onPressedAmerican: () => speakdozens7("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "ژممارە. (ناو، دیارخەر) پێنناسە"),

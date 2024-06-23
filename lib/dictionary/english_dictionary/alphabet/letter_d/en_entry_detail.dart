@@ -370,458 +370,152 @@ class KurdishMeaning extends StatelessWidget {
 کوردی: بەش، پشک، دوورودرێژ، چڕوپڕ، تێروتەسەل، تێروپڕ، مووبەموو، وردەکاری، وردەباس، لێکدانەوە
 """),
           const DefinitionKurdish(text: "١. (ناو) شتێک کە کەمتر گرنگە"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The Ministry refused to reveal any more details of the attack."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "وەزارەتەکە ڕەتیکردەوە ھیچ وردەکارییەکی دیکە ئاشکرا بکات."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "detail", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdetails1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdetails1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "The Ministry refused to reveal any more details of the attack.",
+            kurdishText:
+                "وەزارەتەکە ڕەتیکردەوە ھیچ وردەکارییەکی دیکە ئاشکرا بکات.", // detail
+            onPressedBritish: () => speakdetails1("en-GB"),
+            onPressedAmerican: () => speakdetails1("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "Tell me the main points now; leave the details till later."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "ئێستا خاڵە سەرەکییەکانم پێ بڵێ؛ وردەکارییەکان بۆ دواتر جێبھێڵە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdetails2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdetails2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "Tell me the main points now; leave the details till later.",
+            kurdishText:
+                "ئێستا خاڵە سەرەکییەکانم پێ بڵێ؛ وردەکارییەکان بۆ دواتر جێبھێڵە.",
+            onPressedBritish: () => speakdetails2("en-GB"),
+            onPressedAmerican: () => speakdetails2("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The finer details of the plan have still to be worked out."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "وردەکارییە بچووکەکانی پلانەکە ھێشتا باسیان لێوە دەکرا."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdetails3("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdetails3("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "The finer details of the plan have still to be worked out.",
+            kurdishText:
+                "وردەکارییە بچووکەکانی پلانەکە ھێشتا باسیان لێوە دەکرا.",
+            onPressedBritish: () => speakdetails3("en-GB"),
+            onPressedAmerican: () => speakdetails3("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "These are all relatively minor details."),
-                    ExampleSentenceKurdish(
-                        text: "ھەموویان تاڕادەیەک وردەکاری بچووکن."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdetails4("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdetails4("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "These are all relatively minor details.",
+            kurdishText: "ھەموویان تاڕادەیەک وردەکاری بچووکن.",
+            onPressedBritish: () => speakdetails4("en-GB"),
+            onPressedAmerican: () => speakdetails4("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
                   "٢. (ناو) ڕاستی یان خاسیەتەکانی شتێک کە ھەموویان پێکەوە ناودێنیت"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The report was criticized for its lack of detail."),
-                    ExampleSentenceKurdish(
-                        text: "ڕاپۆرتەکە ڕەخنەی لێ گیردرا بۆ کەمیی وردەکاریی."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdetails5("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdetails5("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "The report was criticized for its lack of detail.",
+            kurdishText: "ڕاپۆرتەکە ڕەخنەی لێ گیردرا بۆ کەمیی وردەکاریی.",
+            onPressedBritish: () => speakdetails5("en-GB"),
+            onPressedAmerican: () => speakdetails5("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "Ensure that your diagrams contain the appropriate level of detail."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "دڵنیابەرەوە کە ھێڵکارییەکانت ئاستی گونجاوی وردەکاری لەخۆدەگرن."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdetails6("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdetails6("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "Ensure that your diagrams contain the appropriate level of detail.",
+            kurdishText:
+                "دڵنیابەرەوە کە ھێڵکارییەکانت ئاستی گونجاوی وردەکاری لەخۆدەگرن.",
+            onPressedBritish: () => speakdetails6("en-GB"),
+            onPressedAmerican: () => speakdetails6("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "This issue will be discussed in more detail in the next chapter."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "ئەم بابەتە لە بەشی دواتردا بە وردەکاریی زیاترەوە باس دەکرێت."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdetails7("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdetails7("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "This issue will be discussed in more detail in the next chapter.",
+            kurdishText:
+                "ئەم بابەتە لە بەشی دواتردا بە وردەکاریی زیاترەوە باس دەکرێت.",
+            onPressedBritish: () => speakdetails7("en-GB"),
+            onPressedAmerican: () => speakdetails7("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The making of the movie is explored in minute detail."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "بەرھەمھێنانی فیلمەکە بە وردەکاریی وردەوە باسی لێوە دەکرێت."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdetails8("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdetails8("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "The making of the movie is explored in minute detail.",
+            kurdishText:
+                "بەرھەمھێنانی فیلمەکە بە وردەکاریی وردەوە باسی لێوە دەکرێت.",
+            onPressedBritish: () => speakdetails8("en-GB"),
+            onPressedAmerican: () => speakdetails8("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: "٣. (ناو) زانیاری لەسەر شتێک"),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "Please provide the following details: name, age and sex."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "تکایە ئەم زانیارییانە بدە بەدەستەوە: ناو، تەمەن، ڕەگەز."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdetails9("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdetails9("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "Please provide the following details: name, age and sex.",
+            kurdishText:
+                "تکایە ئەم زانیارییانە بدە بەدەستەوە: ناو، تەمەن، ڕەگەز.",
+            onPressedBritish: () => speakdetails9("en-GB"),
+            onPressedAmerican: () => speakdetails9("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "Can you send me your contact details?"),
-                    ExampleSentenceKurdish(
-                        text: "دەتوانیت زانیارییەکانی پەیوەندتم بۆ بنێریت؟"),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdetails10("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdetails10("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "Can you send me your contact details?",
+            kurdishText: "دەتوانیت زانیارییەکانی پەیوەندتم بۆ بنێریت؟",
+            onPressedBritish: () => speakdetails10("en-GB"),
+            onPressedAmerican: () => speakdetails10("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "For further details visit our website."),
-                    ExampleSentenceKurdish(
-                        text: "بۆ زانیاری زیاتر سەردانی وێبسایتەکەمان بکە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdetails11("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdetails11("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "For further details visit our website.",
+            kurdishText: "بۆ زانیاری زیاتر سەردانی وێبسایتەکەمان بکە.",
+            onPressedBritish: () => speakdetails11("en-GB"),
+            onPressedAmerican: () => speakdetails11("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "They didn't give any details about the game."),
-                    ExampleSentenceKurdish(
-                        text: "ھیچ زانیارییەکیان نەدا لەسەر یارییەکە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdetails12("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdetails12("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "They didn't give any details about the game.",
+            kurdishText: "ھیچ زانیارییەکیان نەدا لەسەر یارییەکە.",
+            onPressedBritish: () => speakdetails12("en-GB"),
+            onPressedAmerican: () => speakdetails12("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
                   "٤. (کردار) پێدانی لیستێکی زانیاری یان ھەموو زانیاریی بەردەست لەسەر شتێک"),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "In this lecture, I will detail the history of television from the beginning."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "لەم وانەدا، مێژووی تەلەفیزیۆن لە سەرەتاوە دەخەمەڕوو."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdetails13("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdetails13("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "In this lecture, I will detail the history of television from the beginning.",
+            kurdishText: "لەم وانەدا، مێژووی تەلەفیزیۆن لە سەرەتاوە دەخەمەڕوو.",
+            onPressedBritish: () => speakdetails13("en-GB"),
+            onPressedAmerican: () => speakdetails13("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "Of the factors detailed above, supply and demand are the primary forces behind interest rate levels."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "لەو فاکتەرانەی لە سەرەوە باسکراون، دابینکردن و خواست لە ھۆکارە سەرەکییەکانی ئاستی گۆڕانی سووە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdetails14("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdetails14("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "Of the factors detailed above, supply and demand are the primary forces behind interest rate levels.",
+            kurdishText:
+                "لەو فاکتەرانەی لە سەرەوە باسکراون، دابینکردن و خواست لە ھۆکارە سەرەکییەکانی ئاستی گۆڕانی سووە.",
+            onPressedBritish: () => speakdetails14("en-GB"),
+            onPressedAmerican: () => speakdetails14("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
                   "٤. (کردار) پێدانی فەرمانی فەرمی بە کەسێک بۆ ئەنجامدانی ئەرکێکی تایبەت"),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "Several of the men were detailed to form a search party."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "ژمارەیەک لە پیاوەکان فەرمانیان پێکرا کە گرووپێکی گەڕان پێکبھێنن."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdetails15("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdetails15("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "Several of the men were detailed to form a search party.",
+            kurdishText:
+                "ژمارەیەک لە پیاوەکان فەرمانیان پێکرا کە گرووپێکی گەڕان پێکبھێنن.",
+            onPressedBritish: () => speakdetails15("en-GB"),
+            onPressedAmerican: () => speakdetails15("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٦. (کردار) پاککردنەوەی ئۆتۆمبێل بە تەواوی و پاکی"),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "He got work for a while detailing cars."),
-                    ExampleSentenceKurdish(
-                        text: "بۆ ماوەیەک کاری شووشتنی ئۆتۆمبێلی دەکرد."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdetails16("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdetails16("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "He got work for a while detailing cars.",
+            kurdishText: "بۆ ماوەیەک کاری شووشتنی ئۆتۆمبێلی دەکرد.",
+            onPressedBritish: () => speakdetails16("en-GB"),
+            onPressedAmerican: () => speakdetails16("en-US"),
           ),
           // details1700"),
           // speakdetails17

@@ -259,118 +259,42 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "١. (ناو) لەدەستچوونی ڕێز و شکۆ بەھۆی ئەوەی شتێکی نائەخلاقی یان پەسەند نەکراوت کردووە "),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "Her actions have brought shame and dishonour on the profession."),
-                    ExampleSentenceKurdish(
-                        text: "کارەکانی شەرم و ئابڕووچوونی ھێناوە بۆ پیشەکە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "dishonour", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdishonours1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdishonours1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "Her actions have brought shame and dishonour on the profession.",
+            kurdishText:
+                "کارەکانی شەرم و ئابڕووچوونی ھێناوە بۆ پیشەکە.", // dishonour
+            onPressedBritish: () => speakdishonours1("en-GB"),
+            onPressedAmerican: () => speakdishonours1("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "There is no dishonour in such a defeat."),
-                    ExampleSentenceKurdish(
-                        text: "ھیچ ئابڕووچوونێک لە شکستێکی وەھادا نییە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdishonours2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdishonours2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "There is no dishonour in such a defeat.",
+            kurdishText: "ھیچ ئابڕووچوونێک لە شکستێکی وەھادا نییە.",
+            onPressedBritish: () => speakdishonours2("en-GB"),
+            onPressedAmerican: () => speakdishonours2("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: "٢. (کردار) لەدەستدانی ئابڕوو"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "You have dishonoured the name of the school."),
-                    ExampleSentenceKurdish(
-                        text: "ئابڕووی ناوی قوتابخانەکەت بردووە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdishonours3("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdishonours3("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "You have dishonoured the name of the school.",
+            kurdishText: "ئابڕووی ناوی قوتابخانەکەت بردووە.",
+            onPressedBritish: () => speakdishonours3("en-GB"),
+            onPressedAmerican: () => speakdishonours3("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٣. (کردار) شکاندنی ڕێکەوتن یان بەڵێنێک"),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "He had dishonoured nearly all of his election pledges."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "بەنزیکەیی ھەموو بەڵێنەکانی ھەڵبژاردنی شکاندبوو."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdishonours4("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdishonours4("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "He had dishonoured nearly all of his election pledges.",
+            kurdishText: "بەنزیکەیی ھەموو بەڵێنەکانی ھەڵبژاردنی شکاندبوو.",
+            onPressedBritish: () => speakdishonours4("en-GB"),
+            onPressedAmerican: () => speakdishonours4("en-US"),
           ),
           // dishonours500"),
           // speakdishonours5

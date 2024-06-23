@@ -250,60 +250,22 @@ class KurdishMeaning extends StatelessWidget {
 """),
           const DefinitionKurdish(
               text: "١. (کردار) گۆڕین یان ناشرینکردنی شێوەی سرووشتی شتێک"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "The disease had deformed his spine."),
-                    ExampleSentenceKurdish(
-                        text: "نەخۆشییەکە بڕبڕەی پشتی شێواندبوو."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "deform", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdeforms1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdeforms1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "The disease had deformed his spine.",
+            kurdishText: "نەخۆشییەکە بڕبڕەی پشتی شێواندبوو.", // deform
+            onPressedBritish: () => speakdeforms1("en-GB"),
+            onPressedAmerican: () => speakdeforms1("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The pressure had caused the wall to deform and buckle."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "فشارەکە بووبوو ھۆکاری ئەوەی دیوارەکە تێکبچێت و زیانیان پێ بگات."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdeforms2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdeforms2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "The pressure had caused the wall to deform and buckle.",
+            kurdishText:
+                "فشارەکە بووبوو ھۆکاری ئەوەی دیوارەکە تێکبچێت و زیانیان پێ بگات.",
+            onPressedBritish: () => speakdeforms2("en-GB"),
+            onPressedAmerican: () => speakdeforms2("en-US"),
           ),
           // deforms300"),
           // speakdeforms3

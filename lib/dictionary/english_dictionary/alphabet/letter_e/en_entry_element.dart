@@ -501,511 +501,179 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   """١. (ناو) بەشێکی گرنگی شتێک؛ یەکێک لەو بەشانەی شتێک لێی پێکدێت"""),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            """There are three important elements to consider."""),
-                    ExampleSentenceKurdish(
-                        text: """سێ لایەنی گرنگ ھەیە بۆ لەبەرچاوگرتن."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "element", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakelements1("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakelements1("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: """There are three important elements to consider.""",
+            kurdishText: """سێ لایەنی گرنگ ھەیە بۆ لەبەرچاوگرتن.""", // element
+            onPressedBritish: () => speakelements1("en-GB"),
+            onPressedAmerican: () => speakelements1("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: """ژممارە. (ناو) پێنناسە"""),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: """Cost was a key element in our decision."""),
-                    ExampleSentenceKurdish(
-                        text: """نرخ بەشێکی گرنگی بڕیارەکەمان بوو."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakelements2("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakelements2("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: """Cost was a key element in our decision.""",
+            kurdishText: """نرخ بەشێکی گرنگی بڕیارەکەمان بوو.""",
+            onPressedBritish: () => speakelements2("en-GB"),
+            onPressedAmerican: () => speakelements2("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: """ژممارە. (ناو) پێنناسە"""),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            """The architects were instructed to incorporate elements from the older building."""),
-                    ExampleSentenceKurdish(
-                        text:
-                            """ئەندازیارەکان ڕێنوێنی کران کە توخمەکانی بینا کۆنەکان لەخۆبگرن."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakelements3("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakelements3("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                """The architects were instructed to incorporate elements from the older building.""",
+            kurdishText:
+                """ئەندازیارەکان ڕێنوێنی کران کە توخمەکانی بینا کۆنەکان لەخۆبگرن.""",
+            onPressedBritish: () => speakelements3("en-GB"),
+            onPressedAmerican: () => speakelements3("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: """ژممارە. (ناو) پێنناسە"""),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            """Customer relations is an important element of the job."""),
-                    ExampleSentenceKurdish(
-                        text:
-                            """پەیوەندی لەگەڵ کڕیاردا لایەنێکی گرنگی کارەکەیە."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakelements4("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakelements4("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                """Customer relations is an important element of the job.""",
+            kurdishText: """پەیوەندی لەگەڵ کڕیاردا لایەنێکی گرنگی کارەکەیە.""",
+            onPressedBritish: () => speakelements4("en-GB"),
+            onPressedAmerican: () => speakelements4("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: """ژممارە. (ناو) پێنناسە"""),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            """Practical work will form a major element of the syllabus."""),
-                    ExampleSentenceKurdish(
-                        text:
-                            """کاری کرداری لایەنێکی گرنگی پڕۆگرامی خوێندنەکە پێکدێنێت."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakelements5("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakelements5("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                """Practical work will form a major element of the syllabus.""",
+            kurdishText:
+                """کاری کرداری لایەنێکی گرنگی پڕۆگرامی خوێندنەکە پێکدێنێت.""",
+            onPressedBritish: () => speakelements5("en-GB"),
+            onPressedAmerican: () => speakelements5("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: """٢. (ناو) ڕێژەیەکی کەم"""),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            """These rumours do contain an element of truth."""),
-                    ExampleSentenceKurdish(
-                        text: """ئەم دەنگۆیانە یەک نەخت ڕاستییان تێدا نییە."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakelements6("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakelements6("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: """These rumours do contain an element of truth.""",
+            kurdishText: """ئەم دەنگۆیانە یەک نەخت ڕاستییان تێدا نییە.""",
+            onPressedBritish: () => speakelements6("en-GB"),
+            onPressedAmerican: () => speakelements6("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: """ژممارە. (ناو) پێنناسە"""),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            """All outdoor activities carry an element of risk."""),
-                    ExampleSentenceKurdish(
-                        text:
-                            """ھەموو کارەکانی دەرەوە کەمێک مەترسییان تێدایە."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakelements7("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakelements7("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: """All outdoor activities carry an element of risk.""",
+            kurdishText: """ھەموو کارەکانی دەرەوە کەمێک مەترسییان تێدایە.""",
+            onPressedBritish: () => speakelements7("en-GB"),
+            onPressedAmerican: () => speakelements7("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: """ژممارە. (ناو) پێنناسە"""),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            """There appears to be an element of truth in his story."""),
-                    ExampleSentenceKurdish(
-                        text:
-                            """وا دەردەکەوێت کەمێک ڕاستی لەم چیرۆکەدا ھەبێت."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakelements8("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakelements8("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                """There appears to be an element of truth in his story.""",
+            kurdishText: """وا دەردەکەوێت کەمێک ڕاستی لەم چیرۆکەدا ھەبێت.""",
+            onPressedBritish: () => speakelements8("en-GB"),
+            onPressedAmerican: () => speakelements8("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: """ژممارە. (ناو) پێنناسە"""),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            """There is a considerable element of danger in her job."""),
-                    ExampleSentenceKurdish(
-                        text: """ڕێژەی بەرچاوی مەترسی لە کارەکەیدا ھەیە."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakelements9("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakelements9("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                """There is a considerable element of danger in her job.""",
+            kurdishText: """ڕێژەی بەرچاوی مەترسی لە کارەکەیدا ھەیە.""",
+            onPressedBritish: () => speakelements9("en-GB"),
+            onPressedAmerican: () => speakelements9("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: """٣. (ناو) توخمی کیمیایی"""),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            """Different atoms of the same element are called isotopes."""),
-                    ExampleSentenceKurdish(
-                        text:
-                            """ئەتۆمی جیاوازی ھەمان توخم پێی دوگەترێت ئایزۆتۆپ."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakelements10("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakelements10("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                """Different atoms of the same element are called isotopes.""",
+            kurdishText: """ئەتۆمی جیاوازی ھەمان توخم پێی دوگەترێت ئایزۆتۆپ.""",
+            onPressedBritish: () => speakelements10("en-GB"),
+            onPressedAmerican: () => speakelements10("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: """ژممارە. (ناو) پێنناسە"""),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            """All chemical substances, whether elements, compounds or mixtures, are made up of three types of particles."""),
-                    ExampleSentenceKurdish(
-                        text:
-                            """ھەموو مادەیەکی کیمیایی، چی توخمەکان، داڕشتەکان یان تێکەڵەکان، لە سێ تەنۆلکە پێکھاتوون."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakelements11("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakelements11("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                """All chemical substances, whether elements, compounds or mixtures, are made up of three types of particles.""",
+            kurdishText:
+                """ھەموو مادەیەکی کیمیایی، چی توخمەکان، داڕشتەکان یان تێکەڵەکان، لە سێ تەنۆلکە پێکھاتوون.""",
+            onPressedBritish: () => speakelements11("en-GB"),
+            onPressedAmerican: () => speakelements11("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
                   """٤. (ناو) یەکێک لە چوار مادەی خاک، ھەوا، ئاگر یان ئاو کە خەڵکی باوەڕیان وابوو ھەموو شتێکی دیکەی لێ درووست بووە"""),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            """Each element was thought to balance the natural world."""),
-                    ExampleSentenceKurdish(
-                        text:
-                            """ھەر ھێزێک باوەڕ وابوو کە ھاوسەنگی جیھانی سرووشتی ڕادەگرێت."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakelements12("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakelements12("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                """Each element was thought to balance the natural world.""",
+            kurdishText:
+                """ھەر ھێزێک باوەڕ وابوو کە ھاوسەنگی جیھانی سرووشتی ڕادەگرێت.""",
+            onPressedBritish: () => speakelements12("en-GB"),
+            onPressedAmerican: () => speakelements12("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text: """٥. (ناو) کەشووھەوا، بەتایبەتی کەشووھەوای خراپ"""),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            """The place was completely exposed to the elements."""),
-                    ExampleSentenceKurdish(
-                        text:
-                            """شوێنەکە بە تەواوی بەرکەوتە بە کەشووھەوا بوو."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakelements13("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakelements13("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                """The place was completely exposed to the elements.""",
+            kurdishText: """شوێنەکە بە تەواوی بەرکەوتە بە کەشووھەوا بوو.""",
+            onPressedBritish: () => speakelements13("en-GB"),
+            onPressedAmerican: () => speakelements13("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: """ژممارە. (ناو) پێنناسە"""),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            """Are we going to brave the elements and go for a walk?"""),
-                    ExampleSentenceKurdish(
-                        text:
-                            """زاڵ ببین بەسەر کەشووھەواکەدا و بچینە پیاسەیەک."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakelements14("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakelements14("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                """Are we going to brave the elements and go for a walk?""",
+            kurdishText: """زاڵ ببین بەسەر کەشووھەواکەدا و بچینە پیاسەیەک.""",
+            onPressedBritish: () => speakelements14("en-GB"),
+            onPressedAmerican: () => speakelements14("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
                   """٦. (ناو) بنچینە سەرەتاییەکانی بابەتێک کە دەبێت سەرەتا فێریان بیت"""),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: """He taught me the elements of map-reading."""),
-                    ExampleSentenceKurdish(
-                        text: """بنچینەکانی خوێندنەوەی نەخشەی فێرکردم."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakelements15("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakelements15("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: """He taught me the elements of map-reading.""",
+            kurdishText: """بنچینەکانی خوێندنەوەی نەخشەی فێرکردم.""",
+            onPressedBritish: () => speakelements15("en-GB"),
+            onPressedAmerican: () => speakelements15("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
                   """٧. (ناو) گرووپیک خەڵک کە بەشێک لە گرووپیکی گەورەتر پێکدێنن"""),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            """These ideas are not just the province of a fringe element in the party."""),
-                    ExampleSentenceKurdish(
-                        text:
-                            """ئەم دیدانە تەنھا ئەوە نییە کاری گرووپێکی کەمینەی پارتەکە بێت."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakelements16("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakelements16("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                """These ideas are not just the province of a fringe element in the party.""",
+            kurdishText:
+                """ئەم دیدانە تەنھا ئەوە نییە کاری گرووپێکی کەمینەی پارتەکە بێت.""",
+            onPressedBritish: () => speakelements16("en-GB"),
+            onPressedAmerican: () => speakelements16("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text: """٨. (ناو) ژینگەیەکی سرووشتی یان گونجاو"""),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: """Water is a fish's natural element."""),
-                    ExampleSentenceKurdish(
-                        text: """ئاو ژینگەی سرووشتی ماسییە."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakelements17("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakelements17("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: """Water is a fish's natural element.""",
+            kurdishText: """ئاو ژینگەی سرووشتی ماسییە.""",
+            onPressedBritish: () => speakelements17("en-GB"),
+            onPressedAmerican: () => speakelements17("en-US"),
           ),
           // elements1800elements18
           // speakelements18

@@ -390,125 +390,46 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   """١. (ھاوەڵناو) لێدوانێک، وەڵامێک، ھتد کە سەرنجی لەسەر دانراوە بۆ ئەوەی بگوترێت گرنگە"""),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            """The minister has issued an emphatic rejection of the accusation."""),
-                    ExampleSentenceKurdish(
-                        text:
-                            """وەزیرەکە ڕەتکردنەوەی بەھێزی تۆمەتەکەی ڕاگەیاندووە."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "emphatic", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakemphatics1("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakemphatics1("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                """The minister has issued an emphatic rejection of the accusation.""",
+            kurdishText:
+                """وەزیرەکە ڕەتکردنەوەی بەھێزی تۆمەتەکەی ڕاگەیاندووە.""", // emphatic
+            onPressedBritish: () => speakemphatics1("en-GB"),
+            onPressedAmerican: () => speakemphatics1("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
                   """٢. (ھاوەڵناو) کەسێک بە پێداگری قسە دەکات بۆ ئەوەی مەبەستەکەی بە تەواوی بگەیەنێت"""),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            """He was emphatic that he could not work with her."""),
-                    ExampleSentenceKurdish(
-                        text:
-                            """پێداگر بوو لەوەی کە ناتوانێت کاری لەگەڵ بکات."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakemphatics2("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakemphatics2("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: """He was emphatic that he could not work with her.""",
+            kurdishText: """پێداگر بوو لەوەی کە ناتوانێت کاری لەگەڵ بکات.""",
+            onPressedBritish: () => speakemphatics2("en-GB"),
+            onPressedAmerican: () => speakemphatics2("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            """She was emphatic about the need to meet the deadline."""),
-                    ExampleSentenceKurdish(
-                        text:
-                            """پێداگر بوو لەسەر پێویستی پابەندبوون بە دواوادە."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakemphatics3("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakemphatics3("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                """She was emphatic about the need to meet the deadline.""",
+            kurdishText: """پێداگر بوو لەسەر پێویستی پابەندبوون بە دواوادە.""",
+            onPressedBritish: () => speakemphatics3("en-GB"),
+            onPressedAmerican: () => speakemphatics3("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text: """٣. (ھاوەڵناو) بردنەوەیەک بە ئەنجامێکی زۆرەوە"""),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            """Poland reached the final of the championship yesterday with an emphatic 5–0 victory over Italy."""),
-                    ExampleSentenceKurdish(
-                        text:
-                            """پۆڵەندا دوێنێ گەشت بە کۆتایی پاڵەوانێتییەکە بە بردنەوەیەکی مسۆگەری ٥-٠ بەسەر ئیتالیادا."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakemphatics4("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakemphatics4("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                """Poland reached the final of the championship yesterday with an emphatic 5–0 victory over Italy.""",
+            kurdishText:
+                """پۆڵەندا دوێنێ گەشت بە کۆتایی پاڵەوانێتییەکە بە بردنەوەیەکی مسۆگەری ٥-٠ بەسەر ئیتالیادا.""",
+            onPressedBritish: () => speakemphatics4("en-GB"),
+            onPressedAmerican: () => speakemphatics4("en-US"),
           ),
           // emphatics500emphatics5
           // speakemphatics5

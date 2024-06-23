@@ -362,32 +362,12 @@ class KurdishMeaning extends StatelessWidget {
 کوردی: کەر، خەر، گوێ‌درێژ، وڵاخ، گۆرێژ، گوێرێژ، مرۆی کەر و ناحاڵی، کەڕەپەشم، لا، لاسار، کەللەڕەق
 """),
           const DefinitionKurdish(text: "١. (ناو) گوێدرێژ"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The little donkey struggled under its heavy burden."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "گوێدرێژە بچووکەکە تەقەڵای بوو بەدەست بارە قورسەکەیەوە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "donkey", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdonkeys1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdonkeys1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "The little donkey struggled under its heavy burden.",
+            kurdishText:
+                "گوێدرێژە بچووکەکە تەقەڵای بوو بەدەست بارە قورسەکەیەوە.", // donkey
+            onPressedBritish: () => speakdonkeys1("en-GB"),
+            onPressedAmerican: () => speakdonkeys1("en-US"),
           ),
           // donkeys200"),
           // speakdonkeys2

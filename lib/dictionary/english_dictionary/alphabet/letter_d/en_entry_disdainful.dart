@@ -234,32 +234,13 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "١. (ھاوەڵناو) پیشاندانی ئەو ھەستەی کە کەسێک/شتێک شایەنی ڕێزت نییە"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "She's always been disdainful of people who haven't been to college."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "ھەمیشە بەفیزن بووە بەرامبەر بە کەسانەی کە نەچووبوونە کۆلێژ."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "disdainful", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdisdainfuls1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdisdainfuls1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "She's always been disdainful of people who haven't been to college.",
+            kurdishText:
+                "ھەمیشە بەفیزن بووە بەرامبەر بە کەسانەی کە نەچووبوونە کۆلێژ.", // disdainful
+            onPressedBritish: () => speakdisdainfuls1("en-GB"),
+            onPressedAmerican: () => speakdisdainfuls1("en-US"),
           ),
           // disdainfuls200"),
           // speakdisdainfuls2

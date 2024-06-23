@@ -370,59 +370,22 @@ class KurdishMeaning extends StatelessWidget {
 // """),
           const DefinitionKurdish(
               text: "١. (ھاوەڵناو) کە بەبێ جێھێشتنی ئۆتۆمبێلەکەت دەچیت بۆی"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "They went to a drive-in cinema."),
-                    ExampleSentenceKurdish(text: "چوون بۆ سینەمایەکی درایڤن."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "drive-in", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdriveins1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdriveins1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "They went to a drive-in cinema.",
+            kurdishText: "چوون بۆ سینەمایەکی درایڤن.", // drive-in
+            onPressedBritish: () => speakdriveins1("en-GB"),
+            onPressedAmerican: () => speakdriveins1("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
                   "٢. (ناو) شوێنێک کە دەتوانێت سەیری فیلم بکەیت، خواردن بخۆیت، ھتد بەبێ جێھێشتنی ئۆتۆمبێلەکەت"),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "We stopped at a drive-in for a sandwitch."),
-                    ExampleSentenceKurdish(
-                        text: "لە درایڤنێک بۆ لەفەیەک وەستاین."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdriveins2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdriveins2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "We stopped at a drive-in for a sandwitch.",
+            kurdishText: "لە درایڤنێک بۆ لەفەیەک وەستاین.",
+            onPressedBritish: () => speakdriveins2("en-GB"),
+            onPressedAmerican: () => speakdriveins2("en-US"),
           ),
           // driveins300"),
           // speakdriveins3

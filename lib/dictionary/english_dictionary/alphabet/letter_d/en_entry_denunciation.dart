@@ -252,61 +252,24 @@ class KurdishMeaning extends StatelessWidget {
 """),
           const DefinitionKurdish(
               text: "١. (ناو) سەرزەنشتکردنی توندی کەسێک/شتێک بە گشتی"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The bishop made an angry denunciation of the government's policies."),
-                    ExampleSentenceKurdish(
-                        text: "قەشەکە سەرکۆنەی توندی سیاسەتەکانی حکومەتی کرد."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "denunciation", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdenunciations1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdenunciations1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "The bishop made an angry denunciation of the government's policies.",
+            kurdishText:
+                "قەشەکە سەرکۆنەی توندی سیاسەتەکانی حکومەتی کرد.", // denunciation
+            onPressedBritish: () => speakdenunciations1("en-GB"),
+            onPressedAmerican: () => speakdenunciations1("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "All parties joined in bitter denunciation of the terrorists."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "ھەموو پارتەکان یەکیان گرت لە سەرکۆنەی توندی تیرۆریستان."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdenunciations2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdenunciations2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "All parties joined in bitter denunciation of the terrorists.",
+            kurdishText:
+                "ھەموو پارتەکان یەکیان گرت لە سەرکۆنەی توندی تیرۆریستان.",
+            onPressedBritish: () => speakdenunciations2("en-GB"),
+            onPressedAmerican: () => speakdenunciations2("en-US"),
           ),
           // denunciations300"),
           // speakdenunciations3

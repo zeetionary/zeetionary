@@ -371,32 +371,13 @@ class KurdishMeaning extends StatelessWidget {
               Routemaster.of(context).push("/english-emotive/emotional");
             },
           ),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            """Animal experimentation is a highly emotive issue."""),
-                    ExampleSentenceKurdish(
-                        text:
-                            """لێکۆڵینەوە لەسەر ئاژەڵان بابەتێکی تەواو ھەست‌بزوێنە."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "emotive", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakemotives1("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakemotives1("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                """Animal experimentation is a highly emotive issue.""",
+            kurdishText:
+                """لێکۆڵینەوە لەسەر ئاژەڵان بابەتێکی تەواو ھەست‌بزوێنە.""", // emotive
+            onPressedBritish: () => speakemotives1("en-GB"),
+            onPressedAmerican: () => speakemotives1("en-US"),
           ),
           // emotives200emotives2
           // speakemotives2

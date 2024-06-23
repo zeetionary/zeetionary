@@ -373,64 +373,25 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "١. (ناو) گۆڕانێک لە شێوە، ڕووکەش، یان دەنگی شتێک کە وادەکات نامۆ یان ناڕوون بێت"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "When you project the photographs onto a surface, some distortion of the image may occur."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "کە وێنەیەک دەخەیتە سەر ڕوویەک، ھەندێک شێوان لە وێنەکە ڕەنگە ڕووبدات."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "distortion", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdistortions1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdistortions1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "When you project the photographs onto a surface, some distortion of the image may occur.",
+            kurdishText:
+                "کە وێنەیەک دەخەیتە سەر ڕوویەک، ھەندێک شێوان لە وێنەکە ڕەنگە ڕووبدات.", // distortion
+            onPressedBritish: () => speakdistortions1("en-GB"),
+            onPressedAmerican: () => speakdistortions1("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
                   "٢. (ناو) شێواندنی ڕاستی، بیرۆکە، ھتد کە وادەکات شتێک چی دیکە ڕاست نەبێت"),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "His views are represented here without distortion or exaggeration."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "دیدەکانی لێرە بەبێ شێواندن یان زێدەبێژی خراونەتەڕوو."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdistortions2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdistortions2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "His views are represented here without distortion or exaggeration.",
+            kurdishText: "دیدەکانی لێرە بەبێ شێواندن یان زێدەبێژی خراونەتەڕوو.",
+            onPressedBritish: () => speakdistortions2("en-GB"),
+            onPressedAmerican: () => speakdistortions2("en-US"),
           ),
           // distortions300"),
           // speakdistortions3

@@ -372,59 +372,21 @@ class KurdishMeaning extends StatelessWidget {
 """),
           const DefinitionKurdish(
               text: """١. (ھاوەڵناو) پەیوەندیدار بە کڵێسای مەسیحی"""),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            """The town has many ecclesiastical buildings."""),
-                    ExampleSentenceKurdish(
-                        text: """شارۆچکەکە ژمارەیەک بینای کڵێسای ھەیە."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "ecclesiastical", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakecclesiasticals1("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakecclesiasticals1("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: """The town has many ecclesiastical buildings.""",
+            kurdishText:
+                """شارۆچکەکە ژمارەیەک بینای کڵێسای ھەیە.""", // ecclesiastical
+            onPressedBritish: () => speakecclesiasticals1("en-GB"),
+            onPressedAmerican: () => speakecclesiasticals1("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: """She enjoys reading ecclesiastical history."""),
-                    ExampleSentenceKurdish(
-                        text: """حەز بە خوێندنەوەی مێژووی کڵێسا دەکات."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakecclesiasticals2("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakecclesiasticals2("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: """She enjoys reading ecclesiastical history.""",
+            kurdishText: """حەز بە خوێندنەوەی مێژووی کڵێسا دەکات.""",
+            onPressedBritish: () => speakecclesiasticals2("en-GB"),
+            onPressedAmerican: () => speakecclesiasticals2("en-US"),
           ),
           // ecclesiasticals300ecclesiasticals3
           // speakecclesiasticals3

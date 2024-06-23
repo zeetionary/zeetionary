@@ -427,262 +427,89 @@ class KurdishMeaning extends StatelessWidget {
 کوردی: دوودڵی، گومان، دڕدۆنگی، ھەدان، ناباوەڕی، بێ‌باوەڕی، شک
 """),
           const DefinitionKurdish(text: "١. (ناو) گومان"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "New evidence has cast doubt on the guilt of the man jailed for the crime."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "ھیچ بەڵگەیەک گومانی نەخستووەتە سەر تاوانباری ئەو پیاوەی بۆ تاوانەکە دەستگیرکراوە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "doubt", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdoubts1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdoubts1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "New evidence has cast doubt on the guilt of the man jailed for the crime.",
+            kurdishText:
+                "ھیچ بەڵگەیەک گومانی نەخستووەتە سەر تاوانباری ئەو پیاوەی بۆ تاوانەکە دەستگیرکراوە.", // doubt
+            onPressedBritish: () => speakdoubts1("en-GB"),
+            onPressedAmerican: () => speakdoubts1("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "He was starting to have some serious doubts."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "خەریک بوو دەستی دەکرد بەوەی کە ھەندێک گومانی جدی ھەبێت."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdoubts2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdoubts2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "He was starting to have some serious doubts.",
+            kurdishText:
+                "خەریک بوو دەستی دەکرد بەوەی کە ھەندێک گومانی جدی ھەبێت.",
+            onPressedBritish: () => speakdoubts2("en-GB"),
+            onPressedAmerican: () => speakdoubts2("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The article raised doubts about how effective the new drug really was."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "وتارەکە گومانی درووستکرد لەسەر ئەوەی کە دەرمانەکە بەڕاست چەندە بەھێز بوو."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdoubts3("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdoubts3("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "The article raised doubts about how effective the new drug really was.",
+            kurdishText:
+                "وتارەکە گومانی درووستکرد لەسەر ئەوەی کە دەرمانەکە بەڕاست چەندە بەھێز بوو.",
+            onPressedBritish: () => speakdoubts3("en-GB"),
+            onPressedAmerican: () => speakdoubts3("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "There is some doubt about the best way to do it."),
-                    ExampleSentenceKurdish(
-                        text: "ھەندێک گومان ھەیە لەسەر باشترین ڕێگا بۆ کردنی."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdoubts4("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdoubts4("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "There is some doubt about the best way to do it.",
+            kurdishText: "ھەندێک گومان ھەیە لەسەر باشترین ڕێگا بۆ کردنی.",
+            onPressedBritish: () => speakdoubts4("en-GB"),
+            onPressedAmerican: () => speakdoubts4("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: "٢. (کردار) گومان کردن"),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "There seems no reason to doubt her story."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "وادیار نییە کە ھیچ ھۆکارێک ھەبێت گومان لە چیرۆکەکەی بکرێت."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdoubts5("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdoubts5("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "There seems no reason to doubt her story.",
+            kurdishText:
+                "وادیار نییە کە ھیچ ھۆکارێک ھەبێت گومان لە چیرۆکەکەی بکرێت.",
+            onPressedBritish: () => speakdoubts5("en-GB"),
+            onPressedAmerican: () => speakdoubts5("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "‘Do you think England will win?’—‘I doubt it.’"),
-                    ExampleSentenceKurdish(
-                        text: "'پێتوایە ئینگلتەرە بیباتەوە؟' 'گومانم ھەیە.'"),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdoubts6("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdoubts6("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "‘Do you think England will win?’—‘I doubt it.’",
+            kurdishText: "'پێتوایە ئینگلتەرە بیباتەوە؟' 'گومانم ھەیە.'",
+            onPressedBritish: () => speakdoubts6("en-GB"),
+            onPressedAmerican: () => speakdoubts6("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "I never doubted (that) she would come."),
-                    ExampleSentenceKurdish(
-                        text: "ھەرگیز گومانم لەوە نەبوو کە دێت."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdoubts7("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdoubts7("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "I never doubted (that) she would come.",
+            kurdishText: "ھەرگیز گومانم لەوە نەبوو کە دێت.",
+            onPressedBritish: () => speakdoubts7("en-GB"),
+            onPressedAmerican: () => speakdoubts7("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "I doubt whether the new one will be any better."),
-                    ExampleSentenceKurdish(
-                        text: "گومانم ھەیە لەوەی دانە تازەکە ھیچ باشتر بێت."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdoubts8("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdoubts8("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "I doubt whether the new one will be any better.",
+            kurdishText: "گومانم ھەیە لەوەی دانە تازەکە ھیچ باشتر بێت.",
+            onPressedBritish: () => speakdoubts8("en-GB"),
+            onPressedAmerican: () => speakdoubts8("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: "٣. (کردار) نەبوونی متمانە بە کەسێک"),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "I had no reason to doubt him."),
-                    ExampleSentenceKurdish(
-                        text: "ھیچ ھۆکارێکم نەبوو گومانی لێ بکەم."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdoubts9("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdoubts9("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "I had no reason to doubt him.",
+            kurdishText: "ھیچ ھۆکارێکم نەبوو گومانی لێ بکەم.",
+            onPressedBritish: () => speakdoubts9("en-GB"),
+            onPressedAmerican: () => speakdoubts9("en-US"),
           ),
           // doubts_1000"),
           // speakdoubts10

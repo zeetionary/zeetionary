@@ -239,57 +239,19 @@ class KurdishMeaning extends StatelessWidget {
 کوردی: تەڕی، شێداری، نم، خاوی، کزری
 """),
           const DefinitionKurdish(text: "١. (ھاوەڵناو) پێنناسە"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "To avoid dampness, air the room regularly."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "بۆ دووربوون لە شێداری، زوو زوو ھەواگۆڕکێ بدە بە ژوورەکە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "dampness", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdampnesss1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdampnesss1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "To avoid dampness, air the room regularly.",
+            kurdishText:
+                "بۆ دووربوون لە شێداری، زوو زوو ھەواگۆڕکێ بدە بە ژوورەکە.", // dampness
+            onPressedBritish: () => speakdampnesss1("en-GB"),
+            onPressedAmerican: () => speakdampnesss1("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "I felt the dampness on her clothes."),
-                    ExampleSentenceKurdish(
-                        text: "ھەستم بە تەڕی سەر جلەکانی کرد."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdampnesss2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdampnesss2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "I felt the dampness on her clothes.",
+            kurdishText: "ھەستم بە تەڕی سەر جلەکانی کرد.",
+            onPressedBritish: () => speakdampnesss2("en-GB"),
+            onPressedAmerican: () => speakdampnesss2("en-US"),
           ),
         ],
       ),

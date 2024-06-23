@@ -261,117 +261,40 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "١. (ناو) کەمئەندامی؛ دۆخێکی جەستەیی یان دەروونی کە وا دەکات سەخت بێت بۆ ھەندێک کەس شتانێک بکەن کە زۆر کەس دەتوانن بیکەن"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "We know some people with disabilities may require additional support to participate."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "دەزانین ھەندێک کەسی کەمئەندام ڕەنگە پێویستیان بە پشتگیری زیاتر بێت بۆ بەژداری."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "disability", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdisabilitys1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdisabilitys1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "We know some people with disabilities may require additional support to participate.",
+            kurdishText:
+                "دەزانین ھەندێک کەسی کەمئەندام ڕەنگە پێویستیان بە پشتگیری زیاتر بێت بۆ بەژداری.", // disability
+            onPressedBritish: () => speakdisabilitys1("en-GB"),
+            onPressedAmerican: () => speakdisabilitys1("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "He has a permanent disability which prevents him from working as a labourer."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "کەمئەندامییەکی ھەمیشەیی ھەیە کە ڕێگای لێدەگرێت کار بکات وەک کرێکارێک."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdisabilitys2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdisabilitys2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "He has a permanent disability which prevents him from working as a labourer.",
+            kurdishText:
+                "کەمئەندامییەکی ھەمیشەیی ھەیە کە ڕێگای لێدەگرێت کار بکات وەک کرێکارێک.",
+            onPressedBritish: () => speakdisabilitys2("en-GB"),
+            onPressedAmerican: () => speakdisabilitys2("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: "٢. (ناو) دۆخی ھەبوونی کەمئەندامی"),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "He qualifies for help on the grounds of disability."),
-                    ExampleSentenceKurdish(
-                        text: "شایستەی یارمەتی دەبێت بە ھۆکاری کەمئەندامی."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdisabilitys3("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdisabilitys3("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "He qualifies for help on the grounds of disability.",
+            kurdishText: "شایستەی یارمەتی دەبێت بە ھۆکاری کەمئەندامی.",
+            onPressedBritish: () => speakdisabilitys3("en-GB"),
+            onPressedAmerican: () => speakdisabilitys3("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The programme offers support to people living with disability."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "پڕۆگرامەکە یارمەتی پێشکەش بەو کەسانە دەکات کە کەمئەندامییان ھەیە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdisabilitys4("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdisabilitys4("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "The programme offers support to people living with disability.",
+            kurdishText:
+                "پڕۆگرامەکە یارمەتی پێشکەش بەو کەسانە دەکات کە کەمئەندامییان ھەیە.",
+            onPressedBritish: () => speakdisabilitys4("en-GB"),
+            onPressedAmerican: () => speakdisabilitys4("en-US"),
           ),
           // disabilitys500"),
           // speakdisabilitys5

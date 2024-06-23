@@ -372,60 +372,22 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "١. (ناو) فرۆشگایەک کە دەرمان و ھەروەھا شتی دیکەی وەک بەرھەمی جوانکاری دەفرۆشێت"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "I bought these sunglasses at the drugstore."),
-                    ExampleSentenceKurdish(
-                        text: "ئەم چاویلکەیەم لە دەرمانخانەکە کڕی."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "drugstore", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdrugstores1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdrugstores1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "I bought these sunglasses at the drugstore.",
+            kurdishText: "ئەم چاویلکەیەم لە دەرمانخانەکە کڕی.", // drugstore
+            onPressedBritish: () => speakdrugstores1("en-GB"),
+            onPressedAmerican: () => speakdrugstores1("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The toothpaste is available at supermarkets and drugstores."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "ھەویری ددانەکە لە سوپەرمارکێت و دەرمانخانەکان بەردەستە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdrugstores2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdrugstores2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "The toothpaste is available at supermarkets and drugstores.",
+            kurdishText:
+                "ھەویری ددانەکە لە سوپەرمارکێت و دەرمانخانەکان بەردەستە.",
+            onPressedBritish: () => speakdrugstores2("en-GB"),
+            onPressedAmerican: () => speakdrugstores2("en-US"),
           ),
           // drugstores300"),
           // speakdrugstores3

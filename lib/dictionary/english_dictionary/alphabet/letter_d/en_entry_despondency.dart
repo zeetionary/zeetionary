@@ -248,58 +248,20 @@ class KurdishMeaning extends StatelessWidget {
 کوردی: ناھومێدی، دڵساردی،	دڵتەنگی، ماتی، کزی، خەم، خەفەت، پەژارە
 """),
           const DefinitionKurdish(text: "١. (ناو) ھەستی دڵتەنگی و بێ‌ھیوایی"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "Life's not all gloom and despondency."),
-                    ExampleSentenceKurdish(
-                        text: "ژیان ھەموو پەژارەیی و خەفەتباری نییە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "despondency", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdespondencys1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdespondencys1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "Life's not all gloom and despondency.",
+            kurdishText: "ژیان ھەموو پەژارەیی و خەفەتباری نییە.", // despondency
+            onPressedBritish: () => speakdespondencys1("en-GB"),
+            onPressedAmerican: () => speakdespondencys1("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "A mood of despondency had set in."),
-                    ExampleSentenceKurdish(
-                        text: "کەشێکی خەفەتباری ھاتبووە ئاراوە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdespondencys2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdespondencys2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "A mood of despondency had set in.",
+            kurdishText: "کەشێکی خەفەتباری ھاتبووە ئاراوە.",
+            onPressedBritish: () => speakdespondencys2("en-GB"),
+            onPressedAmerican: () => speakdespondencys2("en-US"),
           ),
           // despondencys300"),
           // speakdespondencys3

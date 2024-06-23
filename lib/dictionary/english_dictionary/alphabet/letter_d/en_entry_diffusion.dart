@@ -251,92 +251,35 @@ class KurdishMeaning extends StatelessWidget {
 """),
           const DefinitionKurdish(
               text: "١. (ناو) بڵاوکردنەوەی شتێک بە ھەموو ئاراستەکاندا"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "Powerful global institutions drive the diffusion of new technologies."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "دامەزراوە جیھانییە بەھێزەکان ڕابەرایەتی بڵاوبوونەوەی تەکنەلۆژیای تازە دەکەن."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "diffusion", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdiffusions1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdiffusions1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "Powerful global institutions drive the diffusion of new technologies.",
+            kurdishText:
+                "دامەزراوە جیھانییە بەھێزەکان ڕابەرایەتی بڵاوبوونەوەی تەکنەلۆژیای تازە دەکەن.", // diffusion
+            onPressedBritish: () => speakdiffusions1("en-GB"),
+            onPressedAmerican: () => speakdiffusions1("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "Modern communications make the diffusion of ideas extremely rapid."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "پەیوەندی سەردەمیانە بڵاوبوونەوەی بیرۆکە تەواو خێرا دەکات."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdiffusions2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdiffusions2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "Modern communications make the diffusion of ideas extremely rapid.",
+            kurdishText:
+                "پەیوەندی سەردەمیانە بڵاوبوونەوەی بیرۆکە تەواو خێرا دەکات.",
+            onPressedBritish: () => speakdiffusions2("en-GB"),
+            onPressedAmerican: () => speakdiffusions2("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
                   "٢. (ناو) پڕۆسەی بڵاوبوونەوەی گاز یان شلە بە ناو شتێک یان بە مادەی دەورووبەری بە تێکەڵبوون لەگەڵی"),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The inward diffusion of oxygen was fairly rapid at room temperature."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "بڵاوبوونەوەی ئۆکسجین بەرەو ناوەوە تا ڕادەیەک خێرا بوو لە پلەی گەرمی ژووردا."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdiffusions3("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdiffusions3("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "The inward diffusion of oxygen was fairly rapid at room temperature.",
+            kurdishText:
+                "بڵاوبوونەوەی ئۆکسجین بەرەو ناوەوە تا ڕادەیەک خێرا بوو لە پلەی گەرمی ژووردا.",
+            onPressedBritish: () => speakdiffusions3("en-GB"),
+            onPressedAmerican: () => speakdiffusions3("en-US"),
           ),
           // diffusions400"),
           // speakdiffusions4

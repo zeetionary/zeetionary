@@ -264,114 +264,38 @@ class KurdishMeaning extends StatelessWidget {
 کوردی: بەتام، بەلەزەت، خۆش
 """),
           const DefinitionKurdish(text: "١. (ھاوەڵناو) بەتام و خۆش"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "Who cooked this? It's absolutely delicious."),
-                    ExampleSentenceKurdish(
-                        text: "کێ ئەمەی لێنا؟ تەواو بەتامە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "delicious", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdeliciouss1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdeliciouss1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "Who cooked this? It's absolutely delicious.",
+            kurdishText: "کێ ئەمەی لێنا؟ تەواو بەتامە.", // delicious
+            onPressedBritish: () => speakdeliciouss1("en-GB"),
+            onPressedAmerican: () => speakdeliciouss1("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "This dish is delicious with cream."),
-                    ExampleSentenceKurdish(
-                        text: "ئەم خواردنە بە کرێمەوە بەتامە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdeliciouss2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdeliciouss2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "This dish is delicious with cream.",
+            kurdishText: "ئەم خواردنە بە کرێمەوە بەتامە.",
+            onPressedBritish: () => speakdeliciouss2("en-GB"),
+            onPressedAmerican: () => speakdeliciouss2("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "What's that? It smells delicious."),
-                    ExampleSentenceKurdish(text: "ئەوە چییە؟ بۆنی خۆش دیارە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdeliciouss3("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdeliciouss3("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "What's that? It smells delicious.",
+            kurdishText: "ئەوە چییە؟ بۆنی خۆش دیارە.",
+            onPressedBritish: () => speakdeliciouss3("en-GB"),
+            onPressedAmerican: () => speakdeliciouss3("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: "٢. (ھاوەڵناو) تەواو جوان"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "A delicious shiver of excitement ran through his body."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "مچوڕکەیەکی خۆش لە جۆشوخرۆشی بە جەستەیدا تێپەڕی."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdeliciouss4("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdeliciouss4("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "A delicious shiver of excitement ran through his body.",
+            kurdishText: "مچوڕکەیەکی خۆش لە جۆشوخرۆشی بە جەستەیدا تێپەڕی.",
+            onPressedBritish: () => speakdeliciouss4("en-GB"),
+            onPressedAmerican: () => speakdeliciouss4("en-US"),
           ),
           // deliciouss500"),
           // speakdeliciouss5

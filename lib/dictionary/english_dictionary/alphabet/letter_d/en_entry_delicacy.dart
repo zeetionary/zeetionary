@@ -285,181 +285,66 @@ class KurdishMeaning extends StatelessWidget {
 کوردی: ناسکی، نەرمی، نیانی، نازداری، جوانی،	ھەستیاری، تیژی،	وردبوونەوە، خوردبوونەوە، سەرنج‌پێ‌دان،	ڕەوشت، ئەدەب،	ئارامی، مەندی، نیانی، لەسەرەخۆیی،	خۆشی، لەززەت، مەزە، شتی خۆش، چێشتی خۆش
 """),
           const DefinitionKurdish(text: "١. (ناو) ناسکی"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "Her skin had the delicacy of a flower."),
-                    ExampleSentenceKurdish(text: "پێستی ناسکی گوڵێکی بوو."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "delicacy", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdelicacys1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdelicacys1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "Her skin had the delicacy of a flower.",
+            kurdishText: "پێستی ناسکی گوڵێکی بوو.", // delicacy
+            onPressedBritish: () => speakdelicacys1("en-GB"),
+            onPressedAmerican: () => speakdelicacys1("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The eggs of this bird are considered a great delicacy."),
-                    ExampleSentenceKurdish(
-                        text: "ھێلکەی ئەم باڵندەیە بە زۆر ناسکی ناسراون."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdelicacys2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdelicacys2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "The eggs of this bird are considered a great delicacy.",
+            kurdishText: "ھێلکەی ئەم باڵندەیە بە زۆر ناسکی ناسراون.",
+            onPressedBritish: () => speakdelicacys2("en-GB"),
+            onPressedAmerican: () => speakdelicacys2("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: "٢. (ناو) کردن بە وریایی و ھێواشی"),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "These objects are very old and should be treated with great delicacy."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "ئەم شتانە زۆر کۆنن و دەبێت بە وریایی زۆرەوە مامەڵەیان لەگەڵ بکرێت."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdelicacys3("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdelicacys3("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "These objects are very old and should be treated with great delicacy.",
+            kurdishText:
+                "ئەم شتانە زۆر کۆنن و دەبێت بە وریایی زۆرەوە مامەڵەیان لەگەڵ بکرێت.",
+            onPressedBritish: () => speakdelicacys3("en-GB"),
+            onPressedAmerican: () => speakdelicacys3("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٣. (ناو) ھەڵسوکەوتی زۆر وریایانە لە دۆخێکی ھەستیاردا"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "She handled the situation with great sensitivity and delicacy."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "بە ھەستیاری و لەسەرەخۆیی مامەڵەی لەگەڵ دۆخەکە کرد."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdelicacys4("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdelicacys4("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "She handled the situation with great sensitivity and delicacy.",
+            kurdishText: "بە ھەستیاری و لەسەرەخۆیی مامەڵەی لەگەڵ دۆخەکە کرد.",
+            onPressedBritish: () => speakdelicacys4("en-GB"),
+            onPressedAmerican: () => speakdelicacys4("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: "٤. (ناو) ھەستیاری دۆخێک"),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "I need to talk to you about a matter of some delicacy."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "دەبێت قسەت لەگەڵ بکەم لەسەر بابەتێکی کەمێک ھەستیار."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdelicacys5("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdelicacys5("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "I need to talk to you about a matter of some delicacy.",
+            kurdishText: "دەبێت قسەت لەگەڵ بکەم لەسەر بابەتێکی کەمێک ھەستیار.",
+            onPressedBritish: () => speakdelicacys5("en-GB"),
+            onPressedAmerican: () => speakdelicacys5("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
                   "٥. (ناو) جۆرە خواردنێک کە زۆر بە تایبەت دادەنرێت لە شوێنێکی دیاریکراودا"),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "In some parts of the world, sheep's eyes are considered a great delicacy."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "لە ھەندێک ناوچەی جیھان، چاوی مەڕ بە چێشتێکی زۆر خۆش دادەنرێت."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdelicacys6("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdelicacys6("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "In some parts of the world, sheep's eyes are considered a great delicacy.",
+            kurdishText:
+                "لە ھەندێک ناوچەی جیھان، چاوی مەڕ بە چێشتێکی زۆر خۆش دادەنرێت.",
+            onPressedBritish: () => speakdelicacys6("en-GB"),
+            onPressedAmerican: () => speakdelicacys6("en-US"),
           ),
           // delicacys700"),
           // speakdelicacys7

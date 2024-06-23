@@ -364,31 +364,12 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   """١. (ھاوەڵناو) لەڕی و لاوازی و زۆر، زۆرجار بەھۆی نەخۆشی یان کەمخواردن"""),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            """She was very thin, almost to the point of emaciation."""),
-                    ExampleSentenceKurdish(
-                        text: """زۆر لاوازبوو، تا ئاستی سستی."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "emaciation", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakemaciations1("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakemaciations1("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                """She was very thin, almost to the point of emaciation.""",
+            kurdishText: """زۆر لاوازبوو، تا ئاستی سستی.""", // emaciation
+            onPressedBritish: () => speakemaciations1("en-GB"),
+            onPressedAmerican: () => speakemaciations1("en-US"),
           ),
           // emaciations200emaciations2
           // speakemaciations2

@@ -374,62 +374,23 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "١. (ناو) سەرۆک وەزیرانی بەریتانیا یان حکومەتی بەریتانیا، وەرگیراوە لە ناوی ئەو شەقامەی کە سەرۆک وەزیران تێیدا دەژی"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "Downing Street issued a statement late last night."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "حکومەت (ـی بەریتانیا) درەنگانی شەوی ڕابردوو بەیاننامەیەکی دەرکرد."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "Downing Street", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakDowningstreets1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakDowningstreets1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "Downing Street issued a statement late last night.",
+            kurdishText:
+                "حکومەت (ـی بەریتانیا) درەنگانی شەوی ڕابردوو بەیاننامەیەکی دەرکرد.", // Downing Street
+            onPressedBritish: () => speakDowningstreets1("en-GB"),
+            onPressedAmerican: () => speakDowningstreets1("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "We are expecting a statement from Downing Street later today."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "ئەمڕۆ دواتر چاوەڕێی بەیاننامەیەکین لە سەرۆک وەزیرانەوە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakDowningstreets2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakDowningstreets2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "We are expecting a statement from Downing Street later today.",
+            kurdishText:
+                "ئەمڕۆ دواتر چاوەڕێی بەیاننامەیەکین لە سەرۆک وەزیرانەوە.",
+            onPressedBritish: () => speakDowningstreets2("en-GB"),
+            onPressedAmerican: () => speakDowningstreets2("en-US"),
           ),
           // Downingstreets300"),
           // speakDowningstreets3

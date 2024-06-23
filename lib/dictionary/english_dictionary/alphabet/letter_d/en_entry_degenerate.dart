@@ -265,117 +265,40 @@ class KurdishMeaning extends StatelessWidget {
 کوردی: خراپ، شپرزە، داوەشاو، دافەوتاو، داڕزاو، لێکەوەبوو، لێک‌ھەڵوەشاو،	ڕوولە داشکان، ڕوولە خراپ‌بوون، ڕوولە داچوون، مرۆی خراپ، پیس
 """),
           const DefinitionKurdish(text: "١. (کردار) خراپبوون"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "Her health degenerated quickly."),
-                    ExampleSentenceKurdish(
-                        text: "تەندرووستی بە خێرایی تێکچوو."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "degenerate", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdegenerates1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdegenerates1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "Her health degenerated quickly.",
+            kurdishText: "تەندرووستی بە خێرایی تێکچوو.", // degenerate
+            onPressedBritish: () => speakdegenerates1("en-GB"),
+            onPressedAmerican: () => speakdegenerates1("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "The march degenerated into a riot."),
-                    ExampleSentenceKurdish(text: "ڕێپێوانەکە بوو بە ئاژاوە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdegenerates2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdegenerates2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "The march degenerated into a riot.",
+            kurdishText: "ڕێپێوانەکە بوو بە ئاژاوە.",
+            onPressedBritish: () => speakdegenerates2("en-GB"),
+            onPressedAmerican: () => speakdegenerates2("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٢. (ھاوەڵناو) کەسێک کە ئەخلاقی لە ئاستێکی کەمە"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "He was known as a degenerate young man in the town."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "وەک پیاوێکی سووکی گەنج ناسرابوو لە شارۆچکەکەدا."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdegenerates3("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdegenerates3("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "He was known as a degenerate young man in the town.",
+            kurdishText: "وەک پیاوێکی سووکی گەنج ناسرابوو لە شارۆچکەکەدا.",
+            onPressedBritish: () => speakdegenerates3("en-GB"),
+            onPressedAmerican: () => speakdegenerates3("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: "٣. (ناو) کەسێک کە ئەخلاقی کەمە"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "They're just moral degenerates with no sense of decency."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "تەنھا کەسانی داشۆراو لە ئەخلاقن کە ھیچ ھەستێکی ئەدەبیان نییە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdegenerates4("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdegenerates4("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "They're just moral degenerates with no sense of decency.",
+            kurdishText:
+                "تەنھا کەسانی داشۆراو لە ئەخلاقن کە ھیچ ھەستێکی ئەدەبیان نییە.",
+            onPressedBritish: () => speakdegenerates4("en-GB"),
+            onPressedAmerican: () => speakdegenerates4("en-US"),
           ),
           // degenerates500"),
           // speakdegenerates5

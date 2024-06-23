@@ -240,56 +240,20 @@ class KurdishMeaning extends StatelessWidget {
 // """),
           const DefinitionKurdish(
               text: "١. (ھاوەڵکار) بەشێوەیەکی ھەڕەشەئامێز یان ناخۆش"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "He hinted darkly that all was not well."),
-                    ExampleSentenceKurdish(
-                        text: "خەمگینانە ئاماژەی دا کە ھەموو شتێک باش نییە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "darkly", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdarklys1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdarklys1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "He hinted darkly that all was not well.",
+            kurdishText:
+                "خەمگینانە ئاماژەی دا کە ھەموو شتێک باش نییە.", // darkly
+            onPressedBritish: () => speakdarklys1("en-GB"),
+            onPressedAmerican: () => speakdarklys1("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: "٢. (ناو) پیشاندانی ڕەنگێکی تاریک"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(text: "Her eyes burned darkly."),
-                    ExampleSentenceKurdish(
-                        text: "چاوەکانی لە تاریکیدا دەگەشانەوە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdarklys2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdarklys2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "Her eyes burned darkly.",
+            kurdishText: "چاوەکانی لە تاریکیدا دەگەشانەوە.",
+            onPressedBritish: () => speakdarklys2("en-GB"),
+            onPressedAmerican: () => speakdarklys2("en-US"),
           ),
         ],
       ),

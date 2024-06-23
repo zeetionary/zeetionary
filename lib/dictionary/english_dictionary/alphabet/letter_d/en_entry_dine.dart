@@ -239,59 +239,21 @@ class KurdishMeaning extends StatelessWidget {
 کوردی: شێو خواردن
 """),
           const DefinitionKurdish(text: "١. (کردار) خواردنی نانی ئێوارە"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "We dined with my parents at a restaurant in town."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "لەگەڵ دایبابم لە چێشتخانەیەکی شارۆچکەکە شێومان خوارد."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "dine", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdines1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdines1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "We dined with my parents at a restaurant in town.",
+            kurdishText:
+                "لەگەڵ دایبابم لە چێشتخانەیەکی شارۆچکەکە شێومان خوارد.", // dine
+            onPressedBritish: () => speakdines1("en-GB"),
+            onPressedAmerican: () => speakdines1("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(text: "I hate dining alone."),
-                    ExampleSentenceKurdish(
-                        text: "ڕقم لە شێو خواردن بە تەنھایە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdines2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdines2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "I hate dining alone.",
+            kurdishText: "ڕقم لە شێو خواردن بە تەنھایە.",
+            onPressedBritish: () => speakdines2("en-GB"),
+            onPressedAmerican: () => speakdines2("en-US"),
           ),
           // dines300"),
           // speakdines3

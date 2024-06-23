@@ -258,84 +258,29 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "١. (ھاوەڵناو) ھەبوونی خۆشەویستی زۆر بۆ کەسێک/شتێک و پشرگیری کردنی لە ھەموو شتێکدا"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "They are devoted to their children."),
-                    ExampleSentenceKurdish(text: "دڵبەستەی منداڵەکانیان بوون."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "devoted", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdevoteds1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdevoteds1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "They are devoted to their children.",
+            kurdishText: "دڵبەستەی منداڵەکانیان بوون.", // devoted
+            onPressedBritish: () => speakdevoteds1("en-GB"),
+            onPressedAmerican: () => speakdevoteds1("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "They were totally devoted to each other."),
-                    ExampleSentenceKurdish(
-                        text: "تەواو خۆیان بە یەکدی بەخشی بوو."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdevoteds2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdevoteds2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "They were totally devoted to each other.",
+            kurdishText: "تەواو خۆیان بە یەکدی بەخشی بوو.",
+            onPressedBritish: () => speakdevoteds2("en-GB"),
+            onPressedAmerican: () => speakdevoteds2("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "Lucy is devoted to her cats."),
-                    ExampleSentenceKurdish(text: "لوسی خەم‌خۆری پشیلەکانیەتی."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdevoteds3("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdevoteds3("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "Lucy is devoted to her cats.",
+            kurdishText: "لوسی خەم‌خۆری پشیلەکانیەتی.",
+            onPressedBritish: () => speakdevoteds3("en-GB"),
+            onPressedAmerican: () => speakdevoteds3("en-US"),
           ),
           // devoteds400"),
           // speakdevoteds4

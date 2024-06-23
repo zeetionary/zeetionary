@@ -381,96 +381,37 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   """١. (ناو، ھاوەڵناو) کە ژووری لە دوو نھۆمی خانوویەکدا ھەیە"""),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            """The duplex penthouses cover the top two floors of the building."""),
-                    ExampleSentenceKurdish(
-                        text:
-                            """دەستەژوورە دوودەستەییەکە دوو بەرزترین نھۆمی بیناکە دەگرن."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "duplex", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakduplexs1("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakduplexs1("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                """The duplex penthouses cover the top two floors of the building.""",
+            kurdishText:
+                """دەستەژوورە دوودەستەییەکە دوو بەرزترین نھۆمی بیناکە دەگرن.""", // duplex
+            onPressedBritish: () => speakduplexs1("en-GB"),
+            onPressedAmerican: () => speakduplexs1("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
                   """٢. (ناو، ھاوەڵناو) خانوویەک کە لەگەڵ یەکێکی دیکە تەنھا یەک دیوار بە ھاوبەشی لە نێوانیانە"""),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            """A family lived in each half of the duplex house."""),
-                    ExampleSentenceKurdish(
-                        text:
-                            """خێزانێک لە ھەر لایەکی خانووە دوولۆنەکە دەژیان."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakduplexs2("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakduplexs2("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: """A family lived in each half of the duplex house.""",
+            kurdishText: """خێزانێک لە ھەر لایەکی خانووە دوولۆنەکە دەژیان.""",
+            onPressedBritish: () => speakduplexs2("en-GB"),
+            onPressedAmerican: () => speakduplexs2("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
                   """٣. (ھاوەڵناو) پرینتەرێک کە دەتوانێت لەسەر ھەردوو لای کاغەزێک چاپ بکات"""),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            """This model comes with nice features such as Wi-Fi and duplex printing."""),
-                    ExampleSentenceKurdish(
-                        text:
-                            """ئەم جۆرە تایبەتمەندیی باشی لەگەڵە وەک وای‌فای و چاپی دوولۆنە."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakduplexs3("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakduplexs3("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                """This model comes with nice features such as Wi-Fi and duplex printing.""",
+            kurdishText:
+                """ئەم جۆرە تایبەتمەندیی باشی لەگەڵە وەک وای‌فای و چاپی دوولۆنە.""",
+            onPressedBritish: () => speakduplexs3("en-GB"),
+            onPressedAmerican: () => speakduplexs3("en-US"),
           ),
           // duplexs400
           // speakduplexs4

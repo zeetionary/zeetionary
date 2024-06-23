@@ -369,60 +369,20 @@ class KurdishMeaning extends StatelessWidget {
 کوردی: خۆراکی، لەخواردن‌ھاتوو، خواردەنی، دەخورێ
 """),
           const DefinitionKurdish(text: """١. (ھاوەڵناو) کە بۆ خواردن دەشێت"""),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: """The food at the hotel was barely edible."""),
-                    ExampleSentenceKurdish(
-                        text: """خواردنی ھوتێلەکە بە ئەستەم دەخورا."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "edible", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakedibles1("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakedibles1("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: """The food at the hotel was barely edible.""",
+            kurdishText: """خواردنی ھوتێلەکە بە ئەستەم دەخورا.""", // edible
+            onPressedBritish: () => speakedibles1("en-GB"),
+            onPressedAmerican: () => speakedibles1("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            """The vegetables were old but still looked edible."""),
-                    ExampleSentenceKurdish(
-                        text:
-                            """میوەکان کۆن بەڵام ھێشتا لەخواردن‌ھاتوو بوون."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakedibles2("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakedibles2("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: """The vegetables were old but still looked edible.""",
+            kurdishText: """میوەکان کۆن بەڵام ھێشتا لەخواردن‌ھاتوو بوون.""",
+            onPressedBritish: () => speakedibles2("en-GB"),
+            onPressedAmerican: () => speakedibles2("en-US"),
           ),
           // edibles300edibles3
           // speakedibles3

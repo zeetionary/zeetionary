@@ -249,91 +249,33 @@ class KurdishMeaning extends StatelessWidget {
 کوردی: تاریکی، تاری، تەماوی‌بوون، لێڵی، ناڕوونی، کەم‌شەوقی، کزی
 """),
           const DefinitionKurdish(text: "١. (ناو) کزی"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "It took a while for his eyes to adjust to the dimness."),
-                    ExampleSentenceKurdish(
-                        text: "کەمێکی پێچوو تاوەکو چاوەکانی بە کزییەکە ڕابێت."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "dimness", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdimnesss1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdimnesss1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "It took a while for his eyes to adjust to the dimness.",
+            kurdishText:
+                "کەمێکی پێچوو تاوەکو چاوەکانی بە کزییەکە ڕابێت.", // dimness
+            onPressedBritish: () => speakdimnesss1("en-GB"),
+            onPressedAmerican: () => speakdimnesss1("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: "٢. (ناو) لاوازیی یادەوەری"),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The dimness of his recollections made details hard to remember."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "لاوازیی بیرکەوتنەوەی وایکرد وردکارییەکان سەخت بن بۆ بیرکەوتنەوە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdimnesss2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdimnesss2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "The dimness of his recollections made details hard to remember.",
+            kurdishText:
+                "لاوازیی بیرکەوتنەوەی وایکرد وردکارییەکان سەخت بن بۆ بیرکەوتنەوە.",
+            onPressedBritish: () => speakdimnesss2("en-GB"),
+            onPressedAmerican: () => speakdimnesss2("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: "٣. (ناو) نەبوونی زیرەکی"),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "They show their dimness with every word they say."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "بە ھەر وشەیەک کە دەیڵێن گێژیەتییان پیشان دەدەن."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdimnesss3("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdimnesss3("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "They show their dimness with every word they say.",
+            kurdishText: "بە ھەر وشەیەک کە دەیڵێن گێژیەتییان پیشان دەدەن.",
+            onPressedBritish: () => speakdimnesss3("en-GB"),
+            onPressedAmerican: () => speakdimnesss3("en-US"),
           ),
           // dimnesss400"),
           // speakdimnesss4

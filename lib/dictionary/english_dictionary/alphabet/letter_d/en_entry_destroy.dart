@@ -301,223 +301,69 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "١. (کردار) تەواو شکاندن یان لەناوبردنی شتێک کە چی دیکە بەکار نایەت"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "The building was completely destroyed by fire."),
-                    ExampleSentenceKurdish(
-                        text: "بیناکە تەواو وێران بوو بە ئاگرەکە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "destroy", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdestroys1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdestroys1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "The building was completely destroyed by fire.",
+            kurdishText: "بیناکە تەواو وێران بوو بە ئاگرەکە.", // destroy
+            onPressedBritish: () => speakdestroys1("en-GB"),
+            onPressedAmerican: () => speakdestroys1("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The earthquake damaged or destroyed countless homes."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "بوومەلەرزەکە خانووی لە ژماردن‌نەھاتووی زیان پێگەیاند و لەناوی بردن."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdestroys2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdestroys2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "The earthquake damaged or destroyed countless homes.",
+            kurdishText:
+                "بوومەلەرزەکە خانووی لە ژماردن‌نەھاتووی زیان پێگەیاند و لەناوی بردن.",
+            onPressedBritish: () => speakdestroys2("en-GB"),
+            onPressedAmerican: () => speakdestroys2("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "Some of the habitat has already been totally destroyed."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "ھەندێک لە ژینگەکان لەمێژە بە تەواوی لەناوچوونە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdestroys3("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdestroys3("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "Some of the habitat has already been totally destroyed.",
+            kurdishText: "ھەندێک لە ژینگەکان لەمێژە بە تەواوی لەناوچوونە.",
+            onPressedBritish: () => speakdestroys3("en-GB"),
+            onPressedAmerican: () => speakdestroys3("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "They've destroyed all the evidence."),
-                    ExampleSentenceKurdish(
-                        text: "ھەموو بەڵگەیەکیان لەناوبردووە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdestroys4("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdestroys4("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "They've destroyed all the evidence.",
+            kurdishText: "ھەموو بەڵگەیەکیان لەناوبردووە.",
+            onPressedBritish: () => speakdestroys4("en-GB"),
+            onPressedAmerican: () => speakdestroys4("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٢. (کردار) نەھێشتنی ھەموو چێژ و خۆشبەختی ژیانی کەسێک"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "Failure was slowly destroying him."),
-                    ExampleSentenceKurdish(text: "شکست بەھێواشی وێرانی دەکرد."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdestroys5("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdestroys5("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "Failure was slowly destroying him.",
+            kurdishText: "شکست بەھێواشی وێرانی دەکرد.",
+            onPressedBritish: () => speakdestroys5("en-GB"),
+            onPressedAmerican: () => speakdestroys5("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "She threatened to destroy my reputation."),
-                    ExampleSentenceKurdish(
-                        text: "ھەڕەشەی ئەوەی کرد کە ناوبانگم وێران بکات."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdestroys6("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdestroys6("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "She threatened to destroy my reputation.",
+            kurdishText: "ھەڕەشەی ئەوەی کرد کە ناوبانگم وێران بکات.",
+            onPressedBritish: () => speakdestroys6("en-GB"),
+            onPressedAmerican: () => speakdestroys6("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "Their lives have been virtually destroyed by this tragedy."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "ژیانیان بە ئاستێکی زۆر وێران بووە بەم تراژیدیایە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdestroys7("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdestroys7("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "Their lives have been virtually destroyed by this tragedy.",
+            kurdishText: "ژیانیان بە ئاستێکی زۆر وێران بووە بەم تراژیدیایە.",
+            onPressedBritish: () => speakdestroys7("en-GB"),
+            onPressedAmerican: () => speakdestroys7("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
                   "٣. (کردار) کوشتنی بەئەنقەستی ئاژەڵێک، زۆرجار بەھۆی ئەوەی نەخۆشە یان نەویستراوە"),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "The injured horse had to be destroyed."),
-                    ExampleSentenceKurdish(
-                        text: "ئەسپە بریندارەکە دەبوو بکوژرێت."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdestroys8("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdestroys8("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "The injured horse had to be destroyed.",
+            kurdishText: "ئەسپە بریندارەکە دەبوو بکوژرێت.",
+            onPressedBritish: () => speakdestroys8("en-GB"),
+            onPressedAmerican: () => speakdestroys8("en-US"),
           ),
           // destroys900"),
           // speakdestroys9

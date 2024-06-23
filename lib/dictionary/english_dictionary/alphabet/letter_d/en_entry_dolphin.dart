@@ -364,32 +364,13 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "١. (ناو) دۆڵفین؛ ئاژەڵێکی شیردەری دەریایی کە وەک ماسییەکی گەورەیە و دەمێکی نووکداری ھەیە. دۆڵفینەکان زیرەکن و لەگەڵ مرۆڤ دەگونجێن."),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The tourists saw a school of dolphins near the shore."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "گەشتیارەکان ژمارەیەک دۆڵفینیان لە نزیک کەنارەکە بینی."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "dolphin", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdolphins1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdolphins1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "The tourists saw a school of dolphins near the shore.",
+            kurdishText:
+                "گەشتیارەکان ژمارەیەک دۆڵفینیان لە نزیک کەنارەکە بینی.", // dolphin
+            onPressedBritish: () => speakdolphins1("en-GB"),
+            onPressedAmerican: () => speakdolphins1("en-US"),
           ),
           // dolphins200"),
           // speakdolphins2

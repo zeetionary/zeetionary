@@ -257,116 +257,38 @@ class KurdishMeaning extends StatelessWidget {
 // کوردی: ھەڵاوەسین، شۆڕ کردنەوە
 // """),
           const DefinitionKurdish(text: "١. (کردار) شۆڕبوونەوە"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "A single light bulb dangled from the ceiling."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "تاکە گڵۆپێکی ڕۆشنایی لە بنابنەکەی شۆڕبووبووەوە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "dangle", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdangles1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdangles1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "A single light bulb dangled from the ceiling.",
+            kurdishText:
+                "تاکە گڵۆپێکی ڕۆشنایی لە بنابنەکەی شۆڕبووبووەوە.", // dangle
+            onPressedBritish: () => speakdangles1("en-GB"),
+            onPressedAmerican: () => speakdangles1("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "He dangled his legs over the edge of the bridge."),
-                    ExampleSentenceKurdish(
-                        text: "لاقەکانی بە قەراغی پردەکەدا شۆڕکردبووەوە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdangles2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdangles2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "He dangled his legs over the edge of the bridge.",
+            kurdishText: "لاقەکانی بە قەراغی پردەکەدا شۆڕکردبووەوە.",
+            onPressedBritish: () => speakdangles2("en-GB"),
+            onPressedAmerican: () => speakdangles2("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
                   "٢. (کردار) پێشنیارکردنی شتێکی باش بۆ کەسێک بۆ ئەوەی شتێک باش بکات"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "He had a company directorship dangled in front of him."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "بەڕێوەبەرێتی کۆمپانیایەک لە لە پێشی پێشنیار کرابوو."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdangles3("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdangles3("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "He had a company directorship dangled in front of him.",
+            kurdishText: "بەڕێوەبەرێتی کۆمپانیایەک لە لە پێشی پێشنیار کرابوو.",
+            onPressedBritish: () => speakdangles3("en-GB"),
+            onPressedAmerican: () => speakdangles3("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "He dangled the prospect of enormous wealth before us."),
-                    ExampleSentenceKurdish(
-                        text: "پاشەڕۆژی سامانێکی زۆری خستە پێشمان."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdangles4("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdangles4("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "He dangled the prospect of enormous wealth before us.",
+            kurdishText: "پاشەڕۆژی سامانێکی زۆری خستە پێشمان.",
+            onPressedBritish: () => speakdangles4("en-GB"),
+            onPressedAmerican: () => speakdangles4("en-US"),
           ),
         ],
       ),

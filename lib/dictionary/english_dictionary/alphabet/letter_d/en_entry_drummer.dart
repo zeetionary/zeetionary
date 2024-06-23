@@ -361,31 +361,12 @@ class KurdishMeaning extends StatelessWidget {
 کوردی: تەپڵ‌ژەن، دەھۆڵ‌ژەن، دەھۆڵ‌کوت،	(نافەرمی، بریتانیا) چەتە، دز
 """),
           const DefinitionKurdish(text: "١. (ناو) کەسێک کە دەھۆڵ لێدەدا"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "She hired a talented drummer for her new album."),
-                    ExampleSentenceKurdish(
-                        text: "دەھۆڵلێدەرێکی تازەی گرت بۆ ئەلبوومە تازەکەی."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "drummer", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdrummers1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdrummers1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "She hired a talented drummer for her new album.",
+            kurdishText:
+                "دەھۆڵلێدەرێکی تازەی گرت بۆ ئەلبوومە تازەکەی.", // drummer
+            onPressedBritish: () => speakdrummers1("en-GB"),
+            onPressedAmerican: () => speakdrummers1("en-US"),
           ),
           // drummers200"),
           // speakdrummers2

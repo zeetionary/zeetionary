@@ -369,57 +369,20 @@ class KurdishMeaning extends StatelessWidget {
 // کوردی: بڕوانامەی دوکتۆری، پلەی دوکتۆرایی
 // """),
           const DefinitionKurdish(text: "١. (ناو) بەرزترین بڕوانامەی زانکۆ"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "She's studying for her doctorate."),
-                    ExampleSentenceKurdish(text: "بۆ دکتۆراکەی دەخوێنێت."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "doctorate", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdoctorates1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdoctorates1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "She's studying for her doctorate.",
+            kurdishText: "بۆ دکتۆراکەی دەخوێنێت.", // doctorate
+            onPressedBritish: () => speakdoctorates1("en-GB"),
+            onPressedAmerican: () => speakdoctorates1("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "She's doing a doctorate in ancient history."),
-                    ExampleSentenceKurdish(
-                        text: "دکتۆرا لە مێژووی کۆندا دەخوێنێت."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdoctorates2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdoctorates2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "She's doing a doctorate in ancient history.",
+            kurdishText: "دکتۆرا لە مێژووی کۆندا دەخوێنێت.",
+            onPressedBritish: () => speakdoctorates2("en-GB"),
+            onPressedAmerican: () => speakdoctorates2("en-US"),
           ),
           // doctorates300"),
           // speakdoctorates3

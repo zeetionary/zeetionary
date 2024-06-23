@@ -249,88 +249,31 @@ class KurdishMeaning extends StatelessWidget {
 """),
           const DefinitionKurdish(
               text: "١. (ناو) دیاری کردنی ھۆکاری تەواوی نەخۆشییەک یان کێشەیەک"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "They are waiting for the doctor's diagnosis."),
-                    ExampleSentenceKurdish(
-                        text: "چاوەڕێی دەستنیشانکردنی پزیشکەکەن."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "diagnosis", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdiagnosiss1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdiagnosiss1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "They are waiting for the doctor's diagnosis.",
+            kurdishText: "چاوەڕێی دەستنیشانکردنی پزیشکەکەن.", // diagnosis
+            onPressedBritish: () => speakdiagnosiss1("en-GB"),
+            onPressedAmerican: () => speakdiagnosiss1("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "An accurate diagnosis was made after a series of tests."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "دەستنیشانکردنێکی درووست ئەنجامدرا لە دوای زنجیرەیەک لە پشکنین."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdiagnosiss2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdiagnosiss2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "An accurate diagnosis was made after a series of tests.",
+            kurdishText:
+                "دەستنیشانکردنێکی درووست ئەنجامدرا لە دوای زنجیرەیەک لە پشکنین.",
+            onPressedBritish: () => speakdiagnosiss2("en-GB"),
+            onPressedAmerican: () => speakdiagnosiss2("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "They are using new methods of diagnosis."),
-                    ExampleSentenceKurdish(
-                        text: "ڕێگای تازەی دەستنیشانکردن بەکاردێنن."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdiagnosiss3("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdiagnosiss3("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "They are using new methods of diagnosis.",
+            kurdishText: "ڕێگای تازەی دەستنیشانکردن بەکاردێنن.",
+            onPressedBritish: () => speakdiagnosiss3("en-GB"),
+            onPressedAmerican: () => speakdiagnosiss3("en-US"),
           ),
           // diagnosiss400"),
           // speakdiagnosiss4

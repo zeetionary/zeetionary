@@ -248,57 +248,20 @@ class KurdishMeaning extends StatelessWidget {
 """),
           const DefinitionKurdish(
               text: "١. (ھاوەڵناو) کە دەتوانرێت پشتی پێ ببەسترێت"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "She is loyal and totally dependable."),
-                    ExampleSentenceKurdish(
-                        text: "بەوەفا و تەواو پشت‌پێ‌بەستراوە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "dependable", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdependables1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdependables1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "She is loyal and totally dependable.",
+            kurdishText: "بەوەفا و تەواو پشت‌پێ‌بەستراوە.", // dependable
+            onPressedBritish: () => speakdependables1("en-GB"),
+            onPressedAmerican: () => speakdependables1("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(text: "I find him very dependable."),
-                    ExampleSentenceKurdish(
-                        text: "زۆر بە متمانە‌پێ‌کراو دەیبینم."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdependables2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdependables2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "I find him very dependable.",
+            kurdishText: "زۆر بە متمانە‌پێ‌کراو دەیبینم.",
+            onPressedBritish: () => speakdependables2("en-GB"),
+            onPressedAmerican: () => speakdependables2("en-US"),
           ),
           // dependables300"),
           // speakdependables3

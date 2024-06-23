@@ -364,32 +364,12 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "١. (ناو) کەسێک کە شانۆ دەنووسێت بۆ ھۆڵی شانۆ، ڕادیۆ، و تەلەفیزیۆن"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "It is a powerful story written by a great dramatist."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "چیرۆکێکی بەھێزە کە لەلایەن شانۆنووسێکی مەزنەوە نووسراوە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "dramatist", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdramatists1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdramatists1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "It is a powerful story written by a great dramatist.",
+            kurdishText:
+                "چیرۆکێکی بەھێزە کە لەلایەن شانۆنووسێکی مەزنەوە نووسراوە.", // dramatist
+            onPressedBritish: () => speakdramatists1("en-GB"),
+            onPressedAmerican: () => speakdramatists1("en-US"),
           ),
           // dramatists200"),
           // speakdramatists2

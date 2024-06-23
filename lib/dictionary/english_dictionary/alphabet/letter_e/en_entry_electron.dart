@@ -372,61 +372,23 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   """١. (ناو) تەنێکی زۆر بچووک کە باری کارەبایی نەرێنی ھەیە و لە ھەموو ئەتۆمێکدا ھەیە"""),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: """An electron orbits the nucleus of an atom."""),
-                    ExampleSentenceKurdish(
-                        text:
-                            """ئەلیکترۆن بە دەوری ناوکی ئەتۆمدا دەسووڕێتەوە."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "electron", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakelectrons1("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakelectrons1("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: """An electron orbits the nucleus of an atom.""",
+            kurdishText:
+                """ئەلیکترۆن بە دەوری ناوکی ئەتۆمدا دەسووڕێتەوە.""", // electron
+            onPressedBritish: () => speakelectrons1("en-GB"),
+            onPressedAmerican: () => speakelectrons1("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            """Electrons flow through a wire to create electricity."""),
-                    ExampleSentenceKurdish(
-                        text:
-                            """ئەلیکترۆن بە وایەردا دەچێت بۆ بەرھەمھێنانی کارەبا."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakelectrons2("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakelectrons2("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                """Electrons flow through a wire to create electricity.""",
+            kurdishText:
+                """ئەلیکترۆن بە وایەردا دەچێت بۆ بەرھەمھێنانی کارەبا.""",
+            onPressedBritish: () => speakelectrons2("en-GB"),
+            onPressedAmerican: () => speakelectrons2("en-US"),
           ),
           // electrons300electrons3
           // speakelectrons3

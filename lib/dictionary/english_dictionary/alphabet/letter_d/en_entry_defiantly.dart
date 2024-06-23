@@ -260,91 +260,32 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "١. (ھاوەڵکار) بەشێوەیەک کە ئەوە پیشان دەدات کە پابەندی کەسێک/شتێک نابیت"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "A group of prisoners stood on the roof, defiantly waving banners."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "گرووپێک لە زیندانییان لە سەربانەکە وەستبوون و لاسارانە درووشمیان بەرزدەکردەوە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "defiantly", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdefiantlys1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdefiantlys1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "A group of prisoners stood on the roof, defiantly waving banners.",
+            kurdishText:
+                "گرووپێک لە زیندانییان لە سەربانەکە وەستبوون و لاسارانە درووشمیان بەرزدەکردەوە.", // defiantly
+            onPressedBritish: () => speakdefiantlys1("en-GB"),
+            onPressedAmerican: () => speakdefiantlys1("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "They defiantly refused to identify themselves in court."),
-                    ExampleSentenceKurdish(
-                        text: "لاسارانە ڕەتیان کردەوە زۆیان لە دادگا بناسێنن."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdefiantlys2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdefiantlys2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "They defiantly refused to identify themselves in court.",
+            kurdishText: "لاسارانە ڕەتیان کردەوە زۆیان لە دادگا بناسێنن.",
+            onPressedBritish: () => speakdefiantlys2("en-GB"),
+            onPressedAmerican: () => speakdefiantlys2("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "He defiantly denies having done anything wrong."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "بە توندی ڕەتیدەکاتەوە کە ھیچ شتێکی ھەڵەی کردبێت."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdefiantlys3("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdefiantlys3("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "He defiantly denies having done anything wrong.",
+            kurdishText: "بە توندی ڕەتیدەکاتەوە کە ھیچ شتێکی ھەڵەی کردبێت.",
+            onPressedBritish: () => speakdefiantlys3("en-GB"),
+            onPressedAmerican: () => speakdefiantlys3("en-US"),
           ),
           // defiantlys400"),
           // speakdefiantlys4

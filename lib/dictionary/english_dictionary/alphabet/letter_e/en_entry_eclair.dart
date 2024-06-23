@@ -363,31 +363,11 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   """١. (ناو) کێکێکی درێژ کە بە ھەویری شل درووست دەکرێت و ناوەکەی پڕ دەکرێت لە کرێم چکلێت لە بانی دادەندرێت"""),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            """She enjoyed a chocolate eclair with her coffee."""),
-                    ExampleSentenceKurdish(
-                        text: """کێکێکی درێژی چکلێتی لەگەڵ قاوە خوارد."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "eclair", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakeclairs1("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakeclairs1("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: """She enjoyed a chocolate eclair with her coffee.""",
+            kurdishText: """کێکێکی درێژی چکلێتی لەگەڵ قاوە خوارد.""", // eclair
+            onPressedBritish: () => speakeclairs1("en-GB"),
+            onPressedAmerican: () => speakeclairs1("en-US"),
           ),
           // eclairs200eclairs2
           // speakeclairs2

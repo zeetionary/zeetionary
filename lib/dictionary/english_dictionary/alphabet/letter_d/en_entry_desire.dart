@@ -338,370 +338,122 @@ class KurdishMeaning extends StatelessWidget {
 """),
           const DefinitionKurdish(
               text: "١. (ناو) حەزێکی زۆر بۆ ھەبوون یان کردنی شتێک"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "He had enough money to satisfy all his desires."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "ھێندە پارەی ھەبوو کە ھەموو ئاواتەکانی بەدیبێنێت."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "desire", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdesires1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdesires1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "He had enough money to satisfy all his desires.",
+            kurdishText:
+                "ھێندە پارەی ھەبوو کە ھەموو ئاواتەکانی بەدیبێنێت.", // desire
+            onPressedBritish: () => speakdesires1("en-GB"),
+            onPressedAmerican: () => speakdesires1("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "She has a burning desire to be an artist."),
-                    ExampleSentenceKurdish(
-                        text: "خولیایەکی زۆری ھەبوو بۆ بوون بە ھونەرکار."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdesires2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdesires2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "She has a burning desire to be an artist.",
+            kurdishText: "خولیایەکی زۆری ھەبوو بۆ بوون بە ھونەرکار.",
+            onPressedBritish: () => speakdesires2("en-GB"),
+            onPressedAmerican: () => speakdesires2("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "I have no desire (= I do not want) to discuss the matter further."),
-                    ExampleSentenceKurdish(
-                        text: "ھیچ حەزێکم نییە بۆ زیاتر باسکردنی بابەتەک."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdesires3("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdesires3("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "I have no desire (= I do not want) to discuss the matter further.",
+            kurdishText: "ھیچ حەزێکم نییە بۆ زیاتر باسکردنی بابەتەک.",
+            onPressedBritish: () => speakdesires3("en-GB"),
+            onPressedAmerican: () => speakdesires3("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "He has expressed a desire to see you."),
-                    ExampleSentenceKurdish(
-                        text: "حەزێکی دەربڕی بوو بۆ بینینت."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdesires4("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdesires4("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "He has expressed a desire to see you.",
+            kurdishText: "حەزێکی دەربڕی بوو بۆ بینینت.",
+            onPressedBritish: () => speakdesires4("en-GB"),
+            onPressedAmerican: () => speakdesires4("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "He is filled with conflicting desires."),
-                    ExampleSentenceKurdish(text: "پڕ لە خولیای دژبەیەکە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdesires5("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdesires5("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "He is filled with conflicting desires.",
+            kurdishText: "پڕ لە خولیای دژبەیەکە.",
+            onPressedBritish: () => speakdesires5("en-GB"),
+            onPressedAmerican: () => speakdesires5("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٢. (ناو) حەزێکی زۆر بۆ ھەبوونی سێکس لەگەڵ کەسێکدا"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "She felt a surge of love and desire for him."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "ھەستی بە زۆربوونێکی خۆشەویستی و ئارەزووی سێکس کرد بۆی."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdesires6("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdesires6("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "She felt a surge of love and desire for him.",
+            kurdishText:
+                "ھەستی بە زۆربوونێکی خۆشەویستی و ئارەزووی سێکس کرد بۆی.",
+            onPressedBritish: () => speakdesires6("en-GB"),
+            onPressedAmerican: () => speakdesires6("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٣. (ناو) کەسێک یان شتێک کە زۆر ویستراوە"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "When she agreed to marry him, he felt he had achieved his heart's desire."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "کە ڕازی بوو بە ھاوسەرگیری لەگەڵی، ھەستی کرد کە ھیوایەتی دڵی بەدەستھێنابوو."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdesires7("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdesires7("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "When she agreed to marry him, he felt he had achieved his heart's desire.",
+            kurdishText:
+                "کە ڕازی بوو بە ھاوسەرگیری لەگەڵی، ھەستی کرد کە ھیوایەتی دڵی بەدەستھێنابوو.",
+            onPressedBritish: () => speakdesires7("en-GB"),
+            onPressedAmerican: () => speakdesires7("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: "٤. (کردار) ویستنی شتێک"),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "We all desire health and happiness."),
-                    ExampleSentenceKurdish(
-                        text: "ھەموان تەندرووستی و خۆشبەختیمان دەوێت."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdesires8("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdesires8("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "We all desire health and happiness.",
+            kurdishText: "ھەموان تەندرووستی و خۆشبەختیمان دەوێت.",
+            onPressedBritish: () => speakdesires8("en-GB"),
+            onPressedAmerican: () => speakdesires8("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "The house had everything you could desire."),
-                    ExampleSentenceKurdish(
-                        text: "خانووەکە ھەموو شتێکی ھەبوو کە حەزت پێی بێت."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdesires9("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdesires9("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "The house had everything you could desire.",
+            kurdishText: "خانووەکە ھەموو شتێکی ھەبوو کە حەزت پێی بێت.",
+            onPressedBritish: () => speakdesires9("en-GB"),
+            onPressedAmerican: () => speakdesires9("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The dessert can be topped with cream, if desired (= if you like)."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "شیرینییەکە دەکرێت کرێمی پێدا بکرێت ئەگەر حەز بکەیت."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdesires10("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdesires10("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "The dessert can be topped with cream, if desired (= if you like).",
+            kurdishText: "شیرینییەکە دەکرێت کرێمی پێدا بکرێت ئەگەر حەز بکەیت.",
+            onPressedBritish: () => speakdesires10("en-GB"),
+            onPressedAmerican: () => speakdesires10("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The medicine did not achieve the desired effect."),
-                    ExampleSentenceKurdish(
-                        text: "دەرمانەکە کاریگەری ویستراوی بەدەستنەھێنا."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdesires11("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdesires11("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "The medicine did not achieve the desired effect.",
+            kurdishText: "دەرمانەکە کاریگەری ویستراوی بەدەستنەھێنا.",
+            onPressedBritish: () => speakdesires11("en-GB"),
+            onPressedAmerican: () => speakdesires11("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "Fewer people desire to live in the north of the country."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "خەڵکی کەمتر حەزی ئەوە دەکەن کە لە باکووری وڵاتەکە بژین."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdesires12("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdesires12("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "Fewer people desire to live in the north of the country.",
+            kurdishText:
+                "خەڵکی کەمتر حەزی ئەوە دەکەن کە لە باکووری وڵاتەکە بژین.",
+            onPressedBritish: () => speakdesires12("en-GB"),
+            onPressedAmerican: () => speakdesires12("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٥. (کردار) ھەبوونی حەزی سێکسی بۆ کەسێک"),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(text: "He still desired her."),
-                    ExampleSentenceKurdish(
-                        text: "ھێشتا ئارەزووی سێکسی بۆی ھەبوو."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdesires13("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdesires13("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "He still desired her.",
+            kurdishText: "ھێشتا ئارەزووی سێکسی بۆی ھەبوو.",
+            onPressedBritish: () => speakdesires13("en-GB"),
+            onPressedAmerican: () => speakdesires13("en-US"),
           ),
           // desires1400"),
           // speakdesires14

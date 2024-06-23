@@ -365,32 +365,12 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "١. (ناو) چاکەتێک کە دوو بەشی ھەیە و یەکێکیان دەچێت بەسەر ئەوەی دیکەیاندا کە دووگمەکانیان بەستراون"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The double-breasted coat kept her warm in winter."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "پاڵتاوە دوولۆنە/دووقەد ــەکەی بە گەرمی ھێشتییەوە لە زستاندا."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "double-breasted", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdoublebreasteds1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdoublebreasteds1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "The double-breasted coat kept her warm in winter.",
+            kurdishText:
+                "پاڵتاوە دوولۆنە/دووقەد ــەکەی بە گەرمی ھێشتییەوە لە زستاندا.", // double-breasted
+            onPressedBritish: () => speakdoublebreasteds1("en-GB"),
+            onPressedAmerican: () => speakdoublebreasteds1("en-US"),
           ),
           // doublebreasteds200"),
           // speakdoublebreasteds2

@@ -254,91 +254,32 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "١. (ناو) دۆخی لەدەستدانی بەھێزی و یەکگرتووی و کەم کەم ھەڵوەشانەوە"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "These terrorists are trying to bring about a disintegration of the state."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "ئەم تیرۆریستانە ھەوڵی ھەڵوەشاندنەوەی وڵاتەکە دەدەن."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "disintegration", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdisintegrations1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdisintegrations1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "These terrorists are trying to bring about a disintegration of the state.",
+            kurdishText:
+                "ئەم تیرۆریستانە ھەوڵی ھەڵوەشاندنەوەی وڵاتەکە دەدەن.", // disintegration
+            onPressedBritish: () => speakdisintegrations1("en-GB"),
+            onPressedAmerican: () => speakdisintegrations1("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "Children leaving to find work in the cities might lead to family disintegration."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "ڕۆشتنی منداڵان بۆ شار بۆ دۆزینەوەی کار ڕەنگە ببێتە ھۆکاری ھەڵوەشاندنەوەی خێزان."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdisintegrations2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdisintegrations2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "Children leaving to find work in the cities might lead to family disintegration.",
+            kurdishText:
+                "ڕۆشتنی منداڵان بۆ شار بۆ دۆزینەوەی کار ڕەنگە ببێتە ھۆکاری ھەڵوەشاندنەوەی خێزان.",
+            onPressedBritish: () => speakdisintegrations2("en-GB"),
+            onPressedAmerican: () => speakdisintegrations2("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٢. (ناو) پڕۆسەی پارچەپارچەبوون و کەم کەم لەناوچوون"),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The explosion caused the aircraft's disintegration."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "تەقینەوەکە بوو بە ھۆکاری پارچەپارچەبوونی فڕۆکەکە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdisintegrations3("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdisintegrations3("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "The explosion caused the aircraft's disintegration.",
+            kurdishText: "تەقینەوەکە بوو بە ھۆکاری پارچەپارچەبوونی فڕۆکەکە.",
+            onPressedBritish: () => speakdisintegrations3("en-GB"),
+            onPressedAmerican: () => speakdisintegrations3("en-US"),
           ),
           // disintegrations400"),
           // speakdisintegrations4

@@ -264,120 +264,41 @@ class KurdishMeaning extends StatelessWidget {
 کوردی: دڵتەنگ کردن، پەشێو کردن، غەمبار کردن
 """),
           const DefinitionKurdish(text: "١. (کردار) بێزارکردنی کەسێک"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "Hot weather always depresses me."),
-                    ExampleSentenceKurdish(
-                        text: "کەشی گەرم ھەمیشە بێزارم دەکات."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "depress", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdepresss1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdepresss1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "Hot weather always depresses me.",
+            kurdishText: "کەشی گەرم ھەمیشە بێزارم دەکات.", // depress
+            onPressedBritish: () => speakdepresss1("en-GB"),
+            onPressedAmerican: () => speakdepresss1("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "What depresses me most is that I never see you."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "ئەوەی زۆرترین بێزارم دەکات ئەوەیە کە ھەرگیز ناتبینم."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdepresss2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdepresss2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "What depresses me most is that I never see you.",
+            kurdishText: "ئەوەی زۆرترین بێزارم دەکات ئەوەیە کە ھەرگیز ناتبینم.",
+            onPressedBritish: () => speakdepresss2("en-GB"),
+            onPressedAmerican: () => speakdepresss2("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "It depresses me to see so many students drop put of school."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "ئەوە بێزارم دەکات کە ئەو ھەموو خوێندکارە دەبینم لە قوتابخانە دەردەچن."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdepresss3("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdepresss3("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "It depresses me to see so many students drop put of school.",
+            kurdishText:
+                "ئەوە بێزارم دەکات کە ئەو ھەموو خوێندکارە دەبینم لە قوتابخانە دەردەچن.",
+            onPressedBritish: () => speakdepresss3("en-GB"),
+            onPressedAmerican: () => speakdepresss3("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٢. (کردار) کەمکردنەوەی چالاکی پیشەسازی، بازرگانی، ھتد"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The recession has depressed the housing market."),
-                    ExampleSentenceKurdish(
-                        text: "قەیرانەکە بازاڕی خانووبەرەی ناچالاک کردووە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdepresss4("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdepresss4("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "The recession has depressed the housing market.",
+            kurdishText: "قەیرانەکە بازاڕی خانووبەرەی ناچالاک کردووە.",
+            onPressedBritish: () => speakdepresss4("en-GB"),
+            onPressedAmerican: () => speakdepresss4("en-US"),
           ),
           // depresss500"),
           // speakdepresss5

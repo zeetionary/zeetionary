@@ -307,260 +307,89 @@ class KurdishMeaning extends StatelessWidget {
 """),
           const DefinitionKurdish(
               text: "١. (ھاوەڵناو) بە ئاسانی زیانی پێدەگات و دەشکێت"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The eye is one of the most delicate organs of the body."),
-                    ExampleSentenceKurdish(
-                        text: "چاو یەکێکە لە ھەرە ناسکترین ئەندامەکانی جەستە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "delicate", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdelicates1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdelicates1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "The eye is one of the most delicate organs of the body.",
+            kurdishText:
+                "چاو یەکێکە لە ھەرە ناسکترین ئەندامەکانی جەستە.", // delicate
+            onPressedBritish: () => speakdelicates1("en-GB"),
+            onPressedAmerican: () => speakdelicates1("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "Babies have very delicate skin."),
-                    ExampleSentenceKurdish(
-                        text: "منداڵان جەستەی زۆر ھەستیاریان ھەیە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdelicates2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdelicates2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "Babies have very delicate skin.",
+            kurdishText: "منداڵان جەستەی زۆر ھەستیاریان ھەیە.",
+            onPressedBritish: () => speakdelicates2("en-GB"),
+            onPressedAmerican: () => speakdelicates2("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "The glasses looked very delicate."),
-                    ExampleSentenceKurdish(text: "شووشەکان زۆر ناسک دیاربوون."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdelicates3("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdelicates3("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "The glasses looked very delicate.",
+            kurdishText: "شووشەکان زۆر ناسک دیاربوون.",
+            onPressedBritish: () => speakdelicates3("en-GB"),
+            onPressedAmerican: () => speakdelicates3("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: "٢. (ھاوەڵناو) لاواز"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "His health had always been delicate."),
-                    ExampleSentenceKurdish(
-                        text: "تەندرووستی ھەمیشە لاواز بووە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdelicates4("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdelicates4("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "His health had always been delicate.",
+            kurdishText: "تەندرووستی ھەمیشە لاواز بووە.",
+            onPressedBritish: () => speakdelicates4("en-GB"),
+            onPressedAmerican: () => speakdelicates4("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "She has a delicate constitution and has to be careful with what she eats."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "تەندرووستییەکی زۆر لاوازی ھەیە و دەبێت وریا بێت کە چی دەخوات."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdelicates5("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdelicates5("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "She has a delicate constitution and has to be careful with what she eats.",
+            kurdishText:
+                "تەندرووستییەکی زۆر لاوازی ھەیە و دەبێت وریا بێت کە چی دەخوات.",
+            onPressedBritish: () => speakdelicates5("en-GB"),
+            onPressedAmerican: () => speakdelicates5("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٣. (ھاوەڵناو) بچووک و ھەبوونی شێوەی جوان"),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "She folded her delicate hands on the table."),
-                    ExampleSentenceKurdish(
-                        text: "دەستە باریکەکانی خستە سەر مێزەکە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdelicates6("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdelicates6("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "She folded her delicate hands on the table.",
+            kurdishText: "دەستە باریکەکانی خستە سەر مێزەکە.",
+            onPressedBritish: () => speakdelicates6("en-GB"),
+            onPressedAmerican: () => speakdelicates6("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٤. (ھاوەڵناو) درووستکراو بەشێوەیەکی وریا و ورد"),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "Weather-forecasters have extremely delicate equipment which helps them predict what the weather is going to be like."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "پێشبینیکارانی کەشووھەوا ئامێری زۆر ھەستیاریان پێیە کە یارمەتییان دەدات لەوەی کە کەشووھەوا چۆن دەبێت."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdelicates7("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdelicates7("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "Weather-forecasters have extremely delicate equipment which helps them predict what the weather is going to be like.",
+            kurdishText:
+                "پێشبینیکارانی کەشووھەوا ئامێری زۆر ھەستیاریان پێیە کە یارمەتییان دەدات لەوەی کە کەشووھەوا چۆن دەبێت.",
+            onPressedBritish: () => speakdelicates7("en-GB"),
+            onPressedAmerican: () => speakdelicates7("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
                   "٥. (ھاوەڵناو) کە پێویستیان بە مامەڵەی وریا و ھەستیار ھەیە، یان مامەڵەی وریا و ھەستیار ]یشان دەدەن"),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The delicate surgical operation took five hours."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "پڕۆسە ھەستیارە نەشتەرگەرییەکە پێنج کاتژمێری خایاند."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdelicates8("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdelicates8("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "The delicate surgical operation took five hours.",
+            kurdishText: "پڕۆسە ھەستیارە نەشتەرگەرییەکە پێنج کاتژمێری خایاند.",
+            onPressedBritish: () => speakdelicates8("en-GB"),
+            onPressedAmerican: () => speakdelicates8("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "This is a somewhat delicate subject."),
-                    ExampleSentenceKurdish(
-                        text: "ئەمە بابەتێکی تاڕادەیەک ھەستیارە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdelicates9("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdelicates9("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "This is a somewhat delicate subject.",
+            kurdishText: "ئەمە بابەتێکی تاڕادەیەک ھەستیارە.",
+            onPressedBritish: () => speakdelicates9("en-GB"),
+            onPressedAmerican: () => speakdelicates9("en-US"),
           ),
           // delicates1000"),
           // speakdelicates10

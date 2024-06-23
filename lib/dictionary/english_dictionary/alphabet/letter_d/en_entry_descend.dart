@@ -272,140 +272,46 @@ class KurdishMeaning extends StatelessWidget {
 """),
           const DefinitionKurdish(
               text: "١. (کردار) دابەزین؛ ڕۆشتن لە بەرزییەوە بۆ نزمی"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(text: "The plane began to descend."),
-                    ExampleSentenceKurdish(
-                        text: "فڕۆکەکە دەستی بە دابەزین کرد."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "descend", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdescends1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdescends1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "The plane began to descend.",
+            kurdishText: "فڕۆکەکە دەستی بە دابەزین کرد.", // descend
+            onPressedBritish: () => speakdescends1("en-GB"),
+            onPressedAmerican: () => speakdescends1("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "She descended the stairs slowly."),
-                    ExampleSentenceKurdish(
-                        text: "بەھێواشی بە پلەکانەکاندا ھاتە خوارەوە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdescends2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdescends2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "She descended the stairs slowly.",
+            kurdishText: "بەھێواشی بە پلەکانەکاندا ھاتە خوارەوە.",
+            onPressedBritish: () => speakdescends2("en-GB"),
+            onPressedAmerican: () => speakdescends2("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: "٢. (کردار) لاربوون بەرەو خوارەوە"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "At this point the path descends."),
-                    ExampleSentenceKurdish(
-                        text: "لەم خاڵەوە ڕێگاکە لێژدەبێتەوە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdescends3("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdescends3("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "At this point the path descends.",
+            kurdishText: "لەم خاڵەوە ڕێگاکە لێژدەبێتەوە.",
+            onPressedBritish: () => speakdescends3("en-GB"),
+            onPressedAmerican: () => speakdescends3("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٣. (کردار) دەستپێکردن و دانانی کاریگەری"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "Night descends quickly in the tropics."),
-                    ExampleSentenceKurdish(
-                        text: "لە ناوچە کەمەرەییەکان شەو زوو دەستپێ دەکات."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdescends4("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdescends4("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "Night descends quickly in the tropics.",
+            kurdishText: "لە ناوچە کەمەرەییەکان شەو زوو دەستپێ دەکات.",
+            onPressedBritish: () => speakdescends4("en-GB"),
+            onPressedAmerican: () => speakdescends4("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "Calm descended on the crowd."),
-                    ExampleSentenceKurdish(
-                        text: "بێ‌دەنگی باڵی بەسەر جەماوەرەکەدا کێشا."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdescends5("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdescends5("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "Calm descended on the crowd.",
+            kurdishText: "بێ‌دەنگی باڵی بەسەر جەماوەرەکەدا کێشا.",
+            onPressedBritish: () => speakdescends5("en-GB"),
+            onPressedAmerican: () => speakdescends5("en-US"),
           ),
           // descends600"),
           // speakdescends6

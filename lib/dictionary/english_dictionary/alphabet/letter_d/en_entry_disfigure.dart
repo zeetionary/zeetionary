@@ -249,87 +249,30 @@ class KurdishMeaning extends StatelessWidget {
 // """),
           const DefinitionKurdish(
               text: "١. (کردار) شێواندنی شێوەی کەسێک، شتێک، یان شوێنێک"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "Her face was disfigured by a long red scar."),
-                    ExampleSentenceKurdish(
-                        text: "ڕووخساری شێوا بە برینێکی درێژی سوور."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "disfigure", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdisfigures1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdisfigures1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "Her face was disfigured by a long red scar.",
+            kurdishText: "ڕووخساری شێوا بە برینێکی درێژی سوور.", // disfigure
+            onPressedBritish: () => speakdisfigures1("en-GB"),
+            onPressedAmerican: () => speakdisfigures1("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "She was horribly disfigured by burns."),
-                    ExampleSentenceKurdish(text: "تەواو شێوابوو بە سووتاوی."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdisfigures2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdisfigures2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "She was horribly disfigured by burns.",
+            kurdishText: "تەواو شێوابوو بە سووتاوی.",
+            onPressedBritish: () => speakdisfigures2("en-GB"),
+            onPressedAmerican: () => speakdisfigures2("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "This part of the old town has been disfigured by ugly new buildings."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "ئەم بەشەی شار شێوێندراوە بە بینای تازەی ناشرین."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdisfigures3("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdisfigures3("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "This part of the old town has been disfigured by ugly new buildings.",
+            kurdishText: "ئەم بەشەی شار شێوێندراوە بە بینای تازەی ناشرین.",
+            onPressedBritish: () => speakdisfigures3("en-GB"),
+            onPressedAmerican: () => speakdisfigures3("en-US"),
           ),
           // disfigures400"),
           // speakdisfigures4

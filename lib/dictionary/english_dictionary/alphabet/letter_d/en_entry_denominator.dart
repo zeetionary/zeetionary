@@ -234,31 +234,12 @@ class KurdishMeaning extends StatelessWidget {
 // """),
           const DefinitionKurdish(
               text: "١. (ناو) ژمارەی ژێرەوەی کەرتێک، بۆ نموونە ٤ لە ¾"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "To add fractions, the denominator must be the same."),
-                    ExampleSentenceKurdish(
-                        text: "بۆ کۆکردنەوەی کەرت، ژێرە مەرجە وەک یەک بن."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "denominator", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdenominators1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdenominators1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "To add fractions, the denominator must be the same.",
+            kurdishText:
+                "بۆ کۆکردنەوەی کەرت، ژێرە مەرجە وەک یەک بن.", // denominator
+            onPressedBritish: () => speakdenominators1("en-GB"),
+            onPressedAmerican: () => speakdenominators1("en-US"),
           ),
           // denominators200"),
           // speakdenominators2

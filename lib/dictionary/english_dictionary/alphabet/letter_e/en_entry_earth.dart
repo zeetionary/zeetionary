@@ -462,58 +462,20 @@ class KurdishMeaning extends StatelessWidget {
 """),
           const DefinitionKurdish(
               text: """١. (ناو) ھەسارەکەمان؛ ھەسارەی زەوی"""),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: """The earth revolves around the sun."""),
-                    ExampleSentenceKurdish(
-                        text: """زەوی بە دەوری خۆردا دەخولێتەوە."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "earth", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakearths1("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakearths1("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: """The earth revolves around the sun.""",
+            kurdishText: """زەوی بە دەوری خۆردا دەخولێتەوە.""", // earth
+            onPressedBritish: () => speakearths1("en-GB"),
+            onPressedAmerican: () => speakearths1("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: """ژممارە. (ناو) پێنناسە"""),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: """I must be the happiest person on earth!"""),
-                    ExampleSentenceKurdish(
-                        text: """دەبێت دڵخۆشترین بم لە جیھاندا."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakearths2("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakearths2("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: """I must be the happiest person on earth!""",
+            kurdishText: """دەبێت دڵخۆشترین بم لە جیھاندا.""",
+            onPressedBritish: () => speakearths2("en-GB"),
+            onPressedAmerican: () => speakearths2("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: """ژممارە. (ناو) پێنناسە"""),
@@ -521,329 +483,115 @@ class KurdishMeaning extends StatelessWidget {
             children: [
               MyExpansionTile(
                 children: [
-                  Row(
-                    children: [
-                      const Expanded(
-                        child: Column(
-                          children: [
-                            ExampleSentenceEnglish(
-                                text:
-                                    """No one knows what happens to us after we leave this earth."""),
-                            ExampleSentenceKurdish(
-                                text:
-                                    """کەس نازانێت چیمان بەسەر دێت کە زەوی جێدەھێڵین."""),
-                          ],
-                        ),
-                      ),
-                      const CustomSizedBoxForTTS(),
-                      Column(
-                        children: [
-                          CustomIconButtonBritish(
-                            onPressed: () => speakearths3("en-GB" ""),
-                          ),
-                          CustomIconButtonAmerican(
-                            onPressed: () => speakearths3("en-US" ""),
-                          ),
-                        ],
-                      ),
-                    ],
+                  SentencesRow(
+                    englishText:
+                        """No one knows what happens to us after we leave this earth.""",
+                    kurdishText:
+                        """کەس نازانێت چیمان بەسەر دێت کە زەوی جێدەھێڵین.""",
+                    onPressedBritish: () => speakearths3("en-GB"),
+                    onPressedAmerican: () => speakearths3("en-US" ""),
                   ),
                   // const DividerDefinition(),
                   // const DefinitionKurdish(text: """ژممارە. (ناو) پێنناسە"""),
                   const DividerSentences(),
-                  Row(
-                    children: [
-                      const Expanded(
-                        child: Column(
-                          children: [
-                            ExampleSentenceEnglish(
-                                text: """The earth revolves on its axis."""),
-                            ExampleSentenceKurdish(
-                                text:
-                                    """زەوی بە دەوری تەوەرەکەیدا دەسووڕێتەوە."""),
-                          ],
-                        ),
-                      ),
-                      const CustomSizedBoxForTTS(),
-                      Column(
-                        children: [
-                          CustomIconButtonBritish(
-                            onPressed: () => speakearths4("en-GB" ""),
-                          ),
-                          CustomIconButtonAmerican(
-                            onPressed: () => speakearths4("en-US" ""),
-                          ),
-                        ],
-                      ),
-                    ],
+                  SentencesRow(
+                    englishText: """The earth revolves on its axis.""",
+                    kurdishText: """زەوی بە دەوری تەوەرەکەیدا دەسووڕێتەوە.""",
+                    onPressedBritish: () => speakearths4("en-GB"),
+                    onPressedAmerican: () => speakearths4("en-US" ""),
                   ),
                   // const DividerDefinition(),
                   // const DefinitionKurdish(text: """ژممارە. (ناو) پێنناسە"""),
                   const DividerSentences(),
-                  Row(
-                    children: [
-                      const Expanded(
-                        child: Column(
-                          children: [
-                            ExampleSentenceEnglish(
-                                text:
-                                    """The astronauts were able to send the information back to earth."""),
-                            ExampleSentenceKurdish(
-                                text:
-                                    """ئاسمانەوانەکان توانییان زانیارییەکە بنێرنەوە بۆ زەوی."""),
-                          ],
-                        ),
-                      ),
-                      const CustomSizedBoxForTTS(),
-                      Column(
-                        children: [
-                          CustomIconButtonBritish(
-                            onPressed: () => speakearths5("en-GB" ""),
-                          ),
-                          CustomIconButtonAmerican(
-                            onPressed: () => speakearths5("en-US" ""),
-                          ),
-                        ],
-                      ),
-                    ],
+                  SentencesRow(
+                    englishText:
+                        """The astronauts were able to send the information back to earth.""",
+                    kurdishText:
+                        """ئاسمانەوانەکان توانییان زانیارییەکە بنێرنەوە بۆ زەوی.""",
+                    onPressedBritish: () => speakearths5("en-GB"),
+                    onPressedAmerican: () => speakearths5("en-US" ""),
                   ),
                 ],
               ),
             ],
           ),
+
           const DividerDefinition(),
           const DefinitionKurdish(text: """٢. (ناو) خاکی سەر زەوی"""),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            """After a week at sea, it was good to feel the earth beneath our feet again."""),
-                    ExampleSentenceKurdish(
-                        text:
-                            """لە دوای ھەفتەیەک لە دەریادا، خۆش بوو کە دووبارە ھەست بە خاک بکەین لە ژێر پێماندا."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakearths6("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakearths6("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                """After a week at sea, it was good to feel the earth beneath our feet again.""",
+            kurdishText:
+                """لە دوای ھەفتەیەک لە دەریادا، خۆش بوو کە دووبارە ھەست بە خاک بکەین لە ژێر پێماندا.""",
+            onPressedBritish: () => speakearths6("en-GB"),
+            onPressedAmerican: () => speakearths6("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: """ژممارە. (ناو) پێنناسە"""),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            """You could feel the earth shake as the truck came closer."""),
-                    ExampleSentenceKurdish(
-                        text:
-                            """دەتتوانی ھەست بە خاکەکە بکەیت کە دەلەرزێتەوە کە بارھەڵگرەکە نزیکبوویەوە."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakearths7("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakearths7("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                """You could feel the earth shake as the truck came closer.""",
+            kurdishText:
+                """دەتتوانی ھەست بە خاکەکە بکەیت کە دەلەرزێتەوە کە بارھەڵگرەکە نزیکبوویەوە.""",
+            onPressedBritish: () => speakearths7("en-GB"),
+            onPressedAmerican: () => speakearths7("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: """ژممارە. (ناو) پێنناسە"""),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            """The bunker is located deep below the earth."""),
-                    ExampleSentenceKurdish(
-                        text: """پەناگەکە لە قوڵایی ژێر زەویدایە."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakearths8("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakearths8("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: """The bunker is located deep below the earth.""",
+            kurdishText: """پەناگەکە لە قوڵایی ژێر زەویدایە.""",
+            onPressedBritish: () => speakearths8("en-GB"),
+            onPressedAmerican: () => speakearths8("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text: """٣. (ناو) ئەو مادانەی ڕووەک تێیدا گەشە دەکەن"""),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            """I cleaned off the earth clinging to my boots."""),
-                    ExampleSentenceKurdish(
-                        text:
-                            """ئەو خۆڵەم لێکردەوە کە نووسابوو بە پووتەکانمەوە."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakearths9("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakearths9("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: """I cleaned off the earth clinging to my boots.""",
+            kurdishText: """ئەو خۆڵەم لێکردەوە کە نووسابوو بە پووتەکانمەوە.""",
+            onPressedBritish: () => speakearths9("en-GB"),
+            onPressedAmerican: () => speakearths9("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: """ژممارە. (ناو) پێنناسە"""),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            """I filled the pot with a handful of loose earth."""),
-                    ExampleSentenceKurdish(
-                        text: """گوڵدانەکەم پڕکرد لە چنگێک لە خۆڵە نەرمە."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakearths10("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakearths10("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: """I filled the pot with a handful of loose earth.""",
+            kurdishText: """گوڵدانەکەم پڕکرد لە چنگێک لە خۆڵە نەرمە.""",
+            onPressedBritish: () => speakearths10("en-GB"),
+            onPressedAmerican: () => speakearths10("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: """ژممارە. (ناو) پێنناسە"""),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            """The plants must have their roots in the earth."""),
-                    ExampleSentenceKurdish(
-                        text: """ڕووەکەکان مەرجە ڕەگەکەیان لە خۆڵەکەدا بێت."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakearths11("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakearths11("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: """The plants must have their roots in the earth.""",
+            kurdishText: """ڕووەکەکان مەرجە ڕەگەکەیان لە خۆڵەکەدا بێت.""",
+            onPressedBritish: () => speakearths11("en-GB"),
+            onPressedAmerican: () => speakearths11("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: """ژممارە. (ناو) پێنناسە"""),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: """Dig the earth to a depth of two meters."""),
-                    ExampleSentenceKurdish(
-                        text: """زەوییەکە بکەنە تاوەکو قووڵی دوو مەتر."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakearths12("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakearths12("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: """Dig the earth to a depth of two meters.""",
+            kurdishText: """زەوییەکە بکەنە تاوەکو قووڵی دوو مەتر.""",
+            onPressedBritish: () => speakearths12("en-GB"),
+            onPressedAmerican: () => speakearths12("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: """ژممارە. (ناو) پێنناسە"""),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: """His boots sank into the soft earth."""),
-                    ExampleSentenceKurdish(
-                        text: """پووتەکانی کەوتنە ناو خۆڵە نەرمەکە."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakearths13("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakearths13("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: """His boots sank into the soft earth.""",
+            kurdishText: """پووتەکانی کەوتنە ناو خۆڵە نەرمەکە.""",
+            onPressedBritish: () => speakearths13("en-GB"),
+            onPressedAmerican: () => speakearths13("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(

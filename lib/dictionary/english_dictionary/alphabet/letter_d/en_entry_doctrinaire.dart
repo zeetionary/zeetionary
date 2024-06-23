@@ -365,32 +365,13 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "١. (ھاوەڵناو) ھەمیشە شوێنکەوتنی باوەڕێک لە ھەموو دۆخێکدا، ئەگەرچی کێشەی پراکتیکیش ھەبێت یان خەڵکی ناڕازی بن"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "He has a somewhat doctrinaire approach to running the company."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "تا ڕادەیەک ڕێگایەکی دەمارگرژی ھەیە بۆ بەڕێوەبردنی کۆمپانیاکە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "doctrinaire", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdoctrinaires1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdoctrinaires1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "He has a somewhat doctrinaire approach to running the company.",
+            kurdishText:
+                "تا ڕادەیەک ڕێگایەکی دەمارگرژی ھەیە بۆ بەڕێوەبردنی کۆمپانیاکە.", // doctrinaire
+            onPressedBritish: () => speakdoctrinaires1("en-GB"),
+            onPressedAmerican: () => speakdoctrinaires1("en-US"),
           ),
           // doctrinaires200"),
           // speakdoctrinaires2

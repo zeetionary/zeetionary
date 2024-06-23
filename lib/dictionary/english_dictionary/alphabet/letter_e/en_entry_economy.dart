@@ -447,331 +447,120 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   """١. (ناو) پەیوەندی نێوان بەرھەمھێنان، بازرگانی، و پارەی بەردەست لە وڵات یان ھەرێمێک"""),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: """The economy is in recession."""),
-                    ExampleSentenceKurdish(text: """ئابووری لە قەیراندایە."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "economy", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakeconomys1("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakeconomys1("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: """The economy is in recession.""",
+            kurdishText: """ئابووری لە قەیراندایە.""", // economy
+            onPressedBritish: () => speakeconomys1("en-GB"),
+            onPressedAmerican: () => speakeconomys1("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: """ژممارە. (ناو) پێنناسە"""),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            """The world economy is still suffering from the effects of the pandemic."""),
-                    ExampleSentenceKurdish(
-                        text:
-                            """ئابووری جیھان ھێشتا دەناڵێنێت بەدەست پەتا جیانییەکەوە."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakeconomys2("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakeconomys2("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                """The world economy is still suffering from the effects of the pandemic.""",
+            kurdishText:
+                """ئابووری جیھان ھێشتا دەناڵێنێت بەدەست پەتا جیانییەکەوە.""",
+            onPressedBritish: () => speakeconomys2("en-GB"),
+            onPressedAmerican: () => speakeconomys2("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: """ژممارە. (ناو) پێنناسە"""),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            """Tourism clearly dominates the local economy."""),
-                    ExampleSentenceKurdish(
-                        text:
-                            """گەشتیاری بەئاشکرایی زاڵە بەسەر ئابوورییە خۆجێییەکەدا."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakeconomys3("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakeconomys3("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: """Tourism clearly dominates the local economy.""",
+            kurdishText:
+                """گەشتیاری بەئاشکرایی زاڵە بەسەر ئابوورییە خۆجێییەکەدا.""",
+            onPressedBritish: () => speakeconomys3("en-GB"),
+            onPressedAmerican: () => speakeconomys3("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: """ژممارە. (ناو) پێنناسە"""),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            """He favours tax cuts to stimulate the economy."""),
-                    ExampleSentenceKurdish(
-                        text:
-                            """پشتگیری کەمکردنەوەی باج دەکات بۆ بووژاندنەوەی ئابووری."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakeconomys4("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakeconomys4("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: """He favours tax cuts to stimulate the economy.""",
+            kurdishText:
+                """پشتگیری کەمکردنەوەی باج دەکات بۆ بووژاندنەوەی ئابووری.""",
+            onPressedBritish: () => speakeconomys4("en-GB"),
+            onPressedAmerican: () => speakeconomys4("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: """ژممارە. (ناو) پێنناسە"""),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            """Over the past few years, the country's economy has grown at a record pace."""),
-                    ExampleSentenceKurdish(
-                        text:
-                            """لە چەند ساڵی ڕابردوو، ئابووری وڵاتەکە بە خێراییەکی مێژووی بەرەوپێشچووە."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakeconomys5("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakeconomys5("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                """Over the past few years, the country's economy has grown at a record pace.""",
+            kurdishText:
+                """لە چەند ساڵی ڕابردوو، ئابووری وڵاتەکە بە خێراییەکی مێژووی بەرەوپێشچووە.""",
+            onPressedBritish: () => speakeconomys5("en-GB"),
+            onPressedAmerican: () => speakeconomys5("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
                   """٢. (ناو) وڵاتێک، کاتێک بیر لە سیستەمی ئابوورییەکەی دەکەیتەوە"""),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            """Ireland was one of the fastest-growing economies in Western Europe in the 1990s."""),
-                    ExampleSentenceKurdish(
-                        text:
-                            """ئێرلەندا یەکێک لە خێرا گەشەسەندووترین ئابوورییەکانی ئەورووپای ڕۆژئاوا بوو لە سڵانی ١٩٩٠ ـەکان."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakeconomys6("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakeconomys6("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                """Ireland was one of the fastest-growing economies in Western Europe in the 1990s.""",
+            kurdishText:
+                """ئێرلەندا یەکێک لە خێرا گەشەسەندووترین ئابوورییەکانی ئەورووپای ڕۆژئاوا بوو لە سڵانی ١٩٩٠ ـەکان.""",
+            onPressedBritish: () => speakeconomys6("en-GB"),
+            onPressedAmerican: () => speakeconomys6("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
                   """٣. (ناو) بەکارھێنانی سەرچاوەکان بەشێوەیەک کە لە بەفیڕۆدان دوور دەبێت"""),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            """It's a false economy to buy cheap clothes (= it seems cheaper but it is not really since they do not last very long)."""),
-                    ExampleSentenceKurdish(
-                        text:
-                            """ماڵدارییەکی ھەڵەیە کە جلوبەرگی ھەرزان بکڕیت."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakeconomys7("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakeconomys7("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                """It's a false economy to buy cheap clothes (= it seems cheaper but it is not really since they do not last very long).""",
+            kurdishText: """ماڵدارییەکی ھەڵەیە کە جلوبەرگی ھەرزان بکڕیت.""",
+            onPressedBritish: () => speakeconomys7("en-GB"),
+            onPressedAmerican: () => speakeconomys7("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: """ژممارە. (ناو) پێنناسە"""),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            """The company has improved the fuel economy of all its vehicles."""),
-                    ExampleSentenceKurdish(
-                        text:
-                            """کۆمپانیاکە دەست‌پێوەگرتنی سووتەمەنی لە ھەموو ئۆتۆمبێلەکانیدا بەھێز کردووە."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakeconomys8("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakeconomys8("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                """The company has improved the fuel economy of all its vehicles.""",
+            kurdishText:
+                """کۆمپانیاکە دەست‌پێوەگرتنی سووتەمەنی لە ھەموو ئۆتۆمبێلەکانیدا بەھێز کردووە.""",
+            onPressedBritish: () => speakeconomys8("en-GB"),
+            onPressedAmerican: () => speakeconomys8("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text: """٤. (ناو) کە بە لەبەرچاوگرتنی پارەکەی شتێکی باشە"""),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: """Buy the large economy pack."""),
-                    ExampleSentenceKurdish(
-                        text: """پاکەتە گەورە کەم‌خەرجییەکە بکڕە."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakeconomys9("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakeconomys9("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: """Buy the large economy pack.""",
+            kurdishText: """پاکەتە گەورە کەم‌خەرجییەکە بکڕە.""",
+            onPressedBritish: () => speakeconomys9("en-GB"),
+            onPressedAmerican: () => speakeconomys9("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text: """٥. (ناو) ڕێگاکانی پاشەکەوتکردنی پارە"""),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: """We need to make substantial economies."""),
-                    ExampleSentenceKurdish(
-                        text: """دەبێت دەست‌پێوەگرتنی گەورە بکەین."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakeconomys10("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakeconomys10("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: """We need to make substantial economies.""",
+            kurdishText: """دەبێت دەست‌پێوەگرتنی گەورە بکەین.""",
+            onPressedBritish: () => speakeconomys10("en-GB"),
+            onPressedAmerican: () => speakeconomys10("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text: """٦. (ناو) بەکارھێنانی کەمترین لە شتێک"""),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            """She writes with a great economy of words (= using only the necessary words)."""),
-                    ExampleSentenceKurdish(
-                        text: """بە دەست‌پێوەگرتنی زۆری وشە دەنووسێت."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakeconomys11("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakeconomys11("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                """She writes with a great economy of words (= using only the necessary words).""",
+            kurdishText: """بە دەست‌پێوەگرتنی زۆری وشە دەنووسێت.""",
+            onPressedBritish: () => speakeconomys11("en-GB"),
+            onPressedAmerican: () => speakeconomys11("en-US"),
           ),
           // economys1200economys12
           // speakeconomys12

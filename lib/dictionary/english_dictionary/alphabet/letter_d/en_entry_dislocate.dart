@@ -248,89 +248,29 @@ class KurdishMeaning extends StatelessWidget {
 // """),
           const DefinitionKurdish(
               text: "١. (کردار) گۆڕینی شوێنی ئێسکێک لە جومگەیەکدا"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "He dislocated his shoulder in the accident."),
-                    ExampleSentenceKurdish(
-                        text: "لە ڕووداوەکەدا شانی لەجێ‌چوو."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "dislocate", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdislocates1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdislocates1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "He dislocated his shoulder in the accident.",
+            kurdishText: "لە ڕووداوەکەدا شانی لەجێ‌چوو.", // dislocate
+            onPressedBritish: () => speakdislocates1("en-GB"),
+            onPressedAmerican: () => speakdislocates1("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "She dislocated her knee falling down some steps."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "ئەژنۆی لە‌جێ‌چوو کە لە پلەکانەوە کەوتە خوارەوە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdislocates2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdislocates2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "She dislocated her knee falling down some steps.",
+            kurdishText: "ئەژنۆی لە‌جێ‌چوو کە لە پلەکانەوە کەوتە خوارەوە.",
+            onPressedBritish: () => speakdislocates2("en-GB"),
+            onPressedAmerican: () => speakdislocates2("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٢. (کردار) ھەبوونی کاریگەری نەرێنی لەسەر کارکردنی شتێک"),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "A sudden strike can dislocate company operations."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "مانگرتنی لەناکاو دەکرێت کارەکانی کۆمپانیایەک ئیفلیج بکات."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdislocates3("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdislocates3("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "A sudden strike can dislocate company operations.",
+            kurdishText:
+                "مانگرتنی لەناکاو دەکرێت کارەکانی کۆمپانیایەک ئیفلیج بکات.",
+            onPressedBritish: () => speakdislocates3("en-GB"),
+            onPressedAmerican: () => speakdislocates3("en-US"),
           ),
           // dislocates400"),
           // speakdislocates4

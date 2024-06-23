@@ -453,168 +453,52 @@ class KurdishMeaning extends StatelessWidget {
 """),
           const DefinitionKurdish(
               text: "١. (ناو) بەروار؛ ڕۆژێکی دیاریکراوی مانگ"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "Write today's date at the top of the page."),
-                    ExampleSentenceKurdish(
-                        text: "ڕێکەوتی ئەمڕۆ لە سەرەوەی پەڕەکە بنووسە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "date", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdates1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdates1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "Write today's date at the top of the page.",
+            kurdishText: "ڕێکەوتی ئەمڕۆ لە سەرەوەی پەڕەکە بنووسە.", // date
+            onPressedBritish: () => speakdates1("en-GB"),
+            onPressedAmerican: () => speakdates1("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "They haven't set a date for the wedding yet."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "ھێشتا ڕێککەوتێکیان بۆ ئاھەنگی ھاوسەرگیرییەکە دانەناوە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdates2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdates2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "They haven't set a date for the wedding yet.",
+            kurdishText:
+                "ھێشتا ڕێککەوتێکیان بۆ ئاھەنگی ھاوسەرگیرییەکە دانەناوە.",
+            onPressedBritish: () => speakdates2("en-GB"),
+            onPressedAmerican: () => speakdates2("en-US"),
           ),
           Column(
             children: [
               MyExpansionTile(
                 children: [
-                  Row(
-                    children: [
-                      const Expanded(
-                        child: Column(
-                          children: [
-                            ExampleSentenceEnglish(
-                                text: "I can't come on that date."),
-                            ExampleSentenceKurdish(
-                                text: "ناتوانم لەو ڕێکەوتەدا بێم."),
-                          ],
-                        ),
-                      ),
-                      const CustomSizedBoxForTTS(),
-                      Column(
-                        children: [
-                          CustomIconButtonBritish(
-                            onPressed: () => speakdates4("en-GB"),
-                          ),
-                          CustomIconButtonAmerican(
-                            onPressed: () => speakdates4("en-US"),
-                          ),
-                        ],
-                      ),
-                    ],
+                  SentencesRow(
+                    englishText: "I can't come on that date.",
+                    kurdishText: "ناتوانم لەو ڕێکەوتەدا بێم.",
+                    onPressedBritish: () => speakdates4("en-GB"),
+                    onPressedAmerican: () => speakdates4("en-US"),
                   ),
                   const DividerSentences(),
-                  Row(
-                    children: [
-                      const Expanded(
-                        child: Column(
-                          children: [
-                            ExampleSentenceEnglish(
-                                text:
-                                    "We need to fix a date for the next meeting."),
-                            ExampleSentenceKurdish(
-                                text:
-                                    "دەبێت کاتێک دابنێین بۆ کۆبوونەوەی داھاتوو."),
-                          ],
-                        ),
-                      ),
-                      const CustomSizedBoxForTTS(),
-                      Column(
-                        children: [
-                          CustomIconButtonBritish(
-                            onPressed: () => speakdates3("en-GB"),
-                          ),
-                          CustomIconButtonAmerican(
-                            onPressed: () => speakdates3("en-US"),
-                          ),
-                        ],
-                      ),
-                    ],
+                  SentencesRow(
+                    englishText: "We need to fix a date for the next meeting.",
+                    kurdishText: "دەبێت کاتێک دابنێین بۆ کۆبوونەوەی داھاتوو.",
+                    onPressedBritish: () => speakdates3("en-GB"),
+                    onPressedAmerican: () => speakdates3("en-US"),
                   ),
                   const DividerSentences(),
-                  Row(
-                    children: [
-                      const Expanded(
-                        child: Column(
-                          children: [
-                            ExampleSentenceEnglish(
-                                text:
-                                    "Please give your name, address and date of birth."),
-                            ExampleSentenceKurdish(
-                                text:
-                                    "تکایە و ناو، ناونیشان و ڕێکەوتی لەدایکبوونتم پێبدە."),
-                          ],
-                        ),
-                      ),
-                      const CustomSizedBoxForTTS(),
-                      Column(
-                        children: [
-                          CustomIconButtonBritish(
-                            onPressed: () => speakdates5("en-GB"),
-                          ),
-                          CustomIconButtonAmerican(
-                            onPressed: () => speakdates5("en-US"),
-                          ),
-                        ],
-                      ),
-                    ],
+                  SentencesRow(
+                    englishText:
+                        "Please give your name, address and date of birth.",
+                    kurdishText:
+                        "تکایە و ناو، ناونیشان و ڕێکەوتی لەدایکبوونتم پێبدە.",
+                    onPressedBritish: () => speakdates5("en-GB"),
+                    onPressedAmerican: () => speakdates5("en-US"),
                   ),
                   const DividerSentences(),
-                  Row(
-                    children: [
-                      const Expanded(
-                        child: Column(
-                          children: [
-                            ExampleSentenceEnglish(
-                                text: "There's no date on this letter."),
-                            ExampleSentenceKurdish(
-                                text: "ھیچ ڕێکەوتێک لەسەر ئەم نامەیە نییە."),
-                          ],
-                        ),
-                      ),
-                      const CustomSizedBoxForTTS(),
-                      Column(
-                        children: [
-                          CustomIconButtonBritish(
-                            onPressed: () => speakdates6("en-GB"),
-                          ),
-                          CustomIconButtonAmerican(
-                            onPressed: () => speakdates6("en-US"),
-                          ),
-                        ],
-                      ),
-                    ],
+                  SentencesRow(
+                    englishText: "There's no date on this letter.",
+                    kurdishText: "ھیچ ڕێکەوتێک لەسەر ئەم نامەیە نییە.",
+                    onPressedBritish: () => speakdates6("en-GB"),
+                    onPressedAmerican: () => speakdates6("en-US"),
                   ),
                 ],
               ),
@@ -624,610 +508,188 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "٢. (ناو) ڕێکەوتێک یان ساڵێکی دیاریکراو کە ڕووداوێک ڕوویداوە یان ڕوودەدات"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "1066 is the most famous date in English history."),
-                    ExampleSentenceKurdish(
-                        text: "١٠٦٦ بەناوبانگترین ساڵە لە مێژووی ئینگلیزدا."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdates7("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdates7("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "1066 is the most famous date in English history.",
+            kurdishText: "١٠٦٦ بەناوبانگترین ساڵە لە مێژووی ئینگلیزدا.",
+            onPressedBritish: () => speakdates7("en-GB"),
+            onPressedAmerican: () => speakdates7("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "I hated history at school—I could never remember all those dates."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "لە قوتابجانە ڕقم لە مێژوو بوو، ھەرگیز نەمدەتوانی ھەموو ئەو ڕێکەوتانەم بیربکەوێتەوە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdates8("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdates8("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "I hated history at school—I could never remember all those dates.",
+            kurdishText:
+                "لە قوتابجانە ڕقم لە مێژوو بوو، ھەرگیز نەمدەتوانی ھەموو ئەو ڕێکەوتانەم بیربکەوێتەوە.",
+            onPressedBritish: () => speakdates8("en-GB"),
+            onPressedAmerican: () => speakdates8("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "The painting bears the date 1626."),
-                    ExampleSentenceKurdish(
-                        text: "تابلۆکە ساڵی ١٩٢٦ ـی لەسەر نووسراوە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdates9("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdates9("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "The painting bears the date 1626.",
+            kurdishText: "تابلۆکە ساڵی ١٩٢٦ ـی لەسەر نووسراوە.",
+            onPressedBritish: () => speakdates9("en-GB"),
+            onPressedAmerican: () => speakdates9("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
                   "٣. (ناو) کاتێک لە ڕابردوو یان داھاتوو کە ڕۆژێکی دیاریکراو نییە"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "The details can be added at a later date."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "وردەکارییەکان دەکرێت لە کاتێکی دواتردا زیاد بکرێت."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdates10("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdates10("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "The details can be added at a later date.",
+            kurdishText: "وردەکارییەکان دەکرێت لە کاتێکی دواتردا زیاد بکرێت.",
+            onPressedBritish: () => speakdates10("en-GB"),
+            onPressedAmerican: () => speakdates10("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "The work will be carried out at a future date."),
-                    ExampleSentenceKurdish(
-                        text: "کارەکە لە کاتێکدا لە داھاتوودا دەکرێت."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdates11("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdates11("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "The work will be carried out at a future date.",
+            kurdishText: "کارەکە لە کاتێکدا لە داھاتوودا دەکرێت.",
+            onPressedBritish: () => speakdates11("en-GB"),
+            onPressedAmerican: () => speakdates11("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
                   "٥. (ناو) ڕێککەوتنێک بۆ بینینی کەسێک لە کاتێکی دیاریکراودا"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "Call me next week and we'll try and make a date."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "ھەفتەی داھاتوو پەیوەندیم پێوە بکە و ھەوڵ دەدەین و ڕێکەوتێک دادەنێین."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdates12("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdates12("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "Call me next week and we'll try and make a date.",
+            kurdishText:
+                "ھەفتەی داھاتوو پەیوەندیم پێوە بکە و ھەوڵ دەدەین و ڕێکەوتێک دادەنێین.",
+            onPressedBritish: () => speakdates12("en-GB"),
+            onPressedAmerican: () => speakdates12("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "Next Friday? Fine—it's a date!"),
-                    ExampleSentenceKurdish(
-                        text: "ھەفتەی داھاتوو؟ تەواوە ـ ڕێکەوتمانە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdates13("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdates13("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "Next Friday? Fine—it's a date!",
+            kurdishText: "ھەفتەی داھاتوو؟ تەواوە ـ ڕێکەوتمانە.",
+            onPressedBritish: () => speakdates13("en-GB"),
+            onPressedAmerican: () => speakdates13("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: "٥. (ناو) ژوانێک لە نێوان دوو دڵداردا"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: " I've got a date with Lucy tomorrow night."),
-                    ExampleSentenceKurdish(
-                        text: "سبەی شەو ژوانێکم ھەیە لەگەڵ لوسیدا."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdates14("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdates14("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: " I've got a date with Lucy tomorrow night.",
+            kurdishText: "سبەی شەو ژوانێکم ھەیە لەگەڵ لوسیدا.",
+            onPressedBritish: () => speakdates14("en-GB"),
+            onPressedAmerican: () => speakdates14("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "We agreed to go out on a date."),
-                    ExampleSentenceKurdish(text: "ڕازی بووین بچینە ژوانێک."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdates15("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdates15("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "We agreed to go out on a date.",
+            kurdishText: "ڕازی بووین بچینە ژوانێک.",
+            onPressedBritish: () => speakdates15("en-GB"),
+            onPressedAmerican: () => speakdates15("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "She's out on a date with her new boyfriend."),
-                    ExampleSentenceKurdish(
-                        text: "لەگەڵ دۆستە کوڕە تازەکەیدا لە ژوانە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdates16("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdates16("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "She's out on a date with her new boyfriend.",
+            kurdishText: "لەگەڵ دۆستە کوڕە تازەکەیدا لە ژوانە.",
+            onPressedBritish: () => speakdates16("en-GB"),
+            onPressedAmerican: () => speakdates16("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٧. (ناو) دۆستێکی کوڕ یان کچ کە لەگەڵیدا لە ژوانی"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "My date is meeting me at seven."),
-                    ExampleSentenceKurdish(text: "دۆستەکەم لە حەوت دێتە لام."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdates17("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdates17("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "My date is meeting me at seven.",
+            kurdishText: "دۆستەکەم لە حەوت دێتە لام.",
+            onPressedBritish: () => speakdates17("en-GB"),
+            onPressedAmerican: () => speakdates17("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "I need to find a date for Friday."),
-                    ExampleSentenceKurdish(
-                        text: "دەبێت دۆستێک بۆ ھەینی بدۆزمەوە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdates18("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdates18("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "I need to find a date for Friday.",
+            kurdishText: "دەبێت دۆستێک بۆ ھەینی بدۆزمەوە.",
+            onPressedBritish: () => speakdates18("en-GB"),
+            onPressedAmerican: () => speakdates18("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: "٨. (ناو) خورما"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "She bought a box of fresh dates from the market."),
-                    ExampleSentenceKurdish(
-                        text: "پاکەتێک خورمای تازەی لە مارکێتەکە کڕی."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdates28("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdates28("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "She bought a box of fresh dates from the market.",
+            kurdishText: "پاکەتێک خورمای تازەی لە مارکێتەکە کڕی.",
+            onPressedBritish: () => speakdates28("en-GB"),
+            onPressedAmerican: () => speakdates28("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: "٩. (کردار) نووسینی ڕێکەوت لەسەر شتێک"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "Thank you for your letter dated 24th March."),
-                    ExampleSentenceKurdish(
-                        text: "سوپاس بۆ نامەکەت کە ٢٤ ـی ئاداری لێ نووسراوە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdates19("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdates19("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "Thank you for your letter dated 24th March.",
+            kurdishText: "سوپاس بۆ نامەکەت کە ٢٤ ـی ئاداری لێ نووسراوە.",
+            onPressedBritish: () => speakdates19("en-GB"),
+            onPressedAmerican: () => speakdates19("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The forms should be dated and signed and sent back immediately."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "فۆرمەکان دەبێت ڕێکەوت و واژۆیان لێ بدرێت و دەستبەجێ بگەڕێندرێنەوە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdates20("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdates20("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "The forms should be dated and signed and sent back immediately.",
+            kurdishText:
+                "فۆرمەکان دەبێت ڕێکەوت و واژۆیان لێ بدرێت و دەستبەجێ بگەڕێندرێنەوە.",
+            onPressedBritish: () => speakdates20("en-GB"),
+            onPressedAmerican: () => speakdates20("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "١٠. (کردار) دەستنیشانکردنی تەمەنی شتێک"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "It has not yet been possible to date the paintings accurately."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "نەگونجاوە کە بە درووستی تەمەنی تابلۆکان دەستنیشان بکرێت."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdates21("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdates21("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "It has not yet been possible to date the paintings accurately.",
+            kurdishText:
+                "نەگونجاوە کە بە درووستی تەمەنی تابلۆکان دەستنیشان بکرێت.",
+            onPressedBritish: () => speakdates21("en-GB"),
+            onPressedAmerican: () => speakdates21("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "The skeleton has been dated at about 2000 BC."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "تەمەنی ئێسکە پەیکەرەکە بۆ نزیکەی ٢٠٠٠ پ.ز دەستنیشان کراوە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdates22("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdates22("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "The skeleton has been dated at about 2000 BC.",
+            kurdishText:
+                "تەمەنی ئێسکە پەیکەرەکە بۆ نزیکەی ٢٠٠٠ پ.ز دەستنیشان کراوە.",
+            onPressedBritish: () => speakdates22("en-GB"),
+            onPressedAmerican: () => speakdates22("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The manuscript has been dated to the sixteenth century."),
-                    ExampleSentenceKurdish(
-                        text: "بەڵگەنامەکە بۆ سەدەی شازدە گەڕێندراوەتەوە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdates23("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdates23("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "The manuscript has been dated to the sixteenth century.",
+            kurdishText: "بەڵگەنامەکە بۆ سەدەی شازدە گەڕێندراوەتەوە.",
+            onPressedBritish: () => speakdates23("en-GB"),
+            onPressedAmerican: () => speakdates23("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "١١. (کردار) کۆن بوون بەشێوەیەک چی دیکە باو نییە"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "She designs classic clothes which do not date."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "کە جلە کلاسیکییانە دیزاین دەکات کە کۆنەباو نابن."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdates24("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdates24("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "She designs classic clothes which do not date.",
+            kurdishText: "کە جلە کلاسیکییانە دیزاین دەکات کە کۆنەباو نابن.",
+            onPressedBritish: () => speakdates24("en-GB"),
+            onPressedAmerican: () => speakdates24("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
                   "١٢. (کردار) شتێک کە ئەوە دەردەخات کە بەتەمەنیت یان بەتەمەنتریت لە دەرووبەرت"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "I remember the 1958 coup—that dates me, doesn't it?"),
-                    ExampleSentenceKurdish(
-                        text:
-                            "کودەتاکەی ١٩٥٨ بیرم دێت ـ ئەوە بەتەمەنم دەکات، وانییە؟"),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdates25("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdates25("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "I remember the 1958 coup—that dates me, doesn't it?",
+            kurdishText:
+                "کودەتاکەی ١٩٥٨ بیرم دێت ـ ئەوە بەتەمەنم دەکات، وانییە؟",
+            onPressedBritish: () => speakdates25("en-GB"),
+            onPressedAmerican: () => speakdates25("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "١٣. (کردار) ھەبوونی پەیوەندی سۆزداری لەگەڵ کەسێکدا"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "She's been dating Ron for several months."),
-                    ExampleSentenceKurdish(
-                        text: "بۆ چەند مانگێکە پەیوەندی لەگەڵ ڕۆن ھەیە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdates26("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdates26("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "She's been dating Ron for several months.",
+            kurdishText: "بۆ چەند مانگێکە پەیوەندی لەگەڵ ڕۆن ھەیە.",
+            onPressedBritish: () => speakdates26("en-GB"),
+            onPressedAmerican: () => speakdates26("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "How long have you two been dating?"),
-                    ExampleSentenceKurdish(
-                        text: "چەند دەبێت ئەو دووانەتان پەیوەندیتان ھەیە؟"),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdates27("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdates27("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "How long have you two been dating?",
+            kurdishText: "چەند دەبێت ئەو دووانەتان پەیوەندیتان ھەیە؟",
+            onPressedBritish: () => speakdates27("en-GB"),
+            onPressedAmerican: () => speakdates27("en-US"),
           ),
         ],
       ),

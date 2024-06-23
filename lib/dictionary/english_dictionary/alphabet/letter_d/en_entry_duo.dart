@@ -365,32 +365,13 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   """١. (ناو) دوو کەس کە پێکەوە نمایش دەکەن یان زۆرجار پێکەوە دەبیندرێن"""),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            """The comedy duo Laurel and Hardy made many classic comedy films."""),
-                    ExampleSentenceKurdish(
-                        text:
-                            """دووانەی کۆمیدی ھاردی و لۆرێڵ ژمارەیەک فیلمی کۆمیدیی کلاسیکییان بەرھەمھێنا."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "duo", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakduos1("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakduos1("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                """The comedy duo Laurel and Hardy made many classic comedy films.""",
+            kurdishText:
+                """دووانەی کۆمیدی ھاردی و لۆرێڵ ژمارەیەک فیلمی کۆمیدیی کلاسیکییان بەرھەمھێنا.""", // duo
+            onPressedBritish: () => speakduos1("en-GB"),
+            onPressedAmerican: () => speakduos1("en-US"),
           ),
           const DividerDefinition(),
           Column(

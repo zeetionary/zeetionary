@@ -371,57 +371,21 @@ class KurdishMeaning extends StatelessWidget {
 """),
           const DefinitionKurdish(
               text: "١. (ھاوەڵناو) پاک و سەلامەت بۆ خواردنەوە"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(text: "Is the water drinkable?"),
-                    ExampleSentenceKurdish(text: "ئاوەکە پاکە؟"),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "drinkable", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdrinkables1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdrinkables1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "Is the water drinkable?",
+            kurdishText: "ئاوەکە پاکە؟", // drinkable
+            onPressedBritish: () => speakdrinkables1("en-GB"),
+            onPressedAmerican: () => speakdrinkables1("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: "٢. (ھاوەڵناو) تامخۆش"),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "\"What's the wine like?\" \"Oh, it's nice - very drinkable.\""),
-                    ExampleSentenceKurdish(
-                        text: "'شەرابەکە چۆنە؟' 'ئاھ، خۆشە ـ زۆر بەتامە.'"),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdrinkables2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdrinkables2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "\"What's the wine like?\" \"Oh, it's nice - very drinkable.\"",
+            kurdishText: "'شەرابەکە چۆنە؟' 'ئاھ، خۆشە ـ زۆر بەتامە.'",
+            onPressedBritish: () => speakdrinkables2("en-GB"),
+            onPressedAmerican: () => speakdrinkables2("en-US"),
           ),
           // drinkables300"),
           // speakdrinkables3

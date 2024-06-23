@@ -362,32 +362,12 @@ class KurdishMeaning extends StatelessWidget {
 // """),
           const DefinitionKurdish(
               text: """١. (شێوەی لێکدەر) پەیوەندیدار بە ژینگە"""),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            """He prefers eco-tourism to support conservation."""),
-                    ExampleSentenceKurdish(
-                        text:
-                            """گەشتیاری ژینگەیی پێ‌باشە بۆ پشتگیری ژینگەپارێزی."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "eco", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakecos1("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakecos1("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: """He prefers eco-tourism to support conservation.""",
+            kurdishText:
+                """گەشتیاری ژینگەیی پێ‌باشە بۆ پشتگیری ژینگەپارێزی.""", // eco
+            onPressedBritish: () => speakecos1("en-GB"),
+            onPressedAmerican: () => speakecos1("en-US"),
           ),
           // ecos200ecos2
           // speakecos2

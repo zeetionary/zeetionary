@@ -362,32 +362,13 @@ class KurdishMeaning extends StatelessWidget {
 کوردی: بەرەو ڕۆژھەڵات، ڕوو لە ڕۆژھەڵات، ڕێبواری بەرەو ڕۆژھەڵات
 """),
           const DefinitionKurdish(text: """١. (ھاوەڵناو) بەرەو ڕۆژھەڵات"""),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            """A flight eastbound causes more severe jetlag than flying west."""),
-                    ExampleSentenceKurdish(
-                        text:
-                            """گەشتێک بۆ ڕۆژھەڵات زیاتر دەبێتە ھۆی ماندوویی فڕینی توند وەک لە گەشتێک بۆ ڕۆژئاوا."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "eastbound", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakeastbounds1("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakeastbounds1("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                """A flight eastbound causes more severe jetlag than flying west.""",
+            kurdishText:
+                """گەشتێک بۆ ڕۆژھەڵات زیاتر دەبێتە ھۆی ماندوویی فڕینی توند وەک لە گەشتێک بۆ ڕۆژئاوا.""", // eastbound
+            onPressedBritish: () => speakeastbounds1("en-GB"),
+            onPressedAmerican: () => speakeastbounds1("en-US"),
           ),
           // eastbounds200eastbounds2
           // speakeastbounds2

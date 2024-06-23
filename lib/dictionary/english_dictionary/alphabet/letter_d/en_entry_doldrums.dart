@@ -372,62 +372,22 @@ class KurdishMeaning extends StatelessWidget {
 """),
           const DefinitionKurdish(
               text: "١. (ناو) ئەوەی کە ھەست دڵتەنگی و بێزاری بکەیت"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "He's been in the doldrums ever since she left him."),
-                    ExampleSentenceKurdish(
-                        text: "لە کەساسیدایە لەوەتەی کچەکە جێیھێشتووە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "doldrums", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdoldrumss1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdoldrumss1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "He's been in the doldrums ever since she left him.",
+            kurdishText: "لە کەساسیدایە لەوەتەی کچەکە جێیھێشتووە.", // doldrums
+            onPressedBritish: () => speakdoldrumss1("en-GB"),
+            onPressedAmerican: () => speakdoldrumss1("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٢. (ناو) نەبوونی چالاکی یان بەرەوپێشچوون"),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "Despite these measures, the economy remains in the doldrums."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "سەرەڕای ئەم ھەنگاوانە، ئابووری لە سستیدا ماوەتەوە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdoldrumss2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdoldrumss2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "Despite these measures, the economy remains in the doldrums.",
+            kurdishText: "سەرەڕای ئەم ھەنگاوانە، ئابووری لە سستیدا ماوەتەوە.",
+            onPressedBritish: () => speakdoldrumss2("en-GB"),
+            onPressedAmerican: () => speakdoldrumss2("en-US"),
           ),
           // doldrumss300"),
           // speakdoldrumss3

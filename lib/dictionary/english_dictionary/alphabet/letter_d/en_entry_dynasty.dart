@@ -382,94 +382,37 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   """١. (ناو) زنجیرە سەرکردەی وڵاتێک کە ھەموویان سەر بە یەک بنەماڵەن"""),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            """The office was established under the previous dynasty."""),
-                    ExampleSentenceKurdish(
-                        text:
-                            """ئۆفیسەکە لەلایەن زنجیرەشای پێشووەوە دامەزرا."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "dynasty", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdynastys1("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdynastys1("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                """The office was established under the previous dynasty.""",
+            kurdishText:
+                """ئۆفیسەکە لەلایەن زنجیرەشای پێشووەوە دامەزرا.""", // dynasty
+            onPressedBritish: () => speakdynastys1("en-GB"),
+            onPressedAmerican: () => speakdynastys1("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            """Eventually the dynasty was overthrown, and the country became a Republic."""),
-                    ExampleSentenceKurdish(
-                        text:
-                            """لەکۆتاییدا شانشینەکە ھەڵوەشێنرایەوە وڵاتەکە بوو بە کۆمارێک."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdynastys2("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdynastys2("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                """Eventually the dynasty was overthrown, and the country became a Republic.""",
+            kurdishText:
+                """لەکۆتاییدا شانشینەکە ھەڵوەشێنرایەوە وڵاتەکە بوو بە کۆمارێک.""",
+            onPressedBritish: () => speakdynastys2("en-GB"),
+            onPressedAmerican: () => speakdynastys2("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
                   """٢. (ناو) ماوەیەک لە مێژووی وڵاتێک کە تێیدا بنەماڵەیەک دەسەڵاتداربوونە"""),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            """A Ming dynasty vase was among the disovered artifacts."""),
-                    ExampleSentenceKurdish(
-                        text:
-                            """گوڵدانێکی سەردەمی شانشینی مینگ لەناو دەستکردە دۆزراوەکان بوو."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdynastys3("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdynastys3("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                """A Ming dynasty vase was among the disovered artifacts.""",
+            kurdishText:
+                """گوڵدانێکی سەردەمی شانشینی مینگ لەناو دەستکردە دۆزراوەکان بوو.""",
+            onPressedBritish: () => speakdynastys3("en-GB"),
+            onPressedAmerican: () => speakdynastys3("en-US"),
           ),
           // dynastys400
           // speakdynastys4

@@ -373,62 +373,24 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   """١. (ناو) کەسێک کە وڵاتەکەی جێدەھێڵێت بۆ ئەوەی بۆ ھەمیشەیی لە وڵاتێکی دیکە بژی"""),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            """During the reign of Charles I there was a flood of emigrants to North America."""),
-                    ExampleSentenceKurdish(
-                        text:
-                            """لە ماوەی دەسەڵاتداریی چارڵسی یەکەمدا کۆچبەرێکی زۆر بۆ ئەمریکا ھەبوون."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "emigrant", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakemigrants1("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakemigrants1("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                """During the reign of Charles I there was a flood of emigrants to North America.""",
+            kurdishText:
+                """لە ماوەی دەسەڵاتداریی چارڵسی یەکەمدا کۆچبەرێکی زۆر بۆ ئەمریکا ھەبوون.""", // emigrant
+            onPressedBritish: () => speakemigrants1("en-GB"),
+            onPressedAmerican: () => speakemigrants1("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            """My grandparents were Italian emigrants who settled in New York in the 1920s."""),
-                    ExampleSentenceKurdish(
-                        text:
-                            """گەورەباوانم کۆچبەری ئیتالی بوون کە لە نیویۆرک گیرسانەوە لە ١٩٢٠ ـەکاندا."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakemigrants2("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakemigrants2("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                """My grandparents were Italian emigrants who settled in New York in the 1920s.""",
+            kurdishText:
+                """گەورەباوانم کۆچبەری ئیتالی بوون کە لە نیویۆرک گیرسانەوە لە ١٩٢٠ ـەکاندا.""",
+            onPressedBritish: () => speakemigrants2("en-GB"),
+            onPressedAmerican: () => speakemigrants2("en-US"),
           ),
           // emigrants300emigrants3
           // speakemigrants3

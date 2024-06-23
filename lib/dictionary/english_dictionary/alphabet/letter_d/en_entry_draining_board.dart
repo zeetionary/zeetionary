@@ -366,32 +366,13 @@ class KurdishMeaning extends StatelessWidget {
               text:
                   "١. (ناو) بەشێکی دەستشۆر کە قاپ‌وقاچاغی لەسەر دادەنرێت بۆ وشکبوونەوە"),
           const AlsoEnglishckb(word: "ھەروەھا: drainboard"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "She placed the wet dishes on the draining board to dry."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "قاپ‌وقاچاغە تەڕەکەی لەسەر ئاوەچۆڕگەکە دانا بۆ وشکبوونەوە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "draining board", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdrainingboards1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdrainingboards1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "She placed the wet dishes on the draining board to dry.",
+            kurdishText:
+                "قاپ‌وقاچاغە تەڕەکەی لەسەر ئاوەچۆڕگەکە دانا بۆ وشکبوونەوە.", // draining board
+            onPressedBritish: () => speakdrainingboards1("en-GB"),
+            onPressedAmerican: () => speakdrainingboards1("en-US"),
           ),
           // drainingboards200"),
           // speakdrainingboards2

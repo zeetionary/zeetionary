@@ -233,32 +233,13 @@ class KurdishMeaning extends StatelessWidget {
 """),
           const DefinitionKurdish(
               text: "١. (ناو) کەسێک کە پێگەیەکی گرنگی ھەیە"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The Prime Minister will be meeting local dignitaries and visiting places of work."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "سەرۆک وەزیران بەرپرسە خۆجێییەکان دەبینێت و سەردانی شوێنەکانی کار دەکات."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "dignitary", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdignitarys1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdignitarys1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "The Prime Minister will be meeting local dignitaries and visiting places of work.",
+            kurdishText:
+                "سەرۆک وەزیران بەرپرسە خۆجێییەکان دەبینێت و سەردانی شوێنەکانی کار دەکات.", // dignitary
+            onPressedBritish: () => speakdignitarys1("en-GB"),
+            onPressedAmerican: () => speakdignitarys1("en-US"),
           ),
           // dignitarys200"),
           // speakdignitarys2

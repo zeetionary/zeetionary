@@ -279,185 +279,56 @@ class KurdishMeaning extends StatelessWidget {
 کوردی: بە توندی، بە قووڵی، بە شێوەیەکی قووڵ، لە (ناخ یان قووڵایی) دڵەوە
 """),
           const DefinitionKurdish(text: "١. (ھاوەڵکار) بە ئاستێکی زۆر"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(text: "She is deeply religious."),
-                    ExampleSentenceKurdish(text: "زۆر ئاینییە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "deeply", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdeeplys1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdeeplys1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "She is deeply religious.",
+            kurdishText: "زۆر ئاینییە.", // deeply
+            onPressedBritish: () => speakdeeplys1("en-GB"),
+            onPressedAmerican: () => speakdeeplys1("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "His art was deeply personal."),
-                    ExampleSentenceKurdish(text: "ھونەرەکەی زۆر کەسی بوو."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdeeplys2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdeeplys2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "His art was deeply personal.",
+            kurdishText: "ھونەرەکەی زۆر کەسی بوو.",
+            onPressedBritish: () => speakdeeplys2("en-GB"),
+            onPressedAmerican: () => speakdeeplys2("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(text: "I deeply regret my error."),
-                    ExampleSentenceKurdish(text: "زۆر بەداخەوەم بۆ ھەڵەکەم."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdeeplys3("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdeeplys3("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "I deeply regret my error.",
+            kurdishText: "زۆر بەداخەوەم بۆ ھەڵەکەم.",
+            onPressedBritish: () => speakdeeplys3("en-GB"),
+            onPressedAmerican: () => speakdeeplys3("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "Farmers care deeply for their land."),
-                    ExampleSentenceKurdish(
-                        text: "جوتیاران زۆر گرنگی بە زەوییەکەیان دەدەن."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdeeplys4("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdeeplys4("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "Farmers care deeply for their land.",
+            kurdishText: "جوتیاران زۆر گرنگی بە زەوییەکەیان دەدەن.",
+            onPressedBritish: () => speakdeeplys4("en-GB"),
+            onPressedAmerican: () => speakdeeplys4("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
                   "٢. (ھاوەڵکار) لەگەڵ ھەندێک کرداردا بەکاردێت بۆ گوتنی ئەوەی شتێک بەشێوەیەکی زۆر تەواو دەکرێت"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "Leila sighed deeply and said, ‘I know’."),
-                    ExampleSentenceKurdish(
-                        text: "لەیلا بە قووڵی ھەناسەی دایەوە و گوتی 'دەزانم'."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdeeplys5("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdeeplys5("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "Leila sighed deeply and said, ‘I know’.",
+            kurdishText: "لەیلا بە قووڵی ھەناسەی دایەوە و گوتی 'دەزانم'.",
+            onPressedBritish: () => speakdeeplys5("en-GB"),
+            onPressedAmerican: () => speakdeeplys5("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "We need to think deeply about these questions."),
-                    ExampleSentenceKurdish(
-                        text: "دەبێت بە قووڵی بیر لەم پرسیارانە بکەینەوە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdeeplys6("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdeeplys6("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "We need to think deeply about these questions.",
+            kurdishText: "دەبێت بە قووڵی بیر لەم پرسیارانە بکەینەوە.",
+            onPressedBritish: () => speakdeeplys6("en-GB"),
+            onPressedAmerican: () => speakdeeplys6("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "Somebody needs to delve deeply into this topic."),
-                    ExampleSentenceKurdish(
-                        text: "کەسێک دەبێت بە قووڵی ڕۆبچێتە ناو ئەم بابەتە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdeeplys7("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdeeplys7("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "Somebody needs to delve deeply into this topic.",
+            kurdishText: "کەسێک دەبێت بە قووڵی ڕۆبچێتە ناو ئەم بابەتە.",
+            onPressedBritish: () => speakdeeplys7("en-GB"),
+            onPressedAmerican: () => speakdeeplys7("en-US"),
           ),
         ],
       ),

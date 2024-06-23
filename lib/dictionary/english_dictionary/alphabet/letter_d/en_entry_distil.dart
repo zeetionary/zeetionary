@@ -381,94 +381,37 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "١. (کردار) پاککردنەوەی شلەیەک بە ئەوەی بیکەیت بە ھەڵم و دواتر ساردی بکەیتەوە و دڵۆپەکانی کۆبکەیتەوە"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "We can distil fresh water from seawater by boiling it and collecting the steam."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "دەتوانین لە ئاوی دەریا ئاوی پاک بپاڵێوین بە کوڵاندنی و کۆکردنەوەی ھەڵمەکەی."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "distil", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdistils1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdistils1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "We can distil fresh water from seawater by boiling it and collecting the steam.",
+            kurdishText:
+                "دەتوانین لە ئاوی دەریا ئاوی پاک بپاڵێوین بە کوڵاندنی و کۆکردنەوەی ھەڵمەکەی.", // distil
+            onPressedBritish: () => speakdistils1("en-GB"),
+            onPressedAmerican: () => speakdistils1("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
                   "٢. (کردار) درووستکردنی شتێک بەم شێوەیە، بۆ نموونە خواردنەوەی کحوولی تام بەھێز"),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "The factory distils and bottles whisky."),
-                    ExampleSentenceKurdish(
-                        text: "کارگەکە ویسکی درووست دەکات و لە بوتڵی دەکات."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdistils2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdistils2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "The factory distils and bottles whisky.",
+            kurdishText: "کارگەکە ویسکی درووست دەکات و لە بوتڵی دەکات.",
+            onPressedBritish: () => speakdistils2("en-GB"),
+            onPressedAmerican: () => speakdistils2("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
                   "٣. (کردار) وەرگرتنی واتا یان بیرۆکەی سەرەکی لە بیرکردنەوە، زانیاری، ئەزموون، ھتد "),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The notes I made on my travels were distilled into a book."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "ئەو تێبینییانەی لە گەشتەکانم نووسیبووم لە کتێبێکدا کۆکرانەوە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdistils3("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdistils3("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "The notes I made on my travels were distilled into a book.",
+            kurdishText:
+                "ئەو تێبینییانەی لە گەشتەکانم نووسیبووم لە کتێبێکدا کۆکرانەوە.",
+            onPressedBritish: () => speakdistils3("en-GB"),
+            onPressedAmerican: () => speakdistils3("en-US"),
           ),
           // distils400"),
           // speakdistils4

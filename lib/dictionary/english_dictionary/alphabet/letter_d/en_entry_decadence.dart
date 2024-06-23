@@ -234,32 +234,13 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "١. (ناو) ھەڵسوکەوت، ڕەفتار، ھتد کە ڕۆچوونی ستانداردی ئەخلاقی پیشان دەدەن لەگەڵ خۆشی نەک شتی گرنگ"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The artist's paintings captured the decadence of society in the early 20th century."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "تابلۆی ھونەرکارەکە پووکانەوەی کۆمەڵگای لە سەرەتای سەدەی ٢٠ ـدا پیشان دەدا."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "decadence", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdecadences1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdecadences1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "The artist's paintings captured the decadence of society in the early 20th century.",
+            kurdishText:
+                "تابلۆی ھونەرکارەکە پووکانەوەی کۆمەڵگای لە سەرەتای سەدەی ٢٠ ـدا پیشان دەدا.", // decadence
+            onPressedBritish: () => speakdecadences1("en-GB"),
+            onPressedAmerican: () => speakdecadences1("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "٢. (ھاوەڵناو) پێنناسە"),

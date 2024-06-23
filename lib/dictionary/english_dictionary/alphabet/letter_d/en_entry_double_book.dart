@@ -364,32 +364,13 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "١. (کردار) پێدانی ھەمان شت (ژوورێک، مێزێک، ھتد) بە دوو کەسی جیاواز"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The room was double-booked so they had to give us a different one."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "ژوورەکە بە دوو کەس درا بوو بۆیە پێویست بوو دانەیەکی جیاوازمان پێ بدەن."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "double-book", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdoublebooks1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdoublebooks1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "The room was double-booked so they had to give us a different one.",
+            kurdishText:
+                "ژوورەکە بە دوو کەس درا بوو بۆیە پێویست بوو دانەیەکی جیاوازمان پێ بدەن.", // double-book
+            onPressedBritish: () => speakdoublebooks1("en-GB"),
+            onPressedAmerican: () => speakdoublebooks1("en-US"),
           ),
           // doublebooks200"),
           // speakdoublebooks2

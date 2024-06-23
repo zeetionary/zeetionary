@@ -363,32 +363,13 @@ class KurdishMeaning extends StatelessWidget {
 """),
           const DefinitionKurdish(
               text: "١. (ناو) کەسێک کە دەبێت کاری سەختی درێژخایەنی ناخۆش بکات"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "Working for that company, I was little more than a drudge."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "کارکردن بۆ ئەو کۆمپانیایە کەمێک لە سەروو کوڵەمەرگی بوو."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "drudge", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdrudges1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdrudges1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "Working for that company, I was little more than a drudge.",
+            kurdishText:
+                "کارکردن بۆ ئەو کۆمپانیایە کەمێک لە سەروو کوڵەمەرگی بوو.", // drudge
+            onPressedBritish: () => speakdrudges1("en-GB"),
+            onPressedAmerican: () => speakdrudges1("en-US"),
           ),
           // drudges200"),
           // speakdrudges2

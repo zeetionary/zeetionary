@@ -406,178 +406,64 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   """١. (ناو) پەیوەندیدار بە بارزگانی، پیشەسازی، و پەرەسەندنی سامانی وڵاتێک، ناوچەیەک، یان کۆمەڵگەیەک"""),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            """They discussed social, economic and political issues."""),
-                    ExampleSentenceKurdish(
-                        text:
-                            """باسی بابەتە کۆمەڵایەتی، ئابووری و سیاسییەکانیان کرد."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "economic", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakeconomics1("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakeconomics1("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                """They discussed social, economic and political issues.""",
+            kurdishText:
+                """باسی بابەتە کۆمەڵایەتی، ئابووری و سیاسییەکانیان کرد.""", // economic
+            onPressedBritish: () => speakeconomics1("en-GB"),
+            onPressedAmerican: () => speakeconomics1("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: """There will be no quick economic recovery."""),
-                    ExampleSentenceKurdish(
-                        text: """ھیچ بووژانەوەیەکی خێرای ئابووری ڕوونادات."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakeconomics2("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakeconomics2("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: """There will be no quick economic recovery.""",
+            kurdishText: """ھیچ بووژانەوەیەکی خێرای ئابووری ڕوونادات.""",
+            onPressedBritish: () => speakeconomics2("en-GB"),
+            onPressedAmerican: () => speakeconomics2("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: """Economic growth was fastest in Japan."""),
-                    ExampleSentenceKurdish(
-                        text: """گەشەی ئابووری خێراترین بوو لە ژاپۆن."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakeconomics3("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakeconomics3("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: """Economic growth was fastest in Japan.""",
+            kurdishText: """گەشەی ئابووری خێراترین بوو لە ژاپۆن.""",
+            onPressedBritish: () => speakeconomics3("en-GB"),
+            onPressedAmerican: () => speakeconomics3("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: """She's a lecturer in economic history."""),
-                    ExampleSentenceKurdish(
-                        text: """وانەبێژە لە مێژووی ئابووری."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakeconomics4("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakeconomics4("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: """She's a lecturer in economic history.""",
+            kurdishText: """وانەبێژە لە مێژووی ئابووری.""",
+            onPressedBritish: () => speakeconomics4("en-GB"),
+            onPressedAmerican: () => speakeconomics4("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
                   """٢. (ھاوەڵناو) کە ھێندە قازانج دەکات تاوەکو بەردەوام ببێت"""),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            """The college was not achieving the numbers of students needed to make it economic."""),
-                    ExampleSentenceKurdish(
-                        text:
-                            """کۆلێژەکە ئەو ژمارە خوێندکارەی وەرنەدەگرت کە وای دەکرد بەقازانج ببێت."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakeconomics5("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakeconomics5("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                """The college was not achieving the numbers of students needed to make it economic.""",
+            kurdishText:
+                """کۆلێژەکە ئەو ژمارە خوێندکارەی وەرنەدەگرت کە وای دەکرد بەقازانج ببێت.""",
+            onPressedBritish: () => speakeconomics5("en-GB"),
+            onPressedAmerican: () => speakeconomics5("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            """They found it was not economic to sell their milk to the supermarkets."""),
-                    ExampleSentenceKurdish(
-                        text:
-                            """زانییان کە خێردار نەبوو شیرەکەیان بە سوپەرمارکێتەکان بفرۆشن."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakeconomics6("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakeconomics6("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                """They found it was not economic to sell their milk to the supermarkets.""",
+            kurdishText:
+                """زانییان کە خێردار نەبوو شیرەکەیان بە سوپەرمارکێتەکان بفرۆشن.""",
+            onPressedBritish: () => speakeconomics6("en-GB"),
+            onPressedAmerican: () => speakeconomics6("en-US"),
           ),
           // economics700economics7
           // speakeconomics7

@@ -370,59 +370,20 @@ class KurdishMeaning extends StatelessWidget {
 """),
           const DefinitionKurdish(
               text: "١. (ناو) ئەو پارەیەی کە حکومەت بە کەسانی بێکاری دەدات"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "He's been on the dole (= without a job) for a year."),
-                    ExampleSentenceKurdish(text: "رستە_رستە_رستە_رستە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "dole", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdoles1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdoles1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "He's been on the dole (= without a job) for a year.",
+            kurdishText: "رستە_رستە_رستە_رستە.", // dole
+            onPressedBritish: () => speakdoles1("en-GB"),
+            onPressedAmerican: () => speakdoles1("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "There have been calls to increase dole payments."),
-                    ExampleSentenceKurdish(
-                        text: "داوا کراوە کە پارەی بێکاری زیاد بکرێت."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdoles2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdoles2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "There have been calls to increase dole payments.",
+            kurdishText: "داوا کراوە کە پارەی بێکاری زیاد بکرێت.",
+            onPressedBritish: () => speakdoles2("en-GB"),
+            onPressedAmerican: () => speakdoles2("en-US"),
           ),
           // doles300"),
           // speakdoles3

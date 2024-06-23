@@ -380,90 +380,34 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   """١. (ناو) کەسێک یان کۆمپانیایەک کە کارمەندی ھەیە کاری بۆ دەکەن"""),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            """They're one of the largest employers in the area."""),
-                    ExampleSentenceKurdish(
-                        text:
-                            """یەکێک لە گەورەترین خاوەن‌کارەکانن لە ناوچەکەدا."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "employer", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakemployers1("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakemployers1("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                """They're one of the largest employers in the area.""",
+            kurdishText:
+                """یەکێک لە گەورەترین خاوەن‌کارەکانن لە ناوچەکەدا.""", // employer
+            onPressedBritish: () => speakemployers1("en-GB"),
+            onPressedAmerican: () => speakemployers1("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            """They're very good employers (= they treat the people that work for them well)."""),
-                    ExampleSentenceKurdish(text: """خاوەن‌کاری زۆر باشن."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakemployers2("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakemployers2("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                """They're very good employers (= they treat the people that work for them well).""",
+            kurdishText: """خاوەن‌کاری زۆر باشن.""",
+            onPressedBritish: () => speakemployers2("en-GB"),
+            onPressedAmerican: () => speakemployers2("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            """The law requires employers to offer a safe work environment."""),
-                    ExampleSentenceKurdish(
-                        text:
-                            """یاساکە خاوەن‌کاران ناچار دەکات ژینگەیەکی کاری سەلامەت پێشکەش بکەن."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakemployers3("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakemployers3("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                """The law requires employers to offer a safe work environment.""",
+            kurdishText:
+                """یاساکە خاوەن‌کاران ناچار دەکات ژینگەیەکی کاری سەلامەت پێشکەش بکەن.""",
+            onPressedBritish: () => speakemployers3("en-GB"),
+            onPressedAmerican: () => speakemployers3("en-US"),
           ),
           // employers400employers4
           // speakemployers4

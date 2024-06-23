@@ -299,224 +299,70 @@ class KurdishMeaning extends StatelessWidget {
 کوردی: سەرەولێژی، تەلان، لێژایی، نشێوی،	نیشتنەوە،	ھاتنەخوارێ، داکەوتن، داچوون، نزم‌بوونەوە، داشکان، لێژبوونەوە،	وەچە، نەوە، بەرە، بنەچە، پشت، کۆک، ڕەچەڵەک، ڕەگەز، توخم، نژاد، تۆمەرە، ڕشتارە، ڕژتارە، لانەما، لانەزێ،	ھێرش، پەلامار (ناکاو)
 """),
           const DefinitionKurdish(text: "١. (ناو) چوونەخوارەوە"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "The plane began its descent to Heathrow."),
-                    ExampleSentenceKurdish(
-                        text: "فڕۆکە دەستی بە دابەزین بۆ ھیسرۆو کرد."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "descent", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdescents1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdescents1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "The plane began its descent to Heathrow.",
+            kurdishText: "فڕۆکە دەستی بە دابەزین بۆ ھیسرۆو کرد.", // descent
+            onPressedBritish: () => speakdescents1("en-GB"),
+            onPressedAmerican: () => speakdescents1("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "I made a slow and painful descent down the stairs."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "دەستم بە دابەزینێکی ھێواش و بەیازار بە پلەکانەکاندا کرد."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdescents2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdescents2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "I made a slow and painful descent down the stairs.",
+            kurdishText:
+                "دەستم بە دابەزینێکی ھێواش و بەیازار بە پلەکانەکاندا کرد.",
+            onPressedBritish: () => speakdescents2("en-GB"),
+            onPressedAmerican: () => speakdescents2("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The plane was making its final descent so we had to fasten our seat belts."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "فڕۆکەکە کۆتا دابەزینی ئەنجام دەدا بۆیە دەبوو پشتێنە سەلامەتییەکانمان ببەستین."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdescents3("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdescents3("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "The plane was making its final descent so we had to fasten our seat belts.",
+            kurdishText:
+                "فڕۆکەکە کۆتا دابەزینی ئەنجام دەدا بۆیە دەبوو پشتێنە سەلامەتییەکانمان ببەستین.",
+            onPressedBritish: () => speakdescents3("en-GB"),
+            onPressedAmerican: () => speakdescents3("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "We slowed the balloon's rate of descent."),
-                    ExampleSentenceKurdish(
-                        text: "ئاستی دابەزینی باڵۆنەکەمان کەمکردەوە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdescents4("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdescents4("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "We slowed the balloon's rate of descent.",
+            kurdishText: "ئاستی دابەزینی باڵۆنەکەمان کەمکردەوە.",
+            onPressedBritish: () => speakdescents4("en-GB"),
+            onPressedAmerican: () => speakdescents4("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: "٢. (ناو) لێژبوونەوەیەک"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "There is a gradual descent to the sea."),
-                    ExampleSentenceKurdish(
-                        text: "لێژبوونێکی کەم بەرەو دەریا ھەیە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdescents5("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdescents5("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "There is a gradual descent to the sea.",
+            kurdishText: "لێژبوونێکی کەم بەرەو دەریا ھەیە.",
+            onPressedBritish: () => speakdescents5("en-GB"),
+            onPressedAmerican: () => speakdescents5("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: "٣. (ناو) ڕەچەڵەکی کەسێک"),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "He traces his line of descent from the Stuart kings."),
-                    ExampleSentenceKurdish(
-                        text: "ڕەچەڵەکی خۆی بۆ پاشاکانی ستیوارت دەگێڕێتەوە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdescents6("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdescents6("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "He traces his line of descent from the Stuart kings.",
+            kurdishText: "ڕەچەڵەکی خۆی بۆ پاشاکانی ستیوارت دەگێڕێتەوە.",
+            onPressedBritish: () => speakdescents6("en-GB"),
+            onPressedAmerican: () => speakdescents6("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "She claims direct descent from Queen Victoria."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "بانگەشەی بوونی ڕەچەڵەکی لە شاژن ڤیکتۆریاوە دەکات."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdescents7("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdescents7("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "She claims direct descent from Queen Victoria.",
+            kurdishText: "بانگەشەی بوونی ڕەچەڵەکی لە شاژن ڤیکتۆریاوە دەکات.",
+            onPressedBritish: () => speakdescents7("en-GB"),
+            onPressedAmerican: () => speakdescents7("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "She is Hungarian by descent."),
-                    ExampleSentenceKurdish(text: "بە ڕەچەڵەک ھەنگارییە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdescents8("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdescents8("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "She is Hungarian by descent.",
+            kurdishText: "بە ڕەچەڵەک ھەنگارییە.",
+            onPressedBritish: () => speakdescents8("en-GB"),
+            onPressedAmerican: () => speakdescents8("en-US"),
           ),
           // descents900"),
           // speakdescents9

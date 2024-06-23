@@ -370,59 +370,20 @@ class KurdishMeaning extends StatelessWidget {
 """),
           const DefinitionKurdish(text: "١. (ناو) خاڵێکی لاوازی شتێک"),
           const AlsoEnglishckb(word: "ھەروەھا: disadvantage, snag"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "The main drawback to it is the cost."),
-                    ExampleSentenceKurdish(
-                        text: "عەیبەی سەرەکیی تێچووەکەیەتی."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "drawback", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdrawbacks1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdrawbacks1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "The main drawback to it is the cost.",
+            kurdishText: "عەیبەی سەرەکیی تێچووەکەیەتی.", // drawback
+            onPressedBritish: () => speakdrawbacks1("en-GB"),
+            onPressedAmerican: () => speakdrawbacks1("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "This is the one major drawback of the new system."),
-                    ExampleSentenceKurdish(
-                        text: "ئەمە خاڵە لاوازە گەورەکەی سیستەمە تازەکەیە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdrawbacks2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdrawbacks2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "This is the one major drawback of the new system.",
+            kurdishText: "ئەمە خاڵە لاوازە گەورەکەی سیستەمە تازەکەیە.",
+            onPressedBritish: () => speakdrawbacks2("en-GB"),
+            onPressedAmerican: () => speakdrawbacks2("en-US"),
           ),
           // drawbacks300"),
           // speakdrawbacks3

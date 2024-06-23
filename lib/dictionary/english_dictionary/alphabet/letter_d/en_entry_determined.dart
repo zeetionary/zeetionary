@@ -276,145 +276,52 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "١. (ھاوەڵناو) بڕیاردانی تەواو لەسەر شتێک و پەشیمان نەبوونەوە"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The opposition to her plan made her more determined than ever."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "دژبەری بۆ پلانەکەت زیاتر لە ھەمیشە شێتگیری کرد."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "determined", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdetermineds1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdetermineds1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "The opposition to her plan made her more determined than ever.",
+            kurdishText:
+                "دژبەری بۆ پلانەکەت زیاتر لە ھەمیشە شێتگیری کرد.", // determined
+            onPressedBritish: () => speakdetermineds1("en-GB"),
+            onPressedAmerican: () => speakdetermineds1("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(text: "I'm determined to succeed."),
-                    ExampleSentenceKurdish(text: "سوورم لەوەی سەربکەوم."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdetermineds2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdetermineds2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "I'm determined to succeed.",
+            kurdishText: "سوورم لەوەی سەربکەوم.",
+            onPressedBritish: () => speakdetermineds2("en-GB"),
+            onPressedAmerican: () => speakdetermineds2("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "They were quite determined that he wasn't going to do it."),
-                    ExampleSentenceKurdish(
-                        text: "زۆر سووربوون لەوەی کە نایکات."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdetermineds3("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdetermineds3("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "They were quite determined that he wasn't going to do it.",
+            kurdishText: "زۆر سووربوون لەوەی کە نایکات.",
+            onPressedBritish: () => speakdetermineds3("en-GB"),
+            onPressedAmerican: () => speakdetermineds3("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٢. (ھاوەڵناو) پیشاندانی ویستی بەھێز بۆ کردنی شتێک"),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "I made a determined effort to stop smoking."),
-                    ExampleSentenceKurdish(
-                        text: "ھەوڵێکی بەھێزم دا کە لە جگەرەکێشان بوەستم."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdetermineds4("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdetermineds4("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "I made a determined effort to stop smoking.",
+            kurdishText: "ھەوڵێکی بەھێزم دا کە لە جگەرەکێشان بوەستم.",
+            onPressedBritish: () => speakdetermineds4("en-GB"),
+            onPressedAmerican: () => speakdetermineds4("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The proposal had been dropped in the face of determined opposition."),
-                    ExampleSentenceKurdish(
-                        text: "پێشنیارەکە وازلێھێنرا بەھۆی دژبەری توند بۆی."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdetermineds5("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdetermineds5("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "The proposal had been dropped in the face of determined opposition.",
+            kurdishText: "پێشنیارەکە وازلێھێنرا بەھۆی دژبەری توند بۆی.",
+            onPressedBritish: () => speakdetermineds5("en-GB"),
+            onPressedAmerican: () => speakdetermineds5("en-US"),
           ),
           // determineds600"),
           // speakdetermineds6

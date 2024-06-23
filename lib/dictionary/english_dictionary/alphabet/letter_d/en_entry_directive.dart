@@ -251,92 +251,34 @@ class KurdishMeaning extends StatelessWidget {
 // 2	دەستووردەرانە
 // """),
           const DefinitionKurdish(text: "١. (ناو) ڕێنمایی فەرمی"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The EU has issued a new set of directives on pollution."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "یەکێتیی ئەورووپا کۆمەڵێکی تازە لە ڕێنمایی لەسەر پیسبوونی ژینگە دەرکردووە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "directive", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdirectives1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdirectives1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "The EU has issued a new set of directives on pollution.",
+            kurdishText:
+                "یەکێتیی ئەورووپا کۆمەڵێکی تازە لە ڕێنمایی لەسەر پیسبوونی ژینگە دەرکردووە.", // directive
+            onPressedBritish: () => speakdirectives1("en-GB"),
+            onPressedAmerican: () => speakdirectives1("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "All companies must comply with the new directive."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "ھەموو کۆمپانیاکان دەبێت پابەند بن بە ڕێنماییە تازەکان."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdirectives2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdirectives2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "All companies must comply with the new directive.",
+            kurdishText:
+                "ھەموو کۆمپانیاکان دەبێت پابەند بن بە ڕێنماییە تازەکان.",
+            onPressedBritish: () => speakdirectives2("en-GB"),
+            onPressedAmerican: () => speakdirectives2("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: "٢. (ھاوەڵناو) کە ڕێنمایی دەدات"),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "She gave directive comments to improve the project's direction."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "لێدوانی ڕێنماییانەی دا بۆ باشترکردنی ئاراستەی پڕۆژەکە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdirectives3("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdirectives3("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "She gave directive comments to improve the project's direction.",
+            kurdishText:
+                "لێدوانی ڕێنماییانەی دا بۆ باشترکردنی ئاراستەی پڕۆژەکە.",
+            onPressedBritish: () => speakdirectives3("en-GB"),
+            onPressedAmerican: () => speakdirectives3("en-US"),
           ),
           // directives400"),
           // speakdirectives4

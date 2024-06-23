@@ -243,59 +243,22 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "١. (ناو) نائومێد بەھۆی ئەوەی ئەو کەسەی بەھای ھەبوو لات یان ئەو بیرۆکەی باوەڕت پێی بوو بێ بەھا دیارن"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "I soon became disillusioned with the job."),
-                    ExampleSentenceKurdish(text: "زوو نائومێد بووم لە کارەکە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "disillusioned", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdisillusioneds1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdisillusioneds1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "I soon became disillusioned with the job.",
+            kurdishText: "زوو نائومێد بووم لە کارەکە.", // disillusioned
+            onPressedBritish: () => speakdisillusioneds1("en-GB"),
+            onPressedAmerican: () => speakdisillusioneds1("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "I feel utterly disillusioned by his refusal to take any action."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "تەواو نائومێد بووم بە ڕەتکردنەوەی بۆ ھەر ھەنگاونانێک."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdisillusioneds2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdisillusioneds2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "I feel utterly disillusioned by his refusal to take any action.",
+            kurdishText:
+                "تەواو نائومێد بووم بە ڕەتکردنەوەی بۆ ھەر ھەنگاونانێک.",
+            onPressedBritish: () => speakdisillusioneds2("en-GB"),
+            onPressedAmerican: () => speakdisillusioneds2("en-US"),
           ),
           // disillusioneds300"),
           // speakdisillusioneds3

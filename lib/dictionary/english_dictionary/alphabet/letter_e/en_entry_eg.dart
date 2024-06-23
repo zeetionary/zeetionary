@@ -365,32 +365,13 @@ class KurdishMeaning extends StatelessWidget {
             text: """١. (کورتکراوە) کورتکراوەیە بە واتای for example""",
             note: "لە لاتینی 'exempli gratia' ــەوە ھاتووە",
           ),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            """You should eat more food that contains a lot of fibre, e.g. fruit, vegetables, and bread."""),
-                    ExampleSentenceKurdish(
-                        text:
-                            """دەبێت خواردنی زیاتر بخۆیت کە ڕیشاڵ لەخۆبگرێت، بۆ نموونە میوە، سەوزە، و نان."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "e.g.", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakegs1("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakegs1("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                """You should eat more food that contains a lot of fibre, e.g. fruit, vegetables, and bread.""",
+            kurdishText:
+                """دەبێت خواردنی زیاتر بخۆیت کە ڕیشاڵ لەخۆبگرێت، بۆ نموونە میوە، سەوزە، و نان.""", // e.g.
+            onPressedBritish: () => speakegs1("en-GB"),
+            onPressedAmerican: () => speakegs1("en-US"),
           ),
           // egs200egs2
           // speakegs2

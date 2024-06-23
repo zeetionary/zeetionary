@@ -444,31 +444,12 @@ class KurdishMeaning extends StatelessWidget {
 """),
           const DefinitionKurdish(
               text: """١. (کردار) وەرگرتنی پارە بۆ ئەو کارەی دەیکەیت"""),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: """He earns about £40 000 a year."""),
-                    ExampleSentenceKurdish(
-                        text:
-                            """نزیکەی ٤٠٠٠٠ پاوەند لە ساڵێکدا قازانج دەکات."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "earn", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakearns1("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakearns1("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: """He earns about £40 000 a year.""",
+            kurdishText:
+                """نزیکەی ٤٠٠٠٠ پاوەند لە ساڵێکدا قازانج دەکات.""", // earn
+            onPressedBritish: () => speakearns1("en-GB"),
+            onPressedAmerican: () => speakearns1("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: """ژممارە. (کردار) پێنناسە"""),
@@ -484,269 +465,94 @@ class KurdishMeaning extends StatelessWidget {
           // const DividerDefinition(),
           // const DefinitionKurdish(text: """ژممارە. (کردار) پێنناسە"""),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            """She must earn a fortune (= earn a lot of money)."""),
-                    ExampleSentenceKurdish(text: """سەروەتێک قازانجیەتی."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakearns3("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakearns3("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: """She must earn a fortune (= earn a lot of money).""",
+            kurdishText: """سەروەتێک قازانجیەتی.""",
+            onPressedBritish: () => speakearns3("en-GB"),
+            onPressedAmerican: () => speakearns3("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: """ژممارە. (کردار) پێنناسە"""),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: """All the children are earning now."""),
-                    ExampleSentenceKurdish(
-                        text: """تەواوی منداڵەکان ئێستا پارە پەیدا دەکەن."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakearns4("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakearns4("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: """All the children are earning now.""",
+            kurdishText: """تەواوی منداڵەکان ئێستا پارە پەیدا دەکەن.""",
+            onPressedBritish: () => speakearns4("en-GB"),
+            onPressedAmerican: () => speakearns4("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: """ژممارە. (کردار) پێنناسە"""),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            """His victory in the tournament earned him £50 000."""),
-                    ExampleSentenceKurdish(
-                        text:
-                            """بردنەوەی لە پاڵەوانێتییەکە ٥٠٠٠٠ پاوەندی پێبەخشی."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakearns5("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakearns5("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                """His victory in the tournament earned him £50 000.""",
+            kurdishText:
+                """بردنەوەی لە پاڵەوانێتییەکە ٥٠٠٠٠ پاوەندی پێبەخشی.""",
+            onPressedBritish: () => speakearns5("en-GB"),
+            onPressedAmerican: () => speakearns5("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: """ژممارە. (کردار) پێنناسە"""),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: """He earned enough from his work for food."""),
-                    ExampleSentenceKurdish(
-                        text:
-                            """بەشی پێویست لە کارەکەی پەیدا دەکرد بۆ خواردن."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakearns6("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakearns6("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: """He earned enough from his work for food.""",
+            kurdishText: """بەشی پێویست لە کارەکەی پەیدا دەکرد بۆ خواردن.""",
+            onPressedBritish: () => speakearns6("en-GB"),
+            onPressedAmerican: () => speakearns6("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
                   """٢. (کردار) پەیداکردنی پارە وەک قازانج یان سوو لەسەر پارەیەک کە داوتە بە قەرز"""),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            """Your money would earn more in a high-interest account."""),
-                    ExampleSentenceKurdish(
-                        text:
-                            """پارەکەت زیاتر قازانج دەکات لە ھەژمارێکی سوو بەرزدا."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakearns7("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakearns7("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                """Your money would earn more in a high-interest account.""",
+            kurdishText:
+                """پارەکەت زیاتر قازانج دەکات لە ھەژمارێکی سوو بەرزدا.""",
+            onPressedBritish: () => speakearns7("en-GB"),
+            onPressedAmerican: () => speakearns7("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
                   """٣. (کردار) بەدەستھێنانی شتێک کە شایەنیت، زۆرجار بەھۆی شتێکی باش کە کردووتە یان خاسیەتێک کە ھەتە"""),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            """He earned a reputation as an expert on tax law."""),
-                    ExampleSentenceKurdish(
-                        text:
-                            """ناوبانگێکی بەدەستھێنا وەک شارەزایەک لە یاسای باجداندا."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakearns8("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakearns8("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: """He earned a reputation as an expert on tax law.""",
+            kurdishText:
+                """ناوبانگێکی بەدەستھێنا وەک شارەزایەک لە یاسای باجداندا.""",
+            onPressedBritish: () => speakearns8("en-GB"),
+            onPressedAmerican: () => speakearns8("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: """ژممارە. (کردار) پێنناسە"""),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            """As a teacher, she had earned the respect of her students."""),
-                    ExampleSentenceKurdish(
-                        text:
-                            """وەک مامۆستایەک ڕێزی خوێندکارەکانی بەدەستھێنابوو."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakearns9("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakearns9("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                """As a teacher, she had earned the respect of her students.""",
+            kurdishText: """وەک مامۆستایەک ڕێزی خوێندکارەکانی بەدەستھێنابوو.""",
+            onPressedBritish: () => speakearns9("en-GB"),
+            onPressedAmerican: () => speakearns9("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: """ژممارە. (کردار) پێنناسە"""),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            """I need a rest. I think I've earned it, don't you?"""),
-                    ExampleSentenceKurdish(
-                        text:
-                            """پێویستیم بە پشوویەکە. پێموایە شایەنیم، وانییە؟"""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakearns10("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakearns10("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                """I need a rest. I think I've earned it, don't you?""",
+            kurdishText: """پێویستیم بە پشوویەکە. پێموایە شایەنیم، وانییە؟""",
+            onPressedBritish: () => speakearns10("en-GB"),
+            onPressedAmerican: () => speakearns10("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: """ژممارە. (کردار) پێنناسە"""),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: """She earned a degree in music."""),
-                    ExampleSentenceKurdish(
-                        text: """بڕوانامەیەکی لە میوزیکدا بەدەستھێنا."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakearns11("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakearns11("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: """She earned a degree in music.""",
+            kurdishText: """بڕوانامەیەکی لە میوزیکدا بەدەستھێنا.""",
+            onPressedBritish: () => speakearns11("en-GB"),
+            onPressedAmerican: () => speakearns11("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: """ژممارە. (کردار) پێنناسە"""),

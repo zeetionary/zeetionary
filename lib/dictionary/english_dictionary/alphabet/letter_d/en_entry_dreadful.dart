@@ -401,168 +401,58 @@ class KurdishMeaning extends StatelessWidget {
 کوردی: پڕمەترسی، پڕترس، ترسناک، بەسام، پڕئەندێش، ورەبەر، ترسێنەر، تۆقێنەر، جێی‌ترس، ترس‌دار،	شپرزە، خراپ، وەڕەزکەر، یەکجار، گەلێ
 """),
           const DefinitionKurdish(text: "١. (ھاوەڵناو) زۆر خراپ و ناخۆش"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(text: "What dreadful weather!"),
-                    ExampleSentenceKurdish(text: "چی کەشێکی ناخۆشە!"),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "dreadful", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdreadfuls1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdreadfuls1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "What dreadful weather!",
+            kurdishText: "چی کەشێکی ناخۆشە!", // dreadful
+            onPressedBritish: () => speakdreadfuls1("en-GB"),
+            onPressedAmerican: () => speakdreadfuls1("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "What a dreadful thing to say!"),
-                    ExampleSentenceKurdish(text: "چی شتێکی چەوت بۆ گوتن!"),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdreadfuls2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdreadfuls2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "What a dreadful thing to say!",
+            kurdishText: "چی شتێکی چەوت بۆ گوتن!",
+            onPressedBritish: () => speakdreadfuls2("en-GB"),
+            onPressedAmerican: () => speakdreadfuls2("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "It's dreadful the way they treat their staff."),
-                    ExampleSentenceKurdish(
-                        text: "شێوەی مامەڵەکردنیان لەگەڵ ستافەکەیان بێزراوە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdreadfuls3("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdreadfuls3("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "It's dreadful the way they treat their staff.",
+            kurdishText: "شێوەی مامەڵەکردنیان لەگەڵ ستافەکەیان بێزراوە.",
+            onPressedBritish: () => speakdreadfuls3("en-GB"),
+            onPressedAmerican: () => speakdreadfuls3("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٢. (ھاوەڵناو) بۆ جەختکردنەوە لەوەی کە شتێک چەندە خراپە"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "She's making a dreadful mess of things."),
-                    ExampleSentenceKurdish(
-                        text: "شپرزەییەکی تەواو لە شتەکان درووست دەکات."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdreadfuls4("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdreadfuls4("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "She's making a dreadful mess of things.",
+            kurdishText: "شپرزەییەکی تەواو لە شتەکان درووست دەکات.",
+            onPressedBritish: () => speakdreadfuls4("en-GB"),
+            onPressedAmerican: () => speakdreadfuls4("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "I'm afraid there's been a dreadful mistake."),
-                    ExampleSentenceKurdish(
-                        text: "بەداخەوەم کە ھەڵەیەکی ترسناک ڕوویداوە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdreadfuls5("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdreadfuls5("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "I'm afraid there's been a dreadful mistake.",
+            kurdishText: "بەداخەوەم کە ھەڵەیەکی ترسناک ڕوویداوە.",
+            onPressedBritish: () => speakdreadfuls5("en-GB"),
+            onPressedAmerican: () => speakdreadfuls5("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٣. (ھاوەڵناو) کە ترس و ئازار و ناڕەحەتی درووست دەکات"),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "They suffered dreadful injuries."),
-                    ExampleSentenceKurdish(text: "تووشی برینی سامناک بوونەوە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdreadfuls6("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdreadfuls6("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "They suffered dreadful injuries.",
+            kurdishText: "تووشی برینی سامناک بوونەوە.",
+            onPressedBritish: () => speakdreadfuls6("en-GB"),
+            onPressedAmerican: () => speakdreadfuls6("en-US"),
           ),
           // dreadfuls700"),
           // speakdreadfuls7

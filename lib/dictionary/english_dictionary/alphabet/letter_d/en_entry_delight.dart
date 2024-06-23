@@ -309,259 +309,87 @@ class KurdishMeaning extends StatelessWidget {
 کوردی: شادی، خۆشی، گەشی، سەرخۆشی، خۆشحاڵی، دڵشادی، دڵخۆشی، بەکەیفی، کەیف‌خۆشی،	دڵ‌خۆشکەرە، مایەی خۆشحاڵی
 """),
           const DefinitionKurdish(text: "١. (ناو) ھەستێکی خۆشی گەورە"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The children squealed with delight when they saw the puppy."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "منداڵەکان لە خۆشیدا قیژاندیان کە توولەکەیان بینی."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "delight", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdelights1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdelights1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "The children squealed with delight when they saw the puppy.",
+            kurdishText:
+                "منداڵەکان لە خۆشیدا قیژاندیان کە توولەکەیان بینی.", // delight
+            onPressedBritish: () => speakdelights1("en-GB"),
+            onPressedAmerican: () => speakdelights1("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "She won the game easily, to the delight of all her fans."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "یارییەکەی بە ئاسانی بردەوە بە خۆشی بە ھەموو ھەوادارانی."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdelights2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdelights2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "She won the game easily, to the delight of all her fans.",
+            kurdishText:
+                "یارییەکەی بە ئاسانی بردەوە بە خۆشی بە ھەموو ھەوادارانی.",
+            onPressedBritish: () => speakdelights2("en-GB"),
+            onPressedAmerican: () => speakdelights2("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "He takes (great) delight in (= enjoys) proving others wrong."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "چێژی زۆر دەبینێت لەوەی بیسەلمێنێت کەسانی دیکە ھەڵەن."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdelights3("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdelights3("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "He takes (great) delight in (= enjoys) proving others wrong.",
+            kurdishText: "چێژی زۆر دەبینێت لەوەی بیسەلمێنێت کەسانی دیکە ھەڵەن.",
+            onPressedBritish: () => speakdelights3("en-GB"),
+            onPressedAmerican: () => speakdelights3("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "She couldn't hide her delight at the news."),
-                    ExampleSentenceKurdish(
-                        text: "نەیدەتوانی خۆشی خۆی بۆ ھەواڵەکە بشارێتەوە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdelights4("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdelights4("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "She couldn't hide her delight at the news.",
+            kurdishText: "نەیدەتوانی خۆشی خۆی بۆ ھەواڵەکە بشارێتەوە.",
+            onPressedBritish: () => speakdelights4("en-GB"),
+            onPressedAmerican: () => speakdelights4("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: "٢. (ناو) شتێک کە چێژی زۆرت پێدەدات"),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "This guitar is a delight to play."),
-                    ExampleSentenceKurdish(text: "گیتارەکە خۆشە بۆ لێدان."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdelights5("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdelights5("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "This guitar is a delight to play.",
+            kurdishText: "گیتارەکە خۆشە بۆ لێدان.",
+            onPressedBritish: () => speakdelights5("en-GB"),
+            onPressedAmerican: () => speakdelights5("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "Sample the culinary delights of Morocco."),
-                    ExampleSentenceKurdish(
-                        text: "خۆشییەکانی خواردنی مۆناکۆ تاقیبکەرەوە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdelights6("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdelights6("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "Sample the culinary delights of Morocco.",
+            kurdishText: "خۆشییەکانی خواردنی مۆناکۆ تاقیبکەرەوە.",
+            onPressedBritish: () => speakdelights6("en-GB"),
+            onPressedAmerican: () => speakdelights6("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "He became deeply religious and turned away from earthly delights."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "بە تەواوی بووە بە ئایینی و خۆی لە خۆشییەکانی ژیان دوورخستووەتەوە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdelights7("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdelights7("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "He became deeply religious and turned away from earthly delights.",
+            kurdishText:
+                "بە تەواوی بووە بە ئایینی و خۆی لە خۆشییەکانی ژیان دوورخستووەتەوە.",
+            onPressedBritish: () => speakdelights7("en-GB"),
+            onPressedAmerican: () => speakdelights7("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: "٣. (کردار) پێدانی خۆشی زۆر بە کەسێک"),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "This news will delight his fans all over the world."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "ئەم ھەواڵە ھەوادارەکانی لە ھەموو جیھاندا دڵخۆش دەکات."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdelights8("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdelights8("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "This news will delight his fans all over the world.",
+            kurdishText:
+                "ئەم ھەواڵە ھەوادارەکانی لە ھەموو جیھاندا دڵخۆش دەکات.",
+            onPressedBritish: () => speakdelights8("en-GB"),
+            onPressedAmerican: () => speakdelights8("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "She had a limitless capacity to astonish and delight."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "توانایەکی بێسنووری ھەبوو بۆ سەرسامکردن و خۆشی بەخشین."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdelights9("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdelights9("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "She had a limitless capacity to astonish and delight.",
+            kurdishText:
+                "توانایەکی بێسنووری ھەبوو بۆ سەرسامکردن و خۆشی بەخشین.",
+            onPressedBritish: () => speakdelights9("en-GB"),
+            onPressedAmerican: () => speakdelights9("en-US"),
           ),
           // delights1000"),
           // speakdelights10

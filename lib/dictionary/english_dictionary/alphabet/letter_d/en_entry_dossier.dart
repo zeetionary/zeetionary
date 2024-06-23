@@ -372,56 +372,20 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "١. (ناو) ژمارەیەک بەڵگەنامە کە زانیاری لەسەر کەسێک، ڕووداوێ، یان بابەتێکی لەخۆدەگرێت"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(text: "We have a dossier on him."),
-                    ExampleSentenceKurdish(text: "دۆسیەیەکمان لەسەری ھەیە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "dossier", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdossiers1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdossiers1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "We have a dossier on him.",
+            kurdishText: "دۆسیەیەکمان لەسەری ھەیە.", // dossier
+            onPressedBritish: () => speakdossiers1("en-GB"),
+            onPressedAmerican: () => speakdossiers1("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The group compiled a dossier of patients' complaints."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "گرووپەکە دۆسیەیەکیان لەسەر سکاڵاکانی نەخۆشەکان کۆکردەوە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdossiers2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdossiers2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "The group compiled a dossier of patients' complaints.",
+            kurdishText:
+                "گرووپەکە دۆسیەیەکیان لەسەر سکاڵاکانی نەخۆشەکان کۆکردەوە.",
+            onPressedBritish: () => speakdossiers2("en-GB"),
+            onPressedAmerican: () => speakdossiers2("en-US"),
           ),
           // dossiers300"),
           // speakdossiers3

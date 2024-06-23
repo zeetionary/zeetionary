@@ -235,32 +235,13 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "١. (ناو) فاریزەیەک/خاڵێک کە لە لە دوای ژمارەیەک دادەنرێت بۆ جیاکردنەوەی ژمارەی سەرەکی لە ژمارەکانی دوای فاریزەکە"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "To divide by ten, move the decimal point one place to the left."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "بۆ دابەشکردن بەسەر دەدا، فاریزەی دەیان یەک یەکە بۆ لای چەپ بێنە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "decimal point", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdecimalpoints1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdecimalpoints1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "To divide by ten, move the decimal point one place to the left.",
+            kurdishText:
+                "بۆ دابەشکردن بەسەر دەدا، فاریزەی دەیان یەک یەکە بۆ لای چەپ بێنە.", // decimal point
+            onPressedBritish: () => speakdecimalpoints1("en-GB"),
+            onPressedAmerican: () => speakdecimalpoints1("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "٢. (ھاوەڵناو) پێنناسە"),

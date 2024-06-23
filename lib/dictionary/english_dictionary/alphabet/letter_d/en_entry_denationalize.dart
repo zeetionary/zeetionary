@@ -235,32 +235,13 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "١. (کردار) فرۆشتنی کۆمپانیا یان پیشەسازییەک بەشێوەیەک کە چی دیکە لەلایەن حکومەتەوە خاوەندارێتی ناکرێت"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The government decided to denationalize the railway system."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "حکومەت بڕیاری دا سیستەمی شەمەندەفەر بدات بە کەرتی تایبەت."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "denationalize", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdenationalizes1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdenationalizes1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "The government decided to denationalize the railway system.",
+            kurdishText:
+                "حکومەت بڕیاری دا سیستەمی شەمەندەفەر بدات بە کەرتی تایبەت.", // denationalize
+            onPressedBritish: () => speakdenationalizes1("en-GB"),
+            onPressedAmerican: () => speakdenationalizes1("en-US"),
           ),
           // denationalizes200"),
           // speakdenationalizes2

@@ -264,140 +264,45 @@ class KurdishMeaning extends StatelessWidget {
 """),
           const DefinitionKurdish(
               text: "١. (کردار) لێدان لە شتێک بە ھێواشی، زۆرجار بۆ چەند جارێک"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "He dabbed at the cut with his handkerchief."),
-                    ExampleSentenceKurdish(
-                        text: "بە پەنجەی دەیکێشا بە دەستەسڕەکەدا."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "dab", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdabs1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdabs1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "He dabbed at the cut with his handkerchief.",
+            kurdishText: "بە پەنجەی دەیکێشا بە دەستەسڕەکەدا.", // dab
+            onPressedBritish: () => speakdabs1("en-GB"),
+            onPressedAmerican: () => speakdabs1("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "She dabbed at her eyes with a tissue."),
-                    ExampleSentenceKurdish(
-                        text: "بە کلێنسێک دەستی ھێنا بە چاویدا."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdabs2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdabs2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "She dabbed at her eyes with a tissue.",
+            kurdishText: "بە کلێنسێک دەستی ھێنا بە چاویدا.",
+            onPressedBritish: () => speakdabs2("en-GB"),
+            onPressedAmerican: () => speakdabs2("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: "٢. (کردار) دانانی شتێک لەسەر ڕوویەک"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "She dabbed a little perfume behind her ears."),
-                    ExampleSentenceKurdish(
-                        text: "کەمێک بۆنی پرژاند بە پشتە گوێیدا."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdabs3("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdabs3("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "She dabbed a little perfume behind her ears.",
+            kurdishText: "کەمێک بۆنی پرژاند بە پشتە گوێیدا.",
+            onPressedBritish: () => speakdabs3("en-GB"),
+            onPressedAmerican: () => speakdabs3("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
                   "٢. (ناو) کەمێک بۆن، کرێم، یان پاودەر کە دەپرژێندرێندرێت بەسەر ڕوویەکدا"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "She put a dab of perfume behind her ears."),
-                    ExampleSentenceKurdish(
-                        text: "چەند پرژێک بۆنی کرد بە پشت گوێیدا."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdabs4("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdabs4("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "She put a dab of perfume behind her ears.",
+            kurdishText: "چەند پرژێک بۆنی کرد بە پشت گوێیدا.",
+            onPressedBritish: () => speakdabs4("en-GB"),
+            onPressedAmerican: () => speakdabs4("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٤. (ناو) بەھێواشی دەستدان لە شتێک بەبێ دەست ساوین پێیدا"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "He gave the cut a quick dab with a towel."),
-                    ExampleSentenceKurdish(
-                        text: "بە خاولییەک خێرا دەستی ھێنا بە برینەکەدا."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdabs5("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdabs5("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "He gave the cut a quick dab with a towel.",
+            kurdishText: "بە خاولییەک خێرا دەستی ھێنا بە برینەکەدا.",
+            onPressedBritish: () => speakdabs5("en-GB"),
+            onPressedAmerican: () => speakdabs5("en-US"),
           ),
         ],
       ),

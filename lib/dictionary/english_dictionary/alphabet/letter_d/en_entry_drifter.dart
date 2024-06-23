@@ -373,61 +373,23 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "١. (ناو) کەسێک کە لە کارێکەوە بۆ کارێکی دیکە، یان شوێنێک بۆ شوێنێکی دیکە دەچێت بەبێ ئامانجێکی دیاریکراو"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "As a young man he had been a romantic and a drifter."),
-                    ExampleSentenceKurdish(
-                        text: "وەک پیاوێکی گەنج ئاشق و سەرلێ‌شێواوێک بوو."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "drifter", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdrifters1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdrifters1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "As a young man he had been a romantic and a drifter.",
+            kurdishText:
+                "وەک پیاوێکی گەنج ئاشق و سەرلێ‌شێواوێک بوو.", // drifter
+            onPressedBritish: () => speakdrifters1("en-GB"),
+            onPressedAmerican: () => speakdrifters1("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "I spent my time in the company of drifters and losers."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "کاتم بە ھاوڕێیەتی کەسانی سەرلێشێواو و دۆڕاو بەسەربرد."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdrifters2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdrifters2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "I spent my time in the company of drifters and losers.",
+            kurdishText:
+                "کاتم بە ھاوڕێیەتی کەسانی سەرلێشێواو و دۆڕاو بەسەربرد.",
+            onPressedBritish: () => speakdrifters2("en-GB"),
+            onPressedAmerican: () => speakdrifters2("en-US"),
           ),
           // drifters300"),
           // speakdrifters3

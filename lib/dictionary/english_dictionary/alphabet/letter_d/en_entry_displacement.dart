@@ -233,32 +233,13 @@ class KurdishMeaning extends StatelessWidget {
 کوردی: جێ‌گرتنەوە، جێگری، کشاندنەوە، جێ‌گۆڕکێ، جێ‌گۆڕین، شوێن‌گۆڕکێ، گۆڕینی جێگا یان شوێن،	ھەڵوەدایی، ئاوارەیی، پەڕتەوازەیی
 """),
           const DefinitionKurdish(text: "١. (ناو) ئاوارەکردنی خەڵکی"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The recent famine in these parts has caused the displacement of tens of thousands of people."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "قەیرانەکەی ئەم ماوە لەم ناوچانە بووە بە ھۆکاری ئاوارەبوونی ھەزاران کەس."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "displacement", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdisplacements1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdisplacements1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "The recent famine in these parts has caused the displacement of tens of thousands of people.",
+            kurdishText:
+                "قەیرانەکەی ئەم ماوە لەم ناوچانە بووە بە ھۆکاری ئاوارەبوونی ھەزاران کەس.", // displacement
+            onPressedBritish: () => speakdisplacements1("en-GB"),
+            onPressedAmerican: () => speakdisplacements1("en-US"),
           ),
           // displacements200"),
           // speakdisplacements2

@@ -241,61 +241,22 @@ class KurdishMeaning extends StatelessWidget {
 کوردی: شەق‌وشڕ، داغن، شپرزە، شکاو، لێک‌زەبەردراو، کۆن، شڕ، چەپەرەشڕ،	خاپوور، داربەسەر بەردەوەنەماو، تێک‌ڕووخاو، تێک‌ڕماو، کاولە، کاول، کەلاوە
 """),
           const DefinitionKurdish(text: "١. (ھاوەڵناو) کۆن و لە دۆخێکی خراپدا"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The old house was in a somewhat dilapidated condition."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "خانووە کۆنەکە لە دۆخێکی تاڕادەیەک شەق‌وشڕدا بوو."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "dilapidated", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdilapidateds1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdilapidateds1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "The old house was in a somewhat dilapidated condition.",
+            kurdishText:
+                "خانووە کۆنەکە لە دۆخێکی تاڕادەیەک شەق‌وشڕدا بوو.", // dilapidated
+            onPressedBritish: () => speakdilapidateds1("en-GB"),
+            onPressedAmerican: () => speakdilapidateds1("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "The hotel we stayed in was really dilapidated."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "ئەو ھوتێلەی تێیدا ماینەوە لە ڕاستیدا شپرزە بوو."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdilapidateds2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdilapidateds2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "The hotel we stayed in was really dilapidated.",
+            kurdishText: "ئەو ھوتێلەی تێیدا ماینەوە لە ڕاستیدا شپرزە بوو.",
+            onPressedBritish: () => speakdilapidateds2("en-GB"),
+            onPressedAmerican: () => speakdilapidateds2("en-US"),
           ),
           // dilapidateds300"),
           // speakdilapidateds3

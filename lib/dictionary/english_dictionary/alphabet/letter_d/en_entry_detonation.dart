@@ -232,32 +232,13 @@ class KurdishMeaning extends StatelessWidget {
 کوردی: تەقینەوە، تەقاندنەوە، پەقین، دەنگی تەقینەوە
 """),
           const DefinitionKurdish(text: "١. (ناو) تەقینەوە"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "Underground nuclear detonations are believed to have been carried out."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "باوەڕ وایە تەقینەوەی ئەتۆمی ژێرزەوی ئەنجام درابن."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "detonation", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdetonations1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdetonations1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "Underground nuclear detonations are believed to have been carried out.",
+            kurdishText:
+                "باوەڕ وایە تەقینەوەی ئەتۆمی ژێرزەوی ئەنجام درابن.", // detonation
+            onPressedBritish: () => speakdetonations1("en-GB"),
+            onPressedAmerican: () => speakdetonations1("en-US"),
           ),
           // detonations200"),
           // speakdetonations2

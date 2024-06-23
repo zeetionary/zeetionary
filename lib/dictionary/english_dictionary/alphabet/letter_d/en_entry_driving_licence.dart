@@ -371,58 +371,21 @@ class KurdishMeaning extends StatelessWidget {
 // کوردی:
 // """),
           const DefinitionKurdish(text: "١. (ھاوەڵناو) مۆڵەتی شؤفێری"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "I got my driving licence when I was eighteen."),
-                    ExampleSentenceKurdish(
-                        text: "مۆڵەتی شۆفێریمم وەرگرت کە ھەژدە ساڵان بووم."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "driving licence", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdrivinglicences1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdrivinglicences1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "I got my driving licence when I was eighteen.",
+            kurdishText:
+                "مۆڵەتی شۆفێریمم وەرگرت کە ھەژدە ساڵان بووم.", // driving licence
+            onPressedBritish: () => speakdrivinglicences1("en-GB"),
+            onPressedAmerican: () => speakdrivinglicences1("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "Do you have a valid driving licence?"),
-                    ExampleSentenceKurdish(
-                        text: "مۆڵەتێکی شۆفێریی کارپێکراوت ھەیە؟"),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdrivinglicences2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdrivinglicences2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "Do you have a valid driving licence?",
+            kurdishText: "مۆڵەتێکی شۆفێریی کارپێکراوت ھەیە؟",
+            onPressedBritish: () => speakdrivinglicences2("en-GB"),
+            onPressedAmerican: () => speakdrivinglicences2("en-US"),
           ),
           // drivinglicences300"),
           // speakdrivinglicences3

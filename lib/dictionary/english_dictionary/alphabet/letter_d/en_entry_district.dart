@@ -414,196 +414,63 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "١. (ناو) ناوچەیەکی وڵاتێک یان شارۆچکەیەک کە تایبەتمەندی تەیبەتی ھەیە"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "Every city has its central business district."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "ھەموو شارێک مەڵبەندی ناوەندی بازرگانی خۆی ھەیە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "district", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdistricts1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdistricts1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "Every city has its central business district.",
+            kurdishText:
+                "ھەموو شارێک مەڵبەندی ناوەندی بازرگانی خۆی ھەیە.", // district
+            onPressedBritish: () => speakdistricts1("en-GB"),
+            onPressedAmerican: () => speakdistricts1("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "The house is in a historic district."),
-                    ExampleSentenceKurdish(
-                        text: "خانووەکە لە مەڵبەندێکی مێژووییە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdistricts2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdistricts2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "The house is in a historic district.",
+            kurdishText: "خانووەکە لە مەڵبەندێکی مێژووییە.",
+            onPressedBritish: () => speakdistricts2("en-GB"),
+            onPressedAmerican: () => speakdistricts2("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The hotel is located within Beijing's business district."),
-                    ExampleSentenceKurdish(
-                        text: "ھوتێلەکە لە مەڵبەندی بازرگانیی بەیجینگە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdistricts3("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdistricts3("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "The hotel is located within Beijing's business district.",
+            kurdishText: "ھوتێلەکە لە مەڵبەندی بازرگانیی بەیجینگە.",
+            onPressedBritish: () => speakdistricts3("en-GB"),
+            onPressedAmerican: () => speakdistricts3("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
                   "٢. (ناو) یەکێک لەو ناوچانەی وڵاتێک، شارۆچکەیەک، یان ویلایەتێکی بەسەردا دابەشکراوە و سنووری فەرمی خۆیی ھەیە"),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "They redrew districts to make sure Republican candidates would win."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "سنووری دەڤەرەکانیان دووبارە کێشایەوە بۆ ئەوەی دڵنیایی بکەنەوە کە بەربژێرەکانی کۆمارییەکان دەبەنەوە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdistricts4("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdistricts4("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "They redrew districts to make sure Republican candidates would win.",
+            kurdishText:
+                "سنووری دەڤەرەکانیان دووبارە کێشایەوە بۆ ئەوەی دڵنیایی بکەنەوە کە بەربژێرەکانی کۆمارییەکان دەبەنەوە.",
+            onPressedBritish: () => speakdistricts4("en-GB"),
+            onPressedAmerican: () => speakdistricts4("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The hospital is only responsible for patients within its own district."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "نەخۆشخانەکە بەرپرسە تەنھا بۆ ئەو نەخۆشانەی کە لە دەڤەرەکەی خۆیدان."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdistricts5("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdistricts5("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "The hospital is only responsible for patients within its own district.",
+            kurdishText:
+                "نەخۆشخانەکە بەرپرسە تەنھا بۆ ئەو نەخۆشانەی کە لە دەڤەرەکەی خۆیدان.",
+            onPressedBritish: () => speakdistricts5("en-GB"),
+            onPressedAmerican: () => speakdistricts5("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "It's a heavily Democratic district."),
-                    ExampleSentenceKurdish(
-                        text: "دەڤەرێکی تەواو سەر بە پارتی دیموکراتە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdistricts6("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdistricts6("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "It's a heavily Democratic district.",
+            kurdishText: "دەڤەرێکی تەواو سەر بە پارتی دیموکراتە.",
+            onPressedBritish: () => speakdistricts6("en-GB"),
+            onPressedAmerican: () => speakdistricts6("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "He represented his district in Congress."),
-                    ExampleSentenceKurdish(
-                        text: "نوێنەرایەتی دەڤەرەکەیی دەکرد."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdistricts7("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdistricts7("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "He represented his district in Congress.",
+            kurdishText: "نوێنەرایەتی دەڤەرەکەیی دەکرد.",
+            onPressedBritish: () => speakdistricts7("en-GB"),
+            onPressedAmerican: () => speakdistricts7("en-US"),
           ),
           // districts800"),
           // speakdistricts8

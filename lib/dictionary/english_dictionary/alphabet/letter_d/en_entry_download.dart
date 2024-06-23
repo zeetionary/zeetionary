@@ -397,147 +397,52 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "١. (کردار) ھێنانی داتا لە کۆمپیوتەرێکی دیکەوە، زۆرجار بە ئینتەرنێت"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "You can download the app for free."),
-                    ExampleSentenceKurdish(
-                        text: "دەتوانیت ئەپەکە بێ‌بەرامبەر دابگریت."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "download", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdownloads1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdownloads1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "You can download the app for free.",
+            kurdishText: "دەتوانیت ئەپەکە بێ‌بەرامبەر دابگریت.", // download
+            onPressedBritish: () => speakdownloads1("en-GB"),
+            onPressedAmerican: () => speakdownloads1("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "The series is now available to download."),
-                    ExampleSentenceKurdish(
-                        text: "زنجیرەکە ئێستا بەردەستە بۆ دابەزاندن."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdownloads2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdownloads2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "The series is now available to download.",
+            kurdishText: "زنجیرەکە ئێستا بەردەستە بۆ دابەزاندن.",
+            onPressedBritish: () => speakdownloads2("en-GB"),
+            onPressedAmerican: () => speakdownloads2("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "If you download pictures from the internet, check the terms of use."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "ئەگەر وێنەت دابەزاند لە ئینتەرنێتەوە، سەیری مەرجەکانی بەکارھێنان بکە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdownloads3("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdownloads3("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "If you download pictures from the internet, check the terms of use.",
+            kurdishText:
+                "ئەگەر وێنەت دابەزاند لە ئینتەرنێتەوە، سەیری مەرجەکانی بەکارھێنان بکە.",
+            onPressedBritish: () => speakdownloads3("en-GB"),
+            onPressedAmerican: () => speakdownloads3("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٢. (ناو) زانیاری کە لە ئینتەرنێتەوە دادەگریت"),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "This book is available as a free download."),
-                    ExampleSentenceKurdish(
-                        text: "کتێبەکە وەک دابەزاندنی بێبەرامبەر بەردەستە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdownloads4("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdownloads4("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "This book is available as a free download.",
+            kurdishText: "کتێبەکە وەک دابەزاندنی بێبەرامبەر بەردەستە.",
+            onPressedBritish: () => speakdownloads4("en-GB"),
+            onPressedAmerican: () => speakdownloads4("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: "٣. (ناو) دابەزاندن لە ئینتەرنێتەوە"),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "This song is on track to set a record for the most downloads in one day."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "گۆرانییەکە لەسەر ھێڵە بۆ تۆمارکردنی ڕیکۆرد بۆ زۆرترین دابەزاندن لە ڕۆژێکدا."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdownloads5("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdownloads5("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "This song is on track to set a record for the most downloads in one day.",
+            kurdishText:
+                "گۆرانییەکە لەسەر ھێڵە بۆ تۆمارکردنی ڕیکۆرد بۆ زۆرترین دابەزاندن لە ڕۆژێکدا.",
+            onPressedBritish: () => speakdownloads5("en-GB"),
+            onPressedAmerican: () => speakdownloads5("en-US"),
           ),
           // downloads600"),
           // speakdownloads6

@@ -373,62 +373,24 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   """١. (ھاوەڵناو) کە بۆ ماوەیەکی درێژ بەردەوام دەبێت بەبێ شکان یان لاوازبوون"""),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            """Painted steel is likely to be less durable than other kinds."""),
-                    ExampleSentenceKurdish(
-                        text:
-                            """پۆڵای بۆیەکراو ئەگەری ھەیە کەمتر بەرگەگر بێت وەک لە جۆرەکانی دیکە."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "durable", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdurables1("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdurables1("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                """Painted steel is likely to be less durable than other kinds.""",
+            kurdishText:
+                """پۆڵای بۆیەکراو ئەگەری ھەیە کەمتر بەرگەگر بێت وەک لە جۆرەکانی دیکە.""", // durable
+            onPressedBritish: () => speakdurables1("en-GB"),
+            onPressedAmerican: () => speakdurables1("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            """The machines have to be made of durable materials."""),
-                    ExampleSentenceKurdish(
-                        text:
-                            """ئامێرەکان دەبێت لە مادەی بەرگەگرتوو درووست بکرێن."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdurables2("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdurables2("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                """The machines have to be made of durable materials.""",
+            kurdishText:
+                """ئامێرەکان دەبێت لە مادەی بەرگەگرتوو درووست بکرێن.""",
+            onPressedBritish: () => speakdurables2("en-GB"),
+            onPressedAmerican: () => speakdurables2("en-US"),
           ),
           // durables300
           // speakdurables3

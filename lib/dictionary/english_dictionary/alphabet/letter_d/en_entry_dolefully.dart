@@ -361,30 +361,12 @@ class KurdishMeaning extends StatelessWidget {
 کوردی: خەمبارانە، دڵتەنگانە
 """),
           const DefinitionKurdish(text: "١. (ھاوەڵکار) زۆر بە خەمبارانە"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "She stared dolefully out of the window."),
-                    ExampleSentenceKurdish(
-                        text: "خەمبارانە لە پەنجەرەکەوە سەیری دەرەوەی دەکرد."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "dolefully", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdolefullys1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdolefullys1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "She stared dolefully out of the window.",
+            kurdishText:
+                "خەمبارانە لە پەنجەرەکەوە سەیری دەرەوەی دەکرد.", // dolefully
+            onPressedBritish: () => speakdolefullys1("en-GB"),
+            onPressedAmerican: () => speakdolefullys1("en-US"),
           ),
           // dolefullys200"),
           // speakdolefullys2

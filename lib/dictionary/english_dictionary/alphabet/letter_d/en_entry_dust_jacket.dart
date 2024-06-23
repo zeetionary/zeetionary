@@ -364,32 +364,13 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   """١. (ناو) بەرگێکی کتێب کە وەک پارێزەر بەکاردێت بەڵام دەکرێت لێبکرێتەوە"""),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            """She removed the dust jacket before reading the book."""),
-                    ExampleSentenceKurdish(
-                        text:
-                            """پێش خوێندنەوەی کتێبەکە ڕووپۆشەکەی لێکردەوە."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "dust jacket", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdustjackets1("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdustjackets1("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                """She removed the dust jacket before reading the book.""",
+            kurdishText:
+                """پێش خوێندنەوەی کتێبەکە ڕووپۆشەکەی لێکردەوە.""", // dust jacket
+            onPressedBritish: () => speakdustjackets1("en-GB"),
+            onPressedAmerican: () => speakdustjackets1("en-US"),
           ),
           // dustjackets200
           // speakdustjackets2

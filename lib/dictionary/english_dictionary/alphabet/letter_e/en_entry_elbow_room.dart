@@ -372,63 +372,25 @@ class KurdishMeaning extends StatelessWidget {
 // """),
           const DefinitionKurdish(
               text: """١. (ناو) شوێنی پێویست کە تێیدا بجوڵێیت و ڕێ بکەیت"""),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            """The tiny toilet compartment gives you hardly any elbow room."""),
-                    ExampleSentenceKurdish(
-                        text:
-                            """ژوورۆچکەی تەوالێتە خنجیلانەکە بە ئەستەم ھیچ دەرفەتی تیاھەڵسوورانی پێ‌دەدایت."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "elbow room", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakelbowrooms1("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakelbowrooms1("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                """The tiny toilet compartment gives you hardly any elbow room.""",
+            kurdishText:
+                """ژوورۆچکەی تەوالێتە خنجیلانەکە بە ئەستەم ھیچ دەرفەتی تیاھەڵسوورانی پێ‌دەدایت.""", // elbow room
+            onPressedBritish: () => speakelbowrooms1("en-GB"),
+            onPressedAmerican: () => speakelbowrooms1("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text: """٢. (ناو) ئازادیی کردنی ئەوەی دەتەوێت"""),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            """At first the management gave the new director plenty of elbow room."""),
-                    ExampleSentenceKurdish(
-                        text:
-                            """لە سەرەتا دەستەی بەڕێوەبەرایەتی ئازادیی زۆری بە بەڕێوەبەرە تازەکە دا."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakelbowrooms2("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakelbowrooms2("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                """At first the management gave the new director plenty of elbow room.""",
+            kurdishText:
+                """لە سەرەتا دەستەی بەڕێوەبەرایەتی ئازادیی زۆری بە بەڕێوەبەرە تازەکە دا.""",
+            onPressedBritish: () => speakelbowrooms2("en-GB"),
+            onPressedAmerican: () => speakelbowrooms2("en-US"),
           ),
           // elbowrooms300elbowrooms3
           // speakelbowrooms3

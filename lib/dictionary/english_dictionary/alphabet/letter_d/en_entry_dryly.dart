@@ -378,85 +378,31 @@ class KurdishMeaning extends StatelessWidget {
 """),
           const DefinitionKurdish(
               text: "١. (ھاوەڵکار) کە کەسێک بە گاڵتەی شاراوەوە قسە دەکات"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "Thanks for the warning, Tachi said dryly."),
-                    ExampleSentenceKurdish(
-                        text: "تاچی بە تیزەوە گوتی سوپاس بۆ ئاگادارکردنەوەکە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "dryly", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdrylys1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdrylys1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "Thanks for the warning, Tachi said dryly.",
+            kurdishText:
+                "تاچی بە تیزەوە گوتی سوپاس بۆ ئاگادارکردنەوەکە.", // dryly
+            onPressedBritish: () => speakdrylys1("en-GB"),
+            onPressedAmerican: () => speakdrylys1("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٢. (ھاوەڵکار) بەشیوەیەک کە ھیچ ھەستێک پیشان نادات"),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "He smiled dryly and leaned back in his chair."),
-                    ExampleSentenceKurdish(
-                        text: "بە وشکی پێکەنی و پاڵیدایەوە بە کورسییەکەی."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdrylys2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdrylys2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "He smiled dryly and leaned back in his chair.",
+            kurdishText: "بە وشکی پێکەنی و پاڵیدایەوە بە کورسییەکەی.",
+            onPressedBritish: () => speakdrylys2("en-GB"),
+            onPressedAmerican: () => speakdrylys2("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: "٣. (ھاوەڵکار) بەبێ بوونی تەڕێتی"),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(text: "She coughed dryly."),
-                    ExampleSentenceKurdish(text: "بە وشکی کۆکی."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdrylys3("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdrylys3("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "She coughed dryly.",
+            kurdishText: "بە وشکی کۆکی.",
+            onPressedBritish: () => speakdrylys3("en-GB"),
+            onPressedAmerican: () => speakdrylys3("en-US"),
           ),
           // drylys400"),
           // speakdrylys4

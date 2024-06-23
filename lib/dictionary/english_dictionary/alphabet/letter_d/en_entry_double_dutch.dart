@@ -364,32 +364,12 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "١. (ناو) وتارێک یان نووسینێک کە سەختە لێی تێ بگەیت و وا دیارە کە ھیچ واتای نەبێت"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "These instructions are written in double Dutch."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "ئەم ڕێنماییانە بە وەک شەڕە پشیلە/زۆر ئاڵۆز نووسراون."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "double-dutch", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdoubledutchs1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdoubledutchs1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "These instructions are written in double Dutch.",
+            kurdishText:
+                "ئەم ڕێنماییانە بە وەک شەڕە پشیلە/زۆر ئاڵۆز نووسراون.", // double-dutch
+            onPressedBritish: () => speakdoubledutchs1("en-GB"),
+            onPressedAmerican: () => speakdoubledutchs1("en-US"),
           ),
           // doubledutchs200"),
           // speakdoubledutchs2

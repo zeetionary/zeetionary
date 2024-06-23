@@ -372,60 +372,21 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   """١. (ناو) تەزووی کارەبایی لەناکاو کە بە جەستەدا تێدەپەڕێت و دەبێتە ھۆکاری ئازار یان ھەندێک جار مەرگ"""),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            """I got an electric shock from that light switch."""),
-                    ExampleSentenceKurdish(
-                        text: """کارەبا گرتمی لەو سویچی ڕۆشناییە."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "electric shock", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakelectricshocks1("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakelectricshocks1("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: """I got an electric shock from that light switch.""",
+            kurdishText:
+                """کارەبا گرتمی لەو سویچی ڕۆشناییە.""", // electric shock
+            onPressedBritish: () => speakelectricshocks1("en-GB"),
+            onPressedAmerican: () => speakelectricshocks1("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            """He got an electric shock from one of the wires."""),
-                    ExampleSentenceKurdish(
-                        text: """بە یەکێک لە وایەرەکان کارەبا گرتی."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakelectricshocks2("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakelectricshocks2("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: """He got an electric shock from one of the wires.""",
+            kurdishText: """بە یەکێک لە وایەرەکان کارەبا گرتی.""",
+            onPressedBritish: () => speakelectricshocks2("en-GB"),
+            onPressedAmerican: () => speakelectricshocks2("en-US"),
           ),
           // electricshocks300electricshocks3
           // speakelectricshocks3

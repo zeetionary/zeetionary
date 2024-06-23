@@ -373,62 +373,23 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   """١. (کردار) واکردنی ئەوەی کەسێک ھەست بە تووڕەیی و نیگەرانی بکات سەبارەت بە شتێک بۆ ماوەیەکی زۆر"""),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            """Years of caring for her ageing parents had embittered her."""),
-                    ExampleSentenceKurdish(
-                        text:
-                            """چەندین ساڵ لە چاودێری کردنی دایبابە بەساڵاچووەکەی تاڵی پێ چەشتبوو."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "embitter", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakembitters1("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakembitters1("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                """Years of caring for her ageing parents had embittered her.""",
+            kurdishText:
+                """چەندین ساڵ لە چاودێری کردنی دایبابە بەساڵاچووەکەی تاڵی پێ چەشتبوو.""", // embitter
+            onPressedBritish: () => speakembitters1("en-GB"),
+            onPressedAmerican: () => speakembitters1("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            """They were becoming deeply embittered by the government’s lack of concern."""),
-                    ExampleSentenceKurdish(
-                        text:
-                            """تەواو نیگەران دەبوون بە کەمی نیگەرانیی حکومەت."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakembitters2("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakembitters2("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                """They were becoming deeply embittered by the government’s lack of concern.""",
+            kurdishText: """تەواو نیگەران دەبوون بە کەمی نیگەرانیی حکومەت.""",
+            onPressedBritish: () => speakembitters2("en-GB"),
+            onPressedAmerican: () => speakembitters2("en-US"),
           ),
           // embitters300embitters3
           // speakembitters3

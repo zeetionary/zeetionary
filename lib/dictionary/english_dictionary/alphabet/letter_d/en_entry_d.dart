@@ -240,55 +240,20 @@ class KurdishMeaning extends StatelessWidget {
 // """),
           const DefinitionKurdish(
               text: "١. (ناو) چوارەمین پیتی ئەلفوبێی ئینگلیزی"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "‘Dog’ begins with (a) D/‘D’."),
-                    ExampleSentenceKurdish(text: "'Dog' بە 'D' دەستپێدەکات."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "d", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakds1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakds1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "‘Dog’ begins with (a) D/‘D’.",
+            kurdishText: "'Dog' بە 'D' دەستپێدەکات.", // d
+            onPressedBritish: () => speakds1("en-GB"),
+            onPressedAmerican: () => speakds1("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٢. (ناو) ئەنجامی خوێندکارێک کە وەریدەگرێت کە زۆرباش نییە"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(text: "He got (a) D in geography."),
-                    ExampleSentenceKurdish(text: "لە جوگرافیا D وەرگرت."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakds2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakds2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "He got (a) D in geography.",
+            kurdishText: "لە جوگرافیا D وەرگرت.",
+            onPressedBritish: () => speakds2("en-GB"),
+            onPressedAmerican: () => speakds2("en-US"),
           ),
         ],
       ),

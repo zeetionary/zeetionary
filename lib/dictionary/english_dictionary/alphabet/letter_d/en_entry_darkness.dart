@@ -257,112 +257,37 @@ class KurdishMeaning extends StatelessWidget {
 کوردی: تاریکی، تاری، ڕەشی، نەڕوونی، نادیاری، ناڕۆشنی،	نەزانی
 """),
           const DefinitionKurdish(text: "١. (ناو) تاریکی"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "After a few minutes our eyes got used to the darkness."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "لە دوای چەند خولەکێک چاوەکانمان ڕاھات بە تاریکییەکە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "darkness", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdarknesss1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdarknesss1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "After a few minutes our eyes got used to the darkness.",
+            kurdishText:
+                "لە دوای چەند خولەکێک چاوەکانمان ڕاھات بە تاریکییەکە.", // darkness
+            onPressedBritish: () => speakdarknesss1("en-GB"),
+            onPressedAmerican: () => speakdarknesss1("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The sun went down and darkness fell (= it became night)."),
-                    ExampleSentenceKurdish(text: "خۆرئاوابوو و تاریکی داھات."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdarknesss2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdarknesss2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "The sun went down and darkness fell (= it became night).",
+            kurdishText: "خۆرئاوابوو و تاریکی داھات.",
+            onPressedBritish: () => speakdarknesss2("en-GB"),
+            onPressedAmerican: () => speakdarknesss2("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "There is an extra hour of darkness on winter mornings."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "کاتژمێرێکی زیاتر تاریکی ھەیە لە بەیانیان زستاندا."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdarknesss3("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdarknesss3("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "There is an extra hour of darkness on winter mornings.",
+            kurdishText: "کاتژمێرێکی زیاتر تاریکی ھەیە لە بەیانیان زستاندا.",
+            onPressedBritish: () => speakdarknesss3("en-GB"),
+            onPressedAmerican: () => speakdarknesss3("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: "٢. (ناو) ڕەنگی تاریک"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "It depends on the darkness of your skin."),
-                    ExampleSentenceKurdish(text: "پشت بە ڕەشی پێستت دەبەستێت."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdarknesss4("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdarknesss4("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "It depends on the darkness of your skin.",
+            kurdishText: "پشت بە ڕەشی پێستت دەبەستێت.",
+            onPressedBritish: () => speakdarknesss4("en-GB"),
+            onPressedAmerican: () => speakdarknesss4("en-US"),
           ),
         ],
       ),

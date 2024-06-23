@@ -346,392 +346,122 @@ class KurdishMeaning extends StatelessWidget {
 کوردی: جیاوازی، فەرق، جوداھی، جودایەتی، جیایی، کێشە، ناکۆکی، دژایەتی،	بێنەوبەرە، مشت‌ومڕ، گێروکێشە،	سەرباقی، ماوە، بەرماوە، لێ‌ماوە
 """),
           const DefinitionKurdish(text: "١. (ناو) جیاوازی نێوان دوو کەس/شت"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "Americans and Brits speak the same language, but there are big cultural differences."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "ئەمریکی و بەریتانییەکان بە ھەمان زمان قسە دەکەن، بەڵام جیاوازی کەلتووری زۆر ھەیە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "difference", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdifferences1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdifferences1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "Americans and Brits speak the same language, but there are big cultural differences.",
+            kurdishText:
+                "ئەمریکی و بەریتانییەکان بە ھەمان زمان قسە دەکەن، بەڵام جیاوازی کەلتووری زۆر ھەیە.", // difference
+            onPressedBritish: () => speakdifferences1("en-GB"),
+            onPressedAmerican: () => speakdifferences1("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "There are no significant differences between the education systems of the two countries."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "جیاوازی سیستەمی خوێندن و پەروەردەی گەورە نییە لە نێوان دوو وڵاتەکەدا."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdifferences2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdifferences2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "There are no significant differences between the education systems of the two countries.",
+            kurdishText:
+                "جیاوازی سیستەمی خوێندن و پەروەردەی گەورە نییە لە نێوان دوو وڵاتەکەدا.",
+            onPressedBritish: () => speakdifferences2("en-GB"),
+            onPressedAmerican: () => speakdifferences2("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "He was studying the similarities and differences between humans and animals."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "لێکچوون و جیاوازییەکانی نێوان مرۆڤ و ئاژەڵانی دەخوێند."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdifferences3("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdifferences3("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "He was studying the similarities and differences between humans and animals.",
+            kurdishText:
+                "لێکچوون و جیاوازییەکانی نێوان مرۆڤ و ئاژەڵانی دەخوێند.",
+            onPressedBritish: () => speakdifferences3("en-GB"),
+            onPressedAmerican: () => speakdifferences3("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "I can never tell the difference (= distinguish) between the twins."),
-                    ExampleSentenceKurdish(
-                        text: "ھەرگیز ناتوانم جیاوازی لە نێوان دووانەکە بکەم."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdifferences4("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdifferences4("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "I can never tell the difference (= distinguish) between the twins.",
+            kurdishText: "ھەرگیز ناتوانم جیاوازی لە نێوان دووانەکە بکەم.",
+            onPressedBritish: () => speakdifferences4("en-GB"),
+            onPressedAmerican: () => speakdifferences4("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "There's no difference in the results."),
-                    ExampleSentenceKurdish(
-                        text: "ھیچ جیاوازییەک لە ئەنجامەکاندا نییە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdifferences5("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdifferences5("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "There's no difference in the results.",
+            kurdishText: "ھیچ جیاوازییەک لە ئەنجامەکاندا نییە.",
+            onPressedBritish: () => speakdifferences5("en-GB"),
+            onPressedAmerican: () => speakdifferences5("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "Despite their differences, the two are great friends."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "سەرەڕای جیاوازییەکانیان، ھەردووکیان ھاوڕێی نزیکن."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdifferences6("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdifferences6("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "Despite their differences, the two are great friends.",
+            kurdishText: "سەرەڕای جیاوازییەکانیان، ھەردووکیان ھاوڕێی نزیکن.",
+            onPressedBritish: () => speakdifferences6("en-GB"),
+            onPressedAmerican: () => speakdifferences6("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٢. (ناو) ئەو بڕە کە جیاوازی لە نێوان دوو شت درووست دەکات"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "We measured the difference in temperature."),
-                    ExampleSentenceKurdish(
-                        text: "جیاوازیی پلەی گەرمیمان پێوا."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdifferences7("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdifferences7("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "We measured the difference in temperature.",
+            kurdishText: "جیاوازیی پلەی گەرمیمان پێوا.",
+            onPressedBritish: () => speakdifferences7("en-GB"),
+            onPressedAmerican: () => speakdifferences7("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The difference between the two numbers gives you the profit."),
-                    ExampleSentenceKurdish(
-                        text: "جیاوازی نێوان دوو ژمارەکە قازانجەکەت پێ دەدات."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdifferences8("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdifferences8("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "The difference between the two numbers gives you the profit.",
+            kurdishText: "جیاوازی نێوان دوو ژمارەکە قازانجەکەت پێ دەدات.",
+            onPressedBritish: () => speakdifferences8("en-GB"),
+            onPressedAmerican: () => speakdifferences8("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "There's an age difference of six years between the boys (= one is six years older than the other)."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "جیاوازی تەمەنی شەش ساڵ ھەیە ل نێوان دوو کوڕەکەدا."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdifferences9("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdifferences9("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "There's an age difference of six years between the boys (= one is six years older than the other).",
+            kurdishText: "جیاوازی تەمەنی شەش ساڵ ھەیە ل نێوان دوو کوڕەکەدا.",
+            onPressedBritish: () => speakdifferences9("en-GB"),
+            onPressedAmerican: () => speakdifferences9("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "I'll lend you £500 and you'll have to find the difference (= the rest of the money that you need)."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "٥٠٠ پاوەندت پێدەدەم و پێویست دەبێت ئەوی دیکە بدۆزیتەوە (لای کەسێکی دیکە)."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdifferences10("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdifferences10("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "I'll lend you £500 and you'll have to find the difference (= the rest of the money that you need).",
+            kurdishText:
+                "٥٠٠ پاوەندت پێدەدەم و پێویست دەبێت ئەوی دیکە بدۆزیتەوە (لای کەسێکی دیکە).",
+            onPressedBritish: () => speakdifferences10("en-GB"),
+            onPressedAmerican: () => speakdifferences10("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "He didn't have enough money, but his aunt agreed to make up the difference."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "پارەی پێویستی نەبوو، بەڵام پووری ڕازی بوو ئەوی دیکە بدات."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdifferences11("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdifferences11("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "He didn't have enough money, but his aunt agreed to make up the difference.",
+            kurdishText:
+                "پارەی پێویستی نەبوو، بەڵام پووری ڕازی بوو ئەوی دیکە بدات.",
+            onPressedBritish: () => speakdifferences11("en-GB"),
+            onPressedAmerican: () => speakdifferences11("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The difference in price is not very significant."),
-                    ExampleSentenceKurdish(
-                        text: "جیاوازیی نرخەکە زۆر گەورە نییە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdifferences12("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdifferences12("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "The difference in price is not very significant.",
+            kurdishText: "جیاوازیی نرخەکە زۆر گەورە نییە.",
+            onPressedBritish: () => speakdifferences12("en-GB"),
+            onPressedAmerican: () => speakdifferences12("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: "٣. (ناو) ناکۆکی نێوان خەڵکی"),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "We have our differences, but she's still my sister."),
-                    ExampleSentenceKurdish(
-                        text: "ناکۆکی خۆمان ھەیە، بەڵام ھێشتا خوشکمە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdifferences13("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdifferences13("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "We have our differences, but she's still my sister.",
+            kurdishText: "ناکۆکی خۆمان ھەیە، بەڵام ھێشتا خوشکمە.",
+            onPressedBritish: () => speakdifferences13("en-GB"),
+            onPressedAmerican: () => speakdifferences13("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "Why don't you settle your differences and be friends again?"),
-                    ExampleSentenceKurdish(
-                        text:
-                            "بۆچی ناکۆکییەکانتان چارە ناکەن و دووبارە ببنەوە بە ھاوڕێ؟"),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdifferences14("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdifferences14("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "Why don't you settle your differences and be friends again?",
+            kurdishText:
+                "بۆچی ناکۆکییەکانتان چارە ناکەن و دووبارە ببنەوە بە ھاوڕێ؟",
+            onPressedBritish: () => speakdifferences14("en-GB"),
+            onPressedAmerican: () => speakdifferences14("en-US"),
           ),
           // differences1500"),
           // speakdifferences15

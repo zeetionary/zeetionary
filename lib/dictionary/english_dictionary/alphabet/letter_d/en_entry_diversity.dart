@@ -407,177 +407,60 @@ class KurdishMeaning extends StatelessWidget {
 """),
           const DefinitionKurdish(
               text: "١. (ناو) کۆمەڵە کەس یان شتێک کە زۆر لە یەکدی یاوازن"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The south-east has the highest diversity of freshwater fish in the country."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "باشووری ڕۆژھەڵات بەرزترین ئاستی فرەڕەنگی ھەیە لە وڵاتەکەدا بۆ ماسی ئاوی سازگار."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "diversity", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdiversitys1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdiversitys1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "The south-east has the highest diversity of freshwater fish in the country.",
+            kurdishText:
+                "باشووری ڕۆژھەڵات بەرزترین ئاستی فرەڕەنگی ھەیە لە وڵاتەکەدا بۆ ماسی ئاوی سازگار.", // diversity
+            onPressedBritish: () => speakdiversitys1("en-GB"),
+            onPressedAmerican: () => speakdiversitys1("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "There is a wide diversity of views on this subject."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "ھەمەڕەنگی زۆر لە بۆچووندا لەسەر ئەم بابەتە ھەیە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdiversitys2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdiversitys2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "There is a wide diversity of views on this subject.",
+            kurdishText: "ھەمەڕەنگی زۆر لە بۆچووندا لەسەر ئەم بابەتە ھەیە.",
+            onPressedBritish: () => speakdiversitys2("en-GB"),
+            onPressedAmerican: () => speakdiversitys2("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "There was a great diversity of opinion."),
-                    ExampleSentenceKurdish(
-                        text: "فرەڕەنگی زۆر لە بۆچووندا ھەبوو."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdiversitys3("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdiversitys3("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "There was a great diversity of opinion.",
+            kurdishText: "فرەڕەنگی زۆر لە بۆچووندا ھەبوو.",
+            onPressedBritish: () => speakdiversitys3("en-GB"),
+            onPressedAmerican: () => speakdiversitys3("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
                   "٢. (ناو) ئەوەی کە ژمارەیەکی زۆر لە خەڵکی یان شت لەخۆدەگرێت"),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "There is a need for greater diversity and choice in education."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "پێویستی فرەڕەنگی و ھەڵبژاردەی زیاتر ھەیە لە پەروەردە و خوێندندا."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdiversitys4("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdiversitys4("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "There is a need for greater diversity and choice in education.",
+            kurdishText:
+                "پێویستی فرەڕەنگی و ھەڵبژاردەی زیاتر ھەیە لە پەروەردە و خوێندندا.",
+            onPressedBritish: () => speakdiversitys4("en-GB"),
+            onPressedAmerican: () => speakdiversitys4("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "Tyrannies do not allow diversity and disagreement."),
-                    ExampleSentenceKurdish(
-                        text: "سەرکوتکاران ڕێگا فرەڕەنگی و ناڕەزایی نادەن."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdiversitys5("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdiversitys5("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "Tyrannies do not allow diversity and disagreement.",
+            kurdishText: "سەرکوتکاران ڕێگا فرەڕەنگی و ناڕەزایی نادەن.",
+            onPressedBritish: () => speakdiversitys5("en-GB"),
+            onPressedAmerican: () => speakdiversitys5("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
                   "٣. (ناو) لە خۆگرتنی ژمارەیەکی زۆر لە خەڵکی لە ئایین و نەتەوەی جیاوازەوە"),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "You're lucky to work for a company that values diversity."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "بەبەختیت کە کار بۆ کۆمپانیایەک دەکەیت کە گرنگی بە فرەڕەنگی دەدات."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdiversitys6("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdiversitys6("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "You're lucky to work for a company that values diversity.",
+            kurdishText:
+                "بەبەختیت کە کار بۆ کۆمپانیایەک دەکەیت کە گرنگی بە فرەڕەنگی دەدات.",
+            onPressedBritish: () => speakdiversitys6("en-GB"),
+            onPressedAmerican: () => speakdiversitys6("en-US"),
           ),
           // diversitys700"),
           // speakdiversitys7

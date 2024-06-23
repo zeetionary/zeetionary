@@ -258,93 +258,35 @@ class KurdishMeaning extends StatelessWidget {
 // کوردی:
 // """),
           const DefinitionKurdish(text: "١. (کردار) دەرچوون لەسەر سکە"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "The train derailed and plunged into the river."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "شەمەندەفەرەکە لە سکەکە دەرچوو و کەوتە ناو ڕووبارەکە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "derail", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakderails1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakderails1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "The train derailed and plunged into the river.",
+            kurdishText:
+                "شەمەندەفەرەکە لە سکەکە دەرچوو و کەوتە ناو ڕووبارەکە.", // derail
+            onPressedBritish: () => speakderails1("en-GB"),
+            onPressedAmerican: () => speakderails1("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The rebels plotted to derail trains and blow up bridges."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "یاخیبووەکان پلانیان بوو شەمەندەفەر لە سکە لابدەن و پردەکان بتەقێننەوە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakderails2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakderails2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "The rebels plotted to derail trains and blow up bridges.",
+            kurdishText:
+                "یاخیبووەکان پلانیان بوو شەمەندەفەر لە سکە لابدەن و پردەکان بتەقێننەوە.",
+            onPressedBritish: () => speakderails2("en-GB"),
+            onPressedAmerican: () => speakderails2("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
                   "٢. (کردار) وەستاندنی پڕۆسەیەک کە بەو شێوەیە بەردەوام بێت کە مەبەست لێیەتی"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "This latest incident could derail the peace process."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "ئەم ڕووداوەی کۆتایی دەکرێت پڕۆسەی ئاشتی بە لاڕێدا ببات."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakderails3("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakderails3("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "This latest incident could derail the peace process.",
+            kurdishText:
+                "ئەم ڕووداوەی کۆتایی دەکرێت پڕۆسەی ئاشتی بە لاڕێدا ببات.",
+            onPressedBritish: () => speakderails3("en-GB"),
+            onPressedAmerican: () => speakderails3("en-US"),
           ),
           // derails400"),
           // speakderails4

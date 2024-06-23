@@ -405,179 +405,62 @@ class KurdishMeaning extends StatelessWidget {
 """),
           const DefinitionKurdish(
               text: """١. (ناو) گرنگی تایبەت کە بە شتێک دەدرێت"""),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            """Since the elections there has been a greater emphasis on education."""),
-                    ExampleSentenceKurdish(
-                        text:
-                            """لەوەتەی ھەڵبژاردنەکانەوە گرنگییەکی تایبەت بە پەروەردە دراوە."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "emphasis", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakemphasiss1("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakemphasiss1("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                """Since the elections there has been a greater emphasis on education.""",
+            kurdishText:
+                """لەوەتەی ھەڵبژاردنەکانەوە گرنگییەکی تایبەت بە پەروەردە دراوە.""", // emphasis
+            onPressedBritish: () => speakemphasiss1("en-GB"),
+            onPressedAmerican: () => speakemphasiss1("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            """The emphasis is very much on learning the spoken language."""),
-                    ExampleSentenceKurdish(
-                        text: """سەرنج زیاتر لەسەر زمانی قسەکردنە."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakemphasiss2("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakemphasiss2("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                """The emphasis is very much on learning the spoken language.""",
+            kurdishText: """سەرنج زیاتر لەسەر زمانی قسەکردنە.""",
+            onPressedBritish: () => speakemphasiss2("en-GB"),
+            onPressedAmerican: () => speakemphasiss2("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            """There is too much emphasis on reducing costs."""),
-                    ExampleSentenceKurdish(
-                        text: """سەرنجی زۆر لەسەر کەمکردنەوەی تێچووەکانە ."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakemphasiss3("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakemphasiss3("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: """There is too much emphasis on reducing costs.""",
+            kurdishText: """سەرنجی زۆر لەسەر کەمکردنەوەی تێچووەکانە .""",
+            onPressedBritish: () => speakemphasiss3("en-GB"),
+            onPressedAmerican: () => speakemphasiss3("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            """Both subjects should be given equal emphasis."""),
-                    ExampleSentenceKurdish(
-                        text:
-                            """ھەردوو بابەتەکە دەبێت سەرنجی یەکسانیان پێ بدرێت."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakemphasiss4("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakemphasiss4("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: """Both subjects should be given equal emphasis.""",
+            kurdishText: """ھەردوو بابەتەکە دەبێت سەرنجی یەکسانیان پێ بدرێت.""",
+            onPressedBritish: () => speakemphasiss4("en-GB"),
+            onPressedAmerican: () => speakemphasiss4("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
                   """٢. (ناو) زەبرێک کە دەخرێتە سەر وشەیەک یان واژەیەک لە کاتی خوێندنەوە، بەتایبەتی بۆ پیشاندانی ئەوەی کە گرنگە"""),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            """You're placing the emphasis on the wrong syllable."""),
-                    ExampleSentenceKurdish(
-                        text: """زەبر لەسەر بڕگەیەکی ھەڵە دادەنێیت."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakemphasiss5("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakemphasiss5("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                """You're placing the emphasis on the wrong syllable.""",
+            kurdishText: """زەبر لەسەر بڕگەیەکی ھەڵە دادەنێیت.""",
+            onPressedBritish: () => speakemphasiss5("en-GB"),
+            onPressedAmerican: () => speakemphasiss5("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: """He put extra emphasis on the word ‘never’."""),
-                    ExampleSentenceKurdish(
-                        text: """زەبری زیاتری خستە سەر وشەی 'ھەرگیز'."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakemphasiss6("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakemphasiss6("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: """He put extra emphasis on the word ‘never’.""",
+            kurdishText: """زەبری زیاتری خستە سەر وشەی 'ھەرگیز'.""",
+            onPressedBritish: () => speakemphasiss6("en-GB"),
+            onPressedAmerican: () => speakemphasiss6("en-US"),
           ),
           // emphasiss700emphasiss7
           // speakemphasiss7

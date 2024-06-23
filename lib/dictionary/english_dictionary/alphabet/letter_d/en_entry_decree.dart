@@ -277,168 +277,54 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "١. (ناو) دەستوورێکی فەرمی لە سەرکردەوە یان حکومەتەوە کە دەبێتە یاسا"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "In an emergency decree, the government banned all rallies."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "لە دەستووری باری نائاساییدا، حکومەت ھەموو ڕێپێوانێکی قەدەغە کرد."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "decree", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdecrees1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdecrees1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "In an emergency decree, the government banned all rallies.",
+            kurdishText:
+                "لە دەستووری باری نائاساییدا، حکومەت ھەموو ڕێپێوانێکی قەدەغە کرد.", // decree
+            onPressedBritish: () => speakdecrees1("en-GB"),
+            onPressedAmerican: () => speakdecrees1("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The president issued a decree prohibiting trade unions."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "حکومەت دەستوورێکی دەرکرد کە سەندیکای پیشەسازییەکان قەدەغە دەکات."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdecrees2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdecrees2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "The president issued a decree prohibiting trade unions.",
+            kurdishText:
+                "حکومەت دەستوورێکی دەرکرد کە سەندیکای پیشەسازییەکان قەدەغە دەکات.",
+            onPressedBritish: () => speakdecrees2("en-GB"),
+            onPressedAmerican: () => speakdecrees2("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The general will rule by decree until a general election."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "ژەنەڕاڵەکە بە دەستوور سەرکردایەتی دەکات تاوەکو ھەڵبژاردنی گشتی."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdecrees3("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdecrees3("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "The general will rule by decree until a general election.",
+            kurdishText:
+                "ژەنەڕاڵەکە بە دەستوور سەرکردایەتی دەکات تاوەکو ھەڵبژاردنی گشتی.",
+            onPressedBritish: () => speakdecrees3("en-GB"),
+            onPressedAmerican: () => speakdecrees3("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: "٢. (کردار) دەرکردنی بڕیارێک بە فەرمی"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "The government decreed a state of emergency."),
-                    ExampleSentenceKurdish(
-                        text: "حکومەت بڕیاری باری لەناکاوی دا."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdecrees4("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdecrees4("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "The government decreed a state of emergency.",
+            kurdishText: "حکومەت بڕیاری باری لەناکاوی دا.",
+            onPressedBritish: () => speakdecrees4("en-GB"),
+            onPressedAmerican: () => speakdecrees4("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "We cannot decree what the committee should do."),
-                    ExampleSentenceKurdish(
-                        text: "ناتوانین بڕیار بدەین لیژنەکە چی بکات."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdecrees5("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdecrees5("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "We cannot decree what the committee should do.",
+            kurdishText: "ناتوانین بڕیار بدەین لیژنەکە چی بکات.",
+            onPressedBritish: () => speakdecrees5("en-GB"),
+            onPressedAmerican: () => speakdecrees5("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "It was decreed that the following day would be a holiday."),
-                    ExampleSentenceKurdish(
-                        text: "بڕیار درا کە ڕۆژی دواتر پشوو دەبێت."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdecrees6("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdecrees6("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "It was decreed that the following day would be a holiday.",
+            kurdishText: "بڕیار درا کە ڕۆژی دواتر پشوو دەبێت.",
+            onPressedBritish: () => speakdecrees6("en-GB"),
+            onPressedAmerican: () => speakdecrees6("en-US"),
           ),
         ],
       ),

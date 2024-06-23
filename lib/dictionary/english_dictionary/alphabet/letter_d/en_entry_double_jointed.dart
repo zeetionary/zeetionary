@@ -364,31 +364,12 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "١. (ھاوەڵناو) ھەبوونی جومگە لە باڵ یان پەنجەدا کە دەھێڵێت بۆ بەر و دواوە بیان جوڵێنیتەوە"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "He was what they called a double-jointed man."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "لە ئەوانە بوو کە پێیان دەگوت پیاوێکی جومگە دووسەرەیە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "double-jointed", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdoublejointeds1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdoublejointeds1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "He was what they called a double-jointed man.",
+            kurdishText:
+                "لە ئەوانە بوو کە پێیان دەگوت پیاوێکی جومگە دووسەرەیە.", // double-jointed
+            onPressedBritish: () => speakdoublejointeds1("en-GB"),
+            onPressedAmerican: () => speakdoublejointeds1("en-US"),
           ),
           // doublejointeds200"),
           // speakdoublejointeds2

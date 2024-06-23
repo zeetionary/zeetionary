@@ -442,300 +442,111 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "١. (ھاوەڵناو) پەیوەندیدار بە ناوخۆی وڵاتێک نەک وڵاتێکی دەرەکی یان نێودەوڵەتی"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The US is unable to meet its domestic demand for steel in any given year."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "ئەمریکا ناتوانێت خواستی لەسەر پۆڵا لە ھیچ ساڵێکدا پڕبکاتەوە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "domestic", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdomestics1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdomestics1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "The US is unable to meet its domestic demand for steel in any given year.",
+            kurdishText:
+                "ئەمریکا ناتوانێت خواستی لەسەر پۆڵا لە ھیچ ساڵێکدا پڕبکاتەوە.", // domestic
+            onPressedBritish: () => speakdomestics1("en-GB"),
+            onPressedAmerican: () => speakdomestics1("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "He was a chief White House adviser on domestic policy."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "ڕاوێژکاری باڵای کۆشكی سپی بوو بۆ بابەتی سیاسەتی ناوخۆ."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdomestics2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdomestics2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "He was a chief White House adviser on domestic policy.",
+            kurdishText:
+                "ڕاوێژکاری باڵای کۆشكی سپی بوو بۆ بابەتی سیاسەتی ناوخۆ.",
+            onPressedBritish: () => speakdomestics2("en-GB"),
+            onPressedAmerican: () => speakdomestics2("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The election campaign has been focused mainly on domestic issues."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "کەمپینی ھەڵبژاردن زیاتر تیشكی لەسەر بابەتە ناخۆییەکان بوو."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdomestics3("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdomestics3("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "The election campaign has been focused mainly on domestic issues.",
+            kurdishText:
+                "کەمپینی ھەڵبژاردن زیاتر تیشكی لەسەر بابەتە ناخۆییەکان بوو.",
+            onPressedBritish: () => speakdomestics3("en-GB"),
+            onPressedAmerican: () => speakdomestics3("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "On the domestic front, the prime minister's main concern was the economy."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "بۆ لایەنی ناوخۆیی، نیگەرانی سەرەکی سەرۆک وەزیران لەسەر ئابووری بوو."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdomestics4("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdomestics4("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "On the domestic front, the prime minister's main concern was the economy.",
+            kurdishText:
+                "بۆ لایەنی ناوخۆیی، نیگەرانی سەرەکی سەرۆک وەزیران لەسەر ئابووری بوو.",
+            onPressedBritish: () => speakdomestics4("en-GB"),
+            onPressedAmerican: () => speakdomestics4("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٢. (ھاوەڵناو) پەیوەندیدار بە ماڵێک یان خێزانێک"),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "She spent the morning doing domestic chores like cleaning and laundry."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "بەیانییەکەی بەسەربرد بە کردنی کارەکانی ماڵەوەی وەک پاککردنەوە و ششتنی جل."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdomestics5("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdomestics5("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "She spent the morning doing domestic chores like cleaning and laundry.",
+            kurdishText:
+                "بەیانییەکەی بەسەربرد بە کردنی کارەکانی ماڵەوەی وەک پاککردنەوە و ششتنی جل.",
+            onPressedBritish: () => speakdomestics5("en-GB"),
+            onPressedAmerican: () => speakdomestics5("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "She sought help after experiencing domestic abuse from her partner."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "داوای یارمەتی کرد لە تووشبوون بە توندوتیژی خێزانی لەلایەن ھاوژینەکەیەوە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdomestics6("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdomestics6("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "She sought help after experiencing domestic abuse from her partner.",
+            kurdishText:
+                "داوای یارمەتی کرد لە تووشبوون بە توندوتیژی خێزانی لەلایەن ھاوژینەکەیەوە.",
+            onPressedBritish: () => speakdomestics6("en-GB"),
+            onPressedAmerican: () => speakdomestics6("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: "٣. (ھاوەڵناو) ئاژەڵی ماڵی"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "Most domestic cats hate getting wet."),
-                    ExampleSentenceKurdish(
-                        text: "زۆرینەی پشیلە ماڵییەکان ڕقیان لەوەیە تەڕبن."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdomestics7("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdomestics7("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "Most domestic cats hate getting wet.",
+            kurdishText: "زۆرینەی پشیلە ماڵییەکان ڕقیان لەوەیە تەڕبن.",
+            onPressedBritish: () => speakdomestics7("en-GB"),
+            onPressedAmerican: () => speakdomestics7("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٤. (ھاوەڵناو) کە حەزی بە ژیانی ماڵەوەیە"),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "I'm not a very domestic sort of person."),
-                    ExampleSentenceKurdish(text: "کەسێکی زۆر ماڵی نییم."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdomestics8("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdomestics8("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "I'm not a very domestic sort of person.",
+            kurdishText: "کەسێکی زۆر ماڵی نییم.",
+            onPressedBritish: () => speakdomestics8("en-GB"),
+            onPressedAmerican: () => speakdomestics8("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
                   "٥. (ناو) کەسێک کە لەماڵی کەسێکی دیکە کارەکانی ماڵەوە دەکات"),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The family employed a domestic to assist with daily chores."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "خێزانەکە خزمەتکارێکیان بە کرێ گرت بۆ یارمەتیدان لە کارەکانی ڕۆژانە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdomestics9("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdomestics9("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "The family employed a domestic to assist with daily chores.",
+            kurdishText:
+                "خێزانەکە خزمەتکارێکیان بە کرێ گرت بۆ یارمەتیدان لە کارەکانی ڕۆژانە.",
+            onPressedBritish: () => speakdomestics9("en-GB"),
+            onPressedAmerican: () => speakdomestics9("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٦. (ناو) شەڕێک لە نێوان دوو ئەندامی ھەمان خێزان"),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "The police were called to sort out a domestic."),
-                    ExampleSentenceKurdish(
-                        text: "پۆلیس بانگکران بۆ چارەسەری کێشەیەکی خێزانی."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdomestics10("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdomestics10("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "The police were called to sort out a domestic.",
+            kurdishText: "پۆلیس بانگکران بۆ چارەسەری کێشەیەکی خێزانی.",
+            onPressedBritish: () => speakdomestics10("en-GB"),
+            onPressedAmerican: () => speakdomestics10("en-US"),
           ),
           // domestics1100"),
           // speakdomestics11

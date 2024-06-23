@@ -241,59 +241,22 @@ class KurdishMeaning extends StatelessWidget {
 """),
           const DefinitionKurdish(
               text: "١. (ناو) ئەوەی کە کەسێک ڕێزی کەسانی دیکە لەدەست دەدات"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The players' behaviour on the field is likely to bring the game into disrepute."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "ڕەفتاری یاریزانەکان ئەگەری ھەیە لە ڕێزی یارییەکە کەم بکاتەوە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "disrepute", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdisreputes1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdisreputes1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "The players' behaviour on the field is likely to bring the game into disrepute.",
+            kurdishText:
+                "ڕەفتاری یاریزانەکان ئەگەری ھەیە لە ڕێزی یارییەکە کەم بکاتەوە.", // disrepute
+            onPressedBritish: () => speakdisreputes1("en-GB"),
+            onPressedAmerican: () => speakdisreputes1("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "The old system had fallen into disrepute."),
-                    ExampleSentenceKurdish(text: "سیستەمە کۆنەکە بێڕێز بووە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdisreputes2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdisreputes2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "The old system had fallen into disrepute.",
+            kurdishText: "سیستەمە کۆنەکە بێڕێز بووە.",
+            onPressedBritish: () => speakdisreputes2("en-GB"),
+            onPressedAmerican: () => speakdisreputes2("en-US"),
           ),
           // disreputes300"),
           // speakdisreputes3

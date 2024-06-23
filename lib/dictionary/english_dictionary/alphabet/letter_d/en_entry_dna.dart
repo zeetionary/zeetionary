@@ -381,61 +381,24 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "١. (ناو) مادەی کیمیایی لە خانەی ڕووەک و گیانلەبەر کە جینی زانیاری ھەڵدەگرێت"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "A DNA test confirmed the suspect had been at the scene of the crime."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "پشکنینێکی دی‌ئێن‌ئەی ئەوەی دڵنیاکردەوە کە گومانلێکراوەکە لە شوێنی تاوانە بوو."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "DNA", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakDNAs1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakDNAs1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "A DNA test confirmed the suspect had been at the scene of the crime.",
+            kurdishText:
+                "پشکنینێکی دی‌ئێن‌ئەی ئەوەی دڵنیاکردەوە کە گومانلێکراوەکە لە شوێنی تاوانە بوو.", // DNA
+            onPressedBritish: () => speakDNAs1("en-GB"),
+            onPressedAmerican: () => speakDNAs1("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
                   "٢. (ناو) ئەو خاسیەت و تایبەتمەندییانەی کە بەشێکن لە ناسنامەی کەسێک"),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "The desire to win is part of his DNA."),
-                    ExampleSentenceKurdish(text: "خولیای بردنەوە لە خوێنیەتی."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakDNAs2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakDNAs2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "The desire to win is part of his DNA.",
+            kurdishText: "خولیای بردنەوە لە خوێنیەتی.",
+            onPressedBritish: () => speakDNAs2("en-GB"),
+            onPressedAmerican: () => speakDNAs2("en-US"),
           ),
           // "I didn't think it was in my DNA to get on stage and sing like that."),
           //           ExampleSentenceKurdish(text: "پێم وانییە کە لە ناسنامەم بوو ."),

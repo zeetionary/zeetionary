@@ -278,151 +278,55 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "١. (ھاوەڵناو) خانوویەک کە دەرووبەری چۆڵە و لە تەنیشت خانووی دیکە نییە"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "Prices are rising so fast that people can't afford detached houses."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "نرخەکان ھێندە خێرا بەرزدەبنەوە کە خەڵکی ناتوانن تێچووی خانووی تەنیاکەوتوو بدەن."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "detached", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdetacheds1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdetacheds1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "Prices are rising so fast that people can't afford detached houses.",
+            kurdishText:
+                "نرخەکان ھێندە خێرا بەرزدەبنەوە کە خەڵکی ناتوانن تێچووی خانووی تەنیاکەوتوو بدەن.", // detached
+            onPressedBritish: () => speakdetacheds1("en-GB"),
+            onPressedAmerican: () => speakdetacheds1("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: "٢. (ھاوەڵناو) پیشان نەدانی ھەست"),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "She seemed a bit detached, as if her mind were on other things."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "کەمێک کەمتەرخەم دیاربوو وەک ئەوەی بیری لای شتی دیکە بێت."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdetacheds2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdetacheds2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "She seemed a bit detached, as if her mind were on other things.",
+            kurdishText:
+                "کەمێک کەمتەرخەم دیاربوو وەک ئەوەی بیری لای شتی دیکە بێت.",
+            onPressedBritish: () => speakdetacheds2("en-GB"),
+            onPressedAmerican: () => speakdetacheds2("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "She spoke in a normal, detached tone."),
-                    ExampleSentenceKurdish(
-                        text: "بە تۆنێکی ئاسایی بە‌ھەستانە قسەی کرد."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdetacheds3("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdetacheds3("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "She spoke in a normal, detached tone.",
+            kurdishText: "بە تۆنێکی ئاسایی بە‌ھەستانە قسەی کرد.",
+            onPressedBritish: () => speakdetacheds3("en-GB"),
+            onPressedAmerican: () => speakdetacheds3("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٣. (ھاوەڵناو) کە کاریگەر نییە بە شتی دیکە"),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "She tries to remain emotionally detached from her patients."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "ھەوڵیدا لە ڕووی سۆزەوە دابڕاو بێت لە نەخۆشەکانی."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdetacheds4("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdetacheds4("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "She tries to remain emotionally detached from her patients.",
+            kurdishText: "ھەوڵیدا لە ڕووی سۆزەوە دابڕاو بێت لە نەخۆشەکانی.",
+            onPressedBritish: () => speakdetacheds4("en-GB"),
+            onPressedAmerican: () => speakdetacheds4("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "Throughout the novel, the story is seen through the eyes of a detached observer."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "بە درێژایی ڕۆمانەکە، چیرۆکەکە دەبینرێت لە چاوی بینەرێکی بێ‌لایەنەوە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdetacheds5("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdetacheds5("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "Throughout the novel, the story is seen through the eyes of a detached observer.",
+            kurdishText:
+                "بە درێژایی ڕۆمانەکە، چیرۆکەکە دەبینرێت لە چاوی بینەرێکی بێ‌لایەنەوە.",
+            onPressedBritish: () => speakdetacheds5("en-GB"),
+            onPressedAmerican: () => speakdetacheds5("en-US"),
           ),
           // detacheds600"),
           // speakdetacheds6

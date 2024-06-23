@@ -409,621 +409,196 @@ class KurdishMeaning extends StatelessWidget {
 // """),
           const DefinitionKurdish(
               text: "١. (کردار) گەیاندن لە جێگایەکەوە بۆ یەکێکی دیکە"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "I get my food delivered from the supermarket to save time."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "بۆ گەڕاندنەوەی کات خواردنەکەم لە سوپەرمارکێتەکەوە بۆ دەنێردرێت."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "deliver", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdelivers1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdelivers1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "I get my food delivered from the supermarket to save time.",
+            kurdishText:
+                "بۆ گەڕاندنەوەی کات خواردنەکەم لە سوپەرمارکێتەکەوە بۆ دەنێردرێت.", // deliver
+            onPressedBritish: () => speakdelivers1("en-GB"),
+            onPressedAmerican: () => speakdelivers1("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "Leaflets have been delivered to every household."),
-                    ExampleSentenceKurdish(
-                        text: "نامیلکە نێردراوە بۆ ھەموو ماڵێک."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdelivers2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdelivers2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "Leaflets have been delivered to every household.",
+            kurdishText: "نامیلکە نێردراوە بۆ ھەموو ماڵێک.",
+            onPressedBritish: () => speakdelivers2("en-GB"),
+            onPressedAmerican: () => speakdelivers2("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "We promise to deliver within 48 hours."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "بەڵێن دەدەین لە ماوەی ٤٨ کاتژمێردا گەیاندن بکەین."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdelivers3("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdelivers3("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "We promise to deliver within 48 hours.",
+            kurdishText: "بەڵێن دەدەین لە ماوەی ٤٨ کاتژمێردا گەیاندن بکەین.",
+            onPressedBritish: () => speakdelivers3("en-GB"),
+            onPressedAmerican: () => speakdelivers3("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "We deliver to our stores seven days a week."),
-                    ExampleSentenceKurdish(
-                        text: "حەوت ڕۆژی ھەفتە گەیاندن دەکەین بۆ کۆگاکانمان."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdelivers4("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdelivers4("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "We deliver to our stores seven days a week.",
+            kurdishText: "حەوت ڕۆژی ھەفتە گەیاندن دەکەین بۆ کۆگاکانمان.",
+            onPressedBritish: () => speakdelivers4("en-GB"),
+            onPressedAmerican: () => speakdelivers4("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "The company will deliver free of charge."),
-                    ExampleSentenceKurdish(
-                        text: "کۆمپانیاکە بە بێ‌بەرامبەر گەیاندن دەکات."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdelivers5("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdelivers5("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "The company will deliver free of charge.",
+            kurdishText: "کۆمپانیاکە بە بێ‌بەرامبەر گەیاندن دەکات.",
+            onPressedBritish: () => speakdelivers5("en-GB"),
+            onPressedAmerican: () => speakdelivers5("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٢. (کردار) پێدان یان ناردنی زانیاری بە کەسێک"),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "Let me deliver the good news first."),
-                    ExampleSentenceKurdish(
-                        text: "بھێڵە سەرەتا ھەواڵە خۆشەکە بڵێم."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdelivers6("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdelivers6("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "Let me deliver the good news first.",
+            kurdishText: "بھێڵە سەرەتا ھەواڵە خۆشەکە بڵێم.",
+            onPressedBritish: () => speakdelivers6("en-GB"),
+            onPressedAmerican: () => speakdelivers6("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The video delivers a clear message about road safety."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "ڤیدیۆکە پەیامێکی ڕوون سەبارەت بە سەلامەتی سەر شەقام دەگەیەنێت."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdelivers7("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdelivers7("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "The video delivers a clear message about road safety.",
+            kurdishText:
+                "ڤیدیۆکە پەیامێکی ڕوون سەبارەت بە سەلامەتی سەر شەقام دەگەیەنێت.",
+            onPressedBritish: () => speakdelivers7("en-GB"),
+            onPressedAmerican: () => speakdelivers7("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "Our courses are delivered via the internet."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "کۆرسەکەمان لە ڕێگەی ئینتەرنێتەوە پێشکەش دەکرێن."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdelivers8("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdelivers8("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "Our courses are delivered via the internet.",
+            kurdishText: "کۆرسەکەمان لە ڕێگەی ئینتەرنێتەوە پێشکەش دەکرێن.",
+            onPressedBritish: () => speakdelivers8("en-GB"),
+            onPressedAmerican: () => speakdelivers8("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٣. (کردار) پێشکەشکردنی وتارێک، نمایشێک، ڕاگەیاندنێک، ھتد"),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "She will deliver a major speech on foreign policy tomorrow."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "سبەی ڕاگەیاندنێکی گرنگی لەسەر سیاسەتی دەرەوە دەبێت."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdelivers9("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdelivers9("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "She will deliver a major speech on foreign policy tomorrow.",
+            kurdishText: "سبەی ڕاگەیاندنێکی گرنگی لەسەر سیاسەتی دەرەوە دەبێت.",
+            onPressedBritish: () => speakdelivers9("en-GB"),
+            onPressedAmerican: () => speakdelivers9("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "She is due to deliver a lecture on genetic engineering."),
-                    ExampleSentenceKurdish(
-                        text: "وانەیەک لەسەر ئەندازیاری جینات پێشکەش دەکات."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdelivers10("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdelivers10("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "She is due to deliver a lecture on genetic engineering.",
+            kurdishText: "وانەیەک لەسەر ئەندازیاری جینات پێشکەش دەکات.",
+            onPressedBritish: () => speakdelivers10("en-GB"),
+            onPressedAmerican: () => speakdelivers10("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The Court delivered its judgement earlier this month."),
-                    ExampleSentenceKurdish(
-                        text: "دادگا سەرەتای ئەم مانگە بڕیاری دا."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdelivers11("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdelivers11("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "The Court delivered its judgement earlier this month.",
+            kurdishText: "دادگا سەرەتای ئەم مانگە بڕیاری دا.",
+            onPressedBritish: () => speakdelivers11("en-GB"),
+            onPressedAmerican: () => speakdelivers11("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
                   "٤. (کردار) کردنی ئەوەی کە بەڵێنت داوە یان چاوەڕوان دەکرێت بیکەیت"),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "He has promised to finish the job by June and I am sure he will deliver."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "بەڵێنی داوە تاوەکو حوزەیران کارەکە تەواو بکات و دڵنیام پابەند دەبێت."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdelivers12("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdelivers12("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "He has promised to finish the job by June and I am sure he will deliver.",
+            kurdishText:
+                "بەڵێنی داوە تاوەکو حوزەیران کارەکە تەواو بکات و دڵنیام پابەند دەبێت.",
+            onPressedBritish: () => speakdelivers12("en-GB"),
+            onPressedAmerican: () => speakdelivers12("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "She always delivers on her promises."),
-                    ExampleSentenceKurdish(
-                        text: "ھەمیشە پابەندی بەڵێنەکانی دەبێت."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdelivers13("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdelivers13("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "She always delivers on her promises.",
+            kurdishText: "ھەمیشە پابەندی بەڵێنەکانی دەبێت.",
+            onPressedBritish: () => speakdelivers13("en-GB"),
+            onPressedAmerican: () => speakdelivers13("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The team delivered a stunning victory last night."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "تیمەکە شەوی ڕابردوو سەرکەوتنێکی ناوازەی پێشکەش کرد."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdelivers14("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdelivers14("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "The team delivered a stunning victory last night.",
+            kurdishText: "تیمەکە شەوی ڕابردوو سەرکەوتنێکی ناوازەی پێشکەش کرد.",
+            onPressedBritish: () => speakdelivers14("en-GB"),
+            onPressedAmerican: () => speakdelivers14("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: "٥. (کردار) بردنی کەسێک بۆ شوێنێک"),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "She delivered the kids on time at their father's house."),
-                    ExampleSentenceKurdish(
-                        text: "لە کاتی خۆیدا منداڵەکانی بردە ماڵی باوکیان."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdelivers15("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdelivers15("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "She delivered the kids on time at their father's house.",
+            kurdishText: "لە کاتی خۆیدا منداڵەکانی بردە ماڵی باوکیان.",
+            onPressedBritish: () => speakdelivers15("en-GB"),
+            onPressedAmerican: () => speakdelivers15("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "The taxi delivered us to our hotel."),
-                    ExampleSentenceKurdish(
-                        text: "تەکسییەکە گەیاندمانییە ھوتێلەکە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdelivers16("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdelivers16("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "The taxi delivered us to our hotel.",
+            kurdishText: "تەکسییەکە گەیاندمانییە ھوتێلەکە.",
+            onPressedBritish: () => speakdelivers16("en-GB"),
+            onPressedAmerican: () => speakdelivers16("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "They delivered their prisoner over to the invading army."),
-                    ExampleSentenceKurdish(
-                        text: "زیندانییەکەیان دا بەدەست سوپای داگیرکەرەوە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdelivers17("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdelivers17("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "They delivered their prisoner over to the invading army.",
+            kurdishText: "زیندانییەکەیان دا بەدەست سوپای داگیرکەرەوە.",
+            onPressedBritish: () => speakdelivers17("en-GB"),
+            onPressedAmerican: () => speakdelivers17("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٦. (کردار) یارمەتیدانی ژنێک لە منداڵبووندا"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "The baby was delivered by Caesarean section."),
-                    ExampleSentenceKurdish(
-                        text: "منداڵەکە بە نەشتەرگەری لەدایکبوو."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdelivers18("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdelivers18("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "The baby was delivered by Caesarean section.",
+            kurdishText: "منداڵەکە بە نەشتەرگەری لەدایکبوو.",
+            onPressedBritish: () => speakdelivers18("en-GB"),
+            onPressedAmerican: () => speakdelivers18("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The baby was delivered safely on Tuesday night."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "منداڵەکە بە سەلامەتی لە ڕۆژی سێشەممە لەدایکبوو."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdelivers19("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdelivers19("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "The baby was delivered safely on Tuesday night.",
+            kurdishText: "منداڵەکە بە سەلامەتی لە ڕۆژی سێشەممە لەدایکبوو.",
+            onPressedBritish: () => speakdelivers19("en-GB"),
+            onPressedAmerican: () => speakdelivers19("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: "٧. (کردار) منداڵبوون"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The number of women delivering their babies in hospital increased."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "ژمارەی ئەو ژنانەی لە نەخۆشخانە منداڵیان  بوو زیادی کردووە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdelivers20("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdelivers20("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "The number of women delivering their babies in hospital increased.",
+            kurdishText:
+                "ژمارەی ئەو ژنانەی لە نەخۆشخانە منداڵیان  بوو زیادی کردووە.",
+            onPressedBritish: () => speakdelivers20("en-GB"),
+            onPressedAmerican: () => speakdelivers20("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "She was delivered of a healthy boy."),
-                    ExampleSentenceKurdish(text: "کوڕێکی تەندرووستی بوو."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdelivers21("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdelivers21("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "She was delivered of a healthy boy.",
+            kurdishText: "کوڕێکی تەندرووستی بوو.",
+            onPressedBritish: () => speakdelivers21("en-GB"),
+            onPressedAmerican: () => speakdelivers21("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٨. (کردار) فڕێدان یان ئامانجگرتنەوە لە شتێک"),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "He delivered the blow (= hit somebody hard) with all his force."),
-                    ExampleSentenceKurdish(
-                        text: "بە ھەموو توانای مشتێکی وەشاند."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdelivers22("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdelivers22("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "He delivered the blow (= hit somebody hard) with all his force.",
+            kurdishText: "بە ھەموو توانای مشتێکی وەشاند.",
+            onPressedBritish: () => speakdelivers22("en-GB"),
+            onPressedAmerican: () => speakdelivers22("en-US"),
           ),
         ],
       ),

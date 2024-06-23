@@ -364,32 +364,13 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   """١. (ناو) کەسێک کە بەژادر دەبێت لە پشووی ڕێکخراو کە دیزاینکراوە تاوەکو گەشتیاران کەمترین زیان بە ژینگە بگەیەنن، و بەشێک لە پارەکەیان بۆ پاراستنی ژینگە و ئاژەڵی ناوخۆیی"""),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            """She became an ecotourist to support conservation efforts."""),
-                    ExampleSentenceKurdish(
-                        text:
-                            """بوو بە ژینگەگەڕوان بۆ پشتگیری ھەوڵەکانی ژینگەپارێزی."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "ecotourist", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakecotourists1("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakecotourists1("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                """She became an ecotourist to support conservation efforts.""",
+            kurdishText:
+                """بوو بە ژینگەگەڕوان بۆ پشتگیری ھەوڵەکانی ژینگەپارێزی.""", // ecotourist
+            onPressedBritish: () => speakecotourists1("en-GB"),
+            onPressedAmerican: () => speakecotourists1("en-US"),
           ),
           // ecotourists200ecotourists2
           // speakecotourists2

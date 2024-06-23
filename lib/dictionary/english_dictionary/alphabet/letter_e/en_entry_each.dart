@@ -395,142 +395,47 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   """١. (دیارخەر، جێناو، ھاوەڵکار) بۆ ناوھێنانی ھەموو ئەو کەس و شتانەی سەر بە گرووپێکن، کە یەک بە یەک بیریان لێ دەکەیتەوە"""),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: """Each answer is worth 20 points."""),
-                    ExampleSentenceKurdish(
-                        text: """ھەر وەڵامێک ٢٠ نمرەی لەسەرە."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "each", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakeachs1("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakeachs1("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: """Each answer is worth 20 points.""",
+            kurdishText: """ھەر وەڵامێک ٢٠ نمرەی لەسەرە.""", // each
+            onPressedBritish: () => speakeachs1("en-GB"),
+            onPressedAmerican: () => speakeachs1("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: """Each of the answers is worth 20 points."""),
-                    ExampleSentenceKurdish(
-                        text: """ھەریەکێک لە وەڵامەکان ٢٠ نمرەی لەسەرە."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakeachs2("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakeachs2("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: """Each of the answers is worth 20 points.""",
+            kurdishText: """ھەریەکێک لە وەڵامەکان ٢٠ نمرەی لەسەرە.""",
+            onPressedBritish: () => speakeachs2("en-GB"),
+            onPressedAmerican: () => speakeachs2("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: """The answers are worth 20 points each."""),
-                    ExampleSentenceKurdish(
-                        text:
-                            """وەڵامەکان ٢٠ نمرەیان لەسەرە بۆ ھەر یەکێکیان."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakeachs3("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakeachs3("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: """The answers are worth 20 points each.""",
+            kurdishText: """وەڵامەکان ٢٠ نمرەیان لەسەرە بۆ ھەر یەکێکیان.""",
+            onPressedBritish: () => speakeachs3("en-GB"),
+            onPressedAmerican: () => speakeachs3("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: """We each have our own car."""),
-                    ExampleSentenceKurdish(
-                        text: """ھەر یەکێکمان ئۆتۆمبێلی خۆمان ھەیە."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakeachs4("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakeachs4("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: """We each have our own car.""",
+            kurdishText: """ھەر یەکێکمان ئۆتۆمبێلی خۆمان ھەیە.""",
+            onPressedBritish: () => speakeachs4("en-GB"),
+            onPressedAmerican: () => speakeachs4("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(text: """They lost £40 each."""),
-                    ExampleSentenceKurdish(
-                        text: """ھەر یەکێکیان ٤٠ پاوەندی زەرەرکرد."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakeachs5("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakeachs5("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: """They lost £40 each.""",
+            kurdishText: """ھەر یەکێکیان ٤٠ پاوەندی زەرەرکرد.""",
+            onPressedBritish: () => speakeachs5("en-GB"),
+            onPressedAmerican: () => speakeachs5("en-US"),
           ),
           // eachs600eachs6
           // speakeachs6

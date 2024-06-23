@@ -239,54 +239,18 @@ class KurdishMeaning extends StatelessWidget {
 کوردی: سەماکار، سەماکەر، ڕەخس‌کێش، دانسێر
 """),
           const DefinitionKurdish(text: "١. (ناو) کەسێک کە سەما دەکات"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(text: "She's a fantastic dancer."),
-                    ExampleSentenceKurdish(text: "سەماکارێکی ناوازەیە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "dancer", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdancers1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdancers1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "She's a fantastic dancer.",
+            kurdishText: "سەماکارێکی ناوازەیە.", // dancer
+            onPressedBritish: () => speakdancers1("en-GB"),
+            onPressedAmerican: () => speakdancers1("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "He's a principal dancer with the Royal Ballet."),
-                    ExampleSentenceKurdish(
-                        text: "سەماکارێکی سەرەکییە لە بالێی شاھانە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdancers2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdancers2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "He's a principal dancer with the Royal Ballet.",
+            kurdishText: "سەماکارێکی سەرەکییە لە بالێی شاھانە.",
+            onPressedBritish: () => speakdancers2("en-GB"),
+            onPressedAmerican: () => speakdancers2("en-US"),
           ),
         ],
       ),

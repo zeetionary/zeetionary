@@ -363,30 +363,11 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "١. (ناو) ھەستکردن بەوەی ھەموو شتێک دەسووڕێتەوە ناتوانیت ھاوسەنگی ڕابگریت"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "He complained of headaches and dizziness."),
-                    ExampleSentenceKurdish(
-                        text: "بە دەست دەرێشە و سەرەگێژە دەیناڵاند."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "dizziness", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdizzinesss1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdizzinesss1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "He complained of headaches and dizziness.",
+            kurdishText: "بە دەست دەرێشە و سەرەگێژە دەیناڵاند.", // dizziness
+            onPressedBritish: () => speakdizzinesss1("en-GB"),
+            onPressedAmerican: () => speakdizzinesss1("en-US"),
           ),
           // dizzinesss200"),
           // speakdizzinesss2

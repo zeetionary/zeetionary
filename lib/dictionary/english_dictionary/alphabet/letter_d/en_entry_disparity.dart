@@ -243,61 +243,23 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "١. (ناو) جیاوازییەک، بەتایبەتی کە پەیوەندی ھەیە بە نادادپەروەرییەوە"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The wide disparity between rich and poor was highlighted."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "جیاوازی نێوان دەوڵەمەند و ھەژار تیشكی خرایەسەر."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "disparity", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdisparitys1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdisparitys1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "The wide disparity between rich and poor was highlighted.",
+            kurdishText:
+                "جیاوازی نێوان دەوڵەمەند و ھەژار تیشكی خرایەسەر.", // disparity
+            onPressedBritish: () => speakdisparitys1("en-GB"),
+            onPressedAmerican: () => speakdisparitys1("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "There are growing regional disparities in economic prosperity."),
-                    ExampleSentenceKurdish(
-                        text: "جیاوازیی ھەرێمی زۆر ھەیە لە گەشەی ئابووریدا."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdisparitys2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdisparitys2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "There are growing regional disparities in economic prosperity.",
+            kurdishText: "جیاوازیی ھەرێمی زۆر ھەیە لە گەشەی ئابووریدا.",
+            onPressedBritish: () => speakdisparitys2("en-GB"),
+            onPressedAmerican: () => speakdisparitys2("en-US"),
           ),
           // disparitys300"),
           // speakdisparitys3

@@ -254,62 +254,24 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "١. (ناو) ئامرازی ناساندن؛ وشەی the لە زمانی ئینگلیزیدا، یان وشەی ھاوشێوە لە زمانێکی دیکەدا"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "In French, you must include either the definite article 'le' or 'la', or the indefinite article 'un' or 'une', before a noun."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "لە فەرەنسیدا دەبێت ھەر یەکێک لە ئامرازی ناسیاوی 'le' یان 'la'، یان ئامرازی نەناسراوی 'un' یان 'une' لە پێش ناوەوە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "definite article", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdefinitearticles1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdefinitearticles1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "In French, you must include either the definite article 'le' or 'la', or the indefinite article 'un' or 'une', before a noun.",
+            kurdishText:
+                "لە فەرەنسیدا دەبێت ھەر یەکێک لە ئامرازی ناسیاوی 'le' یان 'la'، یان ئامرازی نەناسراوی 'un' یان 'une' لە پێش ناوەوە.", // definite article
+            onPressedBritish: () => speakdefinitearticles1("en-GB"),
+            onPressedAmerican: () => speakdefinitearticles1("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "Remember to use the definite article before 'radio' in sentences like 'I was listening to the radio'."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "بیرت نەچێت کە ئامرازی ناسراوی لە پێش 'radio' بەکاربێنیت لە ڕستەکان وەک 'I was listening to the radio'."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdefinitearticles2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdefinitearticles2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "Remember to use the definite article before 'radio' in sentences like 'I was listening to the radio'.",
+            kurdishText:
+                "بیرت نەچێت کە ئامرازی ناسراوی لە پێش 'radio' بەکاربێنیت لە ڕستەکان وەک 'I was listening to the radio'.",
+            onPressedBritish: () => speakdefinitearticles2("en-GB"),
+            onPressedAmerican: () => speakdefinitearticles2("en-US"),
           ),
           // definitearticles300"),
           // speakdefinitearticles3

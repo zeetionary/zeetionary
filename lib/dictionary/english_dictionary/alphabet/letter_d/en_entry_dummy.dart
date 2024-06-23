@@ -405,151 +405,55 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   """١. (ناو) نموونەیەک لە شیوەی مرۆڤدا کە زۆرجار لە فرۆشگاکاندا جلی لەبەر دەکرێت"""),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            """The dummies in the store windows wore new outfits."""),
-                    ExampleSentenceKurdish(
-                        text:
-                            """نموونەکانی پەنجەرەی فرۆشگاکە جلی تازەیان لەبەر بوو."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "dummy", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdummys1("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdummys1("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                """The dummies in the store windows wore new outfits.""",
+            kurdishText:
+                """نموونەکانی پەنجەرەی فرۆشگاکە جلی تازەیان لەبەر بوو.""", // dummy
+            onPressedBritish: () => speakdummys1("en-GB"),
+            onPressedAmerican: () => speakdummys1("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text: """٢. (ناو) شتێک کە وەک ڕاستی دەردەکەوێت بەڵام ساختەیە"""),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            """The bottles of whisky on display are all dummies."""),
-                    ExampleSentenceKurdish(
-                        text:
-                            """بوتڵە ویسکییەکان کە لە نمایشدان ھەموویان ساختەن."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdummys2("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdummys2("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                """The bottles of whisky on display are all dummies.""",
+            kurdishText: """بوتڵە ویسکییەکان کە لە نمایشدان ھەموویان ساختەن.""",
+            onPressedBritish: () => speakdummys2("en-GB"),
+            onPressedAmerican: () => speakdummys2("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: """٣. (ناو) کەسێکی گەمژە"""),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: """Don't just stand there, you dummy."""),
-                    ExampleSentenceKurdish(
-                        text: """تەنھا لەوێ مەوەستە، گەمژە."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdummys3("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdummys3("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: """Don't just stand there, you dummy.""",
+            kurdishText: """تەنھا لەوێ مەوەستە، گەمژە.""",
+            onPressedBritish: () => speakdummys3("en-GB"),
+            onPressedAmerican: () => speakdummys3("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: """٤. (ھاوەڵناو) ساختە"""),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: """They used a dummy bomb in the drill."""),
-                    ExampleSentenceKurdish(
-                        text: """لە مەشقەکەدا بۆمبێکی ساختەیان بەکارھێنا."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdummys4("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdummys4("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: """They used a dummy bomb in the drill.""",
+            kurdishText: """لە مەشقەکەدا بۆمبێکی ساختەیان بەکارھێنا.""",
+            onPressedBritish: () => speakdummys4("en-GB"),
+            onPressedAmerican: () => speakdummys4("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
                   """٥. (کردار) واپیشاندان کە ھەنگاوێکی دیاریکراو دەنێیت بۆ سەرشێواندن لە دووژمنەکەت"""),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            """She dummied a shot that brought the goalie to her knees."""),
-                    ExampleSentenceKurdish(
-                        text:
-                            """شووتێکی بە ساختەوە لێدا کە گۆڵپارێزەکەی خستە سەر ئەژنۆ."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdummys5("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdummys5("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                """She dummied a shot that brought the goalie to her knees.""",
+            kurdishText:
+                """شووتێکی بە ساختەوە لێدا کە گۆڵپارێزەکەی خستە سەر ئەژنۆ.""",
+            onPressedBritish: () => speakdummys5("en-GB"),
+            onPressedAmerican: () => speakdummys5("en-US"),
           ),
           // """He was accused of dummying a penalty.
           // speakdummys6

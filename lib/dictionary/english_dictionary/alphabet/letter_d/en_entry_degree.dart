@@ -356,422 +356,129 @@ class KurdishMeaning extends StatelessWidget {
 کوردی: پلە (بە نیشانەی °)،	ڕێژە، ڕادە، دانگ، ئەندازە، ئاڤەند، ئاست، دۆخ، پەرەسە،	پلەوپایە، پایە، پۆست،	کۆن بایەخ یان پێگەی کۆمەڵایەتی،	بڕوانامە (ی زانکۆیی)،	(موسیقا)، پلە،	(ڕێزمان) پلە
 """),
           const DefinitionKurdish(text: "١. (ناو) یەکەی پێوانی گەرمی"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "Water freezes at 32 degrees Fahrenheit (32°F) or zero/nought degrees Celsius (0°C)."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "ئاو لە پلەی ٣٢ پلەی فەھرنایت یان سفری سیلیزی دەیبەستێت."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "degree", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdegrees1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdegrees1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "Water freezes at 32 degrees Fahrenheit (32°F) or zero/nought degrees Celsius (0°C).",
+            kurdishText:
+                "ئاو لە پلەی ٣٢ پلەی فەھرنایت یان سفری سیلیزی دەیبەستێت.", // degree
+            onPressedBritish: () => speakdegrees1("en-GB"),
+            onPressedAmerican: () => speakdegrees1("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "Temperatures are expected to drop below 2 degrees."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "پلەکانی گەرمی پێشبینی دەکرێن دابەزن بۆ خوار ٢ پلە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdegrees2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdegrees2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "Temperatures are expected to drop below 2 degrees.",
+            kurdishText: "پلەکانی گەرمی پێشبینی دەکرێن دابەزن بۆ خوار ٢ پلە.",
+            onPressedBritish: () => speakdegrees2("en-GB"),
+            onPressedAmerican: () => speakdegrees2("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "Last weekend temperatures reached 40 degrees."),
-                    ExampleSentenceKurdish(
-                        text: "پلەکانی گەرمی ھەفتەی پێشوو گەشتن بە ٤٠ پلە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdegrees3("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdegrees3("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "Last weekend temperatures reached 40 degrees.",
+            kurdishText: "پلەکانی گەرمی ھەفتەی پێشوو گەشتن بە ٤٠ پلە.",
+            onPressedBritish: () => speakdegrees3("en-GB"),
+            onPressedAmerican: () => speakdegrees3("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: "٢. (ناو) یەکەی پێوانی گۆشە"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "I turned the wheel 90 degrees,"),
-                    ExampleSentenceKurdish(text: "ویلەکەم بە ٩٠ پلە بادایەوە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdegrees4("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdegrees4("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "I turned the wheel 90 degrees,",
+            kurdishText: "ویلەکەم بە ٩٠ پلە بادایەوە.",
+            onPressedBritish: () => speakdegrees4("en-GB"),
+            onPressedAmerican: () => speakdegrees4("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "Place the shelf at a 90 degree angle to the wall."),
-                    ExampleSentenceKurdish(
-                        text: "ڕەفەکە بە ٩٠ پلە لەگەڵ دیوارەکە دابنێ."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdegrees5("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdegrees5("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "Place the shelf at a 90 degree angle to the wall.",
+            kurdishText: "ڕەفەکە بە ٩٠ پلە لەگەڵ دیوارەکە دابنێ.",
+            onPressedBritish: () => speakdegrees5("en-GB"),
+            onPressedAmerican: () => speakdegrees5("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The car had spun through 180 degrees on impact."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "ئۆۆتمبێلەکە ١٨٠ پلە خولابوویەوە لەگەڵ بەرکەوتندا."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdegrees6("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdegrees6("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "The car had spun through 180 degrees on impact.",
+            kurdishText: "ئۆۆتمبێلەکە ١٨٠ پلە خولابوویەوە لەگەڵ بەرکەوتندا.",
+            onPressedBritish: () => speakdegrees6("en-GB"),
+            onPressedAmerican: () => speakdegrees6("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: "٣. (ناو) بڕ یان ئاستی شتێک"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "Her job demands a high degree of skill."),
-                    ExampleSentenceKurdish(
-                        text: "کارەکەی پێویستی بە ئاستێکی زۆری شارەزایی ھەیە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdegrees7("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdegrees7("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "Her job demands a high degree of skill.",
+            kurdishText: "کارەکەی پێویستی بە ئاستێکی زۆری شارەزایی ھەیە.",
+            onPressedBritish: () => speakdegrees7("en-GB"),
+            onPressedAmerican: () => speakdegrees7("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "I agree with you to a certain degree."),
-                    ExampleSentenceKurdish(
-                        text: "بە ئاستی جیاواز لەگەڵت ھاوڕام."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdegrees8("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdegrees8("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "I agree with you to a certain degree.",
+            kurdishText: "بە ئاستی جیاواز لەگەڵت ھاوڕام.",
+            onPressedBritish: () => speakdegrees8("en-GB"),
+            onPressedAmerican: () => speakdegrees8("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The reaction to his decision has been, to some degree, predictable."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "کاردانەوە بۆ بڕیارەکەی تا ئاستێک پێشبینیکراو بووە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdegrees9("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdegrees9("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "The reaction to his decision has been, to some degree, predictable.",
+            kurdishText: "کاردانەوە بۆ بڕیارەکەی تا ئاستێک پێشبینیکراو بووە.",
+            onPressedBritish: () => speakdegrees9("en-GB"),
+            onPressedAmerican: () => speakdegrees9("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "These criticisms are, to a degree (= to some extent), well founded."),
-                    ExampleSentenceKurdish(
-                        text: "ئەم ڕەخنانە تا ئاستێک لە جێگای خۆیاندان."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdegrees10("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdegrees10("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "These criticisms are, to a degree (= to some extent), well founded.",
+            kurdishText: "ئەم ڕەخنانە تا ئاستێک لە جێگای خۆیاندان.",
+            onPressedBritish: () => speakdegrees10("en-GB"),
+            onPressedAmerican: () => speakdegrees10("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
                   "٤. (ناو) بڕوانامەی خوێندکار لەکاتی تەواوکردنی زانکۆ یان کۆرسێک"),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "My brother has a master's degree from Harvard."),
-                    ExampleSentenceKurdish(
-                        text: "براکەم بڕوانامەی ماستەری ھەیە لە ھارڤارد."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdegrees11("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdegrees11("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "My brother has a master's degree from Harvard.",
+            kurdishText: "براکەم بڕوانامەی ماستەری ھەیە لە ھارڤارد.",
+            onPressedBritish: () => speakdegrees11("en-GB"),
+            onPressedAmerican: () => speakdegrees11("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "She's pursuing a degree in biochemistry."),
-                    ExampleSentenceKurdish(
-                        text: "ھەوڵ بۆ بڕوانامەیەک دەدات لە زیندە کیمیادا."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdegrees12("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdegrees12("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "She's pursuing a degree in biochemistry.",
+            kurdishText: "ھەوڵ بۆ بڕوانامەیەک دەدات لە زیندە کیمیادا.",
+            onPressedBritish: () => speakdegrees12("en-GB"),
+            onPressedAmerican: () => speakdegrees12("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "She earned a joint degree in Spanish and Psychology."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "بڕوانامەیەکی ھاوبەشی لە ئیسپانی و دەروونناسی ھێنا."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdegrees13("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdegrees13("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "She earned a joint degree in Spanish and Psychology.",
+            kurdishText: "بڕوانامەیەکی ھاوبەشی لە ئیسپانی و دەروونناسی ھێنا.",
+            onPressedBritish: () => speakdegrees13("en-GB"),
+            onPressedAmerican: () => speakdegrees13("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
                   "٤. (ناو) کۆرسێکی کۆلێژ یان زانکۆ کە زۆرجار سێ ساڵ یان زیاتر دەخایەنێت"),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "I'm hoping to do a chemistry degree."),
-                    ExampleSentenceKurdish(
-                        text: "ھیوادارم کۆرسێکی کیمیا بخوێنم."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdegrees14("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdegrees14("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "I'm hoping to do a chemistry degree.",
+            kurdishText: "ھیوادارم کۆرسێکی کیمیا بخوێنم.",
+            onPressedBritish: () => speakdegrees14("en-GB"),
+            onPressedAmerican: () => speakdegrees14("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "He took a degree in law then joined a law firm."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "کۆرسێکی لە یاسا ئەنجامدا و دواتر چووە کۆمپانیایەکی یاساییەوە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdegrees15("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdegrees15("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "He took a degree in law then joined a law firm.",
+            kurdishText:
+                "کۆرسێکی لە یاسا ئەنجامدا و دواتر چووە کۆمپانیایەکی یاساییەوە.",
+            onPressedBritish: () => speakdegrees15("en-GB"),
+            onPressedAmerican: () => speakdegrees15("en-US"),
           ),
           // degrees1600"),
           // speakdegrees16

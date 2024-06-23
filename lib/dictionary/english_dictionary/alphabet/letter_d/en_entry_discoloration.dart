@@ -250,89 +250,32 @@ class KurdishMeaning extends StatelessWidget {
 کوردی: ڕەنگ‌گۆڕان، ڕەش‌داگەڕان، تێکچوونی ڕەنگ
 """),
           const DefinitionKurdish(text: "١. (ناو) پڕۆسەی تێکچوونی ڕەنگ"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "Brown discolorations appear on the skin."),
-                    ExampleSentenceKurdish(
-                        text: "ڕەش‌داگەڕان لەسەر پێست دەردەکەوێت."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "discoloration", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdiscolorations1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdiscolorations1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "Brown discolorations appear on the skin.",
+            kurdishText: "ڕەش‌داگەڕان لەسەر پێست دەردەکەوێت.", // discoloration
+            onPressedBritish: () => speakdiscolorations1("en-GB"),
+            onPressedAmerican: () => speakdiscolorations1("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "Chips, cracks and discoloration are visible in the concrete."),
-                    ExampleSentenceKurdish(
-                        text: "کەلی و درز و ڕەنگگۆڕان لەسەر کۆنکرێتەکە دیارە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdiscolorations2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdiscolorations2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "Chips, cracks and discoloration are visible in the concrete.",
+            kurdishText: "کەلی و درز و ڕەنگگۆڕان لەسەر کۆنکرێتەکە دیارە.",
+            onPressedBritish: () => speakdiscolorations2("en-GB"),
+            onPressedAmerican: () => speakdiscolorations2("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: "٢. (ناو) شوێنێک کە ڕەنگی گۆڕاوە"),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "He began to notice a few small brown discolorations on his skin and made an appointment to see the doctor."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "دەستیکرد بە تێبینیکردنی ژمارەیەک شوێنی بچووکی قاوەیی بوونەوە لەسەر پێستی و  وادەیەکی بینینی دکتۆرەکەی ڕێکخست."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdiscolorations3("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdiscolorations3("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "He began to notice a few small brown discolorations on his skin and made an appointment to see the doctor.",
+            kurdishText:
+                "دەستیکرد بە تێبینیکردنی ژمارەیەک شوێنی بچووکی قاوەیی بوونەوە لەسەر پێستی و  وادەیەکی بینینی دکتۆرەکەی ڕێکخست.",
+            onPressedBritish: () => speakdiscolorations3("en-GB"),
+            onPressedAmerican: () => speakdiscolorations3("en-US"),
           ),
           // discolorations400"),
           // speakdiscolorations4

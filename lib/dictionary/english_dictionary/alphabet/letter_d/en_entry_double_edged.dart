@@ -371,62 +371,25 @@ class KurdishMeaning extends StatelessWidget {
 // کوردی:
 // """),
           const DefinitionKurdish(text: "١. (ھاوەڵناو) کە دوو سەری ھەیە"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The knife had a double-edged blade for precision cutting."),
-                    ExampleSentenceKurdish(
-                        text: "چەقۆکە دەمێکی دوو سەری ھەبوو بۆ بڕینی ورد."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "double-edged", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdoubleedgeds1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdoubleedgeds1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "The knife had a double-edged blade for precision cutting.",
+            kurdishText:
+                "چەقۆکە دەمێکی دوو سەری ھەبوو بۆ بڕینی ورد.", // double-edged
+            onPressedBritish: () => speakdoubleedgeds1("en-GB"),
+            onPressedAmerican: () => speakdoubleedgeds1("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
                   "٢. (ھاوەڵناو) شتێک کە دەکرێت دوو کاریگەری یان واتای ھەبێت"),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "Wealth and fame can be a double-edged sword (= a situation with both positive and negative effects)."),
-                    ExampleSentenceKurdish(
-                        text: "سامان و ناوبانگ دەکرێت شمشێری دوو سەر بێت."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdoubleedgeds2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdoubleedgeds2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "Wealth and fame can be a double-edged sword (= a situation with both positive and negative effects).",
+            kurdishText: "سامان و ناوبانگ دەکرێت شمشێری دوو سەر بێت.",
+            onPressedBritish: () => speakdoubleedgeds2("en-GB"),
+            onPressedAmerican: () => speakdoubleedgeds2("en-US"),
           ),
           // doubleedgeds300"),
           // speakdoubleedgeds3

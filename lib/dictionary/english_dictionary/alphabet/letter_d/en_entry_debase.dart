@@ -248,85 +248,26 @@ class KurdishMeaning extends StatelessWidget {
 // """),
           const DefinitionKurdish(
               text: "١. (کردار) کەمکردنەوەی ڕێز و شکۆی کەسێک یان شتێک"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "Sport is being debased by commercial sponsorship."),
-                    ExampleSentenceKurdish(
-                        text: "وەرزش بە ڕیکلامی بازرگانی شكۆی دەشکێندرێت."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "debase", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdebases1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdebases1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "Sport is being debased by commercial sponsorship.",
+            kurdishText: "وەرزش بە ڕیکلامی بازرگانی شكۆی دەشکێندرێت.", // debase
+            onPressedBritish: () => speakdebases1("en-GB"),
+            onPressedAmerican: () => speakdebases1("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "Some argue that money has debased football."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "ھەندێک کەس باوەڕیان وایە پارە تۆپی پێی عەیبدار کردووە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdebases2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdebases2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "Some argue that money has debased football.",
+            kurdishText:
+                "ھەندێک کەس باوەڕیان وایە پارە تۆپی پێی عەیبدار کردووە.",
+            onPressedBritish: () => speakdebases2("en-GB"),
+            onPressedAmerican: () => speakdebases2("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "War debases those who take part in it."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "جەنگ ئەو کەسانە عەیبدار دەکات کە بەژداری تێدا دەکەن."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdebases3("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdebases3("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "War debases those who take part in it.",
+            kurdishText: "جەنگ ئەو کەسانە عەیبدار دەکات کە بەژداری تێدا دەکەن.",
+            onPressedBritish: () => speakdebases3("en-GB"),
+            onPressedAmerican: () => speakdebases3("en-US"),
           ),
         ],
       ),

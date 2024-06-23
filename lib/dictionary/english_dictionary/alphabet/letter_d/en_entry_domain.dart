@@ -388,119 +388,42 @@ class KurdishMeaning extends StatelessWidget {
 """),
           const DefinitionKurdish(
               text: "١. (ناو) بوارێکی زانست و زانیاری یان چالاکی"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "Financial matters are her domain."),
-                    ExampleSentenceKurdish(text: "بابەتی دارایی بوارەکەیەتی."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "domain", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdomains1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdomains1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "Financial matters are her domain.",
+            kurdishText: "بابەتی دارایی بوارەکەیەتی.", // domain
+            onPressedBritish: () => speakdomains1("en-GB"),
+            onPressedAmerican: () => speakdomains1("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "Physics used to be very much a male domain."),
-                    ExampleSentenceKurdish(
-                        text: "فیزیا وەھا باوبوو کە بواری پیاوان بێت."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdomains2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdomains2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "Physics used to be very much a male domain.",
+            kurdishText: "فیزیا وەھا باوبوو کە بواری پیاوان بێت.",
+            onPressedBritish: () => speakdomains2("en-GB"),
+            onPressedAmerican: () => speakdomains2("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
                   "٢. (ناو) ژمارەیەک وێبسایت لەسەر ئینتەرنێت کە ھەمان کۆتاییان ھەیە، بۆ نموونە کۆتایی .com"),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The company bought a new domain ending in ‘.com’ for their website."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "کۆمپانیاکە دۆمەینێکی تازەی کڕی بۆ وێبسایتەکەیان کە بە .com کۆتایی دێت."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdomains3("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdomains3("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "The company bought a new domain ending in ‘.com’ for their website.",
+            kurdishText:
+                "کۆمپانیاکە دۆمەینێکی تازەی کڕی بۆ وێبسایتەکەیان کە بە .com کۆتایی دێت.",
+            onPressedBritish: () => speakdomains3("en-GB"),
+            onPressedAmerican: () => speakdomains3("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
                   "٣. (ناو) زەوی‌وزار کە لەلایەن ھەمان کەس، حکومەت، ھتد خاوەندارێتی دەکرێت"),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The Spice Islands were within the Spanish domains."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "دوورگەکانی سپایس لەژێر ھەژموونی ئیسپانیادا بوون."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdomains4("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdomains4("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "The Spice Islands were within the Spanish domains.",
+            kurdishText: "دوورگەکانی سپایس لەژێر ھەژموونی ئیسپانیادا بوون.",
+            onPressedBritish: () => speakdomains4("en-GB"),
+            onPressedAmerican: () => speakdomains4("en-US"),
           ),
           // domains500"),
           // speakdomains5

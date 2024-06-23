@@ -234,32 +234,13 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "١. (ناو) باسێکی درێژ و جدی لەسەر بابەتێک بە قسە یان نووسین"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "He was hoping for some lively political discourse at the meeting."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "بەھیوای ژمارەیەک وتووێژی سیاسی بەگوڕ بوو لە چاوپێکەوتنەکە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "discourse", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdiscourses1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdiscourses1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "He was hoping for some lively political discourse at the meeting.",
+            kurdishText:
+                "بەھیوای ژمارەیەک وتووێژی سیاسی بەگوڕ بوو لە چاوپێکەوتنەکە.", // discourse
+            onPressedBritish: () => speakdiscourses1("en-GB"),
+            onPressedAmerican: () => speakdiscourses1("en-US"),
           ),
           // skipped_meaning
           // const DividerDefinition(),

@@ -361,32 +361,12 @@ class KurdishMeaning extends StatelessWidget {
 کوردی: ماندوو، شەکەت، ھیلاک، کەوەڕە، ڕەتاو، بێ‌قەوەت، لەپەل‌وپۆکەوتوو، لەپێ‌کەوتوو
 """),
           const DefinitionKurdish(text: "١. (ھاوەڵناو) زۆر ماندوو"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "After a long day of hiking, they were dog-tired."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "لە دوای ڕۆژێکی درێژ لە پیادەڕەوی، تەواو شەکەت بوون."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "dog-tired", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdogtireds1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdogtireds1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "After a long day of hiking, they were dog-tired.",
+            kurdishText:
+                "لە دوای ڕۆژێکی درێژ لە پیادەڕەوی، تەواو شەکەت بوون.", // dog-tired
+            onPressedBritish: () => speakdogtireds1("en-GB"),
+            onPressedAmerican: () => speakdogtireds1("en-US"),
           ),
           // dogtireds200"),
           // speakdogtireds2

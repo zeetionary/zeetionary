@@ -252,93 +252,36 @@ class KurdishMeaning extends StatelessWidget {
 """),
           const DefinitionKurdish(
               text: "١. (ناو) دەرچوونی ئێسکێک لە ذوێنی ئاسایی خۆی"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "He suffered a dislocation of the shoulder during the football game."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "تووشی لەجێ‌چوونی شان بوو لە کاتی یاری تۆپی‌پێیەکە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "dislocation", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdislocations1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdislocations1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "He suffered a dislocation of the shoulder during the football game.",
+            kurdishText:
+                "تووشی لەجێ‌چوونی شان بوو لە کاتی یاری تۆپی‌پێیەکە.", // dislocation
+            onPressedBritish: () => speakdislocations1("en-GB"),
+            onPressedAmerican: () => speakdislocations1("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٢. (ناو) کاریگەرییەکی نەرێنی لەسەر کارکردنی شتێک"),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "Snow has caused serious dislocation of/to train services."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "بەفر تێکچوونی زۆری لە خزمەتگوزاریی شەمەندەفەر درووستکردووە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdislocations2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdislocations2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "Snow has caused serious dislocation of/to train services.",
+            kurdishText:
+                "بەفر تێکچوونی زۆری لە خزمەتگوزاریی شەمەندەفەر درووستکردووە.",
+            onPressedBritish: () => speakdislocations2("en-GB"),
+            onPressedAmerican: () => speakdislocations2("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "These policies could cause severe economic and social dislocation."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "سیاسەتەکان دەکرێت ئیفلیجبوونی ئابووری و کۆمەڵایەتی درووست بکات."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdislocations3("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdislocations3("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "These policies could cause severe economic and social dislocation.",
+            kurdishText:
+                "سیاسەتەکان دەکرێت ئیفلیجبوونی ئابووری و کۆمەڵایەتی درووست بکات.",
+            onPressedBritish: () => speakdislocations3("en-GB"),
+            onPressedAmerican: () => speakdislocations3("en-US"),
           ),
           // dislocations400"),
           // speakdislocations4

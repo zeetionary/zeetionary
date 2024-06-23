@@ -233,31 +233,12 @@ class KurdishMeaning extends StatelessWidget {
 """),
           const DefinitionKurdish(
               text: "١. (ئیدیەم) لە دۆخێکی شڵەژاویدا و تێکچووندا"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "I've been in a complete daze since hearing the news."),
-                    ExampleSentenceKurdish(
-                        text: "لەوەتەی بیستنی ھەواڵەکە لە تاساویدا بوومە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "in a daze", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakinadazes1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakinadazes1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "I've been in a complete daze since hearing the news.",
+            kurdishText:
+                "لەوەتەی بیستنی ھەواڵەکە لە تاساویدا بوومە.", // in a daze
+            onPressedBritish: () => speakinadazes1("en-GB"),
+            onPressedAmerican: () => speakinadazes1("en-US"),
           ),
         ],
       ),

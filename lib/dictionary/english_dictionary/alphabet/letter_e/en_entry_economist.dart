@@ -363,32 +363,13 @@ class KurdishMeaning extends StatelessWidget {
 """),
           const DefinitionKurdish(
               text: """١. (ناو) کەسێک کە شارەزایی لە ئابووری ھەیە"""),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            """Many economists are predicting the economy will improve."""),
-                    ExampleSentenceKurdish(
-                        text:
-                            """زۆر ئابووریناس پێشبینی ئەوە دەکەن کە ئابووری بەھێز دەبێت."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "economist", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakeconomists1("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakeconomists1("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                """Many economists are predicting the economy will improve.""",
+            kurdishText:
+                """زۆر ئابووریناس پێشبینی ئەوە دەکەن کە ئابووری بەھێز دەبێت.""", // economist
+            onPressedBritish: () => speakeconomists1("en-GB"),
+            onPressedAmerican: () => speakeconomists1("en-US"),
           ),
           // economists200economists2
           // speakeconomists2

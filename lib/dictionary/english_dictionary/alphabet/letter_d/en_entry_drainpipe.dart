@@ -364,32 +364,12 @@ class KurdishMeaning extends StatelessWidget {
 """),
           const DefinitionKurdish(
               text: "١. (ناو) بۆرییەک کە ئاوی پیس لە شوێنێکەوە دەگوازێتەوە"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "He fixed the broken drainpipe to stop the leaking."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "ئاوەڕۆ شکاوەکەی چاککردن بۆ ڕێگری لە دزەکردنەکە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "drainpipe", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdrainpipes1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdrainpipes1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "He fixed the broken drainpipe to stop the leaking.",
+            kurdishText:
+                "ئاوەڕۆ شکاوەکەی چاککردن بۆ ڕێگری لە دزەکردنەکە.", // drainpipe
+            onPressedBritish: () => speakdrainpipes1("en-GB"),
+            onPressedAmerican: () => speakdrainpipes1("en-US"),
           ),
           const DividerDefinition(),
           Column(

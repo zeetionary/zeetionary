@@ -379,92 +379,33 @@ class KurdishMeaning extends StatelessWidget {
 """),
           const DefinitionKurdish(
               text: "١. (ناو) ھەستی ئەوەی لە متمانە بە کەسێک نەکەیت"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "They looked at each other with distrust."),
-                    ExampleSentenceKurdish(
-                        text: "بە بێ‌متمانەییەوە لە یەکیان دەڕوانی."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "distrust", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdistrusts1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdistrusts1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "They looked at each other with distrust.",
+            kurdishText: "بە بێ‌متمانەییەوە لە یەکیان دەڕوانی.", // distrust
+            onPressedBritish: () => speakdistrusts1("en-GB"),
+            onPressedAmerican: () => speakdistrusts1("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "He has a deep distrust of all modern technology."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "بێ‌باوەڕییەکی زۆری بە ھەموو تەکنەلۆژیای سەردەم ھەیە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdistrusts2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdistrusts2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "He has a deep distrust of all modern technology.",
+            kurdishText: "بێ‌باوەڕییەکی زۆری بە ھەموو تەکنەلۆژیای سەردەم ھەیە.",
+            onPressedBritish: () => speakdistrusts2("en-GB"),
+            onPressedAmerican: () => speakdistrusts2("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
                   "٢. (کردار) ھەستکردن بەوەی کە ناتوانیت متمانە بە کەسێک بکەیت"),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "She distrusted his motives for wanting to see her again."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "گومانی لە پاڵنەرەکانی دەکرد بۆ ئەوەی کە دووبارە دەیەوێت بیبینێتەوە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdistrusts3("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdistrusts3("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "She distrusted his motives for wanting to see her again.",
+            kurdishText:
+                "گومانی لە پاڵنەرەکانی دەکرد بۆ ئەوەی کە دووبارە دەیەوێت بیبینێتەوە.",
+            onPressedBritish: () => speakdistrusts3("en-GB"),
+            onPressedAmerican: () => speakdistrusts3("en-US"),
           ),
           // distrusts400"),
           // speakdistrusts4

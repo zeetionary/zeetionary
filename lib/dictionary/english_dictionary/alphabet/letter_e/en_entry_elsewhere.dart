@@ -380,91 +380,34 @@ class KurdishMeaning extends StatelessWidget {
 """),
           const DefinitionKurdish(
               text: """١. (ھاوەڵکار)لە یان بۆ شوێنی دیکە"""),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            """Dissatisfied customers will look elsewhere."""),
-                    ExampleSentenceKurdish(
-                        text: """کڕیارە ناڕازییەکان بۆ شوێنی دیکە دەگەڕێن."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "elsewhere", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakelsewheres1("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakelsewheres1("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: """Dissatisfied customers will look elsewhere.""",
+            kurdishText:
+                """کڕیارە ناڕازییەکان بۆ شوێنی دیکە دەگەڕێن.""", // elsewhere
+            onPressedBritish: () => speakelsewheres1("en-GB"),
+            onPressedAmerican: () => speakelsewheres1("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            """The site contains information not found elsewhere."""),
-                    ExampleSentenceKurdish(
-                        text:
-                            """سایتەکە وەھا زانیارییەک لەخۆدەگرێت کە لە شوێنی دیکە نادۆزرێنەوە."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakelsewheres2("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakelsewheres2("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                """The site contains information not found elsewhere.""",
+            kurdishText:
+                """سایتەکە وەھا زانیارییەک لەخۆدەگرێت کە لە شوێنی دیکە نادۆزرێنەوە.""",
+            onPressedBritish: () => speakelsewheres2("en-GB"),
+            onPressedAmerican: () => speakelsewheres2("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            """The answer to the problem must be sought elsewhere."""),
-                    ExampleSentenceKurdish(
-                        text:
-                            """وەڵامی کێشەکە دەبێت لە شوێنی دیکە گەڕانی بۆ بکرێت."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakelsewheres3("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakelsewheres3("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                """The answer to the problem must be sought elsewhere.""",
+            kurdishText:
+                """وەڵامی کێشەکە دەبێت لە شوێنی دیکە گەڕانی بۆ بکرێت.""",
+            onPressedBritish: () => speakelsewheres3("en-GB"),
+            onPressedAmerican: () => speakelsewheres3("en-US"),
           ),
           // elsewheres400elsewheres4
           // speakelsewheres4

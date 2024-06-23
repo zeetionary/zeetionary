@@ -380,60 +380,21 @@ class KurdishMeaning extends StatelessWidget {
 """),
           const DefinitionKurdish(
               text: """١. (ھاوەڵناو) لە قۆناغێکی سەرەتای گەشەکردندا"""),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            """The plan, as yet, only exists in embryonic form."""),
-                    ExampleSentenceKurdish(
-                        text:
-                            """پلانەکە، لە ئێستادا، تەنھا لە شێوەی سەرەتاییە."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "embryonic", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakembryonics1("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakembryonics1("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: """The plan, as yet, only exists in embryonic form.""",
+            kurdishText:
+                """پلانەکە، لە ئێستادا، تەنھا لە شێوەی سەرەتاییە.""", // embryonic
+            onPressedBritish: () => speakembryonics1("en-GB"),
+            onPressedAmerican: () => speakembryonics1("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: """The project is still fairly embryonic."""),
-                    ExampleSentenceKurdish(
-                        text: """پڕۆژەکە ھێستا تا ڕادەیەک لە دەسپێکە."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakembryonics2("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakembryonics2("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: """The project is still fairly embryonic.""",
+            kurdishText: """پڕۆژەکە ھێستا تا ڕادەیەک لە دەسپێکە.""",
+            onPressedBritish: () => speakembryonics2("en-GB"),
+            onPressedAmerican: () => speakembryonics2("en-US"),
           ),
           const DividerDefinition(),
           // const DefinitionKurdish(text: """٢. (ھاوەڵناو) پەیوەندیدار بە ئاوڵەمە"""),
@@ -447,32 +408,13 @@ class KurdishMeaning extends StatelessWidget {
             },
           ),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            """Scientists study embryonic cells for medical research."""),
-                    ExampleSentenceKurdish(
-                        text:
-                            """زاناکان لە خانەکانی ئاوڵەمە دەکۆڵنەوە بۆ توێژینەوەی پزیشکی."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakembryonics3("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakembryonics3("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                """Scientists study embryonic cells for medical research.""",
+            kurdishText:
+                """زاناکان لە خانەکانی ئاوڵەمە دەکۆڵنەوە بۆ توێژینەوەی پزیشکی.""",
+            onPressedBritish: () => speakembryonics3("en-GB"),
+            onPressedAmerican: () => speakembryonics3("en-US"),
           ),
           // embryonics400embryonics4
           // speakembryonics4

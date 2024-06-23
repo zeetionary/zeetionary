@@ -257,115 +257,41 @@ class KurdishMeaning extends StatelessWidget {
 """),
           const DefinitionKurdish(
               text: "١. (ھاوەڵناو) ھەبوون یان پەیوەندیدار بە شەکرە"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(text: "She's diabetic."),
-                    ExampleSentenceKurdish(text: "شەکرەیەتی."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "diabetic", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdiabetics1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdiabetics1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "She's diabetic.",
+            kurdishText: "شەکرەیەتی.", // diabetic
+            onPressedBritish: () => speakdiabetics1("en-GB"),
+            onPressedAmerican: () => speakdiabetics1("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The doctor advised the diabetic patient on diet changes."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "پزیشکەکە ئامۆژگاری نەخۆشەکەی شەکرەی کرد لەسەر گۆڕانکاری لە خۆراکی ڕۆژانە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdiabetics2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdiabetics2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "The doctor advised the diabetic patient on diet changes.",
+            kurdishText:
+                "پزیشکەکە ئامۆژگاری نەخۆشەکەی شەکرەی کرد لەسەر گۆڕانکاری لە خۆراکی ڕۆژانە.",
+            onPressedBritish: () => speakdiabetics2("en-GB"),
+            onPressedAmerican: () => speakdiabetics2("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٢. (ھاوەڵناو) کە گونجاوە بۆ نەخۆشانی شەکرە"),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "The store sells diabetic chocolate bars."),
-                    ExampleSentenceKurdish(
-                        text: "فرۆشگاکە پارچە چکلێتی شەکرەیی دەفرۆشێت."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdiabetics3("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdiabetics3("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "The store sells diabetic chocolate bars.",
+            kurdishText: "فرۆشگاکە پارچە چکلێتی شەکرەیی دەفرۆشێت.",
+            onPressedBritish: () => speakdiabetics3("en-GB"),
+            onPressedAmerican: () => speakdiabetics3("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: "٣. (ناو) کەسێک کە شەکرەی ھەیە"),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "Exercise is important for diabetics."),
-                    ExampleSentenceKurdish(
-                        text: "ڕاھێنان گرنگە بۆ نەخۆشانی شەکرە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdiabetics4("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdiabetics4("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "Exercise is important for diabetics.",
+            kurdishText: "ڕاھێنان گرنگە بۆ نەخۆشانی شەکرە.",
+            onPressedBritish: () => speakdiabetics4("en-GB"),
+            onPressedAmerican: () => speakdiabetics4("en-US"),
           ),
           // diabetics500"),
           // speakdiabetics5

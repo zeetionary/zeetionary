@@ -274,146 +274,51 @@ class KurdishMeaning extends StatelessWidget {
 """),
           const DefinitionKurdish(
               text: "١. (ناو) دۆخی لە بەندیدا بوون، بەتایبەتی لە زیندا"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "They were sentenced to 12 months' detention in a young offender institution."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "سزا دران بە ١٢ مانگ لە بەندیدا لە دەزگایەکی تاوانکارانی گەنج."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "detention", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdetentions1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdetentions1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "They were sentenced to 12 months' detention in a young offender institution.",
+            kurdishText:
+                "سزا دران بە ١٢ مانگ لە بەندیدا لە دەزگایەکی تاوانکارانی گەنج.", // detention
+            onPressedBritish: () => speakdetentions1("en-GB"),
+            onPressedAmerican: () => speakdetentions1("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "He made the confession while under detention."),
-                    ExampleSentenceKurdish(
-                        text: "دانپێدانانی ئەنجامدا لەکاتی بەندیدا."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdetentions2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdetentions2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "He made the confession while under detention.",
+            kurdishText: "دانپێدانانی ئەنجامدا لەکاتی بەندیدا.",
+            onPressedBritish: () => speakdetentions2("en-GB"),
+            onPressedAmerican: () => speakdetentions2("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "He was held in detention from 1991 to 2001."),
-                    ExampleSentenceKurdish(
-                        text: "لە زینداندا ھێڵدرایەوە لە ١٩٩١ تاوەکو ٢٠٠١."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdetentions3("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdetentions3("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "He was held in detention from 1991 to 2001.",
+            kurdishText: "لە زینداندا ھێڵدرایەوە لە ١٩٩١ تاوەکو ٢٠٠١.",
+            onPressedBritish: () => speakdetentions3("en-GB"),
+            onPressedAmerican: () => speakdetentions3("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "Lawyers argued that she should be allowed to serve her detention in her home country."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "پارێزەران داوای ئەوەیان دەکرد کە ڕێگای پێبدرێت ماوەی زیندانییەکەی لە وڵاتی خۆی بەسەر ببات."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdetentions4("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdetentions4("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "Lawyers argued that she should be allowed to serve her detention in her home country.",
+            kurdishText:
+                "پارێزەران داوای ئەوەیان دەکرد کە ڕێگای پێبدرێت ماوەی زیندانییەکەی لە وڵاتی خۆی بەسەر ببات.",
+            onPressedBritish: () => speakdetentions4("en-GB"),
+            onPressedAmerican: () => speakdetentions4("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "She spent 18 years in detention."),
-                    ExampleSentenceKurdish(
-                        text: "١٨ ساڵی لە زینداندا بەسەر برد."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdetentions5("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdetentions5("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "She spent 18 years in detention.",
+            kurdishText: "١٨ ساڵی لە زینداندا بەسەر برد.",
+            onPressedBritish: () => speakdetentions5("en-GB"),
+            onPressedAmerican: () => speakdetentions5("en-US"),
           ),
           // detentions600"),
           // speakdetentions6

@@ -232,31 +232,12 @@ class KurdishMeaning extends StatelessWidget {
 کوردی: خەفەبوون، تاریکی، دڵتەنگی، ناخۆشی،	پیسی، چڵکنی
 """),
           const DefinitionKurdish(text: "١. (ناو) تاریکی و پیسی"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The dinginess of the windows blocked out sunlight."),
-                    ExampleSentenceKurdish(
-                        text: "تەڵخی پەنجەرەکان ڕێگای گرتبوو لە تیشكی خۆر ."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "dinginess", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdinginesss1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdinginesss1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "The dinginess of the windows blocked out sunlight.",
+            kurdishText:
+                "تەڵخی پەنجەرەکان ڕێگای گرتبوو لە تیشكی خۆر .", // dinginess
+            onPressedBritish: () => speakdinginesss1("en-GB"),
+            onPressedAmerican: () => speakdinginesss1("en-US"),
           ),
           // dinginesss200"),
           // speakdinginesss2

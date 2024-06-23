@@ -373,62 +373,24 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   """١. (ناو) ھەبوونی خاسیەتی لاستیکییەتی؛ ئەوەی کە ڕابکێشرێت و بگەڕێتەوە دۆخی ئاسایی خۆی"""),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            """As you get older, the skin loses its natural elasticity."""),
-                    ExampleSentenceKurdish(
-                        text:
-                            """کە دەچیت بە تەمەندا، پێست نەرمییەتیی سرووشتیی لەدەست دەدات."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "elasticity", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakelasticitys1("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakelasticitys1("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                """As you get older, the skin loses its natural elasticity.""",
+            kurdishText:
+                """کە دەچیت بە تەمەندا، پێست نەرمییەتیی سرووشتیی لەدەست دەدات.""", // elasticity
+            onPressedBritish: () => speakelasticitys1("en-GB"),
+            onPressedAmerican: () => speakelasticitys1("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: """٢. (ناو) ئەوەی کە بگۆڕدرێت"""),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            """There is some elasticity in our plans - nothing has been firmly decided yet."""),
-                    ExampleSentenceKurdish(
-                        text:
-                            """ھەندێک لەگۆڕان‌ھاتوویی لە پلانەکانماندا ھەیە ـ ھێشتا ھیچ بە تەواوی بڕیاری لێ‌نەدراوە."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakelasticitys2("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakelasticitys2("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                """There is some elasticity in our plans - nothing has been firmly decided yet.""",
+            kurdishText:
+                """ھەندێک لەگۆڕان‌ھاتوویی لە پلانەکانماندا ھەیە ـ ھێشتا ھیچ بە تەواوی بڕیاری لێ‌نەدراوە.""",
+            onPressedBritish: () => speakelasticitys2("en-GB"),
+            onPressedAmerican: () => speakelasticitys2("en-US"),
           ),
           // elasticitys300elasticitys3
           // speakelasticitys3

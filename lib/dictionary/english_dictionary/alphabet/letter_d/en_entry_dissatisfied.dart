@@ -251,89 +251,32 @@ class KurdishMeaning extends StatelessWidget {
 """),
           const DefinitionKurdish(
               text: "١. (ھاوەڵناو) کە دڵخۆش یان ڕازی نیت بە شتێک"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "If you are dissatisfied with our service, please contact our customer service department."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "ئەگەر ناڕازیت بە خزمەتەکەمان، تکایە پەیوەندی بە بەشی خزمەتگوزاری بەژداربووان بکە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "dissatisfied", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdissatisfieds1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdissatisfieds1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "If you are dissatisfied with our service, please contact our customer service department.",
+            kurdishText:
+                "ئەگەر ناڕازیت بە خزمەتەکەمان، تکایە پەیوەندی بە بەشی خزمەتگوزاری بەژداربووان بکە.", // dissatisfied
+            onPressedBritish: () => speakdissatisfieds1("en-GB"),
+            onPressedAmerican: () => speakdissatisfieds1("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "She's very dissatisfied with her current job."),
-                    ExampleSentenceKurdish(
-                        text: "زۆر بێزارە لە کارەکەی ئێستای."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdissatisfieds2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdissatisfieds2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "She's very dissatisfied with her current job.",
+            kurdishText: "زۆر بێزارە لە کارەکەی ئێستای.",
+            onPressedBritish: () => speakdissatisfieds2("en-GB"),
+            onPressedAmerican: () => speakdissatisfieds2("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "Patients have become increasingly dissatisfied with the existing system."),
-                    ExampleSentenceKurdish(
-                        text: "نەخۆشان تەواو ناڕازی بوونە بەو سیستەمەی ئێستا."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdissatisfieds3("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdissatisfieds3("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "Patients have become increasingly dissatisfied with the existing system.",
+            kurdishText: "نەخۆشان تەواو ناڕازی بوونە بەو سیستەمەی ئێستا.",
+            onPressedBritish: () => speakdissatisfieds3("en-GB"),
+            onPressedAmerican: () => speakdissatisfieds3("en-US"),
           ),
           // dissatisfieds400"),
           // speakdissatisfieds4

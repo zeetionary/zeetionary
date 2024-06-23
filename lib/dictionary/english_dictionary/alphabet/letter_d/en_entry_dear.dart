@@ -347,402 +347,127 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "١. (ھاوەڵناو) لە نامەیەکدا لە پێش ناوی ئەو کەسە بەکاردێت کە نامەکەی بۆ دەنێریت"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(text: "Dear Mrs Jones"),
-                    ExampleSentenceKurdish(text: "بەڕێز خاتوو جەونز."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "dear", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdears1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdears1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "Dear Mrs Jones",
+            kurdishText: "بەڕێز خاتوو جەونز.", // dear
+            onPressedBritish: () => speakdears1("en-GB"),
+            onPressedAmerican: () => speakdears1("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٢. (ھاوەڵناو) ئازیر یان خۆشەویست لای کەسێک"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "He's one of my dearest friends."),
-                    ExampleSentenceKurdish(
-                        text: "یەکێک لە ئازیترین ھاوڕێکانمە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdears2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdears2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "He's one of my dearest friends.",
+            kurdishText: "یەکێک لە ئازیترین ھاوڕێکانمە.",
+            onPressedBritish: () => speakdears2("en-GB"),
+            onPressedAmerican: () => speakdears2("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "Her daughter is very dear to her."),
-                    ExampleSentenceKurdish(text: "کچەکەی زۆر ئازیزە لای."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdears3("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdears3("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "Her daughter is very dear to her.",
+            kurdishText: "کچەکەی زۆر ئازیزە لای.",
+            onPressedBritish: () => speakdears3("en-GB"),
+            onPressedAmerican: () => speakdears3("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "They lost everything that was dear to them."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "ھەموو ئەو شتانەیان لەدەستدا کە خۆشەویست بوو لایان."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdears4("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdears4("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "They lost everything that was dear to them.",
+            kurdishText: "ھەموو ئەو شتانەیان لەدەستدا کە خۆشەویست بوو لایان.",
+            onPressedBritish: () => speakdears4("en-GB"),
+            onPressedAmerican: () => speakdears4("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٣. (ھاوەڵناو) بۆ بانگکردنی کەسێک بە ڕێزەوە یان ھاوڕێیانە"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "Take my advice, dear reader."),
-                    ExampleSentenceKurdish(
-                        text: "ئامۆژگاریم وەربگرە، خوێنەری خۆشەویست."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdears5("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdears5("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "Take my advice, dear reader.",
+            kurdishText: "ئامۆژگاریم وەربگرە، خوێنەری خۆشەویست.",
+            onPressedBritish: () => speakdears5("en-GB"),
+            onPressedAmerican: () => speakdears5("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: "٤. (ھاوەڵناو) گران"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "Everything's so dear now, isn't it?"),
-                    ExampleSentenceKurdish(
-                        text: "ھەموو شتێک ئێستا زۆر گرانە، وانییە؟"),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdears6("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdears6("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "Everything's so dear now, isn't it?",
+            kurdishText: "ھەموو شتێک ئێستا زۆر گرانە، وانییە؟",
+            onPressedBritish: () => speakdears6("en-GB"),
+            onPressedAmerican: () => speakdears6("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "There was a shortage of potatoes, and they became dear."),
-                    ExampleSentenceKurdish(
-                        text: "کەمی پەتاتە ھەبوو، و زۆر گران بوو."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdears7("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdears7("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "There was a shortage of potatoes, and they became dear.",
+            kurdishText: "کەمی پەتاتە ھەبوو، و زۆر گران بوو.",
+            onPressedBritish: () => speakdears7("en-GB"),
+            onPressedAmerican: () => speakdears7("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
                   "٥. (سەرسوڕمان) بۆ پیشاندانی سەرسامی، نیگەرانی، بێزاری، ھتد"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "Oh dear! I think I've lost my purse!"),
-                    ExampleSentenceKurdish(
-                        text: "بەزیادم نەکرد! پێموایە جزدانەکەم ونکردووە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdears8("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdears8("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "Oh dear! I think I've lost my purse!",
+            kurdishText: "بەزیادم نەکرد! پێموایە جزدانەکەم ونکردووە.",
+            onPressedBritish: () => speakdears8("en-GB"),
+            onPressedAmerican: () => speakdears8("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(text: "Oh dear! What a shame."),
-                    ExampleSentenceKurdish(text: "ئای خوایە! چی شەرمێکە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdears9("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdears9("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "Oh dear! What a shame.",
+            kurdishText: "ئای خوایە! چی شەرمێکە.",
+            onPressedBritish: () => speakdears9("en-GB"),
+            onPressedAmerican: () => speakdears9("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: "٦. (ناو) کەسێکی میھرەبان"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(text: "Isn't he a dear?"),
-                    ExampleSentenceKurdish(text: "میھرەبان نییە؟"),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdears10("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdears10("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "Isn't he a dear?",
+            kurdishText: "میھرەبان نییە؟",
+            onPressedBritish: () => speakdears10("en-GB"),
+            onPressedAmerican: () => speakdears10("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "Be a dear and fetch me my coat."),
-                    ExampleSentenceKurdish(
-                        text: "بەخشندە بە و قەمسەڵەکەم بۆ بێنە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdears11("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdears11("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "Be a dear and fetch me my coat.",
+            kurdishText: "بەخشندە بە و قەمسەڵەکەم بۆ بێنە.",
+            onPressedBritish: () => speakdears11("en-GB"),
+            onPressedAmerican: () => speakdears11("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٧. (ناو) بۆ قسەکردن لەگەڵ کەسێک کە خۆشت دەوێت"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "Would you like a drink, dear?"),
-                    ExampleSentenceKurdish(
-                        text: "حەزت بە خواردنەوەیەک، گیانەکەم؟"),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdears12("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdears12("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "Would you like a drink, dear?",
+            kurdishText: "حەزت بە خواردنەوەیەک، گیانەکەم؟",
+            onPressedBritish: () => speakdears12("en-GB"),
+            onPressedAmerican: () => speakdears12("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(text: "Come here, my dear."),
-                    ExampleSentenceKurdish(text: "وەرە ئێرە، جەرگەکەم."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdears13("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdears13("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "Come here, my dear.",
+            kurdishText: "وەرە ئێرە، جەرگەکەم.",
+            onPressedBritish: () => speakdears13("en-GB"),
+            onPressedAmerican: () => speakdears13("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
                   "٨. (ناو) بەکاردێت لەکاتی قسەکردن بەشێوەیەکی ھاوڕێیانە، بەتایبەتی لەکاتی قسەکردنی کەسێکی گەورە لەگەڵ کەسێکی بچووک"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(text: "What's your name, dear?"),
-                    ExampleSentenceKurdish(text: "ناوت چییە، شیرینم؟"),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdears14("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdears14("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "What's your name, dear?",
+            kurdishText: "ناوت چییە، شیرینم؟",
+            onPressedBritish: () => speakdears14("en-GB"),
+            onPressedAmerican: () => speakdears14("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: "٩. (ھاوەڵکار) بە نرخێکی زۆر"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The art of trading relies on knowing when to buy cheap and sell dear."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "ھونەری بازرگانی پشت بە زانینی ئەوە دەبەستێت چۆن بکڕیت بە ھەرزان و بفرۆشیت بە گران."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdears15("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdears15("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "The art of trading relies on knowing when to buy cheap and sell dear.",
+            kurdishText:
+                "ھونەری بازرگانی پشت بە زانینی ئەوە دەبەستێت چۆن بکڕیت بە ھەرزان و بفرۆشیت بە گران.",
+            onPressedBritish: () => speakdears15("en-GB"),
+            onPressedAmerican: () => speakdears15("en-US"),
           ),
         ],
       ),

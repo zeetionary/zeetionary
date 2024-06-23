@@ -249,58 +249,20 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "١. (ناو) مادەیەک کە خەڵکی لە جەستەیان دەدەن بۆ نەھێشتنی بۆنی ناخۆش"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "She uses deodorant every morning."),
-                    ExampleSentenceKurdish(
-                        text: "ھەموو بەیانییەک بۆنبر بەکاردێنێت."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "deodorant", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdeodorants1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdeodorants1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "She uses deodorant every morning.",
+            kurdishText: "ھەموو بەیانییەک بۆنبر بەکاردێنێت.", // deodorant
+            onPressedBritish: () => speakdeodorants1("en-GB"),
+            onPressedAmerican: () => speakdeodorants1("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "Most people apply deodorant to their armpits."),
-                    ExampleSentenceKurdish(
-                        text: "زۆر کەس بۆنبڕ لە بنباڵیان دەدەن."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdeodorants2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdeodorants2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "Most people apply deodorant to their armpits.",
+            kurdishText: "زۆر کەس بۆنبڕ لە بنباڵیان دەدەن.",
+            onPressedBritish: () => speakdeodorants2("en-GB"),
+            onPressedAmerican: () => speakdeodorants2("en-US"),
           ),
           // deodorants300"),
           // speakdeodorants3

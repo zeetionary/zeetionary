@@ -248,90 +248,30 @@ class KurdishMeaning extends StatelessWidget {
 // """),
           const DefinitionKurdish(
               text: "١. (کردار) فڕێدانی شتێک کە چی دیکە ناتەوێت"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The room was littered with discarded newspapers."),
-                    ExampleSentenceKurdish(
-                        text: "ژوورەکە شپرزە بوو بە ڕۆژنامەی فڕێدراو."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "discard", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdiscards1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdiscards1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "The room was littered with discarded newspapers.",
+            kurdishText: "ژوورەکە شپرزە بوو بە ڕۆژنامەی فڕێدراو.", // discard
+            onPressedBritish: () => speakdiscards1("en-GB"),
+            onPressedAmerican: () => speakdiscards1("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "He had discarded his jacket because of the heat."),
-                    ExampleSentenceKurdish(
-                        text: "چاکەتەکەی بەھۆی گەرمییەکەوە فڕێدابوو."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdiscards2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdiscards2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "He had discarded his jacket because of the heat.",
+            kurdishText: "چاکەتەکەی بەھۆی گەرمییەکەوە فڕێدابوو.",
+            onPressedBritish: () => speakdiscards2("en-GB"),
+            onPressedAmerican: () => speakdiscards2("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "She could now discard all thought of promotion."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "(بەکارھێنانی خوازراوی) ئێستا دەیتوانی ھەموو بیرکردنەوەیەکی پلەبەرزکردنەوە وەلابنێیت."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdiscards3("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdiscards3("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "She could now discard all thought of promotion.",
+            kurdishText:
+                "(بەکارھێنانی خوازراوی) ئێستا دەیتوانی ھەموو بیرکردنەوەیەکی پلەبەرزکردنەوە وەلابنێیت.",
+            onPressedBritish: () => speakdiscards3("en-GB"),
+            onPressedAmerican: () => speakdiscards3("en-US"),
           ),
           // discards400"),
           // speakdiscards4

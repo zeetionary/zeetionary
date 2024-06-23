@@ -413,207 +413,72 @@ class KurdishMeaning extends StatelessWidget {
 """),
           const DefinitionKurdish(
               text: "١. (ھاوەڵناو) ھەبوونی گومان؛ نەبوونی دڵنیایی"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "Rose was doubtful about the whole idea."),
-                    ExampleSentenceKurdish(
-                        text: "ڕۆز گومانی ھەبوو لەسەر تەواوی بیرۆکەکە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "doubtful", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdoubtfuls1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdoubtfuls1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "Rose was doubtful about the whole idea.",
+            kurdishText: "ڕۆز گومانی ھەبوو لەسەر تەواوی بیرۆکەکە.", // doubtful
+            onPressedBritish: () => speakdoubtfuls1("en-GB"),
+            onPressedAmerican: () => speakdoubtfuls1("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "He was doubtful about accepting extra work."),
-                    ExampleSentenceKurdish(
-                        text: "بەشک بوو لەسەر پەسەندکردنی کاری زیاتر."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdoubtfuls2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdoubtfuls2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "He was doubtful about accepting extra work.",
+            kurdishText: "بەشک بوو لەسەر پەسەندکردنی کاری زیاتر.",
+            onPressedBritish: () => speakdoubtfuls2("en-GB"),
+            onPressedAmerican: () => speakdoubtfuls2("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٢. (ھاوەڵناو) شتێک کە پێناچێت ڕووبدات"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "It's doubtful if this painting is a Picasso."),
-                    ExampleSentenceKurdish(
-                        text: "گومان ھەیە کە ئەم تابلۆیە ھی پیکاسۆ بێت."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdoubtfuls3("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdoubtfuls3("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "It's doubtful if this painting is a Picasso.",
+            kurdishText: "گومان ھەیە کە ئەم تابلۆیە ھی پیکاسۆ بێت.",
+            onPressedBritish: () => speakdoubtfuls3("en-GB"),
+            onPressedAmerican: () => speakdoubtfuls3("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "With her injuries it's doubtful that she'll ever walk again."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "گومان ھەیە لەوەی کە ھەرگیز بتوانێت بە ڕێگادا بچێت."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdoubtfuls4("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdoubtfuls4("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "With her injuries it's doubtful that she'll ever walk again.",
+            kurdishText: "گومان ھەیە لەوەی کە ھەرگیز بتوانێت بە ڕێگادا بچێت.",
+            onPressedBritish: () => speakdoubtfuls4("en-GB"),
+            onPressedAmerican: () => speakdoubtfuls4("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "It's doubtful whether the car will last another year."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "گومان ھەیە کە ئۆتۆمبێلەکە ساڵێکی دیکە بخایەنێت."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdoubtfuls5("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdoubtfuls5("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "It's doubtful whether the car will last another year.",
+            kurdishText: "گومان ھەیە کە ئۆتۆمبێلەکە ساڵێکی دیکە بخایەنێت.",
+            onPressedBritish: () => speakdoubtfuls5("en-GB"),
+            onPressedAmerican: () => speakdoubtfuls5("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٣. (ھاوەڵناو) شتێک کە ئەگەری ھەیە خراپتر ببێت"),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "At the beginning of the war things were looking very doubtful."),
-                    ExampleSentenceKurdish(
-                        text: "لە سەرەتای جەنگەکە شتەکان گومانیان لەسەر بوو."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdoubtfuls6("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdoubtfuls6("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "At the beginning of the war things were looking very doubtful.",
+            kurdishText: "لە سەرەتای جەنگەکە شتەکان گومانیان لەسەر بوو.",
+            onPressedBritish: () => speakdoubtfuls6("en-GB"),
+            onPressedAmerican: () => speakdoubtfuls6("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
                   "٤. (ھاوەڵناو) کە گومان ھەیە ڕاستی بێت یان ئەو باشە بێت کە بانگەشەی بۆ دەکرێت"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "This wine is of doubtful quality."),
-                    ExampleSentenceKurdish(
-                        text: "شەرابەکە کوالێتی بەشکی ھەیە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdoubtfuls7("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdoubtfuls7("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "This wine is of doubtful quality.",
+            kurdishText: "شەرابەکە کوالێتی بەشکی ھەیە.",
+            onPressedBritish: () => speakdoubtfuls7("en-GB"),
+            onPressedAmerican: () => speakdoubtfuls7("en-US"),
           ),
           // doubtfuls800"),
           // speakdoubtfuls8

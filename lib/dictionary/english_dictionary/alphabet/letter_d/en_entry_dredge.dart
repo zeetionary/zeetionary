@@ -380,87 +380,30 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "١. (کردار) قووڵکردنی ڕووبار یان نۆکەندێک یان گەڕان بە دوای شتدا لە ناویدا؛ بەرزکردنەوەی شتێک لە بنی دەریایەوە"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "They're dredging the harbour so that larger ships can use it."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "بەندەرەکە قووڵتر دەکەن بۆ ئەوەی کەشتی گەورەتر بتوانن بەکاریبھێنن."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "dredge", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdredges1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdredges1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "They're dredging the harbour so that larger ships can use it.",
+            kurdishText:
+                "بەندەرەکە قووڵتر دەکەن بۆ ئەوەی کەشتی گەورەتر بتوانن بەکاریبھێنن.", // dredge
+            onPressedBritish: () => speakdredges1("en-GB"),
+            onPressedAmerican: () => speakdredges1("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "They dredge the bay for gravel."),
-                    ExampleSentenceKurdish(
-                        text: "لە کەنداوەکە دەگەڕان بۆ چەو/زیخ."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdredges2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdredges2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "They dredge the bay for gravel.",
+            kurdishText: "لە کەنداوەکە دەگەڕان بۆ چەو/زیخ.",
+            onPressedBritish: () => speakdredges2("en-GB"),
+            onPressedAmerican: () => speakdredges2("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٢. (کردار) داپۆشینی خواردن بە کەمێک شەکر، ئارد، ھتد"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "Dredge the top of the cake with sugar."),
-                    ExampleSentenceKurdish(
-                        text: "سەرەوەی کێکەکە بە شەکر داپۆشە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdredges3("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdredges3("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "Dredge the top of the cake with sugar.",
+            kurdishText: "سەرەوەی کێکەکە بە شەکر داپۆشە.",
+            onPressedBritish: () => speakdredges3("en-GB"),
+            onPressedAmerican: () => speakdredges3("en-US"),
           ),
           // dredges400"),
           // speakdredges4

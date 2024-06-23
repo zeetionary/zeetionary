@@ -256,91 +256,32 @@ class KurdishMeaning extends StatelessWidget {
 کوردی: خەستی، چڕی، تیری، تۆڵایی، پڕی، پۆڕی، توندی،	چڕوپڕی، پڕی، چوغوردی، یەک‌تەنیوی، پاڵ‌یەک‌چوویی، تێک‌چڕژاوی،	ئاڵۆزی، سەختی، گرانی، قورسی، دژواری، لێ‌تێنەگەیشتوویی،	(فیزیک) چڕی (پێوەندی کێش لەگەڵ بارستایی)
 """),
           const DefinitionKurdish(text: "١. (ناو) چڕی"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The population density in this city is very high."),
-                    ExampleSentenceKurdish(
-                        text: "چڕی دانیشتووان لەم شارە بەرزە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "density", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdensitys1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdensitys1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "The population density in this city is very high.",
+            kurdishText: "چڕی دانیشتووان لەم شارە بەرزە.", // density
+            onPressedBritish: () => speakdensitys1("en-GB"),
+            onPressedAmerican: () => speakdensitys1("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "The area has a high/low population density."),
-                    ExampleSentenceKurdish(
-                        text: "ناوچەکە چڕی دانیشتووانی بەرز/نزمی ھەیە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdensitys2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdensitys2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "The area has a high/low population density.",
+            kurdishText: "ناوچەکە چڕی دانیشتووانی بەرز/نزمی ھەیە.",
+            onPressedBritish: () => speakdensitys2("en-GB"),
+            onPressedAmerican: () => speakdensitys2("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
                   "٢. (ناو) ڕێژەی خەستی تەنێکی ڕەق، شل، گاز کە بە بارستایی بۆ ھەر یەکەیەکی قەبارە دەپێورێت"),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "Vitamin D deficiency causes a loss of bone density."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "کەمی ڤیتامین دی دەبێت بە ھۆکاری لەدەستدانی چڕی ماسولکە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdensitys3("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdensitys3("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "Vitamin D deficiency causes a loss of bone density.",
+            kurdishText:
+                "کەمی ڤیتامین دی دەبێت بە ھۆکاری لەدەستدانی چڕی ماسولکە.",
+            onPressedBritish: () => speakdensitys3("en-GB"),
+            onPressedAmerican: () => speakdensitys3("en-US"),
           ),
           // densitys400"),
           // speakdensitys4

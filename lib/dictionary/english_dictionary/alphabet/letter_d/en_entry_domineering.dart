@@ -373,58 +373,21 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "١. (ھاوەڵناو) ئەوەی کە ھەوڵ بدەیت بەسەر کەسانی دیکەدا زاڵ بیت"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "He was brought up by a cold and domineering father."),
-                    ExampleSentenceKurdish(
-                        text: "لەلایەن باوکێکی ساردوسڕ و زۆردارەوە گەورە کرا."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "domineering", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdomineerings1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdomineerings1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "He was brought up by a cold and domineering father.",
+            kurdishText:
+                "لەلایەن باوکێکی ساردوسڕ و زۆردارەوە گەورە کرا.", // domineering
+            onPressedBritish: () => speakdomineerings1("en-GB"),
+            onPressedAmerican: () => speakdomineerings1("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "She was a stubborn, domineering woman."),
-                    ExampleSentenceKurdish(text: "ژنێکی کەللەڕەقی زۆردار بوو."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdomineerings2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdomineerings2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "She was a stubborn, domineering woman.",
+            kurdishText: "ژنێکی کەللەڕەقی زۆردار بوو.",
+            onPressedBritish: () => speakdomineerings2("en-GB"),
+            onPressedAmerican: () => speakdomineerings2("en-US"),
           ),
           // domineerings300"),
           // speakdomineerings3

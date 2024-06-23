@@ -372,63 +372,23 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   """١. (کردار) ئەوەی خواردن بەخێرایی بکەیتە ناو شلەدا پێش ئەوەی بیخۆیت"""),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            """She sat reading a magazine, dunking cookies in her coffee."""),
-                    ExampleSentenceKurdish(
-                        text:
-                            """دانیشتبوو گۆڤارێکی دەخوێندەوە و بسکیتی دەژەند بە قاوەکەیدا."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "dunk", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdunks1("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdunks1("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                """She sat reading a magazine, dunking cookies in her coffee.""",
+            kurdishText:
+                """دانیشتبوو گۆڤارێکی دەخوێندەوە و بسکیتی دەژەند بە قاوەکەیدا.""", // dunk
+            onPressedBritish: () => speakdunks1("en-GB"),
+            onPressedAmerican: () => speakdunks1("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text: """٢. (کردار) پاڵنانە ژێر ئاو؛ کردن بە ئاودا"""),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            """The camera survived being dunked in the river."""),
-                    ExampleSentenceKurdish(
-                        text:
-                            """کامێرا دەرچوو لەوەی بخووسێندرێت لە ئاوەکەدا."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdunks2("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdunks2("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: """The camera survived being dunked in the river.""",
+            kurdishText: """کامێرا دەرچوو لەوەی بخووسێندرێت لە ئاوەکەدا.""",
+            onPressedBritish: () => speakdunks2("en-GB"),
+            onPressedAmerican: () => speakdunks2("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: """ژممارە. (کردار) پێنناسە"""),

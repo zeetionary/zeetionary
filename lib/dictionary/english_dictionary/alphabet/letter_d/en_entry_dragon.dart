@@ -373,63 +373,24 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "١. (ناو) ئەژدیھا؛ ئاژەڵێکی خەیاڵی کە لە چیرۆکدا ھەیە و زۆرجار وێنا دەکرێت بەوەی باڵ و کلکی درێژی ھەیە و ئاگر لە دەمی دێتە دەرەوە"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The knight fought the dragon to rescue the princess."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "سوارچاکەکە دژ بە ئەژدیھاکە جەنگا بۆ ڕزگارکردنی شازادە خاتوونەکە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "dragon", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdragons1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdragons1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "The knight fought the dragon to rescue the princess.",
+            kurdishText:
+                "سوارچاکەکە دژ بە ئەژدیھاکە جەنگا بۆ ڕزگارکردنی شازادە خاتوونەکە.", // dragon
+            onPressedBritish: () => speakdragons1("en-GB"),
+            onPressedAmerican: () => speakdragons1("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٢. (ھاوەڵناو) ژنێک کە توندوتیژ و ترسێنەرە"),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The old lady next door was a bit of a dragon; the children avoided her."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "ژنە پیرەکەی دراوسێ کەمێک دڕ بوو؛ منداڵەکان لێی دووردەکەوتنەوە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdragons2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdragons2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "The old lady next door was a bit of a dragon; the children avoided her.",
+            kurdishText:
+                "ژنە پیرەکەی دراوسێ کەمێک دڕ بوو؛ منداڵەکان لێی دووردەکەوتنەوە.",
+            onPressedBritish: () => speakdragons2("en-GB"),
+            onPressedAmerican: () => speakdragons2("en-US"),
           ),
           // dragons300"),
           // speakdragons3

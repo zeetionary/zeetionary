@@ -242,61 +242,24 @@ class KurdishMeaning extends StatelessWidget {
 کوردی: تیاچوون، لەنێوچوون، نەمان، دوابڕان،	گوم‌بوون، لاچوون، قوم‌بوون، لەبەرچاولاچوون، بزربوون، وەندابوون، دیارنەبوون، سەرەونگوون‌بوون
 """),
           const DefinitionKurdish(text: "١. (ناو) ونبوون"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "Police are investigating the disappearance of a young woman."),
-                    ExampleSentenceKurdish(
-                        text: "پۆلیس لێکۆڵینەوە لە ونبوونی ژنێکی گەنج دەکەن."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "disappearance", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdisappearances1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdisappearances1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "Police are investigating the disappearance of a young woman.",
+            kurdishText:
+                "پۆلیس لێکۆڵینەوە لە ونبوونی ژنێکی گەنج دەکەن.", // disappearance
+            onPressedBritish: () => speakdisappearances1("en-GB"),
+            onPressedAmerican: () => speakdisappearances1("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: "٢. (ناو) ئەوەی کە شتێک بوونی نەمێنێت"),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "For the past century we have witnessed the disappearance of many species of plants and animals from our planet."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "لە سەدەی ڕابردوودا لەناوچوونی ژمارەیەکی زۆر لە ڕووەک و ئاژەڵمان دیوە لە ھەسارەکەمان."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdisappearances2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdisappearances2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "For the past century we have witnessed the disappearance of many species of plants and animals from our planet.",
+            kurdishText:
+                "لە سەدەی ڕابردوودا لەناوچوونی ژمارەیەکی زۆر لە ڕووەک و ئاژەڵمان دیوە لە ھەسارەکەمان.",
+            onPressedBritish: () => speakdisappearances2("en-GB"),
+            onPressedAmerican: () => speakdisappearances2("en-US"),
           ),
           // disappearances300"),
           // speakdisappearances3

@@ -372,62 +372,24 @@ class KurdishMeaning extends StatelessWidget {
 """),
           const DefinitionKurdish(
               text: """١. (ناو) ئامێرێک کە وزەی میکانیکی دەکات بە کارەبا"""),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            """A dynamo on a bicycle will power a pair of lights while the wheels are going around."""),
-                    ExampleSentenceKurdish(
-                        text:
-                            """دینەمۆی پاسکیلێک جووتێک لایت دەخاتە کار کە ویلەکان دەسووڕێنەوە."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "dynamo", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdynamos1("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdynamos1("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                """A dynamo on a bicycle will power a pair of lights while the wheels are going around.""",
+            kurdishText:
+                """دینەمۆی پاسکیلێک جووتێک لایت دەخاتە کار کە ویلەکان دەسووڕێنەوە.""", // dynamo
+            onPressedBritish: () => speakdynamos1("en-GB"),
+            onPressedAmerican: () => speakdynamos1("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: """٢. (ناو) کەسێک کە وزەی زۆری ھەیە"""),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            """Onstage she is a human dynamo, spending the hour in perpetual motion."""),
-                    ExampleSentenceKurdish(
-                        text:
-                            """لەسەر ستەیج مرۆڤێکی پڕجم‌وجۆڵە، کاتژمێرەکە بە جوڵەی بەردەوام بەسەر دەبات."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdynamos2("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdynamos2("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                """Onstage she is a human dynamo, spending the hour in perpetual motion.""",
+            kurdishText:
+                """لەسەر ستەیج مرۆڤێکی پڕجم‌وجۆڵە، کاتژمێرەکە بە جوڵەی بەردەوام بەسەر دەبات.""",
+            onPressedBritish: () => speakdynamos2("en-GB"),
+            onPressedAmerican: () => speakdynamos2("en-US"),
           ),
           // dynamos300
           // speakdynamos3

@@ -371,58 +371,21 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "١. (ناو) لەدەستچوونی پارە، دەسەڵات، پێگەی کۆمەڵایەتیی کەسێک"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "The sex scandal finally led to his downfall."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "ئابڕووچوونە سێکسییەکە لە  کۆتایی داڕووخانیی لێکەوتەوە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "downfall", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdownfalls1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdownfalls1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "The sex scandal finally led to his downfall.",
+            kurdishText:
+                "ئابڕووچوونە سێکسییەکە لە  کۆتایی داڕووخانیی لێکەوتەوە.", // downfall
+            onPressedBritish: () => speakdownfalls1("en-GB"),
+            onPressedAmerican: () => speakdownfalls1("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(text: "Greed was her downfall."),
-                    ExampleSentenceKurdish(
-                        text: "چاوچنۆکی گەیاندی بە تیاچوونی."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdownfalls2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdownfalls2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "Greed was her downfall.",
+            kurdishText: "چاوچنۆکی گەیاندی بە تیاچوونی.",
+            onPressedBritish: () => speakdownfalls2("en-GB"),
+            onPressedAmerican: () => speakdownfalls2("en-US"),
           ),
           // downfalls300"),
           // speakdownfalls3

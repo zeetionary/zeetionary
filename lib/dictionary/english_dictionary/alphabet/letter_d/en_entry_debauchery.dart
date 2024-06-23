@@ -234,32 +234,13 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "١. (ناو) ڕەفتارێک کە ڕێژەیەکی زۆر لە سێکس و مادەی کحولی و ھۆشبەر لەخۆدەگرێت"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The scandal exposed the debauchery and corruption of the political elite."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "ئابڕووچوونەکە بەدئاکاری و گەندەڵی سیاسییە باڵاکانی ئاشكرا کرد."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "debauchery", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdebaucherys1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdebaucherys1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "The scandal exposed the debauchery and corruption of the political elite.",
+            kurdishText:
+                "ئابڕووچوونەکە بەدئاکاری و گەندەڵی سیاسییە باڵاکانی ئاشكرا کرد.", // debauchery
+            onPressedBritish: () => speakdebaucherys1("en-GB"),
+            onPressedAmerican: () => speakdebaucherys1("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "٢. (ھاوەڵناو) پێنناسە"),

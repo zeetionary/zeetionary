@@ -362,31 +362,12 @@ class KurdishMeaning extends StatelessWidget {
 """),
           const DefinitionKurdish(
               text: """١. (ناو) بەچکەمراوی؛ گۆشتی بەچکەمراوی"""),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: """The children watched the duckling hatch."""),
-                    ExampleSentenceKurdish(
-                        text:
-                            """منداڵەکان سەیری بەچکەمراوییەکەیان کرد کە ھەڵھات."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "duckling", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakducklings1("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakducklings1("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: """The children watched the duckling hatch.""",
+            kurdishText:
+                """منداڵەکان سەیری بەچکەمراوییەکەیان کرد کە ھەڵھات.""", // duckling
+            onPressedBritish: () => speakducklings1("en-GB"),
+            onPressedAmerican: () => speakducklings1("en-US"),
           ),
           // ducklings200
           // speakducklings2

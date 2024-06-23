@@ -233,32 +233,13 @@ class KurdishMeaning extends StatelessWidget {
 // """),
           const DefinitionKurdish(
               text: "١. (ناو) کەسێک کە حەز دەکات شتی ترسناک بکات"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "Despite the risks, the daredevil was determined to break the record."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "سەرەڕای مەترسییەکان، سەرکێشەکە سوور بوو لەسەر ئەوەی ڕیکۆردەکە بشکێنێت."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "daredevil", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdaredevils1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdaredevils1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "Despite the risks, the daredevil was determined to break the record.",
+            kurdishText:
+                "سەرەڕای مەترسییەکان، سەرکێشەکە سوور بوو لەسەر ئەوەی ڕیکۆردەکە بشکێنێت.", // daredevil
+            onPressedBritish: () => speakdaredevils1("en-GB"),
+            onPressedAmerican: () => speakdaredevils1("en-US"),
           ),
         ],
       ),

@@ -269,120 +269,43 @@ class KurdishMeaning extends StatelessWidget {
 """),
           const DefinitionKurdish(
               text: "١. (ناو) پڕۆسەی بە وریایی بیرکردنەوە لە شتێک"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The deliberations of the committee are completely confidential."),
-                    ExampleSentenceKurdish(
-                        text: "ڕاوێژی لیژنەکە تەواو نھێنییە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "deliberation", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdeliberations1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdeliberations1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "The deliberations of the committee are completely confidential.",
+            kurdishText: "ڕاوێژی لیژنەکە تەواو نھێنییە.", // deliberation
+            onPressedBritish: () => speakdeliberations1("en-GB"),
+            onPressedAmerican: () => speakdeliberations1("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "After much deliberation, we have decided to award the title to Springfield College."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "لە دوای بیرکردنەوەی زۆر، بڕیارمانداوە خەڵاتەکە بدەین بە کۆلێژی سپرینگفیڵد."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdeliberations2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdeliberations2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "After much deliberation, we have decided to award the title to Springfield College.",
+            kurdishText:
+                "لە دوای بیرکردنەوەی زۆر، بڕیارمانداوە خەڵاتەکە بدەین بە کۆلێژی سپرینگفیڵد.",
+            onPressedBritish: () => speakdeliberations2("en-GB"),
+            onPressedAmerican: () => speakdeliberations2("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٢. (ناو) ھێواشی و وریا لەوەی دیکەیت یان دەیڵێیت"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "She signed her name with great deliberation."),
-                    ExampleSentenceKurdish(
-                        text: "ناوی بە لەسەرەخۆیی زۆرەوە واژۆکرد."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdeliberations3("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdeliberations3("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "She signed her name with great deliberation.",
+            kurdishText: "ناوی بە لەسەرەخۆیی زۆرەوە واژۆکرد.",
+            onPressedBritish: () => speakdeliberations3("en-GB"),
+            onPressedAmerican: () => speakdeliberations3("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "With slow deliberation, he tore the letter into pieces."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "بە لەسەرەخۆیی ھێواشەوە، نامەکەی پارچە پارچە کرد."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdeliberations4("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdeliberations4("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "With slow deliberation, he tore the letter into pieces.",
+            kurdishText: "بە لەسەرەخۆیی ھێواشەوە، نامەکەی پارچە پارچە کرد.",
+            onPressedBritish: () => speakdeliberations4("en-GB"),
+            onPressedAmerican: () => speakdeliberations4("en-US"),
           ),
           // deliberations500"),
           // speakdeliberations5

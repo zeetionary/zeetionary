@@ -388,122 +388,45 @@ class KurdishMeaning extends StatelessWidget {
 کوردی: بۆ نێوەوەی شار، بەرەو ناوەندی شار، بۆ نێوشار
 """),
           const DefinitionKurdish(text: "١. (ھاوەڵکار) بەرەو سەنتەری شار"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "I work downtown, but I live in the suburbs."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "لە ناوجەرگەی شار کار دەکەم، بەڵام لە لاشاردا دەژیم."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "downtown", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdowntowns1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdowntowns1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "I work downtown, but I live in the suburbs.",
+            kurdishText:
+                "لە ناوجەرگەی شار کار دەکەم، بەڵام لە لاشاردا دەژیم.", // downtown
+            onPressedBritish: () => speakdowntowns1("en-GB"),
+            onPressedAmerican: () => speakdowntowns1("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "We bought a tourist guide to downtown Seattle before we left."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "ڕێبەرێکی گەشتیاریمان بۆ سەنتەری سیاتڵ کڕی پێش ئەوەی بچین."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdowntowns2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdowntowns2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "We bought a tourist guide to downtown Seattle before we left.",
+            kurdishText:
+                "ڕێبەرێکی گەشتیاریمان بۆ سەنتەری سیاتڵ کڕی پێش ئەوەی بچین.",
+            onPressedBritish: () => speakdowntowns2("en-GB"),
+            onPressedAmerican: () => speakdowntowns2("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٢. (ھاوەڵناو) لە ناوجەرگەی شار یان بەرەو ئەوێ"),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "Vandals smashed windows and overturned cars in the downtown shopping district."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "تێکدەران پەنجەرەیان شکاند و ئۆتۆمبێلیان قڵپ‌کردەوە لە سەنتەری ناوچەی بازاڕکردن."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdowntowns3("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdowntowns3("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "Vandals smashed windows and overturned cars in the downtown shopping district.",
+            kurdishText:
+                "تێکدەران پەنجەرەیان شکاند و ئۆتۆمبێلیان قڵپ‌کردەوە لە سەنتەری ناوچەی بازاڕکردن.",
+            onPressedBritish: () => speakdowntowns3("en-GB"),
+            onPressedAmerican: () => speakdowntowns3("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: "٣. (ناو) سەنتەری شارێک"),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The hotel is situated two miles north of downtown."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "ھوتێلەکە ھەڵکەوتووە لە دوو میل لە باکووری سەنتەری شارەوە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdowntowns4("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdowntowns4("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "The hotel is situated two miles north of downtown.",
+            kurdishText:
+                "ھوتێلەکە ھەڵکەوتووە لە دوو میل لە باکووری سەنتەری شارەوە.",
+            onPressedBritish: () => speakdowntowns4("en-GB"),
+            onPressedAmerican: () => speakdowntowns4("en-US"),
           ),
           // downtowns500"),
           // speakdowntowns5

@@ -259,120 +259,44 @@ class KurdishMeaning extends StatelessWidget {
 """),
           const DefinitionKurdish(
               text: "١. (ھاوەڵناو) پەیوەندیدار بە دەسەڵاتدارێکی دیکتاتۆر"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "He still remembers the dictatorial reign of Stalin's last years."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "ھێشتا کۆتا ساڵەکانی ماوەی دیکتاتۆریەتیی ستالینی لەبیرە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "dictatorial", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdictatorials1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdictatorials1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "He still remembers the dictatorial reign of Stalin's last years.",
+            kurdishText:
+                "ھێشتا کۆتا ساڵەکانی ماوەی دیکتاتۆریەتیی ستالینی لەبیرە.", // dictatorial
+            onPressedBritish: () => speakdictatorials1("en-GB"),
+            onPressedAmerican: () => speakdictatorials1("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The military leader gradually assumed more and more dictatorial powers."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "سەرکردە سەرکوتکارەکە کەم کەم دەسەڵاتی زیاتری بەدەستھێنا."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdictatorials2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdictatorials2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "The military leader gradually assumed more and more dictatorial powers.",
+            kurdishText:
+                "سەرکردە سەرکوتکارەکە کەم کەم دەسەڵاتی زیاتری بەدەستھێنا.",
+            onPressedBritish: () => speakdictatorials2("en-GB"),
+            onPressedAmerican: () => speakdictatorials2("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
                   "٢. (ھاوەڵناو) بەکارھێنانی دەسەڵات بەشێوەیەکی خراپ کە بە خەڵکی بڵێیت چی بکەن بەبێ ئەوەی گوێیان لێ بگریت"),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "He didn't want to seem too dictatorial."),
-                    ExampleSentenceKurdish(
-                        text: "نەیدەویست زۆر سەرکوتکار دەربکەوێت."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdictatorials3("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdictatorials3("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "He didn't want to seem too dictatorial.",
+            kurdishText: "نەیدەویست زۆر سەرکوتکار دەربکەوێت.",
+            onPressedBritish: () => speakdictatorials3("en-GB"),
+            onPressedAmerican: () => speakdictatorials3("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "She was fed up with his dictatorial attitude."),
-                    ExampleSentenceKurdish(
-                        text: "بێزار بوو لە مامەڵەی سەرکوتکارانەی."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdictatorials4("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdictatorials4("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "She was fed up with his dictatorial attitude.",
+            kurdishText: "بێزار بوو لە مامەڵەی سەرکوتکارانەی.",
+            onPressedBritish: () => speakdictatorials4("en-GB"),
+            onPressedAmerican: () => speakdictatorials4("en-US"),
           ),
           // dictatorials500"),
           // speakdictatorials5

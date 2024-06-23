@@ -252,64 +252,25 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "١. (ناو) جۆرێک لە بەرزکەرەوە کە بەکاردێت بۆ ھەڵگرتنی شتی قورس، بەتایبەتی لەسەر کەشتی"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The derrick moved large equipment to the construction site."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "کرێنەکە کەرەستەی گەورەی گەیاند بە شوێنی بنیادنانەکە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "derrick", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakderricks1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakderricks1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "The derrick moved large equipment to the construction site.",
+            kurdishText:
+                "کرێنەکە کەرەستەی گەورەی گەیاند بە شوێنی بنیادنانەکە.", // derrick
+            onPressedBritish: () => speakderricks1("en-GB"),
+            onPressedAmerican: () => speakderricks1("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
                   "٢. (ناو) ئامێرێک کە لە کەندنی چاڵە نەوتدا بەکاردێت و بۆ گرتنی کون‌کەرەکە بەکاردێت"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "They installed a new derrick for drilling operations."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "قوللەیەکی تازەیان دانا بۆ کارەکانی چاڵکەندنەکە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakderricks2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakderricks2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "They installed a new derrick for drilling operations.",
+            kurdishText: "قوللەیەکی تازەیان دانا بۆ کارەکانی چاڵکەندنەکە.",
+            onPressedBritish: () => speakderricks2("en-GB"),
+            onPressedAmerican: () => speakderricks2("en-US"),
           ),
           // derricks300"),
           // speakderricks3

@@ -243,59 +243,22 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "١. (کردار) وا لە کەسێک بکەیت کە نەتوانێت بزانێت لە کوێیە یان بۆ کوێ بچێت"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "The darkness had disorientated him."),
-                    ExampleSentenceKurdish(text: "تاریکییەکە گێژی کردبوو."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "disorientate", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdisorientates1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdisorientates1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "The darkness had disorientated him.",
+            kurdishText: "تاریکییەکە گێژی کردبوو.", // disorientate
+            onPressedBritish: () => speakdisorientates1("en-GB"),
+            onPressedAmerican: () => speakdisorientates1("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: "٢. (کردار) ئەوەی کەسێک بشڵەژێنیت"),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "Ex-soldiers can be disorientated by the transition to civilian life."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "کۆنە سەربازەکان دەکرێت شڵەژاو بن کە تێکەڵ بە ژیانی ئاسایی دەبنەوە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdisorientates2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdisorientates2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "Ex-soldiers can be disorientated by the transition to civilian life.",
+            kurdishText:
+                "کۆنە سەربازەکان دەکرێت شڵەژاو بن کە تێکەڵ بە ژیانی ئاسایی دەبنەوە.",
+            onPressedBritish: () => speakdisorientates2("en-GB"),
+            onPressedAmerican: () => speakdisorientates2("en-US"),
           ),
           // disorientates300"),
           // speakdisorientates3

@@ -240,61 +240,21 @@ class KurdishMeaning extends StatelessWidget {
 کوردی: بێ‌ڕەوشتی، بێ‌ئەدەبی، توندی، بێ‌ڕێزی، بێ‌حورمەتی، بێ‌قەیی
 """),
           const DefinitionKurdish(text: "١. (ناو) ڕەفتاری بێڕێزانە"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "They felt they had been treated with discourtesy."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "وایان ھەست دەکرد بە بێڕێزی مامەڵەیان لەگەڵ کراوە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "discourtesy", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdiscourtesys1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdiscourtesys1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "They felt they had been treated with discourtesy.",
+            kurdishText:
+                "وایان ھەست دەکرد بە بێڕێزی مامەڵەیان لەگەڵ کراوە.", // discourtesy
+            onPressedBritish: () => speakdiscourtesys1("en-GB"),
+            onPressedAmerican: () => speakdiscourtesys1("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "Being late is a discourtesy to your colleagues."),
-                    ExampleSentenceKurdish(
-                        text: "درەنگ کەوتن بێڕێزییە بە ھاوکارەکانت."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdiscourtesys2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdiscourtesys2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "Being late is a discourtesy to your colleagues.",
+            kurdishText: "درەنگ کەوتن بێڕێزییە بە ھاوکارەکانت.",
+            onPressedBritish: () => speakdiscourtesys2("en-GB"),
+            onPressedAmerican: () => speakdiscourtesys2("en-US"),
           ),
           // discourtesys300"),
           // speakdiscourtesys3

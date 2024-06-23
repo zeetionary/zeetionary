@@ -317,279 +317,91 @@ class KurdishMeaning extends StatelessWidget {
 کوردی: درەنگی، ڕاوەستان، (بە)جێمان، بەدرەنگ‌کەوتن، دێرکردن، دێرکرد، دواکەوتن، پاش‌کەوتن، خڵافان، درێژە
 """),
           const DefinitionKurdish(text: "١. (ناو) دواکەوتن"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "Commuters will face long delays on the roads today."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "گەشتیاران ئەمڕۆ ڕووبەڕووی دواکەوتنی زۆر دەبنەوە لەسەر ڕێگاکان."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "delay", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdelays1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdelays1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "Commuters will face long delays on the roads today.",
+            kurdishText:
+                "گەشتیاران ئەمڕۆ ڕووبەڕووی دواکەوتنی زۆر دەبنەوە لەسەر ڕێگاکان.", // delay
+            onPressedBritish: () => speakdelays1("en-GB"),
+            onPressedAmerican: () => speakdelays1("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "Increased congestion and traffic delays are expected."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "قەرەباڵغی زۆر و دواکەوتنی ھاتووچۆ چاوەڕوان دەکرێت."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdelays2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdelays2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "Increased congestion and traffic delays are expected.",
+            kurdishText: "قەرەباڵغی زۆر و دواکەوتنی ھاتووچۆ چاوەڕوان دەکرێت.",
+            onPressedBritish: () => speakdelays2("en-GB"),
+            onPressedAmerican: () => speakdelays2("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The strike has led to some delays in train services."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "مانگرتنەکە بووە بە ھۆکاری ھەندێک دواکەوتن لە خزمەتگوزاری شەمەندەفەردا."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdelays3("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdelays3("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "The strike has led to some delays in train services.",
+            kurdishText:
+                "مانگرتنەکە بووە بە ھۆکاری ھەندێک دواکەوتن لە خزمەتگوزاری شەمەندەفەردا.",
+            onPressedBritish: () => speakdelays3("en-GB"),
+            onPressedAmerican: () => speakdelays3("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٢. (ناو) شکستھێنان لەوەی شتێک لەکاتی خۆیدا بکەیت"),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "Report it to the police without delay (= immediately)."),
-                    ExampleSentenceKurdish(text: "بە پۆلیس بڵێ بەبێ دواکەوتن."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdelays4("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdelays4("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "Report it to the police without delay (= immediately).",
+            kurdishText: "بە پۆلیس بڵێ بەبێ دواکەوتن.",
+            onPressedBritish: () => speakdelays4("en-GB"),
+            onPressedAmerican: () => speakdelays4("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: "٣. (کردار) دواخستنی کەسێک/شتێک"),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "Thousands of commuters were delayed for over an hour."),
-                    ExampleSentenceKurdish(
-                        text: "ھەزاران گەشتیار دواخران بۆ سەروو کاتژمێرێک."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdelays5("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdelays5("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "Thousands of commuters were delayed for over an hour.",
+            kurdishText: "ھەزاران گەشتیار دواخران بۆ سەروو کاتژمێرێک.",
+            onPressedBritish: () => speakdelays5("en-GB"),
+            onPressedAmerican: () => speakdelays5("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(text: "My flight was delayed."),
-                    ExampleSentenceKurdish(text: "گەشتەکەم دواخرا."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdelays6("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdelays6("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "My flight was delayed.",
+            kurdishText: "گەشتەکەم دواخرا.",
+            onPressedBritish: () => speakdelays6("en-GB"),
+            onPressedAmerican: () => speakdelays6("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "What could have delayed him?"),
-                    ExampleSentenceKurdish(text: "دەکرێت چی دوایخستبێت؟"),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdelays7("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdelays7("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "What could have delayed him?",
+            kurdishText: "دەکرێت چی دوایخستبێت؟",
+            onPressedBritish: () => speakdelays7("en-GB"),
+            onPressedAmerican: () => speakdelays7("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: "٤. (کردار) دواخستنی کردنی شتێک"),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(text: "Don't delay—call us today!"),
-                    ExampleSentenceKurdish(
-                        text: "دوای مەخە ـ ئەمڕۆ پەیوەندیمان پێوە بکە!"),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdelays8("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdelays8("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "Don't delay—call us today!",
+            kurdishText: "دوای مەخە ـ ئەمڕۆ پەیوەندیمان پێوە بکە!",
+            onPressedBritish: () => speakdelays8("en-GB"),
+            onPressedAmerican: () => speakdelays8("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(text: "We can't delay much longer."),
-                    ExampleSentenceKurdish(
-                        text: "ناتوانین چی دیکە دواخستن بکەین."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdelays9("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdelays9("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "We can't delay much longer.",
+            kurdishText: "ناتوانین چی دیکە دواخستن بکەین.",
+            onPressedBritish: () => speakdelays9("en-GB"),
+            onPressedAmerican: () => speakdelays9("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "He delayed telling her the news, waiting for the right moment."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "گوتنی ھەواڵەکەی پێی دواخست و وەستا بۆ ساتی درووست."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdelays10("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdelays10("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "He delayed telling her the news, waiting for the right moment.",
+            kurdishText: "گوتنی ھەواڵەکەی پێی دواخست و وەستا بۆ ساتی درووست.",
+            onPressedBritish: () => speakdelays10("en-GB"),
+            onPressedAmerican: () => speakdelays10("en-US"),
           ),
           // delays1100"),
           // speakdelays11

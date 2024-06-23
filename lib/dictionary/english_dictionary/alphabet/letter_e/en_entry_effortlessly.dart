@@ -374,62 +374,24 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   """١. (ھاوەڵکار) بەشێوەیەک کە پێویستی بە ھیچ یان کەمێک ھەوڵە"""),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            """She runs so effortlessly, as if it's the easiest thing in the world."""),
-                    ExampleSentenceKurdish(
-                        text:
-                            """زۆر بە ئاسانی ڕادەکات، وەک ئەوەی ئاسانترین شت بێت لە جیھاندا."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "effortlessly", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakeffortlesslys1("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakeffortlesslys1("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                """She runs so effortlessly, as if it's the easiest thing in the world.""",
+            kurdishText:
+                """زۆر بە ئاسانی ڕادەکات، وەک ئەوەی ئاسانترین شت بێت لە جیھاندا.""", // effortlessly
+            onPressedBritish: () => speakeffortlesslys1("en-GB"),
+            onPressedAmerican: () => speakeffortlesslys1("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            """These birds can soar almost effortlessly for hours."""),
-                    ExampleSentenceKurdish(
-                        text:
-                            """ئەم باڵندانە دەکرێت بۆ چەندین کاتژمێر بە ئاسانی بفڕن."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakeffortlesslys2("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakeffortlesslys2("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                """These birds can soar almost effortlessly for hours.""",
+            kurdishText:
+                """ئەم باڵندانە دەکرێت بۆ چەندین کاتژمێر بە ئاسانی بفڕن.""",
+            onPressedBritish: () => speakeffortlesslys2("en-GB"),
+            onPressedAmerican: () => speakeffortlesslys2("en-US"),
           ),
           // effortlesslys300effortlesslys3
           // speakeffortlesslys3

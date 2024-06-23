@@ -379,90 +379,32 @@ class KurdishMeaning extends StatelessWidget {
 // """),
           const DefinitionKurdish(
               text: """١. (کردار) وێناکردن یان دەربڕینی بیرۆکە یان خاسیەتێک"""),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            """These ideals were embodied in the constitution."""),
-                    ExampleSentenceKurdish(
-                        text: """ئەم بیرۆکانە لە دەستووردا جێکرانەوە."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "embody", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakembodys1("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakembodys1("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: """These ideals were embodied in the constitution.""",
+            kurdishText: """ئەم بیرۆکانە لە دەستووردا جێکرانەوە.""", // embody
+            onPressedBritish: () => speakembodys1("en-GB"),
+            onPressedAmerican: () => speakembodys1("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            """The new constitution embodied the right to free speech."""),
-                    ExampleSentenceKurdish(
-                        text:
-                            """دەستوورە تازەکە مافی ئازادیی ڕادەربڕینی جێگیرکرد."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakembodys2("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakembodys2("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                """The new constitution embodied the right to free speech.""",
+            kurdishText:
+                """دەستوورە تازەکە مافی ئازادیی ڕادەربڕینی جێگیرکرد.""",
+            onPressedBritish: () => speakembodys2("en-GB"),
+            onPressedAmerican: () => speakembodys2("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: """٢. (کردار) گرتنەخۆی شتێک"""),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: """This model embodies many new features."""),
-                    ExampleSentenceKurdish(
-                        text:
-                            """ئەم نموونەیە زۆر تایبەتمەندیی تازەی زیاتر لەخۆ دەگرێت."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakembodys3("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakembodys3("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: """This model embodies many new features.""",
+            kurdishText:
+                """ئەم نموونەیە زۆر تایبەتمەندیی تازەی زیاتر لەخۆ دەگرێت.""",
+            onPressedBritish: () => speakembodys3("en-GB"),
+            onPressedAmerican: () => speakembodys3("en-US"),
           ),
           // embodys400embodys4
           // speakembodys4

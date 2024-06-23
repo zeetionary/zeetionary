@@ -381,92 +381,35 @@ class KurdishMeaning extends StatelessWidget {
 // """),
           const DefinitionKurdish(
               text: "١. (کردار) پێدانی نازناوێک بە کەسێک/شتێک"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "She was dubbed by the newspapers \"the Angel of Death\"."),
-                    ExampleSentenceKurdish(
-                        text:
-                            """لەلایەن ڕۆژنامەکەوە پێی گوترا "فریشتەی مەرگ"."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "dub", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdubs1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdubs1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "She was dubbed by the newspapers \"the Angel of Death\".",
+            kurdishText:
+                """لەلایەن ڕۆژنامەکەوە پێی گوترا "فریشتەی مەرگ".""", // dub
+            onPressedBritish: () => speakdubs1("en-GB"),
+            onPressedAmerican: () => speakdubs1("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
                   "٢. (کردار) مۆنتاژکردنی فیلمێک یان پڕۆگرامێکی تەلەفیزیۆنی بە سڕینەوەی دەنگەکەی دانانی دەنگی زمانێکی دیکە لە جێگای"),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "They bought American TV programmes and dubbed them into Italian."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "پڕۆگرامی تەلەفیزیۆنی ئیتالییان کڕی و دۆبلاژیان کردن بۆ ئیتالی."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdubs2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdubs2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "They bought American TV programmes and dubbed them into Italian.",
+            kurdishText:
+                "پڕۆگرامی تەلەفیزیۆنی ئیتالییان کڕی و دۆبلاژیان کردن بۆ ئیتالی.",
+            onPressedBritish: () => speakdubs2("en-GB"),
+            onPressedAmerican: () => speakdubs2("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "I'd rather watch a film with subtitles than one dubbed into English."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "پێم باشترە سەیری فیلمێک بکەم بە ژێرنووسەوە وەک ئەوەی دۆبلاژ کرابێتە ئینگلیزی."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdubs3("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdubs3("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "I'd rather watch a film with subtitles than one dubbed into English.",
+            kurdishText:
+                "پێم باشترە سەیری فیلمێک بکەم بە ژێرنووسەوە وەک ئەوەی دۆبلاژ کرابێتە ئینگلیزی.",
+            onPressedBritish: () => speakdubs3("en-GB"),
+            onPressedAmerican: () => speakdubs3("en-US"),
           ),
           // dubs400"),
           // speakdubs4

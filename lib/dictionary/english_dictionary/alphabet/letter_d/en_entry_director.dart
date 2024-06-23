@@ -277,177 +277,61 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "١. (ناو) یەکێک لە بەرپرسانی کۆمپانیایەک کە کاری بەڕێوەبەری دەکات"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "He's on the board of directors."),
-                    ExampleSentenceKurdish(
-                        text: "سەر بە دەستەی بەڕێوەبەرایەتی."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "director", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdirectors1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdirectors1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "He's on the board of directors.",
+            kurdishText: "سەر بە دەستەی بەڕێوەبەرایەتی.", // director
+            onPressedBritish: () => speakdirectors1("en-GB"),
+            onPressedAmerican: () => speakdirectors1("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "Three executive directors were appointed to relieve the CEO of some day-to-day responsibilities."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "سێ بەڕێوەبەری جێبەجێکار دیاریکران بۆ ئەوەی کەمێک ئەرکی ڕۆژانەی بەڕێوەبەری گشتی سووک بکەن."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdirectors2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdirectors2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "Three executive directors were appointed to relieve the CEO of some day-to-day responsibilities.",
+            kurdishText:
+                "سێ بەڕێوەبەری جێبەجێکار دیاریکران بۆ ئەوەی کەمێک ئەرکی ڕۆژانەی بەڕێوەبەری گشتی سووک بکەن.",
+            onPressedBritish: () => speakdirectors2("en-GB"),
+            onPressedAmerican: () => speakdirectors2("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
                   "٢. (ناو) دەرھێنەری فیلم یان شانۆیەک کە بە ئەکتەرەکان و ستافەکە دەڵێت چی بکەن"),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "There was an opportunity to meet the cast and director backstage."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "ھەلێک ھەبوو بۆ بینینی ئەکتەرەکان و دەرھێنەر لە پشتەوەی پەردە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdirectors3("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdirectors3("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "There was an opportunity to meet the cast and director backstage.",
+            kurdishText:
+                "ھەلێک ھەبوو بۆ بینینی ئەکتەرەکان و دەرھێنەر لە پشتەوەی پەردە.",
+            onPressedBritish: () => speakdirectors3("en-GB"),
+            onPressedAmerican: () => speakdirectors3("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "Are there any actors or directors you would particularly like to work with?"),
-                    ExampleSentenceKurdish(
-                        text:
-                            "ھیچ ئەکتەر یان دەرھێنەرێک ھەیە کە بەتایبەتی بتەوێت لەگەڵی کاربکەیت؟"),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdirectors4("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdirectors4("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "Are there any actors or directors you would particularly like to work with?",
+            kurdishText:
+                "ھیچ ئەکتەر یان دەرھێنەرێک ھەیە کە بەتایبەتی بتەوێت لەگەڵی کاربکەیت؟",
+            onPressedBritish: () => speakdirectors4("en-GB"),
+            onPressedAmerican: () => speakdirectors4("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
                   "٣. (ناو) کەسێک کە بەرپرسی چالاکییەکی دیاریکراوە لە بەشێکی کۆمپانیایەک، کۆلێژێک، ھتد"),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "She was artistic director of the city's photography festival."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "بەڕێوەبەری ھونەری فیستیڤاڵی وێنەگری شارەکە بوو."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdirectors5("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdirectors5("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "She was artistic director of the city's photography festival.",
+            kurdishText: "بەڕێوەبەری ھونەری فیستیڤاڵی وێنەگری شارەکە بوو.",
+            onPressedBritish: () => speakdirectors5("en-GB"),
+            onPressedAmerican: () => speakdirectors5("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "He was musical director at the National Theatre."),
-                    ExampleSentenceKurdish(
-                        text: "بەڕێوەبەری میوزیک بوو لە نەشناڵ سێتەر."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdirectors6("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdirectors6("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "He was musical director at the National Theatre.",
+            kurdishText: "بەڕێوەبەری میوزیک بوو لە نەشناڵ سێتەر.",
+            onPressedBritish: () => speakdirectors6("en-GB"),
+            onPressedAmerican: () => speakdirectors6("en-US"),
           ),
           // directors700"),
           // speakdirectors7

@@ -457,179 +457,55 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "١. (کردار) گەشەکردن و بەرەوپێشچوون، گەورەتر بوون، پێشکەوتووتر بوون، ھتد بە تێپەڕبوونی کات"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "From birth to age 5, a child's brain develops rapidly."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "لە لەدایکبوونەوە تاوەکو پێنج ساڵی مێشکی منداڵ بە خێرایی بەرەوپێش دەچێت."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "develop", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdevelops1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdevelops1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "From birth to age 5, a child's brain develops rapidly.",
+            kurdishText:
+                "لە لەدایکبوونەوە تاوەکو پێنج ساڵی مێشکی منداڵ بە خێرایی بەرەوپێش دەچێت.", // develop
+            onPressedBritish: () => speakdevelops1("en-GB"),
+            onPressedAmerican: () => speakdevelops1("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "Some children develop more slowly than others."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "ھەندێک منداڵ ھێواشتر گەشە دەکەن وەک لەوانی دیکە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdevelops2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdevelops2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "Some children develop more slowly than others.",
+            kurdishText: "ھەندێک منداڵ ھێواشتر گەشە دەکەن وەک لەوانی دیکە.",
+            onPressedBritish: () => speakdevelops2("en-GB"),
+            onPressedAmerican: () => speakdevelops2("en-US"),
           ),
           Column(
             children: [
               MyExpansionTile(
                 children: [
-                  Row(
-                    children: [
-                      const Expanded(
-                        child: Column(
-                          children: [
-                            ExampleSentenceEnglish(
-                                text:
-                                    "Gradually these settlements developed into cities."),
-                            ExampleSentenceKurdish(
-                                text:
-                                    "کەم کەم ئەم کۆمەڵگەی نیشتەجێبوونانە بوون بە شار."),
-                          ],
-                        ),
-                      ),
-                      const CustomSizedBoxForTTS(),
-                      Column(
-                        children: [
-                          CustomIconButtonBritish(
-                            onPressed: () => speakdevelops3("en-GB"),
-                          ),
-                          CustomIconButtonAmerican(
-                            onPressed: () => speakdevelops3("en-US"),
-                          ),
-                        ],
-                      ),
-                    ],
+                  SentencesRow(
+                    englishText:
+                        "Gradually these settlements developed into cities.",
+                    kurdishText:
+                        "کەم کەم ئەم کۆمەڵگەی نیشتەجێبوونانە بوون بە شار.",
+                    onPressedBritish: () => speakdevelops3("en-GB"),
+                    onPressedAmerican: () => speakdevelops3("en-US"),
                   ),
-                  // const DividerDefinition(),
-                  // const DefinitionKurdish(text: "ژممارە. (کردار) پێنناسە"),
                   const DividerSentences(),
-                  Row(
-                    children: [
-                      const Expanded(
-                        child: Column(
-                          children: [
-                            ExampleSentenceEnglish(
-                                text:
-                                    "Human beings developed from earlier species of animals."),
-                            ExampleSentenceKurdish(
-                                text:
-                                    "مرۆڤ لە جۆرەکانی دیکەی ئاژەڵانەوە گەشەی کرد."),
-                          ],
-                        ),
-                      ),
-                      const CustomSizedBoxForTTS(),
-                      Column(
-                        children: [
-                          CustomIconButtonBritish(
-                            onPressed: () => speakdevelops4("en-GB"),
-                          ),
-                          CustomIconButtonAmerican(
-                            onPressed: () => speakdevelops4("en-US"),
-                          ),
-                        ],
-                      ),
-                    ],
+                  SentencesRow(
+                    englishText:
+                        "Human beings developed from earlier species of animals.",
+                    kurdishText: "مرۆڤ لە جۆرەکانی دیکەی ئاژەڵانەوە گەشەی کرد.",
+                    onPressedBritish: () => speakdevelops4("en-GB"),
+                    onPressedAmerican: () => speakdevelops4("en-US"),
                   ),
-                  // const DividerDefinition(),
-                  // const DefinitionKurdish(text: "ژممارە. (کردار) پێنناسە"),
                   const DividerSentences(),
-                  Row(
-                    children: [
-                      const Expanded(
-                        child: Column(
-                          children: [
-                            ExampleSentenceEnglish(
-                                text:
-                                    "The aim is to develop your personal skills."),
-                            ExampleSentenceKurdish(
-                                text:
-                                    "ئامانجەکە بەرەوپێشبردنی شارەزاییە کەسییەکانتە."),
-                          ],
-                        ),
-                      ),
-                      const CustomSizedBoxForTTS(),
-                      Column(
-                        children: [
-                          CustomIconButtonBritish(
-                            onPressed: () => speakdevelops5("en-GB"),
-                          ),
-                          CustomIconButtonAmerican(
-                            onPressed: () => speakdevelops5("en-US"),
-                          ),
-                        ],
-                      ),
-                    ],
+                  SentencesRow(
+                    englishText: "The aim is to develop your personal skills.",
+                    kurdishText:
+                        "ئامانجەکە بەرەوپێشبردنی شارەزاییە کەسییەکانتە.",
+                    onPressedBritish: () => speakdevelops5("en-GB"),
+                    onPressedAmerican: () => speakdevelops5("en-US"),
                   ),
-                  // const DividerDefinition(),
-                  // const DefinitionKurdish(text: "ژممارە. (کردار) پێنناسە"),
                   const DividerSentences(),
-                  Row(
-                    children: [
-                      const Expanded(
-                        child: Column(
-                          children: [
-                            ExampleSentenceEnglish(
-                                text:
-                                    "She developed the company from nothing."),
-                            ExampleSentenceKurdish(
-                                text: "کۆمپانیاکەی لە ھیچەوە پەرەپێدا."),
-                          ],
-                        ),
-                      ),
-                      const CustomSizedBoxForTTS(),
-                      Column(
-                        children: [
-                          CustomIconButtonBritish(
-                            onPressed: () => speakdevelops6("en-GB"),
-                          ),
-                          CustomIconButtonAmerican(
-                            onPressed: () => speakdevelops6("en-US"),
-                          ),
-                        ],
-                      ),
-                    ],
+                  SentencesRow(
+                    englishText: "She developed the company from nothing.",
+                    kurdishText: "کۆمپانیاکەی لە ھیچەوە پەرەپێدا.",
+                    onPressedBritish: () => speakdevelops6("en-GB"),
+                    onPressedAmerican: () => speakdevelops6("en-US"),
                   ),
                 ],
               ),
@@ -639,263 +515,87 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text: "٢. (کردار) دەستپێکردن و پەرەپێدانی شتێک"),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "Their relationship has developed over a number of years."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "پەیوەندییەکەیان لە ماوەی چەند ساڵێکدا بەرەو پێشچوو."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdevelops7("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdevelops7("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "Their relationship has developed over a number of years.",
+            kurdishText: "پەیوەندییەکەیان لە ماوەی چەند ساڵێکدا بەرەو پێشچوو.",
+            onPressedBritish: () => speakdevelops7("en-GB"),
+            onPressedAmerican: () => speakdevelops7("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "He is trying hard to develop a loving relationship with his daughter."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "بە ڕژدی ھەوڵ دەدات کە پەیوەندییەکی خۆشەویستانە لەگەڵ کچەکەی درووست بکات بکات."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdevelops8("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdevelops8("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "He is trying hard to develop a loving relationship with his daughter.",
+            kurdishText:
+                "بە ڕژدی ھەوڵ دەدات کە پەیوەندییەکی خۆشەویستانە لەگەڵ کچەکەی درووست بکات بکات.",
+            onPressedBritish: () => speakdevelops8("en-GB"),
+            onPressedAmerican: () => speakdevelops8("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "Physicians need to develop a better understanding of this issue."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "پزیشکە گشتییەکان دەبێت تێگەشتنی زیاتر پەرەپێبدەن بۆ ئەم بابەتە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdevelops9("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdevelops9("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "Physicians need to develop a better understanding of this issue.",
+            kurdishText:
+                "پزیشکە گشتییەکان دەبێت تێگەشتنی زیاتر پەرەپێبدەن بۆ ئەم بابەتە.",
+            onPressedBritish: () => speakdevelops9("en-GB"),
+            onPressedAmerican: () => speakdevelops9("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
                   "٣. (کردار) پەرەپێدانی بیرۆکەیەک، بەرھەمێک، ھتد و سەرخستنی"),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "The company develops and markets new software."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "کۆمپانیاکە ئەرمامێیر تازە گەشە پێدەدات و بەبازاڕیان دەکات."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdevelops10("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdevelops10("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "The company develops and markets new software.",
+            kurdishText:
+                "کۆمپانیاکە ئەرمامێیر تازە گەشە پێدەدات و بەبازاڕیان دەکات.",
+            onPressedBritish: () => speakdevelops10("en-GB"),
+            onPressedAmerican: () => speakdevelops10("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "It takes time to develop new technology."),
-                    ExampleSentenceKurdish(
-                        text: "کاتی دەوێت تەکنەلۆژیای تازە درووست بکرێت."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdevelops11("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdevelops11("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "It takes time to develop new technology.",
+            kurdishText: "کاتی دەوێت تەکنەلۆژیای تازە درووست بکرێت.",
+            onPressedBritish: () => speakdevelops11("en-GB"),
+            onPressedAmerican: () => speakdevelops11("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "We are developing products for different parts of the industry."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "بەرھەم گەشە پێدەدەین بۆ بەشە جیاوازەکانی پیشەسازی."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdevelops12("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdevelops12("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "We are developing products for different parts of the industry.",
+            kurdishText: "بەرھەم گەشە پێدەدەین بۆ بەشە جیاوازەکانی پیشەسازی.",
+            onPressedBritish: () => speakdevelops12("en-GB"),
+            onPressedAmerican: () => speakdevelops12("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٤. (کردار) ھەبوونی شتێک، وەک نەخۆشییەک یان کێشەیەک"),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "She developed lung cancer at the age of sixty."),
-                    ExampleSentenceKurdish(
-                        text: "لە تەمەنی شەست ساڵی تووشی شێرپەنجەی سینگ بوو."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdevelops13("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdevelops13("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "She developed lung cancer at the age of sixty.",
+            kurdishText: "لە تەمەنی شەست ساڵی تووشی شێرپەنجەی سینگ بوو.",
+            onPressedBritish: () => speakdevelops13("en-GB"),
+            onPressedAmerican: () => speakdevelops13("en-US"),
           ),
           Column(
             children: [
               MyExpansionTile(
                 children: [
-                  Row(
-                    children: [
-                      const Expanded(
-                        child: Column(
-                          children: [
-                            ExampleSentenceEnglish(
-                                text:
-                                    "The car developed engine trouble and we had to stop."),
-                            ExampleSentenceKurdish(
-                                text:
-                                    "ئۆتۆمبێلەکە تووشی کێشەی بزوێنەر بوو و پێویست بوو بوەستین."),
-                          ],
-                        ),
-                      ),
-                      const CustomSizedBoxForTTS(),
-                      Column(
-                        children: [
-                          CustomIconButtonBritish(
-                            onPressed: () => speakdevelops14("en-GB"),
-                          ),
-                          CustomIconButtonAmerican(
-                            onPressed: () => speakdevelops14("en-US"),
-                          ),
-                        ],
-                      ),
-                    ],
+                  SentencesRow(
+                    englishText:
+                        "The car developed engine trouble and we had to stop.",
+                    kurdishText:
+                        "ئۆتۆمبێلەکە تووشی کێشەی بزوێنەر بوو و پێویست بوو بوەستین.",
+                    onPressedBritish: () => speakdevelops14("en-GB"),
+                    onPressedAmerican: () => speakdevelops14("en-US"),
                   ),
-                  // const DividerDefinition(),
-                  // const DefinitionKurdish(text: "ژممارە. (کردار) پێنناسە"),
                   const DividerSentences(),
-                  Row(
-                    children: [
-                      const Expanded(
-                        child: Column(
-                          children: [
-                            ExampleSentenceEnglish(
-                                text:
-                                    "If symptoms develop, seek help quickly."),
-                            ExampleSentenceKurdish(
-                                text:
-                                    "ئەگەر نیشانەکانیت گرت بەخێرایی بۆ یارمەتی بچۆ."),
-                          ],
-                        ),
-                      ),
-                      const CustomSizedBoxForTTS(),
-                      Column(
-                        children: [
-                          CustomIconButtonBritish(
-                            onPressed: () => speakdevelops15("en-GB"),
-                          ),
-                          CustomIconButtonAmerican(
-                            onPressed: () => speakdevelops15("en-US"),
-                          ),
-                        ],
-                      ),
-                    ],
+                  SentencesRow(
+                    englishText: "If symptoms develop, seek help quickly.",
+                    kurdishText:
+                        "ئەگەر نیشانەکانیت گرت بەخێرایی بۆ یارمەتی بچۆ.",
+                    onPressedBritish: () => speakdevelops15("en-GB"),
+                    onPressedAmerican: () => speakdevelops15("en-US"),
                   ),
                 ],
               ),
@@ -906,120 +606,38 @@ class KurdishMeaning extends StatelessWidget {
               text:
                   "٥. (کردار) دەستکردن بە ڕوودان یان گۆڕان، بەتایبەتی بەشێوەیەکی خراپ"),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "A crisis was rapidly developing in the Gulf."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "قەیرانێک بە خێرایی تەشەنەی دەکرد لە کەنداوی عەرەب."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdevelops16("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdevelops16("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "A crisis was rapidly developing in the Gulf.",
+            kurdishText: "قەیرانێک بە خێرایی تەشەنەی دەکرد لە کەنداوی عەرەب.",
+            onPressedBritish: () => speakdevelops16("en-GB"),
+            onPressedAmerican: () => speakdevelops16("en-US"),
           ),
           Column(
             children: [
               MyExpansionTile(
                 children: [
-                  Row(
-                    children: [
-                      const Expanded(
-                        child: Column(
-                          children: [
-                            ExampleSentenceEnglish(
-                                text:
-                                    "We need more time to see how things develop before we take action."),
-                            ExampleSentenceKurdish(
-                                text:
-                                    "پێویستیمان بە کاتی زیاترە کە ببینین چۆن شتەکان تەشەنە دەکەن پێش ئەوەی ھەنگاو بنێین."),
-                          ],
-                        ),
-                      ),
-                      const CustomSizedBoxForTTS(),
-                      Column(
-                        children: [
-                          CustomIconButtonBritish(
-                            onPressed: () => speakdevelops17("en-GB"),
-                          ),
-                          CustomIconButtonAmerican(
-                            onPressed: () => speakdevelops17("en-US"),
-                          ),
-                        ],
-                      ),
-                    ],
+                  SentencesRow(
+                    englishText:
+                        "We need more time to see how things develop before we take action.",
+                    kurdishText:
+                        "پێویستیمان بە کاتی زیاترە کە ببینین چۆن شتەکان تەشەنە دەکەن پێش ئەوەی ھەنگاو بنێین.",
+                    onPressedBritish: () => speakdevelops17("en-GB"),
+                    onPressedAmerican: () => speakdevelops17("en-US"),
                   ),
-                  // const DividerDefinition(),
-                  // const DefinitionKurdish(text: "ژممارە. (کردار) پێنناسە"),
                   const DividerSentences(),
-                  Row(
-                    children: [
-                      const Expanded(
-                        child: Column(
-                          children: [
-                            ExampleSentenceEnglish(
-                                text:
-                                    "The conflict quickly developed into full-scale war."),
-                            ExampleSentenceKurdish(
-                                text: "پێکدادانەکە زوو بوو بە جەنگی تەواو."),
-                          ],
-                        ),
-                      ),
-                      const CustomSizedBoxForTTS(),
-                      Column(
-                        children: [
-                          CustomIconButtonBritish(
-                            onPressed: () => speakdevelops18("en-GB"),
-                          ),
-                          CustomIconButtonAmerican(
-                            onPressed: () => speakdevelops18("en-US"),
-                          ),
-                        ],
-                      ),
-                    ],
+                  SentencesRow(
+                    englishText:
+                        "The conflict quickly developed into full-scale war.",
+                    kurdishText: "پێکدادانەکە زوو بوو بە جەنگی تەواو.",
+                    onPressedBritish: () => speakdevelops18("en-GB"),
+                    onPressedAmerican: () => speakdevelops18("en-US"),
                   ),
-                  // const DividerDefinition(),
-                  // const DefinitionKurdish(text: "ژممارە. (کردار) پێنناسە"),
                   const DividerSentences(),
-                  Row(
-                    children: [
-                      const Expanded(
-                        child: Column(
-                          children: [
-                            ExampleSentenceEnglish(
-                                text:
-                                    "The situation is developing into a crisis."),
-                            ExampleSentenceKurdish(
-                                text: "دۆخەکە تەشەنە دەسێنێت بۆ قەیران."),
-                          ],
-                        ),
-                      ),
-                      const CustomSizedBoxForTTS(),
-                      Column(
-                        children: [
-                          CustomIconButtonBritish(
-                            onPressed: () => speakdevelops19("en-GB"),
-                          ),
-                          CustomIconButtonAmerican(
-                            onPressed: () => speakdevelops19("en-US"),
-                          ),
-                        ],
-                      ),
-                    ],
+                  SentencesRow(
+                    englishText: "The situation is developing into a crisis.",
+                    kurdishText: "دۆخەکە تەشەنە دەسێنێت بۆ قەیران.",
+                    onPressedBritish: () => speakdevelops19("en-GB"),
+                    onPressedAmerican: () => speakdevelops19("en-US"),
                   ),
                 ],
               ),
@@ -1030,234 +648,78 @@ class KurdishMeaning extends StatelessWidget {
               text:
                   "٦. (کردار) بنیادنانی خانوو، کارگە، ھتد ـی تازە لەسەر خاکێک کە پێشووتر بەکار نەدەھات"),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The site is being developed by a French company."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "شوێنەکە لەلایەن کۆمپانیایەکی فەرەنسییەوە گەشەی پێ دەدرێت."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdevelops20("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdevelops20("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "The site is being developed by a French company.",
+            kurdishText:
+                "شوێنەکە لەلایەن کۆمپانیایەکی فەرەنسییەوە گەشەی پێ دەدرێت.",
+            onPressedBritish: () => speakdevelops20("en-GB"),
+            onPressedAmerican: () => speakdevelops20("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "A lot of residents in town feel that it would be tragic if the land were developed for residential use."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "زۆر ھاوڵاتی ھەست دەکەن تراژیدیا دەبێت ئەگەر خاکەکە بۆ بەکارھێنانی نیشتەجێبوون گەشەی پێ بدرێت."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdevelops21("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdevelops21("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "A lot of residents in town feel that it would be tragic if the land were developed for residential use.",
+            kurdishText:
+                "زۆر ھاوڵاتی ھەست دەکەن تراژیدیا دەبێت ئەگەر خاکەکە بۆ بەکارھێنانی نیشتەجێبوون گەشەی پێ بدرێت.",
+            onPressedBritish: () => speakdevelops21("en-GB"),
+            onPressedAmerican: () => speakdevelops21("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٧. (کردار) بنیادنان یان باشترکردنی بینا یان کارگەیەک"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "The company is developing a chain of hotels."),
-                    ExampleSentenceKurdish(
-                        text: "کۆمپانیاکە زنجیرە ھوتێلێک درووست دەکات."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdevelops22("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdevelops22("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "The company is developing a chain of hotels.",
+            kurdishText: "کۆمپانیاکە زنجیرە ھوتێلێک درووست دەکات.",
+            onPressedBritish: () => speakdevelops22("en-GB"),
+            onPressedAmerican: () => speakdevelops22("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "He is enthusiastic about plans to develop factories at the site."),
-                    ExampleSentenceKurdish(
-                        text: "بەجۆشە سەبارەت بە بنیادنانی کارگە لە شوێنەکە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdevelops23("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdevelops23("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "He is enthusiastic about plans to develop factories at the site.",
+            kurdishText: "بەجۆشە سەبارەت بە بنیادنانی کارگە لە شوێنەکە.",
+            onPressedBritish: () => speakdevelops23("en-GB"),
+            onPressedAmerican: () => speakdevelops23("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: "٨. (کردار) بەرەوپێشچوونی وڵاتێک"),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "For a country to develop, a good road network is essential."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "بۆ پێشکەوتنی وڵاتێک، تۆڕێکی ڕێگاوبانی باش سەرەکییە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdevelops24("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdevelops24("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "For a country to develop, a good road network is essential.",
+            kurdishText: "بۆ پێشکەوتنی وڵاتێک، تۆڕێکی ڕێگاوبانی باش سەرەکییە.",
+            onPressedBritish: () => speakdevelops24("en-GB"),
+            onPressedAmerican: () => speakdevelops24("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "Their economy was developing at an incredible pace."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "کۆمپانیاکەیان بە خێراییەکی ناوازە بەرەوپێش دەچوو."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdevelops25("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdevelops25("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "Their economy was developing at an incredible pace.",
+            kurdishText: "کۆمپانیاکەیان بە خێراییەکی ناوازە بەرەوپێش دەچوو.",
+            onPressedBritish: () => speakdevelops25("en-GB"),
+            onPressedAmerican: () => speakdevelops25("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
                   "٩. (کردار) زیادکردنی وردەکاریی زیاتر بۆ چیرۆکێک، بیرۆکەیەک، ھتد"),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "She develops the theme more fully in her later books."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "لە پەرتووکەکانی داھاتووی زیاتر مژارەکە بەرەوپێش دەبات."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdevelops26("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdevelops26("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "She develops the theme more fully in her later books.",
+            kurdishText:
+                "لە پەرتووکەکانی داھاتووی زیاتر مژارەکە بەرەوپێش دەبات.",
+            onPressedBritish: () => speakdevelops26("en-GB"),
+            onPressedAmerican: () => speakdevelops26("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "He began to develop these ideas in a series of paintings."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "دەستیکرد بە بەروپێشبردنی ئەم بیرۆکانە لە زنجیرە تابلۆیەکدا."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdevelops27("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdevelops27("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "He began to develop these ideas in a series of paintings.",
+            kurdishText:
+                "دەستیکرد بە بەروپێشبردنی ئەم بیرۆکانە لە زنجیرە تابلۆیەکدا.",
+            onPressedBritish: () => speakdevelops27("en-GB"),
+            onPressedAmerican: () => speakdevelops27("en-US"),
           ),
           // develops2800"),
           // speakdevelops28

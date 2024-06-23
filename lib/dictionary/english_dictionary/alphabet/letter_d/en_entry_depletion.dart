@@ -234,31 +234,13 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "١. (ناو) کەمکردنەوەی شتێک بە ڕێژەیەکی زۆر بەشێوەیەک بەشی پێویستی لێ نەماوەتەوە"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "Increased expenditure has caused a depletion in our funds."),
-                    ExampleSentenceKurdish(
-                        text: "خەرجی زۆرمان بووە بەھۆی نەمانی بودجەمان."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "depletion", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdepletions1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdepletions1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "Increased expenditure has caused a depletion in our funds.",
+            kurdishText:
+                "خەرجی زۆرمان بووە بەھۆی نەمانی بودجەمان.", // depletion
+            onPressedBritish: () => speakdepletions1("en-GB"),
+            onPressedAmerican: () => speakdepletions1("en-US"),
           ),
           // depletions200"),
           // speakdepletions2

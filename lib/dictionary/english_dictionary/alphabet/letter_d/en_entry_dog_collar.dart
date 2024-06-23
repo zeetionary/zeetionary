@@ -371,60 +371,23 @@ class KurdishMeaning extends StatelessWidget {
 """),
           const DefinitionKurdish(
               text: "١. (ناو) قایشێک کە لە ملی سەگێک دەکرێت"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "He attached a leash to the dog collar before taking his dog for a walk."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "پەتێکی بەست لە قەڵاتەی سەگەکە پێش ئەوەی بیبات بۆ پیاسەیەک."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "dog collar", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdogcollars1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdogcollars1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "He attached a leash to the dog collar before taking his dog for a walk.",
+            kurdishText:
+                "پەتێکی بەست لە قەڵاتەی سەگەکە پێش ئەوەی بیبات بۆ پیاسەیەک.", // dog collar
+            onPressedBritish: () => speakdogcollars1("en-GB"),
+            onPressedAmerican: () => speakdogcollars1("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٢. (ناو) ملبەندێک کە قەشەیەک دەیبەستێت"),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "The minister had his dog collar on."),
-                    ExampleSentenceKurdish(text: "قەشەکە ملبەندەکەی بەستبوو."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdogcollars2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdogcollars2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "The minister had his dog collar on.",
+            kurdishText: "قەشەکە ملبەندەکەی بەستبوو.",
+            onPressedBritish: () => speakdogcollars2("en-GB"),
+            onPressedAmerican: () => speakdogcollars2("en-US"),
           ),
           // dogcollars300"),
           // speakdogcollars3

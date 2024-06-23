@@ -257,106 +257,35 @@ class KurdishMeaning extends StatelessWidget {
 """),
           const DefinitionKurdish(
               text: "١. (ناو) بۆ ناوھێنانی کەسێک کە خۆشت دەوێت"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(text: "What's the matter, darling?"),
-                    ExampleSentenceKurdish(text: "چی باسە ئازیزەکەم؟"),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "darling", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdarlings1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdarlings1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "What's the matter, darling?",
+            kurdishText: "چی باسە ئازیزەکەم؟", // darling
+            onPressedBritish: () => speakdarlings1("en-GB"),
+            onPressedAmerican: () => speakdarlings1("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(text: "I love you too, my darling."),
-                    ExampleSentenceKurdish(text: "منیش خۆشم دەوێیت ئازیزم."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdarlings2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdarlings2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "I love you too, my darling.",
+            kurdishText: "منیش خۆشم دەوێیت ئازیزم.",
+            onPressedBritish: () => speakdarlings2("en-GB"),
+            onPressedAmerican: () => speakdarlings2("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: "٢. (ناو) کەسێک کە ڕووخۆش و میھرەبانە"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(text: "You are a darling, Hugo."),
-                    ExampleSentenceKurdish(text: "تۆ فریشتەیت ھوگۆ."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdarlings3("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdarlings3("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "You are a darling, Hugo.",
+            kurdishText: "تۆ فریشتەیت ھوگۆ.",
+            onPressedBritish: () => speakdarlings3("en-GB"),
+            onPressedAmerican: () => speakdarlings3("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: "٣. (ناو) کەسێک کە ناسراو و خۆشەویستە"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "She is the darling of the newspapers and can do no wrong."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "ئازیزی ڕۆژنامەکانە و ڕێی تێ ناچێت ھیچ ھەڵەیەک بکات."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdarlings4("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdarlings4("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "She is the darling of the newspapers and can do no wrong.",
+            kurdishText: "ئازیزی ڕۆژنامەکانە و ڕێی تێ ناچێت ھیچ ھەڵەیەک بکات.",
+            onPressedBritish: () => speakdarlings4("en-GB"),
+            onPressedAmerican: () => speakdarlings4("en-US"),
           ),
         ],
       ),

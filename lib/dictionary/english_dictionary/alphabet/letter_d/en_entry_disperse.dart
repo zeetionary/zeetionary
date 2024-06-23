@@ -267,139 +267,43 @@ class KurdishMeaning extends StatelessWidget {
 کوردی: پڕش‌وبڵاو کردن، بڵاو کردنەوە
 """),
           const DefinitionKurdish(text: "١. (کردار) پەرش و بڵاوبوونەوە"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(text: "The fog began to disperse."),
-                    ExampleSentenceKurdish(
-                        text: "تەمەکە دەستی بە بڵاوبوونەوە کرد."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "disperse", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdisperses1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdisperses1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "The fog began to disperse.",
+            kurdishText: "تەمەکە دەستی بە بڵاوبوونەوە کرد.", // disperse
+            onPressedBritish: () => speakdisperses1("en-GB"),
+            onPressedAmerican: () => speakdisperses1("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "The crowd dispersed quickly."),
-                    ExampleSentenceKurdish(
-                        text: "جەماوەرەکە زوو بڵاوەیان لێکرد."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdisperses2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdisperses2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "The crowd dispersed quickly.",
+            kurdishText: "جەماوەرەکە زوو بڵاوەیان لێکرد.",
+            onPressedBritish: () => speakdisperses2("en-GB"),
+            onPressedAmerican: () => speakdisperses2("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "Police dispersed the protesters with tear gas."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "پۆلیس بە گازی فرمێسکڕێژ بڵاوەی بە خۆپیشاندەران کرد."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdisperses3("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdisperses3("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "Police dispersed the protesters with tear gas.",
+            kurdishText: "پۆلیس بە گازی فرمێسکڕێژ بڵاوەی بە خۆپیشاندەران کرد.",
+            onPressedBritish: () => speakdisperses3("en-GB"),
+            onPressedAmerican: () => speakdisperses3("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٢. (کردار) بڵاوکردنەوەی شتێک بە ناوچەیەکی فراواندا"),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "The seeds are dispersed by the wind."),
-                    ExampleSentenceKurdish(
-                        text: "تۆوەکان بەھۆی بایەکەوە بڵاودەبنەوە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdisperses4("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdisperses4("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "The seeds are dispersed by the wind.",
+            kurdishText: "تۆوەکان بەھۆی بایەکەوە بڵاودەبنەوە.",
+            onPressedBritish: () => speakdisperses4("en-GB"),
+            onPressedAmerican: () => speakdisperses4("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The population in this area is quite widely dispersed."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "دانیشتوانی ئەم ناوچەیە زۆر بەفراوانی بڵاوبوونە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdisperses5("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdisperses5("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "The population in this area is quite widely dispersed.",
+            kurdishText: "دانیشتوانی ئەم ناوچەیە زۆر بەفراوانی بڵاوبوونە.",
+            onPressedBritish: () => speakdisperses5("en-GB"),
+            onPressedAmerican: () => speakdisperses5("en-US"),
           ),
           // disperses600"),
           // speakdisperses6

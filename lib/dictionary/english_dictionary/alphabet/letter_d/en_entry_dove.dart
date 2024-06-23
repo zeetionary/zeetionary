@@ -361,29 +361,11 @@ class KurdishMeaning extends StatelessWidget {
 // کوردی:
 // """),
           const DefinitionKurdish(text: "١. (ناو) کۆتر"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(text: "A dove cooed softly."),
-                    ExampleSentenceKurdish(
-                        text: "کۆترێک بە لەسەرخۆیی گمەگمی دەکرد."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "dove", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdoves1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdoves1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "A dove cooed softly.",
+            kurdishText: "کۆترێک بە لەسەرخۆیی گمەگمی دەکرد.", // dove
+            onPressedBritish: () => speakdoves1("en-GB"),
+            onPressedAmerican: () => speakdoves1("en-US"),
           ),
           // doves200"),
           // speakdoves2

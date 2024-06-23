@@ -300,249 +300,77 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "١. (ناو) دۆخێک یان نەخۆشییەک کە کاریگەری لەسەر شێوازی کارکردنی بەشێکی جەستە دەبێت"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "He was diagnosed with an anxiety disorder."),
-                    ExampleSentenceKurdish(
-                        text: "بەوە ناسێنرا کە کێشەی خەمۆکی ھەیە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "disorder", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdisorders1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdisorders1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "He was diagnosed with an anxiety disorder.",
+            kurdishText: "بەوە ناسێنرا کە کێشەی خەمۆکی ھەیە.", // disorder
+            onPressedBritish: () => speakdisorders1("en-GB"),
+            onPressedAmerican: () => speakdisorders1("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "This is a rare disorder of the liver."),
-                    ExampleSentenceKurdish(
-                        text: "ئەمە ناتەواوییەکی دەگمەنی جگەرە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdisorders2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdisorders2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "This is a rare disorder of the liver.",
+            kurdishText: "ئەمە ناتەواوییەکی دەگمەنی جگەرە.",
+            onPressedBritish: () => speakdisorders2("en-GB"),
+            onPressedAmerican: () => speakdisorders2("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "She has a rare blood disorder."),
-                    ExampleSentenceKurdish(
-                        text: "ناڕێکییەکی دەگمەنی خوێنی ھەیە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdisorders3("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdisorders3("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "She has a rare blood disorder.",
+            kurdishText: "ناڕێکییەکی دەگمەنی خوێنی ھەیە.",
+            onPressedBritish: () => speakdisorders3("en-GB"),
+            onPressedAmerican: () => speakdisorders3("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: "٢. (ناو) دۆخێکی شێواو"),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "The room was in a state of disorder."),
-                    ExampleSentenceKurdish(text: "دۆخەکە لە شپرزاییدا بوو."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdisorders4("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdisorders4("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "The room was in a state of disorder.",
+            kurdishText: "دۆخەکە لە شپرزاییدا بوو.",
+            onPressedBritish: () => speakdisorders4("en-GB"),
+            onPressedAmerican: () => speakdisorders4("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "His financial affairs were in complete disorder."),
-                    ExampleSentenceKurdish(
-                        text: "دۆخی داراییان تەواو لە خراپیدا بوو."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdisorders5("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdisorders5("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "His financial affairs were in complete disorder.",
+            kurdishText: "دۆخی داراییان تەواو لە خراپیدا بوو.",
+            onPressedBritish: () => speakdisorders5("en-GB"),
+            onPressedAmerican: () => speakdisorders5("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "Everyone began shouting at once and the meeting broke up in disorder."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "ھەموان دەستیان بە ھاوارکردن کرد کە کۆبوونەوەکە بە شلۆقی کۆتایی ھات."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdisorders6("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdisorders6("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "Everyone began shouting at once and the meeting broke up in disorder.",
+            kurdishText:
+                "ھەموان دەستیان بە ھاوارکردن کرد کە کۆبوونەوەکە بە شلۆقی کۆتایی ھات.",
+            onPressedBritish: () => speakdisorders6("en-GB"),
+            onPressedAmerican: () => speakdisorders6("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٣. (ناو) ڕەفتاری توندوتیژی گرووپێکی گەورە لە خەڵکی"),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "Twenty people were arrested after a night of civil disorder."),
-                    ExampleSentenceKurdish(
-                        text: "بیست کەس دەستگیرکران لە دوای شەوێک لە ئاڵۆزی."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdisorders7("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdisorders7("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "Twenty people were arrested after a night of civil disorder.",
+            kurdishText: "بیست کەس دەستگیرکران لە دوای شەوێک لە ئاڵۆزی.",
+            onPressedBritish: () => speakdisorders7("en-GB"),
+            onPressedAmerican: () => speakdisorders7("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The initiative aims to tackle alcohol-related disorder in towns."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "ھەنگاوەکە ئامانجیەتی مامەڵە لەگەڵ پشێویی پەیوەندیدار بە مادە کحوولییەکان بکات."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdisorders8("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdisorders8("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "The initiative aims to tackle alcohol-related disorder in towns.",
+            kurdishText:
+                "ھەنگاوەکە ئامانجیەتی مامەڵە لەگەڵ پشێویی پەیوەندیدار بە مادە کحوولییەکان بکات.",
+            onPressedBritish: () => speakdisorders8("en-GB"),
+            onPressedAmerican: () => speakdisorders8("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "Troops were sent in to quell the disorder."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "ھێزەکان نێردران بۆ ئەوەی ئاڵۆزییەکە دابمرکێننەوە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdisorders9("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdisorders9("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "Troops were sent in to quell the disorder.",
+            kurdishText: "ھێزەکان نێردران بۆ ئەوەی ئاڵۆزییەکە دابمرکێننەوە.",
+            onPressedBritish: () => speakdisorders9("en-GB"),
+            onPressedAmerican: () => speakdisorders9("en-US"),
           ),
           // disorders_1000"),
           // speakdisorders10

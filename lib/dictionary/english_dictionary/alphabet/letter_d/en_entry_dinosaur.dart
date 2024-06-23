@@ -249,89 +249,32 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "١. (ناو) دایناسۆر؛ جۆرە خشۆکێک کە ملیۆنان ساڵ پێش ئێستا دەژیان بەڵام ئێستا نزیکەی ٦٥ ملیۆن ساڵ پێش ئێستا لەناوچوون. زۆر جۆری دایناسۆر ھەبوون و ھەندێکیان زۆر گەورە بوون"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "The museum has a huge dinosaur skeleton."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "مۆزەخانەکە ئێسکە پەیکەرێکی گەورەی دایناسۆری ھەیە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "dinosaur", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdinosaurs1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdinosaurs1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "The museum has a huge dinosaur skeleton.",
+            kurdishText:
+                "مۆزەخانەکە ئێسکە پەیکەرێکی گەورەی دایناسۆری ھەیە.", // dinosaur
+            onPressedBritish: () => speakdinosaurs1("en-GB"),
+            onPressedAmerican: () => speakdinosaurs1("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "She loves reading books about dinosaurs."),
-                    ExampleSentenceKurdish(
-                        text: "حەزی بە خوێندنەوەی کتێبە لەسەر دایناسۆرەکان."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdinosaurs2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdinosaurs2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "She loves reading books about dinosaurs.",
+            kurdishText: "حەزی بە خوێندنەوەی کتێبە لەسەر دایناسۆرەکان.",
+            onPressedBritish: () => speakdinosaurs2("en-GB"),
+            onPressedAmerican: () => speakdinosaurs2("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
                   "٢. (ناو) کەسێک یان شتێکی کۆن کە خەڵکی چی دیکە بە بەسوود داینانا"),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "This computer's a dinosaur, isn't it?"),
-                    ExampleSentenceKurdish(
-                        text: "ئەم کۆمپیوتەرە لەباوکەوتووە، وانییە؟"),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdinosaurs3("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdinosaurs3("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "This computer's a dinosaur, isn't it?",
+            kurdishText: "ئەم کۆمپیوتەرە لەباوکەوتووە، وانییە؟",
+            onPressedBritish: () => speakdinosaurs3("en-GB"),
+            onPressedAmerican: () => speakdinosaurs3("en-US"),
           ),
           // dinosaurs400"),
           // speakdinosaurs4

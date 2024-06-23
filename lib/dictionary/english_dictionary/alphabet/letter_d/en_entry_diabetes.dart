@@ -242,59 +242,20 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "١. (ناو) نەخۆشییەک کە ڕوودەدات بەھۆی ئەوەی جەستە ناتوانێت ئینسۆلینی پێویست درووست بکات کۆنترۆڵی شەکر لە خوێندا"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "Diabetes is diagnosed with a blood test."),
-                    ExampleSentenceKurdish(
-                        text: "شەکرە بە پشکنینی خوێن دەردەخرێت."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "diabetes", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdiabetess1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdiabetess1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "Diabetes is diagnosed with a blood test.",
+            kurdishText: "شەکرە بە پشکنینی خوێن دەردەخرێت.", // diabetes
+            onPressedBritish: () => speakdiabetess1("en-GB"),
+            onPressedAmerican: () => speakdiabetess1("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "He had developed diabetes and high blood pressure."),
-                    ExampleSentenceKurdish(
-                        text: "تووشی شەکرە و پەستانی بەرزی خوێن بووبوو."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdiabetess2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdiabetess2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "He had developed diabetes and high blood pressure.",
+            kurdishText: "تووشی شەکرە و پەستانی بەرزی خوێن بووبوو.",
+            onPressedBritish: () => speakdiabetess2("en-GB"),
+            onPressedAmerican: () => speakdiabetess2("en-US"),
           ),
           // diabetess300"),
           // speakdiabetess3

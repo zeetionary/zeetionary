@@ -372,60 +372,21 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   """١. (ناو) بۆرییەک کە تێیدا شلە، گاس، کارەبا، یان وایەری تەلەفۆن، ھتد پێیدا تێدەپەڕێت"""),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: """Air flows through the ventilation ducts."""),
-                    ExampleSentenceKurdish(
-                        text: """ھەوا بە بۆری ھەناسەدان تێپەڕدەبێت."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "duct", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakducts1("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakducts1("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: """Air flows through the ventilation ducts.""",
+            kurdishText: """ھەوا بە بۆری ھەناسەدان تێپەڕدەبێت.""", // duct
+            onPressedBritish: () => speakducts1("en-GB"),
+            onPressedAmerican: () => speakducts1("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            """The milk ducts in the breast can sometimes become blocked."""),
-                    ExampleSentenceKurdish(
-                        text:
-                            """جۆگەکانی شیر لە مەمکدا ھەندێک جار دەکرێت بگیرێن."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakducts2("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakducts2("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                """The milk ducts in the breast can sometimes become blocked.""",
+            kurdishText: """جۆگەکانی شیر لە مەمکدا ھەندێک جار دەکرێت بگیرێن.""",
+            onPressedBritish: () => speakducts2("en-GB"),
+            onPressedAmerican: () => speakducts2("en-US"),
           ),
           // ducts300
           // speakducts3

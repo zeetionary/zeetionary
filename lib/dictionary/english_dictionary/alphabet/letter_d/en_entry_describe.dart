@@ -272,137 +272,46 @@ class KurdishMeaning extends StatelessWidget {
 کوردی: ڕاڤەکردن، ناساندن، تاریف کردن، باسکردن
 """),
           const DefinitionKurdish(text: "١. (کردار) ناساندنی کەسێک/شتێک"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The next section describes our findings in detail."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "بەشی دواتر تەواوی دۆزینەوەکانمان بە وردەکارییەوە دەناسێنێت."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "describe", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdescribes1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdescribes1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "The next section describes our findings in detail.",
+            kurdishText:
+                "بەشی دواتر تەواوی دۆزینەوەکانمان بە وردەکارییەوە دەناسێنێت.", // describe
+            onPressedBritish: () => speakdescribes1("en-GB"),
+            onPressedAmerican: () => speakdescribes1("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(text: "Can you describe him to me?"),
-                    ExampleSentenceKurdish(text: "دەتوانیت بۆمی باس بکەیت؟"),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdescribes2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdescribes2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "Can you describe him to me?",
+            kurdishText: "دەتوانیت بۆمی باس بکەیت؟",
+            onPressedBritish: () => speakdescribes2("en-GB"),
+            onPressedAmerican: () => speakdescribes2("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "They described for us exactly what happened."),
-                    ExampleSentenceKurdish(
-                        text: "بە تەواوی بۆمانی باسکرد کە چی ڕوویدا."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdescribes3("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdescribes3("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "They described for us exactly what happened.",
+            kurdishText: "بە تەواوی بۆمانی باسکرد کە چی ڕوویدا.",
+            onPressedBritish: () => speakdescribes3("en-GB"),
+            onPressedAmerican: () => speakdescribes3("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "She describes herself as an artist."),
-                    ExampleSentenceKurdish(text: "خۆی وەک ھونەرمەندێک ناساند."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdescribes4("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdescribes4("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "She describes herself as an artist.",
+            kurdishText: "خۆی وەک ھونەرمەندێک ناساند.",
+            onPressedBritish: () => speakdescribes4("en-GB"),
+            onPressedAmerican: () => speakdescribes4("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(text: "Describe how you did it."),
-                    ExampleSentenceKurdish(text: "باسی بکە چۆن کردت."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdescribes5("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdescribes5("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "Describe how you did it.",
+            kurdishText: "باسی بکە چۆن کردت.",
+            onPressedBritish: () => speakdescribes5("en-GB"),
+            onPressedAmerican: () => speakdescribes5("en-US"),
           ),
           // describes600"),
           // speakdescribes6

@@ -379,86 +379,31 @@ class KurdishMeaning extends StatelessWidget {
 کوردی: ناخۆش، بێ‌تام، ناپەسند، نابەدڵ، ناحەز، ناشیرین، ناشایست، بێ‌شەرمانە، لێنەوەشاو، دزێو، بێزاوی، جێی‌قین‌لێ‌بوون یان بێزاری، قێزەون
 """),
           const DefinitionKurdish(text: "١. (ھاوەڵناو) بێزراو و ناخۆش"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The bad language in the film was distasteful and unnecessary."),
-                    ExampleSentenceKurdish(
-                        text: "زمانی ناشرین لە فیلمەکەدا دزێو و ناپێویست بوو."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "distasteful", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdistastefuls1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdistastefuls1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "The bad language in the film was distasteful and unnecessary.",
+            kurdishText:
+                "زمانی ناشرین لە فیلمەکەدا دزێو و ناپێویست بوو.", // distasteful
+            onPressedBritish: () => speakdistastefuls1("en-GB"),
+            onPressedAmerican: () => speakdistastefuls1("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "It all seems a little distasteful to me."),
-                    ExampleSentenceKurdish(
-                        text: "ھەموویان کەمێک بێزراو دیارن بۆ من."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdistastefuls2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdistastefuls2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "It all seems a little distasteful to me.",
+            kurdishText: "ھەموویان کەمێک بێزراو دیارن بۆ من.",
+            onPressedBritish: () => speakdistastefuls2("en-GB"),
+            onPressedAmerican: () => speakdistastefuls2("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "I found the subject rather distasteful."),
-                    ExampleSentenceKurdish(text: "بابەتەکە ناخۆش بوو لام."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdistastefuls3("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdistastefuls3("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "I found the subject rather distasteful.",
+            kurdishText: "بابەتەکە ناخۆش بوو لام.",
+            onPressedBritish: () => speakdistastefuls3("en-GB"),
+            onPressedAmerican: () => speakdistastefuls3("en-US"),
           ),
           // distastefuls400"),
           // speakdistastefuls4

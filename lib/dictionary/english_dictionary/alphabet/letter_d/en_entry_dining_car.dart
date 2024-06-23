@@ -232,31 +232,12 @@ class KurdishMeaning extends StatelessWidget {
 """),
           const DefinitionKurdish(
               text: "١. (ناو) واگۆنێکی شەمەندەفەر کە خواردنی تێدا دەخورێت"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "He sat by the window in the dining car."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "لە واگۆنی نان‌خواردنەکە لە تەنیشت پەنجەرەکە دانیشت."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "dining car", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdiningcars1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdiningcars1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "He sat by the window in the dining car.",
+            kurdishText:
+                "لە واگۆنی نان‌خواردنەکە لە تەنیشت پەنجەرەکە دانیشت.", // dining car
+            onPressedBritish: () => speakdiningcars1("en-GB"),
+            onPressedAmerican: () => speakdiningcars1("en-US"),
           ),
           // diningcars200"),
           // speakdiningcars2

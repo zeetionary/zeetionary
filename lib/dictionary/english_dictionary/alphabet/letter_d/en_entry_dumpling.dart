@@ -371,60 +371,22 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   """١. (ناو) تۆپەڵەیەکی بچووک لە ھەویر کە ئامادە دەکرێت و دەخوردرێت لەگەڵ گۆشت یان لەناو شۆربادا"""),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: """We had lamb stew and dumplings."""),
-                    ExampleSentenceKurdish(
-                        text: """شۆربای بەرخ و پرپۆڵەمان ھەبوو."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "dumpling", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdumplings1("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdumplings1("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: """We had lamb stew and dumplings.""",
+            kurdishText: """شۆربای بەرخ و پرپۆڵەمان ھەبوو.""", // dumpling
+            onPressedBritish: () => speakdumplings1("en-GB"),
+            onPressedAmerican: () => speakdumplings1("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
                   """٢. (ناو) تۆپەڵێکی بچووک لە ھەویری شیرینی کە زۆرجار میوەی تێدەخرێت و وەک شیرینی دەخوردرێت"""),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: """The bakery sold warm apple dumplings."""),
-                    ExampleSentenceKurdish(
-                        text: """نانەواکە پرپۆڵەی گەرمی سێوی دەفرۆشت."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdumplings2("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdumplings2("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: """The bakery sold warm apple dumplings.""",
+            kurdishText: """نانەواکە پرپۆڵەی گەرمی سێوی دەفرۆشت.""",
+            onPressedBritish: () => speakdumplings2("en-GB"),
+            onPressedAmerican: () => speakdumplings2("en-US"),
           ),
           // dumplings300
           // speakdumplings3

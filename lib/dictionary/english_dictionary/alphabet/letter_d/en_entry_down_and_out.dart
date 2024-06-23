@@ -362,30 +362,11 @@ class KurdishMeaning extends StatelessWidget {
 // """),
           const DefinitionKurdish(
               text: "١. (ناو) بەبێ پارە، ماڵ، و کار، و ژیانکردن لە شەقامەکان"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "Nobody loves you when you're down and out."),
-                    ExampleSentenceKurdish(
-                        text: "کە دەربەدەریت کەس خۆشی ناوێیت."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "down-and-out", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdownandouts1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdownandouts1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "Nobody loves you when you're down and out.",
+            kurdishText: "کە دەربەدەریت کەس خۆشی ناوێیت.", // down-and-out
+            onPressedBritish: () => speakdownandouts1("en-GB"),
+            onPressedAmerican: () => speakdownandouts1("en-US"),
           ),
           // downandouts200"),
           // speakdownandouts2

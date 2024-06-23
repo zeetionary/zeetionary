@@ -241,59 +241,20 @@ class KurdishMeaning extends StatelessWidget {
 """),
           const DefinitionKurdish(
               text: "١. (کردار) پیشاندانی ئەوەی کە شتێک ھەڵەیە"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "The theory has now been disproved."),
-                    ExampleSentenceKurdish(
-                        text: "بیردۆزەکە لە ئێستادا بە ھەڵە خراوە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "disprove", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdisproves1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdisproves1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "The theory has now been disproved.",
+            kurdishText: "بیردۆزەکە لە ئێستادا بە ھەڵە خراوە.", // disprove
+            onPressedBritish: () => speakdisproves1("en-GB"),
+            onPressedAmerican: () => speakdisproves1("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "It took over two months to disprove the allegation."),
-                    ExampleSentenceKurdish(
-                        text: "دوو مانگی پێچوو تاوەکو تۆمەتەکان ڕەتبکرێنەوە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdisproves2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdisproves2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "It took over two months to disprove the allegation.",
+            kurdishText: "دوو مانگی پێچوو تاوەکو تۆمەتەکان ڕەتبکرێنەوە.",
+            onPressedBritish: () => speakdisproves2("en-GB"),
+            onPressedAmerican: () => speakdisproves2("en-US"),
           ),
           // disproves300"),
           // speakdisproves3

@@ -240,56 +240,18 @@ class KurdishMeaning extends StatelessWidget {
 """),
           const DefinitionKurdish(
               text: "١. (ھاوەڵناو) زۆر کۆن و لە دۆخێکی خراپ"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "I'm feeling old and decrepit."),
-                    ExampleSentenceKurdish(
-                        text: "ھەست بە پیری و بەساڵاچووی دەکەم."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "decrepit", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdecrepits1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdecrepits1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "I'm feeling old and decrepit.",
+            kurdishText: "ھەست بە پیری و بەساڵاچووی دەکەم.", // decrepit
+            onPressedBritish: () => speakdecrepits1("en-GB"),
+            onPressedAmerican: () => speakdecrepits1("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "Most of the buildings were old and decrepit."),
-                    ExampleSentenceKurdish(
-                        text: "زۆرێک لە بیناکان کۆن و شڕ بوون."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdecrepits2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdecrepits2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "Most of the buildings were old and decrepit.",
+            kurdishText: "زۆرێک لە بیناکان کۆن و شڕ بوون.",
+            onPressedBritish: () => speakdecrepits2("en-GB"),
+            onPressedAmerican: () => speakdecrepits2("en-US"),
           ),
         ],
       ),

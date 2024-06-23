@@ -364,32 +364,13 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   """١. (ناو) ماسییەک کە لە ئاوی سازگاردا دەژی و شێوەی وەک مارە. ژمارەیەک جۆری ھەیە و ھەندێکیان بۆ خواردن بەکاردێن"""),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            """Many people enjoy jellied eels with vinegar and pepper."""),
-                    ExampleSentenceKurdish(
-                        text:
-                            """زۆر کەس حەز بە ماراڤی شێوەوڵوڵە دەکەن لەگەڵ سرکە و بیبەر."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "eel", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakeels1("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakeels1("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                """Many people enjoy jellied eels with vinegar and pepper.""",
+            kurdishText:
+                """زۆر کەس حەز بە ماراڤی شێوەوڵوڵە دەکەن لەگەڵ سرکە و بیبەر.""", // eel
+            onPressedBritish: () => speakeels1("en-GB"),
+            onPressedAmerican: () => speakeels1("en-US"),
           ),
           // eels200eels2
           // speakeels2

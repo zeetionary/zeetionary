@@ -241,58 +241,21 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "١. (کردار) گۆڕینی زانیاری بۆ دیجیتاڵ بۆ ئەوەی کۆمپیوتەر بتوانێت بیخوێنێتەوە"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "They plan to digitize old photographs."),
-                    ExampleSentenceKurdish(
-                        text: "پلانیان ھەیە وێنە کۆنەکان بکەن بە دیجیتاڵ."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "digitize", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdigitizes1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdigitizes1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "They plan to digitize old photographs.",
+            kurdishText:
+                "پلانیان ھەیە وێنە کۆنەکان بکەن بە دیجیتاڵ.", // digitize
+            onPressedBritish: () => speakdigitizes1("en-GB"),
+            onPressedAmerican: () => speakdigitizes1("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "The library will digitize its records."),
-                    ExampleSentenceKurdish(
-                        text: "کتێبخانەکە تۆمارەکانی بەدیجیتاڵ دەکات."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdigitizes2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdigitizes2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "The library will digitize its records.",
+            kurdishText: "کتێبخانەکە تۆمارەکانی بەدیجیتاڵ دەکات.",
+            onPressedBritish: () => speakdigitizes2("en-GB"),
+            onPressedAmerican: () => speakdigitizes2("en-US"),
           ),
           // digitizes300"),
           // speakdigitizes3

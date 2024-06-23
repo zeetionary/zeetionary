@@ -417,235 +417,80 @@ class KurdishMeaning extends StatelessWidget {
 کوردی: لاڵ،	(گیانەوەر) بێ‌زمان،	بێ‌دەنگ، بێ‌قسە، کپ، بێ‌زمان، زمان‌لەدەمانەبوو،	گێژ، حەپە، گەمژە، زەین‌کوێر، گەوجانە، کەرانە
 """),
           const DefinitionKurdish(text: """١. (ھاوەڵناو) گەمژە"""),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: """That was a pretty dumb thing to do."""),
-                    ExampleSentenceKurdish(
-                        text: """شتێکی گەمژانە بوو بیکەیت."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "dumb", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdumbs1("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdumbs1("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: """That was a pretty dumb thing to do.""",
+            kurdishText: """شتێکی گەمژانە بوو بیکەیت.""", // dumb
+            onPressedBritish: () => speakdumbs1("en-GB"),
+            onPressedAmerican: () => speakdumbs1("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            """If the police question you, act dumb (= pretend you do not know anything)."""),
-                    ExampleSentenceKurdish(
-                        text:
-                            """ئەگەر پۆلیس پرسیاریان لێکردیت، وەک گەمژە خۆت دەربخە."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdumbs2("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdumbs2("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                """If the police question you, act dumb (= pretend you do not know anything).""",
+            kurdishText:
+                """ئەگەر پۆلیس پرسیاریان لێکردیت، وەک گەمژە خۆت دەربخە.""",
+            onPressedBritish: () => speakdumbs2("en-GB"),
+            onPressedAmerican: () => speakdumbs2("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            """In her early movies she played a dumb blonde."""),
-                    ExampleSentenceKurdish(
-                        text:
-                            """لە فیلمەکانی سەرەتایدا ڕۆڵی قژ زەردێکی گەمژەی دەبینی."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdumbs3("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdumbs3("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: """In her early movies she played a dumb blonde.""",
+            kurdishText:
+                """لە فیلمەکانی سەرەتایدا ڕۆڵی قژ زەردێکی گەمژەی دەبینی.""",
+            onPressedBritish: () => speakdumbs3("en-GB"),
+            onPressedAmerican: () => speakdumbs3("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: """I'm sure my question sounded really dumb."""),
-                    ExampleSentenceKurdish(
-                        text: """دڵنیام پرسیارەکەم زۆر گەمژانە دیار بوو."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdumbs4("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdumbs4("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: """I'm sure my question sounded really dumb.""",
+            kurdishText: """دڵنیام پرسیارەکەم زۆر گەمژانە دیار بوو.""",
+            onPressedBritish: () => speakdumbs4("en-GB"),
+            onPressedAmerican: () => speakdumbs4("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            """The idea is unworkable and just plain dumb."""),
-                    ExampleSentenceKurdish(
-                        text: """ئەم بیرۆکەیە کار ناکات و تەواو گەمژانەیە."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdumbs5("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdumbs5("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: """The idea is unworkable and just plain dumb.""",
+            kurdishText: """ئەم بیرۆکەیە کار ناکات و تەواو گەمژانەیە.""",
+            onPressedBritish: () => speakdumbs5("en-GB"),
+            onPressedAmerican: () => speakdumbs5("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
                   """٢. (ھاوەڵناو) کە بە شێوەیەکی کاتی قسە ناکات یان ڕەتیدەکاتەوە قسە بکات"""),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: """We were all struck dumb with amazement."""),
-                    ExampleSentenceKurdish(
-                        text: """ھەموومان لە سەرسوڕماندا لاڵ بووین."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdumbs6("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdumbs6("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: """We were all struck dumb with amazement.""",
+            kurdishText: """ھەموومان لە سەرسوڕماندا لاڵ بووین.""",
+            onPressedBritish: () => speakdumbs6("en-GB"),
+            onPressedAmerican: () => speakdumbs6("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: """She stood in the doorway, dumb with rage."""),
-                    ExampleSentenceKurdish(
-                        text:
-                            """لە دەرگاکە وەستابوو و لە تووڕەییدا کپ بووبوو."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdumbs7("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdumbs7("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: """She stood in the doorway, dumb with rage.""",
+            kurdishText: """لە دەرگاکە وەستابوو و لە تووڕەییدا کپ بووبوو.""",
+            onPressedBritish: () => speakdumbs7("en-GB"),
+            onPressedAmerican: () => speakdumbs7("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text: """٣. (ھاوەڵناو) کە توانای قسەکردنی نییە"""),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: """She was born deaf and dumb."""),
-                    ExampleSentenceKurdish(
-                        text: """بە کەڕی و لاڵی لەدایکبوو."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdumbs8("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdumbs8("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: """She was born deaf and dumb.""",
+            kurdishText: """بە کەڕی و لاڵی لەدایکبوو.""",
+            onPressedBritish: () => speakdumbs8("en-GB"),
+            onPressedAmerican: () => speakdumbs8("en-US"),
           ),
           // dumbs900
           // speakdumbs9

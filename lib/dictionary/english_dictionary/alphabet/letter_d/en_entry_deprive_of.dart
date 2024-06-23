@@ -252,61 +252,23 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "١. (کاری لێکدراو) ڕێگری لە کەسێک کە شتێکی ھەبێت یان بیکات"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "They were imprisoned and deprived of their basic rights."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "زیندانی کران و لە مافە سەرەتاییەکان بێبەش کران."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "deprive of", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdepriveofs1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdepriveofs1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "They were imprisoned and deprived of their basic rights.",
+            kurdishText:
+                "زیندانی کران و لە مافە سەرەتاییەکان بێبەش کران.", // deprive of
+            onPressedBritish: () => speakdepriveofs1("en-GB"),
+            onPressedAmerican: () => speakdepriveofs1("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "Why should you deprive yourself of such simple pleasures?"),
-                    ExampleSentenceKurdish(
-                        text: "بۆچی دەبێت خۆت لە خۆشی وەھا سادە بێبەری بکەیت؟"),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdepriveofs2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdepriveofs2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "Why should you deprive yourself of such simple pleasures?",
+            kurdishText: "بۆچی دەبێت خۆت لە خۆشی وەھا سادە بێبەری بکەیت؟",
+            onPressedBritish: () => speakdepriveofs2("en-GB"),
+            onPressedAmerican: () => speakdepriveofs2("en-US"),
           ),
           // depriveofs300"),
           // speakdepriveofs3

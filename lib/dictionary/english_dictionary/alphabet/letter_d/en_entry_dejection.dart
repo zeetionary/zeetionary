@@ -247,58 +247,20 @@ class KurdishMeaning extends StatelessWidget {
 کوردی: خەمباری، ناڕەحەتی، دەستەوئەژنۆیی، کزی، ماتەمینی، ماتی، دڵتەنگی،	خەفەت، خەم، کۆڤان، پەژارە، ماتەم،	ناھومێدی، بێ‌ھیوایی، دڵساردی
 """),
           const DefinitionKurdish(text: "١. (ناو) خەمباری و بێزاری"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "She sat in the corner in utter dejection."),
-                    ExampleSentenceKurdish(
-                        text: "لە سووچێکدا بە دڵتەنگی تەواو دانیشتبوو."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "dejection", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdejections1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdejections1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "She sat in the corner in utter dejection.",
+            kurdishText: "لە سووچێکدا بە دڵتەنگی تەواو دانیشتبوو.", // dejection
+            onPressedBritish: () => speakdejections1("en-GB"),
+            onPressedAmerican: () => speakdejections1("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "She made no effort to hide her dejection."),
-                    ExampleSentenceKurdish(
-                        text: "ھیچ ھەوڵێکی نەدا بێزارییەکەی بشارێتەوە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdejections2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdejections2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "She made no effort to hide her dejection.",
+            kurdishText: "ھیچ ھەوڵێکی نەدا بێزارییەکەی بشارێتەوە.",
+            onPressedBritish: () => speakdejections2("en-GB"),
+            onPressedAmerican: () => speakdejections2("en-US"),
           ),
           // dejections300"),
           // speakdejections3

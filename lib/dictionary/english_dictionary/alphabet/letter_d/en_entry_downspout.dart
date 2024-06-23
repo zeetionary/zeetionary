@@ -364,31 +364,12 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text: "١. (ناو) بۆرییەک کە ئاوی باران دەبات بۆ زێراب"),
           const AlsoEnglishckb(word: "ھەروەھا: drainpipe"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The rainwater flowed quickly through the downspout."),
-                    ExampleSentenceKurdish(
-                        text: "ئاوی بارانەکە بەخێرایی بە ئاوەڕۆکەدا دەچوو."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "downspout", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdownspouts1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdownspouts1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "The rainwater flowed quickly through the downspout.",
+            kurdishText:
+                "ئاوی بارانەکە بەخێرایی بە ئاوەڕۆکەدا دەچوو.", // downspout
+            onPressedBritish: () => speakdownspouts1("en-GB"),
+            onPressedAmerican: () => speakdownspouts1("en-US"),
           ),
           // downspouts200"),
           // speakdownspouts2

@@ -283,177 +283,62 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "١. (ناو) گواستنەوەی کەلوپەل، نامە، ھتد لە شوێنێکەوە بۆ یەکێکی دیکە"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(text: "Allow 28 days for delivery."),
-                    ExampleSentenceKurdish(
-                        text: "چاوەڕێی ٢٨ ڕۆژ بە بۆ گەیاندن."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "delivery", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdeliverys1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdeliverys1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "Allow 28 days for delivery.",
+            kurdishText: "چاوەڕێی ٢٨ ڕۆژ بە بۆ گەیاندن.", // delivery
+            onPressedBritish: () => speakdeliverys1("en-GB"),
+            onPressedAmerican: () => speakdeliverys1("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "We offer free delivery on orders over £200."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "گەیاندنی بێ‌بەرامبەر پێشکەش دەکەین بۆ داواکاری سەروو ٢٠٠ پاوەند."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdeliverys2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdeliverys2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "We offer free delivery on orders over £200.",
+            kurdishText:
+                "گەیاندنی بێ‌بەرامبەر پێشکەش دەکەین بۆ داواکاری سەروو ٢٠٠ پاوەند.",
+            onPressedBritish: () => speakdeliverys2("en-GB"),
+            onPressedAmerican: () => speakdeliverys2("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "The service guarantees next day delivery."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "خزمەتگوازارییەکە دڵنیای دەدات لە گەیاندن لە ڕۆژی دواتردا."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdeliverys3("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdeliverys3("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "The service guarantees next day delivery.",
+            kurdishText:
+                "خزمەتگوازارییەکە دڵنیای دەدات لە گەیاندن لە ڕۆژی دواتردا.",
+            onPressedBritish: () => speakdeliverys3("en-GB"),
+            onPressedAmerican: () => speakdeliverys3("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "Please pay for goods on delivery (= when you receive them)."),
-                    ExampleSentenceKurdish(
-                        text: "تکایە لەگەڵ گەیاندندا پارەکەی بدە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdeliverys4("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdeliverys4("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "Please pay for goods on delivery (= when you receive them).",
+            kurdishText: "تکایە لەگەڵ گەیاندندا پارەکەی بدە.",
+            onPressedBritish: () => speakdeliverys4("en-GB"),
+            onPressedAmerican: () => speakdeliverys4("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: "٢. (ناو) منداڵبوون"),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "She had a very easy delivery with her second child."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "منداڵبوونێکی ئاسانی ھەبوو لەگەڵ منداڵی دووەمدا."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdeliverys5("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdeliverys5("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "She had a very easy delivery with her second child.",
+            kurdishText: "منداڵبوونێکی ئاسانی ھەبوو لەگەڵ منداڵی دووەمدا.",
+            onPressedBritish: () => speakdeliverys5("en-GB"),
+            onPressedAmerican: () => speakdeliverys5("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
                   "٤. (ناو) شێوازی ئەوەی کە کەسێک قسەکات، گۆرانی دەڵێت، ھتد لە شوێنێکی گشتیدا"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The beautiful poetry was ruined by her poor delivery."),
-                    ExampleSentenceKurdish(
-                        text: "ھۆنراوە جوانەکە وێرانکرا بە دەربڕینە خراپەکەی."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdeliverys6("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdeliverys6("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "The beautiful poetry was ruined by her poor delivery.",
+            kurdishText: "ھۆنراوە جوانەکە وێرانکرا بە دەربڕینە خراپەکەی.",
+            onPressedBritish: () => speakdeliverys6("en-GB"),
+            onPressedAmerican: () => speakdeliverys6("en-US"),
           ),
           // deliverys700"),
           // speakdeliverys7

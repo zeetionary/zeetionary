@@ -242,60 +242,22 @@ class KurdishMeaning extends StatelessWidget {
 """),
           const DefinitionKurdish(
               text: "١. (کردار) ڕژاندنی شلە لە ھەڵگرێکەوە بۆ یەکێکی دیکە"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "Decant the wine and allow it to stand at room temperature for a couple of hours."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "شەرابەکە بڕشە و بھێڵە بۆ چەند کاتژمێرێک لە پلەی گەرمی ژووردا بمێنێتەوە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "decant", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdecants1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdecants1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "Decant the wine and allow it to stand at room temperature for a couple of hours.",
+            kurdishText:
+                "شەرابەکە بڕشە و بھێڵە بۆ چەند کاتژمێرێک لە پلەی گەرمی ژووردا بمێنێتەوە.", // decant
+            onPressedBritish: () => speakdecants1("en-GB"),
+            onPressedAmerican: () => speakdecants1("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "They buy wine in bulk and decant it into smaller bottles to sell."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "شەراب بە ڕێژەیەکی زۆر دەکڕن و دەیڕژێننە بوتڵی بچووکترەوە بۆ فرۆشتنی."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdecants2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdecants2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "They buy wine in bulk and decant it into smaller bottles to sell.",
+            kurdishText:
+                "شەراب بە ڕێژەیەکی زۆر دەکڕن و دەیڕژێننە بوتڵی بچووکترەوە بۆ فرۆشتنی.",
+            onPressedBritish: () => speakdecants2("en-GB"),
+            onPressedAmerican: () => speakdecants2("en-US"),
           ),
         ],
       ),

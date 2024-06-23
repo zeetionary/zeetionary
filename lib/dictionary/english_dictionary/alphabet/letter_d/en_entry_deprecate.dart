@@ -257,95 +257,37 @@ class KurdishMeaning extends StatelessWidget {
 // کوردی: بەخراپ دانان، خراپ ناسین، ناحەز ناسین
 // """),
           const DefinitionKurdish(text: "١. (کردار) ڕەخنەگرتنی توند لە شتێک"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "We deprecate this use of company funds for political purposes."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "تەواو دژی بەکارھێنانی پارەی کۆمپانیاین بۆ مەبەستی سیاسی."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "deprecate", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdeprecates1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdeprecates1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "We deprecate this use of company funds for political purposes.",
+            kurdishText:
+                "تەواو دژی بەکارھێنانی پارەی کۆمپانیاین بۆ مەبەستی سیاسی.", // deprecate
+            onPressedBritish: () => speakdeprecates1("en-GB"),
+            onPressedAmerican: () => speakdeprecates1("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٢. (کردار) وتنی ئەوەی شتێک گرنگی و بەھای نییە"),
           const AlsoEnglishckb(word: "ھەروەھا: depreciate"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "He always deprecates my achievements."),
-                    ExampleSentenceKurdish(
-                      text: "ھەمیشە لە دەستکەوتەکانم کەمدەکاتەوە.",
-                      note: "ھەروەھا: ھەمیشە دەستکەوتەکانم بێ نرخ دەکات",
-                    ),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdeprecates2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdeprecates2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "He always deprecates my achievements.",
+            kurdishText: "ھەمیشە لە دەستکەوتەکانم کەمدەکاتەوە.",
+            kurdishNote: "ھەروەھا: ھەمیشە دەستکەوتەکانم بێ نرخ دەکات",
+            onPressedBritish: () => speakdeprecates2("en-GB"),
+            onPressedAmerican: () => speakdeprecates2("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
                   "٣. (کردار) شتێک کە چی تر باش نییە بەکاربھێندرێت بەھۆی ئەوەی دانەیەکی تازەتر شوێنی گرتووەتەوە"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "A number of features have been deprecated in the latest version of the software."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "لە کۆتا وەشانی نەرمامێرەکەدا ژمارەیەک تایبەتمەندی وەلانراون."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdeprecates3("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdeprecates3("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "A number of features have been deprecated in the latest version of the software.",
+            kurdishText:
+                "لە کۆتا وەشانی نەرمامێرەکەدا ژمارەیەک تایبەتمەندی وەلانراون.",
+            onPressedBritish: () => speakdeprecates3("en-GB"),
+            onPressedAmerican: () => speakdeprecates3("en-US"),
           ),
           // deprecates400"),
           // speakdeprecates4

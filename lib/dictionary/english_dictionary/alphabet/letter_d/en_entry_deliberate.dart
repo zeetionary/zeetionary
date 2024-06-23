@@ -284,176 +284,61 @@ class KurdishMeaning extends StatelessWidget {
 """),
           const DefinitionKurdish(
               text: "١. (ھاوەڵناو) بە ئەنقەست نەک بەڕێکەوت"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The speech was a deliberate attempt to embarrass the government."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "وتارەکە ھەوڵێکی بە ئەنقەست بوو بۆ شەرمەزارکردنی حکومەت."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "deliberate", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdeliberates1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdeliberates1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "The speech was a deliberate attempt to embarrass the government.",
+            kurdishText:
+                "وتارەکە ھەوڵێکی بە ئەنقەست بوو بۆ شەرمەزارکردنی حکومەت.", // deliberate
+            onPressedBritish: () => speakdeliberates1("en-GB"),
+            onPressedAmerican: () => speakdeliberates1("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "The emphasis on Europe was quite deliberate."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "سەرنجدانان لەسەر ئەورووپا تەواو بە ئەنقەست بوو."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdeliberates2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdeliberates2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "The emphasis on Europe was quite deliberate.",
+            kurdishText: "سەرنجدانان لەسەر ئەورووپا تەواو بە ئەنقەست بوو.",
+            onPressedBritish: () => speakdeliberates2("en-GB"),
+            onPressedAmerican: () => speakdeliberates2("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: "٢. (ھاوەڵناو) بەھێواشی و وریایی"),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "She spoke in a slow and deliberate way."),
-                    ExampleSentenceKurdish(
-                        text: "بە ھێواشی و لەسەرەخۆیی قسەی کرد."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdeliberates3("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdeliberates3("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "She spoke in a slow and deliberate way.",
+            kurdishText: "بە ھێواشی و لەسەرەخۆیی قسەی کرد.",
+            onPressedBritish: () => speakdeliberates3("en-GB"),
+            onPressedAmerican: () => speakdeliberates3("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٢. (کردار) بیرکردنەوە لەسەر شتێک زۆر بە وریاییەوە"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The sergeant deliberated for a moment and then agreed to unlock the door."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "ئەفسەرەکە بۆ کەمێک بیری کردەوە و دواتر ڕازی بوو کە دەرگاکە بکاتەوە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdeliberates4("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdeliberates4("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "The sergeant deliberated for a moment and then agreed to unlock the door.",
+            kurdishText:
+                "ئەفسەرەکە بۆ کەمێک بیری کردەوە و دواتر ڕازی بوو کە دەرگاکە بکاتەوە.",
+            onPressedBritish: () => speakdeliberates4("en-GB"),
+            onPressedAmerican: () => speakdeliberates4("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "They deliberated (on) whether to continue with the talks."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "بیریان لەوە کردەوە کە ئایا بەردەوامی بە گفتوگۆکان بدەن."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdeliberates5("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdeliberates5("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "They deliberated (on) whether to continue with the talks.",
+            kurdishText:
+                "بیریان لەوە کردەوە کە ئایا بەردەوامی بە گفتوگۆکان بدەن.",
+            onPressedBritish: () => speakdeliberates5("en-GB"),
+            onPressedAmerican: () => speakdeliberates5("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "Customers sometimes deliberate over a purchase for weeks."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "کڕیاران ھەندێک جار بۆ چەندین ھەفتە بیر لە کڕینێک دەکەنەوە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdeliberates6("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdeliberates6("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "Customers sometimes deliberate over a purchase for weeks.",
+            kurdishText:
+                "کڕیاران ھەندێک جار بۆ چەندین ھەفتە بیر لە کڕینێک دەکەنەوە.",
+            onPressedBritish: () => speakdeliberates6("en-GB"),
+            onPressedAmerican: () => speakdeliberates6("en-US"),
           ),
           // deliberates700"),
           // speakdeliberates7

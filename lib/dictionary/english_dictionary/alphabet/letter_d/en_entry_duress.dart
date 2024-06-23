@@ -372,60 +372,22 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   """١. (ناو) ھەڕەشە و ھێز کە کە وا لە کەسێک دەکات شتێک بکات"""),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: """He signed the confession under duress."""),
-                    ExampleSentenceKurdish(
-                        text: """دانپێدانانەکەی لەژێر ھەڕەشەدا واژۆکرد."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "duress", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakduresss1("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakduresss1("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: """He signed the confession under duress.""",
+            kurdishText: """دانپێدانانەکەی لەژێر ھەڕەشەدا واژۆکرد.""", // duress
+            onPressedBritish: () => speakduresss1("en-GB"),
+            onPressedAmerican: () => speakduresss1("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            """They were operating at times under extreme duress."""),
-                    ExampleSentenceKurdish(
-                        text:
-                            """ھەندێک کات لەژێر فشاری ئێجگار زۆردا کاریان دەکرد."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakduresss2("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakduresss2("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                """They were operating at times under extreme duress.""",
+            kurdishText:
+                """ھەندێک کات لەژێر فشاری ئێجگار زۆردا کاریان دەکرد.""",
+            onPressedBritish: () => speakduresss2("en-GB"),
+            onPressedAmerican: () => speakduresss2("en-US"),
           ),
           // duresss300
           // speakduresss3

@@ -234,32 +234,13 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "١. (کردار) زیان گەیاندن بە کەسێک بە گوتنی شتی خراپ یان ھەڵە لەسەری"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The newspaper denies any intention to defame the senator’s reputation."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "ڕۆژنامەکە نکۆڵی لە ھەر نیازێک بۆ ناوزڕاندنی ناوبانگی سیناتۆرەکە دەکات."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "defame", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdefames1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdefames1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "The newspaper denies any intention to defame the senator’s reputation.",
+            kurdishText:
+                "ڕۆژنامەکە نکۆڵی لە ھەر نیازێک بۆ ناوزڕاندنی ناوبانگی سیناتۆرەکە دەکات.", // defame
+            onPressedBritish: () => speakdefames1("en-GB"),
+            onPressedAmerican: () => speakdefames1("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "٢. (ھاوەڵناو) پێنناسە"),

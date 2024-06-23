@@ -252,87 +252,28 @@ class KurdishMeaning extends StatelessWidget {
 """),
           const DefinitionKurdish(
               text: "١. (ناو) ئەو ھەستەی کە بە شتێک ڕازی یان دڵخۆش نیت"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "Pay cuts have led to widespread dissatisfaction."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "کەمکردنەوەی مووچە بووە بە ھۆکاری ناڕەزایی بەرفراوان."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "dissatisfaction", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdissatisfactions1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdissatisfactions1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "Pay cuts have led to widespread dissatisfaction.",
+            kurdishText:
+                "کەمکردنەوەی مووچە بووە بە ھۆکاری ناڕەزایی بەرفراوان.", // dissatisfaction
+            onPressedBritish: () => speakdissatisfactions1("en-GB"),
+            onPressedAmerican: () => speakdissatisfactions1("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "She expressed deep dissatisfaction at the way the interview had been conducted."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "ناڕەزایی زۆری دەربڕی بە ئەنجامدانی چاوپێکەوتنەکە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdissatisfactions2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdissatisfactions2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "She expressed deep dissatisfaction at the way the interview had been conducted.",
+            kurdishText: "ناڕەزایی زۆری دەربڕی بە ئەنجامدانی چاوپێکەوتنەکە.",
+            onPressedBritish: () => speakdissatisfactions2("en-GB"),
+            onPressedAmerican: () => speakdissatisfactions2("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "There was widespread dissatisfaction among the public."),
-                    ExampleSentenceKurdish(
-                        text: "بێزاری زۆر ھەبوو لە ناو خەڵکیدا."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdissatisfactions3("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdissatisfactions3("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "There was widespread dissatisfaction among the public.",
+            kurdishText: "بێزاری زۆر ھەبوو لە ناو خەڵکیدا.",
+            onPressedBritish: () => speakdissatisfactions3("en-GB"),
+            onPressedAmerican: () => speakdissatisfactions3("en-US"),
           ),
           // dissatisfactions400"),
           // speakdissatisfactions4

@@ -233,32 +233,13 @@ class KurdishMeaning extends StatelessWidget {
 کوردی: پەک‌کەوتوویی، کەمەندامی، نوقسانی، کۆچیلی
 """),
           const DefinitionKurdish(text: "١. (ناو) دۆخی کەمئەندامی"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The insurance policy covers sudden death or disablement."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "ڕێکەوتنی بیمەکە مردنی لەناکاو و کەمئەندامبوون لەخۆدەگرێت."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "disablement", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdisablements1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdisablements1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "The insurance policy covers sudden death or disablement.",
+            kurdishText:
+                "ڕێکەوتنی بیمەکە مردنی لەناکاو و کەمئەندامبوون لەخۆدەگرێت.", // disablement
+            onPressedBritish: () => speakdisablements1("en-GB"),
+            onPressedAmerican: () => speakdisablements1("en-US"),
           ),
           // disablements200"),
           // speakdisablements2

@@ -243,31 +243,12 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "١. (ناو) مۆڵەتی تایبەت بۆ کردنی شتێک کە زۆرجار یاسایی یان ڕێگاپێدراو نییە"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "She needed a special dispensation to remarry."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "پێویستی بە مۆڵەتێکی تایبەت بوو بۆ دووبارە پێکھێنانی ھاوسەرگیری."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "dispensation", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdispensations1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdispensations1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "She needed a special dispensation to remarry.",
+            kurdishText:
+                "پێویستی بە مۆڵەتێکی تایبەت بوو بۆ دووبارە پێکھێنانی ھاوسەرگیری.", // dispensation
+            onPressedBritish: () => speakdispensations1("en-GB"),
+            onPressedAmerican: () => speakdispensations1("en-US"),
           ),
           // "The sport's ruling body gave him dispensation to compete in national competitions."),
           //           ExampleSentenceKurdish(text: "دەستەی بڕیاردانی وەرزشەکە مۆڵەتی تایبەتی پێدا بۆ بەژداری لە پاڵەوانێتییە نیشتیمانییەکان."),

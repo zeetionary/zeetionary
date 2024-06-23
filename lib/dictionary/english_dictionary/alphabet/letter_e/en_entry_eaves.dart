@@ -363,31 +363,12 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   """١. (ناو) قەراغە نزمەکانی سەربانێک کە لە لایەکانی دیوارەکەوە ھاتوونەتە دەرەوە"""),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: """Birds built a nest under the eaves."""),
-                    ExampleSentenceKurdish(
-                        text:
-                            """باڵندەکان لەژێر سەرەسوانەکە ھێلانەیەکیان درووستکرد لە پاسارەکە."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "eaves", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakeavess1("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakeavess1("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: """Birds built a nest under the eaves.""",
+            kurdishText:
+                """باڵندەکان لەژێر سەرەسوانەکە ھێلانەیەکیان درووستکرد لە پاسارەکە.""", // eaves
+            onPressedBritish: () => speakeavess1("en-GB"),
+            onPressedAmerican: () => speakeavess1("en-US"),
           ),
           // eavess200eavess2
           // speakeavess2

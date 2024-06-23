@@ -267,116 +267,40 @@ class KurdishMeaning extends StatelessWidget {
 """),
           const DefinitionKurdish(
               text: "١. (ھاوەڵناو) کە پێویستی بە شارەزایی، ھەوڵ، ھتد ھەیە"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "The work is physically demanding."),
-                    ExampleSentenceKurdish(
-                        text: "کارەکە لە ڕووی جەستەییەوە سەختە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "demanding", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdemandings1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdemandings1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "The work is physically demanding.",
+            kurdishText: "کارەکە لە ڕووی جەستەییەوە سەختە.", // demanding
+            onPressedBritish: () => speakdemandings1("en-GB"),
+            onPressedAmerican: () => speakdemandings1("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "Childbirth is physically and emotionally very demanding and can leave you feeling shocked and drained."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "منداڵبوون لە ڕووی جەستەیی و دەروونییەوە زۆر سەختە و دەکرێت شۆک و شەکەتت بکات."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdemandings2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdemandings2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "Childbirth is physically and emotionally very demanding and can leave you feeling shocked and drained.",
+            kurdishText:
+                "منداڵبوون لە ڕووی جەستەیی و دەروونییەوە زۆر سەختە و دەکرێت شۆک و شەکەتت بکات.",
+            onPressedBritish: () => speakdemandings2("en-GB"),
+            onPressedAmerican: () => speakdemandings2("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: "٢. (ھاوەڵناو) کەسێک کە داواکاری زۆرە"),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "My grandma became very demanding as she got older."),
-                    ExampleSentenceKurdish(
-                        text: "داپیرەم ئەنقەرەی گران بووە لەوەتەی پیر بووە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdemandings3("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdemandings3("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "My grandma became very demanding as she got older.",
+            kurdishText: "داپیرەم ئەنقەرەی گران بووە لەوەتەی پیر بووە.",
+            onPressedBritish: () => speakdemandings3("en-GB"),
+            onPressedAmerican: () => speakdemandings3("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "She's a very demanding child."),
-                    ExampleSentenceKurdish(text: "منداڵێکی زۆر پڕچاوەڕوانییە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdemandings4("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdemandings4("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "She's a very demanding child.",
+            kurdishText: "منداڵێکی زۆر پڕچاوەڕوانییە.",
+            onPressedBritish: () => speakdemandings4("en-GB"),
+            onPressedAmerican: () => speakdemandings4("en-US"),
           ),
           // demandings500"),
           // speakdemandings5

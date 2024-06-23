@@ -363,32 +363,12 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "١. (ناو) ئاژەڵێکی بچووک کە وەک مشکە و کلێکی ھەیە کە بە تووک داپۆشراوە"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "He read a book about the habits of the dormouse."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "کتێبێکی خوێندەوە دەربارەی خووەکانی مشکی کلک‌تووکن."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "dormouse", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdormouses1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdormouses1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "He read a book about the habits of the dormouse.",
+            kurdishText:
+                "کتێبێکی خوێندەوە دەربارەی خووەکانی مشکی کلک‌تووکن.", // dormouse
+            onPressedBritish: () => speakdormouses1("en-GB"),
+            onPressedAmerican: () => speakdormouses1("en-US"),
           ),
           // dormouses200"),
           // speakdormouses2

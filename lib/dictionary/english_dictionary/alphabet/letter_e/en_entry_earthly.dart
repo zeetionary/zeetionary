@@ -389,121 +389,42 @@ class KurdishMeaning extends StatelessWidget {
 """),
           const DefinitionKurdish(
               text: """١. (ھاوەڵناو) پەیوەندیدار بە ژیانی سەر زەوی"""),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            """She often spoke about the sorrows of this earthly life."""),
-                    ExampleSentenceKurdish(
-                        text:
-                            """زۆرجار باسی لە نەھامەتییەکان ژیانی ئەم سەر زەوییە دەکرد."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "earthly", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakearthlys1("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakearthlys1("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                """She often spoke about the sorrows of this earthly life.""",
+            kurdishText:
+                """زۆرجار باسی لە نەھامەتییەکان ژیانی ئەم سەر زەوییە دەکرد.""", // earthly
+            onPressedBritish: () => speakearthlys1("en-GB"),
+            onPressedAmerican: () => speakearthlys1("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: """٢. (ھاوەڵناو) کە ئەگەری ھەیە"""),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            """There's no earthly reason why you shouldn't go."""),
-                    ExampleSentenceKurdish(
-                        text: """ھیچ ھۆکارێکی باوەڕپێکراو نەبوو کە نەچیت."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakearthlys2("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakearthlys2("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: """There's no earthly reason why you shouldn't go.""",
+            kurdishText: """ھیچ ھۆکارێکی باوەڕپێکراو نەبوو کە نەچیت.""",
+            onPressedBritish: () => speakearthlys2("en-GB"),
+            onPressedAmerican: () => speakearthlys2("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            """What earthly difference is my opinion going to make?"""),
-                    ExampleSentenceKurdish(
-                        text:
-                            """چی جیاوازییەکی ڕێتێچوو بۆچوونی من درووستی دەکات."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakearthlys3("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakearthlys3("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                """What earthly difference is my opinion going to make?""",
+            kurdishText: """چی جیاوازییەکی ڕێتێچوو بۆچوونی من درووستی دەکات.""",
+            onPressedBritish: () => speakearthlys3("en-GB"),
+            onPressedAmerican: () => speakearthlys3("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            """He didn't have an earthly chance of getting the job."""),
-                    ExampleSentenceKurdish(
-                        text:
-                            """ھیچ شانسێکی ڕێتێچووی نەبوو کە کارەکە وەربگرێت."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakearthlys4("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakearthlys4("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                """He didn't have an earthly chance of getting the job.""",
+            kurdishText: """ھیچ شانسێکی ڕێتێچووی نەبوو کە کارەکە وەربگرێت.""",
+            onPressedBritish: () => speakearthlys4("en-GB"),
+            onPressedAmerican: () => speakearthlys4("en-US"),
           ),
           // earthlys500earthlys5
           // speakearthlys5

@@ -363,30 +363,11 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   """١. (ناو) پارچە دارێک کە ئاگری پێوە نییە بەڵام ھێشتا سوور و گەرمە"""),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: """Only the embers of the fire remained."""),
-                    ExampleSentenceKurdish(
-                        text: """تەنھا پۆڵووی ئاگرەکە مایەوە."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "ember", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakembers1("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakembers1("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: """Only the embers of the fire remained.""",
+            kurdishText: """تەنھا پۆڵووی ئاگرەکە مایەوە.""", // ember
+            onPressedBritish: () => speakembers1("en-GB"),
+            onPressedAmerican: () => speakembers1("en-US"),
           ),
           // embers200embers2
           // speakembers2

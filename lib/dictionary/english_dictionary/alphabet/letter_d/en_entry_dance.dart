@@ -330,322 +330,99 @@ class KurdishMeaning extends StatelessWidget {
 کوردی: ھەڵپەڕکێ، سەما، ڕەخس، ھەلەکە،	ھونەری ھەڵپەڕکێ یان سەما (بەتایبەت بۆ شانۆ)،	موسیقای ھەڵپەڕکێ،	ھەوا یان گۆرانی ھەڵپەڕکێ،	شایی، گۆڤەند، دیلان، شایی‌لۆغان
 """),
           const DefinitionKurdish(text: "١. (ناو) سەما"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "Do you know any other Latin American dances?"),
-                    ExampleSentenceKurdish(
-                        text: "ھیچ سەمایەکی دیکەی ئەمریکای باشووری دەزانی؟"),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "dance", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdances1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdances1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "Do you know any other Latin American dances?",
+            kurdishText: "ھیچ سەمایەکی دیکەی ئەمریکای باشووری دەزانی؟", // dance
+            onPressedBritish: () => speakdances1("en-GB"),
+            onPressedAmerican: () => speakdances1("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "The girls performed a graceful dance."),
-                    ExampleSentenceKurdish(
-                        text: "کچەکان سەمایەکی جوانیان کرد."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdances2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdances2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "The girls performed a graceful dance.",
+            kurdishText: "کچەکان سەمایەکی جوانیان کرد.",
+            onPressedBritish: () => speakdances2("en-GB"),
+            onPressedAmerican: () => speakdances2("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "Find a partner and practise these new dance steps."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "ھاوەڵێکی سەماکردن بدۆزەرەوە لەگەڵیدا ڕاھێنانی ئەم ھەنگاوە تازانەی سەما بکە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdances3("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdances3("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "Find a partner and practise these new dance steps.",
+            kurdishText:
+                "ھاوەڵێکی سەماکردن بدۆزەرەوە لەگەڵیدا ڕاھێنانی ئەم ھەنگاوە تازانەی سەما بکە.",
+            onPressedBritish: () => speakdances3("en-GB"),
+            onPressedAmerican: () => speakdances3("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٢. (ناو) ھونەری سەماکردن، بەتایبەتی بۆ چێژبینین"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The performers tell the story through song and dance."),
-                    ExampleSentenceKurdish(
-                        text: "نمایشکاران چیرۆکەکە بە گۆرانی و سەما دەڵێنەوە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdances4("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdances4("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "The performers tell the story through song and dance.",
+            kurdishText: "نمایشکاران چیرۆکەکە بە گۆرانی و سەما دەڵێنەوە.",
+            onPressedBritish: () => speakdances4("en-GB"),
+            onPressedAmerican: () => speakdances4("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: "٣. (ناو) سەماکردن"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(text: "Would you like a dance?"),
-                    ExampleSentenceKurdish(text: "حەز بە سەماکردنێک دەکەیت؟"),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdances5("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdances5("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "Would you like a dance?",
+            kurdishText: "حەز بە سەماکردنێک دەکەیت؟",
+            onPressedBritish: () => speakdances5("en-GB"),
+            onPressedAmerican: () => speakdances5("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "In her delight she got up and did a little dance."),
-                    ExampleSentenceKurdish(
-                        text: "لە خۆشیدا ھەستایە سەرپێ و کەمێک سەمای کرد."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdances6("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdances6("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "In her delight she got up and did a little dance.",
+            kurdishText: "لە خۆشیدا ھەستایە سەرپێ و کەمێک سەمای کرد.",
+            onPressedBritish: () => speakdances6("en-GB"),
+            onPressedAmerican: () => speakdances6("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٤. (ناو) بۆنەیەکی کۆمەڵایەتی کە تێیدا خەڵکی سەما دەکەن"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "We hold a dance every year to raise money for charity."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "ھەموو ساڵێک سەمایەک ساز دەکەین بۆ کۆکردەوەی پارە بۆ ڕێکخراوە خێرخوازییەکە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdances7("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdances7("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "We hold a dance every year to raise money for charity.",
+            kurdishText:
+                "ھەموو ساڵێک سەمایەک ساز دەکەین بۆ کۆکردەوەی پارە بۆ ڕێکخراوە خێرخوازییەکە.",
+            onPressedBritish: () => speakdances7("en-GB"),
+            onPressedAmerican: () => speakdances7("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(text: "They met at a dance."),
-                    ExampleSentenceKurdish(text: "لە سەمایەک یەکیان بینی."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdances8("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdances8("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "They met at a dance.",
+            kurdishText: "لە سەمایەک یەکیان بینی.",
+            onPressedBritish: () => speakdances8("en-GB"),
+            onPressedAmerican: () => speakdances8("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: "٥. (کردار) سەماکردن"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(text: "Do you want to dance?"),
-                    ExampleSentenceKurdish(text: "دەتەوێت سەما بکەیت؟"),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdances9("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdances9("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "Do you want to dance?",
+            kurdishText: "دەتەوێت سەما بکەیت؟",
+            onPressedBritish: () => speakdances9("en-GB"),
+            onPressedAmerican: () => speakdances9("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(text: "He asked me to dance."),
-                    ExampleSentenceKurdish(text: "داوای لێکردم سەما بکەم."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdances10("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdances10("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "He asked me to dance.",
+            kurdishText: "داوای لێکردم سەما بکەم.",
+            onPressedBritish: () => speakdances10("en-GB"),
+            onPressedAmerican: () => speakdances10("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "They stayed up all night singing and dancing."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "تەواوی شەوەکە مانەوە بۆ گۆرانی گوتن و سەماکردن."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdances11("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdances11("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "They stayed up all night singing and dancing.",
+            kurdishText: "تەواوی شەوەکە مانەوە بۆ گۆرانی گوتن و سەماکردن.",
+            onPressedBritish: () => speakdances11("en-GB"),
+            onPressedAmerican: () => speakdances11("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: "٦. (کردار) جوڵان بە جۆش و خرۆشییەوە"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "The children danced around her."),
-                    ExampleSentenceKurdish(
-                        text: "منداڵەکان بە دەوریدا سەمایان دەکرد."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdances12("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdances12("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "The children danced around her.",
+            kurdishText: "منداڵەکان بە دەوریدا سەمایان دەکرد.",
+            onPressedBritish: () => speakdances12("en-GB"),
+            onPressedAmerican: () => speakdances12("en-US"),
           ),
           // const DividerSentences(),
           // Row(

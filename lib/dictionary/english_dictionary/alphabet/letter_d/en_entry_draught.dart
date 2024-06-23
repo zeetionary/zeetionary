@@ -415,199 +415,66 @@ class KurdishMeaning extends StatelessWidget {
             text: "١. (ناو) ھاتووچۆی ھەواوی فێنک بە ژوورێک یان شوێنێکی بچووکدا",
             note: "بۆ ھەموو واتاکان دەکرێت draft بەکاربێت لە جیاتیدا",
           ),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(text: "There's a draught in here."),
-                    ExampleSentenceKurdish(text: "شنەیەکی فێنکایی لێرە ھەیە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "draught", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdraughts1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdraughts1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "There's a draught in here.",
+            kurdishText: "شنەیەکی فێنکایی لێرە ھەیە.", // draught
+            onPressedBritish: () => speakdraughts1("en-GB"),
+            onPressedAmerican: () => speakdraughts1("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "A cold draught of air blew in from the open window."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "شنەیەکی ھەوای سارد لە پەنجەرە کراوەکەوە ھاتە ژوورەوە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdraughts2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdraughts2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "A cold draught of air blew in from the open window.",
+            kurdishText:
+                "شنەیەکی ھەوای سارد لە پەنجەرە کراوەکەوە ھاتە ژوورەوە.",
+            onPressedBritish: () => speakdraughts2("en-GB"),
+            onPressedAmerican: () => speakdraughts2("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "She shivered in the icy draught."),
-                    ExampleSentenceKurdish(
-                        text: "لە سروەیەکی تەزێنەردا دەلەرزی."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdraughts3("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdraughts3("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "She shivered in the icy draught.",
+            kurdishText: "لە سروەیەکی تەزێنەردا دەلەرزی.",
+            onPressedBritish: () => speakdraughts3("en-GB"),
+            onPressedAmerican: () => speakdraughts3("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: "٢. (ناو) یەک قوم لە خواردنەوەی شلە"),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "He took a deep draught of his beer."),
-                    ExampleSentenceKurdish(text: "قومێکی قووڵی لە بیرەکە دا."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdraughts4("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdraughts4("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "He took a deep draught of his beer.",
+            kurdishText: "قومێکی قووڵی لە بیرەکە دا.",
+            onPressedBritish: () => speakdraughts4("en-GB"),
+            onPressedAmerican: () => speakdraughts4("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: "٣. (ناو) گیراوە؛ دەرمان بە شلەیی"),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "She drank a sleeping draught to help with her insomnia."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "گیراوەیەکی خەوی خواردەوە بۆ نەھێشتنی خەوزڕانەکەی."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdraughts5("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdraughts5("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "She drank a sleeping draught to help with her insomnia.",
+            kurdishText: "گیراوەیەکی خەوی خواردەوە بۆ نەھێشتنی خەوزڕانەکەی.",
+            onPressedBritish: () => speakdraughts5("en-GB"),
+            onPressedAmerican: () => speakdraughts5("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٤. (کردار) نووسینی یەکەم بەرنووسی شتێک"),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "I'll draught a letter for you."),
-                    ExampleSentenceKurdish(
-                        text: "یەکەم بەرنووسی نامەیەکت بۆ دەنووسم."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdraughts6("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdraughts6("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "I'll draught a letter for you.",
+            kurdishText: "یەکەم بەرنووسی نامەیەکت بۆ دەنووسم.",
+            onPressedBritish: () => speakdraughts6("en-GB"),
+            onPressedAmerican: () => speakdraughts6("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٥. (کردار) ھەڵبژاردنی خەڵکی ناردنیان بۆ ئەرکێکی تایبەت"),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "Extra police are being draughted in to control the crowds."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "پۆلیسی زیادە دەنێردرێن بۆ کۆنترۆڵکردنی جەماوەرەکە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdraughts7("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdraughts7("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "Extra police are being draughted in to control the crowds.",
+            kurdishText: "پۆلیسی زیادە دەنێردرێن بۆ کۆنترۆڵکردنی جەماوەرەکە.",
+            onPressedBritish: () => speakdraughts7("en-GB"),
+            onPressedAmerican: () => speakdraughts7("en-US"),
           ),
           // draughts800"),
           // speakdraughts8

@@ -241,57 +241,21 @@ class KurdishMeaning extends StatelessWidget {
 """),
           const DefinitionKurdish(
               text: "١. (ھاوەڵناو) بە ئاستێکی زۆر بەشێوەیەک کە ناخۆشە"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "After he had spoken, a deathly silence/hush fell on the room."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "لە دوای ئەوەی قسەی کرد، بێدەنگییەکی تەواو باڵی بەسەر ژوورەکەدا پۆشی."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "deathly", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdeathlys1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdeathlys1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "After he had spoken, a deathly silence/hush fell on the room.",
+            kurdishText:
+                "لە دوای ئەوەی قسەی کرد، بێدەنگییەکی تەواو باڵی بەسەر ژوورەکەدا پۆشی.", // deathly
+            onPressedBritish: () => speakdeathlys1("en-GB"),
+            onPressedAmerican: () => speakdeathlys1("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: "٢. (ھاوەڵکار) وەک مردوو"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(text: "She went deathly pale."),
-                    ExampleSentenceKurdish(text: "وەک مردوو ڕەنگ‌پەڕیو بوو."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdeathlys2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdeathlys2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "She went deathly pale.",
+            kurdishText: "وەک مردوو ڕەنگ‌پەڕیو بوو.",
+            onPressedBritish: () => speakdeathlys2("en-GB"),
+            onPressedAmerican: () => speakdeathlys2("en-US"),
           ),
         ],
       ),

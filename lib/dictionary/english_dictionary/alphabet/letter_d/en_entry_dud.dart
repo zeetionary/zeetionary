@@ -380,92 +380,35 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   """١. (ناو) شتێکی کە ھیچ سوودی نییە، بەتایبەتی بەھۆی ئەوەی کە باش کار ناکات"""),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: """Two of the fireworks in the box were duds."""),
-                    ExampleSentenceKurdish(
-                        text:
-                            """دووان لە یارییە ئاگرینەکان لە سندووقەکە بەکارنەھاتوو بوون."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "dud", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakduds1("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakduds1("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: """Two of the fireworks in the box were duds.""",
+            kurdishText:
+                """دووان لە یارییە ئاگرینەکان لە سندووقەکە بەکارنەھاتوو بوون.""", // dud
+            onPressedBritish: () => speakduds1("en-GB"),
+            onPressedAmerican: () => speakduds1("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            """Five years ago I bought a dishwasher that proved to be a dud from the start."""),
-                    ExampleSentenceKurdish(
-                        text:
-                            """پێنج ساڵ پێش ئێستا جلشۆرێکم کڕی کە ھەر لە سەرەتاوە بێ‌خێرە بوو."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakduds3("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakduds3("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                """Five years ago I bought a dishwasher that proved to be a dud from the start.""",
+            kurdishText:
+                """پێنج ساڵ پێش ئێستا جلشۆرێکم کڕی کە ھەر لە سەرەتاوە بێ‌خێرە بوو.""",
+            onPressedBritish: () => speakduds3("en-GB"),
+            onPressedAmerican: () => speakduds3("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text: """٢. (ھاوەڵناو) شتێک کە سوودی نییە چونکە کارناکات"""),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            """A customer had tried to pay with a dud cheque (= one for which a bank will not give money)."""),
-                    ExampleSentenceKurdish(
-                        text:
-                            """کڕیارێک ھەوڵی دا بە چەکێکی بەکارنەھاتوو پارە بدات."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakduds2("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakduds2("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                """A customer had tried to pay with a dud cheque (= one for which a bank will not give money).""",
+            kurdishText:
+                """کڕیارێک ھەوڵی دا بە چەکێکی بەکارنەھاتوو پارە بدات.""",
+            onPressedBritish: () => speakduds2("en-GB"),
+            onPressedAmerican: () => speakduds2("en-US"),
           ),
           // duds400
           // speakduds4

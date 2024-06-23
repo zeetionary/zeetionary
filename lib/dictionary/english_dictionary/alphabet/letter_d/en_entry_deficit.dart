@@ -267,30 +267,12 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "١. (ناو) تەواوی ئەو بڕەی جیاوازەی کە ھەیە کاتێک پارەی خەرجکراو زیاترە لە قازانجکراو لە ماوەیەکی دیاریکراودا"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "We are facing a substantial trade deficit."),
-                    ExampleSentenceKurdish(
-                        text: "ڕووبەڕووی کورتھێنانێکی گەورەی پیشەسازی بووینە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "deficit", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdeficits1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdeficits1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "We are facing a substantial trade deficit.",
+            kurdishText:
+                "ڕووبەڕووی کورتھێنانێکی گەورەی پیشەسازی بووینە.", // deficit
+            onPressedBritish: () => speakdeficits1("en-GB"),
+            onPressedAmerican: () => speakdeficits1("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
@@ -315,119 +297,42 @@ class KurdishMeaning extends StatelessWidget {
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The presidential candidate claims that he can cut the deficit in half within five years."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "بەربژێرە سەرۆکایەتییەکە بانگەشەی ئەوە دەکات کە دەتوانێت کورتھێنان بۆ نیوە کەم بکاتەوە لە ماوەی پێنج ساڵدا."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdeficits3("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdeficits3("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "The presidential candidate claims that he can cut the deficit in half within five years.",
+            kurdishText:
+                "بەربژێرە سەرۆکایەتییەکە بانگەشەی ئەوە دەکات کە دەتوانێت کورتھێنان بۆ نیوە کەم بکاتەوە لە ماوەی پێنج ساڵدا.",
+            onPressedBritish: () => speakdeficits3("en-GB"),
+            onPressedAmerican: () => speakdeficits3("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "The company has run up a deficit of £30 000."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "کۆمپانیاکە ڕووبەڕووی کورتھێنانی ٣٠٠٠٠ پاوەند بووە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdeficits4("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdeficits4("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "The company has run up a deficit of £30 000.",
+            kurdishText: "کۆمپانیاکە ڕووبەڕووی کورتھێنانی ٣٠٠٠٠ پاوەند بووە.",
+            onPressedBritish: () => speakdeficits4("en-GB"),
+            onPressedAmerican: () => speakdeficits4("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
                   "٢. (ناو) ئەو بڕەی کە ھەیە کاتێک شتێک زۆر کەمە یان کەمترە لە شتێک"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "There's a deficit of £3 million in the total needed to complete the project."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "کورتھێنانی ٣ ملیۆن پاوەند ھەیە بە گشتی کە پێویستە بۆ تەواوکردنی پڕۆژەکە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdeficits5("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdeficits5("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "There's a deficit of £3 million in the total needed to complete the project.",
+            kurdishText:
+                "کورتھێنانی ٣ ملیۆن پاوەند ھەیە بە گشتی کە پێویستە بۆ تەواوکردنی پڕۆژەکە.",
+            onPressedBritish: () => speakdeficits5("en-GB"),
+            onPressedAmerican: () => speakdeficits5("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "We will find it hard to make up this deficit."),
-                    ExampleSentenceKurdish(
-                        text: "بە سەختی دەبینین کە ئەم کورتھێنانە پڕبکەینەوە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdeficits6("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdeficits6("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "We will find it hard to make up this deficit.",
+            kurdishText: "بە سەختی دەبینین کە ئەم کورتھێنانە پڕبکەینەوە.",
+            onPressedBritish: () => speakdeficits6("en-GB"),
+            onPressedAmerican: () => speakdeficits6("en-US"),
           ),
           // deficits700"),
           // speakdeficits7

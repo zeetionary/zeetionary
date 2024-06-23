@@ -249,58 +249,22 @@ class KurdishMeaning extends StatelessWidget {
 // کوردی: (ڕێزمان) لێکدانەوەیی، لەسەر بنەمای باس‌کردن، باسەکی، باسکردی
 // """),
           const DefinitionKurdish(text: "١. (ھاوەڵناو) کە باسی شتێک دەکات"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The term I used was meant to be purely descriptive (= not judging)."),
-                    ExampleSentenceKurdish(
-                        text: "ئەو وشەیەی بەکارمھێنا تەنھا ناسێنەر بوو."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "descriptive", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdescriptives1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdescriptives1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "The term I used was meant to be purely descriptive (= not judging).",
+            kurdishText:
+                "ئەو وشەیەی بەکارمھێنا تەنھا ناسێنەر بوو.", // descriptive
+            onPressedBritish: () => speakdescriptives1("en-GB"),
+            onPressedAmerican: () => speakdescriptives1("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "The terms are descriptive of strong emotion."),
-                    ExampleSentenceKurdish(text: "وشەکان دەربڕی ھەستی بەھێزن."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdescriptives2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdescriptives2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "The terms are descriptive of strong emotion.",
+            kurdishText: "وشەکان دەربڕی ھەستی بەھێزن.",
+            onPressedBritish: () => speakdescriptives2("en-GB"),
+            onPressedAmerican: () => speakdescriptives2("en-US"),
           ),
           // descriptives300"),
           // speakdescriptives3

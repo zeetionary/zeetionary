@@ -362,32 +362,12 @@ class KurdishMeaning extends StatelessWidget {
 """),
           const DefinitionKurdish(
               text: """١. (ھاوەڵناو) ھەبوونی مەرجەکانی وەرگرتن بۆ کارێک"""),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            """Computer skills make you far more employable."""),
-                    ExampleSentenceKurdish(
-                        text:
-                            """شارەزایی کۆمپیوتەر زۆر زیاتر لەدامەزران‌ھاتوو ببیت."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "employable", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakemployables1("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakemployables1("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: """Computer skills make you far more employable.""",
+            kurdishText:
+                """شارەزایی کۆمپیوتەر زۆر زیاتر لەدامەزران‌ھاتوو ببیت.""", // employable
+            onPressedBritish: () => speakemployables1("en-GB"),
+            onPressedAmerican: () => speakemployables1("en-US"),
           ),
           // employables200employables2
           // speakemployables2

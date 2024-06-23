@@ -362,30 +362,11 @@ class KurdishMeaning extends StatelessWidget {
 """),
           const DefinitionKurdish(
               text: """١. (کردار) بەرھەمھێنان یان پیشاندانی شتێک"""),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: """He emanates power and confidence."""),
-                    ExampleSentenceKurdish(
-                        text: """ھێز و متمانەی لێ دەبارێت."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "emanate", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakemanates1("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakemanates1("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: """He emanates power and confidence.""",
+            kurdishText: """ھێز و متمانەی لێ دەبارێت.""", // emanate
+            onPressedBritish: () => speakemanates1("en-GB"),
+            onPressedAmerican: () => speakemanates1("en-US"),
           ),
           // emanates200emanates2
           // speakemanates2

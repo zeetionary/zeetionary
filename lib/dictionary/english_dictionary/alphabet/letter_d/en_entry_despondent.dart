@@ -258,89 +258,33 @@ class KurdishMeaning extends StatelessWidget {
 کوردی: ناھومێد، دڵسارد، دڵساردانە،	دڵتەنگ، مات، کز، خەمبار، پەژارەبار
 """),
           const DefinitionKurdish(text: "١. (ھاوەڵناو) خەمبار و بێ‌ھیوا"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "There are times when it is hard not to feel despondent."),
-                    ExampleSentenceKurdish(
-                        text: "ھەندێک کات ھەیە کە زەحمەتە دڵتەنگ نەبیت."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "despondent", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdespondents1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdespondents1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "There are times when it is hard not to feel despondent.",
+            kurdishText:
+                "ھەندێک کات ھەیە کە زەحمەتە دڵتەنگ نەبیت.", // despondent
+            onPressedBritish: () => speakdespondents1("en-GB"),
+            onPressedAmerican: () => speakdespondents1("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "She was becoming increasingly despondent about the way things were going."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "زیاتر و زیاتر خەمبار دەبوو سەبارەت بە بەرەوپێشچوونی شتەکان."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdespondents2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdespondents2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "She was becoming increasingly despondent about the way things were going.",
+            kurdishText:
+                "زیاتر و زیاتر خەمبار دەبوو سەبارەت بە بەرەوپێشچوونی شتەکان.",
+            onPressedBritish: () => speakdespondents2("en-GB"),
+            onPressedAmerican: () => speakdespondents2("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "Patients often feel despondent."),
-                    ExampleSentenceKurdish(
-                        text: "نەخۆشان زۆرجار ھەست بە خەفەتباری دەکەن."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdespondents3("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdespondents3("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "Patients often feel despondent.",
+            kurdishText: "نەخۆشان زۆرجار ھەست بە خەفەتباری دەکەن.",
+            onPressedBritish: () => speakdespondents3("en-GB"),
+            onPressedAmerican: () => speakdespondents3("en-US"),
           ),
           // despondents400"),
           // speakdespondents4

@@ -446,328 +446,121 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   """١. (ناو) مراوییەکی بەربڵاو کە لە ئاو یان نزیکی ئاودا دەژی و لاقی کورتی ھەیە لەگەڵ دەنووکێکی فراوان"""),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            """Every afternoon they went to the park to feed the ducks."""),
-                    ExampleSentenceKurdish(
-                        text:
-                            """ھەموو ئێوارانێک دەچوون بۆ پارکەکە بۆ خواردندان بە مراوییەکان."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "duck", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakducks1("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakducks1("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                """Every afternoon they went to the park to feed the ducks.""",
+            kurdishText:
+                """ھەموو ئێوارانێک دەچوون بۆ پارکەکە بۆ خواردندان بە مراوییەکان.""", // duck
+            onPressedBritish: () => speakducks1("en-GB"),
+            onPressedAmerican: () => speakducks1("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: """ژممارە. (کردار) پێنناسە"""),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: """Ducks were quacking noisily on the lake."""),
-                    ExampleSentenceKurdish(
-                        text:
-                            """مراوییەکان ڤە دەنگی بەرز قیقەیان دەھات لە دەریاچەکە."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakducks2("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakducks2("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: """Ducks were quacking noisily on the lake.""",
+            kurdishText:
+                """مراوییەکان ڤە دەنگی بەرز قیقەیان دەھات لە دەریاچەکە.""",
+            onPressedBritish: () => speakducks2("en-GB"),
+            onPressedAmerican: () => speakducks2("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: """٢. (ناو) مراوییەکی مێینە"""),
           const DividerDefinition(),
           const DefinitionKurdish(text: """٣. (ناو) گۆشتی مراوی"""),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: """Slice the duck breast and serve."""),
-                    ExampleSentenceKurdish(
-                        text: """سنگی مراوییەکە قاژ بکە و دابەشی بکە."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakducks3("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakducks3("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: """Slice the duck breast and serve.""",
+            kurdishText: """سنگی مراوییەکە قاژ بکە و دابەشی بکە.""",
+            onPressedBritish: () => speakducks3("en-GB"),
+            onPressedAmerican: () => speakducks3("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: """ژممارە. (کردار) پێنناسە"""),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(text: """We had roast duck."""),
-                    ExampleSentenceKurdish(text: """مراوی برژاومان خواردن."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakducks4("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakducks4("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: """We had roast duck.""",
+            kurdishText: """مراوی برژاومان خواردن.""",
+            onPressedBritish: () => speakducks4("en-GB"),
+            onPressedAmerican: () => speakducks4("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text: """٤. (ناو) شێوازێکی ھاوڕێیانەی بانگکردنی کەسێک"""),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(text: """Anything else, duck?"""),
-                    ExampleSentenceKurdish(
-                        text: """ھیچی ترت ئەوێت، جووجەڵەم؟"""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakducks5("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakducks5("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: """Anything else, duck?""",
+            kurdishText: """ھیچی ترت ئەوێت، جووجەڵەم؟""",
+            onPressedBritish: () => speakducks5("en-GB"),
+            onPressedAmerican: () => speakducks5("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
                   """٥. (کردار) ئەوەی سەرت یان جەستەت ببەیتە خوارەوە بۆ ئەوەی لێت نەدرێت یان نەبیندرێیت"""),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            """He had to duck as he came through the door."""),
-                    ExampleSentenceKurdish(
-                        text:
-                            """پێویست بوو بنووستێتەوە کە بە دەرگاکەدا ھاتە ژوورەوە."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakducks6("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakducks6("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: """He had to duck as he came through the door.""",
+            kurdishText:
+                """پێویست بوو بنووستێتەوە کە بە دەرگاکەدا ھاتە ژوورەوە.""",
+            onPressedBritish: () => speakducks6("en-GB"),
+            onPressedAmerican: () => speakducks6("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: """ژممارە. (کردار) پێنناسە"""),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            """We ducked down behind the wall so they wouldn't see us."""),
-                    ExampleSentenceKurdish(
-                        text:
-                            """لە پشت دیوارەکەوە خۆمان داشاری بۆ ئەوەی نەمان بینن."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakducks7("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakducks7("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                """We ducked down behind the wall so they wouldn't see us.""",
+            kurdishText:
+                """لە پشت دیوارەکەوە خۆمان داشاری بۆ ئەوەی نەمان بینن.""",
+            onPressedBritish: () => speakducks7("en-GB"),
+            onPressedAmerican: () => speakducks7("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: """ژممارە. (کردار) پێنناسە"""),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: """She ducked her head and got into the car."""),
-                    ExampleSentenceKurdish(
-                        text: """سەری داخست و چووە ئۆتۆمبێلەکەوە."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakducks8("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakducks8("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: """She ducked her head and got into the car.""",
+            kurdishText: """سەری داخست و چووە ئۆتۆمبێلەکەوە.""",
+            onPressedBritish: () => speakducks8("en-GB"),
+            onPressedAmerican: () => speakducks8("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text: """٦. (کردار) ئەوەی خۆت لە شتێک لا بدەیت"""),
           // const DividerSentences(),
           const AlsoEnglishckb(word: "ھەروەھا: dodge"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            """He ducked the first few blows then started to fight back."""),
-                    ExampleSentenceKurdish(
-                        text:
-                            """خۆی لە چەند لێدانی سەرەتا لادا و دواتر دەستی کرد بە وەڵامدانەوە."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakducks9("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakducks9("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                """He ducked the first few blows then started to fight back.""",
+            kurdishText:
+                """خۆی لە چەند لێدانی سەرەتا لادا و دواتر دەستی کرد بە وەڵامدانەوە.""",
+            onPressedBritish: () => speakducks9("en-GB"),
+            onPressedAmerican: () => speakducks9("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
                   """٧. (کردار) ڕاکردنە شوێنێک بەخێرایی، بەتایبەتی بۆ ئەوەی کە نەبیندرێیت"""),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: """She ducked into the room as we came out."""),
-                    ExampleSentenceKurdish(
-                        text:
-                            """خۆی فڕێدایە ناو ژوورەکە ھەرکە ئێمە ھاتینە دەرەوە."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakducks10("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakducks10("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: """She ducked into the room as we came out.""",
+            kurdishText:
+                """خۆی فڕێدایە ناو ژوورەکە ھەرکە ئێمە ھاتینە دەرەوە.""",
+            onPressedBritish: () => speakducks10("en-GB"),
+            onPressedAmerican: () => speakducks10("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
                   """٨. (کردار) خۆلادان لە ئەرکێک یان بەرپرسیاریەتییەکی سەخت"""),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: """The government is ducking the issue."""),
-                    ExampleSentenceKurdish(
-                        text: """حکومەت خۆی لە کێشەکە دەدزێتەوە."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakducks11("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakducks11("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: """The government is ducking the issue.""",
+            kurdishText: """حکومەت خۆی لە کێشەکە دەدزێتەوە.""",
+            onPressedBritish: () => speakducks11("en-GB"),
+            onPressedAmerican: () => speakducks11("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: """ژممارە. (کردار) پێنناسە"""),

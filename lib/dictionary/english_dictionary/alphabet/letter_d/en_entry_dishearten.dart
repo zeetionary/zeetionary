@@ -232,30 +232,11 @@ class KurdishMeaning extends StatelessWidget {
 """),
           const DefinitionKurdish(
               text: "١. (کردار) واکردن لە کەسێک کە ھیوا ورە لەدەست بدات"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "Don't let this defeat dishearten you."),
-                    ExampleSentenceKurdish(
-                        text: "مەھێڵە ئەم شکستە نائومێدت بکات."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "dishearten", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdisheartens1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdisheartens1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "Don't let this defeat dishearten you.",
+            kurdishText: "مەھێڵە ئەم شکستە نائومێدت بکات.", // dishearten
+            onPressedBritish: () => speakdisheartens1("en-GB"),
+            onPressedAmerican: () => speakdisheartens1("en-US"),
           ),
           // disheartens200"),
           // speakdisheartens2

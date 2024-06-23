@@ -371,63 +371,25 @@ class KurdishMeaning extends StatelessWidget {
 کوردی: لە دوولاوە، لە دوو ڕێگەوە، دووبەرامبەر، دووچەندانە، یەکجار، زۆر
 """),
           const DefinitionKurdish(text: "١. (ھاوەڵکار) زیاتر لە کاتی دیکە"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "I made doubly sure I locked all the doors when I went out."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "بە تەواوەتی دڵنیاییم کردەوە کە ھەموو دەرگاکانم گرت کە چوومە دەرەوە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "doubly", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdoublys1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdoublys1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "I made doubly sure I locked all the doors when I went out.",
+            kurdishText:
+                "بە تەواوەتی دڵنیاییم کردەوە کە ھەموو دەرگاکانم گرت کە چوومە دەرەوە.", // doubly
+            onPressedBritish: () => speakdoublys1("en-GB"),
+            onPressedAmerican: () => speakdoublys1("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٢. (ھاوەڵکار) لە دوو لاوە؛ بۆ دوو ھۆکار"),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "I was doubly attracted to the house—by its size and its location."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "لە دوولاوە سەرسام بووم بە خانووەکە ـ بۆ قەبارەکەی و شوێنەکەی."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdoublys2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdoublys2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "I was doubly attracted to the house—by its size and its location.",
+            kurdishText:
+                "لە دوولاوە سەرسام بووم بە خانووەکە ـ بۆ قەبارەکەی و شوێنەکەی.",
+            onPressedBritish: () => speakdoublys2("en-GB"),
+            onPressedAmerican: () => speakdoublys2("en-US"),
           ),
           // doublys300"),
           // speakdoublys3

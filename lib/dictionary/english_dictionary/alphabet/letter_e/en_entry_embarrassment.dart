@@ -422,242 +422,87 @@ class KurdishMeaning extends StatelessWidget {
 کوردی: ناڕەحەتی، نیگەرانی، دڵەڕاوکێ، شەرم، خەجاڵەتی، پەشۆکاوی، شڵەژاوی، تاساوی، سەرسامی، شێواوی، شپرزەیی، ناڕێک‌وپێکی، مایەی سەرشۆڕی، مایەی شەرمەزاری یان ناڕەحەتی، مڵۆزم، مایەی گرفتاری یان دەردەسەری
 """),
           const DefinitionKurdish(text: """١. (ناو) ھەست بە شەرمکردن"""),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            """I nearly died of embarrassment when he said that."""),
-                    ExampleSentenceKurdish(
-                        text:
-                            """خەریک بوو لە شەرمەزاریدا بمرم کە ئەوەی گوت."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "embarrassment", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakembarrassments1("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakembarrassments1("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                """I nearly died of embarrassment when he said that.""",
+            kurdishText:
+                """خەریک بوو لە شەرمەزاریدا بمرم کە ئەوەی گوت.""", // embarrassment
+            onPressedBritish: () => speakembarrassments1("en-GB"),
+            onPressedAmerican: () => speakembarrassments1("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: """ژممارە. (ناو) پێنناسە"""),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            """Much to her embarrassment, she realized that everybody had been listening to her singing."""),
-                    ExampleSentenceKurdish(
-                        text:
-                            """بە جێگای زۆری شەرمەزاریی، زانی کە ھەموان گوێیان لێی بوو کە گۆرانی دەگوت."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakembarrassments2("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakembarrassments2("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                """Much to her embarrassment, she realized that everybody had been listening to her singing.""",
+            kurdishText:
+                """بە جێگای زۆری شەرمەزاریی، زانی کە ھەموان گوێیان لێی بوو کە گۆرانی دەگوت.""",
+            onPressedBritish: () => speakembarrassments2("en-GB"),
+            onPressedAmerican: () => speakembarrassments2("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: """ژممارە. (ناو) پێنناسە"""),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            """Helen changed the subject to save me the embarrassment of replying."""),
-                    ExampleSentenceKurdish(
-                        text:
-                            """ھێلین بابەتەکەی گۆڕی بۆ ئەوەی ڕزگارم بکات لە شەرمەزاری وەڵامدانەوە."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakembarrassments3("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakembarrassments3("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                """Helen changed the subject to save me the embarrassment of replying.""",
+            kurdishText:
+                """ھێلین بابەتەکەی گۆڕی بۆ ئەوەی ڕزگارم بکات لە شەرمەزاری وەڵامدانەوە.""",
+            onPressedBritish: () => speakembarrassments3("en-GB"),
+            onPressedAmerican: () => speakembarrassments3("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: """ژممارە. (ناو) پێنناسە"""),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            """I felt some embarrassment as we shook hands."""),
-                    ExampleSentenceKurdish(
-                        text: """ھەستم بە شەرمەزاری کرد کە تەوقەمان کرد."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakembarrassments4("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakembarrassments4("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: """I felt some embarrassment as we shook hands.""",
+            kurdishText: """ھەستم بە شەرمەزاری کرد کە تەوقەمان کرد.""",
+            onPressedBritish: () => speakembarrassments4("en-GB"),
+            onPressedAmerican: () => speakembarrassments4("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: """ژممارە. (ناو) پێنناسە"""),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            """She smiled to hide her slight embarrassment."""),
-                    ExampleSentenceKurdish(
-                        text: """پێکەنی بۆ شاردنەوەی شەرمەزارییەکەی."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakembarrassments5("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakembarrassments5("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: """She smiled to hide her slight embarrassment.""",
+            kurdishText: """پێکەنی بۆ شاردنەوەی شەرمەزارییەکەی.""",
+            onPressedBritish: () => speakembarrassments5("en-GB"),
+            onPressedAmerican: () => speakembarrassments5("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text: """٢. (ناو) دۆخێک کە کێشە بۆ کەسێک درووست دەکات"""),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            """Her resignation will be a severe embarrassment to the party."""),
-                    ExampleSentenceKurdish(
-                        text:
-                            """دەستلەکارکێشانەوەکەی گرفتێکی قورس دەبێت بۆ پارتەکە."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakembarrassments6("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakembarrassments6("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                """Her resignation will be a severe embarrassment to the party.""",
+            kurdishText:
+                """دەستلەکارکێشانەوەکەی گرفتێکی قورس دەبێت بۆ پارتەکە.""",
+            onPressedBritish: () => speakembarrassments6("en-GB"),
+            onPressedAmerican: () => speakembarrassments6("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: """ژممارە. (ناو) پێنناسە"""),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            """The agreement was made in secret to avoid public embarrassment."""),
-                    ExampleSentenceKurdish(
-                        text:
-                            """ڕێکەوتنەکە بە نھێنی کرا بۆ دووربوون لە خەجاڵەتی لای خەڵک."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakembarrassments7("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakembarrassments7("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                """The agreement was made in secret to avoid public embarrassment.""",
+            kurdishText:
+                """ڕێکەوتنەکە بە نھێنی کرا بۆ دووربوون لە خەجاڵەتی لای خەڵک.""",
+            onPressedBritish: () => speakembarrassments7("en-GB"),
+            onPressedAmerican: () => speakembarrassments7("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
                   """٣. (ناو) کەسێک کە کێشە بۆ کەسانی دیکە درووست دەکات و دەبێتە جێگای شەرمەزاری"""),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            """Poor Lucy! He's such an embarrassment to her."""),
-                    ExampleSentenceKurdish(
-                        text: """لووسی داماو! ئەو خەجاڵەتییەکی گەورەیە بۆی."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakembarrassments8("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakembarrassments8("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: """Poor Lucy! He's such an embarrassment to her.""",
+            kurdishText: """لووسی داماو! ئەو خەجاڵەتییەکی گەورەیە بۆی.""",
+            onPressedBritish: () => speakembarrassments8("en-GB"),
+            onPressedAmerican: () => speakembarrassments8("en-US"),
           ),
           // embarrassments900embarrassments9
           // speakembarrassments9

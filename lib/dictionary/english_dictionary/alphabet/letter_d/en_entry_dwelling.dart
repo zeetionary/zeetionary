@@ -371,62 +371,24 @@ class KurdishMeaning extends StatelessWidget {
 کوردی: شوێنی لێ‌دانیشتن، شوێن یان جێگای مانەوە، زێد، مەکۆ، ماڵ، خانوو، یانە، مەنزڵ، ئاکنجیگەھـ
 """),
           const DefinitionKurdish(text: """١. (ناو) شوێنی ژیانی کەسێک"""),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            """The development will consist of 66 dwellings and a number of offices."""),
-                    ExampleSentenceKurdish(
-                        text:
-                            """پڕۆژەکە لە ٦٦ یەکە و ژمارەیەک ئۆفیس پێکدێت."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "dwelling", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdwellings1("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdwellings1("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                """The development will consist of 66 dwellings and a number of offices.""",
+            kurdishText:
+                """پڕۆژەکە لە ٦٦ یەکە و ژمارەیەک ئۆفیس پێکدێت.""", // dwelling
+            onPressedBritish: () => speakdwellings1("en-GB"),
+            onPressedAmerican: () => speakdwellings1("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            """There is an estimated shortfall of some five million dwellings across the country."""),
-                    ExampleSentenceKurdish(
-                        text:
-                            """کورتھێنانی خەمڵێندراوی نزیکەی پێنج ملیۆن ماڵ ھەیە لە وڵاتەکەدا."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdwellings2("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdwellings2("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                """There is an estimated shortfall of some five million dwellings across the country.""",
+            kurdishText:
+                """کورتھێنانی خەمڵێندراوی نزیکەی پێنج ملیۆن ماڵ ھەیە لە وڵاتەکەدا.""",
+            onPressedBritish: () => speakdwellings2("en-GB"),
+            onPressedAmerican: () => speakdwellings2("en-US"),
           ),
           // dwellings300
           // speakdwellings3

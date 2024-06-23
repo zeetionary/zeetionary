@@ -242,62 +242,24 @@ class KurdishMeaning extends StatelessWidget {
 کوردی: ئابڕووبەرە، خراپ، ناحەز، دزێو، شوورەیی، شەرماوی، عەیب، بێ‌ئابڕوو، ڕووڕەش، ناوزڕاو، بەدناو
 """),
           const DefinitionKurdish(text: "١. (ھاوەڵناو) کە خەڵکی ڕێزی ناگرن"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "She spent the evening with her disreputable brother Stefan."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "ئێوارەکەی لەگەڵ برا بێڕێزەکەی ستێفان بەسەر برد."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "disreputable", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdisreputables1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdisreputables1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "She spent the evening with her disreputable brother Stefan.",
+            kurdishText:
+                "ئێوارەکەی لەگەڵ برا بێڕێزەکەی ستێفان بەسەر برد.", // disreputable
+            onPressedBritish: () => speakdisreputables1("en-GB"),
+            onPressedAmerican: () => speakdisreputables1("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "Some of the disreputable newspapers made false claims about her private life."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "ھەندێک لە ڕۆژنامە دزێوەکان بانگەشەی درۆیان لەسەر ژیانی تایبەتیی کرد."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdisreputables2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdisreputables2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "Some of the disreputable newspapers made false claims about her private life.",
+            kurdishText:
+                "ھەندێک لە ڕۆژنامە دزێوەکان بانگەشەی درۆیان لەسەر ژیانی تایبەتیی کرد.",
+            onPressedBritish: () => speakdisreputables2("en-GB"),
+            onPressedAmerican: () => speakdisreputables2("en-US"),
           ),
           // disreputables300"),
           // speakdisreputables3

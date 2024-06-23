@@ -258,92 +258,33 @@ class KurdishMeaning extends StatelessWidget {
 """),
           const DefinitionKurdish(
               text: "١. (ھاوەڵناو) پیشاندانی ھەستەکان بە کراوەیی"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "Some people are more demonstrative than others."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "ھەندێک کەس زیاتر ھەستەکانیان دەردەخەن وەک لەوانی دیکە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "demonstrative", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdemonstratives1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdemonstratives1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "Some people are more demonstrative than others.",
+            kurdishText:
+                "ھەندێک کەس زیاتر ھەستەکانیان دەردەخەن وەک لەوانی دیکە.", // demonstrative
+            onPressedBritish: () => speakdemonstratives1("en-GB"),
+            onPressedAmerican: () => speakdemonstratives1("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
                   "٢. (ھاوەڵناو) پەیوەندیدار بە وشەیەک کە بەکاردێت بۆ ناساندن"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "‘This’ and ‘that’ are demonstrative pronouns."),
-                    ExampleSentenceKurdish(
-                        text: "'This' و 'that' جێناوی نیشانەن."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdemonstratives2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdemonstratives2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "‘This’ and ‘that’ are demonstrative pronouns.",
+            kurdishText: "'This' و 'that' جێناوی نیشانەن.",
+            onPressedBritish: () => speakdemonstratives2("en-GB"),
+            onPressedAmerican: () => speakdemonstratives2("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: "٢. (ناو) جێناوی نیشانە"),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "‘This’ and ‘that’ are common demonstratives in English."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "'This' و 'that' جێناوی نیشانەی باون لە ئینگلیزیدا."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdemonstratives3("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdemonstratives3("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "‘This’ and ‘that’ are common demonstratives in English.",
+            kurdishText: "'This' و 'that' جێناوی نیشانەی باون لە ئینگلیزیدا.",
+            onPressedBritish: () => speakdemonstratives3("en-GB"),
+            onPressedAmerican: () => speakdemonstratives3("en-US"),
           ),
           // demonstratives400"),
           // speakdemonstratives4

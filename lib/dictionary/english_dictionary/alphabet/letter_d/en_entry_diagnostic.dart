@@ -252,94 +252,36 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "١. (ھاوەڵناو) پەیوەندیدار بە دیاریکردنی نەخۆشی یان کێشەیەک"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "Get a low-cost car diagnostic tool to identify the fault."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "ئامرازێکی ھەرزانی کێشەدۆزی ئۆتۆمبێل بکڕە بۆ زانینی کێشەکە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "diagnostic", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdiagnostics1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdiagnostics1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "Get a low-cost car diagnostic tool to identify the fault.",
+            kurdishText:
+                "ئامرازێکی ھەرزانی کێشەدۆزی ئۆتۆمبێل بکڕە بۆ زانینی کێشەکە.", // diagnostic
+            onPressedBritish: () => speakdiagnostics1("en-GB"),
+            onPressedAmerican: () => speakdiagnostics1("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "He has specific conditions which are diagnostic of AIDS."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "حاڵەتی دیاریکراوی ھەیە کە دەستنیشانکەری ئایدزن."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdiagnostics2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdiagnostics2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "He has specific conditions which are diagnostic of AIDS.",
+            kurdishText: "حاڵەتی دیاریکراوی ھەیە کە دەستنیشانکەری ئایدزن.",
+            onPressedBritish: () => speakdiagnostics2("en-GB"),
+            onPressedAmerican: () => speakdiagnostics2("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
                   "٢. (ھاوەڵناو) پەیوەندیدار بە دەستنیشانکردنی کێشەیەکی دیاریکراو، بۆ نموونە ئەوەی خوێندکارێک پێویستە چی فێربێت"),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The model is a useful diagnostic tool to determine what has the most impact on employees' performance."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "نموونەکە ڕێگایەکی دەستنیشانکەری بەسوودە بۆ دیاریکردنی ئەوەی چی زۆرترین کاریگەری ھەیە لەسەر ئاستی کارمەند."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdiagnostics3("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdiagnostics3("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "The model is a useful diagnostic tool to determine what has the most impact on employees' performance.",
+            kurdishText:
+                "نموونەکە ڕێگایەکی دەستنیشانکەری بەسوودە بۆ دیاریکردنی ئەوەی چی زۆرترین کاریگەری ھەیە لەسەر ئاستی کارمەند.",
+            onPressedBritish: () => speakdiagnostics3("en-GB"),
+            onPressedAmerican: () => speakdiagnostics3("en-US"),
           ),
           // diagnostics400"),
           // speakdiagnostics4

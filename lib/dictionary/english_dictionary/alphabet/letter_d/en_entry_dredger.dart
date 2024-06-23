@@ -363,31 +363,12 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "١. (ناو) بەلەمێک یان ئامێرێک کە بەکاردێت بۆ دەرکردنی قوڕ لە بنکی ئاوێک بۆ ئەوەی قووڵتر یان فراوانتری بکت"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "The dredger cleared silt from the riverbed."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "قوڕدەرکەرەکە لتەکەی لە بنکی دەریایەکە پاککردەوە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "dredger", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdredgers1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdredgers1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "The dredger cleared silt from the riverbed.",
+            kurdishText:
+                "قوڕدەرکەرەکە لتەکەی لە بنکی دەریایەکە پاککردەوە.", // dredger
+            onPressedBritish: () => speakdredgers1("en-GB"),
+            onPressedAmerican: () => speakdredgers1("en-US"),
           ),
           // dredgers200"),
           // speakdredgers2

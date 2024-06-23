@@ -430,255 +430,83 @@ class KurdishMeaning extends StatelessWidget {
 """),
           const DefinitionKurdish(
               text: "١. (ناو) شانۆیەک بۆ تەلەفیزیۆن، ڕادیۆ، ھۆڵی شانۆ"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "It is a lavish costume drama set in the early twentieth century."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "درامایەکی جلوبەرگی گران‌بەھایە کە لە سەدەی بیستەم ڕوودەدات."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "drama", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdramas1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdramas1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "It is a lavish costume drama set in the early twentieth century.",
+            kurdishText:
+                "درامایەکی جلوبەرگی گران‌بەھایە کە لە سەدەی بیستەم ڕوودەدات.", // drama
+            onPressedBritish: () => speakdramas1("en-GB"),
+            onPressedAmerican: () => speakdramas1("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "The movie is a heart-warming family drama."),
-                    ExampleSentenceKurdish(
-                        text: "فیلمەکە درامایەکی خێزانی ئاسوودەبەخشە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdramas2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdramas2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "The movie is a heart-warming family drama.",
+            kurdishText: "فیلمەکە درامایەکی خێزانی ئاسوودەبەخشە.",
+            onPressedBritish: () => speakdramas2("en-GB"),
+            onPressedAmerican: () => speakdramas2("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "She stars in a new one-hour drama about a woman judge."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "دەبێتە ئەستێرەی درامایەکی تازەی کاتژمێری سەبارەت بە دادوەرێکی ژن."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdramas3("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdramas3("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "She stars in a new one-hour drama about a woman judge.",
+            kurdishText:
+                "دەبێتە ئەستێرەی درامایەکی تازەی کاتژمێری سەبارەت بە دادوەرێکی ژن.",
+            onPressedBritish: () => speakdramas3("en-GB"),
+            onPressedAmerican: () => speakdramas3("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٢. (ناو) شانۆ کە وەک کارێکی ئەدەبی سەیر دەکرێت"),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "I studied English and Drama at college."),
-                    ExampleSentenceKurdish(
-                        text: "لە کۆلێژ ئینگلیزی و درامام خوێند."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdramas4("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdramas4("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "I studied English and Drama at college.",
+            kurdishText: "لە کۆلێژ ئینگلیزی و درامام خوێند.",
+            onPressedBritish: () => speakdramas4("en-GB"),
+            onPressedAmerican: () => speakdramas4("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "It is very difficult to write good drama."),
-                    ExampleSentenceKurdish(
-                        text: "زۆر سەختە درامای باش بنووسیت."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdramas5("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdramas5("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "It is very difficult to write good drama.",
+            kurdishText: "زۆر سەختە درامای باش بنووسیت.",
+            onPressedBritish: () => speakdramas5("en-GB"),
+            onPressedAmerican: () => speakdramas5("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "He's a drama major at Howard University."),
-                    ExampleSentenceKurdish(
-                        text: "دەرچووی شانۆیە لە زانکۆی ھاوارد."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdramas6("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdramas6("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "He's a drama major at Howard University.",
+            kurdishText: "دەرچووی شانۆیە لە زانکۆی ھاوارد.",
+            onPressedBritish: () => speakdramas6("en-GB"),
+            onPressedAmerican: () => speakdramas6("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٣. (ناو) بۆنەیەکی ورووژێنەر و ناخۆش کە زۆرجار لەناکاوە"),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "We had a little drama last night when the oil in the pan caught fire."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "دوێنێ شەو تۆزێک درامامان بەسەرھات کە ڕۆنی ناو تاوەکە ئاگری گرت."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdramas7("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdramas7("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "We had a little drama last night when the oil in the pan caught fire.",
+            kurdishText:
+                "دوێنێ شەو تۆزێک درامامان بەسەرھات کە ڕۆنی ناو تاوەکە ئاگری گرت.",
+            onPressedBritish: () => speakdramas7("en-GB"),
+            onPressedAmerican: () => speakdramas7("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٤. (ناو) ئەوەی کە خرۆشاو بیت بە دۆخێک"),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "You couldn't help being thrilled by the drama of the situation."),
-                    ExampleSentenceKurdish(
-                        text: "نەتدەتوانی جۆش‌سەندوو نەبیت بە خرۆشاوی دۆخەکە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdramas8("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdramas8("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "You couldn't help being thrilled by the drama of the situation.",
+            kurdishText: "نەتدەتوانی جۆش‌سەندوو نەبیت بە خرۆشاوی دۆخەکە.",
+            onPressedBritish: () => speakdramas8("en-GB"),
+            onPressedAmerican: () => speakdramas8("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The afternoon was full of drama and excitement."),
-                    ExampleSentenceKurdish(
-                        text: "نیوەڕۆکە پڕ لە جۆش‌سەندوو و خرۆشاوی بوو."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdramas9("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdramas9("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "The afternoon was full of drama and excitement.",
+            kurdishText: "نیوەڕۆکە پڕ لە جۆش‌سەندوو و خرۆشاوی بوو.",
+            onPressedBritish: () => speakdramas9("en-GB"),
+            onPressedAmerican: () => speakdramas9("en-US"),
           ),
           // dramas_1000"),
           // speakdramas10

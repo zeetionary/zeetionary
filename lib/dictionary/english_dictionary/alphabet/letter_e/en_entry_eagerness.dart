@@ -372,62 +372,23 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   """١. (ناو) خرۆشاوی سەبارەت بە شتێک کە ڕوودەدات یان شتێک کە دەتەوێت ڕووبدات"""),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            """I couldn't hide my eagerness to get back home."""),
-                    ExampleSentenceKurdish(
-                        text:
-                            """نەمدەتوانی تامەزرۆییم بۆ گەڕانەوە بۆ ماڵەوە بشارمەوە."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "eagerness", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakeagernesss1("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakeagernesss1("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: """I couldn't hide my eagerness to get back home.""",
+            kurdishText:
+                """نەمدەتوانی تامەزرۆییم بۆ گەڕانەوە بۆ ماڵەوە بشارمەوە.""", // eagerness
+            onPressedBritish: () => speakeagernesss1("en-GB"),
+            onPressedAmerican: () => speakeagernesss1("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            """In their eagerness to find a solution, they have overlooked certain difficulties."""),
-                    ExampleSentenceKurdish(
-                        text:
-                            """لە پەرۆشییان بۆ دۆزینەوەی چارەسەرێک، چاویان بەسەر ژمارەیەک سەختی تێپەڕاندووە."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakeagernesss2("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakeagernesss2("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                """In their eagerness to find a solution, they have overlooked certain difficulties.""",
+            kurdishText:
+                """لە پەرۆشییان بۆ دۆزینەوەی چارەسەرێک، چاویان بەسەر ژمارەیەک سەختی تێپەڕاندووە.""",
+            onPressedBritish: () => speakeagernesss2("en-GB"),
+            onPressedAmerican: () => speakeagernesss2("en-US"),
           ),
           // eagernesss300eagernesss3
           // speakeagernesss3

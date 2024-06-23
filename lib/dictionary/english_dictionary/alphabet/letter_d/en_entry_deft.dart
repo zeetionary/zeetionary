@@ -259,89 +259,32 @@ class KurdishMeaning extends StatelessWidget {
 """),
           const DefinitionKurdish(
               text: "١. (ھاوەڵناو) جوڵەی خێرا و شارەزایانە"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "He finished off the painting with a few deft strokes of the brush."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "تابلۆکەی تەواوکرد بە ڕاوەشاندنی شارەزایانەی فڵچەکەی."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "deft", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdefts1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdefts1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "He finished off the painting with a few deft strokes of the brush.",
+            kurdishText:
+                "تابلۆکەی تەواوکرد بە ڕاوەشاندنی شارەزایانەی فڵچەکەی.", // deft
+            onPressedBritish: () => speakdefts1("en-GB"),
+            onPressedAmerican: () => speakdefts1("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "In one deft movement, he had her hand locked behind her back."),
-                    ExampleSentenceKurdish(
-                        text: "بە جوڵەیەکی شارەزایانە، دەستی خستە پشتی."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdefts2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdefts2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "In one deft movement, he had her hand locked behind her back.",
+            kurdishText: "بە جوڵەیەکی شارەزایانە، دەستی خستە پشتی.",
+            onPressedBritish: () => speakdefts2("en-GB"),
+            onPressedAmerican: () => speakdefts2("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "Her movements were deft and quick."),
-                    ExampleSentenceKurdish(
-                        text: "جوڵەکانی شارەزایانە و خێرا بوون."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdefts3("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdefts3("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "Her movements were deft and quick.",
+            kurdishText: "جوڵەکانی شارەزایانە و خێرا بوون.",
+            onPressedBritish: () => speakdefts3("en-GB"),
+            onPressedAmerican: () => speakdefts3("en-US"),
           ),
           // defts400"),
           // speakdefts4

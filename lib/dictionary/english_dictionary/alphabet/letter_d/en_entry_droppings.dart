@@ -363,30 +363,11 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "١. (ناو) پیسایی باڵندە و ئاژەڵ، بەتایبەتی ئەوانەی کە بچووکن"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "We found mouse droppings in the garage."),
-                    ExampleSentenceKurdish(
-                        text: "پیسایی مشکمان لە گەراجەکە دۆزییەوە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "droppings", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdroppingss1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdroppingss1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "We found mouse droppings in the garage.",
+            kurdishText: "پیسایی مشکمان لە گەراجەکە دۆزییەوە.", // droppings
+            onPressedBritish: () => speakdroppingss1("en-GB"),
+            onPressedAmerican: () => speakdroppingss1("en-US"),
           ),
           // droppingss200"),
           // speakdroppingss2

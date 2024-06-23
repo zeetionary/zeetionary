@@ -242,60 +242,21 @@ class KurdishMeaning extends StatelessWidget {
 """),
           const DefinitionKurdish(
               text: "١. (ناو) کەسێک یان شتێک کە سوودی نییە"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "He may be a very talented designer, but as a manager he's a dead loss."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "لەوانەیە دیزاینەرێکی زۆر بەھرەدار بێت، بەڵام وەک بەڕێوەبەرێک زۆر بێ کەڵکە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "dead loss", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdeadlosss1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdeadlosss1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "He may be a very talented designer, but as a manager he's a dead loss.",
+            kurdishText:
+                "لەوانەیە دیزاینەرێکی زۆر بەھرەدار بێت، بەڵام وەک بەڕێوەبەرێک زۆر بێ کەڵکە.", // dead loss
+            onPressedBritish: () => speakdeadlosss1("en-GB"),
+            onPressedAmerican: () => speakdeadlosss1("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "Yesterday's meeting was a dead loss - nothing was decided."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "کۆبوونەوەی دوێنێ بێ سوود بوو ـ ھیچ بڕیارێک نەدرا."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdeadlosss2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdeadlosss2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "Yesterday's meeting was a dead loss - nothing was decided.",
+            kurdishText: "کۆبوونەوەی دوێنێ بێ سوود بوو ـ ھیچ بڕیارێک نەدرا.",
+            onPressedBritish: () => speakdeadlosss2("en-GB"),
+            onPressedAmerican: () => speakdeadlosss2("en-US"),
           ),
         ],
       ),

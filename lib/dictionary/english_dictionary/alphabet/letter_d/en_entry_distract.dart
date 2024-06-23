@@ -378,84 +378,26 @@ class KurdishMeaning extends StatelessWidget {
 کوردی: شێواندن، ئاڵۆز کردن، گێژ کردن، وڕ کردن
 """),
           const DefinitionKurdish(text: "١. (کردار) سەرقاڵکردنی کەسێک"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "You're distracting me from my work."),
-                    ExampleSentenceKurdish(text: "لە کارەکەم سەرقاڵم دەکەیت."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "distract", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdistracts1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdistracts1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "You're distracting me from my work.",
+            kurdishText: "لە کارەکەم سەرقاڵم دەکەیت.", // distract
+            onPressedBritish: () => speakdistracts1("en-GB"),
+            onPressedAmerican: () => speakdistracts1("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "Don't talk to her—she's very easily distracted."),
-                    ExampleSentenceKurdish(
-                        text: "قسەی لەگەڵ مەکە ـ بە ئاسانی سەرقاڵ دەبێت."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdistracts2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdistracts2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "Don't talk to her—she's very easily distracted.",
+            kurdishText: "قسەی لەگەڵ مەکە ـ بە ئاسانی سەرقاڵ دەبێت.",
+            onPressedBritish: () => speakdistracts2("en-GB"),
+            onPressedAmerican: () => speakdistracts2("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "It was another attempt to distract attention from the truth."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "ئەوە ھەوڵێکی دیکە بوو کە سەرنج لە ڕاستی لابدرێت."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdistracts3("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdistracts3("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "It was another attempt to distract attention from the truth.",
+            kurdishText: "ئەوە ھەوڵێکی دیکە بوو کە سەرنج لە ڕاستی لابدرێت.",
+            onPressedBritish: () => speakdistracts3("en-GB"),
+            onPressedAmerican: () => speakdistracts3("en-US"),
           ),
           // distracts400"),
           // speakdistracts4

@@ -277,178 +277,62 @@ class KurdishMeaning extends StatelessWidget {
 کوردی: دەرکردن، دەرنان، لابردن، لەسەر کارلابردن، وەلانان،	بەرپەرچ‌دانەوە، نکۆڵێ(لێ‌کردن)، ڕەدکردنەوە،	ناردنەوە، مۆڵەت‌پێدان، مەرەخەسی،	ئازادی، ئازادکردن، بەڕەڵاکردن
 """),
           const DefinitionKurdish(text: "١. (ناو) دەرکردنی کەسێک لە کارەکەی"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The dismissals followed the resignation of the chairman."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "دەرکردنەکان لەدوای دەستلەکارکێشانەوە بەڕێوەبەرەکە ڕوویاندا."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "dismissal", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdismissals1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdismissals1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "The dismissals followed the resignation of the chairman.",
+            kurdishText:
+                "دەرکردنەکان لەدوای دەستلەکارکێشانەوە بەڕێوەبەرەکە ڕوویاندا.", // dismissal
+            onPressedBritish: () => speakdismissals1("en-GB"),
+            onPressedAmerican: () => speakdismissals1("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "His attack on the manager led to his instant dismissal."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "ھێرشی بۆ سەر بەڕێوەبەرەکە بوو بەھۆی دەستبەجێ دەرکردنی."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdismissals2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdismissals2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "His attack on the manager led to his instant dismissal.",
+            kurdishText:
+                "ھێرشی بۆ سەر بەڕێوەبەرەکە بوو بەھۆی دەستبەجێ دەرکردنی.",
+            onPressedBritish: () => speakdismissals2("en-GB"),
+            onPressedAmerican: () => speakdismissals2("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "These mistakes were not nearly serious enough to warrant his dismissal."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "ئەم ھەڵانە ھێندە گەورە نەبوون ببنبە شایەنی دەرکردنی."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdismissals3("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdismissals3("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "These mistakes were not nearly serious enough to warrant his dismissal.",
+            kurdishText: "ئەم ھەڵانە ھێندە گەورە نەبوون ببنبە شایەنی دەرکردنی.",
+            onPressedBritish: () => speakdismissals3("en-GB"),
+            onPressedAmerican: () => speakdismissals3("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٢. (ناو) نەبینینی شتێک وەک ئەوەی گرنگ بێت"),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "Her dismissal of the threats seemed irresponsible."),
-                    ExampleSentenceKurdish(
-                        text: "لەبەرچاونەگرتنی ھەڕەشەکان نابەرپرسانە دیاربوو."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdismissals4("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdismissals4("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "Her dismissal of the threats seemed irresponsible.",
+            kurdishText: "لەبەرچاونەگرتنی ھەڕەشەکان نابەرپرسانە دیاربوو.",
+            onPressedBritish: () => speakdismissals4("en-GB"),
+            onPressedAmerican: () => speakdismissals4("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "Dismissal of the last piece of evidence as unreliable would severely affect our case."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "بەلاخستنی کۆتا بەڵگە بەوەی پشت‌پێ‌نەبەستراو بێت تەواو کاریگەری لە کەیسەکەمان دەکات."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdismissals5("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdismissals5("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "Dismissal of the last piece of evidence as unreliable would severely affect our case.",
+            kurdishText:
+                "بەلاخستنی کۆتا بەڵگە بەوەی پشت‌پێ‌نەبەستراو بێت تەواو کاریگەری لە کەیسەکەمان دەکات.",
+            onPressedBritish: () => speakdismissals5("en-GB"),
+            onPressedAmerican: () => speakdismissals5("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
                   "٣. (ناو) کۆتایی ھێنان بە کەیسێکی دادگا بەھۆی ئەوەی بەڵگەی تەواو نییە"),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The judge ordered the dismissal of the case due to insufficient evidence."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "دادوەرەکە بڕیاری کۆتایی ھێنان بە کەیسەکەی دا بەھۆی نەبوونی بەڵگەی پێویستەوە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdismissals6("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdismissals6("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "The judge ordered the dismissal of the case due to insufficient evidence.",
+            kurdishText:
+                "دادوەرەکە بڕیاری کۆتایی ھێنان بە کەیسەکەی دا بەھۆی نەبوونی بەڵگەی پێویستەوە.",
+            onPressedBritish: () => speakdismissals6("en-GB"),
+            onPressedAmerican: () => speakdismissals6("en-US"),
           ),
           // dismissals700"),
           // speakdismissals7

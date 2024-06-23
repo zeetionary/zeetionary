@@ -374,62 +374,22 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "١. (ھاوەڵناو) بەشێوەیەک کە خاسیەتێک پیشان دەدات کە بە ئاسانی دەبینرێت یان دەناسرێتەوە"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The Civil War was not distinctively modern at all."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "جەنگی ناوخۆیی ئەمریکا بەھیچ شێوەیەک سەردەمیانە نەبوو."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "distinctively", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdistinctivelys1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdistinctivelys1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "The Civil War was not distinctively modern at all.",
+            kurdishText:
+                "جەنگی ناوخۆیی ئەمریکا بەھیچ شێوەیەک سەردەمیانە نەبوو.", // distinctively
+            onPressedBritish: () => speakdistinctivelys1("en-GB"),
+            onPressedAmerican: () => speakdistinctivelys1("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "Each manufacturer marks its product distinctively."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "ھەر بەرھەم‌ھێنەرێک بە شێوەیەکی دیار بەرھەمەکەی نیشان دەکات."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdistinctivelys2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdistinctivelys2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "Each manufacturer marks its product distinctively.",
+            kurdishText:
+                "ھەر بەرھەم‌ھێنەرێک بە شێوەیەکی دیار بەرھەمەکەی نیشان دەکات.",
+            onPressedBritish: () => speakdistinctivelys2("en-GB"),
+            onPressedAmerican: () => speakdistinctivelys2("en-US"),
           ),
           // distinctivelys300"),
           // speakdistinctivelys3

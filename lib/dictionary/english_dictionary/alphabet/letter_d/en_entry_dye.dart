@@ -386,117 +386,40 @@ class KurdishMeaning extends StatelessWidget {
 کوردی: ڕەنگ، بۆیە، ڕەنگ کردن
 """),
           const DefinitionKurdish(text: """١. (کردار) گۆڕینی ڕەنگی شتێک"""),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: """She dyed her hair blonde."""),
-                    ExampleSentenceKurdish(text: """قژی زەرد کرد."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "dye", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdyes1("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdyes1("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: """She dyed her hair blonde.""",
+            kurdishText: """قژی زەرد کرد.""", // dye
+            onPressedBritish: () => speakdyes1("en-GB"),
+            onPressedAmerican: () => speakdyes1("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: """For a change, why not dye your T-shirts?"""),
-                    ExampleSentenceKurdish(
-                        text:
-                            """ھەر بۆ گۆڕانێک، بۆچی ڕەنگی فانیلەکانت ناگۆڕیت؟"""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdyes2("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdyes2("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: """For a change, why not dye your T-shirts?""",
+            kurdishText: """ھەر بۆ گۆڕانێک، بۆچی ڕەنگی فانیلەکانت ناگۆڕیت؟""",
+            onPressedBritish: () => speakdyes2("en-GB"),
+            onPressedAmerican: () => speakdyes2("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text: """٢. (ناو) مادەیەک کە بۆ بۆیەکردن بەکاردێت"""),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: """She dipped the material into the dye."""),
-                    ExampleSentenceKurdish(
-                        text: """مادەکە ژەند بە بۆیەکەدا."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdyes3("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdyes3("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: """She dipped the material into the dye.""",
+            kurdishText: """مادەکە ژەند بە بۆیەکەدا.""",
+            onPressedBritish: () => speakdyes3("en-GB"),
+            onPressedAmerican: () => speakdyes3("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            """There are dozens of different dyes to choose from."""),
-                    ExampleSentenceKurdish(
-                        text:
-                            """چەند دەرزەنێک لە بۆیە ھەیە لێیان ھەڵبژێریت."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdyes4("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdyes4("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                """There are dozens of different dyes to choose from.""",
+            kurdishText: """چەند دەرزەنێک لە بۆیە ھەیە لێیان ھەڵبژێریت.""",
+            onPressedBritish: () => speakdyes4("en-GB"),
+            onPressedAmerican: () => speakdyes4("en-US"),
           ),
           // dyes500
           // speakdyes5

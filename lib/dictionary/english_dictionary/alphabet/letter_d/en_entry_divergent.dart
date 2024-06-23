@@ -372,60 +372,22 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "١. (ھاوەڵناو) دوو شت کە بە ئاراستەی جیاوازدا دەچن و کەمتر لە یەکدی دەچن"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The two scientists have followed divergent paths since the 1990s."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "دوو زاناکە بە ڕێگای جیاوازدا ڕۆشتوون لە ١٩٩٠ ـەکانەوە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "divergent", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdivergents1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdivergents1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "The two scientists have followed divergent paths since the 1990s.",
+            kurdishText:
+                "دوو زاناکە بە ڕێگای جیاوازدا ڕۆشتوون لە ١٩٩٠ ـەکانەوە.", // divergent
+            onPressedBritish: () => speakdivergents1("en-GB"),
+            onPressedAmerican: () => speakdivergents1("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: "٢. (ھاوەڵناو) دید و بۆچوونی جیاواز"),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "There are divergent opinions on this issue."),
-                    ExampleSentenceKurdish(
-                        text: "بۆچوونی ناکۆک ھەن لەسەر ئەم بابەتە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdivergents2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdivergents2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "There are divergent opinions on this issue.",
+            kurdishText: "بۆچوونی ناکۆک ھەن لەسەر ئەم بابەتە.",
+            onPressedBritish: () => speakdivergents2("en-GB"),
+            onPressedAmerican: () => speakdivergents2("en-US"),
           ),
           // divergents300"),
           // speakdivergents3

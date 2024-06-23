@@ -373,62 +373,24 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   """١. (ھاوەڵکار) کردنی ھەموو ئەوەی چاوەڕێت لێ دەکرێت بیکەیت؛ بەشیوەیەک کە ڕێز پیشان دەدات"""),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            """We laughed dutifully at all his jokes, even the ones that weren’t funny."""),
-                    ExampleSentenceKurdish(
-                        text:
-                            """بەڕێزەوە بە ھەموو نوکتەکانی پێکەنین، تانەنت ئەوانەش کە پێکەنیناوی نەبوون."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "dutifully", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdutifullys1("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdutifullys1("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                """We laughed dutifully at all his jokes, even the ones that weren’t funny.""",
+            kurdishText:
+                """بەڕێزەوە بە ھەموو نوکتەکانی پێکەنین، تانەنت ئەوانەش کە پێکەنیناوی نەبوون.""", // dutifully
+            onPressedBritish: () => speakdutifullys1("en-GB"),
+            onPressedAmerican: () => speakdutifullys1("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            """Thomas dutifully tried to live up to his grandfather's wishes."""),
-                    ExampleSentenceKurdish(
-                        text:
-                            """تۆماس گوێڕایەڵانە ھەوڵیدا شوێن خۆزگەکانی دایکی بکەوێت."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdutifullys2("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdutifullys2("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                """Thomas dutifully tried to live up to his grandfather's wishes.""",
+            kurdishText:
+                """تۆماس گوێڕایەڵانە ھەوڵیدا شوێن خۆزگەکانی دایکی بکەوێت.""",
+            onPressedBritish: () => speakdutifullys2("en-GB"),
+            onPressedAmerican: () => speakdutifullys2("en-US"),
           ),
           // dutifullys300
           // speakdutifullys3

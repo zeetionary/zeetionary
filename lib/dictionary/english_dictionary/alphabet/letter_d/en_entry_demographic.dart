@@ -259,94 +259,37 @@ class KurdishMeaning extends StatelessWidget {
 // """),
           const DefinitionKurdish(
               text: "١. (ناو) ئامار لەسەر خەڵکی وڵاتێک و گرووپە جیاوازەکانی"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The demographics of radio listeners include age and gender."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "دیموگرافیکسی گوێگرانی ڕادیۆ تەمەن و ڕەگەزی لەخۆدەگرت."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "demographic", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdemographics1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdemographics1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "The demographics of radio listeners include age and gender.",
+            kurdishText:
+                "دیموگرافیکسی گوێگرانی ڕادیۆ تەمەن و ڕەگەزی لەخۆدەگرت.", // demographic
+            onPressedBritish: () => speakdemographics1("en-GB"),
+            onPressedAmerican: () => speakdemographics1("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
                   "٢. (ناو) بەشێک لە دانیشتوان کە سەر بە ھەمان تەمەن، ڕەگەز، ھتد ــن"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "The target demographic is children aged 6–12."),
-                    ExampleSentenceKurdish(
-                        text: "دیموگرافیکی ئامانج منداڵانی تەمەن ٦-١٢ ساڵانە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdemographics2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdemographics2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "The target demographic is children aged 6–12.",
+            kurdishText: "دیموگرافیکی ئامانج منداڵانی تەمەن ٦-١٢ ساڵانە.",
+            onPressedBritish: () => speakdemographics2("en-GB"),
+            onPressedAmerican: () => speakdemographics2("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
                   "٣. (ھاوەڵناو) پەیوەندیدار بە دانیشتوان و گرووپە جیاوازەکانی"),
           const AlsoEnglishckb(word: "ھەروەھا: demographical"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "Demographical data from the 1950s provides insights into societal changes."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "ئاماری دیموگرافییانە لە ١٩٥٠ ـیەکانەوە بەرچاوڕوونی بۆ گۆڕانە کۆمەڵایەتییەکان پیشان دەدات"),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdemographics3("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdemographics3("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "Demographical data from the 1950s provides insights into societal changes.",
+            kurdishText:
+                "ئاماری دیموگرافییانە لە ١٩٥٠ ـیەکانەوە بەرچاوڕوونی بۆ گۆڕانە کۆمەڵایەتییەکان پیشان دەدات",
+            onPressedBritish: () => speakdemographics3("en-GB"),
+            onPressedAmerican: () => speakdemographics3("en-US"),
           ),
           // demographics400"),
           // speakdemographics4

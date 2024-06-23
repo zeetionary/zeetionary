@@ -275,183 +275,67 @@ class KurdishMeaning extends StatelessWidget {
 """),
           const DefinitionKurdish(
               text: "١. (ھاوەڵناو) بڵاوبووەوە بە ناوچەیەکی زۆردا"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "The company has become large and diffuse."),
-                    ExampleSentenceKurdish(
-                        text: "کۆمپانیاکە گەورە و پەرش بووە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "diffuse", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdiffuses1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdiffuses1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "The company has become large and diffuse.",
+            kurdishText: "کۆمپانیاکە گەورە و پەرش بووە.", // diffuse
+            onPressedBritish: () => speakdiffuses1("en-GB"),
+            onPressedAmerican: () => speakdiffuses1("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٢. (ھاوەڵناو) کە ڕوون و ئاسان نییە بۆ تێگەشتن"),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "His diffuse style of writing filled pages with unnecessary details."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "شێوازی درێژدادڕانەی نووسینی پەڕەکانی پڕ دەکرد بە وردەکاریی ناپێویست."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdiffuses2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdiffuses2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "His diffuse style of writing filled pages with unnecessary details.",
+            kurdishText:
+                "شێوازی درێژدادڕانەی نووسینی پەڕەکانی پڕ دەکرد بە وردەکاریی ناپێویست.",
+            onPressedBritish: () => speakdiffuses2("en-GB"),
+            onPressedAmerican: () => speakdiffuses2("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
                   "٣. (کردار) بڵاوکردنەوەی شتێک یان بڵاوبوونەوە بە ھەموو لایەکدا"),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "Technologies diffuse rapidly."),
-                    ExampleSentenceKurdish(
-                        text: "تەکنەلۆژیا بەخێرایی بڵاودەبێتەوە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdiffuses3("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdiffuses3("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "Technologies diffuse rapidly.",
+            kurdishText: "تەکنەلۆژیا بەخێرایی بڵاودەبێتەوە.",
+            onPressedBritish: () => speakdiffuses3("en-GB"),
+            onPressedAmerican: () => speakdiffuses3("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The problem is how to diffuse power without creating anarchy."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "کێشەکە ئەوەیە چۆن دەسەڵات دابەش بکرێت بەبێ درووستکردنی پاشاگەردانی."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdiffuses4("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdiffuses4("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "The problem is how to diffuse power without creating anarchy.",
+            kurdishText:
+                "کێشەکە ئەوەیە چۆن دەسەڵات دابەش بکرێت بەبێ درووستکردنی پاشاگەردانی.",
+            onPressedBritish: () => speakdiffuses4("en-GB"),
+            onPressedAmerican: () => speakdiffuses4("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
                   "٤. (کردار) واکردنی ئەوەی کە گاز یان شلە بڵاوبێتەوە بە ناو شتێک یان بە مادەی دەورووبەری بە تێکەڵبوون لەگەڵی"),
           // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "Oxygen diffuses from the lungs into the bloodstream."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "ئۆکسجین لە سینەکانەوە بۆ ناو سووڕی خوێن بڵاودەبێتەوە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdiffuses5("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdiffuses5("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "Oxygen diffuses from the lungs into the bloodstream.",
+            kurdishText:
+                "ئۆکسجین لە سینەکانەوە بۆ ناو سووڕی خوێن بڵاودەبێتەوە.",
+            onPressedBritish: () => speakdiffuses5("en-GB"),
+            onPressedAmerican: () => speakdiffuses5("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The drop of red dye diffused slowly in the water."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "قەترە بۆیە سوورەکە بە ھێواشی بە ئاوەکەدا بڵاوبوویەوە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdiffuses6("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdiffuses6("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "The drop of red dye diffused slowly in the water.",
+            kurdishText:
+                "قەترە بۆیە سوورەکە بە ھێواشی بە ئاوەکەدا بڵاوبوویەوە.",
+            onPressedBritish: () => speakdiffuses6("en-GB"),
+            onPressedAmerican: () => speakdiffuses6("en-US"),
           ),
           // diffuses700"),
           // speakdiffuses7

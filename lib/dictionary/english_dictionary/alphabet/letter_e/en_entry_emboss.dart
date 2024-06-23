@@ -363,31 +363,12 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   """١. (کردار) دانانی دیزاینێکی بەرزبوو یان نووسینێک لەسەر شتێک"""),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            """The hotel's name was embossed on the stationery."""),
-                    ExampleSentenceKurdish(
-                        text: """ناوی ھوتێلەکە تێھەڵسوابوو لەسەر پەڕاوەکە."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "emboss", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakembosss1("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakembosss1("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: """The hotel's name was embossed on the stationery.""",
+            kurdishText:
+                """ناوی ھوتێلەکە تێھەڵسوابوو لەسەر پەڕاوەکە.""", // emboss
+            onPressedBritish: () => speakembosss1("en-GB"),
+            onPressedAmerican: () => speakembosss1("en-US"),
           ),
           // embosss200embosss2
           // speakembosss2

@@ -259,91 +259,32 @@ class KurdishMeaning extends StatelessWidget {
 """),
           const DefinitionKurdish(
               text: "١. (ناو) وشەیەک یان شتێک کە لە شتێکی دیکەوە وەرگیردراوە"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "‘Happiness’ is a derivative of ‘happy’."),
-                    ExampleSentenceKurdish(
-                        text: "‘Happiness’ داڕێژراوێکی ‘happy’ ـە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "derivative", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakderivatives1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakderivatives1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "‘Happiness’ is a derivative of ‘happy’.",
+            kurdishText: "‘Happiness’ داڕێژراوێکی ‘happy’ ـە.", // derivative
+            onPressedBritish: () => speakderivatives1("en-GB"),
+            onPressedAmerican: () => speakderivatives1("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "Crack is a highly potent and addictive derivative of cocaine."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "کراک تەواو بەھێزە و وەرگیراوێکی ئاڵوودەکاری کۆکاینە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakderivatives2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakderivatives2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "Crack is a highly potent and addictive derivative of cocaine.",
+            kurdishText: "کراک تەواو بەھێزە و وەرگیراوێکی ئاڵوودەکاری کۆکاینە.",
+            onPressedBritish: () => speakderivatives2("en-GB"),
+            onPressedAmerican: () => speakderivatives2("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٢. (ھاوەڵناو) کە لە شتێکی تر وەرگیردراوە"),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "I found the novel derivative. I had expected more."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "ڕۆمانەکەم بە لەبەرگیراوە کەوتە بەرچاو. چاوەڕێی زیاترم دەکرد."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakderivatives3("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakderivatives3("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "I found the novel derivative. I had expected more.",
+            kurdishText:
+                "ڕۆمانەکەم بە لەبەرگیراوە کەوتە بەرچاو. چاوەڕێی زیاترم دەکرد.",
+            onPressedBritish: () => speakderivatives3("en-GB"),
+            onPressedAmerican: () => speakderivatives3("en-US"),
           ),
           // derivatives400"),
           // speakderivatives4

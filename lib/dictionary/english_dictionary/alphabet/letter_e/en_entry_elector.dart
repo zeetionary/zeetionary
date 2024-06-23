@@ -363,32 +363,12 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   """١. (ناو) کەسێک کە مافی دەنگدانی ھەیە لە ھەڵبژاردنێکدا"""),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            """Not all the registered electors actually voted."""),
-                    ExampleSentenceKurdish(
-                        text:
-                            """ھەموو دەنگدەرانی تۆمارکراو نەبوون کە لە ڕاستیدا دەنگیان دا."""),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "elector", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakelectors1("en-GB" ""),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakelectors1("en-US" ""),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: """Not all the registered electors actually voted.""",
+            kurdishText:
+                """ھەموو دەنگدەرانی تۆمارکراو نەبوون کە لە ڕاستیدا دەنگیان دا.""", // elector
+            onPressedBritish: () => speakelectors1("en-GB"),
+            onPressedAmerican: () => speakelectors1("en-US"),
           ),
           // electors200electors2
           // speakelectors2
